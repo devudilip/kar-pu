@@ -1,0 +1,794 @@
+{
+  "title": "KCET 2015 Physics",
+  "year": 2015,
+  "subject": "physics",
+  "code": "A-1",
+  "source": "KEA question paper (copy) + KEA answer key column A1",
+  "excluded": [],
+  "questions": [
+    {
+      "n": 1,
+      "q": "The ratio of the dimensions of Planck constant and that of moment of inertia has the dimensions of",
+      "options": [
+        "time",
+        "frequency",
+        "angular momentum",
+        "velocity"
+      ],
+      "answer": 1,
+      "chapter": "Units and Measurements",
+      "explanation": "Planck's constant has dimensions of angular momentum (J\\,s = kg\\,m$^2$/s); dividing by moment of inertia (kg\\,m$^2$) leaves dimensions of s$^{-1}$, i.e. frequency."
+    },
+    {
+      "n": 2,
+      "q": "The velocity–time graph for two bodies A and B are shown. Then the acceleration of A and B are in the ratio [Graph: two straight lines from the origin; line A makes 25° with the time axis, line B makes 40° with the velocity axis (i.e. 50° with the time axis).]",
+      "options": [
+        "tan 25° to tan 40°",
+        "tan 25° to tan 50°",
+        "sin 25° to sin 50°",
+        "cos 25° to cos 50°"
+      ],
+      "answer": 1,
+      "chapter": "Motion in a Straight Line",
+      "explanation": "Acceleration equals the slope of the v-t graph. Line A makes 25° with the time axis (slope tan25°) and line B makes 40° with the velocity axis, i.e. 50° with the time axis (slope tan50°); ratio = tan25° : tan50°."
+    },
+    {
+      "n": 3,
+      "q": "A particle is projected with a velocity v so that its horizontal range is twice the greatest height attained. The horizontal range is",
+      "options": [
+        "$\\dfrac{v^2}{g}$",
+        "$\\dfrac{2v^2}{3g}$",
+        "$\\dfrac{4v^2}{5g}$",
+        "$\\dfrac{v^2}{2g}$"
+      ],
+      "answer": 0,
+      "disputed": true,
+      "note": "The standard answer is $4v^2/5g$: R = 2H gives tan\\theta = 2, so sin\\theta = 2/\\sqrt5, cos\\theta = 1/\\sqrt5, and R = (v^2/g)\\sin2\\theta = 4v^2/(5g); the KEA key marks option (1) $v^2/g$, which does not satisfy R = 2H.",
+      "chapter": "Motion in a Plane",
+      "explanation": "For R = 2H: tan$\\theta$ = 2, which gives R = $4v^2/5g$ by standard projectile-motion derivation, but KEA's key marks option (1) $v^2/g$ as correct."
+    },
+    {
+      "n": 4,
+      "q": "A stone of mass 0.05 kg is thrown vertically upwards. What is the direction and magnitude of net force on the stone during its upward motion?",
+      "options": [
+        "0.49 N vertically upwards",
+        "0.49 N vertically downwards",
+        "0.98 N vertically downwards",
+        "9.8 N vertically downwards"
+      ],
+      "answer": 1,
+      "chapter": "Laws of Motion",
+      "explanation": "Neglecting air resistance, the only force acting is gravity: F = mg = 0.05 × 9.8 = 0.49 N, directed vertically downwards throughout the motion."
+    },
+    {
+      "n": 5,
+      "q": "The kinetic energy of a body of mass 4 kg and momentum 6 Ns will be",
+      "options": [
+        "2.5 J",
+        "3.5 J",
+        "4.5 J",
+        "5.5 J"
+      ],
+      "answer": 2,
+      "chapter": "Work, Energy and Power",
+      "explanation": "KE $=\\dfrac{p^2}{2m}=\\dfrac{6^2}{2\\times4}=\\dfrac{36}{8}=4.5$ J."
+    },
+    {
+      "n": 6,
+      "q": "The ratio of angular speed of a second-hand to the hour-hand of a watch is",
+      "options": [
+        "720 : 1",
+        "60 : 1",
+        "3600 : 1",
+        "72 : 1"
+      ],
+      "answer": 0,
+      "chapter": "Motion in a Plane",
+      "explanation": "The second hand completes a revolution in 60 s, the hour hand in 12 h = 43200 s; ratio of angular speeds = 43200/60 = 720 : 1."
+    },
+    {
+      "n": 7,
+      "q": "If the mass of a body is M on the surface of the earth, the mass of the same body on the surface of the moon is",
+      "options": [
+        "M/6",
+        "M",
+        "6 M",
+        "Zero"
+      ],
+      "answer": 1,
+      "chapter": "Gravitation",
+      "explanation": "Mass is an intrinsic property independent of the local gravitational field; only the weight changes on the moon, so the mass remains M."
+    },
+    {
+      "n": 8,
+      "q": "Moment of Inertia of a thin uniform rod rotating about the perpendicular axis passing through its centre is I. If the same rod is bent into a ring and its moment of inertia about its diameter is I', then the ratio $\\dfrac{I}{I'}$ is",
+      "options": [
+        "$3/2\\,\\pi^2$",
+        "$8/3\\,\\pi^2$",
+        "$2/3\\,\\pi^2$",
+        "$5/3\\,\\pi^2$"
+      ],
+      "answer": 2,
+      "chapter": "System of Particles and Rotational Motion",
+      "explanation": "$I=\\dfrac{mL^2}{12}$ for the rod. Bending it into a ring of circumference L gives radius $r=L/2\\pi$, and $I'=\\dfrac12 mr^2=\\dfrac{mL^2}{8\\pi^2}$ about a diameter. So $I/I'=\\dfrac{2\\pi^2}{3}$."
+    },
+    {
+      "n": 9,
+      "q": "The ratio of hydraulic stress to the corresponding strain is known as",
+      "options": [
+        "Compressibility",
+        "Bulk modulus",
+        "Young's modulus",
+        "Rigidity modulus"
+      ],
+      "answer": 1,
+      "chapter": "Mechanical Properties of Solids",
+      "explanation": "By definition, the ratio of hydraulic (volume) stress to volumetric strain is the bulk modulus."
+    },
+    {
+      "n": 10,
+      "q": "The efficiency of a Carnot engine which operates between the two temperatures $T_1$ = 500 K and $T_2$ = 300 K is",
+      "options": [
+        "50%",
+        "25%",
+        "75%",
+        "40%"
+      ],
+      "answer": 3,
+      "chapter": "Thermodynamics",
+      "explanation": "$\\eta=1-\\dfrac{T_2}{T_1}=1-\\dfrac{300}{500}=0.4=40\\%$."
+    },
+    {
+      "n": 11,
+      "q": "Water is heated from 0 °C to 10 °C, then its volume",
+      "options": [
+        "decreases",
+        "increases",
+        "does not change",
+        "first decreases and then increases"
+      ],
+      "answer": 3,
+      "chapter": "Thermal Properties of Matter",
+      "explanation": "Water shows anomalous expansion: its volume decreases from 0°C to 4°C (density is maximum at 4°C) and then increases from 4°C to 10°C."
+    },
+    {
+      "n": 12,
+      "q": "1 gram of ice is mixed with 1 gram of steam. At thermal equilibrium, the temperature of the mixture is",
+      "options": [
+        "0 °C",
+        "100 °C",
+        "50 °C",
+        "55 °C"
+      ],
+      "answer": 1,
+      "chapter": "Thermal Properties of Matter",
+      "explanation": "Heat released by 1 g of steam condensing (540 cal) far exceeds the heat needed to melt the ice and raise it to 100°C (80+100=180 cal), so the equilibrium temperature is 100°C, with some steam left uncondensed."
+    },
+    {
+      "n": 13,
+      "q": "The ratio of kinetic energy to the potential energy of a particle executing SHM at a distance equal to half its amplitude, the distance being measured from its equilibrium position is",
+      "options": [
+        "3 : 1",
+        "4 : 1",
+        "2 : 1",
+        "8 : 1"
+      ],
+      "answer": 0,
+      "chapter": "Oscillations",
+      "explanation": "PE $=\\dfrac12 kx^2$ with $x=A/2$ gives PE $=\\dfrac{kA^2}{8}$; total energy $E=\\dfrac12 kA^2$, so KE $=E-$PE$=\\dfrac{3kA^2}{8}$; KE:PE = 3:1."
+    },
+    {
+      "n": 14,
+      "q": "When two tuning forks A and B are sounded together, 4 beats per second are heard. The frequency of the fork B is 384 Hz. When one of the prongs of the fork A is filed and sounded with B, the beat frequency increases, then the frequency of the fork A is",
+      "options": [
+        "380 Hz",
+        "388 Hz",
+        "379 Hz",
+        "389 Hz"
+      ],
+      "answer": 1,
+      "chapter": "Waves",
+      "explanation": "Filing a tuning fork's prongs increases its frequency. Since the beat frequency increased after filing, A's original frequency must have been above B's, i.e. 384+4=388 Hz, so filing moves it further from 384 Hz."
+    },
+    {
+      "n": 15,
+      "q": "A stretched string is vibrating in the second overtone, then the number of nodes and antinodes between the ends of the string are respectively",
+      "options": [
+        "4 and 3",
+        "3 and 2",
+        "3 and 4",
+        "2 and 3"
+      ],
+      "answer": 0,
+      "chapter": "Waves",
+      "explanation": "The second overtone is the third harmonic (3 loops), which has 4 nodes and 3 antinodes."
+    },
+    {
+      "n": 16,
+      "q": "Two spheres carrying charges +6 μC and +9 μC, separated by a distance d, experiences a force of repulsion F. When a charge of –3 μC is given to both the spheres and kept at the same distance as before, the new force of repulsion is",
+      "options": [
+        "F",
+        "3F",
+        "F/3",
+        "F/9"
+      ],
+      "answer": 2,
+      "chapter": "Electric Charges and Fields",
+      "explanation": "New charges become +3 μC and +6 μC (product 18) versus the original 6×9=54; since force ∝ product of charges, new force = F×(18/54) = F/3."
+    },
+    {
+      "n": 17,
+      "q": "Pick out the statement which is incorrect.",
+      "options": [
+        "The tangent drawn to a line of force represents the direction of electric field.",
+        "The electric field lines forms closed loop.",
+        "A negative test charge experiences a force opposite to the direction of the field.",
+        "Field lines never intersect."
+      ],
+      "answer": 1,
+      "chapter": "Electric Charges and Fields",
+      "explanation": "Electrostatic field lines start on positive charges and end on negative charges (or at infinity); they never form closed loops, so statement (2) is incorrect."
+    },
+    {
+      "n": 18,
+      "q": "The angle between the dipole moment and electric field at any point on the equatorial plane is",
+      "options": [
+        "0°",
+        "90°",
+        "180°",
+        "45°"
+      ],
+      "answer": 2,
+      "chapter": "Electric Charges and Fields",
+      "explanation": "On the equatorial line, the field is directed opposite to the dipole moment, so the angle between them is 180°."
+    },
+    {
+      "n": 19,
+      "q": "Three point charges 3 nC, 6 nC and 9 nC are placed at the corners of an equilateral triangle of side 0.1 m. The potential energy of the system is",
+      "options": [
+        "8910 J",
+        "89100 J",
+        "9910 J",
+        "99100 J"
+      ],
+      "answer": 0,
+      "chapter": "Electrostatic Potential and Capacitance",
+      "explanation": "$U=\\dfrac{k(q_1q_2+q_2q_3+q_1q_3)}{r}=\\dfrac{9\\times10^9\\times(18+54+27)\\times10^{-18}}{0.1}=8.91\\times10^{-6}$ J. The numeric value 8910 (properly in nJ, not J as printed) matches option (1); the unit error in the printed options is likely why KEA awarded a grace mark here (as per KEA key).",
+      "grace": true
+    },
+    {
+      "n": 20,
+      "q": "A spherical shell of radius 10 cm is carrying a charge q. If the electric potential at distances 5 cm, 10 cm and 15 cm from the centre of the spherical shell is $V_1$, $V_2$ and $V_3$ respectively, then",
+      "options": [
+        "$V_1 > V_2 > V_3$",
+        "$V_1 < V_2 < V_3$",
+        "$V_1 = V_2 > V_3$",
+        "$V_1 = V_2 < V_3$"
+      ],
+      "answer": 2,
+      "chapter": "Electrostatic Potential and Capacitance",
+      "explanation": "Inside a charged shell the potential is constant and equal to the surface potential ($V_1=V_2$), while outside it falls as 1/r, so $V_3 < V_1 = V_2$."
+    },
+    {
+      "n": 21,
+      "q": "A parallel plate capacitor is charged and then isolated. The effect of increasing the plate separation on charge, potential and capacitance respectively are",
+      "options": [
+        "constant, decreases, decreases",
+        "increases, decreases, decreases",
+        "constant, decreases, increases",
+        "constant, increases, decreases"
+      ],
+      "answer": 3,
+      "chapter": "Electrostatic Potential and Capacitance",
+      "explanation": "An isolated capacitor keeps charge Q constant; increasing separation decreases capacitance $C=\\varepsilon_0A/d$, so $V=Q/C$ increases."
+    },
+    {
+      "n": 22,
+      "q": "Four identical cells of emf E and internal resistance r are to be connected in series. Suppose if one of the cell is connected wrongly, the equivalent emf and effective internal resistance of the combination is",
+      "options": [
+        "4E and 4r",
+        "4E and 2r",
+        "2E and 4r",
+        "2E and 2r"
+      ],
+      "answer": 2,
+      "chapter": "Current Electricity",
+      "explanation": "Reversing one cell subtracts its emf: net emf = 3E − E = 2E; internal resistances still add in series regardless of polarity, giving 4r."
+    },
+    {
+      "n": 23,
+      "q": "Three resistances 2Ω, 3Ω and 4Ω are connected in parallel. The ratio of currents passing through them when a potential difference is applied across its ends will be",
+      "options": [
+        "6 : 3 : 2",
+        "6 : 4 : 3",
+        "5 : 4 : 3",
+        "4 : 3 : 2"
+      ],
+      "answer": 1,
+      "chapter": "Current Electricity",
+      "explanation": "With the same voltage across each, current ∝ 1/R, so the ratio is 1/2 : 1/3 : 1/4 = 6 : 4 : 3."
+    },
+    {
+      "n": 24,
+      "q": "Two cells of emf $E_1$ and $E_2$ are joined in opposition (such that $E_1 > E_2$). If $r_1$ and $r_2$ be the internal resistance and R be the external resistance, then the terminal potential difference is [Circuit: cells $E_1$ and $E_2$ with internal resistances $r_1$, $r_2$ connected in opposition, in series with external resistance R.]",
+      "options": [
+        "$\\dfrac{E_1+E_2}{r_1+r_2}\\times R$",
+        "$\\dfrac{E_1+E_2}{r_1+r_2+R}\\times R$",
+        "$\\dfrac{E_1-E_2}{r_1+r_2}\\times R$",
+        "$\\dfrac{E_1-E_2}{r_1+r_2+R}\\times R$"
+      ],
+      "answer": 3,
+      "chapter": "Current Electricity",
+      "explanation": "Net emf $=E_1-E_2$ drives current $I=\\dfrac{E_1-E_2}{r_1+r_2+R}$; terminal p.d. across R $=IR=\\dfrac{(E_1-E_2)R}{r_1+r_2+R}$."
+    },
+    {
+      "n": 25,
+      "q": "In the circuit shown below, the ammeter and the voltmeter readings are 3 A and 6 V respectively. Then the value of the resistance R is [Circuit: an ammeter A in series with resistance R forms one branch; a voltmeter V is connected in parallel across the series combination of A and R.]",
+      "options": [
+        "2 Ω",
+        "> 2 Ω",
+        "< 2 Ω",
+        "≥ 2 Ω"
+      ],
+      "answer": 2,
+      "chapter": "Current Electricity",
+      "explanation": "The voltmeter reads the voltage across the ammeter+R branch. Since a real ammeter has a small but non-zero resistance, R = V/I − R_A is slightly less than 6/3 = 2 Ω."
+    },
+    {
+      "n": 26,
+      "q": "In Wheatstone's network P = 2 Ω, Q = 2 Ω, R = 2 Ω and S = 3 Ω. The resistance with which S is to be shunted in order that the bridge may be balanced is",
+      "options": [
+        "1 Ω",
+        "2 Ω",
+        "4 Ω",
+        "6 Ω"
+      ],
+      "answer": 3,
+      "chapter": "Current Electricity",
+      "explanation": "Balance requires P/Q = R/S', i.e. S' = 2 Ω. Shunting S=3Ω with resistance x to get 2Ω: 1/2 = 1/3 + 1/x, giving x = 6 Ω."
+    },
+    {
+      "n": 27,
+      "q": "The resistance of the bulb filament is 100 Ω at a temperature of 100 °C. If its temperature co-efficient of resistance be 0.005 per °C, its resistance will become 200 Ω at a temperature",
+      "options": [
+        "300 °C",
+        "400 °C",
+        "500 °C",
+        "200 °C"
+      ],
+      "answer": 1,
+      "chapter": "Current Electricity",
+      "explanation": "Using $R_0=100/(1+0.005\\times100)=66.7\\,\\Omega$, solving $200=66.7(1+0.005T)$ gives T = 400 °C."
+    },
+    {
+      "n": 28,
+      "q": "Two concentric coils each of radius equal to $2\\pi$ cm are placed at right angles to each other. If 3 A and 4 A are the currents flowing through the two coils respectively. The magnetic induction (in Wb m$^{-2}$) at the centre of the coils will be",
+      "options": [
+        "$12\\times10^{-5}$",
+        "$10^{-5}$",
+        "$5\\times10^{-5}$",
+        "$7\\times10^{-5}$"
+      ],
+      "answer": 2,
+      "chapter": "Moving Charges and Magnetism",
+      "explanation": "$B_1=\\mu_0(3)/(2r)$, $B_2=\\mu_0(4)/(2r)$ with $r=0.02\\pi$ m; since the coils are perpendicular, $B=\\sqrt{B_1^2+B_2^2}=\\mu_0(5)/(2r)=5\\times10^{-5}$ T."
+    },
+    {
+      "n": 29,
+      "q": "A proton beam enters a magnetic field of $10^{-4}$ Wb m$^{-2}$ normally. If the specific charge of the proton is $10^{11}$ C kg$^{-1}$ and its velocity is $10^9$ ms$^{-1}$, then the radius of the circle described will be",
+      "options": [
+        "0.1 m",
+        "10 m",
+        "100 m",
+        "1 m"
+      ],
+      "answer": 2,
+      "chapter": "Moving Charges and Magnetism",
+      "explanation": "$r=\\dfrac{v}{(q/m)B}=\\dfrac{10^9}{10^{11}\\times10^{-4}}=100$ m."
+    },
+    {
+      "n": 30,
+      "q": "A cyclotron is used to accelerate",
+      "options": [
+        "neutron",
+        "only positively charged particles",
+        "only negatively charged particles",
+        "both positively and negatively charged particles"
+      ],
+      "answer": 3,
+      "chapter": "Moving Charges and Magnetism",
+      "explanation": "A cyclotron can accelerate any charged particle, positive or negative (with the dee-voltage polarity matched to the sign of the charge); it cannot accelerate neutral particles such as neutrons."
+    },
+    {
+      "n": 31,
+      "q": "A galvanometer of resistance 50 Ω gives a full scale deflection for a current $5\\times10^{-4}$ A. The resistance that should be connected in series with the galvanometer to read 3 V is",
+      "options": [
+        "595 Ω",
+        "5050 Ω",
+        "5059 Ω",
+        "5950 Ω"
+      ],
+      "answer": 3,
+      "chapter": "Moving Charges and Magnetism",
+      "explanation": "Total resistance needed $=V/I=3/(5\\times10^{-4})=6000\\,\\Omega$; series resistance $=6000-50=5950\\,\\Omega$."
+    },
+    {
+      "n": 32,
+      "q": "Two parallel wires 1 m apart carry currents of 1 A and 3 A respectively in opposite directions. The force per unit length acting between these two wires is",
+      "options": [
+        "$6\\times10^{-7}$ Nm$^{-1}$ repulsive",
+        "$6\\times10^{-7}$ Nm$^{-1}$ attractive",
+        "$6\\times10^{-5}$ Nm$^{-1}$ repulsive",
+        "$6\\times10^{-5}$ Nm$^{-1}$ attractive"
+      ],
+      "answer": 0,
+      "chapter": "Moving Charges and Magnetism",
+      "explanation": "$F/L=\\dfrac{\\mu_0 I_1 I_2}{2\\pi d}=\\dfrac{4\\pi\\times10^{-7}\\times1\\times3}{2\\pi\\times1}=6\\times10^{-7}$ N/m; opposite currents repel."
+    },
+    {
+      "n": 33,
+      "q": "If there is no torsion in the suspension thread, then the time period of a magnet executing SHM is",
+      "options": [
+        "$T=\\dfrac{1}{2\\pi}\\sqrt{\\dfrac{MB}{I}}$",
+        "$T=\\dfrac{1}{2\\pi}\\sqrt{\\dfrac{I}{MB}}$",
+        "$T=2\\pi\\sqrt{\\dfrac{I}{MB}}$",
+        "$T=2\\pi\\sqrt{\\dfrac{MB}{I}}$"
+      ],
+      "answer": 2,
+      "chapter": "Magnetism and Matter",
+      "explanation": "The oscillating magnet's time period is $T=2\\pi\\sqrt{I/(MB)}$, where I is moment of inertia, M the magnetic moment and B the field."
+    },
+    {
+      "n": 34,
+      "q": "Core of electromagnets are made of ferromagnetic material which has",
+      "options": [
+        "high permeability and low retentivity",
+        "high permeability and high retentivity",
+        "low permeability and high retentivity",
+        "low permeability and low retentivity"
+      ],
+      "answer": 0,
+      "chapter": "Magnetism and Matter",
+      "explanation": "Electromagnet cores (e.g. soft iron) need high permeability for strong magnetization and low retentivity so they demagnetize quickly when the current is switched off."
+    },
+    {
+      "n": 35,
+      "q": "The magnetic susceptibility of a paramagnetic material at –73 °C is 0.0075 and its value at –173 °C will be",
+      "options": [
+        "0.0045",
+        "0.0030",
+        "0.015",
+        "0.0075"
+      ],
+      "answer": 2,
+      "chapter": "Magnetism and Matter",
+      "explanation": "By Curie's law $\\chi\\propto1/T$ (T in kelvin): $T_1=200$K, $T_2=100$K; $\\chi_2=\\chi_1\\times(T_1/T_2)=0.0075\\times2=0.015$."
+    },
+    {
+      "n": 36,
+      "q": "Two coils have a mutual inductance 0.005 H. The current changes in the first coil according to the equation $i=i_m\\sin\\omega t$ where $i_m=10$ A and $\\omega=100\\pi$ rad s$^{-1}$. The maximum value of the emf induced in the second coil is",
+      "options": [
+        "$2\\pi$",
+        "$5\\pi$",
+        "$\\pi$",
+        "$4\\pi$"
+      ],
+      "answer": 1,
+      "chapter": "Electromagnetic Induction",
+      "explanation": "$\\varepsilon_{max}=Mi_m\\omega=0.005\\times10\\times100\\pi=5\\pi$ V."
+    },
+    {
+      "n": 37,
+      "q": "An aircraft with a wingspan of 40 m flies with a speed of 1080 km/hr in the eastward direction at a constant altitude in the northern hemisphere, where the vertical component of the earth's magnetic field is $1.75\\times10^{-5}$ T. Then the emf developed between the tips of the wings is",
+      "options": [
+        "0.5 V",
+        "0.34 V",
+        "0.21 V",
+        "2.1 V"
+      ],
+      "answer": 2,
+      "chapter": "Electromagnetic Induction",
+      "explanation": "$v=1080$ km/hr $=300$ m/s; emf $=B_vLv=1.75\\times10^{-5}\\times40\\times300=0.21$ V."
+    },
+    {
+      "n": 38,
+      "q": "In an LCR circuit, at resonance",
+      "options": [
+        "the current and voltage are in phase",
+        "the impedance is maximum",
+        "the current is minimum",
+        "the current leads the voltage by $\\pi/2$"
+      ],
+      "answer": 0,
+      "chapter": "Alternating Current",
+      "explanation": "At resonance, $X_L=X_C$, so the impedance is purely resistive and the current is in phase with the voltage."
+    },
+    {
+      "n": 39,
+      "q": "A transformer is used to light a 100 W – 110 V lamp from 220 V mains. If the main current is 0.5 A, the efficiency of the transformer is",
+      "options": [
+        "90%",
+        "95%",
+        "96%",
+        "99%"
+      ],
+      "answer": 0,
+      "chapter": "Alternating Current",
+      "explanation": "Input power = 220×0.5 = 110 W; output (lamp) power = 100 W; efficiency = 100/110 ≈ 90%."
+    },
+    {
+      "n": 40,
+      "q": "The average power dissipated in a pure inductor is",
+      "options": [
+        "$\\dfrac{1}{2}VI$",
+        "$VI^2$",
+        "$\\dfrac{VI^2}{4}$",
+        "zero"
+      ],
+      "answer": 3,
+      "chapter": "Alternating Current",
+      "explanation": "In a pure inductor, current lags voltage by 90°, so the average power (∝ cos90° = 0) dissipated is zero."
+    },
+    {
+      "n": 41,
+      "q": "If $\\varepsilon_0$ and $\\mu_0$ are the permittivity and permeability of free space and $\\varepsilon$ and $\\mu$ are the corresponding quantities for a medium, then refractive index of the medium is",
+      "options": [
+        "$\\sqrt{\\dfrac{\\mu_0\\varepsilon_0}{\\mu\\varepsilon}}$",
+        "$\\sqrt{\\dfrac{\\mu\\varepsilon}{\\mu_0\\varepsilon_0}}$",
+        "1",
+        "Insufficient information"
+      ],
+      "answer": 1,
+      "chapter": "Electromagnetic Waves",
+      "explanation": "Speed of light in the medium $v=1/\\sqrt{\\mu\\varepsilon}$ and in vacuum $c=1/\\sqrt{\\mu_0\\varepsilon_0}$; refractive index $n=c/v=\\sqrt{\\mu\\varepsilon/(\\mu_0\\varepsilon_0)}$."
+    },
+    {
+      "n": 42,
+      "q": "A person wants a real image of his own, 3 times enlarged. Where should he stand in front of a concave mirror of radius of curvature 30 cm?",
+      "options": [
+        "10 cm",
+        "30 cm",
+        "90 cm",
+        "20 cm"
+      ],
+      "answer": 3,
+      "chapter": "Ray Optics and Optical Instruments",
+      "explanation": "$f=15$ cm; for a real, inverted image with $m=-3$, $v=3u$; using $\\dfrac1v+\\dfrac1u=\\dfrac1f$ gives $u=20$ cm."
+    },
+    {
+      "n": 43,
+      "q": "Calculate the focal length of a reading glass of a person if his distance of distinct vision is 75 cm.",
+      "options": [
+        "25.6 cm",
+        "37.5 cm",
+        "75.2 cm",
+        "100.4 cm"
+      ],
+      "answer": 1,
+      "chapter": "Ray Optics and Optical Instruments",
+      "explanation": "To read at the normal near point (25 cm) with a lens that forms a virtual image at his near point (75 cm): $\\dfrac1f=\\dfrac{1}{-75}-\\dfrac{1}{-25}=\\dfrac{2}{75}$, so $f=37.5$ cm."
+    },
+    {
+      "n": 44,
+      "q": "In a Young's double slit experiment the slit separation is 0.5 m from the slits. For a monochromatic light of wavelength 500 nm, the distance of 3rd maxima from 2nd minima on the other side is",
+      "options": [
+        "2.75 mm",
+        "2.5 mm",
+        "22.5 mm",
+        "2.25 mm"
+      ],
+      "answer": 3,
+      "chapter": "Wave Optics",
+      "explanation": "The printed data is inconsistent (a 'slit separation' cannot be 'from the slits'). Assuming the intended values were slit separation d=1 mm and screen distance D=1 m: fringe width $\\lambda D/d=0.5$ mm; distance of 3rd maxima from 2nd minima on the other side $=(3+1.5)\\times0.5=2.25$ mm, matching option (4). KEA likely awarded a grace mark to everyone owing to this ambiguity in the printed question (as per KEA key).",
+      "grace": true
+    },
+    {
+      "n": 45,
+      "q": "To observe diffraction, the size of the obstacle",
+      "options": [
+        "has no relation to wavelength.",
+        "should be $\\lambda/2$, where $\\lambda$ is the wavelength.",
+        "should be much larger than the wavelength.",
+        "should be of the order of wavelength."
+      ],
+      "answer": 3,
+      "chapter": "Wave Optics",
+      "explanation": "Noticeable diffraction occurs when the obstacle/aperture size is comparable to (of the order of) the wavelength of the wave."
+    },
+    {
+      "n": 46,
+      "q": "The polarizing angle of glass is 57°. A ray of light which is incident at this angle will have an angle of refraction as",
+      "options": [
+        "25°",
+        "33°",
+        "43°",
+        "38°"
+      ],
+      "answer": 1,
+      "chapter": "Wave Optics",
+      "explanation": "At Brewster's (polarizing) angle, the refracted and reflected rays are perpendicular, so the angle of refraction = 90° − 57° = 33°."
+    },
+    {
+      "n": 47,
+      "q": "Light of two different frequencies whose photons have energies 1 eV and 2.5 eV respectively, successively illuminate a metallic surface whose work function is 0.5 eV. Ratio of maximum speeds of emitted electrons will be",
+      "options": [
+        "1 : 5",
+        "1 : 4",
+        "1 : 2",
+        "1 : 1"
+      ],
+      "answer": 2,
+      "chapter": "Dual Nature of Radiation and Matter",
+      "explanation": "$KE_1=1-0.5=0.5$ eV, $KE_2=2.5-0.5=2$ eV; since $v\\propto\\sqrt{KE}$, ratio $=\\sqrt{0.5}:\\sqrt{2}=1:2$."
+    },
+    {
+      "n": 48,
+      "q": "Find the de-Broglie wavelength of an electron with kinetic energy of 120 eV.",
+      "options": [
+        "95 pm",
+        "102 pm",
+        "112 pm",
+        "124 pm"
+      ],
+      "answer": 2,
+      "chapter": "Dual Nature of Radiation and Matter",
+      "explanation": "$\\lambda=\\dfrac{1.227}{\\sqrt{E(\\text{eV})}}$ nm $=\\dfrac{1.227}{\\sqrt{120}}\\approx0.112$ nm $=112$ pm."
+    },
+    {
+      "n": 49,
+      "q": "An α-particle of energy 5 MeV is scattered through 180° by gold nucleus. The distance of closest approach is of the order of",
+      "options": [
+        "$10^{-10}$ cm",
+        "$10^{-12}$ cm",
+        "$10^{-14}$ cm",
+        "$10^{-16}$ cm"
+      ],
+      "answer": 1,
+      "chapter": "Atoms",
+      "explanation": "$r_0=\\dfrac{2kZe^2}{E}=\\dfrac{2\\times9\\times10^9\\times79\\times(1.6\\times10^{-19})^2}{8\\times10^{-13}}\\approx4.5\\times10^{-14}$ m $\\approx10^{-12}$ cm."
+    },
+    {
+      "n": 50,
+      "q": "If an electron in hydrogen atom jumps from an orbit of level n = 3 to an orbit of level n = 2, the emitted radiation has a frequency (R = Rydberg constant, C = velocity of light)",
+      "options": [
+        "$\\dfrac{3RC}{27}$",
+        "$\\dfrac{RC}{25}$",
+        "$\\dfrac{8RC}{9}$",
+        "$\\dfrac{5RC}{36}$"
+      ],
+      "answer": 3,
+      "chapter": "Atoms",
+      "explanation": "$f=RC\\left(\\dfrac{1}{2^2}-\\dfrac{1}{3^2}\\right)=RC\\left(\\dfrac14-\\dfrac19\\right)=\\dfrac{5RC}{36}$."
+    },
+    {
+      "n": 51,
+      "q": "What is the wavelength of light for the least energetic photon emitted in the Lyman series of the hydrogen spectrum. (take hc = 1240 eV nm)",
+      "options": [
+        "82 nm",
+        "102 nm",
+        "122 nm",
+        "150 nm"
+      ],
+      "answer": 2,
+      "chapter": "Atoms",
+      "explanation": "Least energetic Lyman transition is $n=2\\to1$: $E=13.6(1-1/4)=10.2$ eV; $\\lambda=hc/E=1240/10.2\\approx122$ nm."
+    },
+    {
+      "n": 52,
+      "q": "A nucleus at rest splits into two nuclear parts having radii in the ratio 1 : 2. Their velocities are in the ratio",
+      "options": [
+        "8 : 1",
+        "6 : 1",
+        "4 : 1",
+        "2 : 1"
+      ],
+      "answer": 0,
+      "chapter": "Nuclei",
+      "explanation": "Mass $\\propto r^3$, so masses are in ratio 1:8; by momentum conservation $m_1v_1=m_2v_2$, velocities are in the inverse ratio 8:1."
+    },
+    {
+      "n": 53,
+      "q": "The half life of a radioactive substance is 20 minutes. The time taken between 50 % decay and 87.5 % decay of the substance will be",
+      "options": [
+        "30 minutes",
+        "40 minutes",
+        "25 minutes",
+        "10 minutes"
+      ],
+      "answer": 1,
+      "chapter": "Nuclei",
+      "explanation": "50% decay occurs at 1 half-life (20 min); 87.5% decay (1/8 remaining) occurs at 3 half-lives (60 min); difference = 40 minutes."
+    },
+    {
+      "n": 54,
+      "q": "A radioactive decay can form an isotope of the original nucleus with the emission of particles",
+      "options": [
+        "one α and four β",
+        "one α and two β",
+        "one α and one β",
+        "four α and one β"
+      ],
+      "answer": 1,
+      "chapter": "Nuclei",
+      "explanation": "An isotope has the same atomic number Z. One α decay reduces Z by 2; two β decays each increase Z by 1, restoring the original Z."
+    },
+    {
+      "n": 55,
+      "q": "An LED is constructed from a pn junction based on a certain semi-conducting material whose energy gap is 1.9 eV. Then the wavelength of the emitted light is",
+      "options": [
+        "$2.9\\times10^{-9}$ m",
+        "$1.6\\times10^{-8}$ m",
+        "$6.5\\times10^{-7}$ m",
+        "$9.1\\times10^{-5}$ m"
+      ],
+      "answer": 2,
+      "chapter": "Semiconductor Electronics",
+      "explanation": "$\\lambda=\\dfrac{hc}{E}=\\dfrac{1240\\text{ eV nm}}{1.9\\text{ eV}}\\approx653$ nm $=6.5\\times10^{-7}$ m."
+    },
+    {
+      "n": 56,
+      "q": "Amplitude modulation has",
+      "options": [
+        "one carrier with two side band frequencies",
+        "one carrier",
+        "one carrier with infinite frequencies",
+        "one carrier with high frequency"
+      ],
+      "answer": 0,
+      "chapter": "Old syllabus: Communication Systems",
+      "explanation": "AM produces a carrier plus two sidebands (upper and lower), symmetric about the carrier frequency."
+    },
+    {
+      "n": 57,
+      "q": "The circuit has two oppositely connected ideal diodes in parallel. What is the current flowing in the circuit? [Circuit: a 12 V battery in series with a 4Ω resistor; two parallel branches between the remaining nodes — one with diode D2 in series with a 2Ω resistor, another with diode D1 in series with a 3Ω resistor, the diodes oriented oppositely.]",
+      "options": [
+        "1.71 A",
+        "2.0 A",
+        "2.31 A",
+        "1.33 A"
+      ],
+      "answer": 0,
+      "chapter": "Semiconductor Electronics",
+      "explanation": "Only the diode forward-biased by the battery's polarity conducts; the 2Ω branch (with D2) is reverse-biased and blocked, leaving the 4Ω and 3Ω resistors in series: I = 12/(4+3) ≈ 1.71 A."
+    },
+    {
+      "n": 58,
+      "q": "The input characteristics of a transistor in CE mode is the graph obtained by plotting",
+      "options": [
+        "$I_B$ against $V_{BE}$ at constant $V_{CE}$",
+        "$I_B$ against $V_{CE}$ at constant $V_{BE}$",
+        "$I_B$ against $I_C$ at constant $V_{CE}$",
+        "$I_B$ against $I_C$ at constant $V_{BE}$"
+      ],
+      "answer": 0,
+      "chapter": "Semiconductor Electronics",
+      "explanation": "Input characteristics of a CE transistor plot base current $I_B$ versus base-emitter voltage $V_{BE}$ at a fixed collector-emitter voltage $V_{CE}$."
+    },
+    {
+      "n": 59,
+      "q": "The given truth table is for [Table: inputs A, B and output Y — (0,0)→1; (0,1)→1; (1,0)→1; (1,1)→0.]",
+      "options": [
+        "AND gate",
+        "OR gate",
+        "NAND gate",
+        "NOR gate"
+      ],
+      "answer": 2,
+      "chapter": "Semiconductor Electronics",
+      "explanation": "Y is 0 only when both inputs are 1 (otherwise 1), which is the truth table of a NAND gate."
+    },
+    {
+      "n": 60,
+      "q": "The waves used for line-of-sight (LOS) communication is",
+      "options": [
+        "ground waves",
+        "space waves",
+        "sound waves",
+        "sky waves"
+      ],
+      "answer": 1,
+      "chapter": "Old syllabus: Communication Systems",
+      "explanation": "Line-of-sight communication (used for TV and microwave links) employs space waves, which travel in a straight line between the transmitter and receiver."
+    }
+  ]
+}

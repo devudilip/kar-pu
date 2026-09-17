@@ -1,0 +1,527 @@
+{
+  "notes": "<h3>SI base units (7)</h3><table><tr><th>Quantity</th><th>Unit</th></tr><tr><td>Length</td><td>metre (m)</td></tr><tr><td>Mass</td><td>kilogram (kg)</td></tr><tr><td>Time</td><td>second (s)</td></tr><tr><td>Electric current</td><td>ampere (A)</td></tr><tr><td>Temperature</td><td>kelvin (K)</td></tr><tr><td>Amount of substance</td><td>mole (mol)</td></tr><tr><td>Luminous intensity</td><td>candela (cd)</td></tr></table><p>Supplementary: radian (plane angle), steradian (solid angle) — both dimensionless.</p><h3>Dimensional formulas you must know</h3><table><tr><td>Force</td><td>$[MLT^{-2}]$</td><td>Pressure, stress, Young's modulus, energy density</td><td>$[ML^{-1}T^{-2}]$</td></tr><tr><td>Work, energy, torque, heat</td><td>$[ML^2T^{-2}]$</td><td>Power</td><td>$[ML^2T^{-3}]$</td></tr><tr><td>Momentum, impulse</td><td>$[MLT^{-1}]$</td><td>Angular momentum, Planck's constant</td><td>$[ML^2T^{-1}]$</td></tr><tr><td>Coefficient of viscosity</td><td>$[ML^{-1}T^{-1}]$</td><td>Surface tension, spring constant</td><td>$[MT^{-2}]$</td></tr><tr><td>Gravitational constant $G$</td><td>$[M^{-1}L^3T^{-2}]$</td><td>Universal gas constant $R$</td><td>$[ML^2T^{-2}K^{-1}]$</td></tr><tr><td>Charge</td><td>$[AT]$</td><td>Potential / EMF</td><td>$[ML^2T^{-3}A^{-1}]$</td></tr><tr><td>Resistance</td><td>$[ML^2T^{-3}A^{-2}]$</td><td>Capacitance</td><td>$[M^{-1}L^{-2}T^4A^2]$</td></tr></table><h3>Dimensionless quantities</h3><p>Strain, refractive index, relative density, angle, Poisson's ratio, coefficient of friction, all trigonometric and exponential arguments.</p><h3>Errors</h3><ul><li>Absolute error $\\Delta a_i = |a_{mean} - a_i|$; relative error $= \\Delta a_{mean}/a_{mean}$; percentage error $= $ relative error $\\times 100$.</li><li>Sum/difference: absolute errors <b>add</b>. Product/quotient: relative (percentage) errors <b>add</b>.</li><li>If $Z = A^p B^q / C^r$: $\\dfrac{\\Delta Z}{Z} = p\\dfrac{\\Delta A}{A} + q\\dfrac{\\Delta B}{B} + r\\dfrac{\\Delta C}{C}$.</li></ul><h3>Significant figures</h3><ul><li>All non-zero digits are significant. Zeros between non-zero digits are significant.</li><li>Leading zeros are never significant (0.0052 → 2 s.f.). Trailing zeros after a decimal point are significant (5.200 → 4 s.f.).</li><li>Rounding: if the dropped digit is 5 exactly, round to make the preceding digit <b>even</b> (2.745 → 2.74, 2.735 → 2.74).</li><li>Addition/subtraction: result keeps the least number of <b>decimal places</b>. Multiplication/division: least number of <b>significant figures</b>.</li></ul><h3>Instruments</h3><ul><li>Least count of vernier = 1 MSD − 1 VSD (commonly 0.01 cm). Screw gauge L.C. = pitch / number of circular divisions.</li></ul><h3>Exam tip</h3><p>KCET asks 1–2 questions here every year: usually 'which pair has the same dimensions', a percentage-error calculation, or dimensions of a constant from an equation. Learn the table above by heart.</p>",
+  "questions": [
+    {
+      "id": "phy-units-and-measurements-001",
+      "q": "The dimensional formula of Planck's constant is",
+      "options": [
+        "$[ML^{-1}T^{-2}]$",
+        "$[ML^2T^{-2}]$",
+        "$[MLT^{-1}]$",
+        "$[ML^2T^{-1}]$"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "$E = h\\nu \\Rightarrow h = E/\\nu = [ML^2T^{-2}]/[T^{-1}] = [ML^2T^{-1}]$. Same as angular momentum.",
+      "tip": "Planck's constant and angular momentum share dimensions — a favourite KCET question."
+    },
+    {
+      "id": "phy-units-and-measurements-002",
+      "q": "Which of the following pairs has the same dimensions?",
+      "options": [
+        "Power and energy",
+        "Work and torque",
+        "Momentum and energy",
+        "Force and pressure"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "Work $= F\\cdot d$ and torque $= F\\times r$ are both $[ML^2T^{-2}]$. Pressure is force per area, power is energy per time."
+    },
+    {
+      "id": "phy-units-and-measurements-003",
+      "q": "The number of significant figures in $0.005080$ is",
+      "options": [
+        "7",
+        "6",
+        "4",
+        "3"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "Leading zeros are not significant. 5, 0, 8 and the trailing 0 after the decimal are significant → 4."
+    },
+    {
+      "id": "phy-units-and-measurements-004",
+      "q": "The percentage errors in the measurement of mass and speed are 2% and 3% respectively. The maximum error in the estimate of kinetic energy is",
+      "options": [
+        "8%",
+        "12%",
+        "5%",
+        "11%"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "$K = \\tfrac12 mv^2 \\Rightarrow \\dfrac{\\Delta K}{K} = \\dfrac{\\Delta m}{m} + 2\\dfrac{\\Delta v}{v} = 2\\% + 2(3\\%) = 8\\%$."
+    },
+    {
+      "id": "phy-units-and-measurements-005",
+      "q": "The dimensional formula of the coefficient of viscosity is",
+      "options": [
+        "$[ML^{-1}T^{-2}]$",
+        "$[ML^{-1}T^{-1}]$",
+        "$[MLT^{-1}]$",
+        "$[ML^{-2}T^{-1}]$"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "From Stokes' law $F = 6\\pi\\eta r v$: $\\eta = F/(rv) = [MLT^{-2}]/([L][LT^{-1}]) = [ML^{-1}T^{-1}]$."
+    },
+    {
+      "id": "phy-units-and-measurements-006",
+      "q": "Which physical quantity has the dimensional formula $[ML^{-1}T^{-2}]$?",
+      "options": [
+        "Impulse",
+        "Power",
+        "Force",
+        "Pressure"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "Pressure = force/area = $[MLT^{-2}]/[L^2] = [ML^{-1}T^{-2}]$. Stress, Young's modulus and energy density share this."
+    },
+    {
+      "id": "phy-units-and-measurements-007",
+      "q": "A screw gauge has a pitch of 1 mm and 100 divisions on its circular scale. Its least count is",
+      "options": [
+        "0.01 mm",
+        "1 mm",
+        "0.001 mm",
+        "0.1 mm"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "Least count = pitch / number of circular divisions = 1 mm/100 = 0.01 mm."
+    },
+    {
+      "id": "phy-units-and-measurements-008",
+      "q": "One newton is equal to",
+      "options": [
+        "$10^3$ dyne",
+        "$10^4$ dyne",
+        "$10^5$ dyne",
+        "$10^7$ dyne"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "$1\\,\\text{N} = 1\\,\\text{kg m s}^{-2} = 10^3\\,\\text{g}\\times 10^2\\,\\text{cm s}^{-2} = 10^5$ dyne."
+    },
+    {
+      "id": "phy-units-and-measurements-009",
+      "q": "If velocity $v$, acceleration $a$ and force $F$ are taken as fundamental quantities, the dimensional formula of mass is",
+      "options": [
+        "$[F v^{-1} a]$",
+        "$[F a v^{-2}]$",
+        "$[F v a^{-1}]$",
+        "$[F a^{-1}]$"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "$F = ma \\Rightarrow m = F/a = [F a^{-1}]$. Velocity does not enter."
+    },
+    {
+      "id": "phy-units-and-measurements-010",
+      "q": "Which of the following is NOT a dimensionless quantity?",
+      "options": [
+        "Relative density",
+        "Angular velocity",
+        "Refractive index",
+        "Strain"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "Angular velocity has dimensions $[T^{-1}]$ (rad s$^{-1}$; the radian is dimensionless). The others are ratios of like quantities."
+    },
+    {
+      "id": "phy-units-and-measurements-011",
+      "q": "The value 2.745 rounded off to three significant figures is",
+      "options": [
+        "2.74",
+        "2.8",
+        "2.70",
+        "2.75"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "When the digit to be dropped is exactly 5, the preceding digit is left unchanged if it is even: 2.745 → 2.74. (2.735 would also become 2.74.)"
+    },
+    {
+      "id": "phy-units-and-measurements-012",
+      "q": "The dimensions of $\\dfrac{a}{b}$ in the equation $P = \\dfrac{a - t^2}{bx}$, where $P$ is pressure, $x$ is distance and $t$ is time, are",
+      "options": [
+        "$[ML^0T^{-2}]$",
+        "$[LT^{-3}]$",
+        "$[MT^{-2}]$",
+        "$[ML^2T^{-3}]$"
+      ],
+      "answer": 2,
+      "difficulty": "hard",
+      "explanation": "$a$ has the dimensions of $t^2 = [T^2]$. $b = \\dfrac{a}{Px} = \\dfrac{[T^2]}{[ML^{-1}T^{-2}][L]} = [M^{-1}T^4]$. So $a/b = [T^2]/[M^{-1}T^4] = [MT^{-2}]$.",
+      "tip": "Only like quantities can be added: $a$ must have dimensions of $t^2$."
+    },
+    {
+      "id": "phy-units-and-measurements-013",
+      "q": "The dimensional formula of the universal gravitational constant $G$ is",
+      "options": [
+        "$[ML^3T^{-2}]$",
+        "$[M^{-2}L^3T^{-2}]$",
+        "$[M^{-1}L^2T^{-2}]$",
+        "$[M^{-1}L^3T^{-2}]$"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "$F = Gm_1m_2/r^2 \\Rightarrow G = Fr^2/m^2 = [MLT^{-2}][L^2]/[M^2] = [M^{-1}L^3T^{-2}]$."
+    },
+    {
+      "id": "phy-units-and-measurements-014",
+      "q": "A physical quantity $X = \\dfrac{A^2 B^{1/2}}{C^{1/3} D^3}$. The percentage errors in $A$, $B$, $C$, $D$ are 1%, 2%, 3% and 4% respectively. The percentage error in $X$ is",
+      "options": [
+        "10%",
+        "13%",
+        "16%",
+        "4%"
+      ],
+      "answer": 2,
+      "difficulty": "hard",
+      "explanation": "$\\dfrac{\\Delta X}{X} = 2(1\\%) + \\tfrac12(2\\%) + \\tfrac13(3\\%) + 3(4\\%) = 2 + 1 + 1 + 12 = 16\\%$."
+    },
+    {
+      "id": "phy-units-and-measurements-015",
+      "q": "The SI unit of luminous intensity is",
+      "options": [
+        "lumen",
+        "candela",
+        "lux",
+        "mole"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "Candela (cd) is the SI base unit of luminous intensity; lumen and lux are derived units of luminous flux and illuminance."
+    },
+    {
+      "id": "phy-units-and-measurements-016",
+      "q": "A light year is a unit of",
+      "options": [
+        "distance",
+        "mass",
+        "energy",
+        "time"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "A light year is the distance light travels in vacuum in one year (about $9.46\\times10^{15}$ m), despite the word 'year'."
+    },
+    {
+      "id": "phy-units-and-measurements-017",
+      "q": "The order of magnitude of the mass of an electron ($9.1\\times10^{-31}$ kg) is",
+      "options": [
+        "$10^{-32}$ kg",
+        "$10^{-31}$ kg",
+        "$10^{-29}$ kg",
+        "$10^{-30}$ kg"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "Since the coefficient 9.1 is greater than 5, the power is rounded up: order of magnitude $= 10^{-31+1} = 10^{-30}$ kg."
+    },
+    {
+      "id": "phy-units-and-measurements-018",
+      "q": "The product $4.2 \\times 1.15$, expressed to the correct number of significant figures, is",
+      "options": [
+        "4.83",
+        "4.830",
+        "4.8",
+        "5"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "$4.2\\times1.15 = 4.83$, but 4.2 has only 2 significant figures, so the result must be rounded to 2 s.f.: 4.8."
+    },
+    {
+      "id": "phy-units-and-measurements-019",
+      "q": "Two lengths are measured as $a = (5.0 \\pm 0.2)$ cm and $b = (3.0 \\pm 0.1)$ cm. The value of $a - b$ with its absolute error is",
+      "options": [
+        "2.0 ± 0.1 cm",
+        "2.0 ± 0.3 cm",
+        "1.8 ± 0.3 cm",
+        "2.0 ± 0.2 cm"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "For subtraction, absolute errors add: $a-b = 2.0$ cm and $\\Delta(a-b) = \\Delta a + \\Delta b = 0.2+0.1 = 0.3$ cm."
+    },
+    {
+      "id": "phy-units-and-measurements-020",
+      "q": "The dimensional formula of specific heat capacity (in $Q = mc\\Delta T$) is",
+      "options": [
+        "$[L^2T^{-2}K^{-1}]$",
+        "$[L^2T^{-2}]$",
+        "$[ML^2T^{-2}K^{-1}]$",
+        "$[ML^2T^{-2}]$"
+      ],
+      "answer": 0,
+      "difficulty": "hard",
+      "explanation": "$c = Q/(m\\Delta T) = [ML^2T^{-2}]/([M][K]) = [L^2T^{-2}K^{-1}]$; the mass cancels out."
+    },
+    {
+      "id": "phy-units-and-measurements-021",
+      "q": "For a fluid of density $\\rho$ flowing with velocity $v$ through a pipe of diameter $d$ and viscosity $\\eta$, which combination is dimensionless (the Reynolds number)?",
+      "options": [
+        "$\\dfrac{\\eta v d}{\\rho}$",
+        "$\\dfrac{\\rho \\eta}{vd}$",
+        "$\\dfrac{vd}{\\rho\\eta}$",
+        "$\\dfrac{\\rho v d}{\\eta}$"
+      ],
+      "answer": 3,
+      "difficulty": "hard",
+      "explanation": "$[\\rho vd/\\eta] = \\dfrac{[ML^{-3}][LT^{-1}][L]}{[ML^{-1}T^{-1}]} = [M^0L^0T^0]$, so Reynolds number $= \\rho vd/\\eta$ is dimensionless."
+    },
+    {
+      "id": "phy-units-and-measurements-022",
+      "q": "If, with the jaws of a vernier caliper fully closed, the vernier zero lies to the right of the main scale zero, this is called a",
+      "options": [
+        "positive zero error",
+        "no zero error",
+        "negative zero error",
+        "instrumental error only"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "When the vernier zero is displaced to the right (positive side) of the main scale zero on closing the jaws, it is a positive zero error, and this reading must be subtracted from all measurements."
+    },
+    {
+      "id": "phy-units-and-measurements-023",
+      "q": "A screw gauge has pitch 0.5 mm and 50 divisions on its circular scale, with a positive zero error of 0.02 mm. While measuring a wire, the main scale reads 3 mm and the circular scale reads 20 divisions. The true diameter of the wire is",
+      "options": [
+        "3.16 mm",
+        "3.18 mm",
+        "3.20 mm",
+        "3.22 mm"
+      ],
+      "answer": 1,
+      "difficulty": "hard",
+      "explanation": "L.C. $= 0.5/50 = 0.01$ mm. Observed reading $= 3 + 20\\times0.01 = 3.20$ mm. True reading $=$ observed $-$ zero error $= 3.20 - 0.02 = 3.18$ mm."
+    },
+    {
+      "id": "phy-units-and-measurements-024",
+      "q": "Using dimensional analysis, the time period of a simple pendulum of length $l$ in a gravitational field $g$ must be proportional to",
+      "options": [
+        "$lg$",
+        "$l/g$",
+        "$\\sqrt{l/g}$",
+        "$\\sqrt{g/l}$"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "Only $\\sqrt{l/g}$ has the dimension $[T]$: $[L/(LT^{-2})]^{1/2} = [T^2]^{1/2} = [T]$, consistent with $T = 2\\pi\\sqrt{l/g}$."
+    },
+    {
+      "id": "phy-units-and-measurements-025",
+      "q": "A car moves at 72 km/h. Its speed in m/s is",
+      "options": [
+        "72 m/s",
+        "25 m/s",
+        "15 m/s",
+        "20 m/s"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "$72\\,\\text{km/h} = 72\\times\\dfrac{5}{18}\\,\\text{m/s} = 20\\,\\text{m/s}$."
+    },
+    {
+      "id": "phy-units-and-measurements-026",
+      "q": "The SI unit of pressure is the",
+      "options": [
+        "pascal",
+        "watt",
+        "newton",
+        "joule"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "Pressure $=$ force/area, with SI unit pascal (Pa) $=$ N/m$^2$; newton, joule and watt are units of force, energy and power respectively."
+    },
+    {
+      "id": "phy-units-and-measurements-027",
+      "q": "The parallax method is used in astronomy chiefly to measure the",
+      "options": [
+        "luminosity of a star",
+        "distance of a nearby star",
+        "mass of a distant star",
+        "surface temperature of a star"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "By observing the apparent shift (parallax angle) of a nearby star against distant background stars from two positions of Earth's orbit, its distance can be calculated."
+    },
+    {
+      "id": "phy-units-and-measurements-028",
+      "q": "Which statement correctly expresses the principle of homogeneity of dimensions?",
+      "options": [
+        "An equation that is dimensionally correct is always physically correct",
+        "Dimensional formulas can be used to find numerical proportionality constants",
+        "Only quantities with the same dimensions can be added, subtracted or equated",
+        "All quantities in an equation must have different dimensions"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "The principle of homogeneity states that terms being added, subtracted or equated in a valid physical equation must all have the same dimensions; dimensional analysis cannot fix dimensionless constants or guarantee physical correctness."
+    },
+    {
+      "id": "phy-units-and-measurements-029",
+      "q": "In an experiment, $R = V/I$ where $V = (100 \\pm 5)$ V and $I = (10 \\pm 0.2)$ A. The percentage error in $R$ is",
+      "options": [
+        "10%",
+        "3%",
+        "7%",
+        "5%"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "For division, percentage errors add: $\\dfrac{\\Delta R}{R}\\times100 = \\dfrac{5}{100}\\times100 + \\dfrac{0.2}{10}\\times100 = 5\\% + 2\\% = 7\\%$."
+    },
+    {
+      "id": "phy-units-and-measurements-030",
+      "q": "Which of the following is an SI base unit, not a derived unit?",
+      "options": [
+        "joule",
+        "newton",
+        "watt",
+        "mole"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "Mole is one of the seven SI base units (amount of substance); newton, joule and watt are all derived from the base units."
+    },
+    {
+      "id": "phy-units-and-measurements-031",
+      "q": "Angular momentum has the same dimensional formula as",
+      "options": [
+        "Planck's constant",
+        "power",
+        "torque",
+        "work"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "Both angular momentum and Planck's constant have dimensions $[ML^2T^{-1}]$, while torque and work share $[ML^2T^{-2}]$ and power is $[ML^2T^{-3}]$."
+    },
+    {
+      "id": "phy-units-and-measurements-032",
+      "q": "The sum $4.237 + 3.2$, expressed to the correct number of decimal places, is",
+      "options": [
+        "7.437",
+        "7.4",
+        "7.44",
+        "7.5"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "$4.237+3.2=7.437$, but for addition the result keeps only as many decimal places as the least precise term (3.2 has 1 decimal place), giving 7.4."
+    },
+    {
+      "id": "phy-units-and-measurements-033",
+      "q": "From the force on a current-carrying conductor $F = BIL$, the dimensional formula of magnetic field $B$ is",
+      "options": [
+        "$[MLT^{-2}A^{-1}]$",
+        "$[ML^2T^{-2}A^{-1}]$",
+        "$[MT^{-2}A^{-1}]$",
+        "$[MT^{-1}A^{-1}]$"
+      ],
+      "answer": 2,
+      "difficulty": "hard",
+      "explanation": "$B = F/(IL) = [MLT^{-2}]/([A][L]) = [MT^{-2}A^{-1}]$."
+    },
+    {
+      "id": "phy-units-and-measurements-034",
+      "q": "On a vernier caliper, 1 main scale division (MSD) is 1 mm and 10 vernier scale divisions (VSD) coincide with 9 MSD. The least count of the instrument is",
+      "options": [
+        "0.1 mm",
+        "1 mm",
+        "0.01 mm",
+        "0.9 mm"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "1 VSD $= 0.9$ MSD $= 0.9$ mm. Least count $= 1$ MSD $-$ 1 VSD $= 1 - 0.9 = 0.1$ mm."
+    },
+    {
+      "id": "phy-units-and-measurements-035",
+      "q": "Which of the following is an example of a systematic error?",
+      "options": [
+        "An observer's careless mistake made in a single reading",
+        "Statistical error that reduces on averaging many readings",
+        "Random error due to unpredictable fluctuations in conditions",
+        "Zero error of the measuring instrument"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "A zero error is reproducible in every reading (a systematic error) and can be corrected for, unlike random errors, which fluctuate unpredictably and are reduced by averaging."
+    },
+    {
+      "id": "phy-units-and-measurements-036",
+      "q": "The time period $T$ of oscillation of a small liquid drop of radius $r$, density $\\rho$, held together by surface tension $S$, is found using dimensional analysis to be proportional to",
+      "options": [
+        "$\\sqrt{Sr^3/\\rho}$",
+        "$\\sqrt{\\rho r^3/S}$",
+        "$\\sqrt{\\rho S/r^3}$",
+        "$\\sqrt{r^3/(\\rho S)}$"
+      ],
+      "answer": 1,
+      "difficulty": "hard",
+      "explanation": "Writing $T \\propto \\rho^a r^b S^c$ and matching $[M^0L^0T^1]$ with $[\\rho]=[ML^{-3}]$, $[r]=[L]$, $[S]=[MT^{-2}]$ gives $a=\\tfrac12$, $b=\\tfrac32$, $c=-\\tfrac12$, so $T \\propto \\sqrt{\\rho r^3/S}$."
+    },
+    {
+      "id": "phy-units-and-measurements-037",
+      "q": "The SI unit of frequency is the",
+      "options": [
+        "watt",
+        "joule",
+        "hertz",
+        "newton"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "Frequency has dimension $[T^{-1}]$ and SI unit hertz (Hz) $= $ s$^{-1}$."
+    },
+    {
+      "id": "phy-units-and-measurements-038",
+      "q": "Which of the following physical quantities has the same dimensional formula as impulse?",
+      "options": [
+        "momentum",
+        "pressure",
+        "energy",
+        "power"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "Impulse $= F\\Delta t$ has dimension $[MLT^{-1}]$, identical to momentum $mv$; by the impulse-momentum theorem, impulse equals the change in momentum."
+    },
+    {
+      "id": "phy-units-and-measurements-039",
+      "q": "A quantity $X = \\dfrac{A^3B^2}{C\\sqrt{D}}$. If the percentage errors in $A$, $B$, $C$, $D$ are 2%, 1%, 3% and 4% respectively, the percentage error in $X$ is",
+      "options": [
+        "11%",
+        "15%",
+        "9%",
+        "13%"
+      ],
+      "answer": 3,
+      "difficulty": "hard",
+      "explanation": "$\\dfrac{\\Delta X}{X} = 3(2\\%)+2(1\\%)+1(3\\%)+\\tfrac12(4\\%) = 6+2+3+2 = 13\\%$."
+    },
+    {
+      "id": "phy-units-and-measurements-040",
+      "q": "The number of significant figures in $6.020\\times10^{23}$ is",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "23"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "In the coefficient 6.020, all digits — including the trailing zero after the decimal point — are significant, giving 4 significant figures."
+    }
+  ]
+}

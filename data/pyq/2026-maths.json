@@ -1,0 +1,809 @@
+{
+  "title": "KCET 2026 Mathematics",
+  "year": 2026,
+  "subject": "maths",
+  "code": "D4",
+  "source": "KEA question paper (copy) + KEA answer key column D4 (revised key dated 10-05-2026: no changes for Mathematics)",
+  "excluded": [],
+  "questions": [
+    {
+      "n": 1,
+      "q": "$\\tan^{-1}\\left(\\dfrac{1}{1+1\\cdot2}\\right)+\\tan^{-1}\\left(\\dfrac{1}{1+2\\cdot3}\\right)+\\cdots+\\tan^{-1}\\left(\\dfrac{1}{1+n(n+1)}\\right)=$",
+      "options": [
+        "$\\tan^{-1}\\left(\\dfrac{n}{n+2}\\right)$",
+        "$\\tan^{-1}\\left(\\dfrac{n+1}{n}\\right)$",
+        "$\\tan^{-1}\\left(\\dfrac{n}{n+1}\\right)$",
+        "$\\tan^{-1}\\left(\\dfrac{n+2}{n}\\right)$"
+      ],
+      "answer": 0,
+      "chapter": "Inverse Trigonometric Functions",
+      "explanation": "Each term is $\\tan^{-1}(k+1)-\\tan^{-1}(k)$, so the sum telescopes to $\\tan^{-1}(n+1)-\\tan^{-1}(1)=\\tan^{-1}\\left(\\dfrac{n}{n+2}\\right)$."
+    },
+    {
+      "n": 2,
+      "q": "The corner points of the feasible region determined by the system of linear constraints are $(0,10),(5,5),(15,15),(0,20)$. Let $z=px+qy$, where $p,q>0$. The relation between $p$ and $q$, so that the maximum $z$ occurs at both points $(15,15)$ and $(0,20)$ is",
+      "options": [
+        "$p=q$",
+        "$p=2q$",
+        "$q=2p$",
+        "$q=3p$"
+      ],
+      "answer": 3,
+      "chapter": "Linear Programming",
+      "explanation": "Equal $z$ at both points: $15p+15q=0\\cdot p+20q \\Rightarrow 15p=5q \\Rightarrow q=3p$."
+    },
+    {
+      "n": 3,
+      "q": "In Linear Programming Problem (LPP), the objective function $Z=ax+by$ has the same maximum value at two corner points. The number of points at which $Z_{max}$ occurs is",
+      "options": [
+        "1",
+        "2",
+        "0",
+        "Infinity"
+      ],
+      "answer": 3,
+      "chapter": "Linear Programming",
+      "explanation": "When the maximum occurs at two corner points, it occurs at every point of the line segment joining them, giving infinitely many optimal points."
+    },
+    {
+      "n": 4,
+      "q": "Probability of obtaining an even prime number on each die when a pair of dice is rolled is",
+      "options": [
+        "0",
+        "$\\dfrac{1}{6}$",
+        "$\\dfrac{1}{12}$",
+        "$\\dfrac{1}{36}$"
+      ],
+      "answer": 3,
+      "chapter": "Probability",
+      "explanation": "The only even prime is 2. P(2 on each die) $=\\dfrac{1}{6}\\times\\dfrac{1}{6}=\\dfrac{1}{36}$."
+    },
+    {
+      "n": 5,
+      "q": "The probability that a man and his wife live after 20 years are $\\dfrac{1}{4}$ and $\\dfrac{1}{3}$ respectively. The probability that neither the man nor his wife live after 20 years is",
+      "options": [
+        "$\\dfrac{3}{4}$",
+        "$\\dfrac{5}{12}$",
+        "$\\dfrac{7}{12}$",
+        "$\\dfrac{1}{2}$"
+      ],
+      "answer": 3,
+      "chapter": "Probability",
+      "explanation": "P(neither) $=(1-\\tfrac14)(1-\\tfrac13)=\\tfrac34\\times\\tfrac23=\\tfrac12$."
+    },
+    {
+      "n": 6,
+      "q": "Integrating factor of the differential equation $(1-x^2)\\dfrac{dy}{dx}-xy=1$ is",
+      "options": [
+        "$1-x^2$",
+        "$\\dfrac{1}{2}\\log(1-x^2)$",
+        "$\\dfrac{x}{1-x^2}$",
+        "$\\sqrt{1-x^2}$"
+      ],
+      "answer": 3,
+      "chapter": "Differential Equations",
+      "explanation": "Writing as $\\dfrac{dy}{dx}-\\dfrac{x}{1-x^2}y=\\dfrac{1}{1-x^2}$, I.F. $=e^{\\int -\\frac{x}{1-x^2}dx}=e^{\\frac12\\ln(1-x^2)}=\\sqrt{1-x^2}$."
+    },
+    {
+      "n": 7,
+      "q": "Recent studies suggest that 12% of the world population is left handed. Depending on parents hand usage, the chances of having left handed children are as follows: A: Both parents are left handed, chances of having left handed children = 24%; B: Both parents are right handed, chances of having left handed children = 9%; C: Father left handed and mother right handed, chances of having left handed children = 17%; D: Father right handed and mother left handed, chances of having left handed children = 22%. Given $P(A)=P(B)=P(C)=P(D)=1/4$ and L denotes child is left handed. What is the probability that $P(A|L)$?",
+      "options": [
+        "$\\dfrac{17}{80}$",
+        "$\\dfrac{24}{75}$",
+        "$\\dfrac{1}{3}$",
+        "$\\dfrac{1}{2}$"
+      ],
+      "answer": 2,
+      "chapter": "Probability",
+      "explanation": "$P(L)=\\tfrac14(0.24+0.09+0.17+0.22)=\\tfrac14(0.72)=0.18$. By Bayes' theorem, $P(A|L)=\\dfrac{\\tfrac14(0.24)}{0.18}=\\dfrac{0.06}{0.18}=\\dfrac13$."
+    },
+    {
+      "n": 8,
+      "q": "If $\\alpha$ and $\\beta$ are acute angles such that $\\alpha+\\beta$ and $\\alpha-\\beta$ satisfy the equation $\\tan^2\\theta-4\\tan\\theta+1=0$, then $\\alpha$ and $\\beta$ are respectively",
+      "options": [
+        "$45^\\circ,30^\\circ$",
+        "$75^\\circ,15^\\circ$",
+        "$30^\\circ,60^\\circ$",
+        "$60^\\circ,45^\\circ$"
+      ],
+      "answer": 0,
+      "chapter": "Trigonometric Functions",
+      "explanation": "Product of roots $=1 \\Rightarrow \\tan(\\alpha+\\beta)\\tan(\\alpha-\\beta)=1 \\Rightarrow (\\alpha+\\beta)+(\\alpha-\\beta)=90^\\circ \\Rightarrow \\alpha=45^\\circ$. Sum of roots $=4$ then gives $\\tan\\beta=1/\\sqrt3 \\Rightarrow \\beta=30^\\circ$."
+    },
+    {
+      "n": 9,
+      "q": "$\\sum_{r=1}^{n}(r\\cdot r!)=$ ________",
+      "options": [
+        "1",
+        "$n$",
+        "$(n+1)!-1$",
+        "0"
+      ],
+      "answer": 2,
+      "chapter": "Permutations and Combinations",
+      "explanation": "Since $r\\cdot r!=(r+1)!-r!$, the sum telescopes: $\\sum_{r=1}^n \\left[(r+1)!-r!\\right]=(n+1)!-1$."
+    },
+    {
+      "n": 10,
+      "q": "The solution of $3x-5<2x-4$ is",
+      "options": [
+        "$x<1$",
+        "$x>-1$",
+        "$x<9$",
+        "$x>9$"
+      ],
+      "answer": 0,
+      "chapter": "Linear Inequalities",
+      "explanation": "$3x-5<2x-4 \\Rightarrow x<1$."
+    },
+    {
+      "n": 11,
+      "q": "10 distinct points are taken on a circle. Then using these points\nStatement I : The number of triangles that can be formed is 100\nStatement II : The number of chords that can be formed is 45\nWhich of the following is correct?",
+      "options": [
+        "Both Statement I and Statement II are true",
+        "Both Statement I and Statement II are false",
+        "Statement I is true and Statement II is false",
+        "Statement I is false and Statement II is true"
+      ],
+      "answer": 3,
+      "chapter": "Permutations and Combinations",
+      "explanation": "Triangles $=\\,{}^{10}C_3=120\\neq100$ (Statement I false). Chords $=\\,{}^{10}C_2=45$ (Statement II true)."
+    },
+    {
+      "n": 12,
+      "q": "How many ways can you arrange all the letters and numbers in \"KCET 2025\" which start with K and end with 5?",
+      "options": [
+        "720",
+        "360",
+        "120",
+        "180"
+      ],
+      "answer": 1,
+      "chapter": "Permutations and Combinations",
+      "explanation": "\"KCET 2025\" has 8 symbols (K,C,E,T,2,0,2,5) with the digit 2 repeated. Fixing K first and 5 last leaves 6 symbols (C,E,T,2,0,2) with one repeated pair, giving $\\dfrac{6!}{2!}=360$ arrangements."
+    },
+    {
+      "n": 13,
+      "q": "The value of $\\lim_{x\\to2}\\dfrac{x^3+3x^2-9x-2}{x^3-x^2-4x+4}$ is ________",
+      "options": [
+        "3",
+        "$\\dfrac{15}{4}$",
+        "$\\dfrac{15}{2}$",
+        "$\\dfrac{15}{13}$"
+      ],
+      "answer": 2,
+      "chapter": "Limits and Derivatives",
+      "disputed": true,
+      "note": "Direct computation gives 15/4 (option B): factoring (x-2) from numerator and denominator leaves (x^2+5x+1)/(x^2+x-2), which equals 15/4 at x=2; KEA's key credits 15/2.",
+      "explanation": "Factoring out $(x-2)$: numerator $=(x-2)(x^2+5x+1)$, denominator $=(x-2)(x^2+x-2)$. The limit is $\\dfrac{2^2+5(2)+1}{2^2+2-2}=\\dfrac{15}{4}$ by direct computation; KEA's key marks $\\dfrac{15}{2}$ as correct (as per KEA key)."
+    },
+    {
+      "n": 14,
+      "q": "If we insert two numbers between $\\sqrt2$ and 4 so that the resulting sequence is in G.P., then the inserted numbers in the order are",
+      "options": [
+        "$4,\\sqrt2$",
+        "$2,2\\sqrt2$",
+        "$\\sqrt8,2$",
+        "$2\\sqrt2,4$"
+      ],
+      "answer": 1,
+      "chapter": "Sequences and Series",
+      "explanation": "With common ratio $r$, $4=\\sqrt2\\cdot r^3 \\Rightarrow r^3=2\\sqrt2 \\Rightarrow r=\\sqrt2$. The inserted terms are $\\sqrt2\\cdot\\sqrt2=2$ and $2\\cdot\\sqrt2=2\\sqrt2$."
+    },
+    {
+      "n": 15,
+      "q": "Match List-I with List-II\nList-I\na) A matrix which is not a square matrix\nb) A square matrix $A'=A$\nc) The diagonal elements of a diagonal matrix are same\nd) A matrix which is both symmetric and skew symmetric\nList-II\ni) Symmetric matrix\nii) Null matrix\niii) Rectangular matrix\niv) Scalar matrix\nCodes:",
+      "options": [
+        "a - iii, b - i, c - iv, d - ii",
+        "a - iii, b - ii, c - iv, d - i",
+        "a - i, b - ii, c - iv, d - iii",
+        "a - iii, b - iv, c - i, d - ii"
+      ],
+      "answer": 2,
+      "chapter": "Matrices",
+      "disputed": true,
+      "note": "The correct match is a-iii, b-i, c-iv, d-ii (option A); KEA's key credits option (3) (a-i, b-ii, c-iv, d-iii), which misassigns 'a' and 'b'.",
+      "explanation": "a is a rectangular matrix (iii), b is a symmetric matrix (i), c is a scalar matrix (iv), and d (symmetric and skew-symmetric together) must be the null matrix (ii), giving a-iii, b-i, c-iv, d-ii; KEA's key marks option (3) as correct (as per KEA key)."
+    },
+    {
+      "n": 16,
+      "q": "Consider the following statements:\nStatement I : If $A$ is a non-singular matrix, then $A^{-1}$ exists.\nStatement II : If $A$ and $B$ are symmetric matrices of same order, then $(AB-BA)$ is a skew symmetric matrix.\nChoose the correct option.",
+      "options": [
+        "Statement I is true and Statement II is false",
+        "Statement I is false and Statement II is false",
+        "Statement I is true and Statement II is true",
+        "Statement I is false and Statement II is true"
+      ],
+      "answer": 2,
+      "chapter": "Matrices",
+      "explanation": "A non-singular matrix always has an inverse (Statement I true). For symmetric $A,B$: $(AB-BA)'=B'A'-A'B'=BA-AB=-(AB-BA)$, so it is skew symmetric (Statement II true)."
+    },
+    {
+      "n": 17,
+      "q": "A row matrix has only",
+      "options": [
+        "One element",
+        "One row with one or more columns",
+        "One column with one or more rows",
+        "One row and one column"
+      ],
+      "answer": 1,
+      "chapter": "Matrices",
+      "explanation": "By definition, a row matrix has exactly one row and one or more columns."
+    },
+    {
+      "n": 18,
+      "q": "Let $X$ be a matrix of order $2\\times n$ and $Z$ be a matrix of order $2\\times p$. If $n=p$, then the order of the matrix $7X-5Z$ is:",
+      "options": [
+        "$2\\times n$",
+        "$n\\times 3$",
+        "$p\\times 2$",
+        "$p\\times n$"
+      ],
+      "answer": 0,
+      "chapter": "Matrices",
+      "explanation": "Since $n=p$, both matrices have order $2\\times n$, and subtraction/addition preserves order, so $7X-5Z$ is $2\\times n$."
+    },
+    {
+      "n": 19,
+      "q": "Which of the following is correct?",
+      "options": [
+        "Determinant is a square matrix.",
+        "Determinant is a number associated to a matrix.",
+        "Determinant is a unique number associated to a square matrix.",
+        "Determinant is not defined for a square matrix."
+      ],
+      "answer": 2,
+      "chapter": "Determinants",
+      "explanation": "A determinant is a unique real number associated with every square matrix."
+    },
+    {
+      "n": 20,
+      "q": "If $A$ and $B$ are invertible matrices of same order, then which of the following is $\\underline{\\text{not}}$ correct?",
+      "options": [
+        "$A\\cdot(\\text{adj }A)=(\\text{adj }A)\\cdot A=|A|I$",
+        "$A\\cdot\\text{adj }A=\\text{adj }A\\cdot A=|A|$",
+        "$(AB)^{-1}=B^{-1}A^{-1}$",
+        "$|A|\\neq0,|B|\\neq0$"
+      ],
+      "answer": 0,
+      "chapter": "Determinants",
+      "disputed": true,
+      "note": "Option (1) as printed is a true and standard identity, so the statement that is actually not correct is option (2) (it omits the identity matrix I, so dimensionally it cannot hold in general); KEA's key nevertheless credits option (1).",
+      "explanation": "$A(\\text{adj }A)=(\\text{adj }A)A=|A|I$ is the correct identity (option 2 wrongly omits $I$), so option (1) as printed is a true statement; KEA's key nevertheless marks option (1) as the one that is not correct (as per KEA key)."
+    },
+    {
+      "n": 21,
+      "q": "If $A$ and $B$ are invertible square matrices of order $n$, then which of the following is $\\underline{\\text{not}}$ correct?",
+      "options": [
+        "$\\det(AB)=\\det(A)\\cdot\\det(B)$",
+        "$\\det(kA)=k^n\\det(A)$",
+        "$\\det(A+B)=\\det(A)+\\det(B)$",
+        "$\\det(A^{-1})=\\dfrac{1}{\\det(A)}$"
+      ],
+      "answer": 2,
+      "chapter": "Determinants",
+      "explanation": "In general $\\det(A+B)\\neq\\det A+\\det B$, while the other three identities always hold."
+    },
+    {
+      "n": 22,
+      "q": "The area of the triangle with vertices $(3,8),(-4,2)$ and $(5,1)$ is $\\dfrac{P}{4}$, then the value of $P$ is",
+      "options": [
+        "$\\dfrac{61}{2}$",
+        "$\\dfrac{2}{61}$",
+        "122",
+        "$\\dfrac{1}{122}$"
+      ],
+      "answer": 2,
+      "chapter": "Determinants",
+      "explanation": "Area $=\\tfrac12|3(2-1)+(-4)(1-8)+5(8-2)|=\\tfrac12|3+28+30|=\\tfrac{61}{2}=\\dfrac{P}{4}\\Rightarrow P=122$."
+    },
+    {
+      "n": 23,
+      "q": "The system of equations $x+2y=3$ and $2x+3y=3$ has",
+      "options": [
+        "No solution",
+        "Unique solution",
+        "Infinite solutions",
+        "Only two solutions"
+      ],
+      "answer": 1,
+      "chapter": "Determinants",
+      "explanation": "Determinant of coefficients $=1(3)-2(2)=-1\\neq0$, so the system has a unique solution."
+    },
+    {
+      "n": 24,
+      "q": "If $\\vec a=2\\hat i+2\\hat j-\\hat k, \\vec b=\\alpha\\hat i+\\beta\\hat j+2\\hat k$ and $|\\vec a+\\vec b|=|\\vec a-\\vec b|$, then $\\alpha+\\beta$ is equal to",
+      "options": [
+        "2",
+        "-1",
+        "0",
+        "1"
+      ],
+      "answer": 3,
+      "chapter": "Vector Algebra",
+      "explanation": "$|\\vec a+\\vec b|=|\\vec a-\\vec b|\\Rightarrow \\vec a\\cdot\\vec b=0\\Rightarrow 2\\alpha+2\\beta-2=0\\Rightarrow \\alpha+\\beta=1$."
+    },
+    {
+      "n": 25,
+      "q": "If $\\vec a=\\hat i+\\hat j+\\hat k, \\vec b=\\hat j-\\hat k$ and $\\vec a\\times\\vec c=\\vec b, \\vec a\\cdot\\vec c=3$, then $\\vec c$ is",
+      "options": [
+        "$\\dfrac53\\hat i+\\dfrac23\\hat j-\\dfrac23\\hat k$",
+        "$\\dfrac53\\hat i-\\dfrac23\\hat j+\\dfrac23\\hat k$",
+        "$\\dfrac53\\hat i+\\dfrac23\\hat j+\\dfrac23\\hat k$",
+        "$\\dfrac53\\hat i-\\dfrac23\\hat j-\\dfrac23\\hat k$"
+      ],
+      "answer": 2,
+      "chapter": "Vector Algebra",
+      "explanation": "Let $\\vec c=(x,y,z)$. $\\vec a\\times\\vec c=(z-y,x-z,y-x)=(0,1,-1)$ gives $z=y,\\ x-z=1$. With $x+y+z=3$: $3y+1=3\\Rightarrow y=\\tfrac23$, so $x=\\tfrac53,z=\\tfrac23$, i.e. $\\vec c=\\tfrac53\\hat i+\\tfrac23\\hat j+\\tfrac23\\hat k$."
+    },
+    {
+      "n": 26,
+      "q": "The value of $\\lambda$ for which the vectors $\\vec a=2\\hat i+\\lambda\\hat j+\\hat k$ and $\\vec b=\\hat i+2\\hat j+3\\hat k$ are orthogonal is",
+      "options": [
+        "$\\dfrac52$",
+        "$\\dfrac{-5}{2}$",
+        "$\\dfrac25$",
+        "$\\dfrac{-2}{5}$"
+      ],
+      "answer": 1,
+      "chapter": "Vector Algebra",
+      "explanation": "$\\vec a\\cdot\\vec b=2+2\\lambda+3=0\\Rightarrow \\lambda=-\\dfrac52$."
+    },
+    {
+      "n": 27,
+      "q": "The angle between the lines whose direction ratios are $a,b,c$ and $b-c,c-a,a-b$ is",
+      "options": [
+        "$90^\\circ$",
+        "$45^\\circ$",
+        "$30^\\circ$",
+        "$0^\\circ$"
+      ],
+      "answer": 0,
+      "chapter": "Three Dimensional Geometry",
+      "explanation": "Dot product $=a(b-c)+b(c-a)+c(a-b)=0$, so the lines are perpendicular, i.e. angle $=90^\\circ$."
+    },
+    {
+      "n": 28,
+      "q": "The measure of the angle between the lines $x=k-1,y=2k+1,z=2k+3, k\\in\\mathbb R$ and $\\dfrac{x+1}{2}=\\dfrac{y-2}{1}=\\dfrac{z-1}{2}$ is",
+      "options": [
+        "$\\cos^{-1}\\left(\\dfrac23\\right)$",
+        "$\\cos^{-1}\\left(\\dfrac89\\right)$",
+        "$\\cos^{-1}\\left(\\dfrac{5}{12}\\right)$",
+        "$\\sin^{-1}\\left(\\dfrac89\\right)$"
+      ],
+      "answer": 1,
+      "chapter": "Three Dimensional Geometry",
+      "explanation": "Direction ratios are $(1,2,2)$ and $(2,1,2)$. $\\cos\\theta=\\dfrac{1(2)+2(1)+2(2)}{3\\times3}=\\dfrac89$."
+    },
+    {
+      "n": 29,
+      "q": "The line $L_1$ joining the two points $(-1,2)$ and $(3,6)$ divides the line $L_2$ which passes through $(3,-1)$ in the ratio 1:3 internally, then the equation of $L_2$ is",
+      "options": [
+        "$4x-3y-9=0$",
+        "$4x-3y+9=0$",
+        "$4x+3y-9=0$",
+        "$4x+3y+9=0$"
+      ],
+      "answer": 2,
+      "chapter": "Straight Lines",
+      "explanation": "The point dividing $(-1,2)$ and $(3,6)$ in ratio 1:3 is $\\left(\\dfrac{3-3}{4},\\dfrac{6+6}{4}\\right)=(0,3)$. $L_2$ through $(3,-1)$ and $(0,3)$ has slope $-\\dfrac43$, giving $4x+3y-9=0$."
+    },
+    {
+      "n": 30,
+      "q": "In the figure\nStatement I : When $\\alpha>\\beta\\ge0$, the section is hyperbola\nStatement II : When $\\beta=90^\\circ$, the section is ellipse\nWhich of the following is correct? [Figure: a cone cut by a plane, $\\alpha$ = semi-vertical angle of the cone, $\\beta$ = angle the cutting plane makes with the axis]",
+      "options": [
+        "Statement I is true, Statement II is false",
+        "Statement I is false, Statement II is true",
+        "Both the Statements are true",
+        "Both the Statements are false"
+      ],
+      "answer": 0,
+      "chapter": "Conic Sections",
+      "explanation": "When $0\\le\\beta<\\alpha$ the plane cuts both nappes giving a hyperbola (Statement I true); when $\\beta=90^\\circ$ the plane is perpendicular to the axis, giving a circle, not an ellipse (Statement II false).",
+      "figure": true
+    },
+    {
+      "n": 31,
+      "q": "The three points $A(2,4,3), B(4,a,9)$ and $C(10,-1,7)$ form a right-angled triangle with $\\angle B=90^\\circ$, then the value of 'a' is",
+      "options": [
+        "1 or 4",
+        "-2 or 4",
+        "1 or -4",
+        "-2 or -4"
+      ],
+      "answer": 1,
+      "chapter": "Introduction to Three Dimensional Geometry",
+      "disputed": true,
+      "note": "Solving BA.BC=0 with the printed coordinates A(2,4,3), B(4,a,9), C(10,-1,7) gives a=4 or a=-1, which does not match any listed pair exactly; the printed coordinates are likely corrupted. KEA's key credits '-2 or 4' (option B), kept as the official answer.",
+      "explanation": "With $\\angle B=90^\\circ$, $\\vec{BA}\\cdot\\vec{BC}=0$. Using the given points this simplifies to a quadratic in $a$; solving it gives the values of $a$ for which the triangle is right-angled at $B$ (as per KEA key: $-2$ or $4$)."
+    },
+    {
+      "n": 32,
+      "q": "If $\\lim_{x\\to3}\\left(\\dfrac{x^2-ax-3a}{x-3}\\right)=5$, then $a+b=$",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "answer": 2,
+      "chapter": "Limits and Derivatives",
+      "disputed": true,
+      "note": "The printed limit expression (x^2-ax-3a)/(x-3) contains only the constant 'a', so 'a+b' in the question cannot be evaluated as printed; the question text is corrupted (missing a 'b' term). KEA's key credits option (3), a+b=3, kept as the official answer.",
+      "explanation": "For the limit to be finite as the denominator $\\to0$, the numerator must vanish at $x=3$, which fixes the constant(s) in the expression so that the limit equals 5; solving as intended by KEA gives $a+b=3$ (as per KEA key; the printed expression appears to be missing a term, likely a transcription issue in the source paper)."
+    },
+    {
+      "n": 33,
+      "q": "If $f(x)=\\begin{cases}x^2-1 & \\text{if } x\\ge2\\\\x+1 & \\text{if } x<2\\end{cases}$, then $\\lim_{x\\to2^+}f(x)+\\lim_{x\\to2^-}f(x)=$",
+      "options": [
+        "7",
+        "5",
+        "6",
+        "9"
+      ],
+      "answer": 1,
+      "chapter": "Limits and Derivatives",
+      "disputed": true,
+      "note": "Both one-sided limits equal 3 (2^2-1=3 and 2+1=3), so the sum is 6 (option C); KEA's key credits 5 (option B).",
+      "explanation": "$\\lim_{x\\to2^+}f(x)=2^2-1=3$ and $\\lim_{x\\to2^-}f(x)=2+1=3$, so the sum is $6$ by direct computation; KEA's key marks $5$ as correct (as per KEA key)."
+    },
+    {
+      "n": 34,
+      "q": "If $y=\\sqrt{\\tan x+y}$, then $\\dfrac{dy}{dx}=$",
+      "options": [
+        "$\\dfrac{\\sec x}{2y-1}$",
+        "$\\dfrac{\\sec^2 x}{2y-1}$",
+        "$\\dfrac{\\tan x}{2y-1}$",
+        "$\\dfrac{\\sin^2 x}{2y-1}$"
+      ],
+      "answer": 3,
+      "chapter": "Continuity and Differentiability",
+      "disputed": true,
+      "note": "Implicit differentiation of y^2=tan x+y gives y'=sec^2 x/(2y-1) (option B); KEA's key credits sin^2 x/(2y-1) (option D).",
+      "explanation": "Squaring, $y^2=\\tan x+y$. Differentiating: $2yy'=\\sec^2x+y' \\Rightarrow y'=\\dfrac{\\sec^2x}{2y-1}$ by direct computation; KEA's key marks $\\dfrac{\\sin^2x}{2y-1}$ as correct (as per KEA key)."
+    },
+    {
+      "n": 35,
+      "q": "If $f(x)=\\begin{cases}ax+7 & \\text{if } x<1\\\\2x-3 & \\text{if } x=1\\\\dfrac{x+b}{b} & \\text{if } x>1\\end{cases}$ is continuous at $x=1$, then",
+      "options": [
+        "$a=3,b=2$",
+        "$a=-8,b=-2$",
+        "$a=8,b=-2$",
+        "$a=-8,b=2$"
+      ],
+      "answer": 3,
+      "chapter": "Continuity and Differentiability",
+      "disputed": true,
+      "note": "As printed, the third piece (x+b)/b requires (1+b)/b=-1, giving b=-1/2 for continuity, which matches no option; the printed third piece is likely corrupted. KEA's key credits a=-8, b=2 (option D), kept as the official answer.",
+      "explanation": "Continuity requires the left-hand limit to equal $f(1)$: $a+7=2(1)-3=-1\\Rightarrow a=-8$. Matching the right-hand branch with $f(1)=-1$ fixes $b$ as per KEA's key, giving $a=-8,b=2$ (as per KEA key; the printed right-hand expression may contain a transcription error)."
+    },
+    {
+      "n": 36,
+      "q": "The second order derivative of $\\sec^{-1}\\left(\\dfrac{1}{2x^2-1}\\right)$ with respect to $\\cos^{-1}(2x^2-1)$, where $0<x<\\dfrac{1}{\\sqrt2}$ is",
+      "options": [
+        "0",
+        "1",
+        "$\\dfrac12$",
+        "-1"
+      ],
+      "answer": 0,
+      "chapter": "Continuity and Differentiability",
+      "explanation": "Since $\\sec^{-1}(1/y)=\\cos^{-1}(y)$, we get $\\sec^{-1}\\left(\\frac{1}{2x^2-1}\\right)=\\cos^{-1}(2x^2-1)$, i.e. the two quantities are identical. So $u=v$, hence $\\dfrac{d^2u}{dv^2}=0$."
+    },
+    {
+      "n": 37,
+      "q": "If $f(x)=\\sin^{-1}\\left(\\dfrac{2x}{1+x^2}\\right)$, then $f'\\left(\\dfrac12\\right)=$",
+      "options": [
+        "$\\dfrac45$",
+        "$\\dfrac85$",
+        "$\\dfrac25$",
+        "0"
+      ],
+      "answer": 0,
+      "chapter": "Continuity and Differentiability",
+      "disputed": true,
+      "note": "For |x|<=1, sin^{-1}(2x/(1+x^2))=2 tan^{-1}x, so f'(1/2)=2/(1+0.25)=8/5 (option B); KEA's key credits 4/5 (option A).",
+      "explanation": "For $|x|\\le1$, $\\sin^{-1}\\left(\\frac{2x}{1+x^2}\\right)=2\\tan^{-1}x$, so $f'(x)=\\dfrac{2}{1+x^2}$, giving $f'(1/2)=\\dfrac{2}{1.25}=\\dfrac85$ by direct computation; KEA's key marks $\\dfrac45$ as correct (as per KEA key)."
+    },
+    {
+      "n": 38,
+      "q": "If $\\sqrt x\\,\\sqrt[3]{y}=(x+y)^n$ and $x\\dfrac{dy}{dx}-y=0$, then $n=$",
+      "options": [
+        "1",
+        "$\\dfrac65$",
+        "$\\dfrac56$",
+        "$\\dfrac49$"
+      ],
+      "answer": 2,
+      "chapter": "Continuity and Differentiability",
+      "explanation": "Taking logs: $\\tfrac12\\ln x+\\tfrac13\\ln y=n\\ln(x+y)$. Differentiating and using $xy'=y$ (i.e. $y'=y/x$) simplifies the equation to $\\dfrac{5}{6x}=\\dfrac{n}{x}$, giving $n=\\dfrac56$."
+    },
+    {
+      "n": 39,
+      "q": "In a Mahakumbh, a drone camera is moving along $3y=x^3-3$. When y-coordinate changes 9 times as fast as x-coordinate, it captures good quality pictures. Then one of the precise positions of the drone at that instant is",
+      "options": [
+        "$(-3,8)$",
+        "$(3,-8)$",
+        "$(3,8)$",
+        "$(-3,-8)$"
+      ],
+      "answer": 2,
+      "chapter": "Application of Derivatives",
+      "explanation": "$\\dfrac{dy}{dx}=x^2=9\\Rightarrow x=\\pm3$. At $x=3$: $3y=27-3=24\\Rightarrow y=8$, giving the point $(3,8)$."
+    },
+    {
+      "n": 40,
+      "q": "A Youtube short video is getting viral according to $f(t)=-2t^3+3t^2+5$. At what time does the video get maximum number of shares? (t is in hours)",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "answer": 0,
+      "chapter": "Application of Derivatives",
+      "explanation": "$f'(t)=-6t^2+6t=6t(1-t)=0\\Rightarrow t=0,1$. $f''(t)=-12t+6$; at $t=1$, $f''=-6<0$, so maximum occurs at $t=1$."
+    },
+    {
+      "n": 41,
+      "q": "$\\int xf(x)dx+\\dfrac{f(x)}{2}=0$, then $f(x)$ is equal to",
+      "options": [
+        "$e^{-2x}$",
+        "$e^{2x}$",
+        "$e^{-x^2}$",
+        "$e^{x^2}$"
+      ],
+      "answer": 2,
+      "chapter": "Differential Equations",
+      "explanation": "Differentiating the given relation, $xf(x)+\\tfrac12f'(x)=0\\Rightarrow \\dfrac{f'(x)}{f(x)}=-2x\\Rightarrow \\ln f(x)=-x^2+C\\Rightarrow f(x)=Ce^{-x^2}$."
+    },
+    {
+      "n": 42,
+      "q": "One of the possible functions $f(x)$ which satisfies $\\int_{-2}^2 f(x)dx=0$ is",
+      "options": [
+        "$\\log\\left(\\dfrac{2+x}{2-x}\\right)$",
+        "$\\sin(2+x)$",
+        "$2x^3+2x+1$",
+        "$2x\\tan x$"
+      ],
+      "answer": 0,
+      "chapter": "Integrals",
+      "explanation": "$f(x)=\\log\\left(\\frac{2+x}{2-x}\\right)$ is an odd function since $f(-x)=-f(x)$, so its integral over the symmetric interval $[-2,2]$ is zero."
+    },
+    {
+      "n": 43,
+      "q": "$\\int_{a-6}^{b-6}f(x+6)dx$ is equal to",
+      "options": [
+        "$\\int_a^b f(x-6)dx$",
+        "$\\int_a^b f(x+6)dx$",
+        "$\\int_a^b f(x)dx$",
+        "$\\int_a^b f(-x)dx$"
+      ],
+      "answer": 2,
+      "chapter": "Integrals",
+      "explanation": "Substituting $u=x+6$, the limits become $a$ to $b$, giving $\\int_a^b f(u)du=\\int_a^b f(x)dx$."
+    },
+    {
+      "n": 44,
+      "q": "If 'n' is a natural number, then $\\int \\dfrac{\\sin^n x}{\\cos^{n+2}x}dx=$",
+      "options": [
+        "$\\dfrac{\\tan^{n-1}x}{n-1}+C$",
+        "$\\dfrac{\\tan^n x}{n}+C$",
+        "$\\dfrac{\\tan^{n+2}x}{n+2}+C$",
+        "$\\dfrac{\\tan^{n+1}x}{n+1}+C$"
+      ],
+      "answer": 3,
+      "chapter": "Integrals",
+      "explanation": "$\\int \\tan^n x\\sec^2x\\,dx=\\dfrac{\\tan^{n+1}x}{n+1}+C$ by the substitution $t=\\tan x$."
+    },
+    {
+      "n": 45,
+      "q": "$\\int e^{-x\\log 2}2^x dx=$",
+      "options": [
+        "$\\log x+C$",
+        "$x+C$",
+        "$\\dfrac1x+C$",
+        "$\\dfrac{x^2}{2}+C$"
+      ],
+      "answer": 1,
+      "chapter": "Integrals",
+      "explanation": "$e^{-x\\log2}=2^{-x}$, so the integrand is $2^{-x}\\cdot2^x=1$, and $\\int 1\\,dx=x+C$."
+    },
+    {
+      "n": 46,
+      "q": "The area of the region bounded by the curve $y^2=x^3$, the y-axis and the lines $y=1$ and $y=8$ is",
+      "options": [
+        "$\\dfrac{155}{3}$ sq. units",
+        "$\\dfrac{93}{5}$ sq. units",
+        "93 sq. units",
+        "155 sq. units"
+      ],
+      "answer": 1,
+      "chapter": "Application of Integrals",
+      "explanation": "$x=y^{2/3}$, so Area $=\\int_1^8 y^{2/3}dy=\\left[\\dfrac{3}{5}y^{5/3}\\right]_1^8=\\dfrac35(32-1)=\\dfrac{93}{5}$ sq. units."
+    },
+    {
+      "n": 47,
+      "q": "The area enclosed by the curve $x=\\sqrt3\\cos\\theta, y=\\sqrt3\\sin\\theta$ is",
+      "options": [
+        "$\\sqrt3\\pi$ sq. units",
+        "$9\\pi$ sq. units",
+        "$6\\pi$ sq. units",
+        "$3\\pi$ sq. units"
+      ],
+      "answer": 3,
+      "chapter": "Application of Integrals",
+      "explanation": "This is a circle of radius $\\sqrt3$, so its area is $\\pi(\\sqrt3)^2=3\\pi$ sq. units."
+    },
+    {
+      "n": 48,
+      "q": "Sum of the squares of the order and degree (if defined) of a differential equation $2y'+(y'')^2=\\sqrt{y''-3}$ is",
+      "options": [
+        "13",
+        "20",
+        "8",
+        "16"
+      ],
+      "answer": 1,
+      "chapter": "Differential Equations",
+      "explanation": "The order is 2 (from $y''$). Squaring to remove the radical makes $(y'')^4$ the highest power, so the degree is 4. Sum of squares $=2^2+4^2=4+16=20$."
+    },
+    {
+      "n": 49,
+      "q": "If $A=\\{a,b,c,d,e,f\\}$, then the number of subsets of A which contains at least 2 elements is",
+      "options": [
+        "64",
+        "65",
+        "57",
+        "59"
+      ],
+      "answer": 2,
+      "chapter": "Sets",
+      "explanation": "Total subsets $=2^6=64$. Removing the empty set (1) and singletons (6) leaves $64-1-6=57$."
+    },
+    {
+      "n": 50,
+      "q": "If $A=\\{1,2,3,4,\\ldots,10\\}$, then the number of non empty subsets of A containing only even number is",
+      "options": [
+        "31",
+        "82",
+        "30",
+        "29"
+      ],
+      "answer": 0,
+      "chapter": "Sets",
+      "explanation": "The even numbers in $A$ are $\\{2,4,6,8,10\\}$ (5 elements), giving $2^5-1=31$ non-empty subsets."
+    },
+    {
+      "n": 51,
+      "q": "The domain of the function $\\sqrt{\\dfrac{x-7}{9-x}}$ is",
+      "options": [
+        "$(7,9)$",
+        "$[7,9)$",
+        "$[7,9]$",
+        "$(7,9]$"
+      ],
+      "answer": 1,
+      "chapter": "Relations and Functions",
+      "explanation": "We need $\\dfrac{x-7}{9-x}\\ge0$ with $x\\neq9$. This holds for $7\\le x<9$, i.e. the domain is $[7,9)$."
+    },
+    {
+      "n": 52,
+      "q": "If $n(A)=2$ and the number of relations from set A to set B is 1024, then $n(B)$ is",
+      "options": [
+        "2",
+        "5",
+        "$2^5$",
+        "$5^2$"
+      ],
+      "answer": 1,
+      "chapter": "Relations and Functions",
+      "explanation": "Number of relations $=2^{n(A)\\cdot n(B)}=2^{2n(B)}=1024=2^{10}\\Rightarrow 2n(B)=10\\Rightarrow n(B)=5$."
+    },
+    {
+      "n": 53,
+      "q": "Probability of at least one of the events A and B occur is 0.6. If A and B occur simultaneously with probability 0.2, then $P(\\bar A)+P(\\bar B)$ is",
+      "options": [
+        "1",
+        "0.8",
+        "0.6",
+        "1.2"
+      ],
+      "answer": 3,
+      "chapter": "Probability",
+      "explanation": "$P(A\\cup B)=P(A)+P(B)-P(A\\cap B)\\Rightarrow 0.6=P(A)+P(B)-0.2\\Rightarrow P(A)+P(B)=0.8$. So $P(\\bar A)+P(\\bar B)=2-0.8=1.2$."
+    },
+    {
+      "n": 54,
+      "q": "The maximum value of $\\sin(x+\\pi/6)+\\cos(x+\\pi/6)$ is attained at $x=$",
+      "options": [
+        "$\\pi/2$",
+        "$\\pi/4$",
+        "$\\pi/6$",
+        "$\\pi/12$"
+      ],
+      "answer": 3,
+      "chapter": "Trigonometric Functions",
+      "explanation": "$\\sin\\theta+\\cos\\theta=\\sqrt2\\sin(\\theta+\\pi/4)$ is maximum when $\\theta+\\pi/4=\\pi/2$, i.e. $x+\\pi/6+\\pi/4=\\pi/2\\Rightarrow x=\\pi/12$."
+    },
+    {
+      "n": 55,
+      "q": "The angles of a triangle are in A.P and the greatest angle is double the least angle, then sine of the third angle is",
+      "options": [
+        "$\\dfrac{\\sqrt3}{2}$",
+        "$\\dfrac{1}{\\sqrt2}$",
+        "$\\dfrac12$",
+        "0"
+      ],
+      "answer": 0,
+      "chapter": "Trigonometric Functions",
+      "explanation": "Let angles be $a-d,a,a+d$; sum gives $a=60^\\circ$. Greatest $=$ twice least: $a+d=2(a-d)\\Rightarrow d=20^\\circ$. The angles are $40^\\circ,60^\\circ,80^\\circ$; the third (middle) angle is $60^\\circ$, and $\\sin60^\\circ=\\dfrac{\\sqrt3}{2}$."
+    },
+    {
+      "n": 56,
+      "q": "The mean and standard deviation of 100 items are 50 and 4, respectively then the sum of all squares of the items is",
+      "options": [
+        "250000",
+        "251600",
+        "256100",
+        "265100"
+      ],
+      "answer": 1,
+      "chapter": "Statistics",
+      "explanation": "$\\sigma^2=\\dfrac{\\sum x^2}{n}-\\bar x^2 \\Rightarrow \\sum x^2=n(\\sigma^2+\\bar x^2)=100(16+2500)=251600$."
+    },
+    {
+      "n": 57,
+      "q": "Probability of occurrence of an event A is 1/2 and that of B is 3/10. If A and B are mutually exclusive, then the probability of occurrence of neither A nor B is",
+      "options": [
+        "$\\dfrac45$",
+        "$\\dfrac35$",
+        "$\\dfrac25$",
+        "$\\dfrac15$"
+      ],
+      "answer": 3,
+      "chapter": "Probability",
+      "explanation": "$P(A\\cup B)=P(A)+P(B)=\\tfrac12+\\tfrac{3}{10}=\\tfrac{8}{10}$. P(neither) $=1-\\tfrac{8}{10}=\\tfrac15$."
+    },
+    {
+      "n": 58,
+      "q": "Let R be the relation in the set N given by $R=\\{(a,b):a=b-2,b>6\\}$. Which of the following is the correct answer?",
+      "options": [
+        "$(2,4)\\in R$",
+        "$(3,8)\\in R$",
+        "$(6,8)\\in R$",
+        "$(8,7)\\in R$"
+      ],
+      "answer": 2,
+      "chapter": "Relations and Functions",
+      "explanation": "Checking $(6,8)$: $a=6=b-2=8-2$ and $b=8>6$, so it satisfies both conditions."
+    },
+    {
+      "n": 59,
+      "q": "$f(x)=(x+1)^2$ for $x\\ge1$. $g(x)$ is a function whose graph is the reflection of the graph of $f(x)$ in the line $y=x$, then $g(x)$ is",
+      "options": [
+        "$-\\sqrt x-1$",
+        "$\\sqrt x+1$",
+        "$\\sqrt x-1$",
+        "$\\sqrt{-x}-1$"
+      ],
+      "answer": 2,
+      "chapter": "Relations and Functions",
+      "explanation": "$g$ is the inverse of $f$. From $y=(x+1)^2$ with $x\\ge1$, $x+1=\\sqrt y$ (positive root), so $x=\\sqrt y-1$, i.e. $g(x)=\\sqrt x-1$."
+    },
+    {
+      "n": 60,
+      "q": "If $\\sin^{-1}x+\\sin^{-1}y=\\pi/2$, then $x^2$ is equal to",
+      "options": [
+        "$1-y^2$",
+        "$1+y^2$",
+        "$\\sqrt{1-y^2}$",
+        "$\\sqrt{1+y^2}$"
+      ],
+      "answer": 0,
+      "chapter": "Inverse Trigonometric Functions",
+      "explanation": "$\\sin^{-1}x=\\dfrac\\pi2-\\sin^{-1}y=\\cos^{-1}y\\Rightarrow x=\\sqrt{1-y^2}\\Rightarrow x^2=1-y^2$."
+    }
+  ]
+}

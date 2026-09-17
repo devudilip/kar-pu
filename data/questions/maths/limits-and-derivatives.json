@@ -1,0 +1,525 @@
+{
+  "notes": "<h3>Algebra of limits</h3><ul><li>$\\lim[f(x)\\pm g(x)]=\\lim f(x)\\pm\\lim g(x)$; $\\lim[f(x)g(x)]=\\lim f(x)\\cdot\\lim g(x)$; $\\lim\\dfrac{f(x)}{g(x)}=\\dfrac{\\lim f(x)}{\\lim g(x)}$ provided $\\lim g(x)\\neq0$.</li></ul><h3>Standard limits</h3><table><tr><th>Limit</th><th>Value</th></tr><tr><td>$\\lim\\limits_{x\\to a}\\dfrac{x^n-a^n}{x-a}$</td><td>$na^{n-1}$</td></tr><tr><td>$\\lim\\limits_{x\\to0}\\dfrac{\\sin x}{x}$</td><td>$1$</td></tr><tr><td>$\\lim\\limits_{x\\to0}\\dfrac{\\tan x}{x}$</td><td>$1$</td></tr><tr><td>$\\lim\\limits_{x\\to0}\\dfrac{1-\\cos x}{x}$</td><td>$0$</td></tr><tr><td>$\\lim\\limits_{x\\to0}\\dfrac{e^x-1}{x}$</td><td>$1$</td></tr><tr><td>$\\lim\\limits_{x\\to0}\\dfrac{\\log(1+x)}{x}$</td><td>$1$</td></tr></table><ul><li>For limits at $x\\to\\infty$ of a ratio of polynomials, divide by the highest power of $x$; the limit is the ratio of leading coefficients if degrees are equal, 0 if numerator's degree is smaller, and $\\pm\\infty$ if larger.</li><li>Trick: for $\\sin(kx)/x$ type forms, write as $k\\cdot\\dfrac{\\sin(kx)}{kx}\\to k$; similarly for $\\tan$, $e^{kx}-1$, $\\log(1+kx)$.</li></ul><h3>Derivative from first principles</h3><ul><li>$f'(x)=\\lim\\limits_{h\\to0}\\dfrac{f(x+h)-f(x)}{h}$.</li></ul><h3>Standard derivatives</h3><ul><li>$\\dfrac{d}{dx}x^n=nx^{n-1}$; $\\dfrac{d}{dx}\\sin x=\\cos x$; $\\dfrac{d}{dx}\\cos x=-\\sin x$; $\\dfrac{d}{dx}\\tan x=\\sec^2x$; $\\dfrac{d}{dx}e^x=e^x$; $\\dfrac{d}{dx}\\log x=\\dfrac1x$; derivative of a constant is 0.</li></ul><h3>Product and quotient rules</h3><ul><li>$(uv)' = u'v+uv'$.</li><li>$\\left(\\dfrac{u}{v}\\right)' = \\dfrac{u'v-uv'}{v^2}$.</li></ul><h3>Exam tip</h3><p>KCET typically asks 2-3 questions from this chapter, split between evaluating a standard limit (trig, exponential/log, or algebraic) and finding a derivative by first principles or using product/quotient rule. Simplify the function first (e.g. split a fraction) before differentiating — it is often faster than the full quotient rule.</p>",
+  "questions": [
+    {
+      "id": "mat-limits-and-derivatives-001",
+      "q": "$\\lim\\limits_{x\\to2}\\dfrac{x^2-4}{x-2}$ equals",
+      "options": [
+        "8",
+        "2",
+        "4",
+        "0"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "$\\dfrac{x^2-4}{x-2}=x+2 \\to 4$ as $x\\to2$ (or use $na^{n-1}=2(2)=4$)."
+    },
+    {
+      "id": "mat-limits-and-derivatives-002",
+      "q": "$\\lim\\limits_{x\\to0}\\dfrac{\\sin5x}{x}$ equals",
+      "options": [
+        "5",
+        "1",
+        "0",
+        "$1/5$"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "$\\dfrac{\\sin5x}{x}=5\\cdot\\dfrac{\\sin5x}{5x}\\to5\\times1=5$."
+    },
+    {
+      "id": "mat-limits-and-derivatives-003",
+      "q": "$\\lim\\limits_{x\\to0}\\dfrac{1-\\cos2x}{x^2}$ equals",
+      "options": [
+        "0",
+        "2",
+        "1",
+        "4"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "$1-\\cos2x=2\\sin^2x$, so the limit $=2\\left(\\dfrac{\\sin x}{x}\\right)^2\\to2$."
+    },
+    {
+      "id": "mat-limits-and-derivatives-004",
+      "q": "$\\lim\\limits_{x\\to3}\\dfrac{x^3-27}{x-3}$ equals",
+      "options": [
+        "9",
+        "3",
+        "81",
+        "27"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "Using $\\lim\\dfrac{x^n-a^n}{x-a}=na^{n-1}$: $3(3)^2=27$."
+    },
+    {
+      "id": "mat-limits-and-derivatives-005",
+      "q": "$\\lim\\limits_{x\\to0}\\dfrac{e^{3x}-1}{x}$ equals",
+      "options": [
+        "$1/3$",
+        "$e^3$",
+        "1",
+        "3"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "$\\dfrac{e^{3x}-1}{x}=3\\cdot\\dfrac{e^{3x}-1}{3x}\\to3\\times1=3$."
+    },
+    {
+      "id": "mat-limits-and-derivatives-006",
+      "q": "$\\lim\\limits_{x\\to0}\\dfrac{\\log(1+4x)}{x}$ equals",
+      "options": [
+        "4",
+        "0",
+        "$1/4$",
+        "1"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "$\\dfrac{\\log(1+4x)}{x}=4\\cdot\\dfrac{\\log(1+4x)}{4x}\\to4\\times1=4$."
+    },
+    {
+      "id": "mat-limits-and-derivatives-007",
+      "q": "$\\lim\\limits_{x\\to\\infty}\\dfrac{3x^2+2x+1}{5x^2-x+7}$ equals",
+      "options": [
+        "0",
+        "$3/5$",
+        "$5/3$",
+        "1"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "For equal degree polynomials, the limit is the ratio of leading coefficients: $3/5$."
+    },
+    {
+      "id": "mat-limits-and-derivatives-008",
+      "q": "$\\dfrac{d}{dx}(x^5)$ equals",
+      "options": [
+        "$4x^4$",
+        "$x^4$",
+        "$5x^4$",
+        "$5x^5$"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "By the power rule, $\\dfrac{d}{dx}x^n=nx^{n-1}$, so $\\dfrac{d}{dx}x^5=5x^4$."
+    },
+    {
+      "id": "mat-limits-and-derivatives-009",
+      "q": "The value of $\\dfrac{d}{dx}(\\sin x)$ at $x=0$ is",
+      "options": [
+        "0",
+        "1",
+        "$-1$",
+        "undefined"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "$\\dfrac{d}{dx}\\sin x=\\cos x$; at $x=0$, $\\cos0=1$."
+    },
+    {
+      "id": "mat-limits-and-derivatives-010",
+      "q": "Using first principles, the derivative of $f(x)=x^2$ is",
+      "options": [
+        "2",
+        "$x^2$",
+        "$x$",
+        "$2x$"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "$f'(x)=\\lim\\limits_{h\\to0}\\dfrac{(x+h)^2-x^2}{h}=\\lim\\limits_{h\\to0}(2x+h)=2x$."
+    },
+    {
+      "id": "mat-limits-and-derivatives-011",
+      "q": "$\\dfrac{d}{dx}(x^3\\sin x)$ equals",
+      "options": [
+        "$3x^2\\sin x$",
+        "$x^3\\cos x$",
+        "$3x^2\\sin x + x^3\\cos x$",
+        "$3x^2\\sin x - x^3\\cos x$"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "By the product rule, $(uv)'=u'v+uv'$ with $u=x^3, v=\\sin x$: $3x^2\\sin x + x^3\\cos x$."
+    },
+    {
+      "id": "mat-limits-and-derivatives-012",
+      "q": "$\\dfrac{d}{dx}\\left(\\dfrac{x^2+1}{x}\\right)$ equals",
+      "options": [
+        "$1-1/x^2$",
+        "$-1/x^2$",
+        "$2x/x$",
+        "$1+1/x^2$"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "Simplify first: $\\dfrac{x^2+1}{x}=x+\\dfrac1x$; derivative $=1-\\dfrac1{x^2}$."
+    },
+    {
+      "id": "mat-limits-and-derivatives-013",
+      "q": "$\\lim\\limits_{x\\to0}\\dfrac{\\sqrt{1+x}-\\sqrt{1-x}}{x}$ equals",
+      "options": [
+        "1",
+        "2",
+        "0",
+        "$1/2$"
+      ],
+      "answer": 0,
+      "difficulty": "hard",
+      "explanation": "Rationalising: $\\dfrac{2x}{x(\\sqrt{1+x}+\\sqrt{1-x})}=\\dfrac{2}{\\sqrt{1+x}+\\sqrt{1-x}}\\to\\dfrac{2}{2}=1$."
+    },
+    {
+      "id": "mat-limits-and-derivatives-014",
+      "q": "$\\lim\\limits_{x\\to0}\\dfrac{\\tan x-\\sin x}{x^3}$ equals",
+      "options": [
+        "1",
+        "2",
+        "0",
+        "$1/2$"
+      ],
+      "answer": 3,
+      "difficulty": "hard",
+      "explanation": "$\\tan x - \\sin x = \\sin x\\left(\\dfrac{1-\\cos x}{\\cos x}\\right)\\approx x\\cdot\\dfrac{x^2/2}{1}=\\dfrac{x^3}{2}$, so the limit is $1/2$."
+    },
+    {
+      "id": "mat-limits-and-derivatives-015",
+      "q": "$\\dfrac{d}{dx}\\left(\\dfrac{e^x}{x}\\right)$ equals",
+      "options": [
+        "$\\dfrac{e^x(x+1)}{x^2}$",
+        "$\\dfrac{e^x(x-1)}{x^2}$",
+        "$\\dfrac{e^x}{x^2}$",
+        "$\\dfrac{e^x(1-x)}{x^2}$"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "Quotient rule: $\\dfrac{e^x\\cdot x - e^x\\cdot1}{x^2} = \\dfrac{e^x(x-1)}{x^2}$."
+    },
+    {
+      "id": "mat-limits-and-derivatives-016",
+      "q": "The value of $\\dfrac{d}{dx}(\\log x)$ at $x=e$ is",
+      "options": [
+        "1",
+        "$\\ln e$",
+        "$1/e$",
+        "$e$"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "$\\dfrac{d}{dx}\\log x = \\dfrac1x$; at $x=e$ this is $\\dfrac1e$."
+    },
+    {
+      "id": "mat-limits-and-derivatives-017",
+      "q": "$\\lim\\limits_{x\\to1}\\dfrac{x^4-1}{x^2-1}$ equals",
+      "options": [
+        "2",
+        "0",
+        "1",
+        "4"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "$\\dfrac{x^4-1}{x^2-1}=\\dfrac{(x^2-1)(x^2+1)}{x^2-1}=x^2+1 \\to 1+1=2$."
+    },
+    {
+      "id": "mat-limits-and-derivatives-018",
+      "q": "$\\dfrac{d}{dx}(5)$ equals",
+      "options": [
+        "undefined",
+        "1",
+        "0",
+        "5"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "The derivative of any constant is 0, since a constant function does not change."
+    },
+    {
+      "id": "mat-limits-and-derivatives-019",
+      "q": "$\\lim\\limits_{x\\to0}\\dfrac{1-\\cos x}{x^2}$ equals",
+      "options": [
+        "2",
+        "0",
+        "1",
+        "$1/2$"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "$1-\\cos x \\approx \\dfrac{x^2}{2}$ for small $x$, so the limit is $\\dfrac12$."
+    },
+    {
+      "id": "mat-limits-and-derivatives-020",
+      "q": "The value of $\\dfrac{d}{dx}(\\cos x)$ at $x=\\pi/2$ is",
+      "options": [
+        "undefined",
+        "$-1$",
+        "1",
+        "0"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "$\\dfrac{d}{dx}\\cos x=-\\sin x$; at $x=\\pi/2$, $-\\sin(\\pi/2)=-1$."
+    },
+    {
+      "id": "mat-limits-and-derivatives-021",
+      "q": "$\\lim\\limits_{x\\to0}\\dfrac{\\tan3x}{\\sin2x}$ equals",
+      "options": [
+        "$2/3$",
+        "$3/2$",
+        "6",
+        "1"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "For small $x$, $\\tan3x\\approx3x$ and $\\sin2x\\approx2x$, so the limit is $\\dfrac{3x}{2x}=\\dfrac32$."
+    },
+    {
+      "id": "mat-limits-and-derivatives-022",
+      "q": "$\\lim\\limits_{x\\to\\infty}\\dfrac{2x^3+3x^2+1}{x^4+5x+2}$ equals",
+      "options": [
+        "2",
+        "$1/5$",
+        "$\\infty$",
+        "0"
+      ],
+      "answer": 3,
+      "difficulty": "hard",
+      "explanation": "The denominator's degree (4) exceeds the numerator's degree (3), so dividing by $x^4$ shows the limit is 0."
+    },
+    {
+      "id": "mat-limits-and-derivatives-023",
+      "q": "The value of $\\dfrac{d}{dx}(\\tan x)$ at $x=0$ is",
+      "options": [
+        "1",
+        "0",
+        "undefined",
+        "$-1$"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "$\\dfrac{d}{dx}\\tan x=\\sec^2x$; at $x=0$, $\\sec^2 0=1$."
+    },
+    {
+      "id": "mat-limits-and-derivatives-024",
+      "q": "$\\lim\\limits_{x\\to0}\\dfrac{e^{5x}-1}{\\sin2x}$ equals",
+      "options": [
+        "$2/5$",
+        "$5/2$",
+        "5",
+        "2"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "Using $e^{5x}-1\\approx5x$ and $\\sin2x\\approx2x$, the limit is $\\dfrac{5x}{2x}=\\dfrac52$."
+    },
+    {
+      "id": "mat-limits-and-derivatives-025",
+      "q": "Using first principles, the derivative of $f(x)=\\dfrac1x$ is",
+      "options": [
+        "$1/x^2$",
+        "$-1/x^2$",
+        "$1/x$",
+        "$-1/x$"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "$f'(x)=\\lim\\limits_{h\\to0}\\dfrac{\\frac{1}{x+h}-\\frac1x}{h}=\\lim\\limits_{h\\to0}\\dfrac{-h}{hx(x+h)}=-\\dfrac{1}{x^2}$."
+    },
+    {
+      "id": "mat-limits-and-derivatives-026",
+      "q": "Using first principles, the derivative of $f(x)=\\sqrt x$ is",
+      "options": [
+        "$1/\\sqrt x$",
+        "$2\\sqrt x$",
+        "$\\sqrt x$",
+        "$1/(2\\sqrt x)$"
+      ],
+      "answer": 3,
+      "difficulty": "hard",
+      "explanation": "$f'(x)=\\lim\\limits_{h\\to0}\\dfrac{\\sqrt{x+h}-\\sqrt x}{h}=\\lim\\limits_{h\\to0}\\dfrac{h}{h(\\sqrt{x+h}+\\sqrt x)}=\\dfrac{1}{2\\sqrt x}$."
+    },
+    {
+      "id": "mat-limits-and-derivatives-027",
+      "q": "$\\lim\\limits_{x\\to2}\\dfrac{x^2-3x+2}{x-2}$ equals",
+      "options": [
+        "0",
+        "2",
+        "1",
+        "$-1$"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "$\\dfrac{x^2-3x+2}{x-2}=\\dfrac{(x-1)(x-2)}{x-2}=x-1 \\to 1$ as $x\\to2$."
+    },
+    {
+      "id": "mat-limits-and-derivatives-028",
+      "q": "The value of $\\dfrac{d}{dx}(3x^2-4x+7)$ at $x=1$ is",
+      "options": [
+        "2",
+        "3",
+        "6",
+        "$-4$"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "Derivative $=6x-4$; at $x=1$, $6(1)-4=2$."
+    },
+    {
+      "id": "mat-limits-and-derivatives-029",
+      "q": "$\\lim\\limits_{x\\to0}\\dfrac{\\log(1+3x)}{\\log(1+5x)}$ equals",
+      "options": [
+        "15",
+        "$5/3$",
+        "1",
+        "$3/5$"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "Using $\\log(1+kx)\\approx kx$ for small $x$, the limit is $\\dfrac{3x}{5x}=\\dfrac35$."
+    },
+    {
+      "id": "mat-limits-and-derivatives-030",
+      "q": "$\\lim\\limits_{x\\to0}\\dfrac{1-\\cos4x}{1-\\cos2x}$ equals",
+      "options": [
+        "$1/4$",
+        "4",
+        "1",
+        "2"
+      ],
+      "answer": 1,
+      "difficulty": "hard",
+      "explanation": "$1-\\cos4x=2\\sin^22x$ and $1-\\cos2x=2\\sin^2x$, so the ratio $=\\dfrac{\\sin^22x}{\\sin^2x}=\\dfrac{4\\sin^2x\\cos^2x}{\\sin^2x}=4\\cos^2x \\to 4$ as $x\\to0$."
+    },
+    {
+      "id": "mat-limits-and-derivatives-031",
+      "q": "$\\dfrac{d}{dx}(x^{-2})$ equals",
+      "options": [
+        "$-2x^{-3}$",
+        "$x^{-3}$",
+        "$2x^{-3}$",
+        "$-2x^{-1}$"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "By the power rule, $\\dfrac{d}{dx}x^n=nx^{n-1}$, so $\\dfrac{d}{dx}x^{-2}=-2x^{-3}$."
+    },
+    {
+      "id": "mat-limits-and-derivatives-032",
+      "q": "$\\lim\\limits_{x\\to0} x\\cot x$ equals",
+      "options": [
+        "$\\infty$",
+        "$-1$",
+        "1",
+        "0"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "$x\\cot x = \\dfrac{x\\cos x}{\\sin x} = \\cos x \\cdot \\dfrac{x}{\\sin x} \\to 1\\times1=1$."
+    },
+    {
+      "id": "mat-limits-and-derivatives-033",
+      "q": "If $f(x)=x^2+3x$, the value of $f'(2)$ (using $f'(x)=2x+3$ from first principles) is",
+      "options": [
+        "9",
+        "5",
+        "4",
+        "7"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "$f'(x)=2x+3$; $f'(2)=2(2)+3=7$."
+    },
+    {
+      "id": "mat-limits-and-derivatives-034",
+      "q": "$\\lim\\limits_{x\\to0}\\dfrac{3^x-1}{x}$ equals",
+      "options": [
+        "$\\ln3$",
+        "$1/3$",
+        "1",
+        "3"
+      ],
+      "answer": 0,
+      "difficulty": "hard",
+      "explanation": "Just as $\\dfrac{e^x-1}{x}\\to1$, in general $\\dfrac{a^x-1}{x}\\to\\ln a$; here $a=3$, giving $\\ln3$."
+    },
+    {
+      "id": "mat-limits-and-derivatives-035",
+      "q": "The value of $\\dfrac{d}{dx}(\\sin x+\\cos x)$ at $x=0$ is",
+      "options": [
+        "2",
+        "0",
+        "1",
+        "$-1$"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "Derivative $=\\cos x-\\sin x$; at $x=0$, $\\cos0-\\sin0=1-0=1$."
+    },
+    {
+      "id": "mat-limits-and-derivatives-036",
+      "q": "$\\lim\\limits_{x\\to1}\\dfrac{x^3-1}{x^2-1}$ equals",
+      "options": [
+        "1",
+        "$3/2$",
+        "$2/3$",
+        "3"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "$\\dfrac{x^3-1}{x^2-1}=\\dfrac{(x-1)(x^2+x+1)}{(x-1)(x+1)}=\\dfrac{x^2+x+1}{x+1} \\to \\dfrac{3}{2}$ as $x\\to1$."
+    },
+    {
+      "id": "mat-limits-and-derivatives-037",
+      "q": "The value of $\\dfrac{d}{dx}\\left(\\dfrac{x-1}{x+1}\\right)$ at $x=0$ is",
+      "options": [
+        "$-2$",
+        "0",
+        "2",
+        "1"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "Quotient rule: $\\dfrac{(1)(x+1)-(x-1)(1)}{(x+1)^2}=\\dfrac{2}{(x+1)^2}$; at $x=0$, this is $2$."
+    },
+    {
+      "id": "mat-limits-and-derivatives-038",
+      "q": "A function is defined as $f(x)=x^2$ for $x<1$ and $f(x)=2x-1$ for $x\\ge1$. At $x=1$, $f$ is",
+      "options": [
+        "continuous but not differentiable",
+        "both continuous and differentiable",
+        "neither continuous nor differentiable",
+        "differentiable but not continuous"
+      ],
+      "answer": 1,
+      "difficulty": "hard",
+      "explanation": "Both pieces give value 1 at $x=1$ (continuous), and both derivatives ($2x$ and $2$) equal 2 at $x=1$ (differentiable)."
+    },
+    {
+      "id": "mat-limits-and-derivatives-039",
+      "q": "The value of $\\dfrac{d}{dx}(7x^3-2x+9)$ at $x=0$ is",
+      "options": [
+        "$-2$",
+        "9",
+        "7",
+        "0"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "Derivative $=21x^2-2$; at $x=0$, this equals $-2$."
+    },
+    {
+      "id": "mat-limits-and-derivatives-040",
+      "q": "$\\lim\\limits_{x\\to0}\\dfrac{\\sin x - x}{x^3}$ equals",
+      "options": [
+        "$-1/3$",
+        "$1/6$",
+        "0",
+        "$-1/6$"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "Using the series $\\sin x = x-\\dfrac{x^3}{6}+\\cdots$, $\\sin x-x\\approx-\\dfrac{x^3}{6}$, so the limit is $-\\dfrac16$."
+    }
+  ]
+}

@@ -1,0 +1,525 @@
+{
+  "notes": "<h3>Basic Definitions</h3><ul><li><b>Order</b> = order of the highest derivative present. <b>Degree</b> = power of the highest order derivative, provided the equation is a polynomial in its derivatives; otherwise degree is <i>not defined</i> (e.g. when $\\sin, \\cos, e$ of a derivative appears).</li><li>A <b>general solution</b> has as many independent arbitrary constants as the order of the DE. A <b>particular solution</b> fixes those constants using given conditions, so it has zero arbitrary constants.</li></ul><h3>Formation of a Differential Equation</h3><ul><li>Given a family of curves with $n$ arbitrary constants, differentiate $n$ times and eliminate the constants to obtain a DE of order $n$.</li></ul><h3>Variable Separable</h3><ul><li>If the equation can be written as $g(y)\\,dy = f(x)\\,dx$, integrate both sides directly.</li></ul><h3>Homogeneous Differential Equations</h3><ul><li>$\\dfrac{dy}{dx} = F\\left(\\dfrac{y}{x}\\right)$, a function of $y/x$ only. Substitute $y = vx$, so $\\dfrac{dy}{dx} = v + x\\dfrac{dv}{dx}$; this converts the equation to variable-separable form in $v$ and $x$.</li></ul><h3>Linear Differential Equations</h3><table><tr><td>Form</td><td>$\\dfrac{dy}{dx} + Py = Q$ ($P,Q$ functions of $x$ only)</td></tr><tr><td>Integrating factor</td><td>$\\text{I.F.} = e^{\\int P\\,dx}$</td></tr><tr><td>Solution</td><td>$y\\cdot(\\text{I.F.}) = \\displaystyle\\int Q\\cdot(\\text{I.F.})\\,dx + C$</td></tr><tr><td>Other form</td><td>$\\dfrac{dx}{dy} + P_1x = Q_1$, I.F. $= e^{\\int P_1\\,dy}$</td></tr></table><h3>Common Families and their DEs</h3><ul><li>Lines through origin $y=mx$ &rarr; $x\\dfrac{dy}{dx} = y$.</li><li>Circles centred at origin $x^2+y^2=r^2$ &rarr; $x + y\\dfrac{dy}{dx} = 0$.</li></ul><h3>Exam tip</h3><p>KCET usually asks 3&ndash;4 questions from this chapter: one on order/degree (often a 'degree not defined' trap), one on forming a DE from a given family, and one or two on solving a variable-separable, homogeneous, or linear DE. Practise finding the integrating factor quickly &mdash; it is the fastest way to identify the correct option.</p>",
+  "questions": [
+    {
+      "id": "mat-differential-equations-001",
+      "q": "The order and degree of the differential equation $\\left(\\dfrac{d^3y}{dx^3}\\right)^2 + \\left(\\dfrac{d^2y}{dx^2}\\right)^3 = x$ are",
+      "options": [
+        "order 2, degree 2",
+        "order 2, degree 3",
+        "order 3, degree 2",
+        "order 3, degree 3"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "The highest order derivative present is $d^3y/dx^3$, so order $=3$; it occurs with power 2, so degree $=2$."
+    },
+    {
+      "id": "mat-differential-equations-002",
+      "q": "The degree of the differential equation $\\dfrac{dy}{dx} + \\sin\\left(\\dfrac{dy}{dx}\\right) = 0$ is",
+      "options": [
+        "1",
+        "not defined",
+        "2",
+        "0"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "Since $\\sin(dy/dx)$ is not a polynomial expression in the derivative, the degree of this (order 1) equation is not defined."
+    },
+    {
+      "id": "mat-differential-equations-003",
+      "q": "The number of arbitrary constants in the general solution of a differential equation of order 4 is",
+      "options": [
+        "4",
+        "3",
+        "2",
+        "1"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "A general solution of an $n$th order differential equation contains exactly $n$ independent arbitrary constants."
+    },
+    {
+      "id": "mat-differential-equations-004",
+      "q": "The differential equation whose general solution is $y = A\\cos 2x + B\\sin 2x$ is",
+      "options": [
+        "$\\dfrac{d^2y}{dx^2} + 2y = 0$",
+        "$\\dfrac{d^2y}{dx^2} - 2y = 0$",
+        "$\\dfrac{d^2y}{dx^2} - 4y = 0$",
+        "$\\dfrac{d^2y}{dx^2} + 4y = 0$"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "Differentiating twice: $y'' = -4A\\cos2x - 4B\\sin2x = -4y$, so $y'' + 4y = 0$."
+    },
+    {
+      "id": "mat-differential-equations-005",
+      "q": "Eliminating the arbitrary constant $r$ from the family of circles $x^2 + y^2 = r^2$ gives the differential equation",
+      "options": [
+        "$x - y\\dfrac{dy}{dx} = 0$",
+        "$xy\\dfrac{dy}{dx} = 1$",
+        "$y + x\\dfrac{dy}{dx} = 0$",
+        "$x + y\\dfrac{dy}{dx} = 0$"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "Differentiating $x^2+y^2=r^2$ w.r.t. $x$: $2x + 2y\\dfrac{dy}{dx} = 0 \\Rightarrow x + y\\dfrac{dy}{dx} = 0$."
+    },
+    {
+      "id": "mat-differential-equations-006",
+      "q": "The general solution of $\\dfrac{dy}{dx} = \\dfrac{y}{x}$ is",
+      "options": [
+        "$y = C/x$",
+        "$y = Cx$",
+        "$y = Cx^2$",
+        "$y = C + x$"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "Separating variables, $\\dfrac{dy}{y} = \\dfrac{dx}{x} \\Rightarrow \\ln|y| = \\ln|x| + \\ln C \\Rightarrow y = Cx$."
+    },
+    {
+      "id": "mat-differential-equations-007",
+      "q": "The solution curve of $\\dfrac{dy}{dx} = \\dfrac{y}{x}$ passing through $(1,2)$ meets the line $x=5$ at $y=$",
+      "options": [
+        "10",
+        "8",
+        "6",
+        "12"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "The family is $y=Cx$; at $(1,2)$, $C=2$, so $y=2x$. At $x=5$, $y=10$."
+    },
+    {
+      "id": "mat-differential-equations-008",
+      "q": "The general solution of $\\dfrac{dy}{dx} = e^{x-y}$ is",
+      "options": [
+        "$e^{x-y} = C$",
+        "$e^x + e^y = C$",
+        "$e^y = e^x + C$",
+        "$e^y = -e^x + C$"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "Rewrite as $e^y dy = e^x dx$ and integrate both sides: $e^y = e^x + C$."
+    },
+    {
+      "id": "mat-differential-equations-009",
+      "q": "For the homogeneous equation $\\dfrac{dy}{dx} = \\dfrac{x+y}{x}$, putting $y = vx$ reduces it to $x\\dfrac{dv}{dx} = 1$. Hence $\\dfrac{dv}{dx}$ equals",
+      "options": [
+        "$1/x$",
+        "$1+v$",
+        "$1/(vx)$",
+        "$v/x$"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "With $y=vx$, $\\dfrac{dy}{dx}=v+x\\dfrac{dv}{dx}=1+v$, so $x\\dfrac{dv}{dx}=1$, i.e. $\\dfrac{dv}{dx}=1/x$."
+    },
+    {
+      "id": "mat-differential-equations-010",
+      "q": "A differential equation of the form $\\dfrac{dy}{dx} = F\\left(\\dfrac{y}{x}\\right)$ is called",
+      "options": [
+        "variable separable directly",
+        "exact",
+        "homogeneous",
+        "linear"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "By definition, such an equation, expressible as a function of $y/x$ alone, is a homogeneous differential equation."
+    },
+    {
+      "id": "mat-differential-equations-011",
+      "q": "The integrating factor of $\\dfrac{dy}{dx} + \\dfrac{y}{x} = x^2$ is",
+      "options": [
+        "$x^2$",
+        "$x$",
+        "$e^x$",
+        "$1/x$"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "Here $P=1/x$, so $\\text{I.F.} = e^{\\int \\frac{1}{x}dx} = e^{\\ln x} = x$."
+    },
+    {
+      "id": "mat-differential-equations-012",
+      "q": "Using the integrating factor $x$ (since $P=1/x$ gives $\\text{I.F.}=e^{\\int\\frac{1}{x}dx}=x$), the general solution of $\\dfrac{dy}{dx} + \\dfrac{y}{x} = x^2$ is",
+      "options": [
+        "$y = \\dfrac{x^4}{4} + Cx$",
+        "$y = x^4 + \\dfrac{C}{x}$",
+        "$y = \\dfrac{x^3}{4} + Cx$",
+        "$y = \\dfrac{x^3}{4} + \\dfrac{C}{x}$"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "$y\\cdot x = \\int x^2\\cdot x\\,dx = \\dfrac{x^4}{4} + C$, so $y = \\dfrac{x^3}{4} + \\dfrac{C}{x}$."
+    },
+    {
+      "id": "mat-differential-equations-013",
+      "q": "The particular solution of $\\dfrac{dy}{dx} + y = 1$ with $y(0) = 0$ is",
+      "options": [
+        "$y = e^{-x} - 1$",
+        "$y = 1 + e^{-x}$",
+        "$y = e^{x} - 1$",
+        "$y = 1 - e^{-x}$"
+      ],
+      "answer": 3,
+      "difficulty": "hard",
+      "explanation": "I.F. $=e^x$; $(ye^x)' = e^x \\Rightarrow ye^x = e^x + C$. At $x=0,y=0$: $0=1+C \\Rightarrow C=-1$, so $y=1-e^{-x}$."
+    },
+    {
+      "id": "mat-differential-equations-014",
+      "q": "If $\\dfrac{dy}{dx} = \\dfrac{2xy}{1+x^2}$ and $y(0)=1$, then $y(1) =$",
+      "options": [
+        "1",
+        "2",
+        "4",
+        "0.5"
+      ],
+      "answer": 1,
+      "difficulty": "hard",
+      "explanation": "Separating, $\\dfrac{dy}{y} = \\dfrac{2x}{1+x^2}dx \\Rightarrow \\ln y = \\ln(1+x^2)+C \\Rightarrow y=A(1+x^2)$. Using $y(0)=1$ gives $A=1$, so $y=1+x^2$; $y(1)=2$."
+    },
+    {
+      "id": "mat-differential-equations-015",
+      "q": "Eliminating the arbitrary constant $a$ from the family of parabolas $y^2 = 4ax$ gives the differential equation",
+      "options": [
+        "$2x\\dfrac{dy}{dx} = -y$",
+        "$x\\dfrac{dy}{dx} = 2y$",
+        "$2x\\dfrac{dy}{dx} = y$",
+        "$\\dfrac{dy}{dx} = 2xy$"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "Differentiating, $2yy' = 4a \\Rightarrow a = yy'/2$. Substituting back: $y^2 = 4x\\left(\\dfrac{yy'}{2}\\right) = 2xyy' \\Rightarrow y = 2xy'$ (dividing by $y$)."
+    },
+    {
+      "id": "mat-differential-equations-016",
+      "q": "An equation involving derivatives of the dependent variable with respect to only one independent variable is called",
+      "options": [
+        "an ordinary differential equation",
+        "a linear equation",
+        "an algebraic equation",
+        "a partial differential equation"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "By definition, a differential equation with derivatives taken with respect to a single independent variable is called ordinary (as opposed to partial)."
+    },
+    {
+      "id": "mat-differential-equations-017",
+      "q": "The general solution of $\\dfrac{dy}{dx} = \\dfrac{-x}{y}$ represents a family of",
+      "options": [
+        "parabolas",
+        "straight lines through the origin",
+        "circles centred at the origin",
+        "rectangular hyperbolas"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "Separating, $y\\,dy = -x\\,dx \\Rightarrow \\dfrac{y^2}{2} = -\\dfrac{x^2}{2}+C \\Rightarrow x^2+y^2 = 2C$, a family of concentric circles."
+    },
+    {
+      "id": "mat-differential-equations-018",
+      "q": "If $y = e^{mx}$ is a solution of $\\dfrac{d^2y}{dx^2} - 5\\dfrac{dy}{dx} + 6y = 0$, the possible values of $m$ are",
+      "options": [
+        "-2, -3",
+        "2, 3",
+        "1, 6",
+        "2, -3"
+      ],
+      "answer": 1,
+      "difficulty": "hard",
+      "explanation": "Substituting $y=e^{mx}$ gives $m^2 - 5m + 6 = 0 \\Rightarrow (m-2)(m-3)=0 \\Rightarrow m=2,3$."
+    },
+    {
+      "id": "mat-differential-equations-019",
+      "q": "The order and degree of $\\left(\\dfrac{dy}{dx}\\right)^2 + \\dfrac{d^2y}{dx^2} = 0$ are",
+      "options": [
+        "order 2, degree 1",
+        "order 1, degree 2",
+        "order 1, degree 1",
+        "order 2, degree 2"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "The highest order derivative is $d^2y/dx^2$ (order 2), and it appears to the first power (degree 1)."
+    },
+    {
+      "id": "mat-differential-equations-020",
+      "q": "The number of arbitrary constants present in the particular solution of a differential equation of order 3 is",
+      "options": [
+        "1",
+        "3",
+        "2",
+        "0"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "A particular solution is obtained by assigning specific values to all arbitrary constants using given conditions, leaving none free."
+    },
+    {
+      "id": "mat-differential-equations-021",
+      "q": "The order and degree of the differential equation $\\left(\\dfrac{dy}{dx}\\right)^3 + y = 0$ are",
+      "options": [
+        "order 1, degree 3",
+        "order 1, degree 1",
+        "order 3, degree 3",
+        "order 3, degree 1"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "The highest derivative present is $dy/dx$ (order 1), raised to the power 3 (degree 3)."
+    },
+    {
+      "id": "mat-differential-equations-022",
+      "q": "The differential equation of the family of lines $y=mx+c$, where $m$ and $c$ are arbitrary constants, is",
+      "options": [
+        "$y=x\\dfrac{dy}{dx}$",
+        "$\\dfrac{d^2y}{dx^2}=0$",
+        "$\\dfrac{dy}{dx}=c$",
+        "$\\dfrac{dy}{dx}=m$"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "Since there are two arbitrary constants, differentiate twice: $y'=m$ (constant), so $y''=0$."
+    },
+    {
+      "id": "mat-differential-equations-023",
+      "q": "The number of arbitrary constants in the general solution of a differential equation of order 2 is",
+      "options": [
+        "4",
+        "1",
+        "3",
+        "2"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "A general solution of an $n$th order DE has exactly $n$ arbitrary constants, so here $2$."
+    },
+    {
+      "id": "mat-differential-equations-024",
+      "q": "The order and degree of $\\dfrac{d^2y}{dx^2}+5\\dfrac{dy}{dx}-6y=\\log x$ are",
+      "options": [
+        "order 2, degree 2",
+        "order 1, degree 1",
+        "order 2, degree 1",
+        "order 1, degree 2"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "The highest order derivative is $d^2y/dx^2$ (order 2) and it appears to the first power (degree 1); $\\log x$ is just a function of $x$, not of a derivative."
+    },
+    {
+      "id": "mat-differential-equations-025",
+      "q": "Eliminating the arbitrary constant $C$ from $y=Ce^{x}$ gives the differential equation",
+      "options": [
+        "$\\dfrac{dy}{dx}=y$",
+        "$\\dfrac{dy}{dx}=xy$",
+        "$\\dfrac{dy}{dx}=\\dfrac1y$",
+        "$\\dfrac{dy}{dx}=-y$"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "Differentiating, $y'=Ce^x=y$, so $\\dfrac{dy}{dx}=y$."
+    },
+    {
+      "id": "mat-differential-equations-026",
+      "q": "In the linear differential equation $\\dfrac{dy}{dx}+Py=Q$, if $Q=0$, the equation reduces to",
+      "options": [
+        "a second-order equation",
+        "an inexact equation",
+        "an equation with no arbitrary constant",
+        "a variable separable equation"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "With $Q=0$ it becomes $\\dfrac{dy}{dx}=-Py$, i.e. $\\dfrac{dy}{y}=-P\\,dx$, which is variable separable."
+    },
+    {
+      "id": "mat-differential-equations-027",
+      "q": "The degree of the differential equation $\\dfrac{d^2y}{dx^2}=\\sqrt{1+\\left(\\dfrac{dy}{dx}\\right)^2}$ is",
+      "options": [
+        "1",
+        "3",
+        "2",
+        "not defined"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "Squaring both sides gives $\\left(\\dfrac{d^2y}{dx^2}\\right)^2=1+\\left(\\dfrac{dy}{dx}\\right)^2$, a polynomial equation in the derivatives, so the degree is $2$ (not undefined)."
+    },
+    {
+      "id": "mat-differential-equations-028",
+      "q": "The general solution of $\\dfrac{dy}{dx}=y\\tan x$ is",
+      "options": [
+        "$y=C\\tan x$",
+        "$y=C\\sec x$",
+        "$y=C\\sin x$",
+        "$y=C\\cos x$"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "Separating, $\\dfrac{dy}{y}=\\tan x\\,dx \\Rightarrow \\ln|y| = -\\ln|\\cos x|+C \\Rightarrow y = A\\sec x$."
+    },
+    {
+      "id": "mat-differential-equations-029",
+      "q": "If $\\dfrac{dy}{dx}=2xy$ and $y(0)=1$, then $y(1)=$",
+      "options": [
+        "1",
+        "$2e$",
+        "$e$",
+        "$e^2$"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "Separating, $\\ln y=x^2+C$; with $y(0)=1$, $C=0$, so $y=e^{x^2}$, giving $y(1)=e$."
+    },
+    {
+      "id": "mat-differential-equations-030",
+      "q": "The integrating factor of $\\dfrac{dy}{dx}+2y\\cot x=\\sin2x$ is",
+      "options": [
+        "$\\cos x$",
+        "$\\cos^2x$",
+        "$\\sin x$",
+        "$\\sin^2x$"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "Here $P=2\\cot x$, so $\\text{I.F.}=e^{\\int2\\cot x\\,dx}=e^{2\\ln\\sin x}=\\sin^2x$."
+    },
+    {
+      "id": "mat-differential-equations-031",
+      "q": "For the homogeneous equation $\\dfrac{dy}{dx}=\\dfrac{x^2+y^2}{xy}$, substituting $y=vx$ reduces it to",
+      "options": [
+        "$dv=x\\,dx$",
+        "$v\\,dv=\\dfrac{dx}{x}$",
+        "$\\dfrac{dv}{v}=\\dfrac{dx}{x}$",
+        "$v\\,dv=-\\dfrac{dx}{x}$"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "With $y=vx$, $v+x\\dfrac{dv}{dx}=\\dfrac{1+v^2}{v}$, so $x\\dfrac{dv}{dx}=\\dfrac{1}{v}$, i.e. $v\\,dv=\\dfrac{dx}{x}$."
+    },
+    {
+      "id": "mat-differential-equations-032",
+      "q": "A population grows at a rate proportional to its size, $\\dfrac{dP}{dt}=kP$. If it doubles every 5 years, then $k=$",
+      "options": [
+        "$\\dfrac{\\ln2}{5}$",
+        "$\\dfrac{\\ln5}{2}$",
+        "$5\\ln2$",
+        "$\\dfrac{2}{\\ln5}$"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "$P=P_0e^{kt}$; doubling gives $2=e^{5k}\\Rightarrow 5k=\\ln2\\Rightarrow k=\\dfrac{\\ln2}{5}$."
+    },
+    {
+      "id": "mat-differential-equations-033",
+      "q": "The differential equation whose general solution is $y=Ae^{2x}+Be^{-2x}$ is",
+      "options": [
+        "$\\dfrac{d^2y}{dx^2}-4y=0$",
+        "$\\dfrac{d^2y}{dx^2}-2y=0$",
+        "$\\dfrac{d^2y}{dx^2}+2y=0$",
+        "$\\dfrac{d^2y}{dx^2}+4y=0$"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "Differentiating twice, $y''=4Ae^{2x}+4Be^{-2x}=4y$, so $y''-4y=0$."
+    },
+    {
+      "id": "mat-differential-equations-034",
+      "q": "The general solution of $\\dfrac{dx}{dy}+\\dfrac{2x}{y}=y$ is",
+      "options": [
+        "$x=\\dfrac{y^2}{2}+Cy^2$",
+        "$x=\\dfrac{y^2}{4}+Cy^2$",
+        "$x=\\dfrac{y^4}{4}+\\dfrac{C}{y^2}$",
+        "$x=\\dfrac{y^2}{4}+\\dfrac{C}{y^2}$"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "Here $P_1=2/y$, so $\\text{I.F.}=e^{\\int\\frac{2}{y}dy}=y^2$. Then $xy^2=\\int y^3\\,dy=\\dfrac{y^4}{4}+C$, so $x=\\dfrac{y^2}{4}+\\dfrac{C}{y^2}$."
+    },
+    {
+      "id": "mat-differential-equations-035",
+      "q": "The particular solution of $\\dfrac{dy}{dx}+y=e^{-x}$ with $y(0)=0$ gives $y(1)=$",
+      "options": [
+        "$e$",
+        "$\\dfrac1e$",
+        "1",
+        "0"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "I.F. $=e^x$; $(ye^x)'=1 \\Rightarrow ye^x=x+C$. With $y(0)=0$, $C=0$, so $y=xe^{-x}$, giving $y(1)=\\dfrac1e$."
+    },
+    {
+      "id": "mat-differential-equations-036",
+      "q": "Which of the following differential equations is homogeneous?",
+      "options": [
+        "$\\dfrac{dy}{dx}=\\dfrac{y}{x}+x^2$",
+        "$\\dfrac{dy}{dx}=x+y+1$",
+        "$\\dfrac{dy}{dx}=\\dfrac{x+y}{x-y}$",
+        "$\\dfrac{dy}{dx}=y^2+x$"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "$\\dfrac{x+y}{x-y}$ is a function of $y/x$ alone (degree 0 in $x,y$), so it is homogeneous; the others mix terms of different degrees or have a constant term."
+    },
+    {
+      "id": "mat-differential-equations-037",
+      "q": "If $\\dfrac{d^2y}{dx^2}+9y=0$ with $y(0)=2$ and $y'(0)=3$, then $y(\\pi/6)=$",
+      "options": [
+        "0",
+        "2",
+        "1",
+        "3"
+      ],
+      "answer": 2,
+      "difficulty": "hard",
+      "explanation": "$y=A\\cos3x+B\\sin3x$; $y(0)=A=2$, $y'(0)=3B=3\\Rightarrow B=1$. At $x=\\pi/6$: $y=2\\cos(\\pi/2)+\\sin(\\pi/2)=0+1=1$."
+    },
+    {
+      "id": "mat-differential-equations-038",
+      "q": "If $\\dfrac{dy}{dx}=\\dfrac{x+y}{x}$ and $y(1)=1$, then $y(e)=$",
+      "options": [
+        "$e+1$",
+        "$2e$",
+        "$e$",
+        "$2e-1$"
+      ],
+      "answer": 1,
+      "difficulty": "hard",
+      "explanation": "With $y=vx$: $x\\dfrac{dv}{dx}=1\\Rightarrow v=\\ln x+C$; $y(1)=1\\Rightarrow v=1=C$. So $y=x(\\ln x+1)$, giving $y(e)=e(1+1)=2e$."
+    },
+    {
+      "id": "mat-differential-equations-039",
+      "q": "The general solution of $\\dfrac{dy}{dx}+y\\cot x=2\\cos x$ is",
+      "options": [
+        "$y\\sin x=C-\\dfrac12\\cos2x$",
+        "$y\\cos x=C-\\dfrac12\\sin2x$",
+        "$y\\sin x=C+\\dfrac12\\cos2x$",
+        "$y\\sin x=C-2\\cos2x$"
+      ],
+      "answer": 0,
+      "difficulty": "hard",
+      "explanation": "I.F. $=e^{\\int\\cot x\\,dx}=\\sin x$. Then $(y\\sin x)'=2\\cos x\\sin x=\\sin2x$, so $y\\sin x=-\\dfrac12\\cos2x+C$."
+    },
+    {
+      "id": "mat-differential-equations-040",
+      "q": "The differential equation of the family of parabolas $y^2=4a(x-b)$, where $a,b$ are arbitrary constants, is",
+      "options": [
+        "$y''+y(y')^2=0$",
+        "$yy''+y'=0$",
+        "$yy''-(y')^2=0$",
+        "$yy''+(y')^2=0$"
+      ],
+      "answer": 3,
+      "difficulty": "hard",
+      "explanation": "Differentiating once: $2yy'=4a$. Differentiating again (RHS is constant): $2(y')^2+2yy''=0$, i.e. $yy''+(y')^2=0$."
+    }
+  ]
+}

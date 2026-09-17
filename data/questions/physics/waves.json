@@ -1,0 +1,525 @@
+{
+  "notes": "<h3>Wave basics</h3><ul><li>Wave equation: $y=A\\sin(\\omega t - kx)$; $v=f\\lambda$; $\\omega=2\\pi f$; wave number $k=2\\pi/\\lambda$.</li><li>Transverse wave: particle motion $\\perp$ wave propagation (e.g. wave on a string, light). Longitudinal wave: particle motion $\\parallel$ propagation (e.g. sound).</li></ul><h3>Speed of waves</h3><table><tr><th>Medium</th><th>Speed formula</th></tr><tr><td>Stretched string</td><td>$v=\\sqrt{T/\\mu}$ ($T$ = tension, $\\mu$ = mass per unit length)</td></tr><tr><td>Sound in gas (Newton-Laplace)</td><td>$v=\\sqrt{\\gamma P/\\rho}$; speed increases with temperature, $v\\propto\\sqrt T_{abs}$</td></tr><tr><td>Sound in solid</td><td>$v=\\sqrt{Y/\\rho}$ (Young's modulus $Y$)</td></tr></table><ul><li>Speed of sound in air at a given pressure is independent of pressure (since $P/\\rho$ constant at fixed $T$) but increases with humidity (moist air is less dense) and temperature.</li></ul><h3>Superposition, reflection &amp; standing waves</h3><ul><li>Principle of superposition: resultant displacement = algebraic sum of individual displacements.</li><li>Standing (stationary) waves form by superposition of two identical waves travelling in opposite directions; nodes (zero displacement) and antinodes (max displacement) are fixed in space, spaced $\\lambda/4$ apart alternately (adjacent nodes/antinodes are $\\lambda/2$ apart).</li></ul><h3>Vibrations of strings &amp; air columns</h3><table><tr><th>System</th><th>Fundamental frequency</th><th>Harmonics present</th></tr><tr><td>Stretched string (both ends fixed)</td><td>$f_1=\\dfrac{1}{2L}\\sqrt{T/\\mu}$</td><td>all harmonics $f_n=nf_1$</td></tr><tr><td>Open organ pipe (both ends open)</td><td>$f_1=\\dfrac{v}{2L}$</td><td>all harmonics $nf_1$</td></tr><tr><td>Closed organ pipe (one end closed)</td><td>$f_1=\\dfrac{v}{4L}$</td><td>only odd harmonics $(2n-1)f_1$</td></tr></table><h3>Beats &amp; Doppler effect</h3><ul><li>Beats: two sources of close frequencies $f_1,f_2$ produce beat frequency $|f_1-f_2|$.</li><li>Doppler effect (sound), observer/source moving along the line joining them: $f' = f\\left(\\dfrac{v\\pm v_o}{v\\mp v_s}\\right)$ — use $+v_o$ if observer approaches source, $-v_s$ if source approaches observer (apparent frequency increases as source/observer approach each other, decreases as they recede).</li></ul><h3>Exam tip</h3><p>KCET typically asks 2-3 questions from this chapter, commonly on organ pipe/string harmonics, beat frequency, or Doppler effect numericals. Memorise that a closed pipe supports only odd harmonics and its fundamental is half that of an open pipe of the same length.</p>",
+  "questions": [
+    {
+      "id": "phy-waves-001",
+      "q": "A wave is represented by $y=A\\sin(\\omega t-kx)$. Its speed of propagation is given by",
+      "options": [
+        "$\\omega+k$",
+        "$\\omega k$",
+        "$k/\\omega$",
+        "$\\omega/k$"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "Wave speed $v=f\\lambda=\\dfrac{\\omega/2\\pi}{2\\pi/k}\\times2\\pi=\\omega/k$."
+    },
+    {
+      "id": "phy-waves-002",
+      "q": "Sound waves travelling through air are",
+      "options": [
+        "electromagnetic waves",
+        "polarised waves",
+        "longitudinal waves",
+        "transverse waves"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "In sound waves, air particles oscillate parallel to the direction of wave propagation, making them longitudinal waves."
+    },
+    {
+      "id": "phy-waves-003",
+      "q": "The speed of a transverse wave on a stretched string of tension $T$ and mass per unit length $\\mu$ is",
+      "options": [
+        "$\\sqrt{T/\\mu}$",
+        "$T/\\mu$",
+        "$\\sqrt{\\mu/T}$",
+        "$\\sqrt{T\\mu}$"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "$v=\\sqrt{T/\\mu}$ is the standard formula for wave speed on a stretched string."
+    },
+    {
+      "id": "phy-waves-004",
+      "q": "If the tension in a stretched string is made 4 times (mass per unit length unchanged), the speed of transverse waves on it becomes",
+      "options": [
+        "$1/2$ times",
+        "2 times",
+        "16 times",
+        "4 times"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "$v\\propto\\sqrt T$; quadrupling $T$ doubles $v$."
+    },
+    {
+      "id": "phy-waves-005",
+      "q": "The speed of sound in a gas increases with",
+      "options": [
+        "decrease in temperature",
+        "increase in temperature",
+        "increase in density at constant temperature and pressure",
+        "increase in pressure at constant temperature"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "$v=\\sqrt{\\gamma RT/M}$, so $v \\propto \\sqrt T$; speed of sound in a gas increases with absolute temperature and is independent of pressure at constant temperature."
+    },
+    {
+      "id": "phy-waves-006",
+      "q": "Two adjacent nodes in a stationary wave are separated by a distance of",
+      "options": [
+        "$\\lambda/2$",
+        "$\\lambda/4$",
+        "$\\lambda$",
+        "$2\\lambda$"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "In a stationary wave, adjacent nodes (and adjacent antinodes) are separated by $\\lambda/2$; a node and the next antinode are separated by $\\lambda/4$."
+    },
+    {
+      "id": "phy-waves-007",
+      "q": "A closed organ pipe of length $L$ has fundamental frequency $f$. An open organ pipe of the same length has fundamental frequency",
+      "options": [
+        "$4f$",
+        "$f$",
+        "$f/2$",
+        "$2f$"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "Closed pipe: $f=v/4L$. Open pipe of same length: $f_{open}=v/2L=2f$."
+    },
+    {
+      "id": "phy-waves-008",
+      "q": "A closed organ pipe can resonate at frequencies in the ratio",
+      "options": [
+        "2:4:6:8...",
+        "1:2:4:8...",
+        "1:3:5:7...",
+        "1:2:3:4..."
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "A closed pipe (one end closed) supports only odd harmonics of its fundamental: $f_1:f_3:f_5=1:3:5...$"
+    },
+    {
+      "id": "phy-waves-009",
+      "q": "A string of length 1 m, fixed at both ends, vibrates in its fundamental mode with frequency 100 Hz. The speed of transverse waves on the string is",
+      "options": [
+        "50 m s$^{-1}$",
+        "100 m s$^{-1}$",
+        "200 m s$^{-1}$",
+        "400 m s$^{-1}$"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "Fundamental: $f_1=v/2L \\Rightarrow v=2Lf_1=2\\times1\\times100=200$ m s$^{-1}$."
+    },
+    {
+      "id": "phy-waves-010",
+      "q": "Two tuning forks of frequencies 256 Hz and 260 Hz are sounded together. The number of beats heard per second is",
+      "options": [
+        "4",
+        "256",
+        "516",
+        "2"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "Beat frequency $=|f_1-f_2|=|260-256|=4$ Hz."
+    },
+    {
+      "id": "phy-waves-011",
+      "q": "A tuning fork of unknown frequency produces 4 beats per second with a standard fork of frequency 256 Hz. When the unknown fork is loaded with wax, the beat frequency decreases. The frequency of the unknown fork is",
+      "options": [
+        "256 Hz",
+        "260 Hz",
+        "252 Hz",
+        "248 Hz"
+      ],
+      "answer": 1,
+      "difficulty": "hard",
+      "explanation": "Loading with wax decreases the unknown fork's frequency. Since the beat frequency decreased, the unknown frequency must have been above 256 Hz, moving closer to it: $f=256+4=260$ Hz."
+    },
+    {
+      "id": "phy-waves-012",
+      "q": "A source of sound of frequency 500 Hz moves towards a stationary observer with a speed of 34 m s$^{-1}$. Taking the speed of sound as 340 m s$^{-1}$, the apparent frequency heard by the observer is",
+      "options": [
+        "455 Hz",
+        "450 Hz",
+        "500 Hz",
+        "556 Hz"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "$f'=f\\dfrac{v}{v-v_s}=500\\times\\dfrac{340}{340-34}=500\\times\\dfrac{340}{306}\\approx556$ Hz."
+    },
+    {
+      "id": "phy-waves-013",
+      "q": "An observer moves towards a stationary source of sound with speed $v_o$. The apparent frequency heard is",
+      "options": [
+        "$f\\left(\\dfrac{v}{v+v_o}\\right)$",
+        "$f$ (unchanged)",
+        "$f\\left(\\dfrac{v+v_o}{v}\\right)$",
+        "$f\\left(\\dfrac{v-v_o}{v}\\right)$"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "When the observer approaches a stationary source, apparent frequency $f'=f\\dfrac{v+v_o}{v}$, which is greater than $f$."
+    },
+    {
+      "id": "phy-waves-014",
+      "q": "The Doppler effect in sound shows an apparent change in",
+      "options": [
+        "wavelength of sound in the medium only, not frequency",
+        "amplitude of sound",
+        "speed of sound",
+        "frequency heard by the observer due to relative motion between source and observer"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "The Doppler effect is the apparent change in the frequency (and wavelength) of a wave observed due to relative motion between the source and the observer."
+    },
+    {
+      "id": "phy-waves-015",
+      "q": "The fundamental frequency of an open organ pipe of length $L$ is $f_1$. The frequency of its first overtone is",
+      "options": [
+        "$2f_1$",
+        "$3f_1$",
+        "$f_1$",
+        "$4f_1$"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "An open pipe supports all harmonics $nf_1$; the first overtone is the second harmonic, $2f_1$."
+    },
+    {
+      "id": "phy-waves-016",
+      "q": "The fundamental frequency of a closed organ pipe is $f_1$. Its first overtone (next resonant frequency above fundamental) is",
+      "options": [
+        "$2f_1$",
+        "$3f_1$",
+        "$1.5f_1$",
+        "$4f_1$"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "A closed pipe supports only odd harmonics $f_1,3f_1,5f_1,...$; its first overtone is the third harmonic, $3f_1$."
+    },
+    {
+      "id": "phy-waves-017",
+      "q": "Two waves of equal amplitude $a$ and same frequency, differing in phase by $\\pi$ (180°), superpose. The resultant amplitude is",
+      "options": [
+        "$a$",
+        "$a\\sqrt2$",
+        "$2a$",
+        "0"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "For phase difference $\\pi$, the waves destructively interfere completely (for equal amplitudes): resultant amplitude $=\\sqrt{a^2+a^2+2a^2\\cos\\pi}=0$."
+    },
+    {
+      "id": "phy-waves-018",
+      "q": "In a stationary wave pattern, the points of zero displacement at all times are called",
+      "options": [
+        "nodes",
+        "troughs",
+        "antinodes",
+        "crests"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "Nodes are points of permanent zero displacement in a stationary wave; antinodes are points of maximum amplitude of vibration."
+    },
+    {
+      "id": "phy-waves-019",
+      "q": "A sound wave has frequency 170 Hz and wavelength 2 m. Its speed is",
+      "options": [
+        "85 m/s",
+        "680 m/s",
+        "340 m/s",
+        "170 m/s"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "$v=f\\lambda=170\\times2=340$ m/s."
+    },
+    {
+      "id": "phy-waves-020",
+      "q": "A transverse wave is represented by $y=A\\sin(\\omega t+kx)$. It travels along the",
+      "options": [
+        "positive y-direction",
+        "negative x-direction",
+        "it is a standing wave, not travelling",
+        "positive x-direction"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "For $y=A\\sin(\\omega t+kx)$, a point of constant phase requires $x$ to decrease as $t$ increases, so the wave travels in the negative x-direction (opposite to $y=A\\sin(\\omega t-kx)$, which travels in $+x$)."
+    },
+    {
+      "id": "phy-waves-021",
+      "q": "A transverse wave pulse on a string reflects from a rigid (fixed) end. The reflected pulse undergoes a phase change of",
+      "options": [
+        "$\\pi$",
+        "zero",
+        "$2\\pi$",
+        "$\\pi/2$"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "Reflection at a rigid boundary inverts the pulse, a phase reversal of $\\pi$; reflection at a free end occurs with no phase change."
+    },
+    {
+      "id": "phy-waves-022",
+      "q": "The principle of superposition of waves states that when two or more waves overlap at a point, the resultant displacement is",
+      "options": [
+        "equal to the displacement of the larger wave only",
+        "the algebraic sum of the displacements due to each wave separately",
+        "always zero",
+        "the product of the individual displacements"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "By the principle of superposition, the net displacement at a point is the vector (here, algebraic) sum of the individual displacements due to each wave."
+    },
+    {
+      "id": "phy-waves-023",
+      "q": "Superposition of two waves $y_1=A\\sin(\\omega t-kx)$ and $y_2=A\\sin(\\omega t+kx)$ produces a stationary wave given by",
+      "options": [
+        "$y=2A\\cos(\\omega t)$",
+        "$y=A\\sin\\omega t\\cos kx$",
+        "$y=2A\\sin\\omega t\\cos kx$",
+        "$y=2A\\sin(\\omega t-kx)$"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "Expanding: $\\sin(\\omega t-kx)+\\sin(\\omega t+kx)=2\\sin\\omega t\\cos kx$, so $y=2A\\sin\\omega t\\cos kx$: an amplitude $2A\\cos kx$ fixed in space, oscillating in time as $\\sin\\omega t$ — a stationary wave."
+    },
+    {
+      "id": "phy-waves-024",
+      "q": "A string fixed at both ends vibrates in its third harmonic. The total number of nodes (including the two fixed ends) is",
+      "options": [
+        "2",
+        "5",
+        "3",
+        "4"
+      ],
+      "answer": 3,
+      "difficulty": "hard",
+      "explanation": "The $n$th harmonic of a string fixed at both ends has $(n+1)$ nodes and $n$ antinodes; for $n=3$, nodes $=4$."
+    },
+    {
+      "id": "phy-waves-025",
+      "q": "In a resonance tube experiment with a tuning fork of frequency 500 Hz, the first and second resonance lengths of the air column are 16 cm and 50 cm. The speed of sound in air is",
+      "options": [
+        "330 m/s",
+        "300 m/s",
+        "320 m/s",
+        "340 m/s"
+      ],
+      "answer": 3,
+      "difficulty": "hard",
+      "explanation": "$\\lambda/2 = l_2-l_1 = 50-16=34$ cm $\\Rightarrow \\lambda=68$ cm $=0.68$ m; $v=f\\lambda=500\\times0.68=340$ m/s."
+    },
+    {
+      "id": "phy-waves-026",
+      "q": "The pitch of a musical sound is primarily determined by its",
+      "options": [
+        "frequency",
+        "speed",
+        "amplitude",
+        "waveform"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "Pitch, the perceived highness or lowness of a note, corresponds to the frequency of the sound wave."
+    },
+    {
+      "id": "phy-waves-027",
+      "q": "The loudness of a sound is mainly determined by its",
+      "options": [
+        "wavelength",
+        "intensity (amplitude)",
+        "speed of propagation",
+        "frequency"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "Loudness is a physiological sensation corresponding to the intensity of the sound wave, which depends on its amplitude."
+    },
+    {
+      "id": "phy-waves-028",
+      "q": "Two notes of the same frequency and loudness, played on a sitar and a flute, sound different. This difference is attributed to their",
+      "options": [
+        "speed of sound in air",
+        "pitch",
+        "quality (timbre), due to different harmonic content",
+        "amplitude"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "Quality (timbre) distinguishes sounds of the same pitch and loudness and arises from the different combination of harmonics (overtones) present."
+    },
+    {
+      "id": "phy-waves-029",
+      "q": "The audible range of frequencies for a normal human ear is approximately",
+      "options": [
+        "20 kHz to 200 kHz",
+        "20 Hz to 20 kHz",
+        "200 Hz to 200 kHz",
+        "2 Hz to 2 kHz"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "The normal human ear can perceive sound frequencies roughly from 20 Hz to 20 kHz."
+    },
+    {
+      "id": "phy-waves-030",
+      "q": "Sound waves with frequency greater than 20 kHz, inaudible to the human ear, are called",
+      "options": [
+        "ultrasonic waves",
+        "audible waves",
+        "radio waves",
+        "infrasonic waves"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "Waves above the upper audible limit (20 kHz) are called ultrasonic waves."
+    },
+    {
+      "id": "phy-waves-031",
+      "q": "Sound waves of frequency below 20 Hz are called",
+      "options": [
+        "supersonic waves",
+        "microwaves",
+        "infrasonic waves",
+        "ultrasonic waves"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "Waves below the lower audible limit (20 Hz) are called infrasonic waves."
+    },
+    {
+      "id": "phy-waves-032",
+      "q": "If the amplitude of a wave is doubled, keeping its frequency constant, its intensity becomes",
+      "options": [
+        "unchanged",
+        "2 times",
+        "8 times",
+        "4 times"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "Intensity $I\\propto A^2$ (for fixed frequency and medium), so doubling amplitude quadruples the intensity."
+    },
+    {
+      "id": "phy-waves-033",
+      "q": "A source of sound (frequency $f$) and an observer move directly towards each other, source with speed $v_s$ and observer with speed $v_o$, in a medium where sound speed is $v$. The apparent frequency heard is",
+      "options": [
+        "$f\\left(\\dfrac{v-v_o}{v+v_s}\\right)$",
+        "$f\\left(\\dfrac{v+v_o}{v-v_s}\\right)$",
+        "$f\\left(\\dfrac{v-v_o}{v-v_s}\\right)$",
+        "$f\\left(\\dfrac{v+v_o}{v+v_s}\\right)$"
+      ],
+      "answer": 1,
+      "difficulty": "hard",
+      "explanation": "When both approach each other, the observer term takes $+v_o$ and the source term takes $-v_s$, both increasing the apparent frequency: $f'=f\\dfrac{v+v_o}{v-v_s}$."
+    },
+    {
+      "id": "phy-waves-034",
+      "q": "Two points on a wave have a path difference of $\\lambda/4$. The corresponding phase difference between them is",
+      "options": [
+        "$\\pi/2$",
+        "$\\pi/4$",
+        "$\\pi$",
+        "$2\\pi$"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "Phase difference $\\Delta\\phi = \\dfrac{2\\pi}{\\lambda}\\Delta x = \\dfrac{2\\pi}{\\lambda}\\times\\dfrac{\\lambda}{4}=\\dfrac{\\pi}{2}$."
+    },
+    {
+      "id": "phy-waves-035",
+      "q": "Two coherent waves interfere constructively at a point when their path difference is",
+      "options": [
+        "an odd multiple of $\\lambda/4$",
+        "any arbitrary value",
+        "an integral multiple of $\\lambda$",
+        "an odd multiple of $\\lambda/2$"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "Constructive interference occurs when the path difference is an integral (whole number) multiple of the wavelength, $n\\lambda$."
+    },
+    {
+      "id": "phy-waves-036",
+      "q": "Two coherent waves of equal amplitude interfere destructively (cancel completely) at a point when their path difference is",
+      "options": [
+        "an odd multiple of $\\lambda$",
+        "an integral multiple of $\\lambda$",
+        "zero",
+        "an odd multiple of $\\lambda/2$"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "Destructive interference (for equal amplitudes, complete cancellation) occurs when the path difference is an odd multiple of half the wavelength, $(2n-1)\\lambda/2$."
+    },
+    {
+      "id": "phy-waves-037",
+      "q": "In a sonometer experiment, keeping the vibrating length and mass per unit length constant, if the tension in the wire is made 4 times, the frequency of vibration becomes",
+      "options": [
+        "4 times",
+        "2 times",
+        "1/2 times",
+        "16 times"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "$f=\\dfrac{1}{2L}\\sqrt{T/\\mu}\\propto\\sqrt T$; quadrupling $T$ doubles $f$."
+    },
+    {
+      "id": "phy-waves-038",
+      "q": "Two wires of the same material and under the same tension have the same length, but their radii are in the ratio 1:2. The ratio of their fundamental frequencies is",
+      "options": [
+        "2:1",
+        "1:2",
+        "4:1",
+        "1:4"
+      ],
+      "answer": 0,
+      "difficulty": "hard",
+      "explanation": "$\\mu=\\rho\\pi r^2$, so for the same $L,T,\\rho$: $f\\propto1/\\sqrt\\mu\\propto1/r$; with $r_1:r_2=1:2$, $f_1:f_2=2:1$."
+    },
+    {
+      "id": "phy-waves-039",
+      "q": "The SI unit of frequency of a wave is",
+      "options": [
+        "watt",
+        "newton",
+        "hertz",
+        "joule"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "Frequency, the number of oscillations per second, is measured in hertz (Hz)."
+    },
+    {
+      "id": "phy-waves-040",
+      "q": "An open organ pipe and a closed organ pipe have the same fundamental frequency. The length of the closed pipe compared to the open pipe is",
+      "options": [
+        "twice as long",
+        "the same",
+        "four times as long",
+        "half as long"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "$f_{open}=v/2L_{open}$ and $f_{closed}=v/4L_{closed}$. Equating: $L_{closed}=L_{open}/2$, so the closed pipe is half as long as the open pipe of equal fundamental frequency."
+    }
+  ]
+}

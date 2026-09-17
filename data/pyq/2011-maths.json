@@ -1,0 +1,794 @@
+{
+  "title": "KCET 2011 Maths",
+  "year": 2011,
+  "subject": "maths",
+  "code": "A-1",
+  "source": "KEA question paper (copy) + KEA answer key column A1",
+  "excluded": [],
+  "questions": [
+    {
+      "n": 1,
+      "q": "If $\\dfrac{\\log x}{b-c}=\\dfrac{\\log y}{c-a}=\\dfrac{\\log z}{a-b}$, then the value of $x^{b+c}\\cdot y^{c+a}\\cdot z^{a+b}$ is .................",
+      "options": [
+        "1",
+        "2",
+        "0",
+        "-1"
+      ],
+      "answer": 0,
+      "chapter": "Old syllabus: Logarithms",
+      "explanation": "Let the common ratio be $k$, so $\\log x=k(b-c)$ etc. Then $\\log(x^{b+c}y^{c+a}z^{a+b})=k[(b+c)(b-c)+(c+a)(c-a)+(a+b)(a-b)]=k[(b^2-c^2)+(c^2-a^2)+(a^2-b^2)]=0$, so the value is $e^0=1$."
+    },
+    {
+      "n": 2,
+      "q": "The sum of the first $n$ terms of $\\dfrac{1^2}{1}+\\dfrac{1^2+2^2}{1+2}+\\dfrac{1^2+2^2+3^2}{1+2+3}+.........$ is .................",
+      "options": [
+        "$\\dfrac{n^2-2n}{3}$",
+        "$\\dfrac{2n^2+n}{3}$",
+        "$\\dfrac{n(n+2)}{3}$",
+        "$\\dfrac{2n^2-n}{3}$"
+      ],
+      "answer": 2,
+      "chapter": "Sequences and Series",
+      "explanation": "The $r$-th term is $\\dfrac{\\sum_{k=1}^r k^2}{\\sum_{k=1}^r k}=\\dfrac{2r+1}{3}$. Summing from $r=1$ to $n$ gives $\\dfrac{n^2+2n}{3}=\\dfrac{n(n+2)}{3}$."
+    },
+    {
+      "n": 3,
+      "q": "If $n$ is an odd positive integer and $(1+x+x^2+x^3)^n=\\displaystyle\\sum_{r=0}^{3n} a_r x^r$, then $a_0-a_1+a_2-a_3+.........-a_{3n}$ is = .................",
+      "options": [
+        "$4^n$",
+        "1",
+        "-1",
+        "0"
+      ],
+      "answer": 3,
+      "chapter": "Binomial Theorem",
+      "explanation": "Putting $x=-1$ gives the alternating sum $=(1-1+1-1)^n=0^n=0$ since $n\\geq 1$."
+    },
+    {
+      "n": 4,
+      "q": "If $r^{th}$ and $(r+1)^{th}$ terms in the expansion of $(p+q)^n$ are equal, then $\\dfrac{(n+1)q}{r(p+q)}$ is ..........",
+      "options": [
+        "0",
+        "1",
+        "$\\dfrac{1}{4}$",
+        "$\\dfrac{1}{2}$"
+      ],
+      "answer": 1,
+      "chapter": "Binomial Theorem",
+      "explanation": "$T_r=T_{r+1}$ gives $\\binom{n}{r-1}p^{n-r+1}q^{r-1}=\\binom{n}{r}p^{n-r}q^r$, which simplifies to $pr=q(n-r+1)$, i.e. $q(n+1)=r(p+q)$, so the ratio equals 1."
+    },
+    {
+      "n": 5,
+      "q": "If $\\alpha$, $\\beta$ and $\\gamma$ are roots of $x^3-2x+1=0$, then the value of $\\displaystyle\\sum\\left(\\dfrac{1}{\\alpha+\\beta-\\gamma}\\right)$ is ...........",
+      "options": [
+        "$\\dfrac{-1}{2}$",
+        "-1",
+        "0",
+        "$\\dfrac{1}{2}$"
+      ],
+      "answer": 1,
+      "chapter": "Complex Numbers and Quadratic Equations",
+      "explanation": "$\\alpha+\\beta+\\gamma=0$ so $\\alpha+\\beta-\\gamma=-2\\gamma$. The sum becomes $-\\dfrac{1}{2}\\left(\\dfrac{1}{\\alpha}+\\dfrac{1}{\\beta}+\\dfrac{1}{\\gamma}\\right)=-\\dfrac{1}{2}\\cdot\\dfrac{\\alpha\\beta+\\beta\\gamma+\\gamma\\alpha}{\\alpha\\beta\\gamma}=-\\dfrac{1}{2}\\cdot\\dfrac{-2}{-1}=-1$."
+    },
+    {
+      "n": 6,
+      "q": "Define a relation $R$ on $A=\\{1,2,3,4\\}$ as $xRy$ if $x$ divides $y$. $R$ is ............",
+      "options": [
+        "reflexive and transitive",
+        "reflexive and symmetric",
+        "symmetric and transitive",
+        "equivalence"
+      ],
+      "answer": 0,
+      "chapter": "Relations and Functions",
+      "explanation": "Every element divides itself (reflexive) and divisibility is transitive, but $1$ divides $2$ while $2$ does not divide $1$, so $R$ is not symmetric; hence reflexive and transitive only."
+    },
+    {
+      "n": 7,
+      "q": "The negation of $p\\to(\\sim p\\vee q)$ is ...........",
+      "options": [
+        "$p\\vee(p\\vee\\sim q)$",
+        "$p\\to\\sim(p\\vee q)$",
+        "$p\\to q$",
+        "$p\\wedge\\sim q$"
+      ],
+      "answer": 3,
+      "chapter": "Old syllabus: Mathematical Reasoning",
+      "explanation": "$p\\to(\\sim p\\vee q)\\equiv \\sim p\\vee(\\sim p\\vee q)\\equiv \\sim p\\vee q$, whose negation is $p\\wedge\\sim q$."
+    },
+    {
+      "n": 8,
+      "q": "In any triangle $ABC$, the simplified form of $\\dfrac{\\cos 2A}{a^2}-\\dfrac{\\cos 2B}{b^2}$ is ............",
+      "options": [
+        "$a^2-b^2$",
+        "$\\dfrac{1}{a^2-b^2}$",
+        "$\\dfrac{1}{a^2}-\\dfrac{1}{b^2}$",
+        "$a^2+b^2$"
+      ],
+      "answer": 2,
+      "chapter": "Trigonometric Functions",
+      "explanation": "Using $a=2R\\sin A$, $\\dfrac{\\cos 2A}{a^2}=\\dfrac{1-2\\sin^2A}{4R^2\\sin^2A}=\\dfrac{1}{a^2}-\\dfrac{1}{2R^2}$; the $-\\dfrac{1}{2R^2}$ terms cancel on subtraction, leaving $\\dfrac{1}{a^2}-\\dfrac{1}{b^2}$."
+    },
+    {
+      "n": 9,
+      "q": "Angles of elevation of the top of a tower from three points (collinear) $A$, $B$ and $C$ on a road leading to the foot of the tower are $30^0$, $45^0$ and $60^0$ respectively. The ratio of $AB$ to $BC$ is ............",
+      "options": [
+        "$\\sqrt3:1$",
+        "$\\sqrt3:2$",
+        "1:2",
+        "$2:\\sqrt3$"
+      ],
+      "answer": 0,
+      "chapter": "Old syllabus: Heights and Distances",
+      "explanation": "If the tower height is $h$, distances from the foot are $h\\sqrt3, h, h/\\sqrt3$ for $A,B,C$. So $AB=h(\\sqrt3-1)$ and $BC=h(\\sqrt3-1)/\\sqrt3$, giving $AB:BC=\\sqrt3:1$."
+    },
+    {
+      "n": 10,
+      "q": "The value of $\\sin10\\cdot\\sin30\\cdot\\sin50\\cdot\\sin70$ is ............",
+      "options": [
+        "$\\dfrac{1}{8}$",
+        "$\\dfrac{3}{16}$",
+        "$\\dfrac{\\sqrt3}{16}$",
+        "$\\dfrac{1}{16}$"
+      ],
+      "answer": 3,
+      "chapter": "Trigonometric Functions",
+      "explanation": "Using $\\sin\\theta\\sin(60-\\theta)\\sin(60+\\theta)=\\dfrac14\\sin3\\theta$ with $\\theta=10$: $\\sin10\\sin50\\sin70=\\dfrac14\\sin30=\\dfrac18$. Multiplying by $\\sin30=\\dfrac12$ gives $\\dfrac{1}{16}$."
+    },
+    {
+      "n": 11,
+      "q": "Locus of a point which moves such that its distance from the $X$-axis is twice its distance from the line $x-y=0$ is ............",
+      "options": [
+        "$x^2+4xy-y^2=0$",
+        "$2x^2-4xy+y^2=0$",
+        "$x^2-4xy+y^2=0$",
+        "$x^2-4xy-y^2=0$"
+      ],
+      "answer": 1,
+      "chapter": "Straight Lines",
+      "explanation": "$|y|=2\\cdot\\dfrac{|x-y|}{\\sqrt2}$. Squaring, $y^2=2(x-y)^2$, which simplifies to $2x^2-4xy+y^2=0$."
+    },
+    {
+      "n": 12,
+      "q": "The points $A(1,2)$, $B(2,4)$ and $C(4,8)$ form a/an ............",
+      "options": [
+        "isosceles triangle",
+        "equilateral triangle",
+        "straight line",
+        "right angled triangle"
+      ],
+      "answer": 2,
+      "chapter": "Straight Lines",
+      "explanation": "Slope of $AB=\\dfrac{4-2}{2-1}=2$ and slope of $BC=\\dfrac{8-4}{4-2}=2$; equal slopes through a common point mean the three points are collinear, forming a straight line."
+    },
+    {
+      "n": 13,
+      "q": "If lines represented by $x+3y-6=0$, $2x+y-4=0$ and $kx-3y+1=0$ are concurrent, then the value of $k$ is ............",
+      "options": [
+        "$\\dfrac{6}{19}$",
+        "$\\dfrac{19}{6}$",
+        "$\\dfrac{-19}{6}$",
+        "$\\dfrac{-6}{19}$"
+      ],
+      "answer": 1,
+      "chapter": "Straight Lines",
+      "explanation": "Solving the first two lines gives the intersection $\\left(\\dfrac{6}{5},\\dfrac{8}{5}\\right)$. Substituting into $kx-3y+1=0$ gives $6k-19=0$, so $k=\\dfrac{19}{6}$."
+    },
+    {
+      "n": 14,
+      "q": "$\\displaystyle\\lim_{x\\to a}\\left[\\dfrac{\\sqrt{a+2x}-\\sqrt{3x}}{\\sqrt{3a+x}-2\\sqrt{x}}\\right]=.................$",
+      "options": [
+        "$\\dfrac{2}{3}$",
+        "$\\dfrac{2}{\\sqrt3}$",
+        "$\\dfrac{3\\sqrt3}{2}$",
+        "$\\dfrac{2}{3\\sqrt3}$"
+      ],
+      "answer": 3,
+      "chapter": "Limits and Derivatives",
+      "explanation": "Both numerator and denominator vanish at $x=a$; applying L'Hopital's rule, $f'(a)=\\dfrac{-1}{2\\sqrt{3a}}$ and $g'(a)=\\dfrac{-3}{4\\sqrt a}$, giving the limit $\\dfrac{2}{3\\sqrt3}$. (KEA awarded a grace mark for this question; answer as per calculation.)",
+      "grace": true
+    },
+    {
+      "n": 15,
+      "q": "If $f(x)=\\begin{cases}\\dfrac{\\log x}{x-1} & \\text{if }x\\neq1\\\\ k & \\text{if }x=1\\end{cases}$ is continuous at $x=1$, then the value of $k$ is ............",
+      "options": [
+        "0",
+        "-1",
+        "1",
+        "e"
+      ],
+      "answer": 2,
+      "chapter": "Continuity and Differentiability",
+      "explanation": "$\\displaystyle\\lim_{x\\to1}\\dfrac{\\log x}{x-1}=1$ (a standard limit), so for continuity $k=1$."
+    },
+    {
+      "n": 16,
+      "q": "If $A=\\begin{bmatrix}\\cos\\theta & \\sin\\theta\\\\-\\sin\\theta & \\cos\\theta\\end{bmatrix}$, then $A\\cdot A'$ is ............",
+      "options": [
+        "I",
+        "A",
+        "-A",
+        "$A^2$"
+      ],
+      "answer": 0,
+      "chapter": "Matrices",
+      "explanation": "Multiplying $A$ by its transpose gives $\\cos^2\\theta+\\sin^2\\theta=1$ on the diagonal and $0$ off it, i.e. $A\\cdot A'=I$."
+    },
+    {
+      "n": 17,
+      "q": "If $\\begin{vmatrix}1 & 2 & -1\\\\1 & x-2 & 1\\\\x & 1 & 1\\end{vmatrix}$ is singular, then the value of $x$ is ............",
+      "options": [
+        "2",
+        "3",
+        "1",
+        "0"
+      ],
+      "answer": 0,
+      "chapter": "Determinants",
+      "explanation": "Expanding the determinant gives $x^2+x-6=0$, i.e. $(x+3)(x-2)=0$, so $x=2$ (among the given options)."
+    },
+    {
+      "n": 18,
+      "q": "If $A$ and $B$ are symmetric matrices of the same order, then which one of the following is NOT true?",
+      "options": [
+        "$A+B$ is symmetric",
+        "$A-B$ is symmetric",
+        "$AB+BA$ is symmetric",
+        "$AB-BA$ is symmetric"
+      ],
+      "answer": 3,
+      "chapter": "Matrices",
+      "explanation": "$(AB-BA)'=B'A'-A'B'=BA-AB=-(AB-BA)$, so $AB-BA$ is skew-symmetric, not symmetric in general."
+    },
+    {
+      "n": 19,
+      "q": "If $\\omega$ is an imaginary cube root of unity, then the value of $\\begin{vmatrix}1 & \\omega^2 & 1-\\omega^4\\\\omega & 1 & 1+\\omega^5\\\\1 & \\omega & \\omega^2\\end{vmatrix}$ is ............",
+      "options": [
+        "-4",
+        "$\\omega^2-4$",
+        "$\\omega^2$",
+        "4"
+      ],
+      "answer": 1,
+      "chapter": "Determinants",
+      "explanation": "Using $\\omega^3=1$ and $1+\\omega+\\omega^2=0$ to simplify entries ($\\omega^4=\\omega$, $\\omega^5=\\omega^2$) and expanding the determinant gives $\\omega^2-4$."
+    },
+    {
+      "n": 20,
+      "q": "If $\\vec a, \\vec b$ and $\\vec c$ are unit vectors such that $\\vec a+\\vec b+\\vec c=\\vec 0$ then angle between $\\vec a$ and $\\vec b$ is ...........",
+      "options": [
+        "$\\dfrac{\\pi}{2}$",
+        "$\\dfrac{\\pi}{3}$",
+        "$\\dfrac{2\\pi}{3}$",
+        "$\\pi$"
+      ],
+      "answer": 2,
+      "chapter": "Vector Algebra",
+      "explanation": "$|\\vec a+\\vec b+\\vec c|^2=0$ gives $3+2(\\vec a\\cdot\\vec b+\\vec b\\cdot\\vec c+\\vec c\\cdot\\vec a)=0$. By symmetry each dot product is $-\\dfrac12$, so $\\cos\\theta=-\\dfrac12$, i.e. $\\theta=\\dfrac{2\\pi}{3}$."
+    },
+    {
+      "n": 21,
+      "q": "If $\\vec a, \\vec b$ and $\\vec c$ are noncoplanar, then the value of $\\vec a\\cdot\\left\\{\\dfrac{\\vec b\\times\\vec c}{3\\vec b\\cdot(\\vec c\\times\\vec a)}\\right\\}-\\vec b\\cdot\\left\\{\\dfrac{\\vec c\\times\\vec a}{2\\vec c\\cdot(\\vec a\\times\\vec b)}\\right\\}$ is ............",
+      "options": [
+        "$\\dfrac{-1}{2}$",
+        "$\\dfrac{-1}{3}$",
+        "$\\dfrac{-1}{6}$",
+        "$\\dfrac{1}{6}$"
+      ],
+      "answer": 2,
+      "chapter": "Vector Algebra",
+      "explanation": "Since $\\vec a\\cdot(\\vec b\\times\\vec c)=\\vec b\\cdot(\\vec c\\times\\vec a)=\\vec c\\cdot(\\vec a\\times\\vec b)=[\\vec a\\,\\vec b\\,\\vec c]=V$, the expression equals $\\dfrac{V}{3V}-\\dfrac{V}{2V}=\\dfrac13-\\dfrac12=-\\dfrac16$."
+    },
+    {
+      "n": 22,
+      "q": "If $2\\hat i+3\\hat j$, $\\hat i+\\hat j+\\hat k$ and $\\lambda\\hat i+4\\hat j+2\\hat k$ taken in an order are coterminous edges of a parallelopiped of volume 2 Cu units, then value of $\\lambda$ is ............",
+      "options": [
+        "-4",
+        "2",
+        "3",
+        "4"
+      ],
+      "answer": 3,
+      "chapter": "Vector Algebra",
+      "explanation": "The scalar triple product $\\begin{vmatrix}2&3&0\\\\1&1&1\\\\lambda&4&2\\end{vmatrix}=3\\lambda-10$. Setting $|3\\lambda-10|=2$ gives $\\lambda=4$ or $\\lambda=8/3$; among the options $\\lambda=4$."
+    },
+    {
+      "n": 23,
+      "q": "A unit vector perpendicular to both $\\hat i+\\hat j+\\hat k$ and $2\\hat i+\\hat j+3\\hat k$ is ............",
+      "options": [
+        "$(2\\hat i-\\hat j-\\hat k)\\sqrt6$",
+        "$\\dfrac{2\\hat i-\\hat j-\\hat k}{\\sqrt6}$",
+        "$2\\hat i+\\hat j+\\hat k$",
+        "$\\dfrac{3\\hat i+\\hat j-2\\hat k}{\\sqrt6}$"
+      ],
+      "answer": 1,
+      "chapter": "Vector Algebra",
+      "explanation": "$(\\hat i+\\hat j+\\hat k)\\times(2\\hat i+\\hat j+3\\hat k)=2\\hat i-\\hat j-\\hat k$, which has magnitude $\\sqrt6$; dividing by this gives the unit vector."
+    },
+    {
+      "n": 24,
+      "q": "The digit in the unit's place of $7^{171}+(177)!$ is ............",
+      "options": [
+        "3",
+        "2",
+        "1",
+        "0"
+      ],
+      "answer": 0,
+      "chapter": "Old syllabus: Number Theory",
+      "explanation": "$177!$ ends in $0$. Units digits of $7^n$ cycle as $7,9,3,1$; since $171=4\\times42+3$, $7^{171}$ ends in the 3rd term of the cycle, $3$. So the total unit's digit is $3+0=3$."
+    },
+    {
+      "n": 25,
+      "q": "The sum of all positive divisors of 242 except 1 and itself is ............",
+      "options": [
+        "156",
+        "242",
+        "342",
+        "399"
+      ],
+      "answer": 0,
+      "chapter": "Old syllabus: Number Theory",
+      "explanation": "$242=2\\times11^2$, so $\\sigma(242)=3\\times(1+11+121)=399$. Subtracting $1$ and $242$ gives $399-1-242=156$."
+    },
+    {
+      "n": 26,
+      "q": "On the set of all nonzero reals, an operation $*$ is defined as $a*b=\\dfrac{3ab}{2}$. In this group, a solution of $(2*x)*3^{-1}=4^{-1}$ is ............",
+      "options": [
+        "6",
+        "1",
+        "$\\dfrac16$",
+        "$\\dfrac32$"
+      ],
+      "answer": 2,
+      "chapter": "Old syllabus: Groups",
+      "explanation": "$2*x=3x$, then $(3x)*3^{-1}=\\dfrac32x$. Setting $\\dfrac32x=\\dfrac14$ gives $x=\\dfrac16$."
+    },
+    {
+      "n": 27,
+      "q": "$G=\\left\\{\\begin{bmatrix}x & x\\\\x & x\\end{bmatrix}, x\\text{ is a nonzero real number}\\right\\}$ is a group with respect to matrix multiplication. In this group, the inverse of $\\begin{bmatrix}1/3 & 1/3\\\\1/3 & 1/3\\end{bmatrix}$ is ............",
+      "options": [
+        "$\\begin{bmatrix}4/3 & 4/3\\\\4/3 & 4/3\\end{bmatrix}$",
+        "$\\begin{bmatrix}3/4 & 3/4\\\\3/4 & 3/4\\end{bmatrix}$",
+        "$\\begin{bmatrix}3 & 3\\\\3 & 3\\end{bmatrix}$",
+        "$\\begin{bmatrix}1 & 1\\\\1 & 1\\end{bmatrix}$"
+      ],
+      "answer": 1,
+      "chapter": "Old syllabus: Groups",
+      "explanation": "Multiplying two such matrices with entries $x$ and $y$ gives entries $2xy$, so the identity element has $e=\\dfrac12$. For $x=\\dfrac13$, the inverse $y$ satisfies $2\\cdot\\dfrac13\\cdot y=\\dfrac12$, giving $y=\\dfrac34$."
+    },
+    {
+      "n": 28,
+      "q": "If $2x^2+2y^2+4x+5y+1=0$ and $3x^2+3y^2+6x-7y+3k=0$ are orthogonal, then value of $k$ is ............",
+      "options": [
+        "$\\dfrac{17}{12}$",
+        "$\\dfrac{12}{17}$",
+        "$\\dfrac{-12}{17}$",
+        "$\\dfrac{-17}{12}$"
+      ],
+      "answer": 3,
+      "chapter": "Conic Sections",
+      "explanation": "Dividing to standard form: $g_1=1,f_1=1.25,c_1=0.5$ and $g_2=1,f_2=-7/6,c_2=k$. Orthogonality $2g_1g_2+2f_1f_2=c_1+c_2$ gives $k=\\dfrac{-17}{12}$."
+    },
+    {
+      "n": 29,
+      "q": "The total number of common tangents of $x^2+y^2-6x-8y+9=0$ and $x^2+y^2=1$ is ............",
+      "options": [
+        "4",
+        "2",
+        "3",
+        "1"
+      ],
+      "answer": 2,
+      "chapter": "Conic Sections",
+      "explanation": "The first circle has centre $(3,4)$, radius $4$; the second has centre $(0,0)$, radius $1$. Distance between centres $=5=4+1$, so the circles touch externally, giving $3$ common tangents."
+    },
+    {
+      "n": 30,
+      "q": "The center of a circle which cuts $x^2+y^2+6x-1=0$, $x^2+y^2-3y+2=0$ and $x^2+y^2+x+y-3=0$ orthogonally is ............",
+      "options": [
+        "$\\left(\\dfrac17,\\dfrac97\\right)$",
+        "$\\left(\\dfrac{-1}{7},\\dfrac{-9}{7}\\right)$",
+        "$\\left(\\dfrac17,\\dfrac{-9}{7}\\right)$",
+        "$\\left(\\dfrac{-1}{7},\\dfrac97\\right)$"
+      ],
+      "answer": 3,
+      "chapter": "Conic Sections",
+      "explanation": "Setting up the three orthogonality conditions $2gg_i+2ff_i=c+c_i$ and solving simultaneously gives $g=1/7$, $f=-9/7$, so the centre $(-g,-f)=\\left(\\dfrac{-1}{7},\\dfrac97\\right)$."
+    },
+    {
+      "n": 31,
+      "q": "The length of the latus rectum of $3x^2-4y+6x-3=0$ is ............",
+      "options": [
+        "$\\dfrac34$",
+        "$\\dfrac43$",
+        "2",
+        "3"
+      ],
+      "answer": 1,
+      "chapter": "Conic Sections",
+      "explanation": "Rewriting as $(x+1)^2=\\dfrac43\\left(y+\\dfrac32\\right)$, we get $4p=\\dfrac43$, which is the length of the latus rectum."
+    },
+    {
+      "n": 32,
+      "q": "The sum of the reciprocals of focal distances of a focal chord $PQ$ of $y^2=4ax$ is ............",
+      "options": [
+        "$\\dfrac1a$",
+        "a",
+        "2a",
+        "$\\dfrac{1}{2a}$"
+      ],
+      "answer": 0,
+      "chapter": "Conic Sections",
+      "explanation": "For a focal chord of $y^2=4ax$, the standard result is that the sum of the reciprocals of the segments' lengths from the focus equals $\\dfrac1a$."
+    },
+    {
+      "n": 33,
+      "q": "If the focii of $\\dfrac{x^2}{16}+\\dfrac{y^2}{4}=1$ and $\\dfrac{x^2}{a^2}-\\dfrac{y^2}{3}=1$ coincide, then value of $a$ is ............",
+      "options": [
+        "$\\sqrt3$",
+        "$\\dfrac{1}{\\sqrt3}$",
+        "2",
+        "1"
+      ],
+      "answer": 0,
+      "chapter": "Conic Sections",
+      "explanation": "For the ellipse, $c^2=16-4=12$. For the hyperbola, $c^2=a^2+3$. Equating gives $a^2=9$, i.e. $a=3$, which does not match any given option (likely a printing error in the paper); KEA awarded a grace mark for this question.",
+      "grace": true
+    },
+    {
+      "n": 34,
+      "q": "The equation of a hyperbola whose asymptotes are $3x\\pm5y=0$ and vertices are $(\\pm5,0)$ is ............",
+      "options": [
+        "$3x^2-5y^2=25$",
+        "$5x^2-3y^2=225$",
+        "$25x^2-9y^2=225$",
+        "$9x^2-25y^2=225$"
+      ],
+      "answer": 3,
+      "chapter": "Conic Sections",
+      "explanation": "With $a=5$ and asymptote slope $b/a=3/5$ giving $b=3$, the hyperbola is $\\dfrac{x^2}{25}-\\dfrac{y^2}{9}=1$, i.e. $9x^2-25y^2=225$."
+    },
+    {
+      "n": 35,
+      "q": "The domain of $f(x)=\\sin^{-1}\\left[\\log_2\\left(\\dfrac{x}{2}\\right)\\right]$ is ............",
+      "options": [
+        "$0\\leq x\\leq1$",
+        "$0\\leq x\\leq4$",
+        "$1\\leq x\\leq4$",
+        "$4\\leq x\\leq6$"
+      ],
+      "answer": 2,
+      "chapter": "Inverse Trigonometric Functions",
+      "explanation": "We need $-1\\leq\\log_2(x/2)\\leq1$, i.e. $\\dfrac12\\leq\\dfrac x2\\leq2$, giving $1\\leq x\\leq4$."
+    },
+    {
+      "n": 36,
+      "q": "If $\\tan^{-1}x=\\dfrac{\\pi}{4}-\\tan^{-1}\\left(\\dfrac13\\right)$, then $x$ is ............",
+      "options": [
+        "$\\dfrac13$",
+        "$\\dfrac12$",
+        "$\\dfrac14$",
+        "$\\dfrac16$"
+      ],
+      "answer": 1,
+      "chapter": "Inverse Trigonometric Functions",
+      "explanation": "$\\tan\\left(\\dfrac\\pi4-\\tan^{-1}\\dfrac13\\right)=\\dfrac{1-1/3}{1+1/3}=\\dfrac12$, so $x=\\dfrac12$."
+    },
+    {
+      "n": 37,
+      "q": "A value of $\\theta$ satisfying $\\sin5\\theta-\\sin3\\theta+\\sin\\theta=0$ such that $0<\\theta<\\dfrac{\\pi}{2}$ is ............",
+      "options": [
+        "$\\dfrac{\\pi}{12}$",
+        "$\\dfrac{\\pi}{6}$",
+        "$\\dfrac{\\pi}{4}$",
+        "$\\dfrac{\\pi}{2}$"
+      ],
+      "answer": 1,
+      "chapter": "Trigonometric Functions",
+      "explanation": "$\\sin5\\theta+\\sin\\theta=2\\sin3\\theta\\cos2\\theta$, so the equation becomes $\\sin3\\theta(2\\cos2\\theta-1)=0$. Taking $\\cos2\\theta=\\dfrac12$ gives $\\theta=\\dfrac{\\pi}{6}$, which lies in the given range."
+    },
+    {
+      "n": 38,
+      "q": "The value of $\\left|\\dfrac{1+i\\sqrt3}{\\left(1+\\dfrac{1}{i+1}\\right)^2}\\right|$ is ............",
+      "options": [
+        "20",
+        "9",
+        "$\\dfrac54$",
+        "$\\dfrac45$"
+      ],
+      "answer": 3,
+      "chapter": "Complex Numbers and Quadratic Equations",
+      "explanation": "$1+\\dfrac{1}{i+1}=\\dfrac{3-i}{2}$, whose square is $\\dfrac{4-3i}{2}$. Then $\\left|\\dfrac{1+i\\sqrt3}{(4-3i)/2}\\right|=\\dfrac{2\\times2}{5}=\\dfrac45$."
+    },
+    {
+      "n": 39,
+      "q": "If $\\omega$ is an imaginary cube root of unity, then the value of $(1-\\omega+\\omega^2)\\cdot(1-\\omega^2+\\omega^4)\\cdot(1-\\omega^4+\\omega^8)\\cdot...........(2n\\text{ factors})$ is ............",
+      "options": [
+        "$2^{2n}$",
+        "$2^n$",
+        "1",
+        "0"
+      ],
+      "answer": 0,
+      "chapter": "Complex Numbers and Quadratic Equations",
+      "explanation": "Each pair of factors simplifies to $(-2\\omega)(-2\\omega^2)=4\\omega^3=4$; with $n$ such pairs among $2n$ factors, the product is $4^n=2^{2n}$."
+    },
+    {
+      "n": 40,
+      "q": "If $P(x,y)$ denotes $z=x+iy$ in Argand's plane and $\\left|\\dfrac{z-1}{z+2i}\\right|=1$, then the locus of $P$ is a/an .........................",
+      "options": [
+        "hyperbola",
+        "ellipse",
+        "circle",
+        "straight line"
+      ],
+      "answer": 3,
+      "chapter": "Complex Numbers and Quadratic Equations",
+      "explanation": "$|z-1|=|z+2i|$ means $P$ is equidistant from $(1,0)$ and $(0,-2)$, so the locus is the perpendicular bisector of the segment joining them, a straight line."
+    },
+    {
+      "n": 41,
+      "q": "If $\\sqrt r=ae^{\\theta\\cot\\alpha}$ where $a$ and $\\alpha$ are real numbers, then $\\dfrac{d^2r}{d\\theta^2}-4r\\cot^2\\alpha$ is ............",
+      "options": [
+        "r",
+        "$\\dfrac1r$",
+        "1",
+        "0"
+      ],
+      "answer": 3,
+      "chapter": "Continuity and Differentiability",
+      "explanation": "$r=a^2e^{2\\theta\\cot\\alpha}$, so $\\dfrac{dr}{d\\theta}=2\\cot\\alpha\\cdot r$ and $\\dfrac{d^2r}{d\\theta^2}=4\\cot^2\\alpha\\cdot r$; hence the expression is $0$."
+    },
+    {
+      "n": 42,
+      "q": "The derivative of $\\tan^{-1}\\left[\\dfrac{\\sin x}{1+\\cos x}\\right]$ with respect to $\\tan^{-1}\\left[\\dfrac{\\cos x}{1+\\sin x}\\right]$ is ............",
+      "options": [
+        "2",
+        "-1",
+        "0",
+        "-2"
+      ],
+      "answer": 1,
+      "chapter": "Continuity and Differentiability",
+      "explanation": "$\\tan^{-1}\\left[\\dfrac{\\sin x}{1+\\cos x}\\right]=\\dfrac x2$ and $\\tan^{-1}\\left[\\dfrac{\\cos x}{1+\\sin x}\\right]=\\dfrac\\pi4-\\dfrac x2$. The derivative of the first with respect to the second is $\\dfrac{1/2}{-1/2}=-1$."
+    },
+    {
+      "n": 43,
+      "q": "$\\dfrac{d}{dx}\\left[\\cos^2\\left(\\cot^{-1}\\sqrt{\\dfrac{2+x}{2-x}}\\right)\\right]$ is ............",
+      "options": [
+        "$\\dfrac14$",
+        "$\\dfrac12$",
+        "$\\dfrac{-1}{2}$",
+        "$\\dfrac{-3}{4}$"
+      ],
+      "answer": 0,
+      "chapter": "Continuity and Differentiability",
+      "explanation": "With $\\cot\\theta=\\sqrt{\\dfrac{2+x}{2-x}}$, $\\cos^2\\theta=\\dfrac{\\cot^2\\theta}{1+\\cot^2\\theta}=\\dfrac{2+x}{4}$, whose derivative with respect to $x$ is $\\dfrac14$."
+    },
+    {
+      "n": 44,
+      "q": "If $f(x)=\\dfrac{\\sin^2x}{1+\\cot x}+\\dfrac{\\cos^2x}{1+\\tan x}$, then $f'\\left(\\dfrac{\\pi}{4}\\right)$ is ............",
+      "options": [
+        "$\\sqrt3$",
+        "$\\dfrac{1}{\\sqrt3}$",
+        "0",
+        "$-\\sqrt3$"
+      ],
+      "answer": 2,
+      "chapter": "Continuity and Differentiability",
+      "explanation": "Simplifying, $f(x)=\\dfrac{\\sin^3x+\\cos^3x}{\\sin x+\\cos x}=1-\\sin x\\cos x=1-\\dfrac12\\sin2x$, so $f'(x)=-\\cos2x$, and $f'(\\pi/4)=-\\cos(\\pi/2)=0$."
+    },
+    {
+      "n": 45,
+      "q": "If $\\cos^{-1}\\left(\\dfrac yb\\right)=n\\log\\left(\\dfrac xn\\right)$, then .......................",
+      "options": [
+        "$xy_1=n\\sqrt{b^2-y^2}$",
+        "$xy_1+n\\sqrt{b^2-y^2}=0$",
+        "$y_1=x\\sqrt{b^2-y^2}$",
+        "$xy_1-\\sqrt{b^2-y^2}=0$"
+      ],
+      "answer": 1,
+      "chapter": "Continuity and Differentiability",
+      "explanation": "Differentiating, $\\dfrac{-y_1}{\\sqrt{b^2-y^2}}=\\dfrac nx$, so $xy_1+n\\sqrt{b^2-y^2}=0$."
+    },
+    {
+      "n": 46,
+      "q": "Area of a triangle formed by tangent and normal to the curve $\\dfrac{x^2}{a^2}+\\dfrac{y^2}{b^2}=1$ at $P\\left(\\dfrac{a}{\\sqrt2},\\dfrac{b}{\\sqrt2}\\right)$ with the $X$-axis is ........",
+      "options": [
+        "4ab",
+        "$\\dfrac{ab\\sqrt{a^2+b^2}}{4}$",
+        "$\\dfrac{ab\\sqrt{a^2-b^2}}{4}$",
+        "$\\dfrac{b(a^2+b^2)}{4a}$"
+      ],
+      "answer": 3,
+      "chapter": "Application of Derivatives",
+      "explanation": "The tangent meets the $X$-axis at $(a\\sqrt2,0)$ and the normal meets it at $\\left(\\dfrac{a^2-b^2}{a\\sqrt2},0\\right)$; with the height $b/\\sqrt2$ from $P$, the triangle's area works out to $\\dfrac{b(a^2+b^2)}{4a}$."
+    },
+    {
+      "n": 47,
+      "q": "The angle between $y^2=4x$ and $x^2+y^2=12$ at a point of their intersection is ............",
+      "options": [
+        "$\\tan^{-1}\\sqrt2$",
+        "$\\tan^{-1}2$",
+        "$\\tan^{-1}2\\sqrt2$",
+        "$\\tan^{-1}\\left(\\dfrac12\\right)$"
+      ],
+      "answer": 2,
+      "chapter": "Application of Derivatives",
+      "explanation": "The curves meet at $(2,2\\sqrt2)$, where the slopes are $\\dfrac{1}{\\sqrt2}$ and $-\\dfrac{1}{\\sqrt2}$; the angle between them is $\\tan^{-1}(2\\sqrt2)$."
+    },
+    {
+      "n": 48,
+      "q": "A sphere increases its volume at the rate of $\\pi$ cc/s. The rate at which its surface area increases when the radius is 1 cm is ............",
+      "options": [
+        "$2\\pi$ sq.cm/s",
+        "$\\pi$ sq.cm/s",
+        "$\\dfrac{3\\pi}{2}$ sq.cm/s",
+        "$\\dfrac{\\pi}{2}$ sq.cm/s"
+      ],
+      "answer": 0,
+      "chapter": "Application of Derivatives",
+      "explanation": "$\\dfrac{dV}{dt}=4\\pi r^2\\dfrac{dr}{dt}=\\pi$ gives $\\dfrac{dr}{dt}=\\dfrac{1}{4r^2}$. Then $\\dfrac{dS}{dt}=8\\pi r\\dfrac{dr}{dt}=\\dfrac{2\\pi}{r}$, which at $r=1$ is $2\\pi$ sq.cm/s."
+    },
+    {
+      "n": 49,
+      "q": "The value of $\\displaystyle\\int_0^4|x-1|\\,dx$ is ............",
+      "options": [
+        "$\\dfrac52$",
+        "5",
+        "4",
+        "1"
+      ],
+      "answer": 1,
+      "chapter": "Integrals",
+      "explanation": "$\\displaystyle\\int_0^1(1-x)dx+\\int_1^4(x-1)dx=\\dfrac12+\\dfrac92=5$."
+    },
+    {
+      "n": 50,
+      "q": "If $I_n=\\displaystyle\\int_0^{\\pi/4}\\tan^nx\\,dx$, where $n$ is a positive integer, then $I_{10}+I_8$ is ............",
+      "options": [
+        "$\\dfrac19$",
+        "$\\dfrac18$",
+        "$\\dfrac17$",
+        "9"
+      ],
+      "answer": 0,
+      "chapter": "Integrals",
+      "explanation": "Using $I_n+I_{n-2}=\\displaystyle\\int_0^{\\pi/4}\\tan^{n-2}x\\sec^2x\\,dx=\\dfrac{1}{n-1}$ with $n=10$ gives $I_{10}+I_8=\\dfrac19$."
+    },
+    {
+      "n": 51,
+      "q": "$\\displaystyle\\int e^x\\left[\\dfrac{\\sin x+\\cos x}{1-\\sin^2x}\\right]dx$ is ............",
+      "options": [
+        "$(e^x\\cdot\\csc x)+c$",
+        "$e^x\\cot x+c$",
+        "$(e^x\\cdot\\sec x)+c$",
+        "$e^x\\tan x+c$"
+      ],
+      "answer": 2,
+      "chapter": "Integrals",
+      "explanation": "The integrand simplifies to $e^x[\\sec x\\tan x+\\sec x]$, which is of the form $e^x[f(x)+f'(x)]$ with $f(x)=\\sec x$, so the integral is $e^x\\sec x+c$."
+    },
+    {
+      "n": 52,
+      "q": "When $x>0$, then $\\displaystyle\\int\\cos^{-1}\\left(\\dfrac{1-x^2}{1+x^2}\\right)dx$ is ............",
+      "options": [
+        "$2\\left[x\\tan^{-1}x-\\log(1+x^2)\\right]+c$",
+        "$2\\left[x\\tan^{-1}x+\\log(1+x^2)\\right]+c$",
+        "$2x\\tan^{-1}x+\\log(1+x^2)+c$",
+        "$2x\\tan^{-1}x-\\log(1+x^2)+c$"
+      ],
+      "answer": 3,
+      "chapter": "Integrals",
+      "explanation": "$\\cos^{-1}\\left(\\dfrac{1-x^2}{1+x^2}\\right)=2\\tan^{-1}x$, so the integral is $2\\displaystyle\\int\\tan^{-1}x\\,dx=2x\\tan^{-1}x-\\log(1+x^2)+c$."
+    },
+    {
+      "n": 53,
+      "q": "If the area between $y=mx^2$ and $x=my^2$ ($m>0$) is $\\dfrac14$ sq. units, then value of $m$ is ............",
+      "options": [
+        "$\\pm3\\sqrt2$",
+        "$\\pm2\\sqrt3$",
+        "$\\sqrt2$",
+        "$\\sqrt3$"
+      ],
+      "answer": 2,
+      "chapter": "Application of Integrals",
+      "explanation": "The area between the curves is $\\displaystyle\\int_0^{1/m}\\left[\\sqrt{x/m}-mx^2\\right]dx=\\dfrac{1}{3m^2}$. Setting this to $\\dfrac14$ gives $m=\\dfrac{2}{\\sqrt3}$, which does not exactly match any given option; KEA awarded a grace mark for this question.",
+      "grace": true
+    },
+    {
+      "n": 54,
+      "q": "If $m$ and $n$ are degree and order of $\\left(1+y_1^2\\right)^{2/3}=y_2$, then the value of $\\dfrac{m+n}{m-n}$ is ............",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "2"
+      ],
+      "answer": 2,
+      "chapter": "Differential Equations",
+      "explanation": "Cubing both sides gives $(1+y_1^2)^2=y_2^3$, a polynomial equation with order $n=2$ (highest derivative $y_2$) and degree $m=3$. So $\\dfrac{m+n}{m-n}=\\dfrac{5}{1}=5$."
+    },
+    {
+      "n": 55,
+      "q": "The general solution of $\\dfrac{dy}{dx}=1-x^2-y^2+x^2y^2$ is ............",
+      "options": [
+        "$2\\sin^{-1}y=x\\sqrt{1-x^2}+\\sin^{-1}x+c$",
+        "$\\cos^{-1}y=x\\cos^{-1}x+c$",
+        "$\\sin^{-1}y=\\dfrac12\\sin^{-1}x+c$",
+        "$2\\sin^{-1}y=x\\sqrt{1-y^2}+c$"
+      ],
+      "answer": 0,
+      "chapter": "Differential Equations",
+      "explanation": "The right side factors as $(1-x^2)(1-y^2)$. Taking this to mean $\\dfrac{dy}{dx}=\\sqrt{(1-x^2)(1-y^2)}$ (the intended equation, since the printed form without a square root does not lead to any listed answer), separating variables gives $\\sin^{-1}y=\\dfrac x2\\sqrt{1-x^2}+\\dfrac12\\sin^{-1}x+C$, i.e. $2\\sin^{-1}y=x\\sqrt{1-x^2}+\\sin^{-1}x+c$. KEA awarded a grace mark for this question.",
+      "grace": true
+    },
+    {
+      "n": 56,
+      "q": "If $x\\cos\\alpha+y\\sin\\alpha=4$ is tangent to $\\dfrac{x^2}{25}+\\dfrac{y^2}{9}=1$, then the value of $\\alpha$ is ............",
+      "options": [
+        "$\\tan^{-1}(3/7)$",
+        "$\\tan^{-1}(\\sqrt3/7)$",
+        "$\\tan^{-1}(7/3)$",
+        "$\\tan^{-1}(3/\\sqrt7)$"
+      ],
+      "answer": 3,
+      "chapter": "Conic Sections",
+      "explanation": "Tangency requires $16=25\\cos^2\\alpha+9\\sin^2\\alpha=9+16\\cos^2\\alpha$, giving $\\cos^2\\alpha=7/16$ and $\\tan\\alpha=3/\\sqrt7$."
+    },
+    {
+      "n": 57,
+      "q": "If $P$ is a point on $\\dfrac{x^2}{a^2}+\\dfrac{y^2}{b^2}=1$ with focii $S$ and $S'$, then the maximum value of triangle $SPS'$ is ............",
+      "options": [
+        "ab",
+        "$abe^2$",
+        "abe",
+        "ab/e"
+      ],
+      "answer": 2,
+      "chapter": "Conic Sections",
+      "explanation": "The base $SS'=2ae$ is fixed, and the height is maximised at $b$ (the end of the minor axis), giving maximum area $\\dfrac12\\times2ae\\times b=abe$."
+    },
+    {
+      "n": 58,
+      "q": "In Argand's plane, the point corresponding to $\\dfrac{(1-i\\sqrt3)(1+i)}{(\\sqrt3+i)}$ lies in ............",
+      "options": [
+        "quadrant I",
+        "quadrant II",
+        "quadrant III",
+        "quadrant IV"
+      ],
+      "answer": 3,
+      "chapter": "Complex Numbers and Quadratic Equations",
+      "explanation": "Simplifying the expression gives $1-i$, which corresponds to the point $(1,-1)$, lying in quadrant IV."
+    },
+    {
+      "n": 59,
+      "q": "If $y=\\sin x\\cdot\\sin2x\\cdot\\sin3x...........\\sin nx$, then $y'$ is ............",
+      "options": [
+        "$\\displaystyle\\sum_{k=1}^n k\\tan kx$",
+        "$y\\cdot\\displaystyle\\sum_{k=1}^n k\\cot kx$",
+        "$y\\cdot\\displaystyle\\sum_{k=1}^n k\\tan kn$",
+        "$\\displaystyle\\sum_{k=1}^n \\cot kx$"
+      ],
+      "answer": 1,
+      "chapter": "Continuity and Differentiability",
+      "explanation": "Taking logarithms, $\\ln y=\\sum\\ln(\\sin kx)$, so $\\dfrac{y'}{y}=\\sum k\\cot kx$, i.e. $y'=y\\cdot\\sum_{k=1}^n k\\cot kx$."
+    },
+    {
+      "n": 60,
+      "q": "$\\begin{vmatrix}\\sin\\alpha & \\cos\\alpha & \\sin(\\alpha+\\delta)\\\\sin\\beta & \\cos\\beta & \\sin(\\beta+\\delta)\\\\sin\\gamma & \\cos\\gamma & \\sin(\\gamma+\\delta)\\end{vmatrix}=.............................$",
+      "options": [
+        "0",
+        "1",
+        "$1+\\sin\\alpha\\sin\\beta\\sin\\gamma$",
+        "$1-(\\sin\\alpha-\\sin\\beta)(\\sin\\beta-\\sin\\gamma)(\\sin\\gamma-\\sin\\alpha)$"
+      ],
+      "answer": 0,
+      "chapter": "Determinants",
+      "explanation": "Since $\\sin(\\theta+\\delta)=\\cos\\delta\\sin\\theta+\\sin\\delta\\cos\\theta$, the third column is a linear combination of the first two columns, making the determinant $0$."
+    }
+  ]
+}

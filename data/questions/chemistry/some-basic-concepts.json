@@ -1,0 +1,528 @@
+{
+  "notes": "<h3>Mole concept</h3><ul><li>1 mole $= 6.022\\times10^{23}$ particles $=$ molar mass in grams $= 22.4$ L of any gas at STP (0 °C, 1 atm) [22.7 L at 1 bar].</li><li>Moles $= \\dfrac{\\text{mass}}{\\text{molar mass}} = \\dfrac{\\text{volume at STP}}{22.4} = \\dfrac{\\text{no. of particles}}{N_A}$.</li><li>Mass of one atom $= \\dfrac{\\text{atomic mass}}{N_A}$ g.</li></ul><h3>Laws of chemical combination</h3><ul><li>Conservation of mass (Lavoisier); definite proportions (Proust); multiple proportions (Dalton: CO and CO$_2$); Gay-Lussac (gaseous volumes); Avogadro (equal volumes → equal molecules at same $T, P$).</li></ul><h3>Formulae</h3><ul><li>Empirical formula: simplest whole-number ratio; molecular formula $= n\\times$ empirical, $n = \\dfrac{\\text{molar mass}}{\\text{empirical formula mass}}$.</li><li>Percentage composition $= \\dfrac{\\text{mass of element}}{\\text{molar mass}}\\times100$.</li></ul><h3>Concentration terms</h3><table><tr><td>Molarity $M$</td><td>mol solute / L solution (depends on $T$)</td></tr><tr><td>Molality $m$</td><td>mol solute / kg solvent (independent of $T$)</td></tr><tr><td>Mole fraction $x$</td><td>$n_A/(n_A+n_B)$; $\\sum x = 1$</td></tr><tr><td>Mass %</td><td>mass solute / mass solution × 100</td></tr><tr><td>Dilution</td><td>$M_1V_1 = M_2V_2$</td></tr></table><h3>Limiting reagent</h3><p>The reactant that is completely consumed first; it decides the amount of product. Convert all masses to moles and compare with the stoichiometric ratio.</p><h3>Exam tip</h3><p>Two questions typically: 'which contains maximum atoms/molecules' and a molarity/limiting-reagent numerical. Memorise molar masses: H$_2$O 18, CO$_2$ 44, NaOH 40, H$_2$SO$_4$ 98, CaCO$_3$ 100, NaCl 58.5, glucose 180, urea 60.</p>",
+  "questions": [
+    {
+      "id": "che-some-basic-concepts-001",
+      "q": "The number of moles in 8.8 g of CO$_2$ is",
+      "options": [
+        "0.4",
+        "2",
+        "0.1",
+        "0.2"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "Molar mass of CO$_2 = 44$ g mol$^{-1}$; $8.8/44 = 0.2$ mol."
+    },
+    {
+      "id": "che-some-basic-concepts-002",
+      "q": "The number of molecules in 4.4 g of CO$_2$ is",
+      "options": [
+        "$1.2\\times10^{23}$",
+        "$6.022\\times10^{22}$",
+        "$6.022\\times10^{23}$",
+        "$3.011\\times10^{23}$"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "$4.4/44 = 0.1$ mol $= 0.1\\times6.022\\times10^{23} = 6.022\\times10^{22}$ molecules."
+    },
+    {
+      "id": "che-some-basic-concepts-003",
+      "q": "A compound contains 40% C, 6.67% H and 53.33% O by mass. Its empirical formula is",
+      "options": [
+        "CH$_2$O",
+        "CH$_3$O",
+        "C$_2$H$_4$O",
+        "CHO"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "C: $40/12 = 3.33$; H: $6.67/1 = 6.67$; O: $53.33/16 = 3.33$. Ratio 1 : 2 : 1 → CH$_2$O."
+    },
+    {
+      "id": "che-some-basic-concepts-004",
+      "q": "4 g of H$_2$ reacts with 16 g of O$_2$ to form water. The mass of water formed is",
+      "options": [
+        "20 g",
+        "9 g",
+        "18 g",
+        "36 g"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "$2\\text{H}_2 + \\text{O}_2 \\to 2\\text{H}_2\\text{O}$. H$_2$: 2 mol, O$_2$: 0.5 mol. O$_2$ is limiting; 0.5 mol O$_2$ gives 1 mol H$_2$O = 18 g.",
+      "tip": "Always find the limiting reagent first."
+    },
+    {
+      "id": "che-some-basic-concepts-005",
+      "q": "4 g of NaOH is dissolved in water to make 250 mL of solution. The molarity is",
+      "options": [
+        "0.25 M",
+        "1 M",
+        "0.1 M",
+        "0.4 M"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "Moles $= 4/40 = 0.1$; $M = 0.1/0.25 = 0.4$ M."
+    },
+    {
+      "id": "che-some-basic-concepts-006",
+      "q": "Which concentration term is independent of temperature?",
+      "options": [
+        "Volume percent",
+        "Molarity",
+        "Molality",
+        "Normality"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "Molality uses mass of solvent, which does not change with temperature; molarity uses volume, which does."
+    },
+    {
+      "id": "che-some-basic-concepts-007",
+      "q": "The volume occupied by 0.5 mol of any gas at STP (0 °C, 1 atm) is",
+      "options": [
+        "11.2 L",
+        "5.6 L",
+        "44.8 L",
+        "22.4 L"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "1 mol occupies 22.4 L at STP, so 0.5 mol → 11.2 L."
+    },
+    {
+      "id": "che-some-basic-concepts-008",
+      "q": "Carbon forms two oxides CO and CO$_2$. This illustrates the law of",
+      "options": [
+        "conservation of mass",
+        "multiple proportions",
+        "reciprocal proportions",
+        "definite proportions"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "Masses of O combining with a fixed mass of C (12 g) are 16 and 32, in a simple ratio 1:2 — Dalton's law of multiple proportions."
+    },
+    {
+      "id": "che-some-basic-concepts-009",
+      "q": "Which of the following contains the largest number of atoms?",
+      "options": [
+        "1 g of H$_2$",
+        "1 g of O$_2$",
+        "1 g of He",
+        "1 g of CH$_4$"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "H$_2$: $\\tfrac12$ mol molecules $= 1$ mol atoms. He: 0.25 mol atoms. O$_2$: $\\tfrac1{32}\\times2 = 0.0625$ mol. CH$_4$: $\\tfrac1{16}\\times5 = 0.3125$ mol. Hydrogen wins."
+    },
+    {
+      "id": "che-some-basic-concepts-010",
+      "q": "The mole fraction of ethanol in a solution containing 46 g ethanol and 18 g water is",
+      "options": [
+        "0.25",
+        "0.72",
+        "0.33",
+        "0.5"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "Ethanol: $46/46 = 1$ mol; water: $18/18 = 1$ mol. $x = 1/2 = 0.5$."
+    },
+    {
+      "id": "che-some-basic-concepts-011",
+      "q": "The mass of one atom of carbon-12 is approximately",
+      "options": [
+        "$1.66\\times10^{-24}$ g",
+        "$6.022\\times10^{23}$ g",
+        "$1.99\\times10^{-23}$ g",
+        "$12$ g"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "$12/(6.022\\times10^{23}) = 1.99\\times10^{-23}$ g. (One amu $= 1.66\\times10^{-24}$ g.)"
+    },
+    {
+      "id": "che-some-basic-concepts-012",
+      "q": "The volume of 0.5 M H$_2$SO$_4$ required to prepare 500 mL of 0.1 M solution is",
+      "options": [
+        "250 mL",
+        "100 mL",
+        "25 mL",
+        "50 mL"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "$M_1V_1 = M_2V_2 \\Rightarrow V_1 = 0.1\\times500/0.5 = 100$ mL."
+    },
+    {
+      "id": "che-some-basic-concepts-013",
+      "q": "The molality of a solution containing 5 g of NaOH in 200 g of water is",
+      "options": [
+        "0.25 m",
+        "0.125 m",
+        "0.625 m",
+        "1.25 m"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "Moles $= 5/40 = 0.125$; kg solvent $= 0.2$; $m = 0.125/0.2 = 0.625$ m."
+    },
+    {
+      "id": "che-some-basic-concepts-014",
+      "q": "Percentage of oxygen by mass in H$_2$SO$_4$ is approximately",
+      "options": [
+        "16%",
+        "65.3%",
+        "50%",
+        "32.6%"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "Molar mass 98; O $= 64$; $64/98\\times100 \\approx 65.3\\%$."
+    },
+    {
+      "id": "che-some-basic-concepts-015",
+      "q": "Equal volumes of all gases under the same conditions of temperature and pressure contain equal numbers of molecules. This is",
+      "options": [
+        "Gay-Lussac's law",
+        "Boyle's law",
+        "Dalton's law",
+        "Avogadro's law"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "Avogadro's hypothesis (1811), which explained Gay-Lussac's law of gaseous volumes."
+    },
+    {
+      "id": "che-some-basic-concepts-016",
+      "q": "The number of atoms present in 0.5 mol of N$_2$ gas is",
+      "options": [
+        "$6.022\\times10^{23}$",
+        "$3.011\\times10^{23}$",
+        "$1.204\\times10^{24}$",
+        "$1.806\\times10^{24}$"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "0.5 mol N$_2$ = 1 mol N atoms = $6.022\\times10^{23}$ atoms."
+    },
+    {
+      "id": "che-some-basic-concepts-017",
+      "q": "The vapour density of a gas is 22. Its molecular mass is",
+      "options": [
+        "22",
+        "11",
+        "44",
+        "88"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "Molecular mass $= 2\\times$ vapour density $= 2\\times22 = 44$."
+    },
+    {
+      "id": "che-some-basic-concepts-018",
+      "q": "5.6 L of a gas at STP weighs 11 g. Its molar mass is",
+      "options": [
+        "88",
+        "44",
+        "11",
+        "22"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "Moles $= 5.6/22.4 = 0.25$; molar mass $= 11/0.25 = 44$ g mol$^{-1}$."
+    },
+    {
+      "id": "che-some-basic-concepts-019",
+      "q": "The law of reciprocal proportions is illustrated by the combination of C, H and O in which set of compounds?",
+      "options": [
+        "N$_2$O, NO and NO$_2$",
+        "H$_2$O and D$_2$O",
+        "CO and CO$_2$",
+        "CH$_4$, H$_2$O and CO$_2$"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "When H and O each combine separately with a fixed mass of C (as in CH$_4$ and CO$_2$), the ratio of their masses equals the ratio in which they combine directly (as in H$_2$O) — the law of reciprocal proportions."
+    },
+    {
+      "id": "che-some-basic-concepts-020",
+      "q": "3.2 g of CH$_4$ is mixed with 3.2 g of O$_2$ and reacted as CH$_4 + 2\\text{O}_2 \\to \\text{CO}_2 + 2\\text{H}_2\\text{O}$. The mass of CO$_2$ formed is",
+      "options": [
+        "2.2 g",
+        "8.8 g",
+        "4.4 g",
+        "1.1 g"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "Moles: CH$_4 = 0.2$, O$_2 = 0.1$. O$_2$ needs $0.05$ mol CH$_4$ only, so O$_2$ is limiting. CO$_2$ formed $= 0.1/2 = 0.05$ mol $= 2.2$ g.",
+      "tip": "Compare mol ratio available to mol ratio required, not just masses."
+    },
+    {
+      "id": "che-some-basic-concepts-021",
+      "q": "The number of significant figures in 0.00620 is",
+      "options": [
+        "2",
+        "5",
+        "3",
+        "4"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "Leading zeros are not significant; 6, 2 and the trailing 0 are significant, giving 3 significant figures."
+    },
+    {
+      "id": "che-some-basic-concepts-022",
+      "q": "Which of the following numbers has exactly three significant figures?",
+      "options": [
+        "2.50",
+        "0.0025",
+        "2500",
+        "0.025"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "2.50 has three significant figures (2, 5, 0); leading zeros in 0.025 and 0.0025 are not significant."
+    },
+    {
+      "id": "che-some-basic-concepts-023",
+      "q": "A hydrated salt CuSO$_4\\cdot x\\text{H}_2\\text{O}$ contains 36% water by mass. The value of $x$ is (Cu = 64, S = 32)",
+      "options": [
+        "3",
+        "5",
+        "6",
+        "4"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "Molar mass of CuSO$_4 = 160$. $\\dfrac{18x}{160+18x} = 0.36 \\Rightarrow 18x = 57.6+6.48x \\Rightarrow x = 5$, matching CuSO$_4\\cdot5\\text{H}_2\\text{O}$."
+    },
+    {
+      "id": "che-some-basic-concepts-024",
+      "q": "4 g of a divalent metal reacts completely with excess acid to liberate 2.24 L of H$_2$ at STP. The atomic mass of the metal is",
+      "options": [
+        "20",
+        "60",
+        "80",
+        "40"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "Moles H$_2 = 0.1$; equivalents $= 0.2$ (1 mol H$_2$ = 2 eq). Equivalent mass of metal $= 4/0.2 = 20$; atomic mass $=$ equivalent mass $\\times$ valency $= 20\\times2 = 40$."
+    },
+    {
+      "id": "che-some-basic-concepts-025",
+      "q": "In a reaction, the theoretical yield of a product is 20 g but only 15 g is actually obtained. The percentage yield is",
+      "options": [
+        "75%",
+        "66.7%",
+        "90%",
+        "80%"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "% yield $= (15/20)\\times100 = 75\\%$."
+    },
+    {
+      "id": "che-some-basic-concepts-026",
+      "q": "200 mL of 0.5 M HCl is mixed with 300 mL of 0.2 M HCl. The molarity of the resulting solution is",
+      "options": [
+        "0.35 M",
+        "0.32 M",
+        "0.16 M",
+        "0.3 M"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "Total moles $= 0.5\\times0.2 + 0.2\\times0.3 = 0.10+0.06 = 0.16$ mol; total volume $= 0.5$ L; $M = 0.16/0.5 = 0.32$ M."
+    },
+    {
+      "id": "che-some-basic-concepts-027",
+      "q": "1 ppm (mass/mass) of a solute in solution is equivalent to",
+      "options": [
+        "1 mg solute per g solution",
+        "1 mol solute per L solution",
+        "1 g solute per kg solution",
+        "1 mg solute per kg solution"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "Parts per million by mass means 1 part solute in $10^6$ parts solution, i.e. 1 mg solute per kg of solution."
+    },
+    {
+      "id": "che-some-basic-concepts-028",
+      "q": "The empirical formula of a compound is CH$_2$O and its empirical formula mass is 30. If its molar mass is 180, the molecular formula is",
+      "options": [
+        "C$_3$H$_6$O$_3$",
+        "C$_2$H$_4$O$_2$",
+        "C$_6$H$_{12}$O$_6$",
+        "C$_6$H$_6$O$_6$"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "$n = 180/30 = 6$; molecular formula $= 6\\times$CH$_2$O $=$ C$_6$H$_{12}$O$_6$ (glucose)."
+    },
+    {
+      "id": "che-some-basic-concepts-029",
+      "q": "A sample of impure CaCO$_3$ (80% pure) weighing 12.5 g is heated completely as $\\text{CaCO}_3 \\to \\text{CaO} + \\text{CO}_2$. The mass of CO$_2$ released is (Ca = 40)",
+      "options": [
+        "4.4 g",
+        "3.52 g",
+        "5.6 g",
+        "4.0 g"
+      ],
+      "answer": 0,
+      "difficulty": "hard",
+      "explanation": "Pure CaCO$_3 = 0.80\\times12.5 = 10$ g $= 0.1$ mol, giving $0.1$ mol CO$_2 = 4.4$ g."
+    },
+    {
+      "id": "che-some-basic-concepts-030",
+      "q": "The molecular mass of Ca(OH)$_2$ is (Ca = 40, O = 16, H = 1)",
+      "options": [
+        "90",
+        "58",
+        "74",
+        "40"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "$40 + 2(16+1) = 40+34 = 74$."
+    },
+    {
+      "id": "che-some-basic-concepts-031",
+      "q": "$3.011\\times10^{23}$ molecules of CO$_2$ have a mass of",
+      "options": [
+        "4.4 g",
+        "11 g",
+        "44 g",
+        "22 g"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "$3.011\\times10^{23}/6.022\\times10^{23} = 0.5$ mol; mass $= 0.5\\times44 = 22$ g."
+    },
+    {
+      "id": "che-some-basic-concepts-032",
+      "q": "1 g each of CH$_4$, CO$_2$, H$_2$O(g) and N$_2$ is taken. The correct order of increasing number of moles is",
+      "options": [
+        "H$_2$O < CH$_4$ < CO$_2$ < N$_2$",
+        "CO$_2$ < N$_2$ < H$_2$O < CH$_4$",
+        "CH$_4$ < H$_2$O < N$_2$ < CO$_2$",
+        "N$_2$ < CO$_2$ < CH$_4$ < H$_2$O"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "Moles per gram $= 1/M$: CO$_2$ (1/44=0.023) < N$_2$ (1/28=0.036) < H$_2$O (1/18=0.056) < CH$_4$ (1/16=0.063). Lower molar mass gives more moles for the same mass."
+    },
+    {
+      "id": "che-some-basic-concepts-033",
+      "q": "Which of the following statements is INCORRECT?",
+      "options": [
+        "Mole fraction has no units",
+        "Molarity is expressed in mol per kg of solvent",
+        "Molality does not change with temperature",
+        "1 mole of any gas occupies 22.4 L at STP"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "Molarity is moles of solute per litre of solution, not per kg of solvent — that is the definition of molality."
+    },
+    {
+      "id": "che-some-basic-concepts-034",
+      "q": "A mixture contains 4.4 g of CO$_2$ and 2.8 g of N$_2$. The total number of molecules present in the mixture is",
+      "options": [
+        "$3.011\\times10^{22}$",
+        "$2.408\\times10^{23}$",
+        "$6.022\\times10^{23}$",
+        "$1.204\\times10^{23}$"
+      ],
+      "answer": 3,
+      "difficulty": "hard",
+      "explanation": "CO$_2$: $4.4/44 = 0.1$ mol; N$_2$: $2.8/28 = 0.1$ mol; total $= 0.2$ mol $\\times6.022\\times10^{23} = 1.204\\times10^{23}$ molecules."
+    },
+    {
+      "id": "che-some-basic-concepts-035",
+      "q": "Pure water samples obtained from a river, a well and a laboratory synthesis all contain hydrogen and oxygen in the mass ratio 1:8. This observation illustrates the",
+      "options": [
+        "law of multiple proportions",
+        "law of conservation of mass",
+        "law of definite proportions",
+        "Avogadro's law"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "A pure compound always contains its constituent elements in a fixed mass ratio regardless of source — the law of definite (constant) proportions."
+    },
+    {
+      "id": "che-some-basic-concepts-036",
+      "q": "On complete combustion, 0.6 g of an organic compound (containing C, H and O only) gives 0.88 g CO$_2$ and 0.36 g H$_2$O. The empirical formula of the compound is",
+      "options": [
+        "CH$_2$O",
+        "C$_2$H$_4$O$_2$",
+        "C$_3$H$_6$O$_3$",
+        "CH$_4$O"
+      ],
+      "answer": 0,
+      "difficulty": "hard",
+      "explanation": "Mass C $= 0.88\\times12/44 = 0.24$ g, mass H $= 0.36\\times2/18 = 0.04$ g, so mass O $= 0.6-0.28 = 0.32$ g. Moles: C $= 0.02$, H $= 0.04$, O $= 0.02$; ratio 1:2:1 gives CH$_2$O.",
+      "tip": "Any mass not accounted for by C and H in a combustion problem is oxygen."
+    },
+    {
+      "id": "che-some-basic-concepts-037",
+      "q": "What volume of water must be added to 100 mL of 0.5 M HCl to make it 0.1 M?",
+      "options": [
+        "300 mL",
+        "500 mL",
+        "400 mL",
+        "450 mL"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "$M_1V_1 = M_2V_2 \\Rightarrow 0.5\\times100 = 0.1\\times V_2 \\Rightarrow V_2 = 500$ mL. Water to be added $= 500-100 = 400$ mL."
+    },
+    {
+      "id": "che-some-basic-concepts-038",
+      "q": "The SI unit of the amount of a substance is the",
+      "options": [
+        "kilogram",
+        "mole",
+        "litre",
+        "gram"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "The mole is the SI base unit for amount of substance."
+    },
+    {
+      "id": "che-some-basic-concepts-039",
+      "q": "The normality of a solution containing 4.9 g of H$_2$SO$_4$ in 500 mL of solution is (H = 1, S = 32, O = 16)",
+      "options": [
+        "0.2 N",
+        "0.4 N",
+        "0.05 N",
+        "0.1 N"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "Equivalent mass of H$_2$SO$_4 = 98/2 = 49$; equivalents $= 4.9/49 = 0.1$; normality $= 0.1/0.5 = 0.2$ N."
+    },
+    {
+      "id": "che-some-basic-concepts-040",
+      "q": "5.4 g of Al reacts with 4.48 L of Cl$_2$ at STP as $2\\text{Al} + 3\\text{Cl}_2 \\to 2\\text{AlCl}_3$. The mass of Al left unreacted is (Al = 27)",
+      "options": [
+        "3.6 g",
+        "2.7 g",
+        "0.9 g",
+        "1.8 g"
+      ],
+      "answer": 3,
+      "difficulty": "hard",
+      "explanation": "Moles: Al $= 0.2$, Cl$_2 = 4.48/22.4 = 0.2$. Cl$_2$ needs $0.2\\times2/3 = 0.1333$ mol Al to react fully, so Cl$_2$ is limiting. Unreacted Al $= 0.2-0.1333 = 0.0667$ mol $= 1.8$ g."
+    }
+  ]
+}

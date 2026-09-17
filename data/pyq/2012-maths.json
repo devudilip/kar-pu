@@ -1,0 +1,792 @@
+{
+  "title": "KCET 2012 Maths",
+  "year": 2012,
+  "subject": "maths",
+  "code": "A-1",
+  "source": "KEA question paper (copy) + KEA answer key column A1",
+  "excluded": [],
+  "questions": [
+    {
+      "n": 1,
+      "q": "Which of the following is incorrect? If $a \\equiv b \\pmod{m}$ and $x$ is an integer, then",
+      "options": [
+        "$(a + x) \\equiv (b + x) \\pmod{m}$",
+        "$(a - x) \\equiv (b - x) \\pmod{m}$",
+        "$ax \\equiv bx \\pmod{m}$",
+        "$(a \\div x) \\equiv (b \\div x) \\pmod{m}$"
+      ],
+      "answer": 3,
+      "chapter": "Relations and Functions",
+      "explanation": "Division is not preserved under congruence in general (need $\\gcd(x,m)=1$), so $(a\\div x)\\equiv (b\\div x)\\pmod m$ can fail."
+    },
+    {
+      "n": 2,
+      "q": "Inverse of a diagonal non-singular matrix is a",
+      "options": [
+        "scalar matrix",
+        "skew symmetric matrix",
+        "zero matrix",
+        "diagonal matrix"
+      ],
+      "answer": 3,
+      "chapter": "Determinants",
+      "explanation": "The inverse of a non-singular diagonal matrix is obtained by inverting each diagonal entry, which is again diagonal."
+    },
+    {
+      "n": 3,
+      "q": "If $ax^4 + bx^3 + cx^2 + dx + e = \\begin{vmatrix} x^3+3x & x-1 & x+3 \\\\ x+1 & -2x & x-4 \\\\ x-3 & x+4 & 3x \\end{vmatrix}$, then $e =$",
+      "options": [
+        "1",
+        "0",
+        "2",
+        "-1"
+      ],
+      "answer": 1,
+      "chapter": "Determinants",
+      "explanation": "$e$ is the constant term, obtained by putting $x=0$: the determinant becomes $\\begin{vmatrix}0&-1&3\\\\1&0&-4\\\\-3&4&0\\end{vmatrix}=0$."
+    },
+    {
+      "n": 4,
+      "q": "If $\\vec a, \\vec b$ and $\\vec c$ are three non-coplanar vectors and $\\vec p, \\vec q$ and $\\vec r$ are vectors defined by $\\vec p = \\dfrac{\\vec b \\times \\vec c}{[\\vec a\\ \\vec b\\ \\vec c]}$, $\\vec q = \\dfrac{\\vec c \\times \\vec a}{[\\vec a\\ \\vec b\\ \\vec c]}$ and $\\vec r = \\dfrac{\\vec a \\times \\vec b}{[\\vec a\\ \\vec b\\ \\vec c]}$, then the value of $(\\vec a + \\vec b) \\cdot \\vec p + (\\vec b + \\vec c) \\cdot \\vec q + (\\vec c + \\vec a) \\cdot \\vec r =$",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "answer": 3,
+      "chapter": "Vector Algebra",
+      "explanation": "$\\vec p,\\vec q,\\vec r$ form the reciprocal system, so $\\vec a\\cdot\\vec p=1,\\vec b\\cdot\\vec p=\\vec c\\cdot\\vec p=0$ (similarly for $\\vec q,\\vec r$). Each bracket reduces to $1$, giving a total of $3$."
+    },
+    {
+      "n": 5,
+      "q": "If $(\\vec a \\times \\vec b)^2 + (\\vec a \\cdot \\vec b)^2 = 144$ and $|\\vec a| = 4$, then $|\\vec b| =$",
+      "options": [
+        "16",
+        "8",
+        "3",
+        "12"
+      ],
+      "answer": 2,
+      "chapter": "Vector Algebra",
+      "explanation": "Using the identity $(\\vec a\\times\\vec b)^2+(\\vec a\\cdot\\vec b)^2=|\\vec a|^2|\\vec b|^2$, we get $16|\\vec b|^2=144$, so $|\\vec b|=3$."
+    },
+    {
+      "n": 6,
+      "q": "Which of the following is false?",
+      "options": [
+        "$(N, \\cdot)$ is a group.",
+        "$(N, +)$ is a semi-group.",
+        "$(Z, +)$ is a group.",
+        "Set of even integers is a group under usual addition."
+      ],
+      "answer": 0,
+      "chapter": "Old syllabus: Binary Operations",
+      "explanation": "$(N,\\cdot)$ is not a group since elements other than $1$ have no multiplicative inverse in $N$."
+    },
+    {
+      "n": 7,
+      "q": "$2\\cos^{-1}x = \\sin^{-1}(2x\\sqrt{1-x^2})$ is valid for all values of $x$ satisfying",
+      "options": [
+        "$-1 \\le x \\le 1$",
+        "$0 \\le x \\le 1$",
+        "$\\dfrac{1}{\\sqrt2} \\le x \\le 1$",
+        "$0 \\le x \\le \\dfrac{1}{\\sqrt2}$"
+      ],
+      "answer": 2,
+      "chapter": "Inverse Trigonometric Functions",
+      "explanation": "Writing $x=\\cos\\theta$, the identity $\\sin^{-1}(2\\sin\\theta\\cos\\theta)=2\\theta$ needs $2\\theta\\in[0,\\pi/2]$, i.e. $\\theta\\in[0,\\pi/4]$, which gives $x\\in[1/\\sqrt2,1]$."
+    },
+    {
+      "n": 8,
+      "q": "If $\\alpha$ is a complex number such that $\\alpha^2 - \\alpha + 1 = 0$, then $\\alpha^{2011} =$",
+      "options": [
+        "$-\\alpha$",
+        "$\\alpha^2$",
+        "$\\alpha$",
+        "1"
+      ],
+      "answer": 2,
+      "chapter": "Complex Numbers and Quadratic Equations",
+      "explanation": "$\\alpha$ is a primitive 6th root of unity ($\\alpha^6=1$). Since $2011=6\\times335+1$, $\\alpha^{2011}=\\alpha$."
+    },
+    {
+      "n": 9,
+      "q": "If $\\cos\\alpha + 2\\cos\\beta + 3\\cos\\gamma = 0$, $\\sin\\alpha + 2\\sin\\beta + 3\\sin\\gamma = 0$ and $\\alpha + \\beta + \\gamma = \\pi$, then $\\sin3\\alpha + 8\\sin3\\beta + 27\\sin3\\gamma =$",
+      "options": [
+        "-18",
+        "0",
+        "3",
+        "9"
+      ],
+      "answer": 1,
+      "chapter": "Trigonometric Functions",
+      "explanation": "For $a\\cos\\alpha+b\\cos\\beta+c\\cos\\gamma=0$ and $a\\sin\\alpha+b\\sin\\beta+c\\sin\\gamma=0$ with $\\alpha+\\beta+\\gamma=\\pi$, we have $a^3\\sin3\\alpha+b^3\\sin3\\beta+c^3\\sin3\\gamma=3abc\\sin(\\alpha+\\beta+\\gamma)$. Here $a{=}1,b{=}2,c{=}3$, so the value is $3(1)(2)(3)\\sin\\pi=0$."
+    },
+    {
+      "n": 10,
+      "q": "If the conjugate of $(x + iy)(1 - 2i)$ is $1 + i$, then",
+      "options": [
+        "$x - iy = \\dfrac{1+i}{1-2i}$",
+        "$x + iy = \\dfrac{1-i}{1-2i}$",
+        "$x = \\dfrac{1}{5}$",
+        "$x = -\\dfrac{1}{5}$"
+      ],
+      "answer": 1,
+      "chapter": "Complex Numbers and Quadratic Equations",
+      "explanation": "$(x+iy)(1-2i)=\\overline{1+i}=1-i$, so $x+iy=\\dfrac{1-i}{1-2i}=\\dfrac{3}{5}+\\dfrac{1}{5}i$, giving $x=3/5,\\ y=1/5$."
+    },
+    {
+      "n": 11,
+      "q": "If the straight line $3x + 4y = k$ touches the circle $x^2 + y^2 = 16x$, then the value of $k$ is",
+      "options": [
+        "16, 64",
+        "-16, -64",
+        "-16, 64",
+        "16, -64"
+      ],
+      "answer": 2,
+      "chapter": "Conic Sections",
+      "explanation": "The circle $(x-8)^2+y^2=64$ has centre $(8,0)$, radius $8$. Setting $\\dfrac{|24-k|}{5}=8$ gives $k=-16$ or $k=64$."
+    },
+    {
+      "n": 12,
+      "q": "The locus of the point of intersection of perpendicular tangents to the ellipse is called",
+      "options": [
+        "hyperbola",
+        "ellipse",
+        "auxiliary circle",
+        "director circle"
+      ],
+      "answer": 3,
+      "chapter": "Conic Sections",
+      "explanation": "This locus is, by definition, the director circle of the ellipse."
+    },
+    {
+      "n": 13,
+      "q": "If $m\\sin^{-1}x = \\log_e y$, then $(1 - x^2)y'' - xy' =$",
+      "options": [
+        "$m^2y$",
+        "$-m^2y$",
+        "2y",
+        "-2y"
+      ],
+      "answer": 0,
+      "chapter": "Continuity and Differentiability",
+      "explanation": "Differentiating $y=e^{m\\sin^{-1}x}$ twice gives the standard differential equation $(1-x^2)y''-xy'-m^2y=0$, so $(1-x^2)y''-xy'=m^2y$."
+    },
+    {
+      "n": 14,
+      "q": "If $y = e^{\\log_e[1+x+x^2+\\ldots]}$, then $\\dfrac{dy}{dx} =$",
+      "options": [
+        "$\\dfrac{1}{(1+x)^2}$",
+        "$\\dfrac{1}{(1-x)^2}$",
+        "$\\dfrac{-1}{(1+x)^2}$",
+        "$\\dfrac{-1}{(1-x)^2}$"
+      ],
+      "answer": 1,
+      "chapter": "Continuity and Differentiability",
+      "explanation": "$y=1+x+x^2+\\ldots=\\dfrac{1}{1-x}$ (for $|x|<1$), so $\\dfrac{dy}{dx}=\\dfrac{1}{(1-x)^2}$. KEA awarded a grace mark for this question, likely because the condition $|x|<1$ for the series to converge was not stated.",
+      "grace": true
+    },
+    {
+      "n": 15,
+      "q": "Length of the subtangent at $(x_1, y_1)$ on $x^n y^m = a^{m+n}$, $m, n > 0$, is",
+      "options": [
+        "$\\dfrac{n}{m}x_1$",
+        "$\\dfrac{m}{n}|x_1|$",
+        "$\\dfrac{n}{m}|y_1|$",
+        "$\\dfrac{n}{m}|x_1|$"
+      ],
+      "answer": 1,
+      "chapter": "Application of Derivatives",
+      "explanation": "Taking logs and differentiating, $y'=-\\dfrac{ny}{mx}$. Subtangent $=y/y'=-\\dfrac{mx}{n}$, whose magnitude is $\\dfrac{m}{n}|x_1|$."
+    },
+    {
+      "n": 16,
+      "q": "If a ball is thrown vertically upwards and the height 's' reached in time 't' is given by $s = 22t - 11t^2$, then the total distance travelled by the ball is",
+      "options": [
+        "44 units",
+        "33 units",
+        "11 units",
+        "22 units"
+      ],
+      "answer": 3,
+      "chapter": "Application of Derivatives",
+      "explanation": "$v=22-22t=0$ at $t=1$, giving maximum height $s=11$. Since the ball returns to the start ($s=0$ at $t=0,2$), total distance $=2\\times11=22$ units."
+    },
+    {
+      "n": 17,
+      "q": "The sum of two positive numbers is given. If the sum of their cubes is minimum, then",
+      "options": [
+        "they are equal",
+        "one is twice the other",
+        "they are unequal",
+        "one is thrice the other"
+      ],
+      "answer": 0,
+      "chapter": "Application of Derivatives",
+      "explanation": "With $x+y=k$ fixed, minimising $x^3+(k-x)^3$ gives $x=y=k/2$, so the numbers are equal."
+    },
+    {
+      "n": 18,
+      "q": "$\\displaystyle\\int_{\\pi/6}^{\\pi/3} \\dfrac{\\sin^3x}{\\sin^3x+\\cos^3x}\\,dx =$",
+      "options": [
+        "$\\dfrac{\\pi}{2}$",
+        "$\\dfrac{\\pi}{3}$",
+        "$\\dfrac{\\pi}{12}$",
+        "$\\dfrac{\\pi}{6}$"
+      ],
+      "answer": 2,
+      "chapter": "Integrals",
+      "explanation": "Using $\\int_a^b f(x)dx=\\int_a^b f(a+b-x)dx$ with $a+b=\\pi/2$, adding the integral to itself gives $2I=\\pi/6$, so $I=\\pi/12$."
+    },
+    {
+      "n": 19,
+      "q": "$\\displaystyle\\lim_{x\\to 0} \\dfrac{x\\,2^x - x}{1-\\cos x} =$",
+      "options": [
+        "$2\\log 2$",
+        "$\\log 2$",
+        "$\\dfrac12 \\log 2$",
+        "$\\dfrac12$"
+      ],
+      "answer": 0,
+      "chapter": "Limits and Derivatives",
+      "explanation": "$2^x-1\\sim x\\ln2$ and $1-\\cos x\\sim x^2/2$ as $x\\to0$, so the limit is $\\dfrac{x\\cdot x\\ln2}{x^2/2}=2\\ln2=2\\log2$."
+    },
+    {
+      "n": 20,
+      "q": "If $\\dfrac{3x+1}{(x-1)(x+3)} = \\dfrac{A}{x-1} + \\dfrac{B}{x+3}$, then $\\sin^{-1}\\dfrac{A}{B} =$",
+      "options": [
+        "$\\dfrac{\\pi}{2}$",
+        "$\\dfrac{\\pi}{3}$",
+        "$\\dfrac{\\pi}{6}$",
+        "$\\dfrac{\\pi}{4}$"
+      ],
+      "answer": 2,
+      "chapter": "Integrals",
+      "explanation": "Solving gives $A=1, B=2$, so $\\sin^{-1}(A/B)=\\sin^{-1}(1/2)=\\pi/6$."
+    },
+    {
+      "n": 21,
+      "q": "If $\\alpha, \\beta, \\gamma$ are the roots of the equation $x^3 + 4x + 2 = 0$, then $\\alpha^3 + \\beta^3 + \\gamma^3 =$",
+      "options": [
+        "2",
+        "6",
+        "-2",
+        "-6"
+      ],
+      "answer": 3,
+      "chapter": "Complex Numbers and Quadratic Equations",
+      "explanation": "Here $\\alpha+\\beta+\\gamma=0$, $\\alpha\\beta\\gamma=-2$. When the sum of the roots is zero, $\\alpha^3+\\beta^3+\\gamma^3=3\\alpha\\beta\\gamma=-6$."
+    },
+    {
+      "n": 22,
+      "q": "The value of ${}^{10}C_1 + {}^{10}C_2 + {}^{10}C_3 + \\ldots + {}^{10}C_9$ is",
+      "options": [
+        "$2^{10}$",
+        "$2^{11}$",
+        "$2^{10}-2$",
+        "$2^{10}-1$"
+      ],
+      "answer": 2,
+      "chapter": "Binomial Theorem",
+      "explanation": "Sum of all coefficients is $2^{10}$; removing ${}^{10}C_0$ and ${}^{10}C_{10}$ (each $=1$) leaves $2^{10}-2$."
+    },
+    {
+      "n": 23,
+      "q": "$p \\to \\sim q$ can also be written as",
+      "options": [
+        "$p \\to q$",
+        "$\\sim p \\vee \\sim q$",
+        "$q \\to p$",
+        "$\\sim q \\to \\sim p$"
+      ],
+      "answer": 1,
+      "chapter": "Old syllabus: Mathematical Reasoning",
+      "explanation": "$p\\to \\sim q \\equiv \\sim p \\vee \\sim q$, by the standard equivalence for implication."
+    },
+    {
+      "n": 24,
+      "q": "If $f : \\mathbb{R} \\to \\mathbb{R}$ is defined by $f(x) = 2x + 3$, then $f^{-1}(x)$",
+      "options": [
+        "is given by $\\dfrac{x-3}{2}$",
+        "is given by $\\dfrac{1}{2x+3}$",
+        "does not exist because 'f' is not injective",
+        "does not exist because 'f' is not surjective"
+      ],
+      "answer": 0,
+      "chapter": "Relations and Functions",
+      "explanation": "$f$ is a bijection on $\\mathbb R$; solving $y=2x+3$ for $x$ gives $f^{-1}(x)=\\dfrac{x-3}{2}$."
+    },
+    {
+      "n": 25,
+      "q": "$\\dfrac{\\sin70^\\circ + \\cos40^\\circ}{\\cos70^\\circ + \\sin40^\\circ} =$",
+      "options": [
+        "$\\dfrac{1}{\\sqrt3}$",
+        "$\\sqrt3$",
+        "$\\dfrac12$",
+        "1"
+      ],
+      "answer": 1,
+      "chapter": "Trigonometric Functions",
+      "explanation": "$\\cos40^\\circ=\\sin50^\\circ$ and $\\sin40^\\circ=\\cos50^\\circ$; using sum-to-product, the ratio simplifies to $\\dfrac{2\\sin60^\\circ\\cos10^\\circ}{2\\cos60^\\circ\\cos10^\\circ}=\\tan60^\\circ=\\sqrt3$."
+    },
+    {
+      "n": 26,
+      "q": "The points $(11, 9)$, $(2, 1)$ and $(2, -1)$ are the midpoints of the sides of the triangle. Then the centroid is",
+      "options": [
+        "(-5,-3)",
+        "(5,-3)",
+        "(3,5)",
+        "(5,3)"
+      ],
+      "answer": 3,
+      "chapter": "Straight Lines",
+      "explanation": "The centroid of a triangle equals the centroid of the triangle formed by its midpoints: $\\left(\\dfrac{11+2+2}{3},\\dfrac{9+1-1}{3}\\right)=(5,3)$."
+    },
+    {
+      "n": 27,
+      "q": "The reflection of the point $(1, 1)$ along the line $y = -x$ is",
+      "options": [
+        "(0,0)",
+        "(-1,1)",
+        "(-1,-1)",
+        "(1,-1)"
+      ],
+      "answer": 2,
+      "chapter": "Straight Lines",
+      "explanation": "Reflection of $(a,b)$ in the line $y=-x$ is $(-b,-a)$, so $(1,1)$ maps to $(-1,-1)$."
+    },
+    {
+      "n": 28,
+      "q": "The number of circles that touch the co-ordinate axes and the line whose slope is $-1$ and $y$-intercept is $1$, is",
+      "options": [
+        "1",
+        "4",
+        "2",
+        "3"
+      ],
+      "answer": 1,
+      "chapter": "Straight Lines",
+      "explanation": "Circles tangent to both axes have centres $(\\pm r,\\pm r)$. Imposing tangency to the line $x+y=1$ gives 2 valid circles with centre $(r,r)$ and 1 each with centres $(r,-r)$ and $(-r,r)$, totalling 4."
+    },
+    {
+      "n": 29,
+      "q": "If $f(x)$ is an even function, then $f'(x)$ is",
+      "options": [
+        "an odd function",
+        "an even function",
+        "may be even or may be odd",
+        "nothing can be said"
+      ],
+      "answer": 0,
+      "chapter": "Continuity and Differentiability",
+      "explanation": "Differentiating $f(-x)=f(x)$ gives $-f'(-x)=f'(x)$, i.e. $f'(-x)=-f'(x)$, so $f'$ is odd."
+    },
+    {
+      "n": 30,
+      "q": "The perimeter of a sector is a constant. If its area is to be maximum, then the sectorial angle is",
+      "options": [
+        "$\\dfrac{\\pi^c}{6}$",
+        "$\\dfrac{\\pi^c}{4}$",
+        "$4^c$",
+        "$2^c$"
+      ],
+      "answer": 3,
+      "chapter": "Application of Derivatives",
+      "explanation": "With perimeter $k=2r+r\\theta$ fixed, area $A=\\tfrac12 r(k-2r)$; maximising over $r$ gives $r=k/4$ and then $\\theta=2$ radians."
+    },
+    {
+      "n": 31,
+      "q": "The last digit of number $7^{886}$ is",
+      "options": [
+        "9",
+        "7",
+        "3",
+        "1"
+      ],
+      "answer": 0,
+      "chapter": "Old syllabus: Number Theory",
+      "explanation": "Units digit of powers of 7 cycles as $7,9,3,1$ with period 4. Since $886\\equiv2\\pmod4$, the last digit equals the 2nd term of the cycle, which is $9$."
+    },
+    {
+      "n": 32,
+      "q": "If $(24, 92) = 24m + 92n$, then $(m, n)$ is",
+      "options": [
+        "(-1,4)",
+        "(4,-1)",
+        "(4,-3)",
+        "(-4,3)"
+      ],
+      "answer": 1,
+      "chapter": "Old syllabus: Number Theory",
+      "explanation": "By the Euclidean algorithm, $\\gcd(24,92)=4=24(4)+92(-1)$, so $(m,n)=(4,-1)$."
+    },
+    {
+      "n": 33,
+      "q": "The characteristic equation of a matrix $A$ is $\\lambda^3 - 5\\lambda^2 - 3\\lambda + 2 = 0$ then $|\\operatorname{adj}(A)| =$",
+      "options": [
+        "9",
+        "25",
+        "$\\dfrac12$",
+        "4"
+      ],
+      "answer": 3,
+      "chapter": "Determinants",
+      "explanation": "Comparing with $\\lambda^3-(\\text{tr}A)\\lambda^2+\\ldots-|A|=0$ gives $|A|=-2$. For a $3\\times3$ matrix, $|\\operatorname{adj}A|=|A|^2=4$."
+    },
+    {
+      "n": 34,
+      "q": "If $\\hat i + \\hat j - \\hat k$ and $2\\hat i - 3\\hat j + \\hat k$ are adjacent sides of a parallelogram, then the lengths of its diagonals are",
+      "options": [
+        "$\\sqrt3, \\sqrt{14}$",
+        "$\\sqrt{13}, \\sqrt{14}$",
+        "$\\sqrt{21}, \\sqrt3$",
+        "$\\sqrt{21}, \\sqrt{13}$"
+      ],
+      "answer": 3,
+      "chapter": "Vector Algebra",
+      "explanation": "Sum $=3\\hat i-2\\hat j$, magnitude $\\sqrt{13}$; difference $=-\\hat i+4\\hat j-2\\hat k$, magnitude $\\sqrt{21}$. Diagonals are $\\sqrt{21},\\sqrt{13}$."
+    },
+    {
+      "n": 35,
+      "q": "If the volume of the parallelopiped formed by three non-coplanar vectors $\\vec a, \\vec b$ and $\\vec c$ is 4 cubic units, then $[\\vec a \\times \\vec b\\ \\ \\vec b \\times \\vec c\\ \\ \\vec c \\times \\vec a] =$",
+      "options": [
+        "64",
+        "16",
+        "4",
+        "8"
+      ],
+      "answer": 1,
+      "chapter": "Vector Algebra",
+      "explanation": "$[\\vec a\\times\\vec b\\ \\ \\vec b\\times\\vec c\\ \\ \\vec c\\times\\vec a]=[\\vec a\\ \\vec b\\ \\vec c]^2=4^2=16$."
+    },
+    {
+      "n": 36,
+      "q": "Which of the following is a subgroup of the group $G = \\{2^n \\mid n \\in Z\\}$ under multiplication?",
+      "options": [
+        "$\\{4^n \\mid n \\in N\\}$",
+        "$\\{3^n \\mid n \\in Z\\}$",
+        "$\\{6^n \\mid n \\in N\\}$",
+        "$\\{4^n \\mid n \\in Z\\}$"
+      ],
+      "answer": 3,
+      "chapter": "Old syllabus: Binary Operations",
+      "explanation": "A subgroup must be closed under inverses, so exponents must range over $Z$, not $N$; also elements $4^n=2^{2n}$ lie in $G$. Hence $\\{4^n\\mid n\\in Z\\}$ is the subgroup."
+    },
+    {
+      "n": 37,
+      "q": "In the group $G = \\{1, 2, 3, 4, 5, 6\\}$ under $\\otimes_7$, the solution of $4 \\otimes_7 x = 5$ is",
+      "options": [
+        "3",
+        "2",
+        "4",
+        "5"
+      ],
+      "answer": 0,
+      "chapter": "Old syllabus: Binary Operations",
+      "explanation": "$4\\times3=12\\equiv5\\pmod7$, so $x=3$."
+    },
+    {
+      "n": 38,
+      "q": "The number of real solutions of the equation $\\tan^{-1}\\sqrt{x(x+1)} + \\sin^{-1}\\sqrt{x^2+x+1} = \\dfrac{\\pi}{2}$ is",
+      "options": [
+        "one",
+        "four",
+        "two",
+        "infinitely many"
+      ],
+      "answer": 2,
+      "chapter": "Inverse Trigonometric Functions",
+      "explanation": "The domain of $\\sin^{-1}\\sqrt{x^2+x+1}$ requires $x(x+1)\\le0$, i.e. $x\\in[-1,0]$, while the square root in $\\tan^{-1}$ needs $x(x+1)\\ge0$; only $x=-1$ and $x=0$ satisfy both, and both check out in the original equation."
+    },
+    {
+      "n": 39,
+      "q": "If $\\sin2x = 4\\cos x$, then $x =$",
+      "options": [
+        "$n\\dfrac{\\pi}{2} \\pm \\dfrac{\\pi}{4}, n \\in Z$",
+        "no value",
+        "$n\\pi + (-1)^n\\dfrac{\\pi}{4}, n \\in Z$",
+        "$2n\\pi \\pm \\dfrac{\\pi}{2}, n \\in Z$"
+      ],
+      "answer": 3,
+      "chapter": "Trigonometric Functions",
+      "explanation": "$2\\sin x\\cos x=4\\cos x \\Rightarrow \\cos x(2\\sin x-4)=0$. Since $\\sin x=2$ is impossible, $\\cos x=0$, whose general solution is $x=2n\\pi\\pm\\pi/2$."
+    },
+    {
+      "n": 40,
+      "q": "If $\\alpha$ and $\\beta$ are different complex numbers with $|\\beta| = 1$, then $\\left|\\dfrac{\\beta-\\alpha}{1-\\bar\\alpha\\beta}\\right|$ is equal to",
+      "options": [
+        "$\\dfrac12$",
+        "1",
+        "$\\dfrac13$",
+        "2"
+      ],
+      "answer": 1,
+      "chapter": "Complex Numbers and Quadratic Equations",
+      "explanation": "This is a standard identity: whenever $|\\beta|=1$, $\\left|\\dfrac{\\beta-\\alpha}{1-\\bar\\alpha\\beta}\\right|=1$."
+    },
+    {
+      "n": 41,
+      "q": "The equations of the two tangents from $(-5,-4)$ to the circle $x^2+y^2+4x+6y+8=0$ are",
+      "options": [
+        "$x+2y+13=0,\\ 2x-y+6=0$",
+        "$2x+y+13=0,\\ x-2y=6$",
+        "$3x+2y+23=0,\\ 2x-3y+4=0$",
+        "$x-7y=23,\\ 6x+13y=4$"
+      ],
+      "answer": 0,
+      "chapter": "Conic Sections",
+      "explanation": "Centre $(-2,-3)$, radius $\\sqrt5$. Setting the distance from the centre to $y+4=m(x+5)$ equal to $\\sqrt5$ gives $m=2$ or $m=-1/2$, giving the lines $2x-y+6=0$ and $x+2y+13=0$."
+    },
+    {
+      "n": 42,
+      "q": "If $x = t^2+2$ and $y = 2t$ represent the parametric equation of the parabola",
+      "options": [
+        "$x^2 = 4(y-2)$",
+        "$(y-2)^2 = 4x$",
+        "$y^2 = 4(x-2)$",
+        "$(x-2)^2 = 4y$"
+      ],
+      "answer": 2,
+      "chapter": "Conic Sections",
+      "explanation": "$t=y/2$, so $x=y^2/4+2 \\Rightarrow y^2=4(x-2)$."
+    },
+    {
+      "n": 43,
+      "q": "If $x - y = 1$ is a tangent to the hyperbola $\\dfrac{x^2}{4} - \\dfrac{y^2}{3} = 1$, the point of contact is",
+      "options": [
+        "(4,3)",
+        "(3,4)",
+        "(2,1)",
+        "(5,4)"
+      ],
+      "answer": 0,
+      "chapter": "Conic Sections",
+      "explanation": "For $y=mx+c$ tangent to $\\dfrac{x^2}{a^2}-\\dfrac{y^2}{b^2}=1$, the point of contact is $\\left(-\\dfrac{a^2m}{c},-\\dfrac{b^2}{c}\\right)$. With $a^2=4,b^2=3,m=1,c=-1$, this gives $(4,3)$."
+    },
+    {
+      "n": 44,
+      "q": "If $y = \\tan^{-1}\\left(\\dfrac{1}{1+x+x^2}\\right) + \\tan^{-1}\\left(\\dfrac{1}{x^2+2x+3}\\right) + \\tan^{-1}\\left(\\dfrac{1}{x^2+5x+7}\\right) + \\ldots\\ n\\text{ terms}$, then $y'(0)$ is",
+      "options": [
+        "$\\dfrac{\\pi}{2}$",
+        "$\\dfrac{2n}{1+n^2}$",
+        "$\\dfrac{n^2}{1+n^2}$",
+        "$-\\dfrac{n^2}{1+n^2}$"
+      ],
+      "answer": 3,
+      "chapter": "Inverse Trigonometric Functions",
+      "explanation": "Using $\\tan^{-1}\\dfrac{1}{1+(x+k)(x+k-1)}=\\tan^{-1}(x+k)-\\tan^{-1}(x+k-1)$ the sum telescopes to $y=\\tan^{-1}(x+n)-\\tan^{-1}x$, so $y'(0)=\\dfrac{1}{1+n^2}-1=-\\dfrac{n^2}{1+n^2}$. KEA awarded a grace mark, likely due to an inconsistency in the printed general term.",
+      "grace": true
+    },
+    {
+      "n": 45,
+      "q": "If $f(x) = \\sin[\\pi^2]x + \\cos[-\\pi^2]x$ then $f'(x)$ is, here $[\\pi^2]$ and $[-\\pi^2]$ greatest integer function not greater than its value",
+      "options": [
+        "$\\sin9x + \\cos9x$",
+        "$9\\cos9x - 10\\sin10x$",
+        "0",
+        "-1"
+      ],
+      "answer": 1,
+      "chapter": "Continuity and Differentiability",
+      "explanation": "$[\\pi^2]=9$ and $[-\\pi^2]=-10$, so $f(x)=\\sin9x+\\cos10x$ (cosine is even), giving $f'(x)=9\\cos9x-10\\sin10x$."
+    },
+    {
+      "n": 46,
+      "q": "The tangent to the curve $xy = 25$ at any point on it cuts the coordinate axes at A and B, then the area of the triangle OAB is",
+      "options": [
+        "50 sq. units",
+        "25 sq. units",
+        "75 sq. units",
+        "100 sq. units"
+      ],
+      "answer": 0,
+      "chapter": "Application of Derivatives",
+      "explanation": "For $xy=c^2$, the tangent at $(x_1,y_1)$ meets the axes at $(2x_1,0)$ and $(0,2y_1)$, so area $=\\tfrac12(2x_1)(2y_1)=2x_1y_1=2(25)=50$."
+    },
+    {
+      "n": 47,
+      "q": "The length of the sub-tangent, ordinate and the sub-normal are in",
+      "options": [
+        "A.P.",
+        "H.P.",
+        "G.P.",
+        "Arithmetico geometric progression"
+      ],
+      "answer": 2,
+      "chapter": "Application of Derivatives",
+      "explanation": "Subtangent $=y/y'$ and subnormal $=yy'$; their product is $y^2$, the square of the ordinate, so the three are in G.P."
+    },
+    {
+      "n": 48,
+      "q": "The maximum value of $xe^{-x}$ is",
+      "options": [
+        "e",
+        "$\\dfrac{1}{e}$",
+        "-e",
+        "$-\\dfrac{1}{e}$"
+      ],
+      "answer": 1,
+      "chapter": "Application of Derivatives",
+      "explanation": "$f'(x)=e^{-x}(1-x)=0$ at $x=1$, giving the maximum value $f(1)=1/e$."
+    },
+    {
+      "n": 49,
+      "q": "If $[x]$ is the greatest integer function not greater than $x$, then $\\displaystyle\\int_0^{11}[x]\\,dx =$",
+      "options": [
+        "45",
+        "66",
+        "35",
+        "55"
+      ],
+      "answer": 3,
+      "chapter": "Integrals",
+      "explanation": "$\\int_0^{11}[x]\\,dx=\\sum_{k=0}^{10}k=55$, since $[x]=k$ on $[k,k+1)$."
+    },
+    {
+      "n": 50,
+      "q": "If $n \\in N$ and $I_n = \\displaystyle\\int(\\log x)^n\\,dx$, then $I_n + nI_{n-1} =$",
+      "options": [
+        "$\\dfrac{(\\log x)^{n+1}}{n+1}$",
+        "$x(\\log x)^n + c$",
+        "$(\\log x)^{n-1}$",
+        "$\\dfrac{(\\log x)^n}{n}$"
+      ],
+      "answer": 1,
+      "chapter": "Integrals",
+      "explanation": "Integrating by parts, $I_n=x(\\log x)^n-nI_{n-1}$, so $I_n+nI_{n-1}=x(\\log x)^n+c$."
+    },
+    {
+      "n": 51,
+      "q": "Solution of $e^{\\frac{dy}{dx}} = x$ when $x = 1$ and $y = 0$ is",
+      "options": [
+        "$y = x(\\log x - 1) + 4$",
+        "$y = x(\\log x - 1) + 3$",
+        "$y = x(\\log x + 1) + 1$",
+        "$y = x(\\log x - 1) + 1$"
+      ],
+      "answer": 3,
+      "chapter": "Differential Equations",
+      "explanation": "$dy/dx=\\log x$, so $y=x\\log x-x+C$. Using $x=1,y=0$ gives $C=1$, so $y=x(\\log x-1)+1$."
+    },
+    {
+      "n": 52,
+      "q": "If $f(x) = \\begin{cases} \\dfrac{x^2-(a+2)x+a}{x-2}, & x \\ne 2 \\\\ 2, & x = 2 \\end{cases}$ is continuous at $x = 2$, then the value of $a$ is",
+      "options": [
+        "-6",
+        "0",
+        "1",
+        "-1"
+      ],
+      "answer": 1,
+      "chapter": "Continuity and Differentiability",
+      "explanation": "For the limit at $x=2$ to be finite, $(x-2)$ must divide the numerator, which forces $a=0$; then $f(x)=x$ near $x=2$, and the limit $2$ matches $f(2)$."
+    },
+    {
+      "n": 53,
+      "q": "If $\\log_2(9^{x-1}+7) - \\log_2(3^{x-1}+1) = 2$, then $x$ values are",
+      "options": [
+        "0, 2",
+        "0, 1",
+        "1, 4",
+        "1, 2"
+      ],
+      "answer": 3,
+      "chapter": "Old syllabus: Logarithms",
+      "explanation": "Let $t=3^{x-1}$; the equation becomes $\\dfrac{t^2+7}{t+1}=4$, i.e. $t^2-4t+3=0$, giving $t=1$ or $t=3$, i.e. $x=1$ or $x=2$."
+    },
+    {
+      "n": 54,
+      "q": "If $x - 1$ is a factor of $x^5 - 4x^3 + 2x^2 - 3x + k = 0$, then $k$ is",
+      "options": [
+        "4",
+        "-4",
+        "2",
+        "3"
+      ],
+      "answer": 0,
+      "chapter": "Old syllabus: Polynomials",
+      "explanation": "By the factor theorem, substituting $x=1$ must give $0$: $1-4+2-3+k=0 \\Rightarrow k=4$."
+    },
+    {
+      "n": 55,
+      "q": "If $A$ and $B$ have $n$ elements in common, then the number of elements common to $A \times B$ and $B \times A$ is",
+      "options": [
+        "n",
+        "2n",
+        "$n^2$",
+        "0"
+      ],
+      "answer": 2,
+      "chapter": "Sets",
+      "explanation": "An ordered pair lies in both $A\\times B$ and $B\\times A$ only if both coordinates are in $A\\cap B$, giving $|A\\cap B|^2=n^2$ such pairs."
+    },
+    {
+      "n": 56,
+      "q": "The 13th term in the expansion of $\\left(x^2 + \\dfrac{2}{x}\\right)^n$ is independent of $x$ then the sum of the divisors of $n$ is",
+      "options": [
+        "36",
+        "37",
+        "38",
+        "39"
+      ],
+      "answer": 3,
+      "chapter": "Binomial Theorem",
+      "explanation": "The 13th term has $r=12$: $T_{13}\\propto x^{2n-2r-r}=x^{2n-3r}$. Setting $2n-36=0$ gives $n=18$. Divisors of 18 are $1,2,3,6,9,18$, summing to $39$."
+    },
+    {
+      "n": 57,
+      "q": "If one of the slopes of the pair of lines $ax^2 + 2hxy + by^2 = 0$ is $n$ times the other then",
+      "options": [
+        "$4(n+1)^2ab = nab$",
+        "$4h^2 = (n+1)^2ab$",
+        "$4nh^2 = (n+1)^2ab$",
+        "$4ab = (n+1)^2h$"
+      ],
+      "answer": 2,
+      "chapter": "Straight Lines",
+      "explanation": "With $m_1=nm_2$, $m_1+m_2=-2h/b$ and $m_1m_2=a/b$. Eliminating $m_2$ gives $4nh^2=(n+1)^2ab$."
+    },
+    {
+      "n": 58,
+      "q": "If $f(x) = \\begin{vmatrix} \\sin x & \\cos x & \\tan x \\\\ x^3 & x^2 & x \\\\ 2x & 1 & x \\end{vmatrix}$ then $\\displaystyle\\lim_{x\\to0} \\dfrac{f(x)}{x^2} =$",
+      "options": [
+        "0",
+        "3",
+        "2",
+        "1"
+      ],
+      "answer": 3,
+      "chapter": "Determinants",
+      "explanation": "Expanding the determinant and dividing by $x^2$, using $\\sin x/x\\to1$ and $\\tan x\\to0$, the limit evaluates to $-1\\cdot(-1)+2\\cdot1+0=1$."
+    },
+    {
+      "n": 59,
+      "q": "The number of solutions of the equation $z^2 + \\bar z = 0$ where $z \\in C$ are",
+      "options": [
+        "1",
+        "4",
+        "5",
+        "6"
+      ],
+      "answer": 1,
+      "chapter": "Complex Numbers and Quadratic Equations",
+      "explanation": "Writing $z=x+iy$ and separating real and imaginary parts gives $y=0$ (with $x=0,-1$) or $x=1/2$ (with $y=\\pm\\sqrt3/2$), a total of 4 solutions."
+    },
+    {
+      "n": 60,
+      "q": "The least and the greatest distances of the point $(10, 7)$ from the circle $x^2+y^2-4x-2y-20=0$ are",
+      "options": [
+        "10, 5",
+        "15, 20",
+        "12, 16",
+        "5, 15"
+      ],
+      "answer": 3,
+      "chapter": "Conic Sections",
+      "explanation": "Centre $(2,1)$, radius $5$. Distance from the point to the centre is $\\sqrt{8^2+6^2}=10$, so the least and greatest distances from the circle are $10-5=5$ and $10+5=15$."
+    }
+  ]
+}

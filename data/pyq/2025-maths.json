@@ -1,0 +1,790 @@
+{
+  "title": "KCET 2025 Maths",
+  "year": 2025,
+  "subject": "maths",
+  "code": "A1",
+  "source": "KEA question paper (copy) + KEA answer key column A1",
+  "excluded": [],
+  "questions": [
+    {
+      "n": 1,
+      "q": "If A = {x: x is an integer and $x^2 - 9 = 0$}, B = {x: x is a natural number and $2 \\leq x < 5$}, C = {x: x is a prime number $\\leq 4$}. Then $(B - C) \\cup A$ is,",
+      "options": [
+        "{-3, 3, 4}",
+        "{2, 3, 4}",
+        "{3, 4, 5}",
+        "{2, 3, 5}"
+      ],
+      "answer": 0,
+      "chapter": "Sets",
+      "explanation": "A = {-3, 3}, B = {2, 3, 4}, C = {2, 3}, so B - C = {4}; union with A gives {-3, 3, 4}."
+    },
+    {
+      "n": 2,
+      "q": "A and B are two sets having 3 and 6 elements respectively. Consider the following statements. Statement (I): Minimum number of elements in $A \\cup B$ is 3. Statement (II): Maximum number of elements in $A \\cap B$ is 3. Which of the following is correct?",
+      "options": [
+        "Statement (I) is true, statement (II) is false",
+        "Statement (I) is false, statement (II) is true",
+        "Both statements (I) and (II) are true",
+        "Both statements (I) and (II) are false"
+      ],
+      "answer": 1,
+      "chapter": "Sets",
+      "explanation": "Minimum of |A∪B| = max(3,6) = 6, so (I) is false; maximum of |A∩B| = min(3,6) = 3, so (II) is true."
+    },
+    {
+      "n": 3,
+      "q": "Domain of the function f, given by $f(x) = \\dfrac{1}{\\sqrt{(x-2)(x-5)}}$ is",
+      "options": [
+        "$(-\\infty, 2] \\cup [5, \\infty)$",
+        "$(-\\infty, 2) \\cup (5, \\infty)$",
+        "$(-\\infty, 3) \\cup [5, \\infty)$",
+        "$(-\\infty, 3] \\cup (5, \\infty)$"
+      ],
+      "answer": 1,
+      "chapter": "Relations and Functions",
+      "explanation": "Need (x-2)(x-5) > 0 (strictly, since it is under a square root in a denominator), giving x < 2 or x > 5."
+    },
+    {
+      "n": 4,
+      "q": "If $f(x) = \\sin([\\pi^2]x) - \\sin([-\\pi^2]x)$, where $[x]$ = greatest integer $\\leq x$, then which of the following is not true?",
+      "options": [
+        "f(0) = 0",
+        "$f\\left(\\dfrac{\\pi}{2}\\right) = 1$",
+        "$f\\left(\\dfrac{\\pi}{4}\\right) = 1 + \\dfrac{1}{\\sqrt{2}}$",
+        "$f(\\pi) = -1$"
+      ],
+      "answer": 3,
+      "chapter": "Relations and Functions",
+      "explanation": "$[\\pi^2]=9,[-\\pi^2]=-10$, so $f(x)=\\sin 9x+\\sin 10x$; $f(\\pi)=\\sin9\\pi+\\sin10\\pi=0$, not $-1$, so option (4) is false."
+    },
+    {
+      "n": 5,
+      "q": "Which of the following is not correct?",
+      "options": [
+        "$\\cos 5\\pi = \\cos 4\\pi$",
+        "$\\sin 2\\pi = \\sin(-2\\pi)$",
+        "$\\sin 4\\pi = \\sin 6\\pi$",
+        "$\\tan 45^\\circ = \\tan(-315^\\circ)$"
+      ],
+      "answer": 0,
+      "chapter": "Trigonometric Functions",
+      "explanation": "$\\cos5\\pi=-1$ while $\\cos4\\pi=1$, so they are not equal; all other options hold true."
+    },
+    {
+      "n": 6,
+      "q": "If $\\cos x + \\cos^2 x = 1$, then the value of $\\sin^2 x + \\sin^4 x$ is",
+      "options": [
+        "-1",
+        "1",
+        "0",
+        "2"
+      ],
+      "answer": 1,
+      "chapter": "Trigonometric Functions",
+      "explanation": "From $\\cos x = \\sin^2 x$, substitute: $\\sin^2x+\\sin^4x=\\cos x+\\cos^2x=1$."
+    },
+    {
+      "n": 7,
+      "q": "The mean deviation about the mean for the data 4, 7, 8, 9, 10, 12, 13, 17 is",
+      "options": [
+        "10",
+        "3",
+        "8.5",
+        "4.03"
+      ],
+      "answer": 1,
+      "chapter": "Statistics",
+      "explanation": "Mean = 10; sum of |deviations| = 6+3+2+1+0+2+3+7 = 24; mean deviation = 24/8 = 3."
+    },
+    {
+      "n": 8,
+      "q": "A random experiment has five outcomes $w_1, w_2, w_3, w_4$ and $w_5$. The probabilities of the occurrence of the outcomes $w_1, w_2, w_4$ and $w_5$ are respectively $\\dfrac{1}{6}$, a, b and $\\dfrac{1}{12}$ such that $12a + 12b - 1 = 0$. Then the probabilities of occurrence of the outcome $w_3$ is",
+      "options": [
+        "$\\dfrac{2}{3}$",
+        "$\\dfrac{1}{3}$",
+        "$\\dfrac{1}{6}$",
+        "$\\dfrac{1}{12}$"
+      ],
+      "answer": 0,
+      "chapter": "Probability",
+      "explanation": "$a+b=1/12$; total probability 1 gives $P(w_3)=1-(1/6+1/12+1/12)=2/3$."
+    },
+    {
+      "n": 9,
+      "q": "A die has two faces each with number '1', three faces each with number '2' and one face with number '3'. If the die is rolled once, then P(1 or 3) is",
+      "options": [
+        "$\\dfrac{2}{3}$",
+        "$\\dfrac{1}{2}$",
+        "$\\dfrac{1}{3}$",
+        "$\\dfrac{1}{6}$"
+      ],
+      "answer": 1,
+      "chapter": "Probability",
+      "explanation": "P(1) = 2/6, P(3) = 1/6, mutually exclusive so P(1 or 3) = 3/6 = 1/2."
+    },
+    {
+      "n": 10,
+      "q": "Let A = {a, b, c}, then the number of equivalence relations on A containing (b, c) is",
+      "options": [
+        "1",
+        "3",
+        "2",
+        "4"
+      ],
+      "answer": 2,
+      "chapter": "Relations and Functions",
+      "explanation": "Either {a},{b,c} as separate classes, or the full set {a,b,c} as one class — both are equivalence relations containing (b,c), giving 2."
+    },
+    {
+      "n": 11,
+      "q": "Let the functions \"f\" and \"g\" be $f: [0, \\pi/2] \\to R$ given by $f(x)=\\sin x$ and $g:[0,\\pi/2]\\to R$ given by $g(x)=\\cos x$, where R is the set of real numbers. Consider the following statements: Statement (I): f and g are one-one. Statement (II): f + g is one-one. Which of the following is correct?",
+      "options": [
+        "Statement (I) is true, statement (II) is false",
+        "Statement (I) is false, statement (II) is true",
+        "Both statements (I) and (II) are true",
+        "Both statements (I) and (II) are false"
+      ],
+      "answer": 0,
+      "chapter": "Relations and Functions",
+      "explanation": "sinx and cosx are each monotonic on $[0,\\pi/2]$ hence one-one, but $f+g=\\sqrt2\\sin(x+\\pi/4)$ rises then falls on this interval, so it is not one-one."
+    },
+    {
+      "n": 12,
+      "q": "$\\sec^2(\\tan^{-1}2) + \\text{cosec}^2(\\cot^{-1}3) =$",
+      "options": [
+        "1",
+        "5",
+        "15",
+        "10"
+      ],
+      "answer": 2,
+      "chapter": "Inverse Trigonometric Functions",
+      "explanation": "$\\sec^2(\\tan^{-1}2)=1+4=5$ and $\\text{cosec}^2(\\cot^{-1}3)=1+9=10$; sum = 15."
+    },
+    {
+      "n": 13,
+      "q": "$2\\cos^{-1}x = \\sin^{-1}(2x\\sqrt{1-x^2})$ is valid for all values of 'x' satisfying",
+      "options": [
+        "$0 \\leq x \\leq \\dfrac{1}{\\sqrt2}$",
+        "$-1 \\leq x \\leq 1$",
+        "$0 \\leq x \\leq 1$",
+        "$\\dfrac{1}{\\sqrt2} \\leq x \\leq 1$"
+      ],
+      "answer": 3,
+      "chapter": "Inverse Trigonometric Functions",
+      "explanation": "The identity $2\\cos^{-1}x=\\sin^{-1}(2x\\sqrt{1-x^2})$ requires $\\cos^{-1}x\\le \\pi/4$, i.e. $\\dfrac{1}{\\sqrt2}\\le x\\le1$."
+    },
+    {
+      "n": 14,
+      "q": "Consider the following statements: Statement (I): In a LPP, the objective function is always linear. Statement (II): In a LPP, the linear inequalities on variables are called constraints. Which of the following is correct?",
+      "options": [
+        "Statement (I) is true, Statement (II) is true",
+        "Statement (I) is true, Statement (II) is false",
+        "Both Statements (I) and (II) are false",
+        "Statement (I) is false, Statement (II) is true"
+      ],
+      "answer": 0,
+      "chapter": "Linear Programming",
+      "explanation": "Both statements are standard definitions in linear programming and are true."
+    },
+    {
+      "n": 15,
+      "q": "The maximum value of $z = 3x + 4y$, subject to the constraints $x+y \\leq 40$, $x+2y \\leq 60$ and $x, y \\geq 0$ is",
+      "options": [
+        "130",
+        "120",
+        "140",
+        "40"
+      ],
+      "answer": 2,
+      "chapter": "Linear Programming",
+      "explanation": "Corner points (0,0),(40,0),(0,30),(20,20) give z = 0,120,120,140; maximum is 140."
+    },
+    {
+      "n": 16,
+      "q": "Consider the following statements. Statement (I): If E and F are two independent events, then E' and F' are also independent. Statement (II): Two mutually exclusive events with non-zero probabilities of occurrence cannot be independent. Which of the following is correct?",
+      "options": [
+        "Statement (I) is true and statement (II) is false",
+        "Statement (I) is false and statement (II) is true",
+        "Both the statements are true",
+        "Both the statements are false"
+      ],
+      "answer": 2,
+      "chapter": "Probability",
+      "explanation": "Both are standard true results in probability theory of independent and mutually exclusive events."
+    },
+    {
+      "n": 17,
+      "q": "If A and B are two non-mutually exclusive events such that $P(A|B)=P(B|A)$, then",
+      "options": [
+        "$A \\subset B$ but $A \\neq B$",
+        "A = B",
+        "$A \\cap B = \\phi$",
+        "P(A) = P(B)"
+      ],
+      "answer": 3,
+      "chapter": "Probability",
+      "explanation": "$P(A|B)=P(A\\cap B)/P(B)$ and $P(B|A)=P(A\\cap B)/P(A)$; equating gives $P(A)=P(B)$."
+    },
+    {
+      "n": 18,
+      "q": "If A and B are two events such that $A \\subset B$ and $P(B) \\neq 0$, then which of the following is correct?",
+      "options": [
+        "$P(A|B) = \\dfrac{P(B)}{P(A)}$",
+        "P(A|B) < P(A)",
+        "$P(A|B) \\geq P(A)$",
+        "P(A) = P(B)"
+      ],
+      "answer": 2,
+      "chapter": "Probability",
+      "explanation": "$P(A|B)=P(A)/P(B)\\ge P(A)$ since $P(B)\\le 1$ and $A\\subset B$."
+    },
+    {
+      "n": 19,
+      "q": "Meera visits only one of the two temples A and B in her locality. Probability that she visits temple A is $\\dfrac{2}{5}$. If she visits temple A, $\\dfrac{1}{3}$ is the probability that she meets her friend, whereas it is $\\dfrac{2}{7}$ if she visits temple B. Meera met her friend at one of the two temples. The probability that she met her at temple B is",
+      "options": [
+        "$\\dfrac{7}{16}$",
+        "$\\dfrac{5}{16}$",
+        "$\\dfrac{3}{16}$",
+        "$\\dfrac{9}{16}$"
+      ],
+      "answer": 3,
+      "chapter": "Probability",
+      "explanation": "By Bayes' theorem, $P(B|\\text{friend})=\\dfrac{(3/5)(2/7)}{(2/5)(1/3)+(3/5)(2/7)}=\\dfrac{18/105}{32/105}=\\dfrac{9}{16}$."
+    },
+    {
+      "n": 20,
+      "q": "If $Z_1$ and $Z_2$ are two non-zero complex numbers, then which of the following is not true?",
+      "options": [
+        "$\\overline{Z_1+Z_2}=\\overline{Z_1}+\\overline{Z_2}$",
+        "$|Z_1Z_2|=|Z_1|.|Z_2|$",
+        "$\\overline{Z_1Z_2}=\\overline{Z_1}.\\overline{Z_2}$",
+        "$|Z_1+Z_2|\\geq |Z_1|+|Z_2|$"
+      ],
+      "answer": 3,
+      "chapter": "Complex Numbers and Quadratic Equations",
+      "explanation": "The triangle inequality gives |Z1+Z2| ≤ |Z1|+|Z2|, so the reverse inequality stated in option (4) is not generally true."
+    },
+    {
+      "n": 21,
+      "q": "Consider the following statements: Statement(I): The set of all solutions of the linear inequalities $3x+8<17$ and $2x+8\\geq12$ are $x<3$ and $x\\geq2$ respectively. Statement(II): The common set of solutions of linear inequalities $3x+8<17$ and $2x+8\\geq12$ is (2,3). Which of the following is true?",
+      "options": [
+        "Statement (I) is true but statement (II) is false",
+        "Statement (I) is false but statement (II) is true",
+        "Both the statements are true",
+        "Both the statements are false"
+      ],
+      "answer": 0,
+      "chapter": "Linear Inequalities",
+      "explanation": "Solving gives x<3 and x≥2 (Statement I true), but the intersection is [2,3), not the open interval (2,3), so Statement II is false."
+    },
+    {
+      "n": 22,
+      "q": "The number of four digit even number that can be formed using the digits 0, 1, 2 and 3 without repetition is",
+      "options": [
+        "6",
+        "10",
+        "4",
+        "12"
+      ],
+      "answer": 1,
+      "chapter": "Permutations and Combinations",
+      "explanation": "Last digit 0: remaining 3 digits arranged in 3! = 6 ways; last digit 2: first digit ≠ 0 gives 2×2! = 4 ways; total 6+4 = 10."
+    },
+    {
+      "n": 23,
+      "q": "The number of diagonals that can be drawn in an octagon is",
+      "options": [
+        "15",
+        "20",
+        "28",
+        "30"
+      ],
+      "answer": 1,
+      "chapter": "Permutations and Combinations",
+      "explanation": "Number of diagonals $= \\dfrac{n(n-3)}{2}=\\dfrac{8\\times5}{2}=20$."
+    },
+    {
+      "n": 24,
+      "q": "If the number of terms in the binomial expansion of $(2x+3)^{3n}$ is 22, then the value of n is",
+      "options": [
+        "8",
+        "6",
+        "7",
+        "9"
+      ],
+      "answer": 2,
+      "chapter": "Binomial Theorem",
+      "explanation": "Number of terms = 3n+1 = 22, so n = 7."
+    },
+    {
+      "n": 25,
+      "q": "If $4^{th}$, $10^{th}$ and $16^{th}$ terms of a G.P. are x, y and z respectively, then",
+      "options": [
+        "$z=\\sqrt{xy}$",
+        "$y=\\sqrt{xz}$",
+        "$x=\\sqrt{yz}$",
+        "$y=\\dfrac{x+z}{2}$"
+      ],
+      "answer": 1,
+      "chapter": "Sequences and Series",
+      "explanation": "$x=ar^3,y=ar^9,z=ar^{15}$; $xz=a^2r^{18}=y^2$, so $y=\\sqrt{xz}$."
+    },
+    {
+      "n": 26,
+      "q": "If A is a square matrix such that $A^2=A$, then $(I-A)^3$ is",
+      "options": [
+        "I - A",
+        "A - I",
+        "I + A",
+        "-I - A"
+      ],
+      "answer": 0,
+      "chapter": "Matrices",
+      "explanation": "$(I-A)^2=I-2A+A^2=I-A$, which is idempotent, so $(I-A)^3=(I-A)(I-A)^2=(I-A)(I-A)=I-A$."
+    },
+    {
+      "n": 27,
+      "q": "If A and B are two matrices such that AB is an identity matrix and the order of matrix B is 3 × 4, then the order of matrix A is",
+      "options": [
+        "3 × 4",
+        "3 × 3",
+        "4 × 3",
+        "4 × 4"
+      ],
+      "answer": 2,
+      "chapter": "Matrices",
+      "explanation": "For AB to be a square identity matrix with B being 3×4, A must be 4×3 so that AB is 4×4."
+    },
+    {
+      "n": 28,
+      "q": "Which of the following statements is not correct?",
+      "options": [
+        "A row matrix has only one row",
+        "A diagonal matrix has all diagonal elements equal to zero",
+        "A symmetric matrix A is a square matrix satisfying A' = A.",
+        "A skew symmetric matrix has all diagonal elements equal to zero"
+      ],
+      "answer": 1,
+      "chapter": "Matrices",
+      "explanation": "A diagonal matrix has all off-diagonal elements zero (the diagonal entries can be anything), so option (2) is incorrect."
+    },
+    {
+      "n": 29,
+      "q": "If a matrix $A=\\begin{bmatrix}1&1\\\\1&1\\end{bmatrix}$ satisfies $A^6=kA'$, then the value of k is",
+      "options": [
+        "32",
+        "1",
+        "$\\dfrac{1}{32}$",
+        "6"
+      ],
+      "answer": 0,
+      "chapter": "Matrices",
+      "explanation": "A is symmetric with $A^2=2A$, so $A^n=2^{n-1}A$; $A^6=32A=32A'$, giving k = 32."
+    },
+    {
+      "n": 30,
+      "q": "If $A=\\begin{bmatrix}k&2\\\\2&k\\end{bmatrix}$ and $|A^3|=125$, then the value of k is",
+      "options": [
+        "$\\pm 2$",
+        "$\\pm 3$",
+        "-5",
+        "-4"
+      ],
+      "answer": 1,
+      "chapter": "Determinants",
+      "explanation": "$|A|^3=125 \\Rightarrow |A|=5$; $k^2-4=5\\Rightarrow k=\\pm3$."
+    },
+    {
+      "n": 31,
+      "q": "If A is a square matrix satisfying the equation $A^2-5A+7I=0$, where I is the identity matrix and 0 is null matrix of same order, then $A^{-1}=$",
+      "options": [
+        "$\\dfrac{1}{7}(5I-A)$",
+        "$\\dfrac{1}{7}(A-5I)$",
+        "7(5I - A)",
+        "$\\dfrac{1}{5}(7I-A)$"
+      ],
+      "answer": 0,
+      "chapter": "Matrices",
+      "explanation": "Multiplying $A^2-5A+7I=0$ by $A^{-1}$: $A-5I+7A^{-1}=0 \\Rightarrow A^{-1}=\\dfrac{1}{7}(5I-A)$."
+    },
+    {
+      "n": 32,
+      "q": "If A is a square matrix of order $3\\times3$, det A = 3, then the value of $\\det(3A^{-1})$ is",
+      "options": [
+        "$\\dfrac13$",
+        "3",
+        "27",
+        "9"
+      ],
+      "answer": 3,
+      "chapter": "Determinants",
+      "explanation": "$\\det(3A^{-1})=3^3\\det(A^{-1})=27\\times\\dfrac13=9$."
+    },
+    {
+      "n": 33,
+      "q": "If $B=\\begin{bmatrix}1&3\\\\1&\\alpha\\end{bmatrix}$ be the adjoint of a matrix A and $|A|=2$, then the value of $\\alpha$ is",
+      "options": [
+        "4",
+        "5",
+        "2",
+        "3"
+      ],
+      "answer": 1,
+      "chapter": "Determinants",
+      "explanation": "For a $2\\times2$ matrix, $|\\text{adj}A|=|A|=2$; $|B|=\\alpha-3=2\\Rightarrow\\alpha=5$."
+    },
+    {
+      "n": 34,
+      "q": "The system of equations 4x + 6y = 5 and 8x + 12y = 10 has",
+      "options": [
+        "No solution",
+        "Infinitely many solutions",
+        "A unique solution",
+        "Only two solutions"
+      ],
+      "answer": 1,
+      "chapter": "Determinants",
+      "explanation": "The second equation is exactly twice the first, so the two lines coincide, giving infinitely many solutions."
+    },
+    {
+      "n": 35,
+      "q": "If $\\vec a=\\hat i+2\\hat j+\\hat k$, $\\vec b=\\hat i-\\hat j+4\\hat k$ and $\\vec c=\\hat i+\\hat j+\\hat k$ are such that $\\vec a+\\lambda \\vec b$ is perpendicular to $\\vec c$, then the value of $\\lambda$ is",
+      "options": [
+        "1",
+        "$\\pm1$",
+        "-1",
+        "0"
+      ],
+      "answer": 2,
+      "chapter": "Vector Algebra",
+      "explanation": "$\\vec a\\cdot\\vec c=4$, $\\vec b\\cdot\\vec c=4$; $(\\vec a+\\lambda\\vec b)\\cdot\\vec c=0\\Rightarrow4+4\\lambda=0\\Rightarrow\\lambda=-1$."
+    },
+    {
+      "n": 36,
+      "q": "If $|\\vec a|=10, |\\vec b|=2$ and $\\vec a.\\vec b=12$, then the value of $|\\vec a\\times \\vec b|$ is",
+      "options": [
+        "5",
+        "10",
+        "14",
+        "16"
+      ],
+      "answer": 3,
+      "chapter": "Vector Algebra",
+      "explanation": "$\\cos\\theta=\\dfrac{12}{20}=0.6$, so $\\sin\\theta=0.8$; $|\\vec a\\times\\vec b|=10\\times2\\times0.8=16$."
+    },
+    {
+      "n": 37,
+      "q": "Consider the following statements: Statement (I): If either $|\\vec a|=0$ or $|\\vec b|=0$, then $\\vec a.\\vec b=0$. Statement (II): If $\\vec a\\times\\vec b=\\vec 0$, then $\\vec a$ is perpendicular to $\\vec b$. Which of the following is correct?",
+      "options": [
+        "Statement (I) is true but Statement (II) is false",
+        "Statement (I) is false but Statement (II) is true",
+        "Both Statement (I) and Statement (II) are true",
+        "Both Statement (I) and Statement (II) are false"
+      ],
+      "answer": 0,
+      "chapter": "Vector Algebra",
+      "explanation": "$\\vec a\\times \\vec b=\\vec0$ actually means the vectors are parallel, not perpendicular, so Statement (II) is false while Statement (I) is true."
+    },
+    {
+      "n": 38,
+      "q": "If a line makes angles $90^\\circ, 60^\\circ$ and $\\theta$ with x, y and z axes respectively, where $\\theta$ is acute, then the value of $\\theta$ is",
+      "options": [
+        "$\\dfrac{\\pi}{6}$",
+        "$\\dfrac{\\pi}{4}$",
+        "$\\dfrac{\\pi}{3}$",
+        "$\\dfrac{\\pi}{2}$"
+      ],
+      "answer": 0,
+      "chapter": "Three Dimensional Geometry",
+      "explanation": "$\\cos^290+\\cos^260+\\cos^2\\theta=1 \\Rightarrow \\cos^2\\theta=3/4\\Rightarrow\\theta=\\pi/6$."
+    },
+    {
+      "n": 39,
+      "q": "The equation of the line through the point (0, 1, 2) and perpendicular to the line $\\dfrac{x-1}{2}=\\dfrac{y+1}{3}=\\dfrac{z-1}{-2}$ is",
+      "options": [
+        "$\\dfrac{x}{3}=\\dfrac{y-1}{4}=\\dfrac{z-2}{-3}$",
+        "$\\dfrac{x}{-3}=\\dfrac{y-1}{4}=\\dfrac{z-2}{3}$",
+        "$\\dfrac{x}{3}=\\dfrac{y-1}{4}=\\dfrac{z-2}{3}$",
+        "$\\dfrac{x}{3}=\\dfrac{y-1}{-4}=\\dfrac{z-2}{3}$"
+      ],
+      "answer": 1,
+      "chapter": "Three Dimensional Geometry",
+      "explanation": "Direction ratios must satisfy 2d1+3d2-2d3=0; only (-3,4,3) among the options satisfies this."
+    },
+    {
+      "n": 40,
+      "q": "A line passes through (-1, -3) and perpendicular to x + 6y = 5. Its x intercept is",
+      "options": [
+        "$\\dfrac12$",
+        "$-\\dfrac12$",
+        "-2",
+        "2"
+      ],
+      "answer": 1,
+      "chapter": "Straight Lines",
+      "explanation": "Given line has slope -1/6, so perpendicular slope is 6; line: y+3=6(x+1); setting y=0 gives x = -1/2."
+    },
+    {
+      "n": 41,
+      "q": "The length of the latus rectum of $x^2+3y^2=12$ is",
+      "options": [
+        "$\\dfrac23$ units",
+        "$\\dfrac13$ units",
+        "$\\dfrac{4}{\\sqrt3}$ units",
+        "24 units"
+      ],
+      "answer": 2,
+      "chapter": "Conic Sections",
+      "explanation": "Writing as $x^2/12+y^2/4=1$, $a^2=12,b^2=4$; latus rectum $=2b^2/a=8/(2\\sqrt3)=4/\\sqrt3$."
+    },
+    {
+      "n": 42,
+      "q": "$\\displaystyle\\lim_{x\\to1}\\dfrac{x^4-\\sqrt x}{\\sqrt x-1}$ is",
+      "options": [
+        "0",
+        "7",
+        "does not exist",
+        "$\\dfrac12$"
+      ],
+      "answer": 1,
+      "chapter": "Limits and Derivatives",
+      "explanation": "Put $t=\\sqrt x\\to1$: expression becomes $\\dfrac{t^8-t}{t-1}=t(t^6+t^5+\\cdots+1)\\to 7$."
+    },
+    {
+      "n": 43,
+      "q": "If $y=\\dfrac{\\cos x}{1+\\sin x}$, then (a) $\\dfrac{dy}{dx}=\\dfrac{-1}{1+\\sin x}$ (b) $\\dfrac{dy}{dx}=\\dfrac{1}{1+\\sin x}$ (c) $\\dfrac{dy}{dx}=-\\dfrac12\\sec^2\\left(\\dfrac{\\pi}{4}-\\dfrac{x}{2}\\right)$ (d) $\\dfrac{dy}{dx}=\\dfrac12\\sec^2\\left(\\dfrac{\\pi}{4}-\\dfrac{x}{2}\\right)$",
+      "options": [
+        "Only b is correct",
+        "Only a is correct",
+        "Both a and c are correct",
+        "Both b and d are correct"
+      ],
+      "answer": 2,
+      "chapter": "Continuity and Differentiability",
+      "explanation": "Differentiating gives $dy/dx=-1/(1+\\sin x)$ (a), and since $1+\\sin x=2\\cos^2(\\pi/4-x/2)$, this equals $-\\tfrac12\\sec^2(\\pi/4-x/2)$ (c) too."
+    },
+    {
+      "n": 44,
+      "q": "Match the following: In the following, [x] denotes the greatest integer less than or equal to x. Column-I: (a) $x|x|$ (b) $\\sqrt{|x|}$ (c) $x+[x]$ (d) $|x-1|+|x+1|$. Column-II: (i) continuous in (-1,1) (ii) differentiable in (-1,1) (iii) strictly increasing in (-1,1) (iv) not differentiable at, at least one point in (-1,1)",
+      "options": [
+        "a - i, b - ii, c - iv, d - iii",
+        "a - iv, b - iii, c - i, d - ii",
+        "a - ii, b - iv, c - iii, d - i",
+        "a - iii, b - ii, c - iv, d - i"
+      ],
+      "answer": 2,
+      "chapter": "Continuity and Differentiability",
+      "explanation": "$x|x|$ is differentiable on (-1,1); $\\sqrt{|x|}$ fails to be differentiable at 0; $x+[x]$ still increases strictly despite its jump at 0; $|x-1|+|x+1|=2$ (constant) on (-1,1), which is continuous."
+    },
+    {
+      "n": 45,
+      "q": "The function $f(x)=\\begin{cases}e^x+ax, & x<0\\\\ b(x-1)^2, & x\\geq0\\end{cases}$ is differentiable at x = 0. Then",
+      "options": [
+        "a = 1, b = 1",
+        "a = 3, b = 1",
+        "a = -3, b = 1",
+        "a = 3, b = -1"
+      ],
+      "answer": 2,
+      "chapter": "Continuity and Differentiability",
+      "explanation": "Continuity gives b = 1; equating one-sided derivatives 1+a = -2b = -2 gives a = -3."
+    },
+    {
+      "n": 46,
+      "q": "A function $f(x)=\\begin{cases}\\dfrac{e^{1/x}-1}{e^{1/x}+1}, & x\\neq0\\\\ 0, & x=0\\end{cases}$, is",
+      "options": [
+        "continuous at x = 0",
+        "not continuous at x = 0",
+        "differentiable at x = 0",
+        "differentiable at x = 0, but not continuous at x = 0"
+      ],
+      "answer": 1,
+      "chapter": "Continuity and Differentiability",
+      "explanation": "As x→0+ the limit is 1 and as x→0- it is -1, unequal, so f is not continuous at x = 0."
+    },
+    {
+      "n": 47,
+      "q": "If $y=a\\sin^3t, x=a\\cos^3t$, then $\\dfrac{dy}{dx}$ at $t=\\dfrac{3\\pi}{4}$ is",
+      "options": [
+        "-1",
+        "$\\dfrac{1}{\\sqrt3}$",
+        "$-\\sqrt3$",
+        "1"
+      ],
+      "answer": 3,
+      "chapter": "Continuity and Differentiability",
+      "explanation": "$dy/dx=-\\tan t$; at $t=3\\pi/4$, $\\tan t=-1$, so $dy/dx=1$."
+    },
+    {
+      "n": 48,
+      "q": "The derivative of sin x with respect to log x is",
+      "options": [
+        "cos x",
+        "x cos x",
+        "$\\dfrac{\\cos x}{\\log x}$",
+        "$\\dfrac{\\cos x}{x}$"
+      ],
+      "answer": 1,
+      "chapter": "Continuity and Differentiability",
+      "explanation": "$\\dfrac{d(\\sin x)}{d(\\log x)}=\\dfrac{\\cos x}{1/x}=x\\cos x$."
+    },
+    {
+      "n": 49,
+      "q": "The minimum value of 1 - sin x is",
+      "options": [
+        "0",
+        "-1",
+        "1",
+        "2"
+      ],
+      "answer": 0,
+      "chapter": "Application of Derivatives",
+      "explanation": "sin x has maximum value 1, so 1 - sin x has minimum value 0."
+    },
+    {
+      "n": 50,
+      "q": "The function f(x) = tan x - x",
+      "options": [
+        "always increases",
+        "always decreases",
+        "never increases",
+        "neither increases nor decreases"
+      ],
+      "answer": 0,
+      "chapter": "Application of Derivatives",
+      "explanation": "$f'(x)=\\sec^2x-1=\\tan^2x\\geq0$ for all x, so f is always (non-decreasing) increasing."
+    },
+    {
+      "n": 51,
+      "q": "The value of $\\displaystyle\\int \\dfrac{dx}{(x+1)(x+2)}$ is",
+      "options": [
+        "$\\log\\left|\\dfrac{x-1}{x+2}\\right|+c$",
+        "$\\log\\left|\\dfrac{x-1}{x-2}\\right|+c$",
+        "$\\log\\left|\\dfrac{x+2}{x+1}\\right|+c$",
+        "$\\log\\left|\\dfrac{x+1}{x+2}\\right|+c$"
+      ],
+      "answer": 3,
+      "chapter": "Integrals",
+      "explanation": "Partial fractions give $\\dfrac{1}{x+1}-\\dfrac{1}{x+2}$, integrating gives $\\log|(x+1)/(x+2)|+c$."
+    },
+    {
+      "n": 52,
+      "q": "The value of $\\displaystyle\\int_{-1}^{1}\\sin^5x\\cos^4x\\,dx$ is",
+      "options": [
+        "$-\\pi/2$",
+        "$\\pi$",
+        "$\\pi/2$",
+        "0"
+      ],
+      "answer": 3,
+      "chapter": "Integrals",
+      "explanation": "$\\sin^5x\\cos^4x$ is an odd function, and the interval $[-1,1]$ is symmetric about 0, so the integral is 0."
+    },
+    {
+      "n": 53,
+      "q": "The value of $\\displaystyle\\int_0^{2\\pi}\\sqrt{1+\\sin\\left(\\dfrac{x}{2}\\right)}\\,dx$ is",
+      "options": [
+        "8",
+        "4",
+        "2",
+        "0"
+      ],
+      "answer": 0,
+      "chapter": "Integrals",
+      "explanation": "Using $1+\\sin\\theta=(\\sin(\\theta/2)+\\cos(\\theta/2))^2$ and integrating $|\\sin(x/4)+\\cos(x/4)|$ over $[0,2\\pi]$ gives the value 8."
+    },
+    {
+      "n": 54,
+      "q": "$\\displaystyle\\int \\dfrac{dx}{x^2(x^4+1)^{3/4}}$ equals",
+      "options": [
+        "$\\left(\\dfrac{x^4+1}{x^4}\\right)^{1/4}+c$",
+        "$(x^4+1)^{1/4}+c$",
+        "$-(x^4+1)^{1/4}+c$",
+        "$-\\left(\\dfrac{x^4+1}{x^4}\\right)^{1/4}+c$"
+      ],
+      "answer": 3,
+      "chapter": "Integrals",
+      "explanation": "Writing the integrand as $x^{-2}(1+x^{-4})^{-3/4}$ and substituting $u=1+x^{-4}$ (so $du=-4x^{-5}dx$) yields $-\\left(\\dfrac{x^4+1}{x^4}\\right)^{1/4}+c$."
+    },
+    {
+      "n": 55,
+      "q": "$\\displaystyle\\int_0^1\\log\\left(\\dfrac1x-1\\right)dx$ is",
+      "options": [
+        "1",
+        "0",
+        "$\\log_e2$",
+        "$\\log_e\\left(\\dfrac12\\right)$"
+      ],
+      "answer": 1,
+      "chapter": "Integrals",
+      "explanation": "Using $x\\to1-x$, $I=\\int_0^1\\log\\left(\\dfrac{1-x}{x}\\right)dx=-I$, so $I=0$."
+    },
+    {
+      "n": 56,
+      "q": "The area bounded by the curve $y=\\sin\\left(\\dfrac{x}{3}\\right)$, x axis, the lines x = 0 and $x=3\\pi$ is",
+      "options": [
+        "9 sq. units",
+        "$\\dfrac13$ sq. units",
+        "6 sq. units",
+        "3 sq. units"
+      ],
+      "answer": 2,
+      "chapter": "Application of Integrals",
+      "explanation": "Area $=\\int_0^{3\\pi}\\sin(x/3)\\,dx=[-3\\cos(x/3)]_0^{3\\pi}=3+3=6$ sq. units."
+    },
+    {
+      "n": 57,
+      "q": "The area of the region bounded by the curve $y=x^2$ and the line $y=16$ is",
+      "options": [
+        "$\\dfrac{32}{3}$ sq. units",
+        "$\\dfrac{256}{3}$ sq. units",
+        "$\\dfrac{64}{3}$ sq. units",
+        "$\\dfrac{128}{3}$ sq. units"
+      ],
+      "answer": 1,
+      "chapter": "Application of Integrals",
+      "explanation": "Curves meet at $x=\\pm4$; area $=\\int_{-4}^{4}(16-x^2)\\,dx=2\\left[16x-\\dfrac{x^3}{3}\\right]_0^4=\\dfrac{256}{3}$."
+    },
+    {
+      "n": 58,
+      "q": "General solution of the differential equation $\\dfrac{dy}{dx}+y\\tan x=\\sec x$ is",
+      "options": [
+        "$y\\sec x=\\tan x+c$",
+        "$y\\tan x=\\sec x+c$",
+        "$\\text{cosec}\\,x=y\\tan x+c$",
+        "$x\\sec x=\\tan y+c$"
+      ],
+      "answer": 0,
+      "chapter": "Differential Equations",
+      "explanation": "Integrating factor is sec x; multiplying and integrating gives y sec x = tan x + c."
+    },
+    {
+      "n": 59,
+      "q": "If 'a' and 'b' are the order and degree respectively of the differentiable equation $\\left(\\dfrac{d^2y}{dx^2}\\right)^2+\\left(\\dfrac{dy}{dx}\\right)^3+x^4=0$, then a - b =",
+      "options": [
+        "1",
+        "2",
+        "-1",
+        "0"
+      ],
+      "answer": 3,
+      "chapter": "Differential Equations",
+      "explanation": "The order is 2 (highest derivative) and the degree is 2 (power of highest derivative term), so a - b = 0."
+    },
+    {
+      "n": 60,
+      "q": "The distance of the point P(-3, 4, 5) from yz plane is",
+      "options": [
+        "4 units",
+        "5 units",
+        "-3 units",
+        "3 units"
+      ],
+      "answer": 3,
+      "chapter": "Introduction to Three Dimensional Geometry",
+      "explanation": "Distance of a point from the yz-plane equals the absolute value of its x-coordinate, |-3| = 3."
+    }
+  ]
+}

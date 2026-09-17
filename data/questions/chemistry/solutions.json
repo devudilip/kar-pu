@@ -1,0 +1,525 @@
+{
+  "notes": "<h3>Solubility of gases</h3><ul><li>Henry's law: $p = K_H x$. Higher $K_H$ → lower solubility. Solubility of gases decreases with temperature (dissolution is exothermic).</li><li>Applications: soda bottles, scuba diving (bends, He–O$_2$ mixture), anoxia at high altitude.</li></ul><h3>Vapour pressure</h3><ul><li>Raoult's law: $p_A = p_A^\\circ x_A$; $p_{total} = p_A^\\circ x_A + p_B^\\circ x_B$.</li><li>Ideal solutions: $\\Delta H_{mix} = 0$, $\\Delta V_{mix} = 0$ (benzene–toluene, n-hexane–n-heptane).</li><li>Positive deviation (weaker A–B interactions, $\\Delta H_{mix} > 0$): ethanol–acetone, ethanol–water, CCl$_4$–CHCl$_3$ → minimum-boiling azeotrope (95.6% ethanol).</li><li>Negative deviation (stronger A–B, e.g. H-bonding, $\\Delta H_{mix} < 0$): acetone–chloroform, HNO$_3$–water, HCl–water → maximum-boiling azeotrope.</li></ul><h3>Colligative properties</h3><p>Depend only on the <b>number</b> of solute particles.</p><table><tr><td>Relative lowering of VP</td><td>$\\dfrac{p^\\circ - p}{p^\\circ} = x_{solute}$</td></tr><tr><td>Elevation of b.p.</td><td>$\\Delta T_b = i K_b m$</td></tr><tr><td>Depression of f.p.</td><td>$\\Delta T_f = i K_f m$</td></tr><tr><td>Osmotic pressure</td><td>$\\pi = i C R T$</td></tr></table><p>Water: $K_b = 0.52$ K kg mol$^{-1}$, $K_f = 1.86$ K kg mol$^{-1}$. Osmotic pressure is the best method for macromolecules (measurable at room temperature).</p><h3>Van't Hoff factor $i$</h3><ul><li>$i = \\dfrac{\\text{observed colligative property}}{\\text{calculated}}$. Dissociation: $i > 1$ (NaCl 2, K$_2$SO$_4$ 3, Al$_2$(SO$_4$)$_3$ 5); association: $i < 1$ (benzoic acid in benzene, $i = 0.5$); non-electrolytes: $i = 1$.</li><li>$i = 1 + (n-1)\\alpha$ for dissociation into $n$ ions.</li></ul><h3>Osmosis</h3><p>Isotonic solutions have equal osmotic pressure (0.9% NaCl is isotonic with blood). Hypertonic → cell shrinks; hypotonic → cell swells. Reverse osmosis (pressure > $\\pi$) → desalination, using cellulose acetate membrane.</p><h3>Exam tip</h3><p>Every year: one numerical on $\\Delta T_f$/$\\Delta T_b$/$\\pi$ and one on comparing colligative properties using $i$. Always multiply by $i$ for electrolytes.</p>",
+  "questions": [
+    {
+      "id": "che-solutions-001",
+      "q": "According to Henry's law, the solubility of a gas in a liquid at a given temperature is",
+      "options": [
+        "proportional to the square of pressure",
+        "directly proportional to the partial pressure of the gas",
+        "inversely proportional to the partial pressure",
+        "independent of pressure"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "$p = K_H x$: mole fraction of dissolved gas ∝ its partial pressure above the solution."
+    },
+    {
+      "id": "che-solutions-002",
+      "q": "A mixture showing negative deviation from Raoult's law is",
+      "options": [
+        "acetone + chloroform",
+        "benzene + toluene",
+        "ethanol + water",
+        "ethanol + acetone"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "Chloroform forms hydrogen bonds with acetone, strengthening A–B interactions and lowering vapour pressure. Benzene–toluene is ideal."
+    },
+    {
+      "id": "che-solutions-003",
+      "q": "The van't Hoff factor for K$_2$SO$_4$ assuming complete dissociation is",
+      "options": [
+        "2",
+        "1",
+        "3",
+        "4"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "K$_2$SO$_4 \\to 2$K$^+$ + SO$_4^{2-}$: 3 ions."
+    },
+    {
+      "id": "che-solutions-004",
+      "q": "The osmotic pressure of a 0.1 M glucose solution at 300 K is ($R = 0.0821$ L atm K$^{-1}$ mol$^{-1}$)",
+      "options": [
+        "4.92 atm",
+        "0.246 atm",
+        "24.6 atm",
+        "2.46 atm"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "$\\pi = CRT = 0.1\\times0.0821\\times300 = 2.46$ atm."
+    },
+    {
+      "id": "che-solutions-005",
+      "q": "The elevation in boiling point of a 0.5 molal aqueous solution of a non-volatile non-electrolyte is ($K_b = 0.52$ K kg mol$^{-1}$)",
+      "options": [
+        "1.04 K",
+        "0.13 K",
+        "0.26 K",
+        "0.52 K"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "$\\Delta T_b = K_b m = 0.52\\times0.5 = 0.26$ K."
+    },
+    {
+      "id": "che-solutions-006",
+      "q": "Which 0.1 M aqueous solution has the highest boiling point?",
+      "options": [
+        "Glucose",
+        "Al$_2$(SO$_4$)$_3$",
+        "BaCl$_2$",
+        "NaCl"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "$\\Delta T_b \\propto i$: glucose 1, NaCl 2, BaCl$_2$ 3, Al$_2$(SO$_4$)$_3$ 5."
+    },
+    {
+      "id": "che-solutions-007",
+      "q": "The freezing point of a 1 molal aqueous urea solution is ($K_f = 1.86$ K kg mol$^{-1}$)",
+      "options": [
+        "$-1.86$ °C",
+        "$-0.93$ °C",
+        "0 °C",
+        "1.86 °C"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "$\\Delta T_f = 1.86\\times1 = 1.86$ K; urea is a non-electrolyte, so f.p. $= -1.86$ °C."
+    },
+    {
+      "id": "che-solutions-008",
+      "q": "2 g of a non-electrolyte dissolved in 50 g of water lowers the freezing point by 0.372 K. The molar mass of the solute is ($K_f = 1.86$ K kg mol$^{-1}$)",
+      "options": [
+        "50 g mol$^{-1}$",
+        "100 g mol$^{-1}$",
+        "400 g mol$^{-1}$",
+        "200 g mol$^{-1}$"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "$m = \\Delta T_f/K_f = 0.2$ mol kg$^{-1}$. Moles in 50 g water $= 0.2\\times0.05 = 0.01$. $M = 2/0.01 = 200$ g mol$^{-1}$."
+    },
+    {
+      "id": "che-solutions-009",
+      "q": "Solutions having the same osmotic pressure at a given temperature are called",
+      "options": [
+        "ideal",
+        "isotonic",
+        "hypotonic",
+        "hypertonic"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "Isotonic — e.g. 0.9% (mass/volume) NaCl and blood plasma."
+    },
+    {
+      "id": "che-solutions-010",
+      "q": "Ethanol–water (95.6% ethanol) forms",
+      "options": [
+        "an ideal solution",
+        "a maximum-boiling azeotrope",
+        "a solution with negative deviation",
+        "a minimum-boiling azeotrope"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "Positive deviation from Raoult's law → minimum boiling azeotrope; pure ethanol cannot be obtained by fractional distillation."
+    },
+    {
+      "id": "che-solutions-011",
+      "q": "The molality of a 10% (w/w) aqueous NaOH solution is approximately",
+      "options": [
+        "10 m",
+        "0.25 m",
+        "2.78 m",
+        "2.5 m"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "10 g NaOH ($0.25$ mol) in 90 g water: $m = 0.25/0.090 = 2.78$ m."
+    },
+    {
+      "id": "che-solutions-012",
+      "q": "Reverse osmosis is used for",
+      "options": [
+        "desalination of sea water",
+        "measuring molar mass",
+        "preparing colloids",
+        "separating azeotropes"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "Pressure greater than the osmotic pressure forces water through a semipermeable membrane from sea water to pure water."
+    },
+    {
+      "id": "che-solutions-013",
+      "q": "Benzoic acid dissolved in benzene shows a van't Hoff factor of about",
+      "options": [
+        "0.5",
+        "1.5",
+        "1",
+        "2"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "Benzoic acid dimerises through hydrogen bonding in benzene, halving the number of particles: $i \\approx 0.5$."
+    },
+    {
+      "id": "che-solutions-014",
+      "q": "Relative lowering of vapour pressure of a dilute solution of a non-volatile solute is equal to",
+      "options": [
+        "mole fraction of solvent",
+        "mole fraction of solute",
+        "molality of solution",
+        "molarity of solution"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "$\\dfrac{p^\\circ - p}{p^\\circ} = x_{solute}$ (Raoult's law)."
+    },
+    {
+      "id": "che-solutions-015",
+      "q": "The best colligative method for determining the molar mass of proteins and polymers is",
+      "options": [
+        "depression of freezing point",
+        "relative lowering of vapour pressure",
+        "elevation of boiling point",
+        "osmotic pressure"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "Osmotic pressure is large even for dilute solutions, is measured at room temperature (no decomposition), and uses molarity."
+    },
+    {
+      "id": "che-solutions-016",
+      "q": "The value of $K_H$ for N$_2$ is higher than that for O$_2$ in water at 298 K. This means",
+      "options": [
+        "N$_2$ is more soluble than O$_2$",
+        "solubility does not depend on $K_H$",
+        "O$_2$ is more soluble than N$_2$",
+        "both are equally soluble"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "$x = p/K_H$: a higher $K_H$ means lower solubility, so O$_2$ is more soluble than N$_2$."
+    },
+    {
+      "id": "che-solutions-017",
+      "q": "Colligative properties of a solution depend upon",
+      "options": [
+        "the colour of the solute",
+        "the molar mass of the solvent only",
+        "the nature of the solute particles",
+        "the number of solute particles (moles) present, not their identity"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "Colligative properties (relative lowering of vapour pressure, elevation of b.p., depression of f.p., osmotic pressure) depend only on the number of solute particles in solution, not on what the solute is."
+    },
+    {
+      "id": "che-solutions-018",
+      "q": "Molality is preferred over molarity for precise work because",
+      "options": [
+        "molarity cannot be measured accurately",
+        "molality is based on mass of solvent, so it does not change with temperature, unlike molarity which is based on solution volume",
+        "molality requires no weighing",
+        "molality is always numerically larger than molarity"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "Since volume changes with temperature (thermal expansion) but mass does not, molality (mol per kg of solvent) remains constant with temperature while molarity (mol per litre of solution) does not."
+    },
+    {
+      "id": "che-solutions-019",
+      "q": "18 g of water is mixed with 34.2 g of sucrose (M = 342 g mol$^{-1}$). The mole fraction of sucrose in the solution is approximately",
+      "options": [
+        "0.091",
+        "0.50",
+        "0.10",
+        "0.91"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "Moles of water $= 18/18 = 1$; moles of sucrose $= 34.2/342 = 0.1$. $x_{sucrose} = \\dfrac{0.1}{1+0.1} = 0.091$."
+    },
+    {
+      "id": "che-solutions-020",
+      "q": "Two ideal liquids A ($p_A^\\circ = 200$ mmHg) and B ($p_B^\\circ = 100$ mmHg) are mixed with $x_A = 0.4$ and $x_B = 0.6$. The total vapour pressure of the solution is",
+      "options": [
+        "150 mmHg",
+        "120 mmHg",
+        "140 mmHg",
+        "300 mmHg"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "$p_A = 0.4\\times200 = 80$ mmHg; $p_B = 0.6\\times100 = 60$ mmHg; $p_{total} = 80+60 = 140$ mmHg."
+    },
+    {
+      "id": "che-solutions-021",
+      "q": "For an ideal solution of A and B in which the partial vapour pressure of A is $p_A = 80$ mmHg and the total vapour pressure is $p_{total} = 140$ mmHg, the mole fraction of A in the vapour phase is",
+      "options": [
+        "0.40",
+        "0.571",
+        "0.60",
+        "0.80"
+      ],
+      "answer": 1,
+      "difficulty": "hard",
+      "explanation": "By Dalton's law, mole fraction of A in vapour $= p_A/p_{total} = 80/140 \\approx 0.571$, which is richer in the more volatile component A than the liquid phase (0.4)."
+    },
+    {
+      "id": "che-solutions-022",
+      "q": "If the experimentally determined (apparent) molar mass of a solute from a colligative property measurement is LOWER than its normal (formula) molar mass, the solute is",
+      "options": [
+        "behaving as an ideal non-electrolyte",
+        "insoluble in the solvent",
+        "undergoing dissociation in solution (i &gt; 1)",
+        "undergoing association in solution"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "Dissociation increases the number of particles, so the observed colligative effect is larger than expected; since apparent molar mass is inversely related to the colligative property, this shows up as a molar mass lower than the true (formula) value, i.e. $i>1$."
+    },
+    {
+      "id": "che-solutions-023",
+      "q": "For a 0.1 molal aqueous NaCl solution, the van't Hoff factor $i$ is found to be 1.87. The degree of dissociation of NaCl is",
+      "options": [
+        "13%",
+        "100%",
+        "50%",
+        "87%"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "$i = 1+(n-1)\\alpha$ with $n=2$: $1.87 = 1+\\alpha \\Rightarrow \\alpha = 0.87 = 87\\%$."
+    },
+    {
+      "id": "che-solutions-024",
+      "q": "Acetic acid dimerises in benzene. If the van't Hoff factor observed is 0.6, the degree of association is",
+      "options": [
+        "80%",
+        "20%",
+        "60%",
+        "40%"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "For association into a dimer ($n=2$): $i = 1+\\left(\\dfrac1n-1\\right)\\alpha = 1-0.5\\alpha$. $0.6 = 1-0.5\\alpha \\Rightarrow \\alpha = 0.8 = 80\\%$."
+    },
+    {
+      "id": "che-solutions-025",
+      "q": "1.0 g of a protein of molar mass 100000 g mol$^{-1}$ is dissolved in enough water to make 100 mL of solution. Its osmotic pressure at 300 K is ($R = 0.0821$ L atm K$^{-1}$ mol$^{-1}$)",
+      "options": [
+        "$2.46\\times10^{-3}$ atm",
+        "2.46 atm",
+        "$2.46\\times10^{-2}$ atm",
+        "0.246 atm"
+      ],
+      "answer": 0,
+      "difficulty": "hard",
+      "explanation": "Moles $= 1.0/100000 = 10^{-5}$ mol; $C = 10^{-5}/0.1 = 10^{-4}$ mol L$^{-1}$. $\\pi = CRT = 10^{-4}\\times0.0821\\times300 \\approx 2.46\\times10^{-3}$ atm — very small, which is why osmotic pressure (not $\\Delta T_f$ or $\\Delta T_b$) is used for such dilute macromolecular solutions."
+    },
+    {
+      "id": "che-solutions-026",
+      "q": "The solubility of most solid solutes in a liquid solvent generally increases with rising temperature when",
+      "options": [
+        "the solute is non-polar",
+        "the dissolution process is endothermic",
+        "the dissolution process is exothermic",
+        "pressure is also increased"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "By Le Chatelier's principle, if dissolving the solute absorbs heat (endothermic), raising the temperature favours further dissolution, increasing solubility."
+    },
+    {
+      "id": "che-solutions-027",
+      "q": "The solubility of a solid in a liquid is largely unaffected by changes in pressure because",
+      "options": [
+        "pressure only affects gaseous solutes, never solids",
+        "solubility is purely an electrical phenomenon",
+        "solids have very high vapour pressure",
+        "solids and liquids are only negligibly compressible"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "Since solids and liquids do not compress appreciably under moderate pressure changes, pressure has essentially no effect on solid-in-liquid solubility (unlike gas solubility, which is pressure-dependent)."
+    },
+    {
+      "id": "che-solutions-028",
+      "q": "As temperature increases, the Henry's law constant $K_H$ for a given gas in a given solvent generally",
+      "options": [
+        "becomes negative",
+        "remains constant",
+        "increases, so solubility decreases",
+        "decreases, so solubility increases"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "$K_H$ increases with temperature; since $x = p/K_H$ at a fixed partial pressure, a higher $K_H$ means a lower mole fraction of dissolved gas — consistent with gas solubility decreasing on heating."
+    },
+    {
+      "id": "che-solutions-029",
+      "q": "An azeotrope (constant boiling mixture) cannot be separated into its pure components by",
+      "options": [
+        "crystallisation",
+        "simple filtration",
+        "fractional distillation",
+        "chromatography"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "At the azeotropic composition the vapour and liquid have the same composition, so the mixture distils over unchanged; ordinary fractional distillation cannot separate it further."
+    },
+    {
+      "id": "che-solutions-030",
+      "q": "Raoult's law for a volatile solute (as a limiting case of a more general law) can be regarded as a special case of",
+      "options": [
+        "Henry's law, with the Henry's law constant equal to the vapour pressure of the pure component",
+        "Graham's law",
+        "Boyle's law",
+        "Charles's law"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "Raoult's law ($p_A = p_A^\\circ x_A$) is a special case of Henry's law ($p = K_H x$) in which $K_H$ becomes equal to the vapour pressure of the pure liquid, $p_A^\\circ$."
+    },
+    {
+      "id": "che-solutions-031",
+      "q": "For equimolal aqueous solutions of urea (a non-electrolyte) and NaCl (assume complete dissociation), the ratio $\\Delta T_f(\\text{NaCl})/\\Delta T_f(\\text{urea})$ is approximately",
+      "options": [
+        "1",
+        "0.5",
+        "4",
+        "2"
+      ],
+      "answer": 3,
+      "difficulty": "hard",
+      "explanation": "$\\Delta T_f = iK_fm$; for urea $i=1$, for NaCl $i\\approx2$ (complete dissociation into 2 ions), so the ratio of depressions is $2/1 = 2$."
+    },
+    {
+      "id": "che-solutions-032",
+      "q": "A 0.1 M KCl solution (assume complete dissociation, $i=2$) is isotonic with a glucose solution (non-electrolyte, $i=1$) of concentration",
+      "options": [
+        "0.4 M",
+        "0.2 M",
+        "0.05 M",
+        "0.1 M"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "Equal osmotic pressure requires $i_1C_1 = i_2C_2$: $2\\times0.1 = 1\\times C_2 \\Rightarrow C_2 = 0.2$ M."
+    },
+    {
+      "id": "che-solutions-033",
+      "q": "When red blood cells are placed in a solution whose osmotic pressure is higher than that of the cell fluid (a hypertonic solution), the cells",
+      "options": [
+        "remain completely unchanged",
+        "shrink due to loss of water (crenation)",
+        "instantly dissolve",
+        "swell and may burst (haemolysis)"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "In a hypertonic (higher osmotic pressure) medium, water moves out of the cell by osmosis to the surrounding solution, causing the cell to shrink (crenation)."
+    },
+    {
+      "id": "che-solutions-034",
+      "q": "Pure water has a vapour pressure of 23.8 mmHg at 25 °C. Dissolving 1 mol of glucose in 9 mol of water gives a solution whose vapour pressure is approximately",
+      "options": [
+        "2.38 mmHg",
+        "11.9 mmHg",
+        "21.4 mmHg",
+        "23.8 mmHg"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "$x_{solute} = 1/10 = 0.1$; $\\Delta p = 0.1\\times23.8 = 2.38$ mmHg, so $p = 23.8-2.38 = 21.4$ mmHg."
+    },
+    {
+      "id": "che-solutions-035",
+      "q": "Which of the following is NOT a colligative property?",
+      "options": [
+        "Elevation of boiling point",
+        "Osmotic pressure",
+        "Depression of freezing point",
+        "Viscosity of the solution"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "Viscosity depends on the specific nature/structure of the solute and solvent molecules, not merely on the number of solute particles, so it is not a colligative property."
+    },
+    {
+      "id": "che-solutions-036",
+      "q": "1.22 g of benzoic acid (M = 122 g mol$^{-1}$), which dimerises completely in benzene ($i = 0.5$), is dissolved in 100 g of benzene ($K_b = 2.53$ K kg mol$^{-1}$). The elevation in boiling point is",
+      "options": [
+        "0.1265 K",
+        "0.506 K",
+        "0.253 K",
+        "0.0632 K"
+      ],
+      "answer": 0,
+      "difficulty": "hard",
+      "explanation": "Molality $m = \\dfrac{1.22/122}{0.100} = 0.1$ mol kg$^{-1}$. $\\Delta T_b = iK_bm = 0.5\\times2.53\\times0.1 = 0.1265$ K."
+    },
+    {
+      "id": "che-solutions-037",
+      "q": "A solution of a non-volatile solute always boils at a HIGHER temperature than the pure solvent because",
+      "options": [
+        "solutions have lower heat capacity",
+        "the solute reacts with the solvent",
+        "the solute's vapour pressure lowers the solution's total vapour pressure, so a higher temperature is needed for it to equal atmospheric pressure",
+        "the solute increases the solution's vapour pressure"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "Since the non-volatile solute lowers the solution's vapour pressure at any given temperature (Raoult's law), the solution must be heated to a higher temperature than the pure solvent before its vapour pressure reaches atmospheric pressure (boils)."
+    },
+    {
+      "id": "che-solutions-038",
+      "q": "Which of the following correctly describes an ideal solution?",
+      "options": [
+        "Its formation is always accompanied by a large volume change",
+        "It obeys Raoult's law at all concentrations, with $\\Delta H_{mix} = 0$ and $\\Delta V_{mix} = 0$",
+        "It has strong A-B interactions compared to A-A and B-B",
+        "It always shows a maximum-boiling azeotrope"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "An ideal solution obeys Raoult's law over the entire concentration range, and forms with no enthalpy or volume change ($\\Delta H_{mix} = \\Delta V_{mix} = 0$), because A-A, B-B and A-B interactions are essentially identical."
+    },
+    {
+      "id": "che-solutions-039",
+      "q": "78 g of benzene (M = 78 g mol$^{-1}$) is mixed with 3.05 g of a non-volatile, non-dissociating solute; the vapour pressure drops from 640 mmHg to 608 mmHg. The molar mass of the solute is approximately",
+      "options": [
+        "116 g mol$^{-1}$",
+        "78 g mol$^{-1}$",
+        "29 g mol$^{-1}$",
+        "58 g mol$^{-1}$"
+      ],
+      "answer": 3,
+      "difficulty": "hard",
+      "explanation": "$n_1 = 78/78 = 1$ mol. Relative lowering $= (640-608)/640 = 0.05 = \\dfrac{n_2}{n_1+n_2}$, giving $n_2 \\approx 0.0526$ mol. $M = 3.05/0.0526 \\approx 58$ g mol$^{-1}$."
+    },
+    {
+      "id": "che-solutions-040",
+      "q": "Which pair of liquids is expected to form a solution that most closely obeys Raoult's law (an ideal solution)?",
+      "options": [
+        "n-hexane and n-heptane",
+        "ethanol and water",
+        "acetone and chloroform",
+        "phenol and aniline"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "n-Hexane and n-heptane are structurally very similar non-polar hydrocarbons with nearly identical A-A, B-B and A-B interactions, so their mixture behaves almost ideally, unlike the other pairs listed which show marked deviations."
+    }
+  ]
+}

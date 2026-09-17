@@ -1,0 +1,525 @@
+{
+  "notes": "<h3>Basics</h3><ul><li>Set: well-defined collection. Roster form $\\{1,2,3\\}$; set-builder $\\{x : x \\in \\mathbb N, x < 4\\}$.</li><li>Empty set $\\phi$; singleton; finite/infinite; equal sets; subset $A \\subseteq B$; proper subset $A \\subset B$.</li><li>Set with $n$ elements has $2^n$ subsets, $2^n - 1$ proper subsets, and $|P(A)| = 2^n$. $P(\\phi) = \\{\\phi\\}$ has 1 element.</li><li>Intervals: $(a,b)$ open, $[a,b]$ closed, $(a,b]$, $[a,b)$.</li></ul><h3>Operations</h3><ul><li>$A \\cup B$, $A \\cap B$, $A - B = \\{x : x\\in A, x\\notin B\\}$, complement $A' = U - A$, symmetric difference $A\\,\\Delta\\,B = (A-B)\\cup(B-A)$.</li><li>If $A \\subseteq B$: $A \\cup B = B$, $A \\cap B = A$.</li><li>De Morgan: $(A\\cup B)' = A'\\cap B'$, $(A\\cap B)' = A'\\cup B'$.</li><li>$A - B = A \\cap B'$; $A \\cap A' = \\phi$; $A \\cup A' = U$.</li></ul><h3>Counting</h3><ul><li>$n(A\\cup B) = n(A) + n(B) - n(A\\cap B)$.</li><li>$n(A\\cup B\\cup C) = n(A)+n(B)+n(C) - n(A\\cap B) - n(B\\cap C) - n(A\\cap C) + n(A\\cap B\\cap C)$.</li><li>Neither $= n(U) - n(A\\cup B)$. Only $A = n(A) - n(A\\cap B)$.</li><li>$n(A\\times B) = n(A)\\,n(B)$; number of relations from $A$ to $B$ $= 2^{n(A)n(B)}$.</li></ul><h3>Exam tip</h3><p>Usually 1 question, almost always on counting (union/intersection word problem) or number of subsets. Quick marks — never lose them.</p>",
+  "questions": [
+    {
+      "id": "mat-sets-001",
+      "q": "If $n(A) = 20$, $n(B) = 30$ and $n(A\\cap B) = 10$, then $n(A\\cup B)$ is",
+      "options": [
+        "50",
+        "20",
+        "40",
+        "60"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "$n(A\\cup B) = 20 + 30 - 10 = 40$."
+    },
+    {
+      "id": "mat-sets-002",
+      "q": "The number of proper subsets of a set containing 5 elements is",
+      "options": [
+        "32",
+        "16",
+        "30",
+        "31"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "$2^5 - 1 = 31$ (the set itself is excluded)."
+    },
+    {
+      "id": "mat-sets-003",
+      "q": "The number of elements in the power set of the empty set is",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "undefined"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "$P(\\phi) = \\{\\phi\\}$, which has one element."
+    },
+    {
+      "id": "mat-sets-004",
+      "q": "If $A \\subset B$, then $A \\cap B$ and $A \\cup B$ are respectively",
+      "options": [
+        "$A$, $B$",
+        "$B$, $A$",
+        "$B$, $B$",
+        "$A$, $A$"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "Every element of $A$ is in $B$, so the intersection is $A$ and the union is $B$."
+    },
+    {
+      "id": "mat-sets-005",
+      "q": "$(A \\cup B)'$ is equal to",
+      "options": [
+        "$A \\cap B$",
+        "$A' \\cap B'$",
+        "$A' - B'$",
+        "$A' \\cup B'$"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "De Morgan's law."
+    },
+    {
+      "id": "mat-sets-006",
+      "q": "In a class of 60 students, 25 play cricket, 20 play football and 10 play both. The number of students who play neither game is",
+      "options": [
+        "25",
+        "15",
+        "45",
+        "35"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "$n(C\\cup F) = 25 + 20 - 10 = 35$; neither $= 60 - 35 = 25$."
+    },
+    {
+      "id": "mat-sets-007",
+      "q": "If $n(A) = 3$ and $n(B) = 4$, the number of relations from $A$ to $B$ is",
+      "options": [
+        "$2^7$",
+        "12",
+        "$2^{12}$",
+        "$4^3$"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "A relation is a subset of $A\\times B$, which has 12 elements; number of subsets $= 2^{12}$."
+    },
+    {
+      "id": "mat-sets-008",
+      "q": "The set $\\{x : x \\in \\mathbb R, -2 < x \\le 5\\}$ in interval notation is",
+      "options": [
+        "$[-2, 5)$",
+        "$[-2, 5]$",
+        "$(-2, 5)$",
+        "$(-2, 5]$"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "$-2$ is excluded (round bracket), 5 is included (square bracket)."
+    },
+    {
+      "id": "mat-sets-009",
+      "q": "Which of the following is an empty set?",
+      "options": [
+        "$\\{x : x \\text{ is an even prime}\\}$",
+        "$\\{x : x \\text{ is an even prime greater than 2}\\}$",
+        "$\\{x : x \\in \\mathbb Z, -1 < x < 1\\}$",
+        "$\\{x : x \\in \\mathbb N, x^2 = 4\\}$"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "2 is the only even prime, so there is no even prime greater than 2. The others give $\\{2\\}$, $\\{2\\}$ and $\\{0\\}$."
+    },
+    {
+      "id": "mat-sets-010",
+      "q": "If $A = \\{1,2,3,4\\}$ and $B = \\{3,4,5,6\\}$, then $(A - B) \\cup (B - A)$ is",
+      "options": [
+        "$\\{1,2,3,4,5,6\\}$",
+        "$\\{3,4\\}$",
+        "$\\{1,2,5,6\\}$",
+        "$\\phi$"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "$A - B = \\{1,2\\}$, $B - A = \\{5,6\\}$; union $= \\{1,2,5,6\\}$ (the symmetric difference)."
+    },
+    {
+      "id": "mat-sets-011",
+      "q": "If a set $A$ has 64 subsets, then $n(A)$ is",
+      "options": [
+        "6",
+        "7",
+        "8",
+        "32"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "$2^n = 64 \\Rightarrow n = 6$."
+    },
+    {
+      "id": "mat-sets-012",
+      "q": "If $A = \\{x : x^2 - 5x + 6 = 0\\}$ and $B = \\{2, 3, 4\\}$, then",
+      "options": [
+        "$A \\cap B = \\phi$",
+        "$B \\subset A$",
+        "$A = B$",
+        "$A \\subset B$"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "$x^2 - 5x + 6 = (x-2)(x-3) = 0 \\Rightarrow A = \\{2, 3\\}$, a proper subset of $B$."
+    },
+    {
+      "id": "mat-sets-013",
+      "q": "In a survey of 100 people, 60 like tea, 50 like coffee and 30 like both. The number of people who like exactly one of the two is",
+      "options": [
+        "50",
+        "30",
+        "80",
+        "20"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "Only tea $= 60 - 30 = 30$; only coffee $= 50 - 30 = 20$; exactly one $= 50$."
+    },
+    {
+      "id": "mat-sets-014",
+      "q": "$A \\cap (B \\cup C)$ is equal to",
+      "options": [
+        "$A\\cup(B\\cap C)$",
+        "$(A\\cap B)\\cup(A\\cap C)$",
+        "$(A\\cap B)\\cap C$",
+        "$(A\\cup B)\\cap(A\\cup C)$"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "Distributive law of intersection over union."
+    },
+    {
+      "id": "mat-sets-015",
+      "q": "If $A=\\{1,2,3\\}$, $B=\\{2,3,4\\}$ and $C=\\{3,4,5\\}$, then $n(A\\cup B\\cup C)$ is",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "$A\\cup B\\cup C = \\{1,2,3,4,5\\}$, which has 5 elements."
+    },
+    {
+      "id": "mat-sets-016",
+      "q": "The symmetric difference $A \\triangle B$ is defined as",
+      "options": [
+        "$(A-B)\\cap(B-A)$",
+        "$A\\cup B$",
+        "$A\\cap B$",
+        "$(A\\cup B)-(A\\cap B)$"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "$A\\triangle B = (A-B)\\cup(B-A)$, which equals $(A\\cup B) - (A\\cap B)$."
+    },
+    {
+      "id": "mat-sets-017",
+      "q": "If a set has 4 elements, the number of subsets containing a particular fixed element of the set is",
+      "options": [
+        "4",
+        "15",
+        "16",
+        "8"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "Fix that element; the remaining 3 elements can each be included or not, giving $2^3 = 8$ such subsets."
+    },
+    {
+      "id": "mat-sets-018",
+      "q": "$A - B$ is equal to",
+      "options": [
+        "$B - A$",
+        "$A\\cup B'$",
+        "$A\\cap B'$",
+        "$A'\\cap B$"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "$A - B$ consists of elements of $A$ that are not in $B$, i.e. $A \\cap B'$."
+    },
+    {
+      "id": "mat-sets-019",
+      "q": "Which of the following sets is infinite?",
+      "options": [
+        "$\\{x \\in \\mathbb N : x < 5\\}$",
+        "$\\{x : x \\in \\mathbb N\\}$",
+        "$\\{x \\in \\mathbb N : x^2 = 9\\}$",
+        "$\\{x \\in \\mathbb Z : x^2 = 4\\}$"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "$\\{x : x\\in\\mathbb N\\}$ is the set of all natural numbers, which is infinite; the other three are finite."
+    },
+    {
+      "id": "mat-sets-020",
+      "q": "If $A = \\{1,2,3\\}$ and $B = \\{p,q,r\\}$, then $A$ and $B$ are",
+      "options": [
+        "equivalent but not equal",
+        "neither equal nor equivalent",
+        "both equal and equivalent",
+        "equal but not equivalent"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "$A$ and $B$ have the same number of elements (3) but different elements, so they are equivalent but not equal."
+    },
+    {
+      "id": "mat-sets-021",
+      "q": "Which of the following statements is FALSE?",
+      "options": [
+        "$(A')' = A$",
+        "$(A\\cap B)' = A'\\cup B'$",
+        "$A \\cap A' = U$",
+        "$A \\cup A' = U$"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "$A \\cap A' = \\phi$, not $U$; the other three statements are standard set identities."
+    },
+    {
+      "id": "mat-sets-022",
+      "q": "If $A$ and $B$ are disjoint sets, then $n(A\\cup B)$ equals",
+      "options": [
+        "$n(A) - n(B)$",
+        "$n(A) + n(B)$",
+        "$n(A) + n(B) + n(A\\cap B)$",
+        "$n(A)\\times n(B)$"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "For disjoint sets $n(A\\cap B) = 0$, so $n(A\\cup B) = n(A) + n(B)$."
+    },
+    {
+      "id": "mat-sets-023",
+      "q": "In a survey of 100 students, 40 study Physics, 30 study Chemistry, 30 study Mathematics, 10 study both Physics and Chemistry, 8 study both Chemistry and Mathematics, 6 study both Physics and Mathematics, and 5 study all three subjects. How many students study none of the three subjects?",
+      "options": [
+        "5",
+        "81",
+        "24",
+        "19"
+      ],
+      "answer": 3,
+      "difficulty": "hard",
+      "explanation": "$n(P\\cup C\\cup M) = 40+30+30-10-8-6+5 = 81$. Students studying none $= 100 - 81 = 19$."
+    },
+    {
+      "id": "mat-sets-024",
+      "q": "If $n(P(A)) = 256$, then $n(A)$ is",
+      "options": [
+        "8",
+        "9",
+        "16",
+        "128"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "$2^n = 256 = 2^8 \\Rightarrow n = 8$."
+    },
+    {
+      "id": "mat-sets-025",
+      "q": "Which pair of sets is disjoint?",
+      "options": [
+        "$\\{x : x \\text{ is even}\\}$ and $\\{2,4,6\\}$",
+        "$\\{1,2,3\\}$ and $\\{3,4,5\\}$",
+        "$\\{2,4,6\\}$ and $\\{1,3,5\\}$",
+        "$\\mathbb N$ and $\\mathbb Z$"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "$\\{2,4,6\\}$ (even numbers) and $\\{1,3,5\\}$ (odd numbers) share no common element; the other pairs all overlap."
+    },
+    {
+      "id": "mat-sets-026",
+      "q": "If $A \\subseteq B$ and $B \\subseteq A$, then",
+      "options": [
+        "$A \\cup B = \\phi$",
+        "$A \\cap B = \\phi$",
+        "$A$ and $B$ are disjoint",
+        "$A = B$"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "Mutual containment of two sets means they have exactly the same elements, so $A = B$."
+    },
+    {
+      "id": "mat-sets-027",
+      "q": "If $\\{a, 1, 3\\} = \\{2, 1, 3\\}$ (as sets), then $a$ equals",
+      "options": [
+        "0",
+        "2",
+        "3",
+        "1"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "For the two sets to be equal, every element must match, so $a = 2$."
+    },
+    {
+      "id": "mat-sets-028",
+      "q": "Which of the following statements about the null set $\\phi$ is INCORRECT?",
+      "options": [
+        "$\\phi = \\{0\\}$",
+        "$n(\\phi) = 0$",
+        "$\\phi$ is a subset of every set",
+        "$\\phi$ has exactly one subset, namely itself"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "$\\{0\\}$ is a set containing the element $0$, so it has one element, while $\\phi$ has none; hence $\\phi \\ne \\{0\\}$."
+    },
+    {
+      "id": "mat-sets-029",
+      "q": "If $n(A) = n(B) = 17$ and $n(A\\cup B) = 30$, then $n(A\\cap B)$ is",
+      "options": [
+        "47",
+        "4",
+        "30",
+        "13"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "$n(A\\cap B) = n(A) + n(B) - n(A\\cup B) = 17 + 17 - 30 = 4$."
+    },
+    {
+      "id": "mat-sets-030",
+      "q": "If $U = \\{1,2,3,\\ldots,10\\}$ and $A = \\{1,2,3,4,5\\}$, then $A'$ is",
+      "options": [
+        "$\\{6,7,8,9,10\\}$",
+        "$\\phi$",
+        "$\\{1,2,3,4,5\\}$",
+        "$\\{1,2,\\ldots,10\\}$"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "$A'$ contains the elements of $U$ not in $A$, i.e. $\\{6,7,8,9,10\\}$."
+    },
+    {
+      "id": "mat-sets-031",
+      "q": "In a Venn diagram of three sets $A$, $B$, $C$, the region representing elements in both $A$ and $B$ but not in $C$ is given by",
+      "options": [
+        "$(A\\cap B)\\cup C$",
+        "$(A\\cup B)\\cap C'$",
+        "$(A\\cap B)\\cap C'$",
+        "$A\\cap B\\cap C$"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "Elements in $A\\cap B$ but excluding $C$ form $(A\\cap B)\\cap C'$."
+    },
+    {
+      "id": "mat-sets-032",
+      "q": "If $n(A) = 5$ and $n(B) = 8$, the maximum possible value of $n(A\\cup B)$ is",
+      "options": [
+        "8",
+        "5",
+        "40",
+        "13"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "The union is largest when $A$ and $B$ are disjoint: $n(A\\cup B) = 5 + 8 = 13$."
+    },
+    {
+      "id": "mat-sets-033",
+      "q": "If $n(A) = 5$ and $n(B) = 8$, the minimum possible value of $n(A\\cup B)$ is",
+      "options": [
+        "3",
+        "5",
+        "8",
+        "13"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "The union is smallest when $A \\subseteq B$, giving $n(A\\cup B) = n(B) = 8$."
+    },
+    {
+      "id": "mat-sets-034",
+      "q": "The set $\\{x : x \\text{ is a distinct letter in the word 'ALLOWED'}\\}$ has how many elements?",
+      "options": [
+        "5",
+        "7",
+        "4",
+        "6"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "The distinct letters are A, L, O, W, E, D — 6 elements (the repeated L is counted once)."
+    },
+    {
+      "id": "mat-sets-035",
+      "q": "If a set $A$ has 3 elements, the number of subsets of $A$ that contain exactly 2 elements is",
+      "options": [
+        "3",
+        "8",
+        "6",
+        "4"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "The number of 2-element subsets of a 3-element set is $^3C_2 = 3$."
+    },
+    {
+      "id": "mat-sets-036",
+      "q": "Consider the statements: (I) Every subset of a finite set is finite. (II) The empty set is a subset of every set. Which of these is/are correct?",
+      "options": [
+        "Neither",
+        "Both I and II",
+        "Only II",
+        "Only I"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "Both statements are standard facts about finite sets and the null set."
+    },
+    {
+      "id": "mat-sets-037",
+      "q": "If $A = \\{1,2,3,4,5\\}$ and $B = \\{4,5,6,7\\}$, then $n(A \\triangle B)$ is",
+      "options": [
+        "2",
+        "9",
+        "5",
+        "3"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "$A - B = \\{1,2,3\\}$ and $B - A = \\{6,7\\}$, so $A\\triangle B = \\{1,2,3,6,7\\}$, which has 5 elements."
+    },
+    {
+      "id": "mat-sets-038",
+      "q": "If a set $A$ has $n$ elements, the number of subsets of $A$ that do NOT contain a particular fixed element is",
+      "options": [
+        "$2^{n-1}$",
+        "$2^n$",
+        "$n-1$",
+        "$2^n - 1$"
+      ],
+      "answer": 0,
+      "difficulty": "hard",
+      "explanation": "Excluding the fixed element, each of the remaining $n-1$ elements can be included or not, giving $2^{n-1}$ subsets."
+    },
+    {
+      "id": "mat-sets-039",
+      "q": "For two sets $A$ and $B$ with $n(A) = p$ and $n(B) = q$ where $p < q$, which of the following is always true?",
+      "options": [
+        "$n(A\\cup B) \\le q$",
+        "$n(A\\cap B) \\ge p$",
+        "$n(A\\cap B) = 0$",
+        "$n(A\\cap B) \\le p$ and $n(A\\cup B) \\ge q$"
+      ],
+      "answer": 3,
+      "difficulty": "hard",
+      "explanation": "Since $A\\cap B \\subseteq A$, $n(A\\cap B) \\le n(A) = p$; since $B \\subseteq A\\cup B$, $n(A\\cup B) \\ge n(B) = q$. These hold regardless of how $A$ and $B$ overlap."
+    },
+    {
+      "id": "mat-sets-040",
+      "q": "In a survey, 30 people like tea only, 20 like coffee only, and 15 like both tea and coffee. If everyone surveyed likes at least one of the two drinks, the total number of people surveyed is",
+      "options": [
+        "50",
+        "65",
+        "35",
+        "45"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "Total $= 30 (\\text{tea only}) + 20 (\\text{coffee only}) + 15 (\\text{both}) = 65$."
+    }
+  ]
+}

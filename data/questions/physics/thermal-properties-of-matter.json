@@ -1,0 +1,525 @@
+{
+  "notes": "<h3>Temperature scales</h3><ul><li>$\\dfrac{C}{5} = \\dfrac{F-32}{9} = \\dfrac{K-273}{5}$. Absolute zero $= 0$ K $= -273.15^\\circ$C.</li></ul><h3>Thermal expansion</h3><table><tr><th>Type</th><th>Formula</th></tr><tr><td>Linear</td><td>$L = L_0(1+\\alpha\\Delta T)$</td></tr><tr><td>Areal (superficial)</td><td>$A = A_0(1+\\beta\\Delta T)$, $\\beta = 2\\alpha$</td></tr><tr><td>Volume (cubical)</td><td>$V = V_0(1+\\gamma\\Delta T)$, $\\gamma = 3\\alpha$</td></tr></table><ul><li>Water shows anomalous expansion: density is maximum at $4^\\circ$C; it contracts on heating from 0°C to 4°C and expands above 4°C.</li></ul><h3>Calorimetry</h3><ul><li>Heat $Q = mc\\Delta T$ (specific heat $c$, unit J kg$^{-1}$K$^{-1}$); molar specific heat $C = Q/(n\\Delta T)$.</li><li>Latent heat: $Q = mL$. Water: $L_{fusion} = 3.34\\times10^5$ J kg$^{-1}$ (0°C), $L_{vap} = 2.26\\times10^6$ J kg$^{-1}$ (100°C). No temperature change during a phase change.</li><li>Principle of calorimetry: heat lost by hot body = heat gained by cold body (in an insulated system).</li></ul><h3>Heat transfer</h3><table><tr><th>Mode</th><th>Key law</th></tr><tr><td>Conduction</td><td>$\\dfrac{Q}{t} = \\dfrac{KA(T_1-T_2)}{L}$; thermal conductivity $K$; no medium motion.</td></tr><tr><td>Convection</td><td>Heat transfer by actual movement of fluid particles.</td></tr><tr><td>Radiation</td><td>No medium needed; travels as EM waves at speed of light.</td></tr></table><ul><li>For rods of same dimensions, thermal resistance $R = L/(KA)$ adds in series ($R=R_1+R_2$) and combines as $1/R=1/R_1+1/R_2$ in parallel.</li></ul><h3>Radiation laws</h3><ul><li>Stefan-Boltzmann law: energy radiated per unit area per unit time $E = \\sigma T^4$ (black body); for a body with emissivity $e$: $E = e\\sigma T^4$.</li><li>Newton's law of cooling: rate of cooling $\\propto$ (temperature of body $-$ surrounding temperature), valid for small temperature differences.</li><li>Wien's displacement law: $\\lambda_m T = b$ (constant); a hotter body radiates its peak intensity at a shorter wavelength.</li></ul><h3>Exam tip</h3><p>KCET usually asks 2 questions from this chapter — one on thermal expansion or calorimetry (mixture numericals) and one on Stefan's law/Newton's law of cooling or conduction. Watch for unit consistency and remember $\\beta=2\\alpha$, $\\gamma=3\\alpha$.</p>",
+  "questions": [
+    {
+      "id": "phy-thermal-properties-of-matter-001",
+      "q": "A temperature of 100°C on the Fahrenheit scale corresponds to",
+      "options": [
+        "180°F",
+        "132°F",
+        "212°F",
+        "100°F"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "$F = \\dfrac{9}{5}C+32 = \\dfrac{9}{5}(100)+32 = 212^\\circ$F."
+    },
+    {
+      "id": "phy-thermal-properties-of-matter-002",
+      "q": "0 K on the Kelvin scale corresponds to",
+      "options": [
+        "0°C",
+        "$-273.15^\\circ$C",
+        "$-100^\\circ$C",
+        "100°C"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "Absolute zero (0 K) is $-273.15^\\circ$C by definition of the Kelvin scale."
+    },
+    {
+      "id": "phy-thermal-properties-of-matter-003",
+      "q": "A metal rod of length 2 m and coefficient of linear expansion $2\\times10^{-5}\\ ^\\circ\\text{C}^{-1}$ is heated through 50°C. The increase in length is",
+      "options": [
+        "4 mm",
+        "1 mm",
+        "0.5 mm",
+        "2 mm"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "$\\Delta L = L_0\\alpha\\Delta T = 2\\times2\\times10^{-5}\\times50 = 2\\times10^{-3}$ m $=2$ mm."
+    },
+    {
+      "id": "phy-thermal-properties-of-matter-004",
+      "q": "If the coefficient of linear expansion of a material is $\\alpha$, its coefficient of cubical (volume) expansion is",
+      "options": [
+        "$3\\alpha$",
+        "$\\alpha/3$",
+        "$\\alpha$",
+        "$2\\alpha$"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "For small expansions $\\gamma = 3\\alpha$ (and $\\beta = 2\\alpha$ for area)."
+    },
+    {
+      "id": "phy-thermal-properties-of-matter-005",
+      "q": "As water is cooled from 10°C to 0°C, its volume",
+      "options": [
+        "continuously decreases",
+        "continuously increases",
+        "first decreases then increases below 4°C",
+        "remains constant"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "Water shows anomalous expansion: it contracts on cooling from 10°C to 4°C (density rising to a maximum at 4°C) and then expands as it is cooled further from 4°C to 0°C."
+    },
+    {
+      "id": "phy-thermal-properties-of-matter-006",
+      "q": "500 g of water at 20°C is heated to 80°C. If the specific heat of water is 4200 J kg$^{-1}$K$^{-1}$, the heat required is",
+      "options": [
+        "126 kJ",
+        "1.26 kJ",
+        "25.2 kJ",
+        "12.6 kJ"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "$Q = mc\\Delta T = 0.5\\times4200\\times60 = 126000$ J $= 126$ kJ."
+    },
+    {
+      "id": "phy-thermal-properties-of-matter-007",
+      "q": "The heat required to convert 10 g of ice at 0°C completely into water at 0°C (latent heat of fusion of ice $=3.34\\times10^5$ J kg$^{-1}$) is",
+      "options": [
+        "33400 J",
+        "33.4 J",
+        "334 J",
+        "3340 J"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "$Q = mL = 0.01\\times3.34\\times10^5 = 3340$ J. No temperature change occurs during melting."
+    },
+    {
+      "id": "phy-thermal-properties-of-matter-008",
+      "q": "100 g of water at 90°C is mixed with 100 g of water at 10°C. Assuming no heat loss, the final temperature of the mixture is",
+      "options": [
+        "45°C",
+        "50°C",
+        "60°C",
+        "40°C"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "Equal masses of the same liquid: heat lost by hot water = heat gained by cold water, so final temperature is the simple average $=(90+10)/2 = 50^\\circ$C."
+    },
+    {
+      "id": "phy-thermal-properties-of-matter-009",
+      "q": "50 g of ice at 0°C is mixed with 50 g of water at 80°C (specific heat of water $=1$ cal g$^{-1}$°C$^{-1}$, latent heat of fusion of ice $=80$ cal g$^{-1}$). The final temperature of the mixture is",
+      "options": [
+        "40°C",
+        "20°C",
+        "80°C",
+        "0°C"
+      ],
+      "answer": 3,
+      "difficulty": "hard",
+      "explanation": "Heat needed to melt ice $=50\\times80=4000$ cal. Heat available if water cools from 80°C to 0°C $=50\\times1\\times80=4000$ cal, exactly enough to melt all the ice with nothing left to raise temperature further, so the mixture settles at 0°C."
+    },
+    {
+      "id": "phy-thermal-properties-of-matter-010",
+      "q": "Two metal rods of the same length and area of cross-section but thermal conductivities $K$ and $2K$ are joined end to end (in series) between two heat reservoirs. In the steady state, the temperature gradient is",
+      "options": [
+        "zero in both rods",
+        "twice as large in the rod of conductivity $K$",
+        "the same in both rods",
+        "twice as large in the rod of conductivity $2K$"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "In steady state the same heat current flows through both; $\\dfrac{dT}{dx} \\propto \\dfrac1K$, so the rod with conductivity $K$ has twice the temperature gradient of the rod with conductivity $2K$."
+    },
+    {
+      "id": "phy-thermal-properties-of-matter-011",
+      "q": "Heat transfer that occurs without any medium, purely by electromagnetic waves, is called",
+      "options": [
+        "radiation",
+        "convection",
+        "diffusion",
+        "conduction"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "Radiation is the only mode of heat transfer that can occur through vacuum, as electromagnetic waves."
+    },
+    {
+      "id": "phy-thermal-properties-of-matter-012",
+      "q": "The energy radiated per second per unit area by a black body is proportional to",
+      "options": [
+        "$T^3$",
+        "$T$",
+        "$T^4$",
+        "$T^2$"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "Stefan-Boltzmann law: $E = \\sigma T^4$."
+    },
+    {
+      "id": "phy-thermal-properties-of-matter-013",
+      "q": "A black body at absolute temperature $T$ radiates energy at a rate $E$. If its temperature is doubled, the new rate of radiation is",
+      "options": [
+        "$4E$",
+        "$2E$",
+        "$8E$",
+        "$16E$"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "$E \\propto T^4$, so doubling $T$ increases $E$ by a factor of $2^4 = 16$."
+    },
+    {
+      "id": "phy-thermal-properties-of-matter-014",
+      "q": "Wien's displacement law states that $\\lambda_m T = $ constant. This implies that as the temperature of a black body increases, the wavelength at which it radiates maximum energy",
+      "options": [
+        "decreases",
+        "remains the same",
+        "becomes infinite",
+        "increases"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "Since $\\lambda_m T$ is constant, $\\lambda_m \\propto 1/T$; a hotter body has its peak emission shifted to a shorter wavelength (e.g. from red to blue-white)."
+    },
+    {
+      "id": "phy-thermal-properties-of-matter-015",
+      "q": "Newton's law of cooling is applicable when",
+      "options": [
+        "the temperature difference between body and surroundings is large",
+        "the body is a perfect black body only",
+        "the temperature difference between body and surroundings is small",
+        "the surrounding temperature is 0 K"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "Newton's law of cooling (rate of loss of heat $\\propto$ excess temperature over surroundings) is an approximation valid only for small temperature differences."
+    },
+    {
+      "id": "phy-thermal-properties-of-matter-016",
+      "q": "A body cools from 60°C to 50°C in 10 minutes when the surrounding temperature is 30°C. By Newton's law of cooling, the average rate of fall of temperature depends on",
+      "options": [
+        "the absolute temperature of the body only",
+        "the excess of average body temperature over surrounding temperature",
+        "the specific heat of the surroundings",
+        "the mass of the body only"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "Newton's law of cooling states the rate of cooling is proportional to the difference between the (average) body temperature and the surrounding temperature."
+    },
+    {
+      "id": "phy-thermal-properties-of-matter-017",
+      "q": "A bimetallic strip made of brass and iron (brass having a higher coefficient of linear expansion) bends towards the iron side on heating because",
+      "options": [
+        "brass expands more than iron, so the strip curves with brass on the outside",
+        "iron contracts on heating",
+        "iron expands more than brass",
+        "both expand equally"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "On heating, brass (higher $\\alpha$) elongates more than iron, forcing the strip to curve with brass forming the outer (longer) arc, i.e. the strip bends towards the iron side."
+    },
+    {
+      "id": "phy-thermal-properties-of-matter-018",
+      "q": "The SI unit of thermal conductivity $K$ is",
+      "options": [
+        "J m s$^{-1}$K$^{-1}$",
+        "W m K$^{-1}$",
+        "J kg$^{-1}$K$^{-1}$",
+        "J s$^{-1}$m$^{-1}$K$^{-1}$"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "From $Q/t = KA\\Delta T/L$, $K = \\dfrac{Q L}{t A \\Delta T}$, giving units W m$^{-1}$K$^{-1}$ = J s$^{-1}$m$^{-1}$K$^{-1}$."
+    },
+    {
+      "id": "phy-thermal-properties-of-matter-019",
+      "q": "The triple point of water, used to define the Kelvin temperature scale, occurs at",
+      "options": [
+        "273 K",
+        "373 K",
+        "273.16 K",
+        "0°C exactly"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "By international agreement, the triple point of water (where ice, water and water vapour coexist in equilibrium) is assigned the value 273.16 K exactly."
+    },
+    {
+      "id": "phy-thermal-properties-of-matter-020",
+      "q": "A liquid has a real (absolute) coefficient of cubical expansion of $180\\times10^{-6}\\,{}^\\circ\\text{C}^{-1}$ and is held in a glass vessel of cubical expansion coefficient $27\\times10^{-6}\\,{}^\\circ\\text{C}^{-1}$. The apparent coefficient of expansion of the liquid observed in this vessel is",
+      "options": [
+        "$207\\times10^{-6}\\,{}^\\circ\\text{C}^{-1}$",
+        "$153\\times10^{-6}\\,{}^\\circ\\text{C}^{-1}$",
+        "$6.67\\times10^{-6}\\,{}^\\circ\\text{C}^{-1}$",
+        "$180\\times10^{-6}\\,{}^\\circ\\text{C}^{-1}$"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "$\\gamma_{apparent} = \\gamma_{real} - \\gamma_{vessel} = 180\\times10^{-6}-27\\times10^{-6}=153\\times10^{-6}\\,{}^\\circ\\text{C}^{-1}$."
+    },
+    {
+      "id": "phy-thermal-properties-of-matter-021",
+      "q": "A square metal plate of side 1 m at 20°C has $\\alpha = 2\\times10^{-5}\\,{}^\\circ\\text{C}^{-1}$. When heated to 120°C, the increase in its area is",
+      "options": [
+        "0.04 m$^2$",
+        "0.002 m$^2$",
+        "0.004 m$^2$",
+        "0.001 m$^2$"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "$\\beta=2\\alpha=4\\times10^{-5}\\,{}^\\circ\\text{C}^{-1}$; $\\Delta A=A_0\\beta\\Delta T=1\\times4\\times10^{-5}\\times100=4\\times10^{-3}$ m$^2$."
+    },
+    {
+      "id": "phy-thermal-properties-of-matter-022",
+      "q": "Small gaps are deliberately left between successive segments of a railway track. This is to",
+      "options": [
+        "reduce the material cost of laying the track",
+        "improve friction for wheels rolling on the track",
+        "make the overall track lighter",
+        "allow room for thermal expansion in hot weather and avoid buckling of the rails"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "Metal rails expand on heating in summer; the gaps provide room for this expansion and prevent the track from buckling."
+    },
+    {
+      "id": "phy-thermal-properties-of-matter-023",
+      "q": "Invar (an iron-nickel alloy) is used in making precision pendulum clocks and measuring tapes mainly because it has",
+      "options": [
+        "very low (nearly zero) coefficient of linear expansion",
+        "very high specific heat",
+        "very high thermal conductivity",
+        "very high coefficient of linear expansion"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "Invar's very small $\\alpha$ means its length barely changes with temperature, keeping measurements and pendulum periods accurate despite temperature fluctuations."
+    },
+    {
+      "id": "phy-thermal-properties-of-matter-024",
+      "q": "A calorimeter of water equivalent 20 g contains 180 g of water at 25°C (specific heat of water $=1$ cal g$^{-1}\\,{}^\\circ\\text{C}^{-1}$). The total heat required to raise the temperature of the calorimeter and water together to 35°C is",
+      "options": [
+        "1800 cal",
+        "2000 cal",
+        "1900 cal",
+        "2200 cal"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "Water equivalent accounts for the calorimeter's own heat capacity as if it were extra water; effective mass $=180+20=200$ g, so $Q=200\\times1\\times10=2000$ cal."
+    },
+    {
+      "id": "phy-thermal-properties-of-matter-025",
+      "q": "The heat required to convert 5 g of water at 100°C completely into steam at 100°C (latent heat of vaporisation of water $=2.26\\times10^6$ J kg$^{-1}$) is",
+      "options": [
+        "113 kJ",
+        "1.13 kJ",
+        "11.3 kJ",
+        "22.6 kJ"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "$Q=mL=0.005\\times2.26\\times10^6=11300$ J $=11.3$ kJ."
+    },
+    {
+      "id": "phy-thermal-properties-of-matter-026",
+      "q": "Two rods of the same material, length and temperature difference across their ends, but cross-sectional areas $A$ and $2A$, conduct heat independently in parallel between the same hot and cold reservoirs. The ratio of the heat currents through them (thinner : thicker) is",
+      "options": [
+        "1:2",
+        "2:1",
+        "1:4",
+        "4:1"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "Heat current $=KA\\Delta T/L \\propto A$ for fixed $K,L,\\Delta T$, so the ratio of currents equals the ratio of areas, $A:2A=1:2$."
+    },
+    {
+      "id": "phy-thermal-properties-of-matter-027",
+      "q": "The heat capacity of a body and the specific heat capacity of its material differ in that",
+      "options": [
+        "heat capacity has SI units of J kg$^{-1}$K$^{-1}$",
+        "they are always numerically identical for any object",
+        "specific heat capacity depends on the object's mass, while heat capacity does not",
+        "heat capacity is an extensive property (depends on mass), equal to $mc$, while specific heat capacity is an intensive property of the material alone"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "Specific heat capacity $c$ is a per-unit-mass material property, while the heat capacity of a particular body is $mc$, which scales with the amount of substance present."
+    },
+    {
+      "id": "phy-thermal-properties-of-matter-028",
+      "q": "Which of the following correctly distinguishes evaporation from boiling?",
+      "options": [
+        "Both occur at exactly the same temperature and by the same mechanism",
+        "Evaporation occurs at all temperatures from the liquid's free surface only, while boiling occurs at a fixed temperature throughout the bulk of the liquid, forming bubbles",
+        "Boiling occurs only in vacuum, while evaporation requires atmospheric pressure",
+        "Evaporation occurs only at the boiling point, while boiling can occur at any temperature"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "Evaporation is a surface phenomenon that occurs at any temperature, whereas boiling occurs throughout the liquid's volume (via bubble formation) only at a fixed temperature determined by the external pressure."
+    },
+    {
+      "id": "phy-thermal-properties-of-matter-029",
+      "q": "A pressure cooker cooks food faster than an open pan mainly because",
+      "options": [
+        "the cooker material has unusually high thermal conductivity",
+        "increasing pressure inside lowers the boiling point of water, so it boils at a lower temperature and cooks faster",
+        "the sealed lid increases the specific heat of water",
+        "increasing pressure inside raises the boiling point of water, so cooking occurs at a higher temperature"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "Boiling point rises with increasing pressure; the sealed cooker traps steam, raising the internal pressure and hence the temperature at which water boils, cooking food faster."
+    },
+    {
+      "id": "phy-thermal-properties-of-matter-030",
+      "q": "Regelation is the phenomenon in which ice, under increased pressure, melts at a temperature below 0°C and refreezes once the pressure is removed. This is possible because",
+      "options": [
+        "regelation only occurs in a vacuum",
+        "ice always melts at exactly 0°C regardless of pressure",
+        "water is denser than ice, so increased pressure favours the liquid (lower-volume) phase, lowering the melting point",
+        "pressure has no effect on the melting point of ice"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "Ice's anomalous behaviour (water being denser than ice) means applied pressure favours melting, lowering the melting point slightly — the ice refreezes once the pressure is released and it recools."
+    },
+    {
+      "id": "phy-thermal-properties-of-matter-031",
+      "q": "Using Wien's displacement law ($\\lambda_m T = b = 2.9\\times10^{-3}$ m K), the wavelength at which the Sun (surface temperature $\\approx5800$ K) radiates maximum energy is approximately",
+      "options": [
+        "290 nm",
+        "500 nm",
+        "50 nm",
+        "5000 nm"
+      ],
+      "answer": 1,
+      "difficulty": "hard",
+      "explanation": "$\\lambda_m = b/T = (2.9\\times10^{-3})/5800 \\approx 5\\times10^{-7}$ m $= 500$ nm, in the visible range, consistent with the Sun appearing yellow-white."
+    },
+    {
+      "id": "phy-thermal-properties-of-matter-032",
+      "q": "Two spheres A and B of the same material have radii in the ratio 1:2 and surface temperatures in the ratio 2:1. The ratio of the total power radiated by them, $P_A:P_B$, is",
+      "options": [
+        "4:1",
+        "2:1",
+        "1:4",
+        "1:1"
+      ],
+      "answer": 0,
+      "difficulty": "hard",
+      "explanation": "$P=e\\sigma(4\\pi r^2)T^4 \\propto r^2T^4$. $\\dfrac{P_A}{P_B}=\\dfrac{1^2\\times2^4}{2^2\\times1^4}=\\dfrac{16}{4}=4$, so $P_A:P_B=4:1$."
+    },
+    {
+      "id": "phy-thermal-properties-of-matter-033",
+      "q": "The emissivity $e$ of a surface, used in $E=e\\sigma T^4$, satisfies",
+      "options": [
+        "$0\\le e\\le1$, with $e=1$ for a perfect black body",
+        "$e$ is measured in watts",
+        "$e$ can exceed 1 for shiny polished surfaces",
+        "$e$ is always exactly 1 for every real surface"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "Emissivity is a dimensionless ratio comparing a surface's emission to that of an ideal black body at the same temperature, so $0\\le e\\le1$, with $e=1$ only for a perfect black body."
+    },
+    {
+      "id": "phy-thermal-properties-of-matter-034",
+      "q": "On a graph of temperature versus heat supplied to a solid being converted to liquid and then to vapour, the flat (horizontal) portions of the graph correspond to",
+      "options": [
+        "measurement errors in the experiment",
+        "phase changes (melting or boiling), where all the supplied heat goes into latent heat with no temperature change",
+        "periods when no heat is being supplied at all",
+        "the specific heat of the substance becoming zero"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "During a phase change, supplied heat is used entirely to break/form intermolecular bonds (latent heat), so the temperature stays constant even as heat continues to flow in."
+    },
+    {
+      "id": "phy-thermal-properties-of-matter-035",
+      "q": "The heat required to convert 100 g of ice at 0°C into water at 20°C is (latent heat of fusion of ice $=3.34\\times10^5$ J kg$^{-1}$, specific heat of water $=4200$ J kg$^{-1}$K$^{-1}$)",
+      "options": [
+        "8.4 kJ",
+        "50 kJ",
+        "33.4 kJ",
+        "41.8 kJ"
+      ],
+      "answer": 3,
+      "difficulty": "hard",
+      "explanation": "Melting: $Q_1=mL=0.1\\times3.34\\times10^5=33400$ J. Heating: $Q_2=mc\\Delta T=0.1\\times4200\\times20=8400$ J. Total $=41800$ J $=41.8$ kJ."
+    },
+    {
+      "id": "phy-thermal-properties-of-matter-036",
+      "q": "At what temperature do the Celsius and Fahrenheit scales give the same numerical reading?",
+      "options": [
+        "32°",
+        "100°",
+        "-40°",
+        "0°"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "Setting $C=F=x$ in $C=\\dfrac{5}{9}(F-32)$ gives $x=\\dfrac59(x-32) \\Rightarrow 9x=5x-160 \\Rightarrow x=-40$."
+    },
+    {
+      "id": "phy-thermal-properties-of-matter-037",
+      "q": "The specific heat capacity of a gas is 700 J kg$^{-1}$K$^{-1}$ and its molar mass is 0.028 kg mol$^{-1}$ (e.g. nitrogen). Its molar specific heat capacity is",
+      "options": [
+        "25 J mol$^{-1}$K$^{-1}$",
+        "0.4 J mol$^{-1}$K$^{-1}$",
+        "19.6 J mol$^{-1}$K$^{-1}$",
+        "700 J mol$^{-1}$K$^{-1}$"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "Molar specific heat $C=Mc=0.028\\times700=19.6$ J mol$^{-1}$K$^{-1}$."
+    },
+    {
+      "id": "phy-thermal-properties-of-matter-038",
+      "q": "A metal cube of side 10 cm ($\\alpha=1.2\\times10^{-5}\\,{}^\\circ\\text{C}^{-1}$) is heated through 100°C. The increase in its volume is approximately",
+      "options": [
+        "1.2 cm$^3$",
+        "36 cm$^3$",
+        "0.36 cm$^3$",
+        "3.6 cm$^3$"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "$V_0=1000$ cm$^3$; $\\gamma=3\\alpha=3.6\\times10^{-5}\\,{}^\\circ\\text{C}^{-1}$; $\\Delta V=V_0\\gamma\\Delta T=1000\\times3.6\\times10^{-5}\\times100=3.6$ cm$^3$."
+    },
+    {
+      "id": "phy-thermal-properties-of-matter-039",
+      "q": "A steel rod of cross-sectional area $2\\times10^{-4}$ m$^2$ is fixed rigidly between two supports. Taking $Y=2\\times10^{11}$ Pa and $\\alpha=1.2\\times10^{-5}\\,{}^\\circ\\text{C}^{-1}$, the compressive force developed in the rod when its temperature rises by 40°C is",
+      "options": [
+        "$9.6\\times10^3$ N",
+        "$1.92\\times10^4$ N",
+        "$3.84\\times10^4$ N",
+        "$1.92\\times10^3$ N"
+      ],
+      "answer": 1,
+      "difficulty": "hard",
+      "explanation": "Since the rod cannot expand, the would-be strain converts entirely to stress: $F=YA\\alpha\\Delta T=2\\times10^{11}\\times2\\times10^{-4}\\times1.2\\times10^{-5}\\times40=1.92\\times10^4$ N."
+    },
+    {
+      "id": "phy-thermal-properties-of-matter-040",
+      "q": "According to Kirchhoff's law of radiation, a surface that is a good absorber of thermal radiation at a given temperature is also",
+      "options": [
+        "a good emitter of radiation at that temperature",
+        "a poor emitter of radiation at that temperature",
+        "unaffected by radiation altogether",
+        "completely transparent to radiation"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "Kirchhoff's law states that the emissivity of a surface at a given temperature equals its absorptivity at that temperature, so good absorbers (like black surfaces) are also good emitters."
+    }
+  ]
+}

@@ -1,0 +1,794 @@
+{
+  "title": "KCET 2016 Maths",
+  "year": 2016,
+  "subject": "maths",
+  "code": "A-1",
+  "source": "KEA question paper (copy) + KEA answer key column A1",
+  "excluded": [],
+  "questions": [
+    {
+      "n": 1,
+      "q": "The Set A has 4 elements and the Set B has 5 elements then the number of injective mappings that can be defined from A to B is",
+      "options": [
+        "144",
+        "72",
+        "60",
+        "120"
+      ],
+      "answer": 3,
+      "chapter": "Relations and Functions",
+      "explanation": "Number of injective mappings from a 4-element set to a 5-element set is $^5P_4 = 5\\times4\\times3\\times2 = 120$."
+    },
+    {
+      "n": 2,
+      "q": "Let f : R \\to R be defined by f(x) = 2x + 6 which is a bijective mapping then $f^{-1}(x)$ is given by",
+      "options": [
+        "$\\dfrac{x}{2}-3$",
+        "$2x+6$",
+        "$x-3$",
+        "$6x+2$"
+      ],
+      "answer": 0,
+      "chapter": "Relations and Functions",
+      "explanation": "Put $y=2x+6$, solve for $x$: $x=\\dfrac{y-6}{2}=\\dfrac{y}{2}-3$, so $f^{-1}(x)=\\dfrac{x}{2}-3$."
+    },
+    {
+      "n": 3,
+      "q": "Let $*$ be a binary operation defined on R by $a * b = \\dfrac{a+b}{4}\\ \\forall\\ a, b \\in R$ then the operation $*$ is",
+      "options": [
+        "Commutative and Associative",
+        "Commutative but not Associative",
+        "Associative but not Commutative",
+        "Neither Associative nor Commutative"
+      ],
+      "answer": 1,
+      "chapter": "Relations and Functions",
+      "explanation": "Since $a+b=b+a$, the operation is commutative; but $(a*b)*c=\\dfrac{a+b+4c}{16}\\ne a*(b*c)=\\dfrac{4a+b+c}{16}$ in general, so it is not associative."
+    },
+    {
+      "n": 4,
+      "q": "The value of $\\sin^{-1}\\left(\\cos\\dfrac{53\\pi}{5}\\right)$ is",
+      "options": [
+        "$\\dfrac{3\\pi}{5}$",
+        "$\\dfrac{-3\\pi}{5}$",
+        "$\\dfrac{\\pi}{10}$",
+        "$\\dfrac{-\\pi}{10}$"
+      ],
+      "answer": 3,
+      "chapter": "Inverse Trigonometric Functions",
+      "explanation": "$\\dfrac{53\\pi}{5}=10\\pi+\\dfrac{3\\pi}{5}$, so $\\cos\\dfrac{53\\pi}{5}=\\cos\\dfrac{3\\pi}{5}=-\\sin\\dfrac{\\pi}{10}$, giving $\\sin^{-1}\\left(-\\sin\\dfrac{\\pi}{10}\\right)=-\\dfrac{\\pi}{10}$."
+    },
+    {
+      "n": 5,
+      "q": "If $3\\tan^{-1}x + \\cot^{-1}x = \\pi$ then x equal to",
+      "options": [
+        "0",
+        "1",
+        "-1",
+        "1/2"
+      ],
+      "answer": 1,
+      "chapter": "Inverse Trigonometric Functions",
+      "explanation": "Using $\\cot^{-1}x=\\dfrac{\\pi}{2}-\\tan^{-1}x$, we get $2\\tan^{-1}x=\\dfrac{\\pi}{2}$, so $\\tan^{-1}x=\\dfrac{\\pi}{4}$, giving $x=1$."
+    },
+    {
+      "n": 6,
+      "q": "The simplified form of $\\tan^{-1}\\left(\\dfrac{x}{y}\\right) - \\tan^{-1}\\left(\\dfrac{x-y}{x+y}\\right)$ is equal to",
+      "options": [
+        "0",
+        "$\\dfrac{\\pi}{4}$",
+        "$\\dfrac{\\pi}{2}$",
+        "$\\pi$"
+      ],
+      "answer": 1,
+      "chapter": "Inverse Trigonometric Functions",
+      "explanation": "This is a standard identity: $\\tan^{-1}\\dfrac{x}{y}-\\tan^{-1}\\dfrac{x-y}{x+y}=\\dfrac{\\pi}{4}$."
+    },
+    {
+      "n": 7,
+      "q": "If x y z are all different and not equal to zero and $\\begin{vmatrix}1+x & 1 & 1\\\\ 1 & 1+y & 1\\\\ 1 & 1 & 1+z\\end{vmatrix} = 0$ then the value of $x^{-1}+y^{-1}+z^{-1}$ is equal to",
+      "options": [
+        "$xyz$",
+        "$x^{-1}y^{-1}z^{-1}$",
+        "$-x-y-z$",
+        "$-1$"
+      ],
+      "answer": 3,
+      "chapter": "Determinants",
+      "explanation": "Expanding the determinant gives $xyz+xy+yz+zx=0$; dividing by $xyz$ gives $1+x^{-1}+y^{-1}+z^{-1}=0$, so $x^{-1}+y^{-1}+z^{-1}=-1$."
+    },
+    {
+      "n": 8,
+      "q": "If A is any square matrix of order 3 \\times 3 then $|3A|$ is equal to",
+      "options": [
+        "$3|A|$",
+        "$\\dfrac{1}{3}|A|$",
+        "$27|A|$",
+        "$9|A|$"
+      ],
+      "answer": 2,
+      "chapter": "Determinants",
+      "explanation": "For an $n\\times n$ matrix, $|kA|=k^n|A|$; here $n=3$, so $|3A|=3^3|A|=27|A|$."
+    },
+    {
+      "n": 9,
+      "q": "If $y = e^{\\sin^{-1}(t^2-1)}$ & $x = e^{\\sec^{-1}\\left(\\frac{1}{t^2-1}\\right)}$ then $\\dfrac{dy}{dx}$ is equal to",
+      "options": [
+        "$\\dfrac{x}{y}$",
+        "$\\dfrac{-y}{x}$",
+        "$\\dfrac{y}{x}$",
+        "$\\dfrac{-x}{y}$"
+      ],
+      "answer": 1,
+      "chapter": "Continuity and Differentiability",
+      "explanation": "With $u=t^2-1$, $\\sec^{-1}(1/u)=\\cos^{-1}u$, so $x=e^{\\cos^{-1}u}$, $y=e^{\\sin^{-1}u}$; differentiating gives $\\dfrac{dy}{dx}=-\\dfrac{y}{x}$."
+    },
+    {
+      "n": 10,
+      "q": "If $A=\\dfrac{1}{\\pi}\\begin{bmatrix}\\sin^{-1}(\\pi x) & \\tan^{-1}\\left(\\frac{x}{\\pi}\\right)\\\\ \\sin^{-1}\\left(\\frac{x}{\\pi}\\right) & \\cot^{-1}(\\pi x)\\end{bmatrix}$, $B=\\dfrac{1}{\\pi}\\begin{bmatrix}-\\cos^{-1}(\\pi x) & \\tan^{-1}\\left(\\frac{x}{\\pi}\\right)\\\\ \\sin^{-1}\\left(\\frac{x}{\\pi}\\right) & -\\tan^{-1}(\\pi x)\\end{bmatrix}$ then A - B is equal to",
+      "options": [
+        "I",
+        "0",
+        "2I",
+        "$\\dfrac{1}{2}I$"
+      ],
+      "answer": 3,
+      "chapter": "Inverse Trigonometric Functions",
+      "explanation": "Subtracting, the diagonal entries become $\\dfrac{1}{\\pi}[\\sin^{-1}(\\pi x)+\\cos^{-1}(\\pi x)]=\\dfrac{1}{2}$ and $\\dfrac{1}{\\pi}[\\cot^{-1}(\\pi x)+\\tan^{-1}(\\pi x)]=\\dfrac{1}{2}$, off-diagonal entries cancel, giving $A-B=\\dfrac{1}{2}I$."
+    },
+    {
+      "n": 11,
+      "q": "If $x^y = e^{x-y}$ then $\\dfrac{dy}{dx}$ is equal to",
+      "options": [
+        "$\\dfrac{\\log x}{\\log(x-y)}$",
+        "$\\dfrac{e^x}{x^{x-y}}$",
+        "$\\dfrac{\\log x}{(1+\\log x)^2}$",
+        "$\\dfrac{1}{y}-\\dfrac{1}{x-y}$"
+      ],
+      "answer": 2,
+      "chapter": "Continuity and Differentiability",
+      "explanation": "Taking logs, $y\\ln x = x-y \\Rightarrow y=\\dfrac{x}{1+\\ln x}$; differentiating gives $\\dfrac{dy}{dx}=\\dfrac{\\log x}{(1+\\log x)^2}$."
+    },
+    {
+      "n": 12,
+      "q": "If A is a matrix of order m \\times n and B is a matrix such that AB' and B'A are both defined, the order of the matrix B is",
+      "options": [
+        "$m\\times m$",
+        "$n\\times n$",
+        "$n\\times m$",
+        "$m\\times n$"
+      ],
+      "answer": 3,
+      "chapter": "Matrices",
+      "explanation": "For $AB'$ to be defined, $B'$ must have $n$ rows; for $B'A$ to be defined, $B'$ must have $m$ columns, so $B'$ is $n\\times m$, hence $B$ is $m\\times n$."
+    },
+    {
+      "n": 13,
+      "q": "The value of $\\displaystyle\\int \\dfrac{e^x(1+x)\\,dx}{\\cos^2(e^x.x)}$ is equal to",
+      "options": [
+        "$-\\cot(e\\,x^x)+c$",
+        "$\\tan(e^x.x)+c$",
+        "$\\tan(e^x)+c$",
+        "$\\cot(e^x)+c$"
+      ],
+      "answer": 1,
+      "chapter": "Integrals",
+      "explanation": "Substitute $u=xe^x$, so $du=e^x(1+x)\\,dx$; the integral becomes $\\int \\sec^2u\\,du=\\tan u+c=\\tan(xe^x)+c$."
+    },
+    {
+      "n": 14,
+      "q": "If x y z are not equal and \\ne 0, \\ne 1 the value of $\\begin{vmatrix}\\log x & \\log y & \\log z\\\\ \\log 2x & \\log 2y & \\log 2z\\\\ \\log 3x & \\log 3y & \\log 3z\\end{vmatrix}$ is equal to",
+      "options": [
+        "$\\log(xyz)$",
+        "$\\log(6xyz)$",
+        "0",
+        "$\\log(x+y+z)$"
+      ],
+      "answer": 2,
+      "chapter": "Determinants",
+      "explanation": "Row 2 minus Row 1 gives the constant row $(\\log 2,\\log 2,\\log 2)$ and Row 3 minus Row 1 gives $(\\log 3,\\log 3,\\log 3)$; these two rows are proportional, so the determinant is 0."
+    },
+    {
+      "n": 15,
+      "q": "The function $f(x) = [x]$ where [x] the greatest integer function is continuous at",
+      "options": [
+        "1.5",
+        "4",
+        "1",
+        "-2"
+      ],
+      "answer": 0,
+      "chapter": "Continuity and Differentiability",
+      "explanation": "The greatest integer function is discontinuous at every integer and continuous elsewhere; 1.5 is not an integer, so $f$ is continuous there."
+    },
+    {
+      "n": 16,
+      "q": "The value of $\\displaystyle\\int \\dfrac{e^x(x^2\\tan^{-1}x+\\tan^{-1}x+1)}{x^2+1}\\,dx$ is equal to",
+      "options": [
+        "$e^x\\tan^{-1}x+c$",
+        "$\\tan^{-1}(e^x)+c$",
+        "$\\tan^{-1}(x^e)+c$",
+        "$e^{\\tan^{-1}x}+c$"
+      ],
+      "answer": 0,
+      "chapter": "Integrals",
+      "explanation": "The numerator equals $\\tan^{-1}x(x^2+1)+1$, so the integrand simplifies to $e^x\\left[\\tan^{-1}x+\\dfrac{1}{1+x^2}\\right]$, which integrates (using $\\int e^x[f+f']dx=e^xf$) to $e^x\\tan^{-1}x+c$."
+    },
+    {
+      "n": 17,
+      "q": "If $2\\vec{a}.\\vec{b} = |\\vec{a}|.|\\vec{b}|$ then the angle between $\\vec{a}$ & $\\vec{b}$ is",
+      "options": [
+        "30°",
+        "0°",
+        "90°",
+        "60°"
+      ],
+      "answer": 3,
+      "chapter": "Vector Algebra",
+      "explanation": "$2|\\vec a||\\vec b|\\cos\\theta=|\\vec a||\\vec b| \\Rightarrow \\cos\\theta=\\dfrac{1}{2} \\Rightarrow \\theta=60°$."
+    },
+    {
+      "n": 18,
+      "q": "If $x^m y^n = (x+y)^{m+n}$ then $\\dfrac{dy}{dx}$ is equal to",
+      "options": [
+        "$\\dfrac{x+y}{xy}$",
+        "$xy$",
+        "0",
+        "$\\dfrac{y}{x}$"
+      ],
+      "answer": 3,
+      "chapter": "Continuity and Differentiability",
+      "explanation": "Taking logs and differentiating gives $\\dfrac{m}{x}+\\dfrac{n}{y}y'=\\dfrac{m+n}{x+y}(1+y')$, which simplifies to $\\dfrac{dy}{dx}=\\dfrac{y}{x}$."
+    },
+    {
+      "n": 19,
+      "q": "The general solution of $\\cot\\theta + \\tan\\theta = 2$ is",
+      "options": [
+        "$\\theta=\\dfrac{n\\pi}{2}+(-1)^n\\dfrac{\\pi}{8}$",
+        "$\\theta=\\dfrac{n\\pi}{2}+(-1)^n\\dfrac{\\pi}{4}$",
+        "$\\theta=\\dfrac{n\\pi}{2}+(-1)^n\\dfrac{\\pi}{6}$",
+        "$\\theta=n\\pi+(-1)^n\\dfrac{\\pi}{8}$"
+      ],
+      "answer": 1,
+      "chapter": "Trigonometric Functions",
+      "explanation": "$\\cot\\theta+\\tan\\theta=\\dfrac{2}{\\sin2\\theta}=2 \\Rightarrow \\sin2\\theta=1 \\Rightarrow 2\\theta=n\\pi+(-1)^n\\dfrac{\\pi}{2}$, so $\\theta=\\dfrac{n\\pi}{2}+(-1)^n\\dfrac{\\pi}{4}$."
+    },
+    {
+      "n": 20,
+      "q": "The value of $\\displaystyle\\int_{-\\pi/4}^{\\pi/4}\\sin^{103}x.\\cos^{101}x\\,dx$ is",
+      "options": [
+        "$(\\pi/4)^{103}$",
+        "$(\\pi/4)^{101}$",
+        "2",
+        "0"
+      ],
+      "answer": 3,
+      "chapter": "Integrals",
+      "explanation": "$\\sin^{103}x\\cos^{101}x$ is an odd function (odd power of sine times even power of cosine), so its integral over the symmetric interval $[-\\pi/4,\\pi/4]$ is 0."
+    },
+    {
+      "n": 21,
+      "q": "The length of latus rectum of the parabola $4y^2 + 3x + 3y + 1 = 0$ is",
+      "options": [
+        "4/3",
+        "7",
+        "12",
+        "3/4"
+      ],
+      "answer": 3,
+      "chapter": "Conic Sections",
+      "explanation": "Completing the square gives $\\left(y+\\dfrac{3}{8}\\right)^2=-\\dfrac{3}{4}\\left(x+\\dfrac{7}{48}\\right)$, a parabola with $4a=\\dfrac{3}{4}$, so the latus rectum is $3/4$."
+    },
+    {
+      "n": 22,
+      "q": "The value of $\\displaystyle\\int \\dfrac{e^{6\\log x}-e^{5\\log x}}{e^{4\\log x}-e^{3\\log x}}\\,dx$ is equal to",
+      "options": [
+        "0",
+        "$\\dfrac{x^3}{3}$",
+        "$\\dfrac{3}{x^3}$",
+        "$\\dfrac{1}{x}$"
+      ],
+      "answer": 1,
+      "chapter": "Integrals",
+      "explanation": "Simplifying, $\\dfrac{x^6-x^5}{x^4-x^3}=\\dfrac{x^5(x-1)}{x^3(x-1)}=x^2$, and $\\int x^2\\,dx=\\dfrac{x^3}{3}+c$."
+    },
+    {
+      "n": 23,
+      "q": "The differential coefficient of $\\log_{10}x$ with respect to $\\log_x 10$ is",
+      "options": [
+        "1",
+        "$-(\\log_{10}x)^2$",
+        "$(\\log_x 10)^2$",
+        "$\\dfrac{x^2}{100}$"
+      ],
+      "answer": 1,
+      "chapter": "Continuity and Differentiability",
+      "explanation": "With $u=\\log_{10}x$ and $v=\\log_x10=1/u\\cdot(\\ln10/\\ln10)$, differentiating $u$ and $v$ with respect to $x$ and dividing gives $\\dfrac{du}{dv}=-(\\log_{10}x)^2$."
+    },
+    {
+      "n": 24,
+      "q": "The slope of the tangent to the curve $x = t^2 + 3t - 8,\\ y = 2t^2 - 2t - 5$ at the point (2, -1) is",
+      "options": [
+        "22/7",
+        "6/7",
+        "7/6",
+        "-6/7"
+      ],
+      "answer": 1,
+      "chapter": "Application of Derivatives",
+      "explanation": "The point (2,-1) corresponds to $t=2$; then $dx/dt=2t+3=7$, $dy/dt=4t-2=6$, so slope $=dy/dx=6/7$."
+    },
+    {
+      "n": 25,
+      "q": "The real part of $(1 - \\cos\\theta + i\\sin\\theta)^{-1}$ is",
+      "options": [
+        "$\\dfrac{1}{2}$",
+        "$\\dfrac{1}{1+\\cos\\theta}$",
+        "$\\tan\\dfrac{\\theta}{2}$",
+        "$\\cot\\dfrac{\\theta}{2}$"
+      ],
+      "answer": 0,
+      "chapter": "Complex Numbers and Quadratic Equations",
+      "explanation": "Writing $1-\\cos\\theta+i\\sin\\theta=2\\sin\\frac{\\theta}{2}\\,i\\,e^{-i\\theta/2}$ and taking the reciprocal, the real part simplifies to $\\dfrac{1}{2}$."
+    },
+    {
+      "n": 26,
+      "q": "$\\displaystyle\\int_{0}^{\\pi/2}\\dfrac{\\sin^{1000}x\\,dx}{\\sin^{1000}x+\\cos^{1000}x}$ is equal to",
+      "options": [
+        "1000",
+        "1",
+        "$\\dfrac{\\pi}{2}$",
+        "$\\dfrac{\\pi}{4}$"
+      ],
+      "answer": 3,
+      "chapter": "Integrals",
+      "explanation": "By the property $\\int_0^a f(x)dx=\\int_0^a f(a-x)dx$, this integral equals its complementary cosine version, so each equals half of $\\pi/2$, i.e. $\\pi/4$."
+    },
+    {
+      "n": 27,
+      "q": "If $1 + \\sin\\theta + \\sin^2\\theta + \\ldots$ upto $\\infty = 2\\sqrt{3} + 4$, then $\\theta =$",
+      "options": [
+        "$\\pi/6$",
+        "$\\pi/4$",
+        "$\\pi/3$",
+        "$3\\pi/4$"
+      ],
+      "answer": 2,
+      "chapter": "Trigonometric Functions",
+      "explanation": "Sum of infinite GP: $\\dfrac{1}{1-\\sin\\theta}=2\\sqrt3+4 \\Rightarrow \\sin\\theta=\\dfrac{\\sqrt3}{2} \\Rightarrow \\theta=\\pi/3$."
+    },
+    {
+      "n": 28,
+      "q": "$\\displaystyle\\lim_{x\\to0}\\dfrac{xe^x-\\sin x}{x}$ is equal to",
+      "options": [
+        "3",
+        "1",
+        "0",
+        "2"
+      ],
+      "answer": 2,
+      "chapter": "Limits and Derivatives",
+      "explanation": "Splitting the limit: $\\lim(e^x) - \\lim\\dfrac{\\sin x}{x} = 1-1=0$."
+    },
+    {
+      "n": 29,
+      "q": "If $\\tan^{-1}(x^2+y^2) = \\alpha$ then $\\dfrac{dy}{dx}$ is equal to",
+      "options": [
+        "$\\dfrac{-x}{y}$",
+        "$xy$",
+        "$\\dfrac{x}{y}$",
+        "$-xy$"
+      ],
+      "answer": 0,
+      "chapter": "Continuity and Differentiability",
+      "explanation": "Since $\\alpha$ is constant, $x^2+y^2=\\tan\\alpha$ is constant; differentiating gives $2x+2yy'=0$, so $y'=-x/y$."
+    },
+    {
+      "n": 30,
+      "q": "The simplified form of $i^n + i^{n+1} + i^{n+2} + i^{n+3}$ is",
+      "options": [
+        "0",
+        "1",
+        "-1",
+        "i"
+      ],
+      "answer": 0,
+      "chapter": "Complex Numbers and Quadratic Equations",
+      "explanation": "$i^n(1+i+i^2+i^3)=i^n(1+i-1-i)=i^n\\times0=0$."
+    },
+    {
+      "n": 31,
+      "q": "The two curves $x^3 - 3xy^2 + 2 = 0$ and $3x^2y - y^3 = 2$",
+      "options": [
+        "Touch each other",
+        "Cut each other at right angle",
+        "Cut at an angle $\\pi/3$",
+        "Cut at an angle $\\pi/4$"
+      ],
+      "answer": 1,
+      "chapter": "Application of Derivatives",
+      "explanation": "Differentiating both curves gives slopes $m_1=\\dfrac{x^2-y^2}{2xy}$ and $m_2=\\dfrac{-2xy}{x^2-y^2}$; since $m_1m_2=-1$ always, the curves are orthogonal (cut at right angle)."
+    },
+    {
+      "n": 32,
+      "q": "The equation of the normal to the curve $y(1+x^2) = 2 - x$ where the tangent crosses x-axis is",
+      "options": [
+        "$5x-y-10=0$",
+        "$x-5y-10=0$",
+        "$5x+y+10=0$",
+        "$x+5y+10=0$"
+      ],
+      "answer": 0,
+      "chapter": "Application of Derivatives",
+      "explanation": "Where the curve meets the x-axis, $y=0 \\Rightarrow x=2$; differentiating gives slope $-1/5$ at (2,0), so the normal slope is 5, giving $y=5(x-2)$, i.e. $5x-y-10=0$."
+    },
+    {
+      "n": 33,
+      "q": "The maximum value of $\\left(\\dfrac{1}{x}\\right)^x$ is",
+      "options": [
+        "e",
+        "$e^e$",
+        "$e^{1/e}$",
+        "$\\left(\\dfrac{1}{e}\\right)^e$"
+      ],
+      "answer": 2,
+      "chapter": "Application of Derivatives",
+      "explanation": "Let $y=x^{-x}$; taking logs and differentiating, the maximum occurs at $x=1/e$, giving $y=e^{1/e}$."
+    },
+    {
+      "n": 34,
+      "q": "The solution for the differential equation $\\dfrac{dy}{y} + \\dfrac{dx}{x} = 0$ is",
+      "options": [
+        "$\\dfrac{1}{y}+\\dfrac{1}{x}=c$",
+        "$\\log x.\\log y=c$",
+        "$xy=c$",
+        "$x+y=c$"
+      ],
+      "answer": 2,
+      "chapter": "Differential Equations",
+      "explanation": "Integrating, $\\ln y+\\ln x=c_1 \\Rightarrow \\ln(xy)=c_1 \\Rightarrow xy=c$."
+    },
+    {
+      "n": 35,
+      "q": "The order and degree of the differential equation $\\left[1+\\left(\\dfrac{dy}{dx}\\right)^2+\\sin\\left(\\dfrac{dy}{dx}\\right)\\right]^{3/4} = \\dfrac{d^2y}{dx^2}$",
+      "options": [
+        "order=2, degree=3",
+        "order=2, degree=4",
+        "order=2, degree=3/4",
+        "order=2, degree=not defined"
+      ],
+      "answer": 3,
+      "chapter": "Differential Equations",
+      "explanation": "The highest derivative is $d^2y/dx^2$, so order is 2; since the equation contains $\\sin(dy/dx)$, a transcendental function of a derivative, the degree is not defined."
+    },
+    {
+      "n": 36,
+      "q": "If $\\vec{a}$ and $\\vec{b}$ are unit vectors then what is the angle between $\\vec{a}$ and $\\vec{b}$ for $\\sqrt{3}\\vec{a}-\\vec{b}$ to be unit vector?",
+      "options": [
+        "30°",
+        "45°",
+        "60°",
+        "90°"
+      ],
+      "answer": 0,
+      "chapter": "Vector Algebra",
+      "explanation": "$|\\sqrt3\\vec a-\\vec b|^2=1 \\Rightarrow 3-2\\sqrt3\\cos\\theta+1=1 \\Rightarrow \\cos\\theta=\\dfrac{\\sqrt3}{2} \\Rightarrow \\theta=30°$."
+    },
+    {
+      "n": 37,
+      "q": "The sum of $1^{st}$ n terms of the series $\\dfrac{1^2}{1}+\\dfrac{1^2+2^2}{1+2}+\\dfrac{1^2+2^2+3^2}{1+2+3}+\\ldots$",
+      "options": [
+        "$\\dfrac{n+2}{3}$",
+        "$\\dfrac{n(n+2)}{3}$",
+        "$\\dfrac{n(n-2)}{3}$",
+        "$\\dfrac{n(n-2)}{6}$"
+      ],
+      "answer": 1,
+      "chapter": "Sequences and Series",
+      "explanation": "The $k$-th term is $\\dfrac{k(k+1)(2k+1)/6}{k(k+1)/2}=\\dfrac{2k+1}{3}$; summing this from $k=1$ to $n$ gives $\\dfrac{n(n+2)}{3}$."
+    },
+    {
+      "n": 38,
+      "q": "The $11^{th}$ term in the expansion of $\\left(x+\\dfrac{1}{\\sqrt{x}}\\right)^{14}$ is",
+      "options": [
+        "$\\dfrac{999}{x}$",
+        "$\\dfrac{1001}{x}$",
+        "i",
+        "$\\dfrac{x}{1001}$"
+      ],
+      "answer": 1,
+      "chapter": "Binomial Theorem",
+      "explanation": "$T_{11}=T_{r+1}$ with $r=10$: $\\binom{14}{10}x^{14-10-5}=\\binom{14}{4}x^{-1}=1001/x$."
+    },
+    {
+      "n": 39,
+      "q": "Suppose $\\vec{a}+\\vec{b}+\\vec{c}=0$, $|\\vec{a}|=3$, $|\\vec{b}|=5$, $|\\vec{c}|=7$, then the angle between $\\vec{a}$ & $\\vec{b}$ is",
+      "options": [
+        "$\\pi$",
+        "$\\pi/2$",
+        "$\\pi/3$",
+        "$\\pi/4$"
+      ],
+      "answer": 2,
+      "chapter": "Vector Algebra",
+      "explanation": "Since $\\vec c=-(\\vec a+\\vec b)$, $49=9+25+2\\vec a\\cdot\\vec b \\Rightarrow \\vec a\\cdot\\vec b=7.5$; $\\cos\\theta=7.5/15=0.5 \\Rightarrow \\theta=\\pi/3$."
+    },
+    {
+      "n": 40,
+      "q": "If $a=3, b=4, c=5$ each one of $\\vec a,\\vec b$ & $\\vec c$ is perpendicular to the sum of the remaining then $|\\vec a+\\vec b+\\vec c|$ is equal to",
+      "options": [
+        "$\\dfrac{5}{\\sqrt2}$",
+        "$\\dfrac{2}{\\sqrt5}$",
+        "$5\\sqrt2$",
+        "$\\sqrt5$"
+      ],
+      "answer": 2,
+      "chapter": "Vector Algebra",
+      "explanation": "The perpendicularity conditions make $\\vec a,\\vec b,\\vec c$ mutually perpendicular, so $|\\vec a+\\vec b+\\vec c|^2=9+16+25=50$, giving $5\\sqrt2$."
+    },
+    {
+      "n": 41,
+      "q": "If the straight lines $2x + 3y - 3 = 0$ and $x + ky + 7 = 0$ are perpendicular, then the value of k is",
+      "options": [
+        "2/3",
+        "3/2",
+        "-2/3",
+        "-3/2"
+      ],
+      "answer": 2,
+      "chapter": "Straight Lines",
+      "explanation": "Slopes are $-2/3$ and $-1/k$; perpendicularity gives $\\left(-\\dfrac{2}{3}\\right)\\left(-\\dfrac{1}{k}\\right)=-1 \\Rightarrow k=-2/3$."
+    },
+    {
+      "n": 42,
+      "q": "The rate of change of area of a circle with respect to its radius at r = 2 cms is",
+      "options": [
+        "4",
+        "$2\\pi$",
+        "2",
+        "$4\\pi$"
+      ],
+      "answer": 3,
+      "chapter": "Application of Derivatives",
+      "explanation": "$A=\\pi r^2 \\Rightarrow dA/dr=2\\pi r$; at $r=2$, $dA/dr=4\\pi$."
+    },
+    {
+      "n": 43,
+      "q": "The value of $\\tan\\dfrac{\\pi}{8}$ is equal to",
+      "options": [
+        "$\\dfrac{1}{2}$",
+        "$\\sqrt2+1$",
+        "$\\dfrac{1}{\\sqrt2+1}$",
+        "$1-\\sqrt2$"
+      ],
+      "answer": 2,
+      "chapter": "Trigonometric Functions",
+      "explanation": "$\\tan(\\pi/8)=\\sqrt2-1=\\dfrac{1}{\\sqrt2+1}$ after rationalizing."
+    },
+    {
+      "n": 44,
+      "q": "Area lying between the curves $y^2 = 2x$ and $y = x$ is",
+      "options": [
+        "$\\dfrac{2}{3}$ sq. units",
+        "$\\dfrac{1}{3}$ sq. units",
+        "$\\dfrac{1}{4}$ sq. units",
+        "$\\dfrac{3}{4}$ sq. units"
+      ],
+      "answer": 0,
+      "chapter": "Application of Integrals",
+      "explanation": "The curves meet at $x=0,2$; Area $=\\int_0^2(\\sqrt{2x}-x)\\,dx=\\dfrac{2}{3}$ sq. units."
+    },
+    {
+      "n": 45,
+      "q": "If $P(A\\cap B) = 7/10$ and $P(B) = 17/20$, where P stands for probability then $P(A|B)$ is equal to",
+      "options": [
+        "7/8",
+        "17/20",
+        "14/17",
+        "1/8"
+      ],
+      "answer": 2,
+      "chapter": "Probability",
+      "explanation": "$P(A|B)=\\dfrac{P(A\\cap B)}{P(B)}=\\dfrac{7/10}{17/20}=\\dfrac{14}{17}$."
+    },
+    {
+      "n": 46,
+      "q": "The coefficient of variation of two distributions are 60 and 70. The standard deviation are 21 and 16 respectively, then their mean is",
+      "options": [
+        "35",
+        "23",
+        "28.25",
+        "22.85"
+      ],
+      "answer": 0,
+      "alsoCorrect": [
+        2,
+        3
+      ],
+      "chapter": "Statistics",
+      "explanation": "Mean $=\\dfrac{SD}{CV}\\times100$ gives $\\dfrac{21}{60}\\times100=35$ for the first distribution and $\\dfrac{16}{70}\\times100\\approx22.85$ for the second; KEA's key accepted options 1, 3 and 4 (as per KEA key)."
+    },
+    {
+      "n": 47,
+      "q": "Two cards are drawn at random from a pack of 52 cards. The probability of these two being \"Aces\" is",
+      "options": [
+        "1/26",
+        "1/221",
+        "1/2",
+        "1/13"
+      ],
+      "answer": 1,
+      "chapter": "Probability",
+      "explanation": "$P=\\dfrac{\\binom{4}{2}}{\\binom{52}{2}}=\\dfrac{6}{1326}=\\dfrac{1}{221}$."
+    },
+    {
+      "n": 48,
+      "q": "If $\\sin^{-1}x + \\sin^{-1}y = \\dfrac{\\pi}{2}$, then $x^2$ is equal to",
+      "options": [
+        "$1-y^2$",
+        "$y^2$",
+        "0",
+        "$\\sqrt{1-y}$"
+      ],
+      "answer": 0,
+      "chapter": "Inverse Trigonometric Functions",
+      "explanation": "Since $\\sin^{-1}y=\\dfrac{\\pi}{2}-\\sin^{-1}x=\\cos^{-1}x$, we get $y=\\sqrt{1-x^2}$, so $x^2=1-y^2$."
+    },
+    {
+      "n": 49,
+      "q": "The value of $\\displaystyle\\int_{2}^{8}\\dfrac{\\sqrt{10-x}}{\\sqrt{x}+\\sqrt{10-x}}\\,dx$ is",
+      "options": [
+        "10",
+        "0",
+        "8",
+        "3"
+      ],
+      "answer": 3,
+      "chapter": "Integrals",
+      "explanation": "Using $\\int_a^bf(x)dx=\\int_a^bf(a+b-x)dx$ with $a+b=10$, adding the integral to itself with $x\\to10-x$ gives $2I=\\int_2^8 1\\,dx=6$, so $I=3$."
+    },
+    {
+      "n": 50,
+      "q": "The contrapositive of the converse of the statement \"If x is a prime number then x is odd\" is",
+      "options": [
+        "If x is not a prime number then x is odd.",
+        "If x is not an odd number then x is not a prime number.",
+        "If x is a prime number then it is not odd.",
+        "If x is not a prime number then x is not an odd."
+      ],
+      "answer": 3,
+      "chapter": "Old syllabus: Mathematical Reasoning",
+      "explanation": "Converse: \"If x is odd then x is prime.\" Its contrapositive: \"If x is not prime then x is not odd.\""
+    },
+    {
+      "n": 51,
+      "q": "Two dice are thrown simultaneously, the probability of obtaining a total score of 5 is",
+      "options": [
+        "1/18",
+        "1/12",
+        "1/9",
+        "1/6"
+      ],
+      "answer": 2,
+      "chapter": "Probability",
+      "explanation": "Favourable outcomes for sum 5: (1,4),(2,3),(3,2),(4,1) = 4 out of 36, giving $1/9$."
+    },
+    {
+      "n": 52,
+      "q": "If $A=\\begin{bmatrix}\\cos2\\theta & -\\sin2\\theta\\\\ \\sin2\\theta & \\cos2\\theta\\end{bmatrix}$ and $A + A^T = I$, where I is the unit matrix of $2\\times2$ & $A^T$ is the transpose of A, then the value of $\\theta$ is equal to",
+      "options": [
+        "$\\pi/6$",
+        "$\\pi/3$",
+        "$\\pi$",
+        "$3\\pi/2$"
+      ],
+      "answer": 0,
+      "chapter": "Matrices",
+      "explanation": "$A+A^T=\\begin{bmatrix}2\\cos2\\theta&0\\\\0&2\\cos2\\theta\\end{bmatrix}=I \\Rightarrow \\cos2\\theta=\\dfrac12 \\Rightarrow \\theta=\\pi/6$."
+    },
+    {
+      "n": 53,
+      "q": "If $A=\\begin{bmatrix}3 & 1\\\\ -1 & 2\\end{bmatrix}$ then $A^2 - 5A$ is equal to",
+      "options": [
+        "I",
+        "-I",
+        "7I",
+        "-7I"
+      ],
+      "answer": 3,
+      "chapter": "Matrices",
+      "explanation": "$A^2=\\begin{bmatrix}8&5\\\\-5&3\\end{bmatrix}$ and $5A=\\begin{bmatrix}15&5\\\\-5&10\\end{bmatrix}$, so $A^2-5A=\\begin{bmatrix}-7&0\\\\0&-7\\end{bmatrix}=-7I$."
+    },
+    {
+      "n": 54,
+      "q": "The value of x if $x(\\hat{i}+\\hat{j}+\\hat{k})$ is a unit vector is",
+      "options": [
+        "$\\pm\\dfrac{1}{\\sqrt3}$",
+        "$\\pm\\sqrt3$",
+        "$\\pm3$",
+        "$\\pm\\dfrac{1}{3}$"
+      ],
+      "answer": 0,
+      "chapter": "Vector Algebra",
+      "explanation": "$|x|\\sqrt{1+1+1}=1 \\Rightarrow x=\\pm\\dfrac{1}{\\sqrt3}$."
+    },
+    {
+      "n": 55,
+      "q": "If $x = 2 + 3\\cos\\theta$ and $y = 1 - 3\\sin\\theta$ represent a circle then the centre and radius is",
+      "options": [
+        "(2, 1), 9",
+        "(2, 1), 3",
+        "(1, 2), 1/3",
+        "(-2, -1), 3"
+      ],
+      "answer": 1,
+      "chapter": "Conic Sections",
+      "explanation": "$(x-2)^2+(y-1)^2=9(\\cos^2\\theta+\\sin^2\\theta)=9$, so centre (2,1) and radius 3."
+    },
+    {
+      "n": 56,
+      "q": "The vector equation of the plane which is at a distance of $\\dfrac{3}{\\sqrt{14}}$ from the origin and the normal from the origin is $2\\hat{i}-3\\hat{j}+\\hat{k}$ is",
+      "options": [
+        "$\\vec r.(2\\hat i-3\\hat j+\\hat k)=3$",
+        "$\\vec r.(\\hat i+\\hat j+\\hat k)=9$",
+        "$\\vec r.(\\hat i+2\\hat j)=3$",
+        "$\\vec r.(2\\hat i+\\hat k)=3$"
+      ],
+      "answer": 0,
+      "chapter": "Three Dimensional Geometry",
+      "explanation": "The unit normal is $\\dfrac{2\\hat i-3\\hat j+\\hat k}{\\sqrt{14}}$, so the plane equation $\\vec r\\cdot\\hat n=d$ becomes $\\vec r\\cdot(2\\hat i-3\\hat j+\\hat k)=3$."
+    },
+    {
+      "n": 57,
+      "q": "Find the co-ordinates of the foot of the perpendicular drawn from the origin to the plane $5y + 8 = 0$:",
+      "options": [
+        "$(0,-18/5,2)$",
+        "$(0,8/5,0)$",
+        "$(8/25,0,0)$",
+        "$(0,-8/5,0)$"
+      ],
+      "answer": 3,
+      "chapter": "Three Dimensional Geometry",
+      "explanation": "The plane $y=-8/5$ is parallel to the xz-plane, so the foot of the perpendicular from the origin is $(0,-8/5,0)$."
+    },
+    {
+      "n": 58,
+      "q": "If $\\cos\\alpha, \\cos\\beta, \\cos\\gamma$ are the direction cosines of a vector $\\vec a$, then $\\cos2\\alpha + \\cos2\\beta + \\cos2\\gamma$ is equal to",
+      "options": [
+        "2",
+        "3",
+        "-1",
+        "0"
+      ],
+      "answer": 2,
+      "chapter": "Three Dimensional Geometry",
+      "explanation": "$\\cos^2\\alpha+\\cos^2\\beta+\\cos^2\\gamma=1$, so $\\sum(2\\cos^2-1)=2(1)-3=-1$."
+    },
+    {
+      "n": 59,
+      "q": "The value of $\\sin1° + \\sin2° + \\ldots + \\sin359°$ is equal to",
+      "options": [
+        "0",
+        "1",
+        "-1",
+        "180"
+      ],
+      "answer": 0,
+      "chapter": "Trigonometric Functions",
+      "explanation": "Terms pair up as $\\sin k°+\\sin(360-k)°=0$ for $k=1..179$, plus $\\sin180°=0$, giving a total of 0."
+    },
+    {
+      "n": 60,
+      "q": "Integrating factor of $x\\dfrac{dy}{dx} - y = x^4 - 3x$ is",
+      "options": [
+        "x",
+        "$\\log x$",
+        "$\\dfrac{1}{x}$",
+        "$-x$"
+      ],
+      "answer": 2,
+      "chapter": "Differential Equations",
+      "explanation": "Dividing by x gives $\\dfrac{dy}{dx}-\\dfrac{y}{x}=x^3-3$, a linear equation with $P=-1/x$; IF $=e^{\\int -1/x\\,dx}=e^{-\\ln x}=1/x$."
+    }
+  ]
+}

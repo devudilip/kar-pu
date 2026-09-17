@@ -1,0 +1,525 @@
+{
+  "notes": "<h3>Alkanes (C$_n$H$_{2n+2}$)</h3><ul><li>Prepared by Wurtz reaction (2R-X + 2Na $\\to$ R-R, works best for identical R), decarboxylation of sodium salts of carboxylic acids with soda lime, and catalytic hydrogenation of alkenes/alkynes (Ni/Pt/Pd).</li><li>Free radical halogenation proceeds via initiation-propagation-termination; relative reactivity of H: 3° &gt; 2° &gt; 1°. Combustion: $C_nH_{2n+2} + \\dfrac{3n+1}{2}O_2 \\to nCO_2 + (n+1)H_2O$.</li></ul><h3>Alkenes (C$_n$H$_{2n}$)</h3><ul><li>Prepared by dehydration of alcohols (conc. H$_2$SO$_4$, 443 K, Zaitsev's rule — more substituted alkene major) and dehydrohalogenation of alkyl halides with alcoholic KOH.</li><li>Electrophilic addition: HX adds by Markovnikov's rule (H to carbon with more H, X to carbon with fewer H, via more stable carbocation). In presence of peroxides, HBr adds anti-Markovnikov (Kharasch effect, free-radical mechanism) — only for HBr, not HCl/HI.</li><li>Ozonolysis: alkene + O$_3$ then Zn/H$_2$O gives two carbonyl compounds — used to locate the position of the double bond.</li><li>Markovnikov example: propene + HBr $\\to$ 2-bromopropane (major).</li></ul><h3>Alkynes (C$_n$H$_{2n-2}$)</h3><ul><li>Acetylene from CaC$_2$ + H$_2$O. Terminal alkynes (-C$\\equiv$CH) are acidic (sp C-H), give white/red ppt with ammoniacal AgNO$_3$/Cu$_2$Cl$_2$ — distinguishes terminal from internal alkynes.</li><li>Addition of 2 mol HX/X$_2$/H$_2$ across the triple bond; controlled hydrogenation with Lindlar's catalyst (Pd/BaSO$_4$ + quinoline) gives cis-alkene; Na/liq. NH$_3$ gives trans-alkene.</li></ul><h3>Aromatic Hydrocarbons</h3><ul><li>Benzene: planar, hexagonal, all C-C bond lengths equal (139 pm, between single 154 pm and double 133 pm) due to resonance/delocalisation of 6 $\\pi$ electrons; resonance energy $\\approx$ 152 kJ mol$^{-1}$ explains unusual stability (Hückel's rule: planar, cyclic, $(4n+2)\\pi$ electrons, n = 1 for benzene).</li><li>Electrophilic aromatic substitution: nitration (HNO$_3$/H$_2$SO$_4$ $\\to$ NO$_2^+$), halogenation (X$_2$/FeX$_3$), Friedel-Crafts alkylation/acylation (RCl or RCOCl/anhyd. AlCl$_3$).</li><li>Directive effect: -OH, -NH$_2$, -R, halogens (o,p-directing; halogens deactivate despite this via $-I$ dominating $+R$); -NO$_2$, -COOH, -CN, -SO$_3$H (m-directing, deactivating).</li><li>Carcinogenic/toxic: benzo[a]pyrene (polynuclear aromatic hydrocarbon).</li></ul><h3>Exam tip</h3><p>KCET typically sets 3-4 questions from Hydrocarbons — expect one each on Markovnikov/peroxide effect, ozonolysis product identification, benzene EAS directive effects, and a naming/isomer count question.</p>",
+  "questions": [
+    {
+      "id": "che-hydrocarbons-001",
+      "q": "Wurtz reaction of 2 mol of CH$_3$CH$_2$Br with sodium metal in dry ether gives",
+      "options": [
+        "CH$_3$CH$_3$",
+        "CH$_4$",
+        "CH$_3$CH$_2$CH$_2$CH$_3$",
+        "CH$_2$=CH$_2$"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "Wurtz reaction couples two alkyl halide molecules: 2C$_2$H$_5$Br + 2Na $\\to$ C$_2$H$_5$-C$_2$H$_5$ (n-butane) + 2NaBr."
+    },
+    {
+      "id": "che-hydrocarbons-002",
+      "q": "Addition of HBr to propene in the presence of benzoyl peroxide gives mainly",
+      "options": [
+        "2-bromopropane",
+        "1,2-dibromopropane",
+        "propane",
+        "1-bromopropane"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "Peroxide promotes a free-radical mechanism (Kharasch/anti-Markovnikov effect) only with HBr, so Br attaches to the terminal (less substituted) carbon giving 1-bromopropane."
+    },
+    {
+      "id": "che-hydrocarbons-003",
+      "q": "Ozonolysis of 2-methylbut-2-ene followed by treatment with Zn/H$_2$O gives",
+      "options": [
+        "acetic acid and acetaldehyde",
+        "acetone and acetaldehyde",
+        "acetone and formaldehyde",
+        "formaldehyde and 2-methylpropanal"
+      ],
+      "answer": 1,
+      "difficulty": "hard",
+      "explanation": "2-Methylbut-2-ene is (CH$_3$)$_2$C=CH-CH$_3$; ozonolysis cleaves the C=C giving (CH$_3$)$_2$C=O (acetone) and CH$_3$CHO (acetaldehyde)."
+    },
+    {
+      "id": "che-hydrocarbons-004",
+      "q": "Which reagent distinguishes but-1-yne from but-2-yne?",
+      "options": [
+        "Ammoniacal AgNO$_3$ solution",
+        "Dilute H$_2$SO$_4$",
+        "Bromine water",
+        "cold KMnO$_4$"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "But-1-yne is a terminal alkyne with an acidic $\\equiv$C-H; it gives a white precipitate with ammoniacal AgNO$_3$, while but-2-yne (internal) does not."
+    },
+    {
+      "id": "che-hydrocarbons-005",
+      "q": "Controlled hydrogenation of an alkyne using Lindlar's catalyst gives",
+      "options": [
+        "the trans (E) alkene",
+        "no reaction",
+        "the cis (Z) alkene",
+        "the corresponding alkane"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "Lindlar's catalyst (Pd/BaSO$_4$ poisoned with quinoline) adds H$_2$ syn to the triple bond, stopping at the cis (Z) alkene."
+    },
+    {
+      "id": "che-hydrocarbons-006",
+      "q": "The C-C bond length in benzene (139 pm) is intermediate between a single bond (154 pm) and a double bond (133 pm) because",
+      "options": [
+        "of steric strain in the ring",
+        "of delocalisation of the 6 $\\pi$ electrons over all 6 carbons (resonance)",
+        "benzene has sp hybridised carbons",
+        "benzene has alternating single and double bonds that do not interact"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "Benzene is a resonance hybrid of Kekulé structures; the $\\pi$ electrons are delocalised equally over all six C-C bonds, making all bond lengths equal and intermediate in length."
+    },
+    {
+      "id": "che-hydrocarbons-007",
+      "q": "According to Hückel's rule, an aromatic monocyclic compound must be planar, cyclic and have",
+      "options": [
+        "$(2n+1)$ $\\pi$ electrons",
+        "$4n$ $\\pi$ electrons",
+        "no $\\pi$ electrons",
+        "$(4n+2)$ $\\pi$ electrons"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "Hückel's rule requires a planar, fully conjugated cyclic system with $(4n+2)$ delocalised $\\pi$ electrons (n = 0,1,2,...); benzene has n = 1, giving 6 $\\pi$ electrons."
+    },
+    {
+      "id": "che-hydrocarbons-008",
+      "q": "Nitration of toluene with conc. HNO$_3$/H$_2$SO$_4$ gives mainly",
+      "options": [
+        "o- and p-nitrotoluene",
+        "2,4,6-trinitrotoluene directly in one step at room temperature",
+        "m-nitrotoluene",
+        "benzoic acid"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "-CH$_3$ is an activating, ortho/para-directing group (electron release by hyperconjugation/+I), so nitration gives predominantly o- and p-nitrotoluene."
+    },
+    {
+      "id": "che-hydrocarbons-009",
+      "q": "Which of the following groups is meta-directing and deactivating on a benzene ring?",
+      "options": [
+        "-NO$_2$",
+        "-NH$_2$",
+        "-OCH$_3$",
+        "-CH$_3$"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "-NO$_2$ strongly withdraws electron density by both $-I$ and $-R$ effects, deactivating the ring and directing incoming electrophiles to the meta position."
+    },
+    {
+      "id": "che-hydrocarbons-010",
+      "q": "The relative ease of free-radical halogenation of hydrogens in an alkane follows the order",
+      "options": [
+        "all equal",
+        "2° &gt; 3° &gt; 1°",
+        "1° &gt; 2° &gt; 3°",
+        "3° &gt; 2° &gt; 1°"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "The more substituted (3°) radical intermediate is more stable due to greater hyperconjugation/+I effect, so 3° C-H bonds are abstracted fastest: 3° &gt; 2° &gt; 1°."
+    },
+    {
+      "id": "che-hydrocarbons-011",
+      "q": "A hydrocarbon with molecular formula C$_5$H$_8$ belongs to which homologous series (assuming one degree of unsaturation type, acyclic)?",
+      "options": [
+        "Alkane",
+        "Aromatic",
+        "Alkyne or diene",
+        "Alkene"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "General formula for alkynes/dienes is C$_n$H$_{2n-2}$; for n = 5, $2(5)-2 = 8$, matching C$_5$H$_8$."
+    },
+    {
+      "id": "che-hydrocarbons-012",
+      "q": "Complete combustion of 1 mole of propane (C$_3$H$_8$) requires how many moles of O$_2$?",
+      "options": [
+        "3",
+        "5",
+        "4",
+        "6"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "C$_3$H$_8 + 5O_2 \\to 3CO_2 + 4H_2O$; balancing O atoms: $3\\times2 + 4\\times1 = 10$ O atoms $= 5$ O$_2$ molecules."
+    },
+    {
+      "id": "che-hydrocarbons-013",
+      "q": "Dehydration of 2-methylbutan-2-ol with conc. H$_2$SO$_4$ gives predominantly (Zaitsev product)",
+      "options": [
+        "2-methylbut-1-ene",
+        "3-methylbut-1-ene",
+        "pentene",
+        "2-methylbut-2-ene"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "Zaitsev's rule favours the more substituted (more stable) alkene; removal of H from the more substituted adjacent carbon gives 2-methylbut-2-ene as the major product."
+    },
+    {
+      "id": "che-hydrocarbons-014",
+      "q": "Which alkyne reacts with sodium metal to liberate hydrogen gas?",
+      "options": [
+        "Propyne (terminal alkyne)",
+        "2,3-dimethylbut-2-ene",
+        "Pent-2-yne",
+        "But-2-yne"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "Terminal alkynes have an acidic $\\equiv$C-H (sp carbon), reacting with active metals like Na to liberate H$_2$ and form sodium acetylide-type salts; internal alkynes lack this acidic hydrogen."
+    },
+    {
+      "id": "che-hydrocarbons-015",
+      "q": "Markovnikov's rule for addition of HX to an unsymmetrical alkene states that",
+      "options": [
+        "H adds to the carbon bearing fewer hydrogens",
+        "H and X add randomly with equal probability",
+        "X (halogen) adds to the carbon bearing fewer hydrogens, via the more stable carbocation intermediate",
+        "the reaction proceeds only via a free-radical mechanism"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "The proton adds first to give the more stable (more substituted) carbocation, so the halide ion then bonds to the carbon that originally had fewer H atoms."
+    },
+    {
+      "id": "che-hydrocarbons-016",
+      "q": "Which of these is an ortho/para-directing but deactivating substituent on benzene?",
+      "options": [
+        "-NO$_2$",
+        "-Cl",
+        "-OH",
+        "-CH$_3$"
+      ],
+      "answer": 1,
+      "difficulty": "hard",
+      "explanation": "Halogens withdraw electron density inductively ($-I$, deactivating the ring overall) but can donate a lone pair by resonance ($+R$) into the ortho/para positions specifically, making them o,p-directing yet deactivating."
+    },
+    {
+      "id": "che-hydrocarbons-017",
+      "q": "Friedel-Crafts acylation of benzene with CH$_3$COCl/anhydrous AlCl$_3$ gives",
+      "options": [
+        "acetophenone (C$_6$H$_5$COCH$_3$)",
+        "benzaldehyde",
+        "toluene",
+        "acetic acid"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "The acylium ion CH$_3$CO$^+$ generated from CH$_3$COCl/AlCl$_3$ substitutes onto the benzene ring to give the aryl ketone, acetophenone."
+    },
+    {
+      "id": "che-hydrocarbons-018",
+      "q": "5.6 litres of an alkene at STP weighs 10.5 g. The alkene is",
+      "options": [
+        "ethene",
+        "pentene",
+        "propene",
+        "but-1-ene"
+      ],
+      "answer": 2,
+      "difficulty": "hard",
+      "explanation": "Moles $= 5.6/22.4 = 0.25$. Molar mass $= 10.5/0.25 = 42$ g mol$^{-1}$. For C$_nH_{2n}$, $14n = 42 \\Rightarrow n = 3$, i.e. propene (C$_3$H$_6$)."
+    },
+    {
+      "id": "che-hydrocarbons-019",
+      "q": "The number of moles of Br$_2$ required to completely saturate 1 mole of hex-1-yne (via addition) is",
+      "options": [
+        "0",
+        "3",
+        "1",
+        "2"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "A triple bond adds two molecules of Br$_2$ sequentially (via the alkene dibromide intermediate) to give the tetrabromide, so 2 mol Br$_2$ are needed per mole of alkyne."
+    },
+    {
+      "id": "che-hydrocarbons-020",
+      "q": "Which of the following statements about benzene's resonance energy is correct?",
+      "options": [
+        "It is negative, showing benzene is less stable than the hypothetical cyclohexatriene",
+        "Its resonance energy ($\\approx$152 kJ mol$^{-1}$) is the difference between the calculated (hypothetical Kekulé) and experimental heats of hydrogenation",
+        "It has zero resonance energy since it is fully conjugated",
+        "It equals the heat of hydrogenation of cyclohexene"
+      ],
+      "answer": 1,
+      "difficulty": "hard",
+      "explanation": "Resonance energy is the extra stability of the real delocalised benzene compared to the hypothetical Kekulé (cyclohexatriene) structure, measured as the difference between expected and observed heats of hydrogenation (about 152 kJ mol$^{-1}$)."
+    },
+    {
+      "id": "che-hydrocarbons-021",
+      "q": "Wurtz-Fittig reaction of a mixture of bromobenzene and methyl bromide with sodium in dry ether gives mainly",
+      "options": [
+        "benzene",
+        "biphenyl",
+        "ethane",
+        "toluene"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "Wurtz-Fittig reaction couples an aryl halide with an alkyl halide using sodium, joining the aryl and alkyl groups: C$_6$H$_5$Br + CH$_3$Br + 2Na $\\to$ C$_6$H$_5$CH$_3$ (toluene) + 2NaBr."
+    },
+    {
+      "id": "che-hydrocarbons-022",
+      "q": "Electrolysis of an aqueous solution of sodium acetate (Kolbe's electrolysis) produces",
+      "options": [
+        "ethane at the anode, with CO$_2$ and H$_2$ at cathode/anode",
+        "ethanol at the anode",
+        "acetic acid at the cathode",
+        "methane at the anode"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "At the anode, acetate ions are oxidised: $2CH_3COO^- \\to C_2H_6 + 2CO_2 + 2e^-$, giving ethane and CO$_2$ at the anode, while H$_2$ is liberated at the cathode."
+    },
+    {
+      "id": "che-hydrocarbons-023",
+      "q": "The correct order of acidic character of the C-H bond (ease of removing a proton) is",
+      "options": [
+        "alkane &gt; alkene &gt; terminal alkyne",
+        "alkene &gt; terminal alkyne &gt; alkane",
+        "terminal alkyne &gt; alkene &gt; alkane",
+        "all three are equally acidic"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "Greater s-character of the C-H bond holds the bonding electrons closer to carbon, making the H more easily removed as H$^+$; s-character is sp (50%) &gt; sp$^2$ (33%) &gt; sp$^3$ (25%), so terminal alkyne &gt; alkene &gt; alkane in acidity."
+    },
+    {
+      "id": "che-hydrocarbons-024",
+      "q": "Treatment of an alkene with cold, dilute alkaline KMnO$_4$ (Baeyer's reagent) gives",
+      "options": [
+        "an epoxide only",
+        "a vicinal diol (syn-dihydroxylation) and decolorises the purple colour",
+        "a carboxylic acid",
+        "no visible reaction"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "Baeyer's reagent (cold dilute alkaline KMnO$_4$) adds two -OH groups across the double bond to give a cis-diol, and the purple colour of KMnO$_4$ fades — a classic test for unsaturation."
+    },
+    {
+      "id": "che-hydrocarbons-025",
+      "q": "Bromine water is used as a simple test to distinguish an alkane from an alkene because",
+      "options": [
+        "alkenes rapidly decolorise the orange bromine water by addition, while alkanes do not react under these conditions",
+        "both react identically",
+        "alkanes decolorise it faster than alkenes",
+        "alkanes turn bromine water blue"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "Alkenes undergo electrophilic addition with Br$_2$, decolorising bromine water; saturated alkanes have no $\\pi$ bond and do not react under these mild conditions."
+    },
+    {
+      "id": "che-hydrocarbons-026",
+      "q": "Complete catalytic hydrogenation of one mole of an alkyne (R-C$\\equiv$C-R') to the corresponding alkane requires",
+      "options": [
+        "3 mol H$_2$",
+        "0.5 mol H$_2$",
+        "1 mol H$_2$",
+        "2 mol H$_2$"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "The triple bond first adds 1 mol H$_2$ to give an alkene, which adds a further 1 mol H$_2$ to give the alkane — 2 mol H$_2$ in total."
+    },
+    {
+      "id": "che-hydrocarbons-027",
+      "q": "The number of moles of O$_2$ required for the complete combustion of 2 moles of acetylene (C$_2$H$_2$) is",
+      "options": [
+        "2.5",
+        "7.5",
+        "5",
+        "10"
+      ],
+      "answer": 2,
+      "difficulty": "hard",
+      "explanation": "$C_2H_2 + \\dfrac{5}{2}O_2 \\to 2CO_2 + H_2O$; for 1 mol C$_2$H$_2$, 2.5 mol O$_2$ is needed, so 2 mol C$_2$H$_2$ requires $2\\times2.5 = 5$ mol O$_2$."
+    },
+    {
+      "id": "che-hydrocarbons-028",
+      "q": "Friedel-Crafts alkylation fails when carried out directly on",
+      "options": [
+        "phenol",
+        "nitrobenzene (a strongly deactivated ring)",
+        "anisole",
+        "toluene"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "Strongly deactivated rings such as nitrobenzene lack sufficient electron density to attack the electrophilic alkyl carbocation/AlCl$_3$ complex, so Friedel-Crafts reactions do not proceed on nitrobenzene (or other strongly deactivated arenes)."
+    },
+    {
+      "id": "che-hydrocarbons-029",
+      "q": "A major limitation of Friedel-Crafts alkylation is that",
+      "options": [
+        "the product ring becomes more activated towards further substitution, often leading to polyalkylation",
+        "it never forms a carbocation intermediate",
+        "it cannot use AlCl$_3$ as catalyst",
+        "it only works on aliphatic compounds"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "Since alkyl groups are electron-donating (activating), the monoalkylated product is more reactive than benzene itself towards further electrophilic attack, commonly giving a mixture of polyalkylated products."
+    },
+    {
+      "id": "che-hydrocarbons-030",
+      "q": "Ozonolysis of an alkene, followed by Zn/H$_2$O work-up, gives only acetone [(CH$_3$)$_2$C=O] as the sole product. The original alkene must have been",
+      "options": [
+        "2-methylpropene",
+        "propene",
+        "but-2-ene",
+        "2,3-dimethylbut-2-ene, (CH$_3$)$_2$C=C(CH$_3$)$_2$"
+      ],
+      "answer": 3,
+      "difficulty": "hard",
+      "explanation": "Getting only one carbonyl product means the alkene was symmetrical about the double bond, with identical groups on both carbons; (CH$_3$)$_2$C=C(CH$_3$)$_2$ cleaves to give two identical molecules of acetone."
+    },
+    {
+      "id": "che-hydrocarbons-031",
+      "q": "Catalytic hydrogenation of benzene to cyclohexane requires",
+      "options": [
+        "no catalyst, just heating",
+        "dilute HNO$_3$ only",
+        "Ni catalyst under high temperature and pressure (with H$_2$)",
+        "Lindlar's catalyst at room temperature"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "Because of its aromatic stability, benzene requires more forcing conditions (Ni catalyst, high temperature and pressure) to add 3 mol H$_2$ and form cyclohexane, unlike simple alkenes."
+    },
+    {
+      "id": "che-hydrocarbons-032",
+      "q": "Benzenesulphonic acid (from sulphonation of benzene with fuming H$_2$SO$_4$) can be converted back to benzene by",
+      "options": [
+        "treatment with NaOH followed by CaO",
+        "heating with dilute H$_2$SO$_4$/steam (reverse reaction)",
+        "catalytic hydrogenation",
+        "ozonolysis"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "Sulphonation is reversible; heating benzenesulphonic acid with dilute sulphuric acid or steam hydrolyses off the -SO$_3$H group, regenerating benzene."
+    },
+    {
+      "id": "che-hydrocarbons-033",
+      "q": "The number of possible structural (chain) isomers of hexane, C$_6$H$_{14}$, is",
+      "options": [
+        "5",
+        "3",
+        "6",
+        "4"
+      ],
+      "answer": 0,
+      "difficulty": "hard",
+      "explanation": "Hexane has 5 structural isomers: n-hexane, 2-methylpentane, 3-methylpentane, 2,3-dimethylbutane and 2,2-dimethylbutane."
+    },
+    {
+      "id": "che-hydrocarbons-034",
+      "q": "Thermal or catalytic cracking of higher alkanes (as in petroleum refining) mainly produces",
+      "options": [
+        "only CO$_2$ and H$_2$O",
+        "only aromatic hydrocarbons",
+        "smaller alkanes and alkenes by breaking C-C bonds",
+        "only hydrogen gas"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "Cracking breaks C-C bonds in large alkane molecules (from petroleum) under heat/catalyst to give a mixture of smaller, more useful alkanes and alkenes, e.g. for petrol and petrochemical feedstocks."
+    },
+    {
+      "id": "che-hydrocarbons-035",
+      "q": "2.24 L of a gaseous alkane at STP weighs 4.4 g. The alkane is",
+      "options": [
+        "ethane",
+        "propane",
+        "butane",
+        "methane"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "Moles $= 2.24/22.4 = 0.1$. Molar mass $= 4.4/0.1 = 44$ g mol$^{-1}$. For C$_nH_{2n+2}$: $14n+2 = 44 \\Rightarrow n = 3$, i.e. propane, C$_3$H$_8$."
+    },
+    {
+      "id": "che-hydrocarbons-036",
+      "q": "Which of the following alkenes does NOT show geometrical (cis-trans) isomerism?",
+      "options": [
+        "2-pentene",
+        "1,2-dichloroethene",
+        "but-2-ene",
+        "propene (CH$_2$=CH-CH$_3$)"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "In propene, one of the doubly bonded carbons bears two identical hydrogen atoms, so it does not satisfy the requirement (two different groups on each sp$^2$ carbon) for cis-trans isomerism."
+    },
+    {
+      "id": "che-hydrocarbons-037",
+      "q": "A hydrocarbon with molecular formula C$_4$H$_6$ belongs to which class (2 degrees of unsaturation, acyclic, one type)?",
+      "options": [
+        "aromatic",
+        "alkyne or diene",
+        "alkane",
+        "alkene"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "C$_nH_{2n-2}$ is the general formula for alkynes and dienes; for n = 4, $2(4)-2 = 6$, matching C$_4$H$_6$ (e.g. but-1-yne or buta-1,3-diene)."
+    },
+    {
+      "id": "che-hydrocarbons-038",
+      "q": "Friedel-Crafts acylation is often preferred over alkylation for introducing a side chain on benzene because",
+      "options": [
+        "the acylium ion does not rearrange, avoiding the carbocation rearrangements seen in alkylation, and prevents polysubstitution since the product ketone is deactivated",
+        "acylation always gives meta products",
+        "acylation does not require a catalyst",
+        "acylation cannot be reversed"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "The resonance-stabilised acylium ion (RCO$^+$) does not undergo skeletal rearrangement, and the carbonyl product deactivates the ring, preventing further substitution — both advantages over alkylation."
+    },
+    {
+      "id": "che-hydrocarbons-039",
+      "q": "The volume of O$_2$ (at STP) required for the complete combustion of 2.24 L of ethane (C$_2$H$_6$) at STP is",
+      "options": [
+        "3.92 L",
+        "11.2 L",
+        "15.68 L",
+        "7.84 L"
+      ],
+      "answer": 3,
+      "difficulty": "hard",
+      "explanation": "$C_2H_6 + \\dfrac{7}{2}O_2 \\to 2CO_2 + 3H_2O$. Moles of ethane $= 2.24/22.4 = 0.1$; moles O$_2$ needed $= 0.1\\times3.5 = 0.35$ mol $= 0.35\\times22.4 = 7.84$ L at STP."
+    },
+    {
+      "id": "che-hydrocarbons-040",
+      "q": "Unlike alkenes, benzene does NOT readily decolorise bromine water at room temperature because",
+      "options": [
+        "benzene is denser than water",
+        "benzene has no $\\pi$ electrons",
+        "the delocalised, resonance-stabilised aromatic system makes addition reactions (which would destroy this stability) much less favourable than substitution",
+        "bromine cannot dissolve in benzene"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "Addition across a C=C in benzene would disrupt its aromatic delocalisation and resonance stabilisation, so benzene preferentially undergoes electrophilic substitution (retaining aromaticity) rather than addition, unlike simple alkenes."
+    }
+  ]
+}

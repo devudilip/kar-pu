@@ -1,0 +1,525 @@
+{
+  "notes": "<h3>Circle</h3><ul><li>Standard form, centre origin: $x^2+y^2=r^2$. Centre $(h,k)$: $(x-h)^2+(y-k)^2=r^2$.</li><li>General form: $x^2+y^2+2gx+2fy+c=0$ has centre $(-g,-f)$ and radius $\\sqrt{g^2+f^2-c}$.</li></ul><h3>Parabola</h3><table><tr><th>Equation</th><th>Focus</th><th>Directrix</th><th>Opens</th></tr><tr><td>$y^2=4ax$</td><td>$(a,0)$</td><td>$x=-a$</td><td>right</td></tr><tr><td>$y^2=-4ax$</td><td>$(-a,0)$</td><td>$x=a$</td><td>left</td></tr><tr><td>$x^2=4ay$</td><td>$(0,a)$</td><td>$y=-a$</td><td>up</td></tr><tr><td>$x^2=-4ay$</td><td>$(0,-a)$</td><td>$y=a$</td><td>down</td></tr></table><ul><li>Length of latus rectum $=4a$ in every case; axis of symmetry passes through vertex and focus.</li></ul><h3>Ellipse</h3><ul><li>$\\dfrac{x^2}{a^2}+\\dfrac{y^2}{b^2}=1$. If $a>b$, major axis along $x$-axis, foci $(\\pm c,0)$ with $c^2=a^2-b^2$; if $b>a$, foci are $(0,\\pm c)$ with $c^2=b^2-a^2$.</li><li>Eccentricity $e=c/a<1$ (or $c/b$ if major axis is vertical). Latus rectum $=\\dfrac{2b^2}{a}$ (using the semi-major axis in the denominator).</li></ul><h3>Hyperbola</h3><ul><li>$\\dfrac{x^2}{a^2}-\\dfrac{y^2}{b^2}=1$, foci $(\\pm c,0)$, $c^2=a^2+b^2$, eccentricity $e=c/a>1$ always.</li><li>Length of transverse axis $=2a$; latus rectum $=\\dfrac{2b^2}{a}$. When $a=b$ it is called a rectangular hyperbola.</li></ul><h3>Quick comparison</h3><ul><li>Circle: $e=0$. Ellipse: $0<e<1$. Parabola: $e=1$. Hyperbola: $e>1$.</li></ul><h3>Exam tip</h3><p>KCET sets about 2-3 questions from conics, mixed across circle, parabola, ellipse and hyperbola — mostly finding centre/radius from the general circle equation, or focus/directrix/latus rectum/eccentricity from a standard equation. Always check whether the major axis of the ellipse is along $x$ or $y$ before picking $a$ and $b$.</p>",
+  "questions": [
+    {
+      "id": "mat-conic-sections-001",
+      "q": "The equation of the circle with centre $(2,-3)$ and radius 5 is",
+      "options": [
+        "$(x-2)^2+(y+3)^2=25$",
+        "$(x-2)^2+(y-3)^2=25$",
+        "$(x+2)^2+(y-3)^2=25$",
+        "$(x-2)^2+(y+3)^2=5$"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "Standard form $(x-h)^2+(y-k)^2=r^2$ with $h=2,k=-3,r=5$ gives $(x-2)^2+(y+3)^2=25$."
+    },
+    {
+      "id": "mat-conic-sections-002",
+      "q": "The centre and radius of the circle $x^2+y^2-4x+6y-12=0$ are",
+      "options": [
+        "$(-2,3)$ and 5",
+        "$(2,-3)$ and 25",
+        "$(2,3)$ and 5",
+        "$(2,-3)$ and 5"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "$2g=-4,2f=6,c=-12 \\Rightarrow g=-2,f=3$. Centre $(-g,-f)=(2,-3)$; radius $=\\sqrt{4+9+12}=5$."
+    },
+    {
+      "id": "mat-conic-sections-003",
+      "q": "The focus of the parabola $y^2=12x$ is",
+      "options": [
+        "$(12,0)$",
+        "$(-3,0)$",
+        "$(3,0)$",
+        "$(0,3)$"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "$4a=12 \\Rightarrow a=3$; focus $=(a,0)=(3,0)$."
+    },
+    {
+      "id": "mat-conic-sections-004",
+      "q": "The directrix of the parabola $y^2=8x$ is",
+      "options": [
+        "$y=-2$",
+        "$x=-2$",
+        "$x=-4$",
+        "$x=2$"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "$4a=8 \\Rightarrow a=2$; directrix is $x=-a=-2$."
+    },
+    {
+      "id": "mat-conic-sections-005",
+      "q": "The length of the latus rectum of $x^2=16y$ is",
+      "options": [
+        "32",
+        "4",
+        "16",
+        "8"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "$4a=16 \\Rightarrow a=4$; latus rectum $=4a=16$."
+    },
+    {
+      "id": "mat-conic-sections-006",
+      "q": "The eccentricity of the ellipse $\\dfrac{x^2}{25}+\\dfrac{y^2}{9}=1$ is",
+      "options": [
+        "0.6",
+        "0.5",
+        "0.75",
+        "0.8"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "$a^2=25,b^2=9 \\Rightarrow c^2=16, c=4$; $e=c/a=4/5=0.8$."
+    },
+    {
+      "id": "mat-conic-sections-007",
+      "q": "The foci of the ellipse $\\dfrac{x^2}{16}+\\dfrac{y^2}{25}=1$ are",
+      "options": [
+        "$(\\pm3,0)$",
+        "$(0,\\pm3)$",
+        "$(\\pm4,0)$",
+        "$(0,\\pm4)$"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "Since $25>16$, the major axis is along $y$: $c^2=25-16=9, c=3$; foci $(0,\\pm3)$."
+    },
+    {
+      "id": "mat-conic-sections-008",
+      "q": "The length of the latus rectum of the ellipse $\\dfrac{x^2}{25}+\\dfrac{y^2}{16}=1$ is",
+      "options": [
+        "6.4",
+        "3.2",
+        "12.8",
+        "5"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "$a=5,b=4$; latus rectum $=\\dfrac{2b^2}{a}=\\dfrac{32}{5}=6.4$."
+    },
+    {
+      "id": "mat-conic-sections-009",
+      "q": "The eccentricity of the hyperbola $\\dfrac{x^2}{9}-\\dfrac{y^2}{16}=1$ is",
+      "options": [
+        "$4/3$",
+        "$5/4$",
+        "$5/3$",
+        "$3/5$"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "$a^2=9,b^2=16 \\Rightarrow c^2=25,c=5$; $e=c/a=5/3$."
+    },
+    {
+      "id": "mat-conic-sections-010",
+      "q": "The equation of a circle centred at the origin with radius 7 is",
+      "options": [
+        "$x^2+y^2=\\sqrt7$",
+        "$x^2+y^2=49$",
+        "$x^2+y^2=7$",
+        "$x^2+y^2=14$"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "$x^2+y^2=r^2=7^2=49$."
+    },
+    {
+      "id": "mat-conic-sections-011",
+      "q": "A parabola has vertex at the origin, axis along the $x$-axis, and passes through $(2,-4)$. Its equation is",
+      "options": [
+        "$y^2=4x$",
+        "$y^2=-8x$",
+        "$x^2=8y$",
+        "$y^2=8x$"
+      ],
+      "answer": 3,
+      "difficulty": "hard",
+      "explanation": "Form $y^2=4ax$ (opens right, as $x=2>0$): $(-4)^2=4a(2) \\Rightarrow 16=8a \\Rightarrow a=2$, so $y^2=8x$."
+    },
+    {
+      "id": "mat-conic-sections-012",
+      "q": "The distance between the foci of the ellipse $\\dfrac{x^2}{25}+\\dfrac{y^2}{16}=1$ is",
+      "options": [
+        "6",
+        "3",
+        "10",
+        "8"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "$c^2=25-16=9, c=3$; distance between foci $=2c=6$."
+    },
+    {
+      "id": "mat-conic-sections-013",
+      "q": "The length of the transverse axis of the hyperbola $\\dfrac{x^2}{16}-\\dfrac{y^2}{9}=1$ is",
+      "options": [
+        "4",
+        "8",
+        "6",
+        "3"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "$a^2=16 \\Rightarrow a=4$; transverse axis $=2a=8$."
+    },
+    {
+      "id": "mat-conic-sections-014",
+      "q": "The centre and radius of the circle $2x^2+2y^2-4x+8y-16=0$ are",
+      "options": [
+        "$(1,-2)$, $\\sqrt{13}$",
+        "$(-1,2)$, $\\sqrt{13}$",
+        "$(1,-2)$, 13",
+        "$(1,2)$, $\\sqrt{13}$"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "Dividing by 2: $x^2+y^2-2x+4y-8=0$; $g=-1,f=2,c=-8$. Centre $(1,-2)$, radius $=\\sqrt{1+4+8}=\\sqrt{13}$."
+    },
+    {
+      "id": "mat-conic-sections-015",
+      "q": "The vertex of the parabola $y^2=4x$ is at",
+      "options": [
+        "$(0,1)$",
+        "$(4,0)$",
+        "$(0,0)$",
+        "$(1,0)$"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "For $y^2=4ax$ with no shift, the vertex is always at the origin $(0,0)$."
+    },
+    {
+      "id": "mat-conic-sections-016",
+      "q": "The eccentricity of any parabola is",
+      "options": [
+        "0",
+        "between 0 and 1",
+        "greater than 1",
+        "1"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "By definition every parabola has eccentricity exactly 1."
+    },
+    {
+      "id": "mat-conic-sections-017",
+      "q": "An ellipse has eccentricity $3/5$ and the distance between its foci is 6. Its major axis has length",
+      "options": [
+        "12",
+        "8",
+        "10",
+        "5"
+      ],
+      "answer": 2,
+      "difficulty": "hard",
+      "explanation": "$2c=6 \\Rightarrow c=3$; $e=c/a \\Rightarrow a=c/e=3\\div(3/5)=5$. Major axis $=2a=10$."
+    },
+    {
+      "id": "mat-conic-sections-018",
+      "q": "Which of the following is a rectangular hyperbola?",
+      "options": [
+        "$x^2-y^2=16$",
+        "$\\dfrac{x^2}{16}+\\dfrac{y^2}{9}=1$",
+        "$y^2=4x$",
+        "$\\dfrac{x^2}{9}-\\dfrac{y^2}{16}=1$"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "A rectangular hyperbola has $a=b$; $x^2-y^2=16$ can be written as $\\dfrac{x^2}{16}-\\dfrac{y^2}{16}=1$, so $a=b=4$."
+    },
+    {
+      "id": "mat-conic-sections-019",
+      "q": "The circle $x^2+y^2=r^2$ touches the line $x=r$ at the point",
+      "options": [
+        "$(0,r)$",
+        "$(r,0)$",
+        "$(-r,0)$",
+        "$(r,r)$"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "$x=r$ is a vertical tangent to the circle; substituting $x=r$ gives $y=0$, so the point of contact is $(r,0)$."
+    },
+    {
+      "id": "mat-conic-sections-020",
+      "q": "The equation of the circle through the origin with centre $(3,4)$ is",
+      "options": [
+        "$(x-3)^2+(y-4)^2=5$",
+        "$(x+3)^2+(y+4)^2=25$",
+        "$(x-4)^2+(y-3)^2=25$",
+        "$(x-3)^2+(y-4)^2=25$"
+      ],
+      "answer": 3,
+      "difficulty": "hard",
+      "explanation": "Radius $=$ distance from centre to origin $=\\sqrt{3^2+4^2}=5$, so the equation is $(x-3)^2+(y-4)^2=25$."
+    },
+    {
+      "id": "mat-conic-sections-021",
+      "q": "A circle has $(2,3)$ and $(4,7)$ as endpoints of a diameter. Its equation is",
+      "options": [
+        "$(x-2)^2+(y-3)^2=5$",
+        "$(x-3)^2+(y-5)^2=25$",
+        "$(x-3)^2+(y-5)^2=5$",
+        "$(x-3)^2+(y-5)^2=20$"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "Centre = midpoint $=(3,5)$; radius $=\\dfrac12\\sqrt{(4-2)^2+(7-3)^2}=\\dfrac12\\sqrt{20}=\\sqrt5$, so $r^2=5$."
+    },
+    {
+      "id": "mat-conic-sections-022",
+      "q": "The directrix of the parabola $x^2=-12y$ is",
+      "options": [
+        "$y=3$",
+        "$x=-3$",
+        "$y=-3$",
+        "$x=3$"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "$4a=12 \\Rightarrow a=3$; for $x^2=-4ay$ (opens down), the directrix is $y=a=3$."
+    },
+    {
+      "id": "mat-conic-sections-023",
+      "q": "A parabola with vertex at the origin and axis along the $y$-axis passes through $(4,-2)$. Its equation is",
+      "options": [
+        "$x^2=-4y$",
+        "$x^2=-8y$",
+        "$x^2=8y$",
+        "$x^2=4y$"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "Since the point has negative $y$, the parabola opens down: $x^2=-4ay$. Substituting: $16=-4a(-2)=8a \\Rightarrow a=2$, so $x^2=-8y$."
+    },
+    {
+      "id": "mat-conic-sections-024",
+      "q": "The length of the latus rectum of the ellipse $\\dfrac{x^2}{169}+\\dfrac{y^2}{25}=1$ is",
+      "options": [
+        "$10/13$",
+        "$25/13$",
+        "$5/13$",
+        "$50/13$"
+      ],
+      "answer": 3,
+      "difficulty": "hard",
+      "explanation": "$a=13, b=5$; latus rectum $=\\dfrac{2b^2}{a}=\\dfrac{50}{13}$."
+    },
+    {
+      "id": "mat-conic-sections-025",
+      "q": "The eccentricity of the ellipse $\\dfrac{x^2}{100}+\\dfrac{y^2}{64}=1$ is",
+      "options": [
+        "0.36",
+        "0.6",
+        "0.4",
+        "0.8"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "$e^2=1-\\dfrac{b^2}{a^2}=1-\\dfrac{64}{100}=0.36 \\Rightarrow e=0.6$."
+    },
+    {
+      "id": "mat-conic-sections-026",
+      "q": "The length of the conjugate axis of the hyperbola $\\dfrac{x^2}{25}-\\dfrac{y^2}{9}=1$ is",
+      "options": [
+        "6",
+        "10",
+        "3",
+        "5"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "$b^2=9 \\Rightarrow b=3$; conjugate axis $=2b=6$."
+    },
+    {
+      "id": "mat-conic-sections-027",
+      "q": "The eccentricity of the hyperbola $\\dfrac{x^2}{4}-\\dfrac{y^2}{5}=1$ is",
+      "options": [
+        "2",
+        "$5/2$",
+        "$3/2$",
+        "$5/4$"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "$e^2=1+\\dfrac{b^2}{a^2}=1+\\dfrac54=\\dfrac94 \\Rightarrow e=\\dfrac32$."
+    },
+    {
+      "id": "mat-conic-sections-028",
+      "q": "A circle of radius 4 touches both coordinate axes and lies in the first quadrant. Its equation is",
+      "options": [
+        "$(x-4)^2+(y-4)^2=4$",
+        "$(x-4)^2+(y-4)^2=8$",
+        "$(x+4)^2+(y+4)^2=16$",
+        "$(x-4)^2+(y-4)^2=16$"
+      ],
+      "answer": 3,
+      "difficulty": "hard",
+      "explanation": "Touching both axes in the first quadrant with radius 4 forces the centre to be $(4,4)$, giving $(x-4)^2+(y-4)^2=16$."
+    },
+    {
+      "id": "mat-conic-sections-029",
+      "q": "The radius of the circle $x^2+y^2-6x-8y=0$ is",
+      "options": [
+        "4",
+        "7",
+        "5",
+        "3"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "$g=-3, f=-4, c=0$; radius $=\\sqrt{9+16-0}=5$."
+    },
+    {
+      "id": "mat-conic-sections-030",
+      "q": "The focus of the parabola $y^2=-16x$ is",
+      "options": [
+        "$(-4,0)$",
+        "$(0,-4)$",
+        "$(4,0)$",
+        "$(0,4)$"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "$4a=16 \\Rightarrow a=4$; since the parabola opens left, the focus is $(-a,0)=(-4,0)$."
+    },
+    {
+      "id": "mat-conic-sections-031",
+      "q": "The length of the latus rectum of the hyperbola $\\dfrac{x^2}{16}-\\dfrac{y^2}{9}=1$ is",
+      "options": [
+        "2.25",
+        "4",
+        "9",
+        "4.5"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "$a=4, b=3$; latus rectum $=\\dfrac{2b^2}{a}=\\dfrac{18}{4}=4.5$."
+    },
+    {
+      "id": "mat-conic-sections-032",
+      "q": "An ellipse has vertices $(\\pm5,0)$ and foci $(\\pm3,0)$. Its equation is",
+      "options": [
+        "$\\dfrac{x^2}{16}+\\dfrac{y^2}{25}=1$",
+        "$\\dfrac{x^2}{25}+\\dfrac{y^2}{16}=1$",
+        "$\\dfrac{x^2}{25}+\\dfrac{y^2}{9}=1$",
+        "$\\dfrac{x^2}{9}+\\dfrac{y^2}{25}=1$"
+      ],
+      "answer": 1,
+      "difficulty": "hard",
+      "explanation": "$a=5, c=3 \\Rightarrow b^2=a^2-c^2=25-9=16$, giving $\\dfrac{x^2}{25}+\\dfrac{y^2}{16}=1$."
+    },
+    {
+      "id": "mat-conic-sections-033",
+      "q": "The length of the latus rectum of the parabola $y^2=20x$ is",
+      "options": [
+        "5",
+        "10",
+        "20",
+        "4"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "$4a=20$; latus rectum $=4a=20$."
+    },
+    {
+      "id": "mat-conic-sections-034",
+      "q": "The radius of the circle $x^2+y^2+2x-4y-4=0$ is",
+      "options": [
+        "3",
+        "2",
+        "1",
+        "4"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "$g=1, f=-2, c=-4$; radius $=\\sqrt{1+4+4}=3$."
+    },
+    {
+      "id": "mat-conic-sections-035",
+      "q": "The equation $x^2+y^2-4x+6y+13=0$ represents",
+      "options": [
+        "not a real circle",
+        "a point circle at $(2,-3)$",
+        "two parallel lines",
+        "a circle of radius 5"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "$g=-2, f=3, c=13$; $r^2=g^2+f^2-c=4+9-13=0$, so it is a point circle located at the centre $(2,-3)$."
+    },
+    {
+      "id": "mat-conic-sections-036",
+      "q": "A parabola has focus $(0,3)$ and directrix $y=-3$. Its equation is",
+      "options": [
+        "$y^2=-12x$",
+        "$y^2=12x$",
+        "$x^2=-12y$",
+        "$x^2=12y$"
+      ],
+      "answer": 3,
+      "difficulty": "hard",
+      "explanation": "The vertex lies midway between focus and directrix, at the origin, with $a=3$ and the parabola opening upward: $x^2=4ay=12y$."
+    },
+    {
+      "id": "mat-conic-sections-037",
+      "q": "The eccentricity of a circle is",
+      "options": [
+        "0",
+        "undefined",
+        "1",
+        "between 0 and 1"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "A circle is a special case of an ellipse with $a=b$, giving $c=0$ and hence $e=0$."
+    },
+    {
+      "id": "mat-conic-sections-038",
+      "q": "The length of the minor axis of the ellipse $\\dfrac{x^2}{49}+\\dfrac{y^2}{25}=1$ is",
+      "options": [
+        "7",
+        "10",
+        "14",
+        "5"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "$a=7, b=5$ (major axis along $x$); minor axis $=2b=10$."
+    },
+    {
+      "id": "mat-conic-sections-039",
+      "q": "A hyperbola has foci $(\\pm5,0)$ and transverse axis length 6. Its eccentricity is",
+      "options": [
+        "$3/5$",
+        "$5/6$",
+        "$5/4$",
+        "$5/3$"
+      ],
+      "answer": 3,
+      "difficulty": "hard",
+      "explanation": "$2a=6 \\Rightarrow a=3$; $c=5$; $e=c/a=5/3$."
+    },
+    {
+      "id": "mat-conic-sections-040",
+      "q": "The line $y=x+c$ touches the circle $x^2+y^2=8$ for a positive value of $c$ equal to",
+      "options": [
+        "$2\\sqrt2$",
+        "8",
+        "4",
+        "2"
+      ],
+      "answer": 2,
+      "difficulty": "hard",
+      "explanation": "Distance from origin to $x-y+c=0$ must equal the radius: $\\dfrac{|c|}{\\sqrt2}=\\sqrt8=2\\sqrt2 \\Rightarrow |c|=4$, so $c=4$."
+    }
+  ]
+}

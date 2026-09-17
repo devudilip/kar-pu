@@ -1,0 +1,525 @@
+{
+  "notes": "<h3>Nomenclature & classes</h3><ul><li>Alcohols R–OH: 1°, 2°, 3° by the carbon bearing OH. Phenols: OH directly on aromatic ring (sp$^2$ C–OH). Ethers: R–O–R' (simple or mixed).</li></ul><h3>Preparation</h3><ul><li>Alcohols: hydration of alkenes (Markovnikov, acid-catalysed), from Grignard + carbonyl compound, reduction of aldehyde/ketone/acid (LiAlH$_4$/NaBH$_4$), hydroboration-oxidation (anti-Markovnikov).</li><li>Phenols: from haloarenes (fused NaOH, high T/P), from diazonium salts (hydrolysis), from cumene (cumene process — industrial; also gives acetone as by-product).</li><li>Ethers: Williamson synthesis, R–O$^-$Na$^+$ + R'–X → R–O–R' (S$_N$2; best with 1° R'X); dehydration of alcohols (140°C, conc. H$_2$SO$_4$).</li></ul><h3>Physical properties</h3><table><tr><th>Property</th><th>Trend/reason</th></tr><tr><td>B.p. of alcohols</td><td>higher than alkanes/ethers of similar mass — H-bonding; decreases with branching</td></tr><tr><td>Acidity: alcohol vs phenol vs water</td><td>phenol &gt; water &gt; alcohol (phenoxide stabilised by resonance)</td></tr><tr><td>Acidity of substituted phenols</td><td>–NO$_2$ (o/p) increases acidity; –CH$_3$/–OCH$_3$ (o/p, +I/+R) decreases it</td></tr></table><h3>Reactions of alcohols</h3><ul><li>With Na: 2ROH + 2Na → 2RONa + H$_2$↑ (test for –OH).</li><li>Esterification with acids/anhydrides (conc. H$_2$SO$_4$); Oxidation: 1° → aldehyde → acid (with KMnO$_4$/acidic K$_2$Cr$_2$O$_7$); 2° → ketone; 3° resists oxidation (no α-H) but is cleaved under strong conditions.</li><li>Lucas test: 3° alcohol turns turbid immediately, 2° in a few minutes, 1° only on heating — distinguishes classes.</li><li>Dehydration: conc. H$_2$SO$_4$, 443 K → alkene (Saytzeff, follows 3° &gt; 2° &gt; 1° ease, via carbocation for 2°/3°).</li></ul><h3>Reactions of phenols</h3><ul><li>Acidic: reacts with NaOH to form sodium phenoxide (but not with NaHCO$_3$ — weaker acid than carbonic acid).</li><li>Electrophilic substitution (o,p-directing, activating): bromination with Br$_2$ water gives 2,4,6-tribromophenol (white ppt, test for phenol); nitration; Kolbe's reaction (CO$_2$/NaOH → salicylic acid); Reimer–Tiemann reaction (CHCl$_3$/NaOH → salicylaldehyde).</li><li>Azo coupling with diazonium salts gives coloured azo dyes.</li></ul><h3>Reactions of ethers</h3><ul><li>Cleavage by excess HI/HX: gives alkyl halide + alcohol/phenol (aryl ethers give phenol, not aryl halide, since aryl–O bond resists cleavage). With excess HI both C–O bonds cleave.</li><li>Ethers are fairly unreactive (used as solvents); form peroxides on standing in air (explosion hazard — test with FeSO$_4$/KSCN).</li></ul><h3>Exam tip</h3><p>3–4 questions typical: acidity order (phenol &gt; alcohol; effect of substituents), Lucas test, distinguishing 1°/2°/3° alcohols, Williamson synthesis and ether cleavage, and one named reaction (Kolbe/Reimer–Tiemann).</p>",
+  "questions": [
+    {
+      "id": "che-alcohols-phenols-ethers-001",
+      "q": "The correct order of acidity is",
+      "options": [
+        "ethanol &gt; water &gt; phenol",
+        "water &gt; phenol &gt; ethanol",
+        "phenol &gt; ethanol &gt; water",
+        "phenol &gt; water &gt; ethanol"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "The phenoxide ion is stabilised by resonance with the ring, making phenol more acidic than water, which in turn is more acidic than ethanol (no such stabilisation, +I effect of ethyl raises electron density on O)."
+    },
+    {
+      "id": "che-alcohols-phenols-ethers-002",
+      "q": "p-Nitrophenol is more acidic than phenol because the nitro group",
+      "options": [
+        "has no effect on acidity",
+        "withdraws electrons by resonance and induction, stabilising the phenoxide ion",
+        "donates electrons by resonance, stabilising phenoxide",
+        "increases steric hindrance"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "–NO$_2$ at the para position withdraws electron density through resonance and induction, delocalising the negative charge of the phenoxide ion and stabilising it, so p-nitrophenol is a stronger acid."
+    },
+    {
+      "id": "che-alcohols-phenols-ethers-003",
+      "q": "The Lucas test distinguishes 1°, 2° and 3° alcohols based on",
+      "options": [
+        "colour change with FeCl$_3$",
+        "rate of esterification",
+        "rate of turbidity formation with conc. HCl/ZnCl$_2$ (S$_N$1 reactivity)",
+        "solubility in NaOH"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "3° alcohols form the more stable carbocation fastest and turn turbid immediately; 2° take a few minutes; 1° alcohols react only on heating."
+    },
+    {
+      "id": "che-alcohols-phenols-ethers-004",
+      "q": "Williamson's synthesis of an unsymmetrical ether R–O–R' proceeds via",
+      "options": [
+        "S$_N$2 attack of alkoxide ion on a primary alkyl halide",
+        "electrophilic addition",
+        "elimination followed by addition",
+        "free radical substitution"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "Sodium alkoxide (nucleophile) attacks a primary (or methyl) alkyl halide in an S$_N$2 mechanism; a bulky/3° halide would instead undergo elimination."
+    },
+    {
+      "id": "che-alcohols-phenols-ethers-005",
+      "q": "Anisole (methoxybenzene) on treatment with excess HI gives",
+      "options": [
+        "phenol + methyl iodide",
+        "no reaction",
+        "benzene + methyl alcohol",
+        "iodobenzene + methanol"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "The alkyl–oxygen bond cleaves (aryl–oxygen bond resists S$_N$2/S$_N$1 due to partial double bond character), giving phenol and methyl iodide."
+    },
+    {
+      "id": "che-alcohols-phenols-ethers-006",
+      "q": "Which of the following would liberate CO$_2$ gas from sodium bicarbonate solution?",
+      "options": [
+        "Anisole",
+        "Phenol",
+        "Benzoic acid",
+        "Ethanol"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "Benzoic acid (a carboxylic acid, pKa ≈ 4) is a stronger acid than carbonic acid and liberates CO$_2$ from NaHCO$_3$; phenol (pKa ≈ 10) is too weak to do so."
+    },
+    {
+      "id": "che-alcohols-phenols-ethers-007",
+      "q": "Kolbe's reaction converts sodium phenoxide into",
+      "options": [
+        "picric acid",
+        "benzaldehyde",
+        "benzoic acid",
+        "salicylic acid (after acidification)"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "Sodium phenoxide + CO$_2$ under pressure (400 K, 4–7 atm) followed by acidification gives salicylic acid via electrophilic substitution by CO$_2$."
+    },
+    {
+      "id": "che-alcohols-phenols-ethers-008",
+      "q": "Which alcohol, on oxidation with acidified K$_2$Cr$_2$O$_7$, gives a ketone directly?",
+      "options": [
+        "1-Propanol",
+        "2-Propanol",
+        "Methanol",
+        "tert-Butanol"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "A secondary alcohol has one H on the carbinol carbon and is oxidised to a ketone; primary alcohols give aldehydes/acids, and tertiary alcohols resist oxidation (no α-H)."
+    },
+    {
+      "id": "che-alcohols-phenols-ethers-009",
+      "q": "Diethyl ether reacts with cold conc. H$_2$SO$_4$ to form",
+      "options": [
+        "ethyl hydrogen sulphate",
+        "sulphonic acid",
+        "an oxonium salt, (C$_2$H$_5$)$_2$O$^+$H HSO$_4^-$",
+        "ethanol and SO$_2$"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "The lone pair on ether oxygen accepts a proton from H$_2$SO$_4$ to form a protonated oxonium salt, which is why ether dissolves in cold conc. H$_2$SO$_4$."
+    },
+    {
+      "id": "che-alcohols-phenols-ethers-010",
+      "q": "The industrial cumene process for making phenol also yields, as a valuable by-product",
+      "options": [
+        "acetic acid",
+        "benzaldehyde",
+        "formaldehyde",
+        "acetone"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "Cumene hydroperoxide, on acid-catalysed rearrangement, cleaves to give phenol and acetone simultaneously."
+    },
+    {
+      "id": "che-alcohols-phenols-ethers-011",
+      "q": "Reimer–Tiemann reaction on phenol using CHCl$_3$/NaOH followed by acid hydrolysis gives mainly",
+      "options": [
+        "benzoic acid",
+        "salicylaldehyde (o-hydroxybenzaldehyde)",
+        "picric acid",
+        "catechol"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "Dichlorocarbene generated from CHCl$_3$/NaOH attacks the phenoxide ring ortho to OH; hydrolysis of the resulting dichloromethyl intermediate gives salicylaldehyde."
+    },
+    {
+      "id": "che-alcohols-phenols-ethers-012",
+      "q": "Bromine water reacts with phenol to give",
+      "options": [
+        "2,4,6-tribromophenol as a white precipitate",
+        "bromobenzene",
+        "no reaction",
+        "a single monobromo product"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "The OH group strongly activates and directs to o,p positions; with excess Br$_2$ water, all three available positions (2,4,6) are substituted, giving a white precipitate — used as a test for phenol."
+    },
+    {
+      "id": "che-alcohols-phenols-ethers-013",
+      "q": "Ethanol and dimethyl ether are functional isomers because",
+      "options": [
+        "they have different molecular formulas",
+        "they have the same molecular formula but different functional groups",
+        "one is aromatic and the other is not",
+        "they have identical physical properties"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "Both have formula C$_2$H$_6$O, but ethanol has an –OH group while dimethyl ether has a C–O–C linkage; ethanol has a much higher b.p. due to H-bonding."
+    },
+    {
+      "id": "che-alcohols-phenols-ethers-014",
+      "q": "Dehydration of alcohols to alkenes with hot conc. H$_2$SO$_4$ follows the ease of reaction",
+      "options": [
+        "2° &gt; 3° &gt; 1°",
+        "all alcohols dehydrate equally",
+        "1° &gt; 2° &gt; 3°",
+        "3° &gt; 2° &gt; 1°"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "Dehydration proceeds via carbocation formation (E1); tertiary carbocations are most stable and form fastest, so tertiary alcohols dehydrate most readily."
+    },
+    {
+      "id": "che-alcohols-phenols-ethers-015",
+      "q": "Which of the following is the strongest acid?",
+      "options": [
+        "p-Nitrophenol",
+        "Phenol",
+        "p-Methoxyphenol",
+        "p-Cresol (p-methylphenol)"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "The electron-withdrawing –NO$_2$ group stabilises the phenoxide ion by resonance, making p-nitrophenol the strongest acid; electron-donating –CH$_3$ and –OCH$_3$ groups decrease acidity relative to phenol."
+    },
+    {
+      "id": "che-alcohols-phenols-ethers-016",
+      "q": "Ethers left standing in contact with air for long periods should not be distilled to dryness because",
+      "options": [
+        "they polymerise to alkenes",
+        "they become acidic",
+        "they may form explosive peroxides that concentrate on distillation",
+        "they decompose explosively at low temperature"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "Ethers slowly autoxidise in air to form unstable peroxides; these are not volatile and become concentrated as the ether distils off, posing an explosion hazard."
+    },
+    {
+      "id": "che-alcohols-phenols-ethers-017",
+      "q": "Which reagent converts a carboxylic acid to a primary alcohol?",
+      "options": [
+        "LiAlH$_4$",
+        "Zn-Hg/HCl",
+        "NaBH$_4$",
+        "PCC (pyridinium chlorochromate)"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "LiAlH$_4$ is a strong enough reducing agent to reduce carboxylic acids (and esters) all the way to primary alcohols; NaBH$_4$ is too weak to reduce acids."
+    },
+    {
+      "id": "che-alcohols-phenols-ethers-018",
+      "q": "3 g of an alcohol reacts completely with excess sodium metal to liberate 0.56 L of H$_2$ gas at STP. If the alcohol is monohydric, its molar mass is approximately",
+      "options": [
+        "46 g/mol",
+        "60 g/mol",
+        "92 g/mol",
+        "30 g/mol"
+      ],
+      "answer": 1,
+      "difficulty": "hard",
+      "explanation": "2ROH + 2Na → 2RONa + H$_2$. Moles of H$_2$ = 0.56/22.4 = 0.025; moles of ROH = 2×0.025 = 0.05. Molar mass = 3/0.05 = 60 g/mol."
+    },
+    {
+      "id": "che-alcohols-phenols-ethers-019",
+      "q": "Phenol does not undergo nucleophilic substitution of the OH group easily (unlike alcohols) because",
+      "options": [
+        "phenol is more acidic than alcohols",
+        "phenol has no lone pair on oxygen",
+        "the C–OH bond in phenol has partial double-bond character due to resonance with the ring",
+        "the ring destabilises the leaving hydroxide ion"
+      ],
+      "answer": 2,
+      "difficulty": "hard",
+      "explanation": "Conjugation of the oxygen lone pair with the ring gives the C–O bond partial double-bond character, strengthening it and making OH a poor leaving group in phenol."
+    },
+    {
+      "id": "che-alcohols-phenols-ethers-020",
+      "q": "Neutral FeCl$_3$ solution gives a characteristic violet/blue-violet colouration with",
+      "options": [
+        "ethers",
+        "alcohols",
+        "alkyl halides",
+        "phenols"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "Phenols form coloured complexes with neutral FeCl$_3$ solution (typically violet/blue/green depending on the phenol), a classic qualitative test; alcohols do not give this colour."
+    },
+    {
+      "id": "che-alcohols-phenols-ethers-021",
+      "q": "Which method of alcohol preparation gives an anti-Markovnikov addition of water across a double bond?",
+      "options": [
+        "Hydroboration-oxidation of an alkene (B$_2$H$_6$, then H$_2$O$_2$/NaOH)",
+        "Reduction of an aldehyde with NaBH$_4$",
+        "Hydrolysis of a Grignard reagent",
+        "Acid-catalysed hydration of an alkene"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "In hydroboration-oxidation, boron adds to the less substituted carbon (anti-Markovnikov) and is then replaced by OH with retention of configuration, giving the anti-Markovnikov alcohol; acid-catalysed hydration instead follows Markovnikov's rule."
+    },
+    {
+      "id": "che-alcohols-phenols-ethers-022",
+      "q": "Which of these reagents can convert a ketone directly into a tertiary alcohol with two new alkyl groups added?",
+      "options": [
+        "H$_2$/Pd",
+        "A Grignard reagent, RMgX (2 equivalents needed on an ester, but 1 on a ketone gives a 3° alcohol with one new group)",
+        "NaBH$_4$",
+        "LiAlH$_4$"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "A Grignard reagent adds to the carbonyl carbon of a ketone; after aqueous work-up this gives a tertiary alcohol bearing the new R group from the Grignard reagent along with the two original substituents from the ketone."
+    },
+    {
+      "id": "che-alcohols-phenols-ethers-023",
+      "q": "Ortho-nitrophenol is more volatile (has a lower boiling point) than para-nitrophenol mainly because",
+      "options": [
+        "ortho-nitrophenol is ionic",
+        "para-nitrophenol cannot form hydrogen bonds",
+        "ortho-nitrophenol has intramolecular hydrogen bonding (chelation), reducing intermolecular association, while para-nitrophenol has intermolecular H-bonding, raising its boiling point",
+        "para-nitrophenol has a smaller molecular mass"
+      ],
+      "answer": 2,
+      "difficulty": "hard",
+      "explanation": "In o-nitrophenol, the OH and NO$_2$ groups are close enough to form an intramolecular hydrogen bond, which reduces association between molecules and lowers its boiling point and volatility relative to the para isomer, which instead forms intermolecular H-bonds and has a higher boiling point."
+    },
+    {
+      "id": "che-alcohols-phenols-ethers-024",
+      "q": "Which of the following statements is correct regarding the boiling points of alcohols compared to ethers of similar molar mass?",
+      "options": [
+        "Alcohols have much lower boiling points than ethers because ethers are ionic",
+        "Ethers and alcohols of similar molar mass always boil at the same temperature",
+        "Ethers always have higher boiling points than alcohols",
+        "Alcohols have higher boiling points than ethers of comparable molar mass because alcohols can hydrogen bond with each other, while ethers cannot"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "Alcohols possess an O–H group capable of intermolecular hydrogen bonding, which requires more energy to overcome on boiling, whereas ethers (R–O–R') have no O–H and hence weaker dipole-dipole interactions only, giving them lower boiling points."
+    },
+    {
+      "id": "che-alcohols-phenols-ethers-025",
+      "q": "Which of the following alcohols would react FASTEST with Lucas reagent to give an immediate turbidity?",
+      "options": [
+        "2-butanol (secondary)",
+        "ethanol",
+        "1-butanol",
+        "2-methyl-2-butanol (tertiary)"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "Lucas reagent (conc. HCl/ZnCl$_2$) reacts via S$_N$1; tertiary alcohols form the most stable carbocation and react (turn turbid) immediately at room temperature."
+    },
+    {
+      "id": "che-alcohols-phenols-ethers-026",
+      "q": "Phenol reacts with zinc dust to give",
+      "options": [
+        "cyclohexanone",
+        "cyclohexanol",
+        "benzene",
+        "catechol"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "When phenol is heated with zinc dust, the C–OH group is removed and replaced by hydrogen (deoxygenation), giving benzene."
+    },
+    {
+      "id": "che-alcohols-phenols-ethers-027",
+      "q": "Which of the following correctly ranks the acidity of ethanol, water, and phenol from strongest to weakest acid?",
+      "options": [
+        "phenol &gt; water &gt; ethanol",
+        "water &gt; ethanol &gt; phenol",
+        "phenol &gt; ethanol &gt; water",
+        "ethanol &gt; water &gt; phenol"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "Resonance stabilisation of the phenoxide ion makes phenol the strongest acid of the three; ethanol is the weakest because the ethyl group's +I effect increases electron density on oxygen, disfavouring loss of H$^+$."
+    },
+    {
+      "id": "che-alcohols-phenols-ethers-028",
+      "q": "A mixed ether, CH$_3$–O–C(CH$_3$)$_3$ (methyl tert-butyl ether), is heated with excess HI. The major products are expected to be",
+      "options": [
+        "methanol and tert-butyl iodide",
+        "tert-butanol and methyl iodide (S$_N$1 cleavage occurs at the more substituted, tertiary carbon)",
+        "two molecules of methyl iodide",
+        "tert-butyl alcohol only, with no alkyl iodide"
+      ],
+      "answer": 1,
+      "difficulty": "hard",
+      "explanation": "With a tertiary alkyl group present, ether cleavage by HI proceeds via S$_N$1 at the tertiary carbon (stable carbocation), giving tert-butanol (which may further react) and methyl iodide, rather than cleavage at the less reactive methyl-oxygen bond."
+    },
+    {
+      "id": "che-alcohols-phenols-ethers-029",
+      "q": "1.15 g of ethanol (M = 46 g/mol) is completely converted to sodium ethoxide by excess sodium. The volume of H$_2$ gas liberated at STP is",
+      "options": [
+        "2.24 L",
+        "0.28 L",
+        "1.12 L",
+        "0.56 L"
+      ],
+      "answer": 1,
+      "difficulty": "hard",
+      "explanation": "Moles of ethanol = 1.15/46 = 0.025. From 2ROH + 2Na $\\to$ 2RONa + H$_2$, moles of H$_2$ = 0.025/2 = 0.0125. Volume at STP = 0.0125 $\\times$ 22.4 = 0.28 L."
+    },
+    {
+      "id": "che-alcohols-phenols-ethers-030",
+      "q": "Which of the following would NOT give a positive iodoform test?",
+      "options": [
+        "Isopropanol (propan-2-ol)",
+        "Ethanol",
+        "Acetone",
+        "1-propanol (n-propanol)"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "n-Propanol lacks a CH$_3$CH(OH)– or CH$_3$CO– group (its OH is on a carbon bearing only one methylene, not a methyl, group with the required substitution pattern), so it does not give the iodoform test, unlike ethanol, isopropanol and acetone."
+    },
+    {
+      "id": "che-alcohols-phenols-ethers-031",
+      "q": "Which of the following pairs of compounds are position isomers of the same alcohol formula, C$_4$H$_9$OH?",
+      "options": [
+        "1-butanol and diethyl ether",
+        "2-butanol and methanol",
+        "1-butanol and 2-butanol",
+        "ethanol and dimethyl ether"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "1-Butanol and 2-butanol have the same molecular formula (C$_4$H$_{10}$O) and the same functional group (–OH) but differ in the position of the OH group on the carbon chain, making them position (chain-position) isomers."
+    },
+    {
+      "id": "che-alcohols-phenols-ethers-032",
+      "q": "Which of the following is the correct order of increasing acidity: phenol, o-cresol (o-methylphenol), o-nitrophenol?",
+      "options": [
+        "o-cresol &lt; phenol &lt; o-nitrophenol",
+        "all three have identical acidity",
+        "o-nitrophenol &lt; phenol &lt; o-cresol",
+        "phenol &lt; o-cresol &lt; o-nitrophenol"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "The electron-donating methyl group in o-cresol reduces acidity relative to phenol, while the electron-withdrawing nitro group in o-nitrophenol increases acidity, giving the order o-cresol &lt; phenol &lt; o-nitrophenol."
+    },
+    {
+      "id": "che-alcohols-phenols-ethers-033",
+      "q": "The reaction of phenol with dimethyl sulphate in the presence of NaOH gives which class of product?",
+      "options": [
+        "A carboxylic acid",
+        "A ketone",
+        "An amine",
+        "An aryl ether (anisole-type, via O-alkylation)"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "Sodium phenoxide is a good nucleophile at oxygen; it reacts with methylating agents like dimethyl sulphate to give the aryl methyl ether (O-alkylation), e.g. phenol to anisole."
+    },
+    {
+      "id": "che-alcohols-phenols-ethers-034",
+      "q": "Which of the following correctly describes the mechanism of dehydration of a secondary alcohol like 2-butanol with hot conc. H$_2$SO$_4$?",
+      "options": [
+        "E2 with a single concerted step and no intermediate",
+        "Free radical elimination",
+        "Protonation of OH, loss of water to form a carbocation, then loss of a $\\beta$-hydrogen (E1)",
+        "Nucleophilic substitution followed by oxidation"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "Acid-catalysed dehydration of 2° and 3° alcohols proceeds via protonation of OH, departure of water to form a carbocation intermediate, and then loss of a proton from a $\\beta$-carbon (E1 mechanism) to give the alkene."
+    },
+    {
+      "id": "che-alcohols-phenols-ethers-035",
+      "q": "Which of the following alcohols, upon oxidation with excess acidified KMnO$_4$, gives a carboxylic acid with the SAME number of carbon atoms?",
+      "options": [
+        "A primary alcohol",
+        "A secondary alcohol (gives a ketone, not an acid)",
+        "A tertiary alcohol",
+        "None of these give a carboxylic acid"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "A primary alcohol is oxidised first to an aldehyde and then further to a carboxylic acid with strong oxidants like acidified KMnO$_4$, retaining the same carbon skeleton/count."
+    },
+    {
+      "id": "che-alcohols-phenols-ethers-036",
+      "q": "Which statement about the industrial preparation of phenol from chlorobenzene versus from cumene is correct?",
+      "options": [
+        "Both processes give identical by-products",
+        "The Dow process (from chlorobenzene) requires much harsher conditions (623 K, 300 atm) than the more economical cumene process, which is why cumene is now the preferred industrial route",
+        "The cumene process requires extremely high pressure and temperature, unlike the Dow (chlorobenzene) process",
+        "Neither process is used industrially today"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "The chlorobenzene route needs very high temperature and pressure due to the strong, resonance-stabilised C–Cl bond, making it energy-intensive; the cumene process operates under milder conditions and also yields useful acetone as a co-product, making it the economically preferred industrial method."
+    },
+    {
+      "id": "che-alcohols-phenols-ethers-037",
+      "q": "Which of the following ethers would undergo the FASTEST cleavage with HI, considering steric and electronic factors?",
+      "options": [
+        "Dimethyl ether (least hindered but no special stabilisation)",
+        "Di-tert-butyl ether (very hindered, but tertiary carbocation forms via S$_N$1 readily)",
+        "Diethyl ether (S$_N$2 favoured, moderate rate)",
+        "Methyl phenyl ether cleaving at the aryl-oxygen bond"
+      ],
+      "answer": 1,
+      "difficulty": "hard",
+      "explanation": "Even though di-tert-butyl ether is sterically hindered for S$_N$2, its tertiary carbon readily forms a stable carbocation, so cleavage proceeds rapidly via S$_N$1; aryl-oxygen bonds (as in anisole) do not cleave at all under these conditions."
+    },
+    {
+      "id": "che-alcohols-phenols-ethers-038",
+      "q": "Picric acid (2,4,6-trinitrophenol) is a much stronger acid than phenol because",
+      "options": [
+        "nitro groups donate electron density into the ring",
+        "picric acid is not aromatic",
+        "the three electron-withdrawing nitro groups stabilise the phenoxide ion strongly by resonance and induction",
+        "it has no OH group"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "Each nitro group withdraws electron density from the ring by both resonance and induction; with three such groups at positions that can conjugate with the phenoxide oxygen, picric acid's conjugate base is exceptionally stabilised, making it nearly as strong as some mineral acids."
+    },
+    {
+      "id": "che-alcohols-phenols-ethers-039",
+      "q": "Ethanol is denatured (for industrial use, to avoid excise duty on drinking alcohol) typically by adding",
+      "options": [
+        "salt to increase its boiling point",
+        "distilled water only",
+        "a small amount of sugar to sweeten it",
+        "a small amount of a poisonous or nauseating substance such as methanol or pyridine so it becomes unfit for drinking"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "Denaturation involves adding substances such as methanol, pyridine, or copper sulphate to ethanol so it becomes unfit for consumption while still usable for industrial and laboratory purposes."
+    },
+    {
+      "id": "che-alcohols-phenols-ethers-040",
+      "q": "Which of the following would react with sodium metal to liberate hydrogen gas but would NOT dissolve in aqueous NaOH?",
+      "options": [
+        "Ethanol",
+        "Phenol",
+        "p-Cresol",
+        "p-Nitrophenol"
+      ],
+      "answer": 0,
+      "difficulty": "hard",
+      "explanation": "Both alcohols and phenols react with reactive sodium metal (any O–H bond can do this), but alcohols are far too weakly acidic to be deprotonated by NaOH; phenols (pKa around 10) do dissolve in NaOH, forming soluble sodium phenoxides."
+    }
+  ]
+}

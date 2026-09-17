@@ -1,0 +1,525 @@
+{
+  "notes": "<h3>Basic terms</h3><ul><li>System: part of universe under study; surroundings: rest. Types: open (exchanges matter & energy), closed (only energy), isolated (neither).</li><li>State functions (depend only on initial/final state): $U$, $H$, $S$, $G$, $P$, $V$, $T$. Path functions: heat $q$, work $w$.</li><li>Sign convention (IUPAC): heat absorbed by system $+q$; work done ON system $+w$.</li></ul><h3>First law</h3><ul><li>$\\Delta U = q + w$ (energy conservation). For expansion against constant external pressure: $w = -p_{ext}\\Delta V$. Isothermal reversible (ideal gas): $w = -nRT\\ln\\dfrac{V_2}{V_1}$.</li><li>Enthalpy: $H = U + pV$; at constant pressure $\\Delta H = \\Delta U + p\\Delta V = q_p$. $\\Delta H = \\Delta U + \\Delta n_g RT$ for reactions involving gases.</li><li>$C_p - C_v = R$ (per mole, ideal gas). $C_p/C_v = \\gamma$.</li></ul><h3>Thermochemistry</h3><table><tr><th>Enthalpy type</th><th>Meaning</th></tr><tr><td>$\\Delta_f H^\\circ$</td><td>Formation of 1 mol compound from elements in standard states; $\\Delta_fH^\\circ$ of an element = 0</td></tr><tr><td>$\\Delta_c H^\\circ$</td><td>Complete combustion of 1 mol substance in O$_2$ (always negative)</td></tr><tr><td>$\\Delta_{sol}H, \\Delta_{fus}H, \\Delta_{vap}H$</td><td>Solution, fusion (melting), vaporisation</td></tr></table><p>Hess's law: $\\Delta H$ for a reaction is the same whether it occurs in one step or several, since $H$ is a state function — allows adding/subtracting thermochemical equations to get $\\Delta H$ of a target reaction.</p><h3>Second law & entropy</h3><ul><li>Entropy $S$ is a measure of disorder/randomness; $\\Delta S_{universe} > 0$ for a spontaneous process (2nd law). $\\Delta S = q_{rev}/T$.</li><li>$\\Delta S > 0$: solid → liquid → gas, dissolution, increase in moles of gas.</li></ul><h3>Gibbs energy & spontaneity</h3><ul><li>$\\Delta G = \\Delta H - T\\Delta S$ (at constant $T,P$). $\\Delta G < 0$: spontaneous; $\\Delta G = 0$: equilibrium; $\\Delta G > 0$: non-spontaneous (needs external work).</li><li>$\\Delta G^\\circ = -RT\\ln K = -2.303RT\\log K$.</li></ul><table><tr><th>$\\Delta H$</th><th>$\\Delta S$</th><th>Spontaneity</th></tr><tr><td>$-$</td><td>$+$</td><td>always spontaneous</td></tr><tr><td>$+$</td><td>$-$</td><td>never spontaneous</td></tr><tr><td>$-$</td><td>$-$</td><td>spontaneous at low $T$</td></tr><tr><td>$+$</td><td>$+$</td><td>spontaneous at high $T$</td></tr></table><h3>Third law</h3><p>The entropy of a perfectly crystalline substance is zero at 0 K, allowing absolute entropy values to be calculated.</p><h3>Exam tip</h3><p>2 questions typically: a Hess's-law numerical (add/subtract given $\\Delta H$ values), and a $\\Delta G = \\Delta H - T\\Delta S$ spontaneity/sign-based question. Watch sign conventions on work done.</p>",
+  "questions": [
+    {
+      "id": "che-thermodynamics-001",
+      "q": "For an isolated system, which of the following is correct?",
+      "options": [
+        "Both matter and energy can be exchanged freely",
+        "Only energy can be exchanged",
+        "Only matter can be exchanged",
+        "Neither matter nor energy can be exchanged with surroundings"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "An isolated system exchanges neither matter nor energy with its surroundings (e.g. an ideal thermos flask)."
+    },
+    {
+      "id": "che-thermodynamics-002",
+      "q": "According to the IUPAC sign convention, if a gas absorbs 200 J of heat and does 50 J of work on the surroundings, $\\Delta U$ is",
+      "options": [
+        "+150 J",
+        "-150 J",
+        "+250 J",
+        "-250 J"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "$q = +200$ J (absorbed); $w = -50$ J (done by system). $\\Delta U = q + w = 200 - 50 = 150$ J."
+    },
+    {
+      "id": "che-thermodynamics-003",
+      "q": "Which of the following is a state function?",
+      "options": [
+        "Heat",
+        "Both heat and work",
+        "Enthalpy",
+        "Work"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "Enthalpy $H$ depends only on the initial and final states, unlike heat and work, which depend on the path taken."
+    },
+    {
+      "id": "che-thermodynamics-004",
+      "q": "For the reaction $N_2(g) + 3H_2(g) \\to 2NH_3(g)$, the relation between $\\Delta H$ and $\\Delta U$ is",
+      "options": [
+        "$\\Delta H = \\Delta U + 2RT$",
+        "$\\Delta H = \\Delta U - 2RT$",
+        "$\\Delta H = \\Delta U$",
+        "$\\Delta H = \\Delta U - RT$"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "$\\Delta n_g = 2 - (1+3) = -2$. $\\Delta H = \\Delta U + \\Delta n_g RT = \\Delta U - 2RT$."
+    },
+    {
+      "id": "che-thermodynamics-005",
+      "q": "One mole of an ideal gas expands isothermally and reversibly from 10 L to 20 L at 300 K. The work done (w, IUPAC convention) is ($R = 8.314\\,\\text{J K}^{-1}\\text{mol}^{-1}$)",
+      "options": [
+        "$0$ J",
+        "$+1729$ J",
+        "$-3458$ J",
+        "$-1729$ J"
+      ],
+      "answer": 3,
+      "difficulty": "hard",
+      "explanation": "$w = -nRT\\ln(V_2/V_1) = -1\\times8.314\\times300\\times\\ln2 = -8.314\\times300\\times0.693 \\approx -1729$ J."
+    },
+    {
+      "id": "che-thermodynamics-006",
+      "q": "Hess's law is a direct consequence of the fact that",
+      "options": [
+        "enthalpy is a state function",
+        "work is path-independent",
+        "entropy is a state function",
+        "energy can be created"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "Since $H$ depends only on initial and final states, the total $\\Delta H$ for a reaction is the same regardless of the number of steps taken."
+    },
+    {
+      "id": "che-thermodynamics-007",
+      "q": "Given: $C(s) + O_2(g) \\to CO_2(g)$, $\\Delta H = -393.5\\,\\text{kJ}$ and $CO(g) + \\tfrac12O_2(g) \\to CO_2(g)$, $\\Delta H = -283.0\\,\\text{kJ}$. The enthalpy of formation of CO(g) is",
+      "options": [
+        "$+110.5$ kJ mol$^{-1}$",
+        "$-110.5$ kJ mol$^{-1}$",
+        "$-676.5$ kJ mol$^{-1}$",
+        "$-338.25$ kJ mol$^{-1}$"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "$\\Delta H_f(CO) = \\Delta H_1 - \\Delta H_2 = -393.5 - (-283.0) = -110.5$ kJ mol$^{-1}$ (subtracting the second equation from the first)."
+    },
+    {
+      "id": "che-thermodynamics-008",
+      "q": "For a spontaneous process, the second law of thermodynamics requires that",
+      "options": [
+        "$\\Delta S_{surroundings} > 0$ always",
+        "$\\Delta S_{system} > 0$ always",
+        "$\\Delta S_{universe} > 0$",
+        "$\\Delta S_{universe} = 0$"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "A spontaneous process increases the total entropy of the universe (system + surroundings), even if the system's own entropy decreases."
+    },
+    {
+      "id": "che-thermodynamics-009",
+      "q": "For which of the following processes is $\\Delta S$ negative?",
+      "options": [
+        "Melting of ice",
+        "Dissolving NaCl in water",
+        "$N_2(g) + 3H_2(g) \\to 2NH_3(g)$",
+        "Sublimation of dry ice"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "Moles of gas decrease from 4 to 2, decreasing randomness, so $\\Delta S < 0$. The other processes increase disorder."
+    },
+    {
+      "id": "che-thermodynamics-010",
+      "q": "A reaction has $\\Delta H = -50\\,\\text{kJ mol}^{-1}$ and $\\Delta S = -100\\,\\text{J K}^{-1}\\text{mol}^{-1}$. It is spontaneous",
+      "options": [
+        "at low temperatures only",
+        "at all temperatures",
+        "at high temperatures only",
+        "never"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "$\\Delta G = \\Delta H - T\\Delta S$; with $\\Delta H<0$ and $\\Delta S<0$, $\\Delta G$ stays negative only while $T$ is small enough that $T\\Delta S$ doesn't outweigh $\\Delta H$: spontaneous at low $T$."
+    },
+    {
+      "id": "che-thermodynamics-011",
+      "q": "The standard Gibbs energy change is related to the equilibrium constant by",
+      "options": [
+        "$\\Delta G^\\circ = RT\\ln K$",
+        "$\\Delta G^\\circ = RT/K$",
+        "$\\Delta G^\\circ = -RT/\\ln K$",
+        "$\\Delta G^\\circ = -RT\\ln K$"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "$\\Delta G^\\circ = -RT\\ln K = -2.303RT\\log K$; a large $K$ (product-favoured) gives a large negative $\\Delta G^\\circ$."
+    },
+    {
+      "id": "che-thermodynamics-012",
+      "q": "According to the third law of thermodynamics, the entropy of a perfectly crystalline substance at 0 K is",
+      "options": [
+        "maximum",
+        "zero",
+        "negative",
+        "equal to its enthalpy"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "At 0 K a perfect crystal has only one possible microstate (perfect order), so its entropy is taken as zero."
+    },
+    {
+      "id": "che-thermodynamics-013",
+      "q": "For an ideal gas, $C_p - C_v$ equals",
+      "options": [
+        "$R/2$",
+        "$R$",
+        "$\\gamma R$",
+        "$2R$"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "From $H = U + pV = U + RT$ (per mole ideal gas), differentiating w.r.t. $T$ gives $C_p - C_v = R$."
+    },
+    {
+      "id": "che-thermodynamics-014",
+      "q": "Combustion reactions are always",
+      "options": [
+        "endothermic",
+        "non-spontaneous",
+        "exothermic",
+        "at equilibrium"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "Combustion in oxygen releases energy as heat and light, so $\\Delta_cH$ is always negative (exothermic)."
+    },
+    {
+      "id": "che-thermodynamics-015",
+      "q": "Work done on the system during a free expansion of an ideal gas into vacuum ($p_{ext}=0$) is",
+      "options": [
+        "maximum positive",
+        "equal to $\\Delta U$",
+        "maximum negative",
+        "zero"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "$w = -p_{ext}\\Delta V$; since $p_{ext} = 0$ (vacuum), no work is done, whatever the volume change."
+    },
+    {
+      "id": "che-thermodynamics-016",
+      "q": "If $\\Delta H > 0$ and $\\Delta S > 0$ for a reaction, it will be spontaneous",
+      "options": [
+        "only at high temperatures",
+        "only at low temperatures",
+        "at all temperatures",
+        "never"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "$\\Delta G = \\Delta H - T\\Delta S$ becomes negative only when $T$ is large enough that $T\\Delta S$ exceeds $\\Delta H$: spontaneous at high $T$."
+    },
+    {
+      "id": "che-thermodynamics-017",
+      "q": "The enthalpy of formation of an element in its standard state is taken as",
+      "options": [
+        "0",
+        "always negative",
+        "equal to its enthalpy of combustion",
+        "+1 kJ/mol"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "By convention, the standard enthalpy of formation of an element in its most stable form is zero (reference point)."
+    },
+    {
+      "id": "che-thermodynamics-018",
+      "q": "A process for which $q = 0$ is called",
+      "options": [
+        "isothermal",
+        "isobaric",
+        "isochoric",
+        "adiabatic"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "In an adiabatic process no heat is exchanged with the surroundings ($q=0$), so $\\Delta U = w$."
+    },
+    {
+      "id": "che-thermodynamics-019",
+      "q": "2 mol of an ideal gas at constant pressure of 1 atm expands from 5 L to 10 L. The work done (w, IUPAC convention) is (1 L atm = 101.3 J)",
+      "options": [
+        "$0$ J",
+        "$+506.5$ J",
+        "$-506.5$ J",
+        "$-1013$ J"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "$w = -p\\Delta V = -1\\times(10-5) = -5$ L atm $= -5\\times101.3 = -506.5$ J (work done on the system is negative since the gas expands against external pressure)."
+    },
+    {
+      "id": "che-thermodynamics-020",
+      "q": "Which of the following has the largest (most positive) entropy?",
+      "options": [
+        "1 mol ice at $-10^\\circ$C",
+        "1 mol H$_2$O(g)",
+        "1 mol H$_2$O(s)",
+        "1 mol H$_2$O(l)"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "Gases have the highest degree of molecular disorder/randomness compared to liquids and solids, hence the highest entropy."
+    },
+    {
+      "id": "che-thermodynamics-021",
+      "q": "Which of the following is an intensive property?",
+      "options": [
+        "temperature",
+        "mass",
+        "total heat capacity",
+        "volume"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "Intensive properties (temperature, pressure, density) do not depend on the amount of substance, unlike extensive properties (volume, mass, heat capacity)."
+    },
+    {
+      "id": "che-thermodynamics-022",
+      "q": "100 g of water is heated from 25 °C to 35 °C. The heat absorbed is (specific heat of water = 4.18 J g$^{-1}$ °C$^{-1}$)",
+      "options": [
+        "41.8 kJ",
+        "0.418 kJ",
+        "4.18 kJ",
+        "418 kJ"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "$q = mc\\Delta T = 100\\times4.18\\times10 = 4180$ J $= 4.18$ kJ."
+    },
+    {
+      "id": "che-thermodynamics-023",
+      "q": "The enthalpy of neutralisation of a strong acid with a strong base is",
+      "options": [
+        "always positive (endothermic)",
+        "about $-57.3$ kJ mol$^{-1}$, nearly the same for all strong acid–strong base pairs",
+        "exactly 0",
+        "different for every acid–base pair"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "Since strong acids and bases are fully ionised, neutralisation is essentially $H^+ + OH^- \\to H_2O$ in every case, releasing about 57.3 kJ per mole of water formed."
+    },
+    {
+      "id": "che-thermodynamics-024",
+      "q": "Using bond enthalpies H–H = 436, Cl–Cl = 242, H–Cl = 431 kJ mol$^{-1}$, the enthalpy change for $H_2(g) + Cl_2(g) \\to 2HCl(g)$ is",
+      "options": [
+        "$-368$ kJ mol$^{-1}$",
+        "$-92$ kJ mol$^{-1}$",
+        "+184 kJ mol$^{-1}$",
+        "$-184$ kJ mol$^{-1}$"
+      ],
+      "answer": 3,
+      "difficulty": "hard",
+      "explanation": "$\\Delta H = \\Sigma BE_{reactants} - \\Sigma BE_{products} = (436+242) - 2(431) = 678 - 862 = -184$ kJ mol$^{-1}$."
+    },
+    {
+      "id": "che-thermodynamics-025",
+      "q": "The entropy change when 1 mol of ice melts at 273 K is (given $\\Delta_{fus}H = 6.01$ kJ mol$^{-1}$)",
+      "options": [
+        "22.0 J K$^{-1}$mol$^{-1}$",
+        "6.01 J K$^{-1}$mol$^{-1}$",
+        "44.0 J K$^{-1}$mol$^{-1}$",
+        "273 J K$^{-1}$mol$^{-1}$"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "$\\Delta S = \\Delta H/T = 6010/273 \\approx 22.0$ J K$^{-1}$mol$^{-1}$ (phase change occurs at constant $T$, so $q_{rev} = \\Delta H$)."
+    },
+    {
+      "id": "che-thermodynamics-026",
+      "q": "Which of the following is an endothermic process?",
+      "options": [
+        "freezing of water",
+        "combustion of methane",
+        "neutralisation of HCl with NaOH",
+        "melting of ice"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "Melting requires energy input to break the lattice of hydrogen bonds in ice, so heat is absorbed ($\\Delta H > 0$)."
+    },
+    {
+      "id": "che-thermodynamics-027",
+      "q": "For a process occurring at constant volume,",
+      "options": [
+        "$q_v = w$",
+        "$q_v = 0$ always",
+        "$q_v = \\Delta U$, since no p-V work is done at constant volume",
+        "$q_v = \\Delta H$ always"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "At constant volume, $\\Delta V = 0$ so $w = -p\\Delta V = 0$, and from the first law $\\Delta U = q_v + w = q_v$."
+    },
+    {
+      "id": "che-thermodynamics-028",
+      "q": "The enthalpy of atomisation of a substance is",
+      "options": [
+        "the energy released when a compound forms from its elements",
+        "the energy required to convert one mole of a substance into gaseous atoms",
+        "the energy needed to melt one mole of a solid",
+        "the energy released during combustion of one mole of substance"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "Enthalpy of atomisation is the energy needed to break all bonds and produce gaseous atoms from one mole of an element or compound; it is always positive."
+    },
+    {
+      "id": "che-thermodynamics-029",
+      "q": "For the isothermal expansion of an ideal gas between the same initial and final volumes, the magnitude of work done by the gas is",
+      "options": [
+        "greater in the reversible process than in a single-step irreversible process",
+        "exactly the same in both processes",
+        "greater in the irreversible process",
+        "zero in the reversible process"
+      ],
+      "answer": 0,
+      "difficulty": "hard",
+      "explanation": "A reversible process proceeds through a continuous series of near-equilibrium states, extracting the maximum possible work; any irreversible path against a smaller effective pressure does less work for the same volume change."
+    },
+    {
+      "id": "che-thermodynamics-030",
+      "q": "Resonance energy of a molecule is the energy difference between the actual (hybrid) structure and",
+      "options": [
+        "the transition state energy",
+        "the most stable canonical (contributing) structure",
+        "the least stable canonical structure",
+        "any arbitrarily chosen structure"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "Resonance energy is defined relative to the most stable single (canonical) Lewis structure; the true molecule is more stable (lower energy) than this by the resonance energy."
+    },
+    {
+      "id": "che-thermodynamics-031",
+      "q": "The maximum useful (non-expansion) work obtainable from a spontaneous process at constant temperature and pressure is",
+      "options": [
+        "equal to $T\\Delta S$ only",
+        "zero, since all such work becomes heat",
+        "equal to $\\Delta H$",
+        "equal in magnitude to $\\Delta G$"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "At constant $T,P$, the decrease in Gibbs energy ($-\\Delta G$) equals the maximum work obtainable other than pressure–volume work."
+    },
+    {
+      "id": "che-thermodynamics-032",
+      "q": "Which of the following statements about spontaneity is correct?",
+      "options": [
+        "spontaneity guarantees that a reaction is exothermic",
+        "a spontaneous reaction always proceeds instantaneously",
+        "a thermodynamically spontaneous reaction (e.g. diamond → graphite, $\\Delta G<0$) can still be kinetically very slow",
+        "if $\\Delta G > 0$, a reaction can still occur rapidly"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "Thermodynamic spontaneity ($\\Delta G < 0$) only tells us a reaction can occur; the rate depends on kinetics (activation energy), so a spontaneous reaction may proceed extremely slowly."
+    },
+    {
+      "id": "che-thermodynamics-033",
+      "q": "The entropy change for vaporisation of 1 mol of water at its boiling point (373 K, $\\Delta_{vap}H = 40.7$ kJ mol$^{-1}$) is",
+      "options": [
+        "21.8 J K$^{-1}$mol$^{-1}$",
+        "109.1 J K$^{-1}$mol$^{-1}$",
+        "40.7 J K$^{-1}$mol$^{-1}$",
+        "373 J K$^{-1}$mol$^{-1}$"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "$\\Delta S = \\Delta H/T = 40700/373 \\approx 109.1$ J K$^{-1}$mol$^{-1}$."
+    },
+    {
+      "id": "che-thermodynamics-034",
+      "q": "Given $\\Delta_cH(C, \\text{graphite}) = -393.5$, $\\Delta_cH(H_2) = -285.8$ kJ mol$^{-1}$, and $C_2H_6(g) + \\tfrac72O_2(g) \\to 2CO_2(g) + 3H_2O(l)$, $\\Delta H = -1560$ kJ mol$^{-1}$, the enthalpy of formation of C$_2$H$_6$(g) is",
+      "options": [
+        "+84.4 kJ mol$^{-1}$",
+        "$-3204.4$ kJ mol$^{-1}$",
+        "$-84.4$ kJ mol$^{-1}$",
+        "$-1644.4$ kJ mol$^{-1}$"
+      ],
+      "answer": 2,
+      "difficulty": "hard",
+      "explanation": "$\\Delta H_f(C_2H_6) = 2\\Delta_cH(C) + 3\\Delta_cH(H_2) - \\Delta H_{combustion} = 2(-393.5)+3(-285.8)-(-1560) = -1644.4+1560 = -84.4$ kJ mol$^{-1}$."
+    },
+    {
+      "id": "che-thermodynamics-035",
+      "q": "A system that can exchange only energy, but not matter, with its surroundings is called a(n)",
+      "options": [
+        "closed system",
+        "open system",
+        "isolated system",
+        "none of these"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "A closed system allows energy transfer across its boundary but not matter transfer (e.g. a sealed, conducting container)."
+    },
+    {
+      "id": "che-thermodynamics-036",
+      "q": "A gas expands against a constant external pressure of 2 atm from 2 L to 6 L. The work done (w, IUPAC convention) is (1 L atm = 101.3 J)",
+      "options": [
+        "$-810$ J",
+        "$-405$ J",
+        "$-1620$ J",
+        "+810 J"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "$w = -p_{ext}\\Delta V = -2\\times(6-2) = -8$ L atm $= -8\\times101.3 \\approx -810$ J."
+    },
+    {
+      "id": "che-thermodynamics-037",
+      "q": "All naturally occurring spontaneous processes are thermodynamically",
+      "options": [
+        "reversible",
+        "adiabatic only",
+        "isothermal only",
+        "irreversible"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "A truly reversible process is an idealised, infinitely slow limit; all real (spontaneous) processes occurring at a finite rate are irreversible."
+    },
+    {
+      "id": "che-thermodynamics-038",
+      "q": "For a reaction with $\\Delta H \\approx 0$ and $\\Delta S > 0$ (e.g. mixing of ideal gases), the reaction is",
+      "options": [
+        "spontaneous only at absolute zero",
+        "spontaneous at all temperatures (T > 0)",
+        "at equilibrium at all temperatures",
+        "non-spontaneous at all temperatures"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "$\\Delta G = \\Delta H - T\\Delta S \\approx -T\\Delta S$, which is negative for any $T > 0$ when $\\Delta S > 0$, so the process is spontaneous at all temperatures."
+    },
+    {
+      "id": "che-thermodynamics-039",
+      "q": "For a monoatomic ideal gas, the ratio $C_p/C_v$ ($\\gamma$) is approximately",
+      "options": [
+        "1.4",
+        "2.0",
+        "1.67",
+        "1.33"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "For a monoatomic gas, $C_v = \\tfrac32R$ and $C_p = \\tfrac52R$, so $\\gamma = C_p/C_v = 5/3 \\approx 1.67$."
+    },
+    {
+      "id": "che-thermodynamics-040",
+      "q": "In an exothermic reaction,",
+      "options": [
+        "the enthalpy of products is less than that of reactants",
+        "heat is absorbed from the surroundings",
+        "$\\Delta H$ is positive",
+        "the enthalpy of products is greater than that of reactants"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "In an exothermic reaction heat is released to the surroundings, so the products end up at a lower enthalpy than the reactants, making $\\Delta H = H_{products} - H_{reactants}$ negative."
+    }
+  ]
+}

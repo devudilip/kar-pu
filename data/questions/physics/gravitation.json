@@ -1,0 +1,525 @@
+{
+  "notes": "<h3>Newton's law of gravitation</h3><ul><li>$F = \\dfrac{Gm_1m_2}{r^2}$; $G = 6.67\\times10^{-11}\\,\\text{N m}^2\\text{kg}^{-2}$, a universal constant with the same value everywhere, independent of the medium.</li></ul><h3>Acceleration due to gravity ($g$)</h3><ul><li>At the surface: $g = \\dfrac{GM}{R^2}$.</li><li>At height $h$: $g' = \\dfrac{g}{(1+h/R)^2} \\approx g\\left(1-\\dfrac{2h}{R}\\right)$ for $h\\ll R$.</li><li>At depth $d$: $g' = g\\left(1-\\dfrac{d}{R}\\right)$.</li><li>For the same small distance from the surface, $g$ decreases twice as fast going up as it does going down.</li></ul><h3>Gravitational potential energy & escape velocity</h3><ul><li>$U = -\\dfrac{GMm}{r}$ (taken zero at infinity; becomes more negative as $r$ decreases, i.e. as the body is brought closer).</li><li>Escape velocity $v_e = \\sqrt{2gR} = \\sqrt{\\dfrac{2GM}{R}} \\approx 11.2\\,\\text{km s}^{-1}$ for Earth; independent of the mass of the body being projected.</li></ul><h3>Orbital motion of satellites</h3><ul><li>Orbital velocity close to the surface $v_o = \\sqrt{\\dfrac{GM}{r}}$; related to escape velocity by $v_e = \\sqrt2\\,v_o$.</li><li>Total mechanical energy of an orbiting satellite $= -\\dfrac{GMm}{2r}$ (always negative, hence a bound orbit).</li><li>Astronauts in an orbiting spacecraft feel weightless because they and the craft are both in continuous free fall with the same acceleration &mdash; not because gravity is absent there.</li><li>Geostationary satellite: time period 24 h, orbits in the equatorial plane in the same sense as Earth's rotation, altitude $\\approx 36000$ km.</li></ul><h3>Kepler's laws</h3><table><tr><th>Law</th><th>Statement</th></tr><tr><td>1st</td><td>Orbit is an ellipse with the Sun at one focus</td></tr><tr><td>2nd</td><td>Equal areas swept in equal times (a consequence of conservation of angular momentum)</td></tr><tr><td>3rd</td><td>$T^2 \\propto r^3$</td></tr></table><h3>Exam tip</h3><p>KCET typically sets 1&ndash;2 questions from this chapter, often on the variation of $g$ with height/depth or a Kepler's-third-law ratio problem. Memorise the $v_e=\\sqrt2\\,v_o$ shortcut &mdash; it saves valuable time.</p>",
+  "questions": [
+    {
+      "id": "phy-gravitation-001",
+      "q": "Two point masses of 2 kg and 3 kg are placed 1 m apart. The gravitational force of attraction between them ($G = 6.67\\times10^{-11}$ N m$^2$ kg$^{-2}$) is approximately",
+      "options": [
+        "$1.2\\times10^{-9}$ N",
+        "$2\\times10^{-10}$ N",
+        "$4\\times10^{-10}$ N",
+        "$6.67\\times10^{-11}$ N"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "$F = \\dfrac{Gm_1m_2}{r^2} = \\dfrac{6.67\\times10^{-11}\\times2\\times3}{1^2} \\approx 4\\times10^{-10}$ N."
+    },
+    {
+      "id": "phy-gravitation-002",
+      "q": "If the distance between two point masses is doubled, keeping the masses unchanged, the gravitational force between them becomes",
+      "options": [
+        "four times",
+        "one-fourth",
+        "double",
+        "half"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "$F \\propto 1/r^2$; doubling $r$ reduces $F$ to $1/2^2 = 1/4$ of its original value."
+    },
+    {
+      "id": "phy-gravitation-003",
+      "q": "If both masses in a gravitating pair are doubled while the distance between them stays the same, the gravitational force becomes",
+      "options": [
+        "four times",
+        "half",
+        "unchanged",
+        "double"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "$F \\propto m_1m_2$; doubling both masses multiplies $F$ by $2\\times2 = 4$."
+    },
+    {
+      "id": "phy-gravitation-004",
+      "q": "At a height equal to the radius of the Earth ($h = R$) above the surface, the acceleration due to gravity is",
+      "options": [
+        "$g/3$",
+        "$2g$",
+        "$g/2$",
+        "$g/4$"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "$g' = \\dfrac{g}{(1+h/R)^2} = \\dfrac{g}{(1+1)^2} = \\dfrac{g}{4}$."
+    },
+    {
+      "id": "phy-gravitation-005",
+      "q": "At a depth equal to half the Earth's radius ($d = R/2$), the acceleration due to gravity is",
+      "options": [
+        "$3g/4$",
+        "$g/4$",
+        "$g$",
+        "$g/2$"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "$g' = g\\left(1-\\dfrac{d}{R}\\right) = g\\left(1-\\dfrac12\\right) = \\dfrac{g}{2}$."
+    },
+    {
+      "id": "phy-gravitation-006",
+      "q": "If the Earth's radius were halved while its mass stayed the same, the escape velocity from its surface would become",
+      "options": [
+        "$\\sqrt2$ times the original",
+        "unchanged",
+        "half the original",
+        "2 times the original"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "$v_e = \\sqrt{2GM/R}$, so $v_e \\propto 1/\\sqrt{R}$. Halving $R$ multiplies $v_e$ by $\\sqrt2$."
+    },
+    {
+      "id": "phy-gravitation-007",
+      "q": "The escape velocity $v_e$ from a planet's surface is related to the orbital velocity $v_o$ of a satellite skimming just above the surface by",
+      "options": [
+        "$v_e = 2v_o$",
+        "$v_e = v_o/\\sqrt2$",
+        "$v_e = \\sqrt2\\,v_o$",
+        "$v_e = v_o$"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "$v_o = \\sqrt{GM/R}$ and $v_e = \\sqrt{2GM/R} = \\sqrt2\\,v_o$."
+    },
+    {
+      "id": "phy-gravitation-008",
+      "q": "Two planets orbit the Sun with orbital radii in the ratio 4 : 1. The ratio of their time periods is",
+      "options": [
+        "4 : 1",
+        "8 : 1",
+        "2 : 1",
+        "16 : 1"
+      ],
+      "answer": 1,
+      "difficulty": "hard",
+      "explanation": "By Kepler's third law $T \\propto r^{3/2}$, so $T_1/T_2 = (r_1/r_2)^{3/2} = 4^{3/2} = 8$."
+    },
+    {
+      "id": "phy-gravitation-009",
+      "q": "As a body is brought from infinity towards the Earth, its gravitational potential energy",
+      "options": [
+        "becomes more positive (increases)",
+        "remains zero throughout",
+        "first decreases then increases",
+        "becomes more negative (decreases)"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "$U = -GMm/r$; as $r$ decreases, $1/r$ increases, so $U$ becomes more negative."
+    },
+    {
+      "id": "phy-gravitation-010",
+      "q": "Astronauts inside an orbiting space station feel weightless mainly because",
+      "options": [
+        "they and the station are both in continuous free fall, accelerating toward Earth at the same rate",
+        "gravity is exactly cancelled by the vacuum of space",
+        "the station moves at constant velocity with zero acceleration",
+        "there is no gravitational force acting at that altitude"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "Gravity at orbital altitude is still substantial; apparent weightlessness arises because the station and everything in it fall freely together, so there is no normal contact force."
+    },
+    {
+      "id": "phy-gravitation-011",
+      "q": "A geostationary satellite has a time period of",
+      "options": [
+        "12 hours, in the equatorial plane",
+        "24 hours, in any orbital plane",
+        "24 hours, and it orbits in the equatorial plane",
+        "90 minutes, in the equatorial plane"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "A geostationary satellite must match Earth's rotation period (about 24 h) and stay above a fixed point on the equator, so it must orbit in the equatorial plane."
+    },
+    {
+      "id": "phy-gravitation-012",
+      "q": "The escape velocity of a body from the Earth's surface",
+      "options": [
+        "is inversely proportional to the mass of the body",
+        "is independent of the mass of the body being projected",
+        "increases if the body's mass increases",
+        "is directly proportional to the mass of the body"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "$v_e = \\sqrt{2GM/R}$ depends only on the mass and radius of the planet, not on the mass of the projected body."
+    },
+    {
+      "id": "phy-gravitation-013",
+      "q": "The universal gravitational constant $G$",
+      "options": [
+        "depends on the medium between the two masses",
+        "has the same value everywhere in the universe and does not depend on the medium",
+        "increases with the masses of the interacting bodies",
+        "has different values in air and in vacuum"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "$G$ is a fundamental constant of nature, believed to be the same everywhere and unaffected by the intervening medium."
+    },
+    {
+      "id": "phy-gravitation-014",
+      "q": "Using $g = 10$ m s$^{-2}$, $R = 6.4\\times10^6$ m and $G = 6.67\\times10^{-11}$ N m$^2$ kg$^{-2}$, the mass of the Earth calculated from $M = gR^2/G$ is approximately",
+      "options": [
+        "$4.10\\times10^{24}$ kg",
+        "$5.97\\times10^{24}$ kg",
+        "$6.14\\times10^{24}$ kg",
+        "$6.67\\times10^{24}$ kg"
+      ],
+      "answer": 2,
+      "difficulty": "hard",
+      "explanation": "$M = \\dfrac{gR^2}{G} = \\dfrac{10\\times(6.4\\times10^6)^2}{6.67\\times10^{-11}} = \\dfrac{4.096\\times10^{14}}{6.67\\times10^{-11}} \\approx 6.14\\times10^{24}$ kg."
+    },
+    {
+      "id": "phy-gravitation-015",
+      "q": "Two satellites orbit the same planet with orbital radii in the ratio 1 : 4. The ratio of their orbital speeds is",
+      "options": [
+        "2 : 1",
+        "1 : 2",
+        "1 : 4",
+        "4 : 1"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "$v_o \\propto 1/\\sqrt{r}$, so $v_1/v_2 = \\sqrt{r_2/r_1} = \\sqrt{4} = 2$."
+    },
+    {
+      "id": "phy-gravitation-016",
+      "q": "The total mechanical energy of a satellite of mass $m$ moving in a stable circular orbit of radius $r$ around a planet of mass $M$ is",
+      "options": [
+        "$+\\dfrac{GMm}{2r}$",
+        "zero",
+        "$-\\dfrac{GMm}{r}$",
+        "$-\\dfrac{GMm}{2r}$"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "Kinetic energy $\\frac12mv_o^2 = \\dfrac{GMm}{2r}$ and potential energy $-\\dfrac{GMm}{r}$; adding gives total energy $-\\dfrac{GMm}{2r}$, negative because the satellite is gravitationally bound."
+    },
+    {
+      "id": "phy-gravitation-017",
+      "q": "For a small distance $x$ from the Earth's surface ($x \\ll R$), compared to the fractional decrease in $g$ on descending to depth $x$, the fractional decrease in $g$ on rising to height $x$ is",
+      "options": [
+        "four times as much",
+        "twice as much",
+        "the same",
+        "half as much"
+      ],
+      "answer": 1,
+      "difficulty": "hard",
+      "explanation": "For small $x$: rising gives $\\Delta g/g \\approx 2x/R$, while descending gives $\\Delta g/g \\approx x/R$ &mdash; so $g$ falls off twice as fast with height as with depth."
+    },
+    {
+      "id": "phy-gravitation-018",
+      "q": "Newton's law of gravitation is stated exactly for two point masses. For two uniform spherical bodies, it can still be applied by taking $r$ as",
+      "options": [
+        "the distance between their nearest surfaces",
+        "the sum of their radii",
+        "their mean radius",
+        "the distance between their centres"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "A uniform sphere behaves gravitationally, for points outside it, as if its entire mass were concentrated at its centre, so $r$ is measured centre to centre."
+    },
+    {
+      "id": "phy-gravitation-019",
+      "q": "Kepler's second law (a planet sweeps out equal areas in equal time intervals) is a direct consequence of the conservation of",
+      "options": [
+        "mechanical energy",
+        "linear momentum",
+        "angular momentum",
+        "mass"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "Gravitational force on a planet is central (along the line to the Sun), so it exerts no torque about the Sun; hence angular momentum, and therefore areal velocity, stays constant."
+    },
+    {
+      "id": "phy-gravitation-020",
+      "q": "The acceleration due to gravity on the Earth's surface is slightly less at the equator than at the poles. This is mainly due to",
+      "options": [
+        "Earth's rotation and its equatorial bulge, both of which reduce effective g at the equator",
+        "the Moon being closer to the equator",
+        "atmospheric pressure being higher at the equator",
+        "the Sun's gravitational pull being stronger at the equator"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "Earth's rotation produces an outward effect greatest at the equator, and the equatorial radius is also larger due to the bulge (g \\propto 1/R^2); both effects lower g there compared to the poles."
+    },
+    {
+      "id": "phy-gravitation-021",
+      "q": "Treating the Earth as a uniform solid sphere, the acceleration due to gravity at its centre is",
+      "options": [
+        "zero",
+        "maximum",
+        "equal to the surface value g",
+        "infinite"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "$g' = g(1-d/R)$; at the centre $d=R$, so $g'=0$. Only the mass enclosed within radius $r$ contributes, and none is enclosed at $r=0$."
+    },
+    {
+      "id": "phy-gravitation-022",
+      "q": "A planet $P_1$ orbits the Sun with a time period of 1 year at distance $r$. Another planet $P_2$ orbits at distance $4r$. Using Kepler's third law, the time period of $P_2$ is",
+      "options": [
+        "16 years",
+        "8 years",
+        "2 years",
+        "4 years"
+      ],
+      "answer": 1,
+      "difficulty": "hard",
+      "explanation": "$T \\propto r^{3/2}$, so $T_2 = T_1(4)^{3/2} = 1\\times8 = 8$ years."
+    },
+    {
+      "id": "phy-gravitation-023",
+      "q": "A satellite orbiting just above Earth's surface (radius $R$) has time period $T_0$. Another satellite orbits at height $h=R$ above the surface (orbital radius $2R$). Its time period is",
+      "options": [
+        "$4T_0$",
+        "$2T_0$",
+        "$\\sqrt2\\,T_0$",
+        "$2\\sqrt2\\,T_0$"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "$T \\propto r^{3/2}$; $T = T_0(2R/R)^{3/2} = T_0\\times2^{3/2} = 2\\sqrt2\\,T_0 \\approx 2.83T_0$."
+    },
+    {
+      "id": "phy-gravitation-024",
+      "q": "The minimum energy that must be supplied to a satellite of mass $m$, moving in a circular orbit of radius $r$ about a planet of mass $M$, to send it to infinity (its binding energy) is",
+      "options": [
+        "zero",
+        "$\\dfrac{GMm}{r}$",
+        "$\\dfrac{GMm}{2r}$",
+        "$\\dfrac{2GMm}{r}$"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "Total energy of the orbit is $-\\dfrac{GMm}{2r}$. To take the satellite to infinity (zero energy), an energy $+\\dfrac{GMm}{2r}$ must be supplied — this is the binding energy."
+    },
+    {
+      "id": "phy-gravitation-025",
+      "q": "The Moon has about 1/4 the Earth's radius and about 1/6 its surface gravity. If Earth's escape velocity is 11.2 km/s, the Moon's escape velocity is closest to",
+      "options": [
+        "11.2 km/s",
+        "4.6 km/s",
+        "2.3 km/s",
+        "5.6 km/s"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "$v_e=\\sqrt{2gR}$, so $v_{e,\\text{moon}}/v_{e,\\text{earth}} = \\sqrt{(1/6)(1/4)} = \\sqrt{1/24}\\approx0.204$; $0.204\\times11.2\\approx2.3$ km/s."
+    },
+    {
+      "id": "phy-gravitation-026",
+      "q": "Two planets have equal acceleration due to gravity at their surfaces, but planet B has twice the radius of planet A. The ratio of their mean densities $\\rho_A:\\rho_B$ is",
+      "options": [
+        "4:1",
+        "2:1",
+        "1:2",
+        "1:4"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "$g=\\dfrac{4}{3}\\pi G\\rho R$, so for equal $g$, $\\rho R$ is constant; with $R_B=2R_A$, $\\rho_B=\\rho_A/2$, giving $\\rho_A:\\rho_B=2:1$."
+    },
+    {
+      "id": "phy-gravitation-027",
+      "q": "Two point masses $m$ and $4m$ are separated by a distance $d$. The gravitational potential at the midpoint of the line joining them is",
+      "options": [
+        "$-\\dfrac{10Gm}{d}$",
+        "$-\\dfrac{8Gm}{d}$",
+        "$-\\dfrac{6Gm}{d}$",
+        "$-\\dfrac{5Gm}{d}$"
+      ],
+      "answer": 0,
+      "difficulty": "hard",
+      "explanation": "Each mass is $d/2$ from the midpoint: $V=-\\dfrac{Gm}{d/2}-\\dfrac{G(4m)}{d/2} = -\\dfrac{2Gm}{d}-\\dfrac{8Gm}{d} = -\\dfrac{10Gm}{d}$."
+    },
+    {
+      "id": "phy-gravitation-028",
+      "q": "Point masses $m$ and $4m$ are fixed a distance $d$ apart. The point on the line joining them where the resultant gravitational field is zero lies at a distance from $m$ equal to",
+      "options": [
+        "$2d/3$",
+        "$d/2$",
+        "$d/4$",
+        "$d/3$"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "Setting $\\dfrac{Gm}{x^2}=\\dfrac{G(4m)}{(d-x)^2}$ gives $d-x=2x$, so $x=d/3$."
+    },
+    {
+      "id": "phy-gravitation-029",
+      "q": "For an artificial satellite moving in a stable circular orbit, its kinetic energy $K$ and potential energy $U$ are related by",
+      "options": [
+        "$U=-K$",
+        "$U=-2K$",
+        "$U=2K$",
+        "$U=-K/2$"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "$K=\\dfrac{GMm}{2r}$ and $U=-\\dfrac{GMm}{r}=-2K$."
+    },
+    {
+      "id": "phy-gravitation-030",
+      "q": "If the Earth suddenly stopped rotating about its axis (its shape unchanged), the apparent weight of a body resting at the equator would",
+      "options": [
+        "increase",
+        "become zero",
+        "remain exactly the same",
+        "decrease"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "Currently part of the true gravitational force at the equator supplies the centripetal force for rotation, reducing apparent weight; if rotation stops, this requirement vanishes and the full gravitational force is felt as weight, so apparent weight increases."
+    },
+    {
+      "id": "phy-gravitation-031",
+      "q": "Two identical satellites A and B orbit the same planet in circular orbits of radii $r$ and $4r$ respectively. The ratio of their kinetic energies $K_A:K_B$ is",
+      "options": [
+        "1:4",
+        "1:2",
+        "4:1",
+        "2:1"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "$K=\\dfrac{GMm}{2r}\\propto\\dfrac1r$, so $K_A:K_B = \\dfrac{1/r}{1/4r} = 4:1$."
+    },
+    {
+      "id": "phy-gravitation-032",
+      "q": "The energy required to shift a satellite of mass $m$ from a circular orbit of radius $r$ to one of radius $2r$, around a planet of mass $M$, is",
+      "options": [
+        "$\\dfrac{GMm}{2r}$",
+        "$\\dfrac{GMm}{r}$",
+        "$\\dfrac{GMm}{8r}$",
+        "$\\dfrac{GMm}{4r}$"
+      ],
+      "answer": 3,
+      "difficulty": "hard",
+      "explanation": "$E_1=-\\dfrac{GMm}{2r}$, $E_2=-\\dfrac{GMm}{4r}$; energy needed $=E_2-E_1=\\dfrac{GMm}{4r}$."
+    },
+    {
+      "id": "phy-gravitation-033",
+      "q": "Assertion (A): A planet moves fastest when closest to the Sun (perihelion) and slowest when farthest (aphelion). Reason (R): The planet's angular momentum about the Sun is conserved, so a smaller orbital radius must be compensated by a larger speed to keep the areal velocity constant.",
+      "options": [
+        "Both A and R are true, but R is not the correct explanation of A",
+        "Both A and R are true, and R is a correct explanation of A",
+        "A is true but R is false",
+        "A is false but R is true"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "Kepler's second law follows from conservation of angular momentum; as $r$ decreases near the Sun, $v$ must increase to keep angular momentum (and areal velocity) constant, making the planet fastest at perihelion."
+    },
+    {
+      "id": "phy-gravitation-034",
+      "q": "Which of the following statements about gravitation is INCORRECT?",
+      "options": [
+        "The acceleration due to gravity of a freely falling body is independent of its mass.",
+        "Escape velocity from a planet's surface does not depend on the angle at which the body is projected.",
+        "The gravitational constant $G$ has the same value in air, water and vacuum.",
+        "The gravitational force between two point masses depends on the medium separating them."
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "Unlike electrostatic force, which can be modified by a dielectric medium, gravitational force is unaffected by the intervening medium — statement D is false."
+    },
+    {
+      "id": "phy-gravitation-035",
+      "q": "The orbital speed of a satellite moving in a circular orbit around a planet depends on",
+      "options": [
+        "the mass of the planet and the orbital radius, but not on the satellite's mass",
+        "the mass of the satellite only",
+        "the mass of the satellite and the orbital radius",
+        "the mass of the planet only, irrespective of orbital radius"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "$v_o=\\sqrt{GM/r}$ depends on the planet's mass $M$ and orbital radius $r$; the satellite's own mass cancels out."
+    },
+    {
+      "id": "phy-gravitation-036",
+      "q": "If the mass of the Earth were 4 times its present value while its radius stayed the same, the escape velocity from its surface would become",
+      "options": [
+        "half",
+        "4 times",
+        "2 times",
+        "unchanged"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "$v_e=\\sqrt{2GM/R}\\propto\\sqrt M$; quadrupling $M$ multiplies $v_e$ by $\\sqrt4=2$."
+    },
+    {
+      "id": "phy-gravitation-037",
+      "q": "A hypothetical planet has the same mass as Earth but half its radius. Taking Earth's escape velocity as 11.2 km/s, the escape velocity from this planet is approximately",
+      "options": [
+        "22.4 km/s",
+        "15.8 km/s",
+        "7.9 km/s",
+        "11.2 km/s"
+      ],
+      "answer": 1,
+      "difficulty": "hard",
+      "explanation": "$v_e\\propto1/\\sqrt R$ for the same $M$; halving $R$ multiplies $v_e$ by $\\sqrt2$: $11.2\\times\\sqrt2\\approx15.8$ km/s."
+    },
+    {
+      "id": "phy-gravitation-038",
+      "q": "A graph of the acceleration due to gravity $g$ against distance $r$ from Earth's centre rises linearly from zero at $r=0$ to a maximum at the surface ($r=R$), then falls off following an inverse-square curve for $r>R$. This shape arises because",
+      "options": [
+        "gravity does not exist inside solid matter",
+        "g is constant everywhere inside and outside the Earth",
+        "inside the Earth only the mass enclosed within radius $r$ pulls the point (growing with $r$), while outside the entire mass acts as if concentrated at the centre, giving $1/r^2$ fall-off",
+        "the density of the Earth is exactly uniform outside the surface as well"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "Inside, $g\\propto r$ because enclosed mass $\\propto r^3$ so $g=GM_{enc}/r^2 \\propto r$; outside, all mass $M$ acts from the centre giving the standard $1/r^2$ decrease."
+    },
+    {
+      "id": "phy-gravitation-039",
+      "q": "Gravitational potential energy of a two-mass system is conventionally taken to be zero when the separation between the masses is",
+      "options": [
+        "infinite",
+        "equal to the sum of their radii",
+        "equal to Earth's radius",
+        "zero"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "By convention, $U=-GMm/r \\to 0$ as $r\\to\\infty$, which is chosen as the reference (zero) level of gravitational potential energy."
+    },
+    {
+      "id": "phy-gravitation-040",
+      "q": "Newton's law of gravitation obeys Newton's third law, meaning that",
+      "options": [
+        "only the more massive body exerts a force",
+        "gravitational forces do not occur in pairs",
+        "the smaller body feels a smaller-magnitude force than the larger body exerts",
+        "the two mutual gravitational forces are equal in magnitude and opposite in direction, acting on the two different bodies"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "By Newton's third law, the force each mass exerts on the other is equal in magnitude ($Gm_1m_2/r^2$ for both) and opposite in direction, even though the masses differ."
+    }
+  ]
+}

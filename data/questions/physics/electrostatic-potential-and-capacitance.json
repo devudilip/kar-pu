@@ -1,0 +1,525 @@
+{
+  "notes": "<h3>Potential & Potential Energy</h3><ul><li>Potential due to a point charge: $V = \\dfrac{kq}{r}$; potential is a scalar, $V=0$ at infinity.</li><li>$\\vec{E} = -\\dfrac{dV}{dr}$ (field points from high to low potential); work done in moving a charge $q$ between two points $= q(V_A-V_B)$, independent of path.</li><li>Potential energy of two charges: $U = \\dfrac{kq_1q_2}{r}$. For a system of point charges, sum over all pairs.</li><li>Potential due to a dipole: axial $V = \\dfrac{kp}{r^2}$ (for $r\\gg a$), equatorial $V = 0$.</li></ul><h3>Equipotential Surfaces</h3><ul><li>Always perpendicular to field lines; no work done moving a charge along one; surfaces are spheres for a point charge, planes for a uniform field.</li></ul><h3>Conductors</h3><ul><li>Electric field inside a conductor (electrostatic) is zero; the entire conductor (surface + interior) is at the same potential; charge resides only on the outer surface; field is strongest where curvature is highest (action at points).</li></ul><h3>Capacitance</h3><ul><li>$C = Q/V$, SI unit farad (F). Parallel plate capacitor: $C_0 = \\dfrac{\\varepsilon_0 A}{d}$ (vacuum); with dielectric $K$ filling the gap: $C = \\dfrac{K\\varepsilon_0 A}{d} = KC_0$.</li><li>With a dielectric slab of thickness $t < d$ partially filling the gap: $C = \\dfrac{\\varepsilon_0 A}{d - t + t/K}$.</li></ul><h3>Combinations</h3><table><tr><th></th><th>Series</th><th>Parallel</th></tr><tr><td>Formula</td><td>$\\dfrac1C=\\dfrac1{C_1}+\\dfrac1{C_2}+\\dots$</td><td>$C=C_1+C_2+\\dots$</td></tr><tr><td>Same on all</td><td>charge $Q$</td><td>voltage $V$</td></tr></table><h3>Energy</h3><ul><li>Energy stored: $U = \\dfrac12CV^2 = \\dfrac{Q^2}{2C} = \\dfrac12QV$; energy density $u = \\dfrac12\\varepsilon_0E^2$.</li><li>Charging a battery-connected capacitor with dielectric: $V$ constant, $C$ and $Q$ increase by factor $K$, energy increases by $K$.</li><li>Isolated (charge constant) capacitor with dielectric inserted: $Q$ constant, $C$ increases by $K$, $V$ and energy decrease by factor $K$.</li><li>Van de Graaff generator: builds up very high potential (few MV) by continuously spraying charge onto a large hollow conducting sphere, used to accelerate charged particles.</li></ul><h3>Exam tip</h3><p>KCET typically asks 2–3 questions from this chapter, usually a potential-due-to-charges numerical, a series/parallel capacitor combination, and one on dielectric effect or energy stored. Watch for the battery-connected vs isolated-capacitor distinction — a classic trap.</p>",
+  "questions": [
+    {
+      "id": "phy-electrostatic-potential-and-capacitance-001",
+      "q": "The electric potential at a point 20 cm from a point charge of 4 $\\mu$C is",
+      "options": [
+        "$9\\times10^4$ V",
+        "$3.6\\times10^5$ V",
+        "$1.8\\times10^5$ V",
+        "$1.8\\times10^4$ V"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "$V = kq/r = 9\\times10^9\\times4\\times10^{-6}/0.2 = 1.8\\times10^5$ V."
+    },
+    {
+      "id": "phy-electrostatic-potential-and-capacitance-002",
+      "q": "Two point charges of $+2\\,\\mu$C and $-2\\,\\mu$C are placed symmetrically 10 cm apart. The potential at the midpoint of the line joining them is",
+      "options": [
+        "$1.8\\times10^5$ V",
+        "zero",
+        "$-3.6\\times10^5$ V",
+        "$3.6\\times10^5$ V"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "Potential is scalar: $V = kq_1/r + kq_2/r$; equal and opposite charges equidistant give $V = 0$ (unlike the field, which is non-zero there)."
+    },
+    {
+      "id": "phy-electrostatic-potential-and-capacitance-003",
+      "q": "A charge of 5 $\\mu$C is moved from a point at potential 200 V to a point at potential 50 V. The work done by the electric force is",
+      "options": [
+        "$-1.25\\times10^{-3}$ J",
+        "$1.25\\times10^{-3}$ J",
+        "$-7.5\\times10^{-4}$ J",
+        "$7.5\\times10^{-4}$ J"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "$W = q(V_A-V_B) = 5\\times10^{-6}\\times(200-50) = 7.5\\times10^{-4}$ J."
+    },
+    {
+      "id": "phy-electrostatic-potential-and-capacitance-004",
+      "q": "The work done in moving a charge along an equipotential surface is",
+      "options": [
+        "zero",
+        "infinite",
+        "negative",
+        "positive"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "All points on an equipotential surface are at the same potential, so $W=q(V_A-V_B)=0$."
+    },
+    {
+      "id": "phy-electrostatic-potential-and-capacitance-005",
+      "q": "A parallel plate capacitor has plate area 0.02 m$^2$ and separation 2 mm. Its capacitance in air is (take $\\varepsilon_0 = 8.85\\times10^{-12}$ F/m)",
+      "options": [
+        "$0.885$ pF",
+        "$88.5$ pF",
+        "$8.85$ pF",
+        "$885$ pF"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "$C = \\varepsilon_0A/d = 8.85\\times10^{-12}\\times0.02/(2\\times10^{-3}) = 8.85\\times10^{-11} = 88.5$ pF."
+    },
+    {
+      "id": "phy-electrostatic-potential-and-capacitance-006",
+      "q": "A capacitor of capacitance 10 $\\mu$F is charged to 100 V and then a dielectric slab of dielectric constant 5 is inserted between the plates while it remains connected to the battery. The new charge on the capacitor is",
+      "options": [
+        "$5000\\,\\mu$C",
+        "$200\\,\\mu$C",
+        "$1000\\,\\mu$C",
+        "$100\\,\\mu$C"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "Connected to battery, $V$ stays 100 V; $C' = KC = 50\\,\\mu$F; $Q' = C'V = 50\\times100 = 5000\\,\\mu$C."
+    },
+    {
+      "id": "phy-electrostatic-potential-and-capacitance-007",
+      "q": "An isolated charged capacitor (battery disconnected) has a dielectric slab of dielectric constant 4 inserted between its plates. The energy stored",
+      "options": [
+        "doubles",
+        "increases 4 times",
+        "remains the same",
+        "decreases to 1/4"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "With charge $Q$ fixed, $C$ becomes $4C$, so $U = Q^2/2C$ decreases to $U/4$."
+    },
+    {
+      "id": "phy-electrostatic-potential-and-capacitance-008",
+      "q": "Three capacitors of 2 $\\mu$F, 3 $\\mu$F and 6 $\\mu$F are connected in series. The equivalent capacitance is",
+      "options": [
+        "0.5 $\\mu$F",
+        "11 $\\mu$F",
+        "1 $\\mu$F",
+        "3.67 $\\mu$F"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "$\\dfrac1C = \\dfrac12+\\dfrac13+\\dfrac16 = \\dfrac{3+2+1}{6}=1 \\Rightarrow C = 1\\,\\mu$F."
+    },
+    {
+      "id": "phy-electrostatic-potential-and-capacitance-009",
+      "q": "Two capacitors of 4 $\\mu$F and 6 $\\mu$F are connected in parallel across a 10 V battery. The total energy stored is",
+      "options": [
+        "250 $\\mu$J",
+        "5000 $\\mu$J",
+        "500 $\\mu$J",
+        "50 $\\mu$J"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "$C_{eq} = 10\\,\\mu$F; $U = \\dfrac12CV^2 = \\dfrac12\\times10\\times10^{-6}\\times100 = 500\\,\\mu$J."
+    },
+    {
+      "id": "phy-electrostatic-potential-and-capacitance-010",
+      "q": "The electric field inside a charged conductor in electrostatic equilibrium is",
+      "options": [
+        "maximum at the centre",
+        "directed along the surface",
+        "equal to $\\sigma/\\varepsilon_0$",
+        "zero"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "In electrostatic equilibrium, free charges rearrange until the net field inside the conductor's material is zero."
+    },
+    {
+      "id": "phy-electrostatic-potential-and-capacitance-011",
+      "q": "A hollow metal sphere of radius 10 cm is charged such that the potential on its surface is 200 V. The potential at its centre is",
+      "options": [
+        "100 V",
+        "200 V",
+        "zero",
+        "400 V"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "A conductor is an equipotential body; since the field inside is zero, the potential inside equals the surface potential, 200 V."
+    },
+    {
+      "id": "phy-electrostatic-potential-and-capacitance-012",
+      "q": "The SI unit of capacitance, the farad, is dimensionally equivalent to",
+      "options": [
+        "C/V",
+        "V/C",
+        "C$\\cdot$V",
+        "J/C"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "$C = Q/V$, so unit is coulomb per volt (C/V), defined as the farad."
+    },
+    {
+      "id": "phy-electrostatic-potential-and-capacitance-013",
+      "q": "A parallel plate capacitor with air as dielectric has capacitance $C$. If the separation between plates is halved and a dielectric of constant $K=4$ completely fills the gap, the new capacitance is",
+      "options": [
+        "$C/2$",
+        "$2C$",
+        "$8C$",
+        "$4C$"
+      ],
+      "answer": 2,
+      "difficulty": "hard",
+      "explanation": "$C \\propto K/d$. Halving $d$ doubles $C$; inserting $K=4$ multiplies by 4: net factor $= 2\\times4 = 8$, so $C' = 8C$."
+    },
+    {
+      "id": "phy-electrostatic-potential-and-capacitance-014",
+      "q": "Two identical capacitors, each of capacitance $C$, are first connected in series and then in parallel across the same battery of emf $V$. The ratio of energy stored in parallel to that in series is",
+      "options": [
+        "1:1",
+        "4:1",
+        "2:1",
+        "1:4"
+      ],
+      "answer": 1,
+      "difficulty": "hard",
+      "explanation": "Series: $C_s=C/2$, $U_s=\\dfrac12\\cdot\\dfrac{C}{2}V^2=\\dfrac{CV^2}{4}$. Parallel: $C_p=2C$, $U_p=\\dfrac12\\cdot2C\\cdot V^2=CV^2$. Ratio $U_p:U_s = 4:1$."
+    },
+    {
+      "id": "phy-electrostatic-potential-and-capacitance-015",
+      "q": "The potential energy of a system of two point charges $+q$ and $-q$ separated by distance $r$ is",
+      "options": [
+        "$-\\dfrac{kq^2}{r}$",
+        "$\\dfrac{kq^2}{r}$, positive",
+        "zero",
+        "$\\dfrac{2kq^2}{r}$"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "$U = \\dfrac{kq_1q_2}{r} = \\dfrac{k(q)(-q)}{r} = -\\dfrac{kq^2}{r}$ (negative, since opposite charges attract)."
+    },
+    {
+      "id": "phy-electrostatic-potential-and-capacitance-016",
+      "q": "In a Van de Graaff generator, charge sprayed onto the inside of a large hollow conducting sphere",
+      "options": [
+        "gets neutralised",
+        "remains uniformly distributed inside the volume",
+        "stays on the inner surface near the point of spraying",
+        "immediately moves to the outer surface of the sphere"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "Charge given to a hollow conductor always moves to its outer surface, allowing the sphere's potential to keep rising as more charge is added."
+    },
+    {
+      "id": "phy-electrostatic-potential-and-capacitance-017",
+      "q": "The energy density of the electric field in vacuum is given by",
+      "options": [
+        "$\\varepsilon_0 E$",
+        "$\\varepsilon_0E^2$",
+        "$\\dfrac{E^2}{2\\varepsilon_0}$",
+        "$\\dfrac12\\varepsilon_0E^2$"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "Energy stored per unit volume in an electric field is $u = \\dfrac12\\varepsilon_0E^2$."
+    },
+    {
+      "id": "phy-electrostatic-potential-and-capacitance-018",
+      "q": "Equipotential surfaces due to an isolated point charge are",
+      "options": [
+        "concentric spheres centred on the charge",
+        "planes perpendicular to the line joining the charge",
+        "concentric cylinders",
+        "radial straight lines"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "Since $V = kq/r$ depends only on distance $r$ from the point charge, surfaces of constant $V$ are concentric spheres."
+    },
+    {
+      "id": "phy-electrostatic-potential-and-capacitance-019",
+      "q": "A capacitor of 4 $\\mu$F is charged to a potential difference of 50 V and then disconnected and connected in parallel to an uncharged 4 $\\mu$F capacitor. The common potential is",
+      "options": [
+        "100 V",
+        "25 V",
+        "50 V",
+        "12.5 V"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "Charge is conserved: $Q = 4\\times50 = 200\\,\\mu$C shared over total capacitance $8\\,\\mu$F; $V = 200/8 = 25$ V."
+    },
+    {
+      "id": "phy-electrostatic-potential-and-capacitance-020",
+      "q": "For two charges kept fixed, the electric potential energy of the system is negative. This implies",
+      "options": [
+        "no work is needed to assemble the system",
+        "the charges are like charges",
+        "the charges are unlike charges and attract each other",
+        "the charges are at infinite separation"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "$U = kq_1q_2/r$ is negative only when $q_1q_2<0$, i.e. unlike charges, which attract; external work would be needed to pull them apart to infinity."
+    },
+    {
+      "id": "phy-electrostatic-potential-and-capacitance-021",
+      "q": "The relationship between electric field $E$ and potential $V$ along a direction $r$ is given by",
+      "options": [
+        "$E = -dV/dr$",
+        "$E = dV/dr$",
+        "$V = dE/dr$",
+        "$E = V/r^2$"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "The electric field is the negative gradient of potential: $E=-dV/dr$, pointing from high to low potential."
+    },
+    {
+      "id": "phy-electrostatic-potential-and-capacitance-022",
+      "q": "Two isolated conducting spheres of radii $R$ and $2R$, carrying some initial charges, are connected by a thin conducting wire until equilibrium. The ratio of the final charges on the smaller sphere to the larger sphere is",
+      "options": [
+        "1:4",
+        "1:1",
+        "2:1",
+        "1:2"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "At equilibrium the spheres reach the same potential: $kq_1/R = kq_2/(2R) \\Rightarrow q_1/q_2 = R/2R = 1/2$; charge divides in proportion to radius."
+    },
+    {
+      "id": "phy-electrostatic-potential-and-capacitance-023",
+      "q": "Four equal charges of $+1\\,\\mu$C each are placed at the four corners of a square such that each corner is 10 cm from the centre. The electric potential at the centre is",
+      "options": [
+        "$9\\times10^5$ V",
+        "$3.6\\times10^5$ V",
+        "$1.44\\times10^6$ V",
+        "$9\\times10^4$ V"
+      ],
+      "answer": 1,
+      "difficulty": "hard",
+      "explanation": "Potential is scalar: $V=4\\times\\dfrac{kq}{r}=4\\times\\dfrac{9\\times10^9\\times10^{-6}}{0.1}=4\\times9\\times10^4=3.6\\times10^5$ V."
+    },
+    {
+      "id": "phy-electrostatic-potential-and-capacitance-024",
+      "q": "The electric potential due to a short dipole of moment $p$ at a point on its axial line at distance $r$ ($r\\gg$ dipole length) is",
+      "options": [
+        "zero",
+        "$kp/r^3$",
+        "$kp/r^2$",
+        "$2kp/r^2$"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "The axial potential of a short dipole is $V=kp/r^2$, falling off faster than a monopole's $kq/r$ but slower than the equatorial value (which is zero)."
+    },
+    {
+      "id": "phy-electrostatic-potential-and-capacitance-025",
+      "q": "The electric potential due to a dipole at any point on its equatorial line (perpendicular bisector of the dipole axis) is",
+      "options": [
+        "infinite",
+        "zero",
+        "equal to the axial potential",
+        "maximum"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "Every point on the equatorial line is equidistant from $+q$ and $-q$, so their potentials cancel exactly, giving $V=0$."
+    },
+    {
+      "id": "phy-electrostatic-potential-and-capacitance-026",
+      "q": "A capacitor is charged from a battery of emf $V$ through a resistor. If the total energy delivered by the battery is $W$, then the energy finally stored in the capacitor and the energy dissipated as heat in the resistor are respectively",
+      "options": [
+        "$W/2$ and $W/2$",
+        "0 and $W$",
+        "$W$ and 0",
+        "$2W/3$ and $W/3$"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "Regardless of the resistance value, exactly half the energy supplied by the battery ($QV$) ends up stored in the capacitor ($\\tfrac12QV$), and the other half is dissipated as heat in the resistor."
+    },
+    {
+      "id": "phy-electrostatic-potential-and-capacitance-027",
+      "q": "A capacitor of capacitance $C$ charged to potential $V$ is connected to an identical uncharged capacitor $C$. The loss of energy in the process is",
+      "options": [
+        "$\\dfrac12CV^2$",
+        "zero",
+        "$\\dfrac14CV^2$",
+        "$CV^2$"
+      ],
+      "answer": 2,
+      "difficulty": "hard",
+      "explanation": "Common potential $=V/2$; final energy $=\\dfrac12(2C)(V/2)^2=\\dfrac14CV^2$; initial energy was $\\dfrac12CV^2$, so the loss $=\\dfrac12CV^2-\\dfrac14CV^2=\\dfrac14CV^2$ (dissipated during charge redistribution)."
+    },
+    {
+      "id": "phy-electrostatic-potential-and-capacitance-028",
+      "q": "For a parallel plate capacitor, if the plate area is doubled and the plate separation is also doubled, the capacitance",
+      "options": [
+        "becomes half",
+        "doubles",
+        "becomes four times",
+        "remains unchanged"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "$C\\propto A/d$; doubling both $A$ and $d$ leaves the ratio, and hence $C$, unchanged."
+    },
+    {
+      "id": "phy-electrostatic-potential-and-capacitance-029",
+      "q": "$n$ identical capacitors, each of capacitance $C$, connected in series give an equivalent capacitance of",
+      "options": [
+        "$C/n^2$",
+        "$nC$",
+        "$n^2C$",
+        "$C/n$"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "In series, $1/C_{eq}=n/C \\Rightarrow C_{eq}=C/n$."
+    },
+    {
+      "id": "phy-electrostatic-potential-and-capacitance-030",
+      "q": "$n$ identical capacitors, each of capacitance $C$, connected in parallel give an equivalent capacitance of",
+      "options": [
+        "$n^2C$",
+        "$nC$",
+        "$C/n$",
+        "$C$"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "In parallel, capacitances simply add: $C_{eq}=nC$."
+    },
+    {
+      "id": "phy-electrostatic-potential-and-capacitance-031",
+      "q": "Two capacitors of 2 $\\mu$F and 2 $\\mu$F are connected in series, and this combination is connected in parallel with a third capacitor of 3 $\\mu$F. The equivalent capacitance is",
+      "options": [
+        "4 $\\mu$F",
+        "1 $\\mu$F",
+        "5 $\\mu$F",
+        "7 $\\mu$F"
+      ],
+      "answer": 0,
+      "difficulty": "hard",
+      "explanation": "Series combination of the two 2 $\\mu$F capacitors gives $1\\,\\mu$F; this in parallel with 3 $\\mu$F gives $1+3=4\\,\\mu$F."
+    },
+    {
+      "id": "phy-electrostatic-potential-and-capacitance-032",
+      "q": "The work done in charging a capacitor of capacitance $C$ from charge 0 to $Q$ is",
+      "options": [
+        "$QV$",
+        "$\\dfrac{Q^2}{C}$",
+        "$\\dfrac{Q^2}{2C}$",
+        "$2QV$"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "The work done in charging equals the energy stored, $U=\\dfrac{Q^2}{2C}$ (not $QV$, since the charging voltage rises gradually from 0 to $V$)."
+    },
+    {
+      "id": "phy-electrostatic-potential-and-capacitance-033",
+      "q": "In a region, the electric potential varies as $V = 200 - 50x$ (SI units), where $x$ is in metres. The electric field in that region is",
+      "options": [
+        "200 N/C, along +x",
+        "50 N/C, along -x",
+        "150 N/C, along -x",
+        "50 N/C, along +x"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "$E=-\\dfrac{dV}{dx}=-(-50)=50$ N/C, directed along the +x direction (potential decreases as $x$ increases, so field points along increasing $x$)."
+    },
+    {
+      "id": "phy-electrostatic-potential-and-capacitance-034",
+      "q": "A parallel plate capacitor is charged and then disconnected from the battery. If the plates are now pulled further apart, the energy stored in the capacitor",
+      "options": [
+        "becomes zero",
+        "decreases",
+        "increases",
+        "remains the same"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "With charge $Q$ fixed, separating the plates decreases $C$ (since $C\\propto1/d$), so $U=Q^2/2C$ increases; the extra energy comes from the work done in pulling the plates apart against their mutual attraction."
+    },
+    {
+      "id": "phy-electrostatic-potential-and-capacitance-035",
+      "q": "A parallel plate capacitor of capacitance 5 pF (with air) is completely filled with a dielectric of dielectric constant 6. Its new capacitance is",
+      "options": [
+        "30 pF",
+        "5 pF",
+        "11 pF",
+        "0.83 pF"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "$C' = KC = 6\\times5 = 30$ pF."
+    },
+    {
+      "id": "phy-electrostatic-potential-and-capacitance-036",
+      "q": "The electric potential due to a point charge $-q$ at a distance $r$ from it is",
+      "options": [
+        "zero",
+        "$-kq/r$",
+        "$kq/r^2$",
+        "$+kq/r$"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "$V=kq'/r$ with $q'=-q$ gives $V=-kq/r$, negative for a negative source charge."
+    },
+    {
+      "id": "phy-electrostatic-potential-and-capacitance-037",
+      "q": "The work done in moving a charge along a closed path in an electrostatic field is always",
+      "options": [
+        "negative",
+        "positive",
+        "zero",
+        "dependent on the path taken"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "The electrostatic field is conservative, so the net work done around any closed path is always zero."
+    },
+    {
+      "id": "phy-electrostatic-potential-and-capacitance-038",
+      "q": "The dielectric constant $K$ of a medium is defined as the ratio of",
+      "options": [
+        "electric field in vacuum to permittivity of the medium",
+        "capacitance with dielectric to capacitance without dielectric (vacuum), for the same capacitor",
+        "capacitance without dielectric to capacitance with dielectric, for the same capacitor",
+        "charge to voltage ratio in vacuum"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "Dielectric constant $K=C_{medium}/C_{vacuum}$ for the same capacitor geometry; it is always $\\ge1$."
+    },
+    {
+      "id": "phy-electrostatic-potential-and-capacitance-039",
+      "q": "Three identical capacitors, each of capacitance $C$, are connected such that two of them are in parallel, and this combination is connected in series with the third. The equivalent capacitance is",
+      "options": [
+        "$C/3$",
+        "$3C$",
+        "$3C/2$",
+        "$2C/3$"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "Two in parallel give $2C$; in series with the third $C$: $C_{eq}=\\dfrac{2C\\times C}{2C+C}=\\dfrac{2C}{3}$."
+    },
+    {
+      "id": "phy-electrostatic-potential-and-capacitance-040",
+      "q": "For a system of three point charges $q_1, q_2, q_3$ at mutual separations $r_{12}, r_{13}, r_{23}$, the total electrostatic potential energy of the system is",
+      "options": [
+        "$k\\left(\\dfrac{q_1q_2}{r_{12}}+\\dfrac{q_1q_3}{r_{13}}+\\dfrac{q_2q_3}{r_{23}}\\right)$",
+        "$k\\left(\\dfrac{q_1q_2q_3}{r_{12}r_{13}r_{23}}\\right)$",
+        "$k\\left(\\dfrac{q_1+q_2+q_3}{r_{12}+r_{13}+r_{23}}\\right)$",
+        "$k\\dfrac{q_1q_2}{r_{12}}$ only"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "The total potential energy is the sum of the pairwise potential energies over all pairs of charges."
+    }
+  ]
+}

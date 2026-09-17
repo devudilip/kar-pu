@@ -1,0 +1,525 @@
+{
+  "notes": "<h3>Structure & preparation</h3><ul><li>Carbonyl carbon is sp$^2$, planar; C=O is polar (electrophilic C). Aldehydes: R–CHO; Ketones: R–CO–R'.</li><li>Preparation: oxidation of 1°/2° alcohols (PCC gives aldehyde without over-oxidation); ozonolysis of alkenes; Rosenmund reduction (RCOCl + H$_2$/Pd-BaSO$_4$ → RCHO, poisoned catalyst prevents further reduction); from nitriles/esters (DIBAL-H, controlled); Friedel–Crafts acylation → aryl ketones.</li></ul><h3>Reactivity order (nucleophilic addition)</h3><ul><li>HCHO &gt; other aldehydes &gt; ketones (steric + electronic: alkyl groups are +I and bulky, reducing electrophilicity of C).</li><li>Aryl aldehydes/ketones are less reactive than alkyl analogues (resonance donates electron density into C=O from ring).</li></ul><h3>Key reactions</h3><table><tr><th>Reagent</th><th>Product</th></tr><tr><td>HCN</td><td>cyanohydrin</td></tr><tr><td>NaHSO$_3$</td><td>bisulphite addition product (purification)</td></tr><tr><td>Grignard reagent</td><td>alcohol (1°/2°/3° depending on substrate)</td></tr><tr><td>NH$_2$–NH$_2$/NH$_2$OH/NH$_2$NHC$_6$H$_5$</td><td>hydrazone/oxime/phenylhydrazone (used in characterisation)</td></tr><tr><td>Zn-Hg/HCl (Clemmensen)</td><td>C=O → CH$_2$ (acidic medium)</td></tr><tr><td>NH$_2$NH$_2$/KOH, glycol (Wolff–Kishner)</td><td>C=O → CH$_2$ (basic medium)</td></tr></table><ul><li>Aldol condensation: carbonyl compounds with α-H, dil. NaOH → β-hydroxy carbonyl → conjugated enone on dehydration.</li><li>Cannizzaro reaction: aldehydes with NO α-H (HCHO, C$_6$H$_5$CHO) + conc. NaOH → disproportionation to alcohol + carboxylate salt.</li><li>Haloform reaction: CH$_3$CO– or CH$_3$CH(OH)– + I$_2$/NaOH → CHI$_3$ (yellow ppt).</li><li>Tests: Tollens' (ammoniacal AgNO$_3$) → silver mirror for aldehydes; Fehling's → brick-red Cu$_2$O for aliphatic aldehydes (not aromatic); iodoform for methyl ketones.</li></ul><h3>Carboxylic acids</h3><ul><li>Acidity: stronger than phenols/alcohols (carboxylate resonance-stabilised over 2 equivalent O). Electron-withdrawing groups (Cl, NO$_2$) increase acidity (e.g. Cl$_3$CCOOH &gt; Cl$_2$CHCOOH &gt; ClCH$_2$COOH &gt; CH$_3$COOH); electron-donating groups decrease it.</li><li>Reactions: esterification (Fischer, conc. H$_2$SO$_4$, reversible); with PCl$_5$/SOCl$_2$ → acid chloride; decarboxylation (soda-lime) → alkane; HVZ reaction (Br$_2$/red P) → α-halo acid.</li><li>Does not give aldol/Cannizzaro (COOH is not a typical carbonyl addition site); reacts with NaHCO$_3$ releasing CO$_2$ (test to distinguish from phenol).</li></ul><h3>Exam tip</h3><p>4–5 questions typical, the highest-weightage organic chapter: reactivity/acidity orders, distinguishing tests (Tollens/Fehling/iodoform), named reactions (Aldol, Cannizzaro, Clemmensen, Wolff-Kishner, HVZ), and one numerical on acid strength/pKa or a synthesis sequence.</p>",
+  "questions": [
+    {
+      "id": "che-aldehydes-ketones-carboxylic-acids-001",
+      "q": "The correct order of reactivity towards nucleophilic addition is",
+      "options": [
+        "acetaldehyde &gt; formaldehyde &gt; acetone",
+        "formaldehyde &gt; acetaldehyde &gt; acetone",
+        "acetone &gt; formaldehyde &gt; acetaldehyde",
+        "acetone &gt; acetaldehyde &gt; formaldehyde"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "Fewer/smaller alkyl groups mean less +I effect and less steric hindrance at the carbonyl carbon, so formaldehyde (no alkyl group) is most reactive, then acetaldehyde, then acetone."
+    },
+    {
+      "id": "che-aldehydes-ketones-carboxylic-acids-002",
+      "q": "Which test distinguishes an aldehyde from a ketone using a colour change to brick-red precipitate?",
+      "options": [
+        "Lucas test",
+        "Tollens' test",
+        "Fehling's test",
+        "Iodoform test"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "Aliphatic aldehydes reduce Fehling's solution (Cu$^{2+}$ complex) to a brick-red precipitate of Cu$_2$O; ketones do not react."
+    },
+    {
+      "id": "che-aldehydes-ketones-carboxylic-acids-003",
+      "q": "Cannizzaro reaction is given by",
+      "options": [
+        "propanal",
+        "acetaldehyde",
+        "acetone",
+        "benzaldehyde (no α-hydrogen)"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "Cannizzaro reaction (self disproportionation to alcohol + carboxylate with conc. NaOH) requires an aldehyde with no α-hydrogen; benzaldehyde qualifies, but acetaldehyde and propanal have α-H and undergo aldol instead."
+    },
+    {
+      "id": "che-aldehydes-ketones-carboxylic-acids-004",
+      "q": "Clemmensen reduction reduces a carbonyl group to CH$_2$ using",
+      "options": [
+        "Zn-Hg/HCl",
+        "H$_2$/Pd-BaSO$_4$",
+        "NH$_2$NH$_2$/KOH",
+        "LiAlH$_4$"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "Clemmensen reduction uses zinc amalgam and concentrated HCl (acidic conditions) to reduce C=O directly to CH$_2$; Wolff-Kishner uses hydrazine/KOH (basic conditions) for the same net transformation."
+    },
+    {
+      "id": "che-aldehydes-ketones-carboxylic-acids-005",
+      "q": "Rosenmund reduction converts an acid chloride to",
+      "options": [
+        "an alcohol",
+        "an alkane",
+        "a carboxylic acid",
+        "an aldehyde"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "RCOCl + H$_2$ over Pd catalyst poisoned with BaSO$_4$/quinoline stops reduction at the aldehyde stage, preventing further reduction to the alcohol."
+    },
+    {
+      "id": "che-aldehydes-ketones-carboxylic-acids-006",
+      "q": "The correct order of acid strength is",
+      "options": [
+        "CH$_3$COOH &gt; ClCH$_2$COOH &gt; Cl$_2$CHCOOH &gt; Cl$_3$CCOOH",
+        "Cl$_3$CCOOH &gt; Cl$_2$CHCOOH &gt; ClCH$_2$COOH &gt; CH$_3$COOH",
+        "Cl$_2$CHCOOH &gt; CH$_3$COOH &gt; Cl$_3$CCOOH &gt; ClCH$_2$COOH",
+        "all are equally acidic"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "Each additional electron-withdrawing Cl atom (–I effect) further stabilises the carboxylate anion, increasing acid strength; trichloroacetic acid is the strongest."
+    },
+    {
+      "id": "che-aldehydes-ketones-carboxylic-acids-007",
+      "q": "Acetic acid does NOT give which of the following reactions?",
+      "options": [
+        "Aldol condensation",
+        "Reaction with NaHCO$_3$ to release CO$_2$",
+        "Reduction with LiAlH$_4$ to ethanol",
+        "Esterification with alcohols"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "Aldol condensation requires an α-H adjacent to a carbonyl carbon that can attack another carbonyl group; carboxylic acids do not undergo this typical aldehyde/ketone reaction."
+    },
+    {
+      "id": "che-aldehydes-ketones-carboxylic-acids-008",
+      "q": "Iodoform test (I$_2$/NaOH, yellow precipitate) is given by",
+      "options": [
+        "formaldehyde only",
+        "benzaldehyde only",
+        "acetone and isopropanol",
+        "n-propanol"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "Compounds with a CH$_3$CO– group (acetone) or a CH$_3$CH(OH)– group (isopropanol) give the yellow CHI$_3$ precipitate on treatment with I$_2$/NaOH; formaldehyde, benzaldehyde and n-propanol lack this structural feature."
+    },
+    {
+      "id": "che-aldehydes-ketones-carboxylic-acids-009",
+      "q": "In the Hell–Volhard–Zelinsky (HVZ) reaction, a carboxylic acid having an α-hydrogen reacts with",
+      "options": [
+        "Cl$_2$/NaOH",
+        "PCl$_5$ to give an acid chloride only",
+        "H$_2$/Ni",
+        "Br$_2$/red phosphorus to give an α-halo acid"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "HVZ reaction uses Br$_2$ (or Cl$_2$) with red phosphorus to selectively halogenate the α-carbon of a carboxylic acid via its acid bromide intermediate."
+    },
+    {
+      "id": "che-aldehydes-ketones-carboxylic-acids-010",
+      "q": "Which of these carbonyl compounds cannot undergo aldol condensation?",
+      "options": [
+        "Propanal",
+        "Acetone",
+        "Benzaldehyde",
+        "Acetaldehyde"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "Benzaldehyde has no α-hydrogen (the carbonyl carbon is directly attached to the aromatic ring), so it cannot self-condense in an aldol reaction; it can, however, undergo crossed (mixed) aldol/Cannizzaro with a partner having α-H."
+    },
+    {
+      "id": "che-aldehydes-ketones-carboxylic-acids-011",
+      "q": "Decarboxylation of sodium acetate with soda lime gives",
+      "options": [
+        "ethane",
+        "methane",
+        "ethanol",
+        "acetylene"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "CH$_3$COONa + NaOH $\\xrightarrow{\\text{CaO, heat}}$ CH$_4$ + Na$_2$CO$_3$; decarboxylation removes CO$_2$ and replaces it with H."
+    },
+    {
+      "id": "che-aldehydes-ketones-carboxylic-acids-012",
+      "q": "Which reagent converts an aldehyde/ketone into an oxime?",
+      "options": [
+        "NH$_2$OH",
+        "HCN",
+        "NH$_2$NH$_2$",
+        "NaHSO$_3$"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "Hydroxylamine (NH$_2$OH) condenses with the carbonyl group, releasing water, to form an oxime (C=N–OH); this is used in the characterisation of carbonyl compounds."
+    },
+    {
+      "id": "che-aldehydes-ketones-carboxylic-acids-013",
+      "q": "A cyanohydrin is formed when a carbonyl compound reacts with",
+      "options": [
+        "NaHSO$_3$",
+        "NH$_3$",
+        "Grignard reagent",
+        "HCN"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "HCN adds across the C=O bond (nucleophilic addition) to give an α-hydroxy nitrile, called a cyanohydrin."
+    },
+    {
+      "id": "che-aldehydes-ketones-carboxylic-acids-014",
+      "q": "Formic acid, unlike other carboxylic acids, reduces Tollens' reagent because",
+      "options": [
+        "it is a stronger acid than other acids",
+        "it contains an aldehydic –CHO group along with –COOH",
+        "it is unsaturated",
+        "it has no α-hydrogen"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "HCOOH (H–COOH) structurally contains a –CHO-like hydrogen attached directly to the carbonyl carbon, giving it reducing/aldehydic character not shown by other carboxylic acids."
+    },
+    {
+      "id": "che-aldehydes-ketones-carboxylic-acids-015",
+      "q": "Aromatic aldehydes are generally less reactive than aliphatic aldehydes towards nucleophilic addition because",
+      "options": [
+        "aromatic rings are non-polar",
+        "they lack an α-hydrogen",
+        "resonance donates electron density from the ring into the carbonyl carbon, reducing its electrophilicity",
+        "they are heavier"
+      ],
+      "answer": 2,
+      "difficulty": "hard",
+      "explanation": "Conjugation between the ring π system and the C=O group delocalises electron density onto the carbonyl carbon, making it less electrophilic and less reactive towards nucleophiles compared with aliphatic aldehydes."
+    },
+    {
+      "id": "che-aldehydes-ketones-carboxylic-acids-016",
+      "q": "The product of Friedel–Crafts acylation of benzene with CH$_3$COCl/AlCl$_3$ is",
+      "options": [
+        "acetophenone",
+        "benzoic acid",
+        "benzaldehyde",
+        "toluene"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "The acylium ion CH$_3$CO$^+$ generated from CH$_3$COCl/AlCl$_3$ substitutes onto benzene to give acetophenone (C$_6$H$_5$COCH$_3$)."
+    },
+    {
+      "id": "che-aldehydes-ketones-carboxylic-acids-017",
+      "q": "0.1 mole of acetic acid (CH$_3$COOH, M = 60 g/mol) is present in 10 g of a sample. The mass percentage of acetic acid in the sample is",
+      "options": [
+        "100%",
+        "6%",
+        "16.7%",
+        "60%"
+      ],
+      "answer": 3,
+      "difficulty": "hard",
+      "explanation": "Mass of acetic acid = 0.1 × 60 = 6 g. Mass % = (6/10) × 100 = 60%."
+    },
+    {
+      "id": "che-aldehydes-ketones-carboxylic-acids-018",
+      "q": "Which of the following gives a positive Tollens' test but does not give a positive Fehling's test?",
+      "options": [
+        "Benzaldehyde",
+        "Butanal",
+        "Propanal",
+        "Acetaldehyde"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "Aromatic aldehydes like benzaldehyde reduce ammoniacal AgNO$_3$ (Tollens') to give a silver mirror, but they do not reduce Fehling's solution, which is specific to aliphatic aldehydes."
+    },
+    {
+      "id": "che-aldehydes-ketones-carboxylic-acids-019",
+      "q": "Wolff–Kishner reduction converts a carbonyl compound to a methylene (CH$_2$) group using",
+      "options": [
+        "NaBH$_4$",
+        "Zn-Hg/HCl",
+        "NH$_2$NH$_2$ followed by KOH/ethylene glycol, heat",
+        "H$_2$/Pd"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "The carbonyl first forms a hydrazone with NH$_2$NH$_2$, which then loses N$_2$ under strongly basic conditions (KOH, high-boiling glycol solvent) to give the CH$_2$ group."
+    },
+    {
+      "id": "che-aldehydes-ketones-carboxylic-acids-020",
+      "q": "Which carboxylic acid derivative is most reactive towards nucleophilic acyl substitution?",
+      "options": [
+        "Ester",
+        "Acid chloride",
+        "Carboxylate ion",
+        "Amide"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "Acid chlorides have the best leaving group (Cl$^-$) and least electron donation into the carbonyl, making them the most electrophilic and reactive acyl derivatives; reactivity order: acid chloride &gt; anhydride &gt; ester &gt; amide."
+    },
+    {
+      "id": "che-aldehydes-ketones-carboxylic-acids-021",
+      "q": "Ozonolysis of 2-butene followed by reductive work-up (Zn/H$_2$O) gives",
+      "options": [
+        "two molecules of acetaldehyde (CH$_3$CHO)",
+        "two molecules of propanal",
+        "one molecule of butanal",
+        "acetone and formaldehyde"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "Ozonolysis cleaves the C=C bond of CH$_3$CH=CHCH$_3$ symmetrically; reductive work-up with Zn/H$_2$O gives two molecules of acetaldehyde, each carbon of the double bond becoming a carbonyl carbon."
+    },
+    {
+      "id": "che-aldehydes-ketones-carboxylic-acids-022",
+      "q": "PCC (pyridinium chlorochromate) is preferred over acidic KMnO$_4$ or K$_2$Cr$_2$O$_7$ for oxidising a primary alcohol because PCC",
+      "options": [
+        "only works on secondary alcohols",
+        "stops oxidation at the aldehyde stage without over-oxidising to the acid",
+        "oxidises the alcohol all the way to the carboxylic acid",
+        "reduces the alcohol instead of oxidising it"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "PCC is a mild oxidising agent in anhydrous (non-aqueous) conditions that converts a primary alcohol only to the aldehyde, avoiding further oxidation to the carboxylic acid that strong aqueous oxidants would cause."
+    },
+    {
+      "id": "che-aldehydes-ketones-carboxylic-acids-023",
+      "q": "Which of the following carbonyl compounds would react with Grignard reagent to ultimately give a tertiary alcohol after work-up?",
+      "options": [
+        "A ketone",
+        "Carbon dioxide",
+        "An ester (with 2 equivalents of Grignard reagent, giving a 3° alcohol)",
+        "Formaldehyde"
+      ],
+      "answer": 2,
+      "difficulty": "hard",
+      "explanation": "An ester reacts with one equivalent of RMgX to give a ketone intermediate, which reacts with a second equivalent to give, after work-up, a tertiary alcohol bearing two identical R groups from the Grignard reagent."
+    },
+    {
+      "id": "che-aldehydes-ketones-carboxylic-acids-024",
+      "q": "Which of the following is the correct increasing order of boiling points: propane, ethanal (acetaldehyde), ethanol (all having similar or close molar mass)?",
+      "options": [
+        "ethanol &lt; ethanal &lt; propane",
+        "ethanal &lt; propane &lt; ethanol",
+        "ethanol &lt; propane &lt; ethanal",
+        "propane &lt; ethanal &lt; ethanol"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "Propane has only weak van der Waals forces (lowest bp); acetaldehyde has a polar C=O giving dipole-dipole attraction (intermediate bp); ethanol has O–H hydrogen bonding, giving the highest boiling point of the three."
+    },
+    {
+      "id": "che-aldehydes-ketones-carboxylic-acids-025",
+      "q": "Which statement about the mechanism of aldol condensation is correct?",
+      "options": [
+        "It occurs only under strongly acidic, anhydrous conditions",
+        "No new C–C bond is formed in the aldol reaction",
+        "A base removes an $\\alpha$-hydrogen to form an enolate, which attacks the carbonyl carbon of another carbonyl molecule",
+        "It proceeds via a free radical mechanism"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "In base-catalysed aldol condensation, hydroxide (or another base) removes an acidic $\\alpha$-hydrogen to generate a resonance-stabilised enolate, which then acts as a nucleophile and attacks the electrophilic carbonyl carbon of a second molecule, forming a new C–C bond."
+    },
+    {
+      "id": "che-aldehydes-ketones-carboxylic-acids-026",
+      "q": "Which of the following pairs would give a positive result with 2,4-dinitrophenylhydrazine (2,4-DNP) reagent?",
+      "options": [
+        "Carboxylic acids only",
+        "Ethers only",
+        "Alcohols only",
+        "Both aldehydes and ketones (any carbonyl compound)"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "2,4-DNP condenses with the carbonyl group of both aldehydes and ketones to give a yellow/orange precipitate (2,4-dinitrophenylhydrazone), used as a general test for the carbonyl functional group."
+    },
+    {
+      "id": "che-aldehydes-ketones-carboxylic-acids-027",
+      "q": "Which of the following acids is the strongest, based on inductive effects of the substituent?",
+      "options": [
+        "Acetic acid, CH$_3$COOH",
+        "Fluoroacetic acid, FCH$_2$COOH",
+        "Propanoic acid, CH$_3$CH$_2$COOH",
+        "Butanoic acid, CH$_3$CH$_2$CH$_2$COOH"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "Fluorine is the most electronegative substituent here and withdraws electron density inductively, stabilising the carboxylate anion the most and making fluoroacetic acid the strongest acid of the four listed."
+    },
+    {
+      "id": "che-aldehydes-ketones-carboxylic-acids-028",
+      "q": "A carbonyl compound X gives a positive iodoform test but does NOT reduce Tollens' reagent. X is most likely",
+      "options": [
+        "Acetone",
+        "Acetaldehyde",
+        "Benzaldehyde",
+        "Formaldehyde"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "Acetone (a methyl ketone) has a CH$_3$CO– group, giving a positive iodoform test, but being a ketone it cannot reduce Tollens' reagent (that requires an aldehyde group)."
+    },
+    {
+      "id": "che-aldehydes-ketones-carboxylic-acids-029",
+      "q": "Which of the following statements correctly explains why carboxylic acids have higher boiling points than alcohols of comparable molar mass?",
+      "options": [
+        "Carboxylic acids are ionic solids",
+        "Carboxylic acids have no hydrogen bonding at all",
+        "Carboxylic acids exist as dimers held by two hydrogen bonds (O–H...O=C), effectively doubling the molecular mass being vaporised together",
+        "Alcohols have stronger van der Waals forces"
+      ],
+      "answer": 2,
+      "difficulty": "hard",
+      "explanation": "Two carboxylic acid molecules associate via a pair of hydrogen bonds to form a stable cyclic dimer; breaking this dimer plus overcoming the resulting dipole interactions requires more energy than for a simple alcohol, raising the boiling point."
+    },
+    {
+      "id": "che-aldehydes-ketones-carboxylic-acids-030",
+      "q": "Which sequence correctly represents the conversion of an alkyl halide to a carboxylic acid with one additional carbon atom?",
+      "options": [
+        "RX $\\to$ RCN (KCN/alc.) $\\to$ RCOOH (hydrolysis)",
+        "RX $\\to$ ROH $\\to$ RCOOH",
+        "RX $\\to$ RMgX $\\to$ RCOOH (no CO$_2$ involved)",
+        "RX $\\to$ RCHO (direct) $\\to$ RCOOH"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "Alkyl halide first reacts with KCN to form a nitrile (with one extra carbon), which on acidic or basic hydrolysis gives the carboxylic acid, RCOOH, with one more carbon than the original halide."
+    },
+    {
+      "id": "che-aldehydes-ketones-carboxylic-acids-031",
+      "q": "A student wants to prepare an aldehyde from a nitrile without over-reducing it to a primary amine. Which reagent should be used?",
+      "options": [
+        "H$_2$/Ni at high pressure",
+        "NaBH$_4$",
+        "LiAlH$_4$ (full reduction)",
+        "DIBAL-H (diisobutylaluminium hydride) at low temperature, followed by hydrolysis"
+      ],
+      "answer": 3,
+      "difficulty": "hard",
+      "explanation": "DIBAL-H reduces a nitrile in a controlled manner at low temperature to an imine intermediate, which on hydrolysis gives the aldehyde; LiAlH$_4$ and H$_2$/Ni over-reduce the nitrile all the way to the primary amine."
+    },
+    {
+      "id": "che-aldehydes-ketones-carboxylic-acids-032",
+      "q": "Which of the following would react with acetaldehyde to form a stable, isolable bisulphite addition compound used for purification?",
+      "options": [
+        "Dilute HCl",
+        "Saturated NaHSO$_3$ solution",
+        "NaOH",
+        "Dilute H$_2$SO$_4$"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "Aldehydes and methyl ketones react with saturated sodium bisulphite (NaHSO$_3$) to form a crystalline addition compound, which can be regenerated back to the carbonyl compound with dilute acid or base — used to purify carbonyl compounds."
+    },
+    {
+      "id": "che-aldehydes-ketones-carboxylic-acids-033",
+      "q": "2.2 g of a carboxylic acid, RCOOH, is exactly neutralised by 25 mL of 1.0 M NaOH. Assuming a monobasic acid, the molar mass of the acid is",
+      "options": [
+        "44 g/mol",
+        "22 g/mol",
+        "88 g/mol",
+        "110 g/mol"
+      ],
+      "answer": 2,
+      "difficulty": "hard",
+      "explanation": "Moles of NaOH = 0.025 L $\\times$ 1.0 M = 0.025 mol = moles of acid (1:1 neutralisation). Molar mass = 2.2/0.025 = 88 g/mol."
+    },
+    {
+      "id": "che-aldehydes-ketones-carboxylic-acids-034",
+      "q": "Which of the following is the correct statement about crossed Cannizzaro reaction?",
+      "options": [
+        "It cannot occur between two different aldehydes",
+        "It occurs between two molecules of acetaldehyde only",
+        "It always gives only an alcohol as the sole product",
+        "It occurs between formaldehyde (or another aldehyde with no α-H) and an aldehyde possessing α-hydrogens, but is applied practically between two different aldehydes both lacking α-hydrogens for a clean, predictable outcome"
+      ],
+      "answer": 3,
+      "difficulty": "hard",
+      "explanation": "A crossed Cannizzaro reaction between two different aldehydes both lacking $\\alpha$-hydrogens (e.g. formaldehyde and benzaldehyde) proceeds with a clean, predictable outcome: one is reduced to the alcohol and the other oxidised to the acid, since neither can undergo the competing aldol reaction."
+    },
+    {
+      "id": "che-aldehydes-ketones-carboxylic-acids-035",
+      "q": "Which of the following carbonyl compounds does NOT undergo the haloform (iodoform) reaction?",
+      "options": [
+        "Acetophenone, C$_6$H$_5$COCH$_3$",
+        "3-pentanone (diethyl ketone)",
+        "Acetaldehyde",
+        "Acetone"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "3-Pentanone has no CH$_3$CO– group (it is CH$_3$CH$_2$–CO–CH$_2$CH$_3$), so it fails the iodoform test; acetophenone, acetaldehyde and acetone all contain the required methyl ketone/CH$_3$CH(OH)- pattern and give a positive test."
+    },
+    {
+      "id": "che-aldehydes-ketones-carboxylic-acids-036",
+      "q": "Which statement about the acidity of carboxylic acids relative to phenols is correct?",
+      "options": [
+        "Carboxylic acids are generally stronger acids than phenols because the carboxylate ion is stabilised by resonance over two equivalent oxygen atoms, more effectively than the phenoxide ion is stabilised over the ring",
+        "Carboxylic acids are generally weaker acids than phenols",
+        "Neither carboxylic acids nor phenols show any acidic behaviour",
+        "Carboxylic acids and phenols have identical acid strengths always"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "In a carboxylate ion, the negative charge is delocalised equally over two oxygen atoms (both C–O bonds become equivalent), giving stronger resonance stabilisation than in a phenoxide ion where the charge is spread less effectively over the ring carbons, making carboxylic acids markedly more acidic than phenols."
+    },
+    {
+      "id": "che-aldehydes-ketones-carboxylic-acids-037",
+      "q": "Which of the following esters, upon acidic hydrolysis, would give methanol as one of the products?",
+      "options": [
+        "Methyl propanoate, CH$_3$CH$_2$COOCH$_3$",
+        "Propyl acetate",
+        "Ethyl propanoate, CH$_3$CH$_2$COOC$_2$H$_5$, hydrolysing to propanoic acid and ethanol",
+        "Ethyl acetate"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "Methyl propanoate (CH$_3$CH$_2$COOCH$_3$) hydrolyses to propanoic acid and methanol, since the alkoxy portion attached to the carbonyl oxygen is a methyl group."
+    },
+    {
+      "id": "che-aldehydes-ketones-carboxylic-acids-038",
+      "q": "Which of the following statements is correct regarding the reactivity of acid chlorides, esters, and amides towards hydrolysis?",
+      "options": [
+        "Esters hydrolyse fastest, acid chlorides slowest",
+        "All three hydrolyse at identical rates",
+        "Amides hydrolyse fastest, esters slowest",
+        "Acid chlorides hydrolyse fastest, amides slowest (order: acid chloride &gt; ester &gt; amide)"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "Acid chlorides are the most electrophilic (Cl$^-$ is an excellent leaving group and offers little resonance donation) and hydrolyse readily even with moisture in air, while amides (with strong resonance donation from N into C=O) are the least reactive and need vigorous acid/base hydrolysis conditions."
+    },
+    {
+      "id": "che-aldehydes-ketones-carboxylic-acids-039",
+      "q": "Which test can distinguish propanal from propanone (acetone) using Tollens' reagent?",
+      "options": [
+        "Both give a silver mirror equally",
+        "Propanal gives a silver mirror; propanone does not react",
+        "Propanone gives a silver mirror; propanal does not react",
+        "Neither reacts with Tollens' reagent"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "Tollens' reagent (ammoniacal AgNO$_3$) oxidises aldehydes (which have an oxidisable C–H on the carbonyl carbon) to give a silver mirror, but ketones like propanone lack this hydrogen and do not react."
+    },
+    {
+      "id": "che-aldehydes-ketones-carboxylic-acids-040",
+      "q": "Which of the following would be the major product when propanal undergoes self-aldol condensation followed by dehydration?",
+      "options": [
+        "propanoic acid",
+        "2,3-dimethylbutanal",
+        "2-methylpent-2-enal, an $\\alpha,\\beta$-unsaturated aldehyde",
+        "3-hydroxy-2-methylpentanal (the un-dehydrated aldol product)"
+      ],
+      "answer": 2,
+      "difficulty": "hard",
+      "explanation": "Two molecules of propanal undergo base-catalysed aldol addition (via the enolate attacking a second propanal carbonyl) to give the $\\beta$-hydroxy aldehyde 3-hydroxy-2-methylpentanal, which loses water on further heating (condensation step) to give the conjugated $\\alpha,\\beta$-unsaturated aldehyde, 2-methylpent-2-enal."
+    }
+  ]
+}

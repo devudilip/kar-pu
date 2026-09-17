@@ -1,0 +1,807 @@
+{
+  "title": "KCET 2019 Physics",
+  "year": 2019,
+  "subject": "physics",
+  "code": "A-1",
+  "source": "KEA question paper (copy) + KEA answer key column A1",
+  "excluded": [],
+  "questions": [
+    {
+      "n": 1,
+      "q": "In a cyclotron a charged particle",
+      "options": [
+        "undergoes acceleration all the time",
+        "speeds up between the dees because of the magnetic field.",
+        "speeds up in dee",
+        "slows down within a dee and speeds up between dees"
+      ],
+      "answer": 0,
+      "chapter": "Moving Charges and Magnetism",
+      "explanation": "Between the dees the electric field speeds the particle up, and inside a dee the magnetic force keeps changing its direction (centripetal acceleration), so it is accelerating throughout its motion."
+    },
+    {
+      "n": 2,
+      "q": "The number of turns in a coil of Galvanometer is tripled, then",
+      "options": [
+        "Voltage sensitivity increases 3 times and current sensitivity remains constant",
+        "Voltage sensitivity remains constant and current sensitivity increases 3 times",
+        "Both voltage and current sensitivity remains constant",
+        "Voltage and current sensitivity both decreases by 33%"
+      ],
+      "answer": 1,
+      "chapter": "Moving Charges and Magnetism",
+      "explanation": "Current sensitivity $=\\dfrac{NAB}{k}$ increases 3 times with N, while voltage sensitivity $=\\dfrac{NAB}{kR}$ also depends on resistance which increases with N (R $\\propto$ N), so it stays constant."
+    },
+    {
+      "n": 3,
+      "q": "A circular current loop of magnetic moment M is in an arbitrary orientation in an external uniform magnetic field $\\vec B$. The work done to rotate the loop by 30$^\\circ$ about an axis perpendicular to its plane is",
+      "options": [
+        "MB",
+        "$\\sqrt3\\dfrac{MB}{2}$",
+        "$\\dfrac{MB}{2}$",
+        "Zero"
+      ],
+      "answer": 3,
+      "chapter": "Moving Charges and Magnetism",
+      "explanation": "The magnetic moment M is along the axis perpendicular to the loop's own plane; rotating the loop about that very axis does not change the angle between M and $\\vec B$, so no work is done."
+    },
+    {
+      "n": 4,
+      "q": "In a permanent magnet at room temperature",
+      "options": [
+        "magnetic moment of each molecule is zero.",
+        "the individual molecules have non zero magnetic moment which are all perfectly aligned.",
+        "domains are partially aligned.",
+        "domains are all perfectly aligned."
+      ],
+      "answer": 2,
+      "chapter": "Magnetism and Matter",
+      "explanation": "A permanent magnet at room temperature is below saturation, so its domains are only partially aligned, not fully aligned."
+    },
+    {
+      "n": 5,
+      "q": "Coersivity of a magnet where the ferromagnet gets completely demagnetized is 3 $\\times$ 10$^3$ Am$^{-1}$. The minimum current required to be passed in a solenoid having 1000 turns per metre, so that the magnet gets completely demagnetized when placed inside the solenoid is",
+      "options": [
+        "30 mA",
+        "60 mA",
+        "3A",
+        "6A"
+      ],
+      "answer": 2,
+      "chapter": "Magnetism and Matter",
+      "explanation": "The demagnetizing field needed equals the coercivity: $H = nI \\Rightarrow I = H/n = 3\\times10^3/1000 = 3$ A."
+    },
+    {
+      "n": 6,
+      "q": "[Graph shows activity dN/dt (y-axis) versus time t (x-axis) for three radioactive nuclei; curve A falls fastest and flattens soonest, curve B falls next fastest, and curve C decays slowest of the three] Which one of the following nuclei has shorter mean life?",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "Same for all"
+      ],
+      "answer": 0,
+      "chapter": "Nuclei",
+      "explanation": "A steeper initial fall means a larger decay constant $\\lambda$, and mean life $= 1/\\lambda$, so the curve that decays fastest (A) has the shortest mean life.",
+      "figure": true
+    },
+    {
+      "n": 7,
+      "q": "The conductivity of semiconductor increases with increase in temperature because",
+      "options": [
+        "number density of charge carriers increases",
+        "relaxation time increases",
+        "both number density of charge carriers and relaxation time increase",
+        "number density of current carriers increases, relaxation time decreases but effect of decrease in relaxation time is much less than increase in number density"
+      ],
+      "answer": 3,
+      "chapter": "Semiconductor Electronics",
+      "explanation": "In a semiconductor, conductivity $\\sigma = ne^2\\tau/m$; with rising temperature the carrier density n rises sharply while relaxation time $\\tau$ falls slightly, and the increase in n dominates, so $\\sigma$ increases."
+    },
+    {
+      "n": 8,
+      "q": "For a transistor amplifier, the voltage gain",
+      "options": [
+        "remains constant for all frequencies",
+        "is high at high and low frequencies and constant in the middle frequency range",
+        "is low at high and low frequencies and constant at mid frequencies",
+        "constant at high frequencies and low at low frequencies"
+      ],
+      "answer": 2,
+      "chapter": "Semiconductor Electronics",
+      "explanation": "A transistor amplifier's frequency response shows reduced gain at very low and very high frequencies (due to coupling/bypass capacitors and inter-electrode capacitance respectively) with a flat, maximum gain in the mid-frequency range."
+    },
+    {
+      "n": 9,
+      "q": "[Circuit shows two NOR gates (OR-shaped gates with a small bubble at the output) cross-connected: input 1 feeds the top gate, input 0 feeds the bottom gate, and each gate's output is fed back as the second input of the other gate, giving outputs P from the top gate and Q from the bottom gate] In the following circuit, what are P and Q?",
+      "options": [
+        "P = 0, Q = 0",
+        "P = 1, Q = 0",
+        "P = 0, Q = 1",
+        "P = 1, Q = 1"
+      ],
+      "answer": 2,
+      "chapter": "Semiconductor Electronics",
+      "explanation": "This is a NOR-gate SR latch: with inputs 1 and 0 applied as shown, the top NOR gate (input 1 present) outputs P = 0, and the bottom NOR gate (both its inputs 0) outputs Q = 1.",
+      "figure": true
+    },
+    {
+      "n": 10,
+      "q": "An antenna uses electromagnetic waves of frequency 5 MHz. For proper working, the size of the antenna should be",
+      "options": [
+        "15 m",
+        "300 m",
+        "15 km",
+        "3 km"
+      ],
+      "answer": 0,
+      "chapter": "Old syllabus: Communication Systems",
+      "explanation": "For efficient radiation the antenna size should be about a quarter of the wavelength: $\\lambda = c/f = 3\\times10^8/5\\times10^6 = 60$ m, so size $\\approx \\lambda/4 = 15$ m."
+    },
+    {
+      "n": 11,
+      "q": "If P, Q and R are physical quantities having different dimensions, which of the following combinations can never be a meaningful quantity ?",
+      "options": [
+        "$\\dfrac{P-Q}{R}$",
+        "PQ $-$ R",
+        "$\\dfrac{PQ}{R}$",
+        "$\\dfrac{PR-Q^2}{R}$"
+      ],
+      "answer": 0,
+      "chapter": "Units and Measurements",
+      "explanation": "Since P and Q have different dimensions, the subtraction (P $-$ Q) is itself dimensionally meaningless, making option A never meaningful regardless of R."
+    },
+    {
+      "n": 12,
+      "q": "[Graph shows velocity v (y-axis) versus position x (x-axis) for a particle moving along a straight line: v decreases linearly from a positive value at x = 0 to zero at some x] The given graph shows the variation of velocity (v) with position (x) for a particle moving along a straight line. Which of the following graphs shows the variation of acceleration (a) with position (x) ? [Options A-D are small graphs of acceleration a versus position x with different linear shapes]",
+      "options": [
+        "a decreases linearly from a positive value at x = 0 to zero, all in the positive-a region",
+        "a is constant (a horizontal line) for x > 0",
+        "a is a straight line that starts at its most negative value at x = 0 and rises linearly to zero at the same x where v becomes zero",
+        "a is a straight line rising from zero at x = 0 to a positive value, then continuing to rise"
+      ],
+      "answer": 2,
+      "chapter": "Motion in a Straight Line",
+      "explanation": "Since v is linear in x, $v = v_0(1-x/x_m)$, so $dv/dx$ is a negative constant; then $a = v\\\\,dv/dx$ is linear in x, starting at its most negative value at x = 0 and rising to zero at $x=x_m$, matching the KEA key's chosen graph.",
+      "figure": true
+    },
+    {
+      "n": 13,
+      "q": "The trajectory of a projectile projected from origin is given by the equation $y = x - \\dfrac{2x^2}{5}$. The initial velocity of the projectile is",
+      "options": [
+        "$\\dfrac{2}{5}$ ms$^{-1}$",
+        "5 ms$^{-1}$",
+        "25 ms$^{-1}$",
+        "$\\dfrac{5}{2}$ ms$^{-1}$"
+      ],
+      "answer": 1,
+      "chapter": "Motion in a Plane",
+      "explanation": "Comparing with $y = x\\tan\\theta - \\dfrac{g x^2}{2u^2\\cos^2\\theta}$: $\\tan\\theta = 1 \\Rightarrow \\theta = 45^\\circ$, and $\\dfrac{g}{2u^2\\cos^2\\theta} = \\dfrac{2}{5} \\Rightarrow u^2 = \\dfrac{5g}{4\\cos^2 45^\\circ} = \\dfrac{5\\times9.8}{2} \\approx 25 \\Rightarrow u \\approx 5$ ms$^{-1}$."
+    },
+    {
+      "n": 14,
+      "q": "An object with mass 5 kg is acted upon by a force, $\\vec F = (-3\\hat i + 4\\hat j)$ N. If its initial velocity at t = 0 is $\\vec v = (6\\hat i - 12\\hat j)$ ms$^{-1}$, the time at which it will just have a velocity along y-axis is",
+      "options": [
+        "5 s",
+        "10 s",
+        "2 s",
+        "15 s"
+      ],
+      "answer": 1,
+      "chapter": "Laws of Motion",
+      "explanation": "Acceleration $\\vec a = \\vec F/m = (-0.6\\hat i + 0.8\\hat j)$ ms$^{-2}$; velocity is along the y-axis when the x-component vanishes: $6 - 0.6t = 0 \\Rightarrow t = 10$ s."
+    },
+    {
+      "n": 15,
+      "q": "During inelastic collision between two objects, which of the following quantity always remains conserved ?",
+      "options": [
+        "Total kinetic energy",
+        "Total mechanical energy",
+        "Total linear momentum",
+        "Speed of each body"
+      ],
+      "answer": 2,
+      "chapter": "Work, Energy and Power",
+      "explanation": "In any collision, in the absence of external forces, total linear momentum of the system is always conserved, even though kinetic energy is not conserved in an inelastic collision."
+    },
+    {
+      "n": 16,
+      "q": "In Rutherford experiment, for head-on collision of $\\alpha$-particles with a gold nucleus, the impact parameter is",
+      "options": [
+        "zero",
+        "of the order of 10$^{-14}$ m",
+        "of the order of 10$^{-10}$ m",
+        "of the order of 10$^{-6}$ m"
+      ],
+      "answer": 0,
+      "chapter": "Atoms",
+      "explanation": "For a head-on collision the alpha particle is aimed directly at the nucleus, so its impact parameter (perpendicular offset) is zero."
+    },
+    {
+      "n": 17,
+      "q": "Frequency of revolution of an electron revolving in n$^{th}$ orbit of H-atom is proportional to",
+      "options": [
+        "$\\dfrac{1}{n^2}$",
+        "n",
+        "n independent of n",
+        "$\\dfrac{1}{n^3}$"
+      ],
+      "answer": 3,
+      "chapter": "Atoms",
+      "explanation": "For the Bohr model, orbital radius $r_n \\propto n^2$ and speed $v_n \\propto 1/n$, so frequency $f = v_n/(2\\pi r_n) \\propto 1/n^3$."
+    },
+    {
+      "n": 18,
+      "q": "A hydrogen atom in ground state absorbs 10.2 eV of energy. The orbital angular momentum of the electron is increased by",
+      "options": [
+        "1.05 $\\times$ 10$^{-34}$ Js",
+        "2.11 $\\times$ 10$^{-34}$ Js",
+        "3.16 $\\times$ 10$^{-34}$ Js",
+        "4.22 $\\times$ 10$^{-34}$ Js"
+      ],
+      "answer": 0,
+      "chapter": "Atoms",
+      "explanation": "Absorbing 10.2 eV takes the electron from n = 1 to n = 2 (since $13.6(1-1/4)=10.2$ eV); the angular momentum increase is $(n_2-n_1)h/2\\pi = h/2\\pi = 1.05\\times10^{-34}$ Js."
+    },
+    {
+      "n": 19,
+      "q": "The end product of decay of $_{90}$Th$^{232}$ is $_{82}$Pb$^{208}$. The number of $\\alpha$ and $\\beta$ particles emitted are respectively",
+      "options": [
+        "3, 3",
+        "6, 4",
+        "6, 0",
+        "4, 6"
+      ],
+      "answer": 1,
+      "chapter": "Nuclei",
+      "explanation": "Mass number drop of 24 needs 6 alpha particles (24/4); this alone drops Z by 12 (to 78), so 4 beta particles (each raising Z by 1) are needed to reach Z = 82."
+    },
+    {
+      "n": 20,
+      "q": "Two protons are kept at a separation of 10 nm. Let F$_n$ and F$_e$ be the nuclear force and the electromagnetic force between them",
+      "options": [
+        "F$_e$ = F$_n$",
+        "F$_e$ $\\gg$ F$_n$",
+        "F$_e$ $\\ll$ F$_n$",
+        "F$_e$ and F$_n$ differ only slightly"
+      ],
+      "answer": 1,
+      "chapter": "Nuclei",
+      "explanation": "The nuclear force has a range of about 1-2 fm, so at a separation of 10 nm it is essentially zero while the Coulomb force still acts, giving F$_e \\gg$ F$_n$."
+    },
+    {
+      "n": 21,
+      "q": "[Graph shows sin r (y-axis) versus sin i (x-axis) as a straight line through the origin making an angle of 30$^\\circ$ with the sin i axis] A transparent medium shows relation between i and r as shown. If the speed of light in vacuum is c the Brewster angle for the medium is",
+      "options": [
+        "30$^\\circ$",
+        "45$^\\circ$",
+        "60$^\\circ$",
+        "90$^\\circ$"
+      ],
+      "answer": 2,
+      "chapter": "Wave Optics",
+      "explanation": "The graph slope gives $\\sin r/\\sin i = \\tan30^\\circ$, so refractive index $n = \\sin i/\\sin r = \\cot30^\\circ = \\sqrt3$; Brewster's angle satisfies $\\tan i_p = n = \\sqrt3 \\Rightarrow i_p = 60^\\circ$.",
+      "figure": true
+    },
+    {
+      "n": 22,
+      "q": "In Young's double slit experiment, using monochromatic light of wavelength $\\lambda$, the intensity of light at a point on the screen where path difference is $\\lambda$ is K units. The intensity of light at a point where path difference is $\\dfrac{\\lambda}{3}$ is",
+      "options": [
+        "K",
+        "$\\dfrac{K}{4}$",
+        "4K",
+        "2K"
+      ],
+      "answer": 1,
+      "chapter": "Wave Optics",
+      "explanation": "$I = 4I_0\\cos^2(\\phi/2)$; at path difference $\\lambda$, $\\phi=2\\pi$ gives $I=4I_0=K$; at path difference $\\lambda/3$, $\\phi = 2\\pi/3$ gives $I = 4I_0\\cos^2(\\pi/3) = 4I_0(1/4) = I_0 = K/4$."
+    },
+    {
+      "n": 23,
+      "q": "Due to Doppler's effect the shift in wavelength observed is 0.1 Å for a star producing wavelength 6000 Å. Velocity of recession of the star will be",
+      "options": [
+        "25 km/s",
+        "10 km/s",
+        "5 km/s",
+        "20 km/s"
+      ],
+      "answer": 2,
+      "chapter": "Wave Optics",
+      "explanation": "For the Doppler effect of light, $v = c\\dfrac{\\Delta\\lambda}{\\lambda} = 3\\times10^5 \\times \\dfrac{0.1}{6000} = 5$ km/s."
+    },
+    {
+      "n": 24,
+      "q": "An electron is moving with an initial velocity $\\vec V = V_0\\hat i$ and is in a uniform magnetic field $\\vec B = B_0\\hat j$. Then its de Broglie wavelength",
+      "options": [
+        "remains constant",
+        "increases with time",
+        "decreases with time",
+        "increase and decreases periodically"
+      ],
+      "answer": 0,
+      "chapter": "Dual Nature of Radiation and Matter",
+      "explanation": "Since $\\vec v \\perp \\vec B$, the magnetic force only changes direction, not speed, keeping the electron's speed (and hence its de Broglie wavelength $h/mv$) constant."
+    },
+    {
+      "n": 25,
+      "q": "Light of certain frequency and intensity incident on a photosensitive material causes photoelectric effect. If both the frequency and intensity are doubled, the photoelectric saturation current becomes",
+      "options": [
+        "quadrupled",
+        "doubled",
+        "halved",
+        "unchanged"
+      ],
+      "answer": 1,
+      "chapter": "Dual Nature of Radiation and Matter",
+      "explanation": "Saturation current depends only on the intensity (number of photons per second) and not on frequency, so doubling the intensity doubles the saturation current."
+    },
+    {
+      "n": 26,
+      "q": "A magnetic needle has a magnetic moment of 5 $\\times$ 10$^{-2}$ Am$^2$ and moment of inertia 8 $\\times$ 10$^{-6}$ kgm$^2$. It has a period of oscillation of 2s in a magnetic field $\\vec B$. The magnitude of magnetic field is approximately",
+      "options": [
+        "1.6 $\\times$ 10$^{-4}$T",
+        "0.4 $\\times$ 10$^{-4}$T",
+        "3.2 $\\times$ 10$^{-4}$T",
+        "0.8 $\\times$ 10$^{-4}$T"
+      ],
+      "answer": 0,
+      "chapter": "Magnetism and Matter",
+      "explanation": "Using $T = 2\\pi\\sqrt{I/(MB)}$: $B = 4\\pi^2 I/(MT^2) = 4\\pi^2(8\\times10^{-6})/(5\\times10^{-2}\\times4) \\approx 1.6\\times10^{-3}$ T, which does not exactly match any option (the exponent in the options appears to be printed incorrectly); KEA awarded grace marks to all candidates for this question, and the closest intended option A is kept here (as per KEA key).",
+      "grace": true
+    },
+    {
+      "n": 27,
+      "q": "A toroid has 500 turns per metre length. If it carries a current of 2A, the magnetic energy density inside the toroid is",
+      "options": [
+        "0.628 J/m$^3$",
+        "0.314 J/m$^3$",
+        "6.28 J/m$^3$",
+        "3.14 J/m$^3$"
+      ],
+      "answer": 0,
+      "chapter": "Moving Charges and Magnetism",
+      "explanation": "Field inside toroid $B = \\mu_0 nI = 4\\pi\\times10^{-7}\\times500\\times2 = 1.257\\times10^{-3}$ T; energy density $u = B^2/2\\mu_0 \\approx 0.628$ J/m$^3$."
+    },
+    {
+      "n": 28,
+      "q": "[Figure shows a region of magnetic field into the page (crosses) with a wire AB slid on fixed horizontal rails towards the left with constant velocity v, connected to a resistor at the right end] Consider the situation given in figure. The wire AB is slid on the fixed rails with a constant velocity. If the wire AB is replaced by a semicircular wire, the magnitude of the induced current will",
+      "options": [
+        "increase",
+        "remain same",
+        "decrease",
+        "increase or decrease depending on whether the semicircle bulges towards the resistance or away from it"
+      ],
+      "answer": 1,
+      "chapter": "Electromagnetic Induction",
+      "explanation": "The induced EMF depends only on the rate of change of the enclosed area, which is set by the perpendicular separation of the rails (effective length), not the shape of the sliding wire, so the current stays the same.",
+      "figure": true
+    },
+    {
+      "n": 29,
+      "q": "The frequency of an alternating current is 50 Hz. What is the minimum time taken by current to reach its peak value from rms value ?",
+      "options": [
+        "5 $\\times$ 10$^{-3}$s",
+        "2.5 $\\times$ 10$^{-3}$s",
+        "0.02s",
+        "10 $\\times$ 10$^{-3}$s"
+      ],
+      "answer": 1,
+      "chapter": "Alternating Current",
+      "explanation": "Current is at rms value when $\\sin\\omega t = 1/\\sqrt2$, i.e. $\\omega t = \\pi/4$, giving $t = T/8 = (1/50)/8 = 2.5\\times10^{-3}$ s to reach the peak."
+    },
+    {
+      "n": 30,
+      "q": "[Circuit shows an inductor L, capacitor C and resistor R = 100 $\\Omega$ in series across a 220 V, 50 Hz AC source, with an ammeter A in the main line and a voltmeter V across R; the voltmeter across L reads V$_L$ = 50 V and across C reads V$_C$ = 50 V] The readings of ammeter and voltmeter in the following circuit are respectively",
+      "options": [
+        "1.2 A, 120 V",
+        "1.5 A, 100 V",
+        "2.7 A, 220 V",
+        "2.2 A, 220 V"
+      ],
+      "answer": 3,
+      "chapter": "Alternating Current",
+      "explanation": "Since V$_L$ = V$_C$, they cancel at resonance and the entire supply voltage appears across R: I = 220/100 = 2.2 A, and the voltmeter across R reads the full 220 V.",
+      "figure": true
+    },
+    {
+      "n": 31,
+      "q": "Two particles which are initially at rest move towards each other under the action of their mutual attraction. If their speeds are v and 2v at any instant, then the speed of center of mass of the system is,",
+      "options": [
+        "2v",
+        "Zero",
+        "1.5 v",
+        "v"
+      ],
+      "answer": 1,
+      "chapter": "System of Particles and Rotational Motion",
+      "explanation": "With no external force, the momentum (and hence velocity) of the centre of mass of an initially-at-rest system stays zero at all times."
+    },
+    {
+      "n": 32,
+      "q": "[Figure shows the x and y axes with a straight line passing through the origin O; points A and B lie on this line with a point P between them, and the particle moves uniformly along this line from A to B] A particle is moving uniformly along a straight line as shown in the figure. During the motion of the particle from A to B, the angular momentum of the particle about 'O'",
+      "options": [
+        "increases",
+        "decreases",
+        "remains constant",
+        "first increases then decreases"
+      ],
+      "answer": 2,
+      "chapter": "System of Particles and Rotational Motion",
+      "explanation": "Since the line of motion passes through O, the position vector of the particle relative to O is always along its velocity direction, so the angular momentum about O is zero throughout and hence constant.",
+      "figure": true
+    },
+    {
+      "n": 33,
+      "q": "A satellite is orbiting close to the earth and has a kinetic energy K. The minimum extra kinetic energy required by it to just overcome the gravitation pull of the earth is",
+      "options": [
+        "K",
+        "2K",
+        "$\\sqrt3$K",
+        "2$\\sqrt2$K"
+      ],
+      "answer": 0,
+      "chapter": "Gravitation",
+      "explanation": "For a satellite in a close orbit, total energy $= -K$ (since KE = $|PE|/2$); to escape, total energy must become zero, so extra kinetic energy needed is K."
+    },
+    {
+      "n": 34,
+      "q": "A wire is stretched such that its volume remains constant. The Poisson's ratio of the material of the wire is",
+      "options": [
+        "0.50",
+        "$-$0.50",
+        "0.25",
+        "$-$0.25"
+      ],
+      "answer": 1,
+      "chapter": "Mechanical Properties of Solids",
+      "explanation": "The KEA key marks option B ($-$0.50) as correct.",
+      "disputed": true,
+      "note": "Volume conservation under stretching (isotropic wire) requires Poisson's ratio $\\sigma = 0.5$ (i.e. 1-2\\sigma=0), so the standard answer is option A (0.50), not B."
+    },
+    {
+      "n": 35,
+      "q": "[Figure shows a cylindrical container filled with water, with a small hole on the side at height H = 8 cm from the bottom and at depth h = 2 cm below the top water surface] A cylindrical container containing water has a small hole at height of H = 8 cm from the bottom and at a depth of 2 cm from the top surface of the liquid. The maximum horizontal distance travelled by the water before it hits the ground (x) is",
+      "options": [
+        "8 cm",
+        "4$\\sqrt2$ cm",
+        "4 cm",
+        "6 cm"
+      ],
+      "answer": 0,
+      "chapter": "Mechanical Properties of Fluids",
+      "explanation": "Efflux speed $v=\\sqrt{2gh}$ with h = 2 cm, and time to fall height H = 8 cm is $t=\\sqrt{2H/g}$; range $x = vt = 2\\sqrt{hH} = 2\\sqrt{2\\times8} = 8$ cm.",
+      "figure": true
+    },
+    {
+      "n": 36,
+      "q": "An inductor of inductance L and resistor R are joined together in series and connected by a source of frequency $\\omega$. The power dissipated in the circuit is",
+      "options": [
+        "$\\dfrac{R^2+\\omega^2L^2}{V}$",
+        "$\\dfrac{V^2R}{R^2+\\omega^2L^2}$",
+        "$\\dfrac{V}{R^2+\\omega^2L^2}$",
+        "$\\dfrac{V^2R}{\\sqrt{R^2+\\omega^2L^2}}$"
+      ],
+      "answer": 1,
+      "chapter": "Alternating Current",
+      "explanation": "Impedance $Z=\\sqrt{R^2+\\omega^2L^2}$, rms current $I=V/Z$, and power $P=I^2R = V^2R/(R^2+\\omega^2L^2)$."
+    },
+    {
+      "n": 37,
+      "q": "An electromagnetic wave is travelling in x-direction with electric field vector given by, $\\vec E_y = E_0\\sin(kx-\\omega t)\\hat j$. The correct expression for magnetic field vector is",
+      "options": [
+        "$\\vec B_y = E_0C\\sin(kx-\\omega t)\\hat j$",
+        "$\\vec B_z = E_0C\\sin(kx-\\omega t)\\hat k$",
+        "$\\vec B_y = \\dfrac{E_0}{C}\\sin(kx-\\omega t)\\hat j$",
+        "$\\vec B_z = \\dfrac{E_0}{C}\\sin(kx-\\omega t)\\hat k$"
+      ],
+      "answer": 3,
+      "chapter": "Electromagnetic Waves",
+      "explanation": "For an EM wave travelling along x with E along y, B must be along z (since $\\hat i = \\hat j\\times\\hat k$) with amplitude $E_0/c$, so $\\vec B_z = (E_0/C)\\sin(kx-\\omega t)\\hat k$."
+    },
+    {
+      "n": 38,
+      "q": "The phenomenon involved in the reflection of radio-waves by ionosphere is similar to",
+      "options": [
+        "reflection of light by plane mirror",
+        "total internal reflection of light in air during a mirage",
+        "dispersion of light by water molecules during the formation of a rainbow",
+        "scattering of light by air particles"
+      ],
+      "answer": 1,
+      "chapter": "Old syllabus: Communication Systems",
+      "explanation": "As with a mirage, the ionosphere's refractive index varies gradually with height, bending radio waves back down in a manner analogous to total internal reflection rather than a sharp mirror-like reflection."
+    },
+    {
+      "n": 39,
+      "q": "[Figure shows a point object at O moving with speed v = 1 ms$^{-1}$ towards a concave mirror of focal length 25 cm, with the object initially 50 cm from the pole P at t = 0] A point object is moving uniformly towards the pole of a concave mirror of focal length 25 cm along its axis as shown below. The speed of the object is 1 ms$^{-1}$. At t = 0, the distance of the object from the mirror is 50 cm. The average velocity of the image formed by the mirror between time t = 0 and t = 0.25 s is :",
+      "options": [
+        "40 cm s$^{-1}$",
+        "20 cm s$^{-1}$",
+        "Zero",
+        "Infinity"
+      ],
+      "answer": 3,
+      "chapter": "Ray Optics and Optical Instruments",
+      "explanation": "At t = 0, u = 50 cm = 2f, so the image is also at 50 cm; at t = 0.25 s the object has moved 25 cm to u = 25 cm = f, placing the image at infinity, so the average velocity of the image over this interval is infinite.",
+      "figure": true
+    },
+    {
+      "n": 40,
+      "q": "A certain prism is found to produce a minimum deviation of 38$^\\circ$. It produces a deviation of 44$^\\circ$ when the angle of incidence is either 42$^\\circ$ or 62$^\\circ$. What is the angle of incidence when it is undergoing minimum deviation ?",
+      "options": [
+        "30$^\\circ$",
+        "40$^\\circ$",
+        "49$^\\circ$",
+        "60$^\\circ$"
+      ],
+      "answer": 2,
+      "chapter": "Ray Optics and Optical Instruments",
+      "explanation": "Using $i_1+i_2 = A + D$ for the two incidence angles giving the same deviation, together with the prism angle found from the minimum-deviation condition, solving gives the angle of incidence at minimum deviation as 49$^\\circ$, matching the KEA key."
+    },
+    {
+      "n": 41,
+      "q": "An aluminium sphere is dipped into water. Which of the following is true ?",
+      "options": [
+        "Buoyancy will be less in water at 0 $^\\circ$C than that in water at 4 $^\\circ$C",
+        "Buoyancy will be more in water at 0 $^\\circ$C than that in water at 4 $^\\circ$C",
+        "Buoyancy in water at 0 $^\\circ$C will be same as that in water at 4 $^\\circ$C",
+        "Buoyancy may be more or less in water at 4 $^\\circ$C depending on the radius of the sphere"
+      ],
+      "answer": 0,
+      "chapter": "Mechanical Properties of Fluids",
+      "explanation": "Water has its maximum density at 4 $^\\circ$C, so the buoyant force (which depends on fluid density) is greater there than at 0 $^\\circ$C, making buoyancy at 0 $^\\circ$C less than at 4 $^\\circ$C."
+    },
+    {
+      "n": 42,
+      "q": "[Figure shows a P-V diagram with a cyclic process A to B to C: A is at (V=5 m$^3$, P=400 N/m$^2$), B is at (V=5 m$^3$, P=100 N/m$^2$), C is at (V=10 m$^3$, P=100 N/m$^2$), with A to B a vertical line, B to C a horizontal line, and C to A a straight diagonal line] A thermodynamic system undergoes a cyclic process ABC as shown in the diagram. The work done by the system per cycle is",
+      "options": [
+        "750 J",
+        "$-$1250 J",
+        "$-$750 J",
+        "1250 J"
+      ],
+      "answer": 2,
+      "chapter": "Thermodynamics",
+      "explanation": "A to B: no work (constant V). B to C: $W=100\\times(10-5)=500$ J. C to A: $W=-\\dfrac{(100+400)}{2}\\times(10-5)=-1250$ J. Net work per cycle $=500-1250=-750$ J.",
+      "figure": true
+    },
+    {
+      "n": 43,
+      "q": "One mole of O$_2$ gas is heated at constant pressure starting at 27 $^\\circ$C. How much energy must be added to the gas as heat to double its volume ?",
+      "options": [
+        "Zero",
+        "450 R",
+        "750 R",
+        "1050 R"
+      ],
+      "answer": 3,
+      "chapter": "Thermodynamics",
+      "explanation": "At constant pressure $V\\propto T$, so doubling V means doubling T from 300 K to 600 K, a rise of 300 K; for a diatomic gas $Q=nC_p\\Delta T = 1\\times\\dfrac{7}{2}R\\times300 = 1050R$."
+    },
+    {
+      "n": 44,
+      "q": "A piston is performing S.H.M. in the vertical direction with a frequency of 0.5 Hz. A block of 10 kg is placed on the piston. The maximum amplitude of the system such that the block remains in contact with the piston is",
+      "options": [
+        "1 m",
+        "0.5 m",
+        "1.5 m",
+        "0.1m"
+      ],
+      "answer": 0,
+      "chapter": "Oscillations",
+      "explanation": "The block loses contact when $\\omega^2A = g$; with $\\omega=2\\pi(0.5)=\\pi$ rad/s, $A = g/\\omega^2 = 9.8/\\pi^2 \\approx 1$ m."
+    },
+    {
+      "n": 45,
+      "q": "The equation of a stationary wave is $y = 2\\sin\\left(\\dfrac{\\pi x}{15}\\right)\\cos(48\\pi t)$. The distance between a node and its next antinode is",
+      "options": [
+        "7.5 units",
+        "1.5 units",
+        "22.5 units",
+        "30 units"
+      ],
+      "answer": 0,
+      "chapter": "Waves",
+      "explanation": "Wave number $k=\\pi/15 \\Rightarrow \\lambda = 2\\pi/k = 30$ units; the node-to-next-antinode distance is $\\lambda/4 = 7.5$ units."
+    },
+    {
+      "n": 46,
+      "q": "[Figure shows a resistor network with a 1.2 V battery connected to two identical bridge-like sections in series, each made of 1$\\Omega$ resistors, together with a 3$\\Omega$ resistor and a 2$\\Omega$ resistor in the first section] In the given circuit, the current through 2$\\Omega$ resistor is",
+      "options": [
+        "0.2A",
+        "0.3A",
+        "0.4A",
+        "0.1A"
+      ],
+      "answer": 2,
+      "chapter": "Current Electricity",
+      "explanation": "Reducing the symmetric network of 1$\\Omega$ resistors combined with the 3$\\Omega$ and 2$\\Omega$ resistors to an equivalent series-parallel circuit and applying Ohm's law across the 1.2 V source gives a current of 0.4 A through the 2$\\Omega$ resistor, matching the KEA key.",
+      "figure": true
+    },
+    {
+      "n": 47,
+      "q": "Kirchhoff's junction rule is a reflection of",
+      "options": [
+        "Conservation of current density vector",
+        "Conservation of energy",
+        "Conservation of momentum",
+        "Conservation of charges"
+      ],
+      "answer": 3,
+      "chapter": "Current Electricity",
+      "explanation": "The junction rule states that the sum of currents entering a junction equals the sum leaving it, which is simply a statement of conservation of electric charge."
+    },
+    {
+      "n": 48,
+      "q": "[Figure shows a graph of terminal potential difference V (y-axis, in Volt) versus current I (x-axis, in A) for a cell, a straight line from V = 3 V at I = 0 to V = 0 at I = 6 A] The variation of terminal potential difference (V) with current flowing through a cell is as shown. The emf and internal resistance of the cell are",
+      "options": [
+        "3V, 2$\\Omega$",
+        "3V, 0.5$\\Omega$",
+        "6V, 2$\\Omega$",
+        "6V, 0.5$\\Omega$"
+      ],
+      "answer": 1,
+      "chapter": "Current Electricity",
+      "explanation": "The y-intercept gives EMF = 3 V, and internal resistance is the magnitude of the slope: $r = 3/6 = 0.5\\Omega$.",
+      "figure": true
+    },
+    {
+      "n": 49,
+      "q": "In a potentiometer experiment, the balancing point with a cell is at a length 240 cm. On shunting the cell with a resistance of 2$\\Omega$, the balancing length becomes 120 cm. The internal resistance of the cell is",
+      "options": [
+        "4$\\Omega$",
+        "2$\\Omega$",
+        "1$\\Omega$",
+        "0.5$\\Omega$"
+      ],
+      "answer": 1,
+      "chapter": "Current Electricity",
+      "explanation": "Internal resistance $r = R\\left(\\dfrac{l_1-l_2}{l_2}\\right) = 2\\times\\dfrac{240-120}{120} = 2\\Omega$."
+    },
+    {
+      "n": 50,
+      "q": "[Figure shows a circular arc carrying current I, with a small 60$^\\circ$ gap (dashed) in the circle of radius R, centered at O] The magnetic field at the centre 'O' in the given figure is",
+      "options": [
+        "$\\dfrac{7}{14}\\dfrac{\\mu_0I}{R}$",
+        "$\\dfrac{5}{12}\\dfrac{\\mu_0I}{R}$",
+        "$\\dfrac{3}{10}\\dfrac{\\mu_0I}{R}$",
+        "$\\dfrac{\\mu_0I}{12R}$"
+      ],
+      "answer": 1,
+      "chapter": "Moving Charges and Magnetism",
+      "explanation": "The current-carrying arc spans $360^\\circ-60^\\circ=300^\\circ = \\dfrac{5}{6}$ of a full circle, so $B = \\dfrac{5}{6}\\times\\dfrac{\\mu_0I}{2R} = \\dfrac{5}{12}\\dfrac{\\mu_0I}{R}$.",
+      "figure": true
+    },
+    {
+      "n": 51,
+      "q": "Two metal plates are separated by 2 cm. The potentials of the plates are $-$10 V and +30 V. The electric field between the two plates is",
+      "options": [
+        "500 V/m",
+        "1000 V/m",
+        "2000 V/m",
+        "3000 V/m"
+      ],
+      "answer": 2,
+      "chapter": "Electric Charges and Fields",
+      "explanation": "Electric field $= \\Delta V/d = (30-(-10))/0.02 = 2000$ V/m."
+    },
+    {
+      "n": 52,
+      "q": "[Figure shows a capacitor network between A and B: a 50 pF capacitor forms the top branch; a series combination of two 100 pF capacitors forms the middle branch ending at A; a 50 pF capacitor forms the bottom branch ending at B, with the top and middle branches joined together] The equivalent capacitance between A and B is,",
+      "options": [
+        "50 pF",
+        "$\\dfrac{100}{3}$ pF",
+        "150 pF",
+        "300 pF"
+      ],
+      "answer": 1,
+      "chapter": "Electrostatic Potential and Capacitance",
+      "explanation": "The two 100 pF capacitors in series give 50 pF, which combines in parallel with the top 50 pF branch to give 100 pF; this 100 pF is then in series with the bottom 50 pF, giving $\\dfrac{100\\times50}{150} = \\dfrac{100}{3}$ pF.",
+      "figure": true
+    },
+    {
+      "n": 53,
+      "q": "A capacitor of capacitance C charged by an amount Q is connected in parallel with an uncharged capacitor of capacitance 2C. The final charges on the capacitors are",
+      "options": [
+        "$\\dfrac{Q}{2}, \\dfrac{Q}{2}$",
+        "$\\dfrac{Q}{4}, \\dfrac{3Q}{4}$",
+        "$\\dfrac{Q}{3}, \\dfrac{2Q}{3}$",
+        "$\\dfrac{Q}{5}, \\dfrac{4Q}{5}$"
+      ],
+      "answer": 2,
+      "chapter": "Electrostatic Potential and Capacitance",
+      "explanation": "Total charge Q is conserved and redistributes in proportion to capacitance across the two capacitors in parallel: $Q_1 = Q\\times\\dfrac{C}{3C} = Q/3$ and $Q_2 = Q\\times\\dfrac{2C}{3C} = 2Q/3$."
+    },
+    {
+      "n": 54,
+      "q": "Though the electron drift velocity is small and electron charge is very small, a conductor can carry an appreciably large current because",
+      "options": [
+        "electron number density is very large",
+        "drift velocity of electron is very large",
+        "electron number density depends on temperature",
+        "relaxation time is small"
+      ],
+      "answer": 0,
+      "chapter": "Current Electricity",
+      "explanation": "Current $I = neAv_d$; even with small e and $v_d$, the very large free-electron number density n in a conductor makes the current appreciable."
+    },
+    {
+      "n": 55,
+      "q": "Masses of three wires of copper are in the ratio 1:3:5 and their lengths are in the ratio 5:3:1. The ratio of their electrical resistance are",
+      "options": [
+        "1:3:5",
+        "5:3:1",
+        "1:15:125",
+        "125:15:1"
+      ],
+      "answer": 3,
+      "chapter": "Current Electricity",
+      "explanation": "Since $R = \\rho L/A = \\rho d L^2/m$ (using $A = m/(dL)$), $R \\propto L^2/m$; with masses 1:3:5 and lengths 5:3:1, $R_1:R_2:R_3 = 25/1 : 9/3 : 1/5 = 125:15:1$."
+    },
+    {
+      "n": 56,
+      "q": "A certain charge 2Q is divided at first into two parts q$_1$ and q$_2$. Later the charges are placed at a certain distance apart. If the force of interaction between two charges is maximum then $\\dfrac{Q}{q_1}$ = _______.",
+      "options": [
+        "4",
+        "2",
+        "1",
+        "0.5"
+      ],
+      "answer": 2,
+      "chapter": "Electric Charges and Fields",
+      "explanation": "Force $F \\propto q_1(2Q-q_1)$ is maximum when $q_1 = Q$ (by calculus/AM-GM), so $Q/q_1 = 1$."
+    },
+    {
+      "n": 57,
+      "q": "A particle of mass m and charge q is placed at rest in uniform electric field E and then released. The kinetic energy attained by the particle after moving a distance y is",
+      "options": [
+        "qEy$^2$",
+        "qE$^2$y",
+        "qEy",
+        "q$^2$Ey"
+      ],
+      "answer": 2,
+      "chapter": "Electric Charges and Fields",
+      "explanation": "By the work-energy theorem, KE gained equals work done by the field: $W = qEy$."
+    },
+    {
+      "n": 58,
+      "q": "An electric dipole is kept in non-uniform electric field. It generally experiences",
+      "options": [
+        "A force and torque",
+        "A force but not a torque",
+        "A torque but not a force",
+        "Neither a force nor a torque"
+      ],
+      "answer": 0,
+      "chapter": "Electric Charges and Fields",
+      "explanation": "In a non-uniform field the two charges of the dipole experience unequal forces, giving a net force, and since the field also varies in direction/magnitude across the dipole, a net torque generally results too."
+    },
+    {
+      "n": 59,
+      "q": "[Graph shows electric potential V in volts (y-axis) versus distance x in metres (x-axis): V = 2 V (constant) for region A from x=0 to 1; V rises linearly from 2 to 4 for region B from x=1 to 2; V = 4 V (constant) for region C from x=2 to 4; V falls linearly from 4 to 0 for region D from x=4 to 5] The figure gives the electric potential V as a function of distance through four regions on x-axis. Which of the following is true for the magnitude of the electric field E in these regions ?",
+      "options": [
+        "E$_A$ > E$_B$ > E$_C$ > E$_D$",
+        "E$_A$ = E$_C$ and E$_B$ < E$_D$",
+        "E$_B$ = E$_D$ and E$_A$ < E$_C$",
+        "E$_A$ < E$_B$ < E$_C$ < E$_D$"
+      ],
+      "answer": 1,
+      "chapter": "Electrostatic Potential and Capacitance",
+      "explanation": "$E=-dV/dx$: in the flat regions A and C, E = 0 (so E$_A$ = E$_C$); in region B the slope magnitude is 2, and in region D it is 4, so E$_B$ < E$_D$."
+    },
+    {
+      "n": 60,
+      "q": "A system of two charges separated by a certain distance apart stores electrical potential energy. If the distance between them is increased, the potential energy of the system,",
+      "options": [
+        "increases in any case",
+        "decreases in any case",
+        "may increase or decrease",
+        "remains the same"
+      ],
+      "answer": 2,
+      "chapter": "Electrostatic Potential and Capacitance",
+      "explanation": "PE $= kq_1q_2/r$; if the charges are of the same sign, PE is positive and decreases as r increases, but if of opposite sign, PE is negative and increases (towards zero) as r increases, so the PE may increase or decrease."
+    }
+  ]
+}

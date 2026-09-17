@@ -1,0 +1,525 @@
+{
+  "notes": "<h3>Bar Magnet as a Dipole</h3><ul><li>Magnetic moment $m = q_m(2l)$, where $q_m$ is pole strength; unit A m$^2$.</li><li>Field on axial line: $B_{axial} = \\dfrac{\\mu_0}{4\\pi}\\dfrac{2m}{r^3}$; on equatorial line: $B_{eq} = \\dfrac{\\mu_0}{4\\pi}\\dfrac{m}{r^3}$ (for $r\\gg l$) — exactly analogous to the electric dipole with $\\varepsilon_0 \\leftrightarrow 1/\\mu_0$.</li><li>Torque in a uniform field: $\\tau = mB\\sin\\theta$; potential energy $U = -mB\\cos\\theta$.</li></ul><h3>Earth's Magnetism</h3><ul><li>Earth behaves like a magnetic dipole tilted about $11.3^\\circ$ from the geographic axis, with its magnetic south pole near geographic North.</li><li>Three elements: declination $\\theta$ (angle between geographic and magnetic meridian), dip/inclination $\\delta$ (angle field makes with horizontal), horizontal component $B_H = B\\cos\\delta$; vertical component $B_V = B\\sin\\delta$; $\\tan\\delta = B_V/B_H$.</li><li>At the magnetic equator, $\\delta = 0$; at the magnetic poles, $\\delta = 90^\\circ$ and $B_H = 0$.</li></ul><h3>Magnetisation & Magnetic Intensity</h3><ul><li>Magnetic intensity $H$ (due to free currents); magnetisation $M$ = net magnetic moment per unit volume; $B = \\mu_0(H+M)$; susceptibility $\\chi = M/H$; permeability $\\mu = \\mu_0\\mu_r = \\mu_0(1+\\chi)$.</li></ul><h3>Classification of Magnetic Materials</h3><table><tr><th>Type</th><th>$\\chi$</th><th>$\\mu_r$</th><th>Behaviour</th><th>Examples</th></tr><tr><td>Diamagnetic</td><td>small, negative</td><td>slightly $<1$</td><td>weakly repelled; no dependence on temperature (mostly); field lines expelled</td><td>Bi, Cu, water, NaCl</td></tr><tr><td>Paramagnetic</td><td>small, positive</td><td>slightly $>1$</td><td>weakly attracted; $\\chi \\propto 1/T$ (Curie's law)</td><td>Al, Na, O$_2$, CuCl$_2$</td></tr><tr><td>Ferromagnetic</td><td>large, positive</td><td>$\\gg1$</td><td>strongly attracted; retains magnetism; domains; loses ferromagnetism above Curie temperature and becomes paramagnetic</td><td>Fe, Co, Ni</td></tr></table><ul><li>Hysteresis: retentivity (residual $B$ at $H=0$) and coercivity (reverse $H$ needed to bring $B$ to 0). Permanent magnets need high retentivity & coercivity (steel); electromagnets need low coercivity & high permeability (soft iron).</li></ul><h3>Exam tip</h3><p>KCET usually asks 1–2 questions here — one on the dia/para/ferromagnetic comparison table (very fact-based, high scoring) and one numerical/conceptual on dipole field or Earth's magnetic elements ($\\tan\\delta = B_V/B_H$). Quick, easy marks if the table is memorised.</p>",
+  "questions": [
+    {
+      "id": "phy-magnetism-and-matter-001",
+      "q": "A bar magnet of magnetic moment $m$ produces a magnetic field $B_1$ at a point on its axial line at distance $r$. The field at the same distance on the equatorial line is",
+      "options": [
+        "$4B_1$",
+        "$B_1$",
+        "$2B_1$",
+        "$B_1/2$"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "$B_{axial} = 2\\times(\\mu_0/4\\pi)(m/r^3)$ and $B_{eq} = (\\mu_0/4\\pi)(m/r^3)$, so $B_{eq} = B_{axial}/2$."
+    },
+    {
+      "id": "phy-magnetism-and-matter-002",
+      "q": "The magnetic dipole moment of a bar magnet of pole strength 5 A m and length 10 cm is",
+      "options": [
+        "0.05 A m$^2$",
+        "0.5 A m$^2$",
+        "50 A m$^2$",
+        "5 A m$^2$"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "$m = q_m\\times2l = 5\\times0.1 = 0.5$ A m$^2$."
+    },
+    {
+      "id": "phy-magnetism-and-matter-003",
+      "q": "At a place, the angle of dip is $45^\\circ$. If the horizontal component of Earth's magnetic field is $0.3$ G, the vertical component is",
+      "options": [
+        "0.3 G",
+        "0.6 G",
+        "0.15 G",
+        "0.42 G"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "$\\tan\\delta = B_V/B_H \\Rightarrow B_V = B_H\\tan45^\\circ = 0.3\\times1 = 0.3$ G."
+    },
+    {
+      "id": "phy-magnetism-and-matter-004",
+      "q": "At the magnetic poles of the Earth, the angle of dip and the horizontal component of the field are respectively",
+      "options": [
+        "$0^\\circ$, zero",
+        "$0^\\circ$, maximum",
+        "$90^\\circ$, zero",
+        "$90^\\circ$, maximum"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "At the poles the field is vertical, so dip $\\delta=90^\\circ$ and $B_H = B\\cos90^\\circ = 0$."
+    },
+    {
+      "id": "phy-magnetism-and-matter-005",
+      "q": "A diamagnetic material placed in a magnetic field",
+      "options": [
+        "is unaffected by the field",
+        "retains magnetism after the field is removed",
+        "gets strongly magnetised along the field",
+        "gets weakly magnetised opposite to the field"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "Diamagnetic substances acquire a weak magnetisation opposite to the applied field (negative susceptibility) and are repelled from stronger field regions."
+    },
+    {
+      "id": "phy-magnetism-and-matter-006",
+      "q": "The susceptibility of a paramagnetic substance varies with absolute temperature $T$ as",
+      "options": [
+        "$\\chi \\propto T^2$",
+        "$\\chi \\propto 1/T$",
+        "$\\chi$ is independent of $T$",
+        "$\\chi \\propto T$"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "Curie's law: $\\chi = C/T$, so paramagnetic susceptibility decreases as temperature increases."
+    },
+    {
+      "id": "phy-magnetism-and-matter-007",
+      "q": "Above the Curie temperature, a ferromagnetic material becomes",
+      "options": [
+        "superconducting",
+        "diamagnetic",
+        "paramagnetic",
+        "more strongly ferromagnetic"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "Thermal agitation destroys the domain alignment above the Curie point, and the material behaves as an ordinary paramagnet."
+    },
+    {
+      "id": "phy-magnetism-and-matter-008",
+      "q": "Which of the following has relative permeability slightly less than 1?",
+      "options": [
+        "Copper (diamagnetic)",
+        "Nickel",
+        "Aluminium",
+        "Iron"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "Diamagnetic materials like copper have small negative susceptibility, so $\\mu_r = 1+\\chi$ is slightly less than 1."
+    },
+    {
+      "id": "phy-magnetism-and-matter-009",
+      "q": "For making a permanent magnet, the material should have",
+      "options": [
+        "high retentivity and low coercivity",
+        "low retentivity and low coercivity",
+        "high retentivity and high coercivity",
+        "low retentivity and high coercivity"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "A good permanent magnet (e.g. steel) must retain strong magnetism (high retentivity) and resist demagnetisation (high coercivity)."
+    },
+    {
+      "id": "phy-magnetism-and-matter-010",
+      "q": "For an electromagnet core, the material chosen should have",
+      "options": [
+        "negative susceptibility",
+        "high permeability and low retentivity/coercivity (like soft iron)",
+        "high retentivity and high coercivity",
+        "low permeability"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "Soft iron has high permeability (magnetises easily and strongly) but low retentivity/coercivity, so it loses magnetism as soon as current is switched off — ideal for electromagnets."
+    },
+    {
+      "id": "phy-magnetism-and-matter-011",
+      "q": "The relation between magnetic field $B$, magnetic intensity $H$ and magnetisation $M$ is",
+      "options": [
+        "$B = \\mu_0H - M$",
+        "$B = H + \\mu_0M$",
+        "$B = \\mu_0HM$",
+        "$B = \\mu_0(H+M)$"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "By definition, $B = \\mu_0(H+M)$ in a magnetised medium."
+    },
+    {
+      "id": "phy-magnetism-and-matter-012",
+      "q": "A magnetic needle free to rotate in a horizontal plane aligns itself along the direction of",
+      "options": [
+        "the horizontal component of Earth's magnetic field",
+        "the total magnetic field of the Earth",
+        "the vertical component of Earth's magnetic field",
+        "true geographic north-south"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "A compass needle constrained to a horizontal plane experiences only $B_H$, so it aligns along the magnetic meridian defined by the horizontal component."
+    },
+    {
+      "id": "phy-magnetism-and-matter-013",
+      "q": "The angle between the geographic meridian and the magnetic meridian at a place is called",
+      "options": [
+        "dip",
+        "declination",
+        "inclination",
+        "retentivity"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "Declination is the angle between true (geographic) north and magnetic north at a place."
+    },
+    {
+      "id": "phy-magnetism-and-matter-014",
+      "q": "Gauss's law for magnetism, $\\oint\\vec{B}\\cdot d\\vec{A} = 0$, over any closed surface implies",
+      "options": [
+        "magnetic field lines always form closed loops (no isolated poles)",
+        "magnetic monopoles exist",
+        "magnetic field is always uniform",
+        "magnetic flux is always positive"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "Zero net flux through any closed surface means magnetic field lines never start or end at a point (no monopole); they form closed loops."
+    },
+    {
+      "id": "phy-magnetism-and-matter-015",
+      "q": "A bar magnet of length 5 cm and magnetic moment 1 A m$^2$ is placed with its axis along an external field of 0.2 T. The work done to rotate it by $90^\\circ$ from this position is",
+      "options": [
+        "zero",
+        "0.1 J",
+        "0.4 J",
+        "0.2 J"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "$W = U(90^\\circ)-U(0^\\circ) = -mB\\cos90^\\circ-(-mB\\cos0^\\circ) = 0+mB = 1\\times0.2 = 0.2$ J."
+    },
+    {
+      "id": "phy-magnetism-and-matter-016",
+      "q": "A short bar magnet has magnetic moment $2$ A m$^2$. The magnetic field at a point on its equatorial line at a distance of 0.1 m is",
+      "options": [
+        "$2\\times10^{-5}$ T",
+        "$4\\times10^{-4}$ T",
+        "$2\\times10^{-4}$ T",
+        "$1\\times10^{-4}$ T"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "$B_{eq} = (\\mu_0/4\\pi)(m/r^3) = 10^{-7}\\times2/(0.1)^3 = 10^{-7}\\times2/10^{-3} = 2\\times10^{-4}$ T."
+    },
+    {
+      "id": "phy-magnetism-and-matter-017",
+      "q": "Curie temperature of iron is about 1000 K. Below this temperature iron is ferromagnetic mainly because",
+      "options": [
+        "iron has zero magnetic moment per atom",
+        "iron is diamagnetic at low temperature",
+        "individual atomic dipoles are aligned randomly",
+        "domains (regions of aligned atomic moments) exist and can be aligned by an external field"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "Ferromagnetism arises from domains — regions where atomic magnetic moments are already aligned; an external field aligns the domains themselves, giving a large net magnetisation."
+    },
+    {
+      "id": "phy-magnetism-and-matter-018",
+      "q": "If the horizontal component of Earth's field at a place is 0.24 G and the angle of dip is such that $\\tan\\delta = 1.5$, the vertical component is",
+      "options": [
+        "0.36 G",
+        "0.24 G",
+        "0.16 G",
+        "0.48 G"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "$B_V = B_H\\tan\\delta = 0.24\\times1.5 = 0.36$ G."
+    },
+    {
+      "id": "phy-magnetism-and-matter-019",
+      "q": "Which pair correctly matches material type with susceptibility sign?",
+      "options": [
+        "Both paramagnetic and diamagnetic — positive",
+        "Both paramagnetic and diamagnetic — negative",
+        "Paramagnetic — positive, Diamagnetic — negative",
+        "Paramagnetic — negative, Diamagnetic — positive"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "Paramagnetic materials have small positive $\\chi$ (weakly attracted); diamagnetic materials have small negative $\\chi$ (weakly repelled)."
+    },
+    {
+      "id": "phy-magnetism-and-matter-020",
+      "q": "A magnetic compass needle placed at the magnetic equator of the Earth will point",
+      "options": [
+        "vertically upward",
+        "horizontally, along the magnetic meridian",
+        "vertically downward",
+        "in a random direction"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "At the magnetic equator, dip $\\delta=0^\\circ$, so the Earth's field is entirely horizontal and the needle aligns horizontally along the magnetic meridian."
+    },
+    {
+      "id": "phy-magnetism-and-matter-021",
+      "q": "The SI unit of magnetic pole strength ($q_m$) is",
+      "options": [
+        "A m",
+        "A m$^2$",
+        "A/m",
+        "T"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "Since $m=q_m(2l)$ and $m$ has unit A m$^2$ while $2l$ is in metres, $q_m$ must have unit A m."
+    },
+    {
+      "id": "phy-magnetism-and-matter-022",
+      "q": "A bar magnet is equivalent to a solenoid of $N$ turns, area $A$, carrying current $I$. Its magnetic moment is",
+      "options": [
+        "$m = NA/I$",
+        "$m = N I^2 A$",
+        "$m = NI/A$",
+        "$m = NIA$"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "The equivalent solenoid model gives magnetic moment $m = NIA$, exactly like a current loop's dipole moment."
+    },
+    {
+      "id": "phy-magnetism-and-matter-023",
+      "q": "A circular coil of 100 turns and radius 10 cm carries a current of 0.5 A. Its magnetic moment is approximately",
+      "options": [
+        "0.785 A m$^2$",
+        "15.7 A m$^2$",
+        "1.57 A m$^2$",
+        "3.14 A m$^2$"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "$m = NI\\pi r^2 = 100\\times0.5\\times\\pi\\times(0.1)^2 = 50\\times0.0314 = 1.57$ A m$^2$."
+    },
+    {
+      "id": "phy-magnetism-and-matter-024",
+      "q": "A rectangular coil of 50 turns and area 0.02 m$^2$ carrying a current of 2 A is placed with its plane parallel to a magnetic field of 0.1 T. The torque on the coil is",
+      "options": [
+        "0.4 N m",
+        "0.2 N m",
+        "0.1 N m",
+        "0.02 N m"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "With plane parallel to $B$, the normal is perpendicular to $B$ so $\\sin\\theta=1$: $\\tau = NIAB = 50\\times2\\times0.02\\times0.1 = 0.2$ N m."
+    },
+    {
+      "id": "phy-magnetism-and-matter-025",
+      "q": "In a vibration magnetometer, a magnet of moment 0.3 A m$^2$ and moment of inertia $3\\times10^{-6}$ kg m$^2$ oscillates with a period of 2 s in a magnetic field $B$. The value of $B$ is approximately",
+      "options": [
+        "$2\\times10^{-4}$ T",
+        "$5\\times10^{-5}$ T",
+        "$1\\times10^{-4}$ T",
+        "$4\\times10^{-4}$ T"
+      ],
+      "answer": 2,
+      "difficulty": "hard",
+      "explanation": "$T=2\\pi\\sqrt{I/(mB)} \\Rightarrow B = \\dfrac{4\\pi^2I}{mT^2} = \\dfrac{4\\pi^2\\times3\\times10^{-6}}{0.3\\times4} \\approx 1\\times10^{-4}$ T."
+    },
+    {
+      "id": "phy-magnetism-and-matter-026",
+      "q": "An electron revolves in a circular orbit around the nucleus. The magnetic moment associated with its orbital motion is directed",
+      "options": [
+        "opposite to the orbital angular momentum vector, since the electron is negatively charged",
+        "along the direction of orbital velocity",
+        "always zero",
+        "along the orbital angular momentum vector"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "The orbital current is opposite to the electron's velocity (negative charge), so the associated magnetic moment vector points opposite to the orbital angular momentum vector."
+    },
+    {
+      "id": "phy-magnetism-and-matter-027",
+      "q": "Which of the following statements about diamagnetic susceptibility is correct?",
+      "options": [
+        "It is large and positive, increasing with temperature",
+        "It becomes zero above the Curie temperature",
+        "It obeys Curie's law, $\\chi\\propto 1/T$",
+        "It is small and negative, and nearly independent of temperature"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "Diamagnetism arises from induced currents opposing the field and is a small, negative, essentially temperature-independent effect, unlike paramagnetism which follows Curie's law."
+    },
+    {
+      "id": "phy-magnetism-and-matter-028",
+      "q": "A superconductor placed in a magnetic field expels the field completely from its interior (Meissner effect). Its relative permeability and susceptibility are respectively",
+      "options": [
+        "$\\mu_r=\\infty,\\ \\chi=\\infty$",
+        "$\\mu_r=0,\\ \\chi=-1$",
+        "$\\mu_r=1,\\ \\chi=0$",
+        "$\\mu_r>1,\\ \\chi>0$"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "A superconductor is a perfect diamagnet: $B=0$ inside means $\\mu_r=0$, so $\\chi=\\mu_r-1=-1$."
+    },
+    {
+      "id": "phy-magnetism-and-matter-029",
+      "q": "A bar magnet is placed with its north pole pointing geographic north. Neutral points (where the resultant magnetic field is zero) are obtained",
+      "options": [
+        "on the axial line of the magnet",
+        "on the equatorial line of the magnet, where the magnet's field cancels the Earth's horizontal field",
+        "nowhere, since the fields never cancel",
+        "at the poles of the magnet itself"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "With the N pole pointing north, the magnet's equatorial field (which points opposite to its own axis, i.e. southward) can cancel the northward $B_H$ of the Earth, giving neutral points on the equatorial line."
+    },
+    {
+      "id": "phy-magnetism-and-matter-030",
+      "q": "Inside a bar magnet, the magnetic field lines run from",
+      "options": [
+        "randomly in all directions",
+        "there are no field lines inside a magnet",
+        "N pole to S pole, same as outside",
+        "S pole to N pole, forming closed loops with the external field lines"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "Magnetic field lines have no beginning or end; outside a magnet they go from N to S, and inside they continue from S back to N, forming closed loops (consistent with $\\oint\\vec B\\cdot d\\vec A=0$)."
+    },
+    {
+      "id": "phy-magnetism-and-matter-031",
+      "q": "In a tangent galvanometer experiment, the horizontal component of Earth's field is balanced against the field due to current in the coil. If the deflection is $\\theta$, the relation used is",
+      "options": [
+        "$B = B_H\\sin\\theta$",
+        "$B = B_H/\\tan\\theta$",
+        "$B = B_H\\tan\\theta$",
+        "$B = B_H\\cos\\theta$"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "The needle settles along the resultant of the coil's field $B$ (perpendicular to $B_H$) and $B_H$ itself, so $\\tan\\theta = B/B_H$, giving $B=B_H\\tan\\theta$ (tangent law)."
+    },
+    {
+      "id": "phy-magnetism-and-matter-032",
+      "q": "Two short magnets of moments 3 A m$^2$ and 4 A m$^2$ are placed with their axes perpendicular to each other. The resultant magnetic moment is",
+      "options": [
+        "5 A m$^2$",
+        "1 A m$^2$",
+        "12 A m$^2$",
+        "7 A m$^2$"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "For perpendicular vectors, resultant $=\\sqrt{3^2+4^2}=\\sqrt{25}=5$ A m$^2$."
+    },
+    {
+      "id": "phy-magnetism-and-matter-033",
+      "q": "The value of the permeability of free space $\\mu_0$ is",
+      "options": [
+        "$1.6\\times10^{-19}$ C",
+        "$8.85\\times10^{-12}$ C$^2$/N m$^2$",
+        "$4\\pi\\times10^{-7}$ T m/A",
+        "$9\\times10^9$ N m$^2$/C$^2$"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "$\\mu_0 = 4\\pi\\times10^{-7}$ T m/A (or H/m) by definition in SI units."
+    },
+    {
+      "id": "phy-magnetism-and-matter-034",
+      "q": "The area enclosed by the hysteresis loop (B-H curve) of a magnetic material represents",
+      "options": [
+        "the maximum magnetisation of the material",
+        "the energy dissipated as heat per unit volume per cycle of magnetisation",
+        "the retentivity of the material",
+        "the coercivity of the material"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "Work is done against the internal friction of domain realignment during each magnetisation cycle; this lost energy per unit volume equals the loop's enclosed area."
+    },
+    {
+      "id": "phy-magnetism-and-matter-035",
+      "q": "Compared to soft iron, the hysteresis loop of steel is",
+      "options": [
+        "narrower, with lower retentivity",
+        "absent, since steel shows no hysteresis",
+        "identical in area and shape",
+        "fatter, with larger retentivity and coercivity, hence larger hysteresis loss"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "Steel has high retentivity and coercivity (good for permanent magnets) but this means a fatter loop and greater hysteresis loss compared to soft iron, which has a thin loop suited to electromagnets."
+    },
+    {
+      "id": "phy-magnetism-and-matter-036",
+      "q": "An electron moves in a circular orbit of radius $5\\times10^{-11}$ m with speed $2\\times10^{6}$ m/s. The equivalent magnetic moment due to its orbital motion is",
+      "options": [
+        "$8\\times10^{-24}$ A m$^2$",
+        "$4\\times10^{-24}$ A m$^2$",
+        "$3.2\\times10^{-23}$ A m$^2$",
+        "$1.6\\times10^{-23}$ A m$^2$"
+      ],
+      "answer": 0,
+      "difficulty": "hard",
+      "explanation": "Equivalent current $I=\\dfrac{ev}{2\\pi r}$, so $m=I\\pi r^2=\\dfrac{evr}{2}=\\dfrac{1.6\\times10^{-19}\\times2\\times10^6\\times5\\times10^{-11}}{2}=8\\times10^{-24}$ A m$^2$."
+    },
+    {
+      "id": "phy-magnetism-and-matter-037",
+      "q": "Which of the following is a ferromagnetic material?",
+      "options": [
+        "Bismuth",
+        "Nickel",
+        "Sodium",
+        "Aluminium"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "Nickel, along with iron and cobalt, is ferromagnetic; aluminium and sodium are paramagnetic while bismuth is diamagnetic."
+    },
+    {
+      "id": "phy-magnetism-and-matter-038",
+      "q": "Which statement correctly distinguishes ferromagnetic from paramagnetic behaviour?",
+      "options": [
+        "Ferromagnetic materials have negative susceptibility",
+        "Ferromagnetic susceptibility is small and constant, like paramagnetic",
+        "Ferromagnetic susceptibility is large, positive and varies non-linearly with $H$, unlike the small, nearly constant susceptibility of paramagnetic materials",
+        "Paramagnetic materials show hysteresis while ferromagnetic materials do not"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "Ferromagnetic materials have large, field-dependent (non-linear) positive susceptibility due to domain alignment, and show hysteresis, unlike the small, nearly constant susceptibility of paramagnets."
+    },
+    {
+      "id": "phy-magnetism-and-matter-039",
+      "q": "A bar magnet of magnetic moment $m$ and length $2l$ is cut into two equal pieces by a cut perpendicular to its length. The magnetic moment of each piece is",
+      "options": [
+        "$m/2$",
+        "$m$",
+        "$m/4$",
+        "$2m$"
+      ],
+      "answer": 0,
+      "difficulty": "hard",
+      "explanation": "Each piece has the same pole strength $q_m$ but half the length ($l$ instead of $2l$), so its moment is $q_m l = m/2$."
+    },
+    {
+      "id": "phy-magnetism-and-matter-040",
+      "q": "Assertion (A): A diamagnetic material has no permanent (net) magnetic dipole moment of its own. Reason (R): In a diamagnetic material, the applied field induces a magnetic moment that opposes the field. Choose the correct option.",
+      "options": [
+        "Both A and R are true, and R is the correct explanation of A",
+        "Both A and R are true, but R is not the correct explanation of A",
+        "A is true but R is false",
+        "A is false but R is true"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "Diamagnetic atoms have no net intrinsic dipole moment (paired electrons); the field itself induces a small opposing moment, which is exactly why A is true and R correctly explains it."
+    }
+  ]
+}

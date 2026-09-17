@@ -1,0 +1,525 @@
+{
+  "notes": "<h3>Zeroth &amp; first law</h3><ul><li>Zeroth law: if A and B are separately in thermal equilibrium with C, then A and B are in thermal equilibrium with each other — basis of temperature measurement.</li><li>First law: $\\Delta Q = \\Delta U + \\Delta W$ (heat given $=$ change in internal energy $+$ work done by the gas). Internal energy $U$ depends only on temperature for an ideal gas (state function).</li></ul><h3>Thermodynamic processes</h3><table><tr><th>Process</th><th>Condition</th><th>Work done by gas</th></tr><tr><td>Isothermal</td><td>$T$ constant, $PV=$ const</td><td>$W = nRT\\ln(V_2/V_1)$; $\\Delta U = 0$</td></tr><tr><td>Adiabatic</td><td>$Q=0$, $PV^\\gamma=$ const</td><td>$W = \\dfrac{nR(T_1-T_2)}{\\gamma-1}$</td></tr><tr><td>Isobaric</td><td>$P$ constant</td><td>$W = P\\Delta V = nR\\Delta T$</td></tr><tr><td>Isochoric</td><td>$V$ constant</td><td>$W = 0$</td></tr></table><ul><li>Slope of adiabatic curve is steeper than isothermal at a given point ($\\gamma>1$).</li><li>Work done by gas $=$ area under $P$-$V$ curve; in a cyclic process $\\Delta U=0$ so $Q_{net}=W_{net}=$ area enclosed by the loop.</li></ul><h3>Specific heats of gas</h3><ul><li>$C_P - C_V = R$ (Mayer's relation, per mole); $\\gamma = C_P/C_V$. Monatomic: $C_V=\\tfrac32R$, $C_P=\\tfrac52R$, $\\gamma=5/3$. Diatomic: $C_V=\\tfrac52R$, $C_P=\\tfrac72R$, $\\gamma=7/5$.</li></ul><h3>Second law &amp; heat engines</h3><ul><li>Kelvin-Planck statement: no engine can convert heat completely into work with no other effect (100% efficiency impossible).</li><li>Clausius statement: heat cannot flow spontaneously from a colder to a hotter body without external work.</li><li>Heat engine efficiency: $\\eta = \\dfrac{W}{Q_1} = 1-\\dfrac{Q_2}{Q_1}$ ($Q_1$ = heat absorbed from source, $Q_2$ = heat rejected to sink).</li><li>Carnot engine (ideal, reversible): $\\eta_{Carnot} = 1-\\dfrac{T_2}{T_1}$ (temperatures in kelvin) — the maximum possible efficiency between $T_1$ and $T_2$.</li><li>Refrigerator/heat pump: coefficient of performance $\\text{COP} = \\dfrac{Q_2}{W} = \\dfrac{T_2}{T_1-T_2}$.</li></ul><h3>Exam tip</h3><p>KCET typically asks 2 questions — one numerical on efficiency/Carnot engine or work done in isothermal/adiabatic process, and one conceptual question on the first/second law or sign conventions. Remember: $Q$ and $W$ positive when heat is added to / work is done by the gas.</p>",
+  "questions": [
+    {
+      "id": "phy-thermodynamics-001",
+      "q": "In a thermodynamic process, 500 J of heat is supplied to a gas and the gas does 200 J of work on the surroundings. The change in internal energy of the gas is",
+      "options": [
+        "200 J",
+        "700 J",
+        "500 J",
+        "300 J"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "First law: $\\Delta U = \\Delta Q - \\Delta W = 500-200 = 300$ J."
+    },
+    {
+      "id": "phy-thermodynamics-002",
+      "q": "For an ideal gas undergoing an isothermal process, the change in internal energy is",
+      "options": [
+        "equal to the work done",
+        "zero",
+        "negative",
+        "positive"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "Internal energy of an ideal gas depends only on temperature; since $T$ is constant in an isothermal process, $\\Delta U=0$."
+    },
+    {
+      "id": "phy-thermodynamics-003",
+      "q": "In an adiabatic process, if the gas expands, then",
+      "options": [
+        "$Q=0$ and temperature increases",
+        "$\\Delta U=0$",
+        "$Q=0$ and temperature decreases",
+        "$W=0$"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "Adiabatic means $Q=0$. On expansion the gas does positive work using its internal energy ($\\Delta U = -W$), so its temperature falls."
+    },
+    {
+      "id": "phy-thermodynamics-004",
+      "q": "One mole of an ideal gas expands isothermally at temperature $T$ from volume $V$ to $2V$. The work done by the gas is",
+      "options": [
+        "$RT\\ln 2$",
+        "zero",
+        "$RT/2$",
+        "$2RT$"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "$W = nRT\\ln(V_2/V_1) = RT\\ln(2V/V) = RT\\ln 2$."
+    },
+    {
+      "id": "phy-thermodynamics-005",
+      "q": "For a monatomic ideal gas, the ratio of specific heats $\\gamma = C_P/C_V$ is",
+      "options": [
+        "7/5",
+        "5/3",
+        "4/3",
+        "1"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "Monatomic gas: $C_V = \\tfrac32R$, $C_P=\\tfrac52R$, so $\\gamma = 5/3$."
+    },
+    {
+      "id": "phy-thermodynamics-006",
+      "q": "For one mole of an ideal gas, $C_P - C_V$ equals",
+      "options": [
+        "$2R$",
+        "$R/2$",
+        "$\\gamma R$",
+        "$R$"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "Mayer's relation: $C_P - C_V = R$ for one mole of an ideal gas."
+    },
+    {
+      "id": "phy-thermodynamics-007",
+      "q": "On a $P$-$V$ diagram, at a given point, compared to the isothermal curve through that point, the adiabatic curve is",
+      "options": [
+        "more steep",
+        "a straight line",
+        "less steep",
+        "equally steep"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "Slope of isothermal $=-P/V$; slope of adiabatic $=-\\gamma P/V$. Since $\\gamma>1$, the adiabatic curve is steeper at the point of intersection."
+    },
+    {
+      "id": "phy-thermodynamics-008",
+      "q": "A Carnot engine operates between a source at 600 K and a sink at 300 K. Its efficiency is",
+      "options": [
+        "100%",
+        "75%",
+        "50%",
+        "25%"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "$\\eta = 1-\\dfrac{T_2}{T_1} = 1-\\dfrac{300}{600} = 0.5 = 50\\%$."
+    },
+    {
+      "id": "phy-thermodynamics-009",
+      "q": "A Carnot engine absorbs 800 J of heat from a source at 500 K and rejects heat to a sink at 300 K. The work done by the engine per cycle is",
+      "options": [
+        "480 J",
+        "800 J",
+        "160 J",
+        "320 J"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "$\\eta = 1-300/500 = 0.4$; $W = \\eta Q_1 = 0.4\\times800 = 320$ J."
+    },
+    {
+      "id": "phy-thermodynamics-010",
+      "q": "According to the Kelvin-Planck statement of the second law of thermodynamics",
+      "options": [
+        "heat cannot flow from a cold body to a hot body on its own",
+        "entropy of an isolated system always decreases",
+        "no engine can have 100% efficiency by converting all absorbed heat into work with no other effect",
+        "the internal energy of an isolated system is constant"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "Kelvin-Planck statement: it is impossible to construct an engine operating in a cycle that converts heat completely into work, with no other effect. Option A ('heat cannot flow from a cold body to a hot body on its own') is the Clausius statement."
+    },
+    {
+      "id": "phy-thermodynamics-011",
+      "q": "A refrigerator works between 260 K (freezer) and 300 K (room). Its coefficient of performance is",
+      "options": [
+        "6.5",
+        "1.15",
+        "0.87",
+        "13"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "$\\text{COP} = \\dfrac{T_2}{T_1-T_2} = \\dfrac{260}{300-260} = \\dfrac{260}{40} = 6.5$."
+    },
+    {
+      "id": "phy-thermodynamics-012",
+      "q": "In a cyclic process, the net change in internal energy of the system is",
+      "options": [
+        "always negative",
+        "zero",
+        "always positive",
+        "equal to the net heat absorbed only if adiabatic"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "Internal energy is a state function; after a complete cycle the system returns to its initial state, so $\\Delta U_{net}=0$, and hence $Q_{net}=W_{net}$."
+    },
+    {
+      "id": "phy-thermodynamics-013",
+      "q": "For an isochoric (constant volume) process, the work done by the gas is",
+      "options": [
+        "maximum",
+        "zero",
+        "equal to $P\\Delta V$",
+        "negative always"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "Since volume does not change, $W=\\int P\\,dV = 0$."
+    },
+    {
+      "id": "phy-thermodynamics-014",
+      "q": "Two moles of an ideal diatomic gas are heated at constant pressure so that its temperature rises by 20 K. The work done by the gas is (R = 8.3 J mol$^{-1}$K$^{-1}$)",
+      "options": [
+        "332 J",
+        "83 J",
+        "664 J",
+        "166 J"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "At constant pressure, $W = nR\\Delta T = 2\\times8.3\\times20 = 332$ J."
+    },
+    {
+      "id": "phy-thermodynamics-015",
+      "q": "The area enclosed by a cyclic process on a $P$-$V$ diagram represents",
+      "options": [
+        "zero, always",
+        "the total heat capacity",
+        "the total internal energy of the gas",
+        "the net heat absorbed (or net work done) in the cycle"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "For a cyclic process $\\Delta U=0$, so the net work done by the gas (equal to net heat absorbed) equals the area enclosed by the closed loop on the $P$-$V$ diagram."
+    },
+    {
+      "id": "phy-thermodynamics-016",
+      "q": "A quasi-static process is one that proceeds",
+      "options": [
+        "infinitely fast so that no heat is exchanged",
+        "only in a closed container",
+        "so slowly that the system remains in thermal and mechanical equilibrium throughout",
+        "only through an ideal gas"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "A quasi-static process occurs slowly enough that the system stays arbitrarily close to equilibrium at each stage, allowing well-defined P, V, T throughout."
+    },
+    {
+      "id": "phy-thermodynamics-017",
+      "q": "If a gas is compressed adiabatically, its temperature",
+      "options": [
+        "increases",
+        "remains constant",
+        "decreases",
+        "first increases then decreases"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "In adiabatic compression $Q=0$, so all the work done on the gas increases its internal energy, raising the temperature."
+    },
+    {
+      "id": "phy-thermodynamics-018",
+      "q": "No real engine can be more efficient than a Carnot engine operating between the same two temperatures because the Carnot engine is",
+      "options": [
+        "used only for heating",
+        "operated very fast",
+        "reversible and involves no dissipative losses",
+        "made of ideal gas only"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "The Carnot engine is an idealized, fully reversible cycle with no friction or dissipation, giving it the maximum possible efficiency $1-T_2/T_1$ between two given temperatures; any real (irreversible) engine is less efficient."
+    },
+    {
+      "id": "phy-thermodynamics-019",
+      "q": "The zeroth law of thermodynamics states that",
+      "options": [
+        "heat flows from cold to hot without external work",
+        "energy is conserved in all processes",
+        "entropy of the universe always increases",
+        "if A and B are separately in thermal equilibrium with C, then A and B are in thermal equilibrium with each other"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "This is the statement of the zeroth law; it justifies using a thermometer (C) to compare the temperatures of two bodies (A and B) without bringing them into direct contact."
+    },
+    {
+      "id": "phy-thermodynamics-020",
+      "q": "One mole of an ideal monatomic gas ($C_V=\\tfrac32R$, $R=8.3$ J mol$^{-1}$K$^{-1}$) is heated at constant volume so that its temperature rises by 40 K. The heat absorbed by the gas is",
+      "options": [
+        "332 J",
+        "498 J",
+        "166 J",
+        "830 J"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "At constant volume $W=0$, so $Q=\\Delta U=nC_V\\Delta T=1\\times(1.5\\times8.3)\\times40=12.45\\times40=498$ J."
+    },
+    {
+      "id": "phy-thermodynamics-021",
+      "q": "Two moles of a diatomic ideal gas ($\\gamma=7/5$, $R=8.3$ J mol$^{-1}$K$^{-1}$) expand adiabatically, and its temperature falls from 400 K to 300 K. The work done by the gas is",
+      "options": [
+        "8300 J",
+        "4150 J",
+        "1660 J",
+        "2075 J"
+      ],
+      "answer": 1,
+      "difficulty": "hard",
+      "explanation": "$W=\\dfrac{nR(T_1-T_2)}{\\gamma-1}=\\dfrac{2\\times8.3\\times100}{0.4}=4150$ J."
+    },
+    {
+      "id": "phy-thermodynamics-022",
+      "q": "In the free expansion of an ideal gas into a vacuum (no external pressure to do work against, container thermally insulated), which of the following is true?",
+      "options": [
+        "$Q\\ne0$ but $W=0$",
+        "Temperature of the gas rises, though $Q=0$ and $W=0$",
+        "$Q=0$, $W=0$ and hence $\\Delta U=0$, so the temperature remains unchanged",
+        "$\\Delta U\\ne0$ even though $Q=0$"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "Free expansion is irreversible; no work is done against a vacuum ($W=0$) and the system is insulated ($Q=0$), so by the first law $\\Delta U=0$ — for an ideal gas this means the temperature stays the same."
+    },
+    {
+      "id": "phy-thermodynamics-023",
+      "q": "A reversible thermodynamic process is one that",
+      "options": [
+        "can only occur in a vacuum",
+        "occurs instantaneously",
+        "always releases heat to the surroundings",
+        "can be exactly retraced in the reverse direction, restoring both the system and surroundings to their original states, and consists of a succession of equilibrium states"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "A reversible process proceeds through a continuous series of equilibrium states with no dissipative effects (friction, unrestrained expansion), so reversing it restores the initial state of both system and surroundings exactly."
+    },
+    {
+      "id": "phy-thermodynamics-024",
+      "q": "For any spontaneous (naturally occurring, irreversible) process in an isolated system, the total entropy of the system",
+      "options": [
+        "always increases (or, in the ideal reversible limit, stays the same)",
+        "is undefined",
+        "always remains exactly zero",
+        "always decreases"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "The second law implies the entropy of an isolated system can never decrease; it increases for irreversible (real, spontaneous) processes and stays constant only in the idealised reversible limit."
+    },
+    {
+      "id": "phy-thermodynamics-025",
+      "q": "For a diatomic ideal gas with $\\gamma=1.4$ and $R=8.3$ J mol$^{-1}$K$^{-1}$, using $C_V=\\dfrac{R}{\\gamma-1}$, the molar specific heat at constant volume is",
+      "options": [
+        "8.3 J mol$^{-1}$K$^{-1}$",
+        "11.6 J mol$^{-1}$K$^{-1}$",
+        "20.75 J mol$^{-1}$K$^{-1}$",
+        "29.05 J mol$^{-1}$K$^{-1}$"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "$C_V=\\dfrac{R}{\\gamma-1}=\\dfrac{8.3}{0.4}=20.75$ J mol$^{-1}$K$^{-1}$."
+    },
+    {
+      "id": "phy-thermodynamics-026",
+      "q": "For a monatomic ideal gas with $\\gamma=5/3$ and $R=8.3$ J mol$^{-1}$K$^{-1}$, using $C_P=\\dfrac{\\gamma R}{\\gamma-1}$, the molar specific heat at constant pressure is",
+      "options": [
+        "20.75 J mol$^{-1}$K$^{-1}$",
+        "12.45 J mol$^{-1}$K$^{-1}$",
+        "13.83 J mol$^{-1}$K$^{-1}$",
+        "8.3 J mol$^{-1}$K$^{-1}$"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "$C_P=\\dfrac{\\gamma R}{\\gamma-1}=\\dfrac{(5/3)\\times8.3}{2/3}=\\dfrac{5}{2}\\times8.3=20.75$ J mol$^{-1}$K$^{-1}$."
+    },
+    {
+      "id": "phy-thermodynamics-027",
+      "q": "The efficiency of a Carnot engine operating between two given temperatures depends only on",
+      "options": [
+        "the amount (moles) of gas used",
+        "the working substance used (e.g. monatomic or diatomic gas)",
+        "the speed at which the cycle is carried out",
+        "the temperatures of the source and sink, and not on the nature of the working substance"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "Carnot's theorem shows $\\eta = 1-T_2/T_1$ is a universal result for any reversible engine working between two fixed temperatures, independent of the working substance."
+    },
+    {
+      "id": "phy-thermodynamics-028",
+      "q": "A refrigerator has a coefficient of performance of 4 and extracts 800 J of heat from its interior in each cycle. The work that must be supplied to it per cycle is",
+      "options": [
+        "800 J",
+        "200 J",
+        "3200 J",
+        "400 J"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "$\\text{COP}=Q_2/W \\Rightarrow W = Q_2/\\text{COP} = 800/4 = 200$ J."
+    },
+    {
+      "id": "phy-thermodynamics-029",
+      "q": "For the same device operating between the same two temperatures, the coefficient of performance as a heat pump ($\\text{COP}_{HP}=Q_1/W$) compared to its coefficient of performance as a refrigerator ($\\text{COP}_{R}=Q_2/W$) is",
+      "options": [
+        "always larger, since $\\text{COP}_{HP}=\\text{COP}_R+1$ (because $Q_1=Q_2+W$)",
+        "always smaller, since $\\text{COP}_{HP}=\\text{COP}_R - 1$",
+        "unrelated to $\\text{COP}_R$",
+        "always equal to $\\text{COP}_R$"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "Since $Q_1=Q_2+W$, dividing by $W$ gives $\\text{COP}_{HP}=Q_1/W=Q_2/W+1=\\text{COP}_R+1$, so the heat-pump COP always exceeds the refrigerator COP by exactly 1."
+    },
+    {
+      "id": "phy-thermodynamics-030",
+      "q": "A gas undergoes a cyclic process represented on a $P$-$V$ diagram by a rectangle, with pressure varying between $1\\times10^5$ Pa and $3\\times10^5$ Pa, and volume varying between $2\\times10^{-3}$ m$^3$ and $5\\times10^{-3}$ m$^3$ (cycle traversed clockwise). The net work done by the gas in one complete cycle is",
+      "options": [
+        "900 J",
+        "600 J",
+        "1200 J",
+        "300 J"
+      ],
+      "answer": 1,
+      "difficulty": "hard",
+      "explanation": "For a rectangular cycle, net work $=$ area enclosed $=\\Delta P\\times\\Delta V=(3-1)\\times10^5\\times(5-2)\\times10^{-3}=2\\times10^5\\times3\\times10^{-3}=600$ J."
+    },
+    {
+      "id": "phy-thermodynamics-031",
+      "q": "In the first law $\\Delta Q=\\Delta U+\\Delta W$ (with $W$ = work done BY the gas), the work term $\\Delta W$ during compression of the gas is taken as",
+      "options": [
+        "always zero",
+        "equal to $\\Delta U$",
+        "positive, since volume increases",
+        "negative, since the surroundings do work on the gas"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "During compression the gas's volume decreases, so the gas does negative work on the surroundings (equivalently, the surroundings do positive work on the gas); by convention this is written as negative $\\Delta W$."
+    },
+    {
+      "id": "phy-thermodynamics-032",
+      "q": "The Clausius statement of the second law of thermodynamics asserts that",
+      "options": [
+        "internal energy is always conserved",
+        "no engine can be 100% efficient",
+        "heat cannot, by itself (without external work being done), flow from a colder body to a hotter body",
+        "entropy of the universe is constant"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "The Clausius statement says spontaneous heat flow always occurs from hot to cold; making heat flow the other way (as in a refrigerator) requires external work to be supplied."
+    },
+    {
+      "id": "phy-thermodynamics-033",
+      "q": "Two moles of an ideal diatomic gas are heated at constant pressure so that its temperature rises by 20 K ($R=8.3$ J mol$^{-1}$K$^{-1}$). The increase in internal energy of the gas is",
+      "options": [
+        "415 J",
+        "332 J",
+        "1162 J",
+        "830 J"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "$C_V=\\tfrac52R=20.75$ J mol$^{-1}$K$^{-1}$ for a diatomic gas; $\\Delta U=nC_V\\Delta T=2\\times20.75\\times20=830$ J."
+    },
+    {
+      "id": "phy-thermodynamics-034",
+      "q": "For 2 mol of an ideal diatomic gas heated at constant pressure with a temperature rise of 20 K ($R=8.3$ J mol$^{-1}$K$^{-1}$), the total heat absorbed by the gas (using $C_P=\\tfrac72R$) is",
+      "options": [
+        "830 J",
+        "498 J",
+        "1162 J",
+        "332 J"
+      ],
+      "answer": 2,
+      "difficulty": "hard",
+      "explanation": "$C_P=\\tfrac72R=29.05$ J mol$^{-1}$K$^{-1}$; $Q=nC_P\\Delta T=2\\times29.05\\times20=1162$ J (consistent with $Q=\\Delta U+W=830+332=1162$ J)."
+    },
+    {
+      "id": "phy-thermodynamics-035",
+      "q": "A gas at pressure $2\\times10^5$ Pa and volume $4\\times10^{-3}$ m$^3$ is compressed isothermally to a volume of $2\\times10^{-3}$ m$^3$. The new pressure is",
+      "options": [
+        "$2\\times10^5$ Pa",
+        "$4\\times10^5$ Pa",
+        "$1\\times10^5$ Pa",
+        "$8\\times10^5$ Pa"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "Isothermal: $P_1V_1=P_2V_2 \\Rightarrow P_2 = \\dfrac{2\\times10^5\\times4\\times10^{-3}}{2\\times10^{-3}} = 4\\times10^5$ Pa."
+    },
+    {
+      "id": "phy-thermodynamics-036",
+      "q": "Which of the following thermodynamic quantities is a state function, i.e. depends only on the initial and final states of the system and not on the path taken between them?",
+      "options": [
+        "internal energy, $U$",
+        "work done, $W$",
+        "heat absorbed, $Q$",
+        "none of these — all depend on the path"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "Internal energy is a state function (it depends only on temperature for an ideal gas); heat and work, in contrast, both depend on the specific path (process) followed."
+    },
+    {
+      "id": "phy-thermodynamics-037",
+      "q": "A gas expands from the same initial state to the same final volume, once isothermally and once adiabatically. Compared to the isothermal case, the final pressure reached after the adiabatic expansion is",
+      "options": [
+        "exactly the same",
+        "higher",
+        "lower",
+        "cannot be determined without knowing $\\gamma$"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "Since the adiabatic curve is steeper than the isothermal curve through the same initial point ($PV^\\gamma$ falls off faster than $PV=$ const), for the same volume increase the adiabatic final pressure is lower."
+    },
+    {
+      "id": "phy-thermodynamics-038",
+      "q": "Unlike solids and liquids, an ideal gas does not have a single fixed specific heat capacity because",
+      "options": [
+        "gases have infinite mass",
+        "gases cannot absorb heat",
+        "gases have zero internal energy",
+        "the specific heat of a gas depends on the process (e.g. constant volume vs constant pressure) it undergoes, since the work done varies with the path taken"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "Because $Q=\\Delta U+W$ and $W$ depends on the process followed, the heat needed to raise a gas's temperature by a given amount (and hence its specific heat) differs for, say, constant-volume and constant-pressure heating."
+    },
+    {
+      "id": "phy-thermodynamics-039",
+      "q": "From $\\eta_{Carnot}=1-\\dfrac{T_2}{T_1}$, a Carnot engine can attain 100% efficiency only if",
+      "options": [
+        "the sink temperature $T_2=0$ K (absolute zero), which is unattainable in practice",
+        "the source temperature $T_1=300$ K",
+        "the working substance is a monatomic ideal gas",
+        "$T_1=T_2$"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "$\\eta=1$ requires $T_2=0$ K; since absolute zero can never actually be reached, no real (or even ideal Carnot) engine can achieve 100% efficiency, consistent with the Kelvin-Planck statement."
+    },
+    {
+      "id": "phy-thermodynamics-040",
+      "q": "A Carnot engine operating between two temperatures has an efficiency of 40%. If the same engine is run in reverse as a refrigerator between the same two temperatures, its coefficient of performance is",
+      "options": [
+        "0.4",
+        "1.5",
+        "2.5",
+        "0.6"
+      ],
+      "answer": 1,
+      "difficulty": "hard",
+      "explanation": "$\\eta=1-T_2/T_1=0.4 \\Rightarrow T_2/T_1=0.6$. $\\text{COP}=\\dfrac{T_2}{T_1-T_2}=\\dfrac{0.6}{1-0.6}=\\dfrac{0.6}{0.4}=1.5$."
+    }
+  ]
+}

@@ -1,0 +1,525 @@
+{
+  "notes": "<h3>VSEPR shapes</h3><table><tr><th>Type</th><th>Hybridisation</th><th>Shape</th><th>Example</th></tr><tr><td>AB$_2$</td><td>sp</td><td>Linear (180°)</td><td>BeCl$_2$, CO$_2$</td></tr><tr><td>AB$_3$</td><td>sp$^2$</td><td>Trigonal planar (120°)</td><td>BF$_3$, SO$_3$</td></tr><tr><td>AB$_4$</td><td>sp$^3$</td><td>Tetrahedral (109.5°)</td><td>CH$_4$, NH$_4^+$</td></tr><tr><td>AB$_3$E</td><td>sp$^3$</td><td>Pyramidal (107°)</td><td>NH$_3$</td></tr><tr><td>AB$_2$E$_2$</td><td>sp$^3$</td><td>Bent (104.5°)</td><td>H$_2$O</td></tr><tr><td>AB$_5$</td><td>sp$^3$d</td><td>Trigonal bipyramidal</td><td>PCl$_5$</td></tr><tr><td>AB$_4$E</td><td>sp$^3$d</td><td>See-saw</td><td>SF$_4$</td></tr><tr><td>AB$_3$E$_2$</td><td>sp$^3$d</td><td>T-shaped</td><td>ClF$_3$</td></tr><tr><td>AB$_2$E$_3$</td><td>sp$^3$d</td><td>Linear</td><td>XeF$_2$, I$_3^-$</td></tr><tr><td>AB$_6$</td><td>sp$^3$d$^2$</td><td>Octahedral</td><td>SF$_6$</td></tr><tr><td>AB$_5$E</td><td>sp$^3$d$^2$</td><td>Square pyramidal</td><td>BrF$_5$</td></tr><tr><td>AB$_4$E$_2$</td><td>sp$^3$d$^2$</td><td>Square planar</td><td>XeF$_4$</td></tr></table><p>Lone pair–lone pair > lone pair–bond pair > bond pair–bond pair repulsion, hence CH$_4$ (109.5°) > NH$_3$ (107°) > H$_2$O (104.5°).</p><h3>Molecular orbital theory</h3><ul><li>Order (up to N$_2$): $\\sigma1s < \\sigma^*1s < \\sigma2s < \\sigma^*2s < \\pi2p_x = \\pi2p_y < \\sigma2p_z < \\pi^*2p_x = \\pi^*2p_y < \\sigma^*2p_z$. For O$_2$, F$_2$: $\\sigma2p_z$ comes before $\\pi2p$.</li><li>Bond order $= \\dfrac{N_b - N_a}{2}$. Higher bond order → shorter bond, higher bond enthalpy.</li><li>Bond orders: N$_2$ 3, O$_2$ 2, O$_2^+$ 2.5, O$_2^-$ 1.5, O$_2^{2-}$ 1, He$_2$ 0 (does not exist), CO 3, NO 2.5.</li><li>Paramagnetic (unpaired electrons): O$_2$, O$_2^+$, O$_2^-$, B$_2$, NO. Diamagnetic: N$_2$, F$_2$, CO, C$_2$.</li></ul><h3>Polarity & dipole moment</h3><ul><li>Zero dipole (symmetric): CO$_2$, BF$_3$, CCl$_4$, CH$_4$, SF$_6$, XeF$_4$, PCl$_5$, trans isomers.</li><li>Non-zero: H$_2$O, NH$_3$, SO$_2$, CHCl$_3$, NF$_3$ (small), cis isomers. NH$_3$ > NF$_3$ because lone pair moment adds in NH$_3$.</li><li>Fajans' rules: small cation, large anion, high charge → more covalent character.</li></ul><h3>Hydrogen bonding</h3><p>Only with F, O, N. HF has the strongest H-bond; H$_2$O has more H-bonds per molecule (higher b.p. than HF). Intramolecular H-bonding: o-nitrophenol, salicylaldehyde (lower b.p., more volatile).</p><h3>Sigma & pi bonds</h3><p>Single bond = 1σ; double = 1σ + 1π; triple = 1σ + 2π. Count carefully in organic molecules.</p><h3>Exam tip</h3><p>2–3 questions: shape/hybridisation of a molecule, bond order or magnetic nature from MOT, dipole moment comparison. The tables above cover almost everything asked.</p>",
+  "questions": [
+    {
+      "id": "che-chemical-bonding-001",
+      "q": "The shape of SF$_6$ molecule is",
+      "options": [
+        "tetrahedral",
+        "octahedral",
+        "square planar",
+        "trigonal bipyramidal"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "S has 6 bond pairs, no lone pairs: sp$^3$d$^2$, octahedral, bond angle 90°."
+    },
+    {
+      "id": "che-chemical-bonding-002",
+      "q": "The bond order of O$_2^-$ (superoxide ion) is",
+      "options": [
+        "2",
+        "1",
+        "1.5",
+        "2.5"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "O$_2$ has bond order 2 (10 bonding, 6 antibonding). Adding one electron to $\\pi^*$ gives $(10-7)/2 = 1.5$."
+    },
+    {
+      "id": "che-chemical-bonding-003",
+      "q": "Which of the following molecules is paramagnetic?",
+      "options": [
+        "O$_2$",
+        "F$_2$",
+        "CO",
+        "N$_2$"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "O$_2$ has two unpaired electrons in the degenerate $\\pi^*2p$ orbitals. This was a triumph of MO theory."
+    },
+    {
+      "id": "che-chemical-bonding-004",
+      "q": "The hybridisation of carbon atoms in ethene (C$_2$H$_4$) is",
+      "options": [
+        "sp$^3$d",
+        "sp$^3$",
+        "sp",
+        "sp$^2$"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "Each C forms three σ bonds (two C–H, one C–C) and one π bond: sp$^2$, planar, 120°."
+    },
+    {
+      "id": "che-chemical-bonding-005",
+      "q": "The number of lone pairs on the central atom and the shape of XeF$_4$ are",
+      "options": [
+        "2, tetrahedral",
+        "0, tetrahedral",
+        "2, square planar",
+        "1, square pyramidal"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "Xe: 8 valence electrons, 4 used in bonds, 2 lone pairs remain. sp$^3$d$^2$ with lone pairs axial (opposite) → square planar."
+    },
+    {
+      "id": "che-chemical-bonding-006",
+      "q": "Which of the following has zero dipole moment?",
+      "options": [
+        "HCl",
+        "CO$_2$",
+        "NH$_3$",
+        "H$_2$O"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "CO$_2$ is linear (O=C=O); the two bond dipoles cancel. H$_2$O is bent, NH$_3$ pyramidal, HCl a polar diatomic."
+    },
+    {
+      "id": "che-chemical-bonding-007",
+      "q": "The correct order of bond angles is",
+      "options": [
+        "CH$_4$ > NH$_3$ > H$_2$O",
+        "CH$_4$ > H$_2$O > NH$_3$",
+        "NH$_3$ > CH$_4$ > H$_2$O",
+        "H$_2$O > NH$_3$ > CH$_4$"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "More lone pairs → more repulsion → smaller bond angle: 109.5° > 107° > 104.5°."
+    },
+    {
+      "id": "che-chemical-bonding-008",
+      "q": "Among the hydrogen halides, the highest boiling point is shown by",
+      "options": [
+        "HBr",
+        "HCl",
+        "HI",
+        "HF"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "HF molecules are strongly hydrogen-bonded. Order: HF > HI > HBr > HCl (the last three by van der Waals forces)."
+    },
+    {
+      "id": "che-chemical-bonding-009",
+      "q": "Which of the following is NOT isoelectronic with N$_2$?",
+      "options": [
+        "O$_2$",
+        "CO",
+        "NO$^+$",
+        "CN$^-$"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "N$_2$, CO, CN$^-$ and NO$^+$ all have 14 electrons and bond order 3. O$_2$ has 16 electrons."
+    },
+    {
+      "id": "che-chemical-bonding-010",
+      "q": "The number of σ and π bonds in acetylene (HC≡CH) are respectively",
+      "options": [
+        "1, 4",
+        "2, 3",
+        "4, 1",
+        "3, 2"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "Two C–H σ bonds + one C–C σ bond = 3 σ; the triple bond contributes 2 π."
+    },
+    {
+      "id": "che-chemical-bonding-011",
+      "q": "The shape of ClF$_3$ is",
+      "options": [
+        "pyramidal",
+        "bent",
+        "T-shaped",
+        "trigonal planar"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "Cl has 3 bond pairs + 2 lone pairs (sp$^3$d). Lone pairs occupy equatorial positions → T-shape."
+    },
+    {
+      "id": "che-chemical-bonding-012",
+      "q": "Which has the highest lattice enthalpy?",
+      "options": [
+        "KCl",
+        "MgO",
+        "CaO",
+        "NaCl"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "Lattice enthalpy ∝ (charge product)/(distance). MgO has 2+/2− ions and the smallest size among the doubly charged options."
+    },
+    {
+      "id": "che-chemical-bonding-013",
+      "q": "The species with bond order 2.5 is",
+      "options": [
+        "O$_2$",
+        "O$_2^-$",
+        "O$_2^+$",
+        "N$_2$"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "Removing an antibonding electron from O$_2$ (BO 2) increases bond order to 2.5. O$_2^+$ has a shorter, stronger bond than O$_2$."
+    },
+    {
+      "id": "che-chemical-bonding-014",
+      "q": "In ozone (O$_3$), the two O–O bond lengths are equal because of",
+      "options": [
+        "ionic character",
+        "resonance",
+        "hydrogen bonding",
+        "hybridisation of oxygen"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "O$_3$ is a resonance hybrid of two structures; each bond has partial double-bond character (bond length 128 pm, between 121 and 148 pm)."
+    },
+    {
+      "id": "che-chemical-bonding-015",
+      "q": "Which of the following molecules has the largest dipole moment?",
+      "options": [
+        "NH$_3$",
+        "NF$_3$",
+        "BF$_3$",
+        "CH$_4$"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "BF$_3$ and CH$_4$ are symmetric (zero). In NH$_3$ the lone-pair moment and N–H moments point the same way; in NF$_3$ they oppose, so NH$_3$ (1.47 D) > NF$_3$ (0.23 D)."
+    },
+    {
+      "id": "che-chemical-bonding-016",
+      "q": "According to Fajans' rules, covalent character is favoured by",
+      "options": [
+        "large cation and small anion",
+        "small cation and small anion",
+        "large cation and large anion",
+        "small cation and large anion"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "A small, highly charged cation strongly polarises a large, easily polarised anion → covalent character (e.g. LiI more covalent than LiF)."
+    },
+    {
+      "id": "che-chemical-bonding-017",
+      "q": "The shape of PCl$_5$ molecule is",
+      "options": [
+        "octahedral",
+        "trigonal bipyramidal",
+        "square planar",
+        "see-saw"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "P has 5 bond pairs and no lone pairs: sp$^3$d hybridisation gives a trigonal bipyramidal shape."
+    },
+    {
+      "id": "che-chemical-bonding-018",
+      "q": "The shape of SF$_4$ molecule is",
+      "options": [
+        "T-shaped",
+        "square pyramidal",
+        "see-saw",
+        "trigonal bipyramidal"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "S has 4 bond pairs + 1 lone pair (sp$^3$d, AB$_4$E type). The lone pair occupies an equatorial position, giving a see-saw shape."
+    },
+    {
+      "id": "che-chemical-bonding-019",
+      "q": "The shape of the triiodide ion I$_3^-$ is",
+      "options": [
+        "bent",
+        "trigonal planar",
+        "T-shaped",
+        "linear"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "Central I has 2 bond pairs + 3 lone pairs (AB$_2$E$_3$, sp$^3$d). The three lone pairs occupy equatorial positions, forcing a linear shape."
+    },
+    {
+      "id": "che-chemical-bonding-020",
+      "q": "The shape of BrF$_5$ molecule is",
+      "options": [
+        "square pyramidal",
+        "octahedral",
+        "T-shaped",
+        "see-saw"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "Br has 5 bond pairs + 1 lone pair (AB$_5$E, sp$^3$d$^2$). The lone pair pushes the 5 F atoms into a square pyramidal arrangement."
+    },
+    {
+      "id": "che-chemical-bonding-021",
+      "q": "The hybridisation of Xe in XeF$_2$ is",
+      "options": [
+        "sp$^3$d$^2$",
+        "sp$^3$d",
+        "sp",
+        "sp$^3$"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "Xe has 2 bond pairs + 3 lone pairs, requiring 5 electron domains, i.e. sp$^3$d hybridisation (linear AB$_2$E$_3$ shape)."
+    },
+    {
+      "id": "che-chemical-bonding-022",
+      "q": "In the most stable Lewis structure of the nitrate ion NO$_3^-$ (one N=O and two N–O bonds), the formal charge on the nitrogen atom is",
+      "options": [
+        "+1",
+        "+2",
+        "0",
+        "-1"
+      ],
+      "answer": 0,
+      "difficulty": "hard",
+      "explanation": "Formal charge $= 5 - 0 - 8/2 = +1$ for N, which forms 4 bonds (1 double + 2 single) around it in this resonance structure, consistent with the overall $-1$ charge on the ion."
+    },
+    {
+      "id": "che-chemical-bonding-023",
+      "q": "In BF$_3$, boron has how many electrons around it, making it an exception to the octet rule?",
+      "options": [
+        "10",
+        "4",
+        "8",
+        "6"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "B forms only 3 bonds using 3 valence electrons, so only 6 electrons (an incomplete octet) surround it in BF$_3$."
+    },
+    {
+      "id": "che-chemical-bonding-024",
+      "q": "In PCl$_5$, the number of electrons around the central P atom (an example of expanded octet) is",
+      "options": [
+        "8",
+        "12",
+        "10",
+        "6"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "P forms 5 bonds using empty 3d orbitals, so 10 electrons surround it — an expanded octet."
+    },
+    {
+      "id": "che-chemical-bonding-025",
+      "q": "Which of the following is an odd-electron molecule that violates the octet rule?",
+      "options": [
+        "CH$_4$",
+        "CO$_2$",
+        "NO",
+        "NH$_3$"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "NO has 11 valence electrons (odd), so one nitrogen electron must remain unpaired, violating the octet rule."
+    },
+    {
+      "id": "che-chemical-bonding-026",
+      "q": "The ammonium ion, NH$_4^+$, is formed when NH$_3$ donates its lone pair to H$^+$. This type of bond is called a",
+      "options": [
+        "coordinate (dative) bond",
+        "ionic bond",
+        "hydrogen bond",
+        "metallic bond"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "A coordinate (dative) covalent bond forms when both shared electrons come from one atom (here, the N lone pair)."
+    },
+    {
+      "id": "che-chemical-bonding-027",
+      "q": "Among the hydrogen halides, the highest percentage ionic character is shown by",
+      "options": [
+        "HCl",
+        "HF",
+        "HBr",
+        "HI"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "Ionic character increases with electronegativity difference between the bonded atoms; F is the most electronegative halogen, giving HF the largest $\\Delta\\chi$ and highest ionic character."
+    },
+    {
+      "id": "che-chemical-bonding-028",
+      "q": "The correct order of decreasing carbon–carbon bond length is",
+      "options": [
+        "C–C > C≡C > C=C",
+        "C≡C > C=C > C–C",
+        "C=C > C–C > C≡C",
+        "C–C > C=C > C≡C"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "More shared electron pairs pull the bonded atoms closer together, so bond length decreases as bond order increases: single > double > triple."
+    },
+    {
+      "id": "che-chemical-bonding-029",
+      "q": "The total number of sigma and pi bonds in benzene (C$_6$H$_6$) are respectively",
+      "options": [
+        "9 σ and 3 π",
+        "12 σ and 3 π",
+        "6 σ and 6 π",
+        "15 σ and 3 π"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "6 C–C σ bonds (ring) + 6 C–H σ bonds = 12 σ bonds; the 6 delocalised p-electrons form 3 π bonds."
+    },
+    {
+      "id": "che-chemical-bonding-030",
+      "q": "The hybridisation of carbon in CO$_2$ is",
+      "options": [
+        "sp$^3$d",
+        "sp$^3$",
+        "sp",
+        "sp$^2$"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "Carbon forms 2 σ bonds with no lone pairs (2 double bonds, O=C=O), giving sp hybridisation and a linear shape."
+    },
+    {
+      "id": "che-chemical-bonding-031",
+      "q": "The number of sigma and pi bonds in HCN (H–C≡N) are respectively",
+      "options": [
+        "2 σ and 2 π",
+        "3 σ and 1 π",
+        "1 σ and 3 π",
+        "4 σ and 0 π"
+      ],
+      "answer": 0,
+      "difficulty": "hard",
+      "explanation": "H–C is 1 σ bond; C≡N (triple bond) is 1 σ + 2 π bonds. Total: 2 σ and 2 π bonds."
+    },
+    {
+      "id": "che-chemical-bonding-032",
+      "q": "The fundamental postulate of VSEPR theory is that",
+      "options": [
+        "atoms bond only through orbital overlap",
+        "bond pairs repel more strongly than lone pairs",
+        "electron pairs always pair up with opposite spins",
+        "electron pairs around a central atom arrange themselves to minimise mutual repulsion"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "VSEPR (Valence Shell Electron Pair Repulsion) theory predicts molecular shape by minimising repulsion between electron pairs (bonding and lone) around the central atom."
+    },
+    {
+      "id": "che-chemical-bonding-033",
+      "q": "The correct order of increasing bond order among He$_2$, B$_2$, O$_2$ and N$_2$ is",
+      "options": [
+        "N$_2$ < O$_2$ < B$_2$ < He$_2$",
+        "O$_2$ < N$_2$ < He$_2$ < B$_2$",
+        "He$_2$ < B$_2$ < O$_2$ < N$_2$",
+        "B$_2$ < He$_2$ < N$_2$ < O$_2$"
+      ],
+      "answer": 2,
+      "difficulty": "hard",
+      "explanation": "Bond orders: He$_2$ = 0, B$_2$ = 1, O$_2$ = 2, N$_2$ = 3, giving the increasing order He$_2$ < B$_2$ < O$_2$ < N$_2$."
+    },
+    {
+      "id": "che-chemical-bonding-034",
+      "q": "Among C$_2$, O$_2$, B$_2$ and NO, the diamagnetic species is",
+      "options": [
+        "C$_2$",
+        "O$_2$",
+        "NO",
+        "B$_2$"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "C$_2$ has the configuration $\\dots\\pi2p_x^2\\pi2p_y^2$ with all electrons paired, making it diamagnetic; O$_2$, B$_2$ and NO all have unpaired electrons."
+    },
+    {
+      "id": "che-chemical-bonding-035",
+      "q": "The bond order of the nitrosonium ion, NO$^+$, is",
+      "options": [
+        "2",
+        "1.5",
+        "2.5",
+        "3"
+      ],
+      "answer": 3,
+      "difficulty": "hard",
+      "explanation": "NO has 15 electrons (bond order 2.5); removing one electron from the antibonding $\\pi^*$ orbital to form NO$^+$ gives 14 electrons, isoelectronic with N$_2$, with bond order 3."
+    },
+    {
+      "id": "che-chemical-bonding-036",
+      "q": "o-Nitrophenol has a lower boiling point than p-nitrophenol mainly because of",
+      "options": [
+        "stronger intermolecular hydrogen bonding in the ortho isomer",
+        "intramolecular hydrogen bonding in the ortho isomer preventing association between molecules",
+        "higher molecular mass of the ortho isomer",
+        "greater ionic character in the ortho isomer"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "In o-nitrophenol, the –OH and –NO$_2$ groups form an intramolecular hydrogen bond, so the molecule does not associate with others via intermolecular H-bonding, lowering its boiling point relative to the para isomer."
+    },
+    {
+      "id": "che-chemical-bonding-037",
+      "q": "The number of lone pairs on the oxygen atom in a water molecule is",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "O has 6 valence electrons; 2 are used in the two O–H bonds, leaving 2 lone pairs."
+    },
+    {
+      "id": "che-chemical-bonding-038",
+      "q": "The hybridisation and shape of NH$_4^+$ ion are",
+      "options": [
+        "sp$^3$d$^2$, octahedral",
+        "sp$^2$, trigonal planar",
+        "sp$^3$d, trigonal bipyramidal",
+        "sp$^3$, tetrahedral"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "N has 4 bond pairs (3 N–H + 1 coordinate bond to H$^+$) and no lone pair, giving sp$^3$ hybridisation and a regular tetrahedral shape."
+    },
+    {
+      "id": "che-chemical-bonding-039",
+      "q": "cis-1,2-Dichloroethene has a net dipole moment, unlike its trans isomer, because",
+      "options": [
+        "the molecule is completely non-polar",
+        "the two C–Cl bond dipoles do not cancel due to the cis arrangement",
+        "hydrogen bonding is present",
+        "the two C–Cl bond dipoles cancel completely"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "In the cis isomer, both C–Cl bonds point to the same side, so their dipole moment vectors add up instead of cancelling as they do in the symmetric trans isomer."
+    },
+    {
+      "id": "che-chemical-bonding-040",
+      "q": "A central atom shows a bond angle of 109.5° with no lone pairs on it. Its hybridisation is",
+      "options": [
+        "sp$^3$",
+        "sp$^3$d",
+        "sp",
+        "sp$^2$"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "A perfect tetrahedral bond angle of 109.5° with four bond pairs and no lone pairs corresponds to sp$^3$ hybridisation."
+    }
+  ]
+}

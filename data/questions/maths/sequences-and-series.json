@@ -1,0 +1,525 @@
+{
+  "notes": "<h3>Arithmetic Progression (AP)</h3><ul><li>$n$th term: $a_n = a + (n-1)d$.</li><li>Sum of $n$ terms: $S_n = \\dfrac{n}{2}[2a+(n-1)d] = \\dfrac{n}{2}(a+a_n)$.</li><li>Arithmetic mean of $a,b$: $A = \\dfrac{a+b}{2}$.</li></ul><h3>Geometric Progression (GP)</h3><ul><li>$n$th term: $a_n = ar^{n-1}$.</li><li>Sum of $n$ terms: $S_n = \\dfrac{a(r^n-1)}{r-1}$ for $r\\neq1$ (use $\\dfrac{a(1-r^n)}{1-r}$ if $r<1$); $S_n = na$ if $r=1$.</li><li>Sum to infinity (only when $|r|<1$): $S_\\infty = \\dfrac{a}{1-r}$.</li><li>Geometric mean of $a,b$: $G = \\sqrt{ab}$.</li></ul><h3>AM-GM inequality</h3><ul><li>For positive numbers, $A \\ge G$, with equality only when all the numbers are equal.</li></ul><h3>Special sums (first $n$ natural numbers)</h3><table><tr><th>Sum</th><th>Formula</th></tr><tr><td>$\\sum n$</td><td>$\\dfrac{n(n+1)}{2}$</td></tr><tr><td>$\\sum n^2$</td><td>$\\dfrac{n(n+1)(2n+1)}{6}$</td></tr><tr><td>$\\sum n^3$</td><td>$\\left[\\dfrac{n(n+1)}{2}\\right]^2$</td></tr></table><h3>Harmonic Progression (HP)</h3><ul><li>A sequence whose reciprocals form an AP. To solve HP problems, invert terms and use AP formulas; there is no direct sum formula.</li><li>For two positive numbers, $A \\ge G \\ge H$, and $G^2 = AH$.</li></ul><h3>Series of odd/even numbers</h3><ul><li>Sum of first $n$ odd numbers $= n^2$. Sum of first $n$ even numbers $= n(n+1)$.</li></ul><h3>Exam tip</h3><p>KCET typically sets 2-3 questions from this chapter — usually a direct AP/GP $n$th term or sum, a sum-to-infinity of GP, or an AM/GM insertion problem. Memorise the special sum formulas ($\\sum n, \\sum n^2, \\sum n^3$) since they are often combined with AP/GP questions.</p>",
+  "questions": [
+    {
+      "id": "mat-sequences-and-series-001",
+      "q": "The 10th term of the AP $3, 7, 11, 15, \\ldots$ is",
+      "options": [
+        "43",
+        "39",
+        "35",
+        "40"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "$a=3, d=4$; $a_{10} = 3 + 9(4) = 39$."
+    },
+    {
+      "id": "mat-sequences-and-series-002",
+      "q": "The sum of the first 15 terms of the AP with first term 2 and common difference 3 is",
+      "options": [
+        "330",
+        "360",
+        "350",
+        "345"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "$S_{15} = \\dfrac{15}{2}[2(2)+14(3)] = \\dfrac{15}{2}(46) = 345$."
+    },
+    {
+      "id": "mat-sequences-and-series-003",
+      "q": "The 6th term of the GP $2, 6, 18, \\ldots$ is",
+      "options": [
+        "432",
+        "462",
+        "486",
+        "504"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "$a=2, r=3$; $a_6 = 2(3)^5 = 2(243) = 486$."
+    },
+    {
+      "id": "mat-sequences-and-series-004",
+      "q": "The sum to infinity of the GP $1, \\dfrac12, \\dfrac14, \\ldots$ is",
+      "options": [
+        "2",
+        "$1/2$",
+        "4",
+        "1"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "$S_\\infty = \\dfrac{a}{1-r} = \\dfrac{1}{1-1/2} = 2$."
+    },
+    {
+      "id": "mat-sequences-and-series-005",
+      "q": "Two positive numbers have arithmetic mean 10 and geometric mean 8. The numbers are",
+      "options": [
+        "18 and 2",
+        "16 and 4",
+        "15 and 5",
+        "12 and 8"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "Sum $=20$, product $=64$. Solving $t^2-20t+64=0$ gives $t=\\dfrac{20\\pm12}{2}=16,4$."
+    },
+    {
+      "id": "mat-sequences-and-series-006",
+      "q": "The sum of the first 20 natural numbers is",
+      "options": [
+        "210",
+        "220",
+        "190",
+        "200"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "$\\sum n = \\dfrac{n(n+1)}{2} = \\dfrac{20\\times21}{2} = 210$."
+    },
+    {
+      "id": "mat-sequences-and-series-007",
+      "q": "$1^2 + 2^2 + \\cdots + 10^2$ equals",
+      "options": [
+        "330",
+        "400",
+        "395",
+        "385"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "$\\sum n^2 = \\dfrac{n(n+1)(2n+1)}{6} = \\dfrac{10\\times11\\times21}{6} = 385$."
+    },
+    {
+      "id": "mat-sequences-and-series-008",
+      "q": "$1^3 + 2^3 + 3^3 + 4^3 + 5^3$ equals",
+      "options": [
+        "200",
+        "240",
+        "225",
+        "215"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "$\\sum n^3 = \\left[\\dfrac{n(n+1)}{2}\\right]^2 = \\left[\\dfrac{5\\times6}{2}\\right]^2 = 15^2 = 225$."
+    },
+    {
+      "id": "mat-sequences-and-series-009",
+      "q": "In an AP, the 3rd term is 7 and the 7th term is 19. The common difference is",
+      "options": [
+        "2",
+        "4",
+        "5",
+        "3"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "$a+2d=7$, $a+6d=19$. Subtracting: $4d=12 \\Rightarrow d=3$."
+    },
+    {
+      "id": "mat-sequences-and-series-010",
+      "q": "The number of terms in the AP $5, 9, 13, \\ldots, 101$ is",
+      "options": [
+        "23",
+        "25",
+        "24",
+        "26"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "$a=5, d=4$; $5+(n-1)4=101 \\Rightarrow n-1=24 \\Rightarrow n=25$."
+    },
+    {
+      "id": "mat-sequences-and-series-011",
+      "q": "For a GP with first term 3 and common ratio 2, the sum of the first 8 terms is",
+      "options": [
+        "762",
+        "750",
+        "765",
+        "768"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "$S_8 = \\dfrac{3(2^8-1)}{2-1} = 3\\times255 = 765$."
+    },
+    {
+      "id": "mat-sequences-and-series-012",
+      "q": "Three arithmetic means are inserted between 1 and 13. The second mean is",
+      "options": [
+        "7",
+        "4",
+        "6.5",
+        "10"
+      ],
+      "answer": 0,
+      "difficulty": "hard",
+      "explanation": "Five terms total: $a=1, a_5=13$, so $d=\\dfrac{13-1}{4}=3$. Terms: $1,4,7,10,13$; the second mean is 7."
+    },
+    {
+      "id": "mat-sequences-and-series-013",
+      "q": "The sum to infinity of a GP is 3 times its first term. The common ratio is",
+      "options": [
+        "$1/2$",
+        "$1/3$",
+        "$2/3$",
+        "$3/4$"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "$\\dfrac{a}{1-r} = 3a \\Rightarrow 1-r = \\dfrac13 \\Rightarrow r = \\dfrac23$."
+    },
+    {
+      "id": "mat-sequences-and-series-014",
+      "q": "Which term of the AP $21, 18, 15, \\ldots$ is $-81$?",
+      "options": [
+        "35th",
+        "36th",
+        "34th",
+        "33rd"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "$a=21, d=-3$; $21-3(n-1)=-81 \\Rightarrow n-1=34 \\Rightarrow n=35$."
+    },
+    {
+      "id": "mat-sequences-and-series-015",
+      "q": "If $a, b, c$ are in GP, then $\\log a, \\log b, \\log c$ are in",
+      "options": [
+        "GP",
+        "neither AP, GP nor HP",
+        "HP",
+        "AP"
+      ],
+      "answer": 3,
+      "difficulty": "hard",
+      "explanation": "GP gives $b^2 = ac$, so $2\\log b = \\log a + \\log c$, which is the AP condition."
+    },
+    {
+      "id": "mat-sequences-and-series-016",
+      "q": "Three numbers in AP have sum 15 and product 105. The numbers are",
+      "options": [
+        "2, 5, 8",
+        "3, 5, 7",
+        "4, 5, 6",
+        "1, 5, 9"
+      ],
+      "answer": 1,
+      "difficulty": "hard",
+      "explanation": "Let numbers be $a-d,a,a+d$. Sum $=3a=15\\Rightarrow a=5$. Product $=5(25-d^2)=105\\Rightarrow d^2=4\\Rightarrow d=2$, giving $3,5,7$."
+    },
+    {
+      "id": "mat-sequences-and-series-017",
+      "q": "The sum of the first 12 odd natural numbers ($1+3+5+\\cdots$) is",
+      "options": [
+        "156",
+        "132",
+        "144",
+        "121"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "Sum of first $n$ odd numbers $=n^2$; for $n=12$, sum $=144$."
+    },
+    {
+      "id": "mat-sequences-and-series-018",
+      "q": "In a GP, the 4th term is 24 and the 7th term is 192. The common ratio is",
+      "options": [
+        "4",
+        "2",
+        "1.5",
+        "3"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "$\\dfrac{ar^6}{ar^3}=r^3=\\dfrac{192}{24}=8 \\Rightarrow r=2$."
+    },
+    {
+      "id": "mat-sequences-and-series-019",
+      "q": "An AP has first term 5, last term 45, and sum 400. The number of terms is",
+      "options": [
+        "16",
+        "14",
+        "20",
+        "18"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "$S_n=\\dfrac{n}{2}(a+l) \\Rightarrow 400=\\dfrac{n}{2}(50) \\Rightarrow n=16$."
+    },
+    {
+      "id": "mat-sequences-and-series-020",
+      "q": "An infinite GP has first term 5 and sum 25. Its common ratio is",
+      "options": [
+        "0.2",
+        "0.5",
+        "0.6",
+        "0.8"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "$\\dfrac{5}{1-r}=25 \\Rightarrow 1-r=0.2 \\Rightarrow r=0.8$."
+    },
+    {
+      "id": "mat-sequences-and-series-021",
+      "q": "The 15th term of the AP $8, 5, 2, -1, \\ldots$ is",
+      "options": [
+        "-37",
+        "-34",
+        "-31",
+        "-40"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "$a=8, d=-3$; $a_{15} = 8 + 14(-3) = 8 - 42 = -34$."
+    },
+    {
+      "id": "mat-sequences-and-series-022",
+      "q": "The sum of the first 8 terms of the GP $1, 3, 9, \\ldots$ is",
+      "options": [
+        "3280",
+        "1640",
+        "3279",
+        "3283"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "$S_8 = \\dfrac{1(3^8-1)}{3-1} = \\dfrac{6561-1}{2} = 3280$."
+    },
+    {
+      "id": "mat-sequences-and-series-023",
+      "q": "In an AP, the 5th term is 17 and the 9th term is 33. The common difference is",
+      "options": [
+        "5",
+        "2",
+        "3",
+        "4"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "$a+4d=17,\\ a+8d=33$. Subtracting: $4d=16 \\Rightarrow d=4$."
+    },
+    {
+      "id": "mat-sequences-and-series-024",
+      "q": "The sum of the first $n$ terms of an AP is $S_n = 3n^2 + 2n$. The common difference of the AP is",
+      "options": [
+        "5",
+        "3",
+        "6",
+        "4"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "For an AP, $S_n = \\dfrac{d}{2}n^2 + \\left(a-\\dfrac{d}{2}\\right)n$. Comparing coefficients of $n^2$: $\\dfrac{d}{2}=3 \\Rightarrow d=6$."
+    },
+    {
+      "id": "mat-sequences-and-series-025",
+      "q": "The first term of a GP is 5 and the 4th term is 135. The common ratio is",
+      "options": [
+        "27",
+        "3",
+        "9",
+        "1.5"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "$ar^3=135 \\Rightarrow 5r^3=135 \\Rightarrow r^3=27 \\Rightarrow r=3$."
+    },
+    {
+      "id": "mat-sequences-and-series-026",
+      "q": "The sum to infinity of a GP with first term 8 and common ratio $-\\dfrac12$ is",
+      "options": [
+        "4",
+        "$8/3$",
+        "$16/3$",
+        "$32/3$"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "$S_\\infty = \\dfrac{a}{1-r} = \\dfrac{8}{1-(-1/2)} = \\dfrac{8}{3/2} = \\dfrac{16}{3}$."
+    },
+    {
+      "id": "mat-sequences-and-series-027",
+      "q": "Using the sum of an infinite GP, the recurring decimal $0.\\overline{3}$ equals",
+      "options": [
+        "$1/3$",
+        "$1/5$",
+        "$1/4$",
+        "$3/10$"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "$0.\\overline3 = \\dfrac{3}{10}+\\dfrac{3}{100}+\\cdots$, a GP with $a=3/10, r=1/10$; sum $=\\dfrac{3/10}{1-1/10}=\\dfrac{3/10}{9/10}=\\dfrac13$."
+    },
+    {
+      "id": "mat-sequences-and-series-028",
+      "q": "Three positive numbers in GP have product 64 and sum 14. The largest of the three numbers is",
+      "options": [
+        "7",
+        "6",
+        "4",
+        "8"
+      ],
+      "answer": 3,
+      "difficulty": "hard",
+      "explanation": "Let the numbers be $a/r, a, ar$. Product $=a^3=64 \\Rightarrow a=4$. Sum: $4/r+4+4r=14 \\Rightarrow 2r^2-5r+2=0 \\Rightarrow r=2$ or $0.5$. Taking $r=2$, the numbers are $2,4,8$; the largest is 8."
+    },
+    {
+      "id": "mat-sequences-and-series-029",
+      "q": "If the $n$th term of an AP is $a_n = 4n+1$, its 20th term is",
+      "options": [
+        "79",
+        "81",
+        "84",
+        "85"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "$a_{20}=4(20)+1=81$."
+    },
+    {
+      "id": "mat-sequences-and-series-030",
+      "q": "The sum of the first $n$ terms of an AP is $S_n = n(2n+3)$. The 10th term of the AP is",
+      "options": [
+        "42",
+        "40",
+        "41",
+        "43"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "$S_n=2n^2+3n$. $a_{10}=S_{10}-S_9 = (200+30)-(162+27) = 230-189 = 41$."
+    },
+    {
+      "id": "mat-sequences-and-series-031",
+      "q": "If three distinct real numbers are simultaneously in AP and in GP, they must be",
+      "options": [
+        "equal to each other",
+        "always negative",
+        "unequal in general",
+        "in decreasing order"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "AP gives $2b=a+c$ and GP gives $b^2=ac$. Substituting shows $(a-c)^2=0$, so $a=b=c$; the numbers are not distinct unless all are equal."
+    },
+    {
+      "id": "mat-sequences-and-series-032",
+      "q": "$2^2+4^2+6^2+8^2+10^2$ equals",
+      "options": [
+        "210",
+        "200",
+        "216",
+        "220"
+      ],
+      "answer": 3,
+      "difficulty": "hard",
+      "explanation": "This is $4(1^2+2^2+\\cdots+5^2) = 4\\times\\dfrac{5\\times6\\times11}{6} = 4\\times55=220$."
+    },
+    {
+      "id": "mat-sequences-and-series-033",
+      "q": "The sum of the first 25 natural numbers is",
+      "options": [
+        "325",
+        "300",
+        "312",
+        "350"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "$\\sum n = \\dfrac{n(n+1)}{2} = \\dfrac{25\\times26}{2} = 325$."
+    },
+    {
+      "id": "mat-sequences-and-series-034",
+      "q": "Two positive numbers have arithmetic mean 13 and geometric mean 12. The numbers are",
+      "options": [
+        "24 and 2",
+        "20 and 6",
+        "18 and 8",
+        "16 and 10"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "Sum $=26$, product $=144$. Solving $t^2-26t+144=0$: discriminant $=676-576=100$, so $t=\\dfrac{26\\pm10}{2}=18,8$."
+    },
+    {
+      "id": "mat-sequences-and-series-035",
+      "q": "The number of terms in the GP $3, 6, 12, \\ldots, 384$ is",
+      "options": [
+        "9",
+        "7",
+        "6",
+        "8"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "$a=3, r=2$; $3(2)^{n-1}=384 \\Rightarrow 2^{n-1}=128=2^7 \\Rightarrow n-1=7 \\Rightarrow n=8$."
+    },
+    {
+      "id": "mat-sequences-and-series-036",
+      "q": "Two positive numbers have geometric mean 6 and arithmetic mean 6.5. The numbers are",
+      "options": [
+        "10 and 3",
+        "9 and 4",
+        "12 and 1",
+        "8 and 5"
+      ],
+      "answer": 1,
+      "difficulty": "hard",
+      "explanation": "Sum $=13$, product $=36$. Solving $t^2-13t+36=0$: discriminant $=169-144=25$, so $t=\\dfrac{13\\pm5}{2}=9,4$."
+    },
+    {
+      "id": "mat-sequences-and-series-037",
+      "q": "128 is which term of the GP $2, 4, 8, \\ldots$?",
+      "options": [
+        "6th",
+        "7th",
+        "5th",
+        "8th"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "$a=2, r=2$; $2(2)^{n-1}=128 \\Rightarrow 2^n=128=2^7 \\Rightarrow n=7$."
+    },
+    {
+      "id": "mat-sequences-and-series-038",
+      "q": "The sum of the first 30 terms of the AP $1, 4, 7, \\ldots$ is",
+      "options": [
+        "1330",
+        "1325",
+        "1335",
+        "1340"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "$a=1, d=3$; $S_{30}=\\dfrac{30}{2}[2(1)+29(3)] = 15(2+87) = 15\\times89 = 1335$."
+    },
+    {
+      "id": "mat-sequences-and-series-039",
+      "q": "If the sum of the first $n$ terms of an AP is $S_n = 3n^2+5n$, its $n$th term is",
+      "options": [
+        "$6n+2$",
+        "$6n-2$",
+        "$6n+4$",
+        "$3n+5$"
+      ],
+      "answer": 0,
+      "difficulty": "hard",
+      "explanation": "$a_n=S_n-S_{n-1}=[3n^2+5n]-[3(n-1)^2+5(n-1)] = 6n+2$ after simplifying."
+    },
+    {
+      "id": "mat-sequences-and-series-040",
+      "q": "In a harmonic progression, the 4th term is $\\dfrac12$ and the 8th term is $\\dfrac14$. The first term of the HP is",
+      "options": [
+        "0.5",
+        "1",
+        "1.5",
+        "2"
+      ],
+      "answer": 3,
+      "difficulty": "hard",
+      "explanation": "Reciprocals form an AP: 4th term $=2$, 8th term $=4$, so $d=\\dfrac{4-2}{4}=0.5$ and first term $=2-3(0.5)=0.5$. The HP's first term is the reciprocal, $1/0.5=2$."
+    }
+  ]
+}

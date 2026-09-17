@@ -1,0 +1,525 @@
+{
+  "notes": "<h3>Rutherford's Model</h3><ul><li>Alpha-particle scattering: most alpha particles pass straight through; a few are deflected at large angles (some &gt;90°) — showed that atom has a tiny, massive, positively charged nucleus with electrons orbiting it, mostly empty space.</li><li>Distance of closest approach: $r_0 = \\dfrac{2kZe^2}{E_k}$ (head-on collision), where $E_k$ is the KE of the alpha particle.</li><li>Drawback: could not explain stability of atom (accelerating electron should radiate energy and spiral into nucleus) or line spectra.</li></ul><h3>Bohr's Model (for hydrogen-like atoms)</h3><ul><li>Postulates: electrons revolve in stationary orbits without radiating; angular momentum is quantised, $L = mvr = \\dfrac{nh}{2\\pi}$; radiation emitted/absorbed only when electron jumps orbits, $h\\nu = E_i - E_f$.</li><li>Radius: $r_n = \\dfrac{n^2h^2\\varepsilon_0}{\\pi mZe^2} \\propto \\dfrac{n^2}{Z}$; for hydrogen $r_n = 0.529n^2$ Å.</li><li>Energy: $E_n = -\\dfrac{13.6Z^2}{n^2}$ eV (for hydrogen, $Z=1$). Ground state energy $=-13.6$ eV; ionisation energy from ground state $=13.6$ eV.</li><li>Speed: $v_n \\propto Z/n$. For hydrogen, $v_1 = 2.18\\times10^6$ m/s.</li></ul><h3>Hydrogen Spectrum</h3><ul><li>$\\dfrac{1}{\\lambda} = RZ^2\\left(\\dfrac{1}{n_1^2}-\\dfrac{1}{n_2^2}\\right)$, $R = 1.097\\times10^7\\ \\text{m}^{-1}$ (Rydberg constant).</li></ul><table><tr><th>Series</th><th>Final level $n_1$</th><th>Region</th></tr><tr><td>Lyman</td><td>1</td><td>Ultraviolet</td></tr><tr><td>Balmer</td><td>2</td><td>Visible</td></tr><tr><td>Paschen</td><td>3</td><td>Infrared</td></tr><tr><td>Brackett</td><td>4</td><td>Infrared</td></tr><tr><td>Pfund</td><td>5</td><td>Infrared</td></tr></table><li>Maximum number of spectral lines from level $n$ to lower levels $= \\dfrac{n(n-1)}{2}$.</li><li>Total energy $E_n$ is negative (bound system); $KE = -E_n$ (magnitude), $PE = 2E_n$, by the virial theorem for Coulomb force.</li><h3>Exam tip</h3><p>KCET typically asks 2 questions: one on Bohr energy/radius/wavelength formulas (numerical) and one conceptual on Rutherford scattering or spectral series identification.</p>",
+  "questions": [
+    {
+      "id": "phy-atoms-001",
+      "q": "In Rutherford's alpha-scattering experiment, the observation that a few alpha particles bounced back at angles greater than 90° indicated that",
+      "options": [
+        "the atom is mostly empty space",
+        "electrons are located inside the nucleus",
+        "the atom has no charge",
+        "the positive charge and mass of the atom are concentrated in a tiny nucleus"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "Large-angle scattering requires a strong repulsive force from a concentrated positive charge; this could only happen if nearly all the mass and positive charge occupy a very small volume (the nucleus)."
+    },
+    {
+      "id": "phy-atoms-002",
+      "q": "The radius of the first Bohr orbit of hydrogen is 0.529 Å. The radius of the second orbit is",
+      "options": [
+        "0.2645 Å",
+        "2.116 Å",
+        "1.058 Å",
+        "4.232 Å"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "$r_n \\propto n^2$, so $r_2 = 0.529\\times2^2 = 2.116$ Å."
+    },
+    {
+      "id": "phy-atoms-003",
+      "q": "The energy of the electron in the ground state of hydrogen is $-13.6$ eV. Its energy in the first excited state ($n=2$) is",
+      "options": [
+        "$-1.51$ eV",
+        "$-27.2$ eV",
+        "$-3.4$ eV",
+        "$-6.8$ eV"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "$E_n = -13.6/n^2$ eV; $E_2 = -13.6/4 = -3.4$ eV."
+    },
+    {
+      "id": "phy-atoms-004",
+      "q": "The ionisation energy of a hydrogen atom in its ground state is",
+      "options": [
+        "13.6 eV",
+        "1.51 eV",
+        "3.4 eV",
+        "6.8 eV"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "Ionisation energy = energy needed to take the electron from $n=1$ ($E_1=-13.6$ eV) to $n=\\infty$ ($E_\\infty = 0$), i.e. 13.6 eV."
+    },
+    {
+      "id": "phy-atoms-005",
+      "q": "In the Bohr model, the angular momentum of an electron in the $n$th orbit is quantised as",
+      "options": [
+        "$L = \\dfrac{2nh}{\\pi}$",
+        "$L = nh$",
+        "$L = \\dfrac{nh}{4\\pi}$",
+        "$L = \\dfrac{nh}{2\\pi}$"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "Bohr's quantisation postulate: $mvr = \\dfrac{nh}{2\\pi}$, $n = 1,2,3,\\dots$."
+    },
+    {
+      "id": "phy-atoms-006",
+      "q": "An electron in a hydrogen atom transitions from $n=3$ to $n=1$. This transition belongs to the",
+      "options": [
+        "Lyman series",
+        "Brackett series",
+        "Paschen series",
+        "Balmer series"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "Transitions ending at $n_1 = 1$ constitute the Lyman series, which lies in the ultraviolet region."
+    },
+    {
+      "id": "phy-atoms-007",
+      "q": "The maximum number of spectral lines emitted when an electron in a hydrogen atom de-excites from $n = 4$ to lower levels is",
+      "options": [
+        "10",
+        "6",
+        "4",
+        "3"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "Number of lines $= \\dfrac{n(n-1)}{2} = \\dfrac{4\\times3}{2} = 6$."
+    },
+    {
+      "id": "phy-atoms-008",
+      "q": "The speed of an electron in the $n$th Bohr orbit of hydrogen varies as",
+      "options": [
+        "$v_n \\propto n$",
+        "$v_n \\propto n^2$",
+        "$v_n \\propto 1/n$",
+        "$v_n \\propto 1/n^2$"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "From Bohr's theory, $v_n = \\dfrac{Ze^2}{2\\varepsilon_0 nh} \\propto Z/n$; for hydrogen ($Z=1$), $v_n \\propto 1/n$."
+    },
+    {
+      "id": "phy-atoms-009",
+      "q": "The wavelength of the first line of the Balmer series (transition $n=3 \\to n=2$) in hydrogen is close to (use $R = 1.097\\times10^7\\ \\text{m}^{-1}$)",
+      "options": [
+        "1875 nm",
+        "122 nm",
+        "486 nm",
+        "656 nm"
+      ],
+      "answer": 3,
+      "difficulty": "hard",
+      "explanation": "$\\dfrac{1}{\\lambda} = R\\left(\\dfrac{1}{4}-\\dfrac{1}{9}\\right) = R\\times\\dfrac{5}{36} = 1.097\\times10^7\\times0.1389 \\approx 1.524\\times10^6\\ \\text{m}^{-1}$, so $\\lambda \\approx 656$ nm (H-alpha line)."
+    },
+    {
+      "id": "phy-atoms-010",
+      "q": "According to Bohr's model, the total energy of an electron in a stationary orbit is",
+      "options": [
+        "always negative, indicating a bound system",
+        "equal to its kinetic energy",
+        "zero for all orbits",
+        "always positive"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "$E_n = -13.6Z^2/n^2$ eV is negative for every orbit, showing the electron is bound to the nucleus; energy becomes zero only when $n\\to\\infty$ (free electron)."
+    },
+    {
+      "id": "phy-atoms-011",
+      "q": "In a hydrogen-like atom, the potential energy and kinetic energy of the electron in an orbit are related by",
+      "options": [
+        "$PE = -KE/2$",
+        "$PE = -2KE$",
+        "$PE = 2KE$",
+        "$PE = KE$"
+      ],
+      "answer": 1,
+      "difficulty": "hard",
+      "explanation": "For an inverse-square (Coulomb) force, the virial theorem gives $PE = -2KE$, and total energy $E = KE + PE = -KE$, consistent with $E_n$ being negative."
+    },
+    {
+      "id": "phy-atoms-012",
+      "q": "The shortest wavelength in the Lyman series of hydrogen corresponds to a transition from",
+      "options": [
+        "$n=2$ to $n=1$",
+        "$n=1$ to $n=2$",
+        "$n=\\infty$ to $n=1$",
+        "$n=3$ to $n=2$"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "Shortest wavelength (highest energy, series limit) corresponds to the largest possible energy gap, i.e. from $n=\\infty$ down to $n=1$."
+    },
+    {
+      "id": "phy-atoms-013",
+      "q": "A hydrogen atom is excited from its ground state to $n=3$. The number of possible wavelengths that can be emitted as it returns to the ground state is",
+      "options": [
+        "3",
+        "2",
+        "6",
+        "1"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "$\\dfrac{n(n-1)}{2} = \\dfrac{3\\times2}{2} = 3$ possible transitions/wavelengths: $3\\to2$, $2\\to1$, $3\\to1$."
+    },
+    {
+      "id": "phy-atoms-014",
+      "q": "The main drawback of Rutherford's atomic model was that it could not explain",
+      "options": [
+        "the small size of the nucleus",
+        "the stability of atoms and the observed discrete line spectra",
+        "the deflection of alpha particles",
+        "the existence of neutrons"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "Classically, an orbiting (accelerating) electron should continuously radiate energy and spiral into the nucleus, making atoms unstable, and the model gave no explanation for the discrete spectral lines observed."
+    },
+    {
+      "id": "phy-atoms-015",
+      "q": "For a hydrogen-like ion with $Z = 2$ (singly ionised helium), the ground state energy is",
+      "options": [
+        "$-6.8$ eV",
+        "$-13.6$ eV",
+        "$-54.4$ eV",
+        "$-27.2$ eV"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "$E_1 = -13.6Z^2$ eV $= -13.6\\times4 = -54.4$ eV."
+    },
+    {
+      "id": "phy-atoms-016",
+      "q": "An alpha particle with kinetic energy 5 MeV is projected head-on towards a gold nucleus ($Z=79$). Its distance of closest approach is proportional to",
+      "options": [
+        "$E_k$",
+        "$E_k^2$",
+        "$\\sqrt{E_k}$",
+        "$1/E_k$"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "$r_0 = \\dfrac{2kZe^2}{E_k}$, so the distance of closest approach is inversely proportional to the kinetic energy of the alpha particle."
+    },
+    {
+      "id": "phy-atoms-017",
+      "q": "The de Broglie wavelength of the electron in the $n$th Bohr orbit is related to the orbit's circumference by",
+      "options": [
+        "$\\pi r_n = n\\lambda$",
+        "$r_n = n\\lambda$",
+        "$2\\pi r_n = \\lambda/n$",
+        "$2\\pi r_n = n\\lambda$"
+      ],
+      "answer": 3,
+      "difficulty": "hard",
+      "explanation": "Bohr's quantisation $mvr = nh/2\\pi$ combined with de Broglie's $\\lambda = h/mv$ gives $2\\pi r_n = n\\lambda$ — an integer number of de Broglie wavelengths fit the orbit, providing a physical basis for quantisation."
+    },
+    {
+      "id": "phy-atoms-018",
+      "q": "The energy released when an electron transitions from $n=2$ to $n=1$ in hydrogen is",
+      "options": [
+        "10.2 eV",
+        "3.4 eV",
+        "1.89 eV",
+        "13.6 eV"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "$E_2 - E_1 = (-3.4) - (-13.6) = 10.2$ eV, emitted as a photon (Lyman-alpha line)."
+    },
+    {
+      "id": "phy-atoms-019",
+      "q": "The radius of the first Bohr orbit ($n=1$) of a singly ionised helium atom ($Z=2$) is",
+      "options": [
+        "1.058 Å",
+        "0.529 Å",
+        "0.2645 Å",
+        "0.132 Å"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "$r_n \\propto n^2/Z$; for He$^+$, $r_1 = 0.529/2 = 0.2645$ Å."
+    },
+    {
+      "id": "phy-atoms-020",
+      "q": "The frequency of revolution of the electron in the $n$th Bohr orbit of hydrogen varies as",
+      "options": [
+        "$n^2$",
+        "$1/n^3$",
+        "$n^3$",
+        "$1/n^2$"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "Since $v_n \\propto 1/n$ and $r_n \\propto n^2$, the revolution frequency $f = v_n/(2\\pi r_n) \\propto 1/n^3$."
+    },
+    {
+      "id": "phy-atoms-021",
+      "q": "The ionisation energy of a doubly ionised lithium atom, Li$^{2+}$ ($Z=3$), in its ground state is",
+      "options": [
+        "40.8 eV",
+        "13.6 eV",
+        "61.2 eV",
+        "122.4 eV"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "Ionisation energy $= 13.6Z^2 = 13.6\\times9 = 122.4$ eV."
+    },
+    {
+      "id": "phy-atoms-022",
+      "q": "Which spectral series of hydrogen lies entirely in the infrared region and results from transitions ending at $n=3$?",
+      "options": [
+        "Lyman series",
+        "Paschen series",
+        "Balmer series",
+        "None of these"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "Transitions ending at $n_1=3$ constitute the Paschen series, which lies entirely in the infrared region."
+    },
+    {
+      "id": "phy-atoms-023",
+      "q": "A hydrogen spectral line has wavelength 486 nm, one of the well-known Balmer lines. This corresponds to the transition",
+      "options": [
+        "$n=4$ to $n=2$",
+        "$n=5$ to $n=2$",
+        "$n=3$ to $n=2$",
+        "$n=6$ to $n=2$"
+      ],
+      "answer": 0,
+      "difficulty": "hard",
+      "explanation": "The Balmer line at 486 nm (H-beta) arises from the transition $n=4 \\to n=2$."
+    },
+    {
+      "id": "phy-atoms-024",
+      "q": "The energy required to excite a hydrogen atom from its ground state to the $n=3$ level is approximately",
+      "options": [
+        "10.2 eV",
+        "13.6 eV",
+        "12.1 eV",
+        "1.51 eV"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "$E_3 = -13.6/9 = -1.51$ eV; excitation energy $= E_3 - E_1 = -1.51-(-13.6) \\approx 12.1$ eV."
+    },
+    {
+      "id": "phy-atoms-025",
+      "q": "In Rutherford's alpha-scattering experiment, the fact that most alpha particles passed through the gold foil almost undeflected indicates that",
+      "options": [
+        "the nucleus is negatively charged",
+        "electrons are very heavy",
+        "the nucleus occupies most of the atom's volume",
+        "the atom is mostly empty space"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "If most alpha particles pass through undeviated, then most of the atom's volume must contain no significant charge or mass, i.e. the atom is mostly empty space, with charge and mass concentrated in a tiny nucleus."
+    },
+    {
+      "id": "phy-atoms-026",
+      "q": "The angular momentum of the electron in the third Bohr orbit ($n=3$) of hydrogen is",
+      "options": [
+        "$3h/2\\pi$",
+        "$h/2\\pi$",
+        "$3h/\\pi$",
+        "$h/\\pi$"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "By Bohr's quantisation rule, $L = nh/2\\pi$; for $n=3$, $L = 3h/2\\pi$."
+    },
+    {
+      "id": "phy-atoms-027",
+      "q": "The distance of closest approach of an alpha particle to a nucleus is inversely proportional to its kinetic energy $E_k$. If $E_k$ is doubled, the distance of closest approach",
+      "options": [
+        "becomes double",
+        "becomes half",
+        "becomes one-fourth",
+        "remains the same"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "$r_0 = \\dfrac{2kZe^2}{E_k} \\propto 1/E_k$, so doubling the kinetic energy halves the distance of closest approach."
+    },
+    {
+      "id": "phy-atoms-028",
+      "q": "The shortest wavelength (series limit) of the Balmer series of hydrogen is approximately (use $R = 1.097\\times10^7\\ \\text{m}^{-1}$)",
+      "options": [
+        "122 nm",
+        "656 nm",
+        "365 nm",
+        "91 nm"
+      ],
+      "answer": 2,
+      "difficulty": "hard",
+      "explanation": "Series limit corresponds to $n_2\\to\\infty$: $\\dfrac{1}{\\lambda} = R\\left(\\dfrac{1}{4}-0\\right) = R/4 \\approx 2.74\\times10^6\\ \\text{m}^{-1}$, so $\\lambda \\approx 365$ nm."
+    },
+    {
+      "id": "phy-atoms-029",
+      "q": "Bohr's postulate that electrons revolve in certain stable orbits without radiating energy directly contradicts",
+      "options": [
+        "the law of conservation of charge",
+        "classical electromagnetic theory, which predicts that an accelerating charge should continuously radiate energy",
+        "quantum mechanics entirely",
+        "Newton's laws of motion"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "Classically, an electron moving in a circular orbit is accelerating and should radiate energy continuously, spiralling into the nucleus; Bohr's postulate of non-radiating stationary orbits was an ad hoc departure from classical theory needed to explain atomic stability."
+    },
+    {
+      "id": "phy-atoms-030",
+      "q": "A hydrogen atom is excited to the $n=5$ level. The maximum number of different spectral lines it can emit while returning to the ground state is",
+      "options": [
+        "10",
+        "15",
+        "20",
+        "5"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "Maximum number of spectral lines $= \\dfrac{n(n-1)}{2} = \\dfrac{5\\times4}{2} = 10$."
+    },
+    {
+      "id": "phy-atoms-031",
+      "q": "Which of the following statements about the Bohr model of the hydrogen atom is INCORRECT?",
+      "options": [
+        "Energy levels get closer together as $n$ increases",
+        "Electron orbits are circular and quantised",
+        "Angular momentum is quantised in integral multiples of $h/2\\pi$",
+        "Energy is emitted continuously as the electron revolves in its stationary orbit"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "A key Bohr postulate is that electrons do NOT radiate energy while in a stationary orbit; energy is emitted only during a transition between orbits, so the statement of continuous emission is incorrect."
+    },
+    {
+      "id": "phy-atoms-032",
+      "q": "In a hydrogen atom, an electron makes a transition from $n=4$ ($E_4 = -0.85$ eV) to $n=1$ ($E_1 = -13.6$ eV). The frequency of the emitted photon is approximately",
+      "options": [
+        "$1\\times10^{16}$ Hz",
+        "$6\\times10^{14}$ Hz",
+        "$3.1\\times10^{15}$ Hz",
+        "$1.5\\times10^{15}$ Hz"
+      ],
+      "answer": 2,
+      "difficulty": "hard",
+      "explanation": "$\\Delta E = 13.6-0.85 = 12.75$ eV $= 12.75\\times1.6\\times10^{-19}$ J $\\approx 2.04\\times10^{-18}$ J. $\\nu = \\Delta E/h \\approx 2.04\\times10^{-18}/6.63\\times10^{-34} \\approx 3.1\\times10^{15}$ Hz."
+    },
+    {
+      "id": "phy-atoms-033",
+      "q": "The Bohr model successfully explains the observed line spectrum of",
+      "options": [
+        "hydrogen and other single-electron (hydrogen-like) ions only",
+        "solids and metals",
+        "all multi-electron atoms equally well",
+        "molecules"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "Bohr's model, based on a single electron orbiting a nucleus, accurately predicts the spectra of hydrogen and hydrogen-like ions (He$^+$, Li$^{2+}$, etc.) but fails for multi-electron atoms due to electron-electron interactions."
+    },
+    {
+      "id": "phy-atoms-034",
+      "q": "For a hydrogen-like atom, the kinetic energy of the electron in the $n$th orbit is related to its total energy $E_n$ by",
+      "options": [
+        "$2E_n$",
+        "$-E_n$",
+        "$E_n/2$",
+        "$-2E_n$"
+      ],
+      "answer": 1,
+      "difficulty": "hard",
+      "explanation": "By the virial theorem for a Coulomb (inverse-square) force, $PE = -2KE$ and $E_n = KE+PE = -KE$, so $KE = -E_n$."
+    },
+    {
+      "id": "phy-atoms-035",
+      "q": "The energy of the photon emitted during the transition $n=2 \\to n=1$ in a singly ionised helium atom (Z=2) is",
+      "options": [
+        "10.2 eV",
+        "13.6 eV",
+        "40.8 eV",
+        "20.4 eV"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "$E_n = -13.6Z^2/n^2$; $E_1 = -54.4$ eV, $E_2 = -13.6$ eV. $\\Delta E = 54.4-13.6 = 40.8$ eV."
+    },
+    {
+      "id": "phy-atoms-036",
+      "q": "As the principal quantum number $n$ increases in the Bohr model of hydrogen, successive energy levels become",
+      "options": [
+        "farther apart",
+        "equally spaced",
+        "first closer, then farther apart",
+        "closer together"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "Since $E_n \\propto -1/n^2$, the spacing between consecutive levels, $E_{n+1}-E_n$, decreases as $n$ increases, so the levels crowd closer together near $E=0$."
+    },
+    {
+      "id": "phy-atoms-037",
+      "q": "The observation of discrete (line) spectra emitted by atoms, rather than a continuous spectrum, is direct evidence for",
+      "options": [
+        "quantisation of energy levels in atoms",
+        "the purely wave nature of electrons",
+        "a continuous distribution of atomic energy",
+        "the existence of neutrons in the nucleus"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "Only discrete, quantised energy levels can produce sharp spectral lines at specific frequencies corresponding to specific energy differences, as opposed to a continuous spread of frequencies."
+    },
+    {
+      "id": "phy-atoms-038",
+      "q": "An electron in a hydrogen atom has total energy $-0.85$ eV. The value of the principal quantum number $n$ for this state is",
+      "options": [
+        "5",
+        "3",
+        "2",
+        "4"
+      ],
+      "answer": 3,
+      "difficulty": "hard",
+      "explanation": "$E_n = -13.6/n^2 = -0.85 \\Rightarrow n^2 = 13.6/0.85 = 16 \\Rightarrow n = 4$."
+    },
+    {
+      "id": "phy-atoms-039",
+      "q": "For hydrogen-like atoms, the wavelength of the radiation emitted for a transition between two fixed energy levels varies with the atomic number $Z$ as",
+      "options": [
+        "$\\lambda$ is independent of $Z$",
+        "$\\lambda \\propto Z^2$",
+        "$\\lambda \\propto 1/Z^2$",
+        "$\\lambda \\propto Z$"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "$\\dfrac{1}{\\lambda} \\propto Z^2$ for fixed $n_1, n_2$, so $\\lambda \\propto 1/Z^2$."
+    },
+    {
+      "id": "phy-atoms-040",
+      "q": "Which of the following series-region pairings is INCORRECTLY matched?",
+      "options": [
+        "Balmer – Visible",
+        "Balmer – Ultraviolet",
+        "Lyman – Ultraviolet",
+        "Paschen – Infrared"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "The Balmer series lies in the visible region, not the ultraviolet; only the Lyman series lies in the ultraviolet, so 'Balmer – Ultraviolet' is the incorrect pairing."
+    }
+  ]
+}

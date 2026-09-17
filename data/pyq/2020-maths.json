@@ -1,0 +1,794 @@
+{
+  "title": "KCET 2020 Maths",
+  "year": 2020,
+  "subject": "maths",
+  "code": "A-1",
+  "source": "KEA question paper (copy) + KEA answer key column A1",
+  "excluded": [],
+  "questions": [
+    {
+      "n": 1,
+      "q": "If the sum of $n$ terms of an A.P. is given by $S_n = n^2 + n$, then the common difference of the A.P. is",
+      "options": [
+        "4",
+        "1",
+        "2",
+        "6"
+      ],
+      "answer": 2,
+      "chapter": "Sequences and Series",
+      "explanation": "$a_n = S_n - S_{n-1} = n^2+n-[(n-1)^2+(n-1)] = 2n$, so the common difference is $2$."
+    },
+    {
+      "n": 2,
+      "q": "The two lines $lx + my = n$ and $l'x + m'y = n'$ are perpendicular if",
+      "options": [
+        "$ll' + mm' = 0$",
+        "$lm' = ml'$",
+        "$lm + l'm' = 0$",
+        "$lm' + ml' = 0$"
+      ],
+      "answer": 0,
+      "chapter": "Straight Lines",
+      "explanation": "Slopes are $-l/m$ and $-l'/m'$; perpendicularity gives $(-l/m)(-l'/m')=-1 \\Rightarrow ll'+mm'=0$."
+    },
+    {
+      "n": 3,
+      "q": "If the parabola $x^2 = 4ay$ passes through the point $(2, 1)$, then the length of the latus rectum is",
+      "options": [
+        "1",
+        "4",
+        "2",
+        "8"
+      ],
+      "answer": 1,
+      "chapter": "Conic Sections",
+      "explanation": "$2^2=4a(1)\\Rightarrow a=1$, so the latus rectum $=4a=4$."
+    },
+    {
+      "n": 4,
+      "q": "$\\displaystyle\\lim_{x\\to 0}\\left(\\dfrac{\\tan x}{\\sqrt{2x+4}-2}\\right)$ is equal to",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "6"
+      ],
+      "answer": 0,
+      "chapter": "Limits and Derivatives",
+      "explanation": "Rationalising the denominator gives $\\dfrac{\\tan x(\\sqrt{2x+4}+2)}{2x}\\to 1\\cdot\\dfrac{4}{2}=2$."
+    },
+    {
+      "n": 5,
+      "q": "The negation of the statement \"For all real numbers $x$ and $y$, $x + y = y + x$\" is",
+      "options": [
+        "for all real numbers $x$ and $y$, $x+y\\neq y+x$",
+        "for some real numbers $x$ and $y$, $x+y=y+x$",
+        "for some real numbers $x$ and $y$, $x+y\\neq y+x$",
+        "for some real numbers $x$ and $y$, $x-y=y-x$"
+      ],
+      "answer": 2,
+      "chapter": "Old syllabus: Mathematical Reasoning",
+      "explanation": "Negating a universal statement gives an existential statement with the negated condition: some $x,y$ with $x+y\\neq y+x$."
+    },
+    {
+      "n": 6,
+      "q": "The standard deviation of the data $6, 7, 8, 9, 10$ is",
+      "options": [
+        "$\\sqrt{2}$",
+        "$\\sqrt{10}$",
+        "2",
+        "10"
+      ],
+      "answer": 0,
+      "chapter": "Statistics",
+      "explanation": "Mean $=8$; deviations are $-2,-1,0,1,2$, sum of squares $=10$, variance $=10/5=2$, so SD$=\\sqrt2$."
+    },
+    {
+      "n": 7,
+      "q": "If A, B, C are three mutually exclusive and exhaustive events of an experiment such that $P(A) = 2P(B) = 3P(C)$, then $P(B)$ is equal to",
+      "options": [
+        "$\\dfrac{1}{11}$",
+        "$\\dfrac{2}{11}$",
+        "$\\dfrac{3}{11}$",
+        "$\\dfrac{4}{11}$"
+      ],
+      "answer": 2,
+      "chapter": "Probability",
+      "explanation": "Let $P(B)=x$; then $P(A)=2x, P(C)=2x/3$. Sum $=1\\Rightarrow 11x/3=1\\Rightarrow x=3/11$."
+    },
+    {
+      "n": 8,
+      "q": "If a relation R on the set $\\{1, 2, 3\\}$ be defined by $R = \\{(1, 1)\\}$, then R is",
+      "options": [
+        "Reflexive and symmetric",
+        "Reflexive and transitive",
+        "Symmetric and transitive",
+        "Only symmetric"
+      ],
+      "answer": 2,
+      "chapter": "Relations and Functions",
+      "explanation": "R lacks $(2,2),(3,3)$ so it is not reflexive, but it is trivially symmetric and transitive."
+    },
+    {
+      "n": 9,
+      "q": "Let $f:[2,\\infty)\\to R$ be the function defined by $f(x) = x^2-4x+5$, then the range of $f$ is",
+      "options": [
+        "$(-\\infty,\\infty)$",
+        "$[1,\\infty)$",
+        "$(1,\\infty)$",
+        "$[5,\\infty)$"
+      ],
+      "answer": 1,
+      "chapter": "Relations and Functions",
+      "explanation": "$f(x)=(x-2)^2+1$ is increasing on $[2,\\infty)$ with minimum value $1$ at $x=2$, so range is $[1,\\infty)$."
+    },
+    {
+      "n": 10,
+      "q": "If $A = \\{a, b, c\\}$, then the number of binary operations on A is",
+      "options": [
+        "3",
+        "$3^6$",
+        "$3^3$",
+        "$3^9$"
+      ],
+      "answer": 3,
+      "chapter": "Relations and Functions",
+      "explanation": "A binary operation is a function $A\\times A\\to A$; there are $|A|^{|A|^2}=3^9$ such functions."
+    },
+    {
+      "n": 11,
+      "q": "The domain of the function defined by $f(x)=\\cos^{-1}\\sqrt{x-1}$ is",
+      "options": [
+        "$[1,2]$",
+        "$[0,2]$",
+        "$[-1,1]$",
+        "$[0,1]$"
+      ],
+      "answer": 0,
+      "chapter": "Inverse Trigonometric Functions",
+      "explanation": "Need $0\\le \\sqrt{x-1}\\le 1 \\Rightarrow 1\\le x\\le 2$."
+    },
+    {
+      "n": 12,
+      "q": "The value of $\\cos\\left(\\sin^{-1}\\dfrac{\\pi}{3}+\\cos^{-1}\\dfrac{\\pi}{3}\\right)$ is",
+      "options": [
+        "0",
+        "1",
+        "-1",
+        "Does not exist"
+      ],
+      "answer": 3,
+      "chapter": "Inverse Trigonometric Functions",
+      "explanation": "Since $\\pi/3>1$, it lies outside $[-1,1]$, so $\\sin^{-1}(\\pi/3)$ and $\\cos^{-1}(\\pi/3)$ are undefined; the expression does not exist."
+    },
+    {
+      "n": 13,
+      "q": "$A=\\begin{pmatrix}0&0&1\\\\0&1&0\\\\1&0&0\\end{pmatrix}$, then $A^4$ is equal to",
+      "options": [
+        "A",
+        "2A",
+        "I",
+        "4A"
+      ],
+      "answer": 2,
+      "chapter": "Matrices",
+      "explanation": "A is a permutation (reflection) matrix with $A^2=I$, so $A^4=(A^2)^2=I$."
+    },
+    {
+      "n": 14,
+      "q": "If A and B are square matrices of same order and B is a skew symmetric matrix, then $A'BA$ is",
+      "options": [
+        "Symmetric matrix",
+        "Null matrix",
+        "Diagonal matrix",
+        "Skew symmetric matrix"
+      ],
+      "answer": 3,
+      "chapter": "Matrices",
+      "explanation": "$(A'BA)^T = A^T B^T A = -A^T B A = -(A'BA)$, so it is skew symmetric."
+    },
+    {
+      "n": 15,
+      "q": "If $\\begin{pmatrix}2&1\\\\3&2\\end{pmatrix}A=\\begin{pmatrix}1&0\\\\0&1\\end{pmatrix}$, then the matrix A is",
+      "options": [
+        "$\\begin{pmatrix}2&1\\\\3&2\\end{pmatrix}$",
+        "$\\begin{pmatrix}2&-1\\\\-3&2\\end{pmatrix}$",
+        "$\\begin{pmatrix}-2&1\\\\3&-2\\end{pmatrix}$",
+        "$\\begin{pmatrix}2&-1\\\\3&2\\end{pmatrix}$"
+      ],
+      "answer": 1,
+      "chapter": "Matrices",
+      "explanation": "A is the inverse of $\\begin{pmatrix}2&1\\\\3&2\\end{pmatrix}$, whose determinant is $1$, giving $A=\\begin{pmatrix}2&-1\\\\-3&2\\end{pmatrix}$."
+    },
+    {
+      "n": 16,
+      "q": "If $f(x)=\\begin{vmatrix}x^3-x & a+x & b+x\\\\x-a & x^2-x & c+x\\\\x-b & x-c & 0\\end{vmatrix}$, then",
+      "options": [
+        "$f(1)=0$",
+        "$f(2)=0$",
+        "$f(0)=0$",
+        "$f(-1)=0$"
+      ],
+      "answer": 2,
+      "chapter": "Determinants",
+      "explanation": "At $x=0$ the matrix is skew-symmetric (odd order), so its determinant is $0$, i.e. $f(0)=0$."
+    },
+    {
+      "n": 17,
+      "q": "If $a_1, a_2, a_3, \\ldots, a_9$ are in A.P. then the value of $\\begin{vmatrix}a_1&a_2&a_3\\\\a_4&a_5&a_6\\\\a_7&a_8&a_9\\end{vmatrix}$ is",
+      "options": [
+        "$\\dfrac{9}{2}(a_1+a_9)$",
+        "$a_1+a_9$",
+        "$\\log_e(\\log_e e)$",
+        "1"
+      ],
+      "answer": 2,
+      "chapter": "Determinants",
+      "explanation": "With common difference $d$, $R_1-2R_2+R_3=0$, so the determinant is $0=\\log_e(\\log_e e)$ since $\\log_e e=1$."
+    },
+    {
+      "n": 18,
+      "q": "If A is a square matrix of order 3 and $|A|=5$, then $|A\\cdot\\text{adj }A|$ is",
+      "options": [
+        "5",
+        "125",
+        "25",
+        "625"
+      ],
+      "answer": 1,
+      "chapter": "Determinants",
+      "explanation": "$|A\\,\\text{adj}A|=|A|^n=5^3=125$ for a $3\\times3$ matrix."
+    },
+    {
+      "n": 19,
+      "q": "If $f(x)=\\begin{cases}\\dfrac{1-\\cos Kx}{x\\sin x}, & x\\neq 0\\\\[4pt] \\dfrac{1}{2}, & x=0\\end{cases}$ is continuous at $x=0$, then the value of K is",
+      "options": [
+        "$\\pm\\dfrac{1}{2}$",
+        "0",
+        "$\\pm2$",
+        "$\\pm1$"
+      ],
+      "answer": 3,
+      "chapter": "Continuity and Differentiability",
+      "explanation": "$1-\\cos Kx\\approx K^2x^2/2$ and $\\sin x\\approx x$, so the limit is $K^2/2=1/2\\Rightarrow K=\\pm1$."
+    },
+    {
+      "n": 20,
+      "q": "The right hand and left hand limit of the function $f(x)=\\begin{cases}\\dfrac{e^{1/x}-1}{e^{1/x}+1}, & x\\neq 0\\\\0, & x=0\\end{cases}$ are respectively",
+      "options": [
+        "1 and 1",
+        "1 and -1",
+        "-1 and -1",
+        "-1 and 1"
+      ],
+      "answer": 1,
+      "chapter": "Continuity and Differentiability",
+      "grace": true,
+      "explanation": "As $x\\to0^+$, $e^{1/x}\\to\\infty$ giving limit $1$; as $x\\to0^-$, $e^{1/x}\\to0$ giving limit $-1$ (question was given a grace mark by KEA)."
+    },
+    {
+      "n": 21,
+      "q": "If $2^x+2^y=2^{x+y}$, then $\\dfrac{dy}{dx}$ is",
+      "options": [
+        "$2^{y-x}$",
+        "$-2^{y-x}$",
+        "$2^{x-y}$",
+        "$\\dfrac{2^y-1}{2^x-1}$"
+      ],
+      "answer": 1,
+      "chapter": "Continuity and Differentiability",
+      "explanation": "Implicit differentiation and simplifying using $2^{x+y}=2^x+2^y$ gives $y'=-2^{y-x}$."
+    },
+    {
+      "n": 22,
+      "q": "If $f(x)=\\sin^{-1}\\left(\\dfrac{2x}{1+x^2}\\right)$, then $f'(\\sqrt3)$ is",
+      "options": [
+        "$-\\dfrac{1}{2}$",
+        "$\\dfrac{1}{2}$",
+        "$\\dfrac{1}{\\sqrt3}$",
+        "$-\\dfrac{1}{\\sqrt3}$"
+      ],
+      "answer": 0,
+      "chapter": "Continuity and Differentiability",
+      "explanation": "For $x>1$, $f(x)=\\pi-2\\tan^{-1}x$, so $f'(x)=-\\dfrac{2}{1+x^2}$; at $x=\\sqrt3$, $f'(\\sqrt3)=-\\dfrac{2}{4}=-\\dfrac12$."
+    },
+    {
+      "n": 23,
+      "q": "If $(xe)^y=e^x$, then $\\dfrac{dy}{dx}$ is",
+      "options": [
+        "$\\dfrac{\\log x}{(1+\\log x)^2}$",
+        "$\\dfrac{1}{(1+\\log x)^2}$",
+        "$\\dfrac{\\log x}{(1+\\log x)}$",
+        "$\\dfrac{e^x}{x(y-1)}$"
+      ],
+      "answer": 0,
+      "chapter": "Continuity and Differentiability",
+      "explanation": "Taking logs, $y(1+\\log x)=x \\Rightarrow y=\\dfrac{x}{1+\\log x}$; differentiating gives $\\dfrac{\\log x}{(1+\\log x)^2}$."
+    },
+    {
+      "n": 24,
+      "q": "If $y=2x^{n+1}+\\dfrac{3}{x^n}$, then $x^2\\dfrac{d^2y}{dx^2}$ is",
+      "options": [
+        "$6n(n+1)y$",
+        "$n(n+1)y$",
+        "$x\\dfrac{dy}{dx}+y$",
+        "y"
+      ],
+      "answer": 1,
+      "chapter": "Continuity and Differentiability",
+      "explanation": "Differentiating twice, $x^2y''=n(n+1)\\left(2x^{n+1}+3x^{-n}\\right)=n(n+1)y$."
+    },
+    {
+      "n": 25,
+      "q": "If the curves $2x=y^2$ and $2xy=K$ intersect perpendicularly, then the value of $K^2$ is",
+      "options": [
+        "4",
+        "$2\\sqrt2$",
+        "2",
+        "8"
+      ],
+      "answer": 3,
+      "chapter": "Application of Derivatives",
+      "explanation": "Slopes are $1/y$ and $-y/x$; perpendicularity gives $x=1$, then $y=\\sqrt2$ from $2x=y^2$, so $K=2xy=2\\sqrt2$ and $K^2=8$."
+    },
+    {
+      "n": 26,
+      "q": "The maximum value of $\\dfrac{\\log_e x}{x}$, if $x>0$ is",
+      "options": [
+        "e",
+        "1",
+        "$\\dfrac{1}{e}$",
+        "$-\\dfrac{1}{e}$"
+      ],
+      "answer": 2,
+      "chapter": "Application of Derivatives",
+      "explanation": "Setting derivative $(1-\\log x)/x^2=0$ gives $x=e$, and the maximum value is $1/e$."
+    },
+    {
+      "n": 27,
+      "q": "If the side of a cube is increased by 5%, then the surface area of a cube is increased by",
+      "options": [
+        "10%",
+        "60%",
+        "6%",
+        "20%"
+      ],
+      "answer": 0,
+      "chapter": "Application of Derivatives",
+      "grace": true,
+      "explanation": "Using differentials, $dS/S\\approx 2(da/a)=2(5\\%)=10\\%$ (question was given a grace mark by KEA, as the exact increase is $10.25\\%$)."
+    },
+    {
+      "n": 28,
+      "q": "The value of $\\displaystyle\\int \\dfrac{1+x^4}{1+x^6}\\,dx$ is",
+      "options": [
+        "$\\tan^{-1}x+\\tan^{-1}x^3+C$",
+        "$\\tan^{-1}x+\\dfrac{1}{3}\\tan^{-1}x^3+C$",
+        "$\\tan^{-1}x-\\dfrac{1}{3}\\tan^{-1}x^3+C$",
+        "$\\tan^{-1}x+\\dfrac{1}{3}\\tan^{-1}x^2+C$"
+      ],
+      "answer": 1,
+      "chapter": "Integrals",
+      "explanation": "Differentiating option (B), $\\dfrac{1}{1+x^2}+\\dfrac{x^2}{1+x^6}=\\dfrac{1+x^4}{1+x^6}$, confirming the antiderivative."
+    },
+    {
+      "n": 29,
+      "q": "If $\\displaystyle\\int\\dfrac{3x+1}{(x-1)(x-2)(x-3)}\\,dx = A\\log|x-1|+B\\log|x-2|+C\\log|x-3|+C$, then the values of A, B and C are respectively.",
+      "options": [
+        "5, -7, -5",
+        "2, -7, -5",
+        "5, -7, 5",
+        "2, -7, 5"
+      ],
+      "answer": 3,
+      "chapter": "Integrals",
+      "explanation": "Partial fractions give $A=\\dfrac{4}{2}=2$, $B=\\dfrac{7}{-1}=-7$, $C=\\dfrac{10}{2}=5$."
+    },
+    {
+      "n": 30,
+      "q": "The value of $\\displaystyle\\int e^{\\sin x}\\sin 2x\\,dx$ is",
+      "options": [
+        "$2e^{\\sin x}(\\sin x-1)+C$",
+        "$2e^{\\sin x}(\\sin x+1)+C$",
+        "$2e^{\\sin x}(\\cos x+1)+C$",
+        "$2e^{\\sin x}(\\cos x-1)+C$"
+      ],
+      "answer": 0,
+      "chapter": "Integrals",
+      "explanation": "Put $t=\\sin x$: $\\int 2te^t\\,dt = 2e^t(t-1)+C = 2e^{\\sin x}(\\sin x-1)+C$."
+    },
+    {
+      "n": 31,
+      "q": "The value of $\\displaystyle\\int_{-1/2}^{1/2}\\cos^{-1}x\\,dx$ is",
+      "options": [
+        "$\\pi$",
+        "$\\dfrac{\\pi}{2}$",
+        "1",
+        "$\\dfrac{\\pi^2}{2}$"
+      ],
+      "answer": 1,
+      "chapter": "Integrals",
+      "explanation": "Using $\\int\\cos^{-1}x\\,dx = x\\cos^{-1}x-\\sqrt{1-x^2}+C$ and evaluating the limits gives $\\pi/2$."
+    },
+    {
+      "n": 32,
+      "q": "The value of $\\displaystyle\\int_{-\\pi/2}^{\\pi/2}\\dfrac{\\cos x}{1+e^x}\\,dx$ is",
+      "options": [
+        "2",
+        "0",
+        "1",
+        "-2"
+      ],
+      "answer": 2,
+      "chapter": "Integrals",
+      "explanation": "Using $f(x)+f(-x)=\\cos x$, the integral equals $\\int_0^{\\pi/2}\\cos x\\,dx = 1$."
+    },
+    {
+      "n": 33,
+      "q": "The value of $\\displaystyle\\int_0^1 \\dfrac{\\log(1+x)}{1+x^2}\\,dx$ is",
+      "options": [
+        "$\\dfrac{\\pi}{2}\\log 2$",
+        "$\\dfrac{\\pi}{4}\\log 2$",
+        "$\\dfrac{1}{2}$",
+        "$\\dfrac{\\pi}{8}\\log 2$"
+      ],
+      "answer": 3,
+      "chapter": "Integrals",
+      "explanation": "This is a standard result obtained via the substitution $x=\\tan\\theta$, giving $\\dfrac{\\pi}{8}\\log2$."
+    },
+    {
+      "n": 34,
+      "q": "The area of the region bounded by the curve $y^2=8x$ and the line $y=2x$ is",
+      "options": [
+        "$\\dfrac{16}{3}$ sq. units",
+        "$\\dfrac{4}{3}$ sq. units",
+        "$\\dfrac{3}{4}$ sq. units",
+        "$\\dfrac{8}{3}$ sq. units"
+      ],
+      "answer": 1,
+      "chapter": "Application of Integrals",
+      "explanation": "Curves meet at $x=0,2$; area $=\\int_0^2(\\sqrt{8x}-2x)\\,dx = \\dfrac{16}{3}-4=\\dfrac{4}{3}$."
+    },
+    {
+      "n": 35,
+      "q": "The area of the region bounded by the line $y=2x+1$, x-axis and the ordinates $x=-1$ and $x=1$ is",
+      "options": [
+        "$\\dfrac{9}{4}$",
+        "2",
+        "$\\dfrac{5}{2}$",
+        "5"
+      ],
+      "answer": 2,
+      "chapter": "Application of Integrals",
+      "explanation": "The line crosses the x-axis at $x=-1/2$; summing the absolute areas on $[-1,-1/2]$ and $[-1/2,1]$ gives $1/4+9/4=5/2$."
+    },
+    {
+      "n": 36,
+      "q": "The order of the differential equation obtained by eliminating arbitrary constants in the family of curves $c_1y=(c_2+c_3)e^{x+c_4}$ is",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "answer": 0,
+      "chapter": "Differential Equations",
+      "explanation": "$(c_2+c_3)e^{c_4}$ combines into a single constant, so $y=Ke^x$ has only one independent arbitrary constant, giving order 1."
+    },
+    {
+      "n": 37,
+      "q": "The general solution of the differential equation $x^2dy-2xy\\,dx=x^4\\cos x\\,dx$ is",
+      "options": [
+        "$y=x^2\\sin x+cx^2$",
+        "$y=x^2\\sin x+c$",
+        "$y=\\sin x+cx^2$",
+        "$y=\\cos x+cx^2$"
+      ],
+      "answer": 0,
+      "chapter": "Differential Equations",
+      "explanation": "Dividing by $x^2$ gives a linear ODE with integrating factor $x^{-2}$; solving yields $y=x^2\\sin x+cx^2$."
+    },
+    {
+      "n": 38,
+      "q": "The curve passing through the point $(1, 2)$ given that the slope of the tangent at any point $(x, y)$ is $\\dfrac{2x}{y}$ represents",
+      "options": [
+        "Circle",
+        "Parabola",
+        "Ellipse",
+        "Hyperbola"
+      ],
+      "answer": 3,
+      "chapter": "Differential Equations",
+      "explanation": "Solving $y\\,dy=2x\\,dx$ gives $y^2-2x^2=2$ after using $(1,2)$, which is a hyperbola."
+    },
+    {
+      "n": 39,
+      "q": "The two vectors $\\hat i+\\hat j+\\hat k$ and $\\hat i+3\\hat j+5\\hat k$ represent the two sides $\\vec{AB}$ and $\\vec{AC}$ respectively of a $\\triangle ABC$. The length of the median through A is",
+      "options": [
+        "$\\dfrac{\\sqrt{14}}{2}$",
+        "14",
+        "7",
+        "$\\sqrt{14}$"
+      ],
+      "answer": 3,
+      "chapter": "Vector Algebra",
+      "explanation": "Median vector $=\\dfrac{\\vec{AB}+\\vec{AC}}{2}=\\hat i+2\\hat j+3\\hat k$, whose magnitude is $\\sqrt{14}$."
+    },
+    {
+      "n": 40,
+      "q": "If $\\vec a$ and $\\vec b$ are unit vectors and $\\theta$ is the angle between $\\vec a$ and $\\vec b$, then $\\sin\\dfrac{\\theta}{2}$ is",
+      "options": [
+        "$|\\vec a+\\vec b|$",
+        "$\\dfrac{|\\vec a+\\vec b|}{2}$",
+        "$\\dfrac{|\\vec a-\\vec b|}{2}$",
+        "$|\\vec a-\\vec b|$"
+      ],
+      "answer": 2,
+      "chapter": "Vector Algebra",
+      "explanation": "$|\\vec a-\\vec b|^2=2-2\\cos\\theta=4\\sin^2(\\theta/2)$, so $\\sin(\\theta/2)=|\\vec a-\\vec b|/2$."
+    },
+    {
+      "n": 41,
+      "q": "If the vectors $2\\hat i-3\\hat j+4\\hat k$, $2\\hat i+\\hat j-\\hat k$ and $\\lambda\\hat i-\\hat j+2\\hat k$ are coplanar, then the value of $\\lambda$ is",
+      "options": [
+        "6",
+        "-5",
+        "-6",
+        "5"
+      ],
+      "answer": 0,
+      "chapter": "Vector Algebra",
+      "explanation": "Setting the scalar triple product to zero and expanding gives $6-\\lambda=0\\Rightarrow\\lambda=6$."
+    },
+    {
+      "n": 42,
+      "q": "If $|\\vec a\\times\\vec b|^2+|\\vec a\\cdot\\vec b|^2=144$ and $|\\vec a|=6$, then $|\\vec b|$ is equal to",
+      "options": [
+        "6",
+        "3",
+        "2",
+        "4"
+      ],
+      "answer": 2,
+      "chapter": "Vector Algebra",
+      "explanation": "$|\\vec a\\times\\vec b|^2+|\\vec a\\cdot\\vec b|^2=|\\vec a|^2|\\vec b|^2=144$, so $36|\\vec b|^2=144\\Rightarrow|\\vec b|=2$."
+    },
+    {
+      "n": 43,
+      "q": "The point $(1, -3, 4)$ lies in the octant",
+      "options": [
+        "Second",
+        "Third",
+        "Fourth",
+        "Eighth"
+      ],
+      "answer": 2,
+      "chapter": "Introduction to Three Dimensional Geometry",
+      "explanation": "With $x>0, y<0, z>0$, the point lies in the fourth octant."
+    },
+    {
+      "n": 44,
+      "q": "If a line makes an angle of $\\dfrac{\\pi}{3}$ with each of $x$ and $y$-axis, then the acute angle made by z-axis is",
+      "options": [
+        "$\\dfrac{\\pi}{4}$",
+        "$\\dfrac{\\pi}{6}$",
+        "$\\dfrac{\\pi}{3}$",
+        "$\\dfrac{\\pi}{2}$"
+      ],
+      "answer": 0,
+      "chapter": "Three Dimensional Geometry",
+      "grace": true,
+      "explanation": "$\\cos^2(\\pi/3)+\\cos^2(\\pi/3)+\\cos^2\\gamma=1\\Rightarrow \\cos^2\\gamma=1/2\\Rightarrow\\gamma=\\pi/4$ (question was given a grace mark by KEA)."
+    },
+    {
+      "n": 45,
+      "q": "The distance of the point $(1, 2, -4)$ from the line $\\dfrac{x-3}{2}=\\dfrac{y-3}{3}=\\dfrac{z+5}{6}$ is",
+      "options": [
+        "$\\dfrac{293}{7}$",
+        "$\\dfrac{\\sqrt{293}}{7}$",
+        "$\\dfrac{293}{49}$",
+        "$\\dfrac{\\sqrt{293}}{49}$"
+      ],
+      "answer": 1,
+      "chapter": "Three Dimensional Geometry",
+      "explanation": "With point-on-line $(3,3,-5)$ and direction $(2,3,6)$, the perpendicular distance formula gives $\\sqrt{293}/7$."
+    },
+    {
+      "n": 46,
+      "q": "The sine of the angle between the straight line $\\dfrac{x-2}{3}=\\dfrac{3-y}{-4}=\\dfrac{z-4}{5}$ and the plane $2x-2y+z=5$ is",
+      "options": [
+        "$\\dfrac{3}{\\sqrt{50}}$",
+        "$\\dfrac{3}{50}$",
+        "$\\dfrac{4}{5\\sqrt2}$",
+        "$\\dfrac{\\sqrt2}{10}$"
+      ],
+      "answer": 3,
+      "chapter": "Three Dimensional Geometry",
+      "explanation": "Direction $(3,4,5)$, normal $(2,-2,1)$; $\\sin\\theta=\\dfrac{|6-8+5|}{\\sqrt{50}\\cdot3}=\\dfrac{1}{\\sqrt{50}}=\\dfrac{\\sqrt2}{10}$."
+    },
+    {
+      "n": 47,
+      "q": "The feasible region of an LPP is shown in the figure [shaded region bounded by the y-axis, the line $x+y=5$, and the ray $x+3y=9$, above both lines]. If $Z=11x+7y$, then the maximum value of Z occurs at",
+      "options": [
+        "(0, 5)",
+        "(3, 3)",
+        "(5, 0)",
+        "(3, 2)"
+      ],
+      "answer": 3,
+      "chapter": "Linear Programming",
+      "explanation": "Solving $x+y=5$ and $x+3y=9$ gives the vertex $(3,2)$, which is the relevant corner point of the shown feasible region.",
+      "figure": true
+    },
+    {
+      "n": 48,
+      "q": "Corner points of the feasible region determined by the system of linear constraints are $(0, 3)$, $(1, 1)$ and $(3, 0)$. Let $z=px+qy$, where $p, q>0$. Condition on p and q so that the minimum of z occurs at $(3, 0)$ and $(1, 1)$ is",
+      "options": [
+        "p = 2q",
+        "$p=\\dfrac{q}{2}$",
+        "p = 3q",
+        "p = q"
+      ],
+      "answer": 1,
+      "chapter": "Linear Programming",
+      "explanation": "Equal minimum values at both points require $3p=p+q\\Rightarrow 2p=q\\Rightarrow p=q/2$."
+    },
+    {
+      "n": 49,
+      "q": "If A and B are two events such that $P(A)=\\dfrac13$, $P(B)=\\dfrac12$ and $P(A\\cap B)=\\dfrac16$, then $P(A'/B)$ is",
+      "options": [
+        "$\\dfrac23$",
+        "$\\dfrac13$",
+        "$\\dfrac12$",
+        "$\\dfrac1{12}$"
+      ],
+      "answer": 0,
+      "chapter": "Probability",
+      "explanation": "$P(A'/B)=\\dfrac{P(B)-P(A\\cap B)}{P(B)}=\\dfrac{1/2-1/6}{1/2}=\\dfrac23$."
+    },
+    {
+      "n": 50,
+      "q": "A die is thrown 10 times, the probability that an odd number will come up atleast one time is",
+      "options": [
+        "$\\dfrac{1}{1024}$",
+        "$\\dfrac{1023}{1024}$",
+        "$\\dfrac{11}{1024}$",
+        "$\\dfrac{1013}{1024}$"
+      ],
+      "answer": 1,
+      "chapter": "Probability",
+      "explanation": "P(no odd in 10 throws)$=(1/2)^{10}=1/1024$; required probability $=1-1/1024=1023/1024$."
+    },
+    {
+      "n": 51,
+      "q": "The probability of solving a problem by three persons A, B and C independently is $\\dfrac12,\\dfrac14$ and $\\dfrac13$ respectively. Then the probability of the problem is solved by any two of them is",
+      "options": [
+        "$\\dfrac{1}{12}$",
+        "$\\dfrac14$",
+        "$\\dfrac{1}{24}$",
+        "$\\dfrac18$"
+      ],
+      "answer": 1,
+      "chapter": "Probability",
+      "explanation": "Sum of probabilities of exactly two solving it $=\\tfrac{2}{24}+\\tfrac{3}{24}+\\tfrac{1}{24}=\\tfrac{6}{24}=\\tfrac14$."
+    },
+    {
+      "n": 52,
+      "q": "Events $E_1$ and $E_2$ form a partition of the sample space S. A is any event such that $P(E_1)=P(E_2)=\\dfrac12$, $P(E_2/A)=\\dfrac12$ and $P(A/E_2)=\\dfrac23$, then $P(E_1/A)$ is",
+      "options": [
+        "$\\dfrac12$",
+        "$\\dfrac23$",
+        "1",
+        "$\\dfrac14$"
+      ],
+      "answer": 0,
+      "chapter": "Probability",
+      "explanation": "Since $E_1,E_2$ partition S, $P(E_1/A)+P(E_2/A)=1$, so $P(E_1/A)=1-1/2=1/2$."
+    },
+    {
+      "n": 53,
+      "q": "If $A=\\{1, 2, 3, 4, 5, 6\\}$, then the number of subsets of A which contain atleast two elements is",
+      "options": [
+        "64",
+        "63",
+        "57",
+        "58"
+      ],
+      "answer": 2,
+      "chapter": "Sets",
+      "explanation": "Total subsets $=2^6=64$; removing the empty set and the 6 singletons gives $64-7=57$."
+    },
+    {
+      "n": 54,
+      "q": "If $n(A)=2$ and total number of possible relations from set A to set B is 1024, then $n(B)$ is",
+      "options": [
+        "512",
+        "20",
+        "10",
+        "5"
+      ],
+      "answer": 3,
+      "chapter": "Relations and Functions",
+      "explanation": "Number of relations $=2^{n(A)n(B)}=2^{2n(B)}=1024=2^{10}\\Rightarrow n(B)=5$."
+    },
+    {
+      "n": 55,
+      "q": "The value of $\\sin^2 51^\\circ+\\sin^2 39^\\circ$ is",
+      "options": [
+        "1",
+        "0",
+        "$\\sin 12^\\circ$",
+        "$\\cos 12^\\circ$"
+      ],
+      "answer": 0,
+      "chapter": "Trigonometric Functions",
+      "explanation": "Since $39^\\circ=90^\\circ-51^\\circ$, $\\sin39^\\circ=\\cos51^\\circ$, so the sum is $\\sin^2 51^\\circ+\\cos^2 51^\\circ=1$."
+    },
+    {
+      "n": 56,
+      "q": "If $\\tan A+\\cot A=2$, then the value of $\\tan^4 A+\\cot^4 A=$",
+      "options": [
+        "2",
+        "1",
+        "4",
+        "5"
+      ],
+      "answer": 0,
+      "chapter": "Trigonometric Functions",
+      "explanation": "$\\tan A+\\cot A=2$ forces $\\tan A=\\cot A=1$, so $\\tan^4A+\\cot^4A=1+1=2$."
+    },
+    {
+      "n": 57,
+      "q": "If $P(n): 2^n<n!$, then the smallest positive integer for which P(n) is true is",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "answer": 2,
+      "chapter": "Old syllabus: Principle of Mathematical Induction",
+      "explanation": "Checking $n=1,2,3$ fails; at $n=4$: $2^4=16<24=4!$, which is true."
+    },
+    {
+      "n": 58,
+      "q": "If $z=x+iy$, then the equation $|z+1|=|z-1|$ represents",
+      "options": [
+        "a circle",
+        "a parabola",
+        "x-axis",
+        "y-axis"
+      ],
+      "answer": 3,
+      "chapter": "Complex Numbers and Quadratic Equations",
+      "explanation": "This is the perpendicular bisector of the segment joining $-1$ and $1$, which is the y-axis ($x=0$)."
+    },
+    {
+      "n": 59,
+      "q": "The value of ${}^{16}C_9+{}^{16}C_{10}-{}^{16}C_6-{}^{16}C_7$ is",
+      "options": [
+        "0",
+        "1",
+        "${}^{17}C_{10}$",
+        "${}^{17}C_3$"
+      ],
+      "answer": 0,
+      "chapter": "Permutations and Combinations",
+      "explanation": "Since ${}^{16}C_9={}^{16}C_7$ and ${}^{16}C_{10}={}^{16}C_6$, the expression equals $0$."
+    },
+    {
+      "n": 60,
+      "q": "The number of terms in the expansion of $(x+y+z)^{10}$ is",
+      "options": [
+        "66",
+        "142",
+        "11",
+        "110"
+      ],
+      "answer": 0,
+      "chapter": "Binomial Theorem",
+      "explanation": "Number of terms $=\\binom{10+2}{2}=\\binom{12}{2}=66$."
+    }
+  ]
+}

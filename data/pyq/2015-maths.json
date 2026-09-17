@@ -1,0 +1,796 @@
+{
+  "title": "KCET 2015 Maths",
+  "year": 2015,
+  "subject": "maths",
+  "code": "A-1",
+  "source": "KEA question paper (copy) + KEA answer key column A1",
+  "excluded": [],
+  "questions": [
+    {
+      "n": 1,
+      "q": "$f(x) = \\dfrac{1}{2} - \\tan\\left(\\dfrac{\\pi x}{2}\\right)$, $-1 < x < 1$ and $g(x) = \\sqrt{3 + 4x - 4x^2}$. Find domain of $(f+g)$.",
+      "options": [
+        "$\\left[\\dfrac{-1}{2}, 1\\right)$",
+        "$\\left(\\dfrac{-1}{2}, 1\\right]$",
+        "$\\left[-\\dfrac{1}{2}, \\dfrac{3}{2}\\right]$",
+        "$(-1, 1)$"
+      ],
+      "answer": 0,
+      "chapter": "Relations and Functions",
+      "explanation": "Domain of $g$ is $[-1/2, 3/2]$ (from $4x^2-4x-3\\le 0$) and domain of $f$ is $(-1,1)$; the intersection is $[-1/2, 1)$."
+    },
+    {
+      "n": 2,
+      "q": "Write the set builder form $A = \\{-1, 1\\}$",
+      "options": [
+        "$A = \\{x : x \\text{ is a real number}\\}$",
+        "$A = \\{x : x \\text{ is an integer}\\}$",
+        "$A = \\{x : x \\text{ is a root of the equation } x^2 = 1\\}$",
+        "$A = \\{x : x \\text{ is a root of the equation } x^2 + 1 = 0\\}$"
+      ],
+      "answer": 2,
+      "chapter": "Sets",
+      "explanation": "$x^2=1$ has exactly the roots $-1$ and $1$, matching set $A$."
+    },
+    {
+      "n": 3,
+      "q": "If the operation $\\oplus$ is defined by $a \\oplus b = a^2 + b^2$ for all real numbers 'a' and 'b', then $(2 \\oplus 3) \\oplus 4 =$ ____",
+      "options": [
+        "181",
+        "182",
+        "184",
+        "185"
+      ],
+      "answer": 3,
+      "chapter": "Relations and Functions",
+      "explanation": "$2\\oplus 3 = 4+9=13$, then $13\\oplus 4 = 169+16=185$."
+    },
+    {
+      "n": 4,
+      "q": "If $Z = \\dfrac{(\\sqrt{3}+i)^3(3i+4)^2}{(8+6i)^2}$, then $|Z|$ is equal to",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "answer": 2,
+      "chapter": "Complex Numbers and Quadratic Equations",
+      "explanation": "$|Z| = \\dfrac{|\\sqrt3+i|^3|4+3i|^2}{|8+6i|^2} = \\dfrac{2^3\\cdot 5^2}{10^2} = \\dfrac{200}{100}=2$."
+    },
+    {
+      "n": 5,
+      "q": "If $\\alpha$ and $\\beta$ are the roots of $x^2 - ax + b^2 = 0$, then $\\alpha^2 + \\beta^2$ is equal to ____",
+      "options": [
+        "$a^2-2b^2$",
+        "$2a^2-b^2$",
+        "$a^2-b^2$",
+        "$a^2+b^2$"
+      ],
+      "answer": 0,
+      "chapter": "Complex Numbers and Quadratic Equations",
+      "explanation": "$\\alpha+\\beta=a$, $\\alpha\\beta=b^2$, so $\\alpha^2+\\beta^2=(\\alpha+\\beta)^2-2\\alpha\\beta=a^2-2b^2$."
+    },
+    {
+      "n": 6,
+      "q": "If the $2^{nd}$ and $5^{th}$ terms of G.P. are 24 and 3 respectively, then the sum of $1^{st}$ six terms is ____",
+      "options": [
+        "$\\dfrac{189}{2}$",
+        "$\\dfrac{189}{5}$",
+        "$\\dfrac{179}{2}$",
+        "$\\dfrac{2}{189}$"
+      ],
+      "answer": 0,
+      "chapter": "Sequences and Series",
+      "explanation": "$ar=24,\\ ar^4=3 \\Rightarrow r^3=1/8 \\Rightarrow r=1/2,\\ a=48$. $S_6=\\dfrac{48(1-(1/2)^6)}{1-1/2}=\\dfrac{189}{2}$."
+    },
+    {
+      "n": 7,
+      "q": "The middle term of expansion of $\\left(\\dfrac{10}{x} + \\dfrac{x}{10}\\right)^{10}$",
+      "options": [
+        "${}^7C_5$",
+        "${}^8C_5$",
+        "${}^9C_5$",
+        "${}^{10}C_5$"
+      ],
+      "answer": 3,
+      "chapter": "Binomial Theorem",
+      "explanation": "For $n=10$ the middle term is $T_6$ (r=5): $\\binom{10}{5}\\left(\\dfrac{10}{x}\\right)^5\\left(\\dfrac{x}{10}\\right)^5={}^{10}C_5$."
+    },
+    {
+      "n": 8,
+      "q": "If $\\begin{vmatrix} 2a & x_1 & y_1 \\\\ 2b & x_2 & y_2 \\\\ 2c & x_3 & y_3 \\end{vmatrix} = \\dfrac{abc}{2} \\ne 0$, then the area of the triangle whose vertices are $\\left(\\dfrac{x_1}{a},\\dfrac{y_1}{a}\\right), \\left(\\dfrac{x_2}{b},\\dfrac{y_2}{b}\\right), \\left(\\dfrac{x_3}{c},\\dfrac{y_3}{c}\\right)$ is",
+      "options": [
+        "$\\dfrac{1}{4}abc$",
+        "$\\dfrac{1}{8}abc$",
+        "$\\dfrac{1}{4}$",
+        "$\\dfrac{1}{8}$"
+      ],
+      "answer": 3,
+      "chapter": "Determinants",
+      "explanation": "Area $=\\dfrac12\\left|\\det\\begin{pmatrix}x_1/a & y_1/a & 1\\\\ x_2/b & y_2/b & 1\\\\ x_3/c & y_3/c & 1\\end{pmatrix}\\right|$, which on scaling rows of the given determinant works out to $\\dfrac18$."
+    },
+    {
+      "n": 9,
+      "q": "The shaded region shown in fig. [a triangle with vertices $(0,14)$, $(19,14)$ and the base meeting the x-axis so that the sloped side through $(0,14)$ crosses the x-axis at $(5,0)$] is given by the inequation",
+      "options": [
+        "$14x + 5y \\ge 70,\\ y \\le 14 \\text{ and } x-y \\le 5$",
+        "$14x + 5y \\ge 70,\\ y \\le 14 \\text{ and } x-y \\ge 5$",
+        "$14x + 5y \\le 70,\\ y \\le 14 \\text{ and } x-y \\ge 5$",
+        "$14x + 5y \\ge 70,\\ y \\ge 14 \\text{ and } x-y \\ge 5$"
+      ],
+      "answer": 0,
+      "chapter": "Linear Inequalities",
+      "explanation": "The line through $(0,14)$ and $(5,0)$ is $14x+5y=70$; the shaded triangle above this line and below $y=14$, with $x-y\\le5$, matches option (1).",
+      "figure": true
+    },
+    {
+      "n": 10,
+      "q": "$\\sim[(-p) \\land q]$ is logically equivalent to",
+      "options": [
+        "$p \\lor (\\sim q)$",
+        "$p \\land (\\sim q)$",
+        "$\\sim[p \\land (\\sim q)]$",
+        "$\\sim(p \\lor q)$"
+      ],
+      "answer": 0,
+      "chapter": "Old syllabus: Mathematical Reasoning",
+      "explanation": "$\\sim[(\\sim p)\\land q] = \\sim(\\sim p)\\lor \\sim q = p \\lor(\\sim q)$ by De Morgan's law. (KEA awarded a grace mark for this question.)",
+      "grace": true
+    },
+    {
+      "n": 11,
+      "q": "The value of $\\sin^{-1}\\left(\\dfrac{2\\sqrt2}{3}\\right) + \\sin^{-1}\\left(\\dfrac13\\right)$ is equal to",
+      "options": [
+        "$\\dfrac{\\pi}{6}$",
+        "$\\dfrac{\\pi}{2}$",
+        "$\\dfrac{\\pi}{4}$",
+        "$\\dfrac{2\\pi}{3}$"
+      ],
+      "answer": 1,
+      "chapter": "Inverse Trigonometric Functions",
+      "explanation": "With $\\sin\\theta_1=2\\sqrt2/3,\\cos\\theta_1=1/3$ and $\\sin\\theta_2=1/3,\\cos\\theta_2=2\\sqrt2/3$, $\\sin(\\theta_1+\\theta_2)=8/9+1/9=1$, so the sum is $\\pi/2$."
+    },
+    {
+      "n": 12,
+      "q": "If the eccentricity of the hyperbola $\\dfrac{x^2}{a^2}-\\dfrac{y^2}{b^2}=1$ is $\\dfrac54$ and $2x+3y-6=0$ is a focal chord of the hyperbola, then the length of transverse axis is equal to ____",
+      "options": [
+        "$\\dfrac{12}{5}$",
+        "$\\dfrac{24}{5}$",
+        "$\\dfrac{6}{5}$",
+        "$\\dfrac{5}{24}$"
+      ],
+      "answer": 1,
+      "chapter": "Conic Sections",
+      "explanation": "The line meets the x-axis (focus) at $(3,0)$, so $ae=3 \\Rightarrow a=12/5$; transverse axis $=2a=24/5$."
+    },
+    {
+      "n": 13,
+      "q": "If $\\vec a = i + 2j + 2k$, $|\\vec b| = 5$ and the angle between $\\vec a$ and $\\vec b$ is $\\dfrac{\\pi}{6}$, then the area of the triangle formed by these two vectors as two sides is",
+      "options": [
+        "$\\dfrac{15}{2}$",
+        "15",
+        "$\\dfrac{15}{4}$",
+        "$\\dfrac{15\\sqrt3}{2}$"
+      ],
+      "answer": 2,
+      "chapter": "Vector Algebra",
+      "explanation": "Area $=\\dfrac12|\\vec a||\\vec b|\\sin\\theta=\\dfrac12(3)(5)\\left(\\dfrac12\\right)=\\dfrac{15}{4}$."
+    },
+    {
+      "n": 14,
+      "q": "Let $\\vec a = i - 2j + 3k$; if $\\vec b$ is a vector such that $\\vec a \\cdot \\vec b = |\\vec b|^2$ and $|\\vec a - \\vec b| = \\sqrt7$, then $|\\vec b| =$ ____",
+      "options": [
+        "7",
+        "14",
+        "$\\sqrt7$",
+        "21"
+      ],
+      "answer": 2,
+      "chapter": "Vector Algebra",
+      "explanation": "$|\\vec a-\\vec b|^2=|\\vec a|^2-2\\vec a\\cdot\\vec b+|\\vec b|^2=14-2|\\vec b|^2+|\\vec b|^2=14-|\\vec b|^2=7\\Rightarrow|\\vec b|=\\sqrt7$."
+    },
+    {
+      "n": 15,
+      "q": "If direction cosines of a vector of magnitude 3 are $\\dfrac23, -\\dfrac{a}{3}, \\dfrac23$ and $a > 0$, then vector is ____",
+      "options": [
+        "2i + j + 2k",
+        "2i - j + 2k",
+        "i - 2j + 2k",
+        "i + 2j + 2k"
+      ],
+      "answer": 1,
+      "chapter": "Vector Algebra",
+      "explanation": "Direction cosines satisfy $\\left(\\frac23\\right)^2+\\left(\\frac a3\\right)^2+\\left(\\frac23\\right)^2=1\\Rightarrow a=1$; vector $=3\\left(\\frac23,-\\frac13,\\frac23\\right)=2i-j+2k$. (The printed \\\"a\\\" was smudged in the paper, so KEA awarded a grace mark.)",
+      "grace": true
+    },
+    {
+      "n": 16,
+      "q": "Equation of line passing through the point $(2, 3, 1)$ and parallel to the line of intersection of the plane $x - 2y - z + 5 = 0$ and $x + y + 3z = 6$ is",
+      "options": [
+        "$\\dfrac{x-2}{5}=\\dfrac{y-3}{-4}=\\dfrac{z-1}{3}$",
+        "$\\dfrac{x-2}{-5}=\\dfrac{y-3}{-4}=\\dfrac{z-1}{3}$",
+        "$\\dfrac{x-2}{5}=\\dfrac{y-3}{4}=\\dfrac{z-1}{3}$",
+        "$\\dfrac{x-2}{4}=\\dfrac{y-3}{3}=\\dfrac{z-1}{2}$"
+      ],
+      "answer": 1,
+      "chapter": "Three Dimensional Geometry",
+      "explanation": "Direction of the line of intersection $=\\vec n_1\\times\\vec n_2=(1,-2,-1)\\times(1,1,3)=(-5,-4,3)$, giving option (2)."
+    },
+    {
+      "n": 17,
+      "q": "Foot of perpendicular drawn from the origin to the plane $2x - 3y + 4z = 29$ is ____",
+      "options": [
+        "(5, -1, 4)",
+        "(2, -3, 4)",
+        "(7, -1, 3)",
+        "(5, -2, 3)"
+      ],
+      "answer": 1,
+      "chapter": "Three Dimensional Geometry",
+      "explanation": "Foot $=t(2,-3,4)$ with $t=29/(4+9+16)=1$, giving $(2,-3,4)$."
+    },
+    {
+      "n": 18,
+      "q": "If two dice are thrown simultaneously, then the probability that the sum of the numbers which come up on the dice to be more than 5 is ____",
+      "options": [
+        "$\\dfrac{5}{36}$",
+        "$\\dfrac16$",
+        "$\\dfrac{5}{18}$",
+        "$\\dfrac{13}{18}$"
+      ],
+      "answer": 3,
+      "chapter": "Probability",
+      "explanation": "$P(\\text{sum}\\le5)=10/36$, so $P(\\text{sum}>5)=1-10/36=26/36=13/18$."
+    },
+    {
+      "n": 19,
+      "q": "If $y = f(x^2 + 2)$ and $f'(3) = 5$, then $\\dfrac{dy}{dx}$ at $x = 1$ is ____",
+      "options": [
+        "5",
+        "25",
+        "15",
+        "10"
+      ],
+      "answer": 3,
+      "chapter": "Continuity and Differentiability",
+      "explanation": "$\\dfrac{dy}{dx}=f'(x^2+2)\\cdot 2x$; at $x=1$, $=f'(3)\\cdot2=5\\cdot2=10$."
+    },
+    {
+      "n": 20,
+      "q": "If $x = a\\cos^3\\theta$, $y = a\\sin^3\\theta$, then $1 + \\left(\\dfrac{dy}{dx}\\right)^2$ is ____",
+      "options": [
+        "$\\tan\\theta$",
+        "$\\tan^2\\theta$",
+        "$\\sec^2\\theta$",
+        "1"
+      ],
+      "answer": 2,
+      "chapter": "Continuity and Differentiability",
+      "explanation": "$\\dfrac{dy}{dx}=\\dfrac{3a\\sin^2\\theta\\cos\\theta}{-3a\\cos^2\\theta\\sin\\theta}=-\\tan\\theta$, so $1+\\tan^2\\theta=\\sec^2\\theta$."
+    },
+    {
+      "n": 21,
+      "q": "Slope of Normal to the curve $y = x^2 - \\dfrac{1}{x^2}$ at $(-1, 0)$ is",
+      "options": [
+        "$\\dfrac14$",
+        "$-\\dfrac14$",
+        "4",
+        "-4"
+      ],
+      "answer": 0,
+      "chapter": "Application of Derivatives",
+      "explanation": "$\\dfrac{dy}{dx}=2x+\\dfrac{2}{x^3}$; at $x=-1$ this is $-4$, so slope of normal $=-1/(-4)=1/4$."
+    },
+    {
+      "n": 22,
+      "q": "$\\int \\dfrac{1}{x^2(x^4+1)^{3/4}}\\, dx$ is equal to ____",
+      "options": [
+        "$\\dfrac{-(1+x^4)^{1/4}}{x} + C$",
+        "$\\dfrac{-(1+x^4)^{1/4}}{x^2} + C$",
+        "$\\dfrac{-(1+x^4)^{1/4}}{2x} + C$",
+        "$\\dfrac{-(1+x^4)^{3/4}}{x} + C$"
+      ],
+      "answer": 0,
+      "chapter": "Integrals",
+      "explanation": "Differentiating $-(1+x^4)^{1/4}/x$ gives exactly $1/(x^2(1+x^4)^{3/4})$, so this is the antiderivative."
+    },
+    {
+      "n": 23,
+      "q": "If $f: R \\to R$ is defined by $f(x) = \\dfrac{x}{x^2+1}$, find $f(f(2))$",
+      "options": [
+        "$\\dfrac{1}{29}$",
+        "$\\dfrac{10}{29}$",
+        "$\\dfrac{29}{10}$",
+        "29"
+      ],
+      "answer": 1,
+      "chapter": "Relations and Functions",
+      "explanation": "$f(2)=2/5$; $f(2/5)=\\dfrac{2/5}{4/25+1}=\\dfrac{2/5}{29/25}=\\dfrac{10}{29}$."
+    },
+    {
+      "n": 24,
+      "q": "Evaluate $\\begin{vmatrix}\\cos15 & \\sin15 \\\\ \\sin75 & \\cos75\\end{vmatrix}$",
+      "options": [
+        "1",
+        "0",
+        "2",
+        "3"
+      ],
+      "answer": 1,
+      "chapter": "Determinants",
+      "explanation": "$=\\cos15\\cos75-\\sin15\\sin75=\\cos(15+75)=\\cos90^\\circ=0$."
+    },
+    {
+      "n": 25,
+      "q": "A man takes a step forward with probability 0.4 and one step backward with probability 0.6, then the probability that at the end of eleven steps he is one step away from the starting point is",
+      "options": [
+        "${}^{11}C_5 \\times (0.48)^5$",
+        "${}^{11}C_6 \\times (0.24)^5$",
+        "${}^{11}C_5 \\times (0.12)^5$",
+        "${}^{11}C_6 \\times (0.72)^6$"
+      ],
+      "answer": 1,
+      "chapter": "Probability",
+      "explanation": "He needs 6 forward & 5 backward steps (or 5 forward, 6 backward); $P={}^{11}C_6p^6q^5+{}^{11}C_5p^5q^6={}^{11}C_6(0.4\\cdot0.6)^5={}^{11}C_6(0.24)^5$."
+    },
+    {
+      "n": 26,
+      "q": "$\\displaystyle\\int_0^{\\pi/4} \\log\\left(\\dfrac{\\sin x + \\cos x}{\\cos x}\\right)dx$",
+      "options": [
+        "$\\dfrac{\\pi}{4}\\log2$",
+        "$\\dfrac{\\pi}{2}\\log2$",
+        "$\\dfrac{\\pi}{8}\\log2$",
+        "$\\log2$"
+      ],
+      "answer": 2,
+      "chapter": "Integrals",
+      "explanation": "The integral equals $\\int_0^{\\pi/4}\\log(1+\\tan x)\\,dx$, a standard result equal to $\\dfrac{\\pi}{8}\\log2$."
+    },
+    {
+      "n": 27,
+      "q": "Area bounded by $y = x^3$, $y = 8$ and $x = 0$ is ____",
+      "options": [
+        "2 sq. units",
+        "14 sq. units",
+        "12 sq. units",
+        "6 sq. units"
+      ],
+      "answer": 2,
+      "chapter": "Application of Integrals",
+      "explanation": "$y=8$ meets $y=x^3$ at $x=2$; area $=\\int_0^2(8-x^3)dx=[8x-x^4/4]_0^2=16-4=12$."
+    },
+    {
+      "n": 28,
+      "q": "Let $\\vec a = i + 2j + k$, $\\vec b = i - j + k$ and $\\vec c = i + j - k$; a vector in the plane $\\vec a$ and $\\vec b$ whose projection on $\\vec c$ is $\\dfrac{1}{\\sqrt3}$ is ____",
+      "options": [
+        "3i + j - 3k",
+        "4i + j - 4k",
+        "i + j - 2k",
+        "4i - j + 4k"
+      ],
+      "answer": 3,
+      "chapter": "Vector Algebra",
+      "explanation": "A vector $x\\vec a+y\\vec b$ in the plane must have equal first and third components; only $4i-j+4k$ satisfies this, and its projection on $\\vec c$ has magnitude $1/\\sqrt3$."
+    },
+    {
+      "n": 29,
+      "q": "The mean deviation from the data $3, 10, 10, 4, 7, 10, 5$ is",
+      "options": [
+        "3",
+        "2",
+        "3.75",
+        "2.57"
+      ],
+      "answer": 0,
+      "chapter": "Statistics",
+      "explanation": "Mean $=49/7=7$; sum of absolute deviations $=4+3+3+3+0+3+2=18$, mean deviation $=18/7\\approx2.57$ (option 4). KEA's key also accepted option (1), 3.",
+      "alsoCorrect": [
+        3
+      ]
+    },
+    {
+      "n": 30,
+      "q": "The probability distribution of $x$ is: $x=0,1,2,3$ with $P(x)=0.2, k, k, 2k$. Find the value of $k$",
+      "options": [
+        "0.2",
+        "0.3",
+        "0.4",
+        "0.1"
+      ],
+      "answer": 0,
+      "chapter": "Probability",
+      "explanation": "$0.2+k+k+2k=1\\Rightarrow4k=0.8\\Rightarrow k=0.2$."
+    },
+    {
+      "n": 31,
+      "q": "If the function $g(x)$ is defined by $g(x) = \\dfrac{x^{200}}{200}+\\dfrac{x^{199}}{199}+\\dfrac{x^{198}}{198}+\\cdots+\\dfrac{x^2}{2}+x+5$, then $g'(0) =$ ____",
+      "options": [
+        "1",
+        "200",
+        "100",
+        "5"
+      ],
+      "answer": 0,
+      "chapter": "Continuity and Differentiability",
+      "explanation": "$g'(x)=x^{199}+x^{198}+\\cdots+x+1$; at $x=0$ only the constant term $1$ survives."
+    },
+    {
+      "n": 32,
+      "q": "A box contains 6 red marbles numbered from 1 through 6 and 4 white marbles numbered 12 through 15. Find the probability that a marble drawn 'at random' is white and odd numbered.",
+      "options": [
+        "5",
+        "$\\dfrac15$",
+        "6",
+        "$\\dfrac16$"
+      ],
+      "answer": 1,
+      "chapter": "Probability",
+      "explanation": "White odd-numbered marbles are 13 and 15 (2 marbles) out of 10 total, so $P=2/10=1/5$."
+    },
+    {
+      "n": 33,
+      "q": "$\\displaystyle\\lim_{x\\to0}\\dfrac{1-\\cos x}{x^2}$ is ____",
+      "options": [
+        "2",
+        "3",
+        "$\\dfrac12$",
+        "$\\dfrac13$"
+      ],
+      "answer": 2,
+      "chapter": "Limits and Derivatives",
+      "explanation": "Standard limit $\\lim_{x\\to0}\\dfrac{1-\\cos x}{x^2}=\\dfrac12$."
+    },
+    {
+      "n": 34,
+      "q": "$f(x) = \\begin{cases}3x-8 & \\text{if } x\\le5\\\\ 2k & \\text{if } x>5\\end{cases}$ is continuous, find $k$.",
+      "options": [
+        "$\\dfrac27$",
+        "$\\dfrac37$",
+        "$\\dfrac47$",
+        "$\\dfrac72$"
+      ],
+      "answer": 3,
+      "chapter": "Continuity and Differentiability",
+      "explanation": "Continuity at $x=5$ requires $2k=3(5)-8=7\\Rightarrow k=7/2$."
+    },
+    {
+      "n": 35,
+      "q": "If $f(x) = 2x^2$, find $\\dfrac{f(3.8)-f(4)}{3.8-4}$.",
+      "options": [
+        "1.56",
+        "156",
+        "15.6",
+        "0.156"
+      ],
+      "answer": 2,
+      "chapter": "Limits and Derivatives",
+      "explanation": "$f(3.8)=28.88,\\ f(4)=32$; ratio $=\\dfrac{-3.12}{-0.2}=15.6$."
+    },
+    {
+      "n": 36,
+      "q": "If $x = ct$, $y = \\dfrac{c}{t}$, find $\\dfrac{dy}{dx}$ at $t = 2$.",
+      "options": [
+        "$\\dfrac14$",
+        "4",
+        "$-\\dfrac14$",
+        "0"
+      ],
+      "answer": 2,
+      "chapter": "Continuity and Differentiability",
+      "explanation": "$\\dfrac{dy}{dx}=\\dfrac{-c/t^2}{c}=-\\dfrac{1}{t^2}$; at $t=2$, $=-1/4$."
+    },
+    {
+      "n": 37,
+      "q": "A balloon which always remains spherical is being inflated by pumping in 10 cubic centimeters of gas per second. Find the rate at which the radius of the balloon is increasing when the radius is 15 cms.",
+      "options": [
+        "$\\dfrac{1}{90\\pi}$ cm/sec",
+        "$\\dfrac{1}{9\\pi}$ cm/sec",
+        "$\\dfrac{1}{30\\pi}$ cm/sec",
+        "$\\dfrac{1}{\\pi}$ cm/sec"
+      ],
+      "answer": 0,
+      "chapter": "Application of Derivatives",
+      "explanation": "$\\dfrac{dV}{dt}=4\\pi r^2\\dfrac{dr}{dt}=10\\Rightarrow \\dfrac{dr}{dt}=\\dfrac{10}{4\\pi(225)}=\\dfrac{1}{90\\pi}$."
+    },
+    {
+      "n": 38,
+      "q": "$\\int \\dfrac{\\sin^2x}{1+\\cos x}\\, dx$",
+      "options": [
+        "$x+\\sin x+C$",
+        "$x-\\sin x+C$",
+        "$\\sin x+C$",
+        "$\\cos x+C$"
+      ],
+      "answer": 1,
+      "chapter": "Integrals",
+      "explanation": "$\\dfrac{\\sin^2x}{1+\\cos x}=1-\\cos x$, so the integral is $x-\\sin x+C$."
+    },
+    {
+      "n": 39,
+      "q": "$\\int e^x\\left(\\dfrac{1+\\sin x}{1+\\cos x}\\right)dx$ is ____",
+      "options": [
+        "$e^x\\tan\\left(\\dfrac{x}{2}\\right)+C$",
+        "$\\tan\\left(\\dfrac{x}{2}\\right)+C$",
+        "$e^x+C$",
+        "$e^x\\sin x+C$"
+      ],
+      "answer": 0,
+      "chapter": "Integrals",
+      "explanation": "$\\dfrac{1+\\sin x}{1+\\cos x}=\\tan(x/2)+\\dfrac12\\sec^2(x/2)=f(x)+f'(x)$ with $f(x)=\\tan(x/2)$, so $\\int e^x[f+f']dx=e^x\\tan(x/2)+C$."
+    },
+    {
+      "n": 40,
+      "q": "If $1, \\omega, \\omega^2$ are three cube roots of unity, then $(1-\\omega+\\omega^2)(1+\\omega-\\omega^2)$ is ____",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "answer": 3,
+      "chapter": "Complex Numbers and Quadratic Equations",
+      "explanation": "$1-\\omega+\\omega^2=-2\\omega$ and $1+\\omega-\\omega^2=-2\\omega^2$ (using $1+\\omega+\\omega^2=0$); product $=4\\omega^3=4$."
+    },
+    {
+      "n": 41,
+      "q": "Solve for $x$: $\\tan^{-1}\\left(\\dfrac{1-x}{1+x}\\right)=\\dfrac12\\tan^{-1}x,\\ x>0$",
+      "options": [
+        "$\\sqrt3$",
+        "1",
+        "-1",
+        "$\\dfrac{1}{\\sqrt3}$"
+      ],
+      "answer": 3,
+      "chapter": "Inverse Trigonometric Functions",
+      "explanation": "LHS $=\\dfrac{\\pi}{4}-\\tan^{-1}x$, so $\\dfrac{\\pi}{4}-\\tan^{-1}x=\\dfrac12\\tan^{-1}x\\Rightarrow\\tan^{-1}x=\\dfrac{\\pi}{6}\\Rightarrow x=\\dfrac{1}{\\sqrt3}$."
+    },
+    {
+      "n": 42,
+      "q": "The system of linear equations $x+y+z=6$, $x+2y+3z=10$ and $x+2y+az=b$ has no solutions when ____",
+      "options": [
+        "$a=2,\\ b\\ne3$",
+        "$a=3,\\ b\\ne10$",
+        "$b=2,\\ a=3$",
+        "$b=3,\\ a\\ne10$"
+      ],
+      "answer": 1,
+      "chapter": "Determinants",
+      "explanation": "Subtracting the equations gives $(a-3)z=b-10$; for no solution, $a=3$ but $b\\ne10$."
+    },
+    {
+      "n": 43,
+      "q": "The value of $\\tan(1^\\circ)+\\tan(89^\\circ)$ is ____",
+      "options": [
+        "$\\dfrac{1}{\\sin(1^\\circ)}$",
+        "$\\dfrac{2}{\\sin(2^\\circ)}$",
+        "$\\dfrac{2}{\\sin(1^\\circ)}$",
+        "$\\dfrac{1}{\\sin(2^\\circ)}$"
+      ],
+      "answer": 1,
+      "chapter": "Trigonometric Functions",
+      "explanation": "$\\tan1^\\circ+\\cot1^\\circ=\\dfrac{1}{\\sin1^\\circ\\cos1^\\circ}=\\dfrac{2}{\\sin2^\\circ}$."
+    },
+    {
+      "n": 44,
+      "q": "If $\\dfrac{(x+1)^2}{x^3+x}=\\dfrac{A}{x}+\\dfrac{Bx+C}{x^2+1}$, then $\\text{cosec}^{-1}\\left(\\dfrac1A\\right)+\\cot^{-1}\\left(\\dfrac1B\\right)+\\sec^{-1}C =$ ____",
+      "options": [
+        "$\\dfrac{5\\pi}{6}$",
+        "0",
+        "$\\dfrac{\\pi}{6}$",
+        "$\\dfrac{\\pi}{2}$"
+      ],
+      "answer": 0,
+      "chapter": "Inverse Trigonometric Functions",
+      "explanation": "Comparing coefficients gives $A=1, B=0, C=2$; so $\\text{cosec}^{-1}1+\\cot^{-1}(\\infty)+\\sec^{-1}2=\\dfrac{\\pi}{2}+0+\\dfrac{\\pi}{3}=\\dfrac{5\\pi}{6}$."
+    },
+    {
+      "n": 45,
+      "q": "The remainder obtained when $1!+2!+3!+\\cdots+11!$ is divided by 12 is ____",
+      "options": [
+        "9",
+        "8",
+        "7",
+        "6"
+      ],
+      "answer": 0,
+      "chapter": "Permutations and Combinations",
+      "explanation": "For $n\\ge4$, $n!$ is divisible by 12, so the remainder is that of $1!+2!+3!=9$."
+    },
+    {
+      "n": 46,
+      "q": "If $\\alpha \\le 2\\sin^{-1}x+\\cos^{-1}x \\le \\beta$, then",
+      "options": [
+        "$\\alpha=-\\dfrac{\\pi}{2},\\ \\beta=\\dfrac{\\pi}{2}$",
+        "$\\alpha=-\\dfrac{\\pi}{2},\\ \\beta=\\dfrac{3\\pi}{2}$",
+        "$\\alpha=0,\\ \\beta=\\pi$",
+        "$\\alpha=0,\\ \\beta=2\\pi$"
+      ],
+      "answer": 2,
+      "chapter": "Inverse Trigonometric Functions",
+      "explanation": "$2\\sin^{-1}x+\\cos^{-1}x=\\sin^{-1}x+\\dfrac{\\pi}{2}$, and $\\sin^{-1}x\\in[-\\pi/2,\\pi/2]$, so the expression ranges over $[0,\\pi]$."
+    },
+    {
+      "n": 47,
+      "q": "If $A=\\begin{bmatrix}0&1\\\\1&0\\end{bmatrix}$, then $A^2$ equal to ____",
+      "options": [
+        "$\\begin{bmatrix}0&1\\\\1&0\\end{bmatrix}$",
+        "$\\begin{bmatrix}1&0\\\\1&0\\end{bmatrix}$",
+        "$\\begin{bmatrix}1&0\\\\0&1\\end{bmatrix}$",
+        "$\\begin{bmatrix}0&1\\\\0&1\\end{bmatrix}$"
+      ],
+      "answer": 2,
+      "chapter": "Matrices",
+      "explanation": "$A^2=\\begin{bmatrix}0&1\\\\1&0\\end{bmatrix}\\begin{bmatrix}0&1\\\\1&0\\end{bmatrix}=\\begin{bmatrix}1&0\\\\0&1\\end{bmatrix}$."
+    },
+    {
+      "n": 48,
+      "q": "The function $f(x)=[x]$, where $[x]$ denotes greatest integer function is continuous at ____",
+      "options": [
+        "4",
+        "-2",
+        "1",
+        "1.5"
+      ],
+      "answer": 3,
+      "chapter": "Continuity and Differentiability",
+      "explanation": "$[x]$ is discontinuous only at integers; $1.5$ is not an integer, so it is continuous there."
+    },
+    {
+      "n": 49,
+      "q": "If $y=\\log\\left(\\dfrac{1-x^2}{1+x^2}\\right)$, then $\\dfrac{dy}{dx}$ is equal to ____",
+      "options": [
+        "$\\dfrac{-4x}{1-x^4}$",
+        "$\\dfrac{4x^3}{1-x^4}$",
+        "$\\dfrac{1}{4-x^4}$",
+        "$\\dfrac{-4x^3}{1-x^4}$"
+      ],
+      "answer": 0,
+      "chapter": "Continuity and Differentiability",
+      "explanation": "$y=\\log(1-x^2)-\\log(1+x^2)$, so $\\dfrac{dy}{dx}=\\dfrac{-2x}{1-x^2}-\\dfrac{2x}{1+x^2}=\\dfrac{-4x}{1-x^4}$."
+    },
+    {
+      "n": 50,
+      "q": "The two curves $x^3-3xy^2+2=0$ and $3x^2y-y^3=2$",
+      "options": [
+        "touch each other",
+        "cut at right angle",
+        "cut at angle $\\dfrac{\\pi}{3}$",
+        "cut at angle $\\dfrac{\\pi}{4}$"
+      ],
+      "answer": 1,
+      "chapter": "Application of Derivatives",
+      "explanation": "These are the real and imaginary parts of $z^3=\\text{const}$-type families, which are known to be mutually orthogonal, so the curves cut at right angles."
+    },
+    {
+      "n": 51,
+      "q": "If $x$ is real, then the minimum value of $x^2-8x+17$ is ____",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "answer": 0,
+      "chapter": "Complex Numbers and Quadratic Equations",
+      "explanation": "$x^2-8x+17=(x-4)^2+1$, whose minimum value is $1$."
+    },
+    {
+      "n": 52,
+      "q": "$\\displaystyle\\int_{-\\pi/4}^{\\pi/4}\\dfrac{dx}{1+\\cos2x}$ is equal to",
+      "options": [
+        "2",
+        "1",
+        "4",
+        "0"
+      ],
+      "answer": 1,
+      "chapter": "Integrals",
+      "explanation": "$\\dfrac{1}{1+\\cos2x}=\\dfrac{1}{2\\cos^2x}$, so the integral is $\\dfrac12[\\tan x]_{-\\pi/4}^{\\pi/4}=\\dfrac12(1-(-1))=1$."
+    },
+    {
+      "n": 53,
+      "q": "The order of differential equation of all circles of given radius 'a' is ____",
+      "options": [
+        "4",
+        "2",
+        "1",
+        "3"
+      ],
+      "answer": 1,
+      "chapter": "Differential Equations",
+      "explanation": "The family $(x-h)^2+(y-k)^2=a^2$ has two arbitrary constants $h,k$, so the order of its differential equation is 2."
+    },
+    {
+      "n": 54,
+      "q": "The solution of differential equation $x\\dfrac{dy}{dx}+2y=x^2$ is ____",
+      "options": [
+        "$y=\\dfrac{x^2+C}{4x^2}$",
+        "$y=\\dfrac{x^2}{4}+C$",
+        "$y=\\dfrac{x^4+C}{x^2}$",
+        "$y=\\dfrac{x^4+C}{4x^2}$"
+      ],
+      "answer": 3,
+      "chapter": "Differential Equations",
+      "explanation": "This is linear with I.F. $x^2$: $yx^2=\\int x^3\\,dx=\\dfrac{x^4}{4}+C_1$, giving $y=\\dfrac{x^4+4C_1}{4x^2}$, matching option (4)."
+    },
+    {
+      "n": 55,
+      "q": "If $\\sin x+\\sin y=\\dfrac12$ and $\\cos x+\\cos y=1$, then $\\tan(x+y)=$ ____",
+      "options": [
+        "$\\dfrac83$",
+        "$-\\dfrac34$",
+        "$-\\dfrac83$",
+        "$\\dfrac43$"
+      ],
+      "answer": 3,
+      "chapter": "Trigonometric Functions",
+      "explanation": "Dividing sum-to-product forms gives $\\tan\\left(\\dfrac{x+y}{2}\\right)=\\dfrac12$, so $\\tan(x+y)=\\dfrac{2(1/2)}{1-(1/2)^2}=\\dfrac43$."
+    },
+    {
+      "n": 56,
+      "q": "If $A=\\begin{bmatrix}\\alpha&2\\\\2&\\alpha\\end{bmatrix}$ and $|A^3|=27$, then $\\alpha=$ ____",
+      "options": [
+        "$\\pm1$",
+        "$\\pm2$",
+        "$\\pm\\sqrt7$",
+        "$\\pm\\sqrt5$"
+      ],
+      "answer": 2,
+      "chapter": "Determinants",
+      "explanation": "$|A|=\\alpha^2-4$; $|A|^3=27\\Rightarrow|A|=3\\Rightarrow\\alpha^2=7\\Rightarrow\\alpha=\\pm\\sqrt7$."
+    },
+    {
+      "n": 57,
+      "q": "If $P=\\begin{vmatrix}x&1\\\\1&x\\end{vmatrix}$ and $Q=\\begin{vmatrix}x&1&1\\\\1&x&1\\\\1&1&x\\end{vmatrix}$, then $\\dfrac{dQ}{dx}=$ ____",
+      "options": [
+        "3P + 1",
+        "1 - 3P",
+        "-3P",
+        "3P"
+      ],
+      "answer": 3,
+      "chapter": "Determinants",
+      "explanation": "$P=x^2-1$ and $Q=x^3-3x+2$, so $\\dfrac{dQ}{dx}=3x^2-3=3(x^2-1)=3P$."
+    },
+    {
+      "n": 58,
+      "q": "A line passes through $(2, 2)$ and is perpendicular to the line $3x+y=3$; its y-intercept is ____",
+      "options": [
+        "$\\dfrac13$",
+        "$\\dfrac23$",
+        "$\\dfrac43$",
+        "1"
+      ],
+      "answer": 2,
+      "chapter": "Straight Lines",
+      "explanation": "Perpendicular slope $=1/3$; line: $y-2=\\dfrac13(x-2)$. At $x=0$, $y=\\dfrac43$."
+    },
+    {
+      "n": 59,
+      "q": "Let $f: R \\to R$ be defined by $f(x)=\\dfrac1x\\ \\forall x\\in R$, then $f$ is ____",
+      "options": [
+        "one-one",
+        "onto",
+        "bijective",
+        "f is not defined"
+      ],
+      "answer": 3,
+      "chapter": "Relations and Functions",
+      "explanation": "$f$ is not defined at $x=0$ even though the domain is stated as all of $R$, so $f$ is not a valid function as defined."
+    },
+    {
+      "n": 60,
+      "q": "The solution set of the inequation $\\dfrac{x^2+6x-7}{|x+4|} < 0$ is ____",
+      "options": [
+        "(-7, 1)",
+        "(-7, -4)",
+        "$(-7,-4)\\cup(-4,1)$",
+        "$(-7,-4)\\cup(4,1)$"
+      ],
+      "answer": 2,
+      "chapter": "Linear Inequalities",
+      "explanation": "Since $|x+4|>0$ for $x\\ne-4$, the inequality reduces to $(x+7)(x-1)<0$, i.e. $-7<x<1$, excluding $x=-4$: $(-7,-4)\\cup(-4,1)$."
+    }
+  ]
+}

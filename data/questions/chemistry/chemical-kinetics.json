@@ -1,0 +1,526 @@
+{
+  "notes": "<h3>Rate of reaction</h3><ul><li>For $aA + bB \\to cC + dD$: rate $= -\\dfrac1a\\dfrac{d[A]}{dt} = -\\dfrac1b\\dfrac{d[B]}{dt} = \\dfrac1c\\dfrac{d[C]}{dt}$.</li><li>Rate law $= k[A]^x[B]^y$; order $= x + y$ (experimental, can be zero or fractional). Molecularity: number of colliding species in an elementary step (1, 2 or 3, never zero or fractional).</li></ul><h3>Units of $k$</h3><table><tr><th>Order</th><th>Units of $k$</th></tr><tr><td>0</td><td>mol L$^{-1}$ s$^{-1}$</td></tr><tr><td>1</td><td>s$^{-1}$</td></tr><tr><td>2</td><td>L mol$^{-1}$ s$^{-1}$</td></tr><tr><td>$n$</td><td>(mol L$^{-1}$)$^{1-n}$ s$^{-1}$</td></tr></table><h3>Integrated rate laws</h3><ul><li><b>Zero order:</b> $[A] = [A]_0 - kt$; $t_{1/2} = \\dfrac{[A]_0}{2k}$ (∝ initial concentration). Example: photochemical HBr formation, NH$_3$ decomposition on Pt at high pressure.</li><li><b>First order:</b> $k = \\dfrac{2.303}{t}\\log\\dfrac{[A]_0}{[A]}$; $t_{1/2} = \\dfrac{0.693}{k}$ (independent of concentration). $t_{75\\%} = 2t_{1/2}$, $t_{99.9\\%} = 10t_{1/2}$.</li><li>Pseudo-first order: ester hydrolysis in acid, inversion of cane sugar (water in large excess).</li><li>Radioactive decay is first order.</li></ul><h3>Temperature dependence</h3><ul><li>Arrhenius: $k = Ae^{-E_a/RT}$; $\\ln k = \\ln A - \\dfrac{E_a}{RT}$. Plot $\\ln k$ vs $1/T$: slope $= -E_a/R$, intercept $\\ln A$.</li><li>$\\log\\dfrac{k_2}{k_1} = \\dfrac{E_a}{2.303R}\\left(\\dfrac{1}{T_1} - \\dfrac{1}{T_2}\\right)$. Rate roughly doubles for every 10 K rise.</li><li>Catalyst lowers $E_a$ (both forward and backward equally); does not change $\\Delta H$ or equilibrium constant, only speeds reaching equilibrium.</li><li>Collision theory: rate $= PZ_{AB}e^{-E_a/RT}$; $P$ = steric/probability factor.</li></ul><h3>Exam tip</h3><p>3 questions typically: units of $k$ → order; half-life numericals for first order; effect of doubling concentrations on rate; Arrhenius plot. Remember $\\log 2 = 0.301$, $\\log 3 = 0.477$.</p>",
+  "questions": [
+    {
+      "id": "che-chemical-kinetics-001",
+      "q": "The unit of the rate constant for a second-order reaction is",
+      "options": [
+        "L mol$^{-1}$ s$^{-1}$",
+        "L$^2$ mol$^{-2}$ s$^{-1}$",
+        "mol L$^{-1}$ s$^{-1}$",
+        "s$^{-1}$"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "Rate (mol L$^{-1}$ s$^{-1}$) $= k[A]^2$ → $k$ = L mol$^{-1}$ s$^{-1}$. General: (mol L$^{-1}$)$^{1-n}$ s$^{-1}$."
+    },
+    {
+      "id": "che-chemical-kinetics-002",
+      "q": "The rate constant of a first-order reaction is 0.0693 min$^{-1}$. Its half-life is",
+      "options": [
+        "1 min",
+        "6.93 min",
+        "100 min",
+        "10 min"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "$t_{1/2} = 0.693/k = 0.693/0.0693 = 10$ min."
+    },
+    {
+      "id": "che-chemical-kinetics-003",
+      "q": "For a first-order reaction, the time required for 75% completion is",
+      "options": [
+        "four times the half-life",
+        "twice the half-life",
+        "equal to the half-life",
+        "thrice the half-life"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "100% → 50% → 25% remaining takes two half-lives."
+    },
+    {
+      "id": "che-chemical-kinetics-004",
+      "q": "For a reaction with rate $= k[A]^2[B]$, if the concentrations of both A and B are doubled, the rate becomes",
+      "options": [
+        "4 times",
+        "6 times",
+        "8 times",
+        "2 times"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "$2^2\\times2 = 8$ times."
+    },
+    {
+      "id": "che-chemical-kinetics-005",
+      "q": "The half-life of a zero-order reaction is",
+      "options": [
+        "inversely proportional to initial concentration",
+        "proportional to the square of initial concentration",
+        "directly proportional to initial concentration",
+        "independent of initial concentration"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "$t_{1/2} = [A]_0/2k$ for zero order."
+    },
+    {
+      "id": "che-chemical-kinetics-006",
+      "q": "The slope of the plot of $\\ln k$ versus $1/T$ is",
+      "options": [
+        "$-E_a/R$",
+        "$\\ln A$",
+        "$-E_a/2.303R$",
+        "$E_a/R$"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "$\\ln k = \\ln A - \\dfrac{E_a}{R}\\cdot\\dfrac1T$. (For $\\log k$ vs $1/T$ the slope is $-E_a/2.303R$.)"
+    },
+    {
+      "id": "che-chemical-kinetics-007",
+      "q": "A catalyst increases the rate of a reaction by",
+      "options": [
+        "changing the enthalpy of reaction",
+        "shifting the equilibrium to the right",
+        "increasing the activation energy",
+        "lowering the activation energy"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "It provides an alternative path with lower $E_a$; $\\Delta H$ and $K$ remain unchanged."
+    },
+    {
+      "id": "che-chemical-kinetics-008",
+      "q": "Which statement about molecularity is correct?",
+      "options": [
+        "It is determined experimentally",
+        "It is always a positive integer",
+        "It can be fractional",
+        "It can be zero"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "Molecularity counts reacting species in an elementary step: 1, 2 or 3. Order is the experimental quantity that can be zero or fractional."
+    },
+    {
+      "id": "che-chemical-kinetics-009",
+      "q": "For the reaction $2\\text{N}_2\\text{O}_5 \\to 4\\text{NO}_2 + \\text{O}_2$, the rate of reaction in terms of NO$_2$ formation is",
+      "options": [
+        "$\\dfrac{d[\\text{NO}_2]}{dt}$",
+        "$\\dfrac14\\dfrac{d[\\text{NO}_2]}{dt}$",
+        "$\\dfrac12\\dfrac{d[\\text{NO}_2]}{dt}$",
+        "$4\\dfrac{d[\\text{NO}_2]}{dt}$"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "Rate $= -\\dfrac12\\dfrac{d[\\text{N}_2\\text{O}_5]}{dt} = \\dfrac14\\dfrac{d[\\text{NO}_2]}{dt} = \\dfrac{d[\\text{O}_2]}{dt}$."
+    },
+    {
+      "id": "che-chemical-kinetics-010",
+      "q": "Acid-catalysed hydrolysis of an ester is an example of a",
+      "options": [
+        "second-order reaction",
+        "third-order reaction",
+        "pseudo-first-order reaction",
+        "zero-order reaction"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "Water is in large excess, so its concentration is effectively constant and the reaction behaves as first order."
+    },
+    {
+      "id": "che-chemical-kinetics-011",
+      "q": "A first-order reaction has a half-life of 20 min. The time taken for the concentration to fall from 0.8 M to 0.2 M is",
+      "options": [
+        "20 min",
+        "60 min",
+        "80 min",
+        "40 min"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "0.8 → 0.4 → 0.2 is two half-lives = 40 min."
+    },
+    {
+      "id": "che-chemical-kinetics-012",
+      "q": "The rate constant of a reaction doubles when the temperature is raised from 300 K to 310 K. The activation energy is approximately ($R = 8.314$ J K$^{-1}$ mol$^{-1}$)",
+      "options": [
+        "53.6 kJ mol$^{-1}$",
+        "107 kJ mol$^{-1}$",
+        "5.36 kJ mol$^{-1}$",
+        "26.8 kJ mol$^{-1}$"
+      ],
+      "answer": 0,
+      "difficulty": "hard",
+      "explanation": "$\\log 2 = \\dfrac{E_a}{2.303\\times8.314}\\left(\\dfrac{1}{300} - \\dfrac{1}{310}\\right) = \\dfrac{E_a}{19.15}\\times\\dfrac{10}{93000}$ → $E_a \\approx 53.6$ kJ mol$^{-1}$.",
+      "tip": "A very frequently asked numerical — remember the answer ≈ 53.6 kJ/mol."
+    },
+    {
+      "id": "che-chemical-kinetics-013",
+      "q": "If the rate constant has units of s$^{-1}$, the order of the reaction is",
+      "options": [
+        "0",
+        "2",
+        "1",
+        "3"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "Only for first order do the concentration units cancel, leaving s$^{-1}$."
+    },
+    {
+      "id": "che-chemical-kinetics-014",
+      "q": "For a first-order reaction, the time required for 99.9% completion is",
+      "options": [
+        "$10t_{1/2}$",
+        "$100t_{1/2}$",
+        "$2t_{1/2}$",
+        "$5t_{1/2}$"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "$t = \\dfrac{2.303}{k}\\log\\dfrac{100}{0.1} = \\dfrac{2.303\\times3}{k} = \\dfrac{6.909}{k} = 10\\times\\dfrac{0.693}{k}$."
+    },
+    {
+      "id": "che-chemical-kinetics-015",
+      "q": "In the Arrhenius equation $k = Ae^{-E_a/RT}$, the factor $e^{-E_a/RT}$ represents",
+      "options": [
+        "the rate constant at infinite temperature",
+        "the fraction of molecules with energy ≥ $E_a$",
+        "the steric factor",
+        "the frequency of collisions"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "It is the Boltzmann fraction of molecules having kinetic energy equal to or greater than the activation energy. $A$ is the frequency (pre-exponential) factor."
+    },
+    {
+      "id": "che-chemical-kinetics-016",
+      "q": "The rate of a reaction with rate law $\\text{rate} = k[A]^{1/2}[B]^{3/2}$ has an overall order of",
+      "options": [
+        "1.5",
+        "0.5",
+        "1",
+        "2"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "Order $= \\tfrac12 + \\tfrac32 = 2$. Fractional individual orders are allowed."
+    },
+    {
+      "id": "che-chemical-kinetics-017",
+      "q": "For a zero-order reaction, a plot of $[A]$ (concentration of reactant) versus time $t$ is",
+      "options": [
+        "a straight line with slope $-k$ and intercept $[A]_0$",
+        "a straight line through the origin with slope $+k$",
+        "an exponential curve",
+        "a curve that is independent of $[A]_0$"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "$[A] = [A]_0 - kt$ is linear in $t$, with intercept $[A]_0$ and a negative slope of magnitude $k$."
+    },
+    {
+      "id": "che-chemical-kinetics-018",
+      "q": "The order of a chemical reaction can be determined",
+      "options": [
+        "only from molecularity",
+        "only theoretically, never experimentally",
+        "only experimentally, from the observed dependence of rate on concentration",
+        "directly from the balanced stoichiometric equation"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "Unlike molecularity, the order of a reaction is an experimental quantity found from rate data; it cannot be predicted merely from the balanced equation since most reactions proceed through multiple elementary steps."
+    },
+    {
+      "id": "che-chemical-kinetics-019",
+      "q": "Inversion of cane sugar, $C_{12}H_{22}O_{11} + H_2O \\to C_6H_{12}O_6 + C_6H_{12}O_6$, is a classic example of a",
+      "options": [
+        "third-order reaction",
+        "pseudo-first-order reaction",
+        "zero-order reaction",
+        "second-order reaction"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "Water is present in large excess and its concentration remains effectively constant, so although two species are involved, the reaction follows first-order kinetics with respect to sucrose — a pseudo-first-order reaction."
+    },
+    {
+      "id": "che-chemical-kinetics-020",
+      "q": "For the reaction $A+B\\to$ products, doubling $[A]$ (keeping $[B]$ constant) doubles the rate, while doubling $[B]$ (keeping $[A]$ constant) has no effect on the rate. The order of the reaction with respect to A and the overall order are respectively",
+      "options": [
+        "1 and 2",
+        "2 and 2",
+        "0 and 1",
+        "1 and 1"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "Rate $\\propto [A]^1$ since doubling A doubles rate; rate is independent of B ($[B]^0$), so overall order $= 1+0 = 1$."
+    },
+    {
+      "id": "che-chemical-kinetics-021",
+      "q": "For the reaction $P+Q\\to$ products: doubling $[P]$ (constant $[Q]$) doubles the rate; doubling $[Q]$ (constant $[P]$) makes the rate four times. The overall order of the reaction is",
+      "options": [
+        "2",
+        "3",
+        "1",
+        "4"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "Rate $\\propto [P]^1[Q]^2$ (doubling P doubles rate → order 1 in P; doubling Q gives $2^2=4\\times$ rate → order 2 in Q). Overall order $= 1+2 = 3$."
+    },
+    {
+      "id": "che-chemical-kinetics-022",
+      "q": "A first-order reaction has $k = 1\\times10^{-6}$ s$^{-1}$ at 300 K and activation energy $E_a = 22.97$ kJ mol$^{-1}$. Using $2.303RT \\approx 5742$ J mol$^{-1}$ at 300 K, the Arrhenius pre-exponential factor $A$ is approximately",
+      "options": [
+        "$10^{-2}$ s$^{-1}$",
+        "$10^{-6}$ s$^{-1}$",
+        "$10^{-10}$ s$^{-1}$",
+        "$10^{2}$ s$^{-1}$"
+      ],
+      "answer": 0,
+      "difficulty": "hard",
+      "explanation": "$\\log A = \\log k + \\dfrac{E_a}{2.303RT} = -6 + \\dfrac{22970}{5742} = -6+4.0 = -2.0$, so $A \\approx 10^{-2}$ s$^{-1}$."
+    },
+    {
+      "id": "che-chemical-kinetics-023",
+      "q": "In collision theory, the steric (probability) factor $P$ accounts for the fact that",
+      "options": [
+        "all collisions between reactant molecules lead to products",
+        "molecularity always equals order",
+        "not all collisions with sufficient energy result in a reaction, since molecules must also be oriented favourably",
+        "temperature has no effect on reaction rate"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "Even when colliding molecules have energy $\\ge E_a$, they must also collide with the correct relative orientation for bonds to form/break; $P$ (usually $<1$) corrects the simple collision frequency for this requirement."
+    },
+    {
+      "id": "che-chemical-kinetics-024",
+      "q": "For a first-order reaction, plotting which quantity against time $t$ gives a straight line?",
+      "options": [
+        "$[A]$ vs $t$",
+        "$[A]^2$ vs $t$",
+        "$1/[A]$ vs $t$",
+        "$\\ln[A]$ vs $t$ (or $\\log[A]$ vs $t$)"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "$\\ln[A] = \\ln[A]_0 - kt$ is linear in $t$ with slope $-k$; this graphical test distinguishes a first-order reaction from zero or second order."
+    },
+    {
+      "id": "che-chemical-kinetics-025",
+      "q": "For a zero-order reaction with $k = 0.05$ mol L$^{-1}$ s$^{-1}$ and $[A]_0 = 0.5$ M, the half-life is",
+      "options": [
+        "0.1 s",
+        "25 s",
+        "5 s",
+        "10 s"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "$t_{1/2} = \\dfrac{[A]_0}{2k} = \\dfrac{0.5}{2\\times0.05} = 5$ s."
+    },
+    {
+      "id": "che-chemical-kinetics-026",
+      "q": "The rate constant of a reaction has units of mol$^{-2}$ L$^2$ s$^{-1}$. The order of the reaction is",
+      "options": [
+        "3",
+        "1",
+        "2",
+        "0"
+      ],
+      "answer": 0,
+      "difficulty": "hard",
+      "explanation": "Units of $k$ are $(\\text{mol L}^{-1})^{1-n}$ s$^{-1}$. Here $(\\text{mol L}^{-1})^{1-n} = \\text{mol}^{-2}\\text{L}^2 = (\\text{mol L}^{-1})^{-2}$, so $1-n=-2 \\Rightarrow n=3$."
+    },
+    {
+      "id": "che-chemical-kinetics-027",
+      "q": "Which of the following is left unaffected by the addition of a catalyst to a reversible reaction at equilibrium?",
+      "options": [
+        "The forward rate constant",
+        "The equilibrium constant, $K$",
+        "The time taken to reach equilibrium",
+        "The activation energy of the forward reaction"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "A catalyst lowers $E_a$ for both forward and reverse reactions equally, speeding up how quickly equilibrium is reached, but it does not change $\\Delta G^\\circ$, so the equilibrium constant $K$ remains unchanged."
+    },
+    {
+      "id": "che-chemical-kinetics-028",
+      "q": "A first-order reaction has a half-life of 20 minutes. Starting from 100% reactant, the additional time needed to go from 50% remaining to 25% remaining is",
+      "options": [
+        "40 minutes",
+        "60 minutes",
+        "10 minutes",
+        "20 minutes"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "For a first-order reaction, the half-life is independent of concentration, so each successive halving of concentration takes the same 20 minutes, whether from 100%→50% or 50%→25%."
+    },
+    {
+      "id": "che-chemical-kinetics-029",
+      "q": "For a reaction that is zero order with respect to reactant X, doubling the initial concentration of X",
+      "options": [
+        "doubles the rate",
+        "quadruples the rate",
+        "has no effect on the rate",
+        "halves the rate"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "Since rate $= k[X]^0 = k$, the rate is independent of $[X]$, so changing its concentration (while it remains present) does not change the rate."
+    },
+    {
+      "id": "che-chemical-kinetics-030",
+      "q": "For a first-order reaction, the time required for 87.5% completion, in terms of the half-life $t_{1/2}$, is",
+      "options": [
+        "$4t_{1/2}$",
+        "$2t_{1/2}$",
+        "$8t_{1/2}$",
+        "$3t_{1/2}$"
+      ],
+      "answer": 3,
+      "difficulty": "hard",
+      "explanation": "87.5% completion leaves 12.5% $= (1/2)^3$ of the reactant, which takes exactly 3 successive half-lives: $t = 3t_{1/2}$."
+    },
+    {
+      "id": "che-chemical-kinetics-031",
+      "q": "Alkaline hydrolysis of an ester (saponification), $CH_3COOC_2H_5 + OH^- \\to CH_3COO^- + C_2H_5OH$, is typically",
+      "options": [
+        "a zero-order reaction",
+        "a second-order (bimolecular) reaction",
+        "a third-order reaction",
+        "a pseudo-first-order reaction"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "Unlike acid hydrolysis (where water is in large excess), saponification with OH$^-$ depends on the concentrations of both the ester and hydroxide ion, making it a genuine second-order, bimolecular reaction."
+    },
+    {
+      "id": "che-chemical-kinetics-032",
+      "q": "The gas-phase reaction $H_2 + I_2 \\to 2HI$ is believed to occur in a single elementary bimolecular step. For this reaction",
+      "options": [
+        "the order matches the molecularity, both equal to 2",
+        "order and molecularity cannot be compared",
+        "the order is 3 and molecularity is 2",
+        "the order is 1 and molecularity is 1"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "For a genuine single-step elementary reaction, the experimentally observed order equals the molecularity; here both are 2, consistent with the rate law rate $= k[H_2][I_2]$."
+    },
+    {
+      "id": "che-chemical-kinetics-033",
+      "q": "The decomposition of N$_2$O$_5$, $2N_2O_5 \\to 4NO_2+O_2$, is experimentally found to be first order overall, even though the stoichiometric coefficient of N$_2$O$_5$ is 2. This illustrates that",
+      "options": [
+        "order is an experimental quantity that need not match the stoichiometric coefficients, since the reaction proceeds via a multi-step mechanism",
+        "the reaction is impossible",
+        "order is the same as molecularity for this reaction",
+        "order must always equal the sum of stoichiometric coefficients"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "Order is determined only by experiment and reflects the rate-determining step of the actual (often multi-step) mechanism, so it need not equal the coefficients of the overall balanced equation."
+    },
+    {
+      "id": "che-chemical-kinetics-034",
+      "q": "As temperature increases, the rate constant $k$ of a reaction generally increases mainly because",
+      "options": [
+        "the frequency factor $A$ becomes infinite",
+        "the activation energy increases",
+        "molecules stop colliding",
+        "a larger fraction of molecules acquire kinetic energy $\\ge E_a$, per the Boltzmann distribution"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "According to the Boltzmann distribution, the fraction of molecules with energy $\\ge E_a$ (given by $e^{-E_a/RT}$) increases sharply with temperature, increasing the rate constant $k$, even though $E_a$ itself is unchanged."
+    },
+    {
+      "id": "che-chemical-kinetics-035",
+      "q": "The rate constant of a reaction is 3 times larger at 320 K than at 300 K. The activation energy is approximately ($R = 8.314$ J K$^{-1}$ mol$^{-1}$, $\\log 3 = 0.477$)",
+      "options": [
+        "10 kJ mol$^{-1}$",
+        "43.8 kJ mol$^{-1}$",
+        "87.6 kJ mol$^{-1}$",
+        "21.9 kJ mol$^{-1}$"
+      ],
+      "answer": 1,
+      "difficulty": "hard",
+      "explanation": "$\\log\\dfrac{k_2}{k_1} = \\dfrac{E_a}{2.303R}\\left(\\dfrac1{T_1}-\\dfrac1{T_2}\\right)$: $0.477 = \\dfrac{E_a}{19.15}\\times\\left(\\dfrac1{300}-\\dfrac1{320}\\right) = \\dfrac{E_a}{19.15}\\times2.08\\times10^{-4}$, giving $E_a \\approx 43.8\\times10^3$ J mol$^{-1}$ = 43.8 kJ mol$^{-1}$."
+    },
+    {
+      "id": "che-chemical-kinetics-036",
+      "q": "Which of the following graphs is a straight line specifically for a FIRST-order reaction (and not for a zero-order reaction)?",
+      "options": [
+        "rate vs $t$ (constant rate)",
+        "$[A]$ vs $t$",
+        "$\\log[A]$ vs $t$",
+        "$[A]_0 - [A]$ vs $t$"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "$[A]$ vs $t$ is linear only for a zero-order reaction; for a first-order reaction it is $\\log[A]$ (or $\\ln[A]$) vs $t$ that gives a straight line, with slope $-k/2.303$."
+    },
+    {
+      "id": "che-chemical-kinetics-037",
+      "q": "The rate constant $k$ has the same units as the rate of reaction itself (mol L$^{-1}$ s$^{-1}$) only for a reaction of order",
+      "options": [
+        "0",
+        "3",
+        "1",
+        "2"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "For a zero-order reaction, rate $= k[A]^0 = k$, so $k$ has units of mol L$^{-1}$ s$^{-1}$, identical to the rate itself."
+    },
+    {
+      "id": "che-chemical-kinetics-038",
+      "q": "In the acid-catalysed hydrolysis of an ester, water (a reactant in the balanced equation) has an order of essentially zero with respect to rate. This is because",
+      "options": [
+        "water does not participate in the mechanism at all",
+        "water is not a nucleophile",
+        "order must always be zero for any solvent",
+        "water is present in such large excess that its concentration remains effectively constant during the reaction"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "Since water is the solvent and present in huge excess, its concentration barely changes during the reaction, so the rate appears independent of $[H_2O]$ even though it is a reactant — this is the basis of pseudo-order kinetics."
+    },
+    {
+      "id": "che-chemical-kinetics-039",
+      "q": "A radioactive isotope (which decays by first-order kinetics) loses 75% of its activity in 30 minutes. Its half-life is",
+      "options": [
+        "30 min",
+        "10 min",
+        "15 min",
+        "7.5 min"
+      ],
+      "answer": 2,
+      "difficulty": "hard",
+      "explanation": "75% decayed means 25% $= (1/2)^2$ remains, i.e. 2 half-lives have elapsed in 30 min, so $t_{1/2} = 30/2 = 15$ min."
+    },
+    {
+      "id": "che-chemical-kinetics-040",
+      "q": "If the rate of a reaction approximately doubles for every 10 °C rise in temperature, the factor by which the rate increases on raising the temperature from 300 K to 330 K is approximately",
+      "options": [
+        "4",
+        "8",
+        "16",
+        "2"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "A 30 K rise corresponds to three 10 K steps, so the rate increases by a factor of $2^3 = 8$."
+    }
+  ]
+}

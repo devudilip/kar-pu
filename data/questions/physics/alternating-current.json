@@ -1,0 +1,525 @@
+{
+  "notes": "<h3>AC Basics</h3><ul><li>$v = v_0\\sin\\omega t$, $i = i_0\\sin(\\omega t+\\phi)$. RMS value: $v_{rms}=v_0/\\sqrt2$, $i_{rms}=i_0/\\sqrt2$ (for sinusoidal ac); average over a full cycle is zero, average of $\\sin^2$ over a cycle is $1/2$.</li><li>AC voltmeters/ammeters read rms values. Power: $P_{avg} = v_{rms}i_{rms}\\cos\\phi$ ($\\cos\\phi$ = power factor).</li></ul><h3>Circuit Elements</h3><table><tr><th>Element</th><th>Reactance</th><th>Current vs voltage</th><th>Power factor</th></tr><tr><td>Resistor $R$</td><td>$R$</td><td>in phase</td><td>1</td></tr><tr><td>Inductor $L$</td><td>$X_L=\\omega L$</td><td>current lags by $90^\\circ$</td><td>0</td></tr><tr><td>Capacitor $C$</td><td>$X_C=1/\\omega C$</td><td>current leads by $90^\\circ$</td><td>0</td></tr></table><h3>Series LCR Circuit</h3><ul><li>Impedance $Z=\\sqrt{R^2+(X_L-X_C)^2}$; $\\tan\\phi = \\dfrac{X_L-X_C}{R}$.</li><li>Resonance: $X_L=X_C \\Rightarrow \\omega_0 = \\dfrac{1}{\\sqrt{LC}}$; at resonance $Z=R$ (minimum), current is maximum, circuit behaves purely resistive, power factor $=1$.</li><li>Sharpness of resonance measured by Q-factor: $Q = \\dfrac{\\omega_0L}{R} = \\dfrac1R\\sqrt{\\dfrac{L}{C}} = \\dfrac{\\omega_0}{\\text{bandwidth}}$.</li><li>Power dissipated only in $R$: $P = i_{rms}^2R = v_{rms}i_{rms}\\cos\\phi$. Purely inductive/capacitive circuits: average power over a cycle is zero — called wattless current.</li></ul><h3>Transformer</h3><ul><li>$\\dfrac{V_s}{V_p} = \\dfrac{N_s}{N_p} = \\dfrac{I_p}{I_s}$ (ideal, no losses). Step-up: $N_s>N_p$, increases voltage decreases current. Step-down: opposite.</li><li>Losses: copper loss ($I^2R$ in windings, reduced by thick wire), eddy current loss (reduced by lamination), hysteresis loss (reduced by soft iron core), flux leakage.</li><li>Long-distance transmission uses high voltage, low current (via step-up transformers) to minimise $I^2R$ line losses.</li></ul><h3>LC Oscillations</h3><ul><li>Charged capacitor connected to inductor: energy oscillates between electric ($\\dfrac{Q^2}{2C}$) and magnetic ($\\dfrac12LI^2$) forms, analogous to SHM; angular frequency $\\omega=1/\\sqrt{LC}$, undamped only in the ideal (resistance-free) case.</li></ul><h3>Exam tip</h3><p>KCET typically asks 2–3 questions: an rms/peak-value or power-factor numerical, a resonance frequency ($\\omega_0=1/\\sqrt{LC}$) calculation, and a transformer turns-ratio problem. Remember pure L or C draws current but consumes zero average power (wattless).</p>",
+  "questions": [
+    {
+      "id": "phy-alternating-current-001",
+      "q": "The peak value of an alternating current is 10 A. Its rms value is",
+      "options": [
+        "$7.07$ A",
+        "10 A",
+        "5 A",
+        "$14.14$ A"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "$i_{rms} = i_0/\\sqrt2 = 10/1.414 = 7.07$ A."
+    },
+    {
+      "id": "phy-alternating-current-002",
+      "q": "An ac source of rms voltage 220 V is connected to a pure resistor of 100 $\\Omega$. The average power dissipated is",
+      "options": [
+        "968 W",
+        "242 W",
+        "48.4 W",
+        "484 W"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "$P = V_{rms}^2/R = 220^2/100 = 484$ W."
+    },
+    {
+      "id": "phy-alternating-current-003",
+      "q": "In a purely inductive ac circuit, the current",
+      "options": [
+        "leads by $180^\\circ$",
+        "lags the voltage by $90^\\circ$",
+        "leads the voltage by $90^\\circ$",
+        "is in phase with voltage"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "For an inductor, $V=L\\,di/dt$ makes the current lag the voltage by $90^\\circ$ ('ELI')."
+    },
+    {
+      "id": "phy-alternating-current-004",
+      "q": "In a purely capacitive ac circuit, the average power consumed over a full cycle is",
+      "options": [
+        "$V_{rms}I_{rms}$",
+        "maximum",
+        "zero",
+        "$V_{rms}I_{rms}/2$"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "Power factor $\\cos\\phi = \\cos90^\\circ = 0$ for a pure capacitor, so average power over a cycle is zero (wattless current)."
+    },
+    {
+      "id": "phy-alternating-current-005",
+      "q": "The reactance of an inductor of 0.5 H at a frequency of 50 Hz is",
+      "options": [
+        "$50\\,\\Omega$",
+        "25 $\\Omega$",
+        "$100\\,\\Omega$",
+        "$157\\,\\Omega$"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "$X_L = \\omega L = 2\\pi fL = 2\\pi\\times50\\times0.5 = 157\\,\\Omega$."
+    },
+    {
+      "id": "phy-alternating-current-006",
+      "q": "The capacitive reactance of a 10 $\\mu$F capacitor at 50 Hz is approximately",
+      "options": [
+        "31.8 $\\Omega$",
+        "318 $\\Omega$",
+        "3180 $\\Omega$",
+        "3.18 $\\Omega$"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "$X_C = 1/(2\\pi fC) = 1/(2\\pi\\times50\\times10\\times10^{-6}) = 1/(3.14\\times10^{-3}) \\approx 318\\,\\Omega$."
+    },
+    {
+      "id": "phy-alternating-current-007",
+      "q": "A series LCR circuit has $R=30\\,\\Omega$, $X_L=70\\,\\Omega$, $X_C=30\\,\\Omega$. The impedance of the circuit is",
+      "options": [
+        "70 $\\Omega$",
+        "100 $\\Omega$",
+        "50 $\\Omega$",
+        "40 $\\Omega$"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "$Z=\\sqrt{R^2+(X_L-X_C)^2}=\\sqrt{30^2+40^2}=\\sqrt{900+1600}=\\sqrt{2500}=50\\,\\Omega$."
+    },
+    {
+      "id": "phy-alternating-current-008",
+      "q": "At resonance, a series LCR circuit behaves as",
+      "options": [
+        "purely resistive, with minimum impedance",
+        "purely capacitive",
+        "purely inductive",
+        "an open circuit"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "At resonance $X_L=X_C$, so $Z=R$ (minimum possible value), the circuit is purely resistive and current is maximum."
+    },
+    {
+      "id": "phy-alternating-current-009",
+      "q": "The resonant frequency of a series LCR circuit with $L=1$ H and $C=1\\,\\mu$F is nearly",
+      "options": [
+        "318 Hz",
+        "159 Hz",
+        "1000 Hz",
+        "50 Hz"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "$f_0 = \\dfrac{1}{2\\pi\\sqrt{LC}} = \\dfrac{1}{2\\pi\\sqrt{1\\times10^{-6}}} = \\dfrac{1}{2\\pi\\times10^{-3}} \\approx 159$ Hz."
+    },
+    {
+      "id": "phy-alternating-current-010",
+      "q": "A step-down transformer converts 220 V to 22 V. If the primary has 1000 turns, the number of turns in the secondary is",
+      "options": [
+        "10",
+        "10000",
+        "100",
+        "500"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "$N_s/N_p = V_s/V_p \\Rightarrow N_s = 1000\\times(22/220) = 100$."
+    },
+    {
+      "id": "phy-alternating-current-011",
+      "q": "An ideal transformer steps up voltage from 100 V to 1000 V. If the primary current is 10 A, the secondary current is",
+      "options": [
+        "10 A",
+        "0.1 A",
+        "100 A",
+        "1 A"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "For an ideal transformer, input power = output power: $V_pI_p = V_sI_s \\Rightarrow I_s = 100\\times10/1000 = 1$ A."
+    },
+    {
+      "id": "phy-alternating-current-012",
+      "q": "Eddy current losses in a transformer core are reduced by",
+      "options": [
+        "using a laminated core",
+        "increasing the number of turns",
+        "increasing the frequency",
+        "using a solid iron core"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "Laminating the core with thin, mutually insulated sheets restricts the paths available for eddy currents, reducing heating losses."
+    },
+    {
+      "id": "phy-alternating-current-013",
+      "q": "In a series LCR circuit at resonance, the power factor is",
+      "options": [
+        "0.5",
+        "1",
+        "0",
+        "$1/\\sqrt2$"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "At resonance the circuit is purely resistive ($\\phi=0$), so $\\cos\\phi = 1$."
+    },
+    {
+      "id": "phy-alternating-current-014",
+      "q": "High voltage is used for long-distance transmission of electric power mainly to",
+      "options": [
+        "reduce $I^2R$ power loss in transmission lines by lowering the current",
+        "make the wires thicker",
+        "increase the current for better heating",
+        "increase the resistance of the lines"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "For fixed power $P=VI$, raising $V$ lowers $I$; since line loss $=I^2R$, a lower current drastically cuts losses over long cables."
+    },
+    {
+      "id": "phy-alternating-current-015",
+      "q": "A choke coil is preferred over a resistor to control current in an ac circuit because",
+      "options": [
+        "a choke works only in dc circuits",
+        "a resistor cannot limit current",
+        "a choke consumes negligible average power (nearly wattless) while limiting current",
+        "a choke has more resistance than a resistor"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "An ideal inductor (choke) has power factor $\\approx 0$, so it limits ac current via reactance while dissipating almost no power, unlike a resistor which wastes energy as heat."
+    },
+    {
+      "id": "phy-alternating-current-016",
+      "q": "In an LC oscillation circuit (no resistance), when all the energy is stored in the capacitor, the current in the circuit is",
+      "options": [
+        "maximum",
+        "infinite",
+        "half of maximum",
+        "zero"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "Energy oscillates between $C$ (as $Q^2/2C$) and $L$ (as $LI^2/2$); when all energy is electrical (in $C$), the magnetic energy and hence current is zero."
+    },
+    {
+      "id": "phy-alternating-current-017",
+      "q": "The Q-factor of a series LCR resonant circuit is given by",
+      "options": [
+        "$Q = RC/L$",
+        "$Q = \\dfrac1R\\sqrt{L/C}$",
+        "$Q = R\\sqrt{L/C}$",
+        "$Q = \\sqrt{LC}/R$"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "$Q = \\omega_0L/R = \\dfrac1R\\sqrt{L/C}$; a higher $Q$ means a sharper resonance curve."
+    },
+    {
+      "id": "phy-alternating-current-018",
+      "q": "A 100 V, 50 Hz ac source is connected to a series combination of $R=40\\,\\Omega$ and $X_L=30\\,\\Omega$ (no capacitor). The current in the circuit is",
+      "options": [
+        "2 A",
+        "1.43 A",
+        "5 A",
+        "10 A"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "$Z=\\sqrt{R^2+X_L^2}=\\sqrt{1600+900}=\\sqrt{2500}=50\\,\\Omega$; $I=V/Z=100/50=2$ A."
+    },
+    {
+      "id": "phy-alternating-current-019",
+      "q": "For a series RL ac circuit with $R=40\\,\\Omega$ and $X_L=30\\,\\Omega$ (so $Z=50\\,\\Omega$), the power factor is",
+      "options": [
+        "1",
+        "0.6",
+        "0.8",
+        "0.5"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "$\\cos\\phi = R/Z = 40/50 = 0.8$."
+    },
+    {
+      "id": "phy-alternating-current-020",
+      "q": "Which of the following statements about a transformer is correct?",
+      "options": [
+        "It can step up or step down dc voltage efficiently",
+        "It increases the input power",
+        "It works on both ac and dc equally well",
+        "It works only on ac, based on mutual induction between primary and secondary coils"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "A transformer relies on a continuously changing flux linking the primary and secondary coils (mutual induction), which requires alternating current; it cannot step dc voltage and never creates extra power (ideal efficiency = 100%, real transformers have losses)."
+    },
+    {
+      "id": "phy-alternating-current-021",
+      "q": "For a sinusoidal alternating current $i=i_0\\sin\\omega t$, the average value taken over one half cycle is",
+      "options": [
+        "$\\pi i_0/2$",
+        "$i_0$",
+        "$2i_0/\\pi$",
+        "$i_0/\\sqrt2$"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "Averaging $i_0\\sin\\omega t$ over a half cycle gives $i_{avg}=\\dfrac{2i_0}{\\pi}\\approx0.637i_0$, while the average over a full cycle is zero."
+    },
+    {
+      "id": "phy-alternating-current-022",
+      "q": "An ac source of rms voltage 100 V is connected in series with a resistor $R=30\\,\\Omega$ and a capacitor with $X_C=40\\,\\Omega$. The rms current in the circuit is",
+      "options": [
+        "4 A",
+        "0.5 A",
+        "1 A",
+        "2 A"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "$Z=\\sqrt{R^2+X_C^2}=\\sqrt{900+1600}=50\\,\\Omega$; $I=V/Z=100/50=2$ A."
+    },
+    {
+      "id": "phy-alternating-current-023",
+      "q": "A series RC circuit with $R=30\\,\\Omega$ and $X_C=40\\,\\Omega$ is connected to an ac source. The power factor and the phase relation between current and voltage are",
+      "options": [
+        "0.6, current lags voltage",
+        "0.6, current leads voltage",
+        "0.8, current leads voltage",
+        "1, in phase"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "$\\cos\\phi=R/Z=30/50=0.6$; in a series RC circuit, the current leads the applied voltage."
+    },
+    {
+      "id": "phy-alternating-current-024",
+      "q": "A series LCR circuit has $R=30\\,\\Omega$, $X_L=90\\,\\Omega$, $X_C=50\\,\\Omega$. The impedance and the nature of the circuit are",
+      "options": [
+        "50 $\\Omega$, current lags voltage",
+        "50 $\\Omega$, current leads voltage",
+        "40 $\\Omega$, current lags voltage",
+        "170 $\\Omega$, current lags voltage"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "$Z=\\sqrt{30^2+(90-50)^2}=\\sqrt{900+1600}=50\\,\\Omega$; since $X_L>X_C$, the circuit is net inductive and current lags voltage."
+    },
+    {
+      "id": "phy-alternating-current-025",
+      "q": "At resonance, a parallel LC circuit (tank circuit) has",
+      "options": [
+        "maximum impedance and minimum line current (current magnification in the branches)",
+        "impedance independent of L and C",
+        "zero impedance",
+        "minimum impedance and maximum line current"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "Unlike series resonance, a parallel LCR/LC circuit at resonance offers maximum impedance to the source, so the line current drawn is minimum, even though large circulating currents exist in the L and C branches."
+    },
+    {
+      "id": "phy-alternating-current-026",
+      "q": "For a series LCR circuit with $R=10\\,\\Omega$ and $L=0.5$ H, the bandwidth (difference between the half-power angular frequencies), given by $\\Delta\\omega=R/L$, is",
+      "options": [
+        "0.05 rad/s",
+        "20 rad/s",
+        "5 rad/s",
+        "2 rad/s"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "$\\Delta\\omega = R/L = 10/0.5 = 20$ rad/s."
+    },
+    {
+      "id": "phy-alternating-current-027",
+      "q": "For a series LCR resonant circuit with resonant angular frequency $\\omega_0=1000$ rad/s and bandwidth $\\Delta\\omega=20$ rad/s, the quality factor $Q$ is",
+      "options": [
+        "500",
+        "20",
+        "0.02",
+        "50"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "$Q=\\omega_0/\\Delta\\omega=1000/20=50$; a larger $Q$ means a sharper resonance curve."
+    },
+    {
+      "id": "phy-alternating-current-028",
+      "q": "The form factor of a sinusoidal ac (ratio of rms value to average value over half a cycle) is approximately",
+      "options": [
+        "1.0",
+        "0.637",
+        "1.11",
+        "1.41"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "Form factor $=\\dfrac{i_{rms}}{i_{avg}}=\\dfrac{i_0/\\sqrt2}{2i_0/\\pi}=\\dfrac{\\pi}{2\\sqrt2}\\approx1.11$."
+    },
+    {
+      "id": "phy-alternating-current-029",
+      "q": "A transformer has an input power of 2000 W. If the total power loss (copper + iron losses) is 100 W, its efficiency is",
+      "options": [
+        "95%",
+        "90%",
+        "80%",
+        "50%"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "Efficiency $=\\dfrac{\\text{output}}{\\text{input}}\\times100=\\dfrac{2000-100}{2000}\\times100=95\\%$."
+    },
+    {
+      "id": "phy-alternating-current-030",
+      "q": "A current that flows in a circuit but whose average power consumption over a cycle is zero (power factor zero) is termed",
+      "options": [
+        "eddy current",
+        "wattless current",
+        "displacement current",
+        "direct current"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "In a purely inductive or capacitive circuit, current flows but does no net work over a cycle; such a current is called the wattless (idle) component."
+    },
+    {
+      "id": "phy-alternating-current-031",
+      "q": "The rms value of the mains ac supply is 220 V. Its peak value is approximately",
+      "options": [
+        "155 V",
+        "440 V",
+        "311 V",
+        "220 V"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "$V_0=V_{rms}\\times\\sqrt2=220\\times1.414\\approx311$ V."
+    },
+    {
+      "id": "phy-alternating-current-032",
+      "q": "In a series LCR circuit, the phase relationship between the voltage across the inductor ($V_L$) and the voltage across the capacitor ($V_C$) is",
+      "options": [
+        "90° out of phase",
+        "$V_L$ leads $V_C$ by 45°",
+        "in phase",
+        "180° out of phase (antiphase) with each other"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "$V_L$ leads the current by 90° while $V_C$ lags it by 90°, so $V_L$ and $V_C$ are exactly 180° out of phase with each other; their phasors point in opposite directions."
+    },
+    {
+      "id": "phy-alternating-current-033",
+      "q": "In an ac circuit, the rms voltage is 100 V, rms current is 2 A, and the phase difference between them is $60^\\circ$. The average power consumed is",
+      "options": [
+        "173 W",
+        "50 W",
+        "100 W",
+        "200 W"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "$P_{avg}=V_{rms}I_{rms}\\cos\\phi=100\\times2\\times\\cos60^\\circ=100\\times2\\times0.5=100$ W."
+    },
+    {
+      "id": "phy-alternating-current-034",
+      "q": "Hysteresis loss in a transformer core is minimised by using a core material with",
+      "options": [
+        "high electrical conductivity",
+        "a narrow hysteresis loop, such as soft iron",
+        "high retentivity and coercivity, such as steel",
+        "a wide hysteresis loop, such as steel"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "A material with a thin (narrow-area) hysteresis loop, like soft iron, dissipates little energy per magnetisation cycle, minimising hysteresis loss."
+    },
+    {
+      "id": "phy-alternating-current-035",
+      "q": "An LC circuit has $L=0.01$ H and $C=1\\,\\mu$F. Its natural angular frequency of oscillation is",
+      "options": [
+        "$10^3$ rad/s",
+        "$10^5$ rad/s",
+        "$3.14\\times10^4$ rad/s",
+        "$10^4$ rad/s"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "$\\omega=\\dfrac{1}{\\sqrt{LC}}=\\dfrac{1}{\\sqrt{0.01\\times10^{-6}}}=\\dfrac{1}{\\sqrt{10^{-8}}}=\\dfrac{1}{10^{-4}}=10^4$ rad/s."
+    },
+    {
+      "id": "phy-alternating-current-036",
+      "q": "At resonance in a series LCR circuit with a high Q-factor, the voltage across the inductor (or capacitor) compared to the applied source voltage is",
+      "options": [
+        "much larger than the source voltage (voltage magnification by factor $Q$)",
+        "zero",
+        "always less than the source voltage",
+        "always equal to the source voltage"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "At resonance, $V_L=V_C=Q\\times V_{source}$; a high-$Q$ circuit can develop voltages across $L$ and $C$ far exceeding the applied voltage, even though they cancel in the total impedance."
+    },
+    {
+      "id": "phy-alternating-current-037",
+      "q": "In a series LCR circuit driven by a variable-frequency ac source, as the frequency is increased from a low value, the current",
+      "options": [
+        "decreases monotonically",
+        "increases monotonically",
+        "remains constant",
+        "first increases, reaches a maximum at the resonant frequency, then decreases"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "Impedance is minimum ($Z=R$) at resonance, so current is maximum there; it is smaller both below and above resonance, giving a peaked current-frequency graph."
+    },
+    {
+      "id": "phy-alternating-current-038",
+      "q": "At very high frequencies, an inductor behaves approximately like ______ and a capacitor behaves like ______.",
+      "options": [
+        "a resistor; a resistor",
+        "an open circuit; a short circuit (conducting wire)",
+        "a pure emf source; a pure emf source",
+        "a short circuit; an open circuit"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "$X_L=\\omega L\\to\\infty$ as $\\omega\\to\\infty$ (inductor blocks high-frequency ac), while $X_C=1/\\omega C\\to0$ (capacitor behaves like a short/wire)."
+    },
+    {
+      "id": "phy-alternating-current-039",
+      "q": "A series RL circuit with $R=80\\,\\Omega$ and $X_L=60\\,\\Omega$ is connected to a 200 V (rms) ac supply. The average power consumed is",
+      "options": [
+        "160 W",
+        "200 W",
+        "320 W",
+        "400 W"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "$Z=\\sqrt{80^2+60^2}=100\\,\\Omega$, $I=200/100=2$ A, $\\cos\\phi=R/Z=0.8$; $P=VI\\cos\\phi=200\\times2\\times0.8=320$ W."
+    },
+    {
+      "id": "phy-alternating-current-040",
+      "q": "A series LCR circuit with $R=25\\,\\Omega$ is connected to a 100 V (rms) ac source at its resonant frequency. The power dissipated is",
+      "options": [
+        "400 W",
+        "40 W",
+        "4 W",
+        "4000 W"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "At resonance $Z=R$, so $P=V_{rms}^2/R=100^2/25=400$ W."
+    }
+  ]
+}

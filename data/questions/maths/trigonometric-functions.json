@@ -1,0 +1,525 @@
+{
+  "notes": "<h3>Angle Measurement</h3><ul><li>$180^\\circ = \\pi$ radians; $1^\\circ = \\pi/180$ rad. Arc length $s = r\\theta$ ($\\theta$ in radians).</li></ul><h3>Trigonometric identities</h3><ul><li>$\\sin^2\\theta + \\cos^2\\theta = 1$; $1+\\tan^2\\theta = \\sec^2\\theta$; $1+\\cot^2\\theta = \\text{cosec}^2\\theta$.</li><li>Range: $-1 \\le \\sin\\theta, \\cos\\theta \\le 1$; $\\sec\\theta, \\text{cosec}\\theta \\in (-\\infty,-1]\\cup[1,\\infty)$; $\\tan\\theta,\\cot\\theta \\in \\mathbb{R}$.</li></ul><table><tr><th>Quadrant</th><th>I</th><th>II</th><th>III</th><th>IV</th></tr><tr><td>Positive ratios</td><td>All</td><td>sin, cosec</td><td>tan, cot</td><td>cos, sec</td></tr></table><h3>Sum, difference & multiple angle formulas</h3><ul><li>$\\sin(A\\pm B) = \\sin A\\cos B \\pm \\cos A\\sin B$; $\\cos(A\\pm B) = \\cos A\\cos B \\mp \\sin A\\sin B$.</li><li>$\\tan(A\\pm B) = \\dfrac{\\tan A \\pm \\tan B}{1 \\mp \\tan A\\tan B}$.</li><li>$\\sin 2A = 2\\sin A\\cos A$; $\\cos 2A = \\cos^2A - \\sin^2A = 1-2\\sin^2A = 2\\cos^2A-1$; $\\tan 2A = \\dfrac{2\\tan A}{1-\\tan^2A}$.</li><li>$\\sin 3A = 3\\sin A - 4\\sin^3A$; $\\cos 3A = 4\\cos^3A - 3\\cos A$.</li></ul><h3>Transformation formulas</h3><ul><li>$\\sin C + \\sin D = 2\\sin\\dfrac{C+D}{2}\\cos\\dfrac{C-D}{2}$; $\\cos C + \\cos D = 2\\cos\\dfrac{C+D}{2}\\cos\\dfrac{C-D}{2}$; $\\cos C - \\cos D = -2\\sin\\dfrac{C+D}{2}\\sin\\dfrac{C-D}{2}$.</li><li>$2\\sin A\\cos B = \\sin(A+B)+\\sin(A-B)$; $2\\cos A\\cos B = \\cos(A+B)+\\cos(A-B)$.</li></ul><h3>Standard angle values</h3><table><tr><th>$\\theta$</th><th>$0$</th><th>$30^\\circ$</th><th>$45^\\circ$</th><th>$60^\\circ$</th><th>$90^\\circ$</th></tr><tr><td>$\\sin$</td><td>0</td><td>1/2</td><td>$1/\\sqrt2$</td><td>$\\sqrt3/2$</td><td>1</td></tr><tr><td>$\\cos$</td><td>1</td><td>$\\sqrt3/2$</td><td>$1/\\sqrt2$</td><td>1/2</td><td>0</td></tr></table><h3>General solutions</h3><ul><li>$\\sin\\theta = \\sin\\alpha \\Rightarrow \\theta = n\\pi + (-1)^n\\alpha$.</li><li>$\\cos\\theta = \\cos\\alpha \\Rightarrow \\theta = 2n\\pi \\pm \\alpha$.</li><li>$\\tan\\theta = \\tan\\alpha \\Rightarrow \\theta = n\\pi + \\alpha$, $n \\in \\mathbb{Z}$.</li></ul><h3>Exam tip</h3><p>KCET usually asks 2–3 questions from this chapter — mostly on compound/multiple angle identities, general solutions of trig equations, and quadrant sign rules. Memorise the standard-angle table and $\\sin2A,\\cos2A$ forms cold; they are the fastest-solving questions in the paper.</p>",
+  "questions": [
+    {
+      "id": "mat-trigonometric-functions-001",
+      "q": "The radian measure of $150^\\circ$ is",
+      "options": [
+        "$\\dfrac{3\\pi}{4}$",
+        "$\\dfrac{7\\pi}{6}$",
+        "$\\dfrac{5\\pi}{6}$",
+        "$\\dfrac{2\\pi}{3}$"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "$150 \\times \\dfrac{\\pi}{180} = \\dfrac{5\\pi}{6}$."
+    },
+    {
+      "id": "mat-trigonometric-functions-002",
+      "q": "If $\\sin\\theta = \\dfrac{3}{5}$ and $\\theta$ lies in the second quadrant, then $\\cos\\theta$ is",
+      "options": [
+        "$3/4$",
+        "$4/5$",
+        "$-3/4$",
+        "$-4/5$"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "$\\cos\\theta = \\pm\\sqrt{1-\\sin^2\\theta} = \\pm4/5$; in quadrant II cosine is negative, so $\\cos\\theta = -4/5$."
+    },
+    {
+      "id": "mat-trigonometric-functions-003",
+      "q": "The value of $\\sin 75^\\circ$ is",
+      "options": [
+        "$\\dfrac{\\sqrt3+1}{2\\sqrt2}$",
+        "$\\dfrac{1}{2\\sqrt2}$",
+        "$\\dfrac{\\sqrt3}{2}$",
+        "$\\dfrac{\\sqrt3-1}{2\\sqrt2}$"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "$\\sin75^\\circ = \\sin(45^\\circ+30^\\circ) = \\sin45\\cos30+\\cos45\\sin30 = \\dfrac{1}{\\sqrt2}\\cdot\\dfrac{\\sqrt3}{2}+\\dfrac{1}{\\sqrt2}\\cdot\\dfrac12 = \\dfrac{\\sqrt3+1}{2\\sqrt2}$."
+    },
+    {
+      "id": "mat-trigonometric-functions-004",
+      "q": "The value of $\\tan 15^\\circ$ is",
+      "options": [
+        "$2+\\sqrt3$",
+        "$2-\\sqrt3$",
+        "$\\sqrt3+1$",
+        "$\\sqrt3-1$"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "$\\tan15^\\circ = \\tan(45^\\circ-30^\\circ) = \\dfrac{1-1/\\sqrt3}{1+1/\\sqrt3} = \\dfrac{\\sqrt3-1}{\\sqrt3+1} = 2-\\sqrt3$ after rationalising."
+    },
+    {
+      "id": "mat-trigonometric-functions-005",
+      "q": "If $\\cos\\theta = -\\dfrac12$ and $\\theta$ lies in the third quadrant, then $\\theta$ equals (principal value in $[0,2\\pi)$)",
+      "options": [
+        "$\\dfrac{\\pi}{3}$",
+        "$\\dfrac{5\\pi}{3}$",
+        "$\\dfrac{4\\pi}{3}$",
+        "$\\dfrac{2\\pi}{3}$"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "$\\cos\\theta=-1/2$ gives reference angle $\\pi/3$; in quadrant III, $\\theta = \\pi + \\pi/3 = 4\\pi/3$."
+    },
+    {
+      "id": "mat-trigonometric-functions-006",
+      "q": "The general solution of $\\sin\\theta = \\dfrac{1}{2}$ is",
+      "options": [
+        "$\\theta = n\\pi \\pm \\dfrac{\\pi}{6}$",
+        "$\\theta = 2n\\pi + \\dfrac{\\pi}{6}$",
+        "$\\theta = n\\pi + \\dfrac{\\pi}{6}$",
+        "$\\theta = n\\pi + (-1)^n\\dfrac{\\pi}{6}$"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "General solution of $\\sin\\theta = \\sin\\alpha$ is $\\theta = n\\pi+(-1)^n\\alpha$, with $\\alpha = \\pi/6$ here."
+    },
+    {
+      "id": "mat-trigonometric-functions-007",
+      "q": "$2\\sin^2\\dfrac{\\pi}{6} + \\text{cosec}^2\\dfrac{7\\pi}{6}\\cos^2\\dfrac{\\pi}{3}$ simplifies to a value equal to",
+      "options": [
+        "$\\dfrac32$",
+        "$2$",
+        "$\\dfrac12$",
+        "$1$"
+      ],
+      "answer": 0,
+      "difficulty": "hard",
+      "explanation": "$2\\sin^2(\\pi/6) = 2(1/2)^2 = 1/2$. $\\text{cosec}(7\\pi/6) = \\text{cosec}(\\pi+\\pi/6) = -2$, so $\\text{cosec}^2 = 4$; $\\cos^2(\\pi/3) = 1/4$; product $=1$. Total $= 1/2+1 = 3/2$."
+    },
+    {
+      "id": "mat-trigonometric-functions-008",
+      "q": "If $\\tan A = \\dfrac{1}{2}$ and $\\tan B = \\dfrac{1}{3}$, then $A+B$ equals",
+      "options": [
+        "$\\dfrac{\\pi}{2}$",
+        "$\\dfrac{\\pi}{4}$",
+        "$\\dfrac{\\pi}{6}$",
+        "$\\dfrac{\\pi}{3}$"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "$\\tan(A+B) = \\dfrac{1/2+1/3}{1-1/6} = \\dfrac{5/6}{5/6} = 1 \\Rightarrow A+B = \\pi/4$."
+    },
+    {
+      "id": "mat-trigonometric-functions-009",
+      "q": "The value of $\\cos 20^\\circ \\cos 40^\\circ \\cos 80^\\circ$ is",
+      "options": [
+        "$\\dfrac18$",
+        "$\\dfrac14$",
+        "$1$",
+        "$\\dfrac12$"
+      ],
+      "answer": 0,
+      "difficulty": "hard",
+      "explanation": "Standard identity: $\\cos\\theta\\cos(60-\\theta)\\cos(60+\\theta) = \\dfrac14\\cos3\\theta$. With $\\theta=20^\\circ$: $\\dfrac14\\cos60^\\circ = \\dfrac14\\times\\dfrac12 = \\dfrac18$."
+    },
+    {
+      "id": "mat-trigonometric-functions-010",
+      "q": "If $\\sin x = \\dfrac{1}{\\sqrt2}$ and $x$ is in the first quadrant, the value of $\\sin 2x$ is",
+      "options": [
+        "$\\dfrac12$",
+        "$0$",
+        "$\\dfrac{1}{\\sqrt2}$",
+        "$1$"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "$x = \\pi/4$ (since $\\sin x = 1/\\sqrt2$ in QI), so $\\sin2x = \\sin(\\pi/2) = 1$."
+    },
+    {
+      "id": "mat-trigonometric-functions-011",
+      "q": "The value of $\\cos 2\\theta$ in terms of $\\tan\\theta$ is",
+      "options": [
+        "$\\dfrac{1+\\tan^2\\theta}{1-\\tan^2\\theta}$",
+        "$\\dfrac{1-\\tan^2\\theta}{1+\\tan^2\\theta}$",
+        "$\\dfrac{2\\tan\\theta}{1+\\tan^2\\theta}$",
+        "$\\dfrac{\\tan^2\\theta-1}{\\tan^2\\theta+1}$"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "Dividing $\\cos2\\theta = \\cos^2\\theta-\\sin^2\\theta$ by $\\cos^2\\theta+\\sin^2\\theta=1$ and dividing num/denom by $\\cos^2\\theta$ gives $\\cos2\\theta = \\dfrac{1-\\tan^2\\theta}{1+\\tan^2\\theta}$."
+    },
+    {
+      "id": "mat-trigonometric-functions-012",
+      "q": "If $A + B = 45^\\circ$, the value of $(1+\\tan A)(1+\\tan B)$ is",
+      "options": [
+        "$1$",
+        "$\\sqrt2$",
+        "$2$",
+        "$\\dfrac12$"
+      ],
+      "answer": 2,
+      "difficulty": "hard",
+      "explanation": "$\\tan(A+B)=1 \\Rightarrow \\dfrac{\\tan A+\\tan B}{1-\\tan A\\tan B}=1 \\Rightarrow \\tan A+\\tan B = 1-\\tan A\\tan B$. Expanding $(1+\\tan A)(1+\\tan B) = 1+\\tan A+\\tan B+\\tan A\\tan B = 1+(1-\\tan A\\tan B)+\\tan A\\tan B = 2$."
+    },
+    {
+      "id": "mat-trigonometric-functions-013",
+      "q": "The value of $\\sin(-1200^\\circ)$ is",
+      "options": [
+        "$-\\dfrac12$",
+        "$-\\dfrac{\\sqrt3}{2}$",
+        "$\\dfrac{\\sqrt3}{2}$",
+        "$\\dfrac12$"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "$-1200^\\circ + 4\\times360^\\circ = 240^\\circ$, and $\\sin(-1200^\\circ) = \\sin240^\\circ = -\\sin60^\\circ = -\\dfrac{\\sqrt3}{2}$."
+    },
+    {
+      "id": "mat-trigonometric-functions-014",
+      "q": "If $\\cot\\theta = \\dfrac{4}{3}$ and $\\theta$ lies in the first quadrant, the value of $\\text{cosec}\\,\\theta$ is",
+      "options": [
+        "$\\dfrac35$",
+        "$\\dfrac45$",
+        "$\\dfrac53$",
+        "$\\dfrac54$"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "$1+\\cot^2\\theta = \\text{cosec}^2\\theta = 1+\\dfrac{16}{9} = \\dfrac{25}{9} \\Rightarrow \\text{cosec}\\,\\theta = \\dfrac{5}{3}$ (positive in QI)."
+    },
+    {
+      "id": "mat-trigonometric-functions-015",
+      "q": "The number of solutions of $\\cos\\theta = 0$ in $[0, 2\\pi]$ is",
+      "options": [
+        "3",
+        "4",
+        "1",
+        "2"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "$\\cos\\theta = 0$ at $\\theta = \\pi/2$ and $3\\pi/2$ within $[0,2\\pi]$ — exactly 2 solutions."
+    },
+    {
+      "id": "mat-trigonometric-functions-016",
+      "q": "If $\\sin A = \\dfrac35$ (A acute) and $\\cos B = \\dfrac{5}{13}$ (B acute), the value of $\\sin(A+B)$ is",
+      "options": [
+        "$\\dfrac{63}{65}$",
+        "$\\dfrac{16}{65}$",
+        "$\\dfrac{33}{65}$",
+        "$\\dfrac{56}{65}$"
+      ],
+      "answer": 0,
+      "difficulty": "hard",
+      "explanation": "$\\cos A = 4/5$, $\\sin B = 12/13$. $\\sin(A+B) = \\sin A\\cos B+\\cos A\\sin B = \\dfrac{3}{5}\\cdot\\dfrac{5}{13}+\\dfrac{4}{5}\\cdot\\dfrac{12}{13} = \\dfrac{15+48}{65} = \\dfrac{63}{65}$."
+    },
+    {
+      "id": "mat-trigonometric-functions-017",
+      "q": "The value of $\\tan\\dfrac{\\pi}{8}$ is",
+      "options": [
+        "$2-\\sqrt2$",
+        "$\\sqrt2-1$",
+        "$\\sqrt2+1$",
+        "$\\sqrt3-1$"
+      ],
+      "answer": 1,
+      "difficulty": "hard",
+      "explanation": "Using $\\tan2\\theta$ formula with $\\theta=\\pi/8$: $\\tan(\\pi/4)=1=\\dfrac{2t}{1-t^2}$ where $t=\\tan(\\pi/8)$. Solving $t^2+2t-1=0 \\Rightarrow t = -1+\\sqrt2$ (taking positive root since $\\pi/8$ is in QI)."
+    },
+    {
+      "id": "mat-trigonometric-functions-018",
+      "q": "$\\sin 50^\\circ - \\sin 70^\\circ + \\sin 10^\\circ$ equals",
+      "options": [
+        "0",
+        "$\\sin 10^\\circ$",
+        "$\\cos 10^\\circ$",
+        "1"
+      ],
+      "answer": 0,
+      "difficulty": "hard",
+      "explanation": "$\\sin50^\\circ - \\sin70^\\circ = -2\\cos60^\\circ\\sin10^\\circ = -2(1/2)\\sin10^\\circ = -\\sin10^\\circ$. Adding $\\sin10^\\circ$ gives $0$."
+    },
+    {
+      "id": "mat-trigonometric-functions-019",
+      "q": "The period of the function $f(x) = \\sin\\left(\\dfrac{x}{2}\\right)$ is",
+      "options": [
+        "$\\pi/2$",
+        "$\\pi$",
+        "$4\\pi$",
+        "$2\\pi$"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "Period of $\\sin(kx)$ is $2\\pi/k$; here $k=1/2$, so period $= 2\\pi/(1/2) = 4\\pi$."
+    },
+    {
+      "id": "mat-trigonometric-functions-020",
+      "q": "Which of the following is a solution of $2\\cos^2\\theta + 3\\sin\\theta = 0$?",
+      "options": [
+        "$\\theta = \\pi/3$",
+        "$\\theta = \\pi/6$",
+        "$\\theta = \\pi/2$",
+        "$\\theta = 7\\pi/6$"
+      ],
+      "answer": 3,
+      "difficulty": "hard",
+      "explanation": "$2(1-\\sin^2\\theta)+3\\sin\\theta=0 \\Rightarrow -2\\sin^2\\theta+3\\sin\\theta+2=0 \\Rightarrow 2\\sin^2\\theta-3\\sin\\theta-2=0 \\Rightarrow (2\\sin\\theta+1)(\\sin\\theta-2)=0$. Since $\\sin\\theta\\ne2$, $\\sin\\theta=-1/2$, satisfied by $\\theta=7\\pi/6$ (check: $\\sin(7\\pi/6)=-1/2$)."
+    },
+    {
+      "id": "mat-trigonometric-functions-021",
+      "q": "The degree measure of $\\dfrac{7\\pi}{6}$ radians is",
+      "options": [
+        "$180^\\circ$",
+        "$150^\\circ$",
+        "$210^\\circ$",
+        "$240^\\circ$"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "$\\dfrac{7\\pi}{6} \\times \\dfrac{180^\\circ}{\\pi} = 7 \\times 30^\\circ = 210^\\circ$."
+    },
+    {
+      "id": "mat-trigonometric-functions-022",
+      "q": "In the third quadrant, which of the following trigonometric ratios is positive?",
+      "options": [
+        "$\\sin\\theta$",
+        "$\\cos\\theta$",
+        "$\\text{cosec}\\,\\theta$",
+        "$\\tan\\theta$"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "In the third quadrant, only $\\tan\\theta$ and $\\cot\\theta$ are positive; sine, cosine and their reciprocals are negative."
+    },
+    {
+      "id": "mat-trigonometric-functions-023",
+      "q": "The value of $\\cos 15^\\circ$ is",
+      "options": [
+        "$\\dfrac{\\sqrt6+\\sqrt2}{4}$",
+        "$\\dfrac{1+\\sqrt3}{4}$",
+        "$\\dfrac{\\sqrt6-\\sqrt2}{4}$",
+        "$\\dfrac{\\sqrt2+\\sqrt3}{4}$"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "$\\cos15^\\circ = \\cos(45^\\circ-30^\\circ) = \\cos45^\\circ\\cos30^\\circ+\\sin45^\\circ\\sin30^\\circ = \\dfrac{\\sqrt6+\\sqrt2}{4}$."
+    },
+    {
+      "id": "mat-trigonometric-functions-024",
+      "q": "$\\sin(A-B)$ is equal to",
+      "options": [
+        "$\\cos A\\cos B+\\sin A\\sin B$",
+        "$\\sin A\\cos B-\\cos A\\sin B$",
+        "$\\sin A\\cos B+\\cos A\\sin B$",
+        "$\\cos A\\cos B-\\sin A\\sin B$"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "This is the standard angle-difference formula for sine."
+    },
+    {
+      "id": "mat-trigonometric-functions-025",
+      "q": "The general solution of $\\tan\\theta = 1$ is",
+      "options": [
+        "$n\\pi + \\dfrac{\\pi}{2}$",
+        "$n\\pi + \\dfrac{\\pi}{4}$",
+        "$2n\\pi + \\dfrac{\\pi}{4}$",
+        "$n\\pi \\pm \\dfrac{\\pi}{4}$"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "Since $\\tan$ has period $\\pi$ and $\\tan\\frac{\\pi}{4}=1$, the general solution is $\\theta = n\\pi + \\dfrac{\\pi}{4}$, $n\\in\\mathbb Z$."
+    },
+    {
+      "id": "mat-trigonometric-functions-026",
+      "q": "The general solution of $\\cos\\theta = \\cos\\alpha$ is",
+      "options": [
+        "$2n\\pi \\pm \\alpha$",
+        "$n\\pi \\pm \\alpha$",
+        "$n\\pi + (-1)^n\\alpha$",
+        "$2n\\pi + \\alpha$ only"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "The standard general solution of $\\cos\\theta=\\cos\\alpha$ is $\\theta = 2n\\pi \\pm \\alpha$, $n\\in\\mathbb Z$."
+    },
+    {
+      "id": "mat-trigonometric-functions-027",
+      "q": "The domain of $\\tan x$ excludes values of the form",
+      "options": [
+        "$x = 2n\\pi$",
+        "$x = n\\pi$",
+        "$x = n\\pi + \\dfrac{\\pi}{4}$",
+        "$x = (2n+1)\\dfrac{\\pi}{2}$"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "$\\tan x = \\dfrac{\\sin x}{\\cos x}$ is undefined where $\\cos x = 0$, i.e. at $x = (2n+1)\\dfrac{\\pi}{2}$."
+    },
+    {
+      "id": "mat-trigonometric-functions-028",
+      "q": "The range of $\\cos x$ is",
+      "options": [
+        "$(-1,1)$",
+        "$\\mathbb R$",
+        "$[-1,1]$",
+        "$[0,1]$"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "Cosine takes all values from $-1$ to $1$, inclusive."
+    },
+    {
+      "id": "mat-trigonometric-functions-029",
+      "q": "The value of $\\sec 60^\\circ$ is",
+      "options": [
+        "$\\dfrac12$",
+        "$\\sqrt3$",
+        "2",
+        "1"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "$\\cos60^\\circ = \\dfrac12$, so $\\sec60^\\circ = \\dfrac{1}{\\cos60^\\circ} = 2$."
+    },
+    {
+      "id": "mat-trigonometric-functions-030",
+      "q": "The value of $\\cot\\dfrac{3\\pi}{4}$ is",
+      "options": [
+        "-1",
+        "$\\sqrt3$",
+        "1",
+        "$-\\sqrt3$"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "$\\dfrac{3\\pi}{4} = 135^\\circ$ lies in the second quadrant, where $\\cot$ is negative; $\\cot135^\\circ = -\\cot45^\\circ = -1$."
+    },
+    {
+      "id": "mat-trigonometric-functions-031",
+      "q": "The maximum value of $3\\sin\\theta + 4\\cos\\theta$ is",
+      "options": [
+        "4",
+        "5",
+        "3",
+        "7"
+      ],
+      "answer": 1,
+      "difficulty": "hard",
+      "explanation": "The maximum value of $a\\sin\\theta+b\\cos\\theta$ is $\\sqrt{a^2+b^2} = \\sqrt{9+16} = 5$."
+    },
+    {
+      "id": "mat-trigonometric-functions-032",
+      "q": "$\\sin(\\pi - \\theta)$ is equal to",
+      "options": [
+        "$-\\sin\\theta$",
+        "$\\cos\\theta$",
+        "$-\\cos\\theta$",
+        "$\\sin\\theta$"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "Sine is positive in the second quadrant, so $\\sin(\\pi-\\theta) = \\sin\\theta$."
+    },
+    {
+      "id": "mat-trigonometric-functions-033",
+      "q": "$\\cos(\\pi + \\theta)$ is equal to",
+      "options": [
+        "$-\\cos\\theta$",
+        "$-\\sin\\theta$",
+        "$\\cos\\theta$",
+        "$\\sin\\theta$"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "Cosine is negative in the third quadrant, so $\\cos(\\pi+\\theta) = -\\cos\\theta$."
+    },
+    {
+      "id": "mat-trigonometric-functions-034",
+      "q": "The value of $\\cos(-60^\\circ)$ is",
+      "options": [
+        "$-\\dfrac{\\sqrt3}{2}$",
+        "$\\dfrac{\\sqrt3}{2}$",
+        "$-\\dfrac12$",
+        "$\\dfrac12$"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "Cosine is an even function, so $\\cos(-60^\\circ) = \\cos60^\\circ = \\dfrac12$."
+    },
+    {
+      "id": "mat-trigonometric-functions-035",
+      "q": "The amplitude of $y = 3\\sin(2x)$ is",
+      "options": [
+        "6",
+        "2",
+        "3",
+        "1"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "For $y = a\\sin(bx)$, the amplitude is $|a|$, which here is 3."
+    },
+    {
+      "id": "mat-trigonometric-functions-036",
+      "q": "The number of solutions of $\\sin\\theta = \\cos\\theta$ in $[0, 2\\pi]$ is",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "answer": 1,
+      "difficulty": "hard",
+      "explanation": "$\\sin\\theta=\\cos\\theta \\Rightarrow \\tan\\theta=1$, giving $\\theta = \\dfrac{\\pi}{4}$ and $\\dfrac{5\\pi}{4}$ in $[0,2\\pi]$ — 2 solutions."
+    },
+    {
+      "id": "mat-trigonometric-functions-037",
+      "q": "If $A+B+C = \\pi$ (angles of a triangle), then $\\tan A + \\tan B + \\tan C$ equals",
+      "options": [
+        "0",
+        "$\\tan A\\tan B\\tan C$",
+        "1",
+        "$\\tan A + \\tan B - \\tan C$"
+      ],
+      "answer": 1,
+      "difficulty": "hard",
+      "explanation": "For angles of a triangle, $\\tan A+\\tan B+\\tan C = \\tan A\\tan B\\tan C$, a standard identity."
+    },
+    {
+      "id": "mat-trigonometric-functions-038",
+      "q": "If $A+B+C = \\pi$, then $\\sin(A+B)$ equals",
+      "options": [
+        "$\\sin C$",
+        "$\\cos C$",
+        "$-\\cos C$",
+        "$-\\sin C$"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "Since $A+B = \\pi - C$, $\\sin(A+B) = \\sin(\\pi-C) = \\sin C$."
+    },
+    {
+      "id": "mat-trigonometric-functions-039",
+      "q": "The period of $\\tan x$ is",
+      "options": [
+        "$4\\pi$",
+        "$\\dfrac{\\pi}{2}$",
+        "$2\\pi$",
+        "$\\pi$"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "$\\tan x$ repeats every $\\pi$ radians, unlike $\\sin x$ and $\\cos x$ which have period $2\\pi$."
+    },
+    {
+      "id": "mat-trigonometric-functions-040",
+      "q": "The value of $\\sin 18^\\circ$ is",
+      "options": [
+        "$\\dfrac{\\sqrt5+1}{4}$",
+        "$\\dfrac{1-\\sqrt5}{4}$",
+        "$\\dfrac{\\sqrt5-1}{4}$",
+        "$\\dfrac{\\sqrt5-1}{2}$"
+      ],
+      "answer": 2,
+      "difficulty": "hard",
+      "explanation": "$\\sin18^\\circ = \\dfrac{\\sqrt5-1}{4}$ is a standard special value derived from the geometry of a regular pentagon."
+    }
+  ]
+}

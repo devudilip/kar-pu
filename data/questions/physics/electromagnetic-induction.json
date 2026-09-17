@@ -1,0 +1,525 @@
+{
+  "notes": "<h3>Faraday's & Lenz's Laws</h3><ul><li>Magnetic flux: $\\phi = BA\\cos\\theta$; induced emf $\\varepsilon = -\\dfrac{d\\phi}{dt}$ (Faraday's law); for $N$ turns, $\\varepsilon = -N\\dfrac{d\\phi}{dt}$.</li><li>Lenz's law: induced current opposes the change in flux that produces it — a statement of conservation of energy.</li></ul><h3>Motional EMF</h3><ul><li>Rod of length $l$ moving with velocity $v$ perpendicular to field $B$: $\\varepsilon = Bvl$; induced current $I=Bvl/R$; force needed to keep rod moving at constant $v$: $F = BIl = B^2l^2v/R$; power delivered = power dissipated $= B^2l^2v^2/R$.</li><li>Rotating rod/disc of length $l$, angular speed $\\omega$: $\\varepsilon = \\dfrac12B\\omega l^2$.</li></ul><h3>Self and Mutual Inductance</h3><ul><li>Self-induced emf: $\\varepsilon = -L\\dfrac{dI}{dt}$; energy stored $U=\\dfrac12LI^2$.</li><li>Solenoid: $L = \\mu_0n^2Al = \\mu_0N^2A/l$ (n = turns/length).</li><li>Mutual inductance: $\\varepsilon_2 = -M\\dfrac{dI_1}{dt}$; for two solenoids, $M = \\mu_0n_1n_2A l$ (coaxial, same length/area).</li><li>Series inductors (no coupling): $L=L_1+L_2$; combining coefficient of coupling $k=M/\\sqrt{L_1L_2}$, $0\\le k\\le1$.</li></ul><h3>AC Generator</h3><ul><li>Coil of $N$ turns, area $A$, rotating with angular speed $\\omega$ in field $B$: $\\varepsilon = NBA\\omega\\sin\\omega t = \\varepsilon_0\\sin\\omega t$, where $\\varepsilon_0=NBA\\omega$.</li><li>Converts mechanical energy to electrical energy; based on Faraday's law of EM induction.</li></ul><h3>Eddy Currents</h3><ul><li>Induced circulating currents in bulk conductors due to changing flux; cause heating losses (reduced in transformer/motor cores by laminating with thin insulated sheets); used usefully in induction furnaces, electromagnetic braking, and speedometers.</li></ul><h3>Key Comparisons</h3><table><tr><th>Effect</th><th>Cause</th></tr><tr><td>Motional emf</td><td>conductor moving in a field (magnetic force on free charges)</td></tr><tr><td>Faraday emf (stationary conductor)</td><td>changing $B$ in time — induced non-electrostatic electric field</td></tr></table><h3>Exam tip</h3><p>KCET sets around 2–3 questions here: a Faraday's-law flux-change numerical, a motional emf/rod-on-rails problem, and one on self/mutual inductance formula or Lenz's law direction. The rod-on-rails ($F=B^2l^2v/R$) is a favourite recurring numerical.</p>",
+  "questions": [
+    {
+      "id": "phy-electromagnetic-induction-001",
+      "q": "The magnetic flux through a coil of 100 turns changes from 0.02 Wb to 0.06 Wb in 0.4 s. The induced emf is",
+      "options": [
+        "100 V",
+        "5 V",
+        "0.1 V",
+        "10 V"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "$\\varepsilon = N\\Delta\\phi/\\Delta t = 100\\times(0.06-0.02)/0.4 = 100\\times0.1 = 10$ V."
+    },
+    {
+      "id": "phy-electromagnetic-induction-002",
+      "q": "A conducting rod of length 0.5 m moves with a velocity of 4 m/s perpendicular to a magnetic field of 0.4 T. The emf induced across its ends is",
+      "options": [
+        "1.6 V",
+        "0.4 V",
+        "0.8 V",
+        "8 V"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "$\\varepsilon = Bvl = 0.4\\times4\\times0.5 = 0.8$ V."
+    },
+    {
+      "id": "phy-electromagnetic-induction-003",
+      "q": "Lenz's law is a consequence of the law of conservation of",
+      "options": [
+        "energy",
+        "mass",
+        "momentum",
+        "charge"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "The induced effect opposes the cause producing it; if it aided the cause, energy would be created from nothing, violating energy conservation."
+    },
+    {
+      "id": "phy-electromagnetic-induction-004",
+      "q": "A metal rod of length $l$ and resistance-free rails form a circuit of total resistance $R$ in a field $B$. The rod moves with constant velocity $v$ perpendicular to $B$. The force required to keep the rod moving at constant velocity is",
+      "options": [
+        "$Bvl$",
+        "$\\dfrac{B^2l^2v}{R}$",
+        "$\\dfrac{B^2lv^2}{R}$",
+        "$\\dfrac{Bvl}{R}$"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "Induced current $I = Bvl/R$; opposing force on rod $F=BIl = B^2l^2v/R$, which an external agent must supply to maintain constant $v$."
+    },
+    {
+      "id": "phy-electromagnetic-induction-005",
+      "q": "A metal rod of length $l=1$ m slides at constant velocity $v=2$ m/s on resistance-free rails (total circuit resistance $R=2\\,\\Omega$) in a uniform magnetic field $B=0.5$ T perpendicular to the plane of the rails. The power delivered by the external agent to keep the rod moving at this constant velocity is",
+      "options": [
+        "2 W",
+        "0.25 W",
+        "1 W",
+        "0.5 W"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "$P = F v = (B^2l^2v/R)\\times v = B^2l^2v^2/R = 0.25\\times1\\times4/2 = 0.5$ W, equal to $I^2R$ dissipated."
+    },
+    {
+      "id": "phy-electromagnetic-induction-006",
+      "q": "The self-inductance of a solenoid with 500 turns, length 1 m and cross-sectional area $1\\times10^{-3}$ m$^2$ (air core) is approximately",
+      "options": [
+        "$6.28\\times10^{-4}$ H",
+        "$3.14\\times10^{-4}$ H",
+        "$1.57\\times10^{-4}$ H",
+        "$3.14\\times10^{-7}$ H"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "$L = \\mu_0N^2A/l = 4\\pi\\times10^{-7}\\times500^2\\times10^{-3}/1 = 4\\pi\\times10^{-7}\\times2.5\\times10^5\\times10^{-3} = 10\\pi\\times10^{-5} \\approx 3.14\\times10^{-4}$ H."
+    },
+    {
+      "id": "phy-electromagnetic-induction-007",
+      "q": "The energy stored in an inductor of 2 H carrying a current of 5 A is",
+      "options": [
+        "25 J",
+        "5 J",
+        "50 J",
+        "10 J"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "$U = \\dfrac12LI^2 = \\dfrac12\\times2\\times25 = 25$ J."
+    },
+    {
+      "id": "phy-electromagnetic-induction-008",
+      "q": "An ac generator coil of 100 turns, area 0.1 m$^2$, rotates at 50 rad/s in a magnetic field of 0.2 T. The peak emf generated is",
+      "options": [
+        "50 V",
+        "10 V",
+        "100 V",
+        "200 V"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "$\\varepsilon_0 = NBA\\omega = 100\\times0.2\\times0.1\\times50 = 100$ V."
+    },
+    {
+      "id": "phy-electromagnetic-induction-009",
+      "q": "A bar magnet is dropped, north pole down, through a horizontal conducting loop. As the magnet approaches the loop from above, the induced current in the loop (viewed from above) is",
+      "options": [
+        "clockwise, to oppose the increasing downward flux",
+        "zero, since flux is constant",
+        "clockwise, to aid the flux increase",
+        "anticlockwise, to oppose the increasing downward flux"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "As the magnet approaches, downward flux through the loop increases; by Lenz's law the induced current flows anticlockwise (viewed from above the falling magnet's side) to create an opposing upward field."
+    },
+    {
+      "id": "phy-electromagnetic-induction-010",
+      "q": "Eddy currents in a transformer core are minimised by",
+      "options": [
+        "winding the coils more tightly",
+        "using a laminated core of thin insulated sheets",
+        "using a hollow core with no material",
+        "increasing the core's cross-sectional area"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "Laminating the core into thin sheets insulated from each other increases resistance to eddy current paths, reducing eddy current (heating) losses without affecting the main flux."
+    },
+    {
+      "id": "phy-electromagnetic-induction-011",
+      "q": "Two coils have a mutual inductance of 0.5 H. If the current in the primary changes at the rate of 4 A/s, the emf induced in the secondary is",
+      "options": [
+        "2 V",
+        "8 V",
+        "0.5 V",
+        "4 V"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "$\\varepsilon_2 = M\\dfrac{dI_1}{dt} = 0.5\\times4 = 2$ V."
+    },
+    {
+      "id": "phy-electromagnetic-induction-012",
+      "q": "A circular coil of area $0.02$ m$^2$ is placed with its plane perpendicular to a magnetic field of 0.5 T. If the field is reduced to zero uniformly in 0.1 s, the average induced emf (single turn) is",
+      "options": [
+        "1 V",
+        "0.01 V",
+        "0.1 V",
+        "0.05 V"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "$\\varepsilon = \\Delta\\phi/\\Delta t = (BA)/\\Delta t = (0.5\\times0.02)/0.1 = 0.01/0.1 = 0.1$ V."
+    },
+    {
+      "id": "phy-electromagnetic-induction-013",
+      "q": "The direction of induced current in a circuit is given by",
+      "options": [
+        "Lenz's law",
+        "Faraday's first law",
+        "Ampere's law",
+        "Coulomb's law"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "Lenz's law specifies the direction: the induced current opposes the change in flux causing it."
+    },
+    {
+      "id": "phy-electromagnetic-induction-014",
+      "q": "A coil is rotated in a uniform magnetic field about an axis perpendicular to the field. The induced emf is maximum when the plane of the coil is",
+      "options": [
+        "perpendicular to the field (flux maximum)",
+        "parallel to the field",
+        "it is always the same",
+        "at $45^\\circ$ to the field"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "$\\varepsilon = -d\\phi/dt = NBA\\omega\\sin\\omega t$ is maximum when $\\sin\\omega t=1$, i.e. when flux $\\phi=NBA\\cos\\omega t$ is zero — which happens when the coil plane is parallel to the field (flux through it is zero but changing fastest)."
+    },
+    {
+      "id": "phy-electromagnetic-induction-015",
+      "q": "Two coils, A and B, have self-inductances $L_1$ and $L_2$ and no flux leakage (coupling coefficient $k=1$). Their mutual inductance is",
+      "options": [
+        "$L_1L_2$",
+        "$L_1+L_2$",
+        "$\\sqrt{L_1L_2}$",
+        "$(L_1+L_2)/2$"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "$M = k\\sqrt{L_1L_2}$; for perfect coupling $k=1$, $M=\\sqrt{L_1L_2}$."
+    },
+    {
+      "id": "phy-electromagnetic-induction-016",
+      "q": "A metallic disc is used to demonstrate electromagnetic damping by swinging it into a magnetic field between the poles of a strong magnet. It slows down quickly mainly due to",
+      "options": [
+        "gravity",
+        "static charge build-up",
+        "friction with the magnet",
+        "eddy currents dissipating kinetic energy as heat"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "As the disc enters/exits the field, changing flux induces eddy currents in it; the opposing force (Lenz's law) does negative work, converting kinetic energy to heat and slowing the disc."
+    },
+    {
+      "id": "phy-electromagnetic-induction-017",
+      "q": "The unit of self-inductance, the henry, is equivalent to",
+      "options": [
+        "V/A",
+        "V s/A",
+        "V/(A s)",
+        "A/(V s)"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "From $\\varepsilon=-L\\,dI/dt$, $L$ has unit V/(A/s) = V s/A, defined as the henry."
+    },
+    {
+      "id": "phy-electromagnetic-induction-018",
+      "q": "A square loop of side 10 cm is pulled out of a uniform magnetic field region of 0.5 T at a constant velocity of 2 m/s, with one side always inside the field boundary. The emf induced while the loop is exiting is",
+      "options": [
+        "0.2 V",
+        "0.05 V",
+        "1 V",
+        "0.1 V"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "Only the side crossing the boundary contributes: $\\varepsilon = Bvl = 0.5\\times2\\times0.1 = 0.1$ V."
+    },
+    {
+      "id": "phy-electromagnetic-induction-019",
+      "q": "In an AC generator, doubling the frequency of rotation (keeping $N$, $B$, $A$ fixed) causes the peak emf to",
+      "options": [
+        "become four times",
+        "become half",
+        "double",
+        "remain the same"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "$\\varepsilon_0 = NBA\\omega$; since $\\omega = 2\\pi f$, doubling $f$ doubles $\\omega$ and hence doubles $\\varepsilon_0$."
+    },
+    {
+      "id": "phy-electromagnetic-induction-020",
+      "q": "A copper ring is held horizontally and a bar magnet is dropped vertically through it. Compared to free fall, the magnet's acceleration while passing near the ring is",
+      "options": [
+        "less than $g$, due to the retarding force from induced eddy currents",
+        "zero",
+        "equal to $g$",
+        "greater than $g$"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "The changing flux induces a current in the ring which, by Lenz's law, opposes the magnet's motion, providing an upward retarding force so the net acceleration is less than $g$."
+    },
+    {
+      "id": "phy-electromagnetic-induction-021",
+      "q": "The electric field induced by a time-varying magnetic field differs from an electrostatic field in that it",
+      "options": [
+        "has closed field lines and is non-conservative",
+        "originates from stationary charges",
+        "obeys Coulomb's law",
+        "is always radially directed"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "An induced electric field forms closed loops around the region of changing flux and does non-zero work around a closed path, unlike the conservative, radial electrostatic field of charges."
+    },
+    {
+      "id": "phy-electromagnetic-induction-022",
+      "q": "In an LR circuit with $L=2$ H and $R=4\\,\\Omega$ connected to a battery of emf 12 V, the time constant and the maximum (steady-state) current are respectively",
+      "options": [
+        "2 s, 3 A",
+        "8 s, 3 A",
+        "0.5 s, 6 A",
+        "0.5 s, 3 A"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "Time constant $\\tau=L/R=2/4=0.5$ s; steady current $i_{max}=\\varepsilon/R=12/4=3$ A."
+    },
+    {
+      "id": "phy-electromagnetic-induction-023",
+      "q": "A conducting rod of length 1 m rotates about one end with angular speed 10 rad/s in a plane perpendicular to a uniform magnetic field of 0.5 T. The emf induced between its ends is",
+      "options": [
+        "5 V",
+        "2.5 V",
+        "0.5 V",
+        "10 V"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "$\\varepsilon=\\dfrac12B\\omega l^2=\\dfrac12\\times0.5\\times10\\times1^2=2.5$ V."
+    },
+    {
+      "id": "phy-electromagnetic-induction-024",
+      "q": "A circular loop in a uniform field 0.2 T perpendicular to its plane has radius 10 cm, expanding at $\\dfrac{dr}{dt}=2$ cm/s. The instantaneous induced emf is approximately",
+      "options": [
+        "$1.26\\times10^{-2}$ V",
+        "$5\\times10^{-3}$ V",
+        "$2.5\\times10^{-3}$ V",
+        "$1.26\\times10^{-3}$ V"
+      ],
+      "answer": 2,
+      "difficulty": "hard",
+      "explanation": "$\\varepsilon = B\\dfrac{dA}{dt} = B\\times2\\pi r\\dfrac{dr}{dt} = 0.2\\times2\\pi\\times0.1\\times0.02 \\approx 2.5\\times10^{-3}$ V."
+    },
+    {
+      "id": "phy-electromagnetic-induction-025",
+      "q": "As an electric motor speeds up, the back emf generated in its armature",
+      "options": [
+        "decreases, increasing the net current drawn",
+        "has no effect on the current",
+        "stays zero always",
+        "increases, reducing the net current drawn from the supply"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "The rotating armature coil generates a back emf $\\varepsilon_b$ opposing the applied voltage; as speed increases $\\varepsilon_b$ increases, so the net current $i=(V-\\varepsilon_b)/R$ decreases."
+    },
+    {
+      "id": "phy-electromagnetic-induction-026",
+      "q": "Two long coaxial solenoids of length 0.5 m and area $2\\times10^{-3}$ m$^2$ have 1000 turns/m and 2000 turns/m respectively. Their mutual inductance is approximately",
+      "options": [
+        "$1.26\\times10^{-4}$ H",
+        "$2.5\\times10^{-3}$ H",
+        "$1.26\\times10^{-3}$ H",
+        "$6.28\\times10^{-4}$ H"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "$M=\\mu_0n_1n_2Al = 4\\pi\\times10^{-7}\\times1000\\times2000\\times2\\times10^{-3}\\times0.5 \\approx 2.5\\times10^{-3}$ H."
+    },
+    {
+      "id": "phy-electromagnetic-induction-027",
+      "q": "The coefficient of coupling $k$ between two coils is defined as $k = M/\\sqrt{L_1L_2}$. Its value lies in the range",
+      "options": [
+        "$0$ to $1$",
+        "$-\\infty$ to $\\infty$",
+        "$1$ to $\\infty$",
+        "$-1$ to $0$"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "$k=0$ means no flux linkage between coils; $k=1$ means perfect coupling (no leakage flux); $k$ cannot exceed 1."
+    },
+    {
+      "id": "phy-electromagnetic-induction-028",
+      "q": "Two inductors of 3 H and 5 H (no mutual coupling) are connected in series. The equivalent inductance is",
+      "options": [
+        "15 H",
+        "8 H",
+        "2 H",
+        "1.875 H"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "For inductors in series with no coupling, $L=L_1+L_2=3+5=8$ H."
+    },
+    {
+      "id": "phy-electromagnetic-induction-029",
+      "q": "A straight long wire carries a steadily increasing current $I$. A conducting loop lies in the same plane, to one side of the wire. The induced current in the loop flows in a direction such that it",
+      "options": [
+        "reverses direction periodically",
+        "is zero, as the loop does not enclose the wire",
+        "opposes the increase in flux through it, flowing anti-parallel to $I$ in the near side",
+        "flows parallel to $I$ in the near side of the loop, reinforcing the flux"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "The wire's increasing current increases the flux through the loop; by Lenz's law the induced current opposes this increase, flowing anti-parallel to $I$ on the side nearest the wire."
+    },
+    {
+      "id": "phy-electromagnetic-induction-030",
+      "q": "The phenomenon of mutual induction is used in the working of",
+      "options": [
+        "a transformer",
+        "a capacitor bank",
+        "a simple pendulum",
+        "a resistor"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "A transformer transfers energy between primary and secondary coils purely through mutual induction, with no electrical contact between them."
+    },
+    {
+      "id": "phy-electromagnetic-induction-031",
+      "q": "In an LR circuit, at a time equal to one time constant after the switch is closed, the current reaches approximately what fraction of its final steady value?",
+      "options": [
+        "37%",
+        "100%",
+        "50%",
+        "63%"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "$i=i_{max}(1-e^{-t/\\tau})$; at $t=\\tau$, $i=i_{max}(1-e^{-1})\\approx0.63\\,i_{max}$, i.e. 63%."
+    },
+    {
+      "id": "phy-electromagnetic-induction-032",
+      "q": "Two inductors of self-inductance $L$ and $4L$ carry the same current $I$. The ratio of energy stored in them (first : second) is",
+      "options": [
+        "4:1",
+        "1:4",
+        "1:2",
+        "1:16"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "$U=\\dfrac12LI^2$; for the same $I$, $U\\propto L$, so the ratio is $L:4L=1:4$."
+    },
+    {
+      "id": "phy-electromagnetic-induction-033",
+      "q": "When the battery in an LR circuit is suddenly short-circuited (removed), after one time constant the current falls to approximately",
+      "options": [
+        "50% of the initial value",
+        "37% of the initial value",
+        "zero",
+        "63% of the initial value"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "Decay follows $i=i_0e^{-t/\\tau}$; at $t=\\tau$, $i=i_0e^{-1}\\approx0.37\\,i_0$, i.e. 37%."
+    },
+    {
+      "id": "phy-electromagnetic-induction-034",
+      "q": "A coil of area 0.1 m$^2$ is rotated from a position where its plane is perpendicular to a 0.4 T field to a position where its plane is parallel to the field, in 0.2 s. The average induced emf is",
+      "options": [
+        "0.4 V",
+        "2 V",
+        "0.2 V",
+        "0.08 V"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "Initial flux $\\phi_1=BA=0.4\\times0.1=0.04$ Wb, final flux $\\phi_2=0$; average emf $=\\Delta\\phi/\\Delta t=0.04/0.2=0.2$ V."
+    },
+    {
+      "id": "phy-electromagnetic-induction-035",
+      "q": "The negative sign in Faraday's law, $\\varepsilon = -N\\dfrac{d\\phi}{dt}$, signifies that",
+      "options": [
+        "the flux is always decreasing",
+        "current cannot flow in the coil",
+        "the emf is always negative",
+        "the induced emf opposes the change in flux producing it (Lenz's law)"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "The negative sign encodes Lenz's law: the induced emf drives a current whose effects oppose the very change in flux that caused it, consistent with energy conservation."
+    },
+    {
+      "id": "phy-electromagnetic-induction-036",
+      "q": "A bar magnet and a coil approach each other with the same relative speed in two situations: (i) magnet fixed, coil moves; (ii) coil fixed, magnet moves. The induced emf in the coil is",
+      "options": [
+        "the same in both cases, depending only on relative velocity",
+        "twice as large in case (i)",
+        "zero in case (ii)",
+        "twice as large in case (ii)"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "Since only the relative motion between magnet and coil determines the rate of change of flux, the induced emf is identical in both cases for the same relative speed."
+    },
+    {
+      "id": "phy-electromagnetic-induction-037",
+      "q": "A small circular loop of radius 2 cm lies concentrically and coplanar with a much larger loop of radius 50 cm. The mutual inductance between them is approximately (use $M=\\dfrac{\\mu_0\\pi r^2}{2R}$)",
+      "options": [
+        "$1.6\\times10^{-9}$ H",
+        "$3.2\\times10^{-9}$ H",
+        "$1.6\\times10^{-7}$ H",
+        "$8\\times10^{-10}$ H"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "$M=\\dfrac{\\mu_0\\pi r^2}{2R}=\\dfrac{4\\pi\\times10^{-7}\\times\\pi\\times(0.02)^2}{2\\times0.5}\\approx1.6\\times10^{-9}$ H."
+    },
+    {
+      "id": "phy-electromagnetic-induction-038",
+      "q": "Faraday's law of electromagnetic induction is applicable to",
+      "options": [
+        "only a changing magnetic field with the conductor at rest",
+        "both motional emf and emf due to a changing field with the coil at rest",
+        "only motional emf",
+        "neither situation"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "Faraday's law, $\\varepsilon=-Nd\\phi/dt$, is completely general — it covers emf from a conductor moving through a field as well as emf from a purely time-varying field with a stationary coil."
+    },
+    {
+      "id": "phy-electromagnetic-induction-039",
+      "q": "In an LR circuit connected to a battery of emf $\\varepsilon$, the rate of growth of current $di/dt$ is maximum at",
+      "options": [
+        "$t=\\tau$ (one time constant)",
+        "it is constant at all times",
+        "$t\\to\\infty$",
+        "$t=0$, immediately after closing the switch, equal to $\\varepsilon/L$"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "From $\\varepsilon=L\\,di/dt+iR$, at $t=0$, $i=0$, so $di/dt=\\varepsilon/L$, its maximum value; as current builds up, $di/dt$ decreases towards zero."
+    },
+    {
+      "id": "phy-electromagnetic-induction-040",
+      "q": "Assertion (A): Eddy currents are used for electromagnetic braking in trains and roller-coasters. Reason (R): Eddy currents dissipate kinetic energy as heat, providing a smooth, contact-free braking force. Choose the correct option.",
+      "options": [
+        "A is true but R is false",
+        "A is false but R is true",
+        "Both A and R are true, but R is not the correct explanation of A",
+        "Both A and R are true, and R is the correct explanation of A"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "As the moving conductor enters/exits a magnetic field, induced eddy currents oppose the motion (Lenz's law) and convert kinetic energy into heat, giving smooth braking without mechanical contact."
+    }
+  ]
+}

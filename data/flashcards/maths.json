@@ -1,0 +1,409 @@
+{
+  "chapters": [
+    {
+      "slug": "sets",
+      "cards": [
+        { "f": "Number of subsets of a set with $n$ elements", "b": "$2^n$; proper subsets $= 2^n - 1$" },
+        { "f": "Power set of empty set", "b": "$P(\\phi) = \\{\\phi\\}$, which has 1 element" },
+        { "f": "$A - B$ in set notation", "b": "$A - B = A \\cap B'$" },
+        { "f": "De Morgan's laws", "b": "$(A\\cup B)' = A'\\cap B'$ and $(A\\cap B)' = A'\\cup B'$" },
+        { "f": "$n(A \\cup B)$ formula", "b": "$n(A\\cup B) = n(A) + n(B) - n(A\\cap B)$" },
+        { "f": "$n(A \\cup B \\cup C)$ formula", "b": "$n(A)+n(B)+n(C) - n(A\\cap B) - n(B\\cap C) - n(A\\cap C) + n(A\\cap B\\cap C)$" },
+        { "f": "\"Neither A nor B\" count", "b": "$n(U) - n(A\\cup B)$" },
+        { "f": "\"Only A\" count", "b": "$n(A) - n(A\\cap B)$" },
+        { "f": "Number of relations from A to B", "b": "$2^{n(A)n(B)}$" },
+        { "f": "$n(A \\times B)$", "b": "$= n(A)\\,n(B)$" },
+        { "f": "$A \\cap A'$ and $A \\cup A'$", "b": "$A \\cap A' = \\phi$ (empty set); $A \\cup A' = U$ (universal set)" },
+        { "f": "Symmetric difference $A\\,\\Delta\\,B$", "b": "$(A-B)\\cup(B-A)$" },
+        { "f": "If $A \\subseteq B$, then $A\\cup B$ and $A\\cap B$ equal", "b": "$A \\cup B = B$ and $A \\cap B = A$" },
+        { "f": "Closed vs open interval notation", "b": "$(a,b)$ open (excludes ends), $[a,b]$ closed (includes ends)" }
+      ]
+    },
+    {
+      "slug": "relations-and-functions-1",
+      "cards": [
+        { "f": "Number of relations on a set with $n$ elements", "b": "$2^{n^2}$" },
+        { "f": "Domain and range of a relation R on A×B", "b": "Domain = set of first elements; Range = set of second elements used" },
+        { "f": "Condition for a relation to be a function", "b": "Every element of domain maps to exactly one element of codomain" },
+        { "f": "Vertical line test", "b": "A curve represents a function iff no vertical line cuts it more than once" },
+        { "f": "Domain of $f(x) = 1/x$", "b": "$\\mathbb{R} - \\{0\\}$" },
+        { "f": "Domain of $f(x) = \\sqrt{x}$", "b": "$[0, \\infty)$" },
+        { "f": "Domain of $f(x) = \\sqrt{a^2 - x^2}$", "b": "$[-a, a]$" },
+        { "f": "Range of $f(x) = x^2$", "b": "$[0, \\infty)$" },
+        { "f": "Range of modulus function $f(x)=|x|$", "b": "$[0, \\infty)$" },
+        { "f": "Signum function definition", "b": "$f(x) = 1$ if $x>0$, $0$ if $x=0$, $-1$ if $x<0$" },
+        { "f": "$(f+g)(x)$ and $(fg)(x)$ definitions", "b": "$(f+g)(x)=f(x)+g(x)$; $(fg)(x)=f(x)\\cdot g(x)$" },
+        { "f": "Greatest integer function $[x]$ at $x = -1.5$", "b": "$[-1.5] = -2$ (largest integer $\\le x$)" },
+        { "f": "Domain of $f(x) = 1/\\sqrt{x^2-1}$", "b": "$(-\\infty,-1)\\cup(1,\\infty)$" },
+        { "f": "Cartesian product $A \\times B$ definition", "b": "Set of all ordered pairs $(a,b)$, $a\\in A, b\\in B$" }
+      ]
+    },
+    {
+      "slug": "trigonometric-functions",
+      "cards": [
+        { "f": "Radian to degree conversion", "b": "$\\pi$ radians $= 180°$, so $1\\text{ rad} = \\dfrac{180}{\\pi}$ degrees" },
+        { "f": "Arc length formula", "b": "$l = r\\theta$ ($\\theta$ in radians)" },
+        { "f": "$\\sin(x+y)$ formula", "b": "$\\sin x\\cos y + \\cos x\\sin y$" },
+        { "f": "$\\cos(x+y)$ formula", "b": "$\\cos x\\cos y - \\sin x\\sin y$" },
+        { "f": "$\\tan(x+y)$ formula", "b": "$\\dfrac{\\tan x + \\tan y}{1 - \\tan x\\tan y}$" },
+        { "f": "$\\sin 2x$ in terms of $\\tan x$", "b": "$\\sin 2x = \\dfrac{2\\tan x}{1+\\tan^2 x}$" },
+        { "f": "$\\cos 2x$ three forms", "b": "$\\cos^2x - \\sin^2x = 2\\cos^2x - 1 = 1 - 2\\sin^2x$" },
+        { "f": "$\\sin 3x$ formula", "b": "$3\\sin x - 4\\sin^3 x$" },
+        { "f": "$\\cos 3x$ formula", "b": "$4\\cos^3 x - 3\\cos x$" },
+        { "f": "Sum to product: $\\sin C + \\sin D$", "b": "$2\\sin\\dfrac{C+D}{2}\\cos\\dfrac{C-D}{2}$" },
+        { "f": "Sum to product: $\\cos C + \\cos D$", "b": "$2\\cos\\dfrac{C+D}{2}\\cos\\dfrac{C-D}{2}$" },
+        { "f": "Product to sum: $2\\sin A\\cos B$", "b": "$\\sin(A+B) + \\sin(A-B)$" },
+        { "f": "General solution of $\\sin\\theta = \\sin\\alpha$", "b": "$\\theta = n\\pi + (-1)^n\\alpha$, $n\\in\\mathbb Z$" },
+        { "f": "General solution of $\\cos\\theta = \\cos\\alpha$", "b": "$\\theta = 2n\\pi \\pm \\alpha$" },
+        { "f": "General solution of $\\tan\\theta = \\tan\\alpha$", "b": "$\\theta = n\\pi + \\alpha$" },
+        { "f": "Value of $\\sin 15°$", "b": "$\\dfrac{\\sqrt6-\\sqrt2}{4}$" }
+      ]
+    },
+    {
+      "slug": "complex-numbers-quadratic-equations",
+      "cards": [
+        { "f": "Value of $i^4$, $i^{4k+1}$, $i^{4k+2}$, $i^{4k+3}$", "b": "$i^4=1$, $i^{4k+1}=i$, $i^{4k+2}=-1$, $i^{4k+3}=-i$" },
+        { "f": "Modulus of $z = a+ib$", "b": "$|z| = \\sqrt{a^2+b^2}$" },
+        { "f": "Conjugate multiplication rule", "b": "$z\\bar z = |z|^2$" },
+        { "f": "Polar (modulus-argument) form of $z$", "b": "$z = r(\\cos\\theta + i\\sin\\theta)$, $r=|z|$, $\\theta = \\arg z$" },
+        { "f": "Argument of a purely negative real number", "b": "$\\arg(z) = \\pi$" },
+        { "f": "$|z_1 z_2|$ and $\\arg(z_1z_2)$", "b": "$|z_1z_2|=|z_1||z_2|$; $\\arg(z_1z_2)=\\arg z_1+\\arg z_2$" },
+        { "f": "Quadratic formula roots", "b": "$x = \\dfrac{-b \\pm \\sqrt{b^2-4ac}}{2a}$" },
+        { "f": "Nature of roots from discriminant $D=b^2-4ac$", "b": "$D>0$ real distinct, $D=0$ real equal, $D<0$ complex conjugate" },
+        { "f": "Sum and product of roots of $ax^2+bx+c=0$", "b": "Sum $= -b/a$, Product $= c/a$" },
+        { "f": "Complex roots of a real quadratic occur", "b": "Always in conjugate pairs" },
+        { "f": "$\\sqrt{-1}$ and $\\sqrt{-a}$ ($a>0$)", "b": "$\\sqrt{-1}=i$; $\\sqrt{-a}=i\\sqrt a$" },
+        { "f": "Multiplicative inverse of $z=a+ib$", "b": "$z^{-1} = \\dfrac{a-ib}{a^2+b^2}$" }
+      ]
+    },
+    {
+      "slug": "linear-inequalities",
+      "cards": [
+        { "f": "Effect of multiplying an inequality by a negative number", "b": "Inequality sign reverses" },
+        { "f": "Solution region for $ax+by \\le c$ shading rule", "b": "Test with origin (if not on line): shade side satisfying the inequality" },
+        { "f": "Solving $|x| < a$ ($a>0$)", "b": "$-a < x < a$" },
+        { "f": "Solving $|x| > a$ ($a>0$)", "b": "$x < -a$ or $x > a$" },
+        { "f": "Graph of $x \\ge 0, y \\ge 0$ represents", "b": "First quadrant (non-negative region)" },
+        { "f": "Combining two linear inequalities graphically", "b": "Common shaded (feasible) region of both is the solution" },
+        { "f": "Adding same number to both sides of inequality", "b": "Inequality direction unchanged" },
+        { "f": "Sign of inequality when dividing by positive number", "b": "Unchanged" }
+      ]
+    },
+    {
+      "slug": "permutations-and-combinations",
+      "cards": [
+        { "f": "Fundamental principle of counting", "b": "If one task has $m$ ways and another $n$ ways, together $m\\times n$ ways" },
+        { "f": "$n!$ formula and $0!$", "b": "$n! = n(n-1)(n-2)\\cdots1$; $0! = 1$" },
+        { "f": "$^nP_r$ formula", "b": "$^nP_r = \\dfrac{n!}{(n-r)!}$" },
+        { "f": "$^nC_r$ formula", "b": "$^nC_r = \\dfrac{n!}{r!(n-r)!}$" },
+        { "f": "Relation between $^nP_r$ and $^nC_r$", "b": "$^nP_r = {}^nC_r \\times r!$" },
+        { "f": "$^nC_r = {}^nC_{n-r}$ and $^nC_0$", "b": "Symmetry property; $^nC_0 = {}^nC_n = 1$" },
+        { "f": "Pascal's rule for combinations", "b": "$^nC_r + {}^nC_{r-1} = {}^{n+1}C_r$" },
+        { "f": "Permutations of $n$ distinct objects taken all at a time", "b": "$n!$" },
+        { "f": "Permutations with repetition ($n$ things, $p, q, r$ alike)", "b": "$\\dfrac{n!}{p!\\,q!\\,r!}$" },
+        { "f": "Circular permutations of $n$ distinct objects", "b": "$(n-1)!$" },
+        { "f": "Number of ways to select $r$ objects from $n$ with repetition allowed", "b": "$^{n+r-1}C_r$" },
+        { "f": "Total number of subsets (combinations) of a set of $n$ elements", "b": "$\\sum_{r=0}^{n} {}^nC_r = 2^n$" }
+      ]
+    },
+    {
+      "slug": "binomial-theorem",
+      "cards": [
+        { "f": "Binomial theorem expansion", "b": "$(a+b)^n = \\sum_{r=0}^n {}^nC_r\\,a^{n-r}b^r$" },
+        { "f": "General term $T_{r+1}$ in $(a+b)^n$", "b": "$T_{r+1} = {}^nC_r\\,a^{n-r}b^r$" },
+        { "f": "Number of terms in $(a+b)^n$ expansion", "b": "$n+1$" },
+        { "f": "Sum of binomial coefficients $\\sum {}^nC_r$", "b": "$2^n$" },
+        { "f": "Sum of coefficients at odd positions vs even positions", "b": "Each equals $2^{n-1}$" },
+        { "f": "Middle term(s) of $(a+b)^n$", "b": "If $n$ even: one middle term $T_{n/2+1}$; if $n$ odd: two, $T_{(n+1)/2}$ and $T_{(n+3)/2}$" },
+        { "f": "Greatest binomial coefficient in $(1+x)^n$, $n$ even", "b": "$^nC_{n/2}$" },
+        { "f": "$(1+x)^n$ expansion (special case)", "b": "$\\sum_{r=0}^n {}^nC_r x^r$" },
+        { "f": "Independent term (term free of $x$) — method", "b": "Set power of $x$ in $T_{r+1}$ to zero and solve for $r$" },
+        { "f": "$^nC_0 + {}^nC_1 + \\cdots + {}^nC_n$", "b": "$= 2^n$" }
+      ]
+    },
+    {
+      "slug": "sequences-and-series",
+      "cards": [
+        { "f": "$n^{th}$ term of an AP", "b": "$a_n = a + (n-1)d$" },
+        { "f": "Sum of $n$ terms of an AP", "b": "$S_n = \\dfrac n2[2a+(n-1)d]$" },
+        { "f": "Arithmetic mean of $a$ and $b$", "b": "$A = \\dfrac{a+b}{2}$" },
+        { "f": "$n^{th}$ term of a GP", "b": "$a_n = ar^{n-1}$" },
+        { "f": "Sum of $n$ terms of a GP ($r\\ne1$)", "b": "$S_n = \\dfrac{a(r^n-1)}{r-1}$" },
+        { "f": "Sum to infinity of a GP", "b": "$S_\\infty = \\dfrac a{1-r}$, valid for $|r|<1$" },
+        { "f": "Geometric mean of $a$ and $b$", "b": "$G = \\sqrt{ab}$" },
+        { "f": "Sum of first $n$ natural numbers", "b": "$\\sum n = \\dfrac{n(n+1)}2$" },
+        { "f": "Sum of squares of first $n$ natural numbers", "b": "$\\sum n^2 = \\dfrac{n(n+1)(2n+1)}6$" },
+        { "f": "Sum of cubes of first $n$ natural numbers", "b": "$\\sum n^3 = \\left[\\dfrac{n(n+1)}2\\right]^2$" },
+        { "f": "Relation between AM and GM", "b": "$AM \\ge GM$ for positive numbers" },
+        { "f": "Sum of an AGP (arithmetic-geometric) — approach", "b": "Multiply $S$ by $r$, subtract shifted series, then sum resulting GP" }
+      ]
+    },
+    {
+      "slug": "straight-lines",
+      "cards": [
+        { "f": "Slope of line through $(x_1,y_1)$ and $(x_2,y_2)$", "b": "$m = \\dfrac{y_2-y_1}{x_2-x_1}$" },
+        { "f": "Slope-point form of a line", "b": "$y - y_1 = m(x-x_1)$" },
+        { "f": "Two-point form of a line", "b": "$y-y_1 = \\dfrac{y_2-y_1}{x_2-x_1}(x-x_1)$" },
+        { "f": "Intercept form of a line", "b": "$\\dfrac xa + \\dfrac yb = 1$" },
+        { "f": "Condition for two lines to be parallel", "b": "$m_1 = m_2$" },
+        { "f": "Condition for two lines to be perpendicular", "b": "$m_1 m_2 = -1$" },
+        { "f": "Angle between two lines with slopes $m_1, m_2$", "b": "$\\tan\\theta = \\left|\\dfrac{m_1-m_2}{1+m_1m_2}\\right|$" },
+        { "f": "Distance of point $(x_1,y_1)$ from line $ax+by+c=0$", "b": "$d = \\dfrac{|ax_1+by_1+c|}{\\sqrt{a^2+b^2}}$" },
+        { "f": "Distance between two parallel lines $ax+by+c_1=0$, $ax+by+c_2=0$", "b": "$d = \\dfrac{|c_1-c_2|}{\\sqrt{a^2+b^2}}$" },
+        { "f": "Normal form of a line", "b": "$x\\cos\\omega + y\\sin\\omega = p$" },
+        { "f": "Slope-intercept form of a line", "b": "$y = mx + c$" }
+      ]
+    },
+    {
+      "slug": "conic-sections",
+      "cards": [
+        { "f": "Equation of a circle, centre $(h,k)$, radius $r$", "b": "$(x-h)^2+(y-k)^2=r^2$" },
+        { "f": "Standard parabola $y^2=4ax$: focus and directrix", "b": "Focus $(a,0)$, directrix $x=-a$" },
+        { "f": "Length of latus rectum of $y^2=4ax$", "b": "$4a$" },
+        { "f": "Standard ellipse equation and eccentricity", "b": "$\\dfrac{x^2}{a^2}+\\dfrac{y^2}{b^2}=1$ ($a>b$); $e=\\sqrt{1-b^2/a^2}$" },
+        { "f": "Foci of ellipse $\\dfrac{x^2}{a^2}+\\dfrac{y^2}{b^2}=1$", "b": "$(\\pm ae, 0)$" },
+        { "f": "Latus rectum of ellipse", "b": "$\\dfrac{2b^2}{a}$" },
+        { "f": "Standard hyperbola equation and eccentricity", "b": "$\\dfrac{x^2}{a^2}-\\dfrac{y^2}{b^2}=1$; $e=\\sqrt{1+b^2/a^2}$" },
+        { "f": "Latus rectum of hyperbola", "b": "$\\dfrac{2b^2}{a}$" },
+        { "f": "Eccentricity ranges: circle, ellipse, parabola, hyperbola", "b": "$e=0$; $0<e<1$; $e=1$; $e>1$" },
+        { "f": "Relation $b^2$ for ellipse vs hyperbola", "b": "Ellipse: $b^2=a^2(1-e^2)$; Hyperbola: $b^2=a^2(e^2-1)$" }
+      ]
+    },
+    {
+      "slug": "three-d-geometry-intro",
+      "cards": [
+        { "f": "Distance between $(x_1,y_1,z_1)$ and $(x_2,y_2,z_2)$", "b": "$\\sqrt{(x_2-x_1)^2+(y_2-y_1)^2+(z_2-z_1)^2}$" },
+        { "f": "Section formula (internal division) in 3D", "b": "$\\left(\\dfrac{mx_2+nx_1}{m+n}, \\dfrac{my_2+ny_1}{m+n}, \\dfrac{mz_2+nz_1}{m+n}\\right)$" },
+        { "f": "Midpoint formula in 3D", "b": "$\\left(\\dfrac{x_1+x_2}2,\\dfrac{y_1+y_2}2,\\dfrac{z_1+z_2}2\\right)$" },
+        { "f": "Octants in 3D space", "b": "Coordinate planes divide space into 8 octants" },
+        { "f": "Coordinates of centroid of a triangle in 3D", "b": "$\\left(\\dfrac{x_1+x_2+x_3}3,\\dfrac{y_1+y_2+y_3}3,\\dfrac{z_1+z_2+z_3}3\\right)$" },
+        { "f": "Point on x-axis has coordinates of form", "b": "$(x,0,0)$" }
+      ]
+    },
+    {
+      "slug": "limits-and-derivatives",
+      "cards": [
+        { "f": "$\\lim_{x\\to0}\\dfrac{\\sin x}{x}$", "b": "$=1$" },
+        { "f": "$\\lim_{x\\to0}\\dfrac{\\tan x}{x}$", "b": "$=1$" },
+        { "f": "$\\lim_{x\\to0}\\dfrac{e^x-1}{x}$", "b": "$=1$" },
+        { "f": "$\\lim_{x\\to0}\\dfrac{\\ln(1+x)}{x}$", "b": "$=1$" },
+        { "f": "$\\lim_{x\\to a}\\dfrac{x^n-a^n}{x-a}$", "b": "$= na^{n-1}$" },
+        { "f": "$\\lim_{x\\to\\infty}\\left(1+\\dfrac1x\\right)^x$", "b": "$= e$" },
+        { "f": "Derivative from first principles", "b": "$f'(x) = \\lim_{h\\to0}\\dfrac{f(x+h)-f(x)}h$" },
+        { "f": "Derivative of $x^n$", "b": "$nx^{n-1}$" },
+        { "f": "Derivative of $\\sin x$ and $\\cos x$", "b": "$\\cos x$ and $-\\sin x$ respectively" },
+        { "f": "Derivative of $e^x$ and $\\ln x$", "b": "$e^x$ and $1/x$" },
+        { "f": "Product rule for derivatives", "b": "$(uv)' = u'v + uv'$" },
+        { "f": "Quotient rule for derivatives", "b": "$\\left(\\dfrac uv\\right)' = \\dfrac{u'v-uv'}{v^2}$" }
+      ]
+    },
+    {
+      "slug": "statistics",
+      "cards": [
+        { "f": "Mean deviation about mean formula", "b": "$MD = \\dfrac{\\sum |x_i - \\bar x|}{n}$" },
+        { "f": "Variance formula (ungrouped data)", "b": "$\\sigma^2 = \\dfrac{\\sum(x_i-\\bar x)^2}{n}$" },
+        { "f": "Standard deviation", "b": "$\\sigma = \\sqrt{\\text{variance}}$" },
+        { "f": "Shortcut variance formula", "b": "$\\sigma^2 = \\dfrac{\\sum x_i^2}{n} - \\left(\\dfrac{\\sum x_i}{n}\\right)^2$" },
+        { "f": "Coefficient of variation", "b": "$CV = \\dfrac{\\sigma}{\\bar x}\\times100\\%$" },
+        { "f": "Effect on variance when all observations scaled by $k$", "b": "New variance $= k^2\\times$ old variance" },
+        { "f": "Effect on mean/variance when constant added to each observation", "b": "Mean increases by constant; variance unchanged" },
+        { "f": "Series with smaller CV is considered", "b": "More consistent / less variable" }
+      ]
+    },
+    {
+      "slug": "probability-1",
+      "cards": [
+        { "f": "Classical probability formula", "b": "$P(E) = \\dfrac{\\text{favourable outcomes}}{\\text{total outcomes}}$" },
+        { "f": "Probability of complement $P(E')$", "b": "$1 - P(E)$" },
+        { "f": "$P(A\\cup B)$ addition theorem", "b": "$P(A)+P(B)-P(A\\cap B)$" },
+        { "f": "$P(A\\cup B)$ for mutually exclusive events", "b": "$P(A)+P(B)$ since $P(A\\cap B)=0$" },
+        { "f": "Range of probability of any event", "b": "$0 \\le P(E) \\le 1$" },
+        { "f": "Sample space size for tossing 2 coins", "b": "4 outcomes: HH, HT, TH, TT" },
+        { "f": "Sample space size for rolling 2 dice", "b": "36 outcomes" },
+        { "f": "Exhaustive events condition", "b": "Union of all events equals the sample space" }
+      ]
+    },
+    {
+      "slug": "relations-and-functions-2",
+      "cards": [
+        { "f": "Reflexive relation condition", "b": "$(a,a) \\in R$ for every $a$ in the set" },
+        { "f": "Symmetric relation condition", "b": "$(a,b)\\in R \\Rightarrow (b,a)\\in R$" },
+        { "f": "Transitive relation condition", "b": "$(a,b)\\in R, (b,c)\\in R \\Rightarrow (a,c)\\in R$" },
+        { "f": "Equivalence relation definition", "b": "Reflexive, symmetric, and transitive" },
+        { "f": "One-one (injective) function condition", "b": "$f(x_1)=f(x_2) \\Rightarrow x_1=x_2$" },
+        { "f": "Onto (surjective) function condition", "b": "Range of $f$ equals codomain" },
+        { "f": "Bijective function", "b": "Both one-one and onto; invertible" },
+        { "f": "Condition for a function to be invertible", "b": "It must be bijective" },
+        { "f": "Number of one-one functions from a set of size $n$ to itself", "b": "$n!$" }
+      ]
+    },
+    {
+      "slug": "inverse-trigonometric-functions",
+      "cards": [
+        { "f": "Principal value range of $\\sin^{-1}x$", "b": "$[-\\pi/2, \\pi/2]$" },
+        { "f": "Principal value range of $\\cos^{-1}x$", "b": "$[0, \\pi]$" },
+        { "f": "Principal value range of $\\tan^{-1}x$", "b": "$(-\\pi/2, \\pi/2)$" },
+        { "f": "Domain of $\\sin^{-1}x$ and $\\cos^{-1}x$", "b": "$[-1, 1]$" },
+        { "f": "$\\sin^{-1}x + \\cos^{-1}x$", "b": "$= \\pi/2$" },
+        { "f": "$\\tan^{-1}x + \\cot^{-1}x$", "b": "$= \\pi/2$" },
+        { "f": "$\\tan^{-1}x + \\tan^{-1}y$ formula", "b": "$\\tan^{-1}\\dfrac{x+y}{1-xy}$ (when $xy<1$)" },
+        { "f": "$\\sin^{-1}(-x)$", "b": "$= -\\sin^{-1}x$ (odd function)" },
+        { "f": "$\\cos^{-1}(-x)$", "b": "$= \\pi - \\cos^{-1}x$" },
+        { "f": "$2\\tan^{-1}x$ in terms of $\\sin^{-1}$", "b": "$\\sin^{-1}\\dfrac{2x}{1+x^2}$ (for $|x|\\le1$)" }
+      ]
+    },
+    {
+      "slug": "matrices",
+      "cards": [
+        { "f": "Order of a matrix", "b": "Number of rows $\\times$ number of columns" },
+        { "f": "Condition for matrix addition/subtraction", "b": "Both matrices must have the same order" },
+        { "f": "Condition for matrix multiplication $AB$", "b": "Columns of $A$ = rows of $B$" },
+        { "f": "Transpose property $(AB)^T$", "b": "$(AB)^T = B^T A^T$" },
+        { "f": "Symmetric matrix condition", "b": "$A^T = A$" },
+        { "f": "Skew-symmetric matrix condition", "b": "$A^T = -A$; diagonal elements are always 0" },
+        { "f": "Every square matrix can be expressed as", "b": "Sum of a symmetric and a skew-symmetric matrix" },
+        { "f": "Identity matrix property", "b": "$AI = IA = A$" },
+        { "f": "Condition for a matrix to be invertible", "b": "$|A| \\ne 0$ (non-singular) and square" }
+      ]
+    },
+    {
+      "slug": "determinants",
+      "cards": [
+        { "f": "$2\\times2$ determinant formula", "b": "For $\\begin{vmatrix}a&b\\\\c&d\\end{vmatrix}$, value $= ad-bc$" },
+        { "f": "Area of triangle using determinants", "b": "$\\dfrac12\\begin{vmatrix}x_1&y_1&1\\\\x_2&y_2&1\\\\x_3&y_3&1\\end{vmatrix}$" },
+        { "f": "Condition for three points to be collinear (determinant)", "b": "Area determinant $= 0$" },
+        { "f": "$A(\\text{adj}\\,A)$ result", "b": "$A(\\text{adj}\\,A) = |A|\\,I$" },
+        { "f": "Formula for $A^{-1}$", "b": "$A^{-1} = \\dfrac{1}{|A|}\\text{adj}(A)$" },
+        { "f": "Condition for system $AX=B$ to have unique solution", "b": "$|A| \\ne 0$" },
+        { "f": "$|kA|$ for $n\\times n$ matrix $A$", "b": "$k^n|A|$" },
+        { "f": "$|A^{-1}|$ in terms of $|A|$", "b": "$\\dfrac1{|A|}$" },
+        { "f": "Singular matrix definition", "b": "A square matrix with $|A| = 0$" }
+      ]
+    },
+    {
+      "slug": "continuity-and-differentiability",
+      "cards": [
+        { "f": "Condition for $f$ continuous at $x=a$", "b": "$\\lim_{x\\to a^-}f(x) = \\lim_{x\\to a^+}f(x) = f(a)$" },
+        { "f": "Chain rule for derivatives", "b": "$\\dfrac{dy}{dx} = \\dfrac{dy}{du}\\cdot\\dfrac{du}{dx}$" },
+        { "f": "Derivative of $\\tan^{-1}x$", "b": "$\\dfrac1{1+x^2}$" },
+        { "f": "Derivative of $\\sin^{-1}x$", "b": "$\\dfrac1{\\sqrt{1-x^2}}$" },
+        { "f": "Logarithmic differentiation used when", "b": "Function of form $[f(x)]^{g(x)}$ (variable base and exponent)" },
+        { "f": "Derivative of parametric function $x=f(t), y=g(t)$", "b": "$\\dfrac{dy}{dx} = \\dfrac{dy/dt}{dx/dt}$" },
+        { "f": "Rolle's theorem conclusion", "b": "If $f(a)=f(b)$, continuous, differentiable, $\\exists\\,c\\in(a,b): f'(c)=0$" },
+        { "f": "Mean Value Theorem (Lagrange's) conclusion", "b": "$f'(c) = \\dfrac{f(b)-f(a)}{b-a}$ for some $c\\in(a,b)$" },
+        { "f": "Every differentiable function is", "b": "Continuous (converse not always true)" }
+      ]
+    },
+    {
+      "slug": "application-of-derivatives",
+      "cards": [
+        { "f": "Rate of change interpretation of derivative", "b": "$\\dfrac{dy}{dx}$ gives instantaneous rate of change of $y$ w.r.t. $x$" },
+        { "f": "Condition for function increasing on interval", "b": "$f'(x) > 0$ for all $x$ in the interval" },
+        { "f": "Condition for function decreasing on interval", "b": "$f'(x) < 0$ for all $x$ in the interval" },
+        { "f": "Condition for local maximum at $x=c$ (first derivative test)", "b": "$f'(c)=0$ and $f'$ changes sign $+$ to $-$" },
+        { "f": "Second derivative test for local maximum", "b": "$f'(c)=0$ and $f''(c) < 0$" },
+        { "f": "Second derivative test for local minimum", "b": "$f'(c)=0$ and $f''(c) > 0$" },
+        { "f": "Equation of tangent to curve at $(x_1,y_1)$", "b": "$y - y_1 = f'(x_1)(x - x_1)$" },
+        { "f": "Equation of normal to curve at $(x_1,y_1)$", "b": "$y - y_1 = \\dfrac{-1}{f'(x_1)}(x-x_1)$" },
+        { "f": "Condition for tangent parallel to x-axis", "b": "$f'(x) = 0$" },
+        { "f": "Approximation formula using differentials", "b": "$f(x+\\Delta x) \\approx f(x) + f'(x)\\,\\Delta x$" }
+      ]
+    },
+    {
+      "slug": "integrals",
+      "cards": [
+        { "f": "$\\int x^n\\,dx$", "b": "$\\dfrac{x^{n+1}}{n+1} + C$ (n ≠ -1)" },
+        { "f": "$\\int \\dfrac{dx}{x}$", "b": "$\\ln|x| + C$" },
+        { "f": "$\\int \\dfrac{dx}{x^2+a^2}$", "b": "$\\dfrac1a\\tan^{-1}\\dfrac xa + C$" },
+        { "f": "$\\int \\dfrac{dx}{\\sqrt{a^2-x^2}}$", "b": "$\\sin^{-1}\\dfrac xa + C$" },
+        { "f": "$\\int e^x[f(x)+f'(x)]dx$", "b": "$= e^x f(x) + C$" },
+        { "f": "Integration by parts formula (ILATE)", "b": "$\\int uv\\,dx = u\\int v - \\int u'\\left(\\int v\\right)dx$" },
+        { "f": "$\\int \\ln x\\,dx$", "b": "$x\\ln x - x + C$" },
+        { "f": "King's rule for definite integrals", "b": "$\\int_0^a f(x)dx = \\int_0^a f(a-x)dx$" },
+        { "f": "$\\int_{-a}^{a} f(x)\\,dx$ for even/odd $f$", "b": "$2\\int_0^a f(x)dx$ if even; $0$ if odd" },
+        { "f": "$\\int_0^{\\pi/2}\\sin^n x\\,dx / \\int_0^{\\pi/2}\\cos^n x\\,dx$ relation used for", "b": "$\\int_0^{\\pi/2}\\dfrac{\\sin^nx}{\\sin^nx+\\cos^nx}dx = \\dfrac\\pi4$" },
+        { "f": "$\\int \\dfrac{f'(x)}{f(x)}dx$", "b": "$\\ln|f(x)| + C$" },
+        { "f": "$\\int_0^{2a}f(x)dx$ when $f(2a-x)=f(x)$", "b": "$= 2\\int_0^a f(x)dx$" }
+      ]
+    },
+    {
+      "slug": "application-of-integrals",
+      "cards": [
+        { "f": "Area under curve $y=f(x)$ from $x=a$ to $b$", "b": "$A = \\int_a^b y\\,dx$" },
+        { "f": "Area between curve and y-axis from $y=c$ to $d$", "b": "$A = \\int_c^d x\\,dy$" },
+        { "f": "Area between two curves $y=f(x)$ and $y=g(x)$", "b": "$A = \\int_a^b [f(x)-g(x)]\\,dx$ (upper minus lower)" },
+        { "f": "Area of a circle $x^2+y^2=a^2$ using integration", "b": "$\\pi a^2$ (integrate $4\\int_0^a\\sqrt{a^2-x^2}dx$)" },
+        { "f": "Area of ellipse $\\dfrac{x^2}{a^2}+\\dfrac{y^2}{b^2}=1$", "b": "$\\pi a b$" },
+        { "f": "Steps to find area between curves", "b": "Find intersection points, identify upper/lower curve, integrate difference" }
+      ]
+    },
+    {
+      "slug": "differential-equations",
+      "cards": [
+        { "f": "Order of a differential equation", "b": "Order of the highest derivative present" },
+        { "f": "Degree of a differential equation", "b": "Power of the highest order derivative (after removing radicals/fractions)" },
+        { "f": "Variable separable method", "b": "Rearrange to $f(y)dy = g(x)dx$ then integrate both sides" },
+        { "f": "Standard form of linear differential equation", "b": "$\\dfrac{dy}{dx} + Py = Q$ ($P,Q$ functions of $x$)" },
+        { "f": "Integrating factor (IF) for linear DE", "b": "$IF = e^{\\int P\\,dx}$" },
+        { "f": "General solution using IF", "b": "$y\\cdot IF = \\int Q\\cdot IF\\,dx + C$" },
+        { "f": "Homogeneous differential equation substitution", "b": "Put $y = vx$, so $\\dfrac{dy}{dx} = v + x\\dfrac{dv}{dx}$" },
+        { "f": "Number of arbitrary constants in general solution", "b": "Equals the order of the differential equation" }
+      ]
+    },
+    {
+      "slug": "vector-algebra",
+      "cards": [
+        { "f": "Magnitude of vector $\\vec a = a_1\\hat i+a_2\\hat j+a_3\\hat k$", "b": "$|\\vec a| = \\sqrt{a_1^2+a_2^2+a_3^2}$" },
+        { "f": "Unit vector along $\\vec a$", "b": "$\\hat a = \\dfrac{\\vec a}{|\\vec a|}$" },
+        { "f": "Dot product formula", "b": "$\\vec a\\cdot\\vec b = |\\vec a||\\vec b|\\cos\\theta = a_1b_1+a_2b_2+a_3b_3$" },
+        { "f": "Cross product magnitude", "b": "$|\\vec a\\times\\vec b| = |\\vec a||\\vec b|\\sin\\theta$" },
+        { "f": "Condition for two vectors to be perpendicular", "b": "$\\vec a\\cdot\\vec b = 0$" },
+        { "f": "Condition for two vectors to be parallel", "b": "$\\vec a\\times\\vec b = \\vec 0$" },
+        { "f": "Section formula for position vector (internal division)", "b": "$\\vec r = \\dfrac{m\\vec b+n\\vec a}{m+n}$" },
+        { "f": "Projection of $\\vec a$ on $\\vec b$", "b": "$\\dfrac{\\vec a\\cdot\\vec b}{|\\vec b|}$" },
+        { "f": "Scalar triple product $[\\vec a\\,\\vec b\\,\\vec c]$ geometric meaning", "b": "Volume of parallelepiped; $=0$ if coplanar" },
+        { "f": "Area of triangle using vectors", "b": "$\\dfrac12|\\vec{AB}\\times\\vec{AC}|$" },
+        { "f": "Area of parallelogram using vectors", "b": "$|\\vec a\\times\\vec b|$" }
+      ]
+    },
+    {
+      "slug": "three-d-geometry",
+      "cards": [
+        { "f": "Direction cosines relation", "b": "$l^2+m^2+n^2 = 1$" },
+        { "f": "Equation of line through point $\\vec a$ parallel to $\\vec b$", "b": "$\\vec r = \\vec a + \\lambda\\vec b$" },
+        { "f": "Cartesian equation of line through $(x_1,y_1,z_1)$ with DRs $a,b,c$", "b": "$\\dfrac{x-x_1}{a}=\\dfrac{y-y_1}{b}=\\dfrac{z-z_1}{c}$" },
+        { "f": "Angle between two lines with DRs $a_1,b_1,c_1$ and $a_2,b_2,c_2$", "b": "$\\cos\\theta = \\left|\\dfrac{a_1a_2+b_1b_2+c_1c_2}{\\sqrt{\\sum a_1^2}\\sqrt{\\sum a_2^2}}\\right|$" },
+        { "f": "Condition for two lines to be perpendicular (DRs)", "b": "$a_1a_2+b_1b_2+c_1c_2 = 0$" },
+        { "f": "Equation of plane with normal $\\vec n$ through point $\\vec a$", "b": "$\\vec r\\cdot\\vec n = \\vec a\\cdot\\vec n$" },
+        { "f": "Cartesian equation of plane with normal DRs $a,b,c$ through $(x_1,y_1,z_1)$", "b": "$a(x-x_1)+b(y-y_1)+c(z-z_1)=0$" },
+        { "f": "Distance of point from plane $ax+by+cz=d$", "b": "$\\dfrac{|ax_1+by_1+cz_1-d|}{\\sqrt{a^2+b^2+c^2}}$" },
+        { "f": "Condition for two planes to be parallel", "b": "Normal vectors parallel: $\\dfrac{a_1}{a_2}=\\dfrac{b_1}{b_2}=\\dfrac{c_1}{c_2}$" },
+        { "f": "Shortest distance between two skew lines (formula type)", "b": "$d = \\left|\\dfrac{(\\vec a_2-\\vec a_1)\\cdot(\\vec b_1\\times\\vec b_2)}{|\\vec b_1\\times\\vec b_2|}\\right|$" }
+      ]
+    },
+    {
+      "slug": "linear-programming",
+      "cards": [
+        { "f": "Objective function in LPP", "b": "Linear function of decision variables to be maximised or minimised, e.g. $Z=ax+by$" },
+        { "f": "Feasible region definition", "b": "Set of all points satisfying all constraints simultaneously" },
+        { "f": "Corner Point Method", "b": "Optimal value of $Z$ occurs at a vertex (corner point) of the feasible region" },
+        { "f": "Bounded feasible region — how to find optimum", "b": "Evaluate $Z$ at each corner point; the largest/smallest gives max/min" },
+        { "f": "Unbounded feasible region caution", "b": "Max/min may not exist; must check if the region actually gives that value" },
+        { "f": "Decision variables must satisfy", "b": "Non-negativity constraints, usually $x\\ge0, y\\ge0$" }
+      ]
+    },
+    {
+      "slug": "probability-2",
+      "cards": [
+        { "f": "Conditional probability formula", "b": "$P(A|B) = \\dfrac{P(A\\cap B)}{P(B)}$, $P(B)\\ne0$" },
+        { "f": "Multiplication theorem on probability", "b": "$P(A\\cap B) = P(A)\\,P(B|A) = P(B)\\,P(A|B)$" },
+        { "f": "Independent events condition", "b": "$P(A\\cap B) = P(A)P(B)$" },
+        { "f": "Total probability theorem", "b": "$P(A) = \\sum_i P(E_i)P(A|E_i)$ for partition $E_i$" },
+        { "f": "Bayes' theorem formula", "b": "$P(E_i|A) = \\dfrac{P(E_i)P(A|E_i)}{\\sum_j P(E_j)P(A|E_j)}$" },
+        { "f": "Binomial distribution probability formula", "b": "$P(X=r) = {}^nC_r\\,p^r q^{n-r}$, $q=1-p$" },
+        { "f": "Mean and variance of binomial distribution", "b": "Mean $=np$; Variance $=npq$" },
+        { "f": "Random variable definition", "b": "A function that assigns a real number to each outcome of a random experiment" }
+      ]
+    }
+  ]
+}

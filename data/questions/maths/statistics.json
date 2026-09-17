@@ -1,0 +1,525 @@
+{
+  "notes": "<h3>Mean deviation</h3><ul><li>About the mean: $MD_{\\bar x}=\\dfrac1n\\sum|x_i-\\bar x|$ (ungrouped); for frequency data $MD_{\\bar x}=\\dfrac1N\\sum f_i|x_i-\\bar x|$, $N=\\sum f_i$.</li><li>About the median: same formula with $\\bar x$ replaced by the median. Mean deviation is always computed using absolute (unsigned) deviations, since signed deviations from the mean always sum to zero.</li></ul><h3>Variance and standard deviation</h3><ul><li>Ungrouped data: $\\sigma^2=\\dfrac1n\\sum(x_i-\\bar x)^2$; $\\sigma=\\sqrt{\\sigma^2}$.</li><li>Frequency data: $\\sigma^2=\\dfrac1N\\sum f_i(x_i-\\bar x)^2$.</li><li>Shortcut formula: $\\sigma^2=\\dfrac1N\\sum f_ix_i^2-\\bar x^2$.</li><li>Step-deviation method (class width $h$, $u_i=\\frac{x_i-A}{h}$): $\\sigma^2=h^2\\left[\\dfrac{\\sum f_iu_i^2}{N}-\\left(\\dfrac{\\sum f_iu_i}{N}\\right)^2\\right]$.</li><li>Standard deviation of the first $n$ natural numbers: $\\sigma=\\sqrt{\\dfrac{n^2-1}{12}}$.</li></ul><h3>Effect of change of origin and scale</h3><table><tr><th>Transformation</th><th>Effect on variance/SD</th></tr><tr><td>Add/subtract a constant $a$</td><td>unchanged (independent of change of origin)</td></tr><tr><td>Multiply by a constant $k$</td><td>variance $\\times k^2$; SD $\\times|k|$ (depends on change of scale)</td></tr></table><h3>Coefficient of variation</h3><ul><li>$CV=\\dfrac{\\sigma}{\\bar x}\\times100\\%$. The series with the smaller CV is more consistent (less variable).</li></ul><h3>Key facts</h3><ul><li>Variance (and hence SD) is always non-negative; it is 0 only when all observations are equal.</li><li>Mean deviation about the mean is always $\\le$ the standard deviation.</li></ul><h3>Exam tip</h3><p>KCET usually asks 1-2 questions from this chapter — computing mean deviation/variance/SD for a small ungrouped data set, or a conceptual question on how variance changes under a shift or scaling of the data. Remember: shifting data does not change variance; scaling by $k$ multiplies variance by $k^2$.</p>",
+  "questions": [
+    {
+      "id": "mat-statistics-001",
+      "q": "The mean deviation about the mean of the data $2,4,6,8,10$ is",
+      "options": [
+        "2.4",
+        "3",
+        "1.2",
+        "2"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "Mean $=6$; deviations $|{-4}|,|{-2}|,0,2,4$ sum to $12$; $MD=12/5=2.4$."
+    },
+    {
+      "id": "mat-statistics-002",
+      "q": "For ungrouped data $x_1,\\ldots,x_n$ with mean $\\bar x$, the variance is defined as",
+      "options": [
+        "$\\dfrac1n\\sum(x_i-\\bar x)$",
+        "$\\dfrac1n\\sum(x_i-\\bar x)^2$",
+        "$\\dfrac{1}{n-1}\\sum(x_i-\\bar x)^2$",
+        "$\\sum(x_i-\\bar x)^2$"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "Variance is the mean of the squared deviations from the mean: $\\sigma^2=\\dfrac1n\\sum(x_i-\\bar x)^2$."
+    },
+    {
+      "id": "mat-statistics-003",
+      "q": "The variance of the data $2,4,6,8,10$ is",
+      "options": [
+        "6.4",
+        "16",
+        "8",
+        "4"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "Mean $=6$; squared deviations $16,4,0,4,16$ sum to $40$; variance $=40/5=8$."
+    },
+    {
+      "id": "mat-statistics-004",
+      "q": "The standard deviation of the data $2,4,6,8,10$ is",
+      "options": [
+        "4",
+        "$\\sqrt8/2$",
+        "2",
+        "$2\\sqrt2$"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "Mean $=6$; squared deviations $16,4,0,4,16$ sum to $40$; variance $=40/5=8$; $\\sigma=\\sqrt8=2\\sqrt2$."
+    },
+    {
+      "id": "mat-statistics-005",
+      "q": "A data set has mean 25 and standard deviation 5. Its coefficient of variation is",
+      "options": [
+        "20%",
+        "25%",
+        "50%",
+        "5%"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "$CV=\\dfrac{\\sigma}{\\bar x}\\times100=\\dfrac{5}{25}\\times100=20\\%$."
+    },
+    {
+      "id": "mat-statistics-006",
+      "q": "The mean deviation about the median of $4,7,10$ is",
+      "options": [
+        "3",
+        "6",
+        "2",
+        "1"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "Median $=7$; deviations $3,0,3$ sum to $6$; $MD=6/3=2$."
+    },
+    {
+      "id": "mat-statistics-007",
+      "q": "The variance of any data set is",
+      "options": [
+        "negative for negatively skewed data",
+        "always strictly positive",
+        "can be negative for small samples",
+        "non-negative, and zero only when all observations are equal"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "Variance is a sum of squares divided by $n$, so it can never be negative; it equals zero only when every observation equals the mean."
+    },
+    {
+      "id": "mat-statistics-008",
+      "q": "If every observation of a data set is increased by 5, the variance",
+      "options": [
+        "increases by 25",
+        "remains unchanged",
+        "increases by 5",
+        "doubles"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "Adding a constant shifts every value and the mean by the same amount, so the deviations from the mean — and hence the variance — do not change."
+    },
+    {
+      "id": "mat-statistics-009",
+      "q": "If every observation of a data set is multiplied by 3, the variance",
+      "options": [
+        "remains unchanged",
+        "becomes 3 times the original",
+        "becomes 9 times the original",
+        "becomes 6 times the original"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "Multiplying each value by $k$ multiplies every deviation by $k$, so variance (a squared quantity) scales by $k^2=9$."
+    },
+    {
+      "id": "mat-statistics-010",
+      "q": "The standard deviation of the first 7 natural numbers is",
+      "options": [
+        "2",
+        "3",
+        "1",
+        "4"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "$\\sigma=\\sqrt{\\dfrac{n^2-1}{12}}=\\sqrt{\\dfrac{49-1}{12}}=\\sqrt4=2$."
+    },
+    {
+      "id": "mat-statistics-011",
+      "q": "For 5 observations with mean 10, the sum of squared deviations from the mean is 50. The standard deviation is",
+      "options": [
+        "10",
+        "5",
+        "$2\\sqrt5$",
+        "$\\sqrt{10}$"
+      ],
+      "answer": 3,
+      "difficulty": "hard",
+      "explanation": "Variance $=\\dfrac{50}{5}=10$, so $\\sigma=\\sqrt{10}$."
+    },
+    {
+      "id": "mat-statistics-012",
+      "q": "Series A has mean 50 and SD 5; series B has mean 60 and SD 9. Which series is more consistent?",
+      "options": [
+        "A",
+        "B",
+        "both equally consistent",
+        "cannot be determined"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "$CV_A=\\dfrac5{50}\\times100=10\\%$, $CV_B=\\dfrac9{60}\\times100=15\\%$. Lower CV means more consistent, so A is more consistent."
+    },
+    {
+      "id": "mat-statistics-013",
+      "q": "Mean deviation (about the mean or median) is always computed using",
+      "options": [
+        "squares of deviations",
+        "signed deviations (with sign)",
+        "absolute values of deviations",
+        "cubes of deviations"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "Signed deviations from the mean always sum to zero, so mean deviation uses $|x_i-\\bar x|$ or $|x_i-\\text{median}|$ instead."
+    },
+    {
+      "id": "mat-statistics-014",
+      "q": "The variance of the data $7,7,7,7,7$ is",
+      "options": [
+        "5",
+        "0",
+        "1",
+        "undefined"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "All values equal the mean, so every deviation is 0 and the variance is 0."
+    },
+    {
+      "id": "mat-statistics-015",
+      "q": "If the variance of a data set is 16, its standard deviation is",
+      "options": [
+        "4",
+        "256",
+        "8",
+        "16"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "$\\sigma=\\sqrt{\\text{variance}}=\\sqrt{16}=4$."
+    },
+    {
+      "id": "mat-statistics-016",
+      "q": "The mean and variance of 6 observations are 8 and 16. If 4 is added to each observation, the new mean and variance are",
+      "options": [
+        "12 and 32",
+        "12 and 20",
+        "8 and 16",
+        "12 and 16"
+      ],
+      "answer": 3,
+      "difficulty": "hard",
+      "explanation": "Adding a constant shifts the mean by that constant (new mean $=8+4=12$) but leaves the variance unchanged (still 16)."
+    },
+    {
+      "id": "mat-statistics-017",
+      "q": "The mean deviation about the mean of a data set is",
+      "options": [
+        "always greater than its standard deviation",
+        "always twice its standard deviation",
+        "always less than or equal to its standard deviation",
+        "always equal to its standard deviation"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "It is a standard result that mean deviation about the mean never exceeds the standard deviation of the same data."
+    },
+    {
+      "id": "mat-statistics-018",
+      "q": "Standard deviation is independent of",
+      "options": [
+        "change of origin",
+        "neither origin nor scale",
+        "change of scale",
+        "both origin and scale"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "Shifting all values by a constant (change of origin) does not affect SD, but multiplying by a constant (change of scale) does."
+    },
+    {
+      "id": "mat-statistics-019",
+      "q": "The mean deviation about the mean of the data $3, 6, 9, 12, 15$ is",
+      "options": [
+        "4",
+        "3.6",
+        "3",
+        "4.5"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "Mean $=9$; deviations $6,3,0,3,6$ sum to $18$; $MD=18/5=3.6$."
+    },
+    {
+      "id": "mat-statistics-020",
+      "q": "For a data set with 5 observations, $\\sum x_i^2=90$ and mean $=4$. Its variance is",
+      "options": [
+        "16",
+        "14",
+        "18",
+        "2"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "$\\sigma^2=\\dfrac{\\sum x_i^2}{n}-\\bar x^2=\\dfrac{90}{5}-4^2=18-16=2$."
+    },
+    {
+      "id": "mat-statistics-021",
+      "q": "A data set has variance 5. If every observation is first increased by 3 and then multiplied by 2, the new variance is",
+      "options": [
+        "8",
+        "20",
+        "10",
+        "15"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "Adding a constant does not change variance; multiplying by 2 then scales variance by $2^2=4$, giving $5\\times4=20$."
+    },
+    {
+      "id": "mat-statistics-022",
+      "q": "For 8 observations with mean 12, $\\sum(x_i-\\bar x)^2=98$. The standard deviation is",
+      "options": [
+        "12.25",
+        "4",
+        "3.5",
+        "3"
+      ],
+      "answer": 2,
+      "difficulty": "hard",
+      "explanation": "Variance $=\\dfrac{98}{8}=12.25$; $\\sigma=\\sqrt{12.25}=3.5$."
+    },
+    {
+      "id": "mat-statistics-023",
+      "q": "The standard deviation of the first 5 natural numbers is",
+      "options": [
+        "2",
+        "1",
+        "$\\sqrt3$",
+        "$\\sqrt2$"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "$\\sigma=\\sqrt{\\dfrac{n^2-1}{12}}=\\sqrt{\\dfrac{25-1}{12}}=\\sqrt2$."
+    },
+    {
+      "id": "mat-statistics-024",
+      "q": "A data set has variance 25. If every observation is divided by 5, the new variance is",
+      "options": [
+        "1",
+        "0.2",
+        "5",
+        "25"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "Dividing by a constant $k$ scales variance by $k^2$: $25\\times(1/5)^2=25/25=1$."
+    },
+    {
+      "id": "mat-statistics-025",
+      "q": "The mean deviation about the mean of the data $10, 12, 14, 16, 18$ is",
+      "options": [
+        "2.4",
+        "3",
+        "1.2",
+        "2"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "Mean $=14$; deviations $4,2,0,2,4$ sum to $12$; $MD=12/5=2.4$."
+    },
+    {
+      "id": "mat-statistics-026",
+      "q": "Data set A has mean 40, SD 8; data set B has mean 50, SD 8. Which is relatively more variable?",
+      "options": [
+        "both are equally variable",
+        "cannot say",
+        "A is more variable",
+        "B is more variable"
+      ],
+      "answer": 2,
+      "difficulty": "hard",
+      "explanation": "$CV_A=\\dfrac8{40}\\times100=20\\%$, $CV_B=\\dfrac8{50}\\times100=16\\%$. The higher CV (A) means A is relatively more variable."
+    },
+    {
+      "id": "mat-statistics-027",
+      "q": "The variance of a data set is measured in",
+      "options": [
+        "no units at all",
+        "the square of the units of the data",
+        "the reciprocal of the units of the data",
+        "the same units as the data"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "Since variance is an average of squared deviations, its units are the square of the original data's units (SD restores the original units)."
+    },
+    {
+      "id": "mat-statistics-028",
+      "q": "A data set of 9 observations has mean 20 and variance 9. The sum of squared deviations from the mean is",
+      "options": [
+        "729",
+        "9",
+        "180",
+        "81"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "$\\sigma^2=\\dfrac{\\sum(x_i-\\bar x)^2}{n} \\Rightarrow 9=\\dfrac{\\sum(x_i-\\bar x)^2}{9} \\Rightarrow \\sum(x_i-\\bar x)^2=81$."
+    },
+    {
+      "id": "mat-statistics-029",
+      "q": "A distribution has SD 5. If every value is increased by 20% (multiplied by 1.2), the new SD is",
+      "options": [
+        "5",
+        "5.5",
+        "6",
+        "7.2"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "SD scales by the same multiplicative factor as the data: $5\\times1.2=6$."
+    },
+    {
+      "id": "mat-statistics-030",
+      "q": "The mean of 10 observations is 10. It is later found that an observation 3 was wrongly recorded instead of the correct value 8. The corrected mean is",
+      "options": [
+        "10.5",
+        "10",
+        "11",
+        "9.5"
+      ],
+      "answer": 0,
+      "difficulty": "hard",
+      "explanation": "Original sum $=100$. Corrected sum $=100-3+8=105$; corrected mean $=105/10=10.5$."
+    },
+    {
+      "id": "mat-statistics-031",
+      "q": "The standard deviation of a data set can never be",
+      "options": [
+        "zero",
+        "a fraction",
+        "positive",
+        "negative"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "SD is the non-negative square root of variance, so it can never be negative."
+    },
+    {
+      "id": "mat-statistics-032",
+      "q": "The variance of the first 9 natural numbers is",
+      "options": [
+        "8",
+        "6.67",
+        "5",
+        "6"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "$\\sigma^2=\\dfrac{n^2-1}{12}=\\dfrac{81-1}{12}=\\dfrac{80}{12}\\approx6.67$."
+    },
+    {
+      "id": "mat-statistics-033",
+      "q": "If the variance of $x_1,\\ldots,x_n$ is $\\sigma^2$, the variance of $x_1+5,\\ldots,x_n+5$ is",
+      "options": [
+        "$\\sigma^2+5$",
+        "$\\sigma^2$",
+        "$\\sigma^2+25$",
+        "$5\\sigma^2$"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "Adding a constant to every observation shifts the mean equally, leaving all deviations — and hence the variance — unchanged."
+    },
+    {
+      "id": "mat-statistics-034",
+      "q": "If the variance of $x_1,\\ldots,x_n$ is $\\sigma^2$, the variance of $2x_1,\\ldots,2x_n$ is",
+      "options": [
+        "$2\\sigma^2$",
+        "$\\sigma^2$",
+        "$\\sigma^2/2$",
+        "$4\\sigma^2$"
+      ],
+      "answer": 3,
+      "difficulty": "hard",
+      "explanation": "Multiplying every observation by $k$ multiplies variance by $k^2$; here $k=2$, so the new variance is $4\\sigma^2$."
+    },
+    {
+      "id": "mat-statistics-035",
+      "q": "Which measure of dispersion is based only on the two extreme observations of a data set?",
+      "options": [
+        "Mean deviation",
+        "Variance",
+        "Range",
+        "Standard deviation"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "Range $=$ maximum value $-$ minimum value, using only the two extreme observations, unlike MD/variance/SD which use every observation."
+    },
+    {
+      "id": "mat-statistics-036",
+      "q": "The shortcut (computational) formula for variance of ungrouped data is",
+      "options": [
+        "$\\dfrac{\\sum x^2}{n}-\\left(\\dfrac{\\sum x}{n}\\right)^2$",
+        "$\\left(\\dfrac{\\sum x}{n}\\right)^2-\\dfrac{\\sum x^2}{n}$",
+        "$\\dfrac{\\sum x}{n}-\\dfrac{\\sum x^2}{n}$",
+        "$\\dfrac{\\sum x^2}{n}+\\left(\\dfrac{\\sum x}{n}\\right)^2$"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "Variance equals the mean of the squares minus the square of the mean: $\\sigma^2=\\dfrac{\\sum x^2}{n}-\\bar x^2$."
+    },
+    {
+      "id": "mat-statistics-037",
+      "q": "A data set of 6 values has mean 9. If its standard deviation is 0, then",
+      "options": [
+        "all values are 0",
+        "all values are different",
+        "this is impossible",
+        "all values equal 9"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "SD $=0$ means every deviation from the mean is 0, so every observation must equal the mean, 9."
+    },
+    {
+      "id": "mat-statistics-038",
+      "q": "The mean of 5 numbers is 6. After removing one number, the mean of the remaining 4 numbers becomes 5. The removed number is",
+      "options": [
+        "10",
+        "5",
+        "6",
+        "8"
+      ],
+      "answer": 0,
+      "difficulty": "hard",
+      "explanation": "Sum of 5 numbers $=30$; sum of remaining 4 $=20$; removed number $=30-20=10$."
+    },
+    {
+      "id": "mat-statistics-039",
+      "q": "The coefficient of variation is mainly used to compare",
+      "options": [
+        "the skewness of a distribution",
+        "only the absolute spread of one data set",
+        "the relative variability of two or more data sets",
+        "the central tendency of two data sets"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "CV expresses SD as a percentage of the mean, allowing fair comparison of variability between data sets with different units or means."
+    },
+    {
+      "id": "mat-statistics-040",
+      "q": "A distribution has mean 50 and variance 100. Its coefficient of variation is",
+      "options": [
+        "200%",
+        "20%",
+        "10%",
+        "5%"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "$\\sigma=\\sqrt{100}=10$; $CV=\\dfrac{10}{50}\\times100=20\\%$."
+    }
+  ]
+}

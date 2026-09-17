@@ -1,0 +1,795 @@
+{
+  "title": "KCET 2010 Maths",
+  "year": 2010,
+  "subject": "maths",
+  "code": "A-1",
+  "source": "KEA question paper (copy) + KEA answer key column A1",
+  "excluded": [],
+  "questions": [
+    {
+      "n": 1,
+      "q": "The chord of the circle $x^2+y^2-4x=0$ which is bisected at $(1, 0)$ is perpendicular to the line",
+      "options": [
+        "$x=1$",
+        "$y=1$",
+        "$y=x$",
+        "$x+y=0$"
+      ],
+      "answer": 1,
+      "chapter": "Conic Sections",
+      "explanation": "The circle has centre $(2,0)$. The radius to the midpoint $(1,0)$ is horizontal, so the chord bisected there is vertical ($x=1$), which is perpendicular to $y=1$."
+    },
+    {
+      "n": 2,
+      "q": "In $\\triangle ABC$, if $a=2$, $B=\\tan^{-1}\\dfrac{1}{2}$ and $C=\\tan^{-1}\\dfrac{1}{3}$, then $(A, b)=$",
+      "options": [
+        "$\\left(\\dfrac{3\\pi}{4}, \\dfrac{2\\sqrt2}{\\sqrt5}\\right)$",
+        "$\\left(\\dfrac{\\pi}{4}, \\dfrac{2}{\\sqrt5}\\right)$",
+        "$\\left(\\dfrac{3\\pi}{4}, \\dfrac{2}{\\sqrt5}\\right)$",
+        "$\\left(\\dfrac{\\pi}{4}, \\dfrac{2\\sqrt2}{\\sqrt5}\\right)$"
+      ],
+      "answer": 0,
+      "chapter": "Old syllabus: Properties of Triangles",
+      "explanation": "$\\tan(B+C)=\\dfrac{1/2+1/3}{1-1/6}=1$, so $B+C=\\pi/4$, $A=3\\pi/4$. Using $\\sin B=1/\\sqrt5$, $\\sin A=\\sqrt2/2$, the sine rule gives $b=a\\sin B/\\sin A=2\\sqrt2/\\sqrt5$."
+    },
+    {
+      "n": 3,
+      "q": "The straight line $2x+3y-k=0$, $k>0$ cuts the X- and Y-axes at $A$ and $B$. The area of $\\triangle OAB$, where $O$ is the origin, is 12 sq. units. The equation of the circle having $AB$ as diameter is",
+      "options": [
+        "$x^2+y^2-6x+4y=0$",
+        "$x^2+y^2-4x-6y=0$",
+        "$x^2+y^2-6x-4y=0$",
+        "$x^2+y^2+4x-6y=0$"
+      ],
+      "answer": 2,
+      "chapter": "Conic Sections",
+      "explanation": "Intercepts are $A=(k/2,0)$, $B=(0,k/3)$; area $=k^2/12=12$ gives $k=12$, so $A=(6,0)$, $B=(0,4)$. Circle on $AB$ as diameter: $(x-6)x+(y-4)y=0$, i.e. $x^2+y^2-6x-4y=0$."
+    },
+    {
+      "n": 4,
+      "q": "Let $P(x, y)$ be the midpoint of the line joining $(1, 0)$ to a point on the curve $y^2=\\begin{vmatrix}x+1 & x+2\\\\ x+3 & x+5\\end{vmatrix}$. The locus of $P$ is symmetrical about",
+      "options": [
+        "$x=1$",
+        "$y=1$",
+        "Y-axis",
+        "X-axis"
+      ],
+      "answer": 3,
+      "chapter": "Determinants",
+      "explanation": "The determinant equals $x-1$, so the curve is $y^2=x-1$. For midpoint $P(X,Y)$ of $(1,0)$ and $(x,y)$: $x=2X-1$, $y=2Y$, giving $4Y^2=2X-2$, i.e. $Y^2=(X-1)/2$, symmetric about the X-axis."
+    },
+    {
+      "n": 5,
+      "q": "The function $f(x)=|x-2|+x$ is",
+      "options": [
+        "continuous at $x=2$ but not at $x=0$.",
+        "continuous at both $x=2$ and $x=0$.",
+        "differentiable at both $x=2$ and $x=0$.",
+        "differentiable at $x=2$ but not at $x=0$."
+      ],
+      "answer": 1,
+      "chapter": "Continuity and Differentiability",
+      "explanation": "$f(x)=2$ for $x<2$ and $f(x)=2x-2$ for $x\\ge2$; both pieces agree at $x=2$ (value $2$), so $f$ is continuous everywhere, in particular at $x=0$ and $x=2$, but its derivative jumps from $0$ to $2$ at $x=2$."
+    },
+    {
+      "n": 6,
+      "q": "If $a$, $-a$, $b$ are the roots of $x^3-5x^2-x+5=0$, then $b$ is a root of",
+      "options": [
+        "$x^2-3x-10=0$",
+        "$x^2+5x-30=0$",
+        "$x^2+3x-20=0$",
+        "$x^2-5x+10=0$"
+      ],
+      "answer": 0,
+      "chapter": "Complex Numbers and Quadratic Equations",
+      "explanation": "Sum of products in pairs $=-a^2=-1\\Rightarrow a^2=1$; product of roots $=-a^2b=-5\\Rightarrow b=5$. Checking, $x=5$ satisfies $x^2-3x-10=0$."
+    },
+    {
+      "n": 7,
+      "q": "In the binomial expansion of $(1+x)^{15}$, the coefficients of $x^r$ and $x^{r+3}$ are equal. Then $r$ is",
+      "options": [
+        "4",
+        "6",
+        "8",
+        "7"
+      ],
+      "answer": 1,
+      "chapter": "Binomial Theorem",
+      "explanation": "$\\binom{15}{r}=\\binom{15}{r+3}$ requires $r+(r+3)=15$, so $r=6$."
+    },
+    {
+      "n": 8,
+      "q": "The $n^{th}$ term of the series $1+3+7+13+21+\\ldots$ is 9901. The value of $n$ is",
+      "options": [
+        "900",
+        "99",
+        "100",
+        "90"
+      ],
+      "answer": 2,
+      "chapter": "Sequences and Series",
+      "explanation": "The $n^{th}$ term is $T_n=n^2-n+1$. Setting $n^2-n+1=9901$ gives $n^2-n-9900=0$, whose positive root is $n=100$."
+    },
+    {
+      "n": 9,
+      "q": "If $\\dfrac{1}{(3-5x)(2+3x)}=\\dfrac{A}{3-5x}+\\dfrac{B}{2+3x}$, then $A:B$ is",
+      "options": [
+        "$3:5$",
+        "$3:2$",
+        "$2:3$",
+        "$5:3$"
+      ],
+      "answer": 3,
+      "chapter": "Old syllabus: Partial Fractions",
+      "explanation": "Putting $x=3/5$ gives $A=5/19$; putting $x=-2/3$ gives $B=3/19$; so $A:B=5:3$."
+    },
+    {
+      "n": 10,
+      "q": "Which of the following is NOT true?",
+      "options": [
+        "$p\\to(q\\wedge r)\\equiv(p\\to q)\\wedge(p\\to r)$.",
+        "$\\sim(p\\leftrightarrow q)\\equiv(p\\wedge\\sim q)\\vee(\\sim p\\wedge q)$.",
+        "$(p\\wedge\\sim q)\\leftrightarrow(p\\to q)$ is a tautology.",
+        "$\\{(p\\to q)\\wedge(q\\to r)\\}\\to(p\\to r)$ is a tautology."
+      ],
+      "answer": 2,
+      "chapter": "Old syllabus: Mathematical Reasoning",
+      "explanation": "Since $p\\wedge\\sim q\\equiv\\sim(p\\to q)$, the statement $(p\\wedge\\sim q)\\leftrightarrow(p\\to q)$ is $X\\leftrightarrow\\sim X$, which is always false, not a tautology; the other three statements are genuinely true."
+    },
+    {
+      "n": 11,
+      "q": "Let $R$ be an equivalence relation defined on a set containing 6 elements. The minimum number of ordered pairs that $R$ should contain is",
+      "options": [
+        "64",
+        "36",
+        "12",
+        "6"
+      ],
+      "answer": 3,
+      "chapter": "Relations and Functions",
+      "explanation": "The smallest equivalence relation is the identity relation (each element related only to itself), which has exactly 6 ordered pairs."
+    },
+    {
+      "n": 12,
+      "q": "The line joining $A(2, -7)$ and $B(6, 5)$ is divided into 4 equal parts by the points $P, Q$ and $R$ such that $AQ=RP=QB$. The midpoint of $PR$ is",
+      "options": [
+        "$(4, -1)$",
+        "$(8, -2)$",
+        "$(4, 12)$",
+        "$(-8, 1)$"
+      ],
+      "answer": 0,
+      "chapter": "Straight Lines",
+      "explanation": "$P,Q,R$ divide $AB$ into four equal parts, so $Q$ is the midpoint of $AB$ and, by symmetry, also the midpoint of $PR$: $Q=\\left(\\dfrac{2+6}{2},\\dfrac{-7+5}{2}\\right)=(4,-1)$."
+    },
+    {
+      "n": 13,
+      "q": "Let $P\\equiv(-1, 0)$, $Q\\equiv(0, 0)$ and $R\\equiv(3, 3\\sqrt3)$ be three points. The equation of the bisector of the angle $PQR$ is",
+      "options": [
+        "$x+\\sqrt3y=0$",
+        "$\\sqrt3x+y=0$",
+        "$x-\\sqrt3y=0$",
+        "$\\sqrt3x-y=0$"
+      ],
+      "answer": 1,
+      "chapter": "Straight Lines",
+      "explanation": "Unit vectors along $QP$ and $QR$ are $(-1,0)$ and $(1/2,\\sqrt3/2)$; their sum $(-1/2,\\sqrt3/2)$ gives the bisector direction, with slope $-\\sqrt3$, i.e. $\\sqrt3x+y=0$."
+    },
+    {
+      "n": 14,
+      "q": "If $m$ is the slope of one of the lines represented by $ax^2+2hxy+by^2=0$, then $(h+bm)^2=$",
+      "options": [
+        "$h^2+ab$",
+        "$h^2-ab$",
+        "$(a+b)^2$",
+        "$(a-b)^2$"
+      ],
+      "answer": 1,
+      "chapter": "Old syllabus: Pair of Straight Lines",
+      "explanation": "Dividing by $x^2$, $bm^2+2hm+a=0$, so $bm=-h\\pm\\sqrt{h^2-ab}$, giving $(h+bm)^2=h^2-ab$."
+    },
+    {
+      "n": 15,
+      "q": "$\\cot12^\\circ\\cot102^\\circ+\\cot102^\\circ\\cot66^\\circ+\\cot66^\\circ\\cot12^\\circ=$",
+      "options": [
+        "$-1$",
+        "$2$",
+        "$-2$",
+        "$1$"
+      ],
+      "answer": 3,
+      "chapter": "Trigonometric Functions",
+      "explanation": "Since $12^\\circ+102^\\circ+66^\\circ=180^\\circ$, the identity $\\cot A\\cot B+\\cot B\\cot C+\\cot C\\cot A=1$ (for $A+B+C=180^\\circ$) gives the value $1$."
+    },
+    {
+      "n": 16,
+      "q": "$(\\sin\\theta+\\cos\\theta)(\\tan\\theta+\\cot\\theta)=$",
+      "options": [
+        "$\\sec\\theta+\\text{cosec}\\,\\theta$",
+        "$\\sec\\theta\\cdot\\text{cosec}\\,\\theta$",
+        "$\\sin\\theta\\cdot\\cos\\theta$",
+        "$1$"
+      ],
+      "answer": 0,
+      "chapter": "Trigonometric Functions",
+      "explanation": "$\\tan\\theta+\\cot\\theta=\\dfrac{1}{\\sin\\theta\\cos\\theta}$, so the product is $\\dfrac{\\sin\\theta+\\cos\\theta}{\\sin\\theta\\cos\\theta}=\\sec\\theta+\\text{cosec}\\,\\theta$."
+    },
+    {
+      "n": 17,
+      "q": "The sides of a triangle are $6+\\sqrt{12}$, $\\sqrt{48}$ and $\\sqrt{24}$. The tangent of the smallest angle of the triangle is",
+      "options": [
+        "$\\sqrt3$",
+        "$1$",
+        "$\\dfrac{1}{\\sqrt3}$",
+        "$\\sqrt2-1$"
+      ],
+      "answer": 2,
+      "chapter": "Trigonometric Functions",
+      "explanation": "The smallest side is $\\sqrt{24}=2\\sqrt6$; using the cosine rule for the angle opposite it gives $\\cos C=\\sqrt3/2$, so $C=30^\\circ$ and $\\tan C=1/\\sqrt3$."
+    },
+    {
+      "n": 18,
+      "q": "A simple graph contains 24 edges. Degree of each vertex is 3. The number of vertices is",
+      "options": [
+        "21",
+        "16",
+        "8",
+        "12"
+      ],
+      "answer": 1,
+      "chapter": "Old syllabus: Graph Theory",
+      "explanation": "Sum of degrees $=2\\times\\text{edges}=48$; with each vertex of degree 3, the number of vertices is $48/3=16$."
+    },
+    {
+      "n": 19,
+      "q": "$\\displaystyle\\lim_{n\\to\\infty}\\left\\{n\\sin\\dfrac{2\\pi}{3n}\\cdot\\cos\\dfrac{2\\pi}{3n}\\right\\}=$",
+      "options": [
+        "1",
+        "$\\dfrac{\\pi}{3}$",
+        "$\\dfrac{\\pi}{6}$",
+        "$\\dfrac{2\\pi}{3}$"
+      ],
+      "answer": 3,
+      "chapter": "Limits and Derivatives",
+      "explanation": "As $n\\to\\infty$, $n\\sin(2\\pi/3n)\\to 2\\pi/3$ and $\\cos(2\\pi/3n)\\to1$, so the limit is $2\\pi/3$."
+    },
+    {
+      "n": 20,
+      "q": "The function $f(x)=[x]$, where $[x]$ denotes the greatest integer not greater than $x$, is",
+      "options": [
+        "continuous for all real values of $x$.",
+        "continuous only at rational values of $x$.",
+        "continuous for all nonintegral values of $x$.",
+        "continuous only at positive integral values of $x$."
+      ],
+      "answer": 2,
+      "chapter": "Continuity and Differentiability",
+      "explanation": "The greatest integer function has jump discontinuities exactly at integers, so it is continuous everywhere else, i.e. at all nonintegral values of $x$."
+    },
+    {
+      "n": 21,
+      "q": "If $a>b>0$, $\\sec^{-1}\\left(\\dfrac{a+b}{a-b}\\right)=2\\sin^{-1}x$, then $x=$",
+      "options": [
+        "$-\\sqrt{\\dfrac{a}{a+b}}$",
+        "$\\sqrt{\\dfrac{a}{a+b}}$",
+        "$-\\sqrt{\\dfrac{b}{a+b}}$",
+        "$\\sqrt{\\dfrac{b}{a+b}}$"
+      ],
+      "answer": 3,
+      "chapter": "Inverse Trigonometric Functions",
+      "explanation": "With $\\theta=\\sin^{-1}x$, $\\cos2\\theta=1-2x^2=\\dfrac{a-b}{a+b}$, giving $x^2=\\dfrac{b}{a+b}$; since $2\\theta\\in[0,\\pi/2)$, $x$ is positive, so $x=\\sqrt{b/(a+b)}$."
+    },
+    {
+      "n": 22,
+      "q": "If $x\\ne n\\pi$, $x\\ne(2n+1)\\dfrac{\\pi}{2}$, $n\\in Z$, then $\\dfrac{\\sin^{-1}(\\cos x)+\\cos^{-1}(\\sin x)}{\\tan^{-1}(\\cot x)+\\cot^{-1}(\\tan x)}=$",
+      "options": [
+        "$\\dfrac{\\pi}{4}$",
+        "$\\dfrac{\\pi}{3}$",
+        "$\\dfrac{\\pi}{2}$",
+        "$\\dfrac{\\pi}{6}$"
+      ],
+      "answer": 0,
+      "chapter": "Inverse Trigonometric Functions",
+      "grace": true,
+      "explanation": "For $x\\in(0,\\pi/2)$ each term equals $\\pi/2-x$, so the ratio simplifies to $(\\pi-2x)/(\\pi-2x)=1$, which is not among the listed options; KEA awarded a grace mark to everyone for this question (as per KEA key), so no option is truly correct."
+    },
+    {
+      "n": 23,
+      "q": "The general solution of $1+\\sin^2x=3\\sin x\\cdot\\cos x$, $\\tan x\\ne\\dfrac{1}{2}$ is",
+      "options": [
+        "$n\\pi-\\dfrac{\\pi}{4}$, $n\\in Z$",
+        "$n\\pi+\\dfrac{\\pi}{4}$, $n\\in Z$",
+        "$2n\\pi+\\dfrac{\\pi}{4}$, $n\\in Z$",
+        "$2n\\pi-\\dfrac{\\pi}{4}$, $n\\in Z$"
+      ],
+      "answer": 1,
+      "chapter": "Trigonometric Functions",
+      "explanation": "Dividing by $\\cos^2x$ gives $2\\tan^2x-3\\tan x+1=0$, i.e. $\\tan x=1/2$ or $1$; excluding $1/2$, $\\tan x=1$ gives $x=n\\pi+\\pi/4$."
+    },
+    {
+      "n": 24,
+      "q": "The least positive integer $n$, for which $\\dfrac{(1+i)^n}{(1-i)^{n-2}}$ is positive, is",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "answer": 0,
+      "chapter": "Complex Numbers and Quadratic Equations",
+      "explanation": "Since $(1-i)^2=-2i$ and $(1+i)/(1-i)=i$, the expression equals $-2i^{n+1}$; at $n=1$ this is $-2i^2=2$, a positive real number, so the least such $n$ is $1$."
+    },
+    {
+      "n": 25,
+      "q": "If $x+iy=(-1+i\\sqrt3)^{2010}$, then $x=$",
+      "options": [
+        "1",
+        "$-1$",
+        "$-2^{2010}$",
+        "$2^{2010}$"
+      ],
+      "answer": 3,
+      "chapter": "Complex Numbers and Quadratic Equations",
+      "explanation": "$-1+i\\sqrt3=2\\,\\text{cis}(120^\\circ)$, so raising to the $2010$th power gives $2^{2010}\\text{cis}(2010\\times120^\\circ)=2^{2010}\\text{cis}(0^\\circ)=2^{2010}$, purely real."
+    },
+    {
+      "n": 26,
+      "q": "The greatest value of $x$ satisfying $21\\equiv385\\ (\\text{mod}\\ x)$ and $587\\equiv167\\ (\\text{mod}\\ x)$ is",
+      "options": [
+        "28",
+        "56",
+        "156",
+        "32"
+      ],
+      "answer": 0,
+      "chapter": "Old syllabus: Number Theory (Congruences)",
+      "explanation": "$x$ must divide $385-21=364=2^2\\cdot7\\cdot13$ and $587-167=420=2^2\\cdot3\\cdot5\\cdot7$; their GCD is $28$."
+    },
+    {
+      "n": 27,
+      "q": "The number $(49^2-4)(49^3-49)$ is divisible by",
+      "options": [
+        "$6!$",
+        "$5!$",
+        "$7!$",
+        "$9!$"
+      ],
+      "answer": 0,
+      "alsoCorrect": [
+        1,
+        2
+      ],
+      "chapter": "Permutations and Combinations",
+      "explanation": "$49^2-4=47\\times51$ and $49^3-49=49\\times48\\times50$, so the product is $47\\times51\\times49\\times48\\times50=281887200$, which is exactly divisible by $6!=720$, $5!=120$ and $7!=5040$, but not by $9!$."
+    },
+    {
+      "n": 28,
+      "q": "The least positive integer $x$ satisfying $2^{2010}\\equiv3x\\ (\\text{mod}\\ 5)$ is",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "answer": 2,
+      "chapter": "Old syllabus: Number Theory (Congruences)",
+      "explanation": "Powers of $2$ mod $5$ cycle with period $4$; since $2010\\equiv2\\pmod4$, $2^{2010}\\equiv2^2\\equiv4\\pmod5$. Then $3x\\equiv4\\pmod5$ gives $x=3$."
+    },
+    {
+      "n": 29,
+      "q": "If $A$ and $B$ are two square matrices of the same order such that $AB=B$ and $BA=A$, then $A^2+B^2$ is always equal to",
+      "options": [
+        "$2AB$",
+        "$2BA$",
+        "$I$",
+        "$A+B$"
+      ],
+      "answer": 3,
+      "chapter": "Matrices",
+      "explanation": "Since $A=BA$, $A^2=A\\cdot A=(AB)A=B(A A)$... more directly $A^2=A(BA)=(AB)A=BA=A$, and similarly $B^2=B(AB)=(BA)B=AB=B$, so $A^2+B^2=A+B$."
+    },
+    {
+      "n": 30,
+      "q": "If $A$ is a $3\\times3$ nonsingular matrix and if $|A|=3$, then $|(2A)^{-1}|=$",
+      "options": [
+        "$\\dfrac{1}{3}$",
+        "$\\dfrac{1}{24}$",
+        "24",
+        "3"
+      ],
+      "answer": 1,
+      "chapter": "Determinants",
+      "explanation": "$|2A|=2^3|A|=8\\times3=24$, so $|(2A)^{-1}|=1/24$."
+    },
+    {
+      "n": 31,
+      "q": "If $A=\\begin{bmatrix}3 & 2\\\\ 1 & 1\\end{bmatrix}$, then $A^2+xA+yI=0$ for $(x, y)=$",
+      "options": [
+        "$(4, -1)$",
+        "$(1, 3)$",
+        "$(-4, 1)$",
+        "$(-1, 3)$"
+      ],
+      "answer": 2,
+      "chapter": "Matrices",
+      "explanation": "By the Cayley-Hamilton theorem, $A$ satisfies $\\lambda^2-(\\text{trace})\\lambda+|A|=0$, i.e. $A^2-4A+I=0$, so $(x,y)=(-4,1)$."
+    },
+    {
+      "n": 32,
+      "q": "The constant term of the polynomial $\\begin{vmatrix}x+3 & x & x+2\\\\ x & x+1 & x-1\\\\ x+2 & 2x & 3x+1\\end{vmatrix}$ is",
+      "options": [
+        "$-1$",
+        "1",
+        "0",
+        "2"
+      ],
+      "answer": 0,
+      "chapter": "Determinants",
+      "explanation": "The constant term is the determinant's value at $x=0$: $\\begin{vmatrix}3&0&2\\\\0&1&-1\\\\2&0&1\\end{vmatrix}=3(1)-0+2(-2)=-1$."
+    },
+    {
+      "n": 33,
+      "q": "If $\\vec a$, $\\vec b$ and $\\vec c$ are nonzero coplanar vectors, then $\\left[2\\vec a-\\vec b\\ \\ 3\\vec b-\\vec c\\ \\ 4\\vec c-\\vec a\\right]=$",
+      "options": [
+        "27",
+        "9",
+        "25",
+        "0"
+      ],
+      "answer": 3,
+      "chapter": "Vector Algebra",
+      "explanation": "Since $\\vec a,\\vec b,\\vec c$ are coplanar, every linear combination of them also lies in that plane, so the scalar triple product of any three such combinations is always $0$."
+    },
+    {
+      "n": 34,
+      "q": "A space vector makes the angles $150^\\circ$ and $60^\\circ$ with the positive direction of X- and Y-axes. The angle made by the vector with the positive direction of Z-axis is",
+      "options": [
+        "$180^\\circ$",
+        "$120^\\circ$",
+        "$90^\\circ$",
+        "$60^\\circ$"
+      ],
+      "answer": 2,
+      "chapter": "Vector Algebra",
+      "explanation": "Using $\\cos^2150^\\circ+\\cos^260^\\circ+\\cos^2\\gamma=1$: $3/4+1/4+\\cos^2\\gamma=1$, so $\\cos\\gamma=0$, i.e. $\\gamma=90^\\circ$."
+    },
+    {
+      "n": 35,
+      "q": "If $\\vec a$, $\\vec b$ and $\\vec c$ are unit vectors, such that $\\vec a+\\vec b+\\vec c=\\vec 0$, then $3\\vec a\\cdot\\vec b+2\\vec b\\cdot\\vec c+\\vec c\\cdot\\vec a=$",
+      "options": [
+        "$-3$",
+        "3",
+        "$-1$",
+        "1"
+      ],
+      "answer": 0,
+      "chapter": "Vector Algebra",
+      "explanation": "By symmetry the three unit vectors are mutually at $120^\\circ$, so each dot product equals $-1/2$; then $3(-1/2)+2(-1/2)+(-1/2)=-3$."
+    },
+    {
+      "n": 36,
+      "q": "If $i, j, k$ are unit vectors along the positive direction of X-, Y- and Z-axes, then a FALSE statement in the following is",
+      "options": [
+        "$\\sum i\\cdot(j\\times k)=0$",
+        "$\\sum i\\cdot(j+k)=0$",
+        "$\\sum i\\times(j+k)=\\vec0$",
+        "$\\sum i\\times(j\\times k)=\\vec0$"
+      ],
+      "answer": 0,
+      "chapter": "Vector Algebra",
+      "explanation": "The cyclic sum $i\\cdot(j\\times k)+j\\cdot(k\\times i)+k\\cdot(i\\times j)=1+1+1=3\\ne0$, so statement 1 is false; the other three cyclic sums correctly evaluate to $0$."
+    },
+    {
+      "n": 37,
+      "q": "In $P(X)$, the power set of a nonempty set $X$, a binary operation $*$ is defined by $A*B=A\\cup B\\ \\forall\\ A, B\\in P(X)$. Under $*$, a TRUE statement is",
+      "options": [
+        "commutative law is not satisfied.",
+        "associative law is not satisfied.",
+        "identity law is not satisfied.",
+        "inverse law is not satisfied."
+      ],
+      "answer": 3,
+      "chapter": "Old syllabus: Binary Operations",
+      "explanation": "Union is commutative and associative, and $\\emptyset$ acts as the identity; but no set other than $\\emptyset$ has an inverse under union, so the inverse law fails."
+    },
+    {
+      "n": 38,
+      "q": "The inverse of 2010 in the group $Q^+$ of all positive rationals under the binary operation $*$ defined by $a*b=\\dfrac{ab}{2010}$, $\\forall\\ a, b\\in Q^+$, is",
+      "options": [
+        "1",
+        "2010",
+        "2009",
+        "2011"
+      ],
+      "answer": 1,
+      "chapter": "Old syllabus: Binary Operations",
+      "explanation": "The identity element $e$ satisfies $ae/2010=a$, so $e=2010$; since $2010$ is itself the identity, it is its own inverse."
+    },
+    {
+      "n": 39,
+      "q": "If the three functions $f(x)$, $g(x)$ and $h(x)$ are such that $h(x)=f(x)\\cdot g(x)$ and $f'(x)\\cdot g'(x)=c$, where $c$ is a constant, then $\\dfrac{f''(x)}{f(x)}+\\dfrac{g''(x)}{g(x)}+\\dfrac{2c}{f(x)\\cdot g(x)}$ is equal to",
+      "options": [
+        "$\\dfrac{h''(x)}{h(x)}$",
+        "$\\dfrac{h(x)}{h'(x)}$",
+        "$h'(x)\\cdot h''(x)$",
+        "$\\dfrac{h(x)}{h''(x)}$"
+      ],
+      "answer": 0,
+      "chapter": "Continuity and Differentiability",
+      "explanation": "$h''=f''g+2f'g'+fg''=f''g+fg''+2c$; dividing by $h=fg$ gives exactly the given expression, so it equals $h''(x)/h(x)$."
+    },
+    {
+      "n": 40,
+      "q": "The derivative of $e^{ax}\\cos bx$ with respect to $x$ is $re^{ax}\\cos\\left(bx+\\tan^{-1}\\dfrac{b}{a}\\right)$. When $a>0, b>0$, the value of $r$ is",
+      "options": [
+        "$ab$",
+        "$a+b$",
+        "$\\sqrt{a^2+b^2}$",
+        "$\\dfrac{1}{\\sqrt{ab}}$"
+      ],
+      "answer": 2,
+      "chapter": "Continuity and Differentiability",
+      "explanation": "$\\dfrac{d}{dx}(e^{ax}\\cos bx)=e^{ax}(a\\cos bx-b\\sin bx)$, which can be written as $\\sqrt{a^2+b^2}\\,e^{ax}\\cos(bx+\\tan^{-1}(b/a))$, so $r=\\sqrt{a^2+b^2}$."
+    },
+    {
+      "n": 41,
+      "q": "If $x=a\\cos^3\\theta$ and $y=a\\sin^3\\theta$, then $\\dfrac{dy}{dx}=$",
+      "options": [
+        "$-\\sqrt[3]{\\dfrac{x}{y}}$",
+        "$-\\sqrt[3]{\\dfrac{y}{x}}$",
+        "$\\sqrt[3]{\\dfrac{y}{x}}$",
+        "$\\sqrt[3]{\\dfrac{x}{y}}$"
+      ],
+      "answer": 1,
+      "chapter": "Continuity and Differentiability",
+      "explanation": "$\\dfrac{dy}{dx}=\\dfrac{3a\\sin^2\\theta\\cos\\theta}{-3a\\cos^2\\theta\\sin\\theta}=-\\tan\\theta=-\\sqrt[3]{y/x}$, using $\\sin\\theta=(y/a)^{1/3}$, $\\cos\\theta=(x/a)^{1/3}$."
+    },
+    {
+      "n": 42,
+      "q": "If $y=\\tan^{-1}\\sqrt{x^2-1}$, then the ratio $\\dfrac{d^2y}{dx^2}:\\dfrac{dy}{dx}=$",
+      "options": [
+        "$\\dfrac{1+2x^2}{x(x^2+1)}$",
+        "$\\dfrac{x(x^2+1)}{1-2x^2}$",
+        "$\\dfrac{x(x^2-1)}{1+2x^2}$",
+        "$\\dfrac{1-2x^2}{x(x^2-1)}$"
+      ],
+      "answer": 3,
+      "chapter": "Continuity and Differentiability",
+      "explanation": "$\\dfrac{dy}{dx}=\\dfrac{1}{x\\sqrt{x^2-1}}$ and $\\dfrac{d^2y}{dx^2}=-\\dfrac{2x^2-1}{x^2(x^2-1)^{3/2}}$; their ratio simplifies to $\\dfrac{1-2x^2}{x(x^2-1)}$."
+    },
+    {
+      "n": 43,
+      "q": "$P$ is the point of contact of the tangent from the origin to the curve $y=\\log_e x$. The length of the perpendicular drawn from the origin to the normal at $P$ is",
+      "options": [
+        "$2\\sqrt{e^2+1}$",
+        "$\\sqrt{e^2+1}$",
+        "$\\dfrac{1}{2e}$",
+        "$\\dfrac{1}{e}$"
+      ],
+      "answer": 1,
+      "chapter": "Application of Derivatives",
+      "explanation": "The tangent from the origin touches at $P=(e,1)$ (since the tangent line $y-\\ln x_0=(x-x_0)/x_0$ passes through the origin only when $x_0=e$); the normal there is $ex+y-(e^2+1)=0$, whose distance from the origin is $\\sqrt{e^2+1}$."
+    },
+    {
+      "n": 44,
+      "q": "For the curve $4x^5=5y^4$, the ratio of the cube of the subtangent at a point on the curve to the square of the subnormal at the same point is",
+      "options": [
+        "$\\left(\\dfrac{4}{5}\\right)^4$",
+        "$\\left(\\dfrac{5}{4}\\right)^4$",
+        "$x\\left(\\dfrac{4}{5}\\right)^4$",
+        "$y\\left(\\dfrac{5}{4}\\right)^4$"
+      ],
+      "answer": 0,
+      "chapter": "Application of Derivatives",
+      "explanation": "With $y'=x^4/y^3$, the subtangent is $y^4/x^4$ and the subnormal is $x^4/y^2$; using $y^4=(4/5)x^5$, the ratio (subtangent)$^3$/(subnormal)$^2$ simplifies to $(4/5)^4$."
+    },
+    {
+      "n": 45,
+      "q": "The set of real values of $x$ for which $f(x)=\\dfrac{x}{\\log x}$ is increasing, is",
+      "options": [
+        "$\\{x:x<e\\}$",
+        "$\\{1\\}$",
+        "$\\{x:x\\ge e\\}$",
+        "empty"
+      ],
+      "answer": 2,
+      "chapter": "Application of Derivatives",
+      "explanation": "$f'(x)=\\dfrac{\\log x-1}{(\\log x)^2}\\ge0$ requires $\\log x\\ge1$, i.e. $x\\ge e$."
+    },
+    {
+      "n": 46,
+      "q": "A wire of length 20 cm is bent in the form of a sector of a circle. The maximum area that can be enclosed by the wire is",
+      "options": [
+        "10 sq. cm",
+        "30 sq. cm",
+        "20 sq. cm",
+        "25 sq. cm"
+      ],
+      "answer": 3,
+      "chapter": "Application of Derivatives",
+      "explanation": "With perimeter $2r+r\\theta=20$, area $A=10r-r^2$; maximizing gives $r=5$ and $A=25$ sq. cm."
+    },
+    {
+      "n": 47,
+      "q": "Two circles centered at $(2, 3)$ and $(5, 6)$ intersect each other. If the radii are equal, the equation of the common chord is",
+      "options": [
+        "$x+y-8=0$",
+        "$x-y-8=0$",
+        "$x+y+1=0$",
+        "$x-y+1=0$"
+      ],
+      "answer": 0,
+      "chapter": "Conic Sections",
+      "explanation": "For equal radii, the common chord is the perpendicular bisector of the segment joining the centres; its midpoint is $(3.5,4.5)$ and it has slope $-1$, giving $x+y-8=0$."
+    },
+    {
+      "n": 48,
+      "q": "Equation of the circle centered at $(4, 3)$ touching the circle $x^2+y^2=1$ externally, is",
+      "options": [
+        "$x^2+y^2+8x-6y+9=0$",
+        "$x^2+y^2-8x+6y+9=0$",
+        "$x^2+y^2-8x-6y+9=0$",
+        "$x^2+y^2+8x+6y+9=0$"
+      ],
+      "answer": 2,
+      "chapter": "Conic Sections",
+      "explanation": "Distance between centres $=5$; for external tangency the new radius is $5-1=4$, giving $(x-4)^2+(y-3)^2=16$, i.e. $x^2+y^2-8x-6y+9=0$."
+    },
+    {
+      "n": 49,
+      "q": "The points $(1, 0)$, $(0, 1)$, $(0, 0)$ and $(2k, 3k)$, $k\\ne0$ are concyclic if $k=$",
+      "options": [
+        "$-\\dfrac{5}{13}$",
+        "$\\dfrac{5}{13}$",
+        "$\\dfrac{1}{5}$",
+        "$-\\dfrac{1}{5}$"
+      ],
+      "answer": 1,
+      "chapter": "Conic Sections",
+      "explanation": "The circle through $(0,0),(1,0),(0,1)$ is $x^2+y^2-x-y=0$; substituting $(2k,3k)$ gives $13k^2-5k=0$, so $k=5/13$ (excluding $k=0$)."
+    },
+    {
+      "n": 50,
+      "q": "The locus of the point of intersection of the tangents drawn at the ends of a focal chord of the parabola $x^2=-8y$ is",
+      "options": [
+        "$y=2$",
+        "$y=-2$",
+        "$x=2$",
+        "$x=-2$"
+      ],
+      "answer": 0,
+      "chapter": "Conic Sections",
+      "explanation": "The locus of intersection of tangents at the ends of a focal chord is the directrix; for $x^2=-8y$ ($4a=8$), the directrix is $y=2$."
+    },
+    {
+      "n": 51,
+      "q": "The condition for the line $y=mx+c$ to be a normal to the parabola $y^2=4ax$ is",
+      "options": [
+        "$c=\\dfrac{a}{m}$",
+        "$c=2am+am^3$",
+        "$c=-2am-am^3$",
+        "$c=-\\dfrac{a}{m}$"
+      ],
+      "answer": 2,
+      "chapter": "Conic Sections",
+      "explanation": "The standard condition for $y=mx+c$ to be a normal to $y^2=4ax$ is $c=-2am-am^3$."
+    },
+    {
+      "n": 52,
+      "q": "The eccentric angle of the point $(2, \\sqrt3)$ lying on $\\dfrac{x^2}{16}+\\dfrac{y^2}{4}=1$ is",
+      "options": [
+        "$\\dfrac{\\pi}{3}$",
+        "$\\dfrac{\\pi}{6}$",
+        "$\\dfrac{\\pi}{4}$",
+        "$\\dfrac{\\pi}{2}$"
+      ],
+      "answer": 0,
+      "chapter": "Conic Sections",
+      "explanation": "With $x=4\\cos\\theta$, $y=2\\sin\\theta$: $\\cos\\theta=1/2$ and $\\sin\\theta=\\sqrt3/2$, so $\\theta=\\pi/3$."
+    },
+    {
+      "n": 53,
+      "q": "The distance of the focus of $x^2-y^2=4$, from the directrix which is nearer to it, is",
+      "options": [
+        "$2\\sqrt2$",
+        "$\\sqrt2$",
+        "$4\\sqrt2$",
+        "$8\\sqrt2$"
+      ],
+      "answer": 1,
+      "chapter": "Conic Sections",
+      "explanation": "Here $a=b=2$, $e=\\sqrt2$; the focus is at $ae=2\\sqrt2$ and the nearer directrix at $a/e=\\sqrt2$, so the distance between them is $\\sqrt2$."
+    },
+    {
+      "n": 54,
+      "q": "If $\\displaystyle\\int f(x)\\sin x\\cdot\\cos x\\,dx=\\dfrac{1}{2(b^2-a^2)}\\log f(x)+c$, where $c$ is the constant of integration, then $f(x)=$",
+      "options": [
+        "$\\dfrac{2}{ab\\sin2x}$",
+        "$\\dfrac{2}{(b^2-a^2)\\sin2x}$",
+        "$\\dfrac{2}{ab\\cos2x}$",
+        "$\\dfrac{2}{(b^2-a^2)\\cos2x}$"
+      ],
+      "answer": 3,
+      "chapter": "Integrals",
+      "explanation": "Differentiating both sides gives $f'(x)/f(x)^2=(b^2-a^2)\\sin2x$; integrating, $-1/f(x)=-\\dfrac{(b^2-a^2)}{2}\\cos2x$, so $f(x)=\\dfrac{2}{(b^2-a^2)\\cos2x}$."
+    },
+    {
+      "n": 55,
+      "q": "If $\\displaystyle\\int\\dfrac{\\sqrt x}{x(x+1)}dx=k\\tan^{-1}m$, then $(k, m)$ is",
+      "options": [
+        "$(1, \\sqrt x)$",
+        "$(2, \\sqrt x)$",
+        "$(2, x)$",
+        "$(1, x)$"
+      ],
+      "answer": 1,
+      "chapter": "Integrals",
+      "explanation": "Substituting $x=t^2$ turns the integral into $\\int\\dfrac{2}{t^2+1}dt=2\\tan^{-1}t+C=2\\tan^{-1}\\sqrt x+C$, so $(k,m)=(2,\\sqrt x)$."
+    },
+    {
+      "n": 56,
+      "q": "$\\displaystyle\\int_0^{\\pi/4}\\dfrac{\\sin x+\\cos x}{3+\\sin2x}dx=$",
+      "options": [
+        "$\\dfrac{1}{2}\\log3$",
+        "$2\\log3$",
+        "$\\dfrac{1}{4}\\log3$",
+        "$\\log3$"
+      ],
+      "answer": 2,
+      "chapter": "Integrals",
+      "explanation": "With $t=\\sin x-\\cos x$, $3+\\sin2x=4-t^2$; the limits become $t=-1$ to $t=0$, giving $\\int\\dfrac{dt}{4-t^2}=\\dfrac{1}{4}\\log3$."
+    },
+    {
+      "n": 57,
+      "q": "$\\displaystyle\\int_0^1 x(1-x)^{3/2}dx=$",
+      "options": [
+        "$\\dfrac{24}{35}$",
+        "$-\\dfrac{8}{35}$",
+        "$-\\dfrac{2}{35}$",
+        "$\\dfrac{4}{35}$"
+      ],
+      "answer": 3,
+      "chapter": "Integrals",
+      "explanation": "Using the Beta function, $\\displaystyle\\int_0^1x(1-x)^{3/2}dx=B(2,5/2)=\\dfrac{\\Gamma(2)\\Gamma(5/2)}{\\Gamma(9/2)}=\\dfrac{4}{35}$."
+    },
+    {
+      "n": 58,
+      "q": "The area bounded by the curve $y=\\begin{cases}x^2, & x<0\\\\ x, & x\\ge0\\end{cases}$ and the line $y=4$ is",
+      "options": [
+        "$\\dfrac{40}{3}$",
+        "$\\dfrac{16}{3}$",
+        "$\\dfrac{32}{3}$",
+        "$\\dfrac{8}{3}$"
+      ],
+      "answer": 0,
+      "chapter": "Application of Integrals",
+      "explanation": "For $x<0$: $\\int_{-2}^0(4-x^2)dx=16/3$. For $x\\ge0$: $\\int_0^4(4-x)dx=8$. Total area $=16/3+8=40/3$."
+    },
+    {
+      "n": 59,
+      "q": "The order and degree of the differential equation $y=\\dfrac{dp}{dx}x+\\sqrt{a^2p^2+b^2}$ where $p=\\dfrac{dy}{dx}$ (here $a$ and $b$ are arbitrary constants) respectively are",
+      "options": [
+        "1, 2",
+        "2, 1",
+        "2, 2",
+        "1, 1"
+      ],
+      "answer": 2,
+      "chapter": "Differential Equations",
+      "explanation": "$dp/dx=d^2y/dx^2$, so the order is 2; isolating and squaring the radical, $(y-xp')^2=a^2p^2+b^2$, makes the highest derivative appear squared, so the degree is also 2."
+    },
+    {
+      "n": 60,
+      "q": "The general solution of the differential equation $2x\\dfrac{dy}{dx}-y=3$ is a family of",
+      "options": [
+        "straight lines",
+        "circles",
+        "hyperbolas",
+        "parabolas"
+      ],
+      "answer": 3,
+      "chapter": "Differential Equations",
+      "explanation": "Solving the linear equation gives $y=C\\sqrt x-3$, i.e. $(y+3)^2=C^2x$, which represents a family of parabolas."
+    }
+  ]
+}

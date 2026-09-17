@@ -1,0 +1,525 @@
+{
+  "notes": "<h3>Pressure</h3><ul><li>Pressure $P = F/A$ (Pa = N m$^{-2}$). Pressure at depth $h$ in a fluid of density $\\rho$: $P = P_0 + \\rho g h$.</li><li>Pascal's law: pressure applied at any point of an enclosed incompressible fluid is transmitted equally in all directions. Hydraulic lift: $\\dfrac{F_1}{A_1} = \\dfrac{F_2}{A_2}$.</li><li>Atmospheric pressure $= 1.013\\times10^5$ Pa $=76$ cm of Hg.</li></ul><h3>Buoyancy</h3><ul><li>Archimedes' principle: upthrust $= $ weight of fluid displaced $= V_{sub}\\rho_{fluid}\\,g$.</li><li>A body floats when average density $\\le$ fluid density; fraction submerged $= \\rho_{body}/\\rho_{fluid}$.</li></ul><h3>Fluid flow</h3><table><tr><th>Quantity</th><th>Relation</th></tr><tr><td>Equation of continuity</td><td>$A_1v_1 = A_2v_2$ (mass conservation, incompressible)</td></tr><tr><td>Bernoulli's theorem</td><td>$P + \\dfrac12\\rho v^2 + \\rho gh = \\text{constant}$ (energy conservation along a streamline)</td></tr><tr><td>Torricelli / speed of efflux</td><td>$v = \\sqrt{2gh}$</td></tr><tr><td>Venturimeter</td><td>speed$\\uparrow$ $\\Rightarrow$ pressure$\\downarrow$ (narrow section)</td></tr></table><h3>Viscosity</h3><ul><li>Newton's law: viscous force $F = \\eta A \\dfrac{dv}{dx}$; SI unit of $\\eta$ is poiseuille (Pa s).</li><li>Stokes' law: viscous drag on a sphere $F = 6\\pi\\eta r v$.</li><li>Terminal velocity: $v_t = \\dfrac{2r^2(\\rho-\\sigma)g}{9\\eta}$ ($\\rho$ = density of sphere, $\\sigma$ = density of fluid). Reached when weight $=$ upthrust $+$ viscous drag.</li><li>Reynolds number $R_e = \\rho vd/\\eta$: laminar flow for $R_e < 1000$, turbulent above $\\sim2000$.</li></ul><h3>Surface tension</h3><ul><li>$T = F/l$ (N m$^{-1}$) $=$ surface energy per unit area (J m$^{-2}$).</li><li>Excess pressure inside a liquid drop/bubble in air: $\\Delta P = 2T/r$; inside a soap bubble (two surfaces): $\\Delta P = 4T/r$.</li><li>Capillary rise: $h = \\dfrac{2T\\cos\\theta}{\\rho g r}$; $\\theta$ = angle of contact (0° for water-glass, obtuse for mercury-glass, which is why mercury depresses in a capillary).</li><li>Surface tension decreases with rise in temperature and with addition of detergent/impurity (usually).</li></ul><h3>Exam tip</h3><p>KCET typically sets 2 questions from this chapter, usually one numerical on viscosity/terminal velocity or Bernoulli's equation and one on surface tension/capillarity. Memorise the $2T/r$ vs $4T/r$ distinction and the terminal velocity formula — they are asked almost every year.</p>",
+  "questions": [
+    {
+      "id": "phy-mechanical-properties-of-fluids-001",
+      "q": "The pressure at a depth of 5 m below the free surface of water (density 1000 kg m$^{-3}$) in excess of atmospheric pressure is (g = 10 m s$^{-2}$)",
+      "options": [
+        "$5\\times10^5$ Pa",
+        "$5\\times10^3$ Pa",
+        "$5\\times10^2$ Pa",
+        "$5\\times10^4$ Pa"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "$P = \\rho gh = 1000\\times10\\times5 = 5\\times10^4$ Pa."
+    },
+    {
+      "id": "phy-mechanical-properties-of-fluids-002",
+      "q": "In a hydraulic lift, the smaller piston has area 5 cm$^2$ and the larger piston has area 500 cm$^2$. A force of 50 N applied on the smaller piston supports a load of",
+      "options": [
+        "5 N",
+        "5000 N",
+        "50 N",
+        "500 N"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "$F_2 = F_1\\dfrac{A_2}{A_1} = 50\\times\\dfrac{500}{5} = 5000$ N."
+    },
+    {
+      "id": "phy-mechanical-properties-of-fluids-003",
+      "q": "A block of wood of density 600 kg m$^{-3}$ floats in water of density 1000 kg m$^{-3}$. The fraction of its volume above the water surface is",
+      "options": [
+        "0.4",
+        "0.5",
+        "0.3",
+        "0.6"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "Fraction submerged $= \\rho_{body}/\\rho_{fluid} = 0.6$, so fraction above $= 1-0.6 = 0.4$."
+    },
+    {
+      "id": "phy-mechanical-properties-of-fluids-004",
+      "q": "Water flows through a horizontal pipe of varying cross-section. At a point where the area is 4 cm$^2$, the speed is 3 m s$^{-1}$. The speed at a point where the area is 2 cm$^2$ is",
+      "options": [
+        "1.5 m s$^{-1}$",
+        "3 m s$^{-1}$",
+        "6 m s$^{-1}$",
+        "12 m s$^{-1}$"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "Equation of continuity: $A_1v_1 = A_2v_2 \\Rightarrow v_2 = 4\\times3/2 = 6$ m s$^{-1}$."
+    },
+    {
+      "id": "phy-mechanical-properties-of-fluids-005",
+      "q": "Water stored in a tank up to a height $H$ escapes through a small hole at the bottom. The speed of efflux is",
+      "options": [
+        "$\\sqrt{gH}$",
+        "$gH$",
+        "$2\\sqrt{gH}$",
+        "$\\sqrt{2gH}$"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "By Bernoulli's theorem (Torricelli's law), $v = \\sqrt{2gH}$."
+    },
+    {
+      "id": "phy-mechanical-properties-of-fluids-006",
+      "q": "According to Bernoulli's theorem, at a constriction in a horizontal pipe where the fluid speed increases, the pressure",
+      "options": [
+        "decreases",
+        "increases",
+        "remains constant",
+        "first increases then decreases"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "For horizontal flow $P + \\tfrac12\\rho v^2 = $ constant; higher $v$ means lower $P$ (this is the principle used in a venturimeter and carburettor)."
+    },
+    {
+      "id": "phy-mechanical-properties-of-fluids-007",
+      "q": "A metal sphere of radius $r$ falls through a viscous liquid and attains terminal velocity $v_t$. If the radius is doubled (same materials), the new terminal velocity is",
+      "options": [
+        "$2v_t$",
+        "$v_t/4$",
+        "$4v_t$",
+        "$v_t$"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "$v_t \\propto r^2$, so doubling $r$ makes $v_t$ four times."
+    },
+    {
+      "id": "phy-mechanical-properties-of-fluids-008",
+      "q": "A raindrop of radius 1 mm falls through air. Given the terminal velocity depends on $2r^2(\\rho-\\sigma)g/9\\eta$, if the density of air is neglected compared to water, terminal velocity is proportional to",
+      "options": [
+        "$1/r^2$",
+        "$r^2$",
+        "$1/r$",
+        "$r$"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "From the Stokes' law terminal velocity formula, $v_t \\propto r^2$ when all other quantities are fixed."
+    },
+    {
+      "id": "phy-mechanical-properties-of-fluids-009",
+      "q": "The excess pressure inside a soap bubble of radius $r$ and surface tension $T$ is",
+      "options": [
+        "$8T/r$",
+        "$4T/r$",
+        "$2T/r$",
+        "$T/r$"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "A soap bubble has two free surfaces (inner and outer film surfaces), so $\\Delta P = 4T/r$, unlike a liquid drop which has only one surface ($2T/r$)."
+    },
+    {
+      "id": "phy-mechanical-properties-of-fluids-010",
+      "q": "Two soap bubbles of radii 3 cm and 4 cm (same liquid) coalesce under isothermal conditions to form a single bubble. The radius of the new bubble is",
+      "options": [
+        "5 cm",
+        "3.5 cm",
+        "7 cm",
+        "12 cm"
+      ],
+      "answer": 0,
+      "difficulty": "hard",
+      "explanation": "Surface energy is conserved: $r^2 = r_1^2+r_2^2$ (since $\\Delta P\\cdot dV$ work argument gives $r_1^2+r_2^2=r^2$ for bubbles) $=9+16=25 \\Rightarrow r=5$ cm."
+    },
+    {
+      "id": "phy-mechanical-properties-of-fluids-011",
+      "q": "Water rises to a height of 4 cm in a capillary tube of radius $r$. If the radius is doubled, the new height of rise is",
+      "options": [
+        "16 cm",
+        "4 cm",
+        "8 cm",
+        "2 cm"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "$h = \\dfrac{2T\\cos\\theta}{\\rho g r} \\propto \\dfrac1r$; doubling $r$ halves $h$ to 2 cm."
+    },
+    {
+      "id": "phy-mechanical-properties-of-fluids-012",
+      "q": "Mercury does not wet glass and shows a depression in a capillary tube because the angle of contact for mercury-glass is",
+      "options": [
+        "acute (less than 90°)",
+        "exactly 90°",
+        "obtuse (greater than 90°)",
+        "zero"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "Mercury-glass has an obtuse angle of contact ($\\approx 140^\\circ$), which makes $\\cos\\theta$ negative, giving depression instead of rise."
+    },
+    {
+      "id": "phy-mechanical-properties-of-fluids-013",
+      "q": "The surface tension of a liquid, in general, ______ as its temperature increases.",
+      "options": [
+        "decreases",
+        "first increases then decreases sharply",
+        "increases",
+        "remains unchanged"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "Molecular attraction weakens with rising temperature, so surface tension decreases (it becomes zero at the critical temperature)."
+    },
+    {
+      "id": "phy-mechanical-properties-of-fluids-014",
+      "q": "A liquid drop of radius $R$ splits into 8 identical smaller drops. Given surface energy $=T\\times$ surface area, the surface energy of the system",
+      "options": [
+        "becomes four times the original",
+        "remains the same",
+        "becomes twice the original",
+        "decreases to half"
+      ],
+      "answer": 2,
+      "difficulty": "hard",
+      "explanation": "Volume conservation: $R^3 = 8r^3 \\Rightarrow r=R/2$. Total new area $=8(4\\pi r^2)=8\\times4\\pi (R/2)^2=8\\pi R^2$, which is $2\\times$ the original area $4\\pi R^2$, so surface energy doubles."
+    },
+    {
+      "id": "phy-mechanical-properties-of-fluids-015",
+      "q": "A fluid flowing through a tube of non-uniform cross-section obeys the equation of continuity $Av=$ constant. This follows directly from conservation of",
+      "options": [
+        "energy",
+        "mass",
+        "angular momentum",
+        "momentum"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "For an incompressible fluid, the mass flowing per second must be the same everywhere along the tube, giving $A_1v_1=A_2v_2$."
+    },
+    {
+      "id": "phy-mechanical-properties-of-fluids-016",
+      "q": "An object weighs 20 N in air and 15 N when fully immersed in water. Its relative density is",
+      "options": [
+        "3",
+        "2",
+        "5",
+        "4"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "Upthrust $=20-15=5$ N $= $ weight of water displaced. Relative density $=\\dfrac{\\text{weight in air}}{\\text{upthrust}}=\\dfrac{20}{5}=4$."
+    },
+    {
+      "id": "phy-mechanical-properties-of-fluids-017",
+      "q": "For flow to remain laminar (streamlined) in a pipe, the Reynolds number should be",
+      "options": [
+        "less than about 1000",
+        "independent of viscosity",
+        "greater than 2000",
+        "exactly 1500"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "$R_e = \\rho vd/\\eta$; flow is laminar for $R_e$ below roughly 1000 and turbulent above about 2000, with an unstable region in between."
+    },
+    {
+      "id": "phy-mechanical-properties-of-fluids-018",
+      "q": "A small ball is dropped gently into a viscous liquid. It eventually moves with constant terminal velocity because at that stage",
+      "options": [
+        "upthrust becomes zero",
+        "gravity stops acting on it",
+        "the net force on it is zero",
+        "viscous force becomes zero"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "At terminal velocity, weight $=$ upthrust $+$ viscous drag, so the net force (and hence acceleration) is zero and velocity stays constant."
+    },
+    {
+      "id": "phy-mechanical-properties-of-fluids-019",
+      "q": "SI unit of coefficient of viscosity ($\\eta$) is",
+      "options": [
+        "Pa s$^{-1}$",
+        "Pa s",
+        "N s$^{-1}$",
+        "N m$^{-1}$"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "From $F=\\eta A\\,dv/dx$, $\\eta = \\dfrac{F\\,dx}{A\\,dv}$, units N m/(m$^2$·m s$^{-1}$) = N s m$^{-2}$ = Pa s (also called poiseuille)."
+    },
+    {
+      "id": "phy-mechanical-properties-of-fluids-020",
+      "q": "A venturimeter is used to measure the",
+      "options": [
+        "viscosity of a liquid",
+        "density of a liquid",
+        "surface tension of a liquid",
+        "speed of flow of a liquid"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "A venturimeter uses the pressure difference between a wide and a narrow section (Bernoulli's principle) to determine the flow speed of a liquid."
+    },
+    {
+      "id": "phy-mechanical-properties-of-fluids-021",
+      "q": "Pascal's law states that pressure applied at any point of an enclosed, incompressible fluid",
+      "options": [
+        "is transmitted equally and undiminished to every part of the fluid and to the walls of the container",
+        "decreases as it is transmitted farther from the point of application",
+        "is transmitted only in liquids, never in gases",
+        "is transmitted only along the direction in which it was applied"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "This is the statement of Pascal's law, which is the working principle of hydraulic lifts, jacks and brakes."
+    },
+    {
+      "id": "phy-mechanical-properties-of-fluids-022",
+      "q": "Standard atmospheric pressure ($1.013\\times10^5$ Pa) is equivalent to a mercury column of height",
+      "options": [
+        "50 cm",
+        "76 cm",
+        "100 cm",
+        "136 cm"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "By definition, standard atmospheric pressure supports a mercury column 76 cm high."
+    },
+    {
+      "id": "phy-mechanical-properties-of-fluids-023",
+      "q": "Three vessels A, B and C, having very different shapes (narrow, wide, conical) but the same base area, are filled with water to the same height. The pressure exerted by the water on the base of each vessel is",
+      "options": [
+        "greatest for the conical vessel C",
+        "greatest for the narrowest vessel A",
+        "the same for all three vessels, since pressure depends only on the height and density of the liquid column, not on the shape of the container",
+        "greatest for the widest vessel B"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "$P=\\rho gh$ depends only on the depth and density of the liquid, not on the shape or cross-section of the container — this is the hydrostatic paradox."
+    },
+    {
+      "id": "phy-mechanical-properties-of-fluids-024",
+      "q": "A tyre pressure gauge reads 200 kPa. If atmospheric pressure is 100 kPa, the absolute pressure of the air inside the tyre is",
+      "options": [
+        "400 kPa",
+        "200 kPa",
+        "100 kPa",
+        "300 kPa"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "Gauge pressure $=$ absolute pressure $-$ atmospheric pressure, so absolute pressure $=200+100=300$ kPa."
+    },
+    {
+      "id": "phy-mechanical-properties-of-fluids-025",
+      "q": "Water flows through a horizontal tube whose cross-section narrows. The speed is 1 m/s in the wide section and 4 m/s in the narrow section. Using Bernoulli's equation, the pressure difference between the wide and narrow sections (density of water $=1000$ kg m$^{-3}$) is",
+      "options": [
+        "1000 Pa",
+        "3750 Pa",
+        "7500 Pa",
+        "15000 Pa"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "$\\Delta P = \\frac12\\rho(v_2^2-v_1^2) = \\frac12\\times1000\\times(16-1)=7500$ Pa."
+    },
+    {
+      "id": "phy-mechanical-properties-of-fluids-026",
+      "q": "An aircraft wing is shaped (cambered) so that air moves faster over its curved upper surface than beneath it. By Bernoulli's principle, this produces",
+      "options": [
+        "increased drag but no vertical force",
+        "a net upward force (lift), because the faster-moving air above the wing is at lower pressure than the slower air below",
+        "a downward force pulling the aircraft toward the ground",
+        "no net force, since both surfaces experience identical pressure"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "Faster flow over the top means lower pressure there (Bernoulli's theorem); the resulting pressure difference produces the net upward lift force."
+    },
+    {
+      "id": "phy-mechanical-properties-of-fluids-027",
+      "q": "For streamline flow of a liquid through a narrow horizontal tube under a fixed pressure difference (Poiseuille's law, rate $\\propto r^4$), if the tube's radius is doubled, keeping all else constant, the volume flow rate becomes",
+      "options": [
+        "8 times",
+        "4 times",
+        "2 times",
+        "16 times"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "Poiseuille's equation gives volume flow rate $\\propto r^4$; doubling $r$ increases the rate by $2^4=16$ times."
+    },
+    {
+      "id": "phy-mechanical-properties-of-fluids-028",
+      "q": "A small sphere of radius 1 mm falls through a viscous liquid and attains a terminal velocity of 0.02 m s$^{-1}$. If the density difference between the sphere and the liquid is 9000 kg m$^{-3}$ ($g=10$ m s$^{-2}$), the coefficient of viscosity of the liquid is",
+      "options": [
+        "1 Pa s",
+        "0.5 Pa s",
+        "4 Pa s",
+        "2 Pa s"
+      ],
+      "answer": 0,
+      "difficulty": "hard",
+      "explanation": "$\\eta = \\dfrac{2r^2(\\rho-\\sigma)g}{9v_t} = \\dfrac{2\\times(10^{-3})^2\\times9000\\times10}{9\\times0.02} = \\dfrac{0.18}{0.18}=1$ Pa s."
+    },
+    {
+      "id": "phy-mechanical-properties-of-fluids-029",
+      "q": "When several small liquid drops coalesce into one large drop, the total surface area decreases. The corresponding decrease in surface energy usually appears as",
+      "options": [
+        "an increase in the liquid's surface tension",
+        "kinetic energy of the drop moving away",
+        "heat, causing a small rise in the temperature of the liquid",
+        "an increase in the liquid's mass"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "Surface energy released when the area decreases on coalescence is converted mainly into heat, slightly warming the resulting drop."
+    },
+    {
+      "id": "phy-mechanical-properties-of-fluids-030",
+      "q": "Adding detergent to water lowers its surface tension. As a result, the height to which the soapy water rises in a fine capillary tube, compared to pure water, is",
+      "options": [
+        "greater, since detergent increases wetting",
+        "smaller, since capillary rise $h \\propto T$",
+        "exactly the same",
+        "infinite, since soap solutions do not obey the capillary rise formula"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "$h=\\dfrac{2T\\cos\\theta}{\\rho g r}$; a lower surface tension $T$ directly gives a smaller rise $h$."
+    },
+    {
+      "id": "phy-mechanical-properties-of-fluids-031",
+      "q": "For water (density 1000 kg m$^{-3}$, viscosity $1\\times10^{-3}$ Pa s) flowing through a pipe of diameter 2 cm, using $R_e=\\rho vd/\\eta$, the flow becomes turbulent ($R_e>2000$) once the speed exceeds approximately",
+      "options": [
+        "0.1 m/s",
+        "10 m/s",
+        "0.01 m/s",
+        "1 m/s"
+      ],
+      "answer": 0,
+      "difficulty": "hard",
+      "explanation": "$v = \\dfrac{R_e\\,\\eta}{\\rho d} = \\dfrac{2000\\times10^{-3}}{1000\\times0.02} = \\dfrac{2}{20}=0.1$ m/s."
+    },
+    {
+      "id": "phy-mechanical-properties-of-fluids-032",
+      "q": "As temperature increases, the viscosity of a liquid generally _____, while the viscosity of a gas generally _____.",
+      "options": [
+        "decreases; decreases",
+        "increases; increases",
+        "increases; decreases",
+        "decreases; increases"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "In liquids, weaker intermolecular cohesion at higher temperature lowers viscosity; in gases, viscosity arises from molecular momentum transfer, which increases with temperature, so gas viscosity rises."
+    },
+    {
+      "id": "phy-mechanical-properties-of-fluids-033",
+      "q": "In a U-tube, a column of oil 10 cm high balances a column of water 8 cm high, measured from the common interface. The density of the oil is (density of water $=1000$ kg m$^{-3}$)",
+      "options": [
+        "1000 kg m$^{-3}$",
+        "800 kg m$^{-3}$",
+        "1250 kg m$^{-3}$",
+        "900 kg m$^{-3}$"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "At the common interface, pressures balance: $\\rho_{oil}gh_{oil}=\\rho_{water}gh_{water}$, so $\\rho_{oil}=1000\\times8/10=800$ kg m$^{-3}$."
+    },
+    {
+      "id": "phy-mechanical-properties-of-fluids-034",
+      "q": "Water escapes horizontally through a small hole at depth $h$ below the free surface of a tank filled to a total height $H$. The horizontal range of the jet on the ground is maximum when",
+      "options": [
+        "$h=H/4$",
+        "$h=H$ (hole at the bottom)",
+        "$h=H/2$",
+        "$h\\to0$ (hole near the top)"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "Range $=2\\sqrt{h(H-h)}$, which is maximised at $h=H/2$, giving the maximum range equal to $H$."
+    },
+    {
+      "id": "phy-mechanical-properties-of-fluids-035",
+      "q": "A spinning ball moving through air often follows a curved path (as used, for example, in swing bowling in cricket). This is because",
+      "options": [
+        "the ball's spin makes air move faster on one side and slower on the other, creating a pressure difference (Magnus effect) by Bernoulli's principle",
+        "air resistance is zero on one side of a spinning ball",
+        "spinning objects lose mass unevenly, curving their path",
+        "gravity acts unevenly on a spinning object"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "The relative air speeds on the two sides of the spinning ball differ, so by Bernoulli's principle the pressures differ, producing a net sideways (Magnus) force that curves the path."
+    },
+    {
+      "id": "phy-mechanical-properties-of-fluids-036",
+      "q": "In Poiseuille's equation for streamline flow, if the pressure difference across a tube is doubled and its length is also doubled (radius and viscosity unchanged), the volume flow rate becomes",
+      "options": [
+        "quadrupled",
+        "doubled",
+        "halved",
+        "unchanged"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "Rate $\\propto P/L$; doubling both $P$ and $L$ leaves the ratio $P/L$, and hence the flow rate, unchanged."
+    },
+    {
+      "id": "phy-mechanical-properties-of-fluids-037",
+      "q": "Water rises to a height of 3 cm in a capillary tube of radius 0.5 mm ($\\rho=1000$ kg m$^{-3}$, $g=10$ m s$^{-2}$, angle of contact $\\approx0°$). The surface tension of water is approximately",
+      "options": [
+        "0.3 N/m",
+        "0.15 N/m",
+        "0.0375 N/m",
+        "0.075 N/m"
+      ],
+      "answer": 3,
+      "difficulty": "hard",
+      "explanation": "$T=\\dfrac{h\\rho g r}{2\\cos\\theta}=\\dfrac{0.03\\times1000\\times10\\times0.0005}{2}=0.075$ N/m."
+    },
+    {
+      "id": "phy-mechanical-properties-of-fluids-038",
+      "q": "An iceberg of density 900 kg m$^{-3}$ floats in seawater of density 1030 kg m$^{-3}$. The fraction of the iceberg's volume that remains above the water surface is approximately",
+      "options": [
+        "3%",
+        "90%",
+        "12.6%",
+        "87.4%"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "Fraction submerged $=\\rho_{ice}/\\rho_{sea}=900/1030\\approx0.874$; fraction above the surface $\\approx1-0.874=0.126=12.6\\%$."
+    },
+    {
+      "id": "phy-mechanical-properties-of-fluids-039",
+      "q": "Which of the following does NOT work on the principle of Pascal's law?",
+      "options": [
+        "a hydraulic jack",
+        "a venturimeter (which instead relies on Bernoulli's principle)",
+        "a hydraulic brake system",
+        "a hydraulic lift"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "Hydraulic lifts, brakes and jacks all transmit an applied pressure through an enclosed fluid (Pascal's law); a venturimeter instead measures flow speed using the pressure drop predicted by Bernoulli's theorem."
+    },
+    {
+      "id": "phy-mechanical-properties-of-fluids-040",
+      "q": "Two soap bubbles of different radii, formed at the two ends of a tube with a stopcock, are connected by opening the stopcock. Air flows from the smaller bubble into the larger one until the smaller one collapses. This happens because",
+      "options": [
+        "the smaller bubble has a higher excess internal pressure ($\\Delta P = 4T/r$, inversely proportional to $r$), so air flows from it to the lower-pressure larger bubble",
+        "surface tension always favours the larger bubble growing at the expense of any smaller one, regardless of pressure",
+        "the larger bubble has a lower surface tension",
+        "the smaller bubble has a lower internal pressure and forces air out"
+      ],
+      "answer": 0,
+      "difficulty": "hard",
+      "explanation": "Since $\\Delta P=4T/r$, a smaller radius gives a larger excess pressure; air therefore flows from the high-pressure smaller bubble into the larger, lower-pressure one until the smaller bubble empties and collapses."
+    }
+  ]
+}

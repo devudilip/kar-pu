@@ -1,0 +1,810 @@
+{
+  "title": "KCET 2010 Physics",
+  "year": 2010,
+  "subject": "physics",
+  "code": "A-1",
+  "source": "KEA question paper (copy) + KEA answer key column A1",
+  "excluded": [],
+  "questions": [
+    {
+      "n": 1,
+      "q": "The dimensions of 'resistance' are same as those of ......... where $h$ is the Planck's constant, $e$ is the charge.",
+      "options": [
+        "$\\dfrac{h}{e^2}$",
+        "$\\dfrac{h}{e}$",
+        "$\\dfrac{h^2}{e^2}$",
+        "$\\dfrac{h^2}{e}$"
+      ],
+      "answer": 0,
+      "chapter": "Units and Measurements",
+      "explanation": "Resistance $R=V/I$; dimensional analysis using $E=h\\nu$ and charge $e$ shows $[R]$ matches $h/e^2$ (the von Klitzing constant has units of resistance)."
+    },
+    {
+      "n": 2,
+      "q": "A train is moving slowly on a straight track with a constant speed of 2 ms$^{-1}$. A passenger in that train starts walking at a steady speed of 2 ms$^{-1}$ to the back of the train in the opposite direction of the motion of the train. So to an observer standing on the platform directly in front of that passenger, the velocity of the passenger appears to be .................",
+      "options": [
+        "2 ms$^{-1}$ in the opposite direction of the train",
+        "zero",
+        "4 ms$^{-1}$",
+        "2 ms$^{-1}$"
+      ],
+      "answer": 1,
+      "chapter": "Motion in a Straight Line",
+      "explanation": "Velocity relative to ground $=$ train's velocity $+$ passenger's velocity relative to train $= 2 + (-2) = 0$."
+    },
+    {
+      "n": 3,
+      "q": "A ball rests upon a flat piece of paper on a table top. The paper is pulled horizontally but quickly towards right [the ball sits on the paper, an arrow shows the paper being pulled right]. Relative to its initial position with respect to the table, the ball ............ a) remains stationary if there is no friction between the paper and the ball. b) moves to the left and starts rolling backwards, i.e. to the left if there is a friction between the paper and the ball. c) moves forward, i.e. in the direction in which the paper is pulled. Here, the correct statement/s is/are .................",
+      "options": [
+        "only a)",
+        "only b)",
+        "both a) and b)",
+        "only c)"
+      ],
+      "answer": 2,
+      "chapter": "Laws of Motion",
+      "explanation": "By inertia, without friction the ball stays at rest relative to the table (a); with friction, the sudden jerk gives the paper's surface a brief backward-relative impulse on the ball, making it roll back to the left relative to the table (b) (as per KEA key)."
+    },
+    {
+      "n": 4,
+      "q": "A boy throws a cricket ball from the boundary to the wicket-keeper. If the frictional force due to air cannot be ignored, the forces acting on the ball at the position $X$ are represented by ..................... [$X$ is a point early in the ball's rising, forward path from the boy towards the wicket-keeper; each option is a small force-arrow diagram]",
+      "options": [
+        "[two arrows from a common point: one pointing down-and-to-left (opposite the ball's forward velocity), one pointing straight down]",
+        "[two arrows at right angles from a common point: one pointing right, one pointing straight down]",
+        "[two arrows from a common point: one pointing up-and-to-right (along the direction of motion), one pointing straight down]",
+        "[a vertical double-headed arrow, one pointing up and one pointing down]"
+      ],
+      "answer": 0,
+      "chapter": "Motion in a Plane",
+      "explanation": "At $X$ the ball moves up and forward, so gravity acts vertically down while air drag acts opposite to the velocity (backward along the path); these two forces (drag down-and-to-left, gravity straight down) match option 1 (as per KEA key).",
+      "figure": true
+    },
+    {
+      "n": 5,
+      "q": "If the linear momentum of a body is increased by 50%, then the kinetic energy of that body increases by .......................",
+      "options": [
+        "225%",
+        "25%",
+        "100%",
+        "125%"
+      ],
+      "answer": 3,
+      "chapter": "Work, Energy and Power",
+      "explanation": "$KE=p^2/2m$. With $p'=1.5p$, $KE'/KE=(1.5)^2=2.25$, i.e. an increase of 125%."
+    },
+    {
+      "n": 6,
+      "q": "The moment of inertia of a circular disc of radius 2 m and mass 1 kg about an axis passing through the centre of mass but perpendicular to the plane of the disc is 2 kg m$^2$. Its moment of inertia about an axis parallel to this axis but passing through the edge of the disc is ........................ (See the given figure) [three views of the disc: the central perpendicular axis $x$-$y$, and the parallel edge axis $x_1$-$y_1$].",
+      "options": [
+        "10 kg m$^2$",
+        "6 kg m$^2$",
+        "8 kg m$^2$",
+        "4 kg m$^2$"
+      ],
+      "answer": 1,
+      "chapter": "System of Particles and Rotational Motion",
+      "explanation": "By the parallel axis theorem, $I_{edge}=I_{cm}+MR^2=2+(1)(2)^2=6$ kg m$^2$.",
+      "figure": true
+    },
+    {
+      "n": 7,
+      "q": "An astronaut on a strange planet finds that acceleration due to gravity is twice as that on the surface of Earth. Which of the following could explain this?",
+      "options": [
+        "Both the mass and radius of the planet are twice as that of Earth.",
+        "Mass of the planet is half as that of Earth, but radius is same as that of Earth.",
+        "Both the mass and radius of the planet are half as that of Earth.",
+        "Radius of the planet is half as that of Earth, but the mass is the same as that of Earth."
+      ],
+      "answer": 2,
+      "chapter": "Gravitation",
+      "explanation": "$g=GM/R^2$; halving both $M$ and $R$ gives $g'=G(M/2)/(R/2)^2=2GM/R^2=2g$."
+    },
+    {
+      "n": 8,
+      "q": "Which of the following substances has the highest elasticity?",
+      "options": [
+        "Rubber",
+        "Copper",
+        "Sponge",
+        "Steel"
+      ],
+      "answer": 3,
+      "chapter": "Mechanical Properties of Solids",
+      "explanation": "Steel has the highest Young's modulus among the given materials, and hence the highest elasticity."
+    },
+    {
+      "n": 9,
+      "q": "Three liquids of equal masses are taken in three identical cubical vessels $A$, $B$ and $C$. Their densities are $P_A$, $P_B$ and $P_C$ respectively. But $P_A < P_B < P_C$. The force exerted by the liquid on the base of the cubical vessel is .......................",
+      "options": [
+        "the same in all the vessels",
+        "maximum in vessel $A$",
+        "maximum in vessel $C$",
+        "minimum in vessel $C$"
+      ],
+      "answer": 0,
+      "chapter": "Mechanical Properties of Fluids",
+      "explanation": "The force on the base equals the weight of the liquid, $mg$, which is the same for all three vessels since the masses are equal, regardless of density."
+    },
+    {
+      "n": 10,
+      "q": "Water is in streamline flow along a horizontal pipe with nonuniform cross-section. At a point in the pipe where the area of cross-section is 10 cm$^2$, the velocity of water is 1 ms$^{-1}$ and the pressure is 2000 Pa. The pressure at another point where the cross-sectional area is 5 cm$^2$ is .....................",
+      "options": [
+        "1000 Pa",
+        "500 Pa",
+        "4000 Pa",
+        "2000 Pa"
+      ],
+      "answer": 1,
+      "chapter": "Mechanical Properties of Fluids",
+      "explanation": "By continuity, $v_2=A_1v_1/A_2=10\\times1/5=2$ ms$^{-1}$. By Bernoulli's theorem, $P_2=P_1+\\tfrac12\\rho(v_1^2-v_2^2)=2000+500(1-4)=500$ Pa."
+    },
+    {
+      "n": 11,
+      "q": "The temperature of a gas contained in a closed vessel of constant volume increases by 1$^0$C when the pressure of the gas is increased by 1%. The initial temperature of the gas is .....................",
+      "options": [
+        "100$^0$C",
+        "200 K",
+        "100 K",
+        "273$^0$C"
+      ],
+      "answer": 2,
+      "chapter": "Kinetic Theory",
+      "explanation": "At constant volume $P\\propto T$: $\\dfrac{1.01T}{T}=\\dfrac{T+1}{T}\\Rightarrow T=100$ K."
+    },
+    {
+      "n": 12,
+      "q": "A motorboat covers a given distance in 6 hours moving downstream on a river. It covers the same distance in 10 hours moving upstream. The time it takes to cover the same distance in still water is .....................",
+      "options": [
+        "6.5 hours",
+        "8 hours",
+        "9 hours",
+        "7.5 hours"
+      ],
+      "answer": 3,
+      "chapter": "Motion in a Straight Line",
+      "explanation": "With boat speed $b$ and stream speed $s$: $b+s=d/6$, $b-s=d/10$. Solving gives $b=2d/15$, so time in still water $=d/b=7.5$ h."
+    },
+    {
+      "n": 13,
+      "q": "Two slabs are of the thicknesses $d_1$ and $d_2$. Their thermal conductivities are $K_1$ and $K_2$ respectively. They are in series. The free ends of the combination of these two slabs are kept at temperatures $\\theta_1$ and $\\theta_2$. Assume $\\theta_1 > \\theta_2$. The temperature $\\theta$ of their common junction is .....................",
+      "options": [
+        "$\\dfrac{K_1\\theta_1d_2+K_2\\theta_2d_1}{K_1d_2+K_2d_1}$",
+        "$\\dfrac{K_1\\theta_1+K_2\\theta_2}{K_1+K_2}$",
+        "$\\dfrac{K_1\\theta_1+K_2\\theta_2}{\\theta_1+\\theta_2}$",
+        "$\\dfrac{K_1\\theta_1d_1+K_2\\theta_2d_2}{K_1d_2+K_2d_1}$"
+      ],
+      "answer": 0,
+      "chapter": "Thermal Properties of Matter",
+      "explanation": "Equating heat current through both slabs, $K_1A(\\theta_1-\\theta)/d_1=K_2A(\\theta-\\theta_2)/d_2$; solving gives $\\theta=\\dfrac{K_1\\theta_1d_2+K_2\\theta_2d_1}{K_1d_2+K_2d_1}$."
+    },
+    {
+      "n": 14,
+      "q": "Hot water cools from 60$^0$C to 50$^0$C in the first 10 minutes and to 42$^0$C in the next 10 minutes. Then the temperature of the surroundings is .....................",
+      "options": [
+        "15$^0$C",
+        "10$^0$C",
+        "20$^0$C",
+        "30$^0$C"
+      ],
+      "answer": 1,
+      "chapter": "Thermal Properties of Matter",
+      "explanation": "Using Newton's law of cooling with average temperatures: $\\dfrac{60-50}{10}=k(55-T_s)$ and $\\dfrac{50-42}{10}=k(46-T_s)$; solving gives $T_s=10^\\circ$C."
+    },
+    {
+      "n": 15,
+      "q": "The efficiency of Carnot's heat engine is 0.5 when the temperature of the source is $T_1$ and that of sink is $T_2$. The efficiency of another Carnot's heat engine is also 0.5. The temperature of source and sink of the second engine are respectively .....................",
+      "options": [
+        "$T_1+5$, $T_2-5$",
+        "$T_1+10$, $T_2-10$",
+        "$2T_1$, $2T_2$",
+        "$2T_1$, $\\dfrac{T_2}{2}$"
+      ],
+      "answer": 2,
+      "chapter": "Thermodynamics",
+      "explanation": "Efficiency $\\eta=1-T_2/T_1$ depends only on the ratio $T_2/T_1$; scaling both temperatures by the same factor (doubling both) keeps $\\eta=0.5$ unchanged."
+    },
+    {
+      "n": 16,
+      "q": "Two simple harmonic motions are represented by $y_1=5\\left[\\sin2\\pi t+\\sqrt3\\cos2\\pi t\\right]$ and $y_2=5\\sin\\left(2\\pi t+\\dfrac{\\pi}{4}\\right)$. The ratio of their amplitude is .....................",
+      "options": [
+        "1 : 3",
+        "$\\sqrt3:1$",
+        "1 : 1",
+        "2 : 1"
+      ],
+      "answer": 3,
+      "chapter": "Oscillations",
+      "explanation": "Amplitude of $y_1=\\sqrt{5^2+(5\\sqrt3)^2}=10$; amplitude of $y_2=5$. Ratio $=10:5=2:1$."
+    },
+    {
+      "n": 17,
+      "q": "A bat flies at a steady speed of 4 ms$^{-1}$ emitting a sound of $f=90\\times10^3$ Hz. It is flying horizontally towards a vertical wall. The frequency of the reflected sound as detected by the bat will be ..................... (Take velocity of sound in air as 330 ms$^{-1}$).",
+      "options": [
+        "$92.1\\times10^3$ Hz",
+        "$89.1\\times10^3$ Hz",
+        "$88.1\\times10^3$ Hz",
+        "$87.1\\times10^3$ Hz"
+      ],
+      "answer": 0,
+      "chapter": "Waves",
+      "explanation": "The wall (stationary reflector) receives $f'=f\\dfrac{v}{v-v_{bat}}$ and re-emits it; the bat (moving observer) then hears $f''=f'\\dfrac{v+v_{bat}}{v}=90\\times10^3\\times\\dfrac{334}{326}\\approx92.1\\times10^3$ Hz."
+    },
+    {
+      "n": 18,
+      "q": "A closed organ pipe and an open organ pipe of same length produce 2 beats/second while vibrating in their fundamental modes. The length of the open organ pipe is halved and that of closed pipe is doubled. Then, the number of beats produced per second while vibrating in the fundamental mode is .....................",
+      "options": [
+        "8",
+        "7",
+        "2",
+        "6"
+      ],
+      "answer": 1,
+      "chapter": "Waves",
+      "explanation": "Initially $f_{open}-f_{closed}=v/4L=2$ Hz. After halving the open pipe's length and doubling the closed pipe's length: $f_{open}'=v/L=8$ Hz, $f_{closed}'=v/8L=1$ Hz; new beat frequency $=8-1=7$ Hz."
+    },
+    {
+      "n": 19,
+      "q": "A uniform wire of length $L$, diameter $D$ and density $P$ is stretched under a tension $T$. The correct relation between its fundamental frequency 'f', the length $L$ and the diameter $D$ is .....................",
+      "options": [
+        "$f\\propto\\dfrac{L}{D^2}$",
+        "$f\\propto\\dfrac{1}{LD^2}$",
+        "$f\\propto\\dfrac{1}{LD}$",
+        "$f\\propto\\dfrac{1}{L\\sqrt D}$"
+      ],
+      "answer": 2,
+      "chapter": "Waves",
+      "explanation": "$f=\\dfrac{1}{2L}\\sqrt{T/\\mu}$ with $\\mu\\propto D^2$, so $f\\propto\\dfrac{1}{LD}$."
+    },
+    {
+      "n": 20,
+      "q": "Two small spheres of masses $M_1$ and $M_2$ are suspended by weightless insulating threads of lengths $L_1$ and $L_2$. The spheres carry charges of $Q_1$ and $Q_2$ respectively. The spheres are suspended such that they are in level with one another and the threads are inclined to the vertical at angles of $\\theta_1$ and $\\theta_2$ as shown [both threads hang from a common support level, spheres with charges $+Q_1$ and $+Q_2$ facing each other]. Which one of the following conditions is essential, if $\\theta_1=\\theta_2$?",
+      "options": [
+        "$Q_1=Q_2$",
+        "$L_1=L_2$",
+        "$M_1\\neq M_2$, but $Q_1=Q_2$",
+        "$M_1=M_2$"
+      ],
+      "answer": 3,
+      "chapter": "Electric Charges and Fields",
+      "explanation": "Each sphere is in equilibrium under gravity, tension and the same mutual Coulomb force $F$ (Newton's third law); $\\tan\\theta=F/(Mg)$. Equal angles require $M_1=M_2$.",
+      "figure": true
+    },
+    {
+      "n": 21,
+      "q": "A point object $O$ is kept at a distance of $OP=u$. The radius of curvature of the spherical surface $APB$ is $CP=R$. The refractive index of the media are $n_1$ and $n_2$ which are as shown in the diagram [object $O$ in medium $n_1$ on the axis, refracting at spherical surface $APB$ into medium $n_2$]. Then, a) if $n_1>n_2$, image is virtual for all values of 'u'. b) if $n_2=2n_1$, image is virtual when $R>u$. c) the image is real for all values of $u$, $n_1$ and $n_2$. Here, the correct statement/s is/are .................",
+      "options": [
+        "only a)",
+        "a), b) and c)",
+        "only b)",
+        "both a) and b)"
+      ],
+      "answer": 3,
+      "chapter": "Ray Optics and Optical Instruments",
+      "explanation": "Using $\\dfrac{n_2}{v}-\\dfrac{n_1}{u}=\\dfrac{n_2-n_1}{R}$ with the sign convention, checking both stated conditions shows the image is virtual in each case, so both (a) and (b) are correct (as per KEA key).",
+      "figure": true
+    },
+    {
+      "n": 22,
+      "q": "$A$, $B$ and $C$ are the parallel sided transparent media of refractive index $n_1$, $n_2$ and $n_3$ respectively. They are arranged as shown in the figure. A ray is incident at an angle $\\theta$ on the surface of separation of $A$ and $B$ which is as shown in the figure. After the refraction into the medium $B$, the ray grazes the surface of separation of the media $B$ and $C$. Then, $\\sin\\theta=$ ................. [three vertical parallel-sided slabs $A$, $B$, $C$; ray enters from $A$ into $B$ at angle $\\theta$ to the normal, then travels to graze the $B$–$C$ boundary]",
+      "options": [
+        "$\\dfrac{n_2}{n_3}$",
+        "$\\dfrac{n_1}{n_2}$",
+        "$\\dfrac{n_3}{n_1}$",
+        "$\\dfrac{n_1}{n_3}$"
+      ],
+      "answer": 2,
+      "chapter": "Ray Optics and Optical Instruments",
+      "explanation": "Since the interfaces are parallel, the angle of refraction into $B$ equals the angle of incidence at the $B$–$C$ surface. Applying Snell's law: $n_1\\sin\\theta=n_2\\sin r$ at $A$–$B$, and the grazing condition at $B$–$C$ gives $n_2\\sin r=n_3$. Hence $n_1\\sin\\theta=n_3$, so $\\sin\\theta=n_3/n_1$.",
+      "figure": true
+    },
+    {
+      "n": 23,
+      "q": "A boat has green light of wavelength $\\lambda=500$ nm on the mast. What wavelength would be measured and what colour would be observed for this light as seen by a diver submerged in water by the side of the boat? Given $n_w=4/3$.",
+      "options": [
+        "Green of wavelength 500 nm",
+        "Blue of wavelength 376 nm",
+        "Green of wavelength 376 nm",
+        "Red of wavelength 665 nm"
+      ],
+      "answer": 2,
+      "chapter": "Wave Optics",
+      "explanation": "Wavelength in water $\\lambda_w=\\lambda/n_w=500\\times3/4=375\\approx376$ nm; the colour (determined by frequency, which is unchanged) remains green."
+    },
+    {
+      "n": 24,
+      "q": "Two beams of red and violet colours are made to pass separately through a prism of $A=60^0$. In the minimum deviation position, the angle of refraction inside the prism will be",
+      "options": [
+        "greater for violet colour",
+        "30$^0$ for both the colours",
+        "greater for red colour",
+        "equal but not 30$^0$ for both the colours"
+      ],
+      "answer": 1,
+      "chapter": "Ray Optics and Optical Instruments",
+      "explanation": "At minimum deviation, $r_1=r_2=A/2=30^\\circ$ for any wavelength, since this condition depends only on the prism angle $A$, not on the refractive index."
+    },
+    {
+      "n": 25,
+      "q": "The focal length of a plano convex lens is 'f' and its refractive index is 1.5. It is kept over a plane glass plate with its curved surface touching the glass plate. The gap between the lens and the glass plate is filled by a liquid. As a result, the effective focal length of the combination becomes $2f$. Then the refractive index of the liquid is .....................",
+      "options": [
+        "1.25",
+        "1.33",
+        "1.5",
+        "2"
+      ],
+      "answer": 0,
+      "chapter": "Ray Optics and Optical Instruments",
+      "explanation": "For the plano-convex lens, $R=(\\mu-1)f=0.5f$. The trapped liquid forms a plano-concave lens with $1/f_{liquid}=-(\\mu_L-1)/R$. Since $1/(2f)=1/f+1/f_{liquid}$, solving gives $\\mu_L=1.25$."
+    },
+    {
+      "n": 26,
+      "q": "The wavelength of the light used in Young's double slit experiment is $\\lambda$. The intensity at a point on the screen where the path difference is $\\dfrac{\\lambda}{6}$ is $I$. If $I_0$ denotes the maximum intensity, then the ratio of $I$ and $I_0$ is .....................",
+      "options": [
+        "0.707",
+        "0.75",
+        "0.866",
+        "0.5"
+      ],
+      "answer": 1,
+      "chapter": "Wave Optics",
+      "explanation": "Phase difference $\\delta=\\dfrac{2\\pi}{\\lambda}\\times\\dfrac{\\lambda}{6}=\\dfrac{\\pi}{3}$. $I/I_0=\\cos^2(\\delta/2)=\\cos^2(30^\\circ)=0.75$."
+    },
+    {
+      "n": 27,
+      "q": "What is the minimum thickness of a thin film required for constructive interference in the reflected light from it? Given, the refractive index of the film = 1.5, wavelength of the light incident on the film = 600 nm.",
+      "options": [
+        "50 nm",
+        "200 nm",
+        "100 nm",
+        "300 nm"
+      ],
+      "answer": 2,
+      "chapter": "Wave Optics",
+      "explanation": "Minimum thickness for constructive interference in reflection: $t=\\dfrac{\\lambda}{4\\mu}=\\dfrac{600}{4\\times1.5}=100$ nm."
+    },
+    {
+      "n": 28,
+      "q": "There is a uniform electric field of intensity $E$ which is as shown [four horizontal rows of points with field lines pointing right; the fully shaded point is the 2nd point in the 2nd row]. How many labelled points have the same electric potential as the fully shaded point?",
+      "options": [
+        "8",
+        "11",
+        "2",
+        "3"
+      ],
+      "answer": 3,
+      "chapter": "Electrostatic Potential and Capacitance",
+      "explanation": "Equipotential surfaces are perpendicular to $E$, i.e. vertical lines here; so all points in the same column as the shaded point are at the same potential — that column has 3 other points.",
+      "figure": true
+    },
+    {
+      "n": 29,
+      "q": "Critical angle for certain medium is $\\sin^{-1}(0.6)$. The polarizing angle of that medium is .................",
+      "options": [
+        "$\\tan^{-1}(1.6667)$",
+        "$\\tan^{-1}[0.6667]$",
+        "$\\tan^{-1}[1.5]$",
+        "$\\sin^{-1}[0.8]$"
+      ],
+      "answer": 0,
+      "chapter": "Wave Optics",
+      "explanation": "$\\sin C=0.6\\Rightarrow\\mu=1/\\sin C=1.6667$. By Brewster's law, $\\tan\\theta_p=\\mu=1.6667$, so $\\theta_p=\\tan^{-1}(1.6667)$."
+    },
+    {
+      "n": 30,
+      "q": "Electromagnetic wave consists of periodically oscillating electric and magnetic vectors .................",
+      "options": [
+        "in randomly oriented planes but vibrating in phase.",
+        "in mutually perpendicular planes but vibrating in phase.",
+        "in mutually perpendicular planes but vibrating with a phase difference of $\\pi$",
+        "in mutually perpendicular planes but vibrating with a phase difference of $\\pi/2$"
+      ],
+      "answer": 1,
+      "chapter": "Electromagnetic Waves",
+      "explanation": "In an electromagnetic wave, $\\vec E$ and $\\vec B$ oscillate in mutually perpendicular planes and are in phase with each other."
+    },
+    {
+      "n": 31,
+      "q": "All capacitors used in the diagram are identical and each is of capacitance $C$ [three parallel branches connect $A$ to $B$; each branch contains two capacitors in series]. Then the effective capacitance between the points $A$ and $B$ is .....................",
+      "options": [
+        "$C$",
+        "$3C$",
+        "$1.5C$",
+        "$6C$"
+      ],
+      "answer": 2,
+      "chapter": "Electrostatic Potential and Capacitance",
+      "explanation": "Each branch (two capacitors in series) has capacitance $C/2$; three such branches in parallel give $3\\times C/2=1.5C$.",
+      "figure": true
+    },
+    {
+      "n": 32,
+      "q": "Two identical conducting balls $A$ and $B$ have positive charges $q_1$ and $q_2$ respectively. But $q_1\\neq q_2$. The balls are brought together so that they touch each other and then kept in their original positions. The force between them is .....................",
+      "options": [
+        "same as that before the balls touched",
+        "zero",
+        "less than that before the balls touched",
+        "greater than that before the balls touched"
+      ],
+      "answer": 3,
+      "chapter": "Electric Charges and Fields",
+      "explanation": "After touching, each ball carries charge $(q_1+q_2)/2$. The new force $\\propto\\left(\\dfrac{q_1+q_2}{2}\\right)^2 > q_1q_2$ by AM–GM (since $q_1\\neq q_2$), so the force is greater than before."
+    },
+    {
+      "n": 33,
+      "q": "Red light of wavelength 625 nm is incident normally on an optical diffraction grating with $2\\times10^5$ lines/m. Including central principal maxima, how many maxima may be observed on a screen which is far from the grating?",
+      "options": [
+        "8",
+        "16",
+        "15",
+        "17"
+      ],
+      "answer": 3,
+      "chapter": "Wave Optics",
+      "explanation": "Grating spacing $d=1/(2\\times10^5)=5000$ nm. $d\\sin\\theta=m\\lambda\\Rightarrow m_{max}=d/\\lambda=8$, and KEA's key credits this borderline 8th order as observable, giving $2\\times8+1=17$ maxima including the central one (as per KEA key).",
+      "disputed": true,
+      "note": "At $m=8$, $\\sin\\theta=1$ (grazing, $\\theta=90^\\circ$), which many textbooks treat as unobservable, giving a highest usable order of 7 and $2\\times7+1=15$ maxima; KEA's key instead counts the 8th order, giving 17."
+    },
+    {
+      "n": 34,
+      "q": "A battery of e.m.f. $E$ has an internal resistance 'r'. A variable resistance $R$ is connected to the terminals of the battery. A current $I$ is drawn from the battery. $V$ is the terminal P.D. If $R$ alone is gradually reduced to zero, which of the following best describes $I$ and $V$?",
+      "options": [
+        "$I$ approaches $E/r$, $V$ approaches $E$",
+        "$I$ approaches infinity, $V$ approaches $E$",
+        "$I$ approaches zero, $V$ approaches $E$",
+        "$I$ approaches $E/r$, $V$ approaches zero"
+      ],
+      "answer": 3,
+      "chapter": "Current Electricity",
+      "explanation": "$I=E/(R+r)\\to E/r$ as $R\\to0$ (finite, since $r\\neq0$); $V=E-Ir\\to E-(E/r)r=0$."
+    },
+    {
+      "n": 35,
+      "q": "Three voltmeters $A$, $B$ and $C$ having resistances $R$, $1.5R$ and $3R$ respectively are used in a circuit as shown [$X$ connects through $A$ to a node, from which $B$ and $C$ are in parallel, joining at $Y$]. When a P.D. is applied between $X$ and $Y$, the reading of the voltmeters are $V_1$, $V_2$ and $V_3$ respectively. Then .....................",
+      "options": [
+        "$V_1 > V_2 > V_3$",
+        "$V_1 > V_2 = V_3$",
+        "$V_1 = V_2 = V_3$",
+        "$V_1 < V_2 = V_3$"
+      ],
+      "answer": 2,
+      "chapter": "Current Electricity",
+      "explanation": "$B$ and $C$ in parallel give $R_{BC}=\\dfrac{1.5R\\times3R}{4.5R}=R$, equal to $R_A$. The same current flows through $A$ and through the $B$–$C$ combination, and since their resistances are equal, $V_1=V_2=V_3$.",
+      "figure": true
+    },
+    {
+      "n": 36,
+      "q": "In the circuit given here, the points $A$, $B$ and $C$ are 70 V, zero, 10 V respectively [a $10\\,\\Omega$ resistor joins $A$ to node $D$, a $20\\,\\Omega$ resistor joins $D$ to $B$, and a $30\\,\\Omega$ resistor joins $D$ to $C$]. Then",
+      "options": [
+        "currents in the paths $AD$, $DB$ and $DC$ are in the ratio of 1 : 2 : 3",
+        "currents in the paths $AD$, $DB$ and $DC$ are in the ratio of 3 : 2 : 1",
+        "the point $D$ will be at a potential of 60 V",
+        "the point $D$ will be at a potential of 20 V"
+      ],
+      "answer": 1,
+      "chapter": "Current Electricity",
+      "explanation": "Applying KCL at $D$: $(70-V_D)/10=V_D/20+(V_D-10)/30\\Rightarrow V_D=40$ V. Currents: $I_{AD}=3$ A, $I_{DB}=2$ A, $I_{DC}=1$ A, ratio $3:2:1$. (KEA awarded grace marks for this question, possibly due to the option printed as 'AB' instead of 'AD'.)",
+      "grace": true,
+      "figure": true
+    },
+    {
+      "n": 37,
+      "q": "$B_1$, $B_2$ and $B_3$ are the three identical bulbs connected to a battery of steady e.m.f. with key $K$ closed [$B_1$ in series with $K$; $B_2$ and $B_3$ in parallel with each other, this combination in series with $B_1$]. What happens to the brightness of the bulbs $B_1$ and $B_2$ when the key is opened?",
+      "options": [
+        "Brightness of the bulb, $B_1$ decreases and that of $B_2$ increases.",
+        "Brightness of the bulbs $B_1$ and $B_2$ decreases.",
+        "Brightness of the bulbs $B_1$ increases and that of $B_2$ decreases.",
+        "Brightness of the bulbs $B_1$ and $B_2$ increases."
+      ],
+      "answer": 0,
+      "chapter": "Current Electricity",
+      "explanation": "With $K$ closed, $B_1$ carries the full circuit current while $B_2$ and $B_3$ share it equally. Opening $K$ (which controls the $B_3$ branch) increases the total resistance, so the current through $B_1$ decreases (dimmer); this reduced current now flows entirely through $B_2$, which is more than $B_2$'s earlier share, so $B_2$ brightens.",
+      "figure": true
+    },
+    {
+      "n": 38,
+      "q": "Magnetic field at the centre of a circular coil of radius $R$ due to current $I$ flowing through it is $B$. The magnetic field at a point along the axis at distance $R$ from the centre is .........",
+      "options": [
+        "$\\dfrac{B}{\\sqrt8}$",
+        "$\\sqrt8\\,B$",
+        "$\\dfrac{B}{2}$",
+        "$\\dfrac{B}{4}$"
+      ],
+      "answer": 0,
+      "chapter": "Moving Charges and Magnetism",
+      "explanation": "$B_{center}=\\mu_0I/2R$; $B_{axis}(x=R)=\\dfrac{\\mu_0IR^2}{2(R^2+R^2)^{3/2}}=\\dfrac{\\mu_0I}{2R\\times2\\sqrt2}=\\dfrac{B}{\\sqrt8}$."
+    },
+    {
+      "n": 39,
+      "q": "Two thick wires and two thin wires, all of same material and same length, form a square in three different ways $P$, $Q$ and $R$ as shown in the figure [each shows a square/diamond loop carrying current $I$, with thick and thin wire sides arranged differently]. With correct connections shown, the magnetic field due to the current flow, at the centre of the loop will be zero in case of .................",
+      "options": [
+        "$P$ and $Q$ only",
+        "$P$ and $R$ only",
+        "$Q$ and $R$ only",
+        "$P$ only"
+      ],
+      "answer": 1,
+      "chapter": "Moving Charges and Magnetism",
+      "explanation": "The net field at the centre vanishes only when the thick (low-resistance) and thin (high-resistance) sides are arranged symmetrically about the centre, as in $P$ and $R$, so that contributions from opposite sides cancel exactly; the arrangement in $Q$ is asymmetric and leaves a net field.",
+      "figure": true
+    },
+    {
+      "n": 40,
+      "q": "There is a uniform magnetic field directed perpendicular and into the plane of the paper. An irregular shaped conducting loop is slowly changing into a circular loop in the plane of the paper. Then .........................",
+      "options": [
+        "AC is induced in the loop.",
+        "no current is induced in the loop.",
+        "current is induced in the loop in the anti-clockwise direction.",
+        "current is induced in the loop in the clockwise direction."
+      ],
+      "answer": 2,
+      "chapter": "Electromagnetic Induction",
+      "explanation": "As the irregular loop reshapes into a circle (which encloses the maximum area for a given perimeter), the flux into the page increases; by Lenz's law the induced current opposes this increase, flowing anticlockwise to produce an outward field."
+    },
+    {
+      "n": 41,
+      "q": "$PQ$ and $RS$ are long parallel conductors separated by certain distance. $M$ is the midpoint between them [$PQ$ carries 2A, $RS$ carries 1A, both upward]. The net magnetic field at $M$ is $B$. Now, the current 2A is switched off. The field at $M$ now becomes .....................",
+      "options": [
+        "$\\dfrac{B}{2}$",
+        "$3B$",
+        "$2B$",
+        "$B$"
+      ],
+      "answer": 3,
+      "chapter": "Moving Charges and Magnetism",
+      "explanation": "At $M$, the fields due to the two (oppositely directed, since $M$ lies between them) wires give $B=k(2-1)=k$, where $k=\\mu_0/2\\pi d$. Switching off the 2A wire leaves only the 1A wire's field at $M$, again of magnitude $k$ (though reversed in direction) — the same magnitude $B$.",
+      "figure": true
+    },
+    {
+      "n": 42,
+      "q": "An electron enters the space between the plates of a charged capacitor as shown. The charge density on the plate is $\\sigma$. Electric intensity in the space between the plates is $E$. A uniform magnetic field $B$ also exists in that space perpendicular to the direction of $E$. The electron moves perpendicular to both $\\vec E$ and $\\vec B$ without any change in direction [crossed-field velocity selector]. The time taken by the electron to travel a distance $l$ in that space is .................",
+      "options": [
+        "$\\dfrac{\\epsilon_0lB}{\\sigma}$",
+        "$\\dfrac{\\epsilon_0l}{\\sigma B}$",
+        "$\\dfrac{\\sigma l}{\\epsilon_0 B}$",
+        "$\\dfrac{\\sigma B}{\\epsilon_0 l}$"
+      ],
+      "answer": 0,
+      "chapter": "Moving Charges and Magnetism",
+      "explanation": "For the electron to travel undeflected, $qE=qvB\\Rightarrow v=E/B$. With $E=\\sigma/\\epsilon_0$, time $t=l/v=\\dfrac{\\epsilon_0lB}{\\sigma}$.",
+      "figure": true
+    },
+    {
+      "n": 43,
+      "q": "In a series resonant R–L–C circuit, the voltage across $R$ is 100 V and the value of $R=1000\\,\\Omega$. The capacitance of the capacitor is $2\\times10^{-6}$ F; angular frequency of AC is 200 rad s$^{-1}$. Then the P.D. across the inductance coil is .....................",
+      "options": [
+        "250 V",
+        "400 V",
+        "100 V",
+        "40 V"
+      ],
+      "answer": 0,
+      "chapter": "Alternating Current",
+      "explanation": "$I=V_R/R=100/1000=0.1$ A. At resonance $X_L=X_C=1/(\\omega C)=1/(200\\times2\\times10^{-6})=2500\\,\\Omega$, so $V_L=IX_L=0.1\\times2500=250$ V."
+    },
+    {
+      "n": 44,
+      "q": "A capacitor and an inductance coil are connected in separate AC circuits with a bulb glowing in both the circuits. The bulb glows more brightly when .....................",
+      "options": [
+        "separation between the plates of the capacitor is increased.",
+        "a dielectric is introduced into the gap between the plates of the capacitor.",
+        "an iron rod is introduced into the inductance coil.",
+        "the number of turns in the inductance coil is increased."
+      ],
+      "answer": 1,
+      "chapter": "Alternating Current",
+      "explanation": "Introducing a dielectric increases the capacitor's capacitance, lowering $X_C=1/\\omega C$ and increasing the current, so the bulb brightens; the other changes increase reactance and dim the bulb."
+    },
+    {
+      "n": 45,
+      "q": "A horizontal metal wire is carrying an electric current from the north to the south. Using a uniform magnetic field, it is to be prevented from falling under gravity. The direction of this magnetic field should be towards the .....................",
+      "options": [
+        "east",
+        "west",
+        "north",
+        "south"
+      ],
+      "answer": 0,
+      "chapter": "Moving Charges and Magnetism",
+      "explanation": "For the magnetic force $I\\vec L\\times\\vec B$ on the south-flowing current to point upward, $\\vec B$ must point east (right-hand rule)."
+    },
+    {
+      "n": 46,
+      "q": "A current $I$ is flowing through the loop. The direction of the current and the shape of the loop are as shown in the figure. The magnetic field at the centre of the loop is $\\dfrac{\\mu_0I}{R}$ times ..................... ($MA=R$, $MB=2R$, $\\angle DMA=90^0$) [loop $MABCD$: a quarter arc of radius $R$ from $M$ to $A$, straight segment $A$ to $B$, an arc of radius $2R$ from $B$ back around to $D$, and a straight segment $D$ back to $M$]",
+      "options": [
+        "$\\dfrac{7}{16}$, but out of the plane of the paper.",
+        "$\\dfrac{7}{16}$, but into the plane of the paper.",
+        "$\\dfrac{5}{16}$, but out of the plane of the paper.",
+        "$\\dfrac{5}{16}$, but into the plane of the paper."
+      ],
+      "answer": 1,
+      "chapter": "Moving Charges and Magnetism",
+      "explanation": "Summing the Biot–Savart contributions of the arcs of radii $R$ and $2R$ (the straight segments through $M$ contribute nothing) gives a net field of $\\dfrac{7}{16}\\dfrac{\\mu_0I}{R}$, directed into the plane of the paper (as per KEA key).",
+      "figure": true
+    },
+    {
+      "n": 47,
+      "q": "An ideal choke draws a current of 8A when connected to an AC supply of 100 V, 50 Hz. A pure resistor draws a current of 10 A when connected to the same source. The ideal choke and the resistor are connected in series and then connected to the AC source of 150 V, 40 Hz. The current in the circuit becomes .....................",
+      "options": [
+        "18A",
+        "10A",
+        "$\\dfrac{15}{\\sqrt2}$A",
+        "8A"
+      ],
+      "answer": 2,
+      "chapter": "Alternating Current",
+      "explanation": "$X_{L1}=100/8=12.5\\,\\Omega$ at 50 Hz, so $L=12.5/(2\\pi\\times50)$; $R=100/10=10\\,\\Omega$. At 40 Hz, $X_{L2}=12.5\\times(40/50)=10\\,\\Omega$. $Z=\\sqrt{10^2+10^2}=10\\sqrt2\\,\\Omega$, so $I=150/(10\\sqrt2)=15/\\sqrt2$ A."
+    },
+    {
+      "n": 48,
+      "q": "The spectrum of an oil flame is an example for .....................",
+      "options": [
+        "line absorption spectrum",
+        "band emission spectrum",
+        "line emission spectrum",
+        "continuous emission spectrum"
+      ],
+      "answer": 3,
+      "chapter": "Atoms",
+      "explanation": "An oil flame contains glowing (incandescent) soot/carbon particles which emit a continuous emission spectrum, unlike gas-discharge sources which give line or band spectra."
+    },
+    {
+      "n": 49,
+      "q": "According to Einstein's photoelectric equation, the graph of K.E. of the photoelectron emitted from the metal versus the frequency of the incident radiation gives a straight line graph, whose slope .....................",
+      "options": [
+        "is same for all metals and independent of the intensity of the incident radiation.",
+        "depends on the nature of the metal.",
+        "depends on the intensity of the incident radiation.",
+        "depends on the nature of the metal and also on the intensity of incident radiation."
+      ],
+      "answer": 0,
+      "chapter": "Dual Nature of Radiation and Matter",
+      "explanation": "$KE=h\\nu-\\phi$; the slope of the $KE$ vs $\\nu$ graph is Planck's constant $h$, a universal value independent of the metal or the intensity."
+    },
+    {
+      "n": 50,
+      "q": "An electron is moving in an orbit of a hydrogen atom from which there can be a maximum of six transitions. An electron is moving in an orbit of another hydrogen atom from which there can be a maximum of three transitions. The ratio of the velocity of the electron in these two orbits is .....................",
+      "options": [
+        "$\\dfrac{5}{4}$",
+        "$\\dfrac{3}{4}$",
+        "$\\dfrac{1}{2}$",
+        "$\\dfrac{2}{1}$"
+      ],
+      "answer": 1,
+      "chapter": "Atoms",
+      "explanation": "Maximum transitions from level $n$ is $n(n-1)/2$; 6 transitions give $n=4$, and 3 transitions give $n=3$. Since $v\\propto1/n$, the ratio $=v_4/v_3=(1/4)/(1/3)=3/4$."
+    },
+    {
+      "n": 51,
+      "q": "$\\upsilon_1$ is the frequency of the series limit of Lyman series, $\\upsilon_2$ is the frequency of the first line of Lyman series and $\\upsilon_3$ is the frequency of the series limit of the Balmer series. Then ......",
+      "options": [
+        "$\\dfrac{1}{\\upsilon_2}=\\dfrac{1}{\\upsilon_1}+\\dfrac{1}{\\upsilon_3}$",
+        "$\\dfrac{1}{\\upsilon_1}=\\dfrac{1}{\\upsilon_2}+\\dfrac{1}{\\upsilon_3}$",
+        "$\\upsilon_1-\\upsilon_2=\\upsilon_3$",
+        "$\\upsilon_1=\\upsilon_2-\\upsilon_3$"
+      ],
+      "answer": 2,
+      "chapter": "Atoms",
+      "explanation": "$\\upsilon_1=Rc$ (Lyman limit), $\\upsilon_2=\\tfrac34Rc$ (first Lyman line), $\\upsilon_3=\\tfrac14Rc$ (Balmer limit). Hence $\\upsilon_1-\\upsilon_2=\\tfrac14Rc=\\upsilon_3$."
+    },
+    {
+      "n": 52,
+      "q": "Assume the graph of specific binding energy versus mass number is as shown in the figure [step graph: specific binding energy $\\approx2$ for $A<100$, rises to $\\approx8$ for $100<A<200$, then falls to $\\approx4$ for $A>200$]. Using this graph, select the correct choice from the following:",
+      "options": [
+        "Fusion of two nuclei of mass number lying in the range of $1 < A < 50$ will release energy.",
+        "Fission of the nucleus of mass number lying in the range of $100 < A < 200$ will release energy when broken into two fragments.",
+        "Fusion of two nuclei of mass number lying in the range of $100 < A < 200$ will release energy.",
+        "Fusion of two nuclei of mass number lying in the range of $51 < A < 100$ will release energy."
+      ],
+      "answer": 3,
+      "chapter": "Nuclei",
+      "explanation": "Fusing two nuclei of mass number 51–100 (lower binding energy per nucleon, per the graph) into one nucleus of mass number 100–200 (higher binding energy per nucleon) releases energy.",
+      "figure": true
+    },
+    {
+      "n": 53,
+      "q": "Pick out the correct statement from the following:",
+      "options": [
+        "$Pu^{239}$ is not suitable for a fission reaction.",
+        "For stable nucleus, the specific binding energy is low.",
+        "Energy released per unit mass of the reactant is less in case of fusion reaction.",
+        "Packing fraction may be positive or may be negative"
+      ],
+      "answer": 3,
+      "chapter": "Nuclei",
+      "explanation": "The packing fraction $(M-A)/A$ can be positive (heavier, less stable nuclei) or negative (nuclei near the peak of stability); this is the only correct statement among the choices."
+    },
+    {
+      "n": 54,
+      "q": "A radioactive sample $S_1$ having the activity $A_1$ has twice the number of nuclei as another sample $S_2$ of activity $A_2$. If $A_2=2A_1$, then the ratio of half life of $S_1$ to $S_2$ is",
+      "options": [
+        "0.25",
+        "0.75",
+        "4",
+        "2"
+      ],
+      "answer": 2,
+      "chapter": "Nuclei",
+      "explanation": "$A=\\lambda N$; with $A_2=2A_1$ and $N_1=2N_2$: $\\lambda_2N_2=2\\lambda_1(2N_2)\\Rightarrow\\lambda_2=4\\lambda_1$. Since $T_{1/2}\\propto1/\\lambda$, $T_1/T_2=\\lambda_2/\\lambda_1=4$."
+    },
+    {
+      "n": 55,
+      "q": "When a neutron is disintegrated to give a $\\beta$-particle, .....................",
+      "options": [
+        "a proton alone is emitted.",
+        "a proton and an antineutrino are emitted.",
+        "a neutrino alone is emitted.",
+        "a proton and neutrino are emitted."
+      ],
+      "answer": 1,
+      "chapter": "Nuclei",
+      "explanation": "Neutron beta decay: $n\\to p+e^-+\\bar\\nu$, so a proton and an antineutrino accompany the emitted electron ($\\beta$-particle)."
+    },
+    {
+      "n": 56,
+      "q": "The forbidden energy gap in Ge is 0.72 eV. Given, $hc=12400\\ eV\\text{-\\AA}$. The maximum wavelength of radiation that will generate an electron hole pair is .....................",
+      "options": [
+        "17222 \\AA",
+        "1722 \\AA",
+        "172220 \\AA",
+        "172.2 \\AA"
+      ],
+      "answer": 0,
+      "chapter": "Semiconductor Electronics",
+      "explanation": "$\\lambda_{max}=hc/E_g=12400/0.72\\approx17222$ \\AA."
+    },
+    {
+      "n": 57,
+      "q": "Pick out the statement which is NOT correct.",
+      "options": [
+        "Width of the depletion region increases as the forward bias voltage increases in case of a N–P junction diode.",
+        "In a forward bias condition, the diode heavily conducts.",
+        "At a low temperature, the resistance of a semiconductor is very high.",
+        "Movement of holes is restricted to the valence band only."
+      ],
+      "answer": 0,
+      "chapter": "Semiconductor Electronics",
+      "explanation": "Forward bias narrows (not widens) the depletion region, so statement (1) is the incorrect one."
+    },
+    {
+      "n": 58,
+      "q": "In a given direction, the intensities of the scattered light by a scattering substance for two beams of light are in the ratio of $256:81$. The ratio of the frequency of the first beam to the frequency of the second beam is .....................",
+      "options": [
+        "64 : 27",
+        "2 : 1",
+        "64 : 127",
+        "1 : 2"
+      ],
+      "answer": 0,
+      "chapter": "Wave Optics",
+      "explanation": "By Rayleigh's scattering law $I\\propto\\nu^4$, $\\nu_1/\\nu_2=(256/81)^{1/4}=4/3$, which does not match any option exactly; KEA awarded grace marks for this question, likely due to this inconsistency.",
+      "grace": true
+    },
+    {
+      "n": 59,
+      "q": "Identify the logic operation performed by the circuit given here [two OR-shaped gates in cascade, each with a small bubble (inversion) at its output, i.e. two NOR gates: the first NOR gate takes inputs $A$ and $B$; its output feeds both (tied-together) inputs of the second NOR gate].",
+      "options": [
+        "NOT",
+        "NAND",
+        "OR",
+        "NOR"
+      ],
+      "answer": 2,
+      "chapter": "Semiconductor Electronics",
+      "explanation": "Working out the truth table of the given two-gate cascade shows it reproduces the OR operation on the inputs (as per KEA key).",
+      "figure": true
+    },
+    {
+      "n": 60,
+      "q": "The de-Broglie wavelength of the electron in the ground state of the hydrogen atom is ............................ (radius of the first orbit of hydrogen atom = 0.53 \\AA).",
+      "options": [
+        "1.06 \\AA",
+        "0.53 \\AA",
+        "1.67 \\AA",
+        "3.33 \\AA"
+      ],
+      "answer": 3,
+      "chapter": "Atoms",
+      "explanation": "For $n=1$, $mvr=h/2\\pi\\Rightarrow\\lambda=h/mv=2\\pi r=2\\pi\\times0.53=3.33$ \\AA."
+    }
+  ]
+}

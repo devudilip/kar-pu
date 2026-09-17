@@ -1,0 +1,527 @@
+{
+  "notes": "<h3>Newton's laws</h3><ul><li><b>First law:</b> a body stays at rest or in uniform motion unless a net external force acts (law of inertia). Inertia is measured by mass.</li><li><b>Second law:</b> $\\vec F = \\dfrac{d\\vec p}{dt} = m\\vec a$ (for constant mass). Impulse $J = F\\,\\Delta t = \\Delta p$ (area under $F$–$t$ graph).</li><li><b>Third law:</b> action and reaction are equal, opposite, and act on <b>different</b> bodies simultaneously.</li></ul><h3>Common results</h3><ul><li>Apparent weight in a lift: up with $a$: $N = m(g+a)$; down with $a$: $N = m(g-a)$; free fall: $N=0$.</li><li>Recoil of gun: $MV = mv$ (momentum conservation).</li><li>Atwood machine ($m_1 > m_2$): $a = \\dfrac{(m_1 - m_2)g}{m_1 + m_2}$, $T = \\dfrac{2m_1m_2 g}{m_1+m_2}$.</li><li>Blocks pushed together on smooth surface: $a = F/(m_1+m_2)$; contact force = mass beyond the contact $\\times a$.</li><li>Smooth incline: $a = g\\sin\\theta$. Rough incline (sliding down): $a = g(\\sin\\theta - \\mu\\cos\\theta)$.</li></ul><h3>Friction</h3><ul><li>Static friction is self-adjusting up to $f_{max} = \\mu_s N$. Kinetic friction $f_k = \\mu_k N$, with $\\mu_k < \\mu_s$.</li><li>Angle of repose: body just starts sliding at $\\tan\\theta = \\mu_s$.</li><li>Friction is independent of area of contact (approximately).</li></ul><h3>Circular motion</h3><ul><li>Centripetal force $= mv^2/r$. On a level road: $v_{max} = \\sqrt{\\mu r g}$.</li><li>Banked road (no friction): $v = \\sqrt{rg\\tan\\theta}$. With friction: $v_{max} = \\sqrt{rg\\dfrac{\\mu + \\tan\\theta}{1 - \\mu\\tan\\theta}}$.</li></ul><h3>Exam tip</h3><p>Expect 2–3 questions: lift/apparent weight, connected bodies, friction on incline, banking of roads. Take $g = 10\\,\\text{m s}^{-2}$ unless told otherwise.</p>",
+  "questions": [
+    {
+      "id": "phy-laws-of-motion-001",
+      "q": "A block slides down a frictionless inclined plane of inclination $30^\\circ$. Its acceleration is ($g = 10$ m s$^{-2}$)",
+      "options": [
+        "10 m s$^{-2}$",
+        "5 m s$^{-2}$",
+        "20 m s$^{-2}$",
+        "$5\\sqrt3$ m s$^{-2}$"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "$a = g\\sin\\theta = 10\\times\\sin30^\\circ = 5$ m s$^{-2}$."
+    },
+    {
+      "id": "phy-laws-of-motion-002",
+      "q": "A ball of mass 0.15 kg moving at 20 m s$^{-1}$ hits a wall normally and rebounds with the same speed. The impulse imparted to the ball is",
+      "options": [
+        "0",
+        "1.5 N s",
+        "6 N s",
+        "3 N s"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "Impulse $=\\Delta p = m(v - (-v)) = 0.15\\times(20+20) = 6$ N s. Direction reverses, so the change is $2mv$."
+    },
+    {
+      "id": "phy-laws-of-motion-003",
+      "q": "A man of mass 60 kg stands on a weighing machine in a lift accelerating upwards at 2 m s$^{-2}$. The reading of the machine is ($g = 10$ m s$^{-2}$)",
+      "options": [
+        "480 N",
+        "120 N",
+        "600 N",
+        "720 N"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "$N - mg = ma \\Rightarrow N = m(g+a) = 60\\times12 = 720$ N."
+    },
+    {
+      "id": "phy-laws-of-motion-004",
+      "q": "A 5 kg block rests on a horizontal surface with $\\mu_s = 0.4$. A horizontal force of 15 N is applied. The frictional force on the block is ($g = 10$ m s$^{-2}$)",
+      "options": [
+        "15 N",
+        "0",
+        "50 N",
+        "20 N"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "Maximum static friction $= \\mu_s N = 0.4\\times50 = 20$ N. Since applied force (15 N) is less than this, the block does not move and static friction equals the applied force: 15 N.",
+      "tip": "Static friction is self-adjusting — it equals the applied force until the limiting value."
+    },
+    {
+      "id": "phy-laws-of-motion-005",
+      "q": "Two masses 5 kg and 3 kg are connected by a light string over a frictionless pulley. The acceleration of the system is ($g = 10$ m s$^{-2}$)",
+      "options": [
+        "1.25 m s$^{-2}$",
+        "2.5 m s$^{-2}$",
+        "10 m s$^{-2}$",
+        "5 m s$^{-2}$"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "$a = \\dfrac{(m_1 - m_2)g}{m_1+m_2} = \\dfrac{2\\times10}{8} = 2.5$ m s$^{-2}$."
+    },
+    {
+      "id": "phy-laws-of-motion-006",
+      "q": "A bullet of mass 10 g is fired from a gun of mass 4 kg with a velocity of 400 m s$^{-1}$. The recoil velocity of the gun is",
+      "options": [
+        "4 m s$^{-1}$",
+        "0.1 m s$^{-1}$",
+        "10 m s$^{-1}$",
+        "1 m s$^{-1}$"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "Momentum conservation: $MV = mv \\Rightarrow V = \\dfrac{0.01\\times400}{4} = 1$ m s$^{-1}$."
+    },
+    {
+      "id": "phy-laws-of-motion-007",
+      "q": "A curved road of radius 100 m is banked at $45^\\circ$. Ignoring friction, the safe speed for a vehicle is ($g = 10$ m s$^{-2}$)",
+      "options": [
+        "$10\\sqrt{10}$ m s$^{-1}$",
+        "100 m s$^{-1}$",
+        "10 m s$^{-1}$",
+        "$20$ m s$^{-1}$"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "$v = \\sqrt{rg\\tan\\theta} = \\sqrt{100\\times10\\times1} = \\sqrt{1000} = 10\\sqrt{10}\\approx31.6$ m s$^{-1}$."
+    },
+    {
+      "id": "phy-laws-of-motion-008",
+      "q": "A body placed on a rough inclined plane just begins to slide when the inclination is $30^\\circ$. The coefficient of static friction is",
+      "options": [
+        "$\\dfrac12$",
+        "$\\sqrt3$",
+        "$\\dfrac{1}{\\sqrt3}$",
+        "$\\dfrac{\\sqrt3}{2}$"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "At the angle of repose $\\mu_s = \\tan\\theta = \\tan30^\\circ = 1/\\sqrt3$."
+    },
+    {
+      "id": "phy-laws-of-motion-009",
+      "q": "Two blocks of masses 2 kg and 3 kg are placed in contact on a frictionless surface. A force of 10 N is applied on the 2 kg block. The contact force between the blocks is",
+      "options": [
+        "4 N",
+        "10 N",
+        "2 N",
+        "6 N"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "$a = F/(m_1+m_2) = 10/5 = 2$ m s$^{-2}$. The contact force accelerates only the 3 kg block: $N = 3\\times2 = 6$ N."
+    },
+    {
+      "id": "phy-laws-of-motion-010",
+      "q": "A force of 10 N acts on a body of mass 2 kg, initially at rest, for 3 s. The velocity acquired is",
+      "options": [
+        "5 m s$^{-1}$",
+        "10 m s$^{-1}$",
+        "15 m s$^{-1}$",
+        "30 m s$^{-1}$"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "$a = F/m = 5$ m s$^{-2}$; $v = at = 15$ m s$^{-1}$. Or impulse $Ft = 30 = mv$."
+    },
+    {
+      "id": "phy-laws-of-motion-011",
+      "q": "A body of mass 2 kg has velocity $3\\hat i$ m s$^{-1}$. After 2 s its velocity is $3\\hat j$ m s$^{-1}$. The magnitude of the average force acting on it is",
+      "options": [
+        "0",
+        "$3\\sqrt2$ N",
+        "6 N",
+        "3 N"
+      ],
+      "answer": 1,
+      "difficulty": "hard",
+      "explanation": "$\\Delta\\vec v = 3\\hat j - 3\\hat i$, $|\\Delta v| = 3\\sqrt2$. $F = m|\\Delta v|/t = 2\\times3\\sqrt2/2 = 3\\sqrt2$ N.",
+      "tip": "Speed is unchanged but velocity (a vector) has changed — force is not zero."
+    },
+    {
+      "id": "phy-laws-of-motion-012",
+      "q": "Which of the following statements about Newton's third law is correct?",
+      "options": [
+        "Action and reaction act on different bodies and are simultaneous",
+        "Action and reaction cancel each other",
+        "Action and reaction act on the same body",
+        "Reaction occurs after the action"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "The pair of forces act on two different bodies, so they never cancel; they arise together."
+    },
+    {
+      "id": "phy-laws-of-motion-013",
+      "q": "A cyclist goes round a circular track of radius 20 m at 10 m s$^{-1}$. The minimum coefficient of friction between tyres and road to avoid skidding is ($g = 10$ m s$^{-2}$)",
+      "options": [
+        "0.2",
+        "0.1",
+        "0.5",
+        "1.0"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "$\\mu m g \\ge \\dfrac{mv^2}{r} \\Rightarrow \\mu \\ge \\dfrac{v^2}{rg} = \\dfrac{100}{200} = 0.5$."
+    },
+    {
+      "id": "phy-laws-of-motion-014",
+      "q": "A rocket works on the principle of conservation of",
+      "options": [
+        "mass",
+        "linear momentum",
+        "angular momentum",
+        "energy"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "Ejected gases carry momentum backward; the rocket gains equal momentum forward."
+    },
+    {
+      "id": "phy-laws-of-motion-015",
+      "q": "Newton's first law of motion is also known as the",
+      "options": [
+        "law of action and reaction",
+        "law of gravitation",
+        "law of conservation of momentum",
+        "law of inertia"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "The first law states a body resists a change in its state of rest or motion unless acted on by a net force — this property is inertia."
+    },
+    {
+      "id": "phy-laws-of-motion-016",
+      "q": "A lift accelerates downward at 2 m s$^{-2}$ carrying a 50 kg person standing on a weighing scale. The scale reading is ($g=10$ m s$^{-2}$)",
+      "options": [
+        "400 N",
+        "300 N",
+        "500 N",
+        "600 N"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "For downward acceleration, $N = m(g-a) = 50\\times(10-2) = 400$ N."
+    },
+    {
+      "id": "phy-laws-of-motion-017",
+      "q": "A lift and everything inside it fall freely under gravity (cable snapped). The apparent weight of a person standing inside is",
+      "options": [
+        "equal to half mg",
+        "zero",
+        "twice mg",
+        "equal to mg"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "In free fall, $a=g$, so $N=m(g-a)=0$: the person experiences weightlessness."
+    },
+    {
+      "id": "phy-laws-of-motion-018",
+      "q": "Two masses of 5 kg and 3 kg hang from a light string passing over a frictionless pulley (Atwood machine). The tension in the string is ($g=10$ m s$^{-2}$)",
+      "options": [
+        "30 N",
+        "33.5 N",
+        "37.5 N",
+        "25 N"
+      ],
+      "answer": 2,
+      "difficulty": "hard",
+      "explanation": "$a=\\dfrac{(m_1-m_2)g}{m_1+m_2}=2.5$ m s$^{-2}$; $T=\\dfrac{2m_1m_2g}{m_1+m_2}=\\dfrac{2\\times5\\times3\\times10}{8}=37.5$ N."
+    },
+    {
+      "id": "phy-laws-of-motion-019",
+      "q": "A 10 kg block sliding on a horizontal surface with $\\mu_k = 0.3$ decelerates due to friction alone at a rate of ($g=10$ m s$^{-2}$)",
+      "options": [
+        "0.3 m/s²",
+        "10 m/s²",
+        "30 m/s²",
+        "3 m/s²"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "Friction force $=\\mu_k mg$, so deceleration $=\\mu_k g = 0.3\\times10 = 3$ m s$^{-2}$ (mass cancels)."
+    },
+    {
+      "id": "phy-laws-of-motion-020",
+      "q": "The angle of friction is defined as the angle whose tangent equals",
+      "options": [
+        "$\\mu_s$",
+        "$1/\\mu_s$",
+        "$2\\mu_s$",
+        "$\\mu_s^2$"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "The angle of friction $\\lambda$ satisfies $\\tan\\lambda = \\mu_s$, and it equals the angle of repose."
+    },
+    {
+      "id": "phy-laws-of-motion-021",
+      "q": "Which of the following statements about friction is correct?",
+      "options": [
+        "Friction depends strongly on the area of contact between the surfaces",
+        "Static friction remains constant regardless of the applied force",
+        "The coefficient of kinetic friction is generally less than the coefficient of static friction",
+        "Kinetic friction is always greater than static friction"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "$\\mu_k < \\mu_s$ in general; static friction is self-adjusting (not constant), and friction is nearly independent of contact area."
+    },
+    {
+      "id": "phy-laws-of-motion-022",
+      "q": "A block of mass 2 kg is pressed against a vertical wall by a horizontal force F. If the coefficient of friction between block and wall is 0.5, the minimum value of F needed to keep the block from sliding down is ($g=10$ m s$^{-2}$)",
+      "options": [
+        "40 N",
+        "30 N",
+        "10 N",
+        "20 N"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "Friction (vertical) must balance weight: $\\mu F \\ge mg \\Rightarrow F \\ge mg/\\mu = 20/0.5 = 40$ N."
+    },
+    {
+      "id": "phy-laws-of-motion-023",
+      "q": "A 2 kg block rests on top of a 3 kg block on a frictionless floor; the coefficient of friction between the two blocks is 0.4. A horizontal force F is applied to the lower (3 kg) block. The maximum value of F for which both blocks move together without slipping is ($g=10$ m s$^{-2}$)",
+      "options": [
+        "10 N",
+        "40 N",
+        "30 N",
+        "20 N"
+      ],
+      "answer": 3,
+      "difficulty": "hard",
+      "explanation": "Friction must accelerate the top block: max $a = \\mu g = 4$ m s$^{-2}$. Max $F = (m_1+m_2)a_{max} = 5\\times4 = 20$ N."
+    },
+    {
+      "id": "phy-laws-of-motion-024",
+      "q": "A force acting on a 2 kg body, initially at rest, rises linearly from 0 to 20 N over 4 s on an F-t graph and then instantly drops to zero. The velocity gained by the body is",
+      "options": [
+        "5 m/s",
+        "20 m/s",
+        "40 m/s",
+        "10 m/s"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "Impulse $=$ area of the triangle $=\\frac12\\times4\\times20=40$ N s $=\\Delta p = mv \\Rightarrow v = 40/2 = 20$ m s$^{-1}$."
+    },
+    {
+      "id": "phy-laws-of-motion-025",
+      "q": "The kinetic friction between two surfaces does NOT depend on the",
+      "options": [
+        "normal reaction",
+        "area of contact between the surfaces",
+        "coefficient of kinetic friction",
+        "nature of the surfaces in contact"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "Kinetic friction $f_k=\\mu_kN$ depends on the normal force and the surfaces (through $\\mu_k$), but is essentially independent of the apparent area of contact."
+    },
+    {
+      "id": "phy-laws-of-motion-026",
+      "q": "The SI unit of momentum is",
+      "options": [
+        "N",
+        "kg m/s²",
+        "kg m/s",
+        "J s"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "Momentum $p=mv$ has SI unit kg m s$^{-1}$."
+    },
+    {
+      "id": "phy-laws-of-motion-027",
+      "q": "A ball of mass m moving with speed v collides perfectly inelastically with an identical stationary ball of mass m and they move off together. Their common velocity after collision is",
+      "options": [
+        "v/2",
+        "2v",
+        "v",
+        "v/4"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "Momentum conservation: $mv = (m+m)v' \\Rightarrow v' = v/2$."
+    },
+    {
+      "id": "phy-laws-of-motion-028",
+      "q": "A man of mass 50 kg standing on a stationary 100 kg boat jumps off horizontally with a speed of 2 m s$^{-1}$ relative to the water. The recoil speed of the boat is",
+      "options": [
+        "4 m/s",
+        "2 m/s",
+        "0.5 m/s",
+        "1 m/s"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "Total momentum was zero: $M V = mv \\Rightarrow V = \\dfrac{50\\times2}{100} = 1$ m s$^{-1}$, in the direction opposite to the man."
+    },
+    {
+      "id": "phy-laws-of-motion-029",
+      "q": "A 4 kg block on a frictionless table is connected by a string, over a pulley at the table's edge, to a 1 kg block hanging vertically. The tension in the string is ($g=10$ m s$^{-2}$)",
+      "options": [
+        "6 N",
+        "10 N",
+        "4 N",
+        "8 N"
+      ],
+      "answer": 3,
+      "difficulty": "hard",
+      "explanation": "$a=\\dfrac{m_2g}{m_1+m_2}=\\dfrac{1\\times10}{5}=2$ m s$^{-2}$; $T=m_1a=4\\times2=8$ N (also $=m_2(g-a)=1\\times8=8$ N)."
+    },
+    {
+      "id": "phy-laws-of-motion-030",
+      "q": "A 2 kg block is pushed up a rough incline of angle 37° (sin37°=0.6, cos37°=0.8) at constant velocity, with $\\mu=0.5$. The force required, applied parallel to the incline, is ($g=10$ m s$^{-2}$)",
+      "options": [
+        "16 N",
+        "20 N",
+        "12 N",
+        "18 N"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "At constant velocity, $F = mg(\\sin\\theta+\\mu\\cos\\theta) = 20\\times(0.6+0.5\\times0.8) = 20\\times1.0 = 20$ N."
+    },
+    {
+      "id": "phy-laws-of-motion-031",
+      "q": "Newton's second law, $\\vec F = d\\vec p/dt$, reduces to the familiar form $\\vec F = m\\vec a$ only when",
+      "options": [
+        "the body moves in a circular path",
+        "the velocity of the body is constant",
+        "the mass of the body remains constant",
+        "the acceleration of the body is zero"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "$\\vec F = d(m\\vec v)/dt = m\\,d\\vec v/dt + \\vec v\\,dm/dt$; this reduces to $m\\vec a$ only when $dm/dt=0$, i.e. constant mass."
+    },
+    {
+      "id": "phy-laws-of-motion-032",
+      "q": "A 5 kg block rests on a horizontal surface with $\\mu_s=0.6$. The maximum horizontal force that can be applied to it without causing it to slide is ($g=10$ m s$^{-2}$)",
+      "options": [
+        "30 N",
+        "40 N",
+        "25 N",
+        "35 N"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "The block remains at rest as long as the applied force does not exceed limiting friction: $F_{max}=\\mu_smg=0.6\\times5\\times10=30$ N."
+    },
+    {
+      "id": "phy-laws-of-motion-033",
+      "q": "A conical pendulum of string length 0.2 m makes a constant angle of 60° with the vertical as its bob moves in a horizontal circle. Its time period is ($g=10$ m s$^{-2}$)",
+      "options": [
+        "0.31 s",
+        "0.63 s",
+        "0.44 s",
+        "1.26 s"
+      ],
+      "answer": 1,
+      "difficulty": "hard",
+      "explanation": "$T=2\\pi\\sqrt{\\dfrac{L\\cos\\theta}{g}}=2\\pi\\sqrt{\\dfrac{0.2\\times0.5}{10}}=2\\pi\\sqrt{0.01}=2\\pi(0.1)\\approx0.63$ s."
+    },
+    {
+      "id": "phy-laws-of-motion-034",
+      "q": "A block slides down a rough incline of angle 37° (sin37°=0.6, cos37°=0.8) with $\\mu=0.25$. Its acceleration down the incline is ($g=10$ m s$^{-2}$)",
+      "options": [
+        "4 m/s²",
+        "3 m/s²",
+        "2 m/s²",
+        "3.5 m/s²"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "$a=g(\\sin\\theta-\\mu\\cos\\theta)=10\\times(0.6-0.25\\times0.8)=10\\times0.4=4$ m s$^{-2}$."
+    },
+    {
+      "id": "phy-laws-of-motion-035",
+      "q": "The inertia of a body is a measure of its",
+      "options": [
+        "weight",
+        "density",
+        "mass",
+        "volume"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "Inertia (reluctance to change state of motion) increases with mass; a heavier body is harder to accelerate for a given force."
+    },
+    {
+      "id": "phy-laws-of-motion-036",
+      "q": "A horizontal force of 20 N is applied to a 3 kg block, which is in contact with and pushing a 2 kg block ahead of it along a frictionless floor. The contact force between the blocks is",
+      "options": [
+        "20 N",
+        "4 N",
+        "12 N",
+        "8 N"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "$a=F/(m_1+m_2)=20/5=4$ m s$^{-2}$. Contact force accelerates only the 2 kg block: $N=2\\times4=8$ N."
+    },
+    {
+      "id": "phy-laws-of-motion-037",
+      "q": "A ball of mass 0.5 kg falls from a height of 5 m onto the ground and rebounds to a height of 1.25 m. If the ball is in contact with the ground for 0.1 s, the average force exerted by the ground on the ball (in excess of the effect already included by gravity, i.e. from the impulsive contact) is ($g=10$ m s$^{-2}$)",
+      "options": [
+        "50 N",
+        "60 N",
+        "90 N",
+        "75 N"
+      ],
+      "answer": 3,
+      "difficulty": "hard",
+      "explanation": "Speed just before impact $=\\sqrt{2\\times10\\times5}=10$ m/s; speed just after $=\\sqrt{2\\times10\\times1.25}=5$ m/s (opposite direction). $\\Delta p = 0.5(10+5)=7.5$ kg m/s. Average force $=7.5/0.1=75$ N."
+    },
+    {
+      "id": "phy-laws-of-motion-038",
+      "q": "A rope pulls a block of mass 5 kg vertically upward with an acceleration of 2 m s$^{-2}$. The tension in the rope is ($g=10$ m s$^{-2}$)",
+      "options": [
+        "50 N",
+        "55 N",
+        "60 N",
+        "40 N"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "$T - mg = ma \\Rightarrow T = m(g+a) = 5\\times12 = 60$ N."
+    },
+    {
+      "id": "phy-laws-of-motion-039",
+      "q": "A pseudo (fictitious) force must be introduced to correctly apply Newton's laws of motion in",
+      "options": [
+        "a non-inertial (accelerated) frame of reference",
+        "an inertial frame of reference",
+        "a frame that is always at rest",
+        "any frame moving at constant velocity"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "Newton's laws hold directly only in inertial frames; in an accelerated (non-inertial) frame, a pseudo force (opposite to the frame's acceleration) must be added to make them work."
+    },
+    {
+      "id": "phy-laws-of-motion-040",
+      "q": "According to the impulse-momentum theorem, the impulse imparted to a body by a force equals",
+      "options": [
+        "the work done by the force",
+        "the change in momentum of the body",
+        "the average force acting on it",
+        "the total distance travelled by it"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "Impulse $J = \\int F\\,dt = \\Delta p$, the change in the body's linear momentum."
+    }
+  ]
+}

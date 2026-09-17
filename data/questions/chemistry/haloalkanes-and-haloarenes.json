@@ -1,0 +1,525 @@
+{
+  "notes": "<h3>Classification & nomenclature</h3><ul><li>Haloalkanes: R–X (sp$^3$ C–X). Haloarenes: Ar–X (sp$^2$ C–X, X directly on ring). Classified as primary, secondary, tertiary by the carbon bearing X; also allylic (C=C–C–X) and benzylic (Ar–C–X).</li><li>C–X bond length: C–F &lt; C–Cl &lt; C–Br &lt; C–I (increases down the group); bond enthalpy decreases down the group (C–F strongest).</li></ul><h3>Preparation</h3><ul><li>From alcohols: ROH + HX (ZnCl$_2$/conc. HCl — Lucas test), ROH + PCl$_5$/PCl$_3$/SOCl$_2$ (SOCl$_2$ best, by-products gaseous).</li><li>From alkenes: HX addition (Markovnikov; peroxide effect gives anti-Markovnikov only with HBr).</li><li>Haloarenes: electrophilic substitution (X$_2$/Fe or FeX$_3$) or from diazonium salts (Sandmeyer/Balz-Schiemann).</li></ul><h3>Physical properties</h3><ul><li>Density increases with number and size of halogens; CHI$_3$, CH$_2$I$_2$, CHBr$_3$ denser than water. Boiling point: RI &gt; RBr &gt; RCl &gt; RF for same R (van der Waals ↑ with size); branching lowers b.p.</li><li>Haloalkanes are weakly polar but insoluble in water (cannot H-bond with water; break existing H-bonds).</li></ul><h3>Reactions of haloalkanes</h3><table><tr><th>Reaction</th><th>Product</th></tr><tr><td>Nucleophilic substitution (OH$^-$, CN$^-$, NH$_3$, alkoxide)</td><td>alcohol, nitrile, amine, ether</td></tr><tr><td>Elimination (alc. KOH, heat)</td><td>alkene (Saytzeff product major)</td></tr><tr><td>With Mg in dry ether</td><td>Grignard reagent RMgX</td></tr><tr><td>Wurtz reaction (Na, dry ether)</td><td>symmetrical alkane R–R</td></tr></table><ul><li>S$_N$2: one-step, backside attack, inversion of configuration, rate ∝ [RX][Nu$^-$]; favoured by methyl &gt; 1° &gt; 2° (3° hindered).</li><li>S$_N$1: two-step via carbocation, racemisation, rate ∝ [RX] only; favoured by 3° (stable carbocation) &gt; 2° &gt; 1°; polar protic solvent helps.</li></ul><h3>Haloarenes: low reactivity</h3><ul><li>Resonance gives C–X partial double-bond character (shorter, stronger bond); sp$^2$ carbon; ring is electron-rich (repels Nu$^-$); phenyl cation destabilised.</li><li>Undergo electrophilic substitution slowly (X is o,p-directing but deactivating due to –I &gt; +R).</li><li>Nucleophilic substitution needs harsh conditions (high T, P, NaOH, e.g. chlorobenzene → phenol at 623 K, 300 atm) or is aided by electron-withdrawing (–NO$_2$) groups at o/p positions.</li></ul><h3>Important named compounds</h3><ul><li>DDT — insecticide (banned, non-biodegradable); Freons (CFCs) — refrigerants, deplete ozone; Iodoform — antiseptic; Chloroform — anaesthetic (kept in dark bottles, stored with 1% ethanol to prevent oxidation to poisonous COCl$_2$, phosgene).</li></ul><h3>Exam tip</h3><p>KCET asks 2–3 questions: S$_N$1 vs S$_N$2 conditions, why haloarenes are less reactive, and one preparation/named-reaction question. Learn the resonance argument for haloarenes thoroughly.</p>",
+  "questions": [
+    {
+      "id": "che-haloalkanes-and-haloarenes-001",
+      "q": "The correct order of boiling points for 1-chlorobutane, 1-bromobutane and 1-iodobutane is",
+      "options": [
+        "chloro = bromo = iodo",
+        "bromo &lt; chloro &lt; iodo",
+        "iodo &lt; bromo &lt; chloro",
+        "chloro &lt; bromo &lt; iodo"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "Van der Waals forces increase with the size/mass of the halogen atom, so b.p. increases from Cl to Br to I for the same alkyl group."
+    },
+    {
+      "id": "che-haloalkanes-and-haloarenes-002",
+      "q": "Which reaction of an alkyl halide proceeds with inversion of configuration?",
+      "options": [
+        "S$_N$2",
+        "Free radical substitution",
+        "E1",
+        "S$_N$1"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "S$_N$2 is a single-step backside attack by the nucleophile, giving Walden inversion at the stereocentre."
+    },
+    {
+      "id": "che-haloalkanes-and-haloarenes-003",
+      "q": "Chlorobenzene is less reactive than alkyl chlorides towards nucleophilic substitution mainly because",
+      "options": [
+        "chlorine is a poor leaving group in chlorobenzene",
+        "chlorine is more electronegative in the ring",
+        "resonance gives the C–Cl bond partial double-bond character",
+        "the ring is electron deficient"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "Delocalisation of a lone pair of Cl into the ring shortens and strengthens the C–Cl bond and makes the carbon less electrophilic, hindering nucleophilic attack."
+    },
+    {
+      "id": "che-haloalkanes-and-haloarenes-004",
+      "q": "Which alkyl halide undergoes S$_N$1 reaction fastest?",
+      "options": [
+        "CH$_3$Cl",
+        "(CH$_3$)$_3$CCl",
+        "CH$_3$CH$_2$Cl",
+        "(CH$_3$)$_2$CHCl"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "S$_N$1 rate depends on carbocation stability; tertiary carbocations are most stable, so tert-butyl chloride reacts fastest."
+    },
+    {
+      "id": "che-haloalkanes-and-haloarenes-005",
+      "q": "Which of the following is used to convert an alcohol to an alkyl chloride with only gaseous by-products?",
+      "options": [
+        "HCl/ZnCl$_2$",
+        "SOCl$_2$",
+        "PCl$_5$",
+        "PCl$_3$"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "ROH + SOCl$_2$ → RCl + SO$_2$↑ + HCl↑, both by-products escape as gases, giving pure RCl (Darzens process)."
+    },
+    {
+      "id": "che-haloalkanes-and-haloarenes-006",
+      "q": "The Wurtz reaction converts an alkyl halide into",
+      "options": [
+        "an alcohol",
+        "an alkene",
+        "a symmetrical alkane",
+        "a Grignard reagent"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "2 RX + 2Na $\\xrightarrow{\\text{dry ether}}$ R–R + 2NaX, giving a symmetrical alkane with double the carbon chain."
+    },
+    {
+      "id": "che-haloalkanes-and-haloarenes-007",
+      "q": "Iodoform test is a characteristic test for compounds containing the group",
+      "options": [
+        "CH$_3$CO– or CH$_3$CH(OH)–",
+        "–OH only",
+        "–CHO",
+        "–COOH"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "Methyl ketones and secondary alcohols with a CH$_3$CH(OH)– group give a yellow precipitate of CHI$_3$ with I$_2$/NaOH."
+    },
+    {
+      "id": "che-haloalkanes-and-haloarenes-008",
+      "q": "Addition of HBr to propene in the presence of peroxide gives predominantly",
+      "options": [
+        "2-bromopropane",
+        "propyl iodide",
+        "1,2-dibromopropane",
+        "1-bromopropane"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "Peroxide effect (anti-Markovnikov) applies only to HBr: the bromine adds to the terminal (less substituted) carbon via a free-radical mechanism, giving 1-bromopropane."
+    },
+    {
+      "id": "che-haloalkanes-and-haloarenes-009",
+      "q": "Which of these solvents favours an S$_N$1 mechanism?",
+      "options": [
+        "Polar aprotic",
+        "Polar protic",
+        "Any solvent equally",
+        "Non-polar aprotic"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "Polar protic solvents (water, alcohols) stabilise the carbocation and the leaving halide ion by solvation, favouring the S$_N$1 pathway."
+    },
+    {
+      "id": "che-haloalkanes-and-haloarenes-010",
+      "q": "Grignard reagents must be prepared and used in",
+      "options": [
+        "dry ether, free of moisture",
+        "aqueous medium",
+        "molten NaCl",
+        "concentrated HCl"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "Grignard reagents (RMgX) react violently with even traces of water/moisture to give alkanes, so anhydrous ether is essential."
+    },
+    {
+      "id": "che-haloalkanes-and-haloarenes-011",
+      "q": "The insecticide DDT is chemically known as",
+      "options": [
+        "trichlorodiphenylethane",
+        "dichlorophenyltrichloroethanol",
+        "dibromodiphenyltrichloromethane",
+        "dichlorodiphenyltrichloroethane"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "DDT stands for dichlorodiphenyltrichloroethane, once widely used as an insecticide but now banned due to non-biodegradability."
+    },
+    {
+      "id": "che-haloalkanes-and-haloarenes-012",
+      "q": "Racemisation is a characteristic feature of which mechanism?",
+      "options": [
+        "S$_N$2",
+        "Free radical halogenation only",
+        "S$_N$1",
+        "E2"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "In S$_N$1 the planar carbocation intermediate is attacked by the nucleophile from either face with nearly equal probability, giving a racemic mixture."
+    },
+    {
+      "id": "che-haloalkanes-and-haloarenes-013",
+      "q": "Chlorobenzene reacts with chlorine in the presence of FeCl$_3$ to give mainly",
+      "options": [
+        "1,4-dichlorobenzene (para, major) and small ortho",
+        "1,2-dichlorobenzene",
+        "1,3-dichlorobenzene",
+        "1,3,5-trichlorobenzene"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "Cl is an ortho, para director in electrophilic aromatic substitution due to resonance donation of a lone pair; para is major due to less steric hindrance."
+    },
+    {
+      "id": "che-haloalkanes-and-haloarenes-014",
+      "q": "The relative rate of S$_N$2 reaction for methyl, primary, secondary and tertiary halides is",
+      "options": [
+        "all react at the same rate",
+        "3° &gt; 2° &gt; 1° &gt; methyl",
+        "1° &gt; methyl &gt; 3° &gt; 2°",
+        "methyl &gt; 1° &gt; 2° &gt; 3°"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "S$_N$2 requires backside attack; increasing alkyl substitution increases steric hindrance, so methyl halides react fastest and tertiary halides essentially do not undergo S$_N$2."
+    },
+    {
+      "id": "che-haloalkanes-and-haloarenes-015",
+      "q": "Freons are chemically",
+      "options": [
+        "iodinated alkanes",
+        "bromofluoroalkenes",
+        "chlorofluorocarbons of methane and ethane",
+        "polyhalogenated aromatic compounds"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "Freons (e.g. CCl$_2$F$_2$, Freon-12) are chlorofluorocarbons used as refrigerants and aerosol propellants; they deplete stratospheric ozone."
+    },
+    {
+      "id": "che-haloalkanes-and-haloarenes-016",
+      "q": "Chloroform is stored in dark-coloured bottles, completely filled, with a little ethanol added, mainly to prevent",
+      "options": [
+        "polymerisation of chloroform",
+        "its oxidation by air and light to the poisonous gas phosgene",
+        "reaction with the bottle glass",
+        "evaporation"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "Chloroform is slowly oxidised by air in the presence of light to phosgene (COCl$_2$), a poisonous gas; ethanol converts any phosgene formed into harmless diethyl carbonate."
+    },
+    {
+      "id": "che-haloalkanes-and-haloarenes-017",
+      "q": "Which compound would give a precipitate with alcoholic AgNO$_3$ most readily at room temperature?",
+      "options": [
+        "Chlorobenzene",
+        "n-Propyl fluoride",
+        "Vinyl chloride",
+        "tert-Butyl chloride"
+      ],
+      "answer": 3,
+      "difficulty": "hard",
+      "explanation": "tert-Butyl chloride ionises readily (S$_N$1, stable 3° carbocation) at room temperature to release Cl$^-$, which precipitates as AgCl; aryl and vinyl halides do not ionise due to resonance stabilisation of the C–X bond."
+    },
+    {
+      "id": "che-haloalkanes-and-haloarenes-018",
+      "q": "The dipole moment of chlorobenzene is lower than that of cyclohexyl chloride mainly because",
+      "options": [
+        "chlorobenzene is non-polar",
+        "the C–Cl bond in chlorobenzene has partial double-bond character due to resonance, shortening it and reducing charge separation",
+        "chlorine is less electronegative in chlorobenzene",
+        "cyclohexyl chloride has a longer C–Cl bond"
+      ],
+      "answer": 1,
+      "difficulty": "hard",
+      "explanation": "Resonance in chlorobenzene delocalises the Cl lone pair into the ring, shortening the C–Cl bond and giving it partial double-bond character, which reduces the dipole moment compared with a purely sp$^3$ C–Cl bond."
+    },
+    {
+      "id": "che-haloalkanes-and-haloarenes-019",
+      "q": "Ethyl bromide on treatment with alcoholic KOH (heat) gives mainly",
+      "options": [
+        "ethene",
+        "acetylene",
+        "diethyl ether",
+        "ethanol"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "Alcoholic KOH favours $\\beta$-elimination (dehydrohalogenation) to give an alkene, whereas aqueous KOH favours substitution to give the alcohol."
+    },
+    {
+      "id": "che-haloalkanes-and-haloarenes-020",
+      "q": "Which of the following alkyl halides would show the fastest S$_N$2 reaction with NaOH?",
+      "options": [
+        "(CH$_3$)$_3$CBr",
+        "CH$_3$CH$_2$Br",
+        "CH$_3$Br",
+        "(CH$_3$)$_2$CHBr"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "Methyl bromide has the least steric hindrance around the electrophilic carbon, so backside attack by OH$^-$ is fastest among these."
+    },
+    {
+      "id": "che-haloalkanes-and-haloarenes-021",
+      "q": "The correct order of C–X bond length (for a given alkyl group) is",
+      "options": [
+        "C–F &gt; C–Cl &gt; C–Br &gt; C–I",
+        "all C–X bonds have the same length",
+        "C–I &lt; C–Br &lt; C–Cl &lt; C–F",
+        "C–I &gt; C–Br &gt; C–Cl &gt; C–F"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "Bond length increases as the halogen atom becomes larger (F &lt; Cl &lt; Br &lt; I in atomic radius), so C–I is the longest and C–F the shortest carbon-halogen bond."
+    },
+    {
+      "id": "che-haloalkanes-and-haloarenes-022",
+      "q": "Which of the following is an example of an allylic halide?",
+      "options": [
+        "CH$_2$=CH–Cl",
+        "CH$_3$–CH$_2$–Cl",
+        "CH$_2$=CH–CH$_2$–Cl",
+        "C$_6$H$_5$–Cl"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "An allylic halide has the halogen on the carbon adjacent to a C=C double bond (sp$^3$ carbon next to sp$^2$); CH$_2$=CH–CH$_2$Cl (allyl chloride) fits this, while CH$_2$=CHCl (vinylic) has X directly on the sp$^2$ carbon."
+    },
+    {
+      "id": "che-haloalkanes-and-haloarenes-023",
+      "q": "Vinyl halides and aryl halides resist nucleophilic substitution mainly because",
+      "options": [
+        "the halogen is attached to an sp$^2$ carbon and the C–X bond has partial double-bond character from resonance",
+        "they are too heavy",
+        "they contain no C–X bond at all",
+        "they have no halogen lone pairs"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "In both vinyl and aryl halides, the halogen lone pair conjugates with the adjacent $\\pi$ system, shortening and strengthening the C–X bond and making it resistant to nucleophilic displacement."
+    },
+    {
+      "id": "che-haloalkanes-and-haloarenes-024",
+      "q": "Which alkyl halide, on reaction with alcoholic KOH, would follow Saytzeff's rule to give the more substituted alkene as the major product?",
+      "options": [
+        "bromomethane",
+        "2-bromobutane, giving mainly but-2-ene",
+        "1-chloropropane, giving mainly propene from a single possible elimination",
+        "chloroethane"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "Saytzeff's rule states that the more substituted (more stable) alkene is the major elimination product; 2-bromobutane can eliminate to give but-1-ene or but-2-ene, and but-2-ene (more substituted) predominates."
+    },
+    {
+      "id": "che-haloalkanes-and-haloarenes-025",
+      "q": "Which of the following best explains why haloalkanes, though polar, are insoluble in water?",
+      "options": [
+        "They are heavier than water",
+        "Haloalkanes cannot form hydrogen bonds with water and instead break the existing hydrogen bonding network of water, which is energetically unfavourable",
+        "Haloalkanes are non-polar molecules",
+        "Haloalkanes react with water"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "To dissolve, a haloalkane molecule would need to break H-bonds between water molecules without forming new ones of comparable strength, making dissolution energetically unfavourable despite the polar C–X bond."
+    },
+    {
+      "id": "che-haloalkanes-and-haloarenes-026",
+      "q": "An optically active 2-bromobutane, when heated with aqueous NaOH, gives 2-butanol with predominant inversion but partial racemisation. This mixed behaviour suggests the mechanism is",
+      "options": [
+        "purely E1",
+        "purely S$_N$2 only",
+        "purely S$_N$1 only",
+        "a mixture of S$_N$1 and S$_N$2 pathways operating simultaneously"
+      ],
+      "answer": 3,
+      "difficulty": "hard",
+      "explanation": "A secondary halide is borderline: it can react by both S$_N$2 (pure inversion) and S$_N$1 (racemisation via a planar carbocation), so the product often shows partial inversion and partial racemisation."
+    },
+    {
+      "id": "che-haloalkanes-and-haloarenes-027",
+      "q": "Which combination correctly matches the reagent with its use in converting an alcohol to a haloalkane?",
+      "options": [
+        "NaOH — converts ROH to RCl",
+        "dilute HNO$_3$ — converts ROH to RF",
+        "Red P + Br$_2$ — converts ROH to RBr via in-situ PBr$_3$",
+        "H$_2$/Ni — converts ROH to RI"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "Red phosphorus reacts with Br$_2$ to generate PBr$_3$ in situ, which then converts the alcohol to the alkyl bromide; this avoids handling the unstable PBr$_3$ directly."
+    },
+    {
+      "id": "che-haloalkanes-and-haloarenes-028",
+      "q": "Which of the following statements about the reactivity of haloarenes towards electrophilic substitution is correct?",
+      "options": [
+        "Halogen substituents are ortho, para-directing but deactivating (net electron withdrawal by induction exceeds donation by resonance)",
+        "Halogen substituents are meta-directing and activating",
+        "Halogens have no directing effect on the ring",
+        "Halogen substituents are ortho, para-directing and strongly activating"
+      ],
+      "answer": 0,
+      "difficulty": "hard",
+      "explanation": "Halogens donate electron density into the ring by resonance (directing electrophiles to o,p) but withdraw more strongly by induction overall, making the ring less reactive than benzene itself even while directing o,p."
+    },
+    {
+      "id": "che-haloalkanes-and-haloarenes-029",
+      "q": "Which alkyl halide would react fastest with KI in acetone (Finkelstein reaction)?",
+      "options": [
+        "2-chlorobutane (secondary)",
+        "2-chloro-2-methylpropane (tertiary)",
+        "1-chlorobutane (primary)",
+        "1-chloro-2,2-dimethylpropane (neopentyl, very hindered primary)"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "The Finkelstein reaction proceeds by S$_N$2; less steric hindrance around the carbon favours faster reaction, so unhindered primary 1-chlorobutane reacts fastest among these, while the very hindered neopentyl halide reacts extremely slowly despite being primary."
+    },
+    {
+      "id": "che-haloalkanes-and-haloarenes-030",
+      "q": "Which reaction is used to convert chlorobenzene into phenol industrially (Dow process)?",
+      "options": [
+        "Fusion with NaOH at 623 K, 300 atm, followed by acidification",
+        "Reaction with cold dilute NaOH",
+        "Heating with H$_2$/Ni",
+        "Treatment with dilute HCl at room temperature"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "Chlorobenzene is hydrolysed to phenol only under forcing conditions (623 K, 300 atm NaOH) because the C–Cl bond is strengthened by resonance; this harsh requirement is the Dow process."
+    },
+    {
+      "id": "che-haloalkanes-and-haloarenes-031",
+      "q": "A compound C$_4$H$_9$Br reacts with alcoholic KOH to give only one alkene as the elimination product (no isomeric alkenes possible). The compound is most likely",
+      "options": [
+        "2-bromopropane",
+        "2-bromo-2-methylpropane (tert-butyl bromide)",
+        "2-bromobutane",
+        "1-bromobutane"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "tert-Butyl bromide, (CH$_3$)$_3$CBr, has only one type of $\\beta$-hydrogen (from the three equivalent methyl groups), so elimination gives a single alkene, 2-methylpropene, with no other regiochemical possibility."
+    },
+    {
+      "id": "che-haloalkanes-and-haloarenes-032",
+      "q": "Which of the following polyhalogen compounds is used as a general anaesthetic?",
+      "options": [
+        "Carbon tetrachloride",
+        "Iodoform",
+        "Freon-12",
+        "Chloroform"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "Chloroform (trichloromethane) was historically used as an inhalation general anaesthetic, though now largely replaced by safer agents due to toxicity concerns."
+    },
+    {
+      "id": "che-haloalkanes-and-haloarenes-033",
+      "q": "An alkyl halide is treated with sodium metal in the presence of dry ether to give an alkane of double the carbon count. If ethyl bromide is used, the product formed is",
+      "options": [
+        "methane",
+        "ethane",
+        "propane",
+        "n-butane"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "2 CH$_3$CH$_2$Br + 2Na $\\to$ CH$_3$CH$_2$–CH$_2$CH$_3$ (n-butane) + 2NaBr, the Wurtz reaction, doubling the carbon chain of the starting alkyl halide."
+    },
+    {
+      "id": "che-haloalkanes-and-haloarenes-034",
+      "q": "Which of the following compounds has zero net dipole moment despite containing polar C–Cl bonds?",
+      "options": [
+        "1,2-dichlorobenzene (ortho)",
+        "1,4-dichlorobenzene (para)",
+        "Chloromethane",
+        "Chlorobenzene"
+      ],
+      "answer": 1,
+      "difficulty": "hard",
+      "explanation": "In para-dichlorobenzene the two C–Cl bond dipoles point in exactly opposite directions and cancel by symmetry, giving a net dipole moment of zero, unlike the ortho isomer where the dipoles partially reinforce."
+    },
+    {
+      "id": "che-haloalkanes-and-haloarenes-035",
+      "q": "Which of the following would undergo the fastest hydrolysis by an S$_N$1 mechanism in aqueous acetone?",
+      "options": [
+        "Methyl chloride",
+        "Vinyl chloride",
+        "Benzyl chloride, C$_6$H$_5$CH$_2$Cl (benzylic, resonance-stabilised carbocation)",
+        "Chlorobenzene"
+      ],
+      "answer": 2,
+      "difficulty": "hard",
+      "explanation": "Benzyl chloride ionises readily because the resulting benzylic carbocation is stabilised by resonance delocalisation into the aromatic ring, favouring S$_N$1; aryl and vinyl halides do not ionise due to the strong, resonance-shortened C–Cl bond."
+    },
+    {
+      "id": "che-haloalkanes-and-haloarenes-036",
+      "q": "Identify the incorrect statement about the S$_N$2 mechanism.",
+      "options": [
+        "It shows retention of configuration at the reacting carbon",
+        "It occurs in a single step without any intermediate",
+        "It proceeds through a trigonal bipyramidal transition state",
+        "The rate depends on the concentration of both the substrate and the nucleophile"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "S$_N$2 proceeds with inversion of configuration (Walden inversion) at the carbon centre, not retention, because the nucleophile attacks from the side opposite the leaving group."
+    },
+    {
+      "id": "che-haloalkanes-and-haloarenes-037",
+      "q": "3.0 g of a monochloroalkane (C$_n$H$_{2n+1}$Cl) contains 0.71 g of chlorine (Cl, atomic mass 35.5). The approximate mass percentage of chlorine in the compound is used to identify n. What is the mass percentage of Cl?",
+      "options": [
+        "about 12%",
+        "about 47%",
+        "about 24%",
+        "about 76%"
+      ],
+      "answer": 2,
+      "difficulty": "hard",
+      "explanation": "Mass % Cl = (0.71/3.0) $\\times$ 100 $\\approx$ 23.7%, i.e. about 24%."
+    },
+    {
+      "id": "che-haloalkanes-and-haloarenes-038",
+      "q": "Which of the following is the correct reactivity order of alkyl halides towards a given nucleophile under S$_N$2 conditions?",
+      "options": [
+        "RI &gt; RBr &gt; RCl",
+        "all react at identical rates regardless of the halogen",
+        "RCl &gt; RBr &gt; RI",
+        "RBr &gt; RI &gt; RCl"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "Iodide is the best leaving group among halides (weakest C–X bond, most stable leaving anion), so alkyl iodides react fastest in S$_N$2 reactions: RI &gt; RBr &gt; RCl &gt; RF."
+    },
+    {
+      "id": "che-haloalkanes-and-haloarenes-039",
+      "q": "Which of the following is NOT a correct use of a polyhalogen compound?",
+      "options": [
+        "Freons are used as refrigerants and aerosol propellants",
+        "Carbon tetrachloride was used as a fire extinguisher (pyrene) and solvent",
+        "Tetrafluoroethene is polymerised to make PTFE (Teflon)",
+        "DDT is an effective, completely biodegradable, environmentally safe insecticide"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "DDT is actually non-biodegradable and persists in the environment and food chains, which is why it has been banned in many countries despite its earlier effectiveness as an insecticide."
+    },
+    {
+      "id": "che-haloalkanes-and-haloarenes-040",
+      "q": "Which of the following statements about the preparation of Grignard reagents from aryl halides is correct?",
+      "options": [
+        "Only alkyl halides with more than 10 carbons form Grignard reagents",
+        "Aryl halides such as bromobenzene can react with Mg in dry ether to form aryl magnesium halides, e.g. C$_6$H$_5$MgBr",
+        "Aryl halides can only form Grignard reagents in aqueous medium",
+        "Aryl halides never react with Mg under any conditions"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "Unlike nucleophilic substitution (which fails on aryl halides), Grignard reagent formation is an oxidative insertion of Mg into the C–X bond and works for aryl halides too, giving aryl magnesium halides like phenylmagnesium bromide."
+    }
+  ]
+}

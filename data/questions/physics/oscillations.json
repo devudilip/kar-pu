@@ -1,0 +1,525 @@
+{
+  "notes": "<h3>SHM basics</h3><ul><li>Displacement: $x = A\\sin(\\omega t+\\phi)$; velocity $v = A\\omega\\cos(\\omega t+\\phi)$; acceleration $a=-\\omega^2x$.</li><li>SHM condition: restoring force/acceleration $\\propto -$ displacement, i.e. $F=-kx$, $a=-\\omega^2x$; $\\omega = 2\\pi f = 2\\pi/T$.</li><li>$v_{max}=A\\omega$ (at mean position, $x=0$); $a_{max}=A\\omega^2$ (at extreme position, $x=\\pm A$).</li><li>$v = \\omega\\sqrt{A^2-x^2}$.</li></ul><h3>Energy in SHM</h3><ul><li>KE $=\\tfrac12m\\omega^2(A^2-x^2)$; PE $=\\tfrac12m\\omega^2x^2$; Total energy $E=\\tfrac12m\\omega^2A^2$ = constant, independent of $x$ and time.</li><li>KE is maximum (=$E$) at mean position; PE is maximum (=$E$) at extreme position. Both KE and PE vary between 0 and $E$; frequency of KE/PE oscillation is $2f$ (twice that of displacement).</li></ul><h3>Standard SHM systems</h3><table><tr><th>System</th><th>Time period</th></tr><tr><td>Spring-mass (horizontal or vertical, ideal spring)</td><td>$T = 2\\pi\\sqrt{m/k}$</td></tr><tr><td>Simple pendulum (small angle)</td><td>$T = 2\\pi\\sqrt{l/g}$</td></tr><tr><td>Springs in series ($k_1,k_2$)</td><td>$1/k_{eff}=1/k_1+1/k_2$</td></tr><tr><td>Springs in parallel</td><td>$k_{eff}=k_1+k_2$</td></tr></table><ul><li>Simple pendulum period is independent of mass and amplitude (for small angles). $T \\propto \\sqrt l$ and $T \\propto 1/\\sqrt g$; since $g$ is slightly smaller at the equator than at the poles, a given pendulum runs slightly slower (larger $T$) at the equator.</li><li>Effective $g$ changes in an accelerating lift: $g_{eff}=g+a$ (accelerating up), $g-a$ (accelerating down), $0$ in free fall (pendulum does not oscillate).</li></ul><h3>Damped &amp; forced oscillations</h3><ul><li>Damped oscillations: amplitude decreases exponentially with time due to a resistive force (e.g. $A(t)=A_0e^{-bt/2m}$); total energy decreases.</li><li>Forced oscillations: driven by an external periodic force; at resonance, driving frequency = natural frequency, and amplitude becomes maximum.</li></ul><h3>Exam tip</h3><p>KCET typically asks 2 questions from this chapter — one on the standard $T=2\\pi\\sqrt{m/k}$ or $2\\pi\\sqrt{l/g}$ numericals (including effect of $g_{eff}$) and one on velocity/acceleration/energy relations in SHM. Remember $a_{max}=A\\omega^2$ and total energy $\\propto A^2f^2$.</p>",
+  "questions": [
+    {
+      "id": "phy-oscillations-001",
+      "q": "The necessary and sufficient condition for a motion to be simple harmonic is that the acceleration should be",
+      "options": [
+        "constant",
+        "directly proportional to velocity",
+        "directly proportional to displacement and directed towards the mean position",
+        "inversely proportional to displacement"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "SHM requires a restoring acceleration $a=-\\omega^2x$, i.e. proportional to displacement and always directed towards the equilibrium (mean) position."
+    },
+    {
+      "id": "phy-oscillations-002",
+      "q": "A particle executes SHM with amplitude $A$ and angular frequency $\\omega$. Its maximum speed is",
+      "options": [
+        "$A\\omega$",
+        "$A^2\\omega$",
+        "$A\\omega^2$",
+        "$A/\\omega$"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "$v=A\\omega\\cos(\\omega t+\\phi)$ has maximum value $A\\omega$, occurring at the mean position."
+    },
+    {
+      "id": "phy-oscillations-003",
+      "q": "For a particle in SHM, the maximum acceleration occurs at",
+      "options": [
+        "acceleration is constant throughout",
+        "the extreme position",
+        "midway between mean and extreme positions",
+        "the mean position"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "$a=-\\omega^2x$, magnitude maximum when $|x|$ is maximum, i.e. at the extreme positions ($x=\\pm A$), where $a_{max}=A\\omega^2$."
+    },
+    {
+      "id": "phy-oscillations-004",
+      "q": "A simple pendulum has time period $T$. If its length is increased to 4 times the original length, the new time period is",
+      "options": [
+        "$T/2$",
+        "$4T$",
+        "$T$",
+        "$2T$"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "$T\\propto\\sqrt l$; quadrupling $l$ doubles $T$."
+    },
+    {
+      "id": "phy-oscillations-005",
+      "q": "A mass $m$ attached to a spring of force constant $k$ oscillates with time period $T$. If the mass is doubled, the new time period is",
+      "options": [
+        "$T\\sqrt2$",
+        "$T$",
+        "$T/\\sqrt2$",
+        "$2T$"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "$T=2\\pi\\sqrt{m/k}\\propto\\sqrt m$; doubling $m$ multiplies $T$ by $\\sqrt2$."
+    },
+    {
+      "id": "phy-oscillations-006",
+      "q": "The time period of a simple pendulum of length 1 m at a place where $g=10$ m s$^{-2}$ is approximately",
+      "options": [
+        "3.14 s",
+        "6.28 s",
+        "1 s",
+        "2 s"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "$T=2\\pi\\sqrt{l/g}=2\\pi\\sqrt{1/10}\\approx2\\pi\\times0.316\\approx2$ s."
+    },
+    {
+      "id": "phy-oscillations-007",
+      "q": "A simple pendulum is taken inside a lift accelerating upward with acceleration $a$. Its time period",
+      "options": [
+        "remains unchanged",
+        "becomes infinite",
+        "decreases",
+        "increases"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "Effective gravity becomes $g_{eff}=g+a$ (greater than $g$); since $T=2\\pi\\sqrt{l/g_{eff}}$, a larger $g_{eff}$ gives a smaller time period."
+    },
+    {
+      "id": "phy-oscillations-008",
+      "q": "A simple pendulum is taken to the surface of the Moon, where $g$ is about $1/6$ of that on Earth. Its time period on the Moon compared to Earth becomes approximately",
+      "options": [
+        "6 times",
+        "$\\sqrt6$ times",
+        "$1/\\sqrt6$ times",
+        "unchanged"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "$T\\propto1/\\sqrt g$; with $g$ reduced to $1/6$, $T$ increases by a factor of $\\sqrt6$."
+    },
+    {
+      "id": "phy-oscillations-009",
+      "q": "In SHM, at the mean position, the kinetic energy of the particle is",
+      "options": [
+        "equal to potential energy",
+        "zero",
+        "maximum, equal to total energy",
+        "minimum but not zero"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "At the mean position $x=0$, PE$=\\tfrac12m\\omega^2x^2=0$, so all the total energy is kinetic: KE$=E=\\tfrac12m\\omega^2A^2$."
+    },
+    {
+      "id": "phy-oscillations-010",
+      "q": "For a particle in SHM of amplitude $A$, at a displacement $x=A/2$ from the mean position, the ratio of kinetic energy to total energy is",
+      "options": [
+        "3/4",
+        "1/4",
+        "1/2",
+        "1"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "$\\dfrac{KE}{E}=1-\\dfrac{x^2}{A^2}=1-\\dfrac14=\\dfrac34$."
+    },
+    {
+      "id": "phy-oscillations-011",
+      "q": "The total energy of a particle executing SHM is proportional to",
+      "options": [
+        "amplitude",
+        "square of amplitude",
+        "square root of amplitude",
+        "frequency only, independent of amplitude"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "$E=\\tfrac12m\\omega^2A^2 \\propto A^2$ (for fixed $\\omega$)."
+    },
+    {
+      "id": "phy-oscillations-012",
+      "q": "Two identical springs, each of force constant $k$, are connected in series. The effective force constant of the combination is",
+      "options": [
+        "$k$",
+        "$4k$",
+        "$2k$",
+        "$k/2$"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "In series, $1/k_{eff}=1/k+1/k=2/k \\Rightarrow k_{eff}=k/2$."
+    },
+    {
+      "id": "phy-oscillations-013",
+      "q": "Two identical springs, each of force constant $k$, are connected in parallel to support a mass. The effective force constant is",
+      "options": [
+        "$k/2$",
+        "$2k$",
+        "$k/4$",
+        "$k$"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "In parallel, $k_{eff}=k_1+k_2=2k$."
+    },
+    {
+      "id": "phy-oscillations-014",
+      "q": "A particle in SHM has displacement $x=A\\sin(\\omega t)$. Its velocity as a function of displacement is given by",
+      "options": [
+        "$v=\\omega\\sqrt{A^2-x^2}$",
+        "$v=\\omega A$ always",
+        "$v=\\omega\\sqrt{A^2+x^2}$",
+        "$v=\\omega(A-x)$"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "From $x=A\\sin\\omega t$, $v=A\\omega\\cos\\omega t=A\\omega\\sqrt{1-\\sin^2\\omega t}=\\omega\\sqrt{A^2-x^2}$."
+    },
+    {
+      "id": "phy-oscillations-015",
+      "q": "In damped oscillations, the amplitude of oscillation",
+      "options": [
+        "increases exponentially with time",
+        "remains constant",
+        "decreases exponentially with time",
+        "oscillates between two fixed values"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "A resistive (damping) force dissipates energy continuously, causing the amplitude to decrease exponentially with time."
+    },
+    {
+      "id": "phy-oscillations-016",
+      "q": "In forced oscillations, the amplitude of the oscillating system becomes maximum when",
+      "options": [
+        "damping is maximum",
+        "the driving frequency is much greater than the natural frequency",
+        "the driving frequency is zero",
+        "the driving frequency equals the natural frequency of the system (resonance)"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "This is the condition of resonance: when the frequency of the external periodic force matches the natural frequency of the system, the amplitude of forced oscillation becomes maximum."
+    },
+    {
+      "id": "phy-oscillations-017",
+      "q": "The phase difference between displacement and acceleration in SHM is",
+      "options": [
+        "$\\pi/2$",
+        "0",
+        "$\\pi$",
+        "$3\\pi/2$"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "Since $a=-\\omega^2x$, acceleration is always opposite in sign (direction) to displacement, corresponding to a phase difference of $\\pi$ radians."
+    },
+    {
+      "id": "phy-oscillations-018",
+      "q": "A particle executes SHM with time period $T$. The time taken by it to go from the mean position to half of its amplitude is",
+      "options": [
+        "$T/4$",
+        "$T/12$",
+        "$T/6$",
+        "$T/2$"
+      ],
+      "answer": 1,
+      "difficulty": "hard",
+      "explanation": "$x=A\\sin\\omega t$; at $x=A/2$, $\\sin\\omega t=1/2 \\Rightarrow \\omega t=\\pi/6 \\Rightarrow t=\\dfrac{\\pi/6}{2\\pi/T}=T/12$."
+    },
+    {
+      "id": "phy-oscillations-019",
+      "q": "In simple harmonic motion, the restoring force $F$ acting on the particle is related to its displacement $x$ from the mean position as",
+      "options": [
+        "$F = kx$",
+        "$F = -kx^2$",
+        "$F$ is constant",
+        "$F = -kx$"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "SHM is defined by a restoring force directly proportional to displacement but oppositely directed: $F=-kx$, giving $a=-\\omega^2x$ with $\\omega^2=k/m$."
+    },
+    {
+      "id": "phy-oscillations-020",
+      "q": "In SHM, the phase difference between the velocity and the displacement of the particle is",
+      "options": [
+        "$\\pi/2$",
+        "$\\pi$",
+        "0",
+        "$2\\pi$"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "$x=A\\sin\\omega t$ gives $v=A\\omega\\cos\\omega t$; sine and cosine differ in phase by $\\pi/2$."
+    },
+    {
+      "id": "phy-oscillations-021",
+      "q": "For a particle in SHM, at what displacement (in terms of amplitude $A$) are the kinetic and potential energies equal?",
+      "options": [
+        "$x=A/\\sqrt2$",
+        "$x=A/4$",
+        "$x=A/2$",
+        "$x=A$"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "KE=PE when $\\tfrac12m\\omega^2(A^2-x^2)=\\tfrac12m\\omega^2x^2 \\Rightarrow x^2=A^2/2 \\Rightarrow x=A/\\sqrt2$."
+    },
+    {
+      "id": "phy-oscillations-022",
+      "q": "A simple pendulum is taken inside an orbiting satellite where everything is in a state of weightlessness ($g_{eff}=0$). Its time period",
+      "options": [
+        "becomes zero",
+        "decreases",
+        "remains the same as on Earth",
+        "becomes infinite (it does not oscillate)"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "$T=2\\pi\\sqrt{l/g_{eff}}$; with $g_{eff}=0$, $T\\to\\infty$, i.e. the pendulum does not oscillate about the mean position at all."
+    },
+    {
+      "id": "phy-oscillations-023",
+      "q": "A spring of force constant $k$ is cut into two equal halves. Each half is used, in turn, to support the same mass $m$. Compared to the original time period $T$, the new time period is",
+      "options": [
+        "$2T$",
+        "$T/\\sqrt2$",
+        "$T$",
+        "$T\\sqrt2$"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "Cutting a spring in half doubles its force constant to $2k$ for each half; $T'=2\\pi\\sqrt{m/2k}=T/\\sqrt2$."
+    },
+    {
+      "id": "phy-oscillations-024",
+      "q": "A particle performs SHM with a time period of 0.5 s. Its angular frequency is",
+      "options": [
+        "$\\pi/2$ rad/s",
+        "$\\pi$ rad/s",
+        "$4\\pi$ rad/s",
+        "$2\\pi$ rad/s"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "$\\omega=2\\pi/T=2\\pi/0.5=4\\pi$ rad/s."
+    },
+    {
+      "id": "phy-oscillations-025",
+      "q": "A mass hung from a vertical spring produces a static extension $e$. The angular frequency of its vertical oscillations is",
+      "options": [
+        "$\\sqrt{ge}$",
+        "$g/e$",
+        "$\\sqrt{e/g}$",
+        "$\\sqrt{g/e}$"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "At equilibrium $ke=mg \\Rightarrow k/m=g/e$; since $\\omega=\\sqrt{k/m}$, $\\omega=\\sqrt{g/e}$."
+    },
+    {
+      "id": "phy-oscillations-026",
+      "q": "Two simple harmonic motions of the same frequency and along the same line, with amplitudes $A$ and $2A$, differ in phase by $\\pi$. The amplitude of the resultant motion is",
+      "options": [
+        "$A$",
+        "$3A$",
+        "zero",
+        "$A\\sqrt5$"
+      ],
+      "answer": 0,
+      "difficulty": "hard",
+      "explanation": "Resultant amplitude $=\\sqrt{A^2+(2A)^2+2A(2A)\\cos\\pi}=\\sqrt{A^2+4A^2-4A^2}=A$."
+    },
+    {
+      "id": "phy-oscillations-027",
+      "q": "The average kinetic energy of a particle in SHM, taken over one complete time period, is",
+      "options": [
+        "zero",
+        "equal to the total energy $E$",
+        "$E/2$",
+        "$E/4$"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "KE$=E\\cos^2\\omega t$; averaged over a full cycle, $\\langle\\cos^2\\omega t\\rangle=1/2$, so average KE $=E/2$."
+    },
+    {
+      "id": "phy-oscillations-028",
+      "q": "A particle in SHM starts from the extreme position. The time taken by it to reach the mean position for the first time is",
+      "options": [
+        "$T/6$",
+        "$T/4$",
+        "$T/8$",
+        "$T/2$"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "From extreme to mean position is a quarter of one complete oscillation, so time $=T/4$."
+    },
+    {
+      "id": "phy-oscillations-029",
+      "q": "Which of the following statements about a particle executing SHM is INCORRECT?",
+      "options": [
+        "The time period depends on the amplitude of oscillation",
+        "The acceleration is zero at the mean position",
+        "The total mechanical energy remains constant throughout the motion",
+        "The velocity is zero at the extreme positions"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "For an ideal SHM (e.g. spring-mass or simple pendulum for small angles), the time period is independent of amplitude; the other three statements are correct."
+    },
+    {
+      "id": "phy-oscillations-030",
+      "q": "A seconds pendulum (time period 2 s) is set up at a place where $g=9.8$ m s$^{-2}$. Its length is approximately",
+      "options": [
+        "1.5 m",
+        "0.25 m",
+        "2.45 m",
+        "0.99 m"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "$T=2\\pi\\sqrt{l/g} \\Rightarrow l=\\dfrac{T^2g}{4\\pi^2}=\\dfrac{4\\times9.8}{4\\pi^2}\\approx0.993$ m."
+    },
+    {
+      "id": "phy-oscillations-031",
+      "q": "For a particle in SHM starting from the mean position at $t=0$, if the displacement-time graph is a sine curve, the velocity-time graph is best described as",
+      "options": [
+        "a straight line",
+        "a sine curve exactly out of phase with displacement",
+        "a cosine curve, leading the displacement by a quarter period",
+        "a sine curve in phase with displacement"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "$x=A\\sin\\omega t \\Rightarrow v=A\\omega\\cos\\omega t$; velocity is a cosine curve, ahead of displacement in phase by $\\pi/2$, i.e. a quarter period."
+    },
+    {
+      "id": "phy-oscillations-032",
+      "q": "A particle executes SHM as $x=A\\sin(\\omega t+\\phi)$. At $t=0$, it is at $x=A/2$ and moving in the positive direction. The initial phase $\\phi$ is",
+      "options": [
+        "$2\\pi/3$",
+        "$\\pi/6$",
+        "$\\pi/3$",
+        "$5\\pi/6$"
+      ],
+      "answer": 1,
+      "difficulty": "hard",
+      "explanation": "At $t=0$: $\\sin\\phi=1/2$, giving $\\phi=\\pi/6$ or $5\\pi/6$. Since velocity $v=A\\omega\\cos\\phi$ is positive, $\\cos\\phi>0$, which selects $\\phi=\\pi/6$."
+    },
+    {
+      "id": "phy-oscillations-033",
+      "q": "Which statement correctly distinguishes periodic motion from simple harmonic motion?",
+      "options": [
+        "SHM need not repeat itself after a fixed interval of time",
+        "Every simple harmonic motion is periodic, but not every periodic motion is simple harmonic",
+        "Every periodic motion is necessarily simple harmonic",
+        "Periodic motion and SHM are always identical"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "SHM is periodic motion with a specific restoring-force law ($F\\propto-x$); other periodic motions (e.g. a bouncing ball) do not obey this law and hence are not SHM."
+    },
+    {
+      "id": "phy-oscillations-034",
+      "q": "If both the amplitude and the frequency of a particle in SHM are doubled, its maximum acceleration becomes ___ times the original.",
+      "options": [
+        "4",
+        "6",
+        "2",
+        "8"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "$a_{max}=A\\omega^2$. Doubling $A$ gives factor 2; doubling $\\omega$ (hence $f$) gives factor $2^2=4$ in $\\omega^2$. Net factor $=2\\times4=8$."
+    },
+    {
+      "id": "phy-oscillations-035",
+      "q": "In the absence of damping, the total mechanical energy of a particle executing SHM",
+      "options": [
+        "remains constant with time, though KE and PE individually vary",
+        "decreases linearly with time",
+        "oscillates with the same frequency as the displacement",
+        "is zero at the mean position"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "Total energy $E=\\tfrac12m\\omega^2A^2$ is constant; only the split between KE and PE changes with position/time (KE and PE oscillate at twice the frequency of displacement, but their sum stays fixed)."
+    },
+    {
+      "id": "phy-oscillations-036",
+      "q": "A block of mass 0.1 kg is attached to a spring of force constant 10 N/m and set into oscillation. Its time period is approximately",
+      "options": [
+        "0.314 s",
+        "3.14 s",
+        "0.628 s",
+        "1.256 s"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "$T=2\\pi\\sqrt{m/k}=2\\pi\\sqrt{0.1/10}=2\\pi\\times0.1\\approx0.628$ s."
+    },
+    {
+      "id": "phy-oscillations-037",
+      "q": "A particle executes SHM with amplitude 5 cm and time period 2 s. Its speed when the displacement is 3 cm from the mean position is",
+      "options": [
+        "$3\\pi$ cm/s",
+        "$4\\pi$ cm/s",
+        "$5\\pi$ cm/s",
+        "$2\\pi$ cm/s"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "$\\omega=2\\pi/T=\\pi$ rad/s; $v=\\omega\\sqrt{A^2-x^2}=\\pi\\sqrt{25-9}=\\pi\\times4=4\\pi$ cm/s."
+    },
+    {
+      "id": "phy-oscillations-038",
+      "q": "In a spring-mass system, if the spring constant is doubled and the mass is halved, the new time period compared to the original $T$ is",
+      "options": [
+        "$T/2$",
+        "$T/4$",
+        "$2T$",
+        "$T$"
+      ],
+      "answer": 0,
+      "difficulty": "hard",
+      "explanation": "$T\\propto\\sqrt{m/k}$; new $T'=T\\sqrt{(m/2)/(2k)}=T\\sqrt{1/4}=T/2$."
+    },
+    {
+      "id": "phy-oscillations-039",
+      "q": "The SI unit of angular frequency $\\omega$ in SHM is",
+      "options": [
+        "hertz",
+        "second",
+        "metre per second",
+        "radian per second"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "Angular frequency $\\omega=2\\pi f$ is measured in radians per second (rad s$^{-1}$)."
+    },
+    {
+      "id": "phy-oscillations-040",
+      "q": "Two simple pendulums of lengths $l$ and $4l$ are set up at the same location. The ratio of their time periods $T_1:T_2$ is",
+      "options": [
+        "2:1",
+        "1:16",
+        "1:2",
+        "1:4"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "$T\\propto\\sqrt l$, so $T_1:T_2=\\sqrt l:\\sqrt{4l}=1:2$."
+    }
+  ]
+}

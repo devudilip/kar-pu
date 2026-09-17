@@ -1,0 +1,796 @@
+{
+  "title": "KCET 2021 Physics",
+  "year": 2021,
+  "subject": "physics",
+  "code": "A1",
+  "source": "KEA question paper (copy) + KEA answer key column A1",
+  "excluded": [],
+  "questions": [
+    {
+      "n": 1,
+      "q": "For a body moving along a straight line, the following v-t graph is obtained: velocity rises linearly from an initial value to a higher value during a time interval (uniform acceleration), then stays constant at that higher value for an equal time interval (uniform motion). According to the graph, the displacement during",
+      "options": [
+        "Uniform acceleration is greater than that during uniform motion.",
+        "Uniform acceleration is less than that during uniform motion.",
+        "Uniform acceleration is equal to that during uniform motion.",
+        "Uniform motion is zero."
+      ],
+      "answer": 1,
+      "chapter": "Motion in a Straight Line",
+      "explanation": "Displacement = area under v-t graph. During uniform acceleration the velocity is lower on average (rising from a lower value) than during the following uniform-motion phase at the higher constant velocity, over the same time interval, so the displacement is less."
+    },
+    {
+      "n": 2,
+      "q": "A particle starts from rest. Its acceleration 'a' versus time 't' is shown in the figure: acceleration decreases linearly from a = 8 ms$^{-2}$ at t = 0 to a = 0 at t = 10 s. The maximum speed of the particle will be:",
+      "options": [
+        "80 ms$^{-1}$",
+        "40 ms$^{-1}$",
+        "18 ms$^{-1}$",
+        "2 ms$^{-1}$"
+      ],
+      "answer": 1,
+      "chapter": "Motion in a Straight Line",
+      "explanation": "Maximum speed = area under the a-t graph = $\\dfrac{1}{2}\\times 10\\times 8 = 40$ ms$^{-1}$."
+    },
+    {
+      "n": 3,
+      "q": "The maximum range of a gun on horizontal plane is 16 km. If g = 10 ms$^{-2}$, then muzzle velocity of a shell is",
+      "options": [
+        "160 ms$^{-1}$",
+        "200$\\sqrt{2}$ ms$^{-1}$",
+        "400 ms$^{-1}$",
+        "800 ms$^{-1}$"
+      ],
+      "answer": 2,
+      "chapter": "Motion in a Plane",
+      "explanation": "Maximum range $R_{max}=\\dfrac{u^2}{g}$, so $u=\\sqrt{R_{max}\\,g}=\\sqrt{16000\\times10}=400$ ms$^{-1}$."
+    },
+    {
+      "n": 4,
+      "q": "The trajectory of a projectile is",
+      "options": [
+        "semicircle",
+        "an ellipse",
+        "a parabola always",
+        "a parabola in the absence of air resistance"
+      ],
+      "answer": 3,
+      "chapter": "Motion in a Plane",
+      "explanation": "Neglecting air resistance, a projectile follows a parabolic path; with air resistance the path deviates from a parabola."
+    },
+    {
+      "n": 5,
+      "q": "For a projectile motion, the angle between the velocity and acceleration is minimum and acute at",
+      "options": [
+        "only one point",
+        "two points",
+        "three points",
+        "four points"
+      ],
+      "answer": 0,
+      "chapter": "Motion in a Plane",
+      "explanation": "Acceleration is constant (vertically downward). The vertical component of velocity changes steadily from +u sin$\\theta$ (upward, at launch) to -u sin$\\theta$ (downward, at landing) while the horizontal component stays fixed, so the angle between velocity and acceleration decreases monotonically over the flight and is smallest only at the single instant of landing."
+    },
+    {
+      "n": 6,
+      "q": "A particle starts from the origin at t = 0 s with a velocity of 10$\\hat{j}$ ms$^{-1}$ and moves in the x-y plane with a constant acceleration of (8$\\hat{i}$ + 2$\\hat{j}$) ms$^{-2}$. At an instant when the x-coordinate of the particle is 16 m, the y-coordinate of the particle is:",
+      "options": [
+        "16 m",
+        "28 m",
+        "36 m",
+        "24 m"
+      ],
+      "answer": 3,
+      "chapter": "Motion in a Plane",
+      "explanation": "$x=\\tfrac12(8)t^2=4t^2=16\\Rightarrow t=2$ s. $y=10t+\\tfrac12(2)t^2=20+4=24$ m."
+    },
+    {
+      "n": 7,
+      "q": "A coin placed on a rotating turn table just slips if it is placed at a distance of 4 cm from the centre. If the angular velocity of the turn table is doubled it will just slip at a distance of:",
+      "options": [
+        "1 cm",
+        "2 cm",
+        "4 cm",
+        "8 cm"
+      ],
+      "answer": 0,
+      "chapter": "Laws of Motion",
+      "explanation": "Slipping condition: $\\mu m g = m\\omega^2 r \\Rightarrow r\\propto \\dfrac{1}{\\omega^2}$. Doubling $\\omega$ reduces $r$ to $\\dfrac{4}{4}=1$ cm."
+    },
+    {
+      "n": 8,
+      "q": "A 1 kg ball moving at 12 ms$^{-1}$ collides with a 2 kg ball moving in opposite direction at 24 ms$^{-1}$. If the coefficient of restitution is $\\dfrac{2}{3}$, then their velocities after the collision are",
+      "options": [
+        "−4 ms$^{-1}$, −28 ms$^{-1}$",
+        "−28 ms$^{-1}$, −4 ms$^{-1}$",
+        "4 ms$^{-1}$, 28 ms$^{-1}$",
+        "28 ms$^{-1}$, 4 ms$^{-1}$"
+      ],
+      "answer": 1,
+      "chapter": "Work, Energy and Power",
+      "explanation": "Using momentum conservation $v_1+2v_2=-36$ and restitution $v_2-v_1=e(u_1-u_2)=\\tfrac23(36)=24$, solving gives $v_1=-28$ ms$^{-1}$ (1 kg ball) and $v_2=-4$ ms$^{-1}$ (2 kg ball)."
+    },
+    {
+      "n": 9,
+      "q": "A ball hits the floor and rebounds after an inelastic collision. In this case",
+      "options": [
+        "the momentum of the ball is conserved",
+        "the mechanical energy of the ball is conserved",
+        "the total momentum of the ball and the earth is conserved",
+        "the total mechanical energy of the ball and the earth is conserved"
+      ],
+      "answer": 2,
+      "chapter": "Work, Energy and Power",
+      "explanation": "The ball alone loses momentum and energy on rebound (inelastic), but treating the ball+earth as an isolated system, total momentum of the ball and earth together is conserved."
+    },
+    {
+      "n": 10,
+      "q": "In figure E and V$_{cm}$ represent the total energy and speed of centre of mass of an object of mass 1 kg in pure rolling; the E(J) vs $V_{cm}^2$ (m$^2$ s$^{-2}$) graph is a straight line through the origin passing through the point (4, 3). The object is:",
+      "options": [
+        "sphere",
+        "ring",
+        "disc",
+        "Hollow Cylinder"
+      ],
+      "answer": 2,
+      "chapter": "System of Particles and Rotational Motion",
+      "explanation": "$E=\\tfrac12 m(1+k^2/R^2)V_{cm}^2$; slope $=3/4=\\tfrac12(1+k^2/R^2)\\Rightarrow k^2/R^2=0.5$, which corresponds to a disc."
+    },
+    {
+      "n": 11,
+      "q": "Two bodies of masses 8 kg are placed at the vertices A and B of an equilateral triangle ABC. A third body of mass 2 kg is placed at the centroid G of the triangle. If AG = BG = CG = 1 m, where should a fourth body of mass 4 kg be placed so that the resultant force on the 2 kg body is zero?",
+      "options": [
+        "at C",
+        "at a point P on the line CG such that PG = $\\dfrac{1}{\\sqrt{2}}$ m",
+        "at a point P on the line CG such that PG = 0.5 m",
+        "at a point P on the line CG such that PG = 2m"
+      ],
+      "answer": 1,
+      "chapter": "Gravitation",
+      "explanation": "The resultant gravitational pull of the two 8 kg masses on the 2 kg mass (angle AGB = 120°) has magnitude $G\\cdot16\\cdot2$ directed away from C. Setting the 4 kg mass's pull $\\dfrac{G\\cdot4\\cdot2}{d^2}$ equal to this gives $d=\\dfrac{1}{\\sqrt2}$ m along CG."
+    },
+    {
+      "n": 12,
+      "q": "Two capillary tubes P and Q are dipped vertically in water. The height of water level in capillary tube P is $\\dfrac{2}{3}$ of the height in capillary tube Q. The ratio of their diameter is ______.",
+      "options": [
+        "2:3",
+        "3:2",
+        "3:4",
+        "4:3"
+      ],
+      "answer": 1,
+      "chapter": "Mechanical Properties of Fluids",
+      "explanation": "Since $h\\propto \\dfrac{1}{d}$, $\\dfrac{h_P}{h_Q}=\\dfrac{d_Q}{d_P}=\\dfrac23 \\Rightarrow \\dfrac{d_P}{d_Q}=\\dfrac32$, i.e. 3:2."
+    },
+    {
+      "n": 13,
+      "q": "Which of the following curves represent the variation of coefficient of volume expansion of an ideal gas at constant pressure? (A) $\\alpha_v$ vs T: straight line through the origin, positive slope. (B) $\\alpha_v$ vs 1/T: straight line through the origin, positive slope. (C) $\\alpha_v$ vs 1/T: horizontal straight line. (D) $\\alpha_v$ vs T: straight line with negative slope.",
+      "options": [
+        "Graph (A)",
+        "Graph (B)",
+        "Graph (C)",
+        "Graph (D)"
+      ],
+      "answer": 1,
+      "chapter": "Thermal Properties of Matter",
+      "explanation": "For an ideal gas at constant pressure, $V\\propto T$ so $\\alpha_v=\\dfrac{1}{V}\\dfrac{dV}{dT}=\\dfrac{1}{T}$, which is a straight line through the origin when plotted against $1/T$."
+    },
+    {
+      "n": 14,
+      "q": "A number of Carnot engines are operated at identical cold reservoir temperatures (T$_L$). However, their hot reservoir temperatures are kept different. A graph of the efficiency of the engines versus hot reservoir temperature (T$_H$) is plotted. (A) rises from T$_L$ to a peak then falls back to zero. (B) rises from T$_L$ and keeps increasing, concave down, flattening out at large T$_H$. (C) increases linearly with T$_H$ from T$_L$. (D) falls from a peak near T$_L$ down to zero as T$_H$ increases. The correct graphical representation is",
+      "options": [
+        "Graph (A)",
+        "Graph (B)",
+        "Graph (C)",
+        "Graph (D)"
+      ],
+      "answer": 1,
+      "chapter": "Thermodynamics",
+      "explanation": "Carnot efficiency $\\eta = 1-\\dfrac{T_L}{T_H}$ increases monotonically with $T_H$ and asymptotically approaches 1 (a concave, ever-increasing, flattening curve), matching graph (B)."
+    },
+    {
+      "n": 15,
+      "q": "A gas mixture contains monoatomic and diatomic molecules of 2 moles each. The mixture has a total internal energy of (symbols have usual meanings)",
+      "options": [
+        "3 RT",
+        "5 RT",
+        "8 RT",
+        "9 RT"
+      ],
+      "answer": 2,
+      "chapter": "Kinetic Theory",
+      "explanation": "$U=\\tfrac32(2)RT+\\tfrac52(2)RT=3RT+5RT=8RT$."
+    },
+    {
+      "n": 16,
+      "q": "A pendulum oscillates simple harmonically if and only if (I) the size of the bob of pendulum is negligible in comparison with the length of the pendulum. (II) the angular amplitude is less than 10°.",
+      "options": [
+        "Both (I) and (II) are correct",
+        "Both (I) and (II) are incorrect",
+        "Only (I) is correct",
+        "Only (II) is correct"
+      ],
+      "answer": 0,
+      "chapter": "Oscillations",
+      "explanation": "A simple pendulum behaves as a point mass (bob size negligible) and executes SHM only for small angular amplitudes (< 10°); both conditions are necessary."
+    },
+    {
+      "n": 17,
+      "q": "To propagate both longitudinal and transverse waves, a material must have",
+      "options": [
+        "Bulk and shear moduli",
+        "Only bulk modulus",
+        "Only shear modulus",
+        "Young's and Bulk modulus"
+      ],
+      "answer": 3,
+      "chapter": "Waves",
+      "explanation": "Longitudinal waves need bulk (volume) elasticity and transverse waves need shear (rigidity) elasticity; the reasoning suggests option (A) (bulk and shear moduli), but the KEA key marks (D), Young's and Bulk modulus, as correct (as per KEA key).",
+      "disputed": true,
+      "note": "The standard answer should be (A) bulk and shear moduli, since propagating a transverse wave requires shear (rigidity) elasticity, not Young's modulus, which governs longitudinal stretching of a rod rather than wave propagation in a bulk medium."
+    },
+    {
+      "n": 18,
+      "q": "A copper rod AB of length l is rotated about end A with a constant angular velocity $\\omega$. The electric field at a distance x from the axis of rotation is",
+      "options": [
+        "$\\dfrac{m\\omega^2 x}{e}$",
+        "$\\dfrac{m\\omega x}{el}$",
+        "$\\dfrac{mx}{\\omega^2 l}$",
+        "$\\dfrac{me}{\\omega^2 x}$"
+      ],
+      "answer": 0,
+      "chapter": "Electric Charges and Fields",
+      "explanation": "In the rotating frame, the electric force on a free electron balances the centripetal requirement: $eE=m\\omega^2 x \\Rightarrow E=\\dfrac{m\\omega^2x}{e}$."
+    },
+    {
+      "n": 19,
+      "q": "Electric field due to infinite, straight uniformly charged wire varies with distance 'r' as",
+      "options": [
+        "r",
+        "$\\dfrac{1}{r}$",
+        "$\\dfrac{1}{r^2}$",
+        "r$^2$"
+      ],
+      "answer": 1,
+      "chapter": "Electric Charges and Fields",
+      "explanation": "By Gauss's law, the field of an infinite line charge is $E=\\dfrac{\\lambda}{2\\pi\\epsilon_0 r}\\propto \\dfrac{1}{r}$."
+    },
+    {
+      "n": 20,
+      "q": "A 2-gram object, located in a region of uniform electric field $\\vec{E}$ = (300 N C$^{-1}$) $\\hat{i}$ carries a charge Q. The object released from rest at x = 0, has a kinetic energy of 0.12 J at x = 0.5 m. Then Q is",
+      "options": [
+        "400 μc",
+        "−400 μc",
+        "800 μc",
+        "−800 μc"
+      ],
+      "answer": 2,
+      "chapter": "Electric Charges and Fields",
+      "explanation": "Work-energy theorem: $QEx=\\Delta KE \\Rightarrow Q=\\dfrac{0.12}{300\\times0.5}=8\\times10^{-4}$ C $=800\\ \\mu$C (positive, since it accelerates along E)."
+    },
+    {
+      "n": 21,
+      "q": "If a slab of insulating material (conceptual) 4 $\\times$ 10$^{-3}$ m thick is introduced between the plates of a parallel plate capacitor, the separation between the plates has to be increased by 3.5 $\\times$ 10$^{-3}$ m to restore the capacity to original value. The dielectric constant of the material will be",
+      "options": [
+        "6",
+        "8",
+        "10",
+        "12"
+      ],
+      "answer": 1,
+      "chapter": "Electrostatic Potential and Capacitance",
+      "explanation": "$\\Delta d = t\\left(1-\\dfrac1K\\right) \\Rightarrow 3.5\\times10^{-3}=4\\times10^{-3}\\left(1-\\dfrac1K\\right)\\Rightarrow K=8$."
+    },
+    {
+      "n": 22,
+      "q": "Eight drops of mercury of equal radii combine to form a big drop. The capacitance of a bigger drop as compared to each smaller drop is",
+      "options": [
+        "2 times",
+        "8 times",
+        "4 times",
+        "16 times"
+      ],
+      "answer": 0,
+      "chapter": "Electrostatic Potential and Capacitance",
+      "explanation": "Volume conservation gives $R=2r$ (since $8\\times\\tfrac43\\pi r^3=\\tfrac43\\pi R^3$). Since $C\\propto r$, the capacitance becomes 2 times."
+    },
+    {
+      "n": 23,
+      "q": "Which of the statements is false in the case of polar molecules?",
+      "options": [
+        "Centers of positive and negative charges are separated in the absence of external electric field.",
+        "Centers of positive and negative charges are separated in the presence of external electric field.",
+        "Do not possess permanent dipole moments.",
+        "Ionic molecule HCl is the example of polar molecule."
+      ],
+      "answer": 2,
+      "chapter": "Electrostatic Potential and Capacitance",
+      "explanation": "Polar molecules do possess permanent dipole moments even without an external field, so statement (C) is false."
+    },
+    {
+      "n": 24,
+      "q": "An electrician requires a capacitance of 6 μF in a circuit across a potential difference of 1.5 kV. A large number of 2 μF capacitors which can withstand a potential difference of not more than 500 V are available. The minimum number of capacitors required for the purpose is",
+      "options": [
+        "3",
+        "9",
+        "6",
+        "27"
+      ],
+      "answer": 3,
+      "chapter": "Electrostatic Potential and Capacitance",
+      "explanation": "3 capacitors in series (500 V each) withstand 1500 V and give $\\tfrac{2}{3}\\ \\mu$F; to get 6 μF total, 9 such series strings are needed in parallel: $9\\times3=27$ capacitors."
+    },
+    {
+      "n": 25,
+      "q": "In figure, charge on the capacitor is plotted against potential difference across the capacitor: a straight line through the origin reaching Q = 120 μC at V = 10 V. The capacitance and energy stored in the capacitor are respectively.",
+      "options": [
+        "12 μF, 1200 μJ",
+        "12 μF, 600 μJ",
+        "24 μF, 600 μJ",
+        "24 μF, 1200 μJ"
+      ],
+      "answer": 1,
+      "chapter": "Electrostatic Potential and Capacitance",
+      "explanation": "$C=\\dfrac{Q}{V}=\\dfrac{120}{10}=12\\ \\mu$F; Energy $=\\tfrac12CV^2=\\tfrac12(12\\times10^{-6})(10)^2=600\\ \\mu$J."
+    },
+    {
+      "n": 26,
+      "q": "A wire of resistance 3 Ω is stretched to twice its original length. The resistance of the new wire will be",
+      "options": [
+        "1.5 Ω",
+        "3 Ω",
+        "6 Ω",
+        "12 Ω"
+      ],
+      "answer": 3,
+      "chapter": "Current Electricity",
+      "explanation": "For constant volume, $R\\propto l^2$, so stretching to twice the length gives $R'=3\\times2^2=12\\ \\Omega$."
+    },
+    {
+      "n": 27,
+      "q": "In the given arrangement of experiment on metre bridge, if AD corresponding to null deflection of the galvanometer is X, what would be its value if the radius of the wire AB is doubled? (Figure: metre bridge circuit with resistances R$_1$, R$_2$ and galvanometer G connected between points A, D, B on wire AB.)",
+      "options": [
+        "X",
+        "$\\dfrac{X}{4}$",
+        "4 X",
+        "2 X"
+      ],
+      "answer": 0,
+      "chapter": "Current Electricity",
+      "explanation": "The balance condition $\\dfrac{R_1}{R_2}=\\dfrac{\\text{resistance of }AD}{\\text{resistance of }DB}$ depends only on the length ratio (resistivity and area being uniform along the wire), so it is independent of the wire's radius; the null point X remains unchanged."
+    },
+    {
+      "n": 28,
+      "q": "A copper wire of length 1 m and uniform crosssectional area 5 $\\times$ 10$^{-7}$ m$^2$ carries a current of 1A. Assuming that there are 8 $\\times$ 10$^{28}$ free electrons per m$^3$ in copper, how long will an electron take to drift from one end of the wire to the other?",
+      "options": [
+        "0.8 $\\times$ 10$^3$ S",
+        "1.6 $\\times$ 10$^3$ S",
+        "3.2 $\\times$ 10$^3$ S",
+        "6.4 $\\times$ 10$^3$ S"
+      ],
+      "answer": 3,
+      "chapter": "Current Electricity",
+      "explanation": "$v_d=\\dfrac{I}{nAe}=\\dfrac{1}{(8\\times10^{28})(5\\times10^{-7})(1.6\\times10^{-19})}\\approx1.56\\times10^{-4}$ m/s; time $=\\dfrac{l}{v_d}=\\dfrac{1}{1.56\\times10^{-4}}\\approx6.4\\times10^3$ s."
+    },
+    {
+      "n": 29,
+      "q": "Consider an electrical conductor connected across a potential difference V. Let $\\Delta q$ be a small charge moving through it in time $\\Delta t$. If I is the electric current through it, (I) the kinetic energy of the charge increases by IV$\\Delta t$. (II) the electric potential energy of the charge decreases by IV$\\Delta t$. (III) the thermal energy of the conductor increases by IV$\\Delta t$. Then the correct statement/s is / are",
+      "options": [
+        "(I)",
+        "(I), (II)",
+        "(I) and (III)",
+        "(II), (III)"
+      ],
+      "answer": 3,
+      "chapter": "Current Electricity",
+      "explanation": "The drift speed (and hence average KE of charge carriers) stays essentially constant; the electric PE lost by the charge as it moves through the potential difference (IV$\\Delta t$) is entirely converted into thermal (Joule heating) energy of the conductor, so (II) and (III) are correct."
+    },
+    {
+      "n": 30,
+      "q": "A strong magnetic field is applied on a stationary electron. Then the electron",
+      "options": [
+        "Moves in the direction of the field",
+        "Moves in an opposite direction of the field",
+        "Remains stationary",
+        "Starts spinning"
+      ],
+      "answer": 2,
+      "chapter": "Moving Charges and Magnetism",
+      "explanation": "The magnetic force is $q\\vec v\\times\\vec B$; since v = 0 for a stationary electron, the force is zero and it remains stationary."
+    },
+    {
+      "n": 31,
+      "q": "Two parallel wires in free space are 10 cm apart and each carries a current of 10A in the same direction. The force exerted by one wire on the other [per unit length] is",
+      "options": [
+        "2 $\\times$ 10$^{-4}$ Nm$^{-1}$ [attractive]",
+        "2 $\\times$ 10$^{-7}$ Nm$^{-1}$ [attractive]",
+        "2 $\\times$ 10$^{-4}$ Nm$^{-1}$ [repulsive]",
+        "2 $\\times$ 10$^{-7}$ Nm$^{-1}$ [repulsive]"
+      ],
+      "answer": 0,
+      "chapter": "Moving Charges and Magnetism",
+      "explanation": "$\\dfrac{F}{l}=\\dfrac{\\mu_0 I_1I_2}{2\\pi d}=\\dfrac{4\\pi\\times10^{-7}\\times10\\times10}{2\\pi\\times0.1}=2\\times10^{-4}$ N/m; currents in the same direction attract."
+    },
+    {
+      "n": 32,
+      "q": "A toroid with thick windings of N turns has inner and outer radii R$_1$ and R$_2$ respectively. If it carries certain steady current I, the variation of the magnetic field due to the toroid with radial distance is correctly graphed in: (A) B falling from $\\mu_0NI/2R_1$ to $\\mu_0NI/2R_2$ between R$_1$ and R$_2$. (B) B curving down from $\\mu_0NI/2\\pi R_1$ towards $\\mu_0NI/2\\pi R_1$ (hyperbolic fall) between R$_1$ and R$_2$. (C) B rising from 0 to $\\mu_0NI/2\\pi R_2$ between R$_1$ and R$_2$. (D) B constant at $\\mu_0NI/\\pi(R_1+R_2)$ between R$_1$ and R$_2$, and zero outside.",
+      "options": [
+        "Graph (A)",
+        "Graph (B)",
+        "Graph (C)",
+        "Graph (D)"
+      ],
+      "answer": 3,
+      "chapter": "Moving Charges and Magnetism",
+      "explanation": "For a toroid with thick windings, treating the effective mean radius $(R_1+R_2)/2$, the field between the radii is approximately constant, $B\\approx\\dfrac{\\mu_0NI}{2\\pi\\cdot\\frac{R_1+R_2}{2}}=\\dfrac{\\mu_0NI}{\\pi(R_1+R_2)}$, zero outside — matching graph (D)."
+    },
+    {
+      "n": 33,
+      "q": "A tightly wound long solenoid has 'n' turns per unit length, a radius 'r' and carries a current I. A particle having charge 'q' and mass 'm' is projected from a point on the axis in a direction perpendicular to the axis. The maximum speed of the particle for which the particle does not strike the solenoid is",
+      "options": [
+        "$\\dfrac{\\mu_0 nIqr}{m}$",
+        "$\\dfrac{\\mu_0 nIqr}{2m}$",
+        "$\\dfrac{\\mu_0 nIqr}{4m}$",
+        "$\\dfrac{\\mu_0 nIqr}{8m}$"
+      ],
+      "answer": 1,
+      "chapter": "Moving Charges and Magnetism",
+      "explanation": "Inside the solenoid $B=\\mu_0nI$; the particle moves in a circle of radius $R=\\dfrac{mv}{qB}$ and just grazes the solenoid wall when $2R=r$ (the circular path's diameter equals the solenoid radius as it starts at the axis), giving $v_{max}=\\dfrac{qBr}{2m}=\\dfrac{\\mu_0nIqr}{2m}$."
+    },
+    {
+      "n": 34,
+      "q": "Earth's magnetic field always has a horizontal component except at",
+      "options": [
+        "equator",
+        "magnetic poles",
+        "a latitude of 60°",
+        "an altitude of 60°"
+      ],
+      "answer": 1,
+      "chapter": "Magnetism and Matter",
+      "explanation": "At the magnetic poles the field is entirely vertical (dip angle 90°), so the horizontal component is zero there."
+    },
+    {
+      "n": 35,
+      "q": "Which of the field pattern given below is valid for electric field as well as for magnetic field? (A) lines radiating outward from a point. (B) lines converging inward to a point. (C) concentric circles around a point. (D) dipole-like field lines (as for a bar magnet or an electric dipole).",
+      "options": [
+        "Pattern (A)",
+        "Pattern (B)",
+        "Pattern (C)",
+        "Pattern (D)"
+      ],
+      "answer": 2,
+      "chapter": "Magnetism and Matter",
+      "explanation": "As per the KEA key, the concentric-circle pattern (C) is the field pattern accepted as valid for both fields; patterns showing lines terminating at/emerging from a single point ((A) and (B)) would require a magnetic monopole, which does not exist (as per KEA key).",
+      "disputed": true,
+      "note": "The standard answer should arguably be (D) the dipole-like pattern, since it is physically realised by both a real electric dipole and a real bar magnet, whereas static concentric circular field lines (pattern C) do not arise from electrostatic charges (electrostatic field lines cannot form closed loops) even though they do describe the magnetic field around a current-carrying wire."
+    },
+    {
+      "n": 36,
+      "q": "The current flowing through an inductance coil of self inductance 6 mH at different time instants is as shown: current rises from 0 at t = 0 to about 4 A near t = 20 s, then decreases through about 2 A near t = 40 s, continuing to fall towards zero afterward. The emf induced between t = 20s and t = 40s is nearly",
+      "options": [
+        "2 $\\times$ 10$^{-2}$ V",
+        "3 $\\times$ 10$^{-2}$ V",
+        "4 $\\times$ 10$^{-3}$ V",
+        "30 $\\times$ 10$^2$ V"
+      ],
+      "answer": 2,
+      "chapter": "Electromagnetic Induction",
+      "explanation": "Using $|\\varepsilon|=L\\left|\\dfrac{\\Delta I}{\\Delta t}\\right|=6\\times10^{-3}\\times\\dfrac{2}{20}=6\\times10^{-4}$ V; readings of the current values off the graph are imprecise, which is likely why the KEA gave grace marks for this question. Option (C) is closest in order of magnitude and is taken as the answer per the KEA key.",
+      "grace": true
+    },
+    {
+      "n": 37,
+      "q": "The physical quantity which is measured in the unit of wb A$^{-1}$ is",
+      "options": [
+        "Self inductance",
+        "Mutual inductance",
+        "Magnetic flux",
+        "Both (A) and (B)"
+      ],
+      "answer": 3,
+      "chapter": "Electromagnetic Induction",
+      "explanation": "The henry (Wb/A) is the SI unit of both self-inductance and mutual inductance."
+    },
+    {
+      "n": 38,
+      "q": "What will be the reading in the voltmeter and ammeter of the circuit shown? (Circuit: a resistor R=45Ω in series with a 90V AC source and an ammeter A forms the outer loop; this feeds a branch containing a capacitor X$_C$=4Ω in series with an inductor X$_L$=4Ω, with a voltmeter V connected in parallel with this L-C branch.)",
+      "options": [
+        "90V, 2A",
+        "0V, 2A",
+        "90V, 1A",
+        "0V, 1A"
+      ],
+      "answer": 1,
+      "chapter": "Alternating Current",
+      "explanation": "Since X$_L$=X$_C$, the series L-C branch is at resonance and has zero net impedance, i.e. it behaves as a short circuit; the voltmeter, connected across this short, reads 0 V. The full source voltage then drops across R alone, so the ammeter reads I = 90V/45$\\Omega$ = 2 A."
+    },
+    {
+      "n": 39,
+      "q": "LC oscillations are similar and analogous to the mechanical oscillations of a block attached to a spring. The electrical equivalent of the force constant of the spring is",
+      "options": [
+        "reciprocal of capacitive reactance",
+        "capacitive reactance",
+        "reciprocal of capacitance",
+        "capacitance"
+      ],
+      "answer": 2,
+      "chapter": "Alternating Current",
+      "explanation": "Comparing energies $\\tfrac12 L\\dot q^2 \\leftrightarrow \\tfrac12 mv^2$ and $\\tfrac{q^2}{2C}\\leftrightarrow\\tfrac12 kx^2$ shows $L\\leftrightarrow m$ and $\\dfrac{1}{C}\\leftrightarrow k$, so the spring constant corresponds to the reciprocal of capacitance."
+    },
+    {
+      "n": 40,
+      "q": "In an oscillating LC circuit, L = 3.00 mH and C = 2.70 μF. At t = 0 the charge on the capacitor is zero and the current is 2.00A. The maximum charge that will appear on the capacitor will be:",
+      "options": [
+        "1.8 $\\times$ 10$^{-5}$ C",
+        "18 $\\times$ 10$^{-5}$ C",
+        "9 $\\times$ 10$^{-5}$ C",
+        "90 $\\times$ 10$^{-5}$ C"
+      ],
+      "answer": 1,
+      "chapter": "Alternating Current",
+      "explanation": "Energy conservation: $\\tfrac12 LI^2=\\tfrac{Q_{max}^2}{2C}\\Rightarrow Q_{max}=I\\sqrt{LC}=2\\sqrt{(3\\times10^{-3})(2.7\\times10^{-6})}=18\\times10^{-5}$ C."
+    },
+    {
+      "n": 41,
+      "q": "Suppose that the electric field amplitude of an electromagnetic wave is E$_0$ = 120 NC$^{-1}$ and its frequency is f = 50 MHz. Then which of the following value is incorrectly computed?",
+      "options": [
+        "Magnetic field amplitude is 400nT.",
+        "Angular frequency of EM wave is $\\pi \\times 10^8$ rad/s",
+        "Propagation constant (angular wave number) is 2.1 rad/m",
+        "Wavelength of the EM wave is 6 m."
+      ],
+      "answer": 2,
+      "chapter": "Electromagnetic Waves",
+      "explanation": "$B_0=E_0/c=400$ nT (correct); $\\omega=2\\pi f=\\pi\\times10^8$ rad/s (correct); $\\lambda=c/f=6$ m (correct); but $k=\\omega/c=\\pi/3\\approx1.05$ rad/m, not 2.1 rad/m, so (C) is incorrectly computed."
+    },
+    {
+      "n": 42,
+      "q": "The source of electromagnetic waves can be a charge.",
+      "options": [
+        "Moving with a constant velocity",
+        "Moving in a circular orbit.",
+        "At rest",
+        "Moving parallel to the magnetic field"
+      ],
+      "answer": 1,
+      "chapter": "Electromagnetic Waves",
+      "explanation": "Only an accelerating charge radiates electromagnetic waves; a charge moving in a circular orbit is centripetally accelerated."
+    },
+    {
+      "n": 43,
+      "q": "In refraction, light waves are bent on passing from one medium to second medium because, in the second medium.",
+      "options": [
+        "frequency is different",
+        "speed is different",
+        "coefficient of elasticity is different",
+        "amplitude is smaller."
+      ],
+      "answer": 1,
+      "chapter": "Ray Optics and Optical Instruments",
+      "explanation": "Refraction (bending) occurs because the speed of light changes between media while frequency remains unchanged."
+    },
+    {
+      "n": 44,
+      "q": "If the refractive index from air to glass is $\\dfrac{3}{2}$ and that from air to water is $\\dfrac{4}{3}$, then the ratio of focal lengths of a glass lens in water and in air is",
+      "options": [
+        "1:2",
+        "2:1",
+        "1:4",
+        "4:1"
+      ],
+      "answer": 3,
+      "chapter": "Ray Optics and Optical Instruments",
+      "explanation": "$\\dfrac{1}{f}\\propto\\left(\\dfrac{\\mu_g}{\\mu_{medium}}-1\\right)$. In air: $\\tfrac32-1=\\tfrac12$; in water: $\\dfrac{3/2}{4/3}-1=\\dfrac98-1=\\tfrac18$. So $\\dfrac{f_{water}}{f_{air}}=\\dfrac{1/(1/8)}{1/(1/2)}=\\dfrac{8}{2}=4$, i.e. 4:1."
+    },
+    {
+      "n": 45,
+      "q": "Two thin biconvex lenses have focal lengths f$_1$ and f$_2$. A third thin biconcave lens has focal length of f$_3$. If the two biconvex lenses are in contact, the total power of the lenses is P$_1$. If the first convex lens is in contact with the third lens, the total power is P$_2$. If the second convex lens is in contact with the third lens, the total power is P$_3$ then",
+      "options": [
+        "$P_1=\\dfrac{f_1f_2}{f_1-f_2}$, $P_2=\\dfrac{f_1f_3}{f_3-f_1}$ and $P_3=\\dfrac{f_2f_3}{f_3-f_2}$",
+        "$P_1=\\dfrac{f_1-f_2}{f_1f_2}$, $P_2=\\dfrac{f_3-f_1}{f_3+f_1}$ and $P_3=\\dfrac{f_3-f_1}{f_2f_3}$",
+        "$P_1=\\dfrac{f_1-f_2}{f_1f_2}$, $P_2=\\dfrac{f_3-f_1}{f_1f_3}$ and $P_3=\\dfrac{f_3-f_2}{f_2f_3}$",
+        "$P_1=\\dfrac{f_1+f_2}{f_1f_2}$, $P_2=\\dfrac{f_3-f_1}{f_1f_3}$ and $P_3=\\dfrac{f_3-f_2}{f_2f_3}$"
+      ],
+      "answer": 3,
+      "chapter": "Ray Optics and Optical Instruments",
+      "explanation": "For lenses in contact, powers add: $P_1=\\tfrac1{f_1}+\\tfrac1{f_2}=\\dfrac{f_1+f_2}{f_1f_2}$. Combining a convex with the biconcave (negative power $-1/f_3$): $P_2=\\tfrac1{f_1}-\\tfrac1{f_3}=\\dfrac{f_3-f_1}{f_1f_3}$ and $P_3=\\tfrac1{f_2}-\\tfrac1{f_3}=\\dfrac{f_3-f_2}{f_2f_3}$."
+    },
+    {
+      "n": 46,
+      "q": "The size of the image of an object, which is at infinity, as formed by a convex lens of focal length 30 cm is 2 cm. If a concave lens of focal length 20 cm is placed between the convex lens and the image at a distance of 26 cm from the lens, the new size of the image is:",
+      "options": [
+        "1.25 cm",
+        "2.5 cm",
+        "1.05 cm",
+        "2 cm"
+      ],
+      "answer": 1,
+      "chapter": "Ray Optics and Optical Instruments",
+      "explanation": "The concave lens sees a virtual object 4 cm behind it (30‑26): $u=+4$ cm, $f=-20$ cm. $\\dfrac1v=\\dfrac1f+\\dfrac1u=-\\dfrac1{20}+\\dfrac14=\\dfrac15\\Rightarrow v=5$ cm. Magnification $=v/u=5/4=1.25$, new size $=2\\times1.25=2.5$ cm."
+    },
+    {
+      "n": 47,
+      "q": "A slit of width 'a' is illuminated by red light of wavelength 6500A°. If the first diffraction minimum falls at 30°, then the value of 'a' is _____",
+      "options": [
+        "6.5 $\\times$ 10$^{-4}$ mm",
+        "1.3 micron",
+        "3250 A°",
+        "2.6 $\\times$ 10$^{-4}$ cm"
+      ],
+      "answer": 1,
+      "chapter": "Wave Optics",
+      "explanation": "First minimum: $a\\sin\\theta=\\lambda\\Rightarrow a=\\dfrac{6500\\times10^{-10}}{\\sin30^\\circ}=1.3\\times10^{-6}$ m $=1.3$ micron."
+    },
+    {
+      "n": 48,
+      "q": "Which of the statements are correct with reference to single slit diffraction pattern? (i) Fringes are of unequal width (ii) Fringes are of equal width (iii) Light energy is conserved (iv) Intensities of all bright fringes are equal",
+      "options": [
+        "(i) and (iii)",
+        "(i) and (iv)",
+        "(ii) and (iv)",
+        "(ii) and (iii)"
+      ],
+      "answer": 0,
+      "chapter": "Wave Optics",
+      "explanation": "In single-slit diffraction, fringe widths are unequal (central maximum is widest) and light energy is conserved (redistributed, not lost) — (i) and (iii) are correct."
+    },
+    {
+      "n": 49,
+      "q": "In the Young's double slit experiment a monochromatic source of wavelength $\\lambda$ is used. The intensity of light passing through each slit is I$_0$. The intensity of light reaching the screen S$_c$ at a point P, a distance x from O is given by (Take d << D).",
+      "options": [
+        "$I_0\\cos^2\\left(\\dfrac{\\pi D}{\\lambda d}x\\right)$",
+        "$4I_0\\cos^2\\left(\\dfrac{\\pi d}{\\lambda D}x\\right)$",
+        "$I_0\\sin^2\\left(\\dfrac{\\pi d}{2\\lambda D}x\\right)$",
+        "$4I_0\\cos\\left(\\dfrac{\\pi d}{2\\lambda D}x\\right)$"
+      ],
+      "answer": 1,
+      "chapter": "Wave Optics",
+      "explanation": "Path difference $=\\dfrac{dx}{D}$, phase $\\phi=\\dfrac{2\\pi dx}{\\lambda D}$; intensity $I=4I_0\\cos^2(\\phi/2)=4I_0\\cos^2\\left(\\dfrac{\\pi dx}{\\lambda D}\\right)$."
+    },
+    {
+      "n": 50,
+      "q": "The work function of a metal is 1eV. Light of wavelength 3000A° is incident on this metal surface. The velocity of emitted photoelectrons will be",
+      "options": [
+        "10 ms$^{-1}$",
+        "1 $\\times$ 10$^3$ ms$^{-1}$",
+        "1 $\\times$ 10$^4$ ms$^{-1}$",
+        "1 $\\times$ 10$^6$ ms$^{-1}$"
+      ],
+      "answer": 3,
+      "chapter": "Dual Nature of Radiation and Matter",
+      "explanation": "$E_{photon}=\\dfrac{1240}{300}\\approx4.13$ eV; $KE_{max}=4.13-1=3.13$ eV; $v=\\sqrt{2KE/m}\\approx1\\times10^6$ ms$^{-1}$."
+    },
+    {
+      "n": 51,
+      "q": "A proton moving with a momentum P$_1$ has a kinetic energy $\\dfrac{1}{8}$th of its rest mass energy. Another light photon having energy equal to the kinetic energy of the proton possesses a momentum P$_2$. Then the ratio $\\dfrac{P_1-P_2}{P_1}$ is equal to",
+      "options": [
+        "1",
+        "$\\dfrac{1}{4}$",
+        "$\\dfrac{1}{2}$",
+        "$\\dfrac{3}{4}$"
+      ],
+      "answer": 3,
+      "chapter": "Dual Nature of Radiation and Matter",
+      "explanation": "Using $KE=\\dfrac{P_1^2}{2m}=\\dfrac{mc^2}{8}\\Rightarrow P_1=\\dfrac{mc}{2}$. Photon momentum $P_2=\\dfrac{KE}{c}=\\dfrac{mc}{8}$. $\\dfrac{P_1-P_2}{P_1}=\\dfrac{mc/2-mc/8}{mc/2}=\\dfrac34$."
+    },
+    {
+      "n": 52,
+      "q": "According to Einstein's photoelectric equation the graph between kinetic energy of photoelectrons ejected and the frequency of incident radiation is: (A) a line of negative slope crossing the frequency axis, (B) a line of positive slope through the origin, (C) a line of positive slope with a positive KE-intercept, (D) a line of positive slope with a positive frequency-intercept (KE = 0 at the threshold frequency, then rises).",
+      "options": [
+        "Graph (A)",
+        "Graph (B)",
+        "Graph (C)",
+        "Graph (D)"
+      ],
+      "answer": 3,
+      "chapter": "Dual Nature of Radiation and Matter",
+      "explanation": "Einstein's equation $KE=hf-\\phi_0$ gives a straight line of slope h with KE = 0 at the threshold frequency $f_0=\\phi_0/h$, matching graph (D)."
+    },
+    {
+      "n": 53,
+      "q": "Energy of an electron in the second orbit of hydrogen atom is E$_2$. The energy of electron in the third orbit of He$^+$ will be",
+      "options": [
+        "$\\dfrac{9}{16}E_2$",
+        "$\\dfrac{16}{9}E_2$",
+        "$\\dfrac{3}{16}E_2$",
+        "$\\dfrac{16}{3}E_2$"
+      ],
+      "answer": 1,
+      "chapter": "Atoms",
+      "explanation": "$E_n=-\\dfrac{13.6Z^2}{n^2}$eV. $E_2$(H) uses $Z=1,n=2$; for He$^+$ ($Z=2,n=3$): ratio $=\\dfrac{Z^2/n^2}{1/4}=\\dfrac{4/9}{1/4}=\\dfrac{16}{9}$, so energy $=\\dfrac{16}{9}E_2$."
+    },
+    {
+      "n": 54,
+      "q": "The figure shows standing de Broglie waves due to the revolution of electron in a certain orbit of hydrogen atom (the loops shown correspond to the orbit's quantum number n = 4). Then the expression for the orbit radius is (all notations have their usual meanings)",
+      "options": [
+        "$\\dfrac{h^2\\epsilon_0}{\\pi me^2}$",
+        "$\\dfrac{4h^2\\epsilon_0}{\\pi me^2}$",
+        "$\\dfrac{9h^2\\epsilon_0}{\\pi me^2}$",
+        "$\\dfrac{16h^2\\epsilon_0}{\\pi me^2}$"
+      ],
+      "answer": 3,
+      "chapter": "Atoms",
+      "explanation": "Bohr radius $r_n=\\dfrac{n^2h^2\\epsilon_0}{\\pi me^2}$. The exact number of standing-wave loops in the figure is hard to read precisely, which is likely why the KEA awarded grace marks; taking n = 4 (as per the option matching the key) gives $r_4=\\dfrac{16h^2\\epsilon_0}{\\pi me^2}$.",
+      "grace": true
+    },
+    {
+      "n": 55,
+      "q": "An electron in an excited state of Li$^{2+}$ ion has angular momentum $\\dfrac{3h}{2\\pi}$. The de Broglie wavelength of electron in this state is P$\\pi$a$_0$ (where a$_0$ = Bohr radius). The value of P is",
+      "options": [
+        "3",
+        "2",
+        "1",
+        "4"
+      ],
+      "answer": 1,
+      "chapter": "Atoms",
+      "explanation": "Angular momentum $\\dfrac{3h}{2\\pi}=\\dfrac{nh}{2\\pi}\\Rightarrow n=3$. Radius $r_n=\\dfrac{n^2a_0}{Z}=\\dfrac{9a_0}{3}=3a_0$. de Broglie wavelength $\\lambda=\\dfrac{2\\pi r_n}{n}=\\dfrac{2\\pi(3a_0)}{3}=2\\pi a_0=P\\pi a_0 \\Rightarrow P=2$."
+    },
+    {
+      "n": 56,
+      "q": "Which graph in the following diagrams correctly represents the potential energy of a pair of nucleons as a function of their separation? (Four U vs r graphs with axes labelled (A) U(MeV) vs r(fm), (B) U(keV) vs r(fm), (C) U(eV) vs r(m), (D) U(MeV) vs r(fm) — each showing a sharp repulsive rise at very small r, a negative minimum (potential well) at r around 1 fm, and U approaching zero at large r.)",
+      "options": [
+        "Graph (A)",
+        "Graph (B)",
+        "Graph (C)",
+        "Graph (D)"
+      ],
+      "answer": 3,
+      "chapter": "Nuclei",
+      "explanation": "The nuclear force potential well is only a few MeV deep and acts over femtometre range, so the correct axes are U in MeV and r in fm, matching graph (D)."
+    },
+    {
+      "n": 57,
+      "q": "In a nuclear reactor heavy nuclei is not used as moderators because",
+      "options": [
+        "They will break up",
+        "Elastic collision of neutrons with heavy nuclei will not slow them down.",
+        "The net weight of the reactor would be unbearably high",
+        "Substances with heavy nuclei do not occur in liquid or gaseous state at room temperature."
+      ],
+      "answer": 1,
+      "chapter": "Nuclei",
+      "explanation": "In an elastic collision, maximum kinetic energy is transferred when the colliding masses are comparable; heavy nuclei barely slow down fast neutrons, so light nuclei (like those in water or graphite) are used as moderators instead."
+    },
+    {
+      "n": 58,
+      "q": "The circuit given represents which of the logic operations? (Two inputs feed a NAND gate, whose output feeds a second NAND gate with both its inputs tied together to that same output.)",
+      "options": [
+        "OR",
+        "AND",
+        "NOT",
+        "NOR"
+      ],
+      "answer": 1,
+      "chapter": "Semiconductor Electronics",
+      "explanation": "A NAND gate with both inputs tied together acts as a NOT gate, so the second gate inverts the first NAND's output: NOT(NAND(A,B)) = AND(A,B)."
+    },
+    {
+      "n": 59,
+      "q": "Identify the incorrect statement:",
+      "options": [
+        "when a P-N junction diode is forward biased, the width of the depletion region decreases.",
+        "when a P-N junction diode is reverse biased, the barrier potential increases.",
+        "a photo diode is operated in the reverse bias.",
+        "an LED is a lightly doped P-N junction diode which emits spontaneous radiation on forward biasing."
+      ],
+      "answer": 3,
+      "chapter": "Semiconductor Electronics",
+      "explanation": "LEDs are heavily doped (not lightly doped) to produce large electron-hole recombination and hence significant light output on forward bias, making statement (D) incorrect."
+    },
+    {
+      "n": 60,
+      "q": "Three photodiodes D$_1$, D$_2$ and D$_3$ are made of semiconductors having band gaps of 2.5 eV, 2 eV and 3eV respectively. Which one will be able to detect light of wavelength 600 nm?",
+      "options": [
+        "D$_1$ only",
+        "Both D$_1$ and D$_3$",
+        "D$_2$ only",
+        "All the three diodes"
+      ],
+      "answer": 2,
+      "chapter": "Semiconductor Electronics",
+      "explanation": "Photon energy $=\\dfrac{1240}{600}\\approx2.07$ eV. Only D$_2$ (band gap 2 eV, less than the photon energy) can absorb and detect this light; D$_1$ and D$_3$ have larger band gaps than the photon energy."
+    }
+  ]
+}

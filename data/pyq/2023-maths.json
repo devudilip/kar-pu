@@ -1,0 +1,793 @@
+{
+  "title": "KCET 2023 Maths",
+  "year": 2023,
+  "subject": "maths",
+  "code": "A-1",
+  "source": "KEA question paper (copy) + KEA answer key column A-1",
+  "excluded": [],
+  "questions": [
+    {
+      "n": 1,
+      "q": "$n^{th}$ term of the series $1 + \\dfrac{3}{7} + \\dfrac{5}{7^2} + \\dfrac{7}{7^3} + \\cdots$ is",
+      "options": [
+        "$\\dfrac{2n-1}{7^n}$",
+        "$\\dfrac{2n-1}{7^{n-1}}$",
+        "$\\dfrac{2n+1}{7^{n-1}}$",
+        "$\\dfrac{2n+1}{7^n}$"
+      ],
+      "answer": 1,
+      "chapter": "Sequences and Series",
+      "explanation": "The $n^{th}$ term is $\\dfrac{2n-1}{7^{n-1}}$: check $n=1$ gives $1$, $n=2$ gives $3/7$, $n=3$ gives $5/49$, matching the series."
+    },
+    {
+      "n": 2,
+      "q": "If $p\\left(\\dfrac{1}{q}+\\dfrac{1}{r}\\right), q\\left(\\dfrac{1}{r}+\\dfrac{1}{p}\\right), r\\left(\\dfrac{1}{p}+\\dfrac{1}{q}\\right)$ are in A.P., then p, q, r",
+      "options": [
+        "are in A.P.",
+        "are not in A.P.",
+        "are not in G.P.",
+        "are in G.P."
+      ],
+      "answer": 0,
+      "chapter": "Sequences and Series",
+      "explanation": "Testing $p,q,r$ in A.P. (e.g. $1,2,3$) makes the three given expressions have equal common difference, so the condition forces $p,q,r$ to be in A.P."
+    },
+    {
+      "n": 3,
+      "q": "A line passes through $(2, 2)$ and is perpendicular to the line $3x + y = 3$. Its y-intercept is",
+      "options": [
+        "$1$",
+        "$\\dfrac{1}{3}$",
+        "$\\dfrac{4}{3}$",
+        "$\\dfrac{2}{3}$"
+      ],
+      "answer": 2,
+      "chapter": "Straight Lines",
+      "explanation": "Slope of $3x+y=3$ is $-3$, so perpendicular slope is $1/3$. Line: $y-2=\\dfrac{1}{3}(x-2)$, giving y-intercept $= 2-\\dfrac{2}{3}=\\dfrac{4}{3}$."
+    },
+    {
+      "n": 4,
+      "q": "The distance between the foci of a hyperbola is 16 and its eccentricity is $\\sqrt{2}$. Its equation is",
+      "options": [
+        "$2x^2 - 3y^2 = 7$",
+        "$x^2 - y^2 = 32$",
+        "$y^2 - x^2 = 32$",
+        "$\\dfrac{x^2}{4} - \\dfrac{y^2}{9} = 1$"
+      ],
+      "answer": 1,
+      "chapter": "Conic Sections",
+      "explanation": "$2c=16 \\Rightarrow c=8$; $e=\\sqrt2 \\Rightarrow a = c/e = 4\\sqrt2 \\Rightarrow a^2=32$; $b^2=c^2-a^2=32$. Equation: $x^2-y^2=32$."
+    },
+    {
+      "n": 5,
+      "q": "If $\\displaystyle\\lim_{x \\to 0} \\dfrac{\\sin(2+x) - \\sin(2-x)}{x} = A \\cos B$, then the values of A and B respectively are",
+      "options": [
+        "2, 1",
+        "2, 2",
+        "1, 1",
+        "1, 2"
+      ],
+      "answer": 1,
+      "chapter": "Limits and Derivatives",
+      "explanation": "$\\sin(2+x)-\\sin(2-x) = 2\\cos 2 \\sin x$, so the limit $= 2\\cos2 \\cdot \\lim \\dfrac{\\sin x}{x} = 2\\cos2$. So $A=2, B=2$."
+    },
+    {
+      "n": 6,
+      "q": "If n is even and the middle term in the expansion of $\\left(x^2 + \\dfrac{1}{x}\\right)^n$ is $924x^6$, then n is equal to",
+      "options": [
+        "12",
+        "10",
+        "8",
+        "14"
+      ],
+      "answer": 0,
+      "chapter": "Binomial Theorem",
+      "explanation": "Middle term (r = n/2) has exponent of x equal to $2n-3r = n/2$. Setting $n/2 = 6$ gives $n=12$, and $\\binom{12}{6}=924$ confirms it."
+    },
+    {
+      "n": 7,
+      "q": "The mean of 100 observations is 50 and their standard deviation is 5. Then the sum of squares of all observations is",
+      "options": [
+        "250000",
+        "50000",
+        "255000",
+        "252500"
+      ],
+      "answer": 3,
+      "chapter": "Statistics",
+      "explanation": "$\\sum x_i^2 = n(\\sigma^2+\\bar x^2) = 100(25+2500) = 252500$."
+    },
+    {
+      "n": 8,
+      "q": "$f : R \\to R$ and $g : [0, \\infty) \\to R$ are defined by $f(x) = x^2$ and $g(x) = \\sqrt{x}$. Which one of the following is not true?",
+      "options": [
+        "$(fog)(2) = 2$",
+        "$(gof)(4) = 4$",
+        "$(gof)(-2) = 2$",
+        "$(fog)(-4) = 4$"
+      ],
+      "answer": 3,
+      "chapter": "Relations and Functions",
+      "explanation": "$g$ has domain $[0,\\infty)$, so $g(-4)$ is undefined; hence $(fog)(-4)$ cannot equal 4 — the other three statements check out directly."
+    },
+    {
+      "n": 9,
+      "q": "Let $f : R \\to R$ be defined by $f(x) = 3x^2 - 5$ and $g : R \\to R$ by $g(x) = \\dfrac{x}{x^2+1}$, then gof is",
+      "options": [
+        "$\\dfrac{3x^2}{x^4+2x^2-4}$",
+        "$\\dfrac{3x^2-5}{9x^4-30x^2+26}$",
+        "$\\dfrac{3x^2}{9x^4+30x^2-2}$",
+        "$\\dfrac{3x^2-5}{9x^4-6x^2+26}$"
+      ],
+      "answer": 1,
+      "chapter": "Relations and Functions",
+      "explanation": "$gof(x) = \\dfrac{f(x)}{f(x)^2+1} = \\dfrac{3x^2-5}{(3x^2-5)^2+1} = \\dfrac{3x^2-5}{9x^4-30x^2+26}$."
+    },
+    {
+      "n": 10,
+      "q": "Let the relation R be defined in N by aRb if $3a + 2b = 27$, then R is",
+      "options": [
+        "{(1, 12), (3, 9), (5, 6), (7, 3), (9, 0)}",
+        "{(1, 12), (3, 9), (5, 6), (7, 3)}",
+        "{(2, 1), (9, 3), (6, 5), (3, 7)}",
+        "$\\left\\{\\left(0, \\dfrac{27}{2}\\right), (1, 12), (3, 9), (5, 6), (7, 3)\\right\\}$"
+      ],
+      "answer": 1,
+      "chapter": "Relations and Functions",
+      "explanation": "Solving $3a+2b=27$ for $a,b \\in N$ (positive integers) gives pairs $(1,12),(3,9),(5,6),(7,3)$ — $a=9$ would force $b=0 \\notin N$."
+    },
+    {
+      "n": 11,
+      "q": "Let $f(x) = \\sin 2x + \\cos 2x$ and $g(x) = x^2 - 1$, then $g(f(x))$ is invertible in the domain",
+      "options": [
+        "$x \\in \\left[\\dfrac{-\\pi}{2}, \\dfrac{\\pi}{2}\\right]$",
+        "$x \\in \\left[\\dfrac{-\\pi}{4}, \\dfrac{\\pi}{4}\\right]$",
+        "$x \\in \\left[0, \\dfrac{\\pi}{4}\\right]$",
+        "$x \\in \\left[\\dfrac{-\\pi}{8}, \\dfrac{\\pi}{8}\\right]$"
+      ],
+      "answer": 3,
+      "chapter": "Relations and Functions",
+      "explanation": "$g(f(x)) = (\\sin2x+\\cos2x)^2-1 = \\sin4x$, which is one-one (invertible) on $\\left[\\dfrac{-\\pi}{8},\\dfrac{\\pi}{8}\\right]$ where $4x \\in \\left[\\dfrac{-\\pi}{2},\\dfrac{\\pi}{2}\\right]$."
+    },
+    {
+      "n": 12,
+      "q": "The contrapositive of the statement \"If two lines do not intersect in the same plane then they are parallel.\" is",
+      "options": [
+        "If two lines are not parallel then they do not intersect in the same plane.",
+        "If two lines are not parallel then they intersect in the same plane.",
+        "If two lines are parallel then they do not intersect in the same plane.",
+        "If two lines are parallel then they intersect in the same plane."
+      ],
+      "answer": 1,
+      "chapter": "Old syllabus: Mathematical Reasoning",
+      "explanation": "Contrapositive of \\\"if p then q\\\" is \\\"if not q then not p\\\": negating \\\"parallel\\\" and \\\"do not intersect\\\" and swapping gives \\\"If two lines are not parallel then they intersect in the same plane.\\\""
+    },
+    {
+      "n": 13,
+      "q": "The value of $\\cot^{-1}\\left[\\dfrac{\\sqrt{1-\\sin x}+\\sqrt{1+\\sin x}}{\\sqrt{1-\\sin x}-\\sqrt{1+\\sin x}}\\right]$ where $x \\in \\left(0, \\dfrac{\\pi}{4}\\right)$ is",
+      "options": [
+        "$\\pi - \\dfrac{x}{3}$",
+        "$\\dfrac{x}{2}$",
+        "$\\pi - \\dfrac{x}{2}$",
+        "$\\dfrac{x}{2} - \\pi$"
+      ],
+      "answer": 2,
+      "chapter": "Inverse Trigonometric Functions",
+      "explanation": "Using $1\\pm\\sin x = (\\cos(x/2)\\pm\\sin(x/2))^2$, the fraction simplifies to $-\\cot(x/2)$, and $\\cot^{-1}(-\\cot(x/2)) = \\pi - \\dfrac{x}{2}$."
+    },
+    {
+      "n": 14,
+      "q": "If $x\\begin{bmatrix}3\\\\2\\end{bmatrix} + y\\begin{bmatrix}1\\\\-1\\end{bmatrix} = \\begin{bmatrix}15\\\\5\\end{bmatrix}$ then the value of x and y are",
+      "options": [
+        "x = -4, y = -3",
+        "x = 4, y = 3",
+        "x = -4, y = 3",
+        "x = 4, y = -3"
+      ],
+      "answer": 1,
+      "chapter": "Matrices",
+      "explanation": "$3x+y=15$ and $2x-y=5$. Adding: $5x=20 \\Rightarrow x=4$, then $y=15-12=3$."
+    },
+    {
+      "n": 15,
+      "q": "If A and B are two matrices such that $AB = B$ and $BA = A$ then $A^2 + B^2 =$",
+      "options": [
+        "AB",
+        "A + B",
+        "2BA",
+        "2AB"
+      ],
+      "answer": 1,
+      "chapter": "Matrices",
+      "explanation": "$A^2 = A(BA) = (AB)A = BA = A$, and similarly $B^2 = B(AB) = (BA)B = AB = B$. So $A^2+B^2 = A+B$."
+    },
+    {
+      "n": 16,
+      "q": "If $A = \\begin{bmatrix}2-k & 2\\\\1 & 3-k\\end{bmatrix}$ is a singular matrix, then the value of $5k - k^2$ is equal to",
+      "options": [
+        "-4",
+        "4",
+        "6",
+        "-6"
+      ],
+      "answer": 1,
+      "chapter": "Determinants",
+      "explanation": "$|A|=0 \\Rightarrow (2-k)(3-k)-2=0 \\Rightarrow k^2-5k+4=0 \\Rightarrow k^2-5k=-4$. So $5k-k^2 = 4$."
+    },
+    {
+      "n": 17,
+      "q": "The area of a triangle with vertices $(-3, 0), (3, 0)$ and $(0, k)$ is 9 sq. units, the value of k is",
+      "options": [
+        "6",
+        "9",
+        "3",
+        "-9"
+      ],
+      "answer": 2,
+      "chapter": "Determinants",
+      "explanation": "Area $= \\dfrac{1}{2}\\times \\text{base}(6) \\times |k| = 3|k| = 9 \\Rightarrow k = 3$."
+    },
+    {
+      "n": 18,
+      "q": "If $\\Delta = \\begin{vmatrix}1 & a & a^2\\\\1 & b & b^2\\\\1 & c & c^2\\end{vmatrix}$ and $\\Delta_1 = \\begin{vmatrix}1 & 1 & 1\\\\bc & ca & ab\\\\a & b & c\\end{vmatrix}$ then",
+      "options": [
+        "$\\Delta_1 \\neq \\Delta$",
+        "$\\Delta_1 = \\Delta$",
+        "$\\Delta_1 = -\\Delta$",
+        "$\\Delta_1 = 3\\Delta$"
+      ],
+      "answer": 2,
+      "chapter": "Determinants",
+      "explanation": "Testing $a=1,b=2,c=3$ gives $\\Delta=2$ and $\\Delta_1=-2$, so $\\Delta_1 = -\\Delta$ (a standard determinant identity)."
+    },
+    {
+      "n": 19,
+      "q": "If $\\sin^{-1}\\left(\\dfrac{2a}{1+a^2}\\right) + \\cos^{-1}\\left(\\dfrac{1-a^2}{1+a^2}\\right) = \\tan^{-1}\\left(\\dfrac{2x}{1-x^2}\\right)$ where $a, x \\in (0, 1)$ then the value of x is",
+      "options": [
+        "$\\dfrac{2a}{1+a^2}$",
+        "0",
+        "$\\dfrac{2a}{1-a^2}$",
+        "$\\dfrac{a}{2}$"
+      ],
+      "answer": 2,
+      "chapter": "Inverse Trigonometric Functions",
+      "explanation": "Both terms on the left equal $2\\tan^{-1}a$, so LHS $=4\\tan^{-1}a = 2\\tan^{-1}x$, giving $\\tan^{-1}x = 2\\tan^{-1}a$ and $x = \\dfrac{2a}{1-a^2}$."
+    },
+    {
+      "n": 20,
+      "q": "If $u = \\sin^{-1}\\left(\\dfrac{2x}{1+x^2}\\right)$ and $v = \\tan^{-1}\\left(\\dfrac{2x}{1-x^2}\\right)$ then $\\dfrac{du}{dv}$ is",
+      "options": [
+        "$\\dfrac{1-x^2}{1+x^2}$",
+        "$\\dfrac{1}{2}$",
+        "1",
+        "2"
+      ],
+      "answer": 2,
+      "chapter": "Continuity and Differentiability",
+      "explanation": "For $|x|<1$, both $u$ and $v$ equal $2\\tan^{-1}x$, so $u=v$ and $\\dfrac{du}{dv}=1$."
+    },
+    {
+      "n": 21,
+      "q": "The function $f(x) = \\cot x$ is discontinuous on every point of the set",
+      "options": [
+        "$\\left\\{x = (2n+1)\\dfrac{\\pi}{2}; n \\in Z\\right\\}$",
+        "$\\{x = n\\pi; n \\in Z\\}$",
+        "$\\left\\{x = \\dfrac{n\\pi}{2}; n \\in Z\\right\\}$",
+        "$\\{x = 2n\\pi; n \\in Z\\}$"
+      ],
+      "answer": 1,
+      "chapter": "Continuity and Differentiability",
+      "explanation": "$\\cot x = \\cos x/\\sin x$ is undefined wherever $\\sin x = 0$, i.e. at $x = n\\pi,\\ n \\in Z$."
+    },
+    {
+      "n": 22,
+      "q": "If the function is $f(x) = \\dfrac{1}{x+2}$, then the point of discontinuity of the composite function $y = f(f(x))$ is",
+      "options": [
+        "$\\dfrac{2}{5}$",
+        "$\\dfrac{-5}{2}$",
+        "$\\dfrac{1}{2}$",
+        "$\\dfrac{5}{2}$"
+      ],
+      "answer": 1,
+      "chapter": "Continuity and Differentiability",
+      "explanation": "$f(f(x)) = \\dfrac{x+2}{2x+5}$, which is discontinuous at $x=-5/2$ (also at $x=-2$, not listed)."
+    },
+    {
+      "n": 23,
+      "q": "If $y = a \\sin x + b \\cos x$, then $y^2 + \\left(\\dfrac{dy}{dx}\\right)^2$ is a",
+      "options": [
+        "function of x and y",
+        "function of x",
+        "constant",
+        "function of y"
+      ],
+      "answer": 2,
+      "chapter": "Continuity and Differentiability",
+      "explanation": "$y^2+(y')^2 = (a\\sin x+b\\cos x)^2+(a\\cos x-b\\sin x)^2 = a^2+b^2$, a constant."
+    },
+    {
+      "n": 24,
+      "q": "If $f(x) = 1 + nx + \\dfrac{n(n-1)}{2}x^2 + \\dfrac{n(n-1)(n-2)}{6}x^3 + \\cdots + x^n$ then $f''(1) =$",
+      "options": [
+        "$n(n-1)2^n$",
+        "$(n-1)2^{n-1}$",
+        "$2^{n-1}$",
+        "$n(n-1)2^{n-2}$"
+      ],
+      "answer": 3,
+      "chapter": "Continuity and Differentiability",
+      "explanation": "$f(x) = (1+x)^n$, so $f''(x) = n(n-1)(1+x)^{n-2}$, and $f''(1) = n(n-1)2^{n-2}$."
+    },
+    {
+      "n": 25,
+      "q": "If $A = \\begin{bmatrix}1 & \\tan(\\alpha/2)\\\\-\\tan(\\alpha/2) & 1\\end{bmatrix}$ and $AB = I$ then $B =$",
+      "options": [
+        "$\\cos^2\\alpha/2 \\cdot I$",
+        "$\\cos^2\\alpha/2 \\cdot A^T$",
+        "$\\sin^2\\alpha/2 \\cdot A$",
+        "$\\cos^2\\alpha/2 \\cdot A$"
+      ],
+      "answer": 1,
+      "chapter": "Matrices",
+      "explanation": "$AA^T = \\sec^2(\\alpha/2) I$, so $A^{-1} = \\cos^2(\\alpha/2) A^T$; since $AB=I$, $B = A^{-1} = \\cos^2(\\alpha/2) A^T$."
+    },
+    {
+      "n": 26,
+      "q": "A circular plate of radius 5 cm is heated. Due to expansion, its radius increases at the rate of 0.05 cm/sec. The rate at which its area is increasing when the radius is 5.2 cm is",
+      "options": [
+        "5.05 $\\pi$ cm$^2$/sec",
+        "5.2 $\\pi$ cm$^2$/sec",
+        "0.52 $\\pi$ cm$^2$/sec",
+        "27.4 $\\pi$ cm$^2$/sec"
+      ],
+      "answer": 2,
+      "chapter": "Application of Derivatives",
+      "explanation": "$A=\\pi r^2 \\Rightarrow \\dfrac{dA}{dt} = 2\\pi r \\dfrac{dr}{dt} = 2\\pi(5.2)(0.05) = 0.52\\pi$ cm$^2$/sec."
+    },
+    {
+      "n": 27,
+      "q": "The distance 's' in meters travelled by a particle in 't' seconds is given by $s = \\dfrac{2t^3}{3} - 18t + \\dfrac{5}{3}$. The acceleration when the particle comes to rest is",
+      "options": [
+        "12 m$^2$/sec.",
+        "3 m$^2$/sec.",
+        "18 m$^2$/sec.",
+        "10 m$^2$/sec."
+      ],
+      "answer": 0,
+      "chapter": "Application of Derivatives",
+      "explanation": "$v = 2t^2-18 = 0 \\Rightarrow t=3$ (rest). $a = 4t = 12$ m/sec$^2$."
+    },
+    {
+      "n": 28,
+      "q": "A particle moves along the curve $\\dfrac{x^2}{16} + \\dfrac{y^2}{4} = 1$. When the rate of change of abscissa is 4 times that of its ordinate, then the quadrant in which the particle lies is",
+      "options": [
+        "III or IV",
+        "I or III",
+        "II or III",
+        "II or IV"
+      ],
+      "answer": 3,
+      "chapter": "Application of Derivatives",
+      "explanation": "Differentiating and substituting $dx/dt = 4\\,dy/dt$ gives $x+y=0$, i.e. $y=-x$; on the ellipse this occurs in quadrants II and IV."
+    },
+    {
+      "n": 29,
+      "q": "An enemy fighter jet is flying along the curve given by $y = x^2 + 2$. A soldier is placed at $(3, 2)$ wants to shoot down the jet when it is nearest to him. Then the nearest distance is",
+      "options": [
+        "2 units",
+        "$\\sqrt3$ units",
+        "$\\sqrt5$ units",
+        "$\\sqrt6$ units"
+      ],
+      "answer": 2,
+      "chapter": "Application of Derivatives",
+      "explanation": "Minimizing $D^2=(x-3)^2+x^4$ gives $2x^3+x-3=0$ with root $x=1$, point $(1,3)$; distance $=\\sqrt{(1-3)^2+(3-2)^2}=\\sqrt5$."
+    },
+    {
+      "n": 30,
+      "q": "$\\displaystyle\\int_{2}^{8} \\dfrac{5^{\\sqrt{10-x}}}{5^{\\sqrt x}+5^{\\sqrt{10-x}}}\\,dx =$",
+      "options": [
+        "4",
+        "5",
+        "3",
+        "6"
+      ],
+      "answer": 2,
+      "chapter": "Integrals",
+      "explanation": "Using $\\int_a^b f(x)dx = \\int_a^b f(a+b-x)dx$ with $a+b=10$, adding the original and transformed integrals gives $2I = 6$, so $I=3$."
+    },
+    {
+      "n": 31,
+      "q": "$\\displaystyle\\int \\sqrt{\\csc x - \\sin x}\\,dx =$",
+      "options": [
+        "$2\\sqrt{\\sin x} + C$",
+        "$\\sqrt{\\sin x} + C$",
+        "$\\dfrac{2}{\\sqrt{\\sin x}} + C$",
+        "$\\dfrac{\\sqrt{\\sin x}}{2} + C$"
+      ],
+      "answer": 0,
+      "chapter": "Integrals",
+      "explanation": "$\\csc x-\\sin x = \\dfrac{\\cos^2x}{\\sin x}$, so $\\sqrt{\\csc x-\\sin x} = \\dfrac{\\cos x}{\\sqrt{\\sin x}}$, and $\\int \\dfrac{\\cos x}{\\sqrt{\\sin x}}dx = 2\\sqrt{\\sin x}+C$."
+    },
+    {
+      "n": 32,
+      "q": "If $f(x)$ and $g(x)$ are two functions with $g(x) = x - \\dfrac{1}{x}$ and $fog(x) = x^3 - \\dfrac{1}{x^3}$ then $f'(x) =$",
+      "options": [
+        "$x^2 - \\dfrac{1}{x^2}$",
+        "$3x^2 + 3$",
+        "$1 - \\dfrac{1}{x^2}$",
+        "$3x^2 + \\dfrac{3}{x^4}$"
+      ],
+      "answer": 1,
+      "chapter": "Continuity and Differentiability",
+      "explanation": "Since $x^3-1/x^3 = t^3+3t$ where $t=x-1/x$, we get $f(t)=t^3+3t$, so $f(x)=x^3+3x$ and $f'(x)=3x^2+3$."
+    },
+    {
+      "n": 33,
+      "q": "$\\displaystyle\\int \\dfrac{1}{1 + 3\\sin^2 x + 8\\cos^2 x}\\,dx =$",
+      "options": [
+        "$\\dfrac{1}{6}\\tan^{-1}\\left(\\dfrac{2\\tan x}{3}\\right) + C$",
+        "$\\dfrac{1}{6}\\tan^{-1}(2\\tan x) + C$",
+        "$6\\tan^{-1}\\left(\\dfrac{2\\tan x}{3}\\right) + C$",
+        "$\\tan^{-1}\\left(\\dfrac{2\\tan x}{3}\\right) + C$"
+      ],
+      "answer": 0,
+      "chapter": "Integrals",
+      "explanation": "Dividing numerator and denominator by $\\cos^2x$ gives $\\int \\dfrac{\\sec^2x}{9+4\\tan^2x}dx = \\dfrac{1}{6}\\tan^{-1}\\left(\\dfrac{2\\tan x}{3}\\right)+C$."
+    },
+    {
+      "n": 34,
+      "q": "$\\displaystyle\\int_{-2}^{0} \\left(x^3 + 3x^2 + 3x + 3 + (x+1)\\cos(x+1)\\right)\\,dx =$",
+      "options": [
+        "4",
+        "0",
+        "1",
+        "3"
+      ],
+      "answer": 0,
+      "chapter": "Integrals",
+      "explanation": "Substituting $u=x+1$ (limits $-1$ to $1$): $x^3+3x^2+3x+3=(x+1)^3+2=u^3+2$, so integrand $=u^3+2+u\\cos u$; the odd parts vanish over $[-1,1]$, leaving $\\int_{-1}^1 2\\,du = 4$."
+    },
+    {
+      "n": 35,
+      "q": "$\\displaystyle\\int_{0}^{\\pi} \\dfrac{x\\tan x}{\\sec x \\cdot \\csc x}\\,dx =$",
+      "options": [
+        "$\\pi/2$",
+        "$\\pi/4$",
+        "$\\pi^2/2$",
+        "$\\pi^2/4$"
+      ],
+      "answer": 3,
+      "chapter": "Integrals",
+      "explanation": "$\\dfrac{\\tan x}{\\sec x \\csc x} = \\sin^2x$; using $\\int_0^a x f(x)dx=\\dfrac{a}{2}\\int_0^a f(x)dx$ (since $\\sin^2(\\pi-x)=\\sin^2x$), $I=\\dfrac{\\pi}{2}\\cdot\\dfrac{\\pi}{2}=\\pi^2/4$."
+    },
+    {
+      "n": 36,
+      "q": "$\\displaystyle\\int \\sqrt{5 - 2x + x^2}\\,dx =$",
+      "options": [
+        "$\\dfrac{x-1}{2}\\sqrt{5+2x+x^2} + 2\\log\\left|(x-1)+\\sqrt{5+2x+x^2}\\right| + C$",
+        "$\\dfrac{x-1}{2}\\sqrt{5-2x+x^2} + 2\\log\\left|(x+1)+\\sqrt{x^2+2x+5}\\right| + C$",
+        "$\\dfrac{x-1}{2}\\sqrt{5-2x+x^2} + 2\\log\\left|(x-1)+\\sqrt{5-2x+x^2}\\right| + C$",
+        "$\\dfrac{x}{2}\\sqrt{5-2x+x^2} + 4\\log\\left|(x+1)+\\sqrt{x^2-2x+5}\\right| + C$"
+      ],
+      "answer": 2,
+      "chapter": "Integrals",
+      "explanation": "With $x^2-2x+5=(x-1)^2+4$, the standard formula $\\int\\sqrt{t^2+a^2}dt$ gives $\\dfrac{x-1}{2}\\sqrt{5-2x+x^2}+2\\log|(x-1)+\\sqrt{5-2x+x^2}|+C$."
+    },
+    {
+      "n": 37,
+      "q": "The area of the region bounded by the line $y = x + 1$, and the lines $x = -3$, $x = 3$ and the x-axis is",
+      "options": [
+        "$\\dfrac{11}{2}$ sq. units",
+        "10 sq. units",
+        "7 sq. units",
+        "$\\dfrac{7}{2}$ sq. units"
+      ],
+      "answer": 1,
+      "chapter": "Application of Integrals",
+      "explanation": "$\\int_{-3}^{-1}-(x+1)dx + \\int_{-1}^{3}(x+1)dx = 2+8 = 10$ sq. units."
+    },
+    {
+      "n": 38,
+      "q": "If a curve passes through the point $(1, 1)$ and at any point $(x, y)$ on the curve, the product of the slope of its tangent and x co-ordinate of the point is equal to the y co-ordinate of the point, then the curve also passes through the point",
+      "options": [
+        "(-1, 2)",
+        "(2, 2)",
+        "$(\\sqrt3, 0)$",
+        "(3, 0)"
+      ],
+      "answer": 1,
+      "chapter": "Differential Equations",
+      "explanation": "$x\\dfrac{dy}{dx}=y \\Rightarrow y=kx$; through $(1,1)$, $k=1$ so $y=x$, which passes through $(2,2)$."
+    },
+    {
+      "n": 39,
+      "q": "The degree of the differential equation $1 + \\left(\\dfrac{dy}{dx}\\right)^2 + \\left(\\dfrac{d^2y}{dx^2}\\right)^2 = \\sqrt[3]{\\dfrac{d^2y}{dx^2}+1}$ is",
+      "options": [
+        "1",
+        "6",
+        "2",
+        "3"
+      ],
+      "answer": 1,
+      "chapter": "Differential Equations",
+      "explanation": "Cubing both sides to remove the cube root gives a polynomial equation in which the highest-order derivative $d^2y/dx^2$ appears with power 6, so the degree is 6."
+    },
+    {
+      "n": 40,
+      "q": "If $|\\vec a + \\vec b| = |\\vec a - \\vec b|$ then",
+      "options": [
+        "$\\vec a$ and $\\vec b$ are coincident.",
+        "$\\vec a$ and $\\vec b$ are perpendicular.",
+        "Inclined to each other at 60°.",
+        "$\\vec a$ and $\\vec b$ are parallel."
+      ],
+      "answer": 1,
+      "chapter": "Vector Algebra",
+      "explanation": "Squaring both sides gives $\\vec a \\cdot \\vec b = 0$, so $\\vec a$ and $\\vec b$ are perpendicular."
+    },
+    {
+      "n": 41,
+      "q": "The component of $\\hat i$ in the direction of the vector $\\hat i + \\hat j + 2\\hat k$ is",
+      "options": [
+        "$6\\sqrt6$",
+        "$\\sqrt6$",
+        "$\\dfrac{\\sqrt6}{6}$",
+        "6"
+      ],
+      "answer": 2,
+      "chapter": "Vector Algebra",
+      "explanation": "Component $= \\dfrac{\\hat i \\cdot (\\hat i+\\hat j+2\\hat k)}{|\\hat i+\\hat j+2\\hat k|} = \\dfrac{1}{\\sqrt6} = \\dfrac{\\sqrt6}{6}$."
+    },
+    {
+      "n": 42,
+      "q": "In the interval $(0, \\pi/2)$, area lying between the curves $y = \\tan x$ and $y = \\cot x$ and the X-axis is",
+      "options": [
+        "4 log 2 sq. units",
+        "3 log 2 sq. units",
+        "log 2 sq. units",
+        "2 log 2 sq. units"
+      ],
+      "answer": 2,
+      "chapter": "Application of Integrals",
+      "explanation": "The curves meet at $x=\\pi/4$; area $=\\int_0^{\\pi/4}\\tan x\\,dx+\\int_{\\pi/4}^{\\pi/2}\\cot x\\,dx = \\dfrac12\\ln2+\\dfrac12\\ln2=\\ln2$."
+    },
+    {
+      "n": 43,
+      "q": "If $\\vec a + 2\\vec b + 3\\vec c = \\vec 0$ and $(\\vec a \\times \\vec b) + (\\vec b \\times \\vec c) + (\\vec c \\times \\vec a) = \\lambda(\\vec b \\times \\vec c)$ then the value of $\\lambda$ is equal to",
+      "options": [
+        "4",
+        "2",
+        "6",
+        "3"
+      ],
+      "answer": 2,
+      "chapter": "Vector Algebra",
+      "explanation": "With $\\vec a = -2\\vec b-3\\vec c$: $\\vec a\\times\\vec b=3(\\vec b\\times\\vec c)$ and $\\vec c\\times\\vec a=2(\\vec b\\times\\vec c)$, so the sum $=6(\\vec b\\times\\vec c)$, giving $\\lambda=6$."
+    },
+    {
+      "n": 44,
+      "q": "If a line makes an angle of $\\dfrac{\\pi}{3}$ with each X and Y axis then the acute angle made by Z-axis is",
+      "options": [
+        "$\\dfrac{\\pi}{2}$",
+        "$\\dfrac{\\pi}{6}$",
+        "$\\dfrac{\\pi}{4}$",
+        "$\\dfrac{\\pi}{3}$"
+      ],
+      "answer": 2,
+      "chapter": "Three Dimensional Geometry",
+      "explanation": "$\\cos^2\\alpha+\\cos^2\\beta+\\cos^2\\gamma=1$ with $\\alpha=\\beta=\\pi/3$ gives $\\cos^2\\gamma=1/2$, so $\\gamma=\\pi/4$."
+    },
+    {
+      "n": 45,
+      "q": "The length of perpendicular drawn from the point $(3, -1, 11)$ to the line $\\dfrac{x}{2} = \\dfrac{y-2}{3} = \\dfrac{z-3}{4}$ is",
+      "options": [
+        "$\\sqrt{33}$",
+        "$\\sqrt{66}$",
+        "$\\sqrt{53}$",
+        "$\\sqrt{29}$"
+      ],
+      "answer": 2,
+      "chapter": "Three Dimensional Geometry",
+      "explanation": "Using $d = \\dfrac{|\\vec{AP}\\times\\vec d|}{|\\vec d|}$ with $\\vec{AP}=(3,-3,8)$ and $\\vec d=(2,3,4)$ gives $d=\\sqrt{1537/29}=\\sqrt{53}$."
+    },
+    {
+      "n": 46,
+      "q": "The equation of the plane through the points $(2, 1, 0), (3, 2, -2)$ and $(3, 1, 7)$ is",
+      "options": [
+        "$6x - 3y + 2z - 7 = 0$",
+        "$3x - 2y + 6z - 27 = 0$",
+        "$7x - 9y - z - 5 = 0$",
+        "$2x - 3y + 4z - 27 = 0$"
+      ],
+      "answer": 2,
+      "chapter": "Three Dimensional Geometry",
+      "explanation": "Normal $=(1,1,-2)\\times(1,0,7)=(7,-9,-1)$; plane through $(2,1,0)$: $7x-9y-z-5=0$."
+    },
+    {
+      "n": 47,
+      "q": "The point of intersection of the line $x + 1 = \\dfrac{y+3}{3} = \\dfrac{-z+2}{2}$ with the plane $3x + 4y + 5z = 10$ is",
+      "options": [
+        "(2, 6, -4)",
+        "(-2, 6, -4)",
+        "(2, 6, 4)",
+        "(2, -6, -4)"
+      ],
+      "answer": 0,
+      "chapter": "Three Dimensional Geometry",
+      "explanation": "Parametrize $x=-1+t, y=-3+3t, z=2-2t$; substituting into the plane gives $t=3$, so the point is $(2,6,-4)$."
+    },
+    {
+      "n": 48,
+      "q": "If $(2, 3, -1)$ is the foot of the perpendicular from $(4, 2, 1)$ to a plane, then the equation of the plane is",
+      "options": [
+        "$2x - y + 2z = 0$",
+        "$2x - y + 2z + 1 = 0$",
+        "$2x + y + 2z - 5 = 0$",
+        "$2x + y + 2z - 1 = 0$"
+      ],
+      "answer": 1,
+      "chapter": "Three Dimensional Geometry",
+      "explanation": "Normal direction $=(4-2,2-3,1-(-1))=(2,-1,2)$; plane through $(2,3,-1)$: $2x-y+2z+1=0$."
+    },
+    {
+      "n": 49,
+      "q": "If $|\\vec a \\times \\vec b|^2 + |\\vec a \\cdot \\vec b|^2 = 144$ and $|\\vec a| = 4$ then $|\\vec b|$ is equal to",
+      "options": [
+        "8",
+        "12",
+        "4",
+        "3"
+      ],
+      "answer": 3,
+      "chapter": "Vector Algebra",
+      "explanation": "Using $|\\vec a\\times\\vec b|^2+|\\vec a\\cdot\\vec b|^2=|\\vec a|^2|\\vec b|^2$, we get $16|\\vec b|^2=144 \\Rightarrow |\\vec b|=3$."
+    },
+    {
+      "n": 50,
+      "q": "If A and B are events such that $P(A) = \\dfrac{1}{4}$, $P(A/B) = \\dfrac{1}{2}$ and $P(B/A) = \\dfrac{2}{3}$ then P(B) is",
+      "options": [
+        "$\\dfrac{2}{3}$",
+        "$\\dfrac{1}{6}$",
+        "$\\dfrac{1}{2}$",
+        "$\\dfrac{1}{3}$"
+      ],
+      "answer": 3,
+      "chapter": "Probability",
+      "explanation": "$P(A\\cap B)=P(B/A)P(A)=\\dfrac23\\cdot\\dfrac14=\\dfrac16$; $P(B)=\\dfrac{P(A\\cap B)}{P(A/B)}=\\dfrac{1/6}{1/2}=\\dfrac13$."
+    },
+    {
+      "n": 51,
+      "q": "A bag contains $2n + 1$ coins. It is known that n of these coins have head on both sides whereas the other $n + 1$ coins are fair. One coin is selected at random and tossed. If the probability that toss results in heads is $\\dfrac{31}{42}$, then the value of n is",
+      "options": [
+        "8",
+        "5",
+        "10",
+        "6"
+      ],
+      "answer": 2,
+      "chapter": "Probability",
+      "explanation": "$P(\\text{head}) = \\dfrac{n\\cdot1+(n+1)\\cdot\\frac12}{2n+1} = \\dfrac{3n+1}{2(2n+1)} = \\dfrac{31}{42}$, solving gives $n=10$."
+    },
+    {
+      "n": 52,
+      "q": "Let $A = \\{x, y, z, u\\}$ and $B = \\{a, b\\}$. A function $f : A \\to B$ is selected randomly. The probability that the function is an onto function is",
+      "options": [
+        "$\\dfrac{5}{8}$",
+        "$\\dfrac{7}{8}$",
+        "$\\dfrac{1}{35}$",
+        "$\\dfrac{1}{8}$"
+      ],
+      "answer": 1,
+      "chapter": "Probability",
+      "explanation": "Total functions $=2^4=16$; onto functions $=2^4-2=14$ (excluding the 2 constant maps); probability $=14/16=7/8$."
+    },
+    {
+      "n": 53,
+      "figure": true,
+      "q": "The shaded region in the figure given is the solution of which of the inequations? [Figure: a shaded triangle with vertices A(7,0), B(3,4) and C(0,2), bounded by the line through (0,7) and (7,0) i.e. $x+y=7$, and the line through (-3,0) and (3,4) i.e. $2x-3y+6=0$, lying in the first quadrant]",
+      "options": [
+        "$x + y \\geq 7, 2x - 3y + 6 \\geq 0, x \\geq 0, y \\geq 0$",
+        "$x + y \\leq 7, 2x - 3y + 6 \\geq 0, x \\geq 0, y \\geq 0$",
+        "$x + y \\leq 7, 2x - 3y + 6 \\leq 0, x \\geq 0, y \\geq 0$",
+        "$x + y \\geq 7, 2x - 3y + 6 \\leq 0, x \\geq 0, y \\geq 0$"
+      ],
+      "answer": 1,
+      "chapter": "Linear Programming",
+      "explanation": "Testing the centroid $(10/3, 2)$ of the shaded triangle satisfies $x+y\\le7$ and $2x-3y+6\\ge0$, along with $x,y\\ge0$."
+    },
+    {
+      "n": 54,
+      "q": "If $f(x) = ax + b$, where a and b are integers, $f(-1) = -5$ and $f(3) = 3$, then a and b respectively are",
+      "options": [
+        "0, 2",
+        "-3, -1",
+        "2, 3",
+        "2, -3"
+      ],
+      "answer": 3,
+      "chapter": "Relations and Functions",
+      "explanation": "$-a+b=-5$ and $3a+b=3$; subtracting gives $4a=8 \\Rightarrow a=2$, then $b=-3$."
+    },
+    {
+      "n": 55,
+      "q": "The value of $e^{\\log_{10}\\tan1° + \\log_{10}\\tan2° + \\log_{10}\\tan3° + \\cdots + \\log_{10}\\tan89°}$ is",
+      "options": [
+        "$\\dfrac{1}{e}$",
+        "0",
+        "1",
+        "3"
+      ],
+      "answer": 2,
+      "chapter": "Trigonometric Functions",
+      "explanation": "The sum of logs equals $\\log_{10}(\\tan1°\\tan2°\\cdots\\tan89°) = \\log_{10}1 = 0$ (pairing $\\tan\\theta\\cdot\\tan(90°-\\theta)=1$), so $e^0=1$."
+    },
+    {
+      "n": 56,
+      "q": "The value of $\\begin{vmatrix}\\sin^2 14° & \\sin^2 66° & \\tan 135°\\\\sin^2 66° & \\tan 135° & \\sin^2 14°\\\\tan 135° & \\sin^2 14° & \\sin^2 66°\\end{vmatrix}$ is",
+      "options": [
+        "1",
+        "-1",
+        "2",
+        "0"
+      ],
+      "answer": 3,
+      "chapter": "Trigonometric Functions",
+      "disputed": true,
+      "note": "With a=sin$^2$14°, b=sin$^2$66°, c=tan135°=-1, the determinant equals -(a+b+c)(a$^2$+b$^2$+c$^2$-ab-bc-ca), which is exactly 0 only if a+b+c=0, i.e. sin$^2$14°+sin$^2$66°=1. That identity actually holds for complementary angles summing to 90° (e.g. 24°+66°), not 14°+66°=80°; numerically the determinant with the printed 14° is $\\approx$0.27, matching no option. This looks like a printing error for 24° (which would make the identity exact and give 0); KEA's key credits 0.",
+      "explanation": "Writing a=sin$^2$14°, b=sin$^2$66°, c=tan135°=-1, the determinant equals $3abc-(a^3+b^3+c^3)=-(a+b+c)(a^2+b^2+c^2-ab-bc-ca)$. KEA's key credits 0 (see note on the angle values)."
+    },
+    {
+      "n": 57,
+      "q": "The modulus of the complex number $\\dfrac{(1+i)^2(1+3i)}{(2-6i)(2-2i)}$ is",
+      "options": [
+        "$\\dfrac{1}{\\sqrt2}$",
+        "$\\dfrac{4}{\\sqrt2}$",
+        "$\\dfrac{\\sqrt2}{4}$",
+        "$\\dfrac{2}{\\sqrt2}$"
+      ],
+      "answer": 2,
+      "chapter": "Complex Numbers and Quadratic Equations",
+      "explanation": "$(1+i)^2=2i$, numerator $=2i(1+3i)=-6+2i$ with modulus $2\\sqrt{10}$; denominator $=(2-6i)(2-2i)=-8-16i$ with modulus $8\\sqrt5$. Ratio $=\\dfrac{2\\sqrt{10}}{8\\sqrt5}=\\dfrac{\\sqrt2}{4}$."
+    },
+    {
+      "n": 58,
+      "q": "Given that a, b and x are real numbers and $a < b, x < 0$ then",
+      "options": [
+        "$\\dfrac{a}{x} < \\dfrac{b}{x}$",
+        "$\\dfrac{a}{x} > \\dfrac{b}{x}$",
+        "$\\dfrac{a}{x} \\leq \\dfrac{b}{x}$",
+        "$\\dfrac{a}{x} \\geq \\dfrac{b}{x}$"
+      ],
+      "answer": 1,
+      "chapter": "Linear Inequalities",
+      "explanation": "Dividing $a<b$ by a negative number $x$ reverses the inequality: $a/x > b/x$."
+    },
+    {
+      "n": 59,
+      "q": "Ten chairs are numbered as 1 to 10. Three women and two men wish to occupy one chair each. First the women choose the chairs marked 1 to 6, then the men choose the chairs from the remaining. The number of possible ways is",
+      "options": [
+        "$^6C_3 \\times {}^4P_2$",
+        "$^6C_3 \\times {}^4C_2$",
+        "$^6P_3 \\times {}^4C_2$",
+        "$^6P_3 \\times {}^4P_2$"
+      ],
+      "answer": 3,
+      "chapter": "Permutations and Combinations",
+      "explanation": "Women arrange in 3 of the 6 chairs: $^6P_3$ ways; men then arrange in 2 of the remaining 4 chairs (7-10): $^4P_2$ ways. Total $=\\,{}^6P_3\\times{}^4P_2$."
+    },
+    {
+      "n": 60,
+      "q": "Which of the following is an empty set?",
+      "options": [
+        "$\\{x : x^2 - 9 = 0, x \\in R\\}$",
+        "$\\{x : x^2 - 1 = 0, x \\in R\\}$",
+        "$\\{x : x^2 = x + 2, x \\in R\\}$",
+        "$\\{x : x^2 + 1 = 0, x \\in R\\}$"
+      ],
+      "answer": 3,
+      "chapter": "Sets",
+      "explanation": "$x^2+1=0$ has no real solutions, so this set is empty; the others each have real solutions ($\\pm3$, $\\pm1$, and $2,-1$ respectively)."
+    }
+  ]
+}

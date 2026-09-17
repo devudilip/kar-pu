@@ -1,0 +1,662 @@
+{
+  "title": "KCET 2020 Physics",
+  "year": 2020,
+  "subject": "physics",
+  "code": "C4",
+  "source": "KEA question paper (copy) + KEA answer key column C4",
+  "excluded": [],
+  "missing": [
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47
+  ],
+  "note": "Source PDF is missing the page with Q37-47",
+  "questions": [
+    {
+      "n": 1,
+      "q": "In a permanent magnet at room temperature",
+      "options": [
+        "Domains are all perfectly aligned.",
+        "Magnetic moment of each molecule is zero.",
+        "The individual molecules have non-zero magnetic moment which are all perfectly aligned.",
+        "Domains are partially aligned."
+      ],
+      "answer": 3,
+      "chapter": "Magnetism and Matter",
+      "explanation": "At room temperature thermal agitation prevents complete alignment of domains, so in a permanent magnet the domains are only partially aligned."
+    },
+    {
+      "n": 2,
+      "q": "A rod of length 2 m slides with a speed of 5 ms$^{-1}$ on a rectangular conducting frame as shown in figure [rod PQ of length 2 m moves at 5 m/s on rails, inside a uniform field of 0.04 T into the page, rod resistance 3 $\\Omega$]. There exists a uniform magnetic field of 0.04 T perpendicular to the plane of the figure. If the resistance of the rod is 3 $\\Omega$, the current through the rod is",
+      "options": [
+        "1.33 A",
+        "75 mA",
+        "133 mA",
+        "0.75 A"
+      ],
+      "answer": 2,
+      "chapter": "Electromagnetic Induction",
+      "explanation": "EMF $=Blv=0.04\\times2\\times5=0.4$ V, so current $=0.4/3=0.133$ A $=133$ mA."
+    },
+    {
+      "n": 3,
+      "q": "The ratio of magnetic field at the centre of a current carrying circular coil to its magnetic moment is 'x'. If the current and the radius both are doubled, the new ratio will become",
+      "options": [
+        "$\\dfrac{x}{8}$",
+        "$2x$",
+        "$4x$",
+        "$\\dfrac{x}{4}$"
+      ],
+      "answer": 0,
+      "chapter": "Moving Charges and Magnetism",
+      "explanation": "$B/m=\\dfrac{\\mu_0 I/2r}{I\\pi r^2}=\\dfrac{\\mu_0}{2\\pi r^3}=x$; doubling $r$ alone in the denominator (current cancels) makes the new ratio $x/8$."
+    },
+    {
+      "n": 4,
+      "q": "In the given circuit the peak voltages across C, L and R are 30 V, 110 V and 60 V respectively. The rms value of the applied voltage is",
+      "options": [
+        "141 V",
+        "100 V",
+        "200 V",
+        "70.7 V"
+      ],
+      "answer": 3,
+      "chapter": "Alternating Current",
+      "explanation": "Peak applied voltage $=\\sqrt{(V_L-V_C)^2+V_R^2}=\\sqrt{80^2+60^2}=100$ V, so rms value $=100/\\sqrt2=70.7$ V."
+    },
+    {
+      "n": 5,
+      "q": "The power factor of a R-L circuit is $\\dfrac{1}{\\sqrt3}$. If the inductive reactance is 2 $\\Omega$, the value of resistance is",
+      "options": [
+        "$\\dfrac{1}{\\sqrt2}\\,\\Omega$",
+        "$2\\,\\Omega$",
+        "$\\sqrt2\\,\\Omega$",
+        "$0.5\\,\\Omega$"
+      ],
+      "answer": 2,
+      "chapter": "Alternating Current",
+      "explanation": "$\\cos\\phi=R/Z=1/\\sqrt3 \\Rightarrow Z=\\sqrt3 R \\Rightarrow R^2+X_L^2=3R^2 \\Rightarrow R=X_L/\\sqrt2=\\sqrt2\\,\\Omega$."
+    },
+    {
+      "n": 6,
+      "q": "In the given circuit, the resonant frequency is [inductor 0.5 mH in parallel with capacitor 20 $\\mu$F]",
+      "options": [
+        "15910 Hz",
+        "15.92 Hz",
+        "159.2 Hz",
+        "1592 Hz"
+      ],
+      "answer": 3,
+      "chapter": "Alternating Current",
+      "explanation": "$f=\\dfrac{1}{2\\pi\\sqrt{LC}}=\\dfrac{1}{2\\pi\\sqrt{0.5\\times10^{-3}\\times20\\times10^{-6}}}\\approx1592$ Hz."
+    },
+    {
+      "n": 7,
+      "q": "The current in a coil of inductance 0.2 H changes from 5 A to 2 A in 0.5 sec. The magnitude of the average induced emf in the coil is",
+      "options": [
+        "0.3 V",
+        "0.6 V",
+        "1.2 V",
+        "30 V"
+      ],
+      "answer": 2,
+      "chapter": "Electromagnetic Induction",
+      "explanation": "$|\\varepsilon|=L\\dfrac{dI}{dt}=0.2\\times\\dfrac{3}{0.5}=1.2$ V."
+    },
+    {
+      "n": 8,
+      "q": "An object approaches a convergent lens from the left of the lens with a uniform speed 5 m/s and stops at the focus, the image",
+      "options": [
+        "moves towards the lens with a non-uniform acceleration.",
+        "moves away from the lens with an uniform speed 5 m/s.",
+        "moves away from the lens with an uniform acceleration.",
+        "moves away from the lens with a non-uniform acceleration."
+      ],
+      "answer": 3,
+      "chapter": "Ray Optics and Optical Instruments",
+      "explanation": "As the object approaches the focus, $v=\\dfrac{uf}{u-f}\\to\\infty$; the image recedes and its speed increases ever faster, i.e. it moves away with non-uniform acceleration."
+    },
+    {
+      "n": 9,
+      "q": "The refracting angle of a prism is A and the refractive index of the material of the prism is $\\cot\\dfrac{A}{2}$. The angle of minimum deviation is",
+      "options": [
+        "$180^\\circ-2A$",
+        "$180^\\circ-3A$",
+        "$180^\\circ+2A$",
+        "$90^\\circ-A$"
+      ],
+      "answer": 0,
+      "chapter": "Ray Optics and Optical Instruments",
+      "explanation": "$\\mu=\\dfrac{\\sin\\frac{A+D}{2}}{\\sin\\frac{A}{2}}=\\cot\\dfrac{A}{2}=\\dfrac{\\cos(A/2)}{\\sin(A/2)}$ gives $\\sin\\dfrac{A+D}{2}=\\sin(90^\\circ-A/2)$, so $D=180^\\circ-2A$."
+    },
+    {
+      "n": 10,
+      "q": "A light beam of intensity 20 W/cm$^2$ is incident normally on a perfectly reflecting surface of sides 25 cm $\\times$ 15 cm. The momentum imparted to the surface by the light per second is",
+      "options": [
+        "$1.2\\times10^{-5}$ kg ms$^{-1}$",
+        "$2\\times10^{-5}$ kg ms$^{-1}$",
+        "$1\\times10^{-5}$ kg ms$^{-1}$",
+        "$5\\times10^{-5}$ kg ms$^{-1}$"
+      ],
+      "answer": 3,
+      "chapter": "Dual Nature of Radiation and Matter",
+      "explanation": "Power $=20\\times375=7500$ W; for perfect reflection, force (momentum/sec) $=\\dfrac{2P}{c}=\\dfrac{2\\times7500}{3\\times10^8}=5\\times10^{-5}$ kg ms$^{-1}$."
+    },
+    {
+      "n": 11,
+      "q": "Three polaroid sheets P$_1$, P$_2$ and P$_3$ are kept parallel to each other such that the angle between the pass axes of P$_1$ and P$_2$ is $45^\\circ$ and that between P$_2$ and P$_3$ is $45^\\circ$. If unpolarised beam of light of intensity 128 Wm$^{-2}$ is incident on P$_1$, what is the intensity of light coming out of P$_3$?",
+      "options": [
+        "64 Wm$^{-2}$",
+        "128 Wm$^{-2}$",
+        "0",
+        "16 Wm$^{-2}$"
+      ],
+      "answer": 3,
+      "chapter": "Wave Optics",
+      "explanation": "After P$_1$: $128/2=64$ Wm$^{-2}$; after P$_2$ ($\\cos^2 45^\\circ$): $32$ Wm$^{-2}$; after P$_3$ ($\\cos^2 45^\\circ$): $16$ Wm$^{-2}$."
+    },
+    {
+      "n": 12,
+      "q": "Two poles are separated by a distance of 3.14 m. The resolving power of human eye is 1 minute of an arc. The maximum distance from which he can identify the two poles distinctly is",
+      "options": [
+        "376 m",
+        "10.8 km",
+        "5.4 km",
+        "188 m"
+      ],
+      "answer": 1,
+      "chapter": "Wave Optics",
+      "explanation": "Resolving angle $\\theta=1'=2.91\\times10^{-4}$ rad; distance $=\\dfrac{\\text{separation}}{\\theta}=\\dfrac{3.14}{2.91\\times10^{-4}}\\approx10.8$ km."
+    },
+    {
+      "n": 13,
+      "q": "The following figure shows a beam of light converging at point P. When a concave lens of focal length 16 cm is introduced in the path of the beam at a place shown by the dotted line such that OP becomes the axis of the lens, the beam converges at a distance x from the lens. The value of x will be equal to [beam converging toward P through virtual object point O, OP = 12 cm]",
+      "options": [
+        "48 cm",
+        "12 cm",
+        "24 cm",
+        "36 cm"
+      ],
+      "answer": 0,
+      "chapter": "Ray Optics and Optical Instruments",
+      "explanation": "For the concave lens, $u=+12$ cm (virtual object), $f=-16$ cm: $\\dfrac{1}{v}=\\dfrac{1}{f}+\\dfrac{1}{u}=-\\dfrac{1}{16}+\\dfrac{1}{12}=\\dfrac{1}{48}$, so $v=48$ cm."
+    },
+    {
+      "n": 14,
+      "q": "The de-Broglie wavelength associated with the electron of hydrogen atom in its ground state is",
+      "options": [
+        "10 Å",
+        "0.3 Å",
+        "3.3 Å",
+        "6.26 Å"
+      ],
+      "answer": 2,
+      "chapter": "Atoms",
+      "explanation": "In the ground state $2\\pi r_1=\\lambda$ (n=1), and $r_1=0.529$ Å, so $\\lambda=2\\pi(0.529)\\approx3.3$ Å."
+    },
+    {
+      "n": 15,
+      "q": "The following graph represents the variation of photo current with anode potential for a metal surface. Here $I_1$, $I_2$ and $I_3$ represent intensities and $\\gamma_1$, $\\gamma_2$, $\\gamma_3$ represent frequency for curves 1, 2 and 3 respectively [curves 1 and 2 share the same stopping potential while curve 3 has a different, larger stopping potential; curves 2 and 3 saturate at a higher current than curve 1], then",
+      "options": [
+        "$\\gamma_2=\\gamma_3$ and $I_1=I_3$",
+        "$\\gamma_1=\\gamma_2$ and $I_1\\ne I_2$",
+        "$\\gamma_1=\\gamma_3$ and $I_1=I_3$",
+        "$\\gamma_1=\\gamma_2$ and $I_1=I_2$"
+      ],
+      "answer": 1,
+      "chapter": "Dual Nature of Radiation and Matter",
+      "explanation": "Curves 1 and 2 have the same stopping potential, so the incident frequency is the same ($\\gamma_1=\\gamma_2$), but they saturate at different photocurrents, so their intensities differ ($I_1\\ne I_2$)."
+    },
+    {
+      "n": 16,
+      "q": "In Young's Double Slit Experiment, the distance between the slits and the screen is 1.2 m and the distance between the two slits is 2.4 mm. If a thin transparent mica sheet of thickness 1 $\\mu$m and R.I. 1.5 is introduced between one of the interfering beams, the shift in the position of the central bright fringe is",
+      "options": [
+        "0.25 mm",
+        "2 mm",
+        "0.5 mm",
+        "0.125 mm"
+      ],
+      "answer": 0,
+      "chapter": "Wave Optics",
+      "explanation": "Shift $=\\dfrac{(\\mu-1)tD}{d}=\\dfrac{0.5\\times10^{-6}\\times1.2}{2.4\\times10^{-3}}=0.25\\times10^{-3}$ m $=0.25$ mm."
+    },
+    {
+      "n": 17,
+      "q": "Angular momentum of an electron in a hydrogen atom is $\\dfrac{3h}{2\\pi}$ (h is the Planck's constant). The K.E. of the electron is",
+      "options": [
+        "6.8 eV",
+        "4.35 eV",
+        "1.51 eV",
+        "3.4 eV"
+      ],
+      "answer": 2,
+      "chapter": "Atoms",
+      "explanation": "$L=\\dfrac{nh}{2\\pi}=\\dfrac{3h}{2\\pi}\\Rightarrow n=3$; K.E. $=\\dfrac{13.6}{n^2}=\\dfrac{13.6}{9}\\approx1.51$ eV."
+    },
+    {
+      "n": 18,
+      "q": "A beam of fast moving alpha particles were directed towards a thin film of gold. The parts A, B and C of the transmitted and reflected beams corresponding to the incident parts A, B and C of the beam are shown in the adjoining diagram [A is the outermost, largest impact-parameter part of the beam; C passes closest to the nucleus]. The number of alpha particles in",
+      "options": [
+        "C′ will be minimum and in B′ maximum",
+        "B′ will be minimum and in C′ maximum",
+        "A′ will be maximum and in C′ minimum",
+        "A′ will be minimum and in B′ maximum"
+      ],
+      "answer": 2,
+      "chapter": "Atoms",
+      "explanation": "Since most of the atom is empty space, alpha particles with the largest impact parameter (part A) pass through almost undeflected in largest numbers, while very few (part C, aimed closest to the nucleus) get backscattered, so A′ is maximum and C′ is minimum (as per KEA key; question was graced, likely for wording/diagram ambiguity).",
+      "grace": true
+    },
+    {
+      "n": 19,
+      "q": "The period of revolution of an electron revolving in the n$^{th}$ orbit of H-atom is proportional to",
+      "options": [
+        "Independent of n",
+        "$n^2$",
+        "$\\dfrac{1}{n}$",
+        "$n^3$"
+      ],
+      "answer": 3,
+      "chapter": "Atoms",
+      "explanation": "Since $r\\propto n^2$ and $v\\propto 1/n$, $T=2\\pi r/v\\propto n^3$."
+    },
+    {
+      "n": 20,
+      "q": "During a $\\beta^-$ decay",
+      "options": [
+        "A proton in the nucleus decays emitting an electron.",
+        "an atomic electron is ejected.",
+        "an electron which is already present within the nucleus is ejected.",
+        "A neutron in the nucleus decays emitting an electron."
+      ],
+      "answer": 3,
+      "chapter": "Nuclei",
+      "explanation": "In $\\beta^-$ decay a neutron transforms into a proton, an electron and an antineutrino: $n\\to p+e^-+\\bar\\nu$."
+    },
+    {
+      "n": 21,
+      "q": "A radio-active element has half-life of 15 years. What is the fraction that will decay in 30 years?",
+      "options": [
+        "0.85",
+        "0.25",
+        "0.5",
+        "0.75"
+      ],
+      "answer": 3,
+      "chapter": "Nuclei",
+      "explanation": "30 years = 2 half-lives, so the remaining fraction is $(1/2)^2=0.25$; the fraction decayed is $1-0.25=0.75$."
+    },
+    {
+      "n": 22,
+      "q": "Two protons are kept at a separation of 10 nm. Let F$_n$ and F$_e$ be the nuclear force and the electromagnetic force between them",
+      "options": [
+        "F$_e$ and F$_n$ differ only slightly",
+        "F$_e$ = F$_n$",
+        "F$_e$ >> F$_n$",
+        "F$_e$ << F$_n$"
+      ],
+      "answer": 2,
+      "chapter": "Nuclei",
+      "explanation": "The nuclear force has a range of only a few femtometres, so at 10 nm it is essentially zero while the Coulomb force still acts, giving $F_e\\gg F_n$."
+    },
+    {
+      "n": 23,
+      "q": "In the following circuit what are P and Q [two cross-coupled NAND gates: top gate takes input 1 and the feedback from the bottom gate's output to give P; bottom gate takes input 0 and the feedback from the top gate's output to give Q]:",
+      "options": [
+        "P = 1, Q = 1",
+        "P = 1, Q = 0",
+        "P = 0, Q = 1",
+        "P = 0, Q = 0"
+      ],
+      "answer": 2,
+      "chapter": "Semiconductor Electronics",
+      "explanation": "The bottom NAND gate has a 0 input, so its output is always 1, giving Q = 1; feeding Q = 1 back with the top gate's input of 1 gives NAND(1,1) = 0, so P = 0."
+    },
+    {
+      "n": 24,
+      "q": "A positive hole in a semiconductor is",
+      "options": [
+        "an artificially created particle.",
+        "an anti-particle of electron.",
+        "a vacancy created when an electron leaves a covalent bond.",
+        "absence of free electrons."
+      ],
+      "answer": 2,
+      "chapter": "Semiconductor Electronics",
+      "explanation": "A hole is simply the vacancy left in the covalent bonding structure when a valence electron leaves, which behaves like a positive charge carrier."
+    },
+    {
+      "n": 25,
+      "q": "A 220 V A.C. supply is connected between points A and B as shown in figure [A and B connected via a diode in series to a capacitor C, with V measured across the capacitor]. What will be the potential difference V across the capacitor?",
+      "options": [
+        "$220\\sqrt2$ V",
+        "220 V",
+        "110 V",
+        "0"
+      ],
+      "answer": 0,
+      "chapter": "Semiconductor Electronics",
+      "explanation": "With an ideal diode and no discharge path, the capacitor charges up to the peak value of the AC supply, $V_0=220\\sqrt2$ V."
+    },
+    {
+      "n": 26,
+      "q": "Two long straight parallel wires are a distance 2d apart. They carry steady equal currents flowing out of the plane of the paper. The variation of magnetic field B along the line xx' is given by [xx' is the line joining the two wires; each option is a graph of B vs position along xx', with the two wires marked by dashed vertical lines]",
+      "options": [
+        "graph forming a single smooth hump above the axis between the wires (touching the axis exactly at each wire, with no divergence there) and dipping below the axis outside each wire",
+        "graph diverging to $\\pm\\infty$ at each wire, positive just outside the left wire and negative just outside the right wire, falling from $+\\infty$ to $-\\infty$ across the gap between the wires",
+        "graph diverging to $\\pm\\infty$ at each wire, negative just outside the left wire and positive just outside the right wire, falling from $+\\infty$ (just inside the left wire) through zero at the midpoint to $-\\infty$ (just inside the right wire)",
+        "graph symmetric about the midpoint: a U-shape between the wires touching zero exactly at the midpoint and rising to $+\\infty$ at both wires, with the field diverging to $-\\infty$ just outside each wire and decaying to zero far away"
+      ],
+      "answer": 2,
+      "chapter": "Moving Charges and Magnetism",
+      "explanation": "Taking the wires at x=$-d$ and x=$+d$ (both currents out of the page), the field contributions point in opposite senses inside the gap: B(x) = $\\frac{\\mu_0I}{2\\pi}\\left[\\frac{1}{x+d}-\\frac{1}{d-x}\\right]$ for $-d<x<d$, which is $+\\infty$ just inside the left wire, 0 at the midpoint (x=0), and $-\\infty$ just inside the right wire. Outside the pair, the two contributions add instead of cancelling: for $x<-d$ the sum is entirely negative (0 to $-\\infty$), and for $x>d$ it is entirely positive ($+\\infty$ to 0). This asymmetric (odd-symmetric about the midpoint) pattern matches option (C), not the mirror-flipped (B) or the fully symmetric, always-non-negative-looking (A)/(D)."
+    },
+    {
+      "n": 27,
+      "q": "At a metro station, a girl walks up a stationary escalator in 20 sec. If she remains stationary on the escalator, then the escalator takes her up in 30 sec. The time taken by her to walk up on the moving escalator will be",
+      "options": [
+        "10 sec",
+        "25 sec",
+        "60 sec",
+        "12 sec"
+      ],
+      "answer": 3,
+      "chapter": "Motion in a Straight Line",
+      "explanation": "Her speed is $L/20$, the escalator's speed is $L/30$; combined speed $=L/20+L/30=L/12$, so time $=12$ s."
+    },
+    {
+      "n": 28,
+      "q": "Rain is falling vertically with a speed of 12 ms$^{-1}$. A woman rides a bicycle with a speed of 12 ms$^{-1}$ in east to west direction. What is the direction in which she should hold her umbrella?",
+      "options": [
+        "$45^\\circ$ towards West",
+        "$30^\\circ$ towards East",
+        "$45^\\circ$ towards East",
+        "$30^\\circ$ towards West"
+      ],
+      "answer": 0,
+      "chapter": "Motion in a Plane",
+      "explanation": "Velocity of rain relative to woman $=(12\\text{ east},\\,12\\text{ down})$, i.e. it appears to come from $45^\\circ$ on the west side of vertical, so she must tilt the umbrella $45^\\circ$ towards the West."
+    },
+    {
+      "n": 29,
+      "q": "A cylindrical wire has a mass $(0.3\\pm0.003)$ g, radius $(0.5\\pm0.005)$ mm and length $(6\\pm0.06)$ cm. The maximum percentage error in the measurement of its density is",
+      "options": [
+        "4",
+        "1",
+        "2",
+        "3"
+      ],
+      "answer": 0,
+      "chapter": "Units and Measurements",
+      "explanation": "$\\dfrac{\\Delta\\rho}{\\rho}\\times100=\\dfrac{\\Delta m}{m}\\times100+2\\dfrac{\\Delta r}{r}\\times100+\\dfrac{\\Delta L}{L}\\times100=1+2(1)+1=4\\%$."
+    },
+    {
+      "n": 30,
+      "q": "A body is initially at rest. It undergoes one-dimensional motion with constant acceleration. The power delivered to it at time 't' is proportional to",
+      "options": [
+        "$t^2$",
+        "$t^{1/2}$",
+        "$t$",
+        "$t^{3/2}$"
+      ],
+      "answer": 2,
+      "chapter": "Work, Energy and Power",
+      "explanation": "$v=at$ and $P=Fv=(ma)(at)=ma^2t$, so $P\\propto t$."
+    },
+    {
+      "n": 31,
+      "q": "A thin uniform rectangular plate of mass 2 kg is placed in the X-Y plane as shown in figure. The moment of inertia about the x-axis is $I_x=0.2$ kg m$^2$ and the moment of inertia about the y-axis is $I_y=0.3$ kg m$^2$. The radius of gyration of the plate about the axis passing through O and perpendicular to the plane of the plate is",
+      "options": [
+        "31.6 cm",
+        "50 cm",
+        "5 cm",
+        "38.7 cm"
+      ],
+      "answer": 1,
+      "chapter": "System of Particles and Rotational Motion",
+      "explanation": "By the perpendicular axis theorem $I_z=I_x+I_y=0.5$ kg m$^2$; radius of gyration $k=\\sqrt{I_z/m}=\\sqrt{0.5/2}=0.5$ m $=50$ cm."
+    },
+    {
+      "n": 32,
+      "q": "One end of a string of length 'l' is connected to a particle of mass 'm' and the other to a small peg on a smooth horizontal table. If the particle moves in a circle with speed 'v', the net force on the particle (directed towards the centre) is: (T is the tension in the string)",
+      "options": [
+        "0",
+        "T",
+        "$T-\\dfrac{mv^2}{l}$",
+        "$T+\\dfrac{mv^2}{l}$"
+      ],
+      "answer": 1,
+      "chapter": "Laws of Motion",
+      "explanation": "The string tension alone supplies the required centripetal force, so the net force towards the centre is just T (which equals $mv^2/l$)."
+    },
+    {
+      "n": 33,
+      "q": "Young's modulus of a perfect rigid body is",
+      "options": [
+        "between zero and unity",
+        "zero",
+        "unity",
+        "infinity"
+      ],
+      "answer": 3,
+      "chapter": "Mechanical Properties of Solids",
+      "explanation": "A perfectly rigid body undergoes no strain for any stress, so $Y=\\text{stress/strain}\\to\\infty$."
+    },
+    {
+      "n": 34,
+      "q": "A wheel starting from rest gains an angular velocity of 10 rad/s after uniformly accelerating for 5 sec. The total angle through which it has turned is",
+      "options": [
+        "$50\\pi$ rad about a vertical axis",
+        "25 rad",
+        "100 rad",
+        "$25\\pi$ rad"
+      ],
+      "answer": 1,
+      "chapter": "System of Particles and Rotational Motion",
+      "explanation": "Average angular velocity $=(0+10)/2=5$ rad/s, so angle turned $=5\\times5=25$ rad."
+    },
+    {
+      "n": 35,
+      "q": "Iceberg floats in water with part of it submerged. What is the fraction of the volume of iceberg submerged if the density of ice is $\\rho_i=0.917$ g cm$^{-3}$?",
+      "options": [
+        "0",
+        "0.917",
+        "1",
+        "0.458"
+      ],
+      "answer": 1,
+      "chapter": "Mechanical Properties of Fluids",
+      "explanation": "By flotation, the submerged fraction equals $\\rho_{ice}/\\rho_{water}=0.917/1=0.917$."
+    },
+    {
+      "n": 36,
+      "q": "The value of acceleration due to gravity at a height of 10 km from the surface of earth is x. At what depth inside the earth is the value of the acceleration due to gravity has the same value x?",
+      "options": [
+        "15 km",
+        "5 km",
+        "20 km",
+        "10 km"
+      ],
+      "answer": 2,
+      "chapter": "Gravitation",
+      "explanation": "For small heights/depths, $g_h=g(1-2h/R)$ and $g_d=g(1-d/R)$; equating gives $d=2h=20$ km."
+    },
+    {
+      "n": 48,
+      "q": "A hot filament liberates an electron with zero initial velocity. The anode potential is 1200 V. The speed of the electron when it strikes the anode is",
+      "options": [
+        "$2.5\\times10^{8}$ ms$^{-1}$",
+        "$1.5\\times10^{5}$ ms$^{-1}$",
+        "$2.5\\times10^{6}$ ms$^{-1}$",
+        "$2.1\\times10^{7}$ ms$^{-1}$"
+      ],
+      "answer": 3,
+      "chapter": "Dual Nature of Radiation and Matter",
+      "explanation": "$eV=\\tfrac12mv^2 \\Rightarrow v=\\sqrt{2eV/m}=\\sqrt{2(1.6\\times10^{-19})(1200)/9.11\\times10^{-31}}\\approx2.1\\times10^7$ ms$^{-1}$."
+    },
+    {
+      "n": 49,
+      "q": "A metal rod of length 10 cm and a rectangular cross-section of 1 cm $\\times \\dfrac{1}{2}$ cm is connected to a battery across opposite faces. The resistance will be",
+      "options": [
+        "same irrespective of the three faces.",
+        "maximum when the battery is connected across 1 cm $\\times \\dfrac12$ cm faces.",
+        "maximum when the battery is connected across 10 cm $\\times \\dfrac12$ cm faces.",
+        "maximum when the battery is connected across 10 cm $\\times$ 1 cm faces."
+      ],
+      "answer": 1,
+      "chapter": "Current Electricity",
+      "explanation": "$R=\\rho L/A$ is largest when the current path (length) is the longest and the cross-section is smallest, i.e. when connected across the $1\\times\\tfrac12$ cm faces, making the 10 cm dimension the length."
+    },
+    {
+      "n": 50,
+      "q": "A car has a fresh storage battery of e.m.f. 12 V and internal resistance $2\\times10^{-2}\\,\\Omega$. If the starter motor draws a current of 80 A, then the terminal voltage when the starter is on is",
+      "options": [
+        "9.3 V",
+        "12 V",
+        "8.4 V",
+        "10.4 V"
+      ],
+      "answer": 3,
+      "chapter": "Current Electricity",
+      "explanation": "$V=E-Ir=12-80\\times0.02=10.4$ V."
+    },
+    {
+      "n": 51,
+      "q": "When a soap bubble is charged?",
+      "options": [
+        "Its radius may increase or decrease.",
+        "Its radius increases.",
+        "Its radius decreases.",
+        "The radius remains the same."
+      ],
+      "answer": 1,
+      "chapter": "Electrostatic Potential and Capacitance",
+      "explanation": "Charging a soap bubble adds an outward electrostatic pressure $\\sigma^2/2\\varepsilon_0$ on the surface, so to maintain equilibrium the bubble expands, i.e. its radius increases."
+    },
+    {
+      "n": 52,
+      "q": "The colour code for a carbon resistor of resistance $0.28\\,\\text{k}\\Omega \\pm 10\\%$ is",
+      "options": [
+        "Red, Green, Silver",
+        "Red, Grey, Brown, Silver",
+        "Red, Green, Brown, Silver",
+        "Red, Grey, Silver, Silver"
+      ],
+      "answer": 1,
+      "chapter": "Current Electricity",
+      "explanation": "$280\\,\\Omega=28\\times10^1$: Red(2)-Grey(8)-Brown($\\times10^1$), and $\\pm10\\%$ is Silver."
+    },
+    {
+      "n": 53,
+      "q": "Each resistance in the given cubical network has resistance of 1 $\\Omega$ and the equivalent resistance between A and B (the main diagonal of the cube) is",
+      "options": [
+        "$\\dfrac{12}{5}\\,\\Omega$",
+        "$\\dfrac{5}{6}\\,\\Omega$",
+        "$\\dfrac{6}{5}\\,\\Omega$",
+        "$\\dfrac{5}{12}\\,\\Omega$"
+      ],
+      "answer": 1,
+      "chapter": "Current Electricity",
+      "explanation": "For a cube of equal resistors R, the resistance between diagonally opposite corners is the standard result $\\dfrac{5}{6}R=\\dfrac{5}{6}\\,\\Omega$."
+    },
+    {
+      "n": 54,
+      "q": "A potentiometer has a uniform wire of length 5 m. A battery of emf 10 V and negligible internal resistance is connected between its ends. A secondary cell connected to the circuit gives a balancing length at 200 cm. The emf of the secondary cell is",
+      "options": [
+        "8 V",
+        "4 V",
+        "6 V",
+        "2 V"
+      ],
+      "answer": 1,
+      "chapter": "Current Electricity",
+      "explanation": "Potential gradient $=10/500=0.02$ V/cm; emf $=0.02\\times200=4$ V."
+    },
+    {
+      "n": 55,
+      "q": "In the given figure, the magnetic field at 'O' [a wire carries current I, bent into a $\\tfrac34$ circular arc of radius r plus a straight semi-infinite segment ending level with O]",
+      "options": [
+        "$\\dfrac{3}{8}\\dfrac{\\mu_0I}{r}-\\dfrac{\\mu_0I}{4\\pi r}$",
+        "$\\dfrac{3}{4}\\dfrac{\\mu_0I}{r}+\\dfrac{\\mu_0I}{4\\pi r}$",
+        "$\\dfrac{3}{10}\\dfrac{\\mu_0I}{r}-\\dfrac{\\mu_0I}{4\\pi r}$",
+        "$\\dfrac{3}{8}\\dfrac{\\mu_0I}{r}+\\dfrac{\\mu_0I}{4\\pi r}$"
+      ],
+      "answer": 3,
+      "chapter": "Moving Charges and Magnetism",
+      "explanation": "The $\\tfrac34$ circular arc contributes $\\tfrac34\\left(\\dfrac{\\mu_0I}{2r}\\right)=\\dfrac{3\\mu_0I}{8r}$ and the straight semi-infinite wire contributes $\\dfrac{\\mu_0I}{4\\pi r}$; both add at O, giving option (D)."
+    },
+    {
+      "n": 56,
+      "q": "The magnetic field at the origin due to a current element $i\\,d\\vec l$ placed at a point with vector position $\\vec r$ (measured from the origin) is",
+      "options": [
+        "$\\dfrac{\\mu_0i}{4\\pi}\\dfrac{\\vec r\\times d\\vec l}{r^2}$",
+        "$\\dfrac{\\mu_0i}{4\\pi}\\dfrac{d\\vec l\\times \\vec r}{r^3}$",
+        "$\\dfrac{\\mu_0i}{4\\pi}\\dfrac{\\vec r\\times d\\vec l}{r^3}$",
+        "$\\dfrac{\\mu_0i}{4\\pi}\\dfrac{d\\vec l\\times \\vec r}{r^2}$"
+      ],
+      "answer": 2,
+      "chapter": "Moving Charges and Magnetism",
+      "explanation": "Since $\\vec r$ here points from the origin (field point) to the source, the vector from source to field point is $-\\vec r$; the Biot-Savart law $\\dfrac{\\mu_0 i}{4\\pi}\\dfrac{d\\vec l\\times(-\\vec r)}{r^3}$ simplifies to $\\dfrac{\\mu_0i}{4\\pi}\\dfrac{\\vec r\\times d\\vec l}{r^3}$."
+    },
+    {
+      "n": 57,
+      "q": "I-V characteristic of a copper wire of length L and area of cross-section A is shown in figure (a straight line through the origin). The slope of the curve becomes",
+      "options": [
+        "Less if the length of the wire is increased.",
+        "More if the experiment is performed at higher temperature.",
+        "More if a wire of steel of same dimension is used.",
+        "Less if the area of the wire is increased."
+      ],
+      "answer": 0,
+      "chapter": "Current Electricity",
+      "explanation": "Slope $=I/V=1/R=A/(\\rho L)$; increasing the length L increases R and hence decreases the slope, so option (A) is correct (higher temperature or a higher-resistivity steel wire, or larger area, would each change R the opposite way to what B, C, D claim)."
+    },
+    {
+      "n": 58,
+      "q": "A cyclotron is used to accelerate protons ($^1_1$H), Deuterons ($^2_1$H) and $\\alpha$-particles ($^4_2$He). While exiting under similar conditions, the minimum K.E. is gained by",
+      "options": [
+        "same for all",
+        "$\\alpha$-particle",
+        "proton",
+        "deuteron"
+      ],
+      "answer": 3,
+      "chapter": "Moving Charges and Magnetism",
+      "explanation": "Exit K.E. in a cyclotron $\\propto q^2/m$; taking proton as 1 unit, deuteron gives $\\tfrac{1^2}{2}=0.5$ and alpha gives $\\tfrac{2^2}{4}=1$, so the deuteron gains the minimum K.E."
+    },
+    {
+      "n": 59,
+      "q": "A paramagnetic sample shows a net magnetization of 8 Am$^{-1}$ when placed in an external magnetic field of 0.6 T at a temperature of 4 K. When the same sample is placed in an external magnetic field of 0.2 T at a temperature of 16 K, the magnetization will be",
+      "options": [
+        "2.4 Am$^{-1}$",
+        "$\\dfrac{32}{3}$ Am$^{-1}$",
+        "$\\dfrac{2}{3}$ Am$^{-1}$",
+        "6 Am$^{-1}$"
+      ],
+      "answer": 2,
+      "chapter": "Magnetism and Matter",
+      "explanation": "By Curie's law $M\\propto B/T$: $M_2=8\\times\\dfrac{0.2}{0.6}\\times\\dfrac{4}{16}=\\dfrac{2}{3}$ Am$^{-1}$."
+    },
+    {
+      "n": 60,
+      "q": "A long cylindrical wire of radius R carries a uniform current I flowing through it. The variation of magnetic field with distance 'r' from the axis of the wire is shown by",
+      "options": [
+        "graph with a curved rise for r<R, curved fall for r>R, peaking at r=R",
+        "graph flat (constant B) for r<R, then falling for r>R",
+        "graph falling continuously from r=0",
+        "graph with a straight-line rise for r<R and a curved 1/r fall for r>R, peaking at r=R"
+      ],
+      "answer": 3,
+      "chapter": "Moving Charges and Magnetism",
+      "explanation": "Inside the wire $B\\propto r$ (linear increase, by Ampere's law for enclosed current), and outside $B\\propto 1/r$; the field peaks at $r=R$, matching option (D)."
+    }
+  ]
+}

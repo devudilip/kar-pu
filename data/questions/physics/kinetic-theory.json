@@ -1,0 +1,525 @@
+{
+  "notes": "<h3>Ideal gas equation</h3><ul><li>$PV = nRT = Nk_BT$ ($n$ = moles, $N$ = number of molecules, $k_B = R/N_A = 1.38\\times10^{-23}$ J K$^{-1}$).</li><li>Avogadro's number $N_A = 6.022\\times10^{23}$ mol$^{-1}$. Gas laws are special cases: Boyle's ($T$ const, $PV=$const), Charles's ($P$ const, $V\\propto T$), Gay-Lussac's ($V$ const, $P\\propto T$).</li></ul><h3>Kinetic theory (assumptions &amp; pressure)</h3><ul><li>Molecules are point masses in random motion, undergo elastic collisions, no intermolecular forces except during collision.</li><li>Pressure of a gas: $P = \\dfrac13\\dfrac{mN}{V}\\overline{v^2} = \\dfrac13\\rho\\overline{v^2}$ ($\\rho$ = density, $\\overline{v^2}$ = mean square speed).</li></ul><h3>Speeds of gas molecules</h3><table><tr><th>Speed</th><th>Formula</th></tr><tr><td>RMS speed</td><td>$v_{rms}=\\sqrt{\\overline{v^2}} = \\sqrt{3RT/M} = \\sqrt{3k_BT/m}$</td></tr><tr><td>Average speed</td><td>$v_{avg} = \\sqrt{8RT/\\pi M}$</td></tr><tr><td>Most probable speed</td><td>$v_p = \\sqrt{2RT/M}$</td></tr></table><ul><li>$v_{rms}:v_{avg}:v_p \\approx 1.73:1.60:1.41$ (i.e. $v_{rms}>v_{avg}>v_p$). $v_{rms}\\propto\\sqrt T$ and $v_{rms}\\propto1/\\sqrt M$ at fixed $T$.</li></ul><h3>Kinetic energy &amp; temperature</h3><ul><li>Average KE per molecule $=\\dfrac32k_BT$ (translational only) — depends only on absolute temperature, not on mass or nature of gas.</li><li>KE per mole $=\\dfrac32RT$; total internal energy of $n$ moles of monatomic ideal gas $U=\\dfrac32nRT$.</li></ul><h3>Degrees of freedom &amp; law of equipartition</h3><ul><li>Each quadratic degree of freedom contributes $\\tfrac12k_BT$ average energy per molecule.</li><li>Monatomic: 3 translational DOF, $U=\\tfrac32nRT$. Diatomic (rigid, no vibration): 3 translational + 2 rotational = 5 DOF, $U=\\tfrac52nRT$. With vibration, 2 more (KE+PE) DOF are added at high $T$.</li></ul><h3>Mean free path</h3><ul><li>$\\lambda = \\dfrac{1}{\\sqrt2\\,n\\pi d^2}$ ($n$ = number density, $d$ = molecular diameter). $\\lambda$ increases with decreasing pressure/density and increases with temperature at constant pressure (since $n\\propto P/T$).</li></ul><h3>Exam tip</h3><p>KCET typically asks 2 questions from this chapter — one on rms speed/KE numericals (often comparing two gases or temperatures) and one conceptual question on degrees of freedom or the ideal gas equation. Remember KE per molecule depends only on $T$, never on the type of gas.</p>",
+  "questions": [
+    {
+      "id": "phy-kinetic-theory-001",
+      "q": "The equation of state for an ideal gas containing $n$ moles is",
+      "options": [
+        "$PV=nR/T$",
+        "$PV=nT/R$",
+        "$PV=nRT$",
+        "$P=nRTV$"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "Ideal gas equation: $PV=nRT$, combining Boyle's, Charles's and Avogadro's laws."
+    },
+    {
+      "id": "phy-kinetic-theory-002",
+      "q": "At constant temperature, a gas of pressure $P$ and volume $V$ is compressed to volume $V/2$. Its new pressure is",
+      "options": [
+        "$P$",
+        "$2P$",
+        "$4P$",
+        "$P/2$"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "Boyle's law: $PV=$ constant, so halving $V$ doubles $P$."
+    },
+    {
+      "id": "phy-kinetic-theory-003",
+      "q": "According to kinetic theory, the pressure exerted by a gas is given by $P=\\dfrac13\\rho\\overline{v^2}$. This shows that pressure is directly proportional to",
+      "options": [
+        "the molar mass only",
+        "temperature only",
+        "the volume of the container",
+        "the mean square speed of molecules (at fixed density)"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "At a given density $\\rho$, $P \\propto \\overline{v^2}$, the mean square speed of the gas molecules."
+    },
+    {
+      "id": "phy-kinetic-theory-004",
+      "q": "The rms speed of gas molecules at absolute temperature $T$ is $v_{rms} = \\sqrt{3RT/M}$. If the absolute temperature is made 4 times, the rms speed becomes",
+      "options": [
+        "2 times",
+        "16 times",
+        "4 times",
+        "8 times"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "$v_{rms}\\propto\\sqrt T$; quadrupling $T$ multiplies $v_{rms}$ by $\\sqrt4=2$."
+    },
+    {
+      "id": "phy-kinetic-theory-005",
+      "q": "At the same temperature, the ratio of rms speeds of hydrogen (M = 2 g/mol) and oxygen (M = 32 g/mol) molecules is",
+      "options": [
+        "1:16",
+        "4:1",
+        "1:4",
+        "16:1"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "$v_{rms}\\propto1/\\sqrt M$; ratio $=\\sqrt{32/2}=\\sqrt{16}=4$, so hydrogen:oxygen $=4:1$."
+    },
+    {
+      "id": "phy-kinetic-theory-006",
+      "q": "The average translational kinetic energy of a gas molecule at temperature $T$ is",
+      "options": [
+        "$3k_BT$",
+        "$\\tfrac12k_BT$",
+        "$\\tfrac32k_BT$",
+        "$k_BT$"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "From kinetic theory, average translational KE per molecule $=\\tfrac32k_BT$."
+    },
+    {
+      "id": "phy-kinetic-theory-007",
+      "q": "At the same temperature, samples of hydrogen and oxygen gas have molecules with",
+      "options": [
+        "different kinetic energies and different rms speeds always in the same ratio as speeds",
+        "no relation between their energies",
+        "the same rms speed but different kinetic energies",
+        "the same average kinetic energy per molecule but different rms speeds"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "Average KE per molecule $=\\tfrac32k_BT$ depends only on temperature, so it is equal for both gases at the same $T$; however rms speeds differ since $v_{rms}\\propto1/\\sqrt M$ and the masses differ."
+    },
+    {
+      "id": "phy-kinetic-theory-008",
+      "q": "The number of translational degrees of freedom of a monatomic gas molecule is",
+      "options": [
+        "3",
+        "2",
+        "1",
+        "5"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "A monatomic molecule (treated as a point mass) can move independently along 3 perpendicular axes, giving 3 translational degrees of freedom."
+    },
+    {
+      "id": "phy-kinetic-theory-009",
+      "q": "For a rigid diatomic gas molecule (no vibration), the total number of degrees of freedom is",
+      "options": [
+        "3",
+        "7",
+        "5",
+        "6"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "3 translational + 2 rotational (about the two axes perpendicular to the bond) = 5 degrees of freedom."
+    },
+    {
+      "id": "phy-kinetic-theory-010",
+      "q": "Using the law of equipartition of energy, the internal energy of 1 mole of a rigid diatomic gas at temperature $T$ is",
+      "options": [
+        "$RT$",
+        "$3RT$",
+        "$\\tfrac32RT$",
+        "$\\tfrac52RT$"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "Each of the 5 degrees of freedom contributes $\\tfrac12RT$ per mole, giving $U=5\\times\\tfrac12RT=\\tfrac52RT$."
+    },
+    {
+      "id": "phy-kinetic-theory-011",
+      "q": "The mean free path of gas molecules $\\lambda = \\dfrac{1}{\\sqrt2\\,n\\pi d^2}$. If the number density $n$ of the gas is doubled (temperature constant), the mean free path becomes",
+      "options": [
+        "half",
+        "twice",
+        "unchanged",
+        "four times"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "$\\lambda \\propto 1/n$, so doubling the number density halves the mean free path."
+    },
+    {
+      "id": "phy-kinetic-theory-012",
+      "q": "At a given pressure, as the temperature of a gas increases, its mean free path",
+      "options": [
+        "becomes zero",
+        "increases",
+        "remains constant",
+        "decreases"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "At constant pressure, number density $n=P/(k_BT)$ decreases as $T$ increases, and since $\\lambda\\propto1/n$, the mean free path increases."
+    },
+    {
+      "id": "phy-kinetic-theory-013",
+      "q": "Which of the following is an assumption of the kinetic theory of gases?",
+      "options": [
+        "Molecules attract each other strongly at all separations",
+        "The volume of molecules is comparable to the volume of the container",
+        "All molecules move with the same speed at a given instant",
+        "Collisions between molecules are perfectly elastic"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "Kinetic theory assumes molecules undergo perfectly elastic collisions with each other and the walls, and are point masses with negligible volume and no intermolecular forces except during collision."
+    },
+    {
+      "id": "phy-kinetic-theory-014",
+      "q": "Two gases at the same temperature have densities $\\rho_1$ and $\\rho_2$ and pressures $P_1$ and $P_2$ respectively. If $P_1=P_2$, then according to $P=\\tfrac13\\rho\\overline{v^2}$, the mean square speeds are related as $\\rho_1\\overline{v_1^2}=\\rho_2\\overline{v_2^2}$. This is consistent with rms speed being",
+      "options": [
+        "directly proportional to density",
+        "independent of density",
+        "inversely proportional to $\\sqrt{\\text{density}}$ at fixed pressure",
+        "always equal for all gases"
+      ],
+      "answer": 2,
+      "difficulty": "hard",
+      "explanation": "From $P=\\tfrac13\\rho v_{rms}^2$, at fixed $P$, $v_{rms}=\\sqrt{3P/\\rho}\\propto1/\\sqrt\\rho$."
+    },
+    {
+      "id": "phy-kinetic-theory-015",
+      "q": "A closed vessel contains a gas at 300 K. If the temperature is raised to 600 K without change in volume, the pressure of the gas",
+      "options": [
+        "becomes four times",
+        "doubles",
+        "becomes half",
+        "remains the same"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "At constant volume, $P\\propto T$ (Gay-Lussac's law), so doubling absolute temperature doubles pressure."
+    },
+    {
+      "id": "phy-kinetic-theory-016",
+      "q": "The value of the Boltzmann constant $k_B$ is approximately",
+      "options": [
+        "$1.38\\times10^{-23}$ J K$^{-1}$",
+        "$8.31$ J K$^{-1}$",
+        "$6.02\\times10^{23}$ J K$^{-1}$",
+        "$1.6\\times10^{-19}$ J K$^{-1}$"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "$k_B = R/N_A = 8.31/(6.022\\times10^{23}) \\approx 1.38\\times10^{-23}$ J K$^{-1}$."
+    },
+    {
+      "id": "phy-kinetic-theory-017",
+      "q": "For an ideal gas, at absolute zero temperature, according to kinetic theory the average kinetic energy of molecules is expected to be",
+      "options": [
+        "independent of temperature",
+        "maximum",
+        "zero",
+        "equal to $k_BT$ for all $T$"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "Since average KE $=\\tfrac32k_BT$, at $T=0$ K the average translational kinetic energy of the molecules becomes zero (ignoring quantum effects), consistent with molecular motion ceasing at absolute zero."
+    },
+    {
+      "id": "phy-kinetic-theory-018",
+      "q": "A vessel contains a mixture of two ideal gases at the same temperature. The average kinetic energy per molecule of the heavier gas compared to the lighter gas is",
+      "options": [
+        "greater",
+        "smaller",
+        "the same",
+        "cannot be determined"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "Average KE per molecule $=\\tfrac32k_BT$ depends only on the common temperature $T$, not on the molecular mass, so it is the same for both gases."
+    },
+    {
+      "id": "phy-kinetic-theory-019",
+      "q": "Avogadro's number, the number of molecules (or atoms) present in one mole of any substance, is approximately",
+      "options": [
+        "$3\\times10^8$",
+        "$6.022\\times10^{23}$",
+        "$8.31$",
+        "$1.38\\times10^{-23}$"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "By definition, one mole of any substance contains Avogadro's number, $N_A=6.022\\times10^{23}$, of elementary entities."
+    },
+    {
+      "id": "phy-kinetic-theory-020",
+      "q": "The number of molecules present in 8 g of oxygen gas (molar mass 32 g mol$^{-1}$, $N_A=6.022\\times10^{23}$ mol$^{-1}$) is",
+      "options": [
+        "$1.5\\times10^{23}$",
+        "$3\\times10^{23}$",
+        "$7.5\\times10^{22}$",
+        "$6\\times10^{23}$"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "Moles $=8/32=0.25$; number of molecules $=0.25\\times6.022\\times10^{23}\\approx1.5\\times10^{23}$."
+    },
+    {
+      "id": "phy-kinetic-theory-021",
+      "q": "The rms speed of nitrogen gas molecules ($M=28\\times10^{-3}$ kg mol$^{-1}$) at 300 K ($R=8.3$ J mol$^{-1}$K$^{-1}$) is approximately",
+      "options": [
+        "258 m/s",
+        "517 m/s",
+        "1034 m/s",
+        "150 m/s"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "$v_{rms}=\\sqrt{3RT/M}=\\sqrt{(3\\times8.3\\times300)/0.028}=\\sqrt{266786}\\approx517$ m/s."
+    },
+    {
+      "id": "phy-kinetic-theory-022",
+      "q": "At constant pressure, a gas of volume 2 L at 300 K is heated to 600 K. Its new volume is",
+      "options": [
+        "2 L",
+        "1 L",
+        "4 L",
+        "3 L"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "Charles's law: $V\\propto T$ at constant pressure; doubling $T$ doubles $V$ to 4 L."
+    },
+    {
+      "id": "phy-kinetic-theory-023",
+      "q": "A container holds a mixture of two non-reacting ideal gases with partial pressures $2\\times10^5$ Pa and $3\\times10^5$ Pa. By Dalton's law of partial pressures, the total pressure exerted by the mixture is",
+      "options": [
+        "$6\\times10^5$ Pa",
+        "$1\\times10^5$ Pa",
+        "$2.5\\times10^5$ Pa",
+        "$5\\times10^5$ Pa"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "Dalton's law: total pressure equals the sum of the partial pressures of each component gas: $2\\times10^5+3\\times10^5=5\\times10^5$ Pa."
+    },
+    {
+      "id": "phy-kinetic-theory-024",
+      "q": "The van der Waals equation, $\\left(P+\\dfrac{an^2}{V^2}\\right)(V-nb)=nRT$, modifies the ideal gas equation to account for",
+      "options": [
+        "the finite size of molecules (via $b$) and the attractive intermolecular forces between them (via $a$)",
+        "only the effect of gravity on gas molecules",
+        "the effect of the Earth's magnetic field on gas molecules",
+        "only the container's shape"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "The $b$ term corrects for the finite volume occupied by real molecules, and the $a/V^2$ term accounts for mutual attraction between molecules, both neglected in the ideal gas model."
+    },
+    {
+      "id": "phy-kinetic-theory-025",
+      "q": "Graham's law of diffusion states that the rate of diffusion of a gas is",
+      "options": [
+        "directly proportional to its molar mass",
+        "independent of its molar mass",
+        "inversely proportional to the square root of its molar mass",
+        "proportional to the square of its molar mass"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "Graham's law: rate of diffusion $r\\propto1/\\sqrt M$, consistent with lighter molecules (higher rms speed) diffusing faster."
+    },
+    {
+      "id": "phy-kinetic-theory-026",
+      "q": "Using Graham's law, the ratio of the rates of diffusion of hydrogen (M=2 g/mol) to oxygen (M=32 g/mol), under the same conditions, is",
+      "options": [
+        "1:4",
+        "2:1",
+        "1:16",
+        "4:1"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "$\\dfrac{r_{H_2}}{r_{O_2}}=\\sqrt{\\dfrac{M_{O_2}}{M_{H_2}}}=\\sqrt{\\dfrac{32}{2}}=\\sqrt{16}=4$, so the ratio is 4:1."
+    },
+    {
+      "id": "phy-kinetic-theory-027",
+      "q": "A nonlinear polyatomic gas molecule (such as NH$_3$ or H$_2$O), which can translate along 3 axes and rotate about 3 independent axes, has a total of (ignoring vibration) how many degrees of freedom?",
+      "options": [
+        "6",
+        "7",
+        "5",
+        "3"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "3 translational + 3 rotational degrees of freedom (since a nonlinear molecule can rotate about all three axes) $=6$."
+    },
+    {
+      "id": "phy-kinetic-theory-028",
+      "q": "Using $\\gamma=1+\\dfrac2f$, for a gas whose molecules have $f=6$ degrees of freedom (a nonlinear polyatomic gas, ignoring vibration), the value of $\\gamma=C_P/C_V$ is",
+      "options": [
+        "2",
+        "1.33",
+        "1.67",
+        "1.4"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "$\\gamma=1+\\dfrac2f=1+\\dfrac26=1+0.33=1.33$ (i.e. $4/3$)."
+    },
+    {
+      "id": "phy-kinetic-theory-029",
+      "q": "The ratio of the average speed to the rms speed of gas molecules, $v_{avg}/v_{rms}$, using $v_{avg}=\\sqrt{8RT/\\pi M}$ and $v_{rms}=\\sqrt{3RT/M}$, is",
+      "options": [
+        "1",
+        "1.09",
+        "0.92",
+        "0.82"
+      ],
+      "answer": 2,
+      "difficulty": "hard",
+      "explanation": "$\\dfrac{v_{avg}}{v_{rms}}=\\sqrt{\\dfrac{8/\\pi}{3}}=\\sqrt{\\dfrac{8}{3\\pi}}\\approx\\sqrt{0.849}\\approx0.92$."
+    },
+    {
+      "id": "phy-kinetic-theory-030",
+      "q": "For a gas at a given temperature, the correct ordering of the three characteristic molecular speeds is",
+      "options": [
+        "$v_{avg}>v_{rms}>v_p$",
+        "$v_{rms}>v_{avg}>v_p$",
+        "$v_p>v_{rms}>v_{avg}$",
+        "$v_p>v_{avg}>v_{rms}$"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "Numerically $v_{rms}:v_{avg}:v_p\\approx1.73:1.60:1.41$ (in units of $\\sqrt{RT/M}$), so $v_{rms}$ is the largest and $v_p$ the smallest."
+    },
+    {
+      "id": "phy-kinetic-theory-031",
+      "q": "The most probable speed of oxygen gas molecules ($M=32\\times10^{-3}$ kg mol$^{-1}$) at 300 K ($R=8.3$ J mol$^{-1}$K$^{-1}$) is approximately",
+      "options": [
+        "395 m/s",
+        "558 m/s",
+        "483 m/s",
+        "274 m/s"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "$v_p=\\sqrt{2RT/M}=\\sqrt{(2\\times8.3\\times300)/0.032}=\\sqrt{155625}\\approx395$ m/s."
+    },
+    {
+      "id": "phy-kinetic-theory-032",
+      "q": "A gas has pressure $1.5\\times10^5$ Pa and density 1.2 kg m$^{-3}$. Using $P=\\tfrac13\\rho v_{rms}^2$, the rms speed of its molecules is approximately",
+      "options": [
+        "250 m/s",
+        "375 m/s",
+        "750 m/s",
+        "612 m/s"
+      ],
+      "answer": 3,
+      "difficulty": "hard",
+      "explanation": "$v_{rms}=\\sqrt{3P/\\rho}=\\sqrt{(3\\times1.5\\times10^5)/1.2}=\\sqrt{375000}\\approx612$ m/s."
+    },
+    {
+      "id": "phy-kinetic-theory-033",
+      "q": "One of the basic assumptions of the kinetic theory of an ideal gas is that",
+      "options": [
+        "all molecules have exactly the same velocity vector at every instant",
+        "the actual volume of the molecules is negligible compared to the volume of the container",
+        "molecules exert strong attractive forces on each other at all times",
+        "the volume occupied by the molecules themselves is comparable to the volume of the container"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "Kinetic theory treats gas molecules as point-like particles whose own volume is negligible compared to the container's volume — an assumption that breaks down for real gases at high pressure."
+    },
+    {
+      "id": "phy-kinetic-theory-034",
+      "q": "A real gas behaves most like an ideal gas, and deviates least from the ideal gas equation, under conditions of",
+      "options": [
+        "low pressure and low temperature",
+        "high pressure and low temperature",
+        "high pressure and high temperature",
+        "low pressure and high temperature"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "At low pressure (large intermolecular spacing) and high temperature (high kinetic energy relative to intermolecular attraction), the volume of the molecules and their mutual attractions become negligible, so real gas behaviour approaches ideal gas behaviour."
+    },
+    {
+      "id": "phy-kinetic-theory-035",
+      "q": "A gas at pressure $1\\times10^5$ Pa, volume 4 L and temperature 300 K is compressed to 2 L while its temperature is raised to 450 K. Using the combined gas law, its new pressure is",
+      "options": [
+        "$3\\times10^5$ Pa",
+        "$4\\times10^5$ Pa",
+        "$2\\times10^5$ Pa",
+        "$1.5\\times10^5$ Pa"
+      ],
+      "answer": 0,
+      "difficulty": "hard",
+      "explanation": "$\\dfrac{P_1V_1}{T_1}=\\dfrac{P_2V_2}{T_2} \\Rightarrow P_2=\\dfrac{P_1V_1T_2}{T_1V_2}=\\dfrac{10^5\\times4\\times450}{300\\times2}=3\\times10^5$ Pa."
+    },
+    {
+      "id": "phy-kinetic-theory-036",
+      "q": "At very high temperatures, a diatomic gas molecule can also vibrate along the bond, adding 2 more degrees of freedom (kinetic + potential) to the usual 5 (translational + rotational). The total number of degrees of freedom then becomes",
+      "options": [
+        "5",
+        "6",
+        "7",
+        "3"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "3 translational + 2 rotational + 2 vibrational $=7$ degrees of freedom at sufficiently high temperature."
+    },
+    {
+      "id": "phy-kinetic-theory-037",
+      "q": "A gas occupies volume $1\\times10^{-3}$ m$^3$ at pressure $1\\times10^5$ Pa and temperature 300 K. Using $PV=Nk_BT$ ($k_B=1.38\\times10^{-23}$ J K$^{-1}$), the number of molecules $N$ present is approximately",
+      "options": [
+        "$1.38\\times10^{22}$",
+        "$6\\times10^{23}$",
+        "$2.4\\times10^{22}$",
+        "$4.8\\times10^{21}$"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "$N=\\dfrac{PV}{k_BT}=\\dfrac{10^5\\times10^{-3}}{1.38\\times10^{-23}\\times300}=\\dfrac{100}{4.14\\times10^{-21}}\\approx2.4\\times10^{22}$."
+    },
+    {
+      "id": "phy-kinetic-theory-038",
+      "q": "The law of equipartition of energy states that, in thermal equilibrium, the total energy of a system is distributed",
+      "options": [
+        "equally among all the available degrees of freedom, each quadratic degree of freedom getting an average energy of $\\tfrac12k_BT$ per molecule",
+        "unequally, with more energy going to heavier molecules",
+        "entirely as translational kinetic energy, regardless of the molecule's structure",
+        "only among the rotational degrees of freedom"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "This is the statement of the equipartition theorem, which underlies the calculation of specific heats from the number of degrees of freedom."
+    },
+    {
+      "id": "phy-kinetic-theory-039",
+      "q": "At constant volume, when the temperature of a gas is increased, its pressure increases mainly because the gas molecules",
+      "options": [
+        "increase in number",
+        "become larger in size",
+        "start attracting the walls of the container more strongly",
+        "move faster on average and collide with the container walls more frequently and with a greater change in momentum per collision"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "Higher temperature means higher average molecular speed; both the collision frequency with the walls and the momentum transferred per collision increase, raising the pressure, consistent with $P\\propto T$ at constant volume."
+    },
+    {
+      "id": "phy-kinetic-theory-040",
+      "q": "At what temperature will the rms speed of oxygen gas molecules become twice its value at 300 K?",
+      "options": [
+        "2400 K",
+        "1200 K",
+        "900 K",
+        "600 K"
+      ],
+      "answer": 1,
+      "difficulty": "hard",
+      "explanation": "$v_{rms}\\propto\\sqrt T$; to double $v_{rms}$, $T$ must increase by a factor of $2^2=4$: $T_2=4\\times300=1200$ K."
+    }
+  ]
+}

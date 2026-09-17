@@ -1,0 +1,793 @@
+{
+  "title": "KCET 2011 Physics",
+  "year": 2011,
+  "subject": "physics",
+  "code": "A-1",
+  "source": "KEA question paper (copy) + KEA answer key column A1",
+  "excluded": [],
+  "questions": [
+    {
+      "n": 1,
+      "q": "If $C$ be the capacitance and $V$ be the electric potential, then the dimensional formula of $CV^2$ is .................",
+      "options": [
+        "$M^1L^2T^{-2}A^0$",
+        "$M^1L^1T^{-2}A^{-1}$",
+        "$M^0L^1T^{-2}A^0$",
+        "$M^1L^{-3}T^1A^1$"
+      ],
+      "answer": 0,
+      "chapter": "Units and Measurements",
+      "explanation": "$CV^2 = (Q/V)V^2 = QV$, which is energy $= ML^2T^{-2}$; since $A$ does not appear, the formula is $M^1L^2T^{-2}A^0$."
+    },
+    {
+      "n": 2,
+      "q": "The displacement-time graphs of two moving particles make angles of $30^0$ and $45^0$ with the X-axis. The ratio of their velocities is ..................... [Graph: displacement on the Y-axis, time on the X-axis; one line makes $45^0$ with the time-axis, the other makes $30^0$]",
+      "options": [
+        "$\\sqrt3:2$",
+        "$1:1$",
+        "$1:2$",
+        "$1:\\sqrt3$"
+      ],
+      "answer": 3,
+      "chapter": "Motion in a Straight Line",
+      "explanation": "Velocity equals the slope of the displacement-time graph, so $v_1:v_2 = \\tan30^0:\\tan45^0 = (1/\\sqrt3):1 = 1:\\sqrt3$."
+    },
+    {
+      "n": 3,
+      "q": "Block $A$ of mass 2 kg is placed over block $B$ of mass 8 kg. The combination is placed over a rough horizontal surface. Coefficient of friction between $B$ and the floor is 0.5. Coefficient of friction between $A$ and $B$ is 0.4. A horizontal force of 10 N is applied on block $B$. The force of friction between $A$ and $B$ is ..................... ($g = 10\\, ms^{-2}$).",
+      "options": [
+        "100 N",
+        "40 N",
+        "50 N",
+        "zero"
+      ],
+      "answer": 3,
+      "chapter": "Laws of Motion",
+      "explanation": "Maximum friction from the floor on the combined 10 kg is $0.5\\times10\\times10 = 50$ N, greater than the applied 10 N, so the whole system stays at rest; since no force is applied directly on $A$, it needs no friction force to stay in equilibrium, so the friction between $A$ and $B$ is zero."
+    },
+    {
+      "n": 4,
+      "q": "The height $y$ and the distance $x$ along the horizontal plane of a projectile on a certain planet (with no surrounding atmosphere) are given by $y = 8t - 5t^2$ meter and $x = 6t$ meter, where $t$ is in seconds. The velocity with which the projectile is projected is .................",
+      "options": [
+        "6 $ms^{-1}$",
+        "8 $ms^{-1}$",
+        "10 $ms^{-1}$",
+        "14 $ms^{-1}$"
+      ],
+      "answer": 2,
+      "chapter": "Motion in a Plane",
+      "explanation": "$v_x = 6$ ms$^{-1}$ and $v_y = dy/dt = 8-10t$, so at $t=0$, $v_y = 8$ ms$^{-1}$; the initial speed is $\\sqrt{6^2+8^2}=10$ ms$^{-1}$."
+    },
+    {
+      "n": 5,
+      "q": "A body of mass 5 kg is thrown vertically up with a kinetic energy of 490 J. The height at which the kinetic energy of the body becomes half of the original value is ................. (acceleration due to gravity = 9.8 $ms^{-2}$).",
+      "options": [
+        "5 m",
+        "2.5 m",
+        "10 m",
+        "12.5 m"
+      ],
+      "answer": 0,
+      "chapter": "Work, Energy and Power",
+      "explanation": "Initial KE $=490$ J gives $v^2=196$; at half KE, $v'^2=98$. Using $v'^2=v^2-2gh$: $98=196-19.6h \\Rightarrow h=5$ m."
+    },
+    {
+      "n": 6,
+      "q": "A solid sphere of mass $m$ rolls down an inclined plane without slipping, starting from rest at the top of an inclined plane. The linear speed of the sphere at the bottom of the inclined plane is $v$. The kinetic energy of the sphere at the bottom is .................",
+      "options": [
+        "$\\dfrac{1}{2}mv^2$",
+        "$\\dfrac{5}{3}mv^2$",
+        "$\\dfrac{2}{5}mv^2$",
+        "$\\dfrac{7}{10}mv^2$"
+      ],
+      "answer": 3,
+      "chapter": "System of Particles and Rotational Motion",
+      "explanation": "Total KE of a rolling solid sphere is $\\dfrac{1}{2}mv^2\\left(1+\\dfrac{2}{5}\\right)=\\dfrac{7}{10}mv^2$."
+    },
+    {
+      "n": 7,
+      "q": "Two satellites of mass $m$ and $9m$ are orbiting a planet in orbits of radius $R$. Their periods of revolution will be in the ratio of .................",
+      "options": [
+        "9:1",
+        "3:1",
+        "1:1",
+        "1:3"
+      ],
+      "answer": 2,
+      "chapter": "Gravitation",
+      "explanation": "The orbital period $T=2\\pi\\sqrt{R^3/GM}$ depends only on the orbit radius $R$ and the planet's mass, not on the satellite's mass, so the ratio is $1:1$."
+    },
+    {
+      "n": 8,
+      "q": "The following four wires of length $L$ and radius $r$ are made of the same material. Which of these will have the largest extension, when the same tension is applied?",
+      "options": [
+        "$L=100$ cm, $r=0.2$ mm",
+        "$L=200$ cm, $r=0.4$ mm",
+        "$L=300$ cm, $r=0.6$ mm",
+        "$L=400$ cm, $r=0.8$ mm"
+      ],
+      "answer": 0,
+      "chapter": "Mechanical Properties of Solids",
+      "explanation": "Extension $\\Delta L = \\dfrac{FL}{\\pi r^2 Y} \\propto \\dfrac{L}{r^2}$; computing $L/r^2$ for each option gives the largest value for $L=100$ cm, $r=0.2$ mm."
+    },
+    {
+      "n": 9,
+      "q": "The resultant of two forces acting at an angle of $120^0$ is 10 kg wt and is perpendicular to one of the forces. That force is .................",
+      "options": [
+        "$10\\sqrt3$ kg wt",
+        "$20\\sqrt3$ kg wt",
+        "10 kg wt",
+        "$\\dfrac{10}{\\sqrt3}$ kg wt"
+      ],
+      "answer": 3,
+      "chapter": "Motion in a Plane",
+      "explanation": "If resultant $R$ is perpendicular to force $P$, then $P+Q\\cos120^0=0 \\Rightarrow Q=2P$; using $R^2=P^2+Q^2+2PQ\\cos120^0=3P^2$, $P=R/\\sqrt3=10/\\sqrt3$ kg wt."
+    },
+    {
+      "n": 10,
+      "q": "Eight equal drops of water are falling through air with a steady velocity of 10 cm $s^{-1}$. If the drops combine to form a single drop big in size, then the terminal velocity of this big drop is .................",
+      "options": [
+        "40 cm $s^{-1}$",
+        "10 cm $s^{-1}$",
+        "30 cm $s^{-1}$",
+        "80 cm $s^{-1}$"
+      ],
+      "answer": 0,
+      "chapter": "Mechanical Properties of Fluids",
+      "explanation": "Volume conservation gives $R=2r$ for 8 drops combining; terminal velocity $\\propto r^2$, so $v_{big}=10\\times2^2=40$ cm $s^{-1}$."
+    },
+    {
+      "n": 11,
+      "q": "Two capillary tubes of different diameters are dipped in water. The rise of water is .........",
+      "options": [
+        "the same in both tubes",
+        "greater in the tube of larger diameter",
+        "greater in the tube of smaller diameter",
+        "independent of the diameter of the tube"
+      ],
+      "answer": 2,
+      "chapter": "Mechanical Properties of Fluids",
+      "explanation": "Capillary rise $h = \\dfrac{2T\\cos\\theta}{r\\rho g}$ is inversely proportional to the tube radius, so the rise is greater in the tube of smaller diameter."
+    },
+    {
+      "n": 12,
+      "q": "A perfect gas at $27^0C$ is heated at constant pressure so as to double its volume. The increase in temperature of the gas will be .....................",
+      "options": [
+        "$600^0C$",
+        "$327^0C$",
+        "$54^0C$",
+        "$300^0C$"
+      ],
+      "answer": 3,
+      "chapter": "Kinetic Theory",
+      "explanation": "At constant pressure, $V/T$ is constant; $T_1=300$ K, doubling $V$ doubles $T$ to 600 K $=327^0C$; the increase in temperature is $327-27=300^0C$."
+    },
+    {
+      "n": 13,
+      "q": "Three identical rods $A$, $B$ and $C$ are placed end to end. A temperature difference is maintained between the free ends of $A$ and $C$. The thermal conductivity of $B$ is THRICE that of $C$ and HALF of that of $A$. The effective thermal conductivity of the system will be ........................ ($K_A$ is the thermal conductivity of rod $A$).",
+      "options": [
+        "$\\dfrac{1}{3}K_A$",
+        "$3K_A$",
+        "$2K_A$",
+        "$\\dfrac{2}{3}K_A$"
+      ],
+      "answer": 0,
+      "chapter": "Thermal Properties of Matter",
+      "explanation": "With $K_A=6k$, $K_B=3k$, $K_C=k$, for identical rods in series: $3/K_{eff}=1/K_A+1/K_B+1/K_C = 3/(2k)$, giving $K_{eff}=2k=\\dfrac{1}{3}K_A$."
+    },
+    {
+      "n": 14,
+      "q": "The quantities of heat required to raise the temperatures of two copper spheres of radii $r_1$ and $r_2$ ($r_1 = 1.5 r_2$) through 1 K are in the ratio of .................",
+      "options": [
+        "$\\dfrac{27}{8}$",
+        "$\\dfrac{9}{4}$",
+        "$\\dfrac{3}{2}$",
+        "1"
+      ],
+      "answer": 0,
+      "chapter": "Thermal Properties of Matter",
+      "explanation": "Heat required $Q=mc\\Delta T \\propto r^3$ (same material), so $Q_1/Q_2=(r_1/r_2)^3=(1.5)^3=27/8$."
+    },
+    {
+      "n": 15,
+      "q": "Which one of the following is $\\nu_m - T$ graph for perfectly black body? $\\nu_m$ is the frequency of radiation with maximum intensity. $T$ is the absolute temperature. [Graph of $\\nu_m$ (Hz) versus $T$ (K) shows four curves: A rises steeply then flattens; B rises and flattens at a higher level further right; C rises roughly linearly starting from the origin; D is a horizontal constant line]",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer": 2,
+      "chapter": "Thermal Properties of Matter",
+      "explanation": "By Wien's displacement law $\\lambda_m T = \\text{constant}$, so $\\nu_m = c/\\lambda_m \\propto T$; the graph is a straight line through the origin, matching curve C."
+    },
+    {
+      "n": 16,
+      "q": "A particle executing a simple harmonic motion has a period of 6 sec. The time taken by the particle to move from the mean position to half the amplitude, starting from the mean position is .................",
+      "options": [
+        "3/2 sec",
+        "1/2 sec",
+        "3/4 sec",
+        "1/4 sec"
+      ],
+      "answer": 1,
+      "chapter": "Oscillations",
+      "explanation": "$x=A\\sin(\\omega t)$; for $x=A/2$, $\\sin(\\omega t)=1/2 \\Rightarrow \\omega t=\\pi/6 \\Rightarrow t=T/12=6/12=0.5$ sec."
+    },
+    {
+      "n": 17,
+      "q": "The equation of a wave is given by $y = 10\\,Sin\\left(\\dfrac{2\\pi}{45}t + \\alpha\\right)$. If the displacement is 5 cm at $t=0$, then the total phase at $t = 7.5$ sec. is .................",
+      "options": [
+        "$\\pi/3$",
+        "$\\pi/2$",
+        "$\\pi/6$",
+        "$\\pi$"
+      ],
+      "answer": 1,
+      "chapter": "Waves",
+      "explanation": "At $t=0$: $10\\sin\\alpha=5 \\Rightarrow \\alpha=\\pi/6$. Total phase at $t=7.5$: $\\dfrac{2\\pi}{45}(7.5)+\\alpha=\\pi/3+\\pi/6=\\pi/2$."
+    },
+    {
+      "n": 18,
+      "q": "Two tuning forks, $A$ and $B$, produce notes of frequencies 258 Hz and 262 Hz. An unknown note sounded with $A$ produces certain beats. When the same note is sounded with $B$, the beat frequency gets doubled. The unknown frequency is .....................",
+      "options": [
+        "250 Hz",
+        "252 Hz",
+        "254 Hz",
+        "256 Hz"
+      ],
+      "answer": 2,
+      "chapter": "Waves",
+      "explanation": "Let unknown frequency be $x<258$: beats with $A$ = $258-x$, beats with $B$ = $262-x = 2(258-x)$, solving gives $x=254$ Hz."
+    },
+    {
+      "n": 19,
+      "q": "A wire under tension vibrates with a fundamental frequency of 600 Hz. If the length of the wire is doubled, the radius is halved and the wire is made to vibrate under one-ninth the tension. Then the fundamental frequency will become .......................",
+      "options": [
+        "200 Hz",
+        "300 Hz",
+        "600 Hz",
+        "400 Hz"
+      ],
+      "answer": 0,
+      "chapter": "Waves",
+      "explanation": "$f \\propto \\dfrac{1}{Lr}\\sqrt{T}$ (since $\\mu\\propto r^2$); $f_2/f_1=(1/2)(2)\\sqrt{1/9}=1/3$, so $f_2=600/3=200$ Hz."
+    },
+    {
+      "n": 20,
+      "q": "Faintest stars are called ......................",
+      "options": [
+        "zero magnitude stars",
+        "second magnitude stars",
+        "sixth magnitude stars",
+        "dwarfs"
+      ],
+      "answer": 2,
+      "chapter": "Old syllabus: Astronomy (stellar magnitudes)",
+      "explanation": "On the apparent magnitude scale, the faintest stars visible to the naked eye are classified as sixth magnitude stars."
+    },
+    {
+      "n": 21,
+      "q": "Wavelength of given light waves in air and in a medium are 6000 Å and 4000 Å respectively. The critical angle is .................",
+      "options": [
+        "$Tan^{-1}\\left(\\dfrac{2}{3}\\right)$",
+        "$Tan^{-1}\\left(\\dfrac{3}{2}\\right)$",
+        "$Sin^{-1}\\left(\\dfrac{2}{3}\\right)$",
+        "$Sin^{-1}\\left(\\dfrac{3}{2}\\right)$"
+      ],
+      "answer": 2,
+      "chapter": "Ray Optics and Optical Instruments",
+      "explanation": "Refractive index $\\mu=\\lambda_{air}/\\lambda_{medium}=6000/4000=1.5$; critical angle $\\theta_c=Sin^{-1}(1/\\mu)=Sin^{-1}(2/3)$."
+    },
+    {
+      "n": 22,
+      "q": "The time required for the light to pass through a glass slab (refractive index = 1.5) of thickness 4 mm is ..................... ($c = 3\\times10^8\\, ms^{-1}$, speed of light in free space).",
+      "options": [
+        "$10^{-11}$ sec",
+        "$2\\times10^{-11}$ sec",
+        "$2\\times10^{+11}$ sec",
+        "$2\\times10^{-5}$ sec"
+      ],
+      "answer": 1,
+      "chapter": "Ray Optics and Optical Instruments",
+      "explanation": "Speed in glass $=c/\\mu$; time $=\\dfrac{t\\mu}{c}=\\dfrac{4\\times10^{-3}\\times1.5}{3\\times10^8}=2\\times10^{-11}$ sec."
+    },
+    {
+      "n": 23,
+      "q": "A prism having refractive index 1.414 and refracting angle $30^0$ has one of the refracting surfaces silvered. A beam of light incident on the other refracting surface will retrace its path, if the angle of incidence is .....................",
+      "options": [
+        "$0^0$",
+        "$30^0$",
+        "$60^0$",
+        "$45^0$"
+      ],
+      "answer": 3,
+      "chapter": "Ray Optics and Optical Instruments",
+      "explanation": "For the ray to retrace its path it must strike the silvered surface normally, so the refraction angle inside is $r=A=30^0$; by Snell's law $\\sin i=\\mu\\sin30^0=\\sqrt2\\times0.5=0.707$, giving $i=45^0$."
+    },
+    {
+      "n": 24,
+      "q": "A planoconvex lens has a maximum thickness of 6 cm. When placed on a horizontal table with the curved surface in contact with the table surface, the apparent depth of the bottommost point of the lens is found to be 4 cm. If the lens is inverted such that the plane face of the lens is in contact with the surface of the table, the apparent depth of the center of the plane face is found to be $\\left(\\dfrac{17}{4}\\right)$ cm. The radius of curvature of the lens is .............",
+      "options": [
+        "68 cm",
+        "75 cm",
+        "128 cm",
+        "34 cm"
+      ],
+      "answer": 3,
+      "chapter": "Ray Optics and Optical Instruments",
+      "explanation": "From the first case (viewing through the flat face only), apparent depth $=t/\\mu=6/\\mu=4 \\Rightarrow \\mu=1.5$. Applying refraction at the curved surface for the second case with real depth 6 cm and apparent depth 17/4 cm gives $R\\approx34$ cm."
+    },
+    {
+      "n": 25,
+      "q": "Two thin lenses have a combined power of $+9D$. When they are separated by a distance of 20 cm, their equivalent power becomes $+\\dfrac{27}{5}D$. Their individual powers (in diopters) are .............",
+      "options": [
+        "1, 8",
+        "2, 7",
+        "3, 6",
+        "4, 5"
+      ],
+      "answer": 2,
+      "chapter": "Ray Optics and Optical Instruments",
+      "explanation": "$P_1+P_2=9$ and $P=P_1+P_2-P_1P_2d$ gives $P_1P_2\\times0.2=9-5.4=3.6 \\Rightarrow P_1P_2=18$; solving $x+y=9, xy=18$ gives $x,y=3,6$."
+    },
+    {
+      "n": 26,
+      "q": "Wavefront is the locus of all points, where the particles of the medium vibrate with the same .................",
+      "options": [
+        "phase",
+        "amplitude",
+        "frequency",
+        "period"
+      ],
+      "answer": 0,
+      "chapter": "Wave Optics",
+      "explanation": "By definition, a wavefront is the locus of points in a medium vibrating in the same phase."
+    },
+    {
+      "n": 27,
+      "q": "Two monochromatic light waves of amplitudes $3A$ and $2A$ interfering at a point have a phase difference of $60^0$. The intensity at that point will be proportional to .................",
+      "options": [
+        "$5A^2$",
+        "$13A^2$",
+        "$7A^2$",
+        "$19A^2$"
+      ],
+      "answer": 3,
+      "chapter": "Wave Optics",
+      "explanation": "Resultant intensity $\\propto A_1^2+A_2^2+2A_1A_2\\cos\\phi = 9A^2+4A^2+2(3A)(2A)\\cos60^0 = 13A^2+6A^2=19A^2$."
+    },
+    {
+      "n": 28,
+      "q": "Consider the following statements in case of Young's double slit experiment. a) A slit $S$ is necessary if we use an ordinary extended source of light. b) A slit $S$ is not needed if we use an ordinary but well collimated beam of light. c) A slit $S$ is not needed if we use a spatially coherent source of light. Which of the above statements are correct?",
+      "options": [
+        "a), b) and c)",
+        "a) and b)",
+        "b) and c)",
+        "a) and c)"
+      ],
+      "answer": 0,
+      "chapter": "Wave Optics",
+      "explanation": "A single slit $S$ is used to obtain spatial coherence from an extended incoherent source; it is unnecessary when the source is already collimated or spatially coherent, so all three statements a), b) and c) are correct (as per KEA key)."
+    },
+    {
+      "n": 29,
+      "q": "A parallel beam of light of wavelength 6000 Å gets diffracted by a single slit of width 0.3 mm. The angular position of the first minima of diffracted light is ...........",
+      "options": [
+        "$2\\times10^{-3}$ rad",
+        "$3\\times10^{-3}$ rad",
+        "$1.8\\times10^{-3}$ rad",
+        "$6\\times10^{-3}$ rad"
+      ],
+      "answer": 0,
+      "chapter": "Wave Optics",
+      "explanation": "First minima at $\\theta=\\lambda/a = (6\\times10^{-7})/(3\\times10^{-4}) = 2\\times10^{-3}$ rad."
+    },
+    {
+      "n": 30,
+      "q": "The critical angle of a certain medium is $Sin^{-1}\\left(\\dfrac{3}{5}\\right)$. The polarizing angle of the medium is .............",
+      "options": [
+        "$Sin^{-1}\\left(\\dfrac{4}{5}\\right)$",
+        "$Tan^{-1}\\left(\\dfrac{5}{3}\\right)$",
+        "$Tan^{-1}\\left(\\dfrac{3}{4}\\right)$",
+        "$Tan^{-1}\\left(\\dfrac{4}{3}\\right)$"
+      ],
+      "answer": 1,
+      "chapter": "Wave Optics",
+      "explanation": "$\\sin C=3/5 \\Rightarrow \\mu=1/\\sin C=5/3$; Brewster's angle $\\theta_p=Tan^{-1}\\mu=Tan^{-1}(5/3)$."
+    },
+    {
+      "n": 31,
+      "q": "Two identical charged spheres of material density $\\rho$, suspended from the same point by inextensible strings of equal length make an angle $\\theta$ between the strings. When suspended in a liquid of density $\\sigma$ the angle $\\theta$ remains the same. The dielectric constant $K$ of the liquid is .............",
+      "options": [
+        "$\\dfrac{\\rho}{\\rho-\\sigma}$",
+        "$\\dfrac{\\rho-\\sigma}{\\rho}$",
+        "$\\dfrac{\\rho}{\\rho+\\sigma}$",
+        "$\\dfrac{\\rho+\\sigma}{\\rho}$"
+      ],
+      "answer": 0,
+      "chapter": "Electric Charges and Fields",
+      "explanation": "For the angle to remain unchanged, the ratio of electric force to effective weight must stay the same; since the electric force reduces by factor $K$ and the effective weight reduces due to buoyancy, balancing gives $K=\\dfrac{\\rho}{\\rho-\\sigma}$."
+    },
+    {
+      "n": 32,
+      "q": "The electric field at a point due to an electric dipole, on an axis inclined at an angle $\\theta (<90^0)$ to the dipole axis, is perpendicular to the dipole axis, if the angle $\\theta$ is .............",
+      "options": [
+        "$Tan^{-1}(2)$",
+        "$Tan^{-1}\\left(\\dfrac{1}{2}\\right)$",
+        "$Tan^{-1}(\\sqrt2)$",
+        "$Tan^{-1}\\left(\\dfrac{1}{\\sqrt2}\\right)$"
+      ],
+      "answer": 2,
+      "chapter": "Electric Charges and Fields",
+      "explanation": "The dipole field makes angle $\\alpha$ with the radius vector where $\\tan\\alpha=\\tan\\theta/2$; requiring the resultant to be perpendicular to the axis means $\\theta+\\alpha=90^0$, which solves to $\\tan\\theta=\\sqrt2$, i.e. $\\theta=Tan^{-1}(\\sqrt2)$."
+    },
+    {
+      "n": 33,
+      "q": "In the circuit shown, the currents $i_1$ and $i_2$ are ............... [Circuit: a $12\\,\\Omega$ resistor (carrying current $i_1$) is in parallel with a $4\\,\\Omega$ resistor (carrying current $i_2$); this parallel combination is in series with a $2\\,\\Omega$ resistor, connected to a battery of 12 V with internal resistance $1\\,\\Omega$]",
+      "options": [
+        "$i_1=1.5$ A, $i_2=0.5$ A",
+        "$i_1=0.5$ A, $i_2=1.5$ A",
+        "$i_1=1$ A, $i_2=3$ A",
+        "$i_1=3$ A, $i_2=1$ A"
+      ],
+      "answer": 1,
+      "chapter": "Current Electricity",
+      "explanation": "Parallel combination of $12\\,\\Omega$ and $4\\,\\Omega$ is $3\\,\\Omega$; total circuit resistance $=3+2+1=6\\,\\Omega$, total current $=12/6=2$ A, which splits inversely to resistance: $i_1$ (through $12\\,\\Omega$) $=2\\times4/16=0.5$ A, $i_2$ (through $4\\,\\Omega$) $=2\\times12/16=1.5$ A."
+    },
+    {
+      "n": 34,
+      "q": "In the given network, the value of $C$, so that an equivalent capacitance between $A$ and $B$ is $3\\mu F$, is ................. [Network of capacitors between A and B arranged in a ladder of series-parallel combinations involving capacitors $C$, $2\\mu F$, $6\\mu F$, $12\\mu F$, $4\\mu F$, $2\\mu F$, $1\\mu F$, $2\\mu F$ and $8\\mu F$]",
+      "options": [
+        "$\\dfrac{1}{5}\\mu F$",
+        "$\\dfrac{31}{5}\\mu F$",
+        "$48\\mu F$",
+        "$36\\mu F$"
+      ],
+      "answer": 2,
+      "chapter": "Electrostatic Potential and Capacitance",
+      "explanation": "Reducing the ladder network of fixed capacitors stage by stage (series and parallel combinations) and equating the resulting series combination with $C$ to the required 3 uF between A and B gives $C=48\\,\\mu F$ (as per KEA key).",
+      "figure": true
+    },
+    {
+      "n": 35,
+      "q": "A conductor wire having $10^{29}$ free electrons/$m^3$ carries a current of 20A. If the cross-section of the wire is 1 $mm^2$, then the drift velocity of electrons will be ............... ($e = 1.6\\times10^{-19}$ C).",
+      "options": [
+        "$1.25\\times10^{-4}\\,ms^{-1}$",
+        "$1.25\\times10^{-3}\\,ms^{-1}$",
+        "$1.25\\times10^{-5}\\,ms^{-1}$",
+        "$6.25\\times10^{-3}\\,ms^{-1}$"
+      ],
+      "answer": 1,
+      "chapter": "Current Electricity",
+      "explanation": "$v_d=\\dfrac{I}{nAe}=\\dfrac{20}{10^{29}\\times10^{-6}\\times1.6\\times10^{-19}}=1.25\\times10^{-3}$ $ms^{-1}$."
+    },
+    {
+      "n": 36,
+      "q": "A resistor has a colour code of green, blue, brown and silver. What is its resistance?",
+      "options": [
+        "$56\\,\\Omega \\pm5\\%$",
+        "$560\\,\\Omega\\pm10\\%$",
+        "$560\\,\\Omega\\pm5\\%$",
+        "$5600\\,\\Omega\\pm10\\%$"
+      ],
+      "answer": 1,
+      "chapter": "Current Electricity",
+      "explanation": "Green=5, Blue=6, Brown=multiplier $10^1$, Silver=$\\pm10\\%$ tolerance, giving $56\\times10=560\\,\\Omega\\pm10\\%$."
+    },
+    {
+      "n": 37,
+      "q": "The voltage $V$ and current $I$ graphs for a conductor at two different temperatures $T_1$ and $T_2$ are shown in the figure. The relation between $T_1$ and $T_2$ is ............. [Graph of V versus I: line $T_1$ is steeper (closer to the V-axis) than line $T_2$]",
+      "options": [
+        "$T_1>T_2$",
+        "$T_1<T_2$",
+        "$T_1=T_2$",
+        "$T_1=\\dfrac{1}{T_2}$"
+      ],
+      "answer": 0,
+      "chapter": "Current Electricity",
+      "explanation": "The slope of the V-I graph gives resistance; the steeper line ($T_1$) has higher resistance, and since resistance of a conductor increases with temperature, $T_1>T_2$."
+    },
+    {
+      "n": 38,
+      "q": "Consider the following statements regarding the network shown in the figure. [Network: from A to B there are two parallel arms; the top arm has two resistors $R$ and $R$ in series with a galvanometer $G$ connected between their junction and the junction of the bottom arm; the bottom arm has two resistors $2R$ and $2R$ in series; a battery $E$ is connected between A and B] a) The equivalent resistance of the network between points A and B is independent of value of G. b) The equivalent resistance of the network between points A and B is $\\dfrac{4}{3}R$. c) The current through G is zero. Which of the above statements is/are TRUE?",
+      "options": [
+        "a) alone",
+        "b) alone",
+        "b) and c)",
+        "a), b) and c)"
+      ],
+      "answer": 3,
+      "chapter": "Current Electricity",
+      "explanation": "The bridge is balanced since $R/R=2R/2R$, so no current flows through $G$ (c true) and the resistance is independent of $G$ (a true); the equivalent resistance is then the parallel combination of the two arms $2R$ (top) and $4R$ (bottom): $\\dfrac{2R\\times4R}{2R+4R}=\\dfrac{4}{3}R$ (b true), so all three statements are true."
+    },
+    {
+      "n": 39,
+      "q": "The torque required to hold a small circular coil of 10 turns, area 1 $mm^2$ and carrying a current of $\\left(\\dfrac{21}{44}\\right)$A in the middle of a long solenoid of $10^3$ turns/m carrying a current of 2.5A, with its axis perpendicular to the axis of the solenoid is ................... [The coil is placed coaxially inside a long solenoid, with the coil's axis perpendicular to the solenoid's axis]",
+      "options": [
+        "$1.5\\times10^{-6}$ N-m",
+        "$1.5\\times10^{-8}$ N-m",
+        "$1.5\\times10^{+6}$ N-m",
+        "$1.5\\times10^{+8}$ N-m"
+      ],
+      "answer": 1,
+      "chapter": "Moving Charges and Magnetism",
+      "explanation": "Field inside solenoid $B=\\mu_0nI=4\\pi\\times10^{-7}\\times10^3\\times2.5=\\pi\\times10^{-3}$ T; torque $\\tau=NiAB=10\\times(21/44)\\times10^{-6}\\times\\pi\\times10^{-3}\\approx1.5\\times10^{-8}$ N-m."
+    },
+    {
+      "n": 40,
+      "q": "A particle of charge $e$ and mass $m$ moves with a velocity $v$ in a magnetic field $B$ applied perpendicular to the motion of the particle. The radius $r$ of its path in the field is .............",
+      "options": [
+        "$\\dfrac{mv}{Be}$",
+        "$\\dfrac{Be}{mv}$",
+        "$\\dfrac{ev}{Bm}$",
+        "$\\dfrac{Bv}{em}$"
+      ],
+      "answer": 0,
+      "chapter": "Moving Charges and Magnetism",
+      "explanation": "Equating magnetic force to centripetal force, $evB=mv^2/r$, gives $r=mv/(Be)$."
+    },
+    {
+      "n": 41,
+      "q": "A neutron, a proton, an electron and an $\\alpha$-particle enter a region of uniform magnetic field with the same velocities. The magnetic field is perpendicular and directed into the plane of the paper. The tracks of the particles are labelled in the figure. The electron follows the track ............ [Figure: all four particles enter moving upward from a common point; track C continues almost straight up (least deflection), tracks A and B curve to the left with A curving more sharply than B, and track D curves to the right]",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer": 3,
+      "chapter": "Moving Charges and Magnetism",
+      "explanation": "With velocity upward and $B$ into the page, the magnetic force $q\\vec v\\times\\vec B$ pushes positive charges (proton, $\\alpha$) to the left and the negative electron to the right, while the uncharged neutron goes straight; so the electron follows the track curving right, i.e. D."
+    },
+    {
+      "n": 42,
+      "q": "The deflection in a moving coil galvanometer is reduced to half when it is shunted with a $40\\,\\Omega$ coil. The resistance of the galvanometer is .....................",
+      "options": [
+        "$80\\,\\Omega$",
+        "$40\\,\\Omega$",
+        "$20\\,\\Omega$",
+        "$15\\,\\Omega$"
+      ],
+      "answer": 1,
+      "chapter": "Moving Charges and Magnetism",
+      "explanation": "Deflection halving means the shunt carries an equal share of current as the galvanometer, i.e. $\\dfrac{S}{G+S}=\\dfrac12 \\Rightarrow G=S=40\\,\\Omega$."
+    },
+    {
+      "n": 43,
+      "q": "A current of $\\left(\\dfrac{2}{\\sqrt3}\\right)$A produces a deflection of $60^0$ in a tangent galvanometer. The reduction factor is .................",
+      "options": [
+        "$\\left(\\dfrac{2}{\\sqrt3}\\right)$A",
+        "$\\left(\\dfrac{2}{3}\\right)$A",
+        "2 A",
+        "$\\left(\\dfrac{3}{2}\\right)$A"
+      ],
+      "answer": 1,
+      "chapter": "Moving Charges and Magnetism",
+      "explanation": "For a tangent galvanometer $I=K\\tan\\theta$, so $K=I/\\tan\\theta=(2/\\sqrt3)/\\sqrt3=2/3$ A."
+    },
+    {
+      "n": 44,
+      "q": "In an A.C. circuit, $V$ and $I$ are given by $V = 150\\,Sin(150t)$ volt and $I = 150\\,Sin\\left(150t+\\dfrac{\\pi}{3}\\right)$ ampere. The power dissipated in the circuit is .................",
+      "options": [
+        "106 W",
+        "150 W",
+        "5625 W",
+        "zero"
+      ],
+      "answer": 2,
+      "chapter": "Alternating Current",
+      "explanation": "Average power $=V_{rms}I_{rms}\\cos\\phi=\\dfrac{150}{\\sqrt2}\\times\\dfrac{150}{\\sqrt2}\\times\\cos60^0=\\dfrac{150^2}{2}\\times0.5=5625$ W."
+    },
+    {
+      "n": 45,
+      "q": "In the series L-C-R circuit shown, the impedance is ............ [Circuit: an inductor $L=1H$, a capacitor $C=20\\mu F$ and a resistor $R=300\\,\\Omega$ in series, connected to an AC source of 50 V and frequency $\\dfrac{50}{\\pi}$ Hz]",
+      "options": [
+        "$200\\,\\Omega$",
+        "$100\\,\\Omega$",
+        "$300\\,\\Omega$",
+        "$500\\,\\Omega$"
+      ],
+      "answer": 3,
+      "chapter": "Alternating Current",
+      "explanation": "$\\omega=2\\pi f=100$ rad/s; $X_L=\\omega L=100\\,\\Omega$, $X_C=1/(\\omega C)=500\\,\\Omega$; $Z=\\sqrt{R^2+(X_L-X_C)^2}=\\sqrt{300^2+400^2}=500\\,\\Omega$."
+    },
+    {
+      "n": 46,
+      "q": "The energy stored in an inductor of self inductance $L$ henry carrying a current of $I$ ampere is ............",
+      "options": [
+        "$\\dfrac{1}{2}L^2I$",
+        "$\\dfrac{1}{2}LI^2$",
+        "$LI^2$",
+        "$L^2I$"
+      ],
+      "answer": 1,
+      "chapter": "Electromagnetic Induction",
+      "explanation": "The energy stored in an inductor is $U=\\dfrac{1}{2}LI^2$."
+    },
+    {
+      "n": 47,
+      "q": "A transformer works on the principle of .................",
+      "options": [
+        "self induction",
+        "electrical inertia",
+        "mutual induction",
+        "magnetic effect of the electrical current"
+      ],
+      "answer": 2,
+      "chapter": "Alternating Current",
+      "explanation": "A transformer transfers energy between coils through mutual induction."
+    },
+    {
+      "n": 48,
+      "q": "Flash spectrum confirms a/an .................",
+      "options": [
+        "total solar eclipse",
+        "lunar eclipse",
+        "earthquake",
+        "magnetic storm"
+      ],
+      "answer": 0,
+      "chapter": "Old syllabus: Astronomy (flash spectrum)",
+      "explanation": "The flash spectrum, showing bright emission lines of the solar chromosphere, is observed for a brief moment during a total solar eclipse."
+    },
+    {
+      "n": 49,
+      "q": "The photoelectric threshold wavelength for silver is $\\lambda_0$. The energy of the electron ejected from the surface of silver by an incident wavelength $\\lambda(\\lambda<\\lambda_0)$ will be .................",
+      "options": [
+        "$hc(\\lambda_0-\\lambda)$",
+        "$\\dfrac{hc}{\\lambda_0-\\lambda}$",
+        "$\\dfrac{h}{c}\\left(\\dfrac{\\lambda_0-\\lambda}{\\lambda\\lambda_0}\\right)$",
+        "$hc\\left(\\dfrac{\\lambda_0-\\lambda}{\\lambda\\lambda_0}\\right)$"
+      ],
+      "answer": 3,
+      "chapter": "Dual Nature of Radiation and Matter",
+      "explanation": "KE $=\\dfrac{hc}{\\lambda}-\\dfrac{hc}{\\lambda_0}=hc\\left(\\dfrac{\\lambda_0-\\lambda}{\\lambda\\lambda_0}\\right)$."
+    },
+    {
+      "n": 50,
+      "q": "Rutherford's atomic model could account for .................",
+      "options": [
+        "stability of atoms",
+        "origin of spectra",
+        "the positively charged central core of an atom",
+        "concept of stationary orbits"
+      ],
+      "answer": 2,
+      "chapter": "Atoms",
+      "explanation": "Rutherford's scattering experiment established the existence of a small, positively charged, massive nucleus (central core) at the center of the atom."
+    },
+    {
+      "n": 51,
+      "q": "When an electron jumps from the orbit $n=2$ to $n=4$, then wavelength of the radiations absorbed will be ................. ($R$ is Rydberg's constant).",
+      "options": [
+        "$\\dfrac{16}{3R}$",
+        "$\\dfrac{16}{5R}$",
+        "$\\dfrac{5R}{16}$",
+        "$\\dfrac{3R}{16}$"
+      ],
+      "answer": 0,
+      "chapter": "Atoms",
+      "explanation": "$\\dfrac{1}{\\lambda}=R\\left(\\dfrac{1}{4}-\\dfrac{1}{16}\\right)=\\dfrac{3R}{16} \\Rightarrow \\lambda=\\dfrac{16}{3R}$."
+    },
+    {
+      "n": 52,
+      "q": "The thermonuclear reaction of hydrogen inside the stars is taking place by a cycle of operations. The particular element which acts as a catalyst is ...........",
+      "options": [
+        "nitrogen",
+        "oxygen",
+        "helium",
+        "carbon"
+      ],
+      "answer": 3,
+      "chapter": "Nuclei",
+      "explanation": "In the CNO cycle of stellar nucleosynthesis, carbon acts as a catalyst that is regenerated at the end of the cycle."
+    },
+    {
+      "n": 53,
+      "q": "The ratio of minimum wavelengths of Lyman and Balmer series will be .................",
+      "options": [
+        "1.25",
+        "0.25",
+        "5",
+        "10"
+      ],
+      "answer": 1,
+      "chapter": "Atoms",
+      "explanation": "Minimum (series-limit) wavelengths: $\\lambda_{Lyman}=1/R$, $\\lambda_{Balmer}=4/R$; ratio $=1/4=0.25$."
+    },
+    {
+      "n": 54,
+      "q": "The fraction of the initial number of radioactive nuclei which remain undecayed after half of a half-life of the radioactive sample is .................",
+      "options": [
+        "1/4",
+        "$\\dfrac{1}{2\\sqrt2}$",
+        "1/2",
+        "$\\dfrac{1}{\\sqrt2}$"
+      ],
+      "answer": 3,
+      "chapter": "Nuclei",
+      "explanation": "$N/N_0=(1/2)^{t/T}$; for $t=T/2$, $N/N_0=(1/2)^{1/2}=1/\\sqrt2$."
+    },
+    {
+      "n": 55,
+      "q": "1 curie represents ....................",
+      "options": [
+        "$3.7\\times10^7$ disintegrations per second",
+        "$3.7\\times10^{10}$ disintegrations per second",
+        "$10^6$ disintegrations per second",
+        "1 disintegration per second"
+      ],
+      "answer": 1,
+      "chapter": "Nuclei",
+      "explanation": "By definition, 1 curie $=3.7\\times10^{10}$ disintegrations per second."
+    },
+    {
+      "n": 56,
+      "q": "An n-p-n transistor can be considered to be equivalent to two diodes, connected. Which of the following figures is the CORRECT ONE? [Each option shows two diode symbols joined at a common base terminal B, connected to emitter E and collector C, differing only in the direction the diode arrows point relative to B]",
+      "options": [
+        "Arrow points from E towards B, and from B towards C (same direction, E to C)",
+        "Both diode arrows point away from the base B towards E and C",
+        "Both diode arrows point from E and C towards the base B",
+        "Arrow points from B towards E, and from C towards B (same direction, C to E)"
+      ],
+      "answer": 1,
+      "chapter": "Semiconductor Electronics",
+      "explanation": "In an n-p-n transistor the base is p-type while emitter and collector are n-type; a diode arrow points from p to n, so both the base-emitter and base-collector equivalent diodes have arrows pointing away from the base B towards E and C.",
+      "figure": true
+    },
+    {
+      "n": 57,
+      "q": "In the case of forward biasing of a p-n junction diode, which one of the following figures correctly depicts the direction of conventional current (indicated by an arrow mark)? [Each option shows a battery connected to a p-n junction diode with an arrow indicating the current direction, differing in arrow direction relative to the p and n regions]",
+      "options": [
+        "Current arrow points from the n-region towards the battery's negative terminal",
+        "Current arrow points from the n-region towards the battery's positive terminal",
+        "Current arrows point towards the junction from both the p and n sides",
+        "Current flows from the p-terminal through the external circuit to the n-terminal"
+      ],
+      "answer": 3,
+      "chapter": "Semiconductor Electronics",
+      "explanation": "In forward bias, conventional current flows from the p-side to the n-side inside the diode, and correspondingly in the external circuit it flows out of the p-terminal, through the circuit, and into the n-terminal (as per KEA key).",
+      "figure": true
+    },
+    {
+      "n": 58,
+      "q": "An electron of mass $m_e$ and a proton of mass $m_p$ are moving with the same speed. The ratio of their de-Broglie's wavelengths $\\lambda_e/\\lambda_p$ is .............",
+      "options": [
+        "1",
+        "1836",
+        "$\\dfrac{1}{1836}$",
+        "918"
+      ],
+      "answer": 1,
+      "chapter": "Dual Nature of Radiation and Matter",
+      "explanation": "$\\lambda=h/(mv)$, so at the same speed $\\lambda_e/\\lambda_p=m_p/m_e=1836$."
+    },
+    {
+      "n": 59,
+      "q": "The output of given logic circuit is ........... [Logic circuit: inputs A and B feed a first OR gate; inputs A and C feed a second OR gate; the outputs of both OR gates are fed into an AND gate whose output is Y]",
+      "options": [
+        "$A\\cdot(B+C)$",
+        "$A\\cdot(B\\cdot C)$",
+        "$(A+B)\\cdot(A+C)$",
+        "$A+B+C$"
+      ],
+      "answer": 2,
+      "chapter": "Semiconductor Electronics",
+      "explanation": "$Y=(A+B)\\cdot(A+C)$, which by Boolean algebra simplifies to $A+BC$."
+    },
+    {
+      "n": 60,
+      "q": "If the scattering intensity of a liquid is 8 units at a wavelength of 500 nm, then the scattering intensity at a wavelength of 400 nm will be approximately ...............",
+      "options": [
+        "13 units",
+        "16 units",
+        "20 units",
+        "24 units"
+      ],
+      "answer": 2,
+      "chapter": "Ray Optics and Optical Instruments",
+      "explanation": "By Rayleigh's law, scattering intensity $\\propto 1/\\lambda^4$; $I_2=I_1(\\lambda_1/\\lambda_2)^4=8\\times(500/400)^4\\approx20$ units."
+    }
+  ]
+}

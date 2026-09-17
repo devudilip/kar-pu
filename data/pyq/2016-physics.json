@@ -1,0 +1,794 @@
+{
+ "title": "KCET 2016 Physics",
+ "year": 2016,
+ "subject": "physics",
+ "code": "A-1",
+ "source": "KEA question paper (copy) + KEA answer key column A1",
+ "excluded": [],
+ "questions": [
+  {
+   "n": 1,
+   "q": "A body falls freely for 10 sec. Its average velocity during this journey (take g = 10 ms$^{-2}$)",
+   "options": [
+    "100 ms$^{-1}$",
+    "10 ms$^{-1}$",
+    "50 ms$^{-1}$",
+    "5 ms$^{-1}$"
+   ],
+   "answer": 2,
+   "chapter": "Motion in a Straight Line",
+   "explanation": "Average velocity for free fall from rest = $\\dfrac{1}{2}gt = \\dfrac{1}{2}(10)(10) = 50$ ms$^{-1}$."
+  },
+  {
+   "n": 2,
+   "q": "Three projectiles A, B and C are projected at an angle of 30°, 45°, 60° respectively. If $R_A$, $R_B$ and $R_C$ are ranges of A, B and C respectively, then (velocity of projection is same for A, B & C)",
+   "options": [
+    "$R_A = R_B = R_C$",
+    "$R_A = R_C > R_B$",
+    "$R_A < R_B < R_C$",
+    "$R_A = R_C < R_B$"
+   ],
+   "answer": 3,
+   "chapter": "Motion in a Plane",
+   "explanation": "Range $R \\propto \\sin(2\\theta)$: $\\sin60°=\\sin120°=0.866$ and $\\sin90°=1$, so $R_A=R_C<R_B$."
+  },
+  {
+   "n": 3,
+   "q": "The component of a vector $\\vec r$ along x-axis will have a maximum value if",
+   "options": [
+    "$\\vec r$ is along +ve x axis",
+    "$\\vec r$ is along -ve y-axis",
+    "$\\vec r$ is along -ve y-axis",
+    "$\\vec r$ makes an angle of 45° with the x-axis"
+   ],
+   "answer": 0,
+   "chapter": "Motion in a Plane",
+   "explanation": "The x-component is $r\\cos\\theta$, which is maximum ($=r$) when $\\vec r$ is along the +x axis."
+  },
+  {
+   "n": 4,
+   "q": "Maximum acceleration of the train in which a 50 kg box lying on its floor will remain stationary (Given: Co-efficient of static friction between the box and the train's floor is 0.3 and g = 10 ms$^{-2}$)",
+   "options": [
+    "5.0 ms$^{-2}$",
+    "3.0 ms$^{-2}$",
+    "1.5 ms$^{-2}$",
+    "15 ms$^{-2}$"
+   ],
+   "answer": 1,
+   "chapter": "Laws of Motion",
+   "explanation": "The box stays stationary relative to the train as long as required force $ma \\le \\mu mg$, so $a_{max} = \\mu g = 0.3 \\times 10 = 3.0$ ms$^{-2}$."
+  },
+  {
+   "n": 5,
+   "q": "A 12 kg bomb at rest explodes into two pieces of 4 kg and 8 kg. If the momentum of 4 kg piece is 20 Ns, the kinetic energy of the 8 kg piece is",
+   "options": [
+    "25 J",
+    "20 J",
+    "50 J",
+    "40 J"
+   ],
+   "answer": 0,
+   "chapter": "Work, Energy and Power",
+   "explanation": "By conservation of momentum the 8 kg piece also has momentum of magnitude 20 Ns (opposite direction). $KE = \\dfrac{p^2}{2m} = \\dfrac{20^2}{2\\times8} = 25$ J."
+  },
+  {
+   "n": 6,
+   "q": "Which of the points is likely position of the centre of mass of the system shown in the figure? [Figure: a rectangular box is divided along its diagonal into an upper-left triangular region marked 'Air' and a lower-right triangular region marked 'Sand' (much denser than air); four points A, B, C, D lie in order along the diagonal, with A nearest the Air corner and D nearest the Sand corner]",
+   "options": [
+    "A",
+    "D",
+    "B",
+    "C"
+   ],
+   "answer": 1,
+   "chapter": "System of Particles and Rotational Motion",
+   "explanation": "Since sand is far denser than air, the centre of mass of the system lies well inside the sand region, i.e. at the point closest to the sand corner along the diagonal, which is D."
+  },
+  {
+   "n": 7,
+   "q": "Three bodies a ring (R), a solid cylinder (C) and a solid sphere (S) having same mass and same radius roll down the inclined plane without slipping. They start from rest, if $v_R$, $v_C$ and $v_S$ are velocities of respective bodies on reaching the bottom of the plane, then",
+   "options": [
+    "$v_R = v_C = v_S$",
+    "$v_R > v_C > v_S$",
+    "$v_R < v_C < v_S$",
+    "$v_R = v_C > v_S$"
+   ],
+   "answer": 2,
+   "chapter": "System of Particles and Rotational Motion",
+   "explanation": "$v=\\sqrt{\\dfrac{2gh}{1+k^2/r^2}}$; $k^2/r^2$ is 1 for ring, 1/2 for cylinder, 2/5 for sphere, so the sphere is fastest and the ring slowest: $v_R<v_C<v_S$."
+  },
+  {
+   "n": 8,
+   "q": "Variation of acceleration due to gravity (g) with distance x from the centre of the earth is best represented by (R -> Radius of the earth)",
+   "options": [
+    "g decreases from a high value at x = 0 down to a minimum at x = R, then increases with x",
+    "g increases linearly from 0 at x = 0 up to x = R, then keeps increasing beyond R",
+    "g is high at x = 0 and decreases continuously (monotonically) through x = R and beyond",
+    "g increases linearly from 0 at x = 0 to a maximum at x = R, then decreases (as $1/x^2$) for x > R"
+   ],
+   "answer": 3,
+   "chapter": "Gravitation",
+   "explanation": "Inside the earth $g \\propto x$ (rises linearly from 0 at the centre), and outside $g \\propto 1/x^2$ (falls off), so g peaks at x = R."
+  },
+  {
+   "n": 9,
+   "q": "A spring is stretched by applying a load to its free end. The strain produced in the spring is",
+   "options": [
+    "Volumetric",
+    "Shear",
+    "Longitudinal & Shear",
+    "Longitudinal"
+   ],
+   "answer": 2,
+   "chapter": "Mechanical Properties of Solids",
+   "disputed": true,
+   "note": "The standard textbook answer is that stretching a helical spring twists the wire, producing pure shear strain; the KEA key credits 'Longitudinal & Shear' instead.",
+   "explanation": "Stretching a helical spring twists the wire, producing shear strain in it, but the KEA key credits 'Longitudinal & Shear' strain."
+  },
+  {
+   "n": 10,
+   "q": "An ideal fluid flows through a pipe of circular cross section with diameters 5 cm and 10 cm as shown. The ratio of velocities of fluid at A and B is [Figure: fluid enters a cone-shaped pipe at the narrow end A (diameter 5 cm) and leaves at the wide end B (diameter 10 cm)]",
+   "options": [
+    "4 : 1",
+    "1 : 4",
+    "2 : 1",
+    "1 : 2"
+   ],
+   "answer": 0,
+   "chapter": "Mechanical Properties of Fluids",
+   "explanation": "By continuity, $v \\propto 1/d^2$. $v_A/v_B = (d_B/d_A)^2 = (10/5)^2 = 4:1$."
+  },
+  {
+   "n": 11,
+   "q": "A pan filled with hot food cools from 94°C to 86°C in 2 minutes. When the room temperature is 20°C. How long will it cool from 74°C to 66°C?",
+   "options": [
+    "2 minutes",
+    "2.8 minutes",
+    "2.5 minutes",
+    "1.8 minutes"
+   ],
+   "answer": 1,
+   "chapter": "Thermal Properties of Matter",
+   "explanation": "By Newton's law of cooling, $\\dfrac{\\Delta T}{t}=k\\left(T_{avg}-T_0\\right)$. First case: $4/2=k(90-20)\\Rightarrow k=1/35$. Second case: $8/t=\\dfrac{1}{35}(70-20)\\Rightarrow t=8\\times35/50=2.8$ minutes."
+  },
+  {
+   "n": 12,
+   "q": "Four rods with different radii r and length l are used to connect two heat reservoirs at different temperature. Which one will conduct most heat?",
+   "options": [
+    "r = 1 cm, l = 1 m",
+    "r = 1 cm, l = 1/2 m",
+    "r = 2 cm, l = 2 m",
+    "r = 2 cm, l = 1/2 m"
+   ],
+   "answer": 3,
+   "chapter": "Thermal Properties of Matter",
+   "explanation": "Heat conducted $\\propto \\dfrac{r^2}{l}$. Computing $r^2/l$ for each: 1, 2, 2, 8. Option (4) gives the largest value, so it conducts most heat."
+  },
+  {
+   "n": 13,
+   "q": "A Carnot engine working between 300 K and 400 K has 800 J of useful work. The amount of heat energy supplied to the engine from the source is",
+   "options": [
+    "2400 J",
+    "3200 J",
+    "1200 J",
+    "3600 J"
+   ],
+   "answer": 1,
+   "chapter": "Thermodynamics",
+   "explanation": "Efficiency $\\eta = 1-\\dfrac{300}{400}=0.25$. $Q_h = W/\\eta = 800/0.25 = 3200$ J."
+  },
+  {
+   "n": 14,
+   "q": "A particle executing SHM has a maximum speed of 0.5 ms$^{-1}$ and maximum acceleration of 1.0 ms$^{-2}$. The angular frequency of oscillation is",
+   "options": [
+    "2 rad s$^{-1}$",
+    "0.5 rad s$^{-1}$",
+    "2$\\pi$ rad s$^{-1}$",
+    "0.5$\\pi$ rad s$^{-1}$"
+   ],
+   "answer": 0,
+   "chapter": "Oscillations",
+   "explanation": "$v_{max}=A\\omega$, $a_{max}=A\\omega^2$, so $\\omega = a_{max}/v_{max} = 1.0/0.5 = 2$ rad s$^{-1}$."
+  },
+  {
+   "n": 15,
+   "q": "A source of sound is moving with a velocity of 50 ms$^{-1}$ towards a stationary observer. The observer measures the frequency of sound as 500 Hz. The apparent frequency of sound as heard by the observer when source is moving away from him with the same speed is (Speed of sound at room temperature 350 ms$^{-1}$)",
+   "options": [
+    "400 Hz",
+    "666 Hz",
+    "375 Hz",
+    "177.5 Hz"
+   ],
+   "answer": 2,
+   "chapter": "Waves",
+   "explanation": "Approaching: $500=f_0\\dfrac{350}{350-50}=f_0\\dfrac{7}{6}\\Rightarrow f_0=428.6$ Hz. Receding: $f'=f_0\\dfrac{350}{350+50}=428.6\\times\\dfrac{7}{8}\\approx375$ Hz."
+  },
+  {
+   "n": 16,
+   "q": "If there are only one type of charge in the universe, then ($\\vec E$ -> Electric field, $\\vec{ds}$ -> Area vector)",
+   "options": [
+    "$\\oint \\vec E \\cdot \\vec{ds} \\ne 0$ on any surface",
+    "$\\oint \\vec E \\cdot \\vec{ds}$ could not be defined",
+    "$\\oint \\vec E \\cdot \\vec{ds} = \\infty$ if charge is inside",
+    "$\\oint \\vec E \\cdot \\vec{ds} = 0$ if charge is outside, $=q/\\epsilon_0$ if charge is inside"
+   ],
+   "answer": 3,
+   "chapter": "Electric Charges and Fields",
+   "explanation": "Gauss's law $\\oint \\vec E\\cdot\\vec{ds}=q_{enc}/\\epsilon_0$ holds regardless of the sign/type of charge, giving 0 when no charge is enclosed and $q/\\epsilon_0$ when charge is inside; KEA awarded a grace mark to all candidates for this question, likely due to the ambiguous framing.",
+   "grace": true
+  },
+  {
+   "n": 17,
+   "q": "An electron of mass m, charge e falls through a distance h meter in a uniform electric field E. Then time of fall",
+   "options": [
+    "$t=\\sqrt{\\dfrac{2hm}{eE}}$",
+    "$t=\\dfrac{2hm}{eE}$",
+    "$t=\\sqrt{\\dfrac{2eE}{hm}}$",
+    "$t=\\dfrac{2eE}{hm}$"
+   ],
+   "answer": 0,
+   "chapter": "Electric Charges and Fields",
+   "explanation": "Acceleration $a=eE/m$; using $h=\\dfrac{1}{2}at^2$, $t=\\sqrt{2hm/(eE)}$."
+  },
+  {
+   "n": 18,
+   "q": "If $\\vec E_{ax}$ and $\\vec E_{eq}$ represents electric field at a point on the axial and equatorial line of a dipole. If points are at a distance r from the centre of the dipole, for $r \\gg a$",
+   "options": [
+    "$\\vec E_{ax} = \\vec E_{eq}$",
+    "$\\vec E_{ax} = -\\vec E_{eq}$",
+    "$\\vec E_{ax} = 2\\vec E_{eq}$",
+    "$\\vec E_{eq} = 2\\vec E_{ax}$"
+   ],
+   "answer": 2,
+   "chapter": "Electric Charges and Fields",
+   "explanation": "$E_{ax}=\\dfrac{2kp}{r^3}$ and $E_{eq}=\\dfrac{kp}{r^3}$, so $E_{ax}=2E_{eq}$."
+  },
+  {
+   "n": 19,
+   "q": "Nature of equipotential surface for a point charge is",
+   "options": [
+    "Ellipsoid with charge at foci.",
+    "Sphere with charge at the centre of the sphere.",
+    "Sphere with charge on the surface of the sphere.",
+    "Plane with charge on the surface."
+   ],
+   "answer": 1,
+   "chapter": "Electrostatic Potential and Capacitance",
+   "explanation": "For a point charge, potential $V=kq/r$ is constant on any sphere centred at the charge, so equipotential surfaces are concentric spheres with the charge at the centre."
+  },
+  {
+   "n": 20,
+   "q": "A particle of mass 1 gm and charge 1 $\\mu$C is held at rest on a frictionless horizontal surface at distance 1 m from the fixed charge 2 mC. If the particle is released, it will be repelled. The speed of the particle when it is at a distance of 10 m from the fixed charge",
+   "options": [
+    "60 ms$^{-1}$",
+    "100 ms$^{-1}$",
+    "90 ms$^{-1}$",
+    "180 ms$^{-1}$"
+   ],
+   "answer": 3,
+   "chapter": "Electrostatic Potential and Capacitance",
+   "explanation": "By energy conservation, $\\dfrac{1}{2}mv^2=kQq\\left(\\dfrac1{r_1}-\\dfrac1{r_2}\\right)=9\\times10^9\\times2\\times10^{-3}\\times10^{-6}(1-0.1)=16.2$ J, giving $v=\\sqrt{2\\times16.2/10^{-3}}=180$ ms$^{-1}$."
+  },
+  {
+   "n": 21,
+   "q": "A capacitor of 8 F is connected as shown. Charge on the plates of the capacitor [Figure: three parallel branches between the same two nodes — top branch: 8 F capacitor in series with 20 Ω; middle branch: 4 Ω resistor; bottom branch: 5 V cell in series with 1 Ω]",
+   "options": [
+    "32 C",
+    "40 C",
+    "0 C",
+    "80 C"
+   ],
+   "answer": 0,
+   "chapter": "Electrostatic Potential and Capacitance",
+   "explanation": "In steady state no current flows in the capacitor branch, so no drop across its 20 Ω; the capacitor sees the same voltage as across the 4 Ω branch. Current in the 5 V loop: $I=5/(1+4)=1$ A, so voltage across the 4 Ω (= across capacitor) is 4 V. Charge $=CV=8\\times4=32$ C."
+  },
+  {
+   "n": 22,
+   "q": "Four metal plates are arranged as shown. Capacitance between X and Y (A -> Area of each plate, d -> distance between the plates) [Figure: four identical parallel plates 1, 2, 3, 4 stacked with equal spacing d; plate 1 connects to X, plate 3 connects to Y, and plates 2 and 4 are joined together by a connecting wire]",
+   "options": [
+    "$\\dfrac{3}{2}\\dfrac{\\epsilon_0 A}{d}$",
+    "$\\dfrac{2\\epsilon_0 A}{d}$",
+    "$\\dfrac{2}{3}\\dfrac{\\epsilon_0 A}{d}$",
+    "$\\dfrac{3\\epsilon_0 A}{d}$"
+   ],
+   "answer": 2,
+   "chapter": "Electrostatic Potential and Capacitance",
+   "explanation": "With plates 2 and 4 tied together as a common node M, the gap 1-2 gives a capacitor $C_0=\\epsilon_0A/d$ between X and M, while the gaps 2-3 and 3-4 give two capacitors $C_0$ in parallel between M and Y (total $2C_0$); these combine in series (X-M-Y) to give $C_{eq}=\\dfrac{C_0\\cdot2C_0}{C_0+2C_0}=\\dfrac{2}{3}C_0$."
+  },
+  {
+   "n": 23,
+   "q": "Mobility of free electrons in a conductor is",
+   "options": [
+    "directly proportional to electron density.",
+    "directly proportional to relaxation time.",
+    "inversely proportional to electron density.",
+    "inversely proportional to relaxation time."
+   ],
+   "answer": 1,
+   "chapter": "Current Electricity",
+   "explanation": "Mobility $\\mu = e\\tau/m$, so it is directly proportional to the relaxation time $\\tau$."
+  },
+  {
+   "n": 24,
+   "q": "Variation of resistance of the conductor with temperature is as shown [Figure: a straight-line graph of R vs T with y-intercept $R_0$ at $T_0$ and slope m]. The temperature co-efficient ($\\alpha$) of the conductor is",
+   "options": [
+    "$\\dfrac{R_0}{m}$",
+    "$mR_0$",
+    "$m^2R_0$",
+    "$\\dfrac{m}{R_0}$"
+   ],
+   "answer": 3,
+   "chapter": "Current Electricity",
+   "explanation": "$R=R_0[1+\\alpha(T-T_0)]=R_0+(R_0\\alpha)(T-T_0)$, so slope $m=R_0\\alpha$, giving $\\alpha=m/R_0$."
+  },
+  {
+   "n": 25,
+   "q": "Potential difference between A and B in the following circuit [Figure: a single loop with, going from left to right along the top: a 6 V cell, a 2 Ω resistor, point A, a 4 V cell, an 8 Ω resistor, then point B; the loop is completed by a plain wire on the other three sides; the two cells oppose each other around the loop]",
+   "options": [
+    "4 V",
+    "5.6 V",
+    "2.8 V",
+    "6 V"
+   ],
+   "answer": 1,
+   "chapter": "Current Electricity",
+   "explanation": "Since the two cells oppose each other around the loop, the net EMF is $6-4=2$ V driving current $I=\\dfrac{2}{2+8}=0.2$ A. Going from A to B (with the current) through the 4 V cell (a 4 V drop, since it opposes the current) and the 8 Ω resistor (a further $0.2\\times8=1.6$ V drop) gives $V_A-V_B=4+1.6=5.6$ V."
+  },
+  {
+   "n": 26,
+   "q": "In the following network potential at 'O' [Figure: three resistors meet at a common node O — a 2 Ω resistor connects O to point A held at 8 V, a 4 Ω resistor connects O to point B held at 4 V, and a 2 Ω resistor connects O to point C held at 2 V]",
+   "options": [
+    "4 V",
+    "3 V",
+    "6 V",
+    "4.8 V"
+   ],
+   "answer": 3,
+   "chapter": "Current Electricity",
+   "explanation": "By Millman's theorem, $V_O=\\dfrac{8/2+4/4+2/2}{1/2+1/4+1/2}=\\dfrac{4+1+1}{1.25}=4.8$ V."
+  },
+  {
+   "n": 27,
+   "q": "Effective resistance between A and B in the following circuit [Figure: a symmetric network of six 10 Ω resistors forming two triangular meshes joined by three connecting resistors, with A and B being the two adjacent nodes on the middle connecting rung]",
+   "options": [
+    "10 Ω",
+    "20 Ω",
+    "5 Ω",
+    "$\\dfrac{20}{3}$ Ω"
+   ],
+   "answer": 0,
+   "chapter": "Current Electricity",
+   "explanation": "Injecting a current at A and extracting it at B and solving the node equations for this network of six 10 Ω resistors shows the two top-corner and left nodes all settle to the same potential by symmetry, and the effective resistance between A and B works out to 10 Ω."
+  },
+  {
+   "n": 28,
+   "q": "Two heating coils of resistances 10 Ω and 20 Ω are connected in parallel and connected to a battery of emf 12 V and internal resistance 1 Ω. The power consumed by them are in the ratio",
+   "options": [
+    "1 : 4",
+    "1 : 3",
+    "2 : 1",
+    "4 : 1"
+   ],
+   "answer": 2,
+   "chapter": "Current Electricity",
+   "explanation": "The two coils have the same voltage across them (parallel), so $P \\propto 1/R$; ratio $P_{10}:P_{20} = 20:10 = 2:1$."
+  },
+  {
+   "n": 29,
+   "q": "A proton is projected with a uniform velocity 'v' along the axis of a current carrying solenoid, then",
+   "options": [
+    "the proton will be accelerated along the axis.",
+    "the proton path will be circular about the axis.",
+    "the proton move along helical path.",
+    "the proton will continue to move with velocity 'v' along the axis."
+   ],
+   "answer": 3,
+   "chapter": "Moving Charges and Magnetism",
+   "explanation": "Inside the solenoid $\\vec B$ is along the axis; since $\\vec v \\parallel \\vec B$, the magnetic force $q\\vec v \\times \\vec B = 0$, so the proton moves unaffected with velocity v along the axis."
+  },
+  {
+   "n": 30,
+   "q": "In the cyclotron, as radius of the circular path of the charged particle increases ($\\omega$ = angular velocity, v = linear velocity)",
+   "options": [
+    "both $\\omega$ and v increases",
+    "$\\omega$ only increases, v remains constant",
+    "v increases, $\\omega$ remains constant",
+    "v increases, $\\omega$ decreases"
+   ],
+   "answer": 2,
+   "chapter": "Moving Charges and Magnetism",
+   "explanation": "In a cyclotron $\\omega = qB/m$ is independent of radius (constant), while $v=\\omega r$ increases as r increases."
+  },
+  {
+   "n": 31,
+   "q": "A conducting wire carrying current is arranged as shown. The magnetic field at 'O' [Figure: two straight radial wire segments meet at a point away from O making an angle of 60° between them as seen from O, and are joined by a circular arc; the two straight segments (extended) would pass through O and lie at radii $R_1$ (outer arc) and $R_2$ (inner arc) from O, with current i flowing along one radial segment, around the arc, and back along the other radial segment]",
+   "options": [
+    "$\\dfrac{\\mu_0 i}{12}\\left[\\dfrac{1}{R_1}-\\dfrac{1}{R_2}\\right]$",
+    "$\\dfrac{\\mu_0 i}{12}\\left[\\dfrac{1}{R_1}+\\dfrac{1}{R_2}\\right]$",
+    "$\\dfrac{\\mu_0 i}{6}\\left[\\dfrac{1}{R_1}-\\dfrac{1}{R_2}\\right]$",
+    "$\\dfrac{\\mu_0 i}{6}\\left[\\dfrac{1}{R_1}+\\dfrac{1}{R_2}\\right]$"
+   ],
+   "answer": 0,
+   "chapter": "Moving Charges and Magnetism",
+   "explanation": "The straight radial segments produce no field at O; the two arcs (angle $60°=\\pi/3$) carry current in opposite sense about O, giving $B=\\dfrac{\\mu_0 i\\theta}{4\\pi}\\left[\\dfrac1{R_1}-\\dfrac1{R_2}\\right]=\\dfrac{\\mu_0 i}{12}\\left[\\dfrac1{R_1}-\\dfrac1{R_2}\\right]$."
+  },
+  {
+   "n": 32,
+   "q": "The quantity of a charge that will be transferred by a current flow of 20 A over 1 hour 30 minutes period is",
+   "options": [
+    "$10.8\\times10^3$ C",
+    "$10.8\\times10^4$ C",
+    "$5.4\\times10^3$ C",
+    "$1.8\\times10^4$ C"
+   ],
+   "answer": 1,
+   "chapter": "Current Electricity",
+   "explanation": "$Q=It=20\\times(1.5\\times3600)=20\\times5400=1.08\\times10^5=10.8\\times10^4$ C."
+  },
+  {
+   "n": 33,
+   "q": "A galvanometer coil has a resistance of 50 $\\Omega$ and the meter shows full scale deflection for a current of 5 mA. This galvanometer is converted into voltmeter of range 0 - 20 V by connecting",
+   "options": [
+    "3950 $\\Omega$ in series with galvanometer",
+    "4050 $\\Omega$ in series with galvanometer",
+    "3950 $\\Omega$ in parallel with galvanometer",
+    "4050 $\\Omega$ in parallel with galvanometer"
+   ],
+   "answer": 0,
+   "chapter": "Moving Charges and Magnetism",
+   "explanation": "Series resistance $R=\\dfrac{V}{I_g}-G=\\dfrac{20}{5\\times10^{-3}}-50=4000-50=3950\\,\\Omega$."
+  },
+  {
+   "n": 34,
+   "q": "$\\chi_1$ and $\\chi_2$ are susceptibility of a paramagnetic material at temperatures $T_1$K and $T_2$K respectively, then",
+   "options": [
+    "$\\chi_1 > \\chi_2$",
+    "$\\chi_1 T_1 = \\chi_2 T_2$",
+    "$\\chi_1 T_2 = \\chi_2 T_1$",
+    "$\\chi_1\\sqrt{T_1} = \\chi_2\\sqrt{T_2}$"
+   ],
+   "answer": 1,
+   "chapter": "Magnetism and Matter",
+   "explanation": "By Curie's law, $\\chi \\propto 1/T$, so $\\chi_1 T_1 = \\chi_2 T_2$ (= Curie constant)."
+  },
+  {
+   "n": 35,
+   "q": "At certain place, the horizontal component of earth's magnetic field is 3.0 G and the angle dip at that place is 30°. The magnetic field of earth at that location",
+   "options": [
+    "4.5 G",
+    "5.1 G",
+    "3.5 G",
+    "6.0 G"
+   ],
+   "answer": 2,
+   "chapter": "Magnetism and Matter",
+   "explanation": "$B=\\dfrac{H}{\\cos\\delta}=\\dfrac{3.0}{\\cos30°}=\\dfrac{3.0}{0.866}\\approx3.5$ G."
+  },
+  {
+   "n": 36,
+   "q": "The process of super imposing message signal on high frequency carrier wave is called",
+   "options": [
+    "Amplification",
+    "Demodulation",
+    "Transmission",
+    "Modulation"
+   ],
+   "answer": 3,
+   "chapter": "Old syllabus: Communication Systems",
+   "explanation": "Superimposing a message signal on a high-frequency carrier wave is called modulation."
+  },
+  {
+   "n": 37,
+   "q": "A long solenoid with 40 turns per cm carries a current of 1 A. The magnetic energy stored per unit volume is _______ J/m$^3$.",
+   "options": [
+    "3.2$\\pi$",
+    "32$\\pi$",
+    "1.6$\\pi$",
+    "6.4$\\pi$"
+   ],
+   "answer": 0,
+   "chapter": "Moving Charges and Magnetism",
+   "explanation": "$u=\\dfrac{1}{2}\\mu_0 n^2 I^2 = \\dfrac{1}{2}(4\\pi\\times10^{-7})(4000)^2(1)^2 = 3.2\\pi$ J/m$^3$."
+  },
+  {
+   "n": 38,
+   "q": "A wheel with 10 spokes each of length 'L' m is rotated with a uniform angular velocity '$\\omega$' in a plane normal to the magnetic field 'B'. The emf induced between the axle and the rim of the wheel.",
+   "options": [
+    "$\\dfrac{1}{2}N\\omega BL^2$",
+    "$\\dfrac{1}{2}\\omega BL^2$",
+    "$\\omega BL^2$",
+    "$N\\omega BL^2$"
+   ],
+   "answer": 1,
+   "chapter": "Electromagnetic Induction",
+   "explanation": "Each spoke is a rotating rod of length L generating the same emf $\\dfrac{1}{2}B\\omega L^2$; since all spokes are in parallel (identical emf sources between axle and rim), the net emf equals that of a single spoke, independent of the number of spokes N."
+  },
+  {
+   "n": 39,
+   "q": "The rms value of current in a 50 Hz AC circuit is 6 A. The average value of AC current over a cycle is",
+   "options": [
+    "$6\\sqrt{2}$",
+    "$\\dfrac{3}{\\pi\\sqrt2}$",
+    "Zero",
+    "$\\dfrac{6}{\\pi\\sqrt2}$"
+   ],
+   "answer": 2,
+   "chapter": "Alternating Current",
+   "explanation": "The average of a sinusoidal current over one complete cycle is always zero."
+  },
+  {
+   "n": 40,
+   "q": "A capacitor of capacitance 10 $\\mu$F is connected to an AC source and an AC Ammeter. If the source voltage varies as V = $50\\sqrt2\\sin100t$, the reading of the ammeter is",
+   "options": [
+    "50 mA",
+    "70.7 mA",
+    "5.0 mA",
+    "7.07 mA"
+   ],
+   "answer": 0,
+   "chapter": "Alternating Current",
+   "explanation": "$X_C=\\dfrac{1}{\\omega C}=\\dfrac{1}{100\\times10\\times10^{-6}}=1000\\,\\Omega$. $I_{rms}=\\dfrac{V_{rms}}{X_C}=\\dfrac{50}{1000}=50$ mA."
+  },
+  {
+   "n": 41,
+   "q": "In a series L.C.R circuit, the potential drop across L, C and R respectively are 40 V, 120 V and 60 V. Then the source voltage is",
+   "options": [
+    "220 V",
+    "160 V",
+    "180 V",
+    "100 V"
+   ],
+   "answer": 3,
+   "chapter": "Alternating Current",
+   "explanation": "$V=\\sqrt{V_R^2+(V_L-V_C)^2}=\\sqrt{60^2+(40-120)^2}=\\sqrt{3600+6400}=100$ V."
+  },
+  {
+   "n": 42,
+   "q": "In a series L.C.R. circuit an alternating emf (v) and current (i) are given by the equation $v=v_0\\sin\\omega t$, $i=i_0\\sin\\left(\\omega t+\\dfrac{\\pi}{3}\\right)$. The average power dissipated in the circuit over a cycle of AC is",
+   "options": [
+    "$\\dfrac{v_0 i_0}{2}$",
+    "$\\dfrac{v_0 i_0}{4}$",
+    "$\\dfrac{\\sqrt3}{2}v_0i_0$",
+    "Zero"
+   ],
+   "answer": 1,
+   "chapter": "Alternating Current",
+   "explanation": "$P_{avg}=\\dfrac{1}{2}v_0i_0\\cos\\phi=\\dfrac{1}{2}v_0i_0\\cos60°=\\dfrac{v_0i_0}{4}$."
+  },
+  {
+   "n": 43,
+   "q": "Electromagnetic radiation used to sterilise milk is",
+   "options": [
+    "X-ray",
+    "$\\gamma$-ray",
+    "UV rays",
+    "Radiowaves"
+   ],
+   "answer": 2,
+   "chapter": "Electromagnetic Waves",
+   "explanation": "Ultraviolet (UV) rays are commonly used for sterilisation of milk and water."
+  },
+  {
+   "n": 44,
+   "q": "A plane glass plate is placed over a various coloured letters (violet, green, yellow, red). The letter which appears to raised more",
+   "options": [
+    "Red",
+    "Yellow",
+    "Green",
+    "Violet"
+   ],
+   "answer": 3,
+   "chapter": "Ray Optics and Optical Instruments",
+   "explanation": "Apparent shift $=t(1-1/n)$ increases with refractive index n; violet has the highest refractive index, so it appears raised the most."
+  },
+  {
+   "n": 45,
+   "q": "A ray of light passes through four transparent media with refractive index $n_1$, $n_2$, $n_3$ and $n_4$ as shown. The surfaces of all media are parallel [Figure: a ray enters medium $n_1$ at A, refracts successively at the parallel interfaces (points B, C, D) into media $n_2$, $n_3$, $n_4$, and emerges as ray DE]. If the emergent ray DE is parallel to incident ray AB, then",
+   "options": [
+    "$n_1 = n_4$",
+    "$n_2 = n_4$",
+    "$n_3 = n_4$",
+    "$n_1=\\dfrac{n_2+n_3+n_4}{3}$"
+   ],
+   "answer": 0,
+   "chapter": "Ray Optics and Optical Instruments",
+   "explanation": "For parallel slabs, $n_1\\sin\\theta_1=n_4\\sin\\theta_4$; since DE is parallel to AB the angles are equal, so $n_1=n_4$."
+  },
+  {
+   "n": 46,
+   "q": "Focal length of a convex lens is 20 cm and its RI is 1.5. It produces an erect, enlarged image if the distance of the object from the lens is",
+   "options": [
+    "40 cm",
+    "30 cm",
+    "15 cm",
+    "20 cm"
+   ],
+   "answer": 2,
+   "chapter": "Ray Optics and Optical Instruments",
+   "explanation": "An erect, enlarged (virtual) image is formed by a convex lens only when the object lies between the lens and its focus, i.e. u < f = 20 cm; only 15 cm satisfies this."
+  },
+  {
+   "n": 47,
+   "q": "A ray of light suffers a minimum deviation when incident on an equilateral prism of refractive index $\\sqrt2$. The angle of incidence is",
+   "options": [
+    "30°",
+    "45°",
+    "60°",
+    "50°"
+   ],
+   "answer": 1,
+   "chapter": "Ray Optics and Optical Instruments",
+   "explanation": "$\\mu=\\dfrac{\\sin\\left(\\frac{A+D_m}{2}\\right)}{\\sin(A/2)}$; with A = 60°, $\\sin(A/2)=0.5$, so $\\sin\\left(\\frac{60+D_m}{2}\\right)=\\sqrt2\\times0.5=0.707\\Rightarrow \\frac{60+D_m}{2}=45°$, so $D_m=30°$. Angle of incidence $i=\\frac{A+D_m}{2}=45°$."
+  },
+  {
+   "n": 48,
+   "q": "In Young's double slit experiment the source is white light. One slit is covered with red filter and the other with blue filter. There shall be",
+   "options": [
+    "Alternate red & blue fringes",
+    "Alternate dark & pink fringes",
+    "Alternate dark & yellow fringes",
+    "No interference"
+   ],
+   "answer": 3,
+   "chapter": "Wave Optics",
+   "explanation": "Since the two slits now emit light of different wavelengths (colours), they are not coherent with a fixed phase relation for interference, so no stationary interference fringe pattern is observed."
+  },
+  {
+   "n": 49,
+   "q": "Light of wavelength 600 nm is incident normally on a slit of width 0.2 mm. The angular width of central maxima in the diffraction pattern is (measured from minimum to minimum)",
+   "options": [
+    "$6\\times10^{-3}$ rad",
+    "$4\\times10^{-3}$ rad",
+    "$2.4\\times10^{-3}$ rad",
+    "$4.5\\times10^{-3}$ rad"
+   ],
+   "answer": 0,
+   "chapter": "Wave Optics",
+   "explanation": "Angular width (min to min) $=\\dfrac{2\\lambda}{a}=\\dfrac{2\\times600\\times10^{-9}}{0.2\\times10^{-3}}=6\\times10^{-3}$ rad."
+  },
+  {
+   "n": 50,
+   "q": "For what distance is ray optics a good approximation when the aperture is 4 mm and the wavelength of light is 400 nm ?",
+   "options": [
+    "24 m",
+    "40 m",
+    "18 m",
+    "30 m"
+   ],
+   "answer": 1,
+   "grace": true,
+   "chapter": "Wave Optics",
+   "explanation": "Ray optics is a good approximation up to the Fresnel distance $z_F=\\dfrac{a^2}{\\lambda}=\\dfrac{(4\\times10^{-3})^2}{400\\times10^{-9}}=40$ m; the KEA key credited all four options (grace mark for everyone)."
+  },
+  {
+   "n": 51,
+   "q": "The variation of photo-current with collector potential for different frequencies of incident radiation $\\nu_1$, $\\nu_2$ and $\\nu_3$ is as shown in the graph, then [Figure: three photoelectric saturation curves reach the same saturation current but have different stopping (retarding) potentials $V_{01}$, $V_{02}$, $V_{03}$; the curve for $\\nu_3$ has the most negative (largest magnitude) stopping potential $V_{03}$, followed by $\\nu_2$ at $V_{02}$, and $\\nu_1$ has the smallest stopping potential $V_{01}$ closest to zero]",
+   "options": [
+    "$\\nu_1 = \\nu_2 = \\nu_3$",
+    "$\\nu_1 > \\nu_2 > \\nu_3$",
+    "$\\nu_1 < \\nu_2 < \\nu_3$",
+    "$\\nu_3=\\dfrac{\\nu_1+\\nu_2}{2}$"
+   ],
+   "answer": 2,
+   "chapter": "Dual Nature of Radiation and Matter",
+   "explanation": "A larger stopping potential means larger maximum kinetic energy, hence higher frequency; since $|V_{03}|>|V_{02}|>|V_{01}|$, we get $\\nu_3>\\nu_2>\\nu_1$, i.e. $\\nu_1<\\nu_2<\\nu_3$."
+  },
+  {
+   "n": 52,
+   "q": "The de Broglie wavelength of an electron accelerated to a potential of 400 V is approximately",
+   "options": [
+    "0.03 nm",
+    "0.04 nm",
+    "0.12 nm",
+    "0.06 nm"
+   ],
+   "answer": 3,
+   "chapter": "Dual Nature of Radiation and Matter",
+   "explanation": "$\\lambda=\\dfrac{1.227}{\\sqrt V}$ nm $=\\dfrac{1.227}{\\sqrt{400}}=\\dfrac{1.227}{20}\\approx0.06$ nm."
+  },
+  {
+   "n": 53,
+   "q": "Total energy of electron in an excited state of hydrogen atom is -3.4 eV. The kinetic and potential energy of electron in this state",
+   "options": [
+    "K = -3.4 eV, U = -6.8 eV",
+    "K = 3.4 eV, U = -6.8 eV",
+    "K = -6.8 eV, U = +3.4 eV",
+    "K = +10.2 eV, U = -13.6 eV"
+   ],
+   "answer": 1,
+   "chapter": "Atoms",
+   "explanation": "For the Bohr model, $K=-E=3.4$ eV and $U=2E=-6.8$ eV."
+  },
+  {
+   "n": 54,
+   "q": "When electron jumps from n = 4 level to n = 1 level, the angular momentum of electron changes by",
+   "options": [
+    "$\\dfrac{h}{2\\pi}$",
+    "$\\dfrac{2h}{2\\pi}$",
+    "$\\dfrac{3h}{2\\pi}$",
+    "$\\dfrac{4h}{2\\pi}$"
+   ],
+   "answer": 2,
+   "chapter": "Atoms",
+   "explanation": "$L_n=\\dfrac{nh}{2\\pi}$. $\\Delta L=L_4-L_1=\\dfrac{4h}{2\\pi}-\\dfrac{h}{2\\pi}=\\dfrac{3h}{2\\pi}$."
+  },
+  {
+   "n": 55,
+   "q": "A radio-active sample of half-life 10 days contains 1000 x nuclei. Number of original nuclei present after 5 days is",
+   "options": [
+    "707 x",
+    "750 x",
+    "500 x",
+    "250 x"
+   ],
+   "answer": 0,
+   "chapter": "Nuclei",
+   "explanation": "$N=N_0\\left(\\dfrac12\\right)^{t/T}=1000x\\left(\\dfrac12\\right)^{5/10}=1000x/\\sqrt2\\approx707x$."
+  },
+  {
+   "n": 56,
+   "q": "An element X decays into element Z by two-step process. X $\\longrightarrow$ Y + $^4_2$He, Y $\\longrightarrow$ Z + 2$\\bar e$ then",
+   "options": [
+    "X & Z are isobars.",
+    "X & Y are isotopes.",
+    "X & Z are isotones.",
+    "X & Z are isotopes."
+   ],
+   "answer": 3,
+   "chapter": "Nuclei",
+   "explanation": "Alpha decay reduces mass number by 4 and atomic number by 2 (X to Y); two beta decays each raise atomic number by 1 with no change in mass number (Y to Z), restoring the atomic number to that of X but keeping mass number 4 less, so X and Z are isotopes."
+  },
+  {
+   "n": 57,
+   "q": "A nucleus of mass 20 u emits a $\\gamma$ photon of energy 6 MeV. If the emission assume to occur when nucleus is free and rest, then the nucleus will have kinetic energy nearest to (take 1u = $1.6\\times10^{-27}$ kg)",
+   "options": [
+    "10 KeV",
+    "1 KeV",
+    "0.1 KeV",
+    "100 KeV"
+   ],
+   "answer": 1,
+   "chapter": "Nuclei",
+   "explanation": "By momentum conservation, recoil momentum $p=E_\\gamma/c$. $KE=\\dfrac{p^2}{2M}=\\dfrac{(E_\\gamma/c)^2}{2M}$; substituting $E_\\gamma=6$ MeV and $M=20\\times1.6\\times10^{-27}$ kg gives $KE\\approx1$ KeV."
+  },
+  {
+   "n": 58,
+   "q": "Constant DC voltage is required from a variable AC voltage. Which of the following is correct order of operation?",
+   "options": [
+    "Regulator, filter, rectifier",
+    "Rectifier, regulator, filter",
+    "Rectifier, filter, regulator",
+    "Filter, regulator, rectifier"
+   ],
+   "answer": 2,
+   "chapter": "Semiconductor Electronics",
+   "explanation": "The AC is first rectified, then filtered to smooth the ripples, and finally regulated to give a constant DC output: Rectifier, Filter, Regulator."
+  },
+  {
+   "n": 59,
+   "q": "In a transistor, the collector current varies by 0.49 mA and emitter current varies by 0.50 mA. Current gain $\\beta$ measured is",
+   "options": [
+    "49",
+    "150",
+    "99",
+    "100"
+   ],
+   "answer": 0,
+   "chapter": "Semiconductor Electronics",
+   "explanation": "$\\Delta I_B=\\Delta I_E-\\Delta I_C=0.50-0.49=0.01$ mA. $\\beta=\\Delta I_C/\\Delta I_B=0.49/0.01=49$."
+  },
+  {
+   "n": 60,
+   "q": "Identify the logic operation carried out by the following circuit. [Figure: input A is fed into both inputs of a NAND gate (acting as a NOT gate) to give NOT A; input B is similarly fed into both inputs of another NAND gate to give NOT B; NOT A and NOT B are then fed into a third NAND gate whose output is Y]",
+   "options": [
+    "AND",
+    "NAND",
+    "NOR",
+    "OR"
+   ],
+   "answer": 3,
+   "chapter": "Semiconductor Electronics",
+   "explanation": "$Y=\\overline{\\bar A \\cdot \\bar B} = A+B$ by De Morgan's theorem, so the circuit performs the OR operation."
+  }
+ ]
+}

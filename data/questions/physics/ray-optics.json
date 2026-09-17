@@ -1,0 +1,526 @@
+{
+  "notes": "<h3>Sign convention (Cartesian)</h3><p>Distances measured from the pole/optical centre; along incident light positive. Real object: $u$ negative. Concave mirror / convex lens: $f$ negative / positive respectively.</p><h3>Mirrors</h3><ul><li>$\\dfrac1v + \\dfrac1u = \\dfrac1f$, $f = R/2$, magnification $m = -\\dfrac{v}{u}$.</li><li>Concave mirror: object beyond $C$ → image between $F$ and $C$, real, inverted, diminished; between $F$ and $P$ → virtual, erect, magnified. Convex mirror: always virtual, erect, diminished.</li></ul><h3>Refraction</h3><ul><li>Snell's law $n_1\\sin i = n_2\\sin r$; $n = c/v = \\dfrac{\\text{real depth}}{\\text{apparent depth}}$.</li><li>Critical angle: $\\sin C = \\dfrac{1}{n}$ (denser to rarer). TIR needs denser → rarer and $i > C$. Diamond ($n=2.42$, $C \\approx 24^\\circ$), optical fibre, mirage, prism binoculars.</li><li>Glass slab: emergent ray parallel to incident; lateral shift $= \\dfrac{t\\sin(i-r)}{\\cos r}$.</li><li>Spherical surface: $\\dfrac{n_2}{v} - \\dfrac{n_1}{u} = \\dfrac{n_2 - n_1}{R}$.</li></ul><h3>Lenses</h3><ul><li>$\\dfrac1v - \\dfrac1u = \\dfrac1f$, $m = \\dfrac{v}{u}$, power $P = \\dfrac{1}{f(\\text{m})}$ dioptre.</li><li>Lens maker: $\\dfrac1f = (n_{rel} - 1)\\left(\\dfrac1{R_1} - \\dfrac1{R_2}\\right)$. In a medium with $n_m$, use $n_{rel} = n_g/n_m$ → focal length increases in water; lens becomes diverging if $n_m > n_g$.</li><li>Lenses in contact: $P = P_1 + P_2$, $\\dfrac1F = \\dfrac1{f_1} + \\dfrac1{f_2}$.</li><li>Object at $2f$ gives real image of same size at $2f$. Minimum distance between real object and real image $= 4f$.</li></ul><h3>Prism</h3><ul><li>$i + e = A + \\delta$; at minimum deviation $n = \\dfrac{\\sin\\frac{A+\\delta_m}{2}}{\\sin\\frac A2}$. Thin prism: $\\delta = (n-1)A$.</li><li>Dispersion: violet deviates most ($n_v > n_r$). Rainbow = refraction + dispersion + TIR.</li></ul><h3>Optical instruments</h3><ul><li>Simple microscope: $m = 1 + \\dfrac{D}{f}$ (image at $D = 25$ cm), $m = \\dfrac{D}{f}$ (image at infinity).</li><li>Compound microscope: $m = \\dfrac{L}{f_o}\\left(1 + \\dfrac{D}{f_e}\\right)$ approximately; $f_o$ small, $f_e$ small.</li><li>Telescope (normal adjustment): $m = \\dfrac{f_o}{f_e}$, length $= f_o + f_e$; $f_o$ large, $f_e$ small. Reflecting telescope: no chromatic aberration, brighter.</li></ul><h3>Exam tip</h3><p>3–4 questions every year. Do mirror/lens formula numericals with signs carefully; memorise prism formula and telescope/microscope magnification.</p>",
+  "questions": [
+    {
+      "id": "phy-ray-optics-001",
+      "q": "An object is placed 15 cm in front of a concave mirror of focal length 10 cm. The image is formed at",
+      "options": [
+        "30 cm behind, virtual",
+        "6 cm behind, virtual",
+        "6 cm in front, virtual",
+        "30 cm in front, real"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "$\\dfrac1v = \\dfrac1f - \\dfrac1u = -\\dfrac1{10} + \\dfrac1{15} = -\\dfrac1{30}$ → $v = -30$ cm: real, inverted, magnified ($m = -2$)."
+    },
+    {
+      "id": "phy-ray-optics-002",
+      "q": "The refractive index of a medium is $\\sqrt2$. Its critical angle is",
+      "options": [
+        "30°",
+        "45°",
+        "60°",
+        "90°"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "$\\sin C = 1/n = 1/\\sqrt2 \\Rightarrow C = 45^\\circ$."
+    },
+    {
+      "id": "phy-ray-optics-003",
+      "q": "A lens has a focal length of $-25$ cm. Its power is",
+      "options": [
+        "$-4$ D",
+        "$+4$ D",
+        "$-0.04$ D",
+        "$-25$ D"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "$P = 1/f(\\text{m}) = 1/(-0.25) = -4$ D. Negative → concave (diverging) lens."
+    },
+    {
+      "id": "phy-ray-optics-004",
+      "q": "Two thin lenses of powers $+5$ D and $-2$ D are placed in contact. The focal length of the combination is",
+      "options": [
+        "14.3 cm",
+        "3 cm",
+        "33.3 cm",
+        "$-33.3$ cm"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "$P = 5 - 2 = 3$ D → $f = 1/3$ m $= 33.3$ cm, converging."
+    },
+    {
+      "id": "phy-ray-optics-005",
+      "q": "For a prism of angle $60^\\circ$, the angle of minimum deviation is $30^\\circ$. The refractive index of the prism material is",
+      "options": [
+        "$2$",
+        "$\\sqrt3$",
+        "$\\sqrt2$",
+        "1.5"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "$n = \\dfrac{\\sin\\frac{A+\\delta_m}{2}}{\\sin\\frac A2} = \\dfrac{\\sin45^\\circ}{\\sin30^\\circ} = \\dfrac{1/\\sqrt2}{1/2} = \\sqrt2$."
+    },
+    {
+      "id": "phy-ray-optics-006",
+      "q": "The magnifying power of a simple microscope of focal length 5 cm, when the image is formed at the near point (25 cm), is",
+      "options": [
+        "6",
+        "5",
+        "10",
+        "4"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "$m = 1 + D/f = 1 + 25/5 = 6$."
+    },
+    {
+      "id": "phy-ray-optics-007",
+      "q": "An astronomical telescope has objective and eyepiece of focal lengths 100 cm and 5 cm. In normal adjustment its magnifying power and length are",
+      "options": [
+        "5, 105 cm",
+        "20, 105 cm",
+        "20, 95 cm",
+        "500, 105 cm"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "$m = f_o/f_e = 20$; $L = f_o + f_e = 105$ cm."
+    },
+    {
+      "id": "phy-ray-optics-008",
+      "q": "A convex lens of glass ($n = 1.5$) has focal length 20 cm in air. Its focal length in water ($n = 4/3$) is",
+      "options": [
+        "20 cm",
+        "40 cm",
+        "60 cm",
+        "80 cm"
+      ],
+      "answer": 3,
+      "difficulty": "hard",
+      "explanation": "$\\dfrac{f_w}{f_a} = \\dfrac{n_g - 1}{n_g/n_w - 1} = \\dfrac{0.5}{1.125 - 1} = 4 \\Rightarrow f_w = 80$ cm.",
+      "tip": "Focal length of a glass lens becomes about 4 times in water."
+    },
+    {
+      "id": "phy-ray-optics-009",
+      "q": "A convex lens forms a real image of the same size as the object. The object is placed at",
+      "options": [
+        "$f$",
+        "$2f$",
+        "between $f$ and $2f$",
+        "infinity"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "Object at $2f$ → image at $2f$ on the other side, real, inverted, same size ($m = -1$)."
+    },
+    {
+      "id": "phy-ray-optics-010",
+      "q": "A swimming pool appears 3 m deep when viewed vertically from above. If the refractive index of water is $4/3$, the real depth is",
+      "options": [
+        "2.25 m",
+        "2.5 m",
+        "4 m",
+        "3 m"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "Real depth $= n\\times$ apparent depth $= \\dfrac43\\times3 = 4$ m."
+    },
+    {
+      "id": "phy-ray-optics-011",
+      "q": "Which colour of light undergoes the maximum deviation in a glass prism?",
+      "options": [
+        "Violet",
+        "Green",
+        "Yellow",
+        "Red"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "Violet has the shortest wavelength and highest refractive index in glass, so it deviates most. $\\delta = (n-1)A$."
+    },
+    {
+      "id": "phy-ray-optics-012",
+      "q": "Total internal reflection occurs when light travels",
+      "options": [
+        "from denser to rarer medium with angle of incidence less than the critical angle",
+        "from rarer to denser medium with angle of incidence greater than the critical angle",
+        "from rarer to denser medium at any angle",
+        "from denser to rarer medium with angle of incidence greater than the critical angle"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "Both conditions are needed: denser → rarer and $i > C$."
+    },
+    {
+      "id": "phy-ray-optics-013",
+      "q": "The image formed by a convex mirror is always",
+      "options": [
+        "real, inverted and diminished",
+        "virtual, erect and magnified",
+        "virtual, erect and diminished",
+        "real, erect and same size"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "Convex mirrors have a wide field of view and always form virtual, erect, diminished images — hence used as rear-view mirrors."
+    },
+    {
+      "id": "phy-ray-optics-014",
+      "q": "A ray of light passes through a glass slab. The emergent ray is",
+      "options": [
+        "parallel to the incident ray but laterally shifted",
+        "reflected back",
+        "deviated away from the normal",
+        "deviated towards the normal"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "The two refractions at parallel faces cancel the deviation; only a lateral shift $t\\sin(i-r)/\\cos r$ remains."
+    },
+    {
+      "id": "phy-ray-optics-015",
+      "q": "The minimum distance between a real object and its real image formed by a convex lens of focal length $f$ is",
+      "options": [
+        "$3f$",
+        "$2f$",
+        "$f$",
+        "$4f$"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "With object at $2f$, image at $2f$: separation $4f$. For any other position the separation is larger."
+    },
+    {
+      "id": "phy-ray-optics-016",
+      "q": "A thin prism of angle $5^\\circ$ made of glass ($n = 1.5$) produces a deviation of",
+      "options": [
+        "5°",
+        "2.5°",
+        "7.5°",
+        "10°"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "$\\delta = (n - 1)A = 0.5\\times5^\\circ = 2.5^\\circ$."
+    },
+    {
+      "id": "phy-ray-optics-017",
+      "q": "An object is placed 20 cm in front of a convex mirror of focal length 15 cm. The image formed is",
+      "options": [
+        "8.6 cm in front of the mirror, real and diminished",
+        "8.6 cm behind the mirror, virtual and diminished",
+        "34.3 cm behind the mirror, virtual and magnified",
+        "12 cm behind the mirror, virtual, same size"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "$\\dfrac1v=\\dfrac1f-\\dfrac1u=\\dfrac1{15}-\\dfrac1{-20}=\\dfrac1{15}+\\dfrac1{20}=\\dfrac{7}{60}$, so $v\\approx8.6$ cm (positive, behind the mirror); convex mirrors always give virtual, diminished images."
+    },
+    {
+      "id": "phy-ray-optics-018",
+      "q": "A person suffering from myopia (short-sightedness) can see nearby objects clearly but not distant objects. This defect is corrected using a",
+      "options": [
+        "convex (converging) lens",
+        "plane mirror",
+        "a concave (diverging) lens",
+        "cylindrical lens"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "In myopia the image of a distant object forms in front of the retina; a diverging (concave) lens shifts it back onto the retina."
+    },
+    {
+      "id": "phy-ray-optics-019",
+      "q": "A hypermetropic eye has its near point at 50 cm instead of 25 cm. The power of the corrective lens needed so that an object at 25 cm forms a virtual image at 50 cm is",
+      "options": [
+        "+2 D",
+        "+0.5 D",
+        "-2 D",
+        "+4 D"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "$\\dfrac1v-\\dfrac1u=\\dfrac1f$: with $u=-25$ cm, $v=-50$ cm, $\\dfrac1f=-\\dfrac1{50}+\\dfrac1{25}=\\dfrac1{50}$, so $f=50$ cm $=0.5$ m and $P=+2$ D."
+    },
+    {
+      "id": "phy-ray-optics-020",
+      "q": "Presbyopia (age-related loss of the eye's power of accommodation, causing the near point to recede) is corrected using",
+      "options": [
+        "cylindrical lenses",
+        "only a convex lens",
+        "only a concave lens",
+        "bifocal lenses combining convex and concave portions"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "Presbyopia often accompanies both near- and far-vision difficulty in the same person, so bifocal lenses (convex portion for near vision, concave for distant vision) are used."
+    },
+    {
+      "id": "phy-ray-optics-021",
+      "q": "A convex spherical surface of radius 20 cm separates air ($n=1$) from glass ($n=1.5$). An object is placed 100 cm from the surface in air. Using $\\dfrac{n_2}{v}-\\dfrac{n_1}{u}=\\dfrac{n_2-n_1}{R}$, the image distance is",
+      "options": [
+        "-100 cm",
+        "+50 cm",
+        "+20 cm",
+        "+100 cm"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "$\\dfrac{1.5}{v}-\\dfrac{1}{-100}=\\dfrac{0.5}{20}=0.025 \\Rightarrow \\dfrac{1.5}{v}=0.025-0.01=0.015 \\Rightarrow v=100$ cm."
+    },
+    {
+      "id": "phy-ray-optics-022",
+      "q": "Two thin convex lenses, each of focal length 10 cm, are placed coaxially 5 cm apart. The equivalent focal length of the combination is",
+      "options": [
+        "6.67 cm",
+        "15 cm",
+        "5 cm",
+        "20 cm"
+      ],
+      "answer": 0,
+      "difficulty": "hard",
+      "explanation": "$\\dfrac1F=\\dfrac1{f_1}+\\dfrac1{f_2}-\\dfrac{d}{f_1f_2}=0.1+0.1-\\dfrac{5}{100}=0.15$, so $F\\approx6.67$ cm."
+    },
+    {
+      "id": "phy-ray-optics-023",
+      "q": "A plano-convex lens of focal length 20 cm has its plane surface silvered. It now behaves like a mirror of focal length",
+      "options": [
+        "20 cm, convex mirror behaviour",
+        "40 cm, concave mirror behaviour",
+        "10 cm, concave mirror behaviour",
+        "5 cm, convex mirror behaviour"
+      ],
+      "answer": 2,
+      "difficulty": "hard",
+      "explanation": "For a lens silvered on one face, equivalent power $P_{eq}=2P_{lens}+P_{mirror}$. With the plane face silvered ($P_{mirror}=0$), $P_{eq}=2/20=0.1$, giving $f_{eq}=10$ cm, behaving as a converging (concave-type) mirror."
+    },
+    {
+      "id": "phy-ray-optics-024",
+      "q": "The resolving power of a microscope is higher when",
+      "options": [
+        "the objective lens diameter is reduced",
+        "a shorter wavelength of light and a larger numerical aperture are used",
+        "the numerical aperture is decreased",
+        "a longer wavelength of light is used"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "Resolving power $\\propto \\dfrac{2n\\sin\\theta}{\\lambda}$ (numerical aperture over wavelength); using shorter-wavelength light and a larger aperture angle improves resolution."
+    },
+    {
+      "id": "phy-ray-optics-025",
+      "q": "Chromatic aberration in a lens, caused by different colours having different focal lengths, is minimised by using",
+      "options": [
+        "coating the lens with a reflective film",
+        "an achromatic doublet — a combination of convex and concave lenses of different materials",
+        "a smaller aperture stop",
+        "a single thicker convex lens"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "An achromatic combination of a convergent and a divergent lens of different dispersive powers can bring two colours to the same focus, greatly reducing chromatic aberration."
+    },
+    {
+      "id": "phy-ray-optics-026",
+      "q": "Spherical aberration in a lens/mirror refers to the defect in which",
+      "options": [
+        "the image is inverted",
+        "different colours focus at different points",
+        "paraxial and marginal rays focus at different points, blurring the image",
+        "the image suffers from a lateral shift"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "Rays striking near the edge (marginal rays) of a spherical lens/mirror focus at a different point than paraxial rays, causing a blurred image called spherical aberration; it can be reduced using a stop or parabolic mirrors."
+    },
+    {
+      "id": "phy-ray-optics-027",
+      "q": "A convex lens of focal length 10 cm and dispersive power $\\omega_1=0.02$ is to be combined with a second lens of dispersive power $\\omega_2=0.03$ to form an achromatic combination. The focal length of the second lens must be",
+      "options": [
+        "-15 cm",
+        "+10 cm",
+        "-10 cm",
+        "+15 cm"
+      ],
+      "answer": 0,
+      "difficulty": "hard",
+      "explanation": "Achromatism requires $\\dfrac{\\omega_1}{f_1}+\\dfrac{\\omega_2}{f_2}=0 \\Rightarrow f_2=-\\dfrac{\\omega_2f_1}{\\omega_1}=-\\dfrac{0.03\\times10}{0.02}=-15$ cm (a diverging lens)."
+    },
+    {
+      "id": "phy-ray-optics-028",
+      "q": "The sky appears blue because",
+      "options": [
+        "air molecules absorb all colours except blue",
+        "blue light travels faster than other colours in air",
+        "red light is scattered more than blue light",
+        "shorter wavelengths (blue) are scattered more strongly by air molecules than longer wavelengths (Rayleigh scattering, $\\propto 1/\\lambda^4$)"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "Rayleigh scattering by air molecules is much stronger for shorter wavelengths, so blue light is scattered across the sky far more than red, giving the sky its blue colour."
+    },
+    {
+      "id": "phy-ray-optics-029",
+      "q": "The sun appears reddish at sunrise/sunset because",
+      "options": [
+        "red light is absorbed by the atmosphere at sunset",
+        "the sun's temperature decreases at sunset",
+        "the eye's sensitivity to blue decreases at sunset",
+        "most of the blue light is scattered away by the longer path through the atmosphere, leaving mainly red light to reach the eye"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "At sunrise/sunset, sunlight travels a much longer path through the atmosphere; the shorter (blue) wavelengths are scattered away en route, leaving the transmitted light dominated by red/orange."
+    },
+    {
+      "id": "phy-ray-optics-030",
+      "q": "Optical fibres transmit light over long distances with very little loss using",
+      "options": [
+        "total internal reflection at the core-cladding interface, since the core has a higher refractive index than the cladding",
+        "ordinary reflection from a silvered coating",
+        "refraction alone, without any reflection",
+        "diffraction of light around bends"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "Light entering the fibre core (higher $n$) strikes the core-cladding boundary at an angle greater than the critical angle and undergoes repeated total internal reflection, travelling with minimal loss."
+    },
+    {
+      "id": "phy-ray-optics-031",
+      "q": "A mirage is formed on a hot road because",
+      "options": [
+        "air near the ground is denser (higher $n$) than the air above it, bending light upward",
+        "water actually collects on the road surface",
+        "hot air near the ground has a lower refractive index than the cooler air above, causing rays from the sky to bend and undergo (near) total internal reflection, appearing as a reflection",
+        "light from the sky is reflected by a silvered layer of sand"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "Hot air close to the road is less dense (lower $n$) than the cooler air above; light from the sky refracts continuously through these layers and eventually curves upward as if reflected, creating the illusion of a water pool."
+    },
+    {
+      "id": "phy-ray-optics-032",
+      "q": "The critical angle for light travelling from water ($n=4/3$) to air is",
+      "options": [
+        "41.8°",
+        "48.6°",
+        "60°",
+        "36.9°"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "$\\sin C=1/n=3/4=0.75 \\Rightarrow C\\approx48.6^\\circ$."
+    },
+    {
+      "id": "phy-ray-optics-033",
+      "q": "A tank has a 6 cm layer of water ($n=4/3$) on top of a 4 cm layer of glass ($n=1.5$). Viewed from directly above, the apparent total depth of the two layers is",
+      "options": [
+        "7.17 cm",
+        "8.5 cm",
+        "6 cm",
+        "10 cm"
+      ],
+      "answer": 0,
+      "difficulty": "hard",
+      "explanation": "For near-normal viewing, apparent depth of stacked layers $=\\sum(t_i/n_i)=\\dfrac{6}{4/3}+\\dfrac{4}{1.5}=4.5+2.67\\approx7.17$ cm."
+    },
+    {
+      "id": "phy-ray-optics-034",
+      "q": "In the Cartesian sign convention used for mirrors and lenses, the object distance $u$ for a real object is always taken as",
+      "options": [
+        "zero",
+        "positive",
+        "dependent on whether the mirror is concave or convex",
+        "negative, since it is measured against the direction of incident light"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "With incident light taken as travelling in the positive direction, a real object (always in front of the mirror/lens) has $u$ measured backward from the pole/optical centre, so $u$ is negative."
+    },
+    {
+      "id": "phy-ray-optics-035",
+      "q": "A compound microscope has objective focal length 1 cm, eyepiece focal length 5 cm, a tube separation of 20 cm, and forms the final image at the near point (25 cm). Its magnifying power is approximately",
+      "options": [
+        "20",
+        "120",
+        "24",
+        "100"
+      ],
+      "answer": 1,
+      "difficulty": "hard",
+      "explanation": "$m\\approx\\dfrac{L}{f_o}\\left(1+\\dfrac{D}{f_e}\\right)=\\dfrac{20}{1}\\times\\left(1+\\dfrac{25}{5}\\right)=20\\times6=120$."
+    },
+    {
+      "id": "phy-ray-optics-036",
+      "q": "In an astronomical telescope, decreasing the focal length of the eyepiece",
+      "options": [
+        "has no effect on the magnifying power",
+        "increases the field of view",
+        "increases the magnifying power but reduces the field of view",
+        "decreases the magnifying power"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "$m=f_o/f_e$, so a smaller $f_e$ gives higher magnification, but this comes at the cost of a narrower field of view."
+    },
+    {
+      "id": "phy-ray-optics-037",
+      "q": "A dentist uses a mirror that gives an erect, magnified virtual image of the teeth. This mirror is",
+      "options": [
+        "plane",
+        "convex",
+        "concave, with the teeth placed beyond the centre of curvature",
+        "concave, with the teeth placed within its focal length"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "A concave mirror with the object (teeth) placed between the pole and focus produces a virtual, erect, magnified image, ideal for close dental examination."
+    },
+    {
+      "id": "phy-ray-optics-038",
+      "q": "A shaving/makeup mirror that produces an enlarged, erect image of the face held close to it is",
+      "options": [
+        "concave",
+        "a combination of two plane mirrors",
+        "convex",
+        "plane"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "Held within its focal length, a concave mirror forms a magnified, erect, virtual image, which is why it is used for shaving and makeup."
+    },
+    {
+      "id": "phy-ray-optics-039",
+      "q": "A biconvex lens has both faces of radius of curvature 10 cm and is made of glass with $n=1.5$. Its focal length is",
+      "options": [
+        "20 cm",
+        "10 cm",
+        "5 cm",
+        "40 cm"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "$\\dfrac1f=(n-1)\\left(\\dfrac1{R_1}-\\dfrac1{R_2}\\right)=0.5\\left(\\dfrac1{10}-\\dfrac1{-10}\\right)=0.5\\times0.2=0.1 \\Rightarrow f=10$ cm."
+    },
+    {
+      "id": "phy-ray-optics-040",
+      "q": "For a convex lens, when a real object is placed between $f$ and $2f$, the image formed is",
+      "options": [
+        "real, inverted, same size, at $2f$",
+        "virtual, erect and magnified",
+        "real, inverted, magnified, beyond $2f$",
+        "real, inverted, diminished, between $f$ and $2f$"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "For an object between $f$ and $2f$, the convex lens forms a real, inverted image that is magnified and located beyond $2f$ on the other side."
+    }
+  ]
+}

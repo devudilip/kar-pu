@@ -1,0 +1,794 @@
+{
+  "title": "KCET 2012 Physics",
+  "year": 2012,
+  "subject": "physics",
+  "code": "A-1",
+  "source": "KEA question paper (copy) + KEA answer key column A1",
+  "excluded": [],
+  "questions": [
+    {
+      "n": 1,
+      "q": "The dimensional formula of a physical quantity is M$^a$L$^b$T$^c$. Then that physical quantity is",
+      "options": [
+        "surface tension if a = 1, b = 1, c = -2",
+        "force if a = 1, b = 1, c = 2",
+        "angular frequency if a = 0, b = 0, c = -1",
+        "spring constant if a = 1, b = -1, c = -2"
+      ],
+      "answer": 2,
+      "chapter": "Units and Measurements",
+      "explanation": "Angular frequency has SI unit s$^{-1}$, i.e. dimensions M$^0$L$^0$T$^{-1}$, so a = 0, b = 0, c = -1."
+    },
+    {
+      "n": 2,
+      "q": "A person throws balls into air vertically upward in regular intervals of time of one second. The next ball is thrown when the velocity of the ball thrown earlier becomes zero. The height to which the balls rise is ..... (Assume, g = 10 ms$^{-2}$)",
+      "options": [
+        "5 m",
+        "10 m",
+        "7.5 m",
+        "20 m"
+      ],
+      "answer": 0,
+      "chapter": "Motion in a Straight Line",
+      "explanation": "Time to reach the top equals 1 s, so v = g t = 10 m/s; height h = v$^2$/(2g) = 100/20 = 5 m."
+    },
+    {
+      "n": 3,
+      "q": "The circular motion of a particle with constant speed is",
+      "options": [
+        "periodic but not SHM",
+        "SHM but not periodic",
+        "periodic and also SHM",
+        "neither periodic nor SHM"
+      ],
+      "answer": 0,
+      "chapter": "Oscillations",
+      "explanation": "It repeats identically after each revolution (periodic), but SHM requires oscillation along a straight line about a mean position with a restoring force proportional to displacement, which uniform circular motion does not have."
+    },
+    {
+      "n": 4,
+      "q": "A planet moving around sun sweeps area A$_1$ in 2 days, A$_2$ in 3 days and A$_3$ in 6 days [figure: sun with three sectors of areas A$_1$, A$_2$, A$_3$ swept out from the sun]. Then the relation between A$_1$, A$_2$ and A$_3$ is",
+      "options": [
+        "3A$_1$ = 2A$_2$ = A$_3$",
+        "2A$_1$ = 3A$_2$ = 6A$_3$",
+        "3A$_1$ = 2A$_2$ = 6A$_3$",
+        "6A$_1$ = 3A$_2$ = 2A$_3$"
+      ],
+      "answer": 0,
+      "chapter": "Gravitation",
+      "explanation": "By Kepler's second law the areal velocity is constant, so A$_1$/2 = A$_2$/3 = A$_3$/6; multiplying through by 6 gives 3A$_1$ = 2A$_2$ = A$_3$."
+    },
+    {
+      "n": 5,
+      "q": "A, B and C are three identical conductors but made of different materials, kept in contact in a line [figure: rod A-B-C joined end to end; free end of A at 100°C, free end of C at 0°C]. Their thermal conductivities are K, 2K and K/2. The free end of A is at 100°C and the free end of C is at 0°C. During steady state, the temperature of the junction of A and B is nearly ..... °C.",
+      "options": [
+        "71",
+        "29",
+        "63",
+        "37"
+      ],
+      "answer": 0,
+      "chapter": "Thermal Properties of Matter",
+      "explanation": "In series conduction the heat current is the same through each rod; solving K(100-T$_1$) = 2K(T$_1$-T$_2$) = (K/2)T$_2$ for the A-B junction gives T$_1$ = 500/7 $\\approx$ 71°C."
+    },
+    {
+      "n": 6,
+      "q": "One mole of an ideal gas is taken from A to B, from B to C and then back to A. The variation of its volume with temperature is as shown [figure: V-T graph, right triangle with vertex A at top, B directly below A (same T), C to the right of B (same V as B)]. Its pressure at A is P$_0$, volume is V$_0$. Then, the internal energy",
+      "options": [
+        "at A is more than at B",
+        "at C is less than at B",
+        "at B is more than at A",
+        "at A and B are equal"
+      ],
+      "answer": 3,
+      "chapter": "Thermodynamics",
+      "explanation": "A to B is a vertical line on the V-T graph, i.e. constant temperature; since the internal energy of an ideal gas depends only on T, U at A equals U at B."
+    },
+    {
+      "n": 7,
+      "q": "Which of the following is incorrect?",
+      "options": [
+        "If the wave is longitudinal, it must be a mechanical wave.",
+        "If the wave is mechanical, it may OR may not be a transverse wave.",
+        "Mechanical waves cannot propagate in vacuum.",
+        "'Diffraction' helps us to distinguish between sound wave and light wave."
+      ],
+      "answer": 3,
+      "chapter": "Waves",
+      "explanation": "Both sound and light waves diffract, so diffraction cannot be used to distinguish between them; the other three statements are correct."
+    },
+    {
+      "n": 8,
+      "q": "Intensity level of sound whose intensity is 10$^{-8}$ Wm$^{-2}$ is ..... dB",
+      "options": [
+        "8",
+        "4",
+        "40",
+        "80"
+      ],
+      "answer": 2,
+      "chapter": "Waves",
+      "explanation": "$\\beta = 10\\log_{10}(I/I_0)$ with $I_0 = 10^{-12}$ Wm$^{-2}$ gives $\\beta = 10\\log_{10}(10^4) = 40$ dB."
+    },
+    {
+      "n": 9,
+      "q": "A point source of light is kept below the surface of water (n$_w$ = 4/3) at a depth of $\\sqrt7$ m. The radius of the circular bright patch of light noticed on the surface of water is ......m.",
+      "options": [
+        "$\\dfrac{3}{\\sqrt7}$",
+        "3",
+        "$\\dfrac{\\sqrt7}{3}$",
+        "$\\sqrt7$"
+      ],
+      "answer": 1,
+      "chapter": "Ray Optics and Optical Instruments",
+      "explanation": "Critical angle satisfies sin$\\theta_c$ = 1/n = 3/4, so tan$\\theta_c$ = 3/$\\sqrt7$; radius = depth $\\times$ tan$\\theta_c$ = $\\sqrt7 \\times 3/\\sqrt7$ = 3 m."
+    },
+    {
+      "n": 10,
+      "q": "A monochromatic beam of light is travelling from medium A of refractive index n$_1$ to medium B of refractive index n$_2$. In the medium A, there are x number of waves in a certain distance. In the medium B, there are y number of waves in the same distance. Then, refractive index of medium A with respect to medium B is....",
+      "options": [
+        "y/x",
+        "$\\sqrt{x/y}$",
+        "$\\dfrac{x}{y-x}$",
+        "x/y"
+      ],
+      "answer": 3,
+      "chapter": "Wave Optics",
+      "explanation": "Wavelength in A is (distance)/x and in B is (distance)/y; since $_An_B = v_B/v_A = \\lambda_B/\\lambda_A$ (same frequency), $_An_B$ = x/y."
+    },
+    {
+      "n": 11,
+      "q": "In Young's double slit experiment, fringes of width $\\beta$ are produced on a screen kept at a distance of 1 m from the slit. When the screen is moved away by 5$\\times$10$^{-2}$ m, fringe width changes by 3$\\times$10$^{-5}$ m. The separation between the slits is 1$\\times$10$^{-3}$ m. The wavelength of the light used is ......... nm.",
+      "options": [
+        "500",
+        "600",
+        "700",
+        "400"
+      ],
+      "answer": 1,
+      "chapter": "Wave Optics",
+      "explanation": "$\\beta = \\lambda D/d$, so $\\lambda = (\\Delta\\beta \\cdot d)/\\Delta D = (3\\times10^{-5}\\times10^{-3})/(5\\times10^{-2}) = 6\\times10^{-7}$ m = 600 nm."
+    },
+    {
+      "n": 12,
+      "q": "For sustained interference fringes in double slit experiment, essential condition/s is/are (a) sources must be coherent (b) the intensities of the two sources must be equal. Here, the correct option/s is/are",
+      "options": [
+        "both (a) (b)",
+        "only (a)",
+        "only (b)",
+        "neither (a) nor (b)"
+      ],
+      "answer": 1,
+      "chapter": "Wave Optics",
+      "explanation": "Coherence of the two sources is essential for a sustained interference pattern; equal intensity is not necessary, it only affects the contrast of the fringes."
+    },
+    {
+      "n": 13,
+      "q": "In single slit experiment, the width of the slit is reduced. Then, the linear width of the principal maxima..........",
+      "options": [
+        "increases but becomes less bright",
+        "decreases but becomes more bright",
+        "increases but becomes more bright",
+        "decreases but becomes less bright"
+      ],
+      "answer": 0,
+      "chapter": "Wave Optics",
+      "explanation": "The angular width of the central maximum is proportional to 1/a, so it increases as the slit width a decreases; but less light passes through the narrower slit, so it becomes less bright."
+    },
+    {
+      "n": 14,
+      "q": "In the uniform electric field of E = 1$\\times$10$^4$ NC$^{-1}$, an electron is accelerated from rest. The velocity of the electron when it has travelled a distance of 2$\\times$10$^{-2}$ m is nearly ......... ms$^{-1}$ ($\\dfrac{e}{m}$ of electron $\\approx$ 1.8$\\times$10$^{11}$ C kg$^{-1}$)",
+      "options": [
+        "1.6$\\times$10$^6$",
+        "0.85$\\times$10$^6$",
+        "0.425$\\times$10$^6$",
+        "8.5$\\times$10$^6$"
+      ],
+      "answer": 3,
+      "chapter": "Electric Charges and Fields",
+      "explanation": "a = (e/m)E = 1.8$\\times$10$^{11}\\times$10$^4$ = 1.8$\\times$10$^{15}$ ms$^{-2}$; v = $\\sqrt{2as}$ = $\\sqrt{2\\times1.8\\times10^{15}\\times2\\times10^{-2}}$ $\\approx$ 8.5$\\times$10$^6$ ms$^{-1}$."
+    },
+    {
+      "n": 15,
+      "q": "In this diagram, the P.D. between A and B is 60 V [figure: A -- 6$\\mu$F -- 3$\\mu$F -- (two 3$\\mu$F capacitors in parallel) -- 3$\\mu$F -- B, all in series]. The P.D. across 6 $\\mu$F capacitor is .....V",
+      "options": [
+        "10",
+        "5",
+        "20",
+        "4"
+      ],
+      "answer": 0,
+      "chapter": "Electrostatic Potential and Capacitance",
+      "explanation": "The four series sections (6, 3, [3||3]=6, 3 $\\mu$F) combine to a series equivalent of 1 $\\mu$F, so charge Q = 1$\\mu$F$\\times$60 V = 60 $\\mu$C; P.D. across the 6 $\\mu$F capacitor = Q/C = 60/6 = 10 V."
+    },
+    {
+      "n": 16,
+      "q": "In this circuit, when certain current flows, the heat produced in 5 $\\Omega$ is 4.05 J in a time t [figure: 2$\\Omega$ in series with a parallel combination of (6$\\Omega$+9$\\Omega$=15$\\Omega$ branch) and a 5$\\Omega$ branch]. The heat produced in 2 $\\Omega$ coil in the same time interval is",
+      "options": [
+        "5.76",
+        "1.44",
+        "2.88",
+        "2.02"
+      ],
+      "answer": 2,
+      "chapter": "Current Electricity",
+      "explanation": "The 15$\\Omega$ and 5$\\Omega$ branches (parallel combination 3.75$\\Omega$) share the main current I; the 5$\\Omega$ branch carries 0.75I, so $(0.75I)^2\\times5\\times t=4.05$ gives $I^2t=1.44$; heat in 2$\\Omega$ = $I^2\\times2\\times t$ = 2.88 J."
+    },
+    {
+      "n": 17,
+      "q": "In this circuit, the value of I$_2$ is [figure: a current of 1.2 A splits into three parallel branches: I$_1$ through 10$\\Omega$, I$_2$ through 15$\\Omega$, I$_3$ through 30$\\Omega$]",
+      "options": [
+        "0.2 A",
+        "0.3 A",
+        "0.4 A",
+        "0.6 A"
+      ],
+      "answer": 2,
+      "chapter": "Current Electricity",
+      "explanation": "Current divides in inverse proportion to resistance; I$_2$ = 1.2 $\\times$ (1/15)/(1/10+1/15+1/30) = 1.2$\\times$(1/15)/(1/5) = 0.4 A."
+    },
+    {
+      "n": 18,
+      "q": "A straight current carrying conductor is kept along the axis of a circular loop carrying current. The force exerted by the straight conductor on the loop is _______.",
+      "options": [
+        "perpendicular to the plane of the loop",
+        "in the plane of the loop, away from the center",
+        "in the plane of the loop, towards the center",
+        "zero"
+      ],
+      "answer": 3,
+      "chapter": "Moving Charges and Magnetism",
+      "explanation": "The magnetic field of the straight wire at every point of the loop is tangential to the loop, i.e. parallel to the current element there, so $d\\vec F = I\\,d\\vec l\\times\\vec B = 0$ everywhere; the net force is zero."
+    },
+    {
+      "n": 19,
+      "q": "A resistor of 500 $\\Omega$, an inductance of 0.5 H are in series with an a.c. which is given by V = 100$\\sqrt2$ sin(1000 t). The power factor of the combination is",
+      "options": [
+        "$\\dfrac{1}{\\sqrt2}$",
+        "$\\dfrac{1}{\\sqrt3}$",
+        "0.5",
+        "0.6"
+      ],
+      "answer": 0,
+      "chapter": "Alternating Current",
+      "explanation": "$X_L=\\omega L=1000\\times0.5=500\\ \\Omega$; power factor $=R/Z=500/\\sqrt{500^2+500^2}=1/\\sqrt2$."
+    },
+    {
+      "n": 20,
+      "q": "Pick out the WRONG statement.",
+      "options": [
+        "The gain in the K.E. of the electron moving at right angles to the magnetic field is zero.",
+        "When an electron is shot at right angles to the electric field, it traces a parabolic path.",
+        "An electron moving in the direction of the electric field gains K.E.",
+        "An electron at rest experiences no force in the magnetic field."
+      ],
+      "answer": 2,
+      "chapter": "Moving Charges and Magnetism",
+      "explanation": "The electric force on an electron is opposite to $\\vec E$ since its charge is negative; if it moves along the direction of $\\vec E$, the force opposes its motion and it loses (not gains) K.E., so statement (3) is wrong."
+    },
+    {
+      "n": 21,
+      "q": "A proton and an alpha particle are accelerated under the same potential difference. The ratio of de-Broglie wavelengths of the proton and the alpha particle is",
+      "options": [
+        "$\\sqrt8$",
+        "$\\dfrac{1}{\\sqrt8}$",
+        "1",
+        "2"
+      ],
+      "answer": 0,
+      "chapter": "Dual Nature of Radiation and Matter",
+      "explanation": "$\\lambda=h/\\sqrt{2mqV}$, so $\\lambda_p/\\lambda_\\alpha=\\sqrt{(m_\\alpha q_\\alpha)/(m_p q_p)}=\\sqrt{(4m_p\\cdot2e)/(m_p\\cdot e)}=\\sqrt8$."
+    },
+    {
+      "n": 22,
+      "q": "Spectrum of sunlight is an example for",
+      "options": [
+        "Band emission spectrum",
+        "Line absorption spectrum",
+        "Continuous emission spectrum",
+        "Continuous absorption spectrum"
+      ],
+      "answer": 1,
+      "chapter": "Atoms",
+      "explanation": "Sunlight from the hot photosphere passing through the cooler outer layers of the sun produces dark Fraunhofer lines superposed on it, so it is classified as a line absorption spectrum."
+    },
+    {
+      "n": 23,
+      "q": "In hydrogen atom, electron excites from ground state to a higher energy state and its orbital velocity is reduced to $\\dfrac13$rd of its initial value. The radius of the orbit in the ground state is R. The radius of the orbit in that higher energy state is...........",
+      "options": [
+        "2R",
+        "3R",
+        "27R",
+        "9R"
+      ],
+      "answer": 3,
+      "chapter": "Atoms",
+      "explanation": "In the Bohr model $v \\propto 1/n$ and $r \\propto n^2$; since v becomes v/3, n becomes 3, so the new radius is $3^2R = 9R$."
+    },
+    {
+      "n": 24,
+      "q": "Decay constants of two radio-active samples A and B are 15x and 3x respectively. They have equal number of initial nuclei. The ratio of the number of nuclei left in A and B after a time $\\dfrac{1}{6x}$ is",
+      "options": [
+        "e",
+        "e$^2$",
+        "e$^{-1}$",
+        "e$^{-2}$"
+      ],
+      "answer": 3,
+      "chapter": "Nuclei",
+      "explanation": "$N_A/N_B = e^{-(15x-3x)t} = e^{-12x/(6x)} = e^{-2}$."
+    },
+    {
+      "n": 25,
+      "q": "Mass numbers of the elements A, B, C and D are 30, 60, 90 and 120 respectively. The specific binding energy of them are 5 MeV, 8.5 MeV, 8 MeV and 7 MeV respectively. Then, in which of the following reaction/s is energy released? (a) D $\\to$ 2B (b) C $\\to$ B+A (c) B $\\to$ 2A",
+      "options": [
+        "only in (a)",
+        "in (b), (c)",
+        "in (a), (c)",
+        "in (a), (b) and (c)"
+      ],
+      "answer": 0,
+      "chapter": "Nuclei",
+      "explanation": "Total binding energies: D=840 MeV vs 2B=1020 MeV (increase, so energy released); C=720 MeV vs B+A=660 MeV (decrease); B=510 MeV vs 2A=300 MeV (decrease). Energy is released only in reaction (a)."
+    },
+    {
+      "n": 26,
+      "q": "Copper and Germanium are cooled from room temperature to 100 K. Then the resistance of",
+      "options": [
+        "Germanium decreases, Copper increases",
+        "Germanium decreases, Copper decreases",
+        "Germanium increases, Copper decreases",
+        "Germanium increases, Copper increases"
+      ],
+      "answer": 2,
+      "chapter": "Semiconductor Electronics",
+      "explanation": "Cooling a metal (copper) reduces lattice vibrations so its resistance decreases, while cooling a semiconductor (germanium) reduces the number of thermally generated charge carriers so its resistance increases."
+    },
+    {
+      "n": 27,
+      "q": "The most stable particle in the Baryon group is",
+      "options": [
+        "neutron",
+        "proton",
+        "lamda particle",
+        "sigma particle"
+      ],
+      "answer": 1,
+      "chapter": "Old syllabus: Elementary Particles",
+      "explanation": "Among baryons, the proton is the only one that is completely stable; a free neutron decays with a mean life of about 15 minutes."
+    },
+    {
+      "n": 28,
+      "q": "Frequencies of light incident on a system of scattering particles are in the ratio 1:2. Then, the intensity of scattered light in a particular direction is............",
+      "options": [
+        "1:4",
+        "1:2",
+        "1:8",
+        "1:16"
+      ],
+      "answer": 3,
+      "chapter": "Old syllabus: Scattering of Light",
+      "explanation": "By Rayleigh's law of scattering, scattered intensity is proportional to $\\nu^4$, so the ratio is $1^4:2^4 = 1:16$."
+    },
+    {
+      "n": 29,
+      "q": "The ratio of the magnetic dipole moment to the angular momentum of the electron in the 1$^{st}$ orbit of hydrogen atom is",
+      "options": [
+        "$\\dfrac{e}{2m}$",
+        "$\\dfrac{e}{m}$",
+        "$\\dfrac{2m}{e}$",
+        "$\\dfrac{m}{e}$"
+      ],
+      "answer": 0,
+      "chapter": "Atoms",
+      "explanation": "For an orbiting electron, magnetic moment $\\mu = \\dfrac{e}{2m}L$, so the gyromagnetic ratio $\\mu/L = e/2m$, independent of the orbit number."
+    },
+    {
+      "n": 30,
+      "q": "Milk is an example for",
+      "options": [
+        "inelastic gel",
+        "foam",
+        "elastic gel",
+        "emulsion"
+      ],
+      "answer": 3,
+      "chapter": "Old syllabus: Colloids",
+      "explanation": "Milk is a colloidal dispersion of fat droplets (a liquid) in water (another liquid), which is classified as an emulsion."
+    },
+    {
+      "n": 31,
+      "q": "A body of mass 'm' is travelling with a velocity 'u'. When a constant retarding force 'F' is applied, it comes to rest after travelling a distance 's$_1$'. If the initial velocity is '2u', with the same force 'F', the distance travelled before it comes to rest is 's$_2$'. Then,",
+      "options": [
+        "s$_2$ = 2s$_1$",
+        "s$_2$ = $\\dfrac{s_1}{2}$",
+        "s$_2$ = s$_1$",
+        "s$_2$ = 4s$_1$"
+      ],
+      "answer": 3,
+      "chapter": "Work, Energy and Power",
+      "explanation": "By the work-energy theorem $Fs=\\frac12mv^2$, so $s\\propto v^2$; doubling the initial speed quadruples the stopping distance, giving s$_2$ = 4s$_1$."
+    },
+    {
+      "n": 32,
+      "q": "A block kept on a rough surface starts sliding when the inclination of the surface is '$\\theta$' with respect to the horizontal. The coefficient of static friction between the block and the surface is",
+      "options": [
+        "sin$\\theta$",
+        "tan$\\theta$",
+        "cos$\\theta$",
+        "sec$\\theta$"
+      ],
+      "answer": 1,
+      "chapter": "Laws of Motion",
+      "explanation": "Sliding begins when mg sin$\\theta$ = $\\mu_s$ mg cos$\\theta$, i.e. $\\mu_s=\\tan\\theta$."
+    },
+    {
+      "n": 33,
+      "q": "Two bodies of masses m$_1$ and m$_2$ are acted upon by a constant force F for a time t. They start from rest and acquire kinetic energies E$_1$ and E$_2$ respectively. Then $\\dfrac{E_1}{E_2}$ is",
+      "options": [
+        "$\\dfrac{m_1}{m_2}$",
+        "$\\dfrac{m_2}{m_1}$",
+        "1",
+        "$\\dfrac{\\sqrt{m_1m_2}}{m_1+m_2}$"
+      ],
+      "answer": 1,
+      "chapter": "Work, Energy and Power",
+      "explanation": "Both bodies gain the same momentum p=Ft; since $E=p^2/2m$, $E_1/E_2=m_2/m_1$."
+    },
+    {
+      "n": 34,
+      "q": "The X and Y components of a force F acting at 30° to the x-axis are respectively",
+      "options": [
+        "$\\dfrac{F}{\\sqrt2}$, F",
+        "$\\dfrac{F}{2}$, $\\dfrac{\\sqrt3}{2}$F",
+        "$\\dfrac{\\sqrt3}{2}$F, $\\dfrac12$F",
+        "F, $\\dfrac{F}{\\sqrt2}$"
+      ],
+      "answer": 2,
+      "chapter": "Motion in a Plane",
+      "explanation": "$F_x = F\\cos30° = \\dfrac{\\sqrt3}{2}F$ and $F_y = F\\sin30° = \\dfrac12F$."
+    },
+    {
+      "n": 35,
+      "q": "Spheres of iron and lead having same mass are completely immersed in water. Density of lead is more than that of iron. Apparent loss of weight is W$_1$ for iron sphere and W$_2$ for lead sphere. Then $\\dfrac{W_1}{W_2}$ is",
+      "options": [
+        "=1",
+        "between 0 and 1",
+        "=0",
+        ">1"
+      ],
+      "answer": 3,
+      "chapter": "Mechanical Properties of Fluids",
+      "explanation": "Loss of weight equals the weight of water displaced, $\\rho_wVg$; for equal mass, $V=m/\\rho$, so the less dense iron sphere has a larger volume and hence a larger loss of weight, giving W$_1$/W$_2$ > 1."
+    },
+    {
+      "n": 36,
+      "q": "A hot body is allowed to cool. The surrounding temperature is constant at 30 °C. The body takes time t$_1$ to cool from 90 °C to 89 °C and time t$_2$ to cool from 60 °C to 59.5 °C. Then,",
+      "options": [
+        "t$_2$ = 2t$_1$",
+        "t$_2$ = $\\dfrac{t_1}{2}$",
+        "t$_2$ = 4t$_1$",
+        "t$_2$ = t$_1$"
+      ],
+      "answer": 3,
+      "chapter": "Thermal Properties of Matter",
+      "explanation": "By Newton's law of cooling, $\\dfrac{\\Delta\\theta}{t}=k(\\theta_{avg}-\\theta_0)$; the first case gives $1/t_1=k(59.5)$ and the second gives $0.5/t_2=k(29.75)$, both equal to $59.5k$, so $t_1=t_2$."
+    },
+    {
+      "n": 37,
+      "q": "A particle executes SHM with amplitude 0.2 m and time period 24 s. The time required for it to move from the mean position to a point 0.1 m from the mean position is",
+      "options": [
+        "2 s",
+        "3 s",
+        "8 s",
+        "12 s"
+      ],
+      "answer": 0,
+      "chapter": "Oscillations",
+      "explanation": "$x=A\\sin\\omega t$ with $x=A/2$ gives $\\sin\\omega t=1/2$, so $\\omega t=\\pi/6$; with $\\omega=2\\pi/24=\\pi/12$, t = 2 s."
+    },
+    {
+      "n": 38,
+      "q": "White light is incident normally on a glass slab. Inside the glass slab,",
+      "options": [
+        "red light travels faster than other colours",
+        "violet light travels faster than other colours",
+        "yellow light travels faster than other colours",
+        "all colours travel with the same speed"
+      ],
+      "answer": 0,
+      "chapter": "Ray Optics and Optical Instruments",
+      "explanation": "Glass has the least refractive index for red light among visible colours, so red light travels fastest inside the slab."
+    },
+    {
+      "n": 39,
+      "q": "Two thin plano-convex lenses each of focal length f are placed as shown in the figure [three configurations of the two lenses touching each other in different orientations]. The ratio of their effective focal lengths in the three cases is",
+      "options": [
+        "1:2:3",
+        "1:2:1",
+        "1:1:1",
+        "3:2:1"
+      ],
+      "answer": 1,
+      "chapter": "Ray Optics and Optical Instruments",
+      "disputed": true,
+      "note": "Since both lenses are thin and touching, the equivalent power is simply P1+P2=2/f in all three orientations (thin-lens combination is orientation-independent), so the correct ratio is 1:1:1 (option C); KEA's key credits 1:2:1 (option B), and a grace mark was awarded to all candidates.",
+      "explanation": "KEA awarded grace marks for this question, likely due to the ambiguity of the lens-orientation figure; treating the three combinations by the standard lens-combination formula gives effective focal lengths in the ratio 1:2:1 (as per KEA key).",
+      "grace": true,
+      "figure": true
+    },
+    {
+      "n": 40,
+      "q": "If the two slits in Young's double slit experiment are of unequal width, then",
+      "options": [
+        "the bright fringes will have unequal spacing.",
+        "the bright fringes will have unequal brightness.",
+        "the fringes do not appear.",
+        "the dark fringes are not perfectly dark."
+      ],
+      "answer": 3,
+      "chapter": "Wave Optics",
+      "explanation": "Unequal slit widths give unequal intensities I$_1$ $\\ne$ I$_2$ from the two slits; the fringe spacing and bright-fringe intensity are unaffected, but the minimum intensity $(\\sqrt{I_1}-\\sqrt{I_2})^2\\ne0$, so the dark fringes are not perfectly dark."
+    },
+    {
+      "n": 41,
+      "q": "The phenomenon of polarization shows that light has _________ nature.",
+      "options": [
+        "particle",
+        "transverse",
+        "longitudinal",
+        "dual"
+      ],
+      "answer": 1,
+      "chapter": "Wave Optics",
+      "explanation": "Only transverse waves can be polarized, so polarization confirms that light is a transverse wave."
+    },
+    {
+      "n": 42,
+      "q": "Acceleration of a charged particle of charge 'q' and mass 'm' moving in a uniform electric field of strength 'E' is",
+      "options": [
+        "$\\dfrac{qE}{m}$",
+        "$\\dfrac{m}{qE}$",
+        "mqE",
+        "$\\dfrac{q}{mE}$"
+      ],
+      "answer": 0,
+      "chapter": "Electric Charges and Fields",
+      "explanation": "By Newton's second law, $a=F/m=qE/m$."
+    },
+    {
+      "n": 43,
+      "q": "Two fixed charges A and B of 5 $\\mu$C each are separated by a distance of 6 m. C is the mid point of the line joining A and B. A charge 'Q' of -5 $\\mu$C is shot perpendicular to the line joining A and B through C with a kinetic energy of 0.06 J. The charge 'Q' comes to rest at a point D. The distance CD is",
+      "options": [
+        "3 m",
+        "$\\sqrt3$ m",
+        "3$\\sqrt3$ m",
+        "4 m"
+      ],
+      "answer": 3,
+      "chapter": "Electrostatic Potential and Capacitance",
+      "explanation": "By energy conservation, KE + U(C) = U(D) where $U(x)=\\dfrac{2kq_Aq_Q}{\\sqrt{9+x^2}}$; solving $0.06-0.15=-0.45/\\sqrt{9+x^2}$ gives $\\sqrt{9+x^2}=5$, so x = 4 m."
+    },
+    {
+      "n": 44,
+      "q": "A capacitor of capacitance 10 $\\mu$F is charged to 10 V. The energy stored in it is",
+      "options": [
+        "100 $\\mu$J",
+        "500 $\\mu$J",
+        "1000 $\\mu$J",
+        "1 $\\mu$J"
+      ],
+      "answer": 1,
+      "chapter": "Electrostatic Potential and Capacitance",
+      "explanation": "$U=\\dfrac12CV^2=\\dfrac12\\times10\\times10^{-6}\\times10^2=500\\ \\mu$J."
+    },
+    {
+      "n": 45,
+      "q": "Which of the following graphs correctly represents the variation of heat energy (U) produced in a metallic conductor in a given time as a function of potential difference (V) across the conductor? [four U vs V graphs]",
+      "options": [
+        "a straight line through the origin",
+        "a curve that rises then flattens (concave down)",
+        "a curve that falls from a high value toward zero",
+        "a curve that rises increasingly steeply (concave up, like a parabola through the origin)"
+      ],
+      "answer": 3,
+      "chapter": "Current Electricity",
+      "explanation": "For an ohmic conductor $U=V^2t/R$, a parabola through the origin that rises increasingly steeply with V, matching graph (4)."
+    },
+    {
+      "n": 46,
+      "q": "A current of 2 A is passing through a metal wire of cross sectional area 2$\\times$10$^{-6}$ m$^2$. If the number density of free electrons in the wire is 5$\\times$10$^{26}$ m$^{-3}$, the drift speed of electrons is (given e = 1.6$\\times$10$^{-19}$ C)",
+      "options": [
+        "$\\dfrac{1}{16}$ ms$^{-1}$",
+        "$\\dfrac{1}{40}$ ms$^{-1}$",
+        "$\\dfrac{1}{80}$ ms$^{-1}$",
+        "$\\dfrac{1}{32}$ ms$^{-1}$"
+      ],
+      "answer": 2,
+      "chapter": "Current Electricity",
+      "explanation": "$v_d = I/(nAe) = 2/(5\\times10^{26}\\times2\\times10^{-6}\\times1.6\\times10^{-19}) = 2/160 = 1/80$ ms$^{-1}$."
+    },
+    {
+      "n": 47,
+      "q": "Magnetic field at a distance r from an infinitely long straight conductor carrying a steady current varies as",
+      "options": [
+        "$\\dfrac{1}{r^2}$",
+        "$\\dfrac{1}{r}$",
+        "$\\dfrac{1}{r^3}$",
+        "$\\dfrac{1}{\\sqrt r}$"
+      ],
+      "answer": 1,
+      "chapter": "Moving Charges and Magnetism",
+      "explanation": "By Ampere's law, $B=\\mu_0I/2\\pi r \\propto 1/r$."
+    },
+    {
+      "n": 48,
+      "q": "In the loop shown, the magnetic induction at the point 'O' is [figure: current I flows in along a straight line, turns into a quarter-circle arc of radius R$_1$, jumps outward and returns as a quarter-circle arc of radius R$_2$, then continues straight out through O]",
+      "options": [
+        "$\\dfrac{\\mu_0I}{8}\\left(\\dfrac{R_1-R_2}{R_1R_2}\\right)$",
+        "$\\dfrac{\\mu_0I}{8}\\left(\\dfrac{R_1+R_2}{R_1R_2}\\right)$",
+        "$\\dfrac{\\mu_0I}{8}\\left(\\dfrac{R_1R_2}{R_1+R_2}\\right)$",
+        "Zero"
+      ],
+      "answer": 1,
+      "chapter": "Moving Charges and Magnetism",
+      "explanation": "Each quarter-circular arc contributes $\\mu_0I/8R$ at O and, from the geometry, the two contributions add, giving $B=\\dfrac{\\mu_0I}{8}\\left(\\dfrac{1}{R_1}+\\dfrac{1}{R_2}\\right)=\\dfrac{\\mu_0I}{8}\\cdot\\dfrac{R_1+R_2}{R_1R_2}$."
+    },
+    {
+      "n": 49,
+      "q": "An $\\alpha$-particle and a proton moving with the same kinetic energy enter a region of uniform magnetic field at right angles to the field. The ratio of the radii of the paths of $\\alpha$-particle to that of the proton is",
+      "options": [
+        "1:1",
+        "1:2",
+        "1:4",
+        "1:8"
+      ],
+      "answer": 0,
+      "chapter": "Moving Charges and Magnetism",
+      "explanation": "$r=\\sqrt{2mK}/(qB)$; for the alpha particle $m_\\alpha=4m_p$ and $q_\\alpha=2q_p$, so $r_\\alpha/r_p=\\sqrt4/2=1$, i.e. 1:1."
+    },
+    {
+      "n": 50,
+      "q": "Direction of current induced in a wire moving in a magnetic field is found using",
+      "options": [
+        "Fleming's left hand rule",
+        "Fleming's right hand rule",
+        "Ampere's rule",
+        "Right hand clasp rule"
+      ],
+      "answer": 1,
+      "chapter": "Electromagnetic Induction",
+      "explanation": "Fleming's right hand rule gives the direction of induced current for a conductor moving in a magnetic field (motional EMF)."
+    },
+    {
+      "n": 51,
+      "q": "An ideal resistance R, ideal inductance L, ideal capacitance C and AC volt meters V$_1$, V$_2$, V$_3$ and V$_4$ are connected to an AC source as shown [figure: R, L, C in parallel branches with V$_1$ across R, V$_2$ across L, V$_3$ across C, V$_4$ across the source]. At resonance,",
+      "options": [
+        "reading in V$_3$ = reading in V$_1$",
+        "reading in V$_1$ = reading in V$_2$",
+        "reading in V$_2$ = reading in V$_4$",
+        "reading in V$_2$ = reading in V$_3$"
+      ],
+      "answer": 3,
+      "chapter": "Alternating Current",
+      "explanation": "At resonance $X_L=X_C$, so the voltage across the inductor equals the voltage across the capacitor in magnitude: V$_2$ = V$_3$."
+    },
+    {
+      "n": 52,
+      "q": "X-rays, gamma rays and microwaves travelling in vacuum have",
+      "options": [
+        "same wavelengths but different velocities",
+        "same frequency but different velocities",
+        "same velocity but different wavelengths",
+        "same velocity and same frequency"
+      ],
+      "answer": 2,
+      "chapter": "Electromagnetic Waves",
+      "explanation": "All electromagnetic waves travel at the speed of light c in vacuum, but X-rays, gamma rays and microwaves differ in wavelength (and hence frequency)."
+    },
+    {
+      "n": 53,
+      "q": "If n is the orbit number of the electron in a hydrogen atom, the correct statement among the following is",
+      "options": [
+        "electron energy increases as n increases",
+        "hydrogen emits infrared rays for the electron transition from n=$\\infty$ to n=1",
+        "electron energy is zero for n=1",
+        "electron energy varies as n$^2$"
+      ],
+      "answer": 0,
+      "chapter": "Atoms",
+      "explanation": "$E_n=-13.6/n^2$ eV becomes less negative (increases) as n increases; the n=$\\infty\\to1$ transition is the highest-energy Lyman line (UV, not infrared), E$_1$ is the most negative (not zero), and E$_n\\propto1/n^2$, not n$^2$."
+    },
+    {
+      "n": 54,
+      "q": "In a Ruby laser, the colour of laser light is due to _________ atom.",
+      "options": [
+        "Oxygen",
+        "Aluminium",
+        "Xenon",
+        "Chromium"
+      ],
+      "answer": 3,
+      "chapter": "Old syllabus: Lasers",
+      "explanation": "A ruby laser rod is aluminium oxide doped with chromium ions, and the laser transition occurs between energy levels of the Cr$^{3+}$ ions."
+    },
+    {
+      "n": 55,
+      "q": "The radius of $_{29}$Cu$^{64}$ nucleus in Fermi is (given R$_0$ = 1.2$\\times$10$^{-15}$ m)",
+      "options": [
+        "4.8",
+        "1.2",
+        "7.7",
+        "9.6"
+      ],
+      "answer": 0,
+      "chapter": "Nuclei",
+      "explanation": "$R=R_0A^{1/3}=1.2\\times64^{1/3}=1.2\\times4=4.8$ fm."
+    },
+    {
+      "n": 56,
+      "q": "In a radioactive decay, an element $_Z$X$^A$ emits four $\\alpha$-particles, three $\\beta$-particles and eight gamma photons. The atomic number and mass number of the resulting final nucleus are",
+      "options": [
+        "Z-11, A-16",
+        "Z-5, A-13",
+        "Z-5, A-16",
+        "Z-8, A-13"
+      ],
+      "answer": 2,
+      "chapter": "Nuclei",
+      "explanation": "Four alpha particles reduce A by 16 and Z by 8; three beta particles increase Z by 3 (and don't change A); gamma emission changes neither. Net: A-16, Z-(8-3) = Z-5."
+    },
+    {
+      "n": 57,
+      "q": "For a transistor, $\\beta$ = 100. The value of $\\alpha$ is",
+      "options": [
+        "1.01",
+        "0.99",
+        "100",
+        "0.01"
+      ],
+      "answer": 1,
+      "chapter": "Semiconductor Electronics",
+      "explanation": "$\\alpha=\\beta/(\\beta+1)=100/101\\approx0.99$."
+    },
+    {
+      "n": 58,
+      "q": "The following truth table with A and B as inputs is for _________ gate. [table: A=1,B=0->1; A=1,B=1->0; A=0,B=1->1; A=0,B=0->0]",
+      "options": [
+        "AND",
+        "OR",
+        "XOR",
+        "NOR"
+      ],
+      "answer": 2,
+      "chapter": "Semiconductor Electronics",
+      "explanation": "Output is 1 only when A and B differ, which is the truth table of an XOR gate."
+    },
+    {
+      "n": 59,
+      "q": "'n' photons of wavelength '$\\lambda$' are absorbed by a black body of mass 'm'. The momentum gained by the body is",
+      "options": [
+        "$\\dfrac{h}{m\\lambda}$",
+        "$\\dfrac{mnh}{\\lambda}$",
+        "$\\dfrac{nh}{m\\lambda}$",
+        "$\\dfrac{nh}{\\lambda}$"
+      ],
+      "answer": 3,
+      "chapter": "Dual Nature of Radiation and Matter",
+      "explanation": "Each photon carries momentum $h/\\lambda$, and since a black body absorbs (does not reflect) radiation, the body gains this momentum from every photon: total momentum = $nh/\\lambda$."
+    },
+    {
+      "n": 60,
+      "q": "A radioactive nucleus has specific binding energy 'E$_1$'. It emits an $\\alpha$-particle. The resulting nucleus has specific binding energy 'E$_2$'. Then",
+      "options": [
+        "E$_2$ = E$_1$",
+        "E$_2$ < E$_1$",
+        "E$_2$ > E$_1$",
+        "E$_2$ = 0"
+      ],
+      "answer": 2,
+      "chapter": "Nuclei",
+      "explanation": "Heavy radioactive nuclei lie past the peak of the binding-energy-per-nucleon curve, where B/A decreases with A; alpha decay reduces A, moving the nucleus toward the peak and increasing its specific binding energy, so E$_2$ > E$_1$."
+    }
+  ]
+}

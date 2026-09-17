@@ -1,0 +1,525 @@
+{
+  "notes": "<h3>Oxidation & reduction</h3><ul><li>Classical: oxidation = addition of O$_2$/removal of H$_2$; reduction = removal of O$_2$/addition of H$_2$.</li><li>Electronic concept: oxidation = loss of electrons (oxidation number increases); reduction = gain of electrons (oxidation number decreases). Oxidising agent gets reduced (gains e$^-$); reducing agent gets oxidised (loses e$^-$).</li></ul><h3>Oxidation number rules</h3><ul><li>Free element = 0. Simple ion = its charge. H = +1 (except metal hydrides, −1, e.g. NaH). O = −2 (except peroxides −1, e.g. H$_2$O$_2$; OF$_2$, +2). Sum of oxidation numbers in a neutral compound = 0; in an ion = charge on ion.</li><li>Fluorine is always −1 in compounds (most electronegative element).</li></ul><h3>Types of redox reactions</h3><table><tr><th>Type</th><th>Description</th><th>Example</th></tr><tr><td>Combination</td><td>elements/compounds combine, one is oxidised/reduced</td><td>$2H_2+O_2\\to2H_2O$</td></tr><tr><td>Decomposition</td><td>one compound breaks into simpler species</td><td>$2KClO_3\\to2KCl+3O_2$</td></tr><tr><td>Displacement</td><td>one element displaces another from a compound</td><td>$Zn+CuSO_4\\to ZnSO_4+Cu$</td></tr><tr><td>Disproportionation</td><td>same element is simultaneously oxidised and reduced</td><td>$Cl_2+2OH^-\\to Cl^-+ClO^-+H_2O$</td></tr></table><h3>Balancing redox equations</h3><ul><li>Oxidation number method: equalise the total increase/decrease in oxidation number.</li><li>Ion-electron (half-reaction) method: split into oxidation and reduction half-reactions, balance atoms then charge (add H$^+$/OH$^-$ and H$_2$O), then add electrons and combine so electrons cancel. In acidic medium balance O with H$_2$O and H with H$^+$; in basic medium add OH$^-$ to both sides after balancing in acid.</li></ul><h3>Electrode potential & electrochemical series</h3><ul><li>Standard reduction potential $E^\\circ$: more positive = stronger oxidising agent (gets reduced easily); more negative = stronger reducing agent.</li><li>Order (increasing $E^\\circ$, i.e. increasing oxidising power): Li$^+$/Li (most negative, Li strongest reducer) ... F$_2$/F$^-$ (most positive, F$_2$ strongest oxidiser).</li><li>A species higher (more negative $E^\\circ$) can reduce/displace one lower in the series from its salt solution, e.g. Zn displaces Cu$^{2+}$ since $E^\\circ_{Zn^{2+}/Zn} < E^\\circ_{Cu^{2+}/Cu}$.</li></ul><h3>Common oxidising & reducing agents</h3><p>Oxidising agents: KMnO$_4$, K$_2$Cr$_2$O$_7$, O$_3$, H$_2$O$_2$ (as oxidiser), conc. HNO$_3$. Reducing agents: H$_2$S, SO$_2$, oxalic acid, FeSO$_4$, H$_2$O$_2$ (as reducer, e.g. with KMnO$_4$). H$_2$O$_2$ is amphoteric (can act as both).</p><h3>Exam tip</h3><p>2 questions typically: find oxidation number of an atom in a compound/ion, and identify oxidising/reducing agent or type of redox reaction (often disproportionation). Learn oxidation-number exceptions (peroxides, hydrides, OF$_2$) — these are the most commonly tested trick.</p>",
+  "questions": [
+    {
+      "id": "che-redox-reactions-001",
+      "q": "The oxidation number of Mn in KMnO$_4$ is",
+      "options": [
+        "+7",
+        "+4",
+        "+2",
+        "+6"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "K = +1, O = −2 (×4 = −8). Sum = 0: $1 + x - 8 = 0 \\Rightarrow x = +7$."
+    },
+    {
+      "id": "che-redox-reactions-002",
+      "q": "The oxidation number of oxygen in H$_2$O$_2$ is",
+      "options": [
+        "0",
+        "−1",
+        "+1",
+        "−2"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "In peroxides, oxygen has oxidation number −1 (not the usual −2), since the two O atoms share a single bond and each contributes −1 to balance with 2 H (+1 each)."
+    },
+    {
+      "id": "che-redox-reactions-003",
+      "q": "In the reaction $Zn + CuSO_4 \\to ZnSO_4 + Cu$, the substance oxidised is",
+      "options": [
+        "$SO_4^{2-}$",
+        "Cu",
+        "Zn",
+        "$Cu^{2+}$"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "Zn (0) loses electrons to become Zn$^{2+}$ (+2): oxidation. Cu$^{2+}$ gains electrons to become Cu (reduction)."
+    },
+    {
+      "id": "che-redox-reactions-004",
+      "q": "The reaction $Cl_2 + 2OH^- \\to Cl^- + ClO^- + H_2O$ is an example of",
+      "options": [
+        "decomposition reaction",
+        "displacement reaction",
+        "combination reaction",
+        "disproportionation reaction"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "Chlorine (0) is simultaneously reduced to Cl$^-$ (−1) and oxidised to ClO$^-$ (+1) — the same element undergoes both oxidation and reduction."
+    },
+    {
+      "id": "che-redox-reactions-005",
+      "q": "The oxidation number of hydrogen in NaH is",
+      "options": [
+        "+2",
+        "0",
+        "+1",
+        "−1"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "In metal hydrides, hydrogen has oxidation number −1 (Na is +1, sum = 0, so H = −1), an exception to its usual +1."
+    },
+    {
+      "id": "che-redox-reactions-006",
+      "q": "Which of the following acts as an oxidising agent?",
+      "options": [
+        "K$_2$Cr$_2$O$_7$",
+        "H$_2$S",
+        "SO$_2$",
+        "oxalic acid"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "K$_2$Cr$_2$O$_7$ (Cr in +6) readily gets reduced to Cr$^{3+}$ (+3), making it a strong oxidising agent, commonly used in volumetric analysis."
+    },
+    {
+      "id": "che-redox-reactions-007",
+      "q": "The oxidation number of S in Na$_2$S$_2$O$_3$ (sodium thiosulfate) is",
+      "options": [
+        "+4",
+        "+2",
+        "0",
+        "+6"
+      ],
+      "answer": 1,
+      "difficulty": "hard",
+      "explanation": "Na$_2$ contributes +2, O$_3$ contributes −6. For a neutral compound: $2 + 2x - 6 = 0 \\Rightarrow 2x = 4 \\Rightarrow x = +2$ (average oxidation number of the two S atoms)."
+    },
+    {
+      "id": "che-redox-reactions-008",
+      "q": "A species with more negative standard reduction potential acts as a",
+      "options": [
+        "catalyst",
+        "neutral species",
+        "stronger reducing agent",
+        "stronger oxidising agent"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "A very negative $E^\\circ$ means the species has little tendency to be reduced (gain electrons) and instead readily loses electrons, i.e. it is a strong reducing agent."
+    },
+    {
+      "id": "che-redox-reactions-009",
+      "q": "In the electrochemical series, which of the following can displace copper from CuSO$_4$ solution?",
+      "options": [
+        "Hg",
+        "Ag",
+        "Zn",
+        "Au"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "Zn lies above Cu in the electrochemical series (more negative $E^\\circ$), so it can reduce Cu$^{2+}$ and displace Cu metal. Ag, Au, Hg lie below Cu and cannot."
+    },
+    {
+      "id": "che-redox-reactions-010",
+      "q": "Balancing $MnO_4^- + Fe^{2+} + H^+ \\to Mn^{2+} + Fe^{3+} + H_2O$ by the ion-electron method, the number of electrons transferred per MnO$_4^-$ ion is",
+      "options": [
+        "5",
+        "7",
+        "1",
+        "2"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "Mn goes from +7 in MnO$_4^-$ to +2 in Mn$^{2+}$, a gain of 5 electrons per Mn atom."
+    },
+    {
+      "id": "che-redox-reactions-011",
+      "q": "The reaction $2KClO_3 \\to 2KCl + 3O_2$ is an example of a",
+      "options": [
+        "displacement reaction",
+        "decomposition reaction (with intramolecular redox)",
+        "combination reaction",
+        "neutralisation reaction"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "One compound (KClO$_3$) breaks down into simpler substances (KCl and O$_2$), so this is a decomposition reaction. Within it, Cl goes from +5 to −1 (reduced) while O goes from −2 to 0 (oxidised) — an intramolecular redox change. It is not disproportionation, since that term applies when the same element is simultaneously oxidised and reduced; here Cl and O are different elements."
+    },
+    {
+      "id": "che-redox-reactions-012",
+      "q": "H$_2$O$_2$ is called an amphoteric redox reagent because it can",
+      "options": [
+        "neutralise acids and bases",
+        "dissolve in both polar and non-polar solvents",
+        "act only as an acid",
+        "act as both an oxidising and a reducing agent"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "H$_2$O$_2$ can be reduced to H$_2$O (oxidising agent) or oxidised to O$_2$ (reducing agent), e.g. it reduces acidified KMnO$_4$ but oxidises acidified KI."
+    },
+    {
+      "id": "che-redox-reactions-013",
+      "q": "The oxidation number of chromium in $Cr_2O_7^{2-}$ is",
+      "options": [
+        "+4",
+        "+7",
+        "+3",
+        "+6"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "O$_7$ = −14; total charge = −2. For 2 Cr: $2x - 14 = -2 \\Rightarrow x = +6$."
+    },
+    {
+      "id": "che-redox-reactions-014",
+      "q": "In the reaction $2Na + Cl_2 \\to 2NaCl$, sodium is",
+      "options": [
+        "unchanged",
+        "oxidised, since it loses electrons",
+        "reduced, since it loses electrons",
+        "oxidised, since it gains electrons"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "Na (0) loses one electron to form Na$^+$ (+1): this is oxidation, by definition loss of electrons/increase in oxidation number."
+    },
+    {
+      "id": "che-redox-reactions-015",
+      "q": "Fluorine shows an oxidation number of",
+      "options": [
+        "0 only",
+        "+7 in oxoacids",
+        "−1 always in its compounds",
+        "+1 in some compounds"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "Being the most electronegative element, fluorine is always −1 in its compounds; it never shows a positive oxidation state."
+    },
+    {
+      "id": "che-redox-reactions-016",
+      "q": "Which of the following is a comproportionation (opposite of disproportionation) type reaction?",
+      "options": [
+        "$Mn^{2+} + MnO_4^- \\to MnO_2$ (same element combining from different oxidation states)",
+        "$2KClO_3 \\to 2KCl + 3O_2$",
+        "$Zn + CuSO_4 \\to ZnSO_4 + Cu$",
+        "$Cl_2 + 2OH^- \\to Cl^- + ClO^- + H_2O$"
+      ],
+      "answer": 0,
+      "difficulty": "hard",
+      "explanation": "Comproportionation is the reverse of disproportionation: two oxidation states of the same element combine to give one intermediate oxidation state, as Mn(+2) and Mn(+7) both moving toward Mn(+4) in MnO$_2$."
+    },
+    {
+      "id": "che-redox-reactions-017",
+      "q": "In acidic medium, the ion-electron method balances oxygen atoms by adding",
+      "options": [
+        "OH$^-$ ions",
+        "O$_2$ molecules",
+        "H$^+$ ions only",
+        "H$_2$O molecules"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "In acidic medium, excess oxygen on one side is balanced by adding H$_2$O to the other side, and H is then balanced using H$^+$."
+    },
+    {
+      "id": "che-redox-reactions-018",
+      "q": "Which pair correctly represents an oxidant and its corresponding reductant in the same reaction $MnO_4^- + 5Fe^{2+} + 8H^+ \\to Mn^{2+} + 5Fe^{3+} + 4H_2O$?",
+      "options": [
+        "$MnO_4^-$ is reduced (oxidant); Fe$^{2+}$ is oxidised (reductant)",
+        "Both are reduced",
+        "Both are oxidised",
+        "$MnO_4^-$ is oxidised; Fe$^{2+}$ is reduced"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "Mn goes from +7 to +2 (gains electrons, reduced, so MnO$_4^-$ is the oxidising agent); Fe goes from +2 to +3 (loses electron, oxidised, reducing agent)."
+    },
+    {
+      "id": "che-redox-reactions-019",
+      "q": "The oxidation state of nitrogen in NH$_4$NO$_3$ (two different N atoms) are",
+      "options": [
+        "both +3",
+        "−3 and +5",
+        "+3 and +3",
+        "−3 and −3"
+      ],
+      "answer": 1,
+      "difficulty": "hard",
+      "explanation": "In NH$_4^+$: H = +1×4 = +4, charge +1, so N = $1-4 = -3$. In NO$_3^-$: O = −2×3 = −6, charge −1, so N = $-1-(-6) = +5$."
+    },
+    {
+      "id": "che-redox-reactions-020",
+      "q": "A redox titration between oxalic acid and KMnO$_4$ in acidic medium requires heating because",
+      "options": [
+        "KMnO$_4$ decomposes on cooling",
+        "oxalic acid is insoluble in cold water",
+        "the reaction is slow at room temperature and needs activation energy",
+        "the colour change is visible only when hot"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "The oxidation of oxalate ions by MnO$_4^-$ has a high activation energy and proceeds slowly at room temperature, so the solution is usually warmed to about 60°C."
+    },
+    {
+      "id": "che-redox-reactions-021",
+      "q": "The oxidation number of oxygen in OF$_2$ is",
+      "options": [
+        "-2",
+        "-1",
+        "+1",
+        "+2"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "Since fluorine is more electronegative than oxygen, O takes a positive oxidation number here: F(-1)×2 + O = 0 → O = +2, an exception to the usual -2."
+    },
+    {
+      "id": "che-redox-reactions-022",
+      "q": "The average oxidation number of iron in Fe$_3$O$_4$ (a mixed oxide, FeO·Fe$_2$O$_3$) is",
+      "options": [
+        "+8/3",
+        "+4",
+        "+2",
+        "+3"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "$3x + 4(-2) = 0 \\Rightarrow 3x = 8 \\Rightarrow x = +8/3 \\approx +2.67$, the average of one Fe$^{2+}$ and two Fe$^{3+}$ ions."
+    },
+    {
+      "id": "che-redox-reactions-023",
+      "q": "The oxidation number of sulphur in H$_2$SO$_4$ is",
+      "options": [
+        "+4",
+        "+6",
+        "+2",
+        "+8"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "H$_2$ contributes +2, O$_4$ contributes -8. For a neutral molecule: $2 + x - 8 = 0 \\Rightarrow x = +6$."
+    },
+    {
+      "id": "che-redox-reactions-024",
+      "q": "The oxidation number of Fe in K$_4$[Fe(CN)$_6$] is",
+      "options": [
+        "+4",
+        "+3",
+        "+2",
+        "+6"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "K$_4$ contributes +4, so the complex ion [Fe(CN)$_6$]$^{4-}$ has charge -4. CN$^-$ contributes -6, so Fe $= -4-(-6) = +2$."
+    },
+    {
+      "id": "che-redox-reactions-025",
+      "q": "The oxidation number of chromium in CrO$_5$ (chromium peroxide, containing two peroxide linkages) is",
+      "options": [
+        "+8",
+        "+10",
+        "+5",
+        "+6"
+      ],
+      "answer": 3,
+      "difficulty": "hard",
+      "explanation": "CrO$_5$ has 2 peroxide O–O bonds (4 O atoms at -1 each) and 1 oxide O (-2): $x + 4(-1) + 1(-2) = 0 \\Rightarrow x = +6$, not +10 as a naive count would suggest."
+    },
+    {
+      "id": "che-redox-reactions-026",
+      "q": "The oxidation number of oxygen in the superoxide ion KO$_2$ is",
+      "options": [
+        "-1/2",
+        "-2",
+        "+1",
+        "-1"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "K is +1; the O$_2^-$ superoxide ion has a total charge of -1 spread over 2 oxygen atoms, giving each an oxidation number of -1/2."
+    },
+    {
+      "id": "che-redox-reactions-027",
+      "q": "The equivalent weight of KMnO$_4$ (M = 158) in acidic medium (n-factor = 5) is",
+      "options": [
+        "79",
+        "31.6",
+        "158",
+        "52.7"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "Equivalent weight $=$ molar mass $/$ n-factor $= 158/5 = 31.6$."
+    },
+    {
+      "id": "che-redox-reactions-028",
+      "q": "The equivalent weight of K$_2$Cr$_2$O$_7$ (M = 294) in acidic medium (n-factor = 6) is",
+      "options": [
+        "98",
+        "294",
+        "49",
+        "147"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "Equivalent weight $= 294/6 = 49$."
+    },
+    {
+      "id": "che-redox-reactions-029",
+      "q": "The volume of 0.1 N KMnO$_4$ required to completely oxidise 100 mL of 0.2 N FeSO$_4$ solution in acidic medium is",
+      "options": [
+        "200 mL",
+        "100 mL",
+        "50 mL",
+        "400 mL"
+      ],
+      "answer": 0,
+      "difficulty": "hard",
+      "explanation": "At the equivalence point, $N_1V_1 = N_2V_2 \\Rightarrow 0.1\\times V_1 = 0.2\\times100 \\Rightarrow V_1 = 200$ mL."
+    },
+    {
+      "id": "che-redox-reactions-030",
+      "q": "By convention, the standard reduction potential of the standard hydrogen electrode (SHE) is taken as",
+      "options": [
+        "2.06 V",
+        "-1 V",
+        "+1 V",
+        "0 V"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "The SHE is the reference electrode against which all other standard electrode potentials are measured, arbitrarily assigned $E^\\circ = 0$ V."
+    },
+    {
+      "id": "che-redox-reactions-031",
+      "q": "Among Li, Na and K, the strongest reducing agent in aqueous solution (based on standard electrode potentials) is",
+      "options": [
+        "none, all are equal",
+        "Li",
+        "Na",
+        "K"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "Despite its small size and highest ionisation enthalpy in the gas phase, Li has the most negative standard reduction potential in water due to its very high hydration enthalpy, making it the strongest reducing agent in aqueous solution."
+    },
+    {
+      "id": "che-redox-reactions-032",
+      "q": "Copper metal cannot displace zinc from ZnSO$_4$ solution because",
+      "options": [
+        "Cu has a smaller atomic radius than Zn",
+        "Cu is more reactive than Zn",
+        "Cu has a higher (less negative) standard reduction potential than Zn, so it cannot reduce Zn$^{2+}$",
+        "Zn$^{2+}$ is unstable in solution"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "Since $E^\\circ_{Cu^{2+}/Cu} > E^\\circ_{Zn^{2+}/Zn}$, Cu$^{2+}$ is more easily reduced than Zn$^{2+}$; Cu metal therefore cannot reduce Zn$^{2+}$ ions to displace zinc."
+    },
+    {
+      "id": "che-redox-reactions-033",
+      "q": "In the ion-electron method for balancing a redox equation in basic medium, after balancing as if in acidic medium, the H$^+$ ions are eliminated by adding equal moles of",
+      "options": [
+        "OH$^-$ ions to both sides, converting H$^+$ to H$_2$O",
+        "H$_2$O only, without OH$^-$",
+        "more H$^+$ ions",
+        "O$_2$ gas"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "Adding OH$^-$ equal to the number of H$^+$ ions on both sides converts H$^+ + OH^- \\to H_2O$, giving the equation appropriate for basic medium."
+    },
+    {
+      "id": "che-redox-reactions-034",
+      "q": "The equivalent weight of H$_2$O$_2$ (M = 34) when it acts as an oxidising agent (n-factor = 2) is",
+      "options": [
+        "34",
+        "17",
+        "8.5",
+        "68"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "As an oxidiser, O in H$_2$O$_2$ goes from -1 to -2, a gain of 2 electrons per molecule; equivalent weight $= 34/2 = 17$."
+    },
+    {
+      "id": "che-redox-reactions-035",
+      "q": "Which of the following represents a disproportionation reaction?",
+      "options": [
+        "Zn + CuSO$_4$ → ZnSO$_4$ + Cu",
+        "H$_2$ + Cl$_2$ → 2HCl",
+        "2Cu$^+$ → Cu + Cu$^{2+}$",
+        "2KClO$_3$ → 2KCl + 3O$_2$"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "Cu$^+$ (+1) is simultaneously reduced to Cu (0) and oxidised to Cu$^{2+}$ (+2) — the same element undergoes both oxidation and reduction, the hallmark of disproportionation."
+    },
+    {
+      "id": "che-redox-reactions-036",
+      "q": "In basic medium, MnO$_4^-$ is reduced to MnO$_2$. The number of electrons gained per Mn atom is",
+      "options": [
+        "2",
+        "1",
+        "5",
+        "3"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "Mn goes from +7 in MnO$_4^-$ to +4 in MnO$_2$, a gain of 3 electrons (different from the 5-electron change to Mn$^{2+}$ in acidic medium)."
+    },
+    {
+      "id": "che-redox-reactions-037",
+      "q": "When I$^-$ is oxidised to I$_2$, the number of electrons lost per iodide ion is",
+      "options": [
+        "2",
+        "3",
+        "1",
+        "0"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "I$^-$ ($-1$) loses one electron to become neutral I (0), which then pairs up as I$_2$."
+    },
+    {
+      "id": "che-redox-reactions-038",
+      "q": "When the equation $2MnO_4^- + \\_\\_I^- + 4H_2O \\to 2MnO_2 + 3I_2 + 8OH^-$ is balanced (basic medium), the coefficient of I$^-$ is",
+      "options": [
+        "6",
+        "4",
+        "3",
+        "2"
+      ],
+      "answer": 0,
+      "difficulty": "hard",
+      "explanation": "2 Mn atoms gain $2\\times3=6$ electrons; each I$^-\\to\\tfrac12$I$_2$ loses 1 electron, so 6 I$^-$ ions are needed to supply 6 electrons, giving 3 I$_2$."
+    },
+    {
+      "id": "che-redox-reactions-039",
+      "q": "20 mL of 0.1 M K$_2$Cr$_2$O$_7$ (n-factor = 6) completely oxidises Fe$^{2+}$ (n-factor = 1) in acidic medium. The moles of Fe$^{2+}$ oxidised are",
+      "options": [
+        "0.002 mol",
+        "0.012 mol",
+        "0.024 mol",
+        "0.006 mol"
+      ],
+      "answer": 1,
+      "difficulty": "hard",
+      "explanation": "Equivalents of K$_2$Cr$_2$O$_7 = 0.1\\times6\\times0.020 = 0.012$ eq $=$ equivalents of Fe$^{2+}$ $=$ moles of Fe$^{2+}$ (since its n-factor is 1)."
+    },
+    {
+      "id": "che-redox-reactions-040",
+      "q": "The reaction $2H_2O_2 \\to 2H_2O + O_2$ is an example of a",
+      "options": [
+        "decomposition without any redox change",
+        "displacement reaction",
+        "combination reaction",
+        "disproportionation reaction"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "Oxygen in H$_2$O$_2$ (-1) is simultaneously reduced to -2 (in H$_2$O) and oxidised to 0 (in O$_2$), so the same element is both oxidised and reduced — disproportionation."
+    }
+  ]
+}

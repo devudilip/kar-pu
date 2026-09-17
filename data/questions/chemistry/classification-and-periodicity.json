@@ -1,0 +1,526 @@
+{
+  "notes": "<h3>Modern periodic law</h3><p>Properties of elements are periodic functions of their atomic number (Moseley). The long form has 18 groups and 7 periods; period number = number of shells (value of $n$) of the outermost shell; elements in a group have similar valence-shell configuration.</p><h3>Classification (block)</h3><ul><li>s-block: groups 1–2 (last electron enters s). p-block: groups 13–18. d-block (transition): groups 3–12. f-block (lanthanoids, actinoids).</li></ul><h3>Periodic trends</h3><table><tr><th>Property</th><th>Along a period (L→R)</th><th>Down a group</th></tr><tr><td>Atomic radius</td><td>decreases (↑ $Z_{eff}$)</td><td>increases (new shell)</td></tr><tr><td>Ionic radius</td><td>decreases (isoelectronic: more +ve charge → smaller)</td><td>increases</td></tr><tr><td>Ionisation enthalpy</td><td>increases</td><td>decreases</td></tr><tr><td>Electron gain enthalpy</td><td>becomes more negative (exceptions: noble gases ~0)</td><td>becomes less negative (Cl most negative, not F)</td></tr><tr><td>Electronegativity</td><td>increases</td><td>decreases</td></tr><tr><td>Metallic character</td><td>decreases</td><td>increases</td></tr></table><h3>Exceptions & anomalies</h3><ul><li>IE: Be $>$ B, N $>$ O (extra stability of fully-filled 2s$^2$ and half-filled 2p$^3$).</li><li>Electron gain enthalpy of F is less negative than Cl due to F's small size and strong electron–electron repulsion in the compact 2p orbital.</li><li>Noble gases: IE maximum in their period; electron gain enthalpy ≈ 0 (stable octet).</li><li>Isoelectronic species (same electron count): radius decreases as nuclear charge increases, e.g. $N^{3-} > O^{2-} > F^- > Na^+ > Mg^{2+} > Al^{3+}$.</li></ul><h3>Diagonal relationship & anomalous behaviour</h3><p>2nd period elements (Li, Be, B, C) resemble the diagonally placed 3rd period element of the next group (Li–Mg, Be–Al, B–Si) due to similar charge/size ratio. First member of each group often differs from the rest (e.g. Li, Be, B, C, N, O, F all show anomalous behaviour vs. their group).</p><h3>Nomenclature</h3><p>Elements with $Z > 100$ use IUPAC systematic names (nil=0, un=1, bi=2, tri=3, quad=4, pent=5, hex=6, sept=7, oct=8, enn=9), e.g. Z=104 → unnilquadium (Unq).</p><h3>Exam tip</h3><p>2–3 questions: ordering elements/ions by radius or IE, an anomaly question (Be>B, F vs Cl electron gain enthalpy), and an isoelectronic-species comparison. Learn the trend table cold — most questions are direct applications.</p>",
+  "questions": [
+    {
+      "id": "che-classification-and-periodicity-001",
+      "q": "The modern periodic law states that the properties of elements are a periodic function of their",
+      "options": [
+        "valency",
+        "number of neutrons",
+        "atomic mass",
+        "atomic number"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "Moseley showed atomic number (nuclear charge), not atomic mass, correctly orders elements and predicts periodicity."
+    },
+    {
+      "id": "che-classification-and-periodicity-002",
+      "q": "Across a period from left to right, atomic radius generally",
+      "options": [
+        "first increases then decreases",
+        "decreases due to increasing effective nuclear charge",
+        "remains constant",
+        "increases due to more electrons"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "Electrons are added to the same shell while nuclear charge increases, pulling electrons closer and shrinking the radius."
+    },
+    {
+      "id": "che-classification-and-periodicity-003",
+      "q": "Which order of first ionisation enthalpy is correct?",
+      "options": [
+        "Li > Be",
+        "B > Be",
+        "Be > B",
+        "N < O"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "Be has a stable, fully-filled 2s$^2$ configuration, making it harder to remove an electron than from B (2s$^2$2p$^1$), where the p-electron is easily lost."
+    },
+    {
+      "id": "che-classification-and-periodicity-004",
+      "q": "The electron gain enthalpy of chlorine is more negative than that of fluorine because",
+      "options": [
+        "F's small size causes strong inter-electronic repulsion in the compact 2p subshell",
+        "F is more electronegative",
+        "Cl has fewer electrons",
+        "Cl has a larger nuclear charge"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "Despite F being more electronegative, its very small atomic size leads to significant electron-electron repulsion when an extra electron is added, making the process less exothermic than for Cl."
+    },
+    {
+      "id": "che-classification-and-periodicity-005",
+      "q": "Among the following, the smallest radius is shown by",
+      "options": [
+        "$Al^{3+}$",
+        "$Mg^{2+}$",
+        "$F^-$",
+        "$Na^+$"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "All are isoelectronic (10 electrons); radius decreases as nuclear charge increases: $F^- > Na^+ > Mg^{2+} > Al^{3+}$."
+    },
+    {
+      "id": "che-classification-and-periodicity-006",
+      "q": "The element with the highest electronegativity is",
+      "options": [
+        "chlorine",
+        "fluorine",
+        "nitrogen",
+        "oxygen"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "Fluorine has the highest electronegativity (Pauling scale ≈ 4.0) of all elements."
+    },
+    {
+      "id": "che-classification-and-periodicity-007",
+      "q": "Which element shows a diagonal relationship with lithium?",
+      "options": [
+        "Aluminium",
+        "Sodium",
+        "Magnesium",
+        "Beryllium"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "Li (group 1, period 2) and Mg (group 2, period 3) have similar charge/size ratios, giving similar chemical properties (diagonal relationship)."
+    },
+    {
+      "id": "che-classification-and-periodicity-008",
+      "q": "Elements are classified into s, p, d and f blocks based on",
+      "options": [
+        "their atomic mass",
+        "the number of valence electrons only",
+        "their metallic or non-metallic nature",
+        "the subshell being filled by the last (differentiating) electron"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "The block is decided by the subshell (s, p, d or f) into which the last electron enters according to the Aufbau principle."
+    },
+    {
+      "id": "che-classification-and-periodicity-009",
+      "q": "Which of the following has the largest atomic radius?",
+      "options": [
+        "F",
+        "Cl",
+        "I",
+        "Br"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "Down group 17, a new shell is added at each step, so atomic radius increases: F < Cl < Br < I."
+    },
+    {
+      "id": "che-classification-and-periodicity-010",
+      "q": "Among the period-3 elements Na, Mg, Al and Ar, the correct order of first ionisation enthalpy is",
+      "options": [
+        "Na < Al < Mg < Ar",
+        "Na > Mg > Al > Ar",
+        "Ar < Mg < Al < Na",
+        "Al < Na < Mg < Ar"
+      ],
+      "answer": 0,
+      "difficulty": "hard",
+      "explanation": "General trend is increasing IE across a period, but Al (3s$^2$3p$^1$) dips below Mg (stable 3s$^2$) because its lone p-electron is easily removed; overall order: Na < Al < Mg < Ar."
+    },
+    {
+      "id": "che-classification-and-periodicity-011",
+      "q": "Noble gases have very high ionisation enthalpies because",
+      "options": [
+        "they easily form cations",
+        "they have small atomic size only",
+        "they have high atomic mass",
+        "they have completely filled stable electronic configurations"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "A fully-filled octet ($ns^2np^6$) is extremely stable, so removing an electron requires very high energy."
+    },
+    {
+      "id": "che-classification-and-periodicity-012",
+      "q": "The systematic (IUPAC) name for the element with atomic number 104 is",
+      "options": [
+        "unniltrium",
+        "unnilquadium",
+        "unnilpentium",
+        "unnilunium"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "1-0-4 → un-nil-quad-ium = unnilquadium (symbol Unq), following IUPAC digit roots (1=un, 0=nil, 4=quad)."
+    },
+    {
+      "id": "che-classification-and-periodicity-013",
+      "q": "Going down a group, metallic character generally",
+      "options": [
+        "decreases because ionisation enthalpy decreases",
+        "increases because electronegativity increases",
+        "increases because ionisation enthalpy decreases",
+        "remains unchanged"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "Down a group atomic size increases and ionisation enthalpy decreases, so atoms lose electrons more easily — metallic character increases."
+    },
+    {
+      "id": "che-classification-and-periodicity-014",
+      "q": "Which pair correctly represents an isoelectronic species pair?",
+      "options": [
+        "Na$^+$ and Cl$^-$",
+        "O$^{2-}$ and F$^-$",
+        "K$^+$ and Ca$^{2+}$",
+        "both B and C"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "O$^{2-}$ (10 electrons) and F$^-$ (10 electrons) are isoelectronic; Na$^+$ (10) and Cl$^-$ (18) are not."
+    },
+    {
+      "id": "che-classification-and-periodicity-015",
+      "q": "The period number of an element in the modern periodic table corresponds to the",
+      "options": [
+        "group number",
+        "number of protons",
+        "atomic mass number",
+        "principal quantum number of the outermost shell"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "Period number equals the value of $n$ (principal quantum number) of the outermost occupied shell."
+    },
+    {
+      "id": "che-classification-and-periodicity-016",
+      "q": "Which of the following statements about electron gain enthalpy is correct?",
+      "options": [
+        "Noble gases have a large positive electron gain enthalpy",
+        "It becomes more negative across a period generally",
+        "It decreases down a group without exception",
+        "It is always positive"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "Across a period, increasing nuclear charge makes electron gain enthalpy more negative (more exothermic), with exceptions at noble gases and group 15."
+    },
+    {
+      "id": "che-classification-and-periodicity-017",
+      "q": "Which of the following elements belongs to the d-block?",
+      "options": [
+        "Ga",
+        "Ge",
+        "Sc",
+        "Ca"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "Sc (Z=21) has configuration [Ar]3d$^1$4s$^2$; the last electron enters the 3d subshell, placing it in the d-block."
+    },
+    {
+      "id": "che-classification-and-periodicity-018",
+      "q": "The first ionisation enthalpy of nitrogen is higher than that of oxygen because",
+      "options": [
+        "oxygen has fewer protons",
+        "nitrogen has a smaller atomic radius",
+        "nitrogen is more electronegative",
+        "nitrogen has a half-filled, extra-stable 2p$^3$ configuration"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "A half-filled p-subshell (2p$^3$) has extra symmetry/exchange stability, making it harder to remove an electron from N than from O (2p$^4$), which has one paired, easily-lost electron."
+    },
+    {
+      "id": "che-classification-and-periodicity-019",
+      "q": "Among Li, Na, K and Rb, the element with the highest ionisation enthalpy is",
+      "options": [
+        "Na",
+        "Li",
+        "K",
+        "Rb"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "Ionisation enthalpy decreases down group 1 as atomic size increases; Li, at the top, has the highest value."
+    },
+    {
+      "id": "che-classification-and-periodicity-020",
+      "q": "Which of the following ionic radii order is correct?",
+      "options": [
+        "$Fe^{3+} < Fe^{2+}$",
+        "$Fe^{2+} = Fe^{3+}$",
+        "$Fe^{2+} < Fe^{3+}$",
+        "cannot be compared"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "For the same element, a higher positive charge means fewer electrons and greater effective nuclear pull per electron, so $Fe^{3+}$ is smaller than $Fe^{2+}$."
+    },
+    {
+      "id": "che-classification-and-periodicity-021",
+      "q": "Mendeleev's periodic law stated that properties of elements are a periodic function of their",
+      "options": [
+        "atomic number",
+        "atomic volume",
+        "atomic mass",
+        "valency"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "Mendeleev arranged elements by increasing atomic mass; this was later corrected to atomic number by Moseley's modern periodic law."
+    },
+    {
+      "id": "che-classification-and-periodicity-022",
+      "q": "The modern long-form periodic table has",
+      "options": [
+        "18 groups and 7 periods",
+        "18 groups and 8 periods",
+        "16 groups and 7 periods",
+        "20 groups and 7 periods"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "The long form of the periodic table has 18 vertical groups and 7 horizontal periods."
+    },
+    {
+      "id": "che-classification-and-periodicity-023",
+      "q": "A well-known consequence of lanthanoid contraction is that",
+      "options": [
+        "actinoids become larger than lanthanoids",
+        "atomic radii increase steadily across the lanthanoids",
+        "alkali metal radii increase sharply",
+        "Zr and Hf have almost identical atomic radii"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "The steady contraction in size across the lanthanoids means Hf (following the lanthanoids) has nearly the same radius as Zr, its 4d congener, making their chemistry very similar."
+    },
+    {
+      "id": "che-classification-and-periodicity-024",
+      "q": "Which of the following statements is correct regarding atomic and ionic radii?",
+      "options": [
+        "an anion is smaller than its parent atom",
+        "a cation is smaller than its parent atom",
+        "an anion is always smaller than the corresponding cation",
+        "a cation is always larger than its parent atom"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "Removing electrons increases effective nuclear charge per electron and often reduces shells, so a cation is always smaller than its parent atom; anions, gaining electrons, are larger."
+    },
+    {
+      "id": "che-classification-and-periodicity-025",
+      "q": "Elements of which group typically show a common valency of 3 (in their hydrides/halides)?",
+      "options": [
+        "14",
+        "17",
+        "16",
+        "15"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "Group 15 elements (N, P, As...) have 5 valence electrons and commonly show a valency of 3 (e.g. NH$_3$, PCl$_3$)."
+    },
+    {
+      "id": "che-classification-and-periodicity-026",
+      "q": "The correct order of increasing atomic radius among C, N, O and F is",
+      "options": [
+        "F < O < N < C",
+        "O < F < C < N",
+        "C < N < O < F",
+        "N < O < F < C"
+      ],
+      "answer": 0,
+      "difficulty": "hard",
+      "explanation": "Across period 2, atomic radius decreases left to right (Li > Be > B > C > N > O > F), so the increasing order is F < O < N < C."
+    },
+    {
+      "id": "che-classification-and-periodicity-027",
+      "q": "Which of the following oxides is amphoteric?",
+      "options": [
+        "Na$_2$O",
+        "Al$_2$O$_3$",
+        "MgO",
+        "SO$_3$"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "Al$_2$O$_3$ reacts with both acids and bases, making it amphoteric, unlike the basic Na$_2$O/MgO or acidic SO$_3$."
+    },
+    {
+      "id": "che-classification-and-periodicity-028",
+      "q": "The correct order of increasing acidic character of the oxides Na$_2$O, MgO, Al$_2$O$_3$ and SiO$_2$ is",
+      "options": [
+        "Al$_2$O$_3$ < SiO$_2$ < Na$_2$O < MgO",
+        "MgO < Na$_2$O < SiO$_2$ < Al$_2$O$_3$",
+        "Na$_2$O < MgO < Al$_2$O$_3$ < SiO$_2$",
+        "SiO$_2$ < Al$_2$O$_3$ < MgO < Na$_2$O"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "Across period 3, oxide character changes from strongly basic (Na$_2$O) to basic (MgO) to amphoteric (Al$_2$O$_3$) to acidic (SiO$_2$), so acidic character increases in this order."
+    },
+    {
+      "id": "che-classification-and-periodicity-029",
+      "q": "Among Li, Na, K and Cs, the element with the highest metallic character is",
+      "options": [
+        "K",
+        "Li",
+        "Na",
+        "Cs"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "Metallic character increases down a group as ionisation enthalpy decreases; Cs, at the bottom of group 1, is the most metallic."
+    },
+    {
+      "id": "che-classification-and-periodicity-030",
+      "q": "Regarding electron gain enthalpy of oxygen and sulphur, which statement is correct?",
+      "options": [
+        "S has a more negative electron gain enthalpy than O",
+        "neither has a negative electron gain enthalpy",
+        "both are exactly equal",
+        "O has a more negative electron gain enthalpy than S"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "Like F vs Cl, the smaller O atom has greater electron-electron repulsion when gaining an electron, so S (larger, less repulsion) has a more negative electron gain enthalpy than O."
+    },
+    {
+      "id": "che-classification-and-periodicity-031",
+      "q": "Among the period-3 elements Na, Mg, Al and Si, the largest atomic radius is shown by",
+      "options": [
+        "Al",
+        "Si",
+        "Na",
+        "Mg"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "Atomic radius decreases across a period due to increasing effective nuclear charge; Na, being leftmost, has the largest radius."
+    },
+    {
+      "id": "che-classification-and-periodicity-032",
+      "q": "The drop in ionisation enthalpy on going from group 2 to group 13 across a period (e.g. Mg to Al) is mainly due to",
+      "options": [
+        "extra shielding provided by inner d-electrons",
+        "the added electron entering a p-orbital, which is less penetrating and more easily removed than an s-electron",
+        "a sharp increase in atomic size",
+        "a sudden decrease in nuclear charge"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "The outermost electron in group 13 elements occupies a p-orbital, which is shielded by the filled s-orbital and is easier to remove than an s-electron, lowering ionisation enthalpy relative to group 2."
+    },
+    {
+      "id": "che-classification-and-periodicity-033",
+      "q": "Among Na, Mg, Al and Si, the element with the highest first ionisation enthalpy is",
+      "options": [
+        "Na",
+        "Si",
+        "Mg",
+        "Al"
+      ],
+      "answer": 1,
+      "difficulty": "hard",
+      "explanation": "Actual IE$_1$ values (kJ mol$^{-1}$): Na 496, Al 578, Mg 738, Si 786. Despite the Mg–Al dip, Si (further right, with an increasing effective nuclear charge) has the highest IE$_1$ of this set.",
+      "tip": "Don't assume the period trend is perfectly monotonic across group boundaries — check actual anomalies at groups 2→13 and 15→16."
+    },
+    {
+      "id": "che-classification-and-periodicity-034",
+      "q": "The total number of elements present in period 2 of the periodic table is",
+      "options": [
+        "32",
+        "2",
+        "18",
+        "8"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "Period 2 runs from Li (Z=3) to Ne (Z=10), containing 8 elements."
+    },
+    {
+      "id": "che-classification-and-periodicity-035",
+      "q": "Transition (d-block) elements commonly show variable oxidation states mainly because of",
+      "options": [
+        "the small energy difference between (n-1)d and ns orbitals, allowing both to participate in bonding",
+        "large radii of transition metals",
+        "strong metallic bonding",
+        "high melting points of transition metals"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "Since (n-1)d and ns orbitals are close in energy, a variable number of d-electrons (in addition to ns electrons) can be lost, giving multiple oxidation states."
+    },
+    {
+      "id": "che-classification-and-periodicity-036",
+      "q": "The correct decreasing order of ionic radius for the isoelectronic species O$^{2-}$, F$^-$, Na$^+$ and Mg$^{2+}$ is",
+      "options": [
+        "F$^-$ > O$^{2-}$ > Mg$^{2+}$ > Na$^+$",
+        "Na$^+$ > Mg$^{2+}$ > O$^{2-}$ > F$^-$",
+        "O$^{2-}$ > F$^-$ > Na$^+$ > Mg$^{2+}$",
+        "Mg$^{2+}$ > Na$^+$ > F$^-$ > O$^{2-}$"
+      ],
+      "answer": 2,
+      "difficulty": "hard",
+      "explanation": "All four species have 10 electrons; radius decreases as nuclear charge increases: O(Z=8) < F(Z=9) < Na(Z=11) < Mg(Z=12), so O$^{2-}$ > F$^-$ > Na$^+$ > Mg$^{2+}$."
+    },
+    {
+      "id": "che-classification-and-periodicity-037",
+      "q": "The lanthanoid elements are placed in period",
+      "options": [
+        "4",
+        "6",
+        "5",
+        "7"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "Lanthanoids (Ce to Lu, Z=58–71) belong to period 6, following La."
+    },
+    {
+      "id": "che-classification-and-periodicity-038",
+      "q": "Actinoid contraction is more pronounced than lanthanoid contraction mainly because",
+      "options": [
+        "5f electrons are core electrons in all actinoids",
+        "actinoids have a lower nuclear charge",
+        "4f orbitals shield the nuclear charge poorly",
+        "5f orbitals shield the nuclear charge even more poorly than 4f orbitals"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "The diffuse 5f orbitals shield the nuclear charge even less effectively than 4f orbitals, so the effective nuclear charge increases more sharply across the actinoids, causing greater contraction."
+    },
+    {
+      "id": "che-classification-and-periodicity-039",
+      "q": "The correct order of increasing first ionisation enthalpy for P, S, Cl and Ar is",
+      "options": [
+        "S < P < Cl < Ar",
+        "P < S < Cl < Ar",
+        "Cl < S < P < Ar",
+        "Ar < Cl < P < S"
+      ],
+      "answer": 0,
+      "difficulty": "hard",
+      "explanation": "S dips below P because P's half-filled 3p$^3$ is extra stable (like N vs O), so the actual order is S < P < Cl < Ar, not the naively expected monotonic increase."
+    },
+    {
+      "id": "che-classification-and-periodicity-040",
+      "q": "The tendency of a bonded atom to attract the shared pair of electrons towards itself is called",
+      "options": [
+        "ionisation enthalpy",
+        "electron affinity",
+        "electronegativity",
+        "valency"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "This attracting tendency within a covalent bond defines electronegativity, distinct from electron affinity (a property of an isolated gaseous atom)."
+    }
+  ]
+}

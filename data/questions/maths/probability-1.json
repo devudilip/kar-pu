@@ -1,0 +1,525 @@
+{
+  "notes": "<h3>Random experiment and sample space</h3><ul><li>A random experiment has more than one possible outcome and the outcome cannot be predicted with certainty. The set of all possible outcomes is the sample space $S$.</li><li>An event is any subset of $S$. The sure event is $S$ itself; the impossible event is $\\emptyset$.</li></ul><h3>Common sample spaces</h3><table><tr><th>Experiment</th><th>$n(S)$</th></tr><tr><td>One die thrown</td><td>6</td></tr><tr><td>Two dice thrown</td><td>36</td></tr><tr><td>A coin tossed $n$ times</td><td>$2^n$</td></tr><tr><td>One card from a deck</td><td>52 (4 suits $\\times$ 13, 4 aces, 12 face cards)</td></tr></table><h3>Axiomatic (Kolmogorov) approach</h3><ul><li>$0 \\le P(A) \\le 1$ for every event $A$; $P(S)=1$; $P(\\emptyset)=0$.</li><li>If $A,B$ are mutually exclusive (cannot occur together), $P(A\\cup B)=P(A)+P(B)$.</li><li>For equally likely outcomes: $P(A)=\\dfrac{n(A)}{n(S)}$ = favourable outcomes / total outcomes.</li></ul><h3>Algebra of events</h3><ul><li>Complement: $P(A')=1-P(A)$.</li><li>Addition theorem (general): $P(A\\cup B)=P(A)+P(B)-P(A\\cap B)$.</li><li>If $A,B$ are mutually exclusive, $P(A\\cap B)=0$, so the theorem reduces to $P(A\\cup B)=P(A)+P(B)$.</li><li>Events are exhaustive if their union is the whole sample space $S$. If $A,B$ are both mutually exclusive and exhaustive, $P(A)+P(B)=1$.</li></ul><h3>Odds</h3><ul><li>If odds in favour of an event are $a:b$, then $P(\\text{event})=\\dfrac{a}{a+b}$; odds against are $b:a$.</li></ul><h3>Exam tip</h3><p>KCET typically sets 2-3 questions from this chapter, mostly classic dice/coin/card probability calculations and one on the addition theorem or mutually exclusive/exhaustive events. Always double check $n(S)$ (36 for two dice, $2^n$ for $n$ coins, 52 for cards) before counting favourable outcomes.</p>",
+  "questions": [
+    {
+      "id": "mat-probability-1-001",
+      "q": "A die is thrown once. The probability of getting an even number is",
+      "options": [
+        "$1/2$",
+        "$1/3$",
+        "$1/6$",
+        "$2/3$"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "Even numbers $\\{2,4,6\\}$: 3 favourable out of 6, so $P=3/6=1/2$."
+    },
+    {
+      "id": "mat-probability-1-002",
+      "q": "When two dice are thrown simultaneously, the number of points in the sample space is",
+      "options": [
+        "64",
+        "6",
+        "36",
+        "12"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "Each die has 6 outcomes, so the sample space has $6\\times6=36$ ordered pairs."
+    },
+    {
+      "id": "mat-probability-1-003",
+      "q": "A coin is tossed 3 times. The number of sample points is",
+      "options": [
+        "3",
+        "8",
+        "6",
+        "9"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "Each toss has 2 outcomes, so $n(S)=2^3=8$."
+    },
+    {
+      "id": "mat-probability-1-004",
+      "q": "A card is drawn at random from a well-shuffled deck of 52 cards. The probability that it is a king is",
+      "options": [
+        "$4/13$",
+        "$1/52$",
+        "$1/4$",
+        "$1/13$"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "There are 4 kings, so $P=4/52=1/13$."
+    },
+    {
+      "id": "mat-probability-1-005",
+      "q": "Two dice are thrown. The probability that the sum of the numbers is 7 is",
+      "options": [
+        "$5/36$",
+        "$1/12$",
+        "$1/6$",
+        "$1/36$"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "Pairs giving sum 7: $(1,6),(2,5),(3,4),(4,3),(5,2),(6,1)$ — 6 outcomes, so $P=6/36=1/6$."
+    },
+    {
+      "id": "mat-probability-1-006",
+      "q": "If $P(A)=0.4$, $P(B)=0.5$ and $P(A\\cap B)=0.1$, then $P(A\\cup B)$ equals",
+      "options": [
+        "0.8",
+        "0.9",
+        "0.7",
+        "1.0"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "$P(A\\cup B)=P(A)+P(B)-P(A\\cap B)=0.4+0.5-0.1=0.8$."
+    },
+    {
+      "id": "mat-probability-1-007",
+      "q": "If $A$ and $B$ are mutually exclusive with $P(A)=0.3$ and $P(B)=0.4$, then $P(A\\cup B)$ equals",
+      "options": [
+        "0.12",
+        "0.1",
+        "1.0",
+        "0.7"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "For mutually exclusive events, $P(A\\cup B)=P(A)+P(B)=0.3+0.4=0.7$."
+    },
+    {
+      "id": "mat-probability-1-008",
+      "q": "If $P(A)=0.35$, then $P(A')$ equals",
+      "options": [
+        "0",
+        "0.65",
+        "1",
+        "0.35"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "$P(A')=1-P(A)=1-0.35=0.65$."
+    },
+    {
+      "id": "mat-probability-1-009",
+      "q": "A card is drawn from a deck. The probability that it is a red card or a king is",
+      "options": [
+        "$15/26$",
+        "$3/13$",
+        "$13/26$",
+        "$7/13$"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "Red cards $=26$, kings $=4$, red kings $=2$. $P=\\dfrac{26+4-2}{52}=\\dfrac{28}{52}=\\dfrac{7}{13}$."
+    },
+    {
+      "id": "mat-probability-1-010",
+      "q": "Two dice are thrown. The probability that the sum is a multiple of 3 is",
+      "options": [
+        "$1/3$",
+        "$1/2$",
+        "$1/4$",
+        "$1/6$"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "Sums that are multiples of 3 (3,6,9,12) occur in $2+5+4+1=12$ ways out of 36, so $P=12/36=1/3$."
+    },
+    {
+      "id": "mat-probability-1-011",
+      "q": "If $S=\\{1,2,3,4,5,6\\}$ and $A=\\{2,4,6\\}$, then $A'$ is",
+      "options": [
+        "$\\emptyset$",
+        "$\\{1,2,3\\}$",
+        "$\\{1,3,5\\}$",
+        "$\\{2,4,6\\}$"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "$A'$ contains all elements of $S$ not in $A$, i.e. $\\{1,3,5\\}$."
+    },
+    {
+      "id": "mat-probability-1-012",
+      "q": "Three fair coins are tossed. The probability of getting exactly two heads is",
+      "options": [
+        "$3/4$",
+        "$3/8$",
+        "$1/2$",
+        "$1/8$"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "Favourable outcomes: HHT, HTH, THH — 3 out of 8 total, so $P=3/8$."
+    },
+    {
+      "id": "mat-probability-1-013",
+      "q": "A bag contains 5 red and 3 black balls. One ball is drawn at random. The probability that it is not red is",
+      "options": [
+        "$5/8$",
+        "0",
+        "1",
+        "$3/8$"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "Not red means black: $3$ out of $8$ balls, so $P=3/8$."
+    },
+    {
+      "id": "mat-probability-1-014",
+      "q": "Events $A$ and $B$ are mutually exclusive and exhaustive, with $P(A)=2P(B)$. Then",
+      "options": [
+        "$P(A)=2/3, P(B)=1/3$",
+        "$P(A)=3/4, P(B)=1/4$",
+        "$P(A)=1/2, P(B)=1/2$",
+        "$P(A)=1/3, P(B)=2/3$"
+      ],
+      "answer": 0,
+      "difficulty": "hard",
+      "explanation": "Exhaustive and mutually exclusive gives $P(A)+P(B)=1$. With $P(A)=2P(B)$: $3P(B)=1 \\Rightarrow P(B)=1/3, P(A)=2/3$."
+    },
+    {
+      "id": "mat-probability-1-015",
+      "q": "If $P(A)=0.6$, $P(B)=0.5$ and $P(A\\cap B)=0.3$, are $A$ and $B$ mutually exclusive?",
+      "options": [
+        "Yes",
+        "No, since $P(A\\cap B)\\neq0$",
+        "Yes, since $P(A)+P(B)>1$",
+        "Cannot be determined"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "Mutually exclusive events must have $P(A\\cap B)=0$; here it is 0.3, so they are not mutually exclusive."
+    },
+    {
+      "id": "mat-probability-1-016",
+      "q": "A die is rolled once. The probability of getting a number greater than 4 is",
+      "options": [
+        "$1/6$",
+        "$2/3$",
+        "$1/3$",
+        "$1/2$"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "Numbers greater than 4: $\\{5,6\\}$, so $P=2/6=1/3$."
+    },
+    {
+      "id": "mat-probability-1-017",
+      "q": "If the odds in favour of an event are $3:5$, the probability of the event is",
+      "options": [
+        "$5/3$",
+        "$5/8$",
+        "$3/5$",
+        "$3/8$"
+      ],
+      "answer": 3,
+      "difficulty": "hard",
+      "explanation": "Odds $a:b$ give $P=\\dfrac{a}{a+b}=\\dfrac{3}{3+5}=\\dfrac38$."
+    },
+    {
+      "id": "mat-probability-1-018",
+      "q": "A card is drawn from a well-shuffled deck. The probability of getting a face card (J, Q or K) is",
+      "options": [
+        "$3/13$",
+        "$4/13$",
+        "$1/13$",
+        "$12/13$"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "There are 12 face cards (3 per suit $\\times$ 4 suits), so $P=12/52=3/13$."
+    },
+    {
+      "id": "mat-probability-1-019",
+      "q": "Two dice are thrown. The probability that the sum of the numbers is less than 5 is",
+      "options": [
+        "$1/12$",
+        "$5/36$",
+        "$1/6$",
+        "$1/9$"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "Sums of 2, 3, 4 occur in $1+2+3=6$ ways out of 36, so $P=6/36=1/6$."
+    },
+    {
+      "id": "mat-probability-1-020",
+      "q": "Two dice are thrown. The probability that both dice show the same number (a double) is",
+      "options": [
+        "$1/2$",
+        "$1/6$",
+        "$1/3$",
+        "$1/12$"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "Doubles are $(1,1),(2,2),\\ldots,(6,6)$ — 6 outcomes out of 36, so $P=6/36=1/6$."
+    },
+    {
+      "id": "mat-probability-1-021",
+      "q": "Two fair coins are tossed. The probability of getting at least one head is",
+      "options": [
+        "$1/2$",
+        "1",
+        "$3/4$",
+        "$1/4$"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "Outcomes HH, HT, TH, TT; at least one head occurs in 3 of the 4 outcomes, so $P=3/4$."
+    },
+    {
+      "id": "mat-probability-1-022",
+      "q": "A card is drawn from a well-shuffled deck. The probability that it is a black card or a queen is",
+      "options": [
+        "$3/13$",
+        "$15/26$",
+        "$1/2$",
+        "$7/13$"
+      ],
+      "answer": 3,
+      "difficulty": "hard",
+      "explanation": "Black cards $=26$, queens $=4$, black queens $=2$. $P=\\dfrac{26+4-2}{52}=\\dfrac{28}{52}=\\dfrac{7}{13}$."
+    },
+    {
+      "id": "mat-probability-1-023",
+      "q": "If $P(A)=0.7$, then $P(A')$ equals",
+      "options": [
+        "0",
+        "0.3",
+        "1.7",
+        "0.7"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "$P(A')=1-P(A)=1-0.7=0.3$."
+    },
+    {
+      "id": "mat-probability-1-024",
+      "q": "A bag has 4 red, 5 blue and 3 green balls. One ball is drawn at random. The probability that it is blue is",
+      "options": [
+        "$5/12$",
+        "$1/4$",
+        "$7/12$",
+        "$1/3$"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "Total balls $=12$; blue $=5$, so $P=5/12$."
+    },
+    {
+      "id": "mat-probability-1-025",
+      "q": "Two dice are thrown. The probability that the difference between the two numbers shown is 2 is",
+      "options": [
+        "$2/9$",
+        "$1/6$",
+        "$1/9$",
+        "$1/4$"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "Pairs with difference 2: $(1,3),(3,1),(2,4),(4,2),(3,5),(5,3),(4,6),(6,4)$ — 8 outcomes, so $P=8/36=2/9$."
+    },
+    {
+      "id": "mat-probability-1-026",
+      "q": "A card is drawn from a deck. The probability that it is an ace or a heart is",
+      "options": [
+        "$1/4$",
+        "$4/13$",
+        "$17/52$",
+        "$5/13$"
+      ],
+      "answer": 1,
+      "difficulty": "hard",
+      "explanation": "Aces $=4$, hearts $=13$, ace of hearts $=1$. $P=\\dfrac{4+13-1}{52}=\\dfrac{16}{52}=\\dfrac{4}{13}$."
+    },
+    {
+      "id": "mat-probability-1-027",
+      "q": "The probability of an impossible event is",
+      "options": [
+        "undefined",
+        "0.5",
+        "0",
+        "1"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "An impossible event corresponds to the empty set, and $P(\\emptyset)=0$ by the axioms of probability."
+    },
+    {
+      "id": "mat-probability-1-028",
+      "q": "If the odds against an event are $3:7$, the probability that the event occurs is",
+      "options": [
+        "$3/10$",
+        "$7/3$",
+        "$3/7$",
+        "$7/10$"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "Odds against $a:b$ give $P(\\text{event})=\\dfrac{b}{a+b}=\\dfrac{7}{10}$."
+    },
+    {
+      "id": "mat-probability-1-029",
+      "q": "A coin is tossed 4 times. The probability of getting exactly 3 heads is",
+      "options": [
+        "$1/16$",
+        "$1/2$",
+        "$1/4$",
+        "$3/8$"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "Number of ways to choose 3 heads out of 4 tosses is $\\binom43=4$; total outcomes $=16$, so $P=4/16=1/4$."
+    },
+    {
+      "id": "mat-probability-1-030",
+      "q": "Events $A, B, C$ are mutually exclusive and exhaustive with $P(A)=2P(B)=3P(C)$. Then $P(C)$ equals",
+      "options": [
+        "$2/11$",
+        "$3/11$",
+        "$1/6$",
+        "$6/11$"
+      ],
+      "answer": 0,
+      "difficulty": "hard",
+      "explanation": "Let $P(C)=x$; then $P(A)=3x$ and $P(B)=P(A)/2=1.5x$. Since they are exhaustive, $3x+1.5x+x=1 \\Rightarrow 5.5x=1 \\Rightarrow x=\\dfrac{2}{11}$."
+    },
+    {
+      "id": "mat-probability-1-031",
+      "q": "For any event $A$ in a sample space, which of the following always holds?",
+      "options": [
+        "$P(A)$ can be negative",
+        "$0 \\le P(A) \\le 1$",
+        "$P(A) \\ge 1$",
+        "$P(A) = 1$ always"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "By the axiomatic definition of probability, every event's probability lies between 0 and 1 inclusive."
+    },
+    {
+      "id": "mat-probability-1-032",
+      "q": "A bag contains 3 red and 7 black balls. One ball is drawn at random. The probability that it is red is",
+      "options": [
+        "$3/7$",
+        "$1/2$",
+        "$7/10$",
+        "$3/10$"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "Total balls $=10$; red $=3$, so $P=3/10$."
+    },
+    {
+      "id": "mat-probability-1-033",
+      "q": "If $P(A\\cup B)=0.8$, $P(A)=0.5$ and $P(B)=0.4$, then $P(A\\cap B)$ equals",
+      "options": [
+        "0.1",
+        "0.9",
+        "0.2",
+        "0.3"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "$P(A\\cap B)=P(A)+P(B)-P(A\\cup B)=0.5+0.4-0.8=0.1$."
+    },
+    {
+      "id": "mat-probability-1-034",
+      "q": "If $A$ and $B$ are mutually exclusive with $P(A)=0.4$ and $P(A\\cup B)=0.7$, then $P(B)$ equals",
+      "options": [
+        "1.1",
+        "0.3",
+        "0.7",
+        "0.4"
+      ],
+      "answer": 1,
+      "difficulty": "hard",
+      "explanation": "For mutually exclusive events, $P(A\\cup B)=P(A)+P(B) \\Rightarrow 0.7=0.4+P(B) \\Rightarrow P(B)=0.3$."
+    },
+    {
+      "id": "mat-probability-1-035",
+      "q": "Two dice are thrown. The probability that the sum is 12 is",
+      "options": [
+        "$1/6$",
+        "$2/36$",
+        "$1/12$",
+        "$1/36$"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "Sum 12 occurs only for $(6,6)$, so $P=1/36$."
+    },
+    {
+      "id": "mat-probability-1-036",
+      "q": "The odds in favour of an event are $5:2$. The probability that the event does NOT occur is",
+      "options": [
+        "$5/2$",
+        "$2/5$",
+        "$2/7$",
+        "$5/7$"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "$P(\\text{event})=\\dfrac{5}{5+2}=\\dfrac57$, so $P(\\text{not event})=1-\\dfrac57=\\dfrac27$."
+    },
+    {
+      "id": "mat-probability-1-037",
+      "q": "Two dice are thrown. The probability that at least one die shows a 6 is",
+      "options": [
+        "$1/6$",
+        "$25/36$",
+        "$11/36$",
+        "$1/3$"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "$P(\\text{no 6 on either die})=\\left(\\dfrac56\\right)^2=\\dfrac{25}{36}$, so $P(\\text{at least one 6})=1-\\dfrac{25}{36}=\\dfrac{11}{36}$."
+    },
+    {
+      "id": "mat-probability-1-038",
+      "q": "In a class, $P(\\text{likes Maths})=0.6$, $P(\\text{likes Physics})=0.5$ and $P(\\text{likes both})=0.3$. The probability a randomly chosen student likes neither subject is",
+      "options": [
+        "0.8",
+        "0.3",
+        "0.5",
+        "0.2"
+      ],
+      "answer": 3,
+      "difficulty": "hard",
+      "explanation": "$P(\\text{Maths}\\cup\\text{Physics})=0.6+0.5-0.3=0.8$, so $P(\\text{neither})=1-0.8=0.2$."
+    },
+    {
+      "id": "mat-probability-1-039",
+      "q": "A card is drawn from a deck. The probability that it is neither a heart nor a king is",
+      "options": [
+        "$9/13$",
+        "$3/13$",
+        "$4/13$",
+        "$10/13$"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "Hearts $=13$, kings $=4$, king of hearts $=1$. $P(\\text{heart or king})=\\dfrac{13+4-1}{52}=\\dfrac{16}{52}=\\dfrac4{13}$, so $P(\\text{neither})=1-\\dfrac4{13}=\\dfrac9{13}$."
+    },
+    {
+      "id": "mat-probability-1-040",
+      "q": "Three fair coins are tossed. The probability of getting at least two heads is",
+      "options": [
+        "$3/8$",
+        "$1/2$",
+        "$5/8$",
+        "$1/4$"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "Outcomes with at least 2 heads: HHH, HHT, HTH, THH — 4 out of 8, so $P=4/8=1/2$."
+    }
+  ]
+}

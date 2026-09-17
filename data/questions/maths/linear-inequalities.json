@@ -1,0 +1,525 @@
+{
+  "notes": "<h3>Rules for solving inequalities</h3><ul><li>Adding/subtracting the same number to both sides preserves the inequality direction.</li><li>Multiplying/dividing both sides by a <b>positive</b> number preserves the direction; by a <b>negative</b> number <b>reverses</b> it.</li><li>Taking reciprocals of both (same-sign) sides reverses the inequality: if $a<b$ and both positive, $1/a > 1/b$.</li></ul><h3>Algebraic (one variable)</h3><ul><li>Solve like an equation but flip the sign when multiplying/dividing by a negative.</li><li>Solution of $ax+b < 0$ ($a>0$): $x < -b/a$; represented on number line with open circle (strict) or closed circle ($\\le,\\ge$).</li><li>Compound inequality $a < px+q < b$: solve both parts, take intersection.</li></ul><h3>Modulus inequalities</h3><table><tr><th>Inequality</th><th>Solution</th></tr><tr><td>$|x| < a$ ($a>0$)</td><td>$-a<x<a$</td></tr><tr><td>$|x| > a$ ($a>0$)</td><td>$x<-a$ or $x>a$</td></tr><tr><td>$|x| \\le a$</td><td>$-a\\le x\\le a$</td></tr></table><h3>Graphical solution of a system in two variables</h3><ul><li>A linear inequality $ax+by \\le c$ divides the plane into two half-planes by the line $ax+by=c$; the solution region is one half-plane (test with origin if it does not lie on the line).</li><li>Solid line for $\\le, \\ge$ (boundary included); dashed line for $<, >$ (boundary excluded).</li><li>The feasible region of a system is the intersection of all individual half-planes (common shaded region), often a bounded/unbounded polygon.</li></ul><h3>Word problems</h3><ul><li>Translate 'at least' as $\\ge$, 'at most' as $\\le$, 'more than' as $>$, 'less than' as $<$.</li></ul><h3>Exam tip</h3><p>KCET typically asks 1 question from this chapter, usually on solving a linear inequality in one variable or identifying the correct graphical region for a system of two inequalities. The most common trap is forgetting to flip the inequality sign when multiplying/dividing by a negative number.</p>",
+  "questions": [
+    {
+      "id": "mat-linear-inequalities-001",
+      "q": "The solution set of $3x - 5 < 7$, $x \\in \\mathbb{R}$ is",
+      "options": [
+        "$x \\le 4$",
+        "$x < 12$",
+        "$x < 4$",
+        "$x > 4$"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "$3x < 12 \\Rightarrow x < 4$."
+    },
+    {
+      "id": "mat-linear-inequalities-002",
+      "q": "The solution set of $-2x + 3 \\ge 7$ is",
+      "options": [
+        "$x \\ge -2$",
+        "$x \\ge 2$",
+        "$x \\le 2$",
+        "$x \\le -2$"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "$-2x \\ge 4 \\Rightarrow x \\le -2$ (sign flips on dividing by $-2$)."
+    },
+    {
+      "id": "mat-linear-inequalities-003",
+      "q": "If $x$ is a natural number and $2x+1 < 10$, the solution set is",
+      "options": [
+        "$\\{1,2,3,4,5\\}$",
+        "$\\{1,2,3,4\\}$",
+        "$\\{0,1,2,3,4\\}$",
+        "$\\{2,3,4\\}$"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "$2x < 9 \\Rightarrow x < 4.5$; natural numbers satisfying this: $1,2,3,4$."
+    },
+    {
+      "id": "mat-linear-inequalities-004",
+      "q": "The solution of $|x-2| < 3$ is",
+      "options": [
+        "$-1 < x < 5$",
+        "$x > -1$",
+        "$x < 5$",
+        "$-5 < x < 1$"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "$|x-2|<3 \\Rightarrow -3<x-2<3 \\Rightarrow -1<x<5$."
+    },
+    {
+      "id": "mat-linear-inequalities-005",
+      "q": "The solution of $|2x+1| \\ge 5$ is",
+      "options": [
+        "$x \\le -3$ or $x \\ge 2$",
+        "$x \\le -3$",
+        "$-3 \\le x \\le 2$",
+        "$x \\ge 2$"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "$2x+1 \\ge 5 \\Rightarrow x\\ge2$, or $2x+1\\le-5 \\Rightarrow x\\le-3$."
+    },
+    {
+      "id": "mat-linear-inequalities-006",
+      "q": "The compound inequality $-3 < 2x - 1 \\le 5$ has solution",
+      "options": [
+        "$-3 < x \\le 5$",
+        "$-1 < x \\le 3$",
+        "$1 < x \\le 3$",
+        "$-1 \\le x < 3$"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "Add 1: $-2 < 2x \\le 6$; divide by 2: $-1 < x \\le 3$."
+    },
+    {
+      "id": "mat-linear-inequalities-007",
+      "q": "The graph of $x + y \\le 4$ in the $xy$-plane is",
+      "options": [
+        "a half-plane not containing the origin",
+        "the line $x+y=4$ only",
+        "a half-plane below (and including) the line $x+y=4$, containing the origin",
+        "a half-plane above the line $x+y=4$"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "Testing origin $(0,0)$: $0 \\le 4$ is true, so the origin's side (below the line) is the solution region, boundary included since $\\le$."
+    },
+    {
+      "id": "mat-linear-inequalities-008",
+      "q": "For $a<b$ with $a,b$ both negative, which is true?",
+      "options": [
+        "$1/a > 1/b$",
+        "$1/a = 1/b$",
+        "$1/a < 1/b$",
+        "cannot be determined"
+      ],
+      "answer": 0,
+      "difficulty": "hard",
+      "explanation": "For same-sign numbers, taking reciprocals reverses the inequality: $a<b \\Rightarrow 1/a>1/b$ (e.g. $a=-3,b=-1$: $1/a=-1/3 > 1/b=-1$)."
+    },
+    {
+      "id": "mat-linear-inequalities-009",
+      "q": "If $x$ and $y$ are real numbers satisfying $2x+3y > 6$, the point $(0,0)$",
+      "options": [
+        "satisfies the inequality",
+        "lies on the boundary line",
+        "does not satisfy the inequality",
+        "cannot be tested"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "Substituting $(0,0)$: $2(0)+3(0)=0>6$ is false, so the origin does not satisfy the inequality."
+    },
+    {
+      "id": "mat-linear-inequalities-010",
+      "q": "The solution set of $\\dfrac{x-2}{3} \\ge \\dfrac{x-1}{2}$ is",
+      "options": [
+        "$x \\le -1$",
+        "$x \\ge 1$",
+        "$x \\le 1$",
+        "$x \\ge -1$"
+      ],
+      "answer": 0,
+      "difficulty": "hard",
+      "explanation": "Multiply both sides by 6: $2(x-2) \\ge 3(x-1) \\Rightarrow 2x-4 \\ge 3x-3 \\Rightarrow -1 \\ge x \\Rightarrow x\\le-1$."
+    },
+    {
+      "id": "mat-linear-inequalities-011",
+      "q": "A student needs at least 40 marks out of 50 to pass. If $x$ denotes marks scored, this is represented as",
+      "options": [
+        "$x > 40$",
+        "$x < 40$",
+        "$x \\le 40$",
+        "$x \\ge 40$"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "'At least 40' means marks must be 40 or more, i.e. $x \\ge 40$."
+    },
+    {
+      "id": "mat-linear-inequalities-012",
+      "q": "The solution set of the system $x \\ge 0, y \\ge 0, x+y \\le 5$ represents",
+      "options": [
+        "the empty set",
+        "a bounded triangular region in the first quadrant",
+        "an unbounded region",
+        "a line segment"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "$x\\ge0,y\\ge0$ restricts to the first quadrant; $x+y\\le5$ cuts off a triangle with vertices $(0,0),(5,0),(0,5)$ — a bounded region."
+    },
+    {
+      "id": "mat-linear-inequalities-013",
+      "q": "If $-4x \\ge 12$, then",
+      "options": [
+        "$x \\le -3$",
+        "$x \\ge -3$",
+        "$x \\le 3$",
+        "$x \\ge 3$"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "Dividing by $-4$ (negative) flips the sign: $x \\le -3$."
+    },
+    {
+      "id": "mat-linear-inequalities-014",
+      "q": "The values of $x$ satisfying both $x > -2$ and $x < 5$ simultaneously are represented as",
+      "options": [
+        "$x > -2$ or $x<5$",
+        "$-2 < x < 5$",
+        "$x \\le 5$",
+        "$x \\ge -2$"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "Taking the intersection ('and') of both conditions gives $-2 < x < 5$."
+    },
+    {
+      "id": "mat-linear-inequalities-015",
+      "q": "The solution of $5x - 3 < 3x + 1$ is",
+      "options": [
+        "$x < -2$",
+        "$x > -2$",
+        "$x < 2$",
+        "$x > 2$"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "$5x-3x < 1+3 \\Rightarrow 2x < 4 \\Rightarrow x < 2$."
+    },
+    {
+      "id": "mat-linear-inequalities-016",
+      "q": "If temperature in Celsius $C$ satisfies $30 \\le C \\le 40$, the corresponding Fahrenheit range using $F = \\dfrac{9}{5}C + 32$ is",
+      "options": [
+        "$68 \\le F \\le 86$",
+        "$77 \\le F \\le 99$",
+        "$86 \\le F \\le 122$",
+        "$86 \\le F \\le 104$"
+      ],
+      "answer": 3,
+      "difficulty": "hard",
+      "explanation": "At $C=30$: $F = 9(30)/5+32 = 54+32=86$. At $C=40$: $F=72+32=104$. So $86 \\le F \\le 104$."
+    },
+    {
+      "id": "mat-linear-inequalities-017",
+      "q": "Which point lies in the solution region of $x - y \\le 1$ and $x + y \\ge 3$?",
+      "options": [
+        "$(-1,3)$",
+        "$(0,0)$",
+        "$(3,-1)$",
+        "$(2,2)$"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "Check $(2,2)$: $x-y=0\\le1$ true; $x+y=4\\ge3$ true. Both satisfied, so $(2,2)$ is in the solution region."
+    },
+    {
+      "id": "mat-linear-inequalities-018",
+      "q": "The inequality $|x| \\le 0$ has solution set",
+      "options": [
+        "empty set",
+        "$\\{0\\}$",
+        "$\\mathbb{R}$",
+        "$(-\\infty,0]$"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "$|x| \\ge 0$ always, so $|x|\\le0$ forces $|x|=0$, giving the single solution $x=0$."
+    },
+    {
+      "id": "mat-linear-inequalities-019",
+      "q": "If $2 \\le 3x-4 \\le 11$, the range of $x$ is",
+      "options": [
+        "$2 \\le x \\le 5$",
+        "$-2\\le x\\le5$",
+        "$2 \\le x \\le 15$",
+        "$1 \\le x \\le 4$"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "Add 4: $6 \\le 3x \\le 15$; divide by 3: $2 \\le x \\le 5$."
+    },
+    {
+      "id": "mat-linear-inequalities-020",
+      "q": "The maximum number of pens a shopkeeper can buy at ₹8 each with a budget of at most ₹100 is represented by which inequality (n = number of pens)?",
+      "options": [
+        "$8n > 100$",
+        "$8n < 100$",
+        "$8n \\le 100$",
+        "$8n \\ge 100$"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "'At most ₹100' spent means total cost $8n$ must satisfy $8n \\le 100$, giving $n \\le 12.5$, so at most 12 pens."
+    },
+    {
+      "id": "mat-linear-inequalities-021",
+      "q": "The solution of $\\dfrac{2x+1}{3} < 5$ is",
+      "options": [
+        "$x<15$",
+        "$x>7$",
+        "$x<7$",
+        "$x<8$"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "$2x+1<15 \\Rightarrow 2x<14 \\Rightarrow x<7$."
+    },
+    {
+      "id": "mat-linear-inequalities-022",
+      "q": "The solution of $3x+2 > x-4$ is",
+      "options": [
+        "$x>-3$",
+        "$x<3$",
+        "$x<-3$",
+        "$x>-6$"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "$3x+2>x-4 \\Rightarrow 2x>-6 \\Rightarrow x>-3$."
+    },
+    {
+      "id": "mat-linear-inequalities-023",
+      "q": "The number of integers satisfying $-3 \\le x < 2$ is",
+      "options": [
+        "3",
+        "4",
+        "6",
+        "5"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "The integers are $-3,-2,-1,0,1$, which is 5 integers ($2$ itself is excluded)."
+    },
+    {
+      "id": "mat-linear-inequalities-024",
+      "q": "The largest natural number satisfying $2x - 3 < 7$ is",
+      "options": [
+        "5",
+        "4",
+        "6",
+        "3"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "$2x<10 \\Rightarrow x<5$; the largest natural number less than 5 is 4."
+    },
+    {
+      "id": "mat-linear-inequalities-025",
+      "q": "The solution of $|x+3| > 5$ is",
+      "options": [
+        "$x<2$",
+        "$x>2$ or $x<-8$",
+        "$-8<x<2$",
+        "$x>8$ or $x<-2$"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "$|x+3|>5$ means $x+3>5$ or $x+3<-5$, giving $x>2$ or $x<-8$."
+    },
+    {
+      "id": "mat-linear-inequalities-026",
+      "q": "The general solution of $|x| > a$ (where $a>0$) is",
+      "options": [
+        "$x<-a$ or $x>a$",
+        "$x \\ge a$",
+        "$-a<x<a$",
+        "$x \\le -a$"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "$|x|>a$ means $x$ lies outside $[-a,a]$, i.e. $x<-a$ or $x>a$."
+    },
+    {
+      "id": "mat-linear-inequalities-027",
+      "q": "The solution of $-5x + 10 \\le 0$ is",
+      "options": [
+        "$x\\le2$",
+        "$x\\le-2$",
+        "$x\\ge-2$",
+        "$x\\ge2$"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "$-5x \\le -10$; dividing by $-5$ flips the inequality: $x \\ge 2$."
+    },
+    {
+      "id": "mat-linear-inequalities-028",
+      "q": "The graph of $x \\ge 2$ in the $xy$-plane represents",
+      "options": [
+        "the region above the line $y=2$",
+        "the region below the line $y=2$",
+        "the region to the right of (and including) the vertical line $x=2$",
+        "the region to the left of $x=2$"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "$x\\ge2$ includes the vertical line $x=2$ and every point with $x$-coordinate at least 2, i.e. the region to its right."
+    },
+    {
+      "id": "mat-linear-inequalities-029",
+      "q": "The graph of $y < 3$ in the $xy$-plane represents",
+      "options": [
+        "the region to the right of $x=3$",
+        "the region including the line $y=3$",
+        "the region above $y=3$",
+        "the region below the horizontal line $y=3$, excluding the line"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "$y<3$ is a strict inequality, so it is the open half-plane below the dashed line $y=3$."
+    },
+    {
+      "id": "mat-linear-inequalities-030",
+      "q": "The solution of $\\dfrac{x}{2} + \\dfrac{x}{3} < 5$ is",
+      "options": [
+        "$x<10$",
+        "$x<6$",
+        "$x<15$",
+        "$x<5$"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "$\\dfrac{3x+2x}{6}<5 \\Rightarrow \\dfrac{5x}{6}<5 \\Rightarrow x<6$."
+    },
+    {
+      "id": "mat-linear-inequalities-031",
+      "q": "If $a > b$ and $c < 0$, then",
+      "options": [
+        "$ac<bc$",
+        "$ac\\le bc$",
+        "$ac=bc$",
+        "$ac>bc$"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "Multiplying an inequality by a negative number reverses it, so $a>b$ gives $ac<bc$ when $c<0$."
+    },
+    {
+      "id": "mat-linear-inequalities-032",
+      "q": "The solution of $7 \\le \\dfrac{3x+11}{2} \\le 11$ is",
+      "options": [
+        "$-1\\le x\\le\\dfrac{11}{3}$",
+        "$3\\le x\\le11$",
+        "$1 \\le x \\le \\dfrac{11}{3}$",
+        "$1\\le x\\le3$"
+      ],
+      "answer": 2,
+      "difficulty": "hard",
+      "explanation": "Multiply by 2: $14 \\le 3x+11 \\le 22$; subtract 11: $3\\le 3x\\le 11$; divide by 3: $1\\le x\\le\\dfrac{11}{3}$."
+    },
+    {
+      "id": "mat-linear-inequalities-033",
+      "q": "A student scored 62 in one test. For the average of this and a second test score $x$ to be at least 70, $x$ must satisfy",
+      "options": [
+        "$x\\ge78$",
+        "$x\\ge140$",
+        "$x\\ge8$",
+        "$x\\ge70$"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "$\\dfrac{62+x}{2}\\ge70 \\Rightarrow 62+x\\ge140 \\Rightarrow x\\ge78$."
+    },
+    {
+      "id": "mat-linear-inequalities-034",
+      "q": "The solution of $4(x-2) \\ge 2(x+3)$ is",
+      "options": [
+        "$x\\ge1$",
+        "$x\\le7$",
+        "$x\\ge7$",
+        "$x\\ge-7$"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "$4x-8\\ge2x+6 \\Rightarrow 2x\\ge14 \\Rightarrow x\\ge7$."
+    },
+    {
+      "id": "mat-linear-inequalities-035",
+      "q": "The solution set of $x<3$ and $x>3$ holding simultaneously is",
+      "options": [
+        "$x \\ne 3$",
+        "$\\mathbb R$",
+        "$\\{3\\}$",
+        "$\\phi$ (empty set)"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "No real number can be both strictly less than 3 and strictly greater than 3, so the solution set is empty."
+    },
+    {
+      "id": "mat-linear-inequalities-036",
+      "q": "Which of the following values of $x$ does NOT satisfy $-2 < x \\le 5$?",
+      "options": [
+        "3",
+        "-2",
+        "5",
+        "0"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "The inequality is strict at $-2$ (excluded), so $x=-2$ does not satisfy it, while $0$, $3$ and $5$ all do."
+    },
+    {
+      "id": "mat-linear-inequalities-037",
+      "q": "The solution set of $|x-1| \\le 4$ is",
+      "options": [
+        "$-4\\le x\\le4$",
+        "$-5\\le x\\le3$",
+        "$x\\le5$",
+        "$-3\\le x\\le5$"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "$|x-1|\\le4 \\Rightarrow -4\\le x-1\\le4 \\Rightarrow -3\\le x\\le5$."
+    },
+    {
+      "id": "mat-linear-inequalities-038",
+      "q": "The region satisfying $x\\ge0, y\\ge0, x\\le4, y\\le3$ is a",
+      "options": [
+        "rectangle",
+        "triangle",
+        "trapezoid",
+        "unbounded region"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "The four inequalities bound $x$ between 0 and 4 and $y$ between 0 and 3, giving a rectangle with vertices $(0,0),(4,0),(4,3),(0,3)$."
+    },
+    {
+      "id": "mat-linear-inequalities-039",
+      "q": "The solution of $6x - 3 \\ge 4x + 5$ is",
+      "options": [
+        "$x\\ge1$",
+        "$x\\le4$",
+        "$x\\ge4$",
+        "$x\\ge8$"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "$6x-3\\ge4x+5 \\Rightarrow 2x\\ge8 \\Rightarrow x\\ge4$."
+    },
+    {
+      "id": "mat-linear-inequalities-040",
+      "q": "A taxi charges ₹50 plus ₹12 per km. If a passenger has at most ₹200 to spend, the maximum whole number of km they can travel is",
+      "options": [
+        "13",
+        "12",
+        "12.5",
+        "15"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "$50+12x\\le200 \\Rightarrow 12x\\le150 \\Rightarrow x\\le12.5$; the largest whole number of km is 12."
+    }
+  ]
+}

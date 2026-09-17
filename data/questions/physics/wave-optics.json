@@ -1,0 +1,525 @@
+{
+  "notes": "<h3>Huygens' Principle</h3><ul><li>Every point on a wavefront acts as a source of secondary wavelets; the new wavefront is the envelope of these wavelets. Explains reflection and refraction; a plane wavefront in a rarer medium bends towards the normal when entering a denser medium (speed decreases).</li></ul><h3>Young's Double Slit Experiment (YDSE)</h3><ul><li>Path difference at point on screen $\\Delta x = \\dfrac{yd}{D}$ ($d$ = slit separation, $D$ = screen distance, $y$ = distance from centre).</li><li>Bright fringe: $\\Delta x = n\\lambda$; Dark fringe: $\\Delta x = (n+\\tfrac12)\\lambda$.</li><li>Fringe width $\\beta = \\dfrac{\\lambda D}{d}$ — same for all fringes (equally spaced). $\\beta \\propto \\lambda$, $\\beta \\propto D$, $\\beta \\propto 1/d$.</li><li>Intensity: $I = I_1 + I_2 + 2\\sqrt{I_1I_2}\\cos\\phi$. If $I_1 = I_2 = I_0$: $I_{max} = 4I_0$ (constructive), $I_{min} = 0$ (destructive, coherent sources).</li><li>Coherent sources needed (constant phase difference); two independent sources are never coherent.</li><li>If the apparatus is immersed in a medium of refractive index $\\mu$: $\\beta' = \\beta/\\mu$ (wavelength reduces).</li></ul><h3>Diffraction (single slit)</h3><ul><li>Central maximum is bright and twice as wide as other fringes. Secondary minima: $a\\sin\\theta = n\\lambda$. Angular width of central maximum $= \\dfrac{2\\lambda}{a}$.</li><li>Diffraction is significant only when slit width $a$ is comparable to $\\lambda$.</li></ul><h3>Polarisation</h3><ul><li>Only transverse waves can be polarised (light, not sound).</li><li>Malus's law: $I = I_0\\cos^2\\theta$ for light through a polariser-analyser pair at angle $\\theta$.</li><li>Brewster's law: at polarising angle $i_p$, reflected ray is fully polarised and $\\tan i_p = \\mu$; reflected and refracted rays are perpendicular.</li></ul><h3>Comparison</h3><table><tr><th>Interference</th><th>Diffraction</th></tr><tr><td>Superposition of waves from two coherent sources</td><td>Superposition of wavelets from same wavefront (single slit/obstacle)</td></tr><tr><td>All fringes of equal width and equal intensity</td><td>Central fringe widest and brightest; intensity falls off for others</td></tr></table><h3>Exam tip</h3><p>KCET typically asks 2 questions — one numerical on YDSE fringe width/path difference, one conceptual on polarisation (Malus's/Brewster's law) or interference vs diffraction.</p>",
+  "questions": [
+    {
+      "id": "phy-wave-optics-001",
+      "q": "In Young's double slit experiment, the fringe width is 0.4 mm with light of wavelength 500 nm. If the wavelength is changed to 600 nm keeping other things constant, the new fringe width is",
+      "options": [
+        "0.48 mm",
+        "0.33 mm",
+        "0.4 mm",
+        "0.6 mm"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "$\\beta \\propto \\lambda$, so $\\beta' = 0.4\\times\\dfrac{600}{500} = 0.48$ mm."
+    },
+    {
+      "id": "phy-wave-optics-002",
+      "q": "In YDSE, the slit separation is 1 mm, screen distance 1 m, and wavelength 500 nm. The fringe width is",
+      "options": [
+        "0.05 mm",
+        "5 mm",
+        "0.5 mm",
+        "50 mm"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "$\\beta = \\lambda D/d = (500\\times10^{-9}\\times1)/(1\\times10^{-3}) = 5\\times10^{-4}\\ \\text{m} = 0.5$ mm."
+    },
+    {
+      "id": "phy-wave-optics-003",
+      "q": "Two coherent sources of equal intensity $I_0$ produce interference. The intensity at a point of destructive interference is",
+      "options": [
+        "$I_0$",
+        "$0$",
+        "$4I_0$",
+        "$2I_0$"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "For equal-intensity coherent sources, $I_{min} = (\\sqrt{I_0}-\\sqrt{I_0})^2 = 0$."
+    },
+    {
+      "id": "phy-wave-optics-004",
+      "q": "Which of these best explains why interference fringes are not observed from two separate sodium lamps?",
+      "options": [
+        "The lamps are too far apart",
+        "Sodium light has too long a wavelength",
+        "Sodium light is not monochromatic enough",
+        "The two sources are incoherent (random, changing phase difference)"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "Independent sources emit light with randomly varying phase relationships, so the interference pattern shifts too fast to be observed; only coherent sources (constant phase difference) give a stable fringe pattern."
+    },
+    {
+      "id": "phy-wave-optics-005",
+      "q": "The entire YDSE setup is immersed in water of refractive index 4/3. The fringe width",
+      "options": [
+        "becomes zero",
+        "decreases by a factor of 4/3",
+        "remains unchanged",
+        "increases by a factor of 4/3"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "Wavelength decreases in a denser medium: $\\lambda' = \\lambda/\\mu$, so $\\beta' = \\beta/\\mu$, a decrease by 4/3."
+    },
+    {
+      "id": "phy-wave-optics-006",
+      "q": "In a single slit diffraction pattern, the width of the central maximum compared to a secondary maximum is",
+      "options": [
+        "twice",
+        "half",
+        "four times",
+        "the same"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "The central maximum extends between the first minima on either side and is twice as wide as any secondary maximum."
+    },
+    {
+      "id": "phy-wave-optics-007",
+      "q": "Unpolarised light of intensity $I_0$ is passed through a polariser and then through an analyser whose transmission axis makes 60° with the polariser. The emergent intensity is",
+      "options": [
+        "$I_0$",
+        "$I_0/4$",
+        "$I_0/2$",
+        "$I_0/8$"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "Polariser halves intensity to $I_0/2$; Malus's law then gives $I = (I_0/2)\\cos^2 60^\\circ = (I_0/2)(1/4) = I_0/8$."
+    },
+    {
+      "id": "phy-wave-optics-008",
+      "q": "Light is incident on glass (refractive index 1.5) at the polarising angle. The angle of refraction is",
+      "options": [
+        "45°",
+        "90°",
+        "33.7°",
+        "56.3°"
+      ],
+      "answer": 2,
+      "difficulty": "hard",
+      "explanation": "$\\tan i_p = \\mu = 1.5 \\Rightarrow i_p = 56.3^\\circ$. At the polarising angle, reflected and refracted rays are perpendicular, so refraction angle $= 90^\\circ - 56.3^\\circ = 33.7^\\circ$."
+    },
+    {
+      "id": "phy-wave-optics-009",
+      "q": "According to Huygens' principle, when light travels from air into water, the wavefront",
+      "options": [
+        "bends towards the normal because speed decreases",
+        "remains undeviated",
+        "travels faster than in air",
+        "bends away from the normal because speed increases"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "Water is denser (optically), so light slows down; the part of the wavefront entering water first is retarded more, tilting the wavefront towards the normal, consistent with Snell's law."
+    },
+    {
+      "id": "phy-wave-optics-010",
+      "q": "In YDSE, if one of the two slits is covered, what is observed on the screen?",
+      "options": [
+        "Fringes of double the width",
+        "A single-slit diffraction pattern, not interference fringes",
+        "The same interference pattern with half the intensity",
+        "No light at all"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "With only one slit open there is no second coherent source to interfere with, so a single-slit diffraction pattern (broad central maximum with weak secondary maxima) is seen instead of equally spaced interference fringes."
+    },
+    {
+      "id": "phy-wave-optics-011",
+      "q": "Malus's law $I = I_0\\cos^2\\theta$ applies to light that is",
+      "options": [
+        "circularly polarised only",
+        "unpolarised, incident on a single polariser",
+        "already plane polarised, incident on an analyser",
+        "partially polarised only"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "Malus's law gives the intensity transmitted by an analyser when plane-polarised light of intensity $I_0$ (already polarised by a first polariser) falls on it at angle $\\theta$ to its axis."
+    },
+    {
+      "id": "phy-wave-optics-012",
+      "q": "A single slit of width 0.3 mm is illuminated by light of wavelength 600 nm. The angular position of the first minimum is approximately",
+      "options": [
+        "$0.1^\\circ$",
+        "$0.11$ rad",
+        "$2^\\circ$",
+        "$2\\times10^{-3}$ rad"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "First minimum: $\\sin\\theta \\approx \\theta = \\lambda/a = (600\\times10^{-9})/(0.3\\times10^{-3}) = 2\\times10^{-3}$ rad."
+    },
+    {
+      "id": "phy-wave-optics-013",
+      "q": "Two slits separated by 0.5 mm produce interference fringes of width 1 mm on a screen 1 m away. The wavelength of light used is",
+      "options": [
+        "400 nm",
+        "600 nm",
+        "500 nm",
+        "700 nm"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "$\\lambda = \\beta d/D = (1\\times10^{-3}\\times0.5\\times10^{-3})/1 = 5\\times10^{-7}\\ \\text{m} = 500$ nm."
+    },
+    {
+      "id": "phy-wave-optics-014",
+      "q": "Which phenomenon among the following CANNOT be explained by treating light as a transverse wave, but requires the particle (photon) picture?",
+      "options": [
+        "Diffraction",
+        "Interference",
+        "Polarisation",
+        "Photoelectric effect"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "Interference, diffraction and polarisation are wave phenomena, well explained by transverse wave theory; the photoelectric effect (instantaneous emission, threshold frequency) needs the quantum/particle nature of light."
+    },
+    {
+      "id": "phy-wave-optics-015",
+      "q": "In YDSE, the path difference between waves from the two slits at a point corresponding to the 3rd bright fringe (from centre) is",
+      "options": [
+        "$\\lambda$",
+        "$3\\lambda$",
+        "$2\\lambda$",
+        "$\\lambda/2$"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "For the $n$th bright fringe, path difference $= n\\lambda$; for $n=3$, it is $3\\lambda$."
+    },
+    {
+      "id": "phy-wave-optics-016",
+      "q": "Sound waves cannot be polarised because they are",
+      "options": [
+        "longitudinal waves",
+        "of very low frequency",
+        "mechanical waves",
+        "not electromagnetic in nature"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "Only transverse waves, whose displacement is perpendicular to propagation, can be polarised. Sound is longitudinal (displacement along propagation), so it has no polarisation."
+    },
+    {
+      "id": "phy-wave-optics-017",
+      "q": "In a YDSE set up with $d = 2$ mm, $D = 2$ m and $\\lambda = 500$ nm, the distance of the 4th dark fringe from the central maximum is",
+      "options": [
+        "1.75 mm",
+        "0.5 mm",
+        "0.875 mm",
+        "0.35 mm"
+      ],
+      "answer": 0,
+      "difficulty": "hard",
+      "explanation": "For dark fringes, $y_n = (n-\\tfrac12)\\dfrac{\\lambda D}{d}$; 4th dark fringe has $n=4$: $y_4 = 3.5\\times\\dfrac{500\\times10^{-9}\\times2}{2\\times10^{-3}} = 3.5\\times5\\times10^{-4} = 1.75\\times10^{-3}\\ \\text{m} = 1.75$ mm."
+    },
+    {
+      "id": "phy-wave-optics-018",
+      "q": "A polaroid is rotated between two crossed polaroids (analyser axis at 90° to polariser) so that its own axis makes 45° with the first polariser. If unpolarised light of intensity $I_0$ enters the first polaroid, the final intensity emerging from the analyser is",
+      "options": [
+        "0",
+        "$I_0/8$",
+        "$I_0/4$",
+        "$I_0/2$"
+      ],
+      "answer": 1,
+      "difficulty": "hard",
+      "explanation": "After first polaroid: $I_0/2$. After middle polaroid at 45° to it: $(I_0/2)\\cos^2 45^\\circ = I_0/4$. After analyser at 45° to middle one (90° to first): $(I_0/4)\\cos^2 45^\\circ = I_0/8$."
+    },
+    {
+      "id": "phy-wave-optics-019",
+      "q": "In YDSE, if red light is replaced by violet light while keeping the slit separation and screen distance unchanged, the fringe width",
+      "options": [
+        "becomes zero",
+        "increases",
+        "stays exactly the same",
+        "decreases"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "Fringe width $\\beta \\propto \\lambda$. Since violet light has a shorter wavelength than red, the fringe width decreases."
+    },
+    {
+      "id": "phy-wave-optics-020",
+      "q": "In a YDSE experiment, the screen is moved away from the slits so that the screen distance $D$ becomes 3 times its original value, with $d$ and $\\lambda$ unchanged. The new fringe width is",
+      "options": [
+        "the same as before",
+        "one-third of the original",
+        "3 times the original",
+        "9 times the original"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "$\\beta = \\lambda D/d \\propto D$, so tripling $D$ triples the fringe width."
+    },
+    {
+      "id": "phy-wave-optics-021",
+      "q": "Two coherent sources have intensities $I$ and $4I$. The ratio of maximum to minimum intensity in the resulting interference pattern is",
+      "options": [
+        "5:3",
+        "4:1",
+        "3:1",
+        "9:1"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "Amplitude ratio $\\propto \\sqrt{I}:\\sqrt{4I} = 1:2$. $I_{max}=(1+2)^2=9$ units, $I_{min}=(2-1)^2=1$ unit, giving a ratio of 9:1."
+    },
+    {
+      "id": "phy-wave-optics-022",
+      "q": "A thin glass plate of thickness 0.01 mm and refractive index 1.5 is introduced in the path of one of the two beams in a YDSE arrangement using light of wavelength 5000 Å. The fringe pattern shifts by",
+      "options": [
+        "20 fringes",
+        "2.5 fringes",
+        "10 fringes",
+        "5 fringes"
+      ],
+      "answer": 2,
+      "difficulty": "hard",
+      "explanation": "Number of fringes shifted $n = \\dfrac{(\\mu-1)t}{\\lambda} = \\dfrac{0.5\\times10^{-5}}{5\\times10^{-7}} = 10$."
+    },
+    {
+      "id": "phy-wave-optics-023",
+      "q": "The optical path length of a slab of thickness 3 mm and refractive index 1.5 is",
+      "options": [
+        "3 mm",
+        "4.5 mm",
+        "6.75 mm",
+        "2 mm"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "Optical path length $= \\mu t = 1.5\\times3 = 4.5$ mm."
+    },
+    {
+      "id": "phy-wave-optics-024",
+      "q": "Which of the following is the correct condition for two light sources to be coherent?",
+      "options": [
+        "same frequency and a constant (time-independent) phase difference",
+        "same intensity only",
+        "derived from two different lasers of the same wavelength",
+        "same amplitude and same colour of light"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "Coherent sources must have identical frequency and a phase difference that does not change with time, so that a stable interference pattern can be observed."
+    },
+    {
+      "id": "phy-wave-optics-025",
+      "q": "Which pair of sources can produce a sustained (observable) interference pattern?",
+      "options": [
+        "Two candles held close together",
+        "Two bulbs of equal power",
+        "Two virtual sources obtained by division of wavefront from a single monochromatic source",
+        "Two identical but independently operating laser pointers"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "Only sources derived from the same original wavefront (as in YDSE, by division of wavefront) maintain a constant phase relationship and are coherent; independent sources are never coherent."
+    },
+    {
+      "id": "phy-wave-optics-026",
+      "q": "In a single slit diffraction experiment, the slit width is 0.2 mm, the screen is 1 m away, and the wavelength used is 600 nm. The width of the central maximum is",
+      "options": [
+        "3 mm",
+        "1.5 mm",
+        "12 mm",
+        "6 mm"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "Width of central maximum $= \\dfrac{2\\lambda D}{a} = \\dfrac{2\\times600\\times10^{-9}\\times1}{0.2\\times10^{-3}} = 6\\times10^{-3}$ m $= 6$ mm."
+    },
+    {
+      "id": "phy-wave-optics-027",
+      "q": "According to Huygens' construction, the law of reflection (angle of incidence = angle of reflection) can be derived by considering",
+      "options": [
+        "the geometry of secondary wavelets from an incident plane wavefront reflecting off a surface",
+        "the photoelectric effect",
+        "polarisation of the reflected ray",
+        "the particle nature of light"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "Applying Huygens' principle to a plane wavefront striking a reflecting surface and constructing the envelope of secondary wavelets geometrically gives the law of reflection."
+    },
+    {
+      "id": "phy-wave-optics-028",
+      "q": "Light from the sky (away from the sun) appears partially polarised mainly because of",
+      "options": [
+        "interference with sunlight",
+        "scattering of sunlight by air molecules",
+        "refraction through the atmosphere",
+        "reflection from clouds"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "Sunlight scattered by air molecules (Rayleigh scattering) becomes partially polarised; this is why polarising sunglasses/filters can reduce skylight glare."
+    },
+    {
+      "id": "phy-wave-optics-029",
+      "q": "A wavefront originating from a point source is",
+      "options": [
+        "always cylindrical",
+        "always flat and parallel",
+        "plane",
+        "spherical"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "A point source emits light equally in all directions, so surfaces of constant phase (wavefronts) are spheres centred on the source."
+    },
+    {
+      "id": "phy-wave-optics-030",
+      "q": "For a source at a very large (effectively infinite) distance, the wavefront reaching a small aperture is very nearly",
+      "options": [
+        "impossible to define",
+        "plane",
+        "spherical",
+        "circular but strongly curved"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "As the radius of a spherical wavefront becomes very large, a small region of it appears essentially flat, i.e. a plane wavefront."
+    },
+    {
+      "id": "phy-wave-optics-031",
+      "q": "In a YDSE setup, $d = 0.5$ mm, $D = 1.5$ m and $\\lambda = 600$ nm. The distance of the 5th bright fringe from the centre is",
+      "options": [
+        "4.5 mm",
+        "6 mm",
+        "9 mm",
+        "18 mm"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "$y_n = \\dfrac{n\\lambda D}{d} = \\dfrac{5\\times600\\times10^{-9}\\times1.5}{0.5\\times10^{-3}} = 9\\times10^{-3}\\ \\text{m} = 9$ mm."
+    },
+    {
+      "id": "phy-wave-optics-032",
+      "q": "For a clearly visible interference pattern on a screen, the two coherent sources should ideally be",
+      "options": [
+        "close together, with the screen placed far away",
+        "of very different intensities",
+        "placed at the same location as the screen",
+        "as far apart from each other as possible"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "Small $d$ and large $D$ give a large, easily observable fringe width $\\beta = \\lambda D/d$; also, closely spaced sources are easier to keep coherent."
+    },
+    {
+      "id": "phy-wave-optics-033",
+      "q": "Unpolarised light of intensity $I_0$ is incident on a single ideal polaroid. Ignoring absorption losses, the intensity of the transmitted light is",
+      "options": [
+        "zero",
+        "$I_0$",
+        "$I_0/2$",
+        "$I_0/4$"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "An ideal polaroid transmits only the component of unpolarised light along its axis, which on averaging over all orientations gives exactly half the incident intensity."
+    },
+    {
+      "id": "phy-wave-optics-034",
+      "q": "Two polaroids are crossed (axes at 90° to each other). A third polaroid is inserted between them with its axis parallel to the first polaroid's axis. The intensity emerging from the last (second) polaroid is",
+      "options": [
+        "$I_0/4$",
+        "$I_0/8$",
+        "$I_0/2$",
+        "zero"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "Since the middle polaroid's axis is parallel to the first, it does not change the light's polarisation direction; that light then meets the second polaroid at 90° and is fully blocked, giving zero intensity."
+    },
+    {
+      "id": "phy-wave-optics-035",
+      "q": "Light of wavelength 600 nm is incident on a single slit. If the first diffraction minimum occurs at an angle of 30°, the slit width is",
+      "options": [
+        "1200 nm",
+        "2400 nm",
+        "600 nm",
+        "300 nm"
+      ],
+      "answer": 0,
+      "difficulty": "hard",
+      "explanation": "First minimum: $a\\sin\\theta = \\lambda \\Rightarrow a = \\lambda/\\sin30^\\circ = 600/0.5 = 1200$ nm."
+    },
+    {
+      "id": "phy-wave-optics-036",
+      "q": "Which of the following statements about single-slit diffraction is INCORRECT?",
+      "options": [
+        "The intensity of successive secondary maxima decreases rapidly moving away from the centre",
+        "All secondary maxima have the same intensity as the central maximum",
+        "The central maximum is the brightest and widest",
+        "Minima occur where $a\\sin\\theta = n\\lambda$"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "Secondary maxima are much fainter than the central maximum and decrease rapidly in intensity further out, so the statement that they are equally bright is incorrect."
+    },
+    {
+      "id": "phy-wave-optics-037",
+      "q": "When white light is used in a YDSE, the central fringe formed on the screen is",
+      "options": [
+        "red",
+        "violet",
+        "dark",
+        "white, with coloured fringes on either side"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "At the centre, the path difference is zero for every wavelength, so all colours reinforce to give a white central fringe; fringes of different colours appear on either side since fringe width depends on $\\lambda$."
+    },
+    {
+      "id": "phy-wave-optics-038",
+      "q": "In a YDSE performed with white light, a few coloured fringes are visible near the centre, after which the pattern",
+      "options": [
+        "turns completely dark",
+        "shows only violet fringes",
+        "becomes uniformly illuminated (fringes disappear) due to overlapping patterns of different wavelengths",
+        "becomes sharper and more colourful farther from the centre"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "Away from the centre, bright and dark fringes of different wavelengths no longer coincide and overlap to give nearly uniform illumination, washing out the fringe pattern."
+    },
+    {
+      "id": "phy-wave-optics-039",
+      "q": "In a single-slit diffraction experiment, if the slit width is reduced to half its original value (wavelength and screen distance unchanged), the width of the central maximum",
+      "options": [
+        "is halved",
+        "doubles",
+        "becomes four times as large",
+        "remains unchanged"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "Width of central maximum $\\propto 1/a$; halving the slit width $a$ doubles the width of the central maximum."
+    },
+    {
+      "id": "phy-wave-optics-040",
+      "q": "A ray of light strikes a glass slab of refractive index $\\sqrt{3}$ at the polarising angle. The polarising angle is",
+      "options": [
+        "60°",
+        "56.3°",
+        "45°",
+        "30°"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "By Brewster's law, $\\tan i_p = \\mu = \\sqrt{3} \\Rightarrow i_p = 60^\\circ$."
+    }
+  ]
+}

@@ -1,0 +1,526 @@
+{
+  "notes": "<h3>Definitions</h3><ul><li>Distance = actual path length (scalar, always positive). Displacement = shortest straight-line change in position (vector; can be zero even when distance is not).</li><li>Speed = distance/time (scalar); Velocity = displacement/time (vector). Average speed $\\geq$ magnitude of average velocity, with equality only when motion is one-directional along a straight line.</li></ul><h3>Equations of motion (uniform acceleration $a$)</h3><ul><li>$v = u + at$</li><li>$s = ut + \\frac12at^2$</li><li>$v^2 = u^2 + 2as$</li><li>Distance in the $n^{th}$ second: $s_n = u + \\dfrac{a}{2}(2n-1)$</li></ul><h3>Graphs</h3><table><tr><th>Graph</th><th>Slope gives</th><th>Area gives</th></tr><tr><td>x&ndash;t</td><td>velocity</td><td>&mdash;</td></tr><tr><td>v&ndash;t</td><td>acceleration</td><td>displacement</td></tr></table><ul><li>On a v&ndash;t graph, area below the time axis counts as negative displacement; total distance travelled is the sum of the magnitudes of all such areas.</li></ul><h3>Relative velocity</h3><ul><li>$v_{AB} = v_A - v_B$ (vector subtraction). Same direction &rarr; subtract magnitudes; opposite directions &rarr; add magnitudes.</li></ul><h3>Vertical motion under gravity</h3><ul><li>Taking upward as positive, $g$ acts as $-g$. For a body thrown up with speed $u$: time of flight $T = 2u/g$; maximum height $H = u^2/2g$; it returns to the point of projection with speed $u$ (in the absence of air resistance).</li></ul><h3>Average speed for two-part journeys</h3><ul><li>Equal distances at speeds $v_1, v_2$: average speed $= \\dfrac{2v_1v_2}{v_1+v_2}$ (harmonic mean).</li><li>Equal time intervals at speeds $v_1, v_2$: average speed $= \\dfrac{v_1+v_2}{2}$ (arithmetic mean). Do not confuse the two cases.</li></ul><h3>Calculus form</h3><ul><li>$v = \\dfrac{dx}{dt}$, $a = \\dfrac{dv}{dt} = \\dfrac{d^2x}{dt^2}$, and $v\\,dv = a\\,dx$.</li></ul><h3>Exam tip</h3><p>KCET usually sets 1&ndash;2 questions from this chapter &mdash; typically a direct equations-of-motion or free-fall numerical, sometimes a graph-reading or relative-velocity question. Fix sign conventions before substituting numbers.</p>",
+  "questions": [
+    {
+      "id": "phy-motion-in-a-straight-line-001",
+      "q": "A car starting from rest accelerates uniformly at 2 m s$^{-2}$. Its velocity after 5 s is",
+      "options": [
+        "25 m s$^{-1}$",
+        "20 m s$^{-1}$",
+        "5 m s$^{-1}$",
+        "10 m s$^{-1}$"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "$v = u + at = 0 + 2\\times5 = 10\\,\\text{m s}^{-1}$."
+    },
+    {
+      "id": "phy-motion-in-a-straight-line-002",
+      "q": "A car starting from rest with uniform acceleration $a = 2$ m s$^{-2}$ covers a distance in the first 5 s equal to",
+      "options": [
+        "20 m",
+        "10 m",
+        "25 m",
+        "50 m"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "$s = ut + \\frac12at^2 = 0 + \\frac12\\times2\\times25 = 25$ m."
+    },
+    {
+      "id": "phy-motion-in-a-straight-line-003",
+      "q": "A stone dropped from a tower reaches the ground in 4 s. The height of the tower is",
+      "options": [
+        "160 m",
+        "80 m",
+        "40 m",
+        "20 m"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "$h = \\frac12gt^2 = \\frac12\\times10\\times16 = 80$ m."
+    },
+    {
+      "id": "phy-motion-in-a-straight-line-004",
+      "q": "A body starts from rest and moves with uniform acceleration 4 m s$^{-2}$. The distance covered by it in the 3rd second is",
+      "options": [
+        "10 m",
+        "8 m",
+        "12 m",
+        "6 m"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "$s_n = u + \\frac{a}{2}(2n-1) = 0 + 2(2\\times3-1) = 2\\times5 = 10$ m."
+    },
+    {
+      "id": "phy-motion-in-a-straight-line-005",
+      "q": "A ball is thrown vertically upward with a speed of 30 m s$^{-1}$. The time after which it returns to the point of projection is",
+      "options": [
+        "3 s",
+        "9 s",
+        "6 s",
+        "4.5 s"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "$T = \\dfrac{2u}{g} = \\dfrac{2\\times30}{10} = 6$ s."
+    },
+    {
+      "id": "phy-motion-in-a-straight-line-006",
+      "q": "A ball thrown vertically upward with speed 20 m s$^{-1}$ rises to a maximum height of",
+      "options": [
+        "10 m",
+        "40 m",
+        "5 m",
+        "20 m"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "$H = \\dfrac{u^2}{2g} = \\dfrac{400}{20} = 20$ m."
+    },
+    {
+      "id": "phy-motion-in-a-straight-line-007",
+      "q": "Two cars A and B travel in the same direction at 72 km h$^{-1}$ and 54 km h$^{-1}$ respectively. The velocity of A relative to B is",
+      "options": [
+        "18 km h$^{-1}$",
+        "126 km h$^{-1}$",
+        "72 km h$^{-1}$",
+        "54 km h$^{-1}$"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "Same direction, so relative velocity $= 72 - 54 = 18$ km h$^{-1}$."
+    },
+    {
+      "id": "phy-motion-in-a-straight-line-008",
+      "q": "Two trains move in opposite directions at 60 km h$^{-1}$ and 40 km h$^{-1}$. The speed of one train relative to the other is",
+      "options": [
+        "60 km h$^{-1}$",
+        "100 km h$^{-1}$",
+        "40 km h$^{-1}$",
+        "20 km h$^{-1}$"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "Opposite directions, so relative velocity magnitudes add: $60 + 40 = 100$ km h$^{-1}$."
+    },
+    {
+      "id": "phy-motion-in-a-straight-line-009",
+      "q": "A person walks 4 km east and then 3 km west, the whole trip taking 1 hour. His average velocity is",
+      "options": [
+        "3.5 km h$^{-1}$",
+        "4 km h$^{-1}$",
+        "7 km h$^{-1}$",
+        "1 km h$^{-1}$"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "Net displacement $= 4 - 3 = 1$ km (east); average velocity $= 1/1 = 1$ km h$^{-1}$ (average speed would be 7 km h$^{-1}$)."
+    },
+    {
+      "id": "phy-motion-in-a-straight-line-010",
+      "q": "A position&ndash;time (x&ndash;t) graph of a particle is a straight line inclined to the time axis. The particle is moving with",
+      "options": [
+        "uniform velocity",
+        "uniform acceleration",
+        "non-uniform velocity",
+        "zero velocity"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "A constant slope on an x&ndash;t graph means the velocity ($dx/dt$) does not change, i.e. uniform velocity."
+    },
+    {
+      "id": "phy-motion-in-a-straight-line-011",
+      "q": "A particle's velocity rises uniformly from 0 to 20 m s$^{-1}$ in 4 s and then stays constant at 20 m s$^{-1}$ for the next 4 s. The total displacement in 8 s is",
+      "options": [
+        "40 m",
+        "120 m",
+        "160 m",
+        "80 m"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "Area under v&ndash;t graph: triangle $\\frac12\\times4\\times20 = 40$ m plus rectangle $4\\times20 = 80$ m, total $120$ m."
+    },
+    {
+      "id": "phy-motion-in-a-straight-line-012",
+      "q": "The position of a particle is $x = 2t^2 + 3t + 1$ (in metres, $t$ in seconds). Its velocity at $t = 2$ s is",
+      "options": [
+        "15 m s$^{-1}$",
+        "8 m s$^{-1}$",
+        "11 m s$^{-1}$",
+        "7 m s$^{-1}$"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "$v = \\dfrac{dx}{dt} = 4t + 3$; at $t=2$ s, $v = 8+3 = 11$ m s$^{-1}$."
+    },
+    {
+      "id": "phy-motion-in-a-straight-line-013",
+      "q": "The velocity of a particle is $v = 3t^2 - 6t$ (SI units). Its acceleration at $t = 2$ s is",
+      "options": [
+        "0 m s$^{-2}$",
+        "18 m s$^{-2}$",
+        "12 m s$^{-2}$",
+        "6 m s$^{-2}$"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "$a = \\dfrac{dv}{dt} = 6t - 6$; at $t=2$ s, $a = 12-6 = 6$ m s$^{-2}$."
+    },
+    {
+      "id": "phy-motion-in-a-straight-line-014",
+      "q": "A car covers the first half of a distance at 20 km h$^{-1}$ and the second half at 30 km h$^{-1}$. Its average speed for the whole journey is",
+      "options": [
+        "25 km h$^{-1}$",
+        "24 km h$^{-1}$",
+        "30 km h$^{-1}$",
+        "20 km h$^{-1}$"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "Equal distances: average speed $= \\dfrac{2v_1v_2}{v_1+v_2} = \\dfrac{2\\times20\\times30}{50} = 24$ km h$^{-1}$."
+    },
+    {
+      "id": "phy-motion-in-a-straight-line-015",
+      "q": "A car travels the first half of the total TIME of a journey at 20 km h$^{-1}$ and the second half of the time at 30 km h$^{-1}$. Its average speed is",
+      "options": [
+        "24 km h$^{-1}$",
+        "20 km h$^{-1}$",
+        "25 km h$^{-1}$",
+        "30 km h$^{-1}$"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "Equal time intervals: average speed is the arithmetic mean $= \\dfrac{20+30}{2} = 25$ km h$^{-1}$.",
+      "tip": "Equal distances -> harmonic mean; equal times -> arithmetic mean."
+    },
+    {
+      "id": "phy-motion-in-a-straight-line-016",
+      "q": "A car moving at 20 m s$^{-1}$ is brought to rest by brakes that produce a uniform deceleration of 5 m s$^{-2}$. The stopping distance is",
+      "options": [
+        "40 m",
+        "80 m",
+        "10 m",
+        "20 m"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "Using $v^2 = u^2 - 2as$ with $v=0$: $s = \\dfrac{u^2}{2a} = \\dfrac{400}{10} = 40$ m."
+    },
+    {
+      "id": "phy-motion-in-a-straight-line-017",
+      "q": "A stone is thrown vertically downward with an initial speed of 5 m s$^{-1}$ from the top of a 100 m tower. The time it takes to reach the ground is",
+      "options": [
+        "4.5 s",
+        "3 s",
+        "4 s",
+        "5 s"
+      ],
+      "answer": 2,
+      "difficulty": "hard",
+      "explanation": "$100 = 5t + \\frac12(10)t^2 \\Rightarrow 5t^2+5t-100=0 \\Rightarrow t^2+t-20=0 \\Rightarrow t = 4$ s (taking the positive root)."
+    },
+    {
+      "id": "phy-motion-in-a-straight-line-018",
+      "q": "For any moving particle, which statement is always true?",
+      "options": [
+        "distance travelled can be negative",
+        "magnitude of displacement $\\leq$ distance travelled",
+        "displacement always equals distance travelled",
+        "displacement can exceed distance travelled"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "The straight-line displacement can never be longer than the actual path length; they are equal only for one-directional straight-line motion."
+    },
+    {
+      "id": "phy-motion-in-a-straight-line-019",
+      "q": "A particle's velocity decreases uniformly from 10 m s$^{-1}$ to $-10$ m s$^{-1}$ over 5 s (v&ndash;t graph is a straight line through zero at $t=2.5$ s). The net displacement in these 5 s is",
+      "options": [
+        "0 m",
+        "$-12.5$ m",
+        "25 m",
+        "12.5 m"
+      ],
+      "answer": 0,
+      "difficulty": "hard",
+      "explanation": "Area above the axis (0 to 2.5 s) $= \\frac12\\times2.5\\times10 = 12.5$ m; area below the axis (2.5 to 5 s) $= -12.5$ m. Net displacement $= 12.5 - 12.5 = 0$ m (though total distance travelled is 25 m)."
+    },
+    {
+      "id": "phy-motion-in-a-straight-line-020",
+      "q": "A velocity-time graph that is a horizontal line parallel to the time axis represents motion with",
+      "options": [
+        "uniform acceleration",
+        "increasing acceleration",
+        "zero velocity",
+        "uniform velocity"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "A horizontal v-t line means velocity does not change with time, i.e. zero acceleration and uniform (constant, non-zero) velocity."
+    },
+    {
+      "id": "phy-motion-in-a-straight-line-021",
+      "q": "A stone is dropped from the top of a tower. A second stone is dropped from the same point 2 s later. How far apart are the two stones 5 s after the first stone was dropped?",
+      "options": [
+        "60 m",
+        "80 m",
+        "100 m",
+        "50 m"
+      ],
+      "answer": 1,
+      "difficulty": "hard",
+      "explanation": "First stone falls for 5 s: $\\frac12(10)(5^2)=125$ m. Second stone falls for $5-2=3$ s: $\\frac12(10)(3^2)=45$ m. Separation $=125-45=80$ m."
+    },
+    {
+      "id": "phy-motion-in-a-straight-line-022",
+      "q": "A ball is thrown vertically upward with speed 10 m s$^{-1}$ from the top of a tower 15 m high. The time taken to reach the ground is",
+      "options": [
+        "3 s",
+        "1 s",
+        "4 s",
+        "2 s"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "Taking up as positive: $-15 = 10t - 5t^2 \\Rightarrow t^2-2t-3=0 \\Rightarrow (t-3)(t+1)=0 \\Rightarrow t=3$ s."
+    },
+    {
+      "id": "phy-motion-in-a-straight-line-023",
+      "q": "A train of length 150 m moving at 54 km h$^{-1}$ overtakes another train of length 100 m moving at 36 km h$^{-1}$ in the same direction. The time taken to completely cross it is",
+      "options": [
+        "40 s",
+        "25 s",
+        "45 s",
+        "50 s"
+      ],
+      "answer": 3,
+      "difficulty": "hard",
+      "explanation": "Relative speed $=54-36=18$ km h$^{-1}=5$ m s$^{-1}$. Total length to be covered $=150+100=250$ m. Time $=250/5=50$ s."
+    },
+    {
+      "id": "phy-motion-in-a-straight-line-024",
+      "q": "The area under an acceleration&ndash;time graph between two instants gives the",
+      "options": [
+        "displacement",
+        "distance travelled",
+        "change in velocity",
+        "jerk"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "Since $a = dv/dt$, the area under the a-t graph, $\\int a\\,dt$, equals the change in velocity over that interval."
+    },
+    {
+      "id": "phy-motion-in-a-straight-line-025",
+      "q": "A particle moves with velocity $v = 2t^3$ (SI units). Its displacement between $t=1$ s and $t=2$ s is",
+      "options": [
+        "6 m",
+        "7.5 m",
+        "15 m",
+        "8 m"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "$x=\\int v\\,dt = \\frac{t^4}{2}$. Displacement $= \\frac{2^4}{2}-\\frac{1^4}{2} = 8-0.5 = 7.5$ m."
+    },
+    {
+      "id": "phy-motion-in-a-straight-line-026",
+      "q": "A particle starts from rest with uniform acceleration $a$. A graph of displacement $s$ versus $t^2$ is a straight line through the origin whose slope equals",
+      "options": [
+        "a",
+        "2a",
+        "a/2",
+        "a^2"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "Since $s=\\frac12at^2$, plotting $s$ against $t^2$ gives a straight line through the origin with slope $s/t^2=a/2$."
+    },
+    {
+      "id": "phy-motion-in-a-straight-line-027",
+      "q": "A car moving at 20 m s$^{-1}$ has a driver whose reaction time is 0.5 s. After the driver reacts, the brakes produce a deceleration of 5 m s$^{-2}$. The total distance travelled before the car stops is",
+      "options": [
+        "30 m",
+        "45 m",
+        "40 m",
+        "50 m"
+      ],
+      "answer": 3,
+      "difficulty": "hard",
+      "explanation": "Reaction distance $=20\\times0.5=10$ m. Braking distance $=u^2/2a=400/10=40$ m. Total $=10+40=50$ m."
+    },
+    {
+      "id": "phy-motion-in-a-straight-line-028",
+      "q": "On a velocity&ndash;time graph, if the graph crosses the time axis, the particle",
+      "options": [
+        "reverses its direction of motion",
+        "has zero acceleration at that instant",
+        "moves with constant speed throughout",
+        "stops permanently"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "The velocity changes sign at the crossing point, meaning the particle momentarily comes to rest and then moves in the opposite direction."
+    },
+    {
+      "id": "phy-motion-in-a-straight-line-029",
+      "q": "The average velocity of a particle over a time interval equals its instantaneous velocity at every instant within that interval only when the particle moves with",
+      "options": [
+        "constant non-zero acceleration",
+        "non-uniform acceleration",
+        "constant velocity",
+        "continuously varying speed"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "Only when velocity itself does not change (constant velocity) is the instantaneous velocity the same at every instant and hence equal to the average."
+    },
+    {
+      "id": "phy-motion-in-a-straight-line-030",
+      "q": "A body falls freely from rest. The ratio of distances covered in the 1st, 2nd and 3rd seconds of its fall is",
+      "options": [
+        "1:3:5",
+        "1:2:3",
+        "1:4:9",
+        "1:1:1"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "$s_n \\propto (2n-1)$, so distances in successive seconds are in the ratio $1:3:5$, independent of $g$."
+    },
+    {
+      "id": "phy-motion-in-a-straight-line-031",
+      "q": "Two cars 100 m apart move towards each other with speeds 10 m s$^{-1}$ and 15 m s$^{-1}$. They meet after",
+      "options": [
+        "10 s",
+        "2 s",
+        "5 s",
+        "4 s"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "Closing speed $=10+15=25$ m s$^{-1}$. Time to meet $=100/25=4$ s."
+    },
+    {
+      "id": "phy-motion-in-a-straight-line-032",
+      "q": "An escalator moves upward at 1 m s$^{-1}$. A man climbs it at 0.5 m s$^{-1}$ relative to the escalator, in the same direction. His speed relative to the ground is",
+      "options": [
+        "1 m s$^{-1}$",
+        "1.5 m s$^{-1}$",
+        "0.5 m s$^{-1}$",
+        "2 m s$^{-1}$"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "Velocities in the same direction add: speed relative to ground $=1+0.5=1.5$ m s$^{-1}$."
+    },
+    {
+      "id": "phy-motion-in-a-straight-line-033",
+      "q": "A ball thrown vertically upward with speed $u$ passes a certain height $h$ twice: once going up (at time $t_1$) and once coming down (at time $t_2$). Which relation always holds?",
+      "options": [
+        "$t_1 t_2 = 2u/g$",
+        "$t_1 + t_2 = 2u/g$",
+        "$t_1 - t_2 = 2u/g$",
+        "$t_1 = t_2$ always"
+      ],
+      "answer": 1,
+      "difficulty": "hard",
+      "explanation": "$h = ut - \\frac12gt^2$ is a quadratic in $t$ with roots $t_1, t_2$; the sum of roots is $-b/a = 2u/g$, which is exactly the total time of flight, and is independent of $h$."
+    },
+    {
+      "id": "phy-motion-in-a-straight-line-034",
+      "q": "Which of the following statements is INCORRECT?",
+      "options": [
+        "A body can have zero velocity and non-zero acceleration simultaneously",
+        "Speed can never be negative",
+        "Displacement is always greater than or equal to distance travelled",
+        "A body can have zero acceleration and non-zero velocity simultaneously"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "The magnitude of displacement is always less than or equal to distance travelled, never the other way round; the other three statements are true (e.g. a ball at its highest point, or motion at constant velocity)."
+    },
+    {
+      "id": "phy-motion-in-a-straight-line-035",
+      "q": "The slope of a velocity&ndash;time graph at any instant gives the instantaneous",
+      "options": [
+        "acceleration",
+        "distance",
+        "displacement",
+        "velocity"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "Slope of the v-t graph $= dv/dt$, which is the instantaneous acceleration."
+    },
+    {
+      "id": "phy-motion-in-a-straight-line-036",
+      "q": "A particle has initial velocity 5 m s$^{-1}$ and constant acceleration $-2$ m s$^{-2}$. Its velocity at $t = 4$ s is",
+      "options": [
+        "$3$ m s$^{-1}$",
+        "$13$ m s$^{-1}$",
+        "$-13$ m s$^{-1}$",
+        "$-3$ m s$^{-1}$"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "$v = u+at = 5+(-2)(4) = 5-8 = -3$ m s$^{-1}$; the negative sign shows the particle has reversed direction."
+    },
+    {
+      "id": "phy-motion-in-a-straight-line-037",
+      "q": "From the top of a tower, ball A is thrown upward with speed $u$ and, at the same instant, ball B is thrown downward with the same speed $u$. Which is correct about their speeds on reaching the ground (ignore air resistance)?",
+      "options": [
+        "B reaches the ground with greater speed",
+        "Both reach the ground with the same speed",
+        "A reaches the ground with greater speed",
+        "Cannot be determined without knowing the height"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "Ball A returns to the point of projection with the same speed $u$ directed downward as ball B started with; from there on, both fall identically, so they reach the ground with equal speeds."
+    },
+    {
+      "id": "phy-motion-in-a-straight-line-038",
+      "q": "A stone is thrown vertically upward with initial speed 20 m s$^{-1}$. The height above the point of projection at which its speed becomes 10 m s$^{-1}$ is",
+      "options": [
+        "20 m",
+        "5 m",
+        "10 m",
+        "15 m"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "$v^2 = u^2 - 2gh \\Rightarrow 100 = 400 - 20h \\Rightarrow h = 15$ m."
+    },
+    {
+      "id": "phy-motion-in-a-straight-line-039",
+      "q": "A body has initial velocity 5 m s$^{-1}$ and uniform acceleration 2 m s$^{-2}$. The distance covered by it in the 4th second is",
+      "options": [
+        "11 m",
+        "9 m",
+        "12 m",
+        "10 m"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "$s_n = u+\\frac{a}{2}(2n-1) = 5+1\\times(2\\times4-1) = 5+7 = 12$ m."
+    },
+    {
+      "id": "phy-motion-in-a-straight-line-040",
+      "q": "Which of the following is a scalar quantity?",
+      "options": [
+        "distance",
+        "velocity",
+        "acceleration",
+        "displacement"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "Distance has only magnitude (no direction), so it is a scalar; displacement, velocity and acceleration are all vectors."
+    }
+  ]
+}

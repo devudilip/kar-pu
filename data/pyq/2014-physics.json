@@ -1,0 +1,795 @@
+{
+  "title": "KCET 2014 Physics",
+  "year": 2014,
+  "subject": "physics",
+  "code": "B-3",
+  "source": "KEA question paper (copy) + KEA answer key column B3",
+  "excluded": [],
+  "questions": [
+    {
+      "n": 1,
+      "q": "A microscope is having objective of focal length 1 cm and eyepiece of focal length 6 cm. If tube length is 30 cm and image is formed at the least distance of distinct vision, what is the magnification produced by the microscope? Take D = 25 cm.",
+      "options": [
+        "150",
+        "125",
+        "6",
+        "25"
+      ],
+      "answer": 1,
+      "chapter": "Ray Optics and Optical Instruments",
+      "explanation": "Using M = (L/f_o)(D/f_e) = (30/1)(25/6) = 125; using the more exact M = (L/f_o)(1+D/f_e) gives ~155, close to 150 — this ambiguity between the two commonly taught formulas is likely why KEA awarded a grace mark.",
+      "grace": true
+    },
+    {
+      "n": 2,
+      "q": "A fringe width of a certain interference pattern is $\\beta$ = 0.002 cm. What is the distance of 5$^{th}$ dark fringe from centre?",
+      "options": [
+        "11 \\times 10^{-2} cm",
+        "3.28 \\times 10^{6} cm",
+        "1 \\times 10^{-2} cm",
+        "1.1 \\times 10^{-2} cm"
+      ],
+      "answer": 2,
+      "chapter": "Wave Optics",
+      "explanation": "Using y = n$\\beta$ = 5 \\times 0.002 = 0.01 cm = 1\\times10^{-2} cm (option 3); the stricter formula y=(n-1/2)$\\beta$ gives 0.009 cm — this ambiguity is likely why KEA awarded a grace mark.",
+      "grace": true
+    },
+    {
+      "n": 3,
+      "q": "Diameter of the objective of a telescope is 200 cm. What is the resolving power of a telescope? Take wavelength of light = 5000 \\AA.",
+      "options": [
+        "3.28 \\times 10^{5}",
+        "3.28 \\times 10^{6}",
+        "6.56 \\times 10^{6}",
+        "1 \\times 10^{6}"
+      ],
+      "answer": 1,
+      "chapter": "Ray Optics and Optical Instruments",
+      "explanation": "Resolving power = D/(1.22$\\lambda$) = 2/(1.22 \\times 5\\times10^{-7}) $\\approx$ 3.28 \\times 10^{6}."
+    },
+    {
+      "n": 4,
+      "q": "A polarized light of intensity I$_0$ is passed through another polarizer whose pass axis makes an angle of 60$^{\\circ}$ with the pass axis of the former. What is the intensity of emergent polarized light from second polarizer?",
+      "options": [
+        "I = I$_0$/6",
+        "I$_0$/4",
+        "I = I$_0$",
+        "I = I$_0$/5"
+      ],
+      "answer": 1,
+      "chapter": "Wave Optics",
+      "explanation": "By Malus's law, I = I$_0$cos$^2$60$^{\\circ}$ = I$_0$(1/2)$^2$ = I$_0$/4."
+    },
+    {
+      "n": 5,
+      "q": "What is the de Broglie wavelength of the electron accelerated through a potential difference of 100 Volt?",
+      "options": [
+        "1.227 \\AA",
+        "0.001227 \\AA",
+        "12.27 \\AA",
+        "0.1227 \\AA"
+      ],
+      "answer": 0,
+      "chapter": "Dual Nature of Radiation and Matter",
+      "explanation": "$\\lambda = 12.27/\\sqrt{V}$ \\AA = 12.27/10 = 1.227 \\AA."
+    },
+    {
+      "n": 6,
+      "q": "The maximum kinetic energy of the photoelectrons depends only on",
+      "options": [
+        "frequency",
+        "pressure",
+        "potential",
+        "incident angle"
+      ],
+      "answer": 0,
+      "chapter": "Dual Nature of Radiation and Matter",
+      "explanation": "By Einstein's photoelectric equation, KE$_{max}$ = h$\\nu$ - $\\phi$, which depends only on the frequency of incident light (for a given metal)."
+    },
+    {
+      "n": 7,
+      "q": "Which of the following spectral series of hydrogen atom is lying in visible range of electromagnetic wave?",
+      "options": [
+        "Pfund series",
+        "Balmer series",
+        "Paschen series",
+        "Lyman series"
+      ],
+      "answer": 1,
+      "chapter": "Atoms",
+      "explanation": "The Balmer series (transitions to n=2) lies in the visible region of the electromagnetic spectrum."
+    },
+    {
+      "n": 8,
+      "q": "What is the energy of the electron revolving in third orbit expressed in eV?",
+      "options": [
+        "3.4 eV",
+        "4 eV",
+        "1.51 eV",
+        "4.53 eV"
+      ],
+      "answer": 2,
+      "chapter": "Atoms",
+      "explanation": "E$_n$ = -13.6/n$^2$ eV, so E$_3$ = -13.6/9 = -1.51 eV, magnitude 1.51 eV."
+    },
+    {
+      "n": 9,
+      "q": "The relation between half life (T) and decay constant ($\\lambda$) is",
+      "options": [
+        "$\\lambda$T = \\dfrac{1}{2}",
+        "$\\lambda$ = log 2T",
+        "$\\lambda$T = 1",
+        "$\\lambda$T = log$_e$2"
+      ],
+      "answer": 3,
+      "chapter": "Nuclei",
+      "explanation": "T = ln2/$\\lambda$, so $\\lambda$T = log$_e$2."
+    },
+    {
+      "n": 10,
+      "q": "A force between two protons is same as the force between proton and neutron. The nature of the force is",
+      "options": [
+        "Strong nuclear force",
+        "Gravitational force",
+        "Weak nuclear force",
+        "Electrical force"
+      ],
+      "answer": 0,
+      "chapter": "Nuclei",
+      "explanation": "The strong nuclear force is charge-independent, acting equally between p-p, p-n and n-n pairs."
+    },
+    {
+      "n": 11,
+      "q": "In n type semiconductor, electrons are majority charge carriers but it does not show any negative charge. The reason is",
+      "options": [
+        "electrons neutralize with holes",
+        "atom is electrically neutral",
+        "electrons are stationary",
+        "mobility of electrons is extremely small"
+      ],
+      "answer": 1,
+      "chapter": "Semiconductor Electronics",
+      "explanation": "The donor atoms remain electrically neutral (equal protons and electrons) even after donating a free electron, so the crystal as a whole stays neutral."
+    },
+    {
+      "n": 12,
+      "q": "For the given digital circuit, write the truth table and identify the logic gate it represents: [Two NOR gates, each with both inputs tied to A and B respectively, feed into a third NOR gate whose output is Y]",
+      "options": [
+        "NOR-Gate",
+        "AND-Gate",
+        "OR-Gate",
+        "NAND-Gate"
+      ],
+      "answer": 1,
+      "chapter": "Semiconductor Electronics",
+      "explanation": "Each first-stage NOR gate (inputs A,A and B,B) acts as a NOT gate, giving A' and B'; NOR-ing A' and B' gives Y = (A'+B')' = AB, i.e. an AND gate.",
+      "figure": true
+    },
+    {
+      "n": 13,
+      "q": "If $\\alpha$-current gain of a transistor is 0.98. What is the value of $\\beta$-current gain of the transistor?",
+      "options": [
+        "49",
+        "5",
+        "0.49",
+        "4.9"
+      ],
+      "answer": 0,
+      "chapter": "Semiconductor Electronics",
+      "explanation": "$\\beta = \\alpha/(1-\\alpha) = 0.98/0.02 = 49$."
+    },
+    {
+      "n": 14,
+      "q": "A tuned amplifier circuit is used to generate a carrier frequency of 2 MHz for the amplitude modulation. The value of $\\sqrt{LC}$ is",
+      "options": [
+        "\\dfrac{1}{2 \\times 10^{6}}",
+        "\\dfrac{1}{4\\pi \\times 10^{6}}",
+        "\\dfrac{1}{2\\pi \\times 10^{6}}",
+        "\\dfrac{1}{3\\pi \\times 10^{6}}"
+      ],
+      "answer": 1,
+      "chapter": "Semiconductor Electronics",
+      "explanation": "f = 1/(2$\\pi\\sqrt{LC}$), so $\\sqrt{LC}$ = 1/(2$\\pi$f) = 1/(2$\\pi$ \\times 2\\times10^6) = 1/(4$\\pi$\\times10^6)."
+    },
+    {
+      "n": 15,
+      "q": "If a charge on the body is 1 nC, then how many electrons are present on the body?",
+      "options": [
+        "6.25 \\times 10^{9}",
+        "6.25 \\times 10^{28}",
+        "1.6 \\times 10^{19}",
+        "6.25 \\times 10^{27}"
+      ],
+      "answer": 0,
+      "chapter": "Electric Charges and Fields",
+      "explanation": "n = Q/e = 1\\times10^{-9}/1.6\\times10^{-19} = 6.25 \\times 10^{9}."
+    },
+    {
+      "n": 16,
+      "q": "Two equal and opposite charges of masses m$_1$ and m$_2$ are accelerated in a uniform electric field through the same distance. What is the ratio of their accelerations if their ratio of masses is \\dfrac{m$_1$}{m$_2$} = 0.5?",
+      "options": [
+        "\\dfrac{a_1}{a_2} = 1",
+        "\\dfrac{a_1}{a_2} = 3",
+        "\\dfrac{a_1}{a_2} = 0.5",
+        "\\dfrac{a_1}{a_2} = 2"
+      ],
+      "answer": 3,
+      "chapter": "Electric Charges and Fields",
+      "explanation": "Since a = qE/m and the charges have equal magnitude, a$_1$/a$_2$ = m$_2$/m$_1$ = 1/0.5 = 2."
+    },
+    {
+      "n": 17,
+      "q": "What is the nature of Gaussian surface involved in Gauss law of electrostatic?",
+      "options": [
+        "Electrical",
+        "Vector",
+        "Scalar",
+        "Magnetic"
+      ],
+      "answer": 2,
+      "chapter": "Electric Charges and Fields",
+      "explanation": "A Gaussian surface is an imaginary closed surface; the flux through it is a scalar quantity, so it is best described as a scalar/imaginary construct — the ambiguity of this wording is likely why KEA awarded a grace mark.",
+      "grace": true
+    },
+    {
+      "n": 18,
+      "q": "What is the electric potential at a distance of 9 cm from 3 nC?",
+      "options": [
+        "3 V",
+        "30 V",
+        "270 V",
+        "300 V"
+      ],
+      "answer": 3,
+      "chapter": "Electrostatic Potential and Capacitance",
+      "explanation": "V = kQ/r = (9\\times10^9 \\times 3\\times10^{-9})/0.09 = 27/0.09 = 300 V."
+    },
+    {
+      "n": 19,
+      "q": "A voltmeter reads 4 V when connected to a parallel plate capacitor with air as a dielectric. When a dielectric slab is introduced between plates for the same configuration, voltmeter reads 2 V. What is the dielectric constant of the material?",
+      "options": [
+        "2",
+        "10",
+        "0.5",
+        "8"
+      ],
+      "answer": 0,
+      "chapter": "Electrostatic Potential and Capacitance",
+      "explanation": "For constant charge, K = V$_0$/V = 4/2 = 2."
+    },
+    {
+      "n": 20,
+      "q": "A spherical conductor of radius 2 cm is uniformly charged with 3 nC. What is the electric field at a distance of 3 cm from the centre of the sphere?",
+      "options": [
+        "3 V m$^{-1}$",
+        "3 \\times 10^{-4} V m$^{-1}$",
+        "3 \\times 10^{6} V m$^{-1}$",
+        "3 \\times 10^{4} V m$^{-1}$"
+      ],
+      "answer": 3,
+      "chapter": "Electric Charges and Fields",
+      "explanation": "For a point outside the sphere, E = kQ/r$^2$ = (9\\times10^9 \\times 3\\times10^{-9})/(0.03)^2 = 27/0.0009 = 3\\times10^4 V/m."
+    },
+    {
+      "n": 21,
+      "q": "A carbon film resistor has colour code Green Black Violet Gold. The value of the resistor is",
+      "options": [
+        "500 M$\\Omega$",
+        "500 \\pm 10\\% M$\\Omega$",
+        "50 M$\\Omega$",
+        "500 \\pm 5\\% M$\\Omega$"
+      ],
+      "answer": 3,
+      "chapter": "Current Electricity",
+      "explanation": "Green=5, Black=0, Violet=$10^7$, Gold=$\\pm$5%; value = 50\\times10^7 $\\Omega$ = 500 M$\\Omega$ $\\pm$5%."
+    },
+    {
+      "n": 22,
+      "q": "Two resistors of resistances 2 $\\Omega$ and 6 $\\Omega$ are connected in parallel. This combination is then connected to a battery of emf 2V and internal resistance 0.5 $\\Omega$. What is the current flowing through the battery?",
+      "options": [
+        "\\dfrac{4}{3} A",
+        "1 A",
+        "4 A",
+        "\\dfrac{4}{17} A"
+      ],
+      "answer": 1,
+      "chapter": "Current Electricity",
+      "explanation": "R$_p$ = (2\\times6)/(2+6) = 1.5 $\\Omega$; total R = 1.5+0.5 = 2 $\\Omega$; I = V/R = 2/2 = 1 A."
+    },
+    {
+      "n": 23,
+      "q": "The equivalent resistance of two resistors connected in series is 6 $\\Omega$ and their parallel equivalent resistance is \\dfrac{4}{3} $\\Omega$. What are the values of resistances?",
+      "options": [
+        "8 $\\Omega$, 1 $\\Omega$",
+        "6 $\\Omega$, 2 $\\Omega$",
+        "4 $\\Omega$, 6 $\\Omega$",
+        "4 $\\Omega$, 2 $\\Omega$"
+      ],
+      "answer": 3,
+      "chapter": "Current Electricity",
+      "explanation": "R$_1$+R$_2$=6 and R$_1$R$_2$/(R$_1$+R$_2$)=4/3 $\\Rightarrow$ R$_1$R$_2$=8; solving gives R$_1$=4$\\Omega$, R$_2$=2$\\Omega$."
+    },
+    {
+      "n": 24,
+      "q": "In a potentiometer experiment of a cell of emf 1.25 V gives balancing length of 30 cm. If the cell is replaced by another cell, balancing length is found to be 40 cm. What is the emf of second cell?",
+      "options": [
+        "\\simeq 1.67 V",
+        "\\simeq 1.37 V",
+        "\\simeq 1.57 V",
+        "\\simeq 1.47 V"
+      ],
+      "answer": 0,
+      "chapter": "Current Electricity",
+      "explanation": "EMFs are proportional to balancing lengths: E$_2$ = 1.25 \\times (40/30) $\\approx$ 1.67 V."
+    },
+    {
+      "n": 25,
+      "q": "A charged particle experiences magnetic force in the presence of magnetic field. Which of the following statement is correct?",
+      "options": [
+        "The particle is moving and magnetic field is parallel to velocity.",
+        "The particle is stationary and magnetic field is parallel.",
+        "The particle is moving and magnetic field is perpendicular to the velocity.",
+        "The particle is stationary and magnetic field is perpendicular."
+      ],
+      "answer": 2,
+      "chapter": "Moving Charges and Magnetism",
+      "explanation": "Magnetic force F = qv \\times B is maximum (non-zero) when the particle moves with velocity perpendicular to B; a stationary charge feels no magnetic force."
+    },
+    {
+      "n": 26,
+      "q": "If a velocity has both perpendicular and parallel components while moving through a magnetic field, what is the path followed by a charged particle?",
+      "options": [
+        "Elliptical",
+        "Helical",
+        "Circular",
+        "Linear"
+      ],
+      "answer": 1,
+      "chapter": "Moving Charges and Magnetism",
+      "explanation": "The perpendicular component causes circular motion while the parallel component gives uniform motion along the field, combining to give a helical path."
+    },
+    {
+      "n": 27,
+      "q": "A solenoid has length 0.4 cm, radius 1 cm and 400 turns of wire. If a current of 5 A is passed through this solenoid, what is the magnetic field inside the solenoid?",
+      "options": [
+        "6.28 \\times 10^{-3} T",
+        "6.28 \\times 10^{-6} T",
+        "6.28 \\times 10^{-4} T",
+        "6.28 \\times 10^{-7} T"
+      ],
+      "answer": 0,
+      "chapter": "Moving Charges and Magnetism",
+      "explanation": "B = $\\mu_0$nI with n = N/l; taking the printed length (0.4 cm) literally gives an unrealistically huge field, so the intended length was likely 0.4 m — this inconsistency is probably why KEA awarded a grace mark. With l = 0.4 m, n = 1000/m and B = 4$\\pi$\\times10^{-7}\\times1000\\times5 $\\approx$ 6.28\\times10^{-3} T (option 1).",
+      "grace": true
+    },
+    {
+      "n": 28,
+      "q": "A gyromagnetic ratio of the electron revolving in a circular orbit of hydrogen atom is 8.8 \\times 10^{10} C kg$^{-1}$. What is the mass of the electron? Given charge of the electron = 1.6 \\times 10^{-19} C.",
+      "options": [
+        "0.1 \\times 10^{-29} kg",
+        "\\dfrac{1}{11} \\times 10^{-29} kg",
+        "1 \\times 10^{-29} kg",
+        "1.1 \\times 10^{-29} kg"
+      ],
+      "answer": 1,
+      "chapter": "Moving Charges and Magnetism",
+      "explanation": "Gyromagnetic ratio = e/(2m), so m = e/(2\\times ratio) = 1.6\\times10^{-19}/(2\\times8.8\\times10^{10}) = \\dfrac{1}{11}\\times10^{-29} kg."
+    },
+    {
+      "n": 29,
+      "q": "What is the value of shunt resistance required to convert a galvanometer of resistance 100 $\\Omega$ into an ammeter of range 1A? Given: Full scale deflection of the galvanometer is 5 mA.",
+      "options": [
+        "\\dfrac{9.95}{5} \\Omega",
+        "0.05 \\Omega",
+        "\\dfrac{5}{9.95} \\Omega",
+        "0.5 \\Omega"
+      ],
+      "answer": 2,
+      "chapter": "Moving Charges and Magnetism",
+      "explanation": "S = I$_g$G/(I-I$_g$) = (0.005\\times100)/(1-0.005) = 0.5/0.995 = 5/9.95 $\\Omega$."
+    },
+    {
+      "n": 30,
+      "q": "A circular coil of radius 10 cm and 100 turns carries a current 1A. What is the magnetic moment of the coil?",
+      "options": [
+        "10^{4} A m^{2}",
+        "3 A m^{2}",
+        "3.142 \\times 10^{4} A m^{2}",
+        "3.142 A m^{2}"
+      ],
+      "answer": 3,
+      "chapter": "Moving Charges and Magnetism",
+      "explanation": "m = NIA = 100\\times1\\times\\pi(0.1)^2 = 100\\times0.0314 = 3.142 A m$^2$."
+    },
+    {
+      "n": 31,
+      "q": "A susceptibility of a certain magnetic material is 400. What is the class of the magnetic material?",
+      "options": [
+        "Paramagnetic",
+        "Ferroelectric",
+        "Diamagnetic",
+        "Ferromagnetic"
+      ],
+      "answer": 3,
+      "chapter": "Magnetism and Matter",
+      "explanation": "A large positive susceptibility (of the order of hundreds/thousands) is characteristic of ferromagnetic materials."
+    },
+    {
+      "n": 32,
+      "q": "A solenoid of inductance 2H carries a current of 1 A. What is the magnetic energy stored in a solenoid?",
+      "options": [
+        "1 J",
+        "5 J",
+        "2 J",
+        "4 J"
+      ],
+      "answer": 0,
+      "chapter": "Electromagnetic Induction",
+      "explanation": "U = \\dfrac{1}{2}LI^2 = \\dfrac{1}{2}\\times2\\times1^2 = 1 J."
+    },
+    {
+      "n": 33,
+      "q": "A multimeter reads a voltage of a certain A.C. source as 100 V. What is the peak value of voltage of A.C. source?",
+      "options": [
+        "100 V",
+        "400 V",
+        "200 V",
+        "141.4 V"
+      ],
+      "answer": 3,
+      "chapter": "Alternating Current",
+      "explanation": "Multimeters read rms values; V$_0$ = V$_{rms}$\\times\\sqrt{2} = 100\\times1.414 = 141.4 V."
+    },
+    {
+      "n": 34,
+      "q": "A series LCR circuit contains inductance 5 mH, capacitance 2 $\\mu$F and resistance 10 $\\Omega$. If a frequency A.C. source is varied, what is the frequency at which maximum power is dissipated?",
+      "options": [
+        "\\dfrac{10^{-5}}{\\pi} Hz",
+        "\\dfrac{5}{\\pi} \\times 10^{3} Hz",
+        "\\dfrac{10^{5}}{\\pi} Hz",
+        "\\dfrac{2}{\\pi} \\times 10^{5} Hz"
+      ],
+      "answer": 1,
+      "chapter": "Alternating Current",
+      "explanation": "Maximum power occurs at resonance: f = 1/(2$\\pi\\sqrt{LC}$) = 1/(2$\\pi\\sqrt{5\\times10^{-3}\\times2\\times10^{-6}}$) = 1/(2$\\pi\\times10^{-4}$) = (5/$\\pi$)\\times10^3 Hz."
+    },
+    {
+      "n": 35,
+      "q": "A step down transformer has 50 turns on secondary and 1000 turns on primary winding. If a transformer is connected to 220 V 1A A.C. source, what is output current of the transformer?",
+      "options": [
+        "20 A",
+        "2 A",
+        "\\dfrac{1}{20} A",
+        "100 A"
+      ],
+      "answer": 0,
+      "chapter": "Alternating Current",
+      "explanation": "I$_s$ = I$_p$\\times(N$_p$/N$_s$) = 1\\times(1000/50) = 20 A."
+    },
+    {
+      "n": 36,
+      "q": "The average power dissipated in A.C. circuit is 2 watt. If a current flowing through a circuit is 2 A and impedance is 1 $\\Omega$, what is the power factor of the AC circuit?",
+      "options": [
+        "1",
+        "\\dfrac{1}{\\sqrt{2}}",
+        "0.5",
+        "0"
+      ],
+      "answer": 2,
+      "chapter": "Alternating Current",
+      "explanation": "P = I^2 Z \\cos\\phi \\Rightarrow 2 = (2)^2(1)\\cos\\phi \\Rightarrow \\cos\\phi = 0.5."
+    },
+    {
+      "n": 37,
+      "q": "A plane electromagnetic wave of frequency 20 MHz travels through a space along x direction. If the electric field vector at a certain point in space is 6 V m$^{-1}$, what is the magnetic field vector at that point?",
+      "options": [
+        "\\dfrac{1}{2} \\times 10^{-8} T",
+        "\\dfrac{1}{2} T",
+        "2 \\times 10^{-8} T",
+        "2T"
+      ],
+      "answer": 2,
+      "chapter": "Electromagnetic Waves",
+      "explanation": "B = E/c = 6/(3\\times10^8) = 2\\times10^{-8} T."
+    },
+    {
+      "n": 38,
+      "q": "Two capacitors of 10 PF and 20 PF are connected to 200 V and 100 V sources respectively. If they are connected by the wire, what is the common potential of the capacitors?",
+      "options": [
+        "150 volt",
+        "400 volt",
+        "133.3 volt",
+        "300 volt"
+      ],
+      "answer": 2,
+      "chapter": "Electrostatic Potential and Capacitance",
+      "explanation": "Common potential = (C$_1$V$_1$+C$_2$V$_2$)/(C$_1$+C$_2$) = (10\\times200+20\\times100)/30 = 4000/30 = 133.3 V."
+    },
+    {
+      "n": 39,
+      "q": "A physical quantity Q is found to depend on observables x, y and z, obeying relation Q = $\\dfrac{x^3y^2}{z}$. The percentage error in the measurements of x, y and z are 1\\%, 2\\% and 4\\% respectively. What is percentage error in the quantity Q?",
+      "options": [
+        "3 \\%",
+        "1 \\%",
+        "4 \\%",
+        "11 \\%"
+      ],
+      "answer": 3,
+      "chapter": "Units and Measurements",
+      "explanation": "%error in Q = 3(1\\%)+2(2\\%)+1(4\\%) = 3+4+4 = 11\\%."
+    },
+    {
+      "n": 40,
+      "q": "Which of the following is not a vector quantity?",
+      "options": [
+        "Nuclear spin",
+        "Potential energy",
+        "Weight",
+        "Momentum"
+      ],
+      "answer": 1,
+      "chapter": "Motion in a Plane",
+      "explanation": "Potential energy is a scalar quantity, while nuclear spin (angular momentum), weight and momentum are all vectors."
+    },
+    {
+      "n": 41,
+      "q": "A car moves from A to B with a speed of 30 kmph and from B to A with a speed of 20 kmph. What is the average speed of the car?",
+      "options": [
+        "24 kmph",
+        "10 kmph",
+        "25 kmph",
+        "50 kmph"
+      ],
+      "answer": 0,
+      "chapter": "Motion in a Straight Line",
+      "explanation": "Average speed = 2v$_1$v$_2$/(v$_1$+v$_2$) = 2\\times30\\times20/50 = 24 kmph."
+    },
+    {
+      "n": 42,
+      "q": "A body starts from rest and moves with constant acceleration for t s. It travels a distance x$_1$ in first half of time and x$_2$ in next half of time, then",
+      "options": [
+        "x$_2$ = 2x$_1$",
+        "x$_2$ = 4x$_1$",
+        "x$_2$ = x$_1$",
+        "x$_2$ = 3x$_1$"
+      ],
+      "answer": 3,
+      "chapter": "Motion in a Straight Line",
+      "explanation": "x$_1$ = \\dfrac{1}{2}a(t/2)^2 = at^2/8; total distance in t is at^2/2, so x$_2$ = at^2/2 - at^2/8 = 3at^2/8 = 3x$_1$."
+    },
+    {
+      "n": 43,
+      "q": "A person is driving a vehicle at uniform speed of 5 ms$^{-1}$ on a level curved track of radius 5 m. The coefficient of static friction between tyres and road is 0.1. Will the person slip while taking the turn with the same speed? Take g = 10 ms$^{-2}$. Choose the correct statement.",
+      "options": [
+        "A person will slip if v$^2$ > 5 ms$^{-1}$",
+        "A person will not slip if v$^2$ > 10 ms$^{-1}$",
+        "A person will slip if v$^2$ = 5 ms$^{-1}$",
+        "A person will slip if v$^2$ < 5 ms$^{-1}$"
+      ],
+      "answer": 0,
+      "chapter": "Laws of Motion",
+      "explanation": "Maximum safe speed satisfies v$^2$ = $\\mu$gr = 0.1\\times10\\times5 = 5; the person slips if v$^2$ exceeds this value (here v$^2$=25>5, so slips)."
+    },
+    {
+      "n": 44,
+      "q": "A stone is thrown vertically at a speed of 30 ms$^{-1}$ making an angle of 45$^{\\circ}$ with the horizontal. What is the maximum height reached by the stone? Take g = 10 ms$^{-2}$.",
+      "options": [
+        "22.5 m",
+        "10 m",
+        "30 m",
+        "15 m"
+      ],
+      "answer": 0,
+      "chapter": "Motion in a Plane",
+      "explanation": "H = (u\\sin\\theta)^2/(2g) = (30\\times0.707)^2/20 = 450/20 = 22.5 m."
+    },
+    {
+      "n": 45,
+      "q": "A force $\\vec F$ = $5\\hat i + 2\\hat j - 5\\hat k$ acts on a particle whose position vector is $\\vec r$ = $\\hat i - 2\\hat j + \\hat k$. What is the torque about the origin?",
+      "options": [
+        "$8\\hat i + 10\\hat j - 12\\hat k$",
+        "$10\\hat i - 10\\hat j - \\hat k$",
+        "$8\\hat i + 10\\hat j + 12\\hat k$",
+        "$8\\hat i - 10\\hat j - 8\\hat k$"
+      ],
+      "answer": 2,
+      "chapter": "System of Particles and Rotational Motion",
+      "explanation": "$\\vec\\tau = \\vec r \\times \\vec F$ = (1,-2,1)\\times(5,2,-5) = (8, 10, 12), i.e. $8\\hat i+10\\hat j+12\\hat k$."
+    },
+    {
+      "n": 46,
+      "q": "What is a period of revolution of earth satellite? Ignore the height of satellite above the surface of earth. Given: (1) The value of gravitational acceleration g = 10 ms$^{-2}$. (2) Radius of earth R$_E$ = 6400 km. Take $\\pi$ = 3.14.",
+      "options": [
+        "156 minutes",
+        "90 minutes",
+        "85 minutes",
+        "83.73 minutes"
+      ],
+      "answer": 3,
+      "chapter": "Gravitation",
+      "explanation": "T = 2$\\pi\\sqrt{R/g}$ = 2\\times3.14\\times\\sqrt{6.4\\times10^6/10} = 2\\times3.14\\times800 = 5024 s = 83.73 minutes."
+    },
+    {
+      "n": 47,
+      "q": "A period of geostationary satellite is",
+      "options": [
+        "12 h",
+        "48 h",
+        "24 h",
+        "30 h"
+      ],
+      "answer": 2,
+      "chapter": "Gravitation",
+      "explanation": "A geostationary satellite has the same period as Earth's rotation, 24 hours."
+    },
+    {
+      "n": 48,
+      "q": "What is the source temperature of the Carnot engine required to get 70\\% efficiency? Given sink temperature = 27 $^{\\circ}$C",
+      "options": [
+        "90 $^{\\circ}$C",
+        "727 $^{\\circ}$C",
+        "1000 $^{\\circ}$C",
+        "270 $^{\\circ}$C"
+      ],
+      "answer": 1,
+      "chapter": "Thermodynamics",
+      "explanation": "$\\eta = 1 - T_c/T_h \\Rightarrow 0.7 = 1 - 300/T_h \\Rightarrow T_h = 1000 K = 727\\,{}^{\\circ}C$."
+    },
+    {
+      "n": 49,
+      "q": "A 10 kg metal block is attached to a spring of spring constant 1000 Nm$^{-1}$. A block is displaced from equilibrium position by 10 cm and released. The maximum acceleration of the block is",
+      "options": [
+        "100 ms$^{-2}$",
+        "0.1 ms$^{-2}$",
+        "10 ms$^{-2}$",
+        "200 ms$^{-2}$"
+      ],
+      "answer": 2,
+      "chapter": "Oscillations",
+      "explanation": "a$_{max}$ = kx/m = (1000\\times0.1)/10 = 10 ms$^{-2}$."
+    },
+    {
+      "n": 50,
+      "q": "A metallic wire of 1 m length has a mass of 10 \\times 10^{-3} kg. If a tension of 100 N is applied to a wire, what is the speed of transverse wave?",
+      "options": [
+        "10 ms$^{-1}$",
+        "0.1 ms$^{-1}$",
+        "100 ms$^{-1}$",
+        "200 ms$^{-1}$"
+      ],
+      "answer": 2,
+      "chapter": "Waves",
+      "explanation": "$\\mu$ = 0.01 kg/m; v = $\\sqrt{T/\\mu}$ = $\\sqrt{100/0.01}$ = $\\sqrt{10000}$ = 100 ms$^{-1}$."
+    },
+    {
+      "n": 51,
+      "q": "A train is approaching towards a platform with a speed of 10 ms$^{-1}$ while blowing a whistle of frequency 340 Hz. What is the frequency of whistle heard by a stationary observer on the platform? Given speed of sound = 340 ms$^{-1}$.",
+      "options": [
+        "350 Hz",
+        "360 Hz",
+        "330 Hz",
+        "340 Hz"
+      ],
+      "answer": 0,
+      "chapter": "Waves",
+      "explanation": "f' = f\\times v/(v-v_s) = 340\\times340/330 \\approx 350 Hz."
+    },
+    {
+      "n": 52,
+      "q": "A rotating wheel changes angular speed from 1800 rpm to 3000 rpm in 20 s. What is the angular acceleration assuming to be uniform?",
+      "options": [
+        "90\\pi rad s$^{-2}$",
+        "40\\pi rad s$^{-2}$",
+        "60\\pi rad s$^{-2}$",
+        "2\\pi rad s$^{-2}$"
+      ],
+      "answer": 3,
+      "chapter": "System of Particles and Rotational Motion",
+      "explanation": "$\\omega_1$=60$\\pi$ rad/s, $\\omega_2$=100$\\pi$ rad/s; $\\alpha$=(100$\\pi$-60$\\pi$)/20 = 2$\\pi$ rad/s$^2$."
+    },
+    {
+      "n": 53,
+      "q": "A flow of liquid is streamline if the Reynold number is",
+      "options": [
+        "greater than 1000",
+        "between 4000 to 5000",
+        "less than 1000",
+        "between 2000 to 3000"
+      ],
+      "answer": 2,
+      "chapter": "Mechanical Properties of Fluids",
+      "explanation": "Flow is streamline (laminar) for Reynolds number less than about 1000."
+    },
+    {
+      "n": 54,
+      "q": "A pipe of 30 cm long and open at both the ends produces harmonics. Which harmonic mode of pipe resonates a 1.1 kHz source? Given speed of sound in air = 330 ms$^{-1}$.",
+      "options": [
+        "Fourth harmonic",
+        "Second harmonic",
+        "Fifth harmonic",
+        "Third harmonic"
+      ],
+      "answer": 1,
+      "chapter": "Waves",
+      "explanation": "Fundamental frequency f$_1$ = v/2L = 330/0.6 = 550 Hz; 1100 Hz = 2\\times550 Hz, i.e. the second harmonic (all harmonics allowed in an open pipe)."
+    },
+    {
+      "n": 55,
+      "q": "In anomalous expansion of water, at what temperature, the density of water is maximum?",
+      "options": [
+        "<4 $^{\\circ}$C",
+        "10 $^{\\circ}$C",
+        "4 $^{\\circ}$C",
+        ">4 $^{\\circ}$C"
+      ],
+      "answer": 2,
+      "chapter": "Thermal Properties of Matter",
+      "explanation": "Water has its maximum density at 4 $^{\\circ}$C due to anomalous expansion."
+    },
+    {
+      "n": 56,
+      "q": "An aeroplane executes a horizontal loop at a speed of 720 kmph with its wings banked at 45$^{\\circ}$. What is the radius of the loop? Take g = 10 ms$^{-2}$.",
+      "options": [
+        "4.5 km",
+        "2 km",
+        "4 km",
+        "7.2 km"
+      ],
+      "answer": 2,
+      "chapter": "Laws of Motion",
+      "explanation": "v = 200 m/s; r = v$^2$/(g\\tan\\theta) = 200^2/(10\\times1) = 4000 m = 4 km."
+    },
+    {
+      "n": 57,
+      "q": "A body having a moment of inertia about its axis of rotation equal to 3 kg-m$^2$ is rotating with angular velocity of 3 rad s$^{-1}$. Kinetic energy of this rotating body is same as that of a body of mass 27 kg moving with velocity v. The value of v is",
+      "options": [
+        "0.5 ms$^{-1}$",
+        "1.5 ms$^{-1}$",
+        "1 ms$^{-1}$",
+        "2 ms$^{-1}$"
+      ],
+      "answer": 2,
+      "chapter": "System of Particles and Rotational Motion",
+      "explanation": "KE$_{rot}$ = \\dfrac{1}{2}(3)(3)^2 = 13.5 J = \\dfrac{1}{2}(27)v^2 \\Rightarrow v^2=1 \\Rightarrow v=1 ms^{-1}."
+    },
+    {
+      "n": 58,
+      "q": "A cycle tyre bursts suddenly. What is the type of this process?",
+      "options": [
+        "Adiabatic",
+        "Isobaric",
+        "Isothermal",
+        "Isochoric"
+      ],
+      "answer": 0,
+      "chapter": "Thermodynamics",
+      "explanation": "A sudden burst happens too fast for heat exchange with surroundings, so it is an adiabatic process."
+    },
+    {
+      "n": 59,
+      "q": "An object is placed at 20 cm in front of a concave mirror produces three times magnified real image. What is focal length of the concave mirror?",
+      "options": [
+        "6.6 cm",
+        "7.5 cm",
+        "15 cm",
+        "10 cm"
+      ],
+      "answer": 2,
+      "chapter": "Ray Optics and Optical Instruments",
+      "explanation": "For a real, magnified image, m = -v/u = -3 (with u=-20), giving v=-60 cm; using mirror formula, 1/f = 1/v+1/u = -1/60-1/20 = -1/15, so f = 15 cm."
+    },
+    {
+      "n": 60,
+      "q": "A focal length of a lens is 10 cm. What is power of a lens in dioptre?",
+      "options": [
+        "10 D",
+        "20 D",
+        "0.1 D",
+        "15 D"
+      ],
+      "answer": 0,
+      "chapter": "Ray Optics and Optical Instruments",
+      "explanation": "P = 1/f(in m) = 1/0.1 = 10 D."
+    }
+  ]
+}

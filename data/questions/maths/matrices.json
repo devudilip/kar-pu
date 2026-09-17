@@ -1,0 +1,513 @@
+{
+  "notes": "<h3>Types</h3><ul><li>Order $m\\times n$: $m$ rows, $n$ columns. Number of matrices of order $m\\times n$ with entries from $k$ values $= k^{mn}$.</li><li>Diagonal, scalar, identity $I$, zero matrix; upper/lower triangular.</li><li>Symmetric: $A' = A$; skew-symmetric: $A' = -A$ (diagonal entries zero). Any square $A = \\tfrac12(A + A') + \\tfrac12(A - A')$.</li></ul><h3>Operations</h3><ul><li>$AB$ exists when columns of $A$ = rows of $B$; $(m\\times n)(n\\times p) = m\\times p$. $AB \\ne BA$ in general; $AB = 0$ does not imply $A = 0$ or $B = 0$.</li><li>$(AB)' = B'A'$, $(A')' = A$, $(kA)' = kA'$, $(A+B)' = A' + B'$.</li><li>$(AB)^{-1} = B^{-1}A^{-1}$, $(A')^{-1} = (A^{-1})'$, $(A^{-1})^{-1} = A$.</li></ul><h3>Special matrices</h3><ul><li>Idempotent: $A^2 = A$. Nilpotent: $A^k = 0$. Involutory: $A^2 = I$. Orthogonal: $AA' = I$ (e.g. rotation matrix $\\begin{pmatrix}\\cos\\theta & -\\sin\\theta\\\\ \\sin\\theta & \\cos\\theta\\end{pmatrix}$, and $A(\\alpha)A(\\beta) = A(\\alpha+\\beta)$).</li><li>Diagonal matrix powers: $\\text{diag}(a,b)^n = \\text{diag}(a^n, b^n)$.</li></ul><h3>Inverse (2×2)</h3><p>$A = \\begin{pmatrix}a & b\\\\ c & d\\end{pmatrix}$, $A^{-1} = \\dfrac{1}{ad - bc}\\begin{pmatrix}d & -b\\\\ -c & a\\end{pmatrix}$. Exists iff $|A| \\ne 0$.</p><h3>Adjoint & determinant facts (for $n\\times n$)</h3><ul><li>$A(\\text{adj}A) = (\\text{adj}A)A = |A|I$; $|\\text{adj}A| = |A|^{n-1}$; $|kA| = k^n|A|$; $|A^{-1}| = 1/|A|$; $|AB| = |A||B|$; $|A'| = |A|$.</li><li>$\\text{adj}(AB) = \\text{adj}B\\cdot\\text{adj}A$; $\\text{adj}(\\text{adj}A) = |A|^{n-2}A$.</li></ul><h3>Exam tip</h3><p>2 questions: usually a property (transpose/inverse of product, $|\\text{adj}A|$), or a short computation with a 2×2 matrix. Learn the rotation matrix and $A^n$ patterns.</p>",
+  "questions": [
+    {
+      "id": "mat-matrices-001",
+      "q": "If $A$ is a $3\\times4$ matrix and $B$ is a $4\\times2$ matrix, the order of $AB$ is",
+      "options": [
+        "$2\\times3$",
+        "$4\\times4$",
+        "$3\\times2$",
+        "$AB$ is not defined"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "$(3\\times4)(4\\times2) = 3\\times2$. Note $BA$ is not defined."
+    },
+    {
+      "id": "mat-matrices-002",
+      "q": "The number of all possible matrices of order $2\\times2$ with each entry 0 or 1 is",
+      "options": [
+        "16",
+        "8",
+        "4",
+        "32"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "4 entries, each with 2 choices: $2^4 = 16$."
+    },
+    {
+      "id": "mat-matrices-003",
+      "q": "The diagonal elements of a skew-symmetric matrix are",
+      "options": [
+        "arbitrary",
+        "all zero",
+        "all equal to 1",
+        "all negative"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "$a_{ii} = -a_{ii} \\Rightarrow a_{ii} = 0$."
+    },
+    {
+      "id": "mat-matrices-004",
+      "q": "$(AB)'$ is equal to",
+      "options": [
+        "$A'B'$",
+        "$AB$",
+        "$BA$",
+        "$B'A'$"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "Reversal law for transpose of a product."
+    },
+    {
+      "id": "mat-matrices-005",
+      "q": "If $A = \\begin{pmatrix}1 & 2\\\\ 3 & 4\\end{pmatrix}$, then $A^{-1}$ is",
+      "options": [
+        "$\\begin{pmatrix}2 & -1\\\\ -3/2 & 1/2\\end{pmatrix}$",
+        "$\\begin{pmatrix}1 & -2\\\\ -3 & 4\\end{pmatrix}$",
+        "$\\begin{pmatrix}4 & -2\\\\ -3 & 1\\end{pmatrix}$",
+        "$\\begin{pmatrix}-2 & 1\\\\ 3/2 & -1/2\\end{pmatrix}$"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "$|A| = 4 - 6 = -2$. $A^{-1} = \\dfrac{1}{-2}\\begin{pmatrix}4 & -2\\\\ -3 & 1\\end{pmatrix} = \\begin{pmatrix}-2 & 1\\\\ 3/2 & -1/2\\end{pmatrix}$."
+    },
+    {
+      "id": "mat-matrices-006",
+      "q": "If $A^2 = A$, then $(I - A)^2$ is equal to",
+      "options": [
+        "$0$",
+        "$I - A$",
+        "$I$",
+        "$A$"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "$(I-A)^2 = I - 2A + A^2 = I - 2A + A = I - A$. Both $A$ and $I - A$ are idempotent."
+    },
+    {
+      "id": "mat-matrices-007",
+      "q": "If $A$ is a square matrix of order 3 with $|A| = 5$, then $|\\text{adj}\\,A|$ is",
+      "options": [
+        "15",
+        "125",
+        "25",
+        "5"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "$|\\text{adj}A| = |A|^{n-1} = 5^2 = 25$."
+    },
+    {
+      "id": "mat-matrices-008",
+      "q": "If $A = \\begin{pmatrix}\\cos\\theta & -\\sin\\theta\\\\ \\sin\\theta & \\cos\\theta\\end{pmatrix}$, then $A A'$ is",
+      "options": [
+        "$I$",
+        "$A^2$",
+        "$0$",
+        "$A$"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "$AA' = \\begin{pmatrix}\\cos^2\\theta+\\sin^2\\theta & 0\\\\ 0 & \\sin^2\\theta+\\cos^2\\theta\\end{pmatrix} = I$. $A$ is orthogonal."
+    },
+    {
+      "id": "mat-matrices-009",
+      "q": "If $\\begin{pmatrix}x + y & 2\\\\ 5 & xy\\end{pmatrix} = \\begin{pmatrix}6 & 2\\\\ 5 & 8\\end{pmatrix}$, then $x^2 + y^2$ is",
+      "options": [
+        "52",
+        "36",
+        "20",
+        "16"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "$x + y = 6$, $xy = 8$ → $x^2 + y^2 = (x+y)^2 - 2xy = 36 - 16 = 20$."
+    },
+    {
+      "id": "mat-matrices-010",
+      "q": "A matrix which is both symmetric and skew-symmetric is",
+      "options": [
+        "a diagonal matrix",
+        "a scalar matrix",
+        "an identity matrix",
+        "a zero matrix"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "$A' = A$ and $A' = -A \\Rightarrow A = -A \\Rightarrow A = 0$."
+    },
+    {
+      "id": "mat-matrices-011",
+      "q": "If $A = \\begin{pmatrix}0 & 1\\\\ 0 & 0\\end{pmatrix}$, then $A^2$ is",
+      "options": [
+        "$I$",
+        "$0$",
+        "$2A$",
+        "$A$"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "$A^2 = \\begin{pmatrix}0\\cdot0+1\\cdot0 & 0\\cdot1+1\\cdot0\\\\ 0 & 0\\end{pmatrix} = 0$. $A$ is nilpotent."
+    },
+    {
+      "id": "mat-matrices-012",
+      "q": "If $A = \\begin{pmatrix}2 & 0\\\\ 0 & 3\\end{pmatrix}$, then $A^n$ is",
+      "options": [
+        "$\\begin{pmatrix}2^n & 0\\\\ 0 & 3^n\\end{pmatrix}$",
+        "$\\begin{pmatrix}2^n & 0\\\\ 0 & 3\\end{pmatrix}$",
+        "$\\begin{pmatrix}6^n & 0\\\\ 0 & 6^n\\end{pmatrix}$",
+        "$\\begin{pmatrix}2n & 0\\\\ 0 & 3n\\end{pmatrix}$"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "Powers of a diagonal matrix are obtained by raising each diagonal entry to that power."
+    },
+    {
+      "id": "mat-matrices-013",
+      "q": "If $A$ is a $3\\times3$ matrix with $|A| = 2$, then $|3A|$ is",
+      "options": [
+        "54",
+        "8",
+        "6",
+        "18"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "$|kA| = k^n|A| = 27\\times2 = 54$.",
+      "tip": "Multiplying a matrix by $k$ multiplies every row — hence $k^n$."
+    },
+    {
+      "id": "mat-matrices-014",
+      "q": "For a square matrix $A$, $A\\,(\\text{adj}\\,A)$ is equal to",
+      "options": [
+        "$A^{-1}$",
+        "$|A|\\,I$",
+        "$I$",
+        "$0$"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "$A(\\text{adj}A) = (\\text{adj}A)A = |A|I$, which gives $A^{-1} = \\text{adj}A/|A|$."
+    },
+    {
+      "id": "mat-matrices-015",
+      "q": "If $A$ and $B$ are invertible matrices of the same order, then $(AB)^{-1}$ is",
+      "options": [
+        "$BA$",
+        "$AB$",
+        "$B^{-1}A^{-1}$",
+        "$A^{-1}B^{-1}$"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "$(AB)(B^{-1}A^{-1}) = A(BB^{-1})A^{-1} = I$."
+    },
+    {
+      "id": "mat-matrices-016",
+      "q": "If $A = \\begin{pmatrix}1 & 1\\\\ 0 & 1\\end{pmatrix}$, then $A^{10}$ is",
+      "options": [
+        "$\\begin{pmatrix}10 & 10\\\\ 0 & 10\\end{pmatrix}$",
+        "$\\begin{pmatrix}1 & 1\\\\ 0 & 1\\end{pmatrix}$",
+        "$\\begin{pmatrix}1 & 2^{10}\\\\ 0 & 1\\end{pmatrix}$",
+        "$\\begin{pmatrix}1 & 10\\\\ 0 & 1\\end{pmatrix}$"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "$A^2 = \\begin{pmatrix}1 & 2\\\\ 0 & 1\\end{pmatrix}$, $A^3 = \\begin{pmatrix}1 & 3\\\\ 0 & 1\\end{pmatrix}$, so $A^n = \\begin{pmatrix}1 & n\\\\ 0 & 1\\end{pmatrix}$."
+    },
+    {
+      "id": "mat-matrices-017",
+      "q": "If $A=\\begin{pmatrix}2&-1\\\\3&4\\end{pmatrix}$ and $B=\\begin{pmatrix}1&2\\\\0&-1\\end{pmatrix}$, then $A+2B$ equals",
+      "options": [
+        "$\\begin{pmatrix}0&3\\\\3&2\\end{pmatrix}$",
+        "$\\begin{pmatrix}4&3\\\\3&2\\end{pmatrix}$",
+        "$\\begin{pmatrix}4&-3\\\\3&2\\end{pmatrix}$",
+        "$\\begin{pmatrix}4&3\\\\3&-2\\end{pmatrix}$"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "$2B=\\begin{pmatrix}2&4\\\\0&-2\\end{pmatrix}$, so $A+2B=\\begin{pmatrix}2+2&-1+4\\\\3+0&4-2\\end{pmatrix}=\\begin{pmatrix}4&3\\\\3&2\\end{pmatrix}$."
+    },
+    {
+      "id": "mat-matrices-018",
+      "q": "A square matrix $A$ is called idempotent if",
+      "options": [
+        "$A^2=I$",
+        "$A'=A$",
+        "$A^2=0$",
+        "$A^2=A$"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "By definition, $A$ is idempotent when $A^2=A$."
+    },
+    {
+      "id": "mat-matrices-019",
+      "q": "If $A=\\begin{pmatrix}3&5\\\\1&-1\\end{pmatrix}$, then $A+A'$ is",
+      "options": [
+        "the zero matrix",
+        "not defined",
+        "symmetric",
+        "skew-symmetric"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "For any square matrix $A$, $(A+A')'=A'+A=A+A'$, so $A+A'$ is always symmetric."
+    },
+    {
+      "id": "mat-matrices-020",
+      "q": "Every square matrix $A$ can be expressed as",
+      "options": [
+        "sum of a symmetric and a skew-symmetric matrix",
+        "sum of two skew-symmetric matrices",
+        "product of two symmetric matrices",
+        "difference of two symmetric matrices only"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "$A=\\dfrac12(A+A')+\\dfrac12(A-A')$, where $\\dfrac12(A+A')$ is symmetric and $\\dfrac12(A-A')$ is skew-symmetric."
+    },
+    {
+      "id": "mat-matrices-021",
+      "q": "If $A=\\begin{pmatrix}1&2\\\\2&1\\end{pmatrix}$ and $A^2-2A-3I=$ zero matrix is claimed, verify: $A^2$ equals",
+      "options": [
+        "$\\begin{pmatrix}5&2\\\\2&5\\end{pmatrix}$",
+        "$\\begin{pmatrix}1&4\\\\4&1\\end{pmatrix}$",
+        "$\\begin{pmatrix}5&4\\\\4&5\\end{pmatrix}$",
+        "$\\begin{pmatrix}4&5\\\\5&4\\end{pmatrix}$"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "$A^2=\\begin{pmatrix}1&2\\\\2&1\\end{pmatrix}\\begin{pmatrix}1&2\\\\2&1\\end{pmatrix}=\\begin{pmatrix}1+4&2+2\\\\2+2&4+1\\end{pmatrix}=\\begin{pmatrix}5&4\\\\4&5\\end{pmatrix}$."
+    },
+    {
+      "id": "mat-matrices-022",
+      "q": "If $A$ is a square matrix such that $A^2=I$, then $A$ is called",
+      "options": [
+        "involutory",
+        "nilpotent",
+        "orthogonal",
+        "idempotent"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "A matrix satisfying $A^2=I$ (i.e. $A$ is its own inverse) is called involutory."
+    },
+    {
+      "id": "mat-matrices-023",
+      "q": "The number of possible matrices of order $3\\times2$ with each entry either 1 or 2 is",
+      "options": [
+        "$3^6$",
+        "$6^2$",
+        "$2^5$",
+        "$2^6$"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "There are $3\\times2=6$ entries, each with 2 choices (1 or 2), giving $2^6=64$ matrices."
+    },
+    {
+      "id": "mat-matrices-024",
+      "q": "If $A$ is a $2\\times3$ matrix and $B$ is a $3\\times2$ matrix, then the order of $BA$ is",
+      "options": [
+        "$2\\times3$",
+        "$3\\times3$",
+        "$2\\times2$",
+        "$3\\times2$"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "$B$ is $3\\times2$ and $A$ is $2\\times3$; the product $BA$ has order (rows of $B$) $\\times$ (columns of $A$) $=3\\times3$."
+    },
+    {
+      "id": "mat-matrices-025",
+      "q": "If $A$ and $B$ are symmetric matrices of the same order, then $AB-BA$ is always",
+      "options": [
+        "a diagonal matrix",
+        "the zero matrix",
+        "symmetric",
+        "skew-symmetric"
+      ],
+      "answer": 3,
+      "difficulty": "hard",
+      "explanation": "$(AB-BA)'=B'A'-A'B'=BA-AB=-(AB-BA)$, so $AB-BA$ is skew-symmetric."
+    },
+    {
+      "id": "mat-matrices-026",
+      "q": "If $A=\\begin{pmatrix}5&x\\\\y&0\\end{pmatrix}$ is a symmetric matrix, then",
+      "options": [
+        "$x=5,y=5$",
+        "$x=-y$",
+        "$x=y$",
+        "$x=0,y=0$"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "For symmetry, $A=A'$ requires the $(1,2)$ and $(2,1)$ entries to be equal, so $x=y$."
+    },
+    {
+      "id": "mat-matrices-027",
+      "q": "If $A=\\begin{pmatrix}2&3\\\\1&2\\end{pmatrix}$, then $A^{-1}$ equals",
+      "options": [
+        "$\\begin{pmatrix}2&-3\\\\-1&2\\end{pmatrix}$",
+        "$-\\begin{pmatrix}2&-3\\\\-1&2\\end{pmatrix}$",
+        "$\\dfrac{1}{4}\\begin{pmatrix}2&-3\\\\-1&2\\end{pmatrix}$",
+        "$\\begin{pmatrix}2&3\\\\1&2\\end{pmatrix}$"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "$|A|=4-3=1$. $A^{-1}=\\dfrac{1}{|A|}\\text{adj}(A)=\\dfrac{1}{1}\\begin{pmatrix}2&-3\\\\-1&2\\end{pmatrix}$."
+    },
+    {
+      "id": "mat-matrices-028",
+      "q": "If $A$ is a non-singular square matrix of order $n$, then $|\\text{adj}\\,A|$ equals",
+      "options": [
+        "$|A|^{n+1}$",
+        "$|A|^{n-1}$",
+        "$|A|^n$",
+        "$n|A|$"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "The standard identity is $|\\text{adj}\\,A|=|A|^{n-1}$ for an $n\\times n$ matrix."
+    },
+    {
+      "id": "mat-matrices-029",
+      "q": "If $A$ is a square matrix of order 2 and $|A|=4$, then $|A^{-1}|$ equals",
+      "options": [
+        "$4$",
+        "$-4$",
+        "$16$",
+        "$\\dfrac{1}{4}$"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "$|A^{-1}|=\\dfrac{1}{|A|}=\\dfrac{1}{4}$."
+    },
+    {
+      "id": "mat-matrices-030",
+      "q": "Which of the following is TRUE for matrix multiplication of square matrices $A,B$ of the same order?",
+      "options": [
+        "$(A+B)^2=A^2+2AB+B^2$ always",
+        "$AB=BA$ always",
+        "$(A+B)^2=A^2+AB+BA+B^2$ always",
+        "$AB=0 \\Rightarrow A=0 \\text{ or } B=0$ always"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "Since matrix multiplication is not commutative in general, $(A+B)^2=A^2+AB+BA+B^2$ is always true, but it simplifies to $A^2+2AB+B^2$ only when $AB=BA$. The other statements can fail."
+    },
+    {
+      "id": "mat-matrices-031",
+      "q": "If $A=\\begin{pmatrix}1&0\\\\0&-1\\end{pmatrix}$, then $A$ is an example of a matrix that is",
+      "options": [
+        "symmetric and orthogonal",
+        "nilpotent",
+        "skew-symmetric only",
+        "neither symmetric nor invertible"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "$A'=A$ (symmetric), and $AA'=\\begin{pmatrix}1&0\\\\0&1\\end{pmatrix}=I$, so $A$ is orthogonal as well."
+    },
+    {
+      "id": "mat-matrices-032",
+      "q": "For the matrix equation $\\begin{pmatrix}2x&0\\\\0&y-3\\end{pmatrix}=\\begin{pmatrix}6&0\\\\0&5\\end{pmatrix}$, the values of $x$ and $y$ are",
+      "options": [
+        "$x=12,y=8$",
+        "$x=3,y=8$",
+        "$x=3,y=-8$",
+        "$x=3,y=2$"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "Equating corresponding entries: $2x=6\\Rightarrow x=3$; $y-3=5\\Rightarrow y=8$."
+    },
+    {
+      "id": "mat-matrices-033",
+      "q": "If $A$ is a $3\\times3$ matrix with $|A|=3$, then $|A\\cdot\\text{adj}\\,A|$ equals",
+      "options": [
+        "$81$",
+        "$9$",
+        "$3$",
+        "$27$"
+      ],
+      "answer": 3,
+      "difficulty": "hard",
+      "explanation": "$A\\cdot\\text{adj}\\,A=|A|I$, so $|A\\cdot\\text{adj}\\,A|=|A|^3=|A|^n=3^3=27$ for $n=3$."
+    },
+    {
+      "id": "mat-matrices-034",
+      "q": "A square matrix $A$ satisfying $A'=-A$ has which property on its diagonal?",
+      "options": [
+        "No restriction on diagonal entries",
+        "All diagonal entries are $0$",
+        "All diagonal entries are equal but nonzero",
+        "All diagonal entries are $1$"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "$A'=-A$ means $A$ is skew-symmetric, so $a_{ii}=-a_{ii}\\Rightarrow 2a_{ii}=0\\Rightarrow a_{ii}=0$ for every diagonal entry."
+    },
+    {
+      "id": "mat-matrices-035",
+      "q": "If $A$ and $B$ are square matrices of the same order such that $AB=BA=I$, then $B$ is called",
+      "options": [
+        "the adjoint of $A$",
+        "a symmetric matrix",
+        "the inverse of $A$",
+        "the transpose of $A$"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "By definition, if $AB=BA=I$, then $B=A^{-1}$, the inverse of $A$."
+    },
+    {
+      "id": "mat-matrices-036",
+      "q": "Assertion (A): The matrix $\\begin{pmatrix}0&2\\\\-2&0\\end{pmatrix}$ is skew-symmetric. Reason (R): For a skew-symmetric matrix, $A'=-A$.",
+      "options": [
+        "Both A and R are true and R correctly explains A",
+        "Both A and R are true but R does not explain A",
+        "A is true, R is false",
+        "A is false, R is true"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "The transpose of $\\begin{pmatrix}0&2\\\\-2&0\\end{pmatrix}$ is $\\begin{pmatrix}0&-2\\\\2&0\\end{pmatrix}$, which equals $-A$, confirming both the definition (R) and the assertion (A)."
+    },
+    {
+      "id": "mat-matrices-037",
+      "q": "If $A=\\begin{pmatrix}1&2\\\\3&4\\end{pmatrix}$ and $B=\\begin{pmatrix}0&1\\\\1&0\\end{pmatrix}$, then $AB$ equals",
+      "options": [
+        "$\\begin{pmatrix}2&1\\\\4&3\\end{pmatrix}$",
+        "$\\begin{pmatrix}1&2\\\\3&4\\end{pmatrix}$",
+        "$\\begin{pmatrix}3&4\\\\1&2\\end{pmatrix}$",
+        "$\\begin{pmatrix}2&3\\\\4&1\\end{pmatrix}$"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "$AB=\\begin{pmatrix}1\\cdot0+2\\cdot1&1\\cdot1+2\\cdot0\\\\3\\cdot0+4\\cdot1&3\\cdot1+4\\cdot0\\end{pmatrix}=\\begin{pmatrix}2&1\\\\4&3\\end{pmatrix}$ (this swaps the columns of $A$)."
+    },
+    {
+      "id": "mat-matrices-038",
+      "q": "If $A$ is a square matrix such that $A^3=0$ but $A^2\\ne 0$, then $A$ is called",
+      "options": [
+        "idempotent",
+        "orthogonal",
+        "involutory",
+        "nilpotent"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "A matrix $A$ for which some positive power $A^k=0$ is called nilpotent."
+    },
+    {
+      "id": "mat-matrices-039",
+      "q": "If $A=\\begin{pmatrix}1&-1\\\\2&-1\\end{pmatrix}$, then $A^2$ equals",
+      "options": [
+        "$\\begin{pmatrix}1&0\\\\0&1\\end{pmatrix}$",
+        "$\\begin{pmatrix}-1&0\\\\0&-1\\end{pmatrix}$",
+        "$\\begin{pmatrix}3&-2\\\\4&-3\\end{pmatrix}$",
+        "$\\begin{pmatrix}-1&1\\\\-2&1\\end{pmatrix}$"
+      ],
+      "answer": 1,
+      "difficulty": "hard",
+      "explanation": "$A^2=\\begin{pmatrix}1\\cdot1+(-1)\\cdot2 & 1\\cdot(-1)+(-1)\\cdot(-1)\\\\2\\cdot1+(-1)\\cdot2 & 2\\cdot(-1)+(-1)\\cdot(-1)\\end{pmatrix}=\\begin{pmatrix}1-2&-1+1\\\\2-2&-2+1\\end{pmatrix}=\\begin{pmatrix}-1&0\\\\0&-1\\end{pmatrix}$."
+    }
+  ]
+}

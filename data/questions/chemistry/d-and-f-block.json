@@ -1,0 +1,525 @@
+{
+  "notes": "<h3>d-Block: General Trends</h3><ul><li>General electronic configuration $(n-1)d^{1-10}ns^{0-2}$. Exceptions: Cr = $3d^54s^1$, Cu = $3d^{10}4s^1$ (extra stability of half-filled/fully-filled d subshell).</li><li>Atomic/ionic radii decrease across a period (increasing nuclear charge) but decrease is small in the middle due to d-orbital (shielding) effects; radii of 4d and 5d elements in a group are very close due to lanthanoid contraction.</li><li>Ionization enthalpy generally increases across a period (irregular due to stable $d^0,d^5,d^{10}$ configurations); first IE of 5d &gt; 4d $\\approx$ 3d generally.</li><li>Variable oxidation states are characteristic (both $(n-1)d$ and $ns$ electrons involved); most stable/common state often +2 or +3; Mn shows the widest range (+2 to +7); highest oxidation state = +8 seen in Ru and Os.</li><li>Coloured ions arise from d-d transitions (partially filled d orbitals); $Sc^{3+}(d^0)$ and $Zn^{2+}(d^{10})$ are colourless/white.</li><li>Paramagnetism increases with number of unpaired electrons; magnetic moment $\\mu = \\sqrt{n(n+2)}$ BM.</li><li>Catalytic activity due to variable oxidation states and ability to form intermediates/provide large surface area (e.g. Fe in Haber process, V$_2$O$_5$ in Contact process, Ni in hydrogenation).</li><li>Form alloys (similar atomic size) and interstitial compounds (small atoms like H, C, N occupy interstitial voids — hard, high melting, chemically inert, e.g. steel, TiC).</li></ul><h3>Important Compounds</h3><table><tr><th>Compound</th><th>Preparation</th><th>Key property</th></tr><tr><td>KMnO$_4$</td><td>Fusion of MnO$_2$ with KOH + oxidant, then electrolytic oxidation of manganate</td><td>Strong oxidiser; in acidic medium Mn$^{7+}\\to$Mn$^{2+}$ (5e$^-$); in neutral/faintly alkaline Mn$^{7+}\\to$Mn$^{4+}$ (MnO$_2$, 3e$^-$)</td></tr><tr><td>K$_2$Cr$_2$O$_7$</td><td>From chromite ore FeCr$_2$O$_4$ via sodium chromate, acidified</td><td>Orange, strong oxidiser in acidic medium (Cr$^{6+}\\to$Cr$^{3+}$, 6e$^-$ per Cr$_2$O$_7^{2-}$); chromate $\\leftrightharpoons$ dichromate interconversion is pH dependent (yellow in base, orange in acid)</td></tr></table><h3>Lanthanoids &amp; Actinoids</h3><ul><li>Lanthanoids (4f, Ce-Lu): common oxidation state +3; show lanthanoid contraction — steady decrease in atomic/ionic radii due to poor shielding by 4f electrons, causing near-identical properties of 4d/5d elements below them.</li><li>Actinoids (5f, Th-Lr): show a wider range of oxidation states than lanthanoids (5f, 6d, 7s energies comparable); all are radioactive.</li></ul><h3>Exam tip</h3><p>KCET usually asks 3-4 questions from this chapter: expect one on electronic configuration exceptions (Cr, Cu), one on colour/magnetic moment, one on KMnO$_4$/K$_2$Cr$_2$O$_7$ chemistry, and one on lanthanoid contraction/oxidation states.</p>",
+  "questions": [
+    {
+      "id": "che-d-and-f-block-001",
+      "q": "The electronic configuration of Cr (Z = 24) in the ground state is",
+      "options": [
+        "[Ar]3d$^5$4s$^1$",
+        "[Ar]3d$^6$",
+        "[Ar]3d$^3$4s$^2$4p$^1$",
+        "[Ar]3d$^4$4s$^2$"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "Chromium adopts [Ar]3d$^5$4s$^1$ instead of 3d$^4$4s$^2$ because a half-filled d subshell (d$^5$) gives extra exchange stabilisation energy."
+    },
+    {
+      "id": "che-d-and-f-block-002",
+      "q": "Which ion is colourless due to a $d^0$ configuration?",
+      "options": [
+        "Cr$^{3+}$",
+        "Sc$^{3+}$",
+        "V$^{3+}$",
+        "Ti$^{3+}$"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "Sc$^{3+}$ has configuration [Ar]3d$^0$ — with no d electrons, d-d transitions are impossible, so the ion is colourless. Ti$^{3+}$(d$^1$), V$^{3+}$(d$^2$) and Cr$^{3+}$(d$^3$) are all coloured."
+    },
+    {
+      "id": "che-d-and-f-block-003",
+      "q": "The spin-only magnetic moment of $Mn^{2+}$ (d$^5$, high spin, 5 unpaired electrons) is",
+      "options": [
+        "1.73 BM",
+        "4.90 BM",
+        "5.92 BM",
+        "3.87 BM"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "$\\mu = \\sqrt{n(n+2)}$ BM with n = 5: $\\mu = \\sqrt{5\\times7} = \\sqrt{35} \\approx 5.92$ BM."
+    },
+    {
+      "id": "che-d-and-f-block-004",
+      "q": "Which transition metal shows the widest range of oxidation states, from +2 to +7?",
+      "options": [
+        "Cr",
+        "Cu",
+        "Fe",
+        "Mn"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "Manganese shows oxidation states from +2 (Mn$^{2+}$) to +7 (in KMnO$_4$), the widest range among first-row transition metals, because its 3d and 4s electrons are all of comparable energy and available for bonding."
+    },
+    {
+      "id": "che-d-and-f-block-005",
+      "q": "In acidic medium, KMnO$_4$ oxidises Fe$^{2+}$ to Fe$^{3+}$ while being reduced to",
+      "options": [
+        "Mn$^{4+}$ as MnO$_2$",
+        "MnO$_2$",
+        "Mn$_2$O$_3$",
+        "Mn$^{2+}$"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "In acidic medium, $MnO_4^- + 8H^+ + 5e^- \\to Mn^{2+} + 4H_2O$, a 5-electron reduction from Mn(+7) to Mn(+2)."
+    },
+    {
+      "id": "che-d-and-f-block-006",
+      "q": "The orange colour of dichromate ion, Cr$_2$O$_7^{2-}$, changes to yellow chromate, CrO$_4^{2-}$, on",
+      "options": [
+        "adding alkali",
+        "cooling",
+        "adding acid",
+        "heating strongly"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "Dichromate-chromate exist in a pH-dependent equilibrium: $Cr_2O_7^{2-} + 2OH^- \\rightleftharpoons 2CrO_4^{2-} + H_2O$; adding alkali shifts it to the yellow chromate form."
+    },
+    {
+      "id": "che-d-and-f-block-007",
+      "q": "Lanthanoid contraction refers to the",
+      "options": [
+        "increase in oxidation states across the series",
+        "steady increase in atomic radii across the lanthanoid series",
+        "steady decrease in atomic/ionic radii across the lanthanoid series due to poor shielding by 4f electrons",
+        "sudden decrease in radii only at cerium"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "As we move across the lanthanoids, the poorly-shielding 4f electrons cause the effective nuclear charge on outer electrons to increase steadily, leading to a gradual, cumulative contraction in radii."
+    },
+    {
+      "id": "che-d-and-f-block-008",
+      "q": "A major consequence of lanthanoid contraction is that",
+      "options": [
+        "lanthanoids become highly radioactive",
+        "4d and 5d transition elements of the same group have almost identical atomic radii and similar properties",
+        "all lanthanoid ions become colourless",
+        "actinoids become more reactive than lanthanoids"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "Because of lanthanoid contraction, the atomic radii of second (4d) and third (5d) row transition elements in the same group become nearly equal (e.g. Zr and Hf), making their chemical properties very similar and hard to separate."
+    },
+    {
+      "id": "che-d-and-f-block-009",
+      "q": "Transition metals and their compounds act as good catalysts mainly because of their",
+      "options": [
+        "high melting points",
+        "diamagnetic nature",
+        "large atomic size",
+        "ability to show variable oxidation states and form unstable intermediates with reactants"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "Variable oxidation states let transition metals form intermediate complexes with reactants and provide alternative reaction pathways with lower activation energy, and their surfaces can adsorb reactant molecules (e.g. Fe in the Haber process, V$_2$O$_5$ in the Contact process)."
+    },
+    {
+      "id": "che-d-and-f-block-010",
+      "q": "Interstitial compounds formed by transition metals with small atoms like C, N, H are typically",
+      "options": [
+        "hard, high melting, and chemically inert, retaining metallic conductivity",
+        "soft and low melting",
+        "highly reactive and unstable",
+        "always coloured and diamagnetic"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "Small non-metal atoms occupy interstitial voids in the metal lattice without disrupting the metallic bonding much, giving compounds (e.g. steel, TiC) that are hard, have high melting points and retain metallic conductivity."
+    },
+    {
+      "id": "che-d-and-f-block-011",
+      "q": "The maximum oxidation state shown by any d-block element (+8) is exhibited by",
+      "options": [
+        "Ni and Pd",
+        "Ru and Os",
+        "Mn and Fe",
+        "Cr and Mo"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "Ruthenium and osmium (group 8) can attain the +8 oxidation state, e.g. in OsO$_4$, the highest oxidation state known among the d-block elements."
+    },
+    {
+      "id": "che-d-and-f-block-012",
+      "q": "The most common and stable oxidation state of lanthanoids is",
+      "options": [
+        "+6",
+        "+4",
+        "+3",
+        "+2"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "Lanthanoids predominantly show the +3 oxidation state (by losing 5d$^1$6s$^2$ electrons or equivalent), which is their most stable state, though a few show +2 or +4 in special cases (e.g. Ce$^{4+}$, Eu$^{2+}$)."
+    },
+    {
+      "id": "che-d-and-f-block-013",
+      "q": "Compared to lanthanoids, actinoids show",
+      "options": [
+        "a wider range of oxidation states because 5f, 6d and 7s orbitals are close in energy",
+        "only the +3 state",
+        "a narrower range of oxidation states",
+        "no radioactivity"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "In actinoids the 5f, 6d and 7s energy levels are comparable, allowing more electrons to participate in bonding, so actinoids show a greater variety of oxidation states than lanthanoids."
+    },
+    {
+      "id": "che-d-and-f-block-014",
+      "q": "Zn, Cd and Hg are not regarded as typical transition elements because",
+      "options": [
+        "they do not form alloys",
+        "they are radioactive",
+        "they do not conduct electricity",
+        "they have completely filled $(n-1)d^{10}$ configuration in the ground state as well as common oxidation states, so they cannot show d-d transitions"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "Zn, Cd, Hg have $d^{10}$ configuration in both the elemental and common (+2) oxidation states, so they lack partially filled d orbitals and hence do not show typical transition metal properties like colour and variable oxidation states."
+    },
+    {
+      "id": "che-d-and-f-block-015",
+      "q": "Across the first transition series (Sc to Zn), the general trend in atomic radii is",
+      "options": [
+        "no change at all",
+        "a steady, large increase",
+        "a decrease initially, becoming roughly constant in the middle, then a slight increase near Cu, Zn",
+        "a steady, large decrease throughout"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "Radii decrease initially due to increasing nuclear charge, level off around the middle (Cr-Fe) as d-electron shielding roughly balances increasing charge, and rise slightly near Cu and Zn due to increased electron-electron repulsion in the filled d subshell."
+    },
+    {
+      "id": "che-d-and-f-block-016",
+      "q": "K$_2$Cr$_2$O$_7$ is manufactured industrially starting from which ore?",
+      "options": [
+        "Bauxite (Al$_2$O$_3$.2H$_2$O)",
+        "Chromite (FeCr$_2$O$_4$)",
+        "Pyrolusite (MnO$_2$)",
+        "Haematite (Fe$_2$O$_3$)"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "Chromite ore (FeCr$_2$O$_4$) is fused with sodium carbonate and air to give sodium chromate, which is acidified and converted to potassium dichromate, K$_2$Cr$_2$O$_7$."
+    },
+    {
+      "id": "che-d-and-f-block-017",
+      "q": "Number of unpaired electrons in Fe$^{3+}$ (3d$^5$, high spin) and its corresponding magnetic moment are",
+      "options": [
+        "0 unpaired electrons, 0 BM",
+        "3 unpaired electrons, 3.87 BM",
+        "5 unpaired electrons, 5.92 BM",
+        "1 unpaired electron, 1.73 BM"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "Fe$^{3+}$ is $3d^5$; in the high-spin free ion all 5 electrons are unpaired (one per orbital), giving $\\mu = \\sqrt{5\\times7} = 5.92$ BM."
+    },
+    {
+      "id": "che-d-and-f-block-018",
+      "q": "Which of the following statements about transition metals is INCORRECT?",
+      "options": [
+        "All transition metal ions are paramagnetic",
+        "They show variable oxidation states differing usually by one unit",
+        "They generally form coloured compounds due to d-d transitions",
+        "They form a large number of complex compounds"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "Ions with $d^0$ (e.g. Sc$^{3+}$, Ti$^{4+}$) or $d^{10}$ (e.g. Zn$^{2+}$) configurations have no unpaired electrons and are diamagnetic, so not all transition metal ions are paramagnetic."
+    },
+    {
+      "id": "che-d-and-f-block-019",
+      "q": "In neutral or faintly alkaline medium, KMnO$_4$ oxidises reactants and itself is reduced to",
+      "options": [
+        "Mn$_2$O$_7$",
+        "MnO$_4^{2-}$",
+        "Mn$^{2+}$",
+        "MnO$_2$ (brown precipitate)"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "In neutral/faintly alkaline medium, $MnO_4^- + 2H_2O + 3e^- \\to MnO_2 + 4OH^-$, a 3-electron reduction from Mn(+7) to Mn(+4), giving a brown MnO$_2$ precipitate."
+    },
+    {
+      "id": "che-d-and-f-block-020",
+      "q": "Which pair of elements is most likely to form a substitutional solid solution alloy?",
+      "options": [
+        "C and Fe (interstitial, not substitutional)",
+        "Cu and Ni (similar atomic radii and both transition metals)",
+        "Na and Cl",
+        "H and Fe"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "Alloys form readily between transition metals of similar atomic size that can substitute for each other in the lattice, such as Cu and Ni; very small atoms like H or C instead occupy interstitial sites rather than substituting."
+    },
+    {
+      "id": "che-d-and-f-block-021",
+      "q": "The oxidation state of manganese in KMnO$_4$ is",
+      "options": [
+        "+4",
+        "+2",
+        "+7",
+        "+6"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "K is +1, each O is $-2$: $(+1)+x+4(-2)=0 \\Rightarrow x=+7$."
+    },
+    {
+      "id": "che-d-and-f-block-022",
+      "q": "The oxidation state of chromium in K$_2$Cr$_2$O$_7$ is",
+      "options": [
+        "+2",
+        "+6",
+        "+7",
+        "+3"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "$2(+1)+2x+7(-2)=0 \\Rightarrow 2+2x-14=0 \\Rightarrow x=+6$."
+    },
+    {
+      "id": "che-d-and-f-block-023",
+      "q": "Cr$^{2+}$ is a stronger reducing agent than Fe$^{2+}$ mainly because",
+      "options": [
+        "oxidation of Cr$^{2+}$(d$^4$) to Cr$^{3+}$(d$^3$, half-filled $t_{2g}^3$) is thermodynamically favourable, while Fe$^{2+}$(d$^6$) to Fe$^{3+}$(d$^5$) is less so in comparison",
+        "Cr$^{2+}$ is heavier than Fe$^{2+}$",
+        "Fe$^{2+}$ cannot be oxidised at all",
+        "Cr$^{2+}$ has no d electrons"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "Cr$^{2+}$ readily loses an electron to attain the extra-stable $d^3$ ($t_{2g}^3$) configuration in Cr$^{3+}$, making Cr$^{2+}$ a good reducing agent; Fe$^{2+}$(d$^6$) is comparatively more stable and less easily oxidised."
+    },
+    {
+      "id": "che-d-and-f-block-024",
+      "q": "Mn$^{3+}$ ion in aqueous solution is unstable and tends to",
+      "options": [
+        "remain unchanged indefinitely",
+        "convert entirely into MnO$_4^-$ without any other product",
+        "form Mn metal spontaneously",
+        "disproportionate into Mn$^{2+}$ and MnO$_2$ (Mn$^{4+}$)"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "Mn$^{3+}$(d$^4$) disproportionates in aqueous solution: $2Mn^{3+} + 2H_2O \\to Mn^{2+} + MnO_2 + 4H^+$, since Mn$^{2+}$ (d$^5$, half-filled, stable) and Mn(+4) are both more stable relative to Mn$^{3+}$."
+    },
+    {
+      "id": "che-d-and-f-block-025",
+      "q": "Transition metals readily form a large number of complex compounds mainly because they have",
+      "options": [
+        "no ability to form coordinate bonds",
+        "large atomic size, low charge and no vacant orbitals",
+        "completely filled d-orbitals in all oxidation states",
+        "small ionic size, relatively high ionic charge, and vacant low-energy d-orbitals available to accept ligand lone pairs"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "Their small size, high charge density and empty/partially filled d-orbitals allow transition metal ions to strongly accept electron pairs donated by ligands, favouring extensive complex (coordination compound) formation."
+    },
+    {
+      "id": "che-d-and-f-block-026",
+      "q": "Automobile catalytic converters typically use which transition metals to catalyse the oxidation of CO and unburnt hydrocarbons and the reduction of NO$_x$?",
+      "options": [
+        "Pt, Pd, Rh",
+        "Na, K, Ca",
+        "Zn, Cd, Hg",
+        "Sc, Ti, V"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "Platinum, palladium and rhodium, coated on a ceramic support, act as heterogeneous catalysts in catalytic converters, promoting complete combustion of CO/hydrocarbons and reduction of nitrogen oxides."
+    },
+    {
+      "id": "che-d-and-f-block-027",
+      "q": "In acidic medium, the equivalent weight of KMnO$_4$ (molar mass M) used as an oxidising agent (Mn$^{7+}\\to$Mn$^{2+}$) is",
+      "options": [
+        "M/7",
+        "M/3",
+        "M/5",
+        "M"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "In acidic medium MnO$_4^-$ accepts 5 electrons per formula unit (Mn$^{7+}\\to$Mn$^{2+}$), so its equivalent weight is molar mass divided by 5."
+    },
+    {
+      "id": "che-d-and-f-block-028",
+      "q": "In acidic medium, the equivalent weight of K$_2$Cr$_2$O$_7$ (molar mass M) as an oxidising agent (2Cr$^{6+}\\to$2Cr$^{3+}$) is",
+      "options": [
+        "M/3",
+        "M/6",
+        "M",
+        "M/2"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "One mole of Cr$_2$O$_7^{2-}$ accepts 6 electrons overall (2 Cr atoms each gaining 3 electrons), so its equivalent weight is molar mass divided by 6."
+    },
+    {
+      "id": "che-d-and-f-block-029",
+      "q": "A KMnO$_4$ solution has a molarity of 0.02 M. Used as an oxidant in acidic medium (n-factor = 5), its normality is",
+      "options": [
+        "0.004 N",
+        "0.02 N",
+        "0.04 N",
+        "0.10 N"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "Normality $=$ molarity $\\times$ n-factor $= 0.02\\times5 = 0.10$ N."
+    },
+    {
+      "id": "che-d-and-f-block-030",
+      "q": "Among the transition metals, tungsten (W) has an exceptionally high melting point mainly because",
+      "options": [
+        "it does not form alloys",
+        "it has many unpaired d-electrons available for strong, extensive metallic (covalent-type) bonding",
+        "it has a completely filled d-subshell",
+        "it is the lightest transition metal"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "Tungsten has a large number of unpaired d-electrons that participate in strong metallic bonding with significant covalent character, giving it one of the highest melting points of any metal."
+    },
+    {
+      "id": "che-d-and-f-block-031",
+      "q": "Across the first transition series, the density of the metals generally",
+      "options": [
+        "increases from Sc to Cu, since atomic mass increases while atomic volume decreases only slightly",
+        "decreases steadily due to decreasing atomic mass",
+        "shows no relationship with atomic structure",
+        "remains exactly constant"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "As atomic number increases across the series, atomic mass rises while atomic radius decreases only slightly (levelling off in the middle), so density (mass/volume) generally increases from Sc towards the Cu/Zn end."
+    },
+    {
+      "id": "che-d-and-f-block-032",
+      "q": "Separation of the lanthanoids from one another is difficult mainly because",
+      "options": [
+        "they are radioactive",
+        "they have widely differing oxidation states",
+        "they have almost identical ionic radii and very similar chemical properties, due to lanthanoid contraction",
+        "they do not form any soluble salts"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "Since lanthanoids mostly show the +3 state with very similar (and gradually contracting) ionic radii, their chemical behaviour is nearly identical, making separation difficult; ion-exchange chromatography is commonly used to separate them."
+    },
+    {
+      "id": "che-d-and-f-block-033",
+      "q": "Misch metal, used in lighter flints, is an alloy consisting mainly of",
+      "options": [
+        "zinc and mercury",
+        "pure tungsten",
+        "a lanthanoid metal (mostly cerium, about 95%) along with iron and traces of S, C, Ca, Al",
+        "pure titanium"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "Misch metal is approximately 95% lanthanoid metal (mainly cerium) with about 5% iron and traces of other elements; it sparks readily on friction, making it useful in cigarette lighter flints."
+    },
+    {
+      "id": "che-d-and-f-block-034",
+      "q": "Which lanthanoid commonly and stably shows a +4 oxidation state in addition to the usual +3, because the resulting ion attains a noble (f$^0$) configuration?",
+      "options": [
+        "Eu",
+        "Ce",
+        "Gd",
+        "Lu"
+      ],
+      "answer": 1,
+      "difficulty": "hard",
+      "explanation": "Ce$^{4+}$ has an empty 4f subshell ($4f^0$), which is an extra-stable configuration, so cerium readily and stably shows +4 in addition to its usual +3 state (e.g. ceric ammonium sulphate, CAS, as an oxidant)."
+    },
+    {
+      "id": "che-d-and-f-block-035",
+      "q": "Manganese has an unexpectedly high first ionisation enthalpy compared with the general trend across the first transition series, mainly because",
+      "options": [
+        "Mn has the largest atomic radius in the series",
+        "Mn is radioactive",
+        "Mn has no d electrons",
+        "Mn ($3d^54s^2$) has an extra-stable, exactly half-filled 3d subshell, requiring more energy to remove an electron"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "The symmetric, half-filled $3d^5$ configuration of Mn has extra exchange stabilisation, so removing an electron from it (to form Mn$^+$) requires relatively more energy, giving Mn a higher first IE than expected from the smooth trend."
+    },
+    {
+      "id": "che-d-and-f-block-036",
+      "q": "According to the IUPAC definition, a transition element is one whose atom (in the elemental state) or at least one of its simple ions has",
+      "options": [
+        "an incompletely (partially) filled d-subshell",
+        "no d electrons at all",
+        "only s and p electrons",
+        "a completely filled outermost d-subshell in all its compounds"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "A transition element is defined as one having a partially filled d-subshell in the atom or in at least one of its common ions; this is why Sc (atom: $3d^14s^2$) is classed as a transition metal even though Sc$^{3+}$ is $d^0$."
+    },
+    {
+      "id": "che-d-and-f-block-037",
+      "q": "The contraction in atomic/ionic radii across the actinoid series (actinoid contraction) is GREATER, element for element, than the lanthanoid contraction mainly because",
+      "options": [
+        "5f orbitals shield more effectively than 4f orbitals",
+        "actinoids have fewer protons",
+        "5f orbitals are more diffuse and shield the nuclear charge even more poorly than 4f orbitals do",
+        "actinoids are not radioactive"
+      ],
+      "answer": 2,
+      "difficulty": "hard",
+      "explanation": "The 5f orbitals are more diffuse than 4f orbitals and shield the increasing nuclear charge even less effectively, so the actinoid contraction per element is somewhat larger than the corresponding lanthanoid contraction."
+    },
+    {
+      "id": "che-d-and-f-block-038",
+      "q": "Which of the following 3d ions has exactly 3 unpaired electrons?",
+      "options": [
+        "Mn$^{2+}$ (d$^5$)",
+        "Ti$^{4+}$ (d$^0$)",
+        "Zn$^{2+}$ (d$^{10}$)",
+        "Cr$^{3+}$ (d$^3$)"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "Cr$^{3+}$ has configuration $t_{2g}^3$ ($d^3$), with one electron in each of the three $t_{2g}$ orbitals, giving 3 unpaired electrons; Mn$^{2+}$(d$^5$) has 5, and Zn$^{2+}$/Ti$^{4+}$ have none."
+    },
+    {
+      "id": "che-d-and-f-block-039",
+      "q": "The spin-only magnetic moment of a metal ion with 4 unpaired electrons (e.g. high-spin Fe$^{2+}$, d$^6$) is",
+      "options": [
+        "1.73 BM",
+        "4.90 BM",
+        "3.87 BM",
+        "5.92 BM"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "$\\mu = \\sqrt{n(n+2)}$ BM with n = 4: $\\mu = \\sqrt{4\\times6} = \\sqrt{24} \\approx 4.90$ BM."
+    },
+    {
+      "id": "che-d-and-f-block-040",
+      "q": "Which statement about the maximum oxidation states of d-block elements is CORRECT?",
+      "options": [
+        "The maximum oxidation state generally corresponds to the total number of $(n-1)d$ and $ns$ electrons, rising to a peak around the middle of the series (e.g. Mn shows +7, matching its group number)",
+        "The maximum oxidation state decreases smoothly and continuously from Sc to Zn",
+        "d-block elements never show oxidation states higher than +3",
+        "The maximum oxidation state is always +2, regardless of the element"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "Early-to-middle transition metals can use both their $(n-1)d$ and $ns$ electrons in bonding, so the maximum oxidation state tends to rise towards the group number (e.g. Mn, group 7, reaches +7 in KMnO$_4$), before falling again towards the later members like Cu and Zn."
+    }
+  ]
+}

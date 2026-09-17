@@ -1,0 +1,525 @@
+{
+  "notes": "<h3>Basics</h3><ul><li>$i = \\sqrt{-1}$, $i^2=-1$, $i^3=-i$, $i^4=1$; powers of $i$ cycle with period 4. $i^{4k}=1$.</li><li>A complex number $z = a+ib$ has real part $\\text{Re}(z)=a$, imaginary part $\\text{Im}(z)=b$.</li></ul><h3>Algebra of complex numbers</h3><ul><li>$(a+ib)+(c+id) = (a+c)+i(b+d)$; $(a+ib)(c+id) = (ac-bd)+i(ad+bc)$.</li><li>Conjugate $\\bar z = a-ib$; $z\\bar z = a^2+b^2 = |z|^2$.</li><li>Division: multiply numerator & denominator by conjugate of denominator.</li><li>Modulus $|z| = \\sqrt{a^2+b^2}$; Argument $\\theta = \\tan^{-1}(b/a)$ (adjusted for quadrant).</li></ul><h3>Polar / Euler form</h3><ul><li>$z = r(\\cos\\theta+i\\sin\\theta) = re^{i\\theta}$, $r=|z|$.</li><li>$|z_1z_2| = |z_1||z_2|$; $\\arg(z_1z_2) = \\arg z_1+\\arg z_2$.</li><li>$|z_1+z_2| \\le |z_1|+|z_2|$ (triangle inequality).</li></ul><table><tr><th>Property</th><th>Formula</th></tr><tr><td>$\\overline{z_1+z_2}$</td><td>$\\bar z_1+\\bar z_2$</td></tr><tr><td>$\\overline{z_1z_2}$</td><td>$\\bar z_1\\bar z_2$</td></tr><tr><td>$z^{-1}$</td><td>$\\bar z/|z|^2$</td></tr></table><h3>Quadratic Equations</h3><ul><li>For $ax^2+bx+c=0$ ($a\\ne0$): roots $x = \\dfrac{-b\\pm\\sqrt{D}}{2a}$, $D=b^2-4ac$ is the discriminant.</li><li>$D>0$: real, distinct roots (perfect square $\\Rightarrow$ rational); $D=0$: real, equal roots; $D<0$: complex conjugate roots $\\dfrac{-b\\pm i\\sqrt{|D|}}{2a}$.</li><li>Sum of roots $\\alpha+\\beta = -b/a$; product $\\alpha\\beta = c/a$.</li><li>Equation with given roots: $x^2-(\\alpha+\\beta)x+\\alpha\\beta = 0$.</li></ul><h3>Exam tip</h3><p>KCET typically asks 2 questions from this chapter — one on complex number algebra/modulus-argument, one on quadratic roots (nature of roots or forming an equation from roots). Practice rationalising complex fractions and computing $D$ quickly; sign errors in $D=b^2-4ac$ are the most common mistake.</p>",
+  "questions": [
+    {
+      "id": "mat-complex-numbers-quadratic-equations-001",
+      "q": "The value of $i^{37}$ is",
+      "options": [
+        "$-i$",
+        "$i$",
+        "$-1$",
+        "$1$"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "$37 = 4\\times9+1$, so $i^{37} = (i^4)^9\\cdot i = 1\\cdot i = i$."
+    },
+    {
+      "id": "mat-complex-numbers-quadratic-equations-002",
+      "q": "If $z = 3+4i$, then $|z|$ equals",
+      "options": [
+        "$\\sqrt7$",
+        "7",
+        "25",
+        "5"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "$|z| = \\sqrt{3^2+4^2} = \\sqrt{25} = 5$."
+    },
+    {
+      "id": "mat-complex-numbers-quadratic-equations-003",
+      "q": "$(2+3i)+(4-5i)$ equals",
+      "options": [
+        "$8-15i$",
+        "$-2-2i$",
+        "$6-2i$",
+        "$6+2i$"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "Add real and imaginary parts separately: $(2+4)+(3-5)i = 6-2i$."
+    },
+    {
+      "id": "mat-complex-numbers-quadratic-equations-004",
+      "q": "$(1+i)(1-i)$ equals",
+      "options": [
+        "2",
+        "$2i$",
+        "1",
+        "0"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "$(1+i)(1-i) = 1^2-i^2 = 1-(-1) = 2$."
+    },
+    {
+      "id": "mat-complex-numbers-quadratic-equations-005",
+      "q": "The multiplicative inverse of $2+3i$ is",
+      "options": [
+        "$\\dfrac{2+3i}{13}$",
+        "$\\dfrac{2-3i}{13}$",
+        "$\\dfrac{2-3i}{5}$",
+        "$2-3i$"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "$z^{-1} = \\dfrac{\\bar z}{|z|^2} = \\dfrac{2-3i}{4+9} = \\dfrac{2-3i}{13}$."
+    },
+    {
+      "id": "mat-complex-numbers-quadratic-equations-006",
+      "q": "Discriminant of $2x^2 - 5x + 3 = 0$ is",
+      "options": [
+        "49",
+        "25",
+        "1",
+        "-1"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "$D = b^2-4ac = 25 - 4(2)(3) = 25-24 = 1$."
+    },
+    {
+      "id": "mat-complex-numbers-quadratic-equations-007",
+      "q": "The roots of $x^2+x+1=0$ are",
+      "options": [
+        "not defined",
+        "real and distinct",
+        "real and equal",
+        "complex conjugates"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "$D = 1-4 = -3 < 0$, so the roots are complex conjugates: $x = \\dfrac{-1\\pm i\\sqrt3}{2}$."
+    },
+    {
+      "id": "mat-complex-numbers-quadratic-equations-008",
+      "q": "If $\\alpha, \\beta$ are roots of $x^2 - 6x + 8 = 0$, then $\\alpha+\\beta$ and $\\alpha\\beta$ are respectively",
+      "options": [
+        "6, 8",
+        "-6, 8",
+        "-6, -8",
+        "6, -8"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "Sum of roots $=-b/a=6$; product $=c/a=8$."
+    },
+    {
+      "id": "mat-complex-numbers-quadratic-equations-009",
+      "q": "The quadratic equation whose roots are $2$ and $-3$ is",
+      "options": [
+        "$x^2-x+6=0$",
+        "$x^2+x-6=0$",
+        "$x^2-x-6=0$",
+        "$x^2+x+6=0$"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "Sum $=-1$, product $=-6$. Equation: $x^2-(\\text{sum})x+\\text{product} = x^2+x-6=0$."
+    },
+    {
+      "id": "mat-complex-numbers-quadratic-equations-010",
+      "q": "The value of $\\sqrt{-16}$ is",
+      "options": [
+        "$\\pm4i$",
+        "$16i$",
+        "$-4i$",
+        "$4i$"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "By convention $\\sqrt{-16} = \\sqrt{16}\\cdot i = 4i$ (principal square root)."
+    },
+    {
+      "id": "mat-complex-numbers-quadratic-equations-011",
+      "q": "Simplify $\\dfrac{1}{1+i}$",
+      "options": [
+        "$\\dfrac{1-i}{2}$",
+        "$1-i$",
+        "$\\dfrac{1+i}{2}$",
+        "$\\dfrac{1-i}{4}$"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "Multiply by conjugate: $\\dfrac{1}{1+i}\\cdot\\dfrac{1-i}{1-i} = \\dfrac{1-i}{1+1} = \\dfrac{1-i}{2}$."
+    },
+    {
+      "id": "mat-complex-numbers-quadratic-equations-012",
+      "q": "If one root of $x^2+kx+12=0$ is 3, the other root and value of $k$ are",
+      "options": [
+        "-4, -7",
+        "4, 7",
+        "4, -7",
+        "-4, 7"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "Product of roots $=12/1=12 \\Rightarrow$ other root $=12/3=4$. Sum $=3+4=7=-k \\Rightarrow k=-7$."
+    },
+    {
+      "id": "mat-complex-numbers-quadratic-equations-013",
+      "q": "The argument of $z = -1+i$ is",
+      "options": [
+        "$\\dfrac{3\\pi}{4}$",
+        "$-\\dfrac{\\pi}{4}$",
+        "$\\dfrac{\\pi}{2}$",
+        "$\\dfrac{\\pi}{4}$"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "$z=-1+i$ lies in quadrant II. Reference angle $\\tan^{-1}(1/1)=\\pi/4$, so argument $= \\pi-\\pi/4 = 3\\pi/4$."
+    },
+    {
+      "id": "mat-complex-numbers-quadratic-equations-014",
+      "q": "For what value of $k$ does $x^2-4x+k=0$ have equal roots?",
+      "options": [
+        "16",
+        "2",
+        "4",
+        "8"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "Equal roots require $D=0$: $16-4k=0 \\Rightarrow k=4$."
+    },
+    {
+      "id": "mat-complex-numbers-quadratic-equations-015",
+      "q": "$\\dfrac{2+3i}{2-3i}$ simplifies to",
+      "options": [
+        "$1$",
+        "$\\dfrac{5+12i}{13}$",
+        "$\\dfrac{-5-12i}{13}$",
+        "$\\dfrac{-5+12i}{13}$"
+      ],
+      "answer": 3,
+      "difficulty": "hard",
+      "explanation": "Multiply by conjugate: $\\dfrac{(2+3i)^2}{(2-3i)(2+3i)} = \\dfrac{4+12i-9}{4+9} = \\dfrac{-5+12i}{13}$."
+    },
+    {
+      "id": "mat-complex-numbers-quadratic-equations-016",
+      "q": "If the roots of $ax^2+bx+c=0$ are reciprocals of each other, then",
+      "options": [
+        "$a=b$",
+        "$a=c$",
+        "$b=c$",
+        "$a=-c$"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "If roots are $\\alpha, 1/\\alpha$, product $=1=c/a \\Rightarrow a=c$."
+    },
+    {
+      "id": "mat-complex-numbers-quadratic-equations-017",
+      "q": "The value of $i+i^2+i^3+i^4$ is",
+      "options": [
+        "-1",
+        "$2i$",
+        "1",
+        "0"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "$i+(-1)+(-i)+1 = 0$; the sum of any 4 consecutive powers of $i$ is always 0."
+    },
+    {
+      "id": "mat-complex-numbers-quadratic-equations-018",
+      "q": "For the quadratic $3x^2 + 2x + 1 = 0$, the sum of the squares of the roots is",
+      "options": [
+        "$\\dfrac{4}{9}$",
+        "$-\\dfrac{4}{9}$",
+        "$-\\dfrac{2}{9}$",
+        "$\\dfrac{2}{9}$"
+      ],
+      "answer": 2,
+      "difficulty": "hard",
+      "explanation": "$\\alpha+\\beta=-2/3$, $\\alpha\\beta=1/3$. $\\alpha^2+\\beta^2 = (\\alpha+\\beta)^2-2\\alpha\\beta = 4/9-2/3 = 4/9-6/9=-2/9$."
+    },
+    {
+      "id": "mat-complex-numbers-quadratic-equations-019",
+      "q": "If $z_1 = 1+i$ and $z_2 = 1-i$, then $|z_1 z_2|$ is",
+      "options": [
+        "1",
+        "2",
+        "4",
+        "$\\sqrt2$"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "$|z_1|=\\sqrt2$, $|z_2|=\\sqrt2$, so $|z_1z_2|=|z_1||z_2|=2$."
+    },
+    {
+      "id": "mat-complex-numbers-quadratic-equations-020",
+      "q": "The quadratic equation with real coefficients having $2-3i$ as one root is",
+      "options": [
+        "$x^2-4x+13=0$",
+        "$x^2-4x+5=0$",
+        "$x^2+4x+13=0$",
+        "$x^2-4x-13=0$"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "Complex roots of a real-coefficient quadratic occur in conjugate pairs: other root $2+3i$. Sum $=4$, product $=4+9=13$. Equation: $x^2-4x+13=0$."
+    },
+    {
+      "id": "mat-complex-numbers-quadratic-equations-021",
+      "q": "The conjugate of $z = 3 - 4i$ is",
+      "options": [
+        "$-3+4i$",
+        "$3+4i$",
+        "$-3-4i$",
+        "$4+3i$"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "The conjugate of $a+bi$ is $a-bi$; flipping the sign of the imaginary part of $3-4i$ gives $3+4i$."
+    },
+    {
+      "id": "mat-complex-numbers-quadratic-equations-022",
+      "q": "If $z = 2+3i$, then $z\\bar z$ equals",
+      "options": [
+        "-5",
+        "5",
+        "$6i$",
+        "13"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "$z\\bar z = |z|^2 = 2^2+3^2 = 13$."
+    },
+    {
+      "id": "mat-complex-numbers-quadratic-equations-023",
+      "q": "The argument of the purely imaginary number $z = 5i$ is",
+      "options": [
+        "$-\\dfrac{\\pi}{2}$",
+        "$\\pi$",
+        "$\\dfrac{\\pi}{2}$",
+        "0"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "$5i$ lies on the positive imaginary axis, which corresponds to argument $\\dfrac{\\pi}{2}$."
+    },
+    {
+      "id": "mat-complex-numbers-quadratic-equations-024",
+      "q": "The argument of $z = -4$ (a negative real number) is",
+      "options": [
+        "$\\pi$",
+        "0",
+        "$\\dfrac{\\pi}{2}$",
+        "$-\\pi$"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "$-4$ lies on the negative real axis, which corresponds to argument $\\pi$."
+    },
+    {
+      "id": "mat-complex-numbers-quadratic-equations-025",
+      "q": "If the discriminant of $ax^2+bx+c=0$ is negative, the roots are",
+      "options": [
+        "complex conjugates",
+        "rational and distinct",
+        "real and distinct",
+        "real and equal"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "A negative discriminant means $\\sqrt{b^2-4ac}$ is imaginary, giving a pair of complex conjugate roots."
+    },
+    {
+      "id": "mat-complex-numbers-quadratic-equations-026",
+      "q": "The sum of the roots of $ax^2+bx+c=0$ ($a\\ne0$) is",
+      "options": [
+        "$-\\dfrac{c}{a}$",
+        "$\\dfrac{b}{a}$",
+        "$\\dfrac{c}{a}$",
+        "$-\\dfrac{b}{a}$"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "For $ax^2+bx+c=0$, sum of roots $= -\\dfrac{b}{a}$."
+    },
+    {
+      "id": "mat-complex-numbers-quadratic-equations-027",
+      "q": "The product of the roots of $ax^2+bx+c=0$ ($a\\ne0$) is",
+      "options": [
+        "$-\\dfrac{b}{a}$",
+        "$\\dfrac{c}{a}$",
+        "$\\dfrac{b}{a}$",
+        "$-\\dfrac{c}{a}$"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "For $ax^2+bx+c=0$, product of roots $= \\dfrac{c}{a}$."
+    },
+    {
+      "id": "mat-complex-numbers-quadratic-equations-028",
+      "q": "The quadratic equation with real coefficients having $2+\\sqrt3$ as one root is",
+      "options": [
+        "$x^2-2x+1=0$",
+        "$x^2+4x+1=0$",
+        "$x^2-4x+1=0$",
+        "$x^2-4x-1=0$"
+      ],
+      "answer": 2,
+      "difficulty": "hard",
+      "explanation": "Irrational roots of a real-coefficient quadratic occur in conjugate pairs, so the other root is $2-\\sqrt3$. Sum $=4$, product $=(2+\\sqrt3)(2-\\sqrt3)=4-3=1$, giving $x^2-4x+1=0$."
+    },
+    {
+      "id": "mat-complex-numbers-quadratic-equations-029",
+      "q": "For complex numbers $z_1, z_2$, by the triangle inequality, $|z_1+z_2|$ is always",
+      "options": [
+        "$\\le |z_1||z_2|$",
+        "$\\le |z_1|+|z_2|$",
+        "$\\le |z_1|-|z_2|$",
+        "$\\le |z_1|^2+|z_2|^2$"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "The triangle inequality for complex numbers states $|z_1+z_2| \\le |z_1|+|z_2|$."
+    },
+    {
+      "id": "mat-complex-numbers-quadratic-equations-030",
+      "q": "$i^{-1}$ equals",
+      "options": [
+        "$1$",
+        "$i$",
+        "$-1$",
+        "$-i$"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "$i^{-1} = \\dfrac{1}{i} = \\dfrac{i}{i^2} = \\dfrac{i}{-1} = -i$."
+    },
+    {
+      "id": "mat-complex-numbers-quadratic-equations-031",
+      "q": "$i^{100}$ equals",
+      "options": [
+        "1",
+        "$-i$",
+        "$i$",
+        "-1"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "Since $100$ is a multiple of 4, $i^{100} = (i^4)^{25} = 1^{25} = 1$."
+    },
+    {
+      "id": "mat-complex-numbers-quadratic-equations-032",
+      "q": "$\\dfrac{1+i}{1-i}$ simplifies to",
+      "options": [
+        "$-i$",
+        "1",
+        "$i$",
+        "-1"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "Multiplying numerator and denominator by $1+i$: $\\dfrac{(1+i)^2}{(1-i)(1+i)} = \\dfrac{2i}{2} = i$."
+    },
+    {
+      "id": "mat-complex-numbers-quadratic-equations-033",
+      "q": "The condition for the roots of $ax^2+bx+c=0$ ($a\\ne0$) to be real is",
+      "options": [
+        "$b^2-4ac \\le 0$",
+        "$b^2-4ac \\ge 0$",
+        "$b^2-4ac < 0$",
+        "$b^2-4ac = 0$"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "The roots are real when the discriminant $b^2-4ac$ is non-negative."
+    },
+    {
+      "id": "mat-complex-numbers-quadratic-equations-034",
+      "q": "The sum of the cubes of the roots of $x^2-5x+6=0$ is",
+      "options": [
+        "30",
+        "125",
+        "35",
+        "19"
+      ],
+      "answer": 2,
+      "difficulty": "hard",
+      "explanation": "Roots are 2 and 3 (sum $=5$, product $=6$). $\\alpha^3+\\beta^3=(\\alpha+\\beta)^3-3\\alpha\\beta(\\alpha+\\beta)=125-3(6)(5)=125-90=35$."
+    },
+    {
+      "id": "mat-complex-numbers-quadratic-equations-035",
+      "q": "If one root of $x^2-7x+k=0$ is 4, the value of $k$ is",
+      "options": [
+        "3",
+        "10",
+        "28",
+        "12"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "Sum of roots $=7$, so the other root is $3$. Product $= k = 4\\times3 = 12$."
+    },
+    {
+      "id": "mat-complex-numbers-quadratic-equations-036",
+      "q": "If the roots of $ax^2+bx+c=0$ are equal in magnitude but opposite in sign, then",
+      "options": [
+        "$b=0$",
+        "$c=0$",
+        "$a=0$",
+        "$b^2=4ac$"
+      ],
+      "answer": 0,
+      "difficulty": "hard",
+      "explanation": "Roots $\\alpha$ and $-\\alpha$ have sum $0$, so $-\\dfrac{b}{a}=0$, giving $b=0$."
+    },
+    {
+      "id": "mat-complex-numbers-quadratic-equations-037",
+      "q": "$(1+i)^2$ equals",
+      "options": [
+        "$-2i$",
+        "0",
+        "2",
+        "$2i$"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "$(1+i)^2 = 1+2i+i^2 = 1+2i-1 = 2i$."
+    },
+    {
+      "id": "mat-complex-numbers-quadratic-equations-038",
+      "q": "If $|z_1|=3$ and $|z_2|=4$, then $|z_1 z_2|$ equals",
+      "options": [
+        "7",
+        "24",
+        "12",
+        "1"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "$|z_1 z_2| = |z_1||z_2| = 3\\times4 = 12$."
+    },
+    {
+      "id": "mat-complex-numbers-quadratic-equations-039",
+      "q": "$\\arg(z_1 z_2)$ is equal to",
+      "options": [
+        "$\\arg z_1 - \\arg z_2$",
+        "$\\arg z_1 + \\arg z_2$",
+        "$\\arg z_1 \\times \\arg z_2$",
+        "$|\\arg z_1 - \\arg z_2|$"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "When complex numbers are multiplied, their arguments add: $\\arg(z_1z_2) = \\arg z_1 + \\arg z_2$."
+    },
+    {
+      "id": "mat-complex-numbers-quadratic-equations-040",
+      "q": "The complex cube roots of unity $1, \\omega, \\omega^2$ satisfy",
+      "options": [
+        "$1+\\omega+\\omega^2=0$",
+        "$1-\\omega+\\omega^2=0$",
+        "$\\omega^2=1$",
+        "$1+\\omega+\\omega^2=1$"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "The three cube roots of unity always satisfy $1+\\omega+\\omega^2=0$."
+    }
+  ]
+}

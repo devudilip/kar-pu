@@ -1,0 +1,799 @@
+{
+ "title": "KCET 2009 Maths",
+ "year": 2009,
+ "subject": "maths",
+ "code": "A-1",
+ "source": "KEA question paper (copy) + KEA answer key column A1",
+ "excluded": [],
+ "questions": [
+  {
+   "n": 1,
+   "q": "If $ax + by = 1$, where $a, b, x$ and $y$ are integers, then which one of the following is not true?",
+   "options": [
+    "$(a, b) = 1$",
+    "$(a, y) = 1$",
+    "$(x, y) = 1$",
+    "$(b, y) = 1$"
+   ],
+   "answer": 3,
+   "chapter": "Old syllabus: Number Theory",
+   "explanation": "Since $ax+by=1$, any common factor of $a,b$ must divide 1, so $(a,b)=1$; similarly $(a,y)=1$ (a prime dividing both $a,y$ would divide the sum, forcing it to divide 1). But $b$ and $y$ can share a common factor while $ax$ absorbs the rest, so $(b,y)=1$ need not hold."
+  },
+  {
+   "n": 2,
+   "q": "The digit in the unit place of the number $2009! + 3^{7886}$ is",
+   "options": [
+    "9",
+    "7",
+    "3",
+    "1"
+   ],
+   "answer": 0,
+   "chapter": "Old syllabus: Number Theory",
+   "explanation": "$2009!$ has $5$ and $2$ as factors many times over, so it ends in $0$. The units digit of $3^n$ cycles as $3,9,7,1$; since $7886 \\equiv 2 \\pmod 4$, $3^{7886}$ ends in $9$. So the sum ends in $0+9=9$."
+  },
+  {
+   "n": 3,
+   "q": "If $\\begin{vmatrix} x+1 & x+2 & x+a \\\\ x+2 & x+3 & x+b \\\\ x+3 & x+4 & x+c \\end{vmatrix} = 0$, then $a, b, c$ are",
+   "options": [
+    "in A.P.",
+    "in G.P.",
+    "in H.P.",
+    "equal"
+   ],
+   "answer": 0,
+   "chapter": "Determinants",
+   "explanation": "Applying $R_1 \\to R_1 - R_2$ and $R_2 \\to R_2 - R_3$ gives rows $(-1,-1,a-b)$ and $(-1,-1,b-c)$; for the determinant to vanish identically these rows must be proportional, which forces $a-b=b-c$, i.e. $a,b,c$ are in A.P."
+  },
+  {
+   "n": 4,
+   "q": "The value of $\\begin{vmatrix} 1 & \\log_x y & \\log_x z \\\\ \\log_y x & 1 & \\log_y z \\\\ \\log_z x & \\log_z y & 1 \\end{vmatrix} =$",
+   "options": [
+    "$\\log xyz$",
+    "0",
+    "1",
+    "$xyz$"
+   ],
+   "answer": 1,
+   "chapter": "Determinants",
+   "explanation": "Writing every entry in terms of natural logs, row 2 becomes a scalar multiple of row 1 after simplification (columns become proportional), so the determinant is $0$."
+  },
+  {
+   "n": 5,
+   "q": "If $A = \\begin{bmatrix} 2 & 1 & 0 \\\\ 0 & 2 & 1 \\\\ 1 & 0 & 2 \\end{bmatrix}$ then $|\\text{adj } A| =$",
+   "options": [
+    "81",
+    "0",
+    "9",
+    "$\\dfrac{1}{9}$"
+   ],
+   "answer": 0,
+   "chapter": "Determinants",
+   "explanation": "$|A| = 2(4-0) - 1(0-1) + 0 = 9$. For a $3\\times3$ matrix, $|\\text{adj }A| = |A|^{2} = 81$."
+  },
+  {
+   "n": 6,
+   "q": "If A and B are square matrices of the same order such that $(A+B)(A-B) = A^2 - B^2$, then $(ABA^{-1})^2 =$",
+   "options": [
+    "$A^2$",
+    "$B^2$",
+    "I",
+    "$A^2B^2$"
+   ],
+   "answer": 1,
+   "chapter": "Matrices",
+   "explanation": "$(A+B)(A-B)=A^2-B^2$ forces $AB=BA$. Then $(ABA^{-1})^2 = AB(A^{-1}A)BA^{-1} = AB^2A^{-1} = B^2AA^{-1} = B^2$ using $AB=BA$."
+  },
+  {
+   "n": 7,
+   "q": "If $\\vec a \\cdot \\vec b = -|\\vec a||\\vec b|$, then the angle between $\\vec a$ and $\\vec b$ is",
+   "options": [
+    "$60^\\circ$",
+    "$45^\\circ$",
+    "$180^\\circ$",
+    "$90^\\circ$"
+   ],
+   "answer": 2,
+   "chapter": "Vector Algebra",
+   "explanation": "$\\vec a \\cdot \\vec b = |\\vec a||\\vec b|\\cos\\theta = -|\\vec a||\\vec b|$ gives $\\cos\\theta = -1$, so $\\theta = 180^\\circ$."
+  },
+  {
+   "n": 8,
+   "q": "If $\\vec a + 2\\vec b + 3\\vec c = \\vec O$, then $\\vec a \\times \\vec b + \\vec b \\times \\vec c + \\vec c \\times \\vec a =$",
+   "options": [
+    "$6(\\vec b \\times \\vec c)$",
+    "$2(\\vec b \\times \\vec c)$",
+    "$3(\\vec c \\times \\vec a)$",
+    "$\\vec O$"
+   ],
+   "answer": 0,
+   "chapter": "Vector Algebra",
+   "explanation": "From $\\vec a = -2\\vec b - 3\\vec c$: $\\vec a\\times\\vec b = 3(\\vec b\\times\\vec c)$ and $\\vec c\\times\\vec a = 2(\\vec b\\times\\vec c)$, so the sum is $6(\\vec b\\times\\vec c)$; note $3(\\vec c\\times\\vec a)=3\\cdot2(\\vec b\\times\\vec c)=6(\\vec b\\times\\vec c)$ too, so options (1) and (3) give the same value.",
+   "alsoCorrect": [
+    2
+   ]
+  },
+  {
+   "n": 9,
+   "q": "If the volume of the parallelopiped with $\\vec a$, $\\vec b$ and $\\vec c$ as coterminous edges is 40 cubic units, then the volume of the parallelopiped having $\\vec b + \\vec c$, $\\vec c + \\vec a$ and $\\vec a + \\vec b$ as coterminous edges in cubic units is",
+   "options": [
+    "40",
+    "80",
+    "120",
+    "160"
+   ],
+   "answer": 1,
+   "chapter": "Vector Algebra",
+   "explanation": "The volume with edges $\\vec b+\\vec c, \\vec c+\\vec a, \\vec a+\\vec b$ is always $2[\\vec a\\,\\vec b\\,\\vec c] = 2\\times40=80$."
+  },
+  {
+   "n": 10,
+   "q": "In the group $G = \\{0, 1, 2, 3, 4, 5\\}$ under addition modulo 6, $(2 \\oplus_6 3^{-1} \\oplus_6 4)^{-1} =$",
+   "options": [
+    "0",
+    "2",
+    "3",
+    "5"
+   ],
+   "answer": 2,
+   "chapter": "Old syllabus: Groups",
+   "explanation": "The additive inverse of $3$ mod $6$ is $3$ itself. So $2+3+4=9\\equiv3\\pmod6$, and the inverse of $3$ is again $3$."
+  },
+  {
+   "n": 11,
+   "q": "Which one of the following is not true?",
+   "options": [
+    "Identity element in a group is unique.",
+    "Inverse of an element in a group is unique.",
+    "Fourth roots of unity form an additive abelian group.",
+    "Cancellation laws hold in a group."
+   ],
+   "answer": 2,
+   "chapter": "Old syllabus: Groups",
+   "explanation": "The fourth roots of unity $\\{1,-1,i,-i\\}$ form a group under multiplication, not addition (they aren't even closed under addition), so statement (3) is false."
+  },
+  {
+   "n": 12,
+   "q": "The number of subgroups of the group $(Z_5, \\oplus_5)$ is",
+   "options": [
+    "2",
+    "1",
+    "3",
+    "4"
+   ],
+   "answer": 0,
+   "chapter": "Old syllabus: Groups",
+   "explanation": "$Z_5$ has prime order, so by Lagrange's theorem its only subgroups are the trivial subgroup $\\{0\\}$ and $Z_5$ itself — 2 in all."
+  },
+  {
+   "n": 13,
+   "q": "The negation of $p \\wedge (q \\rightarrow \\sim r)$ is",
+   "options": [
+    "$\\sim p \\vee (q \\wedge r)$",
+    "$\\sim p \\wedge (q \\wedge r)$",
+    "$p \\vee (q \\vee r)$",
+    "$p \\vee (q \\wedge r)$"
+   ],
+   "answer": 0,
+   "chapter": "Old syllabus: Mathematical Reasoning",
+   "explanation": "$\\sim[p\\wedge(q\\to\\sim r)] = \\sim p \\vee \\sim(q\\to\\sim r) = \\sim p \\vee (q \\wedge r)$. (The question booklet printed this implication ambiguously, so KEA awarded a grace mark to everyone.)",
+   "grace": true
+  },
+  {
+   "n": 14,
+   "q": "If $n = 2020!$, then $\\dfrac{1}{\\log_2 n} + \\dfrac{1}{\\log_3 n} + \\dfrac{1}{\\log_4 n} + \\ldots + \\dfrac{1}{\\log_{2020} n} =$",
+   "options": [
+    "0",
+    "2020",
+    "1",
+    "2020!"
+   ],
+   "answer": 2,
+   "chapter": "Old syllabus: Logarithms",
+   "explanation": "$\\dfrac{1}{\\log_k n} = \\log_n k$, so the sum is $\\log_n(2\\cdot3\\cdots2020) = \\log_n(2020!) = \\log_n n = 1$."
+  },
+  {
+   "n": 15,
+   "q": "If 'n' is a positive integer, then $n^3 + 2n$ is divisible by",
+   "options": [
+    "3",
+    "2",
+    "6",
+    "15"
+   ],
+   "answer": 0,
+   "chapter": "Old syllabus: Mathematical Induction",
+   "explanation": "$n^3+2n = (n^3-n) + 3n$; $n^3-n$ is a product of three consecutive integers and hence divisible by 3, and $3n$ is obviously divisible by 3, so the sum is always divisible by 3."
+  },
+  {
+   "n": 16,
+   "q": "On the set of integers Z, define $f: Z \\to Z$ as $f(n) = \\begin{cases} \\dfrac{n}{2}, & n \\text{ is even} \\\\ 0, & n \\text{ is odd} \\end{cases}$ then 'f' is",
+   "options": [
+    "bijective",
+    "injective but not surjective",
+    "neither injective nor surjective",
+    "surjective but not injective"
+   ],
+   "answer": 3,
+   "chapter": "Relations and Functions",
+   "explanation": "$f(1)=f(3)=0$ (and $f(0)=0$ too), so it is not injective. But every integer $m$ is attained as $f(2m)=m$, so it is surjective. Hence $f$ is surjective but not injective."
+  },
+  {
+   "n": 17,
+   "q": "If $\\alpha$ and $\\beta$ are the roots of $x^2 + x + 1 = 0$, then $\\alpha^{16} + \\beta^{16} =$",
+   "options": [
+    "0",
+    "1",
+    "-1",
+    "2"
+   ],
+   "answer": 2,
+   "chapter": "Complex Numbers and Quadratic Equations",
+   "explanation": "$\\alpha,\\beta$ are the complex cube roots of unity $\\omega,\\omega^2$. Since $\\omega^3=1$, $\\omega^{16}=\\omega$ and $\\omega^{32}=\\omega^2$, so the sum is $\\omega+\\omega^2=-1$."
+  },
+  {
+   "n": 18,
+   "q": "The total number of terms in the expansion of $(x+y)^{100} + (x-y)^{100}$ after simplification is",
+   "options": [
+    "50",
+    "51",
+    "202",
+    "100"
+   ],
+   "answer": 1,
+   "chapter": "Binomial Theorem",
+   "explanation": "Odd-power terms cancel, leaving only even powers of $y$ from $y^0$ to $y^{100}$, giving $51$ terms."
+  },
+  {
+   "n": 19,
+   "q": "$\\cot^{-1}(2\\cdot1^2) + \\cot^{-1}(2\\cdot2^2) + \\cot^{-1}(2\\cdot3^2) + \\ldots$ up to $\\infty =$",
+   "options": [
+    "$\\dfrac{\\pi}{5}$",
+    "$\\dfrac{\\pi}{4}$",
+    "$\\dfrac{\\pi}{3}$",
+    "$\\dfrac{\\pi}{2}$"
+   ],
+   "answer": 1,
+   "chapter": "Inverse Trigonometric Functions",
+   "explanation": "$\\cot^{-1}(2n^2) = \\tan^{-1}\\!\\left(\\dfrac{1}{2n^2}\\right) = \\tan^{-1}(2n+1) - \\tan^{-1}(2n-1)$, which telescopes to $\\tan^{-1}(\\infty) - \\tan^{-1}(1) = \\pi/2 - \\pi/4 = \\pi/4$."
+  },
+  {
+   "n": 20,
+   "q": "If 'x' takes negative permissible value, then $\\sin^{-1} x$ is equal to",
+   "options": [
+    "$\\cos^{-1}\\sqrt{1-x^2}$",
+    "$-\\cos^{-1}\\sqrt{1-x^2}$",
+    "$\\cos^{-1}\\sqrt{x^2-1}$",
+    "$\\pi - \\cos^{-1}\\sqrt{1-x^2}$"
+   ],
+   "answer": 1,
+   "chapter": "Inverse Trigonometric Functions",
+   "explanation": "For $x<0$, $\\sin^{-1}x$ is negative while $\\cos^{-1}\\sqrt{1-x^2}$ is always non-negative, so $\\sin^{-1}x = -\\cos^{-1}\\sqrt{1-x^2}$."
+  },
+  {
+   "n": 21,
+   "q": "If $1 + \\sin x + \\sin^2 x + \\ldots$ up to $\\infty = 4 + 2\\sqrt3$, $0 < x < \\pi$ and $x \\neq \\dfrac{\\pi}{2}$, then $x =$",
+   "options": [
+    "$\\dfrac{\\pi}{6}, \\dfrac{\\pi}{3}$",
+    "$\\dfrac{\\pi}{3}, \\dfrac{5\\pi}{6}$",
+    "$\\dfrac{2\\pi}{3}, \\dfrac{\\pi}{6}$",
+    "$\\dfrac{\\pi}{3}, \\dfrac{2\\pi}{3}$"
+   ],
+   "answer": 3,
+   "chapter": "Trigonometric Functions",
+   "explanation": "The sum of the infinite G.P. is $\\dfrac{1}{1-\\sin x} = 4+2\\sqrt3$, giving $\\sin x = \\dfrac{\\sqrt3}{2}$, so $x = \\pi/3$ or $2\\pi/3$."
+  },
+  {
+   "n": 22,
+   "q": "The complex number $\\dfrac{1+2i}{1-i}$ lies in",
+   "options": [
+    "first quadrant",
+    "second quadrant",
+    "third quadrant",
+    "fourth quadrant"
+   ],
+   "answer": 1,
+   "chapter": "Complex Numbers and Quadratic Equations",
+   "explanation": "$\\dfrac{1+2i}{1-i} = \\dfrac{(1+2i)(1+i)}{2} = \\dfrac{-1+3i}{2}$, which has negative real part and positive imaginary part, so it lies in the second quadrant."
+  },
+  {
+   "n": 23,
+   "q": "If P is the point in the Argand diagram corresponding to the complex number $\\sqrt3 + i$ and if OPQ is an isosceles right angled triangle, right angled at 'O', then Q represents the complex number",
+   "options": [
+    "$-1 \\pm i\\sqrt3$",
+    "$-1 + i\\sqrt3$ or $1 - i\\sqrt3$",
+    "$1 \\pm i\\sqrt3$",
+    "$\\sqrt3 - i$ or $1 - i\\sqrt3$"
+   ],
+   "answer": 1,
+   "chapter": "Complex Numbers and Quadratic Equations",
+   "explanation": "Since $OQ=OP$ and $\\angle POQ = 90^\\circ$, Q is P rotated by $\\pm90^\\circ$ about O, i.e. $P$ multiplied by $\\pm i$: $i(\\sqrt3+i)=-1+i\\sqrt3$ or $-i(\\sqrt3+i)=1-i\\sqrt3$."
+  },
+  {
+   "n": 24,
+   "q": "The smallest positive integral value of 'n' such that $\\left[\\dfrac{1+\\sin\\frac{\\pi}{8}+i\\cos\\frac{\\pi}{8}}{1+\\sin\\frac{\\pi}{8}-i\\cos\\frac{\\pi}{8}}\\right]^n$ is purely imaginary is, n =",
+   "options": [
+    "8",
+    "4",
+    "3",
+    "2"
+   ],
+   "answer": 1,
+   "chapter": "Complex Numbers and Quadratic Equations",
+   "explanation": "Writing $\\sin(\\pi/8)=\\cos(3\\pi/8)$ and $\\cos(\\pi/8)=\\sin(3\\pi/8)$, the bracket simplifies to $e^{i\\cdot3\\pi/8}$, so the expression is $e^{i\\,3n\\pi/8}$; this is purely imaginary when $3n\\pi/8$ is an odd multiple of $\\pi/2$, first satisfied at $n=4$."
+  },
+  {
+   "n": 25,
+   "q": "Which one of the following is possible?",
+   "options": [
+    "$\\cos\\theta = \\dfrac{7}{3}$",
+    "$\\sin\\theta = \\dfrac{a^2+b^2}{a^2-b^2}, (a \\neq b)$",
+    "$\\sec\\theta = \\dfrac{4}{5}$",
+    "$\\tan\\theta = 45$"
+   ],
+   "answer": 3,
+   "chapter": "Trigonometric Functions",
+   "explanation": "$\\sin\\theta$ and $\\cos\\theta$ must lie in $[-1,1]$ and $|\\sec\\theta|\\ge1$, ruling out (1),(2),(3); but $\\tan\\theta$ can be any real number, so $\\tan\\theta=45$ is possible."
+  },
+  {
+   "n": 26,
+   "q": "If one side of a triangle is double the other and the angles opposite to these sides differ by $60^\\circ$, then the triangle is",
+   "options": [
+    "right angled",
+    "obtuse angled",
+    "acute angled",
+    "isosceles"
+   ],
+   "answer": 0,
+   "chapter": "Old syllabus: Properties of Triangles",
+   "explanation": "With $a=2b$ and $A-B=60^\\circ$, the sine-rule/tangent-rule relation for this data reduces to $C=90^\\circ$, i.e. the triangle is right angled."
+  },
+  {
+   "n": 27,
+   "q": "$3(\\sin x - \\cos x)^4 + 6(\\sin x + \\cos x)^2 + 4(\\sin^6 x + \\cos^6 x) =$",
+   "options": [
+    "11",
+    "12",
+    "13",
+    "14"
+   ],
+   "answer": 2,
+   "chapter": "Trigonometric Functions",
+   "explanation": "Using $(\\sin x-\\cos x)^2=1-\\sin2x$, $(\\sin x+\\cos x)^2=1+\\sin2x$ and $\\sin^6x+\\cos^6x=1-\\tfrac34\\sin^2 2x$, the expression simplifies (all $\\sin2x$ terms cancel) to $3+6+4=13$."
+  },
+  {
+   "n": 28,
+   "q": "A cow is tied to a post by a rope. The cow moves along the circular path always keeping the rope tight. If it describes 44 metres, when it has traced out $72^\\circ$ at the centre, the length of the rope is",
+   "options": [
+    "35 metres",
+    "22 metres",
+    "56 metres",
+    "45 metres"
+   ],
+   "answer": 0,
+   "chapter": "Trigonometric Functions",
+   "explanation": "Arc length $= r\\theta$ with $\\theta = 72^\\circ = \\dfrac{2\\pi}{5}$ radians, so $r = \\dfrac{44}{2\\pi/5} = \\dfrac{220}{2\\pi} \\approx 35$ metres (using $\\pi=22/7$)."
+  },
+  {
+   "n": 29,
+   "q": "If $\\begin{vmatrix} 1+\\sin^2\\theta & \\cos^2\\theta & 4\\sin2\\theta \\\\ \\sin^2\\theta & 1+\\cos^2\\theta & 4\\sin2\\theta \\\\ \\sin^2\\theta & \\cos^2\\theta & 4\\sin2\\theta-1 \\end{vmatrix} = 0$ and $0 < \\theta < \\dfrac{\\pi}{2}$, then $\\cos4\\theta =$",
+   "options": [
+    "$\\dfrac{1}{2}$",
+    "$\\dfrac{\\sqrt3}{2}$",
+    "0",
+    "$\\dfrac{-1}{2}$"
+   ],
+   "answer": 0,
+   "chapter": "Determinants",
+   "explanation": "Subtracting row 1 from rows 2 and 3 and expanding gives the determinant $4\\sin2\\theta-2=0$, so $\\sin2\\theta=\\dfrac12$; then $\\cos4\\theta=1-2\\sin^22\\theta=1-\\dfrac12=\\dfrac12$."
+  },
+  {
+   "n": 30,
+   "q": "The locus of the mid points of the chords of the circle $x^2+y^2=4$ which subtend a right angle at the origin is",
+   "options": [
+    "$x+y=2$",
+    "$x^2+y^2=1$",
+    "$x^2+y^2=2$",
+    "$x+y=1$"
+   ],
+   "answer": 2,
+   "chapter": "Conic Sections",
+   "explanation": "If a chord of $x^2+y^2=a^2$ subtends a right angle at the centre, the distance of the chord from the centre is $a/\\sqrt2$, so the midpoint locus is $x^2+y^2 = a^2/2 = 2$."
+  },
+  {
+   "n": 31,
+   "q": "The length of the chord joining the points $(4\\cos\\theta, 4\\sin\\theta)$ and $(4\\cos(\\theta+60^\\circ), 4\\sin(\\theta+60^\\circ))$ of the circle $x^2+y^2=16$ is",
+   "options": [
+    "2",
+    "4",
+    "8",
+    "16"
+   ],
+   "answer": 1,
+   "chapter": "Conic Sections",
+   "explanation": "Chord length $= 2r\\sin(\\Delta\\theta/2) = 2(4)\\sin30^\\circ = 4$."
+  },
+  {
+   "n": 32,
+   "q": "The number of common tangents to the circles $x^2+y^2-y=0$ and $x^2+y^2+y=0$ is",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "0"
+   ],
+   "answer": 2,
+   "chapter": "Conic Sections",
+   "explanation": "Centres are $(0,\\tfrac12)$ and $(0,-\\tfrac12)$, both radius $\\tfrac12$; the distance between centres is $1 = r_1+r_2$, so the circles touch externally and have 3 common tangents."
+  },
+  {
+   "n": 33,
+   "q": "The co-ordinates of the centre of the smallest circle passing through the origin and having $y = x + 1$ as a diameter are",
+   "options": [
+    "$\\left(\\dfrac{-1}{2}, \\dfrac{1}{2}\\right)$",
+    "$\\left(\\dfrac{1}{2}, \\dfrac{-1}{2}\\right)$",
+    "$\\left(\\dfrac{1}{2}, \\dfrac{1}{3}\\right)$",
+    "$(-1, 0)$"
+   ],
+   "answer": 0,
+   "chapter": "Conic Sections",
+   "explanation": "The smallest such circle has its diameter along the line with the origin at one end and the foot of the perpendicular from the origin to $x-y+1=0$ as centre; that foot is $(-1/2, 1/2)$."
+  },
+  {
+   "n": 34,
+   "q": "The length of the diameter of the circle which cuts three circles $x^2+y^2-x-y-14=0$; $x^2+y^2+3x-5y-10=0$; $x^2+y^2-2x+3y-27=0$ orthogonally, is",
+   "options": [
+    "2",
+    "8",
+    "6",
+    "4"
+   ],
+   "answer": 3,
+   "chapter": "Conic Sections",
+   "explanation": "Setting up the three orthogonality conditions $2gg_i+2ff_i=c+c_i$ and solving gives $g=-3,f=-4,c=21$, so the radius$^2=g^2+f^2-c=9+16-21=4$, radius $=2$, diameter $=4$."
+  },
+  {
+   "n": 35,
+   "q": "For the parabola $y^2=4x$, the point P whose focal distance is 17, is",
+   "options": [
+    "$(16, 8)$ or $(16, -8)$",
+    "$(8, 8)$ or $(8, -8)$",
+    "$(4, 8)$ or $(4, -8)$",
+    "$(2, 8)$ or $(2, -8)$"
+   ],
+   "answer": 0,
+   "chapter": "Conic Sections",
+   "explanation": "For $y^2=4x$, focal distance $= x+1 = 17 \\Rightarrow x=16$, and $y^2=64 \\Rightarrow y=\\pm8$."
+  },
+  {
+   "n": 36,
+   "q": "The angle between the tangents drawn to the parabola $y^2=12x$ from the point $(-3, 2)$ is",
+   "options": [
+    "$45^\\circ$",
+    "$90^\\circ$",
+    "$60^\\circ$",
+    "$30^\\circ$"
+   ],
+   "answer": 1,
+   "chapter": "Conic Sections",
+   "explanation": "For $y^2=12x$ the directrix is $x=-3$; the point $(-3,2)$ lies on the directrix, and tangents drawn from any point on the directrix of a parabola are always perpendicular."
+  },
+  {
+   "n": 37,
+   "q": "The number of values of 'c' such that the line $y = 4x + c$ touches the curve $\\dfrac{x^2}{4} + y^2 = 1$ is",
+   "options": [
+    "0",
+    "1",
+    "2",
+    "infinite"
+   ],
+   "answer": 2,
+   "chapter": "Conic Sections",
+   "explanation": "The tangency condition for $y=mx+c$ to $\\dfrac{x^2}{4}+y^2=1$ is $c^2 = 4m^2+1 = 4(16)+1=65$, giving two values $c=\\pm\\sqrt{65}$."
+  },
+  {
+   "n": 38,
+   "q": "If the circle $x^2+y^2=a^2$ intersects the hyperbola $xy=c^2$ in four points $P(x_1,y_1)$, $Q(x_2,y_2)$, $R(x_3,y_3)$ and $S(x_4,y_4)$, then",
+   "options": [
+    "$x_1+x_2+x_3+x_4=0$",
+    "$y_1+y_2+y_3+y_4=2$",
+    "$x_1x_2x_3x_4=2c^4$",
+    "$y_1y_2y_3y_4=2c^4$"
+   ],
+   "answer": 0,
+   "chapter": "Conic Sections",
+   "explanation": "Substituting $y=c^2/x$ gives $x^4-a^2x^2+c^4=0$; since the $x^3$ coefficient is 0, the four roots sum to 0 (and their product is $c^4$, not $2c^4$, so options 3 and 4 are false)."
+  },
+  {
+   "n": 39,
+   "q": "The foot of the perpendicular from the point $(2, 4)$ upon $x + y = 4$ is",
+   "options": [
+    "$(3, -1)$",
+    "$(2, 2)$",
+    "$(4, 0)$",
+    "$(1, 3)$"
+   ],
+   "answer": 3,
+   "chapter": "Straight Lines",
+   "explanation": "Foot $= (2,4) - \\dfrac{(2+4-4)}{2}(1,1) = (2,4)-(1,1) = (1,3)$."
+  },
+  {
+   "n": 40,
+   "q": "The vertices of a triangle are $(6, 0)$, $(0, 6)$ and $(6, 6)$. The distance between its circumcentre and centroid is",
+   "options": [
+    "$2\\sqrt2$",
+    "2",
+    "$\\sqrt2$",
+    "1"
+   ],
+   "answer": 2,
+   "chapter": "Straight Lines",
+   "explanation": "This is a right triangle (right angle at $(6,6)$), so the circumcentre is the midpoint of the hypotenuse $=(3,3)$; the centroid is $(4,4)$; the distance between them is $\\sqrt{1+1}=\\sqrt2$."
+  },
+  {
+   "n": 41,
+   "q": "The angle between the pair of lines $x^2 + 2xy - y^2 = 0$ is",
+   "options": [
+    "$\\dfrac{\\pi}{3}$",
+    "$\\dfrac{\\pi}{6}$",
+    "$\\dfrac{\\pi}{2}$",
+    "0"
+   ],
+   "answer": 2,
+   "chapter": "Old syllabus: Pair of Straight Lines",
+   "explanation": "Here $a=1,b=-1,h=1$, so $a+b=0$, which makes $\\tan\\theta$ undefined, i.e. $\\theta=\\pi/2$."
+  },
+  {
+   "n": 42,
+   "q": "$\\lim\\limits_{n \\to \\infty} \\dfrac{3\\cdot2^{n+1} - 4\\cdot5^{n+1}}{5\\cdot2^n + 7\\cdot5^n} =$",
+   "options": [
+    "0",
+    "$\\dfrac{3}{5}$",
+    "$\\dfrac{-4}{7}$",
+    "$\\dfrac{-20}{7}$"
+   ],
+   "answer": 3,
+   "chapter": "Limits and Derivatives",
+   "explanation": "Dividing numerator and denominator by $5^n$: the terms with $(2/5)^n$ vanish as $n\\to\\infty$, leaving $\\dfrac{-4\\cdot5}{7} = \\dfrac{-20}{7}$."
+  },
+  {
+   "n": 43,
+   "q": "The function $f(x) = \\dfrac{\\log(1+ax) - \\log(1-bx)}{x}$ is not defined at $x=0$. The value which should be assigned to 'f' at $x=0$ so that it is continuous at $x=0$ is",
+   "options": [
+    "0",
+    "$a - b$",
+    "$a + b$",
+    "$\\log a + \\log b$"
+   ],
+   "answer": 2,
+   "chapter": "Continuity and Differentiability",
+   "explanation": "As $x\\to0$, $\\log(1+ax)\\approx ax$ and $\\log(1-bx)\\approx -bx$, so $f(x) \\to \\dfrac{ax+bx}{x} = a+b$."
+  },
+  {
+   "n": 44,
+   "q": "If $f(x) = 1 + nx + \\dfrac{n(n-1)}{2}x^2 + \\dfrac{n(n-1)(n-2)}{6}x^3 + \\ldots + x^n$, then $f''(1) =$",
+   "options": [
+    "$n(n-1)2^n$",
+    "$n(n-1)2^{n-1}$",
+    "$(n-1)2^{n-1}$",
+    "$n(n-1)2^{n-2}$"
+   ],
+   "answer": 3,
+   "chapter": "Continuity and Differentiability",
+   "explanation": "$f(x)=(1+x)^n$, so $f''(x)=n(n-1)(1+x)^{n-2}$, giving $f''(1)=n(n-1)2^{n-2}$."
+  },
+  {
+   "n": 45,
+   "q": "If $f(x) = \\log_{x^2}(\\log_e x)$, then $f'(x)$ at $x = e$ is",
+   "options": [
+    "0",
+    "1",
+    "$\\dfrac{1}{e}$",
+    "$\\dfrac{1}{2e}$"
+   ],
+   "answer": 3,
+   "chapter": "Continuity and Differentiability",
+   "explanation": "Writing $f(x)=\\dfrac{\\ln(\\ln x)}{2\\ln x}$ and differentiating gives $f'(x)=\\dfrac{1-\\ln(\\ln x)}{2x\\ln^2x}$; at $x=e$, $\\ln x=1,\\ln(\\ln x)=0$, so $f'(e)=\\dfrac{1}{2e}$. (Grace marks were awarded to all, likely due to the ambiguous printed base notation.)",
+   "grace": true
+  },
+  {
+   "n": 46,
+   "q": "If $y = \\sin^n x \\cos nx$, then $\\dfrac{dy}{dx}$ is",
+   "options": [
+    "$n\\sin^{n-1}x\\cos(n+1)x$",
+    "$n\\sin^{n-1}x\\sin(n+1)x$",
+    "$n\\sin^{n-1}x\\cos(n-1)x$",
+    "$n\\sin^{n-1}x\\cos nx$"
+   ],
+   "answer": 0,
+   "chapter": "Continuity and Differentiability",
+   "explanation": "$\\dfrac{dy}{dx} = n\\sin^{n-1}x\\cos x\\cos nx - n\\sin^n x\\sin nx = n\\sin^{n-1}x[\\cos x\\cos nx - \\sin x \\sin nx] = n\\sin^{n-1}x\\cos(n+1)x$."
+  },
+  {
+   "n": 47,
+   "q": "If $f(x) = \\dfrac{g(x)+g(-x)}{2} + \\dfrac{2}{[h(x)+h(-x)]^{-1}}$ where g and h are differentiable functions, then $f'(0)$",
+   "options": [
+    "0",
+    "1",
+    "$\\dfrac{1}{2}$",
+    "$\\dfrac{3}{2}$"
+   ],
+   "answer": 0,
+   "chapter": "Continuity and Differentiability",
+   "explanation": "Both $g(x)+g(-x)$ and $h(x)+h(-x)$ are even functions of $x$, so $f(x)$ is even; the derivative of an even function is odd, and an odd function must vanish at $x=0$, so $f'(0)=0$."
+  },
+  {
+   "n": 48,
+   "q": "The tangent to a given curve $y = f(x)$ is perpendicular to the x-axis if",
+   "options": [
+    "$\\dfrac{dy}{dx} = 0$",
+    "$\\dfrac{dy}{dx} = 1$",
+    "$\\dfrac{dx}{dy} = 0$",
+    "$\\dfrac{dx}{dy} = 1$"
+   ],
+   "answer": 2,
+   "chapter": "Application of Derivatives",
+   "explanation": "A tangent perpendicular to the x-axis is a vertical line, i.e. its slope is infinite; equivalently $\\dfrac{dx}{dy}=0$."
+  },
+  {
+   "n": 49,
+   "q": "The minimum value of $27^{\\cos2x}\\,81^{\\sin2x}$ is",
+   "options": [
+    "$\\dfrac{1}{27}$",
+    "-5",
+    "$\\dfrac{1}{5}$",
+    "$\\dfrac{1}{243}$"
+   ],
+   "answer": 3,
+   "chapter": "Application of Derivatives",
+   "explanation": "The expression equals $3^{3\\cos2x+4\\sin2x}$; since $3\\cos2x+4\\sin2x$ ranges over $[-5,5]$, the minimum value is $3^{-5}=1/243$."
+  },
+  {
+   "n": 50,
+   "q": "A stone is thrown vertically upwards from the top of a tower 64 metres high according to the law $s = 48t - 16t^2$. The greatest height attained by the stone above the ground is",
+   "options": [
+    "64 metre",
+    "36 metre",
+    "32 metre",
+    "100 metre"
+   ],
+   "answer": 3,
+   "chapter": "Application of Derivatives",
+   "explanation": "$s$ is maximum when $ds/dt=48-32t=0 \\Rightarrow t=1.5$, giving $s_{max}=48(1.5)-16(1.5)^2=36$; total height above ground $=64+36=100$ metres."
+  },
+  {
+   "n": 51,
+   "q": "The length of the subtangent at 't' on the curve $x = a(t + \\sin t)$, $y = a(1 - \\cos t)$ is",
+   "options": [
+    "$2a\\sin^3\\left(\\dfrac{t}{2}\\right)\\sec\\left(\\dfrac{t}{2}\\right)$",
+    "$a\\sin t$",
+    "$2a\\sin\\left(\\dfrac{t}{2}\\right)\\tan\\left(\\dfrac{t}{2}\\right)$",
+    "$2a\\sin\\dfrac{t}{2}$"
+   ],
+   "answer": 1,
+   "chapter": "Application of Derivatives",
+   "explanation": "Subtangent $= y\\dfrac{dx}{dy} = a(1-\\cos t)\\cdot\\dfrac{1+\\cos t}{\\sin t} = a\\dfrac{\\sin^2 t}{\\sin t} = a\\sin t$."
+  },
+  {
+   "n": 52,
+   "q": "$\\int e^{\\tan^{-1}x}\\left(1 + \\dfrac{x}{1+x^2}\\right)dx$ is equal to",
+   "options": [
+    "$\\dfrac{1}{2}xe^{\\tan^{-1}x} + c$",
+    "$xe^{\\tan^{-1}x} + c$",
+    "$e^{\\tan^{-1}x} + c$",
+    "$\\dfrac{1}{2}e^{\\tan^{-1}x} + c$"
+   ],
+   "answer": 1,
+   "chapter": "Integrals",
+   "explanation": "Note $\\dfrac{d}{dx}\\left[xe^{\\tan^{-1}x}\\right] = e^{\\tan^{-1}x}\\left(1+\\dfrac{x}{1+x^2}\\right)$, so the integral is $xe^{\\tan^{-1}x}+c$."
+  },
+  {
+   "n": 53,
+   "q": "$\\int \\text{cosec}(x-a)\\,\\text{cosec}\\,x\\,dx =$",
+   "options": [
+    "$\\dfrac{1}{\\sin a}\\log[\\sin(x-a)\\sin x] + c$",
+    "$\\dfrac{-1}{\\sin a}\\log|\\sin x\\,\\text{cosec}(x-a)| + c$",
+    "$\\dfrac{-1}{\\sin a}\\log|\\sin(x-a)\\sin x| + c$",
+    "$\\dfrac{1}{\\sin a}\\log[\\sin(x-a)\\,\\text{cosec}\\,x] + c$"
+   ],
+   "answer": 1,
+   "chapter": "Integrals",
+   "explanation": "Using $\\sin a = \\sin(x-(x-a)) = \\sin x\\cos(x-a)-\\cos x\\sin(x-a)$, the integral works out to $\\dfrac{1}{\\sin a}\\log\\left|\\dfrac{\\sin(x-a)}{\\sin x}\\right|+c$; options (2) and (4) are algebraically the same expression, so both are correct.",
+   "alsoCorrect": [
+    3
+   ]
+  },
+  {
+   "n": 54,
+   "q": "If $f(x) = \\displaystyle\\int_{-1}^{x} |t|\\,dt$, then for any $x \\geq 0$, $f(x) =$",
+   "options": [
+    "$\\dfrac{1}{2}(1-x^2)$",
+    "$1-x^2$",
+    "$\\dfrac{1}{2}(1+x^2)$",
+    "$1+x^2$"
+   ],
+   "answer": 2,
+   "chapter": "Integrals",
+   "explanation": "$f(x) = \\int_{-1}^{0}(-t)dt + \\int_0^x t\\,dt = \\dfrac12 + \\dfrac{x^2}{2} = \\dfrac12(1+x^2)$."
+  },
+  {
+   "n": 55,
+   "q": "$\\displaystyle\\int_{1}^{3} \\dfrac{\\sqrt{4-x}}{\\sqrt{x}+\\sqrt{4-x}}\\,dx =$",
+   "options": [
+    "0",
+    "1",
+    "3",
+    "2"
+   ],
+   "answer": 1,
+   "chapter": "Integrals",
+   "explanation": "Using $\\int_a^b f(x)dx = \\int_a^b f(a+b-x)dx$ with $a+b=4$, the integrand transforms into its complement, so twice the integral equals $\\int_1^3 1\\,dx = 2$, giving the integral $=1$."
+  },
+  {
+   "n": 56,
+   "q": "The area bounded between the parabola $y^2=4x$ and the line $y=2x-4$ is equal to",
+   "options": [
+    "15 sq. units",
+    "$\\dfrac{17}{3}$ sq. units",
+    "$\\dfrac{19}{3}$ sq. units",
+    "9 sq. units"
+   ],
+   "answer": 3,
+   "chapter": "Application of Integrals",
+   "explanation": "The curves meet at $y=-2,4$. Integrating w.r.t. $y$: $\\int_{-2}^{4}\\left[\\dfrac{y+4}{2}-\\dfrac{y^2}{4}\\right]dy = 9$ sq. units."
+  },
+  {
+   "n": 57,
+   "q": "The differential equation of the family of circles passing through the origin and having their centres on the x-axis is",
+   "options": [
+    "$x^2 = y^2 + 3xy\\dfrac{dy}{dx}$",
+    "$y^2 = x^2 + 2xy\\dfrac{dy}{dx}$",
+    "$y^2 = x^2 - 2xy\\dfrac{dy}{dx}$",
+    "$x^2 = y^2 + xy\\dfrac{dy}{dx}$"
+   ],
+   "answer": 1,
+   "chapter": "Differential Equations",
+   "explanation": "Such circles are $x^2+y^2-2ax=0$; differentiating gives $a=x+y y'$, and substituting back into $a=(x^2+y^2)/2x$ gives $y^2=x^2+2xy\\,dy/dx$."
+  },
+  {
+   "n": 58,
+   "q": "A population grows at the rate of 10% of the population per year. How long does it take for the population to double?",
+   "options": [
+    "2 log 10 years",
+    "20 log 2 years",
+    "10 log 2 years",
+    "5 log 2 years"
+   ],
+   "answer": 2,
+   "chapter": "Differential Equations",
+   "explanation": "$dP/dt=0.1P \\Rightarrow P=P_0e^{0.1t}$; doubling needs $e^{0.1t}=2 \\Rightarrow t = 10\\ln2$."
+  },
+  {
+   "n": 59,
+   "q": "On the set of all natural numbers N, which one of the following $*$ is a binary operation?",
+   "options": [
+    "$a*b = 3a - 4b$",
+    "$a*b = \\sqrt{ab}$",
+    "$a*b = \\dfrac{a-b}{a+b}$",
+    "$a*b = a + 3b$"
+   ],
+   "answer": 3,
+   "chapter": "Relations and Functions",
+   "explanation": "Only $a*b=a+3b$ is guaranteed to stay a natural number for all $a,b\\in N$; the others can give negative, non-integer, or non-natural results."
+  },
+  {
+   "n": 60,
+   "q": "If $\\displaystyle\\int_0^1 f(x)\\,dx = 5$, then the value of $\\displaystyle\\int_0^1 f(x)\\,dx + 2^2\\int_0^1 xf(x^2)\\,dx + 3^2\\int_0^1 x^2f(x^3)\\,dx + \\ldots + 10^2\\displaystyle\\int_0^1 x^9f(x^{10})\\,dx$ is equal to",
+   "options": [
+    "55",
+    "125",
+    "625",
+    "275"
+   ],
+   "answer": 3,
+   "chapter": "Integrals",
+   "explanation": "By the substitution $u=x^k$, $k^2\\int_0^1 x^{k-1}f(x^k)dx = k\\int_0^1 f(u)du = 5k$; summing $5k$ for $k=1$ to $10$ gives $5\\times55=275$. (KEA awarded grace marks to all, likely because the coefficients were printed unclearly.)",
+   "grace": true
+  }
+ ]
+}

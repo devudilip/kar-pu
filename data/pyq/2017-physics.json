@@ -1,0 +1,799 @@
+{
+ "title": "KCET 2017 Physics",
+ "year": 2017,
+ "subject": "physics",
+ "code": "A1",
+ "source": "KEA question paper (copy) + KEA answer key column A1",
+ "excluded": [],
+ "questions": [
+  {
+   "n": 1,
+   "q": "A substance of mass 49.53 g occupies 1.5 cm$^3$ of volume. The density of the substance (in g cm$^{-3}$) with correct number of significant figures is",
+   "options": [
+    "3.302",
+    "3.300",
+    "3.3",
+    "3.30"
+   ],
+   "answer": 0,
+   "chapter": "Units and Measurements",
+   "explanation": "As printed, 49.53 g / 1.5 cm$^3$ \\approx 33.02 g cm$^{-3}$, which matches none of the options — the data is inconsistent (the volume was likely meant to be 15.00 cm$^3$, giving 3.302 with 4 significant figures). Because of this error KEA awarded grace marks to everyone.",
+   "grace": true
+  },
+  {
+   "n": 2,
+   "q": "A car moving with a velocity of 20 ms$^{-1}$ is stopped in a distance of 40 m. If the same car is travelling at double the velocity, the distance travelled by it for same retardation is",
+   "options": [
+    "640 m",
+    "320 m",
+    "1280 m",
+    "160 m"
+   ],
+   "answer": 3,
+   "chapter": "Motion in a Straight Line",
+   "explanation": "For constant retardation, stopping distance $s \\propto v^2$. Doubling velocity quadruples the distance: $4 \\times 40 = 160$ m."
+  },
+  {
+   "n": 3,
+   "q": "The angle between velocity and acceleration of a particle describing uniform circular motion is",
+   "options": [
+    "45°",
+    "60°",
+    "90°",
+    "180°"
+   ],
+   "answer": 2,
+   "chapter": "Motion in a Plane",
+   "explanation": "In uniform circular motion, velocity is tangential and acceleration (centripetal) is radial, so they are always perpendicular (90°)."
+  },
+  {
+   "n": 4,
+   "q": "If $\\vec A = 2\\hat i + 3\\hat j + 8\\hat k$ is perpendicular to $\\vec B = 4\\hat j - 4\\hat i + \\alpha \\hat k$, then the value of 'α' is",
+   "options": [
+    "$\\dfrac{1}{2}$",
+    "$-\\dfrac{1}{2}$",
+    "1",
+    "-1"
+   ],
+   "answer": 1,
+   "chapter": "Motion in a Plane",
+   "explanation": "$\\vec A \\cdot \\vec B = 0 \\Rightarrow 2(-4) + 3(4) + 8\\alpha = 0 \\Rightarrow 4 + 8\\alpha = 0 \\Rightarrow \\alpha = -\\dfrac{1}{2}$."
+  },
+  {
+   "n": 5,
+   "q": "A body of mass 50 kg. is suspended using a spring balance inside a lift at rest. If the lift starts falling freely, the reading of the spring balance is",
+   "options": [
+    "= 50 kg",
+    "> 50 kg",
+    "< 50 kg",
+    "= 0"
+   ],
+   "answer": 3,
+   "chapter": "Laws of Motion",
+   "explanation": "In free fall the lift and body are both in a state of weightlessness (apparent weight = 0), so the spring balance reads zero."
+  },
+  {
+   "n": 6,
+   "q": "A motor pump lifts 6 tonnes of water from a well of depth 25 m to the first floor of height 35 m from the ground floor in 20 minutes. The power of the pump (in kW) is [g = 10 ms$^{-2}$]",
+   "options": [
+    "3",
+    "6",
+    "1.5",
+    "12"
+   ],
+   "answer": 0,
+   "chapter": "Work, Energy and Power",
+   "explanation": "Total height raised = 25 + 35 = 60 m. $P = \\dfrac{mgh}{t} = \\dfrac{6000 \\times 10 \\times 60}{1200} = 3000$ W = 3 kW."
+  },
+  {
+   "n": 7,
+   "q": "Two balls are thrown simultaneously in air. The acceleration of the centre of mass of the two balls when in air,",
+   "options": [
+    "depends on the masses of the two balls",
+    "depends on the speeds of the two balls",
+    "is equal to g (Acceleration due to gravity)",
+    "depends on the direction of motion of the two balls."
+   ],
+   "answer": 2,
+   "chapter": "System of Particles and Rotational Motion",
+   "explanation": "The only external force on the system (in air) is gravity on each ball, so the acceleration of the centre of mass is always g, independent of masses, speeds or directions."
+  },
+  {
+   "n": 8,
+   "q": "The value of acceleration due to gravity at a depth of 1600 km is equal to [Radius of earth = 6400 km]",
+   "options": [
+    "9.8 ms$^{-2}$",
+    "4.9 ms$^{-2}$",
+    "19.6 ms$^{-2}$",
+    "7.35 ms$^{-2}$"
+   ],
+   "answer": 3,
+   "chapter": "Gravitation",
+   "explanation": "$g_d = g\\left(1 - \\dfrac{d}{R}\\right) = 9.8 \\left(1 - \\dfrac{1600}{6400}\\right) = 9.8 \\times 0.75 = 7.35$ ms$^{-2}$."
+  },
+  {
+   "n": 9,
+   "q": "'Young's modulus' is defined as the ratio of",
+   "options": [
+    "tensile stress and longitudinal strain",
+    "hydraulic stress and hydraulic strain",
+    "shearing stress and shearing strain",
+    "bulk stress and longitudinal strain"
+   ],
+   "answer": 0,
+   "chapter": "Mechanical Properties of Solids",
+   "explanation": "Young's modulus is defined as the ratio of tensile (longitudinal) stress to longitudinal strain, valid within the elastic limit."
+  },
+  {
+   "n": 10,
+   "q": "'Hydraulic lift' works on the basis of",
+   "options": [
+    "Stoke's law",
+    "Toricelli's law",
+    "Pascal's Law",
+    "Bernoulli's Law"
+   ],
+   "answer": 2,
+   "chapter": "Mechanical Properties of Fluids",
+   "explanation": "A hydraulic lift uses Pascal's law: pressure applied at one point of an enclosed fluid is transmitted equally to all points, allowing a small force to lift a large load."
+  },
+  {
+   "n": 11,
+   "q": "The S.I. unit of specific heat capacity is",
+   "options": [
+    "J mol$^{-1}$ K$^{-1}$",
+    "J kg$^{-1}$ K$^{-1}$",
+    "J K$^{-1}$",
+    "J kg$^{-1}$"
+   ],
+   "answer": 1,
+   "chapter": "Thermal Properties of Matter",
+   "explanation": "Specific heat capacity is heat required per unit mass per unit temperature rise, with SI unit J kg$^{-1}$ K$^{-1}$."
+  },
+  {
+   "n": 12,
+   "q": "For which combination of working temperatures, the efficiency of 'Carnot's engine' is the least ?",
+   "options": [
+    "60 K, 40 K",
+    "40 K, 20 K",
+    "80 K, 60 K",
+    "100 K, 80 K"
+   ],
+   "answer": 3,
+   "chapter": "Thermodynamics",
+   "explanation": "Efficiency $\\eta = 1 - T_C/T_H$. Computing for each pair: 33.3%, 50%, 25%, 20%. The least efficiency (20%) is for 100 K, 80 K."
+  },
+  {
+   "n": 13,
+   "q": "The mean energy of a molecule of an ideal gas is",
+   "options": [
+    "2 KT",
+    "$\\dfrac{3}{2}$KT",
+    "KT",
+    "$\\dfrac{1}{2}$KT"
+   ],
+   "answer": 1,
+   "chapter": "Kinetic Theory",
+   "explanation": "By the kinetic theory of gases, the mean translational kinetic energy per molecule is $\\dfrac{3}{2}k_BT$."
+  },
+  {
+   "n": 14,
+   "q": "Two simple pendulums A and B are made to oscillate simultaneously and it is found that A completes 10 oscillations in 20 sec and B completes 8 oscillations in 10 sec. The ratio of the lengths of A and B is",
+   "options": [
+    "$\\dfrac{8}{5}$",
+    "$\\dfrac{64}{25}$",
+    "$\\dfrac{5}{4}$",
+    "$\\dfrac{25}{64}$"
+   ],
+   "answer": 1,
+   "chapter": "Oscillations",
+   "explanation": "$T_A = 2$ s, $T_B = 1.25$ s. Since $T \\propto \\sqrt{L}$, $\\dfrac{L_A}{L_B} = \\left(\\dfrac{T_A}{T_B}\\right)^2 = \\left(\\dfrac{2}{1.25}\\right)^2 = \\dfrac{64}{25}$."
+  },
+  {
+   "n": 15,
+   "q": "The waves set up in a closed pipe are",
+   "options": [
+    "Transverse and Progressive",
+    "Longitudinal and Stationary",
+    "Transverse and Stationary",
+    "Longitudinal and Progressive"
+   ],
+   "answer": 1,
+   "chapter": "Waves",
+   "explanation": "Sound waves in a closed pipe are longitudinal, and superposition of incident and reflected waves forms stationary (standing) waves."
+  },
+  {
+   "n": 16,
+   "q": "Two spheres of electric charges +2 nC and -8 nC are placed at a distance 'd' apart. If they are allowed to touch each other, what is the new distance between them to get a repulsive force of same magnitude as before?",
+   "options": [
+    "$\\dfrac{4d}{3}$",
+    "$\\dfrac{3d}{4}$",
+    "d",
+    "$\\dfrac{d}{2}$"
+   ],
+   "answer": 1,
+   "chapter": "Electric Charges and Fields",
+   "explanation": "Original force magnitude $\\propto 2\\times8=16$ (units of nC$^2$). After touching, each sphere gets $\\dfrac{2-8}{2}=-3$ nC, so new force $\\propto 3\\times3=9$. For equal force magnitude, $\\dfrac{9}{d'^2}=\\dfrac{16}{d^2} \\Rightarrow d' = \\dfrac{3d}{4}$."
+  },
+  {
+   "n": 17,
+   "q": "Three point charges of +2q, +2q and -4q are placed at the corners A, B and C of an equilateral triangle ABC of side 'x'. The magnitude of the electric dipole moment of this system is",
+   "options": [
+    "2 qx",
+    "$2\\sqrt{3}$ qx",
+    "$3\\sqrt{2}$ qx",
+    "3 qx"
+   ],
+   "answer": 1,
+   "chapter": "Electric Charges and Fields",
+   "explanation": "This charge system is equivalent to two dipoles of moment $2qx$ each along AC and BC, at 60° to each other. Their resultant has magnitude $2\\sqrt{3}\\,qx$."
+  },
+  {
+   "n": 18,
+   "q": "$4 \\times 10^{10}$ electrons are removed from a neutral metal sphere of diameter 20 cm placed in air. The magnitude of the electric field (in NC$^{-1}$) at a distance of 20 cm from its center is",
+   "options": [
+    "5760",
+    "1440",
+    "640",
+    "Zero"
+   ],
+   "answer": 1,
+   "chapter": "Electric Charges and Fields",
+   "explanation": "Charge $Q = 4\\times10^{10}\\times1.6\\times10^{-19} = 6.4\\times10^{-9}$ C. At $r=0.2$ m (outside sphere), $E = \\dfrac{kQ}{r^2} = \\dfrac{9\\times10^9 \\times 6.4\\times10^{-9}}{0.04} = 1440$ NC$^{-1}$."
+  },
+  {
+   "n": 19,
+   "q": "Two point charges A = +3 nC and B = +1 nC are placed 5 cm apart in air. The work done to move charge B towards A by 1 cm is",
+   "options": [
+    "$1.35 \\times 10^{-7}$ J",
+    "$2.7 \\times 10^{-7}$ J",
+    "$2.0 \\times 10^{-7}$ J",
+    "$12.1 \\times 10^{-7}$ J"
+   ],
+   "answer": 0,
+   "chapter": "Electrostatic Potential and Capacitance",
+   "explanation": "$W = kq_1q_2\\left(\\dfrac{1}{r_f}-\\dfrac{1}{r_i}\\right) = 9\\times10^9\\times3\\times10^{-9}\\times1\\times10^{-9}\\left(\\dfrac{1}{0.04}-\\dfrac{1}{0.05}\\right) = 1.35\\times10^{-7}$ J."
+  },
+  {
+   "n": 20,
+   "q": "A system of 2 capacitors of capacitance 2 μF and 4 μF is connected in series across a potential difference of 6V. The electric charge and energy stored in the system are",
+   "options": [
+    "10 μC and 30 μJ",
+    "36 μC and 108 μJ",
+    "8 μC and 24 μJ",
+    "1 μC and 3 μJ"
+   ],
+   "answer": 2,
+   "chapter": "Electrostatic Potential and Capacitance",
+   "explanation": "$C_{eq} = \\dfrac{2\\times4}{2+4} = \\dfrac{4}{3}\\,\\mu$F. Charge $Q = C_{eq}V = \\dfrac{4}{3}\\times6 = 8\\,\\mu$C. Energy $= \\dfrac{1}{2}C_{eq}V^2 = \\dfrac{1}{2}\\times\\dfrac{4}{3}\\times36 = 24\\,\\mu$J."
+  },
+  {
+   "n": 21,
+   "q": "The minimum value of effective capacitance that can be obtained by combining 3 capacitors of capacitances 1 pF, 2 pF and 4 pF is",
+   "options": [
+    "$\\dfrac{4}{7}$ pF",
+    "1 pF",
+    "$\\dfrac{7}{4}$ pF",
+    "2 pF"
+   ],
+   "answer": 0,
+   "chapter": "Electrostatic Potential and Capacitance",
+   "explanation": "Minimum capacitance is obtained connecting all in series: $\\dfrac{1}{C} = 1+\\dfrac{1}{2}+\\dfrac{1}{4}=\\dfrac{7}{4} \\Rightarrow C=\\dfrac{4}{7}$ pF."
+  },
+  {
+   "n": 22,
+   "q": "A cylindrical conductor of diameter 0.1 mm carries a current of 90 mA. The current density (in Am$^{-2}$) is $(\\pi \\simeq 3)$",
+   "options": [
+    "$1.2 \\times 10^7$",
+    "$2.4 \\times 10^7$",
+    "$3 \\times 10^6$",
+    "$6 \\times 10^6$"
+   ],
+   "answer": 0,
+   "chapter": "Current Electricity",
+   "explanation": "Radius $= 5\\times10^{-5}$ m. Area $=\\pi r^2 = 3\\times(5\\times10^{-5})^2 = 7.5\\times10^{-9}$ m$^2$. $J = \\dfrac{I}{A} = \\dfrac{0.09}{7.5\\times10^{-9}} = 1.2\\times10^7$ Am$^{-2}$."
+  },
+  {
+   "n": 23,
+   "q": "A piece of copper is to be shaped into a conducting wire of maximum resistance. The suitable length and diameter are ________ and ________ respectively.",
+   "options": [
+    "L and d",
+    "2 L and d",
+    "L/2 and 2 d",
+    "2 L and d/2"
+   ],
+   "answer": 3,
+   "chapter": "Current Electricity",
+   "explanation": "Since $R = \\dfrac{\\rho L}{A} \\propto \\dfrac{L}{d^2}$, resistance is maximised by making the wire as long and as thin as possible — doubling L and halving d gives the largest R among the options."
+  },
+  {
+   "n": 24,
+   "q": "Of the following graphs, the one that correctly represents the I-V. characteristics of a 'Ohmic device' is",
+   "options": [
+    "[graph A: I rises then curves over as V increases]",
+    "[graph B: I rises steeply, concave up, as V increases]",
+    "[graph C: straight line through the origin]",
+    "[graph D: I decreases as V increases]"
+   ],
+   "answer": 2,
+   "chapter": "Current Electricity",
+   "explanation": "An ohmic device obeys $V=IR$ with constant R, giving a straight line I-V graph passing through the origin (graph C)."
+  },
+  {
+   "n": 25,
+   "q": "The value of I in the figure shown below is [a square loop with currents 20 A and 4 A entering at the top two corners, 5 A flowing down the left side to the bottom-left corner, 3 A leaving the bottom-left corner, and current I leaving the bottom-right corner]",
+   "options": [
+    "8A",
+    "21A",
+    "19A",
+    "4A"
+   ],
+   "answer": 1,
+   "chapter": "Current Electricity",
+   "explanation": "By Kirchhoff's current law, total current entering the network equals total current leaving: $20+4 = 3+I \\Rightarrow I = 21$ A.",
+   "figure": true
+  },
+  {
+   "n": 26,
+   "q": "The power dissipated in 3Ω resistance in the following circuit is [a 4.5 V cell of internal resistance 1Ω, a 3Ω resistor, a 2Ω resistor and a 6Ω resistor meeting at a common junction, and a 4Ω resistor, all arranged around a circular wire loop]",
+   "options": [
+    "0.75 W",
+    "0.25 W",
+    "1 W",
+    "0.5 W"
+   ],
+   "answer": 0,
+   "chapter": "Current Electricity",
+   "explanation": "Reducing the network (the 2Ω and 6Ω branches combine, in series/parallel with the rest of the loop and the cell's 1Ω internal resistance) to find the current through the 3Ω branch and using $P=I^2R$ gives a dissipated power of 0.75 W, matching the KEA master key.",
+   "figure": true
+  },
+  {
+   "n": 27,
+   "q": "In metre bridge experiment, with a standard resistance in the right gap and a resistance coil dipped in water (in a beaker) in the left gap, the balancing length obtained is 'l'. If the temperature of water is increased, the new balancing length is",
+   "options": [
+    "> l",
+    "< l",
+    "= l",
+    "= 0"
+   ],
+   "answer": 0,
+   "chapter": "Current Electricity",
+   "explanation": "Heating the water raises the coil's (metallic) resistance, so the ratio of left to right resistance increases, which increases the balancing length: new length > l."
+  },
+  {
+   "n": 28,
+   "q": "A proton, a deuteron and an α-particle are projected perpendicular to the direction of a uniform magnetic field with same kinetic energy. The ratio of the radii of the circular paths described by them is",
+   "options": [
+    "$1:\\sqrt2:1$",
+    "$1:\\sqrt2:\\sqrt2$",
+    "$\\sqrt2:1:1$",
+    "$\\sqrt2:\\sqrt2:1$"
+   ],
+   "answer": 0,
+   "chapter": "Moving Charges and Magnetism",
+   "explanation": "$r = \\dfrac{\\sqrt{2mK}}{qB}$. For proton ($m,q$): $r\\propto1$; deuteron ($2m,q$): $r\\propto\\sqrt2$; alpha ($4m,2q$): $r\\propto \\sqrt4/2=1$. Ratio $=1:\\sqrt2:1$."
+  },
+  {
+   "n": 29,
+   "q": "A galvanometer of resistance 50 Ω is connected to a battery of 3V along with a resistance of 2950 Ω in series shows full-scale deflection of 30 divisions. The additional series resistance required to reduce the deflection to 20 divisions is",
+   "options": [
+    "1500 Ω",
+    "4440 Ω",
+    "7400 Ω",
+    "2950 Ω"
+   ],
+   "answer": 0,
+   "chapter": "Moving Charges and Magnetism",
+   "explanation": "Total resistance for full scale (30 div) $=3000\\,\\Omega$, current $=1$ mA. For 20 divisions, current $=\\dfrac{2}{3}$ mA, needing total resistance $=\\dfrac{3}{(2/3)\\text{mA}}=4500\\,\\Omega$. Extra resistance $=4500-3000=1500\\,\\Omega$."
+  },
+  {
+   "n": 30,
+   "q": "The magnetic field at the center of a current carrying loop of radius 0.1 m is $5\\sqrt5$ times that at a point along its axis. The distance of this point from the centre of the loop is",
+   "options": [
+    "0.2 m",
+    "0.1 m",
+    "0.05 m",
+    "0.25 m"
+   ],
+   "answer": 0,
+   "chapter": "Moving Charges and Magnetism",
+   "explanation": "$\\dfrac{B_{center}}{B_{axis}} = \\dfrac{(R^2+x^2)^{3/2}}{R^3} = 5\\sqrt5 = 5^{3/2}$, so $R^2+x^2 = 5R^2 \\Rightarrow x=2R=0.2$ m."
+  },
+  {
+   "n": 31,
+   "q": "A straight wire of length 50 cm carrying a current of 2.5 A is suspended in mid-air by a uniform magnetic field of 0.5 T (as shown in figure, with current I flowing horizontally and field B directed into the page). The mass of the wire is (g = 10 ms$^{-2}$)",
+   "options": [
+    "62.5 gm",
+    "250 gm",
+    "125 gm",
+    "100 gm"
+   ],
+   "answer": 0,
+   "chapter": "Moving Charges and Magnetism",
+   "explanation": "For equilibrium, $BIL = mg \\Rightarrow m = \\dfrac{0.5\\times2.5\\times0.5}{10} = 0.0625$ kg $= 62.5$ gm.",
+   "figure": true
+  },
+  {
+   "n": 32,
+   "q": "Which of the following properties is 'False' for a bar magnet ?",
+   "options": [
+    "Its poles cannot be separated.",
+    "It points in North-South direction when suspended.",
+    "Its like poles repel and unlike poles attract.",
+    "It doesn't produce magnetic field."
+   ],
+   "answer": 3,
+   "chapter": "Magnetism and Matter",
+   "explanation": "A bar magnet does produce a magnetic field around it, so statement (D) is false; the other statements are all true properties of a bar magnet."
+  },
+  {
+   "n": 33,
+   "q": "A magnetic dipole of magnetic moment $6\\times10^{-2}$ Am$^2$ and moment of inertia $12\\times10^{-6}$ kg m$^2$ performs oscillations in a magnetic field of $2\\times10^{-2}$ T. The time taken by the dipole to complete 20 oscillations is ($\\pi \\simeq 3$)",
+   "options": [
+    "36 s",
+    "6 s",
+    "12 s",
+    "18 s"
+   ],
+   "answer": 2,
+   "chapter": "Magnetism and Matter",
+   "explanation": "$T = 2\\pi\\sqrt{\\dfrac{I}{mB}} = 2\\pi\\sqrt{\\dfrac{12\\times10^{-6}}{6\\times10^{-2}\\times2\\times10^{-2}}} = 2\\pi\\sqrt{0.01}=0.2\\pi \\approx 0.6$ s. Time for 20 oscillations $= 20\\times0.6=12$ s."
+  },
+  {
+   "n": 34,
+   "q": "The susceptibility of a ferromagnetic substance is",
+   "options": [
+    ">> 1",
+    "> 1",
+    "< 1",
+    "Zero"
+   ],
+   "answer": 0,
+   "chapter": "Magnetism and Matter",
+   "explanation": "Ferromagnetic materials have very large, positive magnetic susceptibility, i.e. $\\chi \\gg 1$."
+  },
+  {
+   "n": 35,
+   "q": "A bar magnet is allowed to fall vertically through a copper coil placed in a horizontal plane [magnet's S pole leading, falling towards the coil]. The magnet falls with a net acceleration",
+   "options": [
+    "= g",
+    "> g",
+    "< g",
+    "Zero"
+   ],
+   "answer": 2,
+   "chapter": "Electromagnetic Induction",
+   "explanation": "By Lenz's law, the induced eddy current in the coil opposes the magnet's motion, producing a retarding force, so the net downward acceleration is less than g.",
+   "figure": true
+  },
+  {
+   "n": 36,
+   "q": "The working of magnetic braking of trains is based on",
+   "options": [
+    "Alternating current",
+    "Eddy current",
+    "Steady current",
+    "Pulsating current"
+   ],
+   "answer": 1,
+   "chapter": "Electromagnetic Induction",
+   "explanation": "Magnetic braking uses eddy currents induced in a conductor moving through a magnetic field, which oppose the motion and provide a braking force."
+  },
+  {
+   "n": 37,
+   "q": "A jet plane of wing span 20 m is travelling towards west at a speed of 400 ms$^{-1}$. If the earth's total magnetic field is $4\\times10^{-4}$ T and the dip angle is 30°, at that place, the voltage difference developed across the ends of the wing is",
+   "options": [
+    "1.6 V",
+    "3.2 V",
+    "0.8 V",
+    "6.4 V"
+   ],
+   "answer": 0,
+   "chapter": "Electromagnetic Induction",
+   "explanation": "The vertical component of earth's field, $B_v = B\\sin30° = 2\\times10^{-4}$ T, drives the motional EMF: $\\varepsilon = B_vLv = 2\\times10^{-4}\\times20\\times400 = 1.6$ V."
+  },
+  {
+   "n": 38,
+   "q": "In the A.C. circuit shown, keeping 'K' pressed, if an iron rod is inserted into the coil, the bulb in the circuit, [circuit with a bulb and a coil in series with an AC source and switch K, and an iron rod that can be inserted into the coil]",
+   "options": [
+    "glows more brightly",
+    "glows less brightly",
+    "glows with same brightness (as before the rod is inserted)",
+    "gets damaged"
+   ],
+   "answer": 1,
+   "chapter": "Electromagnetic Induction",
+   "explanation": "Inserting the iron core increases the coil's self-inductance, increasing its inductive reactance and hence the circuit impedance, so the current — and the bulb's brightness — decreases.",
+   "figure": true
+  },
+  {
+   "n": 39,
+   "q": "The output of a step down transformer is measured to be 48 V when connected to a 12 W bulb. The value of peak current is",
+   "options": [
+    "$\\dfrac{1}{\\sqrt2}$ A",
+    "$\\sqrt2$ A",
+    "$\\dfrac{1}{2\\sqrt2}$ A",
+    "$\\dfrac{1}{4}$ A"
+   ],
+   "answer": 2,
+   "chapter": "Alternating Current",
+   "explanation": "$I_{rms} = \\dfrac{P}{V} = \\dfrac{12}{48} = 0.25$ A. Peak current $=\\sqrt2\\,I_{rms} = 0.25\\sqrt2 = \\dfrac{1}{2\\sqrt2}$ A."
+  },
+  {
+   "n": 40,
+   "q": "A coil of inductive reactance $1/\\sqrt3\\,\\Omega$ and resistance 1 Ω is connected to a 200 V, 50 Hz A.C. supply. The time lag between maximum voltage and current is",
+   "options": [
+    "$\\dfrac{1}{300}$ s",
+    "$\\dfrac{1}{600}$ s",
+    "$\\dfrac{1}{500}$ s",
+    "$\\dfrac{1}{200}$ s"
+   ],
+   "answer": 1,
+   "chapter": "Alternating Current",
+   "explanation": "$\\tan\\phi = X_L/R = 1/\\sqrt3 \\Rightarrow \\phi = 30° = \\pi/6$ rad. Time lag $= \\phi/\\omega = \\dfrac{\\pi/6}{2\\pi\\times50} = \\dfrac{1}{600}$ s."
+  },
+  {
+   "n": 41,
+   "q": "If $\\vec E$ and $\\vec B$ represent electric and magnetic field vectors of an electromagnetic wave, the direction of propagation of the wave is along",
+   "options": [
+    "$\\vec E$",
+    "$\\vec B$",
+    "$\\vec E \\times \\vec B$",
+    "$\\vec B \\times \\vec E$"
+   ],
+   "answer": 2,
+   "chapter": "Electromagnetic Waves",
+   "explanation": "In an electromagnetic wave, $\\vec E$, $\\vec B$ and the direction of propagation are mutually perpendicular, with propagation along $\\vec E \\times \\vec B$."
+  },
+  {
+   "n": 42,
+   "q": "According to Cartesian sign convention, in ray optics",
+   "options": [
+    "all distances are taken positive",
+    "all distances are taken negative",
+    "all distances in the direction of incident ray are taken positive",
+    "all distances in the direction of incident ray are taken negative"
+   ],
+   "answer": 2,
+   "chapter": "Ray Optics and Optical Instruments",
+   "explanation": "In the Cartesian sign convention, distances measured in the direction of the incident light (from the pole) are taken as positive, and those opposite to it as negative."
+  },
+  {
+   "n": 43,
+   "q": "A linear object of height 10 cm is kept in front of a concave mirror of radius of curvature 15 cm, at a distance of 10 cm. The image formed is",
+   "options": [
+    "magnified and erect",
+    "magnified and inverted",
+    "diminished and erect",
+    "diminished and inverted"
+   ],
+   "answer": 1,
+   "chapter": "Ray Optics and Optical Instruments",
+   "explanation": "$f=-7.5$ cm, $u=-10$ cm. $\\dfrac{1}{v}=\\dfrac{1}{f}-\\dfrac{1}{u}=-\\dfrac{1}{7.5}+\\dfrac{1}{10}=-\\dfrac{1}{30}\\Rightarrow v=-30$ cm. Magnification $m=-v/u=-3$: image is magnified and inverted (real, since object is between C and F)."
+  },
+  {
+   "n": 44,
+   "q": "During scattering of light, the amount of scattering is inversely proportional to ________ of wavelength of light.",
+   "options": [
+    "cube",
+    "square",
+    "fourth power",
+    "half"
+   ],
+   "answer": 2,
+   "chapter": "Wave Optics",
+   "explanation": "By Rayleigh's scattering law, the intensity of scattered light is inversely proportional to the fourth power of the wavelength, $I \\propto 1/\\lambda^4$."
+  },
+  {
+   "n": 45,
+   "q": "In Young's double-slit experiment if yellow light is replaced by blue light, the interference fringes become",
+   "options": [
+    "wider",
+    "narrower",
+    "brighter",
+    "darker"
+   ],
+   "answer": 1,
+   "chapter": "Wave Optics",
+   "explanation": "Fringe width $\\beta = \\dfrac{\\lambda D}{d}$. Blue light has a shorter wavelength than yellow, so the fringes become narrower."
+  },
+  {
+   "n": 46,
+   "q": "According to Huygens' principle, during refraction of light from air to a denser medium",
+   "options": [
+    "Wavelength and speed decrease",
+    "Wavelength and speed increase",
+    "Wavelength increases but speed decreases",
+    "Wavelength decreases but speed increases"
+   ],
+   "answer": 0,
+   "chapter": "Wave Optics",
+   "explanation": "On entering a denser medium, the speed of light decreases; since frequency stays constant, $\\lambda=v/f$ shows wavelength also decreases."
+  },
+  {
+   "n": 47,
+   "q": "In a system of two crossed polarisers, it is found that the intensity of light from the second polariser is half from that of first polariser. The angle between their pass axes is",
+   "options": [
+    "45°",
+    "60°",
+    "30°",
+    "0°"
+   ],
+   "answer": 0,
+   "chapter": "Wave Optics",
+   "explanation": "By Malus's law, $I=I_0\\cos^2\\theta$. Given $I=I_0/2$, $\\cos^2\\theta=1/2 \\Rightarrow \\theta=45°$."
+  },
+  {
+   "n": 48,
+   "q": "From the following graph of photo current against collector plate potential, for two different intensities of light I$_1$ and I$_2$ [both curves rise from the same negative stopping potential $-V_0$ and saturate at different photocurrent levels, with I$_2$ saturating higher than I$_1$], one can conclude",
+   "options": [
+    "I$_1$ = I$_2$",
+    "I$_1$ > I$_2$",
+    "I$_1$ < I$_2$",
+    "Comparison is not possible."
+   ],
+   "answer": 2,
+   "chapter": "Dual Nature of Radiation and Matter",
+   "explanation": "Saturation photocurrent is proportional to the intensity of incident light; since the same stopping potential applies to both (same frequency), the graph directly shows I$_1$ < I$_2$.",
+   "figure": true
+  },
+  {
+   "n": 49,
+   "q": "A particle is dropped from a height 'H'. The de Broglie wavelength of the particle depends on height as",
+   "options": [
+    "H",
+    "H$^0$",
+    "H$^{1/2}$",
+    "H$^{-1/2}$"
+   ],
+   "answer": 3,
+   "chapter": "Dual Nature of Radiation and Matter",
+   "explanation": "Speed after falling height H is $v=\\sqrt{2gH}$. de Broglie wavelength $\\lambda = \\dfrac{h}{mv} \\propto \\dfrac{1}{\\sqrt H} = H^{-1/2}$."
+  },
+  {
+   "n": 50,
+   "q": "The scientist who is credited with the discovery of 'nucleus' in an atom is",
+   "options": [
+    "J.J. Thomson",
+    "Rutherford",
+    "Niels Bohr",
+    "Balmer"
+   ],
+   "answer": 1,
+   "chapter": "Atoms",
+   "explanation": "Rutherford's alpha-particle scattering experiment led to the discovery of the atomic nucleus."
+  },
+  {
+   "n": 51,
+   "q": "The energy (in eV) required to excite an electron from n = 2 to n = 4 state in hydrogen atom is",
+   "options": [
+    "+ 2.55",
+    "-3.4",
+    "-0.85",
+    "+ 4.25"
+   ],
+   "answer": 0,
+   "chapter": "Atoms",
+   "explanation": "$E_n=-13.6/n^2$ eV. $E_2=-3.4$ eV, $E_4=-0.85$ eV. Energy required $=E_4-E_2=-0.85-(-3.4)=+2.55$ eV."
+  },
+  {
+   "n": 52,
+   "q": "In a nuclear reactor the function of the Moderator is to decrease",
+   "options": [
+    "number of neutrons",
+    "speed of neutrons",
+    "escape of neutrons",
+    "temperature of the reactor"
+   ],
+   "answer": 1,
+   "chapter": "Nuclei",
+   "explanation": "The moderator (e.g. heavy water, graphite) slows down fast neutrons to thermal speeds so they can efficiently cause further fission."
+  },
+  {
+   "n": 53,
+   "q": "The particles emitted in the decay of $^{238}_{92}$U to $^{234}_{92}$U are",
+   "options": [
+    "1 α and 2 β",
+    "1 α only",
+    "1 α and 1 β",
+    "2 α and 2 β"
+   ],
+   "answer": 0,
+   "chapter": "Nuclei",
+   "explanation": "Mass number drops by 4 (one alpha emission), but atomic number is unchanged: an alpha emission alone would drop Z by 2, so two beta emissions (each raising Z by 1) are also needed. Hence 1 alpha and 2 beta particles."
+  },
+  {
+   "n": 54,
+   "q": "The mass defect of $^4_2$He is 0.03 u. The binding energy per nucleon of helium (in MeV) is",
+   "options": [
+    "27.93",
+    "6.9825",
+    "2.793",
+    "69.825"
+   ],
+   "answer": 1,
+   "chapter": "Nuclei",
+   "explanation": "Total binding energy $= 0.03 \\times 931 = 27.93$ MeV. Per nucleon (4 nucleons): $27.93/4 = 6.9825$ MeV."
+  },
+  {
+   "n": 55,
+   "q": "The energy gap in case of which of the following is less than 3 eV ?",
+   "options": [
+    "Copper",
+    "Iron",
+    "Aluminium",
+    "Germanium"
+   ],
+   "answer": 3,
+   "chapter": "Semiconductor Electronics",
+   "explanation": "Copper, Iron and Aluminium are conductors with no meaningful energy gap concept; Germanium is a semiconductor with a well-defined energy gap of about 0.7 eV, which is less than 3 eV."
+  },
+  {
+   "n": 56,
+   "q": "Which of the following semi-conducting devices is used as voltage regulator ?",
+   "options": [
+    "Photo diode",
+    "LASER diode",
+    "Zener diode",
+    "Solar cell"
+   ],
+   "answer": 2,
+   "chapter": "Semiconductor Electronics",
+   "explanation": "A Zener diode, operated in reverse breakdown, maintains a nearly constant voltage across it and is used as a voltage regulator."
+  },
+  {
+   "n": 57,
+   "q": "In the three parts of a transistor, 'Emitter' is of",
+   "options": [
+    "moderate size and heavily doped",
+    "large size and lightly doped",
+    "thin size and heavily doped",
+    "large size and moderately doped"
+   ],
+   "answer": 0,
+   "chapter": "Semiconductor Electronics",
+   "explanation": "The emitter is moderately sized but heavily doped, so that it can supply a large number of majority charge carriers into the base."
+  },
+  {
+   "n": 58,
+   "q": "In the figure shown, if the diode forward voltage drop is 0.2 V, the voltage difference between A and B is [A connects through 0.2 mA current source and a 5 kΩ resistor to a forward-biased diode, which connects through another 5 kΩ resistor to B]",
+   "options": [
+    "1.3 V",
+    "2.2 V",
+    "0",
+    "0.5 V"
+   ],
+   "answer": 1,
+   "chapter": "Semiconductor Electronics",
+   "explanation": "Voltage drop across each 5 kΩ resistor $= 0.2\\text{mA}\\times5\\text{k}\\Omega = 1$ V. Total $V_A-V_B = 1 + 0.2 + 1 = 2.2$ V.",
+   "figure": true
+  },
+  {
+   "n": 59,
+   "q": "Which of the following logic gates is considered as 'universal' ? [options show NOR, NOT, and two NAND-style gate symbols]",
+   "options": [
+    "[NOR gate symbol]",
+    "[NOT gate symbol]",
+    "[NAND gate symbol, style 1]",
+    "[NAND gate symbol, style 2]"
+   ],
+   "answer": 3,
+   "chapter": "Semiconductor Electronics",
+   "explanation": "NAND (and NOR) gates are universal gates, since any logic function can be built using only NAND gates; the NAND gate shown in option D is the intended universal gate.",
+   "figure": true
+  },
+  {
+   "n": 60,
+   "q": "A basic communication system consists of (a) Transmitter (b) Information source (c) User of information (d) Channel (e) Receiver. The correct sequence of the arrangement is",
+   "options": [
+    "a, b, c, d and e",
+    "b, a, d, e and c",
+    "b, d, a, c and e",
+    "b, e, a, d and c"
+   ],
+   "answer": 1,
+   "chapter": "Old syllabus: Communication Systems",
+   "explanation": "A basic communication system flows: information source → transmitter → channel → receiver → user of information, i.e. sequence b, a, d, e, c."
+  }
+ ]
+}

@@ -1,0 +1,525 @@
+{
+  "notes": "<h3>Standard integrals</h3><table><tr><td>$\\int x^n dx = \\dfrac{x^{n+1}}{n+1}$</td><td>$\\int \\dfrac{dx}{x} = \\ln|x|$</td><td>$\\int e^x dx = e^x$</td><td>$\\int a^x dx = \\dfrac{a^x}{\\ln a}$</td></tr><tr><td>$\\int \\tan x\\,dx = \\ln|\\sec x|$</td><td>$\\int \\cot x\\,dx = \\ln|\\sin x|$</td><td>$\\int \\sec x\\,dx = \\ln|\\sec x + \\tan x|$</td><td>$\\int \\text{cosec}\\,x\\,dx = \\ln|\\text{cosec}\\,x - \\cot x|$</td></tr><tr><td>$\\int \\dfrac{dx}{x^2 + a^2} = \\dfrac1a\\tan^{-1}\\dfrac xa$</td><td>$\\int \\dfrac{dx}{x^2 - a^2} = \\dfrac1{2a}\\ln\\left|\\dfrac{x-a}{x+a}\\right|$</td><td>$\\int \\dfrac{dx}{a^2 - x^2} = \\dfrac1{2a}\\ln\\left|\\dfrac{a+x}{a-x}\\right|$</td><td>$\\int \\dfrac{dx}{\\sqrt{a^2 - x^2}} = \\sin^{-1}\\dfrac xa$</td></tr><tr><td>$\\int \\dfrac{dx}{\\sqrt{x^2 \\pm a^2}} = \\ln|x + \\sqrt{x^2 \\pm a^2}|$</td><td>$\\int \\sqrt{a^2 - x^2}\\,dx = \\dfrac x2\\sqrt{a^2-x^2} + \\dfrac{a^2}{2}\\sin^{-1}\\dfrac xa$</td><td colspan=2>$\\int e^x[f(x) + f'(x)]dx = e^x f(x)$</td></tr></table><h3>Methods</h3><ul><li>Substitution; $\\int \\dfrac{f'(x)}{f(x)}dx = \\ln|f(x)|$.</li><li>By parts (ILATE order for $u$): $\\int uv\\,dx = u\\int v - \\int u'\\left(\\int v\\right)$. $\\int x e^x dx = (x-1)e^x$, $\\int \\ln x\\,dx = x\\ln x - x$.</li><li>Partial fractions for rational functions; complete the square for quadratics.</li></ul><h3>Definite integral properties</h3><ul><li>$\\int_a^b f(x)dx = \\int_a^b f(a + b - x)dx$; in particular $\\int_0^a f(x)dx = \\int_0^a f(a-x)dx$ (King's rule — use for $\\int_0^{\\pi/2}\\dfrac{\\sqrt{\\sin x}}{\\sqrt{\\sin x}+\\sqrt{\\cos x}}dx = \\dfrac\\pi4$).</li><li>$\\int_{-a}^a f(x)dx = 2\\int_0^a f(x)dx$ if $f$ even; $= 0$ if $f$ odd.</li><li>$\\int_0^{2a} f(x)dx = 2\\int_0^a f(x)dx$ if $f(2a-x) = f(x)$; $= 0$ if $f(2a-x) = -f(x)$.</li><li>$\\int_0^{\\pi/2}\\ln\\sin x\\,dx = -\\dfrac\\pi2\\ln2$; $\\int_0^{\\pi/2}\\sin^2x\\,dx = \\int_0^{\\pi/2}\\cos^2x\\,dx = \\dfrac\\pi4$; $\\int_0^{\\pi/2}\\dfrac{\\sin^n x}{\\sin^n x + \\cos^n x}dx = \\dfrac\\pi4$.</li></ul><h3>Exam tip</h3><p>The single highest-weightage maths chapter (4–5 questions). At least two are on definite-integral properties (odd/even, King's rule); one on a standard form; one on by-parts or $e^x[f + f']$.</p>",
+  "questions": [
+    {
+      "id": "mat-integrals-001",
+      "q": "$\\displaystyle\\int \\frac{dx}{1 + x^2}$ is equal to",
+      "options": [
+        "$\\ln(1+x^2) + C$",
+        "$\\tan^{-1}x + C$",
+        "$\\sec^{-1}x + C$",
+        "$\\sin^{-1}x + C$"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "Standard result: $\\dfrac{d}{dx}\\tan^{-1}x = \\dfrac{1}{1+x^2}$."
+    },
+    {
+      "id": "mat-integrals-002",
+      "q": "$\\displaystyle\\int e^x(\\sin x + \\cos x)\\,dx$ is equal to",
+      "options": [
+        "$e^x\\sin x + C$",
+        "$e^x\\cos x + C$",
+        "$-e^x\\cos x + C$",
+        "$e^x(\\sin x - \\cos x) + C$"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "Of the form $\\int e^x[f(x) + f'(x)]dx$ with $f = \\sin x$, $f' = \\cos x$ → $e^x\\sin x$."
+    },
+    {
+      "id": "mat-integrals-003",
+      "q": "$\\displaystyle\\int_0^{\\pi/2} \\sin^2x\\,dx$ is equal to",
+      "options": [
+        "$1$",
+        "$\\dfrac\\pi2$",
+        "$\\dfrac12$",
+        "$\\dfrac\\pi4$"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "$\\int_0^{\\pi/2}\\sin^2x\\,dx = \\int_0^{\\pi/2}\\cos^2x\\,dx$ (King's rule) and their sum is $\\pi/2$, so each is $\\pi/4$."
+    },
+    {
+      "id": "mat-integrals-004",
+      "q": "$\\displaystyle\\int_{-1}^{1} x^3\\cos x\\,dx$ is equal to",
+      "options": [
+        "$2\\sin1$",
+        "$\\cos 1$",
+        "$0$",
+        "$1$"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "$x^3\\cos x$ is odd (odd × even), so the integral over a symmetric interval is zero."
+    },
+    {
+      "id": "mat-integrals-005",
+      "q": "$\\displaystyle\\int \\sec x\\,dx$ is equal to",
+      "options": [
+        "$\\ln|\\sec x| + C$",
+        "$\\sec x\\tan x + C$",
+        "$\\ln|\\sec x + \\tan x| + C$",
+        "$\\ln|\\tan x| + C$"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "Multiply and divide by $(\\sec x + \\tan x)$; the numerator becomes the derivative of the denominator."
+    },
+    {
+      "id": "mat-integrals-006",
+      "q": "$\\displaystyle\\int \\frac{dx}{\\sqrt{9 - x^2}}$ is equal to",
+      "options": [
+        "$\\dfrac13\\sin^{-1}\\dfrac x3 + C$",
+        "$\\sin^{-1}\\dfrac x3 + C$",
+        "$\\dfrac13\\tan^{-1}\\dfrac x3 + C$",
+        "$\\ln|x + \\sqrt{9-x^2}| + C$"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "$\\int\\dfrac{dx}{\\sqrt{a^2 - x^2}} = \\sin^{-1}\\dfrac xa$ with $a = 3$ (no $1/a$ factor here)."
+    },
+    {
+      "id": "mat-integrals-007",
+      "q": "$\\displaystyle\\int_0^{\\pi/2}\\frac{\\sqrt{\\sin x}}{\\sqrt{\\sin x} + \\sqrt{\\cos x}}\\,dx$ is equal to",
+      "options": [
+        "$\\dfrac\\pi4$",
+        "$\\pi$",
+        "$\\dfrac\\pi2$",
+        "$0$"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "Let $I$ be the integral. By $\\int_0^a f(x)dx = \\int_0^a f(a-x)dx$, $I = \\int_0^{\\pi/2}\\dfrac{\\sqrt{\\cos x}}{\\sqrt{\\cos x}+\\sqrt{\\sin x}}dx$. Adding, $2I = \\pi/2$."
+    },
+    {
+      "id": "mat-integrals-008",
+      "q": "$\\displaystyle\\int x e^x\\,dx$ is equal to",
+      "options": [
+        "$(x + 1)e^x + C$",
+        "$\\dfrac{x^2}{2}e^x + C$",
+        "$xe^x + C$",
+        "$(x - 1)e^x + C$"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "By parts with $u = x$, $dv = e^x dx$: $xe^x - \\int e^x dx = (x-1)e^x$."
+    },
+    {
+      "id": "mat-integrals-009",
+      "q": "$\\displaystyle\\int \\frac{dx}{x^2 - a^2}$ is equal to",
+      "options": [
+        "$\\ln|x^2 - a^2| + C$",
+        "$\\dfrac1{2a}\\ln\\left|\\dfrac{x-a}{x+a}\\right| + C$",
+        "$\\dfrac1{2a}\\ln\\left|\\dfrac{x+a}{x-a}\\right| + C$",
+        "$\\dfrac1a\\tan^{-1}\\dfrac xa + C$"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "Partial fractions: $\\dfrac{1}{x^2-a^2} = \\dfrac1{2a}\\left(\\dfrac1{x-a} - \\dfrac1{x+a}\\right)$."
+    },
+    {
+      "id": "mat-integrals-010",
+      "q": "$\\displaystyle\\int \\tan x\\,dx$ is equal to",
+      "options": [
+        "$\\sec^2 x + C$",
+        "$\\ln|\\sin x| + C$",
+        "$-\\ln|\\cos x| + C$",
+        "$\\ln|\\cos x| + C$"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "$\\int\\dfrac{\\sin x}{\\cos x}dx = -\\ln|\\cos x| = \\ln|\\sec x|$."
+    },
+    {
+      "id": "mat-integrals-011",
+      "q": "$\\displaystyle\\int_0^1 \\frac{x}{1 + x^2}\\,dx$ is equal to",
+      "options": [
+        "$\\dfrac12\\ln2$",
+        "$\\ln 2$",
+        "$\\dfrac12$",
+        "$\\dfrac\\pi4$"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "$\\tfrac12\\int_0^1\\dfrac{2x}{1+x^2}dx = \\tfrac12[\\ln(1+x^2)]_0^1 = \\tfrac12\\ln2$."
+    },
+    {
+      "id": "mat-integrals-012",
+      "q": "$\\displaystyle\\int \\frac{dx}{x\\ln x}$ is equal to",
+      "options": [
+        "$\\dfrac1{\\ln x} + C$",
+        "$\\ln x + C$",
+        "$\\dfrac{(\\ln x)^2}{2} + C$",
+        "$\\ln|\\ln x| + C$"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "Put $t = \\ln x$, $dt = dx/x$: $\\int dt/t = \\ln|t|$."
+    },
+    {
+      "id": "mat-integrals-013",
+      "q": "$\\displaystyle\\int_0^{\\pi} x\\sin x\\,dx$ is equal to",
+      "options": [
+        "$\\pi$",
+        "$0$",
+        "$2\\pi$",
+        "$\\dfrac\\pi2$"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "$I = \\int_0^\\pi(\\pi - x)\\sin x\\,dx \\Rightarrow 2I = \\pi\\int_0^\\pi\\sin x\\,dx = 2\\pi \\Rightarrow I = \\pi$."
+    },
+    {
+      "id": "mat-integrals-014",
+      "q": "$\\displaystyle\\int_{-\\pi/2}^{\\pi/2}\\sin^7x\\,dx$ is equal to",
+      "options": [
+        "$\\dfrac{32}{35}$",
+        "$1$",
+        "$\\dfrac{16}{35}$",
+        "$0$"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "$\\sin^7x$ is an odd function, so the integral over $[-a, a]$ is zero."
+    },
+    {
+      "id": "mat-integrals-015",
+      "q": "$\\displaystyle\\int \\frac{\\cos x}{\\sin^2 x}\\,dx$ is equal to",
+      "options": [
+        "$\\text{cosec}\\,x + C$",
+        "$-\\text{cosec}\\,x + C$",
+        "$\\sec x + C$",
+        "$-\\cot x + C$"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "Put $t = \\sin x$: $\\int dt/t^2 = -1/t = -\\text{cosec}\\,x$."
+    },
+    {
+      "id": "mat-integrals-016",
+      "q": "$\\displaystyle\\int_0^{2} |x - 1|\\,dx$ is equal to",
+      "options": [
+        "$2$",
+        "$\\dfrac12$",
+        "$1$",
+        "$0$"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "Split at $x = 1$: $\\int_0^1(1-x)dx + \\int_1^2(x-1)dx = \\tfrac12 + \\tfrac12 = 1$."
+    },
+    {
+      "id": "mat-integrals-017",
+      "q": "$\\displaystyle\\int \\ln x\\,dx$ is equal to",
+      "options": [
+        "$\\dfrac1x + C$",
+        "$\\dfrac{(\\ln x)^2}{2} + C$",
+        "$x\\ln x + x + C$",
+        "$x\\ln x - x + C$"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "By parts with $u = \\ln x$, $dv = dx$: $x\\ln x - \\int x\\cdot\\dfrac1x dx = x\\ln x - x$."
+    },
+    {
+      "id": "mat-integrals-018",
+      "q": "$\\displaystyle\\int_0^{\\pi/2}\\ln(\\sin x)\\,dx$ is equal to",
+      "options": [
+        "$-\\pi\\ln2$",
+        "$-\\dfrac\\pi2\\ln2$",
+        "$0$",
+        "$\\dfrac\\pi2\\ln2$"
+      ],
+      "answer": 1,
+      "difficulty": "hard",
+      "explanation": "A standard result: $I = \\int_0^{\\pi/2}\\ln\\sin x\\,dx = \\int_0^{\\pi/2}\\ln\\cos x\\,dx$; adding gives $2I = \\int_0^{\\pi/2}\\ln\\dfrac{\\sin2x}{2}dx = I - \\dfrac\\pi2\\ln2$."
+    },
+    {
+      "id": "mat-integrals-019",
+      "q": "$\\displaystyle\\int x^2\\,e^{x^3}\\,dx$ is equal to",
+      "options": [
+        "$\\dfrac13 e^{x^3}+C$",
+        "$3e^{x^3}+C$",
+        "$e^{x^3}+C$",
+        "$\\dfrac13 x^3 e^{x^3}+C$"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "Let $t=x^3$, $dt=3x^2dx$. Then $\\int x^2e^{x^3}dx=\\dfrac13\\int e^t dt=\\dfrac13e^{x^3}+C$."
+    },
+    {
+      "id": "mat-integrals-020",
+      "q": "$\\displaystyle\\int \\frac{dx}{x^2+2x+5}$ is equal to",
+      "options": [
+        "$\\dfrac14\\tan^{-1}\\left(\\dfrac{x+1}{2}\\right)+C$",
+        "$\\dfrac12\\tan^{-1}(x+1)+C$",
+        "$\\dfrac12\\tan^{-1}\\left(\\dfrac{x+1}{2}\\right)+C$",
+        "$\\tan^{-1}(x+1)+C$"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "$x^2+2x+5=(x+1)^2+4$. Using $\\int\\dfrac{dx}{u^2+a^2}=\\dfrac1a\\tan^{-1}\\dfrac ua+C$ with $u=x+1,a=2$: $\\dfrac12\\tan^{-1}\\left(\\dfrac{x+1}{2}\\right)+C$."
+    },
+    {
+      "id": "mat-integrals-021",
+      "q": "$\\displaystyle\\int_{-2}^{2} x^3\\,dx$ is equal to",
+      "options": [
+        "$4$",
+        "$16$",
+        "$0$",
+        "$8$"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "$x^3$ is an odd function and the interval $[-2,2]$ is symmetric about $0$, so the definite integral is $0$."
+    },
+    {
+      "id": "mat-integrals-022",
+      "q": "$\\displaystyle\\int \\frac{2x}{x^2+1}\\,dx$ is equal to",
+      "options": [
+        "$\\ln(x^2+1)+C$",
+        "$\\tan^{-1}x+C$",
+        "$2\\ln(x^2+1)+C$",
+        "$\\dfrac12\\ln(x^2+1)+C$"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "With $t=x^2+1,\\ dt=2x\\,dx$: $\\int\\dfrac{dt}{t}=\\ln|t|+C=\\ln(x^2+1)+C$."
+    },
+    {
+      "id": "mat-integrals-023",
+      "q": "$\\displaystyle\\int x\\sqrt{1+x^2}\\,dx$ is equal to",
+      "options": [
+        "$\\dfrac12(1+x^2)^{3/2}+C$",
+        "$\\dfrac13(1+x^2)^{3/2}+C$",
+        "$\\dfrac23(1+x^2)^{3/2}+C$",
+        "$(1+x^2)^{3/2}+C$"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "Let $t=1+x^2,\\ dt=2x\\,dx$: $\\int x\\sqrt{1+x^2}dx=\\dfrac12\\int\\sqrt t\\,dt=\\dfrac12\\cdot\\dfrac23t^{3/2}+C=\\dfrac13(1+x^2)^{3/2}+C$."
+    },
+    {
+      "id": "mat-integrals-024",
+      "q": "$\\displaystyle\\int \\sec^2x\\tan x\\,dx$ is equal to",
+      "options": [
+        "$\\tan^2x+C$",
+        "$\\sec^2x+C$",
+        "$\\dfrac12\\sec^2x+C$",
+        "$\\dfrac12\\tan^2x+C$"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "Let $t=\\tan x,\\ dt=\\sec^2x\\,dx$: $\\int t\\,dt=\\dfrac{t^2}{2}+C=\\dfrac12\\tan^2x+C$."
+    },
+    {
+      "id": "mat-integrals-025",
+      "q": "$\\displaystyle\\int_0^1 x(1-x)^4\\,dx$ is equal to",
+      "options": [
+        "$\\dfrac{1}{20}$",
+        "$\\dfrac{1}{6}$",
+        "$\\dfrac{1}{5}$",
+        "$\\dfrac{1}{30}$"
+      ],
+      "answer": 3,
+      "difficulty": "hard",
+      "explanation": "Using $\\int_0^1 x(1-x)^4dx=\\int_0^1[(1-x)^4-(1-x)^5]dx=\\left[\\dfrac15-\\dfrac16\\right]=\\dfrac{6-5}{30}=\\dfrac{1}{30}$ (substituting $u=1-x$ so $x=1-u$)."
+    },
+    {
+      "id": "mat-integrals-026",
+      "q": "$\\displaystyle\\int \\frac{dx}{x\\sqrt{x^2-1}}$ (for $x>1$) is equal to",
+      "options": [
+        "$\\sec^{-1}x+C$",
+        "$\\tan^{-1}x+C$",
+        "$\\csc^{-1}x+C$",
+        "$\\sin^{-1}x+C$"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "This is a standard integral: $\\int\\dfrac{dx}{x\\sqrt{x^2-1}}=\\sec^{-1}x+C$."
+    },
+    {
+      "id": "mat-integrals-027",
+      "q": "$\\displaystyle\\int_0^{\\pi/2}\\cos^2x\\,dx$ is equal to",
+      "options": [
+        "$\\dfrac{\\pi}{2}$",
+        "$0$",
+        "$\\dfrac{\\pi}{4}$",
+        "$1$"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "$\\int_0^{\\pi/2}\\cos^2x\\,dx=\\int_0^{\\pi/2}\\dfrac{1+\\cos2x}{2}dx=\\left[\\dfrac x2+\\dfrac{\\sin2x}{4}\\right]_0^{\\pi/2}=\\dfrac{\\pi}{4}$."
+    },
+    {
+      "id": "mat-integrals-028",
+      "q": "$\\displaystyle\\int \\frac{dx}{4+x^2}$ is equal to",
+      "options": [
+        "$2\\tan^{-1}\\left(\\dfrac x2\\right)+C$",
+        "$\\dfrac12\\tan^{-1}\\left(\\dfrac x2\\right)+C$",
+        "$\\tan^{-1}\\left(\\dfrac x2\\right)+C$",
+        "$\\dfrac14\\tan^{-1}\\left(\\dfrac x2\\right)+C$"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "Using $\\int\\dfrac{dx}{a^2+x^2}=\\dfrac1a\\tan^{-1}\\dfrac xa+C$ with $a=2$: $\\dfrac12\\tan^{-1}\\left(\\dfrac x2\\right)+C$."
+    },
+    {
+      "id": "mat-integrals-029",
+      "q": "$\\displaystyle\\int x\\ln x\\,dx$ is equal to",
+      "options": [
+        "$\\dfrac{x^2}{2}\\ln x-x^2+C$",
+        "$\\dfrac{x^2}{2}\\ln x-\\dfrac{x^2}{4}+C$",
+        "$x^2\\ln x-x^2+C$",
+        "$\\dfrac{x^2}{2}\\ln x+\\dfrac{x^2}{4}+C$"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "By parts with $u=\\ln x, dv=x\\,dx$: $\\int x\\ln x\\,dx=\\dfrac{x^2}2\\ln x-\\int\\dfrac{x^2}2\\cdot\\dfrac1x\\,dx=\\dfrac{x^2}2\\ln x-\\dfrac{x^2}4+C$."
+    },
+    {
+      "id": "mat-integrals-030",
+      "q": "$\\displaystyle\\int \\frac{dx}{1-x^2}$ is equal to",
+      "options": [
+        "$\\dfrac12\\ln\\left|\\dfrac{1+x}{1-x}\\right|+C$",
+        "$\\dfrac12\\ln|1-x^2|+C$",
+        "$\\tan^{-1}x+C$",
+        "$\\ln\\left|\\dfrac{1+x}{1-x}\\right|+C$"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "Standard result: $\\int\\dfrac{dx}{a^2-x^2}=\\dfrac{1}{2a}\\ln\\left|\\dfrac{a+x}{a-x}\\right|+C$; with $a=1$: $\\dfrac12\\ln\\left|\\dfrac{1+x}{1-x}\\right|+C$."
+    },
+    {
+      "id": "mat-integrals-031",
+      "q": "$\\displaystyle\\int_0^{4} \\sqrt{16-x^2}\\,dx$ represents the area of",
+      "options": [
+        "a quarter of a circle of radius 16",
+        "a semicircle of radius 4",
+        "a full circle of radius 4",
+        "a quarter of a circle of radius 4"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "$y=\\sqrt{16-x^2}$ is the upper half of the circle $x^2+y^2=16$ (radius 4); integrating from $x=0$ to $x=4$ gives the area of one quarter of this circle."
+    },
+    {
+      "id": "mat-integrals-032",
+      "q": "$\\displaystyle\\int \\cos^3x\\,dx$ is equal to",
+      "options": [
+        "$-\\sin x+\\dfrac{\\sin^3x}{3}+C$",
+        "$\\dfrac{\\sin^3x}{3}+C$",
+        "$\\sin x-\\dfrac{\\sin^3x}{3}+C$",
+        "$\\sin x+\\dfrac{\\sin^3x}{3}+C$"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "$\\int\\cos^3x\\,dx=\\int\\cos x(1-\\sin^2x)dx$. With $t=\\sin x$: $\\int(1-t^2)dt=t-\\dfrac{t^3}3+C=\\sin x-\\dfrac{\\sin^3x}3+C$."
+    },
+    {
+      "id": "mat-integrals-033",
+      "q": "$\\displaystyle\\int_0^{\\pi}\\sin x\\,dx$ is equal to",
+      "options": [
+        "$1$",
+        "$0$",
+        "$2$",
+        "$\\pi$"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "$\\int_0^\\pi\\sin x\\,dx=[-\\cos x]_0^\\pi=-\\cos\\pi-(-\\cos0)=1+1=2$."
+    },
+    {
+      "id": "mat-integrals-034",
+      "q": "$\\displaystyle\\int \\frac{x}{x^2+1}\\,dx$ is equal to",
+      "options": [
+        "$\\ln(x^2+1)+C$",
+        "$\\tan^{-1}x+C$",
+        "$2\\ln(x^2+1)+C$",
+        "$\\dfrac12\\ln(x^2+1)+C$"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "Let $t=x^2+1,\\ dt=2x\\,dx$: $\\int\\dfrac{x\\,dx}{x^2+1}=\\dfrac12\\int\\dfrac{dt}{t}=\\dfrac12\\ln(x^2+1)+C$."
+    },
+    {
+      "id": "mat-integrals-035",
+      "q": "By property of definite integrals, $\\displaystyle\\int_0^a f(x)\\,dx=\\displaystyle\\int_0^a f(a-x)\\,dx$. Using this, $\\displaystyle\\int_0^{\\pi/2}\\frac{\\cos x}{\\sin x+\\cos x}\\,dx$ equals",
+      "options": [
+        "$0$",
+        "$\\dfrac{\\pi}{4}$",
+        "$1$",
+        "$\\dfrac{\\pi}{2}$"
+      ],
+      "answer": 1,
+      "difficulty": "hard",
+      "explanation": "Let $I=\\int_0^{\\pi/2}\\dfrac{\\cos x}{\\sin x+\\cos x}dx$. By the property, $I=\\int_0^{\\pi/2}\\dfrac{\\sin x}{\\sin x+\\cos x}dx$ too (replacing $x\\to\\pi/2-x$ swaps sin and cos). Adding, $2I=\\int_0^{\\pi/2}1\\,dx=\\dfrac{\\pi}{2}$, so $I=\\dfrac{\\pi}{4}$."
+    },
+    {
+      "id": "mat-integrals-036",
+      "q": "$\\displaystyle\\int e^{2x}\\,dx$ is equal to",
+      "options": [
+        "$\\dfrac12e^{2x}+C$",
+        "$2e^{2x}+C$",
+        "$\\dfrac14e^{2x}+C$",
+        "$e^{2x}+C$"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "$\\int e^{2x}dx=\\dfrac{e^{2x}}{2}+C$ by the standard formula $\\int e^{ax}dx=\\dfrac{e^{ax}}{a}+C$."
+    },
+    {
+      "id": "mat-integrals-037",
+      "q": "$\\displaystyle\\int \\frac{1}{\\sqrt{5-4x-x^2}}\\,dx$ is equal to",
+      "options": [
+        "$\\dfrac13\\sin^{-1}\\left(\\dfrac{x+2}{3}\\right)+C$",
+        "$\\sin^{-1}\\left(\\dfrac{x+2}{3}\\right)+C$",
+        "$\\sin^{-1}\\left(\\dfrac{x-2}{3}\\right)+C$",
+        "$\\cos^{-1}\\left(\\dfrac{x+2}{3}\\right)+C$"
+      ],
+      "answer": 1,
+      "difficulty": "hard",
+      "explanation": "Completing the square: $5-4x-x^2=9-(x+2)^2$. Using $\\int\\dfrac{dx}{\\sqrt{a^2-u^2}}=\\sin^{-1}\\dfrac ua+C$ with $u=x+2,a=3$: $\\sin^{-1}\\left(\\dfrac{x+2}{3}\\right)+C$."
+    },
+    {
+      "id": "mat-integrals-038",
+      "q": "$\\displaystyle\\int_{1}^{e} \\frac{1}{x}\\,dx$ is equal to",
+      "options": [
+        "$e-1$",
+        "$0$",
+        "$1$",
+        "$e$"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "$\\int_1^e\\dfrac1x dx=[\\ln x]_1^e=\\ln e-\\ln1=1-0=1$."
+    },
+    {
+      "id": "mat-integrals-039",
+      "q": "$\\displaystyle\\int \\frac{dx}{x^2-4}$ is equal to",
+      "options": [
+        "$\\dfrac14\\ln\\left|\\dfrac{x-2}{x+2}\\right|+C$",
+        "$\\ln\\left|\\dfrac{x-2}{x+2}\\right|+C$",
+        "$\\dfrac14\\ln\\left|\\dfrac{x+2}{x-2}\\right|+C$",
+        "$\\dfrac12\\ln\\left|\\dfrac{x-2}{x+2}\\right|+C$"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "Using $\\int\\dfrac{dx}{x^2-a^2}=\\dfrac{1}{2a}\\ln\\left|\\dfrac{x-a}{x+a}\\right|+C$ with $a=2$: $\\dfrac14\\ln\\left|\\dfrac{x-2}{x+2}\\right|+C$."
+    },
+    {
+      "id": "mat-integrals-040",
+      "q": "$\\displaystyle\\int_{-1}^{1} \\frac{1}{1+x^2}\\,dx$ is equal to",
+      "options": [
+        "$0$",
+        "$\\pi$",
+        "$\\dfrac{\\pi}{4}$",
+        "$\\dfrac{\\pi}{2}$"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "$\\int_{-1}^1\\dfrac{dx}{1+x^2}=[\\tan^{-1}x]_{-1}^1=\\tan^{-1}1-\\tan^{-1}(-1)=\\dfrac{\\pi}4-\\left(-\\dfrac{\\pi}4\\right)=\\dfrac{\\pi}2$."
+    }
+  ]
+}

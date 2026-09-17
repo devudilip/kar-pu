@@ -1,0 +1,525 @@
+{
+  "notes": "<h3>Displacement Current</h3><ul><li>Maxwell added displacement current $I_d = \\varepsilon_0\\dfrac{d\\Phi_E}{dt}$ to Ampere's law to make it consistent with charge conservation (e.g. inside a charging capacitor, where conduction current is zero but $E$ is changing).</li><li>Modified Ampere–Maxwell law: $\\oint \\vec{B}\\cdot d\\vec{l} = \\mu_0(I_c + I_d)$.</li></ul><h3>Nature of EM Waves</h3><ul><li>Accelerated charges radiate EM waves. $\\vec{E}$ and $\\vec{B}$ oscillate perpendicular to each other and to the direction of propagation (transverse), in phase, with $\\dfrac{E_0}{B_0} = c$.</li><li>Speed in vacuum $c = \\dfrac{1}{\\sqrt{\\mu_0\\varepsilon_0}} = 3\\times10^8\\ \\text{m s}^{-1}$; in a medium $v = \\dfrac{1}{\\sqrt{\\mu\\varepsilon}}$, refractive index $n = \\sqrt{\\mu_r\\varepsilon_r}$.</li><li>EM waves carry energy and momentum; they exert radiation pressure. For total absorption $p = U/c$; for total reflection $p = 2U/c$.</li><li>EM waves do not need a medium and are unaffected by electric/magnetic fields (they are neutral).</li></ul><h3>Electromagnetic Spectrum</h3><table><tr><th>Radiation</th><th>Wavelength range</th><th>Production</th><th>Use</th></tr><tr><td>Radio</td><td>&gt;0.1 m</td><td>Oscillating circuits</td><td>Communication</td></tr><tr><td>Microwave</td><td>0.1 m–1 mm</td><td>Klystron/magnetron</td><td>Radar, ovens</td></tr><tr><td>Infrared</td><td>1 mm–700 nm</td><td>Hot bodies</td><td>Night vision, remotes</td></tr><tr><td>Visible</td><td>700–400 nm</td><td>Atomic transitions</td><td>Vision</td></tr><tr><td>Ultraviolet</td><td>400–1 nm</td><td>Sun, arc lamps</td><td>Sterilisation</td></tr><tr><td>X-rays</td><td>1 nm–$10^{-3}$ nm</td><td>Sudden deceleration of electrons</td><td>Medical imaging</td></tr><tr><td>Gamma rays</td><td>&lt;$10^{-3}$ nm</td><td>Nuclear decay</td><td>Cancer treatment</td></tr></table><li>Increasing frequency order: radio &lt; microwave &lt; IR &lt; visible &lt; UV &lt; X-ray &lt; gamma. The ozone layer absorbs harmful UV; greenhouse effect is due to IR trapping by CO$_2$/water vapour.</li><h3>Exam tip</h3><p>KCET usually asks 1 question, almost always on the electromagnetic spectrum order/uses or the direction/ratio of $\\vec{E}$, $\\vec{B}$ and $\\vec{k}$. Memorise the spectrum table and the displacement current formula.</p>",
+  "questions": [
+    {
+      "id": "phy-electromagnetic-waves-001",
+      "q": "Displacement current arises due to",
+      "options": [
+        "steady conduction current",
+        "a time-varying electric field",
+        "a time-varying magnetic field",
+        "motion of free electrons in a conductor"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "Maxwell defined $I_d = \\varepsilon_0\\dfrac{d\\Phi_E}{dt}$, which exists wherever the electric flux through a surface changes with time, such as between capacitor plates while charging."
+    },
+    {
+      "id": "phy-electromagnetic-waves-002",
+      "q": "In an electromagnetic wave travelling along the $+x$ direction, the electric field is along $y$. The magnetic field is along",
+      "options": [
+        "$z$",
+        "$-y$",
+        "$y$",
+        "$x$"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "$\\vec{E}$, $\\vec{B}$ and the direction of propagation $\\vec{k}$ are mutually perpendicular, forming a right-handed set; $\\hat{y}\\times\\hat{z} = \\hat{x}$, so $\\vec{B}$ is along $z$."
+    },
+    {
+      "id": "phy-electromagnetic-waves-003",
+      "q": "The ratio of amplitudes of electric and magnetic fields in an electromagnetic wave in vacuum equals",
+      "options": [
+        "$1/c$",
+        "$\\mu_0\\varepsilon_0$",
+        "$1/(\\mu_0\\varepsilon_0)$",
+        "$c$"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "$E_0/B_0 = c$, the speed of light, a direct consequence of Maxwell's equations."
+    },
+    {
+      "id": "phy-electromagnetic-waves-004",
+      "q": "A parallel plate capacitor with circular plates of radius 5 cm is being charged. At an instant, the conduction current is 2 A. The displacement current between the plates at that instant is",
+      "options": [
+        "4 A",
+        "0 A",
+        "2 A",
+        "1 A"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "In series with the charging circuit, the displacement current between the plates always equals the conduction current in the wires, so $I_d = 2$ A."
+    },
+    {
+      "id": "phy-electromagnetic-waves-005",
+      "q": "Which of the following correctly orders the electromagnetic spectrum by increasing frequency?",
+      "options": [
+        "Visible, UV, IR, X-rays, gamma rays, radio, microwave",
+        "Radio, microwave, IR, visible, UV, X-rays, gamma rays",
+        "Microwave, radio, IR, visible, UV, gamma rays, X-rays",
+        "Gamma rays, X-rays, UV, visible, IR, microwave, radio"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "Frequency increases as radio < microwave < infrared < visible < ultraviolet < X-rays < gamma rays (wavelength decreases in the same order)."
+    },
+    {
+      "id": "phy-electromagnetic-waves-006",
+      "q": "X-rays are produced by",
+      "options": [
+        "radioactive decay of heavy nuclei",
+        "nuclear fission",
+        "sudden deceleration of fast-moving electrons on striking a metal target",
+        "vibration of atoms in a hot filament"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "In an X-ray tube, high-energy electrons are suddenly stopped by a metal (target) anode; the lost kinetic energy is emitted as X-ray photons (bremsstrahlung)."
+    },
+    {
+      "id": "phy-electromagnetic-waves-007",
+      "q": "The layer of the atmosphere that absorbs most of the harmful ultraviolet radiation from the sun is the",
+      "options": [
+        "ionosphere",
+        "troposphere",
+        "stratosphere's nitrogen layer",
+        "ozone layer"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "Ozone (O$_3$) in the stratosphere absorbs UV radiation, protecting living organisms from its harmful effects."
+    },
+    {
+      "id": "phy-electromagnetic-waves-008",
+      "q": "An electromagnetic wave of intensity $I$ falls normally on a perfectly reflecting surface of area $A$ and is completely reflected. The radiation pressure exerted is",
+      "options": [
+        "$2I/c$",
+        "$2IA/c$",
+        "$IA/c$",
+        "$I/c$"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "For total reflection, momentum transferred per unit area per unit time is $2I/c$ (energy $U=I$ per unit area per unit time, and $p = 2U/c$ for reflection)."
+    },
+    {
+      "id": "phy-electromagnetic-waves-009",
+      "q": "The refractive index of a non-magnetic ($\\mu_r \\approx 1$) medium with relative permittivity 2.25 for electromagnetic waves is",
+      "options": [
+        "2.25",
+        "1.125",
+        "4.5",
+        "1.5"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "$n = \\sqrt{\\mu_r\\varepsilon_r} = \\sqrt{1\\times2.25} = 1.5$."
+    },
+    {
+      "id": "phy-electromagnetic-waves-010",
+      "q": "Which statement about electromagnetic waves is correct?",
+      "options": [
+        "They are transverse waves in which $E$ and $B$ oscillate in phase",
+        "They are deflected by electric and magnetic fields since they consist of $E$ and $B$",
+        "They carry energy but not momentum",
+        "They require a material medium to propagate"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "EM waves are transverse, need no medium, are electrically neutral (not deflected by fields), and carry both energy and momentum; $E$ and $B$ oscillate in phase."
+    },
+    {
+      "id": "phy-electromagnetic-waves-011",
+      "q": "Microwaves are best suited for radar systems because they",
+      "options": [
+        "travel slower than light, giving more accurate ranging",
+        "are absorbed strongly by metal objects",
+        "have short wavelength and can be transmitted as narrow beams",
+        "have very low frequency and diffract around obstacles"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "Microwaves have short wavelength, allowing them to be formed into narrow directional beams (using small antennas) that reflect off targets, ideal for radar."
+    },
+    {
+      "id": "phy-electromagnetic-waves-012",
+      "q": "In an electromagnetic wave, the energy density stored in the electric field, on time-averaging, is",
+      "options": [
+        "much greater than that in the magnetic field",
+        "equal to that in the magnetic field",
+        "much less than that in the magnetic field",
+        "zero"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "For an EM wave, average electric energy density $\\dfrac{1}{2}\\varepsilon_0 E_{rms}^2$ equals average magnetic energy density $\\dfrac{1}{2}\\dfrac{B_{rms}^2}{\\mu_0}$, each contributing equally to total energy."
+    },
+    {
+      "id": "phy-electromagnetic-waves-013",
+      "q": "Infrared radiation is often called heat radiation mainly because",
+      "options": [
+        "it is emitted only by radioactive substances",
+        "it has the highest frequency in the EM spectrum",
+        "it travels faster than visible light",
+        "it is strongly absorbed by water molecules in the skin producing a heating effect"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "Infrared photons are readily absorbed by water and other molecules, increasing their kinetic energy (heat), which is why IR lamps are used for warming."
+    },
+    {
+      "id": "phy-electromagnetic-waves-014",
+      "q": "If the amplitude of the magnetic field in an electromagnetic wave in vacuum is $2\\times10^{-7}$ T, the amplitude of the electric field is (take $c = 3\\times10^8\\ \\text{m s}^{-1}$)",
+      "options": [
+        "$1.5\\times10^{-15}$ V/m",
+        "$60$ V/m",
+        "$6\\times10^{-1}$ V/m",
+        "$6\\times10^{-15}$ V/m"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "$E_0 = cB_0 = 3\\times10^8\\times2\\times10^{-7} = 60$ V/m."
+    },
+    {
+      "id": "phy-electromagnetic-waves-015",
+      "q": "The wave equation of Maxwell's theory shows that the speed of light in vacuum is",
+      "options": [
+        "independent of $\\mu_0$ and $\\varepsilon_0$",
+        "directly proportional to $\\mu_0\\varepsilon_0$",
+        "inversely proportional to $\\sqrt{\\mu_0\\varepsilon_0}$",
+        "equal to $\\sqrt{\\mu_0\\varepsilon_0}$"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "$c = \\dfrac{1}{\\sqrt{\\mu_0\\varepsilon_0}}$, so $c$ is inversely proportional to $\\sqrt{\\mu_0\\varepsilon_0}$."
+    },
+    {
+      "id": "phy-electromagnetic-waves-016",
+      "q": "Gamma rays used in the treatment of cancer are produced by",
+      "options": [
+        "de-excitation of nuclei following radioactive decay",
+        "sudden stopping of electrons in an X-ray tube",
+        "oscillating LC circuits",
+        "transitions of outer atomic electrons"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "Gamma rays originate from nuclear transitions/decays, unlike X-rays which arise from electron transitions or deceleration; this is a common point of confusion in KCET."
+    },
+    {
+      "id": "phy-electromagnetic-waves-017",
+      "q": "A plane electromagnetic wave has frequency $6\\times10^{14}$ Hz. Its wavelength in vacuum is closest to",
+      "options": [
+        "300 nm",
+        "500 nm",
+        "1000 nm",
+        "700 nm"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "$\\lambda = c/f = \\dfrac{3\\times10^8}{6\\times10^{14}} = 5\\times10^{-7}\\ \\text{m} = 500$ nm, in the visible (green) range."
+    },
+    {
+      "id": "phy-electromagnetic-waves-018",
+      "q": "Which of these is NOT a property of electromagnetic waves?",
+      "options": [
+        "They travel with the same speed $c$ in vacuum regardless of frequency",
+        "They show reflection, refraction, interference and diffraction",
+        "They obey the principle of superposition",
+        "They are longitudinal waves"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "EM waves are transverse, not longitudinal; all the other listed properties (superposition, constant vacuum speed, wave phenomena) are correct."
+    },
+    {
+      "id": "phy-electromagnetic-waves-019",
+      "q": "The direction of energy flow (and wave propagation) in an electromagnetic wave is given by the direction of",
+      "options": [
+        "the gradient of electric potential",
+        "the magnetic field vector alone",
+        "the Poynting vector, $\\vec S = \\vec E \\times \\vec H$",
+        "the electric field vector alone"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "The Poynting vector $\\vec S=\\vec E\\times\\vec H$ gives both the direction and magnitude of energy flux carried by an electromagnetic wave, and points along the direction of propagation."
+    },
+    {
+      "id": "phy-electromagnetic-waves-020",
+      "q": "The peak electric field of an electromagnetic wave in vacuum is 100 V/m. The average intensity of the wave is (use $I=\\frac12\\varepsilon_0cE_0^2$, $\\varepsilon_0=8.85\\times10^{-12}$ C$^2$/N m$^2$)",
+      "options": [
+        "13.3 W/m$^2$",
+        "100 W/m$^2$",
+        "26.5 W/m$^2$",
+        "6.6 W/m$^2$"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "$I=\\dfrac12\\times8.85\\times10^{-12}\\times3\\times10^8\\times(100)^2\\approx13.3$ W/m$^2$."
+    },
+    {
+      "id": "phy-electromagnetic-waves-021",
+      "q": "The total average energy density of an electromagnetic wave in vacuum, in terms of the rms electric field $E_{rms}$, is",
+      "options": [
+        "$\\frac12\\varepsilon_0E_{rms}^2$",
+        "$\\varepsilon_0E_{rms}^2$",
+        "$2\\varepsilon_0E_{rms}^2$",
+        "$4\\varepsilon_0E_{rms}^2$"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "Electric and magnetic energy densities are equal, each averaging $\\frac12\\varepsilon_0E_{rms}^2$; their sum gives total average energy density $u=\\varepsilon_0E_{rms}^2$."
+    },
+    {
+      "id": "phy-electromagnetic-waves-022",
+      "q": "An electromagnetic wave has wavelength 500 nm in vacuum. Its wave number $k=2\\pi/\\lambda$ is",
+      "options": [
+        "$2.5\\times10^{6}$ m$^{-1}$",
+        "$5\\times10^{7}$ m$^{-1}$",
+        "$1.26\\times10^{7}$ m$^{-1}$",
+        "$6.28\\times10^{6}$ m$^{-1}$"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "$k=2\\pi/\\lambda=2\\pi/(5\\times10^{-7})\\approx1.26\\times10^{7}$ m$^{-1}$."
+    },
+    {
+      "id": "phy-electromagnetic-waves-023",
+      "q": "An electromagnetic wave travels along the $-y$ direction with its electric field along $+z$. The magnetic field must be along",
+      "options": [
+        "$-z$",
+        "$+y$",
+        "$+x$",
+        "$-x$"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "Propagation direction is along $\\vec E\\times\\vec B$; with $\\vec E$ along $+z$ and propagation along $-y$, $\\vec B$ must be along $-x$, since $\\hat z\\times(-\\hat x)=-\\hat y$."
+    },
+    {
+      "id": "phy-electromagnetic-waves-024",
+      "q": "Which of the following pairs of field amplitudes ($E_0$, $B_0$) is consistent with a valid electromagnetic wave travelling in vacuum?",
+      "options": [
+        "$E_0=300$ V/m, $B_0=1\\times10^{-6}$ T",
+        "$E_0=300$ V/m, $B_0=3\\times10^{-8}$ T",
+        "$E_0=300$ V/m, $B_0=1\\times10^{-8}$ T",
+        "$E_0=300$ V/m, $B_0=3\\times10^{-6}$ T"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "A valid EM wave in vacuum requires $E_0/B_0=c=3\\times10^8$ m/s; only $300/(1\\times10^{-6})=3\\times10^8$ satisfies this."
+    },
+    {
+      "id": "phy-electromagnetic-waves-025",
+      "q": "A radio wave has a wavelength of 300 m. Its frequency is",
+      "options": [
+        "1 kHz",
+        "$3\\times10^{8}$ Hz",
+        "1 MHz",
+        "100 kHz"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "$f=c/\\lambda=3\\times10^8/300=1\\times10^6$ Hz $=1$ MHz."
+    },
+    {
+      "id": "phy-electromagnetic-waves-026",
+      "q": "Satellite communication (uplink/downlink) uses microwaves rather than ordinary long-wavelength radio waves mainly because microwaves",
+      "options": [
+        "can penetrate the ionosphere without being reflected back",
+        "have zero energy loss",
+        "travel faster than radio waves",
+        "are not electromagnetic waves"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "Lower-frequency radio waves are reflected by the ionosphere, but microwaves are short enough in wavelength to pass through it, making them suitable for communicating with satellites."
+    },
+    {
+      "id": "phy-electromagnetic-waves-027",
+      "q": "Television signals (very high frequency) are transmitted using tall antennas because they propagate mainly as",
+      "options": [
+        "waves that travel through the earth's core",
+        "space waves, requiring line-of-sight transmission since they are not reflected by the ionosphere",
+        "ground waves that follow the earth's curvature over long distances",
+        "sky waves reflected multiple times by the ionosphere"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "VHF/UHF television signals are neither reflected by the ionosphere nor diffract appreciably around the earth's curvature, so they travel as space (line-of-sight) waves, requiring tall transmitting/receiving antennas."
+    },
+    {
+      "id": "phy-electromagnetic-waves-028",
+      "q": "Night-vision (thermal imaging) cameras can form images in complete darkness because they detect",
+      "options": [
+        "gamma radiation emitted by warm bodies",
+        "visible light reflected from objects",
+        "ultraviolet radiation absorbed by the lens",
+        "infrared radiation emitted by all objects due to their temperature"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "All objects above absolute zero continuously emit infrared (thermal) radiation; thermal cameras detect this IR emission to form an image even without any visible light."
+    },
+    {
+      "id": "phy-electromagnetic-waves-029",
+      "q": "Which statement about ultraviolet radiation is correct?",
+      "options": [
+        "It cannot be absorbed by the ozone layer",
+        "It has a longer wavelength than visible light",
+        "It helps in the production of vitamin D in the skin but excessive exposure can cause skin cancer and damage the eyes",
+        "It is completely harmless in any amount"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "UV radiation triggers vitamin D synthesis in skin in small doses, but prolonged exposure causes skin cancer and eye damage; most harmful UV is absorbed by the ozone layer."
+    },
+    {
+      "id": "phy-electromagnetic-waves-030",
+      "q": "X-rays are used to study crystal structures (X-ray diffraction) because",
+      "options": [
+        "they have zero energy",
+        "they travel slower than visible light in crystals",
+        "they cannot penetrate matter",
+        "their wavelength is comparable to the interatomic spacing in crystals"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "Diffraction effects are prominent when wavelength is comparable to the spacing of scattering centres; X-ray wavelengths (~0.1 nm) match typical interatomic distances in crystals."
+    },
+    {
+      "id": "phy-electromagnetic-waves-031",
+      "q": "In medicine, gamma rays are used for",
+      "options": [
+        "stimulating vitamin D synthesis in skin",
+        "cancer radiotherapy and sterilising surgical equipment",
+        "producing images using visible light contrast",
+        "measuring blood pressure"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "The high energy and penetrating power of gamma rays make them useful for destroying cancerous cells (radiotherapy) and sterilising medical instruments."
+    },
+    {
+      "id": "phy-electromagnetic-waves-032",
+      "q": "Displacement current was introduced by Maxwell as a modification to",
+      "options": [
+        "Ampere's circuital law",
+        "Gauss's law for magnetism",
+        "Gauss's law for electricity",
+        "Faraday's law of induction"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "Maxwell added the displacement current term $\\varepsilon_0d\\Phi_E/dt$ to Ampere's law, giving $\\oint\\vec B\\cdot d\\vec l=\\mu_0(I_c+I_d)$, making it consistent with charge conservation."
+    },
+    {
+      "id": "phy-electromagnetic-waves-033",
+      "q": "While a parallel plate capacitor is being charged, inside the gap between the plates there is",
+      "options": [
+        "an electric current due to free electrons crossing the gap",
+        "a conduction current equal to that in the wires, and no displacement current",
+        "no conduction current but a displacement current equal to the conduction current in the connecting wires",
+        "neither conduction nor displacement current"
+      ],
+      "answer": 2,
+      "difficulty": "hard",
+      "explanation": "No charge crosses the gap (no conduction current), but the changing electric flux between the plates produces a displacement current numerically equal to the conduction current in the wires, keeping the circuit current continuous."
+    },
+    {
+      "id": "phy-electromagnetic-waves-034",
+      "q": "A microwave oven heats food by",
+      "options": [
+        "directly burning the food surface with infrared radiation",
+        "causing water molecules in the food to rotate/vibrate rapidly, converting microwave energy to heat (dielectric heating)",
+        "using ultraviolet radiation to sterilise the food",
+        "passing an electric current through the food"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "Microwaves at a frequency matched to water's rotational absorption cause water molecules in the food to oscillate rapidly, generating heat throughout the food (dielectric heating)."
+    },
+    {
+      "id": "phy-electromagnetic-waves-035",
+      "q": "Visible light of wavelength 600 nm has a frequency of",
+      "options": [
+        "$5\\times10^{14}$ Hz",
+        "$3\\times10^{8}$ Hz",
+        "$6\\times10^{14}$ Hz",
+        "$5\\times10^{13}$ Hz"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "$f=c/\\lambda=3\\times10^8/(600\\times10^{-9})=5\\times10^{14}$ Hz."
+    },
+    {
+      "id": "phy-electromagnetic-waves-036",
+      "q": "An electromagnetic wave is described by $E = E_0\\sin(kx-\\omega t)$ with $k=2\\times10^7$ rad/m and $\\omega=6\\times10^{15}$ rad/s. Its speed is",
+      "options": [
+        "$3.3\\times10^{-9}$ m/s",
+        "$1.2\\times10^{23}$ m/s",
+        "$3\\times10^{7}$ m/s",
+        "$3\\times10^{8}$ m/s"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "Wave speed $v=\\omega/k=(6\\times10^{15})/(2\\times10^7)=3\\times10^8$ m/s, as expected for an EM wave in vacuum."
+    },
+    {
+      "id": "phy-electromagnetic-waves-037",
+      "q": "The existence of electromagnetic waves, predicted theoretically by Maxwell, was first experimentally demonstrated by",
+      "options": [
+        "Michael Faraday",
+        "James Clerk Maxwell himself",
+        "Marconi",
+        "Heinrich Hertz"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "Heinrich Hertz generated and detected radio waves in the laboratory in 1887, confirming Maxwell's theoretical prediction of electromagnetic waves."
+    },
+    {
+      "id": "phy-electromagnetic-waves-038",
+      "q": "Which of the following correctly lists electromagnetic radiations in order of increasing wavelength?",
+      "options": [
+        "IR, visible, UV, radio, microwave, X-rays, gamma",
+        "Gamma rays, X-rays, UV, visible, IR, microwave, radio",
+        "Radio, microwave, IR, visible, UV, X-rays, gamma rays",
+        "Visible, IR, UV, X-rays, radio, microwave, gamma"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "Wavelength increases as frequency decreases, so the order is gamma rays < X-rays < UV < visible < IR < microwave < radio — exactly the reverse of the increasing-frequency order."
+    },
+    {
+      "id": "phy-electromagnetic-waves-039",
+      "q": "The refractive indices of two transparent media for a given electromagnetic (light) wave are 1.5 and 2.0. The ratio of speeds of the wave in the two media ($v_1:v_2$) is",
+      "options": [
+        "3:4",
+        "2:3",
+        "4:3",
+        "1:1"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "Since $v=c/n$, $v_1:v_2 = n_2:n_1 = 2.0:1.5 = 4:3$."
+    },
+    {
+      "id": "phy-electromagnetic-waves-040",
+      "q": "Sunlight of intensity 1000 W/m$^2$ falls normally on a perfectly absorbing surface of area 2 m$^2$. The force exerted by radiation on the surface is approximately",
+      "options": [
+        "$6.7\\times10^{-6}$ N",
+        "$2\\times10^{-3}$ N",
+        "$3.3\\times10^{-6}$ N",
+        "$1.3\\times10^{-5}$ N"
+      ],
+      "answer": 0,
+      "difficulty": "hard",
+      "explanation": "Radiation pressure for total absorption $p=I/c=1000/(3\\times10^8)\\approx3.3\\times10^{-6}$ Pa; force $=p\\times A\\approx3.3\\times10^{-6}\\times2\\approx6.7\\times10^{-6}$ N."
+    }
+  ]
+}

@@ -1,0 +1,525 @@
+{
+  "notes": "<h3>Vectors</h3><ul><li>Triangle/parallelogram law: $R = \\sqrt{A^2+B^2+2AB\\cos\\theta}$; direction $\\tan\\alpha = \\dfrac{B\\sin\\theta}{A+B\\cos\\theta}$.</li><li>Resultant is maximum ($A+B$) when $\\theta = 0^\\circ$ and minimum ($|A-B|$) when $\\theta = 180^\\circ$. For two equal vectors of magnitude $A$ at angle $\\theta$: $R = 2A\\cos(\\theta/2)$.</li><li>Resolution into components: $A_x = A\\cos\\theta$, $A_y = A\\sin\\theta$.</li><li>Dot product $\\vec A\\cdot\\vec B = AB\\cos\\theta$ (scalar). Cross product $|\\vec A\\times\\vec B| = AB\\sin\\theta$ (vector; direction by the right-hand rule).</li></ul><h3>Projectile motion (launch speed $u$, angle $\\theta$ to horizontal)</h3><ul><li>Time of flight $T = \\dfrac{2u\\sin\\theta}{g}$</li><li>Maximum height $H = \\dfrac{u^2\\sin^2\\theta}{2g}$</li><li>Range $R = \\dfrac{u^2\\sin2\\theta}{g}$, maximum at $\\theta = 45^\\circ$, giving $R_{max} = u^2/g$; at $45^\\circ$, $H = R/4$.</li><li>Same range for complementary angles $\\theta$ and $(90^\\circ-\\theta)$.</li><li>Trajectory is a parabola: $y = x\\tan\\theta - \\dfrac{gx^2}{2u^2\\cos^2\\theta}$.</li><li>Horizontal projectile launched from height $h$: time to land $t = \\sqrt{2h/g}$; horizontal range $= v_0t$.</li></ul><h3>Uniform circular motion</h3><ul><li>Speed is constant but the velocity direction (tangential to the circle) keeps changing, so the motion is accelerated.</li><li>Centripetal acceleration $a = \\dfrac{v^2}{r} = \\omega^2r$, always directed toward the centre.</li><li>$v = r\\omega$; time period $T = \\dfrac{2\\pi r}{v} = \\dfrac{2\\pi}{\\omega}$; frequency $n = 1/T$.</li></ul><h3>Exam tip</h3><p>KCET typically sets about 2 questions from this chapter &mdash; usually one projectile range/height numerical and one vector-algebra or circular-motion concept/numerical. Most are a single direct substitution into the boxed formulas above.</p>",
+  "questions": [
+    {
+      "id": "phy-motion-in-a-plane-001",
+      "q": "Two forces of magnitude 5 N each act at a point with an angle of 60° between them. The magnitude of their resultant is",
+      "options": [
+        "$2.5\\sqrt3$ N",
+        "$5\\sqrt3$ N",
+        "5 N",
+        "10 N"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "For equal vectors, $R = 2A\\cos(\\theta/2) = 2\\times5\\times\\cos30^\\circ = 10\\times\\dfrac{\\sqrt3}{2} = 5\\sqrt3$ N."
+    },
+    {
+      "id": "phy-motion-in-a-plane-002",
+      "q": "A vector of magnitude 3 units and another of magnitude 4 units act at right angles to each other. The magnitude of their resultant is",
+      "options": [
+        "5 units",
+        "12 units",
+        "1 unit",
+        "7 units"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "$R = \\sqrt{3^2+4^2} = \\sqrt{25} = 5$ units (Pythagoras, since $\\theta=90^\\circ$)."
+    },
+    {
+      "id": "phy-motion-in-a-plane-003",
+      "q": "Two forces P and Q act on a particle. Their resultant is maximum when the angle between them is",
+      "options": [
+        "180°",
+        "90°",
+        "0°",
+        "60°"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "$R = \\sqrt{P^2+Q^2+2PQ\\cos\\theta}$ is largest when $\\cos\\theta = 1$, i.e. $\\theta = 0^\\circ$, giving $R = P+Q$."
+    },
+    {
+      "id": "phy-motion-in-a-plane-004",
+      "q": "For the same two forces P and Q, the resultant is minimum when the angle between them is",
+      "options": [
+        "60°",
+        "0°",
+        "90°",
+        "180°"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "$\\cos\\theta = -1$ at $\\theta=180^\\circ$ gives the smallest resultant, $R = |P-Q|$."
+    },
+    {
+      "id": "phy-motion-in-a-plane-005",
+      "q": "A displacement vector of magnitude 10 units makes an angle of 30° with the x-axis. Its component along the y-axis is",
+      "options": [
+        "2.5 units",
+        "5 units",
+        "8.66 units",
+        "10 units"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "$A_y = A\\sin\\theta = 10\\times\\sin30^\\circ = 10\\times0.5 = 5$ units."
+    },
+    {
+      "id": "phy-motion-in-a-plane-006",
+      "q": "Two vectors of magnitudes 4 units and 3 units have a dot product of 6. The angle between them is",
+      "options": [
+        "45°",
+        "30°",
+        "60°",
+        "90°"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "$\\cos\\theta = \\dfrac{\\vec A\\cdot\\vec B}{AB} = \\dfrac{6}{12} = 0.5 \\Rightarrow \\theta = 60^\\circ$."
+    },
+    {
+      "id": "phy-motion-in-a-plane-007",
+      "q": "Two vectors of magnitudes 2 units and 3 units are inclined at 30° to each other. The magnitude of their cross product is",
+      "options": [
+        "3",
+        "6",
+        "5.2",
+        "1.5"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "$|\\vec A\\times\\vec B| = AB\\sin\\theta = 2\\times3\\times\\sin30^\\circ = 6\\times0.5 = 3$."
+    },
+    {
+      "id": "phy-motion-in-a-plane-008",
+      "q": "A ball is projected with a speed of 20 m s$^{-1}$ at 45° to the horizontal. Its horizontal range is",
+      "options": [
+        "28.3 m",
+        "20 m",
+        "80 m",
+        "40 m"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "$R = \\dfrac{u^2\\sin2\\theta}{g} = \\dfrac{400\\times\\sin90^\\circ}{10} = 40$ m."
+    },
+    {
+      "id": "phy-motion-in-a-plane-009",
+      "q": "A projectile is launched with speed 20 m s$^{-1}$ at 30° to the horizontal. Its time of flight is",
+      "options": [
+        "2 s",
+        "1 s",
+        "3.46 s",
+        "4 s"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "$T = \\dfrac{2u\\sin\\theta}{g} = \\dfrac{2\\times20\\times0.5}{10} = 2$ s."
+    },
+    {
+      "id": "phy-motion-in-a-plane-010",
+      "q": "For a projectile launched with $u = 20$ m s$^{-1}$ at $\\theta = 30^\\circ$ ($g = 10$ m s$^{-2}$), the maximum height reached is",
+      "options": [
+        "2.5 m",
+        "5 m",
+        "10 m",
+        "20 m"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "$H = \\dfrac{u^2\\sin^2\\theta}{2g} = \\dfrac{400\\times0.25}{20} = 5$ m."
+    },
+    {
+      "id": "phy-motion-in-a-plane-011",
+      "q": "A ball is thrown horizontally with a speed of 10 m s$^{-1}$ from the top of a 20 m high tower. The horizontal distance it covers before hitting the ground is",
+      "options": [
+        "28.3 m",
+        "40 m",
+        "10 m",
+        "20 m"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "Time to fall: $t=\\sqrt{2h/g}=\\sqrt{40/10}=2$ s. Horizontal range $= v_0t = 10\\times2 = 20$ m."
+    },
+    {
+      "id": "phy-motion-in-a-plane-012",
+      "q": "For a projectile launched with a fixed speed, the horizontal range is maximum when the angle of projection is",
+      "options": [
+        "30°",
+        "60°",
+        "45°",
+        "90°"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "$R = u^2\\sin2\\theta/g$ is maximum when $\\sin2\\theta = 1$, i.e. $\\theta = 45^\\circ$."
+    },
+    {
+      "id": "phy-motion-in-a-plane-013",
+      "q": "A projectile fired at 30° to the horizontal has the same range as one fired with the same speed at",
+      "options": [
+        "45°",
+        "60°",
+        "75°",
+        "30°"
+      ],
+      "answer": 1,
+      "difficulty": "hard",
+      "explanation": "Range depends on $\\sin2\\theta$, which is the same for complementary angles $\\theta$ and $(90^\\circ-\\theta)$; here $90^\\circ - 30^\\circ = 60^\\circ$."
+    },
+    {
+      "id": "phy-motion-in-a-plane-014",
+      "q": "In the absence of air resistance, the trajectory of a projectile is a",
+      "options": [
+        "circle",
+        "ellipse",
+        "parabola",
+        "straight line"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "$y = x\\tan\\theta - \\dfrac{gx^2}{2u^2\\cos^2\\theta}$ is quadratic in $x$, i.e. a parabola."
+    },
+    {
+      "id": "phy-motion-in-a-plane-015",
+      "q": "A particle moves in a circle of radius 5 m with a constant speed of 10 m s$^{-1}$. Its centripetal acceleration is",
+      "options": [
+        "10 m s$^{-2}$",
+        "50 m s$^{-2}$",
+        "2 m s$^{-2}$",
+        "20 m s$^{-2}$"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "$a = \\dfrac{v^2}{r} = \\dfrac{100}{5} = 20$ m s$^{-2}$."
+    },
+    {
+      "id": "phy-motion-in-a-plane-016",
+      "q": "A particle moves in a circle of radius 2 m with angular velocity 5 rad s$^{-1}$. Its linear speed is",
+      "options": [
+        "10 m s$^{-1}$",
+        "7 m s$^{-1}$",
+        "2.5 m s$^{-1}$",
+        "0.4 m s$^{-1}$"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "$v = r\\omega = 2\\times5 = 10$ m s$^{-1}$."
+    },
+    {
+      "id": "phy-motion-in-a-plane-017",
+      "q": "In uniform circular motion, the instantaneous velocity of the particle is directed",
+      "options": [
+        "radially outward",
+        "radially inward, toward the centre",
+        "along a fixed direction, unchanging",
+        "tangentially to the circle"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "The velocity is always tangent to the circular path; only its direction (not magnitude) keeps changing."
+    },
+    {
+      "id": "phy-motion-in-a-plane-018",
+      "q": "In uniform circular motion, the acceleration of the particle is directed",
+      "options": [
+        "along the direction of velocity",
+        "towards the centre of the circle",
+        "it is zero since speed is constant",
+        "away from the centre of the circle"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "Even though speed is constant, velocity direction changes continuously, producing a centripetal acceleration directed towards the centre."
+    },
+    {
+      "id": "phy-motion-in-a-plane-019",
+      "q": "For a projectile launched at 45° to the horizontal, the ratio of maximum height to range (H : R) is",
+      "options": [
+        "2 : 1",
+        "1 : 2",
+        "1 : 4",
+        "1 : 1"
+      ],
+      "answer": 2,
+      "difficulty": "hard",
+      "explanation": "At $45^\\circ$, $H = u^2/4g$ and $R = u^2/g$, so $H:R = 1:4$."
+    },
+    {
+      "id": "phy-motion-in-a-plane-020",
+      "q": "Two vectors, each of magnitude A, are inclined at 120° to each other. The magnitude of their resultant is",
+      "options": [
+        "A/2",
+        "2A",
+        "0",
+        "A"
+      ],
+      "answer": 3,
+      "difficulty": "hard",
+      "explanation": "$R = 2A\\cos(\\theta/2) = 2A\\cos60^\\circ = 2A\\times0.5 = A$."
+    },
+    {
+      "id": "phy-motion-in-a-plane-021",
+      "q": "A unit vector is a vector whose",
+      "options": [
+        "magnitude equals that of a given vector",
+        "direction that keeps changing continuously",
+        "magnitude is zero",
+        "magnitude is one"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "A unit vector has magnitude exactly 1 and is used only to indicate direction; $\\hat n = \\vec A/|\\vec A|$."
+    },
+    {
+      "id": "phy-motion-in-a-plane-022",
+      "q": "Rain falls vertically downward at 8 m s$^{-1}$. A man walks horizontally at 6 m s$^{-1}$. The magnitude of the velocity of rain relative to the man is",
+      "options": [
+        "6 m s$^{-1}$",
+        "14 m s$^{-1}$",
+        "10 m s$^{-1}$",
+        "8 m s$^{-1}$"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "$\\vec v_{rain,man} = \\vec v_{rain} - \\vec v_{man}$, with perpendicular components 8 and 6: magnitude $=\\sqrt{8^2+6^2}=\\sqrt{100}=10$ m s$^{-1}$."
+    },
+    {
+      "id": "phy-motion-in-a-plane-023",
+      "q": "For the situation above (rain falling at 8 m s$^{-1}$, man walking at 6 m s$^{-1}$), the man must hold his umbrella tilted from the vertical, towards his direction of motion, at an angle of about",
+      "options": [
+        "37°",
+        "45°",
+        "30°",
+        "53°"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "$\\tan\\theta = \\dfrac{\\text{horizontal component}}{\\text{vertical component}} = \\dfrac{6}{8} = 0.75 \\Rightarrow \\theta \\approx 37^\\circ$ from the vertical."
+    },
+    {
+      "id": "phy-motion-in-a-plane-024",
+      "q": "A ball is projected with speed 20 m s$^{-1}$ at 60° to the horizontal. Its speed at the highest point of the trajectory is",
+      "options": [
+        "0 m s$^{-1}$",
+        "10 m s$^{-1}$",
+        "20 m s$^{-1}$",
+        "17.3 m s$^{-1}$"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "At the highest point only the horizontal component survives: $v = u\\cos\\theta = 20\\times\\cos60^\\circ = 10$ m s$^{-1}$."
+    },
+    {
+      "id": "phy-motion-in-a-plane-025",
+      "q": "A projectile is launched with speed 30 m s$^{-1}$ at 30° to the horizontal. The time taken to reach its maximum height is",
+      "options": [
+        "2 s",
+        "1 s",
+        "3 s",
+        "1.5 s"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "$t = \\dfrac{u\\sin\\theta}{g} = \\dfrac{30\\times0.5}{10} = 1.5$ s."
+    },
+    {
+      "id": "phy-motion-in-a-plane-026",
+      "q": "If $\\vec A = 4\\hat i + 3\\hat j$ and $\\vec B = 2\\hat i - 3\\hat j$, the magnitude of $\\vec A + \\vec B$ is",
+      "options": [
+        "4",
+        "8",
+        "6",
+        "2"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "$\\vec A+\\vec B = 6\\hat i + 0\\hat j$, whose magnitude is $\\sqrt{6^2+0^2} = 6$."
+    },
+    {
+      "id": "phy-motion-in-a-plane-027",
+      "q": "Several vectors are added and their resultant turns out to be zero. This means that",
+      "options": [
+        "all the vectors must be equal in magnitude",
+        "the vectors, placed head to tail, form a closed polygon",
+        "all the vectors must be parallel to each other",
+        "each vector must have zero magnitude"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "A zero resultant only requires that the vectors, drawn head to tail in sequence, close up into a polygon; individual vectors need not be zero, equal, or parallel."
+    },
+    {
+      "id": "phy-motion-in-a-plane-028",
+      "q": "A car of mass 1000 kg moves in a circular path of radius 50 m at a constant speed of 10 m s$^{-1}$. The centripetal force acting on it is",
+      "options": [
+        "2000 N",
+        "1000 N",
+        "1500 N",
+        "500 N"
+      ],
+      "answer": 0,
+      "difficulty": "hard",
+      "explanation": "$F = \\dfrac{mv^2}{r} = \\dfrac{1000\\times10^2}{50} = 2000$ N."
+    },
+    {
+      "id": "phy-motion-in-a-plane-029",
+      "q": "A particle moves in a circle, completing one revolution every 0.5 s. Its frequency of revolution is",
+      "options": [
+        "1 Hz",
+        "4 Hz",
+        "2 Hz",
+        "0.5 Hz"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "$n = 1/T = 1/0.5 = 2$ Hz."
+    },
+    {
+      "id": "phy-motion-in-a-plane-030",
+      "q": "An angular displacement of 180° is equal to",
+      "options": [
+        "6.28 rad",
+        "3.14 rad",
+        "1.57 rad",
+        "0.5 rad"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "$180^\\circ = \\pi$ rad $\\approx 3.14$ rad."
+    },
+    {
+      "id": "phy-motion-in-a-plane-031",
+      "q": "A wheel rotates at 300 revolutions per minute. Its angular velocity is",
+      "options": [
+        "31.4 rad/s",
+        "5 rad/s",
+        "15.7 rad/s",
+        "300 rad/s"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "$300$ rpm $= 5$ rev/s; $\\omega = 2\\pi n = 2\\pi\\times5 \\approx 31.4$ rad/s."
+    },
+    {
+      "id": "phy-motion-in-a-plane-032",
+      "q": "A ball is projected from the ground with speed 20 m s$^{-1}$ at 45° to the horizontal. Its height above the ground when its horizontal distance travelled is 10 m is",
+      "options": [
+        "2.5 m",
+        "10 m",
+        "5 m",
+        "7.5 m"
+      ],
+      "answer": 3,
+      "difficulty": "hard",
+      "explanation": "$y = x\\tan\\theta - \\dfrac{gx^2}{2u^2\\cos^2\\theta} = 10(1) - \\dfrac{10\\times100}{2\\times400\\times0.5} = 10 - 2.5 = 7.5$ m."
+    },
+    {
+      "id": "phy-motion-in-a-plane-033",
+      "q": "If $\\vec A \\cdot \\vec B = 0$ and neither $\\vec A$ nor $\\vec B$ is a null vector, the angle between them is",
+      "options": [
+        "0°",
+        "180°",
+        "45°",
+        "90°"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "$\\vec A\\cdot\\vec B = AB\\cos\\theta = 0$ with $A,B\\neq0$ requires $\\cos\\theta = 0$, i.e. $\\theta = 90^\\circ$."
+    },
+    {
+      "id": "phy-motion-in-a-plane-034",
+      "q": "If $\\vec A \\times \\vec B = \\vec 0$ for two non-zero vectors, they must be",
+      "options": [
+        "parallel or antiparallel (angle 0° or 180°)",
+        "inclined at 45° to each other",
+        "equal in magnitude",
+        "perpendicular to each other"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "$|\\vec A\\times\\vec B| = AB\\sin\\theta = 0$ with $A,B\\neq0$ requires $\\sin\\theta=0$, i.e. $\\theta = 0^\\circ$ or $180^\\circ$."
+    },
+    {
+      "id": "phy-motion-in-a-plane-035",
+      "q": "A boat can move at 4 m s$^{-1}$ in still water. It heads straight across a river flowing at 3 m s$^{-1}$, perpendicular to its heading. The boat's resultant speed relative to the ground is",
+      "options": [
+        "3 m/s",
+        "5 m/s",
+        "4 m/s",
+        "7 m/s"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "The two velocities are perpendicular, so $v_{resultant}=\\sqrt{4^2+3^2}=\\sqrt{25}=5$ m s$^{-1}$."
+    },
+    {
+      "id": "phy-motion-in-a-plane-036",
+      "q": "For the boat above (still-water speed 4 m s$^{-1}$ heading straight across a 100 m wide river flowing at 3 m s$^{-1}$), the downstream drift when it reaches the opposite bank is",
+      "options": [
+        "100 m",
+        "50 m",
+        "75 m",
+        "25 m"
+      ],
+      "answer": 2,
+      "difficulty": "hard",
+      "explanation": "Time to cross $= 100/4 = 25$ s (only the perpendicular component matters). Drift $=$ flow speed $\\times$ time $= 3\\times25 = 75$ m."
+    },
+    {
+      "id": "phy-motion-in-a-plane-037",
+      "q": "The velocity vector of a projectile at the highest point of its trajectory makes an angle with the horizontal equal to",
+      "options": [
+        "45°",
+        "90°",
+        "0°",
+        "equal to the angle of projection"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "At the highest point the vertical velocity component is zero, so the velocity is purely horizontal, i.e. at $0^\\circ$ to the horizontal."
+    },
+    {
+      "id": "phy-motion-in-a-plane-038",
+      "q": "Two vectors of equal magnitude act on a particle in exactly opposite directions. Their resultant is",
+      "options": [
+        "undefined",
+        "a vector of twice the magnitude",
+        "a vector perpendicular to both",
+        "zero (null) vector"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "For antiparallel equal vectors, $R=\\sqrt{A^2+A^2+2A^2\\cos180^\\circ}=\\sqrt{2A^2-2A^2}=0$, the null vector."
+    },
+    {
+      "id": "phy-motion-in-a-plane-039",
+      "q": "The Earth completes one rotation about its axis in about 24 hours. Its angular velocity is approximately",
+      "options": [
+        "$1.16\\times10^{-5}$ rad/s",
+        "$7.27\\times10^{-5}$ rad/s",
+        "$1.45\\times10^{-4}$ rad/s",
+        "$3.6\\times10^{-3}$ rad/s"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "$\\omega = \\dfrac{2\\pi}{T} = \\dfrac{2\\pi}{24\\times3600} \\approx 7.27\\times10^{-5}$ rad/s."
+    },
+    {
+      "id": "phy-motion-in-a-plane-040",
+      "q": "For a projectile, if the maximum height attained equals the horizontal range, the angle of projection $\\theta$ satisfies",
+      "options": [
+        "$\\tan\\theta = 4$",
+        "$\\tan\\theta = 3$",
+        "$\\tan\\theta = 1$",
+        "$\\tan\\theta = 2$"
+      ],
+      "answer": 0,
+      "difficulty": "hard",
+      "explanation": "Setting $\\dfrac{u^2\\sin^2\\theta}{2g} = \\dfrac{u^2\\sin2\\theta}{g}$ gives $\\dfrac{\\sin\\theta}{2} = 2\\cos\\theta$, so $\\tan\\theta = 4$."
+    }
+  ]
+}

@@ -1,0 +1,525 @@
+{
+  "notes": "<h3>Force on Moving Charge & Current</h3><ul><li>Lorentz force: $\\vec{F} = q(\\vec{E}+\\vec{v}\\times\\vec{B})$; magnetic force alone $F = qvB\\sin\\theta$, direction by right-hand rule, does no work (always $\\perp v$).</li><li>Force on a current-carrying conductor: $F = BIl\\sin\\theta$; force per unit length between two long parallel wires carrying $I_1$, $I_2$ at separation $d$: $\\dfrac{F}{l} = \\dfrac{\\mu_0I_1I_2}{2\\pi d}$ — like currents attract, unlike repel. This defines the SI ampere.</li></ul><h3>Biot–Savart Law & Field due to Currents</h3><table><tr><th>Source</th><th>Field</th></tr><tr><td>Infinite straight wire</td><td>$B=\\dfrac{\\mu_0I}{2\\pi r}$</td></tr><tr><td>Centre of circular loop ($N$ turns, radius $R$)</td><td>$B=\\dfrac{\\mu_0NI}{2R}$</td></tr><tr><td>On axis of circular loop, distance $x$</td><td>$B=\\dfrac{\\mu_0NIR^2}{2(R^2+x^2)^{3/2}}$</td></tr><tr><td>Ideal solenoid (n = turns/length)</td><td>$B=\\mu_0nI$</td></tr><tr><td>Toroid</td><td>$B=\\mu_0nI$ (n = turns per unit circumference)</td></tr></table><ul><li>Ampere's circuital law: $\\oint\\vec{B}\\cdot d\\vec{l} = \\mu_0I_{enc}$.</li></ul><h3>Circular Motion & Cyclotron</h3><ul><li>Charge in a magnetic field alone moves in a circle: $r = \\dfrac{mv}{qB}$, period $T=\\dfrac{2\\pi m}{qB}$ (independent of speed) — basis of the cyclotron. Cyclotron frequency $f=\\dfrac{qB}{2\\pi m}$.</li><li>Velocity selector: undeflected when $qE = qvB \\Rightarrow v = E/B$.</li></ul><h3>Torque on a Current Loop & Moving Coil Galvanometer</h3><ul><li>Magnetic moment of a loop: $m = NIA$; torque in field $\\vec{\\tau} = \\vec{m}\\times\\vec{B}$, magnitude $\\tau = NIAB\\sin\\theta$.</li><li>Galvanometer: current sensitivity $= NAB/k$ ($k$= torsional constant); converted to ammeter by a low shunt resistance in parallel, to voltmeter by a high resistance in series.</li><li>Shunt for ammeter of range $n$ times $I_g$: $S = \\dfrac{I_gG}{(n-1)I_g} = \\dfrac{G}{n-1}$. Series resistance for voltmeter: $R = \\dfrac{V}{I_g}-G$.</li></ul><h3>Exam tip</h3><p>One of the highest-weightage chapters (3–4 KCET questions): expect a force-between-wires or force-on-conductor numerical, a Biot–Savart/solenoid field calculation, and a galvanometer-to-ammeter/voltmeter conversion problem. Get comfortable with the right-hand rule for direction-based questions.</p>",
+  "questions": [
+    {
+      "id": "phy-moving-charges-and-magnetism-001",
+      "q": "A charged particle moves with velocity $v$ perpendicular to a magnetic field $B$. The magnetic force on it is used to provide centripetal force. The radius of its circular path is",
+      "options": [
+        "$\\dfrac{mB}{qv}$",
+        "$\\dfrac{qB}{mv}$",
+        "$\\dfrac{qvB}{m}$",
+        "$\\dfrac{mv}{qB}$"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "$qvB = \\dfrac{mv^2}{r} \\Rightarrow r = \\dfrac{mv}{qB}$."
+    },
+    {
+      "id": "phy-moving-charges-and-magnetism-002",
+      "q": "The period of revolution of a charged particle in a cyclotron",
+      "options": [
+        "depends on the radius only",
+        "increases with speed",
+        "is independent of speed",
+        "decreases with speed"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "$T = 2\\pi m/(qB)$ has no $v$ or $r$ dependence, which is why a fixed-frequency oscillator can accelerate the particle throughout."
+    },
+    {
+      "id": "phy-moving-charges-and-magnetism-003",
+      "q": "Two long straight parallel wires carry currents of 3 A and 5 A in the same direction, separated by 2 cm. The force per unit length between them is",
+      "options": [
+        "$1.5\\times10^{-4}$ N/m, attractive",
+        "$3\\times10^{-4}$ N/m, attractive",
+        "$1.5\\times10^{-4}$ N/m, repulsive",
+        "$7.5\\times10^{-5}$ N/m, attractive"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "$F/l = \\mu_0I_1I_2/(2\\pi d) = (4\\pi\\times10^{-7}\\times3\\times5)/(2\\pi\\times0.02) = (2\\times10^{-7}\\times15)/0.02 = 1.5\\times10^{-4}$ N/m; currents in the same direction attract."
+    },
+    {
+      "id": "phy-moving-charges-and-magnetism-004",
+      "q": "A straight wire of length 0.5 m carrying a current of 4 A is placed in a uniform magnetic field of 0.2 T, perpendicular to the field. The force on the wire is",
+      "options": [
+        "0.04 N",
+        "0.4 N",
+        "4 N",
+        "0.8 N"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "$F = BIl = 0.2\\times4\\times0.5 = 0.4$ N."
+    },
+    {
+      "id": "phy-moving-charges-and-magnetism-005",
+      "q": "The magnetic field at the centre of a circular coil of radius 10 cm carrying a current of 5 A, having 20 turns, is",
+      "options": [
+        "$6.28\\times10^{-4}$ T",
+        "$3.14\\times10^{-4}$ T",
+        "$1.256\\times10^{-3}$ T",
+        "$6.28\\times10^{-3}$ T"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "$B = \\mu_0NI/(2R) = (4\\pi\\times10^{-7}\\times20\\times5)/(2\\times0.1) = (1.2566\\times10^{-4})/0.2 = 6.28\\times10^{-4}$ T."
+    },
+    {
+      "id": "phy-moving-charges-and-magnetism-006",
+      "q": "A long solenoid has 2000 turns per metre and carries a current of 5 A. The magnetic field inside it (away from the ends) is",
+      "options": [
+        "$\\pi\\times10^{-3}$ T",
+        "$4\\pi\\times10^{-3}$ T",
+        "$2\\pi\\times10^{-3}$ T",
+        "$8\\pi\\times10^{-3}$ T"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "$B = \\mu_0nI = 4\\pi\\times10^{-7}\\times2000\\times5 = 4\\pi\\times10^{-3}$ T."
+    },
+    {
+      "id": "phy-moving-charges-and-magnetism-007",
+      "q": "A velocity selector uses perpendicular electric and magnetic fields of 4$\\times10^4$ V/m and 0.2 T. The speed of the undeflected charged particle is",
+      "options": [
+        "$5\\times10^5$ m/s",
+        "$8\\times10^3$ m/s",
+        "$2\\times10^4$ m/s",
+        "$2\\times10^5$ m/s"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "Undeflected when $qE=qvB \\Rightarrow v=E/B = 4\\times10^4/0.2 = 2\\times10^5$ m/s."
+    },
+    {
+      "id": "phy-moving-charges-and-magnetism-008",
+      "q": "A rectangular current loop of magnetic moment $m$ is placed with its plane parallel to a uniform magnetic field $B$. The torque on the loop is",
+      "options": [
+        "zero",
+        "$mB/2$",
+        "$mB$",
+        "$2mB$"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "When the loop's plane is parallel to $B$, its normal (and $\\vec m$) is perpendicular to $B$, so $\\theta=90^\\circ$: $\\tau = mB\\sin90^\\circ = mB$, the maximum value."
+    },
+    {
+      "id": "phy-moving-charges-and-magnetism-009",
+      "q": "A galvanometer with resistance 100 $\\Omega$ and full-scale deflection current 1 mA is to be converted into an ammeter of range 1 A. The shunt resistance required is approximately",
+      "options": [
+        "10 $\\Omega$",
+        "100 $\\Omega$",
+        "1 $\\Omega$",
+        "0.1 $\\Omega$"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "$S = \\dfrac{I_gG}{I-I_g} = \\dfrac{10^{-3}\\times100}{1-10^{-3}} \\approx \\dfrac{0.1}{1} = 0.1\\,\\Omega$."
+    },
+    {
+      "id": "phy-moving-charges-and-magnetism-010",
+      "q": "To convert a galvanometer of resistance 50 $\\Omega$ and full-scale current 2 mA into a voltmeter of range 10 V, the series resistance needed is",
+      "options": [
+        "9950 $\\Omega$",
+        "4950 $\\Omega$",
+        "50 $\\Omega$",
+        "5000 $\\Omega$"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "$R = V/I_g - G = 10/(2\\times10^{-3}) - 50 = 5000-50 = 4950\\,\\Omega$."
+    },
+    {
+      "id": "phy-moving-charges-and-magnetism-011",
+      "q": "Ampere's circuital law states that $\\oint\\vec{B}\\cdot d\\vec{l}$ around a closed loop equals",
+      "options": [
+        "$\\mu_0$ times the total current in the circuit",
+        "$\\varepsilon_0$ times the enclosed charge",
+        "$\\mu_0$ times the total current enclosed",
+        "zero always"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "Ampere's law: $\\oint\\vec{B}\\cdot d\\vec{l} = \\mu_0I_{enc}$, where $I_{enc}$ is only the current passing through the surface bounded by the loop."
+    },
+    {
+      "id": "phy-moving-charges-and-magnetism-012",
+      "q": "An electron moving parallel to a uniform magnetic field experiences a magnetic force of",
+      "options": [
+        "zero",
+        "$qvB$",
+        "$qvB/2$",
+        "maximum magnitude"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "$F = qvB\\sin\\theta$; when velocity is parallel to $B$, $\\theta=0$, so $F=0$."
+    },
+    {
+      "id": "phy-moving-charges-and-magnetism-013",
+      "q": "A toroid has mean radius 20 cm and 1000 turns, carrying a current of 2 A. The magnetic field inside the toroid is",
+      "options": [
+        "$8\\times10^{-3}$ T",
+        "$1\\times10^{-3}$ T",
+        "$2\\times10^{-3}$ T",
+        "$4\\times10^{-3}$ T"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "$B = \\mu_0NI/(2\\pi r) = (4\\pi\\times10^{-7}\\times1000\\times2)/(2\\pi\\times0.2) = (8\\pi\\times10^{-4})/(0.4\\pi) = 2\\times10^{-3}$ T."
+    },
+    {
+      "id": "phy-moving-charges-and-magnetism-014",
+      "q": "The magnetic field on the axis of a circular current loop, at a point far away such that $x \\gg R$, falls off as",
+      "options": [
+        "$1/x^2$",
+        "$1/x^3$",
+        "$1/x^{3/2}$",
+        "$1/x$"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "$B = \\mu_0NIR^2/[2(R^2+x^2)^{3/2}]$; for $x\\gg R$, this reduces to $B \\propto R^2/x^3$, i.e. $1/x^3$, similar to a magnetic dipole field."
+    },
+    {
+      "id": "phy-moving-charges-and-magnetism-015",
+      "q": "In a moving coil galvanometer, the coil is wound on a light metallic (aluminium) frame mainly to provide",
+      "options": [
+        "a stronger radial magnetic field",
+        "permanent magnetisation of the coil",
+        "additional resistance in the circuit",
+        "electromagnetic (eddy current) damping so the pointer settles quickly"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "As the coil swings, eddy currents induced in the conducting (non-magnetic) frame oppose the motion, damping oscillations so the pointer comes to rest quickly without overshooting."
+    },
+    {
+      "id": "phy-moving-charges-and-magnetism-016",
+      "q": "A charged particle enters a magnetic field with velocity making an angle $\\theta$ (not 0 or 90) with $\\vec{B}$. Its path is",
+      "options": [
+        "a helix",
+        "a circle",
+        "a straight line",
+        "a parabola"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "The velocity component along $B$ is unaffected (uniform motion) while the perpendicular component causes circular motion; combined, the path is a helix."
+    },
+    {
+      "id": "phy-moving-charges-and-magnetism-017",
+      "q": "Two identical circular coils, each carrying current $I$, are placed with the same centre and their planes perpendicular to each other. The resultant magnetic field at the centre is (each coil alone gives field $B_0$ there)",
+      "options": [
+        "$2B_0$",
+        "$B_0$",
+        "$B_0\\sqrt2$",
+        "zero"
+      ],
+      "answer": 2,
+      "difficulty": "hard",
+      "explanation": "The two fields are equal in magnitude ($B_0$) and mutually perpendicular, so the resultant is $\\sqrt{B_0^2+B_0^2} = B_0\\sqrt2$."
+    },
+    {
+      "id": "phy-moving-charges-and-magnetism-018",
+      "q": "The SI unit of magnetic field (magnetic flux density) is",
+      "options": [
+        "henry",
+        "tesla",
+        "gauss only",
+        "weber"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "The SI unit of $B$ is the tesla (T), equal to Wb/m$^2$; gauss is a CGS unit ($1\\,\\text{T}=10^4$ G)."
+    },
+    {
+      "id": "phy-moving-charges-and-magnetism-019",
+      "q": "A current loop placed in a uniform magnetic field behaves like a magnetic dipole. For the loop to be in stable equilibrium, its magnetic moment $\\vec{m}$ must be",
+      "options": [
+        "parallel to $\\vec{B}$",
+        "antiparallel to $\\vec{B}$",
+        "at $45^\\circ$ to $\\vec{B}$",
+        "perpendicular to $\\vec{B}$"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "Potential energy $U=-mB\\cos\\theta$ is minimum (stable) when $\\theta=0$, i.e. $\\vec m$ parallel to $\\vec B$."
+    },
+    {
+      "id": "phy-moving-charges-and-magnetism-020",
+      "q": "The sensitivity of a moving coil galvanometer can be increased by",
+      "options": [
+        "decreasing the number of turns",
+        "decreasing the area of the coil",
+        "increasing the torsional constant of the spring",
+        "increasing the magnetic field and number of turns, and decreasing the torsional constant"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "Current sensitivity $= NAB/k$; it increases with more turns $N$, larger area $A$, stronger field $B$, and a smaller torsional constant $k$."
+    },
+    {
+      "id": "phy-moving-charges-and-magnetism-021",
+      "q": "The total force on a charge $q$ moving with velocity $\\vec v$ in the presence of both an electric field $\\vec E$ and a magnetic field $\\vec B$ is given by",
+      "options": [
+        "$q\\vec v\\times\\vec B$",
+        "$q(\\vec E-\\vec v\\times\\vec B)$",
+        "$q(\\vec E+\\vec v\\times\\vec B)$",
+        "$q\\vec E$"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "The Lorentz force combines the electric and magnetic contributions: $\\vec F=q(\\vec E+\\vec v\\times\\vec B)$."
+    },
+    {
+      "id": "phy-moving-charges-and-magnetism-022",
+      "q": "According to the Biot-Savart law, the magnitude of the magnetic field $dB$ due to a current element $Idl$ at a point, making angle $\\theta$ with the line joining them, at distance $r$, is proportional to",
+      "options": [
+        "$\\dfrac{Idl\\sin\\theta}{r^2}$",
+        "$\\dfrac{Idl\\sin\\theta}{r}$",
+        "$\\dfrac{Idl\\cos\\theta}{r^2}$",
+        "$Idl\\,r^2$"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "The Biot-Savart law gives $dB\\propto\\dfrac{Idl\\sin\\theta}{r^2}$, forming the basis for calculating fields due to current distributions."
+    },
+    {
+      "id": "phy-moving-charges-and-magnetism-023",
+      "q": "A proton (charge $1.6\\times10^{-19}$ C, mass $1.6\\times10^{-27}$ kg) moves in a cyclotron in a magnetic field of 0.5 T. Its cyclotron frequency is approximately",
+      "options": [
+        "$4\\times10^6$ Hz",
+        "$8\\times10^6$ Hz",
+        "$1.6\\times10^6$ Hz",
+        "$8\\times10^7$ Hz"
+      ],
+      "answer": 1,
+      "difficulty": "hard",
+      "explanation": "$f=\\dfrac{qB}{2\\pi m}=\\dfrac{1.6\\times10^{-19}\\times0.5}{2\\pi\\times1.6\\times10^{-27}}\\approx8\\times10^6$ Hz."
+    },
+    {
+      "id": "phy-moving-charges-and-magnetism-024",
+      "q": "A proton and an electron, having the same speed, enter a uniform magnetic field perpendicular to it. Since the proton is much more massive than the electron, the radius of its circular path is",
+      "options": [
+        "the same as that of the electron",
+        "much smaller than that of the electron",
+        "zero",
+        "much larger than that of the electron"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "$r=mv/(qB)$; with the same $v$, $B$, and charge magnitude, $r\\propto m$, so the much heavier proton follows a much larger radius."
+    },
+    {
+      "id": "phy-moving-charges-and-magnetism-025",
+      "q": "In a cyclotron, a charged particle gains kinetic energy $qV$ each time it crosses the gap between the dees, where $V$ is the accelerating voltage. Since it crosses the gap twice per revolution, the energy gained per revolution is",
+      "options": [
+        "$qV$",
+        "$4qV$",
+        "$qV/2$",
+        "$2qV$"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "The particle is accelerated once in each half of a revolution (twice per full revolution), gaining $qV$ each time, for a total of $2qV$ per revolution."
+    },
+    {
+      "id": "phy-moving-charges-and-magnetism-026",
+      "q": "The cyclotron is not suitable for accelerating electrons to high energies mainly because",
+      "options": [
+        "electrons cannot move in a magnetic field",
+        "the magnetic field cannot act on electrons",
+        "electrons quickly attain relativistic speeds, so their mass increases and they fall out of resonance with the fixed-frequency oscillator",
+        "electrons are negatively charged"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "Because of their small mass, electrons quickly reach speeds where relativistic mass increase becomes significant, changing their cyclotron frequency and desynchronising them from the fixed oscillator frequency."
+    },
+    {
+      "id": "phy-moving-charges-and-magnetism-027",
+      "q": "The voltage sensitivity of a moving coil galvanometer, of coil resistance $R$, is defined as",
+      "options": [
+        "current per unit deflection",
+        "deflection per unit voltage across the galvanometer, equal to $NAB/(kR)$",
+        "deflection per unit current",
+        "resistance per unit deflection"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "Voltage sensitivity $=\\theta/V=\\dfrac{NAB}{kR}$, obtained by dividing the current sensitivity $NAB/k$ by the coil resistance $R$ (since $V=IR$)."
+    },
+    {
+      "id": "phy-moving-charges-and-magnetism-028",
+      "q": "In a moving coil galvanometer, the magnetic field is made radial (using concave pole pieces and a soft iron cylindrical core) so that",
+      "options": [
+        "the plane of the coil is always parallel to the field, making the torque proportional to current at every deflection (linear scale)",
+        "the field becomes weaker",
+        "the pointer does not move",
+        "the coil rotates faster"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "A radial field keeps the coil's plane always parallel to $B$ ($\\theta=90^\\circ$ throughout), so $\\tau=NIAB$ stays proportional to $I$ at every deflection, giving a linear (uniform) scale."
+    },
+    {
+      "id": "phy-moving-charges-and-magnetism-029",
+      "q": "The magnetic field lines around a long straight current-carrying wire are",
+      "options": [
+        "concentric ellipses",
+        "radially outward from the wire",
+        "concentric circles in a plane perpendicular to the wire",
+        "straight lines parallel to the wire"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "Around a long straight current-carrying wire, the magnetic field lines form concentric circles centred on the wire, in planes perpendicular to it, with direction given by the right-hand thumb rule."
+    },
+    {
+      "id": "phy-moving-charges-and-magnetism-030",
+      "q": "The magnetic field at a perpendicular distance of 5 cm from a long straight wire carrying current $I$ is $B$. At a distance of 20 cm from the same wire, the field becomes",
+      "options": [
+        "$B/4$",
+        "$B/2$",
+        "$4B$",
+        "$2B$"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "$B=\\mu_0I/(2\\pi r)\\propto1/r$; increasing $r$ by a factor of 4 (5 cm to 20 cm) reduces $B$ to $B/4$."
+    },
+    {
+      "id": "phy-moving-charges-and-magnetism-031",
+      "q": "A closed current loop of arbitrary shape is placed in a uniform magnetic field. The net force on the loop is",
+      "options": [
+        "directed along the field",
+        "zero, though it may experience a net torque",
+        "always maximum",
+        "equal to $BIL$, where $L$ is the loop's perimeter"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "In a uniform field, the forces on different current elements of a closed loop sum to zero net force, although a net torque can still act unless the loop's plane is perpendicular to the field."
+    },
+    {
+      "id": "phy-moving-charges-and-magnetism-032",
+      "q": "A proton and an alpha particle, having the same speed, enter a uniform magnetic field perpendicular to their velocity. Given that the alpha particle has 4 times the mass and 2 times the charge of the proton, the ratio of the radius of the proton's circular path to that of the alpha particle's is",
+      "options": [
+        "4:1",
+        "1:4",
+        "2:1",
+        "1:2"
+      ],
+      "answer": 3,
+      "difficulty": "hard",
+      "explanation": "$r=mv/(qB)$. $r_p=\\dfrac{m v}{qB}$, $r_\\alpha=\\dfrac{4m\\,v}{2qB}=\\dfrac{2mv}{qB}=2r_p$. So $r_p:r_\\alpha=1:2$."
+    },
+    {
+      "id": "phy-moving-charges-and-magnetism-033",
+      "q": "The magnetic field at the centre of a circular current loop of radius $R$ is $B_0$. The field on the axis of the same loop, at a distance $x=R$ from the centre, is",
+      "options": [
+        "zero",
+        "$2B_0$",
+        "equal to $B_0$",
+        "about $0.354\\,B_0$"
+      ],
+      "answer": 3,
+      "difficulty": "hard",
+      "explanation": "$B=\\dfrac{\\mu_0IR^2}{2(R^2+x^2)^{3/2}}$; at $x=R$, $B=\\dfrac{\\mu_0IR^2}{2(2R^2)^{3/2}}=\\dfrac{\\mu_0I}{2\\times2^{3/2}R}=\\dfrac{B_0}{2^{3/2}}\\approx0.354B_0$, since $B_0=\\mu_0I/2R$."
+    },
+    {
+      "id": "phy-moving-charges-and-magnetism-034",
+      "q": "The SI unit of magnetic flux is",
+      "options": [
+        "ampere-turn",
+        "henry",
+        "weber",
+        "tesla"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "Magnetic flux is measured in weber (Wb); tesla (Wb/m$^2$) is the unit of magnetic field."
+    },
+    {
+      "id": "phy-moving-charges-and-magnetism-035",
+      "q": "The magnetic field outside an ideal toroid, in the space surrounding it, is",
+      "options": [
+        "directed radially outward",
+        "zero",
+        "maximum at the outer edge",
+        "equal to the field inside"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "The winding confines the field entirely within the toroid's core; an Amperian loop drawn outside encloses zero net current, so $B=0$ outside an ideal toroid."
+    },
+    {
+      "id": "phy-moving-charges-and-magnetism-036",
+      "q": "One ampere is defined as the current which, when flowing through each of two long parallel wires kept 1 m apart in vacuum, produces a force per unit length between them of",
+      "options": [
+        "$2\\times10^{-7}$ N/m",
+        "$9\\times10^{9}$ N/m",
+        "$4\\pi\\times10^{-7}$ N/m",
+        "1 N/m"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "Using $F/l=\\mu_0I_1I_2/(2\\pi d)$ with $I_1=I_2=1$ A and $d=1$ m gives $F/l=2\\times10^{-7}$ N/m, which defines the ampere."
+    },
+    {
+      "id": "phy-moving-charges-and-magnetism-037",
+      "q": "A current loop of magnetic moment $m$ is placed at an angle $\\theta$ to a uniform field $B$. The magnitude of the torque on it is",
+      "options": [
+        "$mB$ always",
+        "$mB\\tan\\theta$",
+        "$mB\\sin\\theta$",
+        "$mB\\cos\\theta$"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "$\\vec\\tau=\\vec m\\times\\vec B$, so $\\tau=mB\\sin\\theta$, where $\\theta$ is the angle between $\\vec m$ and $\\vec B$."
+    },
+    {
+      "id": "phy-moving-charges-and-magnetism-038",
+      "q": "Two long straight parallel wires carry currents in opposite directions. The force between them is",
+      "options": [
+        "alternating",
+        "attractive",
+        "zero",
+        "repulsive"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "Currents in opposite directions in parallel wires repel each other; currents in the same direction attract."
+    },
+    {
+      "id": "phy-moving-charges-and-magnetism-039",
+      "q": "A solenoid of length $l$ has $N$ turns and carries current $I$, producing a magnetic field $B$ inside it. If the number of turns is doubled (keeping the length and current the same), the new magnetic field is",
+      "options": [
+        "$2B$",
+        "$4B$",
+        "$B/2$",
+        "$B$"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "$B=\\mu_0nI$ with $n=N/l$; doubling $N$ (at fixed $l$) doubles $n$ and hence $B$."
+    },
+    {
+      "id": "phy-moving-charges-and-magnetism-040",
+      "q": "Two long straight parallel wires, 20 cm apart, carry equal currents in the same direction. The magnetic field exactly midway between them (due to both wires) is",
+      "options": [
+        "twice that due to one wire alone",
+        "zero",
+        "maximum",
+        "equal to that due to one wire alone"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "Between the wires, the fields due to the two equal, same-direction currents point in opposite directions (by the right-hand rule); being equidistant, they are equal in magnitude at the midpoint and exactly cancel."
+    }
+  ]
+}

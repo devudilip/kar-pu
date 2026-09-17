@@ -1,0 +1,525 @@
+{
+  "notes": "<h3>Classification & structure</h3><ul><li>Amines are derivatives of NH$_3$: 1° RNH$_2$, 2° R$_2$NH, 3° R$_3$N (classified by number of alkyl/aryl groups on N, unlike alcohols which are classified by the carbon). N is sp$^3$ hybridised with a lone pair, giving a pyramidal shape.</li></ul><h3>Preparation</h3><table><tr><th>Method</th><th>Key point</th></tr><tr><td>Reduction of nitro compounds (H$_2$/Ni or Sn/HCl)</td><td>gives 1° amine, e.g. aniline from nitrobenzene</td></tr><tr><td>Ammonolysis of alkyl halides</td><td>gives mixture of 1°, 2°, 3° amines and quaternary salt (excess NH$_3$ favours 1°)</td></tr><tr><td>Reduction of nitriles (LiAlH$_4$/H$_2$-Ni) or amides (LiAlH$_4$)</td><td>gives 1° amine with one extra carbon (nitrile route)</td></tr><tr><td>Gabriel phthalimide synthesis</td><td>gives pure 1° amine only (aliphatic; aryl halides do not work — no S$_N$2 on aryl C)</td></tr><tr><td>Hofmann bromamide degradation</td><td>RCONH$_2$ + Br$_2$/NaOH → RNH$_2$ (one carbon LESS than the amide)</td></tr></table><h3>Basicity</h3><ul><li>Amines are basic due to the lone pair on N; basicity depends on availability of the lone pair (electron density, steric hindrance, and stability of the resulting cation via solvation).</li><li>Aliphatic amines are more basic than NH$_3$ (alkyl +I effect); aliphatic amine basicity in gas phase: 3° &gt; 2° &gt; 1°, but in aqueous solution (steric + H-bonding/solvation) the common KCET order is 2° &gt; 1° &gt; 3° &gt; NH$_3$ for methyl amines.</li><li>Aniline is far less basic than NH$_3$/aliphatic amines: the N lone pair is delocalised into the benzene ring (resonance), reducing its availability; further reduced by –NO$_2$ (o/p) and increased by –CH$_3$/–OCH$_3$.</li></ul><h3>Reactions</h3><ul><li>Acylation (Schotten–Baumann) with (CH$_3$CO)$_2$O/CH$_3$COCl → amides (used to protect –NH$_2$ before nitration/halogenation of aniline to reduce its strong activation and avoid oxidation).</li><li>Carbylamine test: 1° amine + CHCl$_3$/alc. KOH → foul-smelling isocyanide (2°, 3° amines give no reaction) — distinguishes 1° amines.</li><li>Hinsberg test: 1° amine gives soluble sulphonamide (acidic NH, dissolves in alkali); 2° amine gives insoluble sulphonamide (no NH to ionise, insoluble even after alkali); 3° amine does not react — distinguishes all three classes.</li><li>With HNO$_2$ (NaNO$_2$/HCl, 0–5°C): 1° aliphatic amine → alcohol + N$_2$↑ (brisk effervescence); 1° aromatic amine → stable diazonium salt (used for azo coupling, Sandmeyer); 2° amine → N-nitrosoamine (yellow oil); 3° amine → no clean reaction (forms unstable salt).</li><li>Aniline undergoes fast electrophilic substitution (o,p-directing, ring activated): with Br$_2$ water → 2,4,6-tribromoaniline (white ppt, no catalyst needed).</li></ul><h3>Diazonium salts</h3><ul><li>ArN$_2^+$Cl$^-$ formed from aniline + NaNO$_2$/HCl at 273–278 K; unstable above 5°C, decomposes to phenol.</li><li>Sandmeyer: ArN$_2^+$ + CuCl/CuBr/CuCN → ArCl/ArBr/ArCN. With KI directly (no Cu) → ArI. With H$_3$PO$_2$/H$_2$O → ArH (deamination). Coupling with phenol/aniline → azo dyes (coloured).</li></ul><h3>Exam tip</h3><p>3 questions typical: basicity order of amines, the three distinguishing tests (carbylamine, Hinsberg, reaction with HNO$_2$), and diazonium salt reactions (Sandmeyer, coupling). Learn why aniline is weakly basic — it is a favourite reasoning-based question.</p>",
+  "questions": [
+    {
+      "id": "che-amines-001",
+      "q": "Aniline is a much weaker base than methylamine because",
+      "options": [
+        "aniline has a larger molecular mass",
+        "aniline is aromatic and non-polar",
+        "the lone pair on nitrogen in aniline is delocalised into the benzene ring, reducing its availability",
+        "nitrogen in aniline is sp hybridised"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "Resonance delocalises the N lone pair over the ring in aniline, making it less available for protonation; in methylamine the alkyl +I effect instead increases electron density on N, making it more basic than ammonia."
+    },
+    {
+      "id": "che-amines-002",
+      "q": "The carbylamine test (isocyanide test) is given by",
+      "options": [
+        "tertiary amines only",
+        "primary amines only",
+        "secondary amines only",
+        "all amines equally"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "Only primary amines react with CHCl$_3$/alcoholic KOH to give a foul-smelling isocyanide (carbylamine); secondary and tertiary amines lack the required N–H hydrogens for this reaction and give no reaction."
+    },
+    {
+      "id": "che-amines-003",
+      "q": "In the Hinsberg test, a secondary amine reacts with benzenesulphonyl chloride to give a product that is",
+      "options": [
+        "insoluble in KOH (and has no acidic N–H)",
+        "soluble in KOH",
+        "insoluble in the reaction mixture but soluble in KOH",
+        "not formed at all"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "A secondary amine forms an N,N-disubstituted sulphonamide with no N–H hydrogen left to ionise, so it remains insoluble even after adding KOH; a primary amine's sulphonamide retains one acidic N–H and dissolves in KOH."
+    },
+    {
+      "id": "che-amines-004",
+      "q": "Gabriel phthalimide synthesis is used to prepare",
+      "options": [
+        "pure tertiary amines",
+        "pure secondary amines",
+        "aromatic amines directly from aryl halides",
+        "pure primary aliphatic amines"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "Phthalimide's potassium salt undergoes S$_N$2 with an alkyl halide, and hydrolysis releases a pure primary amine, free of secondary/tertiary contamination; aryl halides do not undergo S$_N$2, so this method fails for aromatic amines."
+    },
+    {
+      "id": "che-amines-005",
+      "q": "Aniline on treatment with acetic anhydride gives acetanilide, mainly to",
+      "options": [
+        "increase solubility in water",
+        "make aniline non-aromatic",
+        "reduce the activating effect of –NH$_2$ during further substitution (protect the ring from over-substitution/oxidation)",
+        "increase the basicity of the amino group"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "Acetylation converts the strongly activating –NH$_2$ into the more weakly activating –NHCOCH$_3$, which controls the reaction (e.g. gives mainly p-bromoacetanilide instead of the tribromo product) and also protects the amine from oxidation."
+    },
+    {
+      "id": "che-amines-006",
+      "q": "Hofmann bromamide degradation converts an amide RCONH$_2$ into an amine with",
+      "options": [
+        "one carbon atom more than the amide",
+        "twice the number of carbon atoms",
+        "the same number of carbon atoms",
+        "one carbon atom less than the amide"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "RCONH$_2$ + Br$_2$/NaOH → RNH$_2$ + Na$_2$CO$_3$ + NaBr; the carbonyl carbon is lost as CO$_2$ (via isocyanate intermediate), so the resulting amine has one fewer carbon than the starting amide."
+    },
+    {
+      "id": "che-amines-007",
+      "q": "A primary aliphatic amine reacts with HNO$_2$ (NaNO$_2$/HCl, cold) to give",
+      "options": [
+        "an alcohol with brisk evolution of N$_2$ gas",
+        "a stable diazonium salt",
+        "no visible reaction",
+        "a nitrosoamine"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "Aliphatic diazonium salts are highly unstable even at 0–5°C and decompose immediately, releasing N$_2$ gas and forming the corresponding alcohol via a carbocation intermediate."
+    },
+    {
+      "id": "che-amines-008",
+      "q": "Aniline reacts with bromine water at room temperature, without any catalyst, to give",
+      "options": [
+        "no reaction",
+        "2,4,6-tribromoaniline as a white precipitate",
+        "p-bromoaniline only",
+        "bromobenzene"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "The –NH$_2$ group strongly activates the ring, so even dilute bromine water substitutes at all three available o,p positions without needing a Lewis acid catalyst, giving a white precipitate — used as a test for aniline."
+    },
+    {
+      "id": "che-amines-009",
+      "q": "The order of basicity for ammonia, methylamine and aniline (aqueous, KCET convention) is",
+      "options": [
+        "aniline &gt; methylamine &gt; ammonia",
+        "aniline &gt; ammonia &gt; methylamine",
+        "ammonia &gt; methylamine &gt; aniline",
+        "methylamine &gt; ammonia &gt; aniline"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "The alkyl +I effect makes methylamine more basic than ammonia; resonance delocalisation of the N lone pair into the ring makes aniline far less basic than both."
+    },
+    {
+      "id": "che-amines-010",
+      "q": "Sandmeyer reaction converts a diazonium salt ArN$_2^+$Cl$^-$ into ArCl using",
+      "options": [
+        "Cl$_2$ gas directly",
+        "CuCl/HCl (cuprous chloride)",
+        "NaCl solution",
+        "Cu/HCl"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "Cuprous halides (CuCl, CuBr) catalyse replacement of the diazonium group by the corresponding halogen via a radical mechanism (Sandmeyer reaction)."
+    },
+    {
+      "id": "che-amines-011",
+      "q": "Diazonium salt on treatment with KI (without any copper catalyst) gives",
+      "options": [
+        "aryl iodide",
+        "phenol",
+        "aryl fluoride",
+        "azo dye"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "Iodide ion is nucleophilic enough to directly displace N$_2$ from the diazonium salt without requiring a Cu(I) catalyst, giving the aryl iodide."
+    },
+    {
+      "id": "che-amines-012",
+      "q": "Reduction of a nitrile RCN with LiAlH$_4$ gives",
+      "options": [
+        "RCOOH",
+        "RCH$_2$OH",
+        "RCH$_2$NH$_2$",
+        "RCONH$_2$"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "LiAlH$_4$ reduces the C≡N triple bond fully to a CH$_2$NH$_2$ group, giving a primary amine with one carbon more than the corresponding alkyl halide used to make the nitrile."
+    },
+    {
+      "id": "che-amines-013",
+      "q": "Coupling of benzenediazonium chloride with phenol in weakly alkaline medium gives",
+      "options": [
+        "aniline",
+        "azoxybenzene",
+        "diphenylamine",
+        "an orange-red azo dye (p-hydroxyazobenzene)"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "The diazonium ion acts as an electrophile and couples at the para position of phenoxide to give a coloured azo compound, the basis of azo dye chemistry."
+    },
+    {
+      "id": "che-amines-014",
+      "q": "Ammonolysis of ethyl bromide with excess ammonia gives predominantly",
+      "options": [
+        "triethylamine",
+        "diethylamine",
+        "ethylamine",
+        "tetraethylammonium bromide"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "Excess NH$_3$ ensures that unreacted ammonia is always in large excess relative to the forming amine, favouring monoalkylation and hence the primary amine as the major product."
+    },
+    {
+      "id": "che-amines-015",
+      "q": "Which of the following amines would give a positive Hinsberg test result showing NO reaction with benzenesulphonyl chloride at all?",
+      "options": [
+        "A primary amine",
+        "A tertiary amine",
+        "All amines react identically",
+        "A secondary amine"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "Tertiary amines have no N–H hydrogen to be replaced by the sulphonyl group, so they do not form a sulphonamide product and remain unreacted (insoluble amine layer separates)."
+    },
+    {
+      "id": "che-amines-016",
+      "q": "Nitrobenzene is converted into aniline using",
+      "options": [
+        "H$_2$/Ni, Pd or Pt, or Sn/conc. HCl",
+        "NaBH$_4$",
+        "KMnO$_4$/H$^+$",
+        "Br$_2$/Fe"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "Catalytic hydrogenation (H$_2$/Ni-Pd-Pt) or Sn (or Fe)/conc. HCl followed by NaOH work-up reduces the nitro group to an amino group."
+    },
+    {
+      "id": "che-amines-017",
+      "q": "A secondary amine reacts with nitrous acid (NaNO$_2$/HCl) to give",
+      "options": [
+        "an alcohol with N$_2$ evolution",
+        "an N-nitrosoamine (yellow oil)",
+        "a diazonium salt",
+        "no observable reaction"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "Secondary amines form stable N-nitrosoamines (R$_2$N–N=O), typically a yellow oily liquid, which is a useful distinguishing test from primary and tertiary amines."
+    },
+    {
+      "id": "che-amines-018",
+      "q": "Which of these is the strongest base among aliphatic amines in the gas phase?",
+      "options": [
+        "Tertiary amine",
+        "Primary amine",
+        "Secondary amine",
+        "Ammonia"
+      ],
+      "answer": 0,
+      "difficulty": "hard",
+      "explanation": "In the gas phase (no solvation effects), the electron-donating inductive effect of three alkyl groups dominates, making tertiary amines the strongest base: 3° &gt; 2° &gt; 1° &gt; NH$_3$."
+    },
+    {
+      "id": "che-amines-019",
+      "q": "p-Nitroaniline is a weaker base than aniline because",
+      "options": [
+        "nitro group increases steric hindrance around nitrogen",
+        "the nitro group donates electrons to nitrogen by resonance",
+        "the nitro group withdraws electron density from the ring and nitrogen by resonance and induction, further reducing lone pair availability",
+        "p-nitroaniline is non-planar"
+      ],
+      "answer": 2,
+      "difficulty": "hard",
+      "explanation": "The strongly electron-withdrawing –NO$_2$ group at the para position further delocalises and withdraws the amine lone pair through the conjugated system, making the amino group even less available for protonation than in aniline itself."
+    },
+    {
+      "id": "che-amines-020",
+      "q": "Which sequence of reagents converts aniline directly into fluorobenzene?",
+      "options": [
+        "Br$_2$ water",
+        "H$_2$/Ni",
+        "NaNO$_2$/HCl (273 K) then CuCl",
+        "NaNO$_2$/HCl (273 K) then HBF$_4$, then heat (Balz–Schiemann reaction)"
+      ],
+      "answer": 3,
+      "difficulty": "hard",
+      "explanation": "Diazotisation of aniline followed by treatment with fluoroboric acid gives a stable diazonium fluoroborate, which on gentle heating decomposes to give the aryl fluoride (Balz–Schiemann reaction) — the standard route since F$^-$ cannot be introduced via Sandmeyer."
+    },
+    {
+      "id": "che-amines-021",
+      "q": "Which classification rule distinguishes amines from alcohols with regard to 1°, 2°, 3°?",
+      "options": [
+        "Both are classified identically by the carbon skeleton",
+        "Amines are classified by the number of alkyl/aryl groups attached to nitrogen; alcohols are classified by the nature of the carbon bearing OH",
+        "Amines have no such classification",
+        "Both are classified by the number of hydrogens on the functional atom"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "An amine is 1°, 2° or 3° based on how many carbon groups are bonded to N, while an alcohol's class depends on the type of carbon (1°, 2°, 3°) that bears the OH group — a subtle but important distinction tested in KCET."
+    },
+    {
+      "id": "che-amines-022",
+      "q": "Which of the following amines would react with excess CH$_3$I to eventually give a quaternary ammonium salt?",
+      "options": [
+        "Only secondary amines",
+        "No amine can form a quaternary salt",
+        "A primary amine (via exhaustive methylation)",
+        "Only tertiary amines can react with alkyl halides"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "A primary amine reacts with excess CH$_3$I in successive alkylation steps (1° $\\to$ 2° $\\to$ 3° $\\to$ quaternary ammonium iodide), since each intermediate amine still has a lone pair that can attack another molecule of CH$_3$I."
+    },
+    {
+      "id": "che-amines-023",
+      "q": "Which of the following amines is expected to have the highest boiling point among primary, secondary, and tertiary amines of similar molar mass?",
+      "options": [
+        "All three boil at the same temperature",
+        "Secondary amine (moderate H-bonding)",
+        "Tertiary amine (no N–H bond for hydrogen bonding)",
+        "Primary amine (two N–H bonds available for hydrogen bonding)"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "A primary amine has two N–H bonds and can hydrogen bond most extensively; a secondary amine has only one N–H; a tertiary amine has none, so despite similar molar mass, boiling point order is 1° &gt; 2° &gt; 3°."
+    },
+    {
+      "id": "che-amines-024",
+      "q": "Which of the following methods would fail to give aniline as a pure product when starting from bromobenzene?",
+      "options": [
+        "Bromobenzene + excess NH$_3$ at room temperature and pressure (aryl halides do not undergo simple S$_N$2/S$_N$1 ammonolysis under mild conditions)",
+        "First convert bromobenzene to nitrobenzene, then reduce with Sn/HCl",
+        "Bromobenzene + NH$_3$ under very high pressure/temperature with a catalyst (harsh, low yielding, but not impossible)",
+        "None of these; all give aniline equally well"
+      ],
+      "answer": 0,
+      "difficulty": "hard",
+      "explanation": "Aryl halides resist nucleophilic substitution under ordinary conditions (no S$_N$1/S$_N$2 pathway available due to the strong, resonance-stabilised C–X bond and inaccessible backside), so mild ammonolysis of bromobenzene does not give aniline; harsh catalytic conditions or an indirect nitration-reduction route are needed instead."
+    },
+    {
+      "id": "che-amines-025",
+      "q": "Aromatic primary amines like aniline, when diazotised at low temperature (273–278 K), give a diazonium salt that is",
+      "options": [
+        "stable indefinitely even above 283 K",
+        "insoluble in water at all temperatures",
+        "completely stable at any temperature and can be stored indefinitely",
+        "stable only at low temperature and decomposes to phenol on warming (or reacts further to give other products)"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "Aryl diazonium salts are only stable in solution at low temperature (0–5°C); above this they decompose, typically hydrolysing to phenol with loss of N$_2$, or can be used immediately in Sandmeyer/coupling reactions while cold."
+    },
+    {
+      "id": "che-amines-026",
+      "q": "Which of the following statements correctly explains why aliphatic amines are stronger bases than ammonia?",
+      "options": [
+        "Alkyl groups have an electron-donating (+I) inductive effect that increases electron density on nitrogen, making the lone pair more available for protonation",
+        "Alkyl groups have no electronic effect on the amine group",
+        "Ammonia has more resonance stabilisation than alkyl amines",
+        "Alkyl groups withdraw electron density from nitrogen inductively"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "Alkyl groups are electron-releasing by the inductive effect (+I), increasing electron density at nitrogen and making its lone pair more available to accept a proton, hence more basic than NH$_3$."
+    },
+    {
+      "id": "che-amines-027",
+      "q": "Which of these tests can be used to distinguish a secondary amine from both primary and tertiary amines?",
+      "options": [
+        "Solubility in water (all are similarly soluble for small amines)",
+        "Reaction with dilute HCl (all amines react)",
+        "Reaction with HNO$_2$: secondary amines uniquely give a yellow oily N-nitrosoamine",
+        "Carbylamine test (positive only for 1°)"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "With cold HNO$_2$, primary aliphatic amines evolve N$_2$ gas (with an alcohol), secondary amines give a characteristic yellow oily nitrosoamine, and tertiary amines give no clean reaction (only an unstable salt), so the nitrosoamine formation uniquely identifies secondary amines."
+    },
+    {
+      "id": "che-amines-028",
+      "q": "Which of the following is the correct product when aniline undergoes nitration directly with conc. HNO$_3$/H$_2$SO$_4$ (without prior protection)?",
+      "options": [
+        "Pure o-nitroaniline only",
+        "A mixture including m-nitroaniline due to protonation of –NH$_2$ (forming –NH$_3^+$, a meta director) alongside some o/p-nitroaniline, and some oxidation/tarring",
+        "No reaction occurs at all",
+        "Pure p-nitroaniline only, in high yield"
+      ],
+      "answer": 1,
+      "difficulty": "hard",
+      "explanation": "In strongly acidic nitrating conditions, a significant fraction of aniline is protonated to the anilinium ion (–NH$_3^+$), which is a deactivating, meta-directing group, giving a mixture of products including some meta-nitroaniline along with oxidation side reactions — this is why aniline is usually acetylated before nitration."
+    },
+    {
+      "id": "che-amines-029",
+      "q": "Which of the following diazonium salt reactions does NOT involve loss of nitrogen gas?",
+      "options": [
+        "Sandmeyer reaction with CuCl",
+        "Reaction with KI to give an aryl iodide",
+        "Reaction with H$_3$PO$_2$/H$_2$O (deamination)",
+        "Coupling with phenol to give an azo dye (N=N retained in the product)"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "In azo coupling, the diazonium ion's N=N unit is retained intact in the azo dye product (Ar–N=N–Ar'), unlike Sandmeyer, deamination, or reaction with KI, where N$_2$ gas is released as the diazonium group is replaced."
+    },
+    {
+      "id": "che-amines-030",
+      "q": "Which of the following would you use to prepare a pure secondary amine, avoiding the mixture problem of direct ammonolysis of alkyl halides?",
+      "options": [
+        "Reductive amination: reacting a ketone with a primary amine, then reducing the resulting imine with a suitable reducing agent (H$_2$/catalyst or NaBH$_3$CN)",
+        "Simple ammonolysis of RX with excess NH$_3$",
+        "Reduction of an amide with LiAlH$_4$, where the amide is first made from a secondary amine and acid chloride (indirect, not a direct one-step general method)",
+        "Direct reaction of two different primary amines with an alkyl halide, which is unselective"
+      ],
+      "answer": 0,
+      "difficulty": "hard",
+      "explanation": "Reductive amination (condensation of an aldehyde/ketone with a primary amine to form an imine, followed by reduction) is a clean, general, and widely used route to secondary amines, avoiding the statistical mixture of products formed in direct ammonolysis of alkyl halides."
+    },
+    {
+      "id": "che-amines-031",
+      "q": "Which of the following amines is LEAST basic due to the strongest electron-withdrawing effect on the ring?",
+      "options": [
+        "p-methoxyaniline",
+        "p-nitroaniline",
+        "p-toluidine (p-methylaniline)",
+        "aniline"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "The strongly electron-withdrawing –NO$_2$ group at the para position further delocalises the amine lone pair through the ring by resonance and induction, making p-nitroaniline the weakest base among these anilines."
+    },
+    {
+      "id": "che-amines-032",
+      "q": "The Hofmann bromamide reaction of benzamide (C$_6$H$_5$CONH$_2$) with Br$_2$/NaOH gives",
+      "options": [
+        "benzylamine",
+        "benzoic acid",
+        "aniline (C$_6$H$_5$NH$_2$, one carbon fewer than the amide)",
+        "toluene"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "Hofmann degradation removes the carbonyl carbon as CO$_2$ (via an isocyanate intermediate), so benzamide (C$_6$H$_5$CONH$_2$) gives aniline (C$_6$H$_5$NH$_2$), which has one carbon less than benzamide."
+    },
+    {
+      "id": "che-amines-033",
+      "q": "Which best explains why methylamine is soluble in water while N,N-dimethylaniline is much less soluble?",
+      "options": [
+        "Methylamine has no nitrogen lone pair",
+        "Methylamine can hydrogen bond effectively with water and has a small alkyl group, while N,N-dimethylaniline's bulky aromatic/alkyl groups increase hydrophobic character and reduce solubility",
+        "Methylamine is ionic; N,N-dimethylaniline is covalent",
+        "N,N-dimethylaniline reacts with water"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "Small amines like methylamine hydrogen-bond effectively with water and dissolve well; as the hydrophobic (alkyl/aryl) portion of the amine grows, as in N,N-dimethylaniline, water solubility decreases sharply."
+    },
+    {
+      "id": "che-amines-034",
+      "q": "Diazonium coupling reactions are typically carried out at low temperature and in weakly acidic to weakly alkaline conditions mainly because",
+      "options": [
+        "coupling requires strongly acidic conditions only",
+        "coupling only occurs above 373 K",
+        "strongly acidic or strongly alkaline conditions and higher temperatures decompose the diazonium salt or convert the coupling partner to an unreactive form",
+        "the diazonium salt is stable indefinitely at any pH and temperature"
+      ],
+      "answer": 2,
+      "difficulty": "hard",
+      "explanation": "Diazonium salts are thermally unstable and decompose above about 5°C; also, in strongly acidic medium the aromatic amine coupling partner gets protonated (deactivated), and in strongly alkaline medium the diazonium ion converts to an unreactive diazotate, so mild, cold, weakly acidic/alkaline conditions are optimal."
+    },
+    {
+      "id": "che-amines-035",
+      "q": "Which of the following is a correct laboratory distinguishing test to confirm a compound is a primary amine and NOT a secondary or tertiary amine?",
+      "options": [
+        "It turns blue litmus red",
+        "It reacts with NaOH to give a precipitate",
+        "It is insoluble in water",
+        "It gives a foul-smelling isocyanide with CHCl$_3$/alcoholic KOH, AND its benzenesulphonamide derivative dissolves in KOH (soluble sulphonamide due to acidic N–H)"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "Both the positive carbylamine test and the Hinsberg test result (soluble sulphonamide, since one acidic N–H remains) are diagnostic specifically for primary amines, distinguishing them from secondary (insoluble sulphonamide, no carbylamine) and tertiary (no reaction in either test) amines."
+    },
+    {
+      "id": "che-amines-036",
+      "q": "Which of the following is the major organic product when aniline reacts with acetic anhydride?",
+      "options": [
+        "N-phenylacetamide (acetanilide)",
+        "benzamide",
+        "aniline hydrochloride",
+        "phenyl acetate"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "The nucleophilic nitrogen of aniline attacks the carbonyl carbon of acetic anhydride, displacing acetate, to give acetanilide (C$_6$H$_5$NHCOCH$_3$) as the major product."
+    },
+    {
+      "id": "che-amines-037",
+      "q": "Which statement about the relative basicity of aniline versus cyclohexylamine (a purely aliphatic amine of similar size) is correct?",
+      "options": [
+        "Cyclohexylamine cannot act as a base at all",
+        "Both are equally basic",
+        "Aniline is far more basic due to ring resonance",
+        "Cyclohexylamine is far more basic because its nitrogen lone pair is fully available (sp$^3$ N, no ring conjugation), unlike aniline's delocalised lone pair"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "In cyclohexylamine the nitrogen is attached to a saturated ring with no possibility of conjugation, so its lone pair is fully available for protonation, making it a much stronger base than aniline, whose lone pair is delocalised into the aromatic $\\pi$ system."
+    },
+    {
+      "id": "che-amines-038",
+      "q": "Which of the following correctly gives the product of the reaction between an aryl diazonium salt and hypophosphorous acid (H$_3$PO$_2$)/water?",
+      "options": [
+        "The diazonium group is replaced by iodine",
+        "An azo dye is formed",
+        "The diazonium group is replaced by hydrogen (deamination), regenerating the parent arene",
+        "The diazonium salt remains unreacted"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "H$_3$PO$_2$ is a mild reducing agent that replaces the diazonium (–N$_2^+$) group with hydrogen, releasing N$_2$ gas — a useful method for removing an amino group from an aromatic ring after it has served its purpose in directing earlier substitutions (deamination)."
+    },
+    {
+      "id": "che-amines-039",
+      "q": "Which of the following amines, when treated with excess methyl iodide followed by moist Ag$_2$O and then heated (Hofmann elimination), would be expected to give an alkene as a key step in structure elucidation?",
+      "options": [
+        "Aniline directly, without any methylation",
+        "A quaternary ammonium hydroxide with a $\\beta$-hydrogen available, formed by exhaustive methylation of an amine",
+        "Ammonia",
+        "A tertiary amine with no $\\beta$-hydrogens at all"
+      ],
+      "answer": 1,
+      "difficulty": "hard",
+      "explanation": "Exhaustive methylation of an amine gives a quaternary ammonium salt; converting it to the hydroxide and heating causes Hofmann elimination, in which a $\\beta$-hydrogen is removed along with the trialkylamine leaving group to give an alkene (historically used to determine amine structure)."
+    },
+    {
+      "id": "che-amines-040",
+      "q": "Which of the following is the correct order of basicity for NH$_3$, C$_6$H$_5$NH$_2$ (aniline), and C$_6$H$_5$NHCH$_3$ (N-methylaniline)?",
+      "options": [
+        "NH$_3$ &gt; C$_6$H$_5$NHCH$_3$ &gt; C$_6$H$_5$NH$_2$",
+        "C$_6$H$_5$NH$_2$ &gt; C$_6$H$_5$NHCH$_3$ &gt; NH$_3$",
+        "C$_6$H$_5$NHCH$_3$ &gt; C$_6$H$_5$NH$_2$ &gt; NH$_3$",
+        "C$_6$H$_5$NHCH$_3$ &gt; NH$_3$ &gt; C$_6$H$_5$NH$_2$"
+      ],
+      "answer": 0,
+      "difficulty": "hard",
+      "explanation": "Both aniline and N-methylaniline have their N lone pair delocalised into the ring, making them much weaker bases than ammonia; the extra +I effect of the N-methyl group makes N-methylaniline slightly more basic than aniline itself, giving NH$_3$ &gt; C$_6$H$_5$NHCH$_3$ &gt; C$_6$H$_5$NH$_2$."
+    }
+  ]
+}

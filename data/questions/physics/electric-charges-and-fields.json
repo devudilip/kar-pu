@@ -1,0 +1,525 @@
+{
+  "notes": "<h3>Charge & Coulomb's Law</h3><ul><li>Charge is quantised: $q = ne$, $e = 1.6\\times10^{-19}$ C. Charge is additive and conserved.</li><li>Coulomb's law: $F = \\dfrac{1}{4\\pi\\varepsilon_0}\\dfrac{q_1q_2}{r^2} = k\\dfrac{q_1q_2}{r^2}$, $k = 9\\times10^9$ N m$^2$C$^{-2}$, $\\varepsilon_0 = 8.85\\times10^{-12}$ C$^2$N$^{-1}$m$^{-2}$.</li><li>In a medium of dielectric constant $K$: $F_{medium} = F_{vacuum}/K$.</li><li>Superposition: net force is the vector sum of forces due to individual charges.</li></ul><h3>Electric Field</h3><ul><li>$\\vec{E} = \\vec{F}/q_0$; field of a point charge $E = kq/r^2$, directed away from a positive charge.</li><li>Field lines: start on +, end on −, never cross, denser where field is stronger, perpendicular to conductor surface.</li></ul><h3>Electric Dipole</h3><ul><li>Dipole moment $p = q(2a)$, direction − to +.</li><li>Axial (end-on) field: $E_{axial} = \\dfrac{2kp}{r^3}$ (for $r \\gg a$).</li><li>Equatorial (broadside-on) field: $E_{eq} = \\dfrac{kp}{r^3}$, opposite direction to $\\vec{p}$.</li><li>Torque in uniform field: $\\tau = pE\\sin\\theta = \\vec{p}\\times\\vec{E}$; potential energy $U = -pE\\cos\\theta$; stable equilibrium at $\\theta=0$, unstable at $\\theta=180^\\circ$.</li></ul><h3>Continuous Charge Distributions</h3><ul><li>Linear density $\\lambda = q/l$, surface density $\\sigma = q/A$, volume density $\\rho = q/V$.</li></ul><h3>Gauss's Law & Applications</h3><table><tr><th>Source</th><th>Field</th></tr><tr><td>Infinite line charge</td><td>$E = \\dfrac{\\lambda}{2\\pi\\varepsilon_0 r}$</td></tr><tr><td>Infinite plane sheet</td><td>$E = \\dfrac{\\sigma}{2\\varepsilon_0}$</td></tr><tr><td>Charged conductor surface</td><td>$E = \\dfrac{\\sigma}{\\varepsilon_0}$</td></tr><tr><td>Uniformly charged sphere ($r>R$)</td><td>$E = \\dfrac{kq}{r^2}$</td></tr><tr><td>Uniformly charged sphere ($r<R$, solid)</td><td>$E = \\dfrac{kqr}{R^3}$</td></tr><tr><td>Conducting/hollow sphere ($r<R$)</td><td>$E = 0$</td></tr></table><ul><li>Electric flux $\\phi = \\oint\\vec{E}\\cdot d\\vec{A} = q_{enc}/\\varepsilon_0$ — depends only on enclosed charge, not on shape/size of the Gaussian surface or charges outside.</li></ul><h3>Exam tip</h3><p>KCET usually sets 2–3 questions from this chapter — expect one Coulomb's law/superposition numerical, one dipole field/torque question, and one Gauss's law application (sheet, sphere or line charge). Memorise the table above cold.</p>",
+  "questions": [
+    {
+      "id": "phy-electric-charges-and-fields-001",
+      "q": "Two point charges 2 $\\mu$C and 8 $\\mu$C are separated by 30 cm in air. The electrostatic force between them is nearly",
+      "options": [
+        "16 N",
+        "0.016 N",
+        "1.6 N",
+        "0.16 N"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "$F = k\\dfrac{q_1q_2}{r^2} = \\dfrac{9\\times10^9\\times2\\times10^{-6}\\times8\\times10^{-6}}{0.09} = \\dfrac{0.144}{0.09} = 1.6\\,\\text{N}$."
+    },
+    {
+      "id": "phy-electric-charges-and-fields-002",
+      "q": "Two identical point charges each of magnitude $q$ are placed 20 cm apart in vacuum and the force between them is $F$. If they are now placed in a medium of dielectric constant 5 at the same separation, the new force is",
+      "options": [
+        "$F/5$",
+        "$F$",
+        "$5F$",
+        "$25F$"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "Force in a medium reduces by the dielectric constant: $F_{medium} = F/K = F/5$."
+    },
+    {
+      "id": "phy-electric-charges-and-fields-003",
+      "q": "A charge of $+4\\,\\mu$C experiences a force of 0.8 N at a point in an electric field. The magnitude of the electric field at that point is",
+      "options": [
+        "$3.2\\times10^5$ N/C",
+        "$2\\times10^5$ N/C",
+        "$0.2\\times10^5$ N/C",
+        "$5\\times10^4$ N/C"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "$E = F/q = 0.8/(4\\times10^{-6}) = 2\\times10^5$ N/C."
+    },
+    {
+      "id": "phy-electric-charges-and-fields-004",
+      "q": "The electric field due to a point charge $q$ at a distance $r$ is $E$. At what distance from the charge will the field be $E/9$?",
+      "options": [
+        "$9r$",
+        "$r/3$",
+        "$r/9$",
+        "$3r$"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "$E \\propto 1/r^2$, so field reduces to $1/9$ when distance triples: $r' = 3r$."
+    },
+    {
+      "id": "phy-electric-charges-and-fields-005",
+      "q": "An electric dipole of dipole moment $p$ is placed in a uniform electric field $E$ with its axis making $60^\\circ$ with the field. The torque on it is",
+      "options": [
+        "$pE$",
+        "$pE/2$",
+        "zero",
+        "$pE\\sqrt3/2$"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "$\\tau = pE\\sin\\theta = pE\\sin60^\\circ = pE\\sqrt3/2$."
+    },
+    {
+      "id": "phy-electric-charges-and-fields-006",
+      "q": "The electric field due to a short dipole at a point on its axial line at distance $r$ (with $r \\gg$ dipole length) is $E$. The field at the same distance on the equatorial line is",
+      "options": [
+        "$2E$",
+        "$4E$",
+        "$E/2$",
+        "$E$"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "$E_{axial} = 2kp/r^3$ and $E_{eq} = kp/r^3$, so $E_{eq} = E_{axial}/2$."
+    },
+    {
+      "id": "phy-electric-charges-and-fields-007",
+      "q": "A dipole of moment $2\\times10^{-8}$ C m is placed in a uniform field of $5\\times10^4$ N/C, initially aligned along the field. The work done to rotate it through $180^\\circ$ is",
+      "options": [
+        "$2\\times10^{-3}$ J",
+        "$4\\times10^{-3}$ J",
+        "zero",
+        "$1\\times10^{-3}$ J"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "$W = U(180^\\circ)-U(0^\\circ) = pE - (-pE) = 2pE = 2\\times2\\times10^{-8}\\times5\\times10^4 = 2\\times10^{-3}$ J."
+    },
+    {
+      "id": "phy-electric-charges-and-fields-008",
+      "q": "According to Gauss's law, the electric flux through a closed surface depends on",
+      "options": [
+        "the size of the surface",
+        "the total charge enclosed only",
+        "charges both inside and outside the surface",
+        "the shape of the surface"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "Gauss's law states $\\phi = q_{enc}/\\varepsilon_0$, independent of the surface's shape or size and unaffected by charges outside it."
+    },
+    {
+      "id": "phy-electric-charges-and-fields-009",
+      "q": "A point charge of 8.85 $\\mu$C is placed at the centre of a cube of side 1 m. The electric flux through one face of the cube is",
+      "options": [
+        "$6\\times10^5$ N m$^2$/C",
+        "$1.67\\times10^5$ N m$^2$/C",
+        "$1\\times10^6$ N m$^2$/C",
+        "$1\\times10^5$ N m$^2$/C"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "Total flux $= q/\\varepsilon_0 = 8.85\\times10^{-6}/8.85\\times10^{-12} = 1\\times10^6$; by symmetry one of 6 faces gets $1/6$ of it $= 1.67\\times10^5$ N m$^2$/C."
+    },
+    {
+      "id": "phy-electric-charges-and-fields-010",
+      "q": "The electric field just outside the surface of a charged conductor with surface charge density $\\sigma$ is",
+      "options": [
+        "zero",
+        "$2\\sigma/\\varepsilon_0$",
+        "$\\sigma/2\\varepsilon_0$",
+        "$\\sigma/\\varepsilon_0$"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "For a conductor surface, $E = \\sigma/\\varepsilon_0$ (twice the field of an isolated infinite sheet of the same $\\sigma$)."
+    },
+    {
+      "id": "phy-electric-charges-and-fields-011",
+      "q": "Inside a uniformly charged hollow conducting sphere, the electric field is",
+      "options": [
+        "equal to the field at the surface",
+        "inversely proportional to distance from centre",
+        "zero everywhere inside",
+        "maximum at the centre"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "All charge resides on the outer surface; a Gaussian surface inside encloses zero charge, so $E=0$ inside."
+    },
+    {
+      "id": "phy-electric-charges-and-fields-012",
+      "q": "Two infinite parallel plane sheets carry equal and opposite uniform surface charge densities $\\sigma$. The electric field in the region between the plates is",
+      "options": [
+        "$\\sigma/\\varepsilon_0$",
+        "$\\sigma/2\\varepsilon_0$",
+        "zero",
+        "$2\\sigma/\\varepsilon_0$"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "Fields from both sheets ($\\sigma/2\\varepsilon_0$ each) add up between the plates: total $= \\sigma/\\varepsilon_0$; outside the plates they cancel to zero."
+    },
+    {
+      "id": "phy-electric-charges-and-fields-013",
+      "q": "An infinite line charge of linear density $\\lambda$ produces an electric field at perpendicular distance $r$ given by",
+      "options": [
+        "$\\dfrac{\\lambda}{4\\pi\\varepsilon_0 r^2}$",
+        "$\\dfrac{\\lambda}{2\\pi\\varepsilon_0 r^2}$",
+        "$\\dfrac{\\lambda}{\\varepsilon_0 r}$",
+        "$\\dfrac{\\lambda}{2\\pi\\varepsilon_0 r}$"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "By Gauss's law with a cylindrical surface, $E(2\\pi r l) = \\lambda l/\\varepsilon_0 \\Rightarrow E = \\lambda/(2\\pi\\varepsilon_0 r)$, falling as $1/r$ (not $1/r^2$)."
+    },
+    {
+      "id": "phy-electric-charges-and-fields-014",
+      "q": "Three point charges $+q$, $+q$ and $-2q$ are placed at the vertices of an equilateral triangle. The net charge enclosed relevant to Gauss's law for a sphere surrounding all three is",
+      "options": [
+        "zero",
+        "$2q$",
+        "$-2q$",
+        "$4q$"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "Net enclosed charge $= q+q-2q = 0$, so total outward flux through the enclosing surface is zero (field need not be zero everywhere on it)."
+    },
+    {
+      "id": "phy-electric-charges-and-fields-015",
+      "q": "Electric field lines around an isolated positive point charge are",
+      "options": [
+        "circles around the charge",
+        "parallel straight lines",
+        "radially outward straight lines",
+        "radially inward straight lines"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "Field lines originate on positive charge and point radially outward in all directions."
+    },
+    {
+      "id": "phy-electric-charges-and-fields-016",
+      "q": "A charge $q$ is placed at the centre of a cube. If the charge is now moved to one corner of the cube (still inside), the total electric flux through the whole cube surface",
+      "options": [
+        "decreases",
+        "remains the same, $q/\\varepsilon_0$",
+        "becomes zero",
+        "increases"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "Total flux through a closed surface depends only on enclosed charge ($q/\\varepsilon_0$), regardless of the charge's position inside."
+    },
+    {
+      "id": "phy-electric-charges-and-fields-017",
+      "q": "Two small identical conducting spheres carry charges $6\\,\\mu$C and $-2\\,\\mu$C. They are brought into contact and then separated. The charge on each sphere now is",
+      "options": [
+        "$4\\,\\mu$C and $4\\,\\mu$C",
+        "$2\\,\\mu$C and $2\\,\\mu$C",
+        "$6\\,\\mu$C and $-2\\,\\mu$C",
+        "$3\\,\\mu$C and $-2\\,\\mu$C"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "On contact, identical conductors share total charge equally: $(6+(-2))/2 = 2\\,\\mu$C each."
+    },
+    {
+      "id": "phy-electric-charges-and-fields-018",
+      "q": "A solid sphere of radius $R$ carries a total charge $Q$ uniformly distributed through its volume. The electric field at a distance $r = R/2$ from the centre is",
+      "options": [
+        "$\\dfrac{kQ}{R^2}$",
+        "$\\dfrac{kQ}{4R^2}$",
+        "$\\dfrac{kQ}{2R^2}$",
+        "zero"
+      ],
+      "answer": 2,
+      "difficulty": "hard",
+      "explanation": "Inside a uniformly charged solid sphere, $E = kQr/R^3$. At $r=R/2$: $E = kQ(R/2)/R^3 = kQ/(2R^2)$."
+    },
+    {
+      "id": "phy-electric-charges-and-fields-019",
+      "q": "The SI unit of electric dipole moment is",
+      "options": [
+        "C m",
+        "N/C",
+        "C m$^2$",
+        "N m"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "$p = q\\times(2a)$, product of charge (C) and separation (m), so unit is C m."
+    },
+    {
+      "id": "phy-electric-charges-and-fields-020",
+      "q": "A point charge $+q$ is kept 10 cm from another point charge $-q$. The electric field at the midpoint of the line joining them is directed",
+      "options": [
+        "from $-q$ to $+q$",
+        "perpendicular to the line joining charges",
+        "zero, since charges are equal and opposite",
+        "from $+q$ to $-q$, magnitude $8kq/r_0^2$ where $r_0$ is total separation"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "At the midpoint, fields due to $+q$ (pointing away, toward $-q$) and $-q$ (pointing toward it, same direction) add up: each contributes $kq/(r_0/2)^2 = 4kq/r_0^2$, total $8kq/r_0^2$, directed from $+q$ towards $-q$."
+    },
+    {
+      "id": "phy-electric-charges-and-fields-021",
+      "q": "A body acquires a charge of $3.2\\times10^{-18}$ C. The number of electrons it must have gained is",
+      "options": [
+        "8",
+        "16",
+        "32",
+        "20"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "$n = q/e = 3.2\\times10^{-18}/1.6\\times10^{-19} = 20$."
+    },
+    {
+      "id": "phy-electric-charges-and-fields-022",
+      "q": "Which of the following is a correct property of electric charge?",
+      "options": [
+        "like charges attract each other",
+        "charge can take any arbitrary (non-quantised) value",
+        "total charge of an isolated system remains conserved",
+        "charge is not conserved in an isolated system"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "Charge is a conserved, quantised, additive scalar quantity; like charges repel, they do not attract."
+    },
+    {
+      "id": "phy-electric-charges-and-fields-023",
+      "q": "Which of the following is NOT a correct property of electric field lines?",
+      "options": [
+        "they can form closed loops in an electrostatic field",
+        "they are perpendicular to the surface of a conductor",
+        "two field lines can never cross each other",
+        "they start on positive charges and end on negative charges"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "In electrostatics, field lines never form closed loops since the electrostatic field is conservative; the other three statements are correct."
+    },
+    {
+      "id": "phy-electric-charges-and-fields-024",
+      "q": "Coulomb's law constant $k = \\dfrac{1}{4\\pi\\varepsilon_0}$ has the approximate value",
+      "options": [
+        "$8.85\\times10^{-12}$ N m$^2$C$^{-2}$",
+        "$9\\times10^9$ N m$^2$C$^{-2}$",
+        "$1.6\\times10^{-19}$ N m$^2$C$^{-2}$",
+        "$6.6\\times10^{-11}$ N m$^2$C$^{-2}$"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "$k=1/(4\\pi\\varepsilon_0)\\approx9\\times10^9$ N m$^2$C$^{-2}$ in vacuum/air."
+    },
+    {
+      "id": "phy-electric-charges-and-fields-025",
+      "q": "The electrostatic force between two point charges is $F$. If the distance between them is halved, the new force is",
+      "options": [
+        "$4F$",
+        "$2F$",
+        "$F/2$",
+        "$F/4$"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "$F\\propto1/r^2$; halving $r$ quadruples the force."
+    },
+    {
+      "id": "phy-electric-charges-and-fields-026",
+      "q": "Two equal point charges placed at two corners of a right angle exert forces $F$ each, mutually perpendicular, on a third charge kept at the right-angle vertex. The net force on the third charge is",
+      "options": [
+        "zero",
+        "$F\\sqrt2$",
+        "$F$",
+        "$2F$"
+      ],
+      "answer": 1,
+      "difficulty": "hard",
+      "explanation": "The resultant of two equal, mutually perpendicular vectors of magnitude $F$ is $\\sqrt{F^2+F^2}=F\\sqrt2$."
+    },
+    {
+      "id": "phy-electric-charges-and-fields-027",
+      "q": "Compared to the electric field of a point charge (which falls as $1/r^2$), the electric field of a short dipole at large distances falls as",
+      "options": [
+        "$1/r^4$",
+        "$1/r^2$",
+        "$1/r^3$",
+        "$1/r$"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "Both the axial ($2kp/r^3$) and equatorial ($kp/r^3$) dipole fields fall off as $1/r^3$, faster than a monopole's $1/r^2$."
+    },
+    {
+      "id": "phy-electric-charges-and-fields-028",
+      "q": "The torque on an electric dipole placed in a uniform electric field is maximum when the angle between the dipole moment and the field is",
+      "options": [
+        "180°",
+        "45°",
+        "0°",
+        "90°"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "$\\tau=pE\\sin\\theta$ is maximum at $\\theta=90^\\circ$, where $\\sin\\theta=1$."
+    },
+    {
+      "id": "phy-electric-charges-and-fields-029",
+      "q": "An electric dipole placed in a uniform electric field is in stable equilibrium when the angle between $\\vec p$ and $\\vec E$ is",
+      "options": [
+        "45°",
+        "0°",
+        "180°",
+        "90°"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "$U=-pE\\cos\\theta$ is minimum (most stable) at $\\theta=0^\\circ$, when $\\vec p$ is aligned with $\\vec E$."
+    },
+    {
+      "id": "phy-electric-charges-and-fields-030",
+      "q": "An electric dipole is placed in a non-uniform electric field. It experiences",
+      "options": [
+        "neither a net force nor a torque",
+        "only a net force, never a torque",
+        "both a net force and (in general) a torque",
+        "only a torque, never a net force"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "In a non-uniform field the forces on the two ends of the dipole are unequal, producing a net force, and in general also a net torque (in a uniform field only a torque acts, with zero net force)."
+    },
+    {
+      "id": "phy-electric-charges-and-fields-031",
+      "q": "The SI unit of surface charge density $\\sigma$ is",
+      "options": [
+        "C m$^{-1}$",
+        "C m$^{-2}$",
+        "C m$^{-3}$",
+        "C"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "Surface charge density is charge per unit area, $\\sigma=q/A$, with SI unit C m$^{-2}$."
+    },
+    {
+      "id": "phy-electric-charges-and-fields-032",
+      "q": "An infinite plane sheet has a uniform surface charge density $\\sigma = 4\\times10^{-6}$ C m$^{-2}$. The electric field near the sheet (in air) is approximately",
+      "options": [
+        "$2.26\\times10^5$ N/C",
+        "$9\\times10^5$ N/C",
+        "$1.13\\times10^5$ N/C",
+        "$4.5\\times10^5$ N/C"
+      ],
+      "answer": 0,
+      "difficulty": "hard",
+      "explanation": "$E=\\dfrac{\\sigma}{2\\varepsilon_0}=\\dfrac{4\\times10^{-6}}{2\\times8.85\\times10^{-12}}\\approx2.26\\times10^5$ N/C."
+    },
+    {
+      "id": "phy-electric-charges-and-fields-033",
+      "q": "Two point charges $+9q$ and $+q$ are placed 40 cm apart. The distance from the $+9q$ charge, along the line joining them, at which the net electric field is zero is",
+      "options": [
+        "30 cm",
+        "20 cm",
+        "10 cm",
+        "36 cm"
+      ],
+      "answer": 0,
+      "difficulty": "hard",
+      "explanation": "At the neutral point, distance $x$ from $9q$: $\\dfrac{9q}{x^2}=\\dfrac{q}{(40-x)^2} \\Rightarrow 3(40-x)=x \\Rightarrow x=30$ cm."
+    },
+    {
+      "id": "phy-electric-charges-and-fields-034",
+      "q": "In $\\beta^-$ decay, a neutron converts into a proton, an electron, and an antineutrino. This process illustrates that electric charge is",
+      "options": [
+        "created",
+        "destroyed",
+        "quantised only for leptons",
+        "conserved (total charge before = total charge after)"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "The neutron (charge 0) becomes a proton ($+e$) and an electron ($-e$); the total charge before and after remains zero, illustrating conservation of charge."
+    },
+    {
+      "id": "phy-electric-charges-and-fields-035",
+      "q": "The net electric field at a point due to a group of point charges is obtained by",
+      "options": [
+        "considering only the nearest charge",
+        "scalar addition of the magnitudes of individual fields",
+        "vector addition of the fields due to each charge, treating others as absent",
+        "averaging the individual fields"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "By the superposition principle, the resultant field is the vector sum of the fields each charge would independently produce at that point."
+    },
+    {
+      "id": "phy-electric-charges-and-fields-036",
+      "q": "A rod of length 20 cm carries a uniformly distributed charge of 4 $\\mu$C. Its linear charge density is",
+      "options": [
+        "$5\\times10^{-5}$ C/m",
+        "$2\\times10^{-5}$ C/m",
+        "$0.2\\times10^{-5}$ C/m",
+        "$8\\times10^{-5}$ C/m"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "$\\lambda=q/l=4\\times10^{-6}/0.2=2\\times10^{-5}$ C/m."
+    },
+    {
+      "id": "phy-electric-charges-and-fields-037",
+      "q": "At a certain point, the electric field due to charge A alone is 3 N/C along the x-axis, and due to charge B alone is 4 N/C along the y-axis. The resultant electric field at that point has magnitude",
+      "options": [
+        "7 N/C",
+        "12 N/C",
+        "5 N/C",
+        "1 N/C"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "The two fields are perpendicular, so the resultant $=\\sqrt{3^2+4^2}=5$ N/C."
+    },
+    {
+      "id": "phy-electric-charges-and-fields-038",
+      "q": "The direction of the electric dipole moment vector $\\vec p$ of a dipole is",
+      "options": [
+        "from the negative charge to the positive charge",
+        "perpendicular to the line joining the charges",
+        "along the external electric field always",
+        "from the positive charge to the negative charge"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "By convention, $\\vec p$ points from the negative charge towards the positive charge, along the dipole axis."
+    },
+    {
+      "id": "phy-electric-charges-and-fields-039",
+      "q": "Which of the following statements regarding Gauss's law is INCORRECT?",
+      "options": [
+        "It can be used to derive Coulomb's law",
+        "The flux through a closed surface depends on charges outside it as well",
+        "It is a consequence of the inverse-square nature of the electrostatic force",
+        "It is valid for any closed surface, regardless of its shape"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "The flux through a closed surface depends only on the charge enclosed, not on any charges outside it — so this statement is incorrect; the other three are true."
+    },
+    {
+      "id": "phy-electric-charges-and-fields-040",
+      "q": "Two point charges $+q$ and $+4q$ are placed 30 cm apart. The point on the line joining them (between the charges) where the electric field is zero is at a distance from $+q$ of",
+      "options": [
+        "20 cm",
+        "12 cm",
+        "15 cm",
+        "10 cm"
+      ],
+      "answer": 3,
+      "difficulty": "hard",
+      "explanation": "At distance $x$ from $+q$: $\\dfrac{q}{x^2}=\\dfrac{4q}{(30-x)^2} \\Rightarrow 30-x=2x \\Rightarrow x=10$ cm."
+    }
+  ]
+}

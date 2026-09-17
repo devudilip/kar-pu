@@ -1,0 +1,525 @@
+{
+  "notes": "<h3>Centre of mass</h3><ul><li>$x_{cm} = \\dfrac{\\sum m_ix_i}{\\sum m_i}$ (similarly for $y$, $z$). For an isolated system, the COM moves with constant velocity (or stays at rest); internal forces such as an explosion or collision never change its motion.</li></ul><h3>Torque and equilibrium</h3><ul><li>$\\vec\\tau = \\vec r\\times\\vec F$, magnitude $\\tau = rF\\sin\\theta$, direction perpendicular to the plane containing $\\vec r$ and $\\vec F$ (right-hand rule).</li><li>A rigid body is in equilibrium only when BOTH the net external force is zero AND the net external torque is zero.</li></ul><h3>Moment of inertia (I)</h3><table><tr><th>Body (about symmetry axis)</th><th>I</th></tr><tr><td>Ring / hoop</td><td>$MR^2$</td></tr><tr><td>Disc / solid cylinder</td><td>$\\frac12MR^2$</td></tr><tr><td>Solid sphere (about a diameter)</td><td>$\\frac25MR^2$</td></tr><tr><td>Thin rod (centre, &perp; to length)</td><td>$\\frac{1}{12}ML^2$</td></tr></table><ul><li>Radius of gyration $k$ is defined by $I = Mk^2$.</li><li>Parallel axis theorem: $I = I_{cm} + Md^2$. Perpendicular axis theorem (planar lamina only): $I_z = I_x+I_y$.</li></ul><h3>Rotational dynamics</h3><ul><li>$\\tau = I\\alpha$ (the rotational analogue of $F=ma$).</li><li>Angular momentum $L = I\\omega$; with zero external torque, $L$ is conserved: $I_1\\omega_1 = I_2\\omega_2$ &mdash; e.g. a spinning skater speeds up when pulling her arms in ($I$ decreases).</li><li>Rotational kinetic energy $= \\frac12I\\omega^2$.</li></ul><h3>Rolling without slipping</h3><ul><li>$v = R\\omega$; total KE $= \\frac12mv^2\\left(1+\\dfrac{k^2}{R^2}\\right)$, e.g. $\\frac{7}{10}mv^2$ for a solid sphere, $\\frac34mv^2$ for a disc.</li></ul><h3>Exam tip</h3><p>KCET sets about 2&ndash;3 questions from this chapter, usually one moment-of-inertia lookup/combination and one torque, equilibrium, or angular-momentum-conservation numerical. Memorise the I-table exactly &mdash; most mistakes come from mixing up the formulas.</p>",
+  "questions": [
+    {
+      "id": "phy-system-of-particles-rotational-motion-001",
+      "q": "Two point masses 2 kg and 3 kg are placed at $x = 0$ and $x = 5$ m respectively on the x-axis. The x-coordinate of their centre of mass is",
+      "options": [
+        "1.5 m",
+        "3 m",
+        "2 m",
+        "2.5 m"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "$x_{cm} = \\dfrac{2\\times0 + 3\\times5}{2+3} = \\dfrac{15}{5} = 3$ m."
+    },
+    {
+      "id": "phy-system-of-particles-rotational-motion-002",
+      "q": "A force of 10 N is applied at a perpendicular distance of 0.5 m from a pivot. The torque produced is",
+      "options": [
+        "2.5 N m",
+        "10 N m",
+        "20 N m",
+        "5 N m"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "$\\tau = F\\times(\\text{perpendicular distance}) = 10\\times0.5 = 5$ N m."
+    },
+    {
+      "id": "phy-system-of-particles-rotational-motion-003",
+      "q": "A ring of mass 2 kg and radius 0.5 m has a moment of inertia about its central axis (perpendicular to its plane) equal to",
+      "options": [
+        "0.5 kg m$^2$",
+        "1 kg m$^2$",
+        "0.25 kg m$^2$",
+        "2 kg m$^2$"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "For a ring, $I = MR^2 = 2\\times(0.5)^2 = 0.5$ kg m$^2$."
+    },
+    {
+      "id": "phy-system-of-particles-rotational-motion-004",
+      "q": "A disc of mass 2 kg and radius 0.5 m has a moment of inertia about its central axis equal to",
+      "options": [
+        "1 kg m$^2$",
+        "0.125 kg m$^2$",
+        "0.25 kg m$^2$",
+        "0.5 kg m$^2$"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "For a disc, $I = \\frac12MR^2 = \\frac12\\times2\\times0.25 = 0.25$ kg m$^2$."
+    },
+    {
+      "id": "phy-system-of-particles-rotational-motion-005",
+      "q": "The moment of inertia of a solid sphere of mass $M$ and radius $R$ about a diameter is",
+      "options": [
+        "$\\frac{2}{3}MR^2$",
+        "$\\frac{2}{5}MR^2$",
+        "$MR^2$",
+        "$\\frac{7}{5}MR^2$"
+      ],
+      "answer": 1,
+      "difficulty": "hard",
+      "explanation": "This is a standard result for a uniform solid sphere about its diameter: $I = \\frac25MR^2$."
+    },
+    {
+      "id": "phy-system-of-particles-rotational-motion-006",
+      "q": "The moment of inertia of a uniform thin rod of mass $M$ and length $L$ about an axis through its centre, perpendicular to its length, is",
+      "options": [
+        "$\\dfrac{ML^2}{12}$",
+        "$ML^2$",
+        "$\\dfrac{ML^2}{2}$",
+        "$\\dfrac{ML^2}{3}$"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "Standard result for a thin rod about its centre: $I = \\dfrac{ML^2}{12}$."
+    },
+    {
+      "id": "phy-system-of-particles-rotational-motion-007",
+      "q": "A body has a moment of inertia of 0.2 kg m$^2$ about an axis through its centre of mass. Its moment of inertia about a parallel axis 0.5 m away, for a mass of 2 kg, is",
+      "options": [
+        "0.45 kg m$^2$",
+        "0.9 kg m$^2$",
+        "1.2 kg m$^2$",
+        "0.7 kg m$^2$"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "Parallel axis theorem: $I = I_{cm}+Md^2 = 0.2 + 2\\times(0.5)^2 = 0.2+0.5 = 0.7$ kg m$^2$."
+    },
+    {
+      "id": "phy-system-of-particles-rotational-motion-008",
+      "q": "The perpendicular axis theorem ($I_z = I_x+I_y$) can be applied only to",
+      "options": [
+        "a solid sphere",
+        "any three-dimensional body",
+        "a planar (two-dimensional) lamina",
+        "a solid cylinder"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "The perpendicular axis theorem is valid only for flat, plane laminas, not for general 3-D bodies like spheres or cylinders."
+    },
+    {
+      "id": "phy-system-of-particles-rotational-motion-009",
+      "q": "A body of moment of inertia 2 kg m$^2$ rotates with an angular velocity of 5 rad s$^{-1}$. Its angular momentum is",
+      "options": [
+        "10 kg m$^2$ s$^{-1}$",
+        "2.5 kg m$^2$ s$^{-1}$",
+        "7 kg m$^2$ s$^{-1}$",
+        "0.4 kg m$^2$ s$^{-1}$"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "$L = I\\omega = 2\\times5 = 10$ kg m$^2$ s$^{-1}$."
+    },
+    {
+      "id": "phy-system-of-particles-rotational-motion-010",
+      "q": "A spinning ice skater pulls her arms inward. As a result",
+      "options": [
+        "her angular velocity decreases",
+        "her angular velocity increases",
+        "her angular momentum increases",
+        "her moment of inertia increases"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "No external torque acts, so angular momentum $L=I\\omega$ is conserved. Pulling arms in decreases $I$, so $\\omega$ must increase to keep $L$ constant."
+    },
+    {
+      "id": "phy-system-of-particles-rotational-motion-011",
+      "q": "A wheel of moment of inertia 4 kg m$^2$ rotates with angular velocity 3 rad s$^{-1}$. Its rotational kinetic energy is",
+      "options": [
+        "36 J",
+        "9 J",
+        "6 J",
+        "18 J"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "$KE_{rot} = \\frac12I\\omega^2 = \\frac12\\times4\\times9 = 18$ J."
+    },
+    {
+      "id": "phy-system-of-particles-rotational-motion-012",
+      "q": "A torque of 10 N m acts on a body of moment of inertia 2 kg m$^2$. The angular acceleration produced is",
+      "options": [
+        "20 rad s$^{-2}$",
+        "12 rad s$^{-2}$",
+        "5 rad s$^{-2}$",
+        "0.2 rad s$^{-2}$"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "$\\tau = I\\alpha \\Rightarrow \\alpha = \\tau/I = 10/2 = 5$ rad s$^{-2}$."
+    },
+    {
+      "id": "phy-system-of-particles-rotational-motion-013",
+      "q": "The condition for a wheel of radius $R$ to roll without slipping is that its centre-of-mass speed $v$ and angular velocity $\\omega$ satisfy",
+      "options": [
+        "$v = R^2\\omega$",
+        "$v = \\omega/R$",
+        "$v = R\\omega$",
+        "$v = R/\\omega$"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "Rolling without slipping requires the contact point's velocity to be zero, giving $v = R\\omega$."
+    },
+    {
+      "id": "phy-system-of-particles-rotational-motion-014",
+      "q": "The total kinetic energy of a solid sphere of mass $m$ rolling without slipping with centre-of-mass speed $v$ is",
+      "options": [
+        "$\\frac{7}{10}mv^2$",
+        "$\\frac12mv^2$",
+        "$\\frac15mv^2$",
+        "$mv^2$"
+      ],
+      "answer": 0,
+      "difficulty": "hard",
+      "explanation": "$KE = \\frac12mv^2 + \\frac12I\\omega^2 = \\frac12mv^2\\left(1+\\dfrac{k^2}{R^2}\\right)$; for a solid sphere $k^2/R^2 = 2/5$, giving $KE = \\frac{7}{10}mv^2$."
+    },
+    {
+      "id": "phy-system-of-particles-rotational-motion-015",
+      "q": "A body of mass 2 kg has a moment of inertia of 8 kg m$^2$ about a given axis. Its radius of gyration about that axis is",
+      "options": [
+        "4 m",
+        "2 m",
+        "16 m",
+        "0.5 m"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "$I = Mk^2 \\Rightarrow k = \\sqrt{I/M} = \\sqrt{8/2} = \\sqrt4 = 2$ m."
+    },
+    {
+      "id": "phy-system-of-particles-rotational-motion-016",
+      "q": "The torque $\\vec\\tau = \\vec r\\times\\vec F$ acting on a particle is directed",
+      "options": [
+        "along the resultant of $\\vec r$ and $\\vec F$",
+        "along $\\vec F$",
+        "along $\\vec r$",
+        "perpendicular to the plane containing $\\vec r$ and $\\vec F$"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "The cross product of two vectors is always perpendicular to the plane containing them, direction given by the right-hand rule."
+    },
+    {
+      "id": "phy-system-of-particles-rotational-motion-017",
+      "q": "A rotating disc of moment of inertia 6 kg m$^2$ spinning at 2 rad s$^{-1}$ deforms (with no external torque) so that its moment of inertia becomes 3 kg m$^2$. Its new angular velocity is",
+      "options": [
+        "4 rad s$^{-1}$",
+        "1 rad s$^{-1}$",
+        "12 rad s$^{-1}$",
+        "2 rad s$^{-1}$"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "Angular momentum is conserved: $I_1\\omega_1 = I_2\\omega_2 \\Rightarrow 6\\times2 = 3\\times\\omega_2 \\Rightarrow \\omega_2 = 4$ rad s$^{-1}$."
+    },
+    {
+      "id": "phy-system-of-particles-rotational-motion-018",
+      "q": "A shell at rest in mid-air explodes into several fragments purely under internal forces. The centre of mass of all the fragments",
+      "options": [
+        "moves horizontally at constant speed",
+        "moves off in a new direction determined by the explosion",
+        "continues to fall along the same trajectory as if no explosion had occurred",
+        "stops instantaneously at the point of explosion"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "Internal forces cannot change the motion of the centre of mass; only gravity (an external force) continues to act, so the COM keeps falling exactly as before."
+    },
+    {
+      "id": "phy-system-of-particles-rotational-motion-019",
+      "q": "A rigid body is said to be in mechanical equilibrium when",
+      "options": [
+        "only the net external torque on it is zero",
+        "only the net external force on it is zero",
+        "the body is necessarily at rest",
+        "both the net external force and the net external torque on it are zero"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "Translational equilibrium requires zero net force; rotational equilibrium requires zero net torque. Both are needed together; the body could still be moving with constant velocity."
+    },
+    {
+      "id": "phy-system-of-particles-rotational-motion-020",
+      "q": "A ring and a disc have the same mass and the same radius. Compared to the disc, the moment of inertia of the ring about the central axis perpendicular to its plane is",
+      "options": [
+        "the same",
+        "twice as large",
+        "four times as large",
+        "half as large"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "$I_{ring} = MR^2$ while $I_{disc} = \\frac12MR^2$, so the ring's moment of inertia is exactly twice the disc's."
+    },
+    {
+      "id": "phy-system-of-particles-rotational-motion-021",
+      "q": "The moment of inertia of a thin spherical shell (hollow sphere) of mass M and radius R about a diameter is",
+      "options": [
+        "$\\frac23MR^2$",
+        "$\\frac25MR^2$",
+        "$\\frac12MR^2$",
+        "$MR^2$"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "For a thin hollow spherical shell about a diameter, $I = \\frac23MR^2$ (larger than a solid sphere's $\\frac25MR^2$ since the mass lies farther from the axis)."
+    },
+    {
+      "id": "phy-system-of-particles-rotational-motion-022",
+      "q": "Two point masses of 2 kg each are fixed at the two ends of a light rod of length 1 m. The moment of inertia of the system about an axis through its centre, perpendicular to the rod, is",
+      "options": [
+        "0.5 kg m²",
+        "1 kg m²",
+        "4 kg m²",
+        "2 kg m²"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "Each mass is 0.5 m from the axis: $I = 2\\times m(L/2)^2 = 2\\times2\\times(0.5)^2 = 1$ kg m²."
+    },
+    {
+      "id": "phy-system-of-particles-rotational-motion-023",
+      "q": "A particle of mass 2 kg moves in a straight line with speed 3 m s$^{-1}$. The perpendicular distance from a fixed point O to this line is 4 m. The angular momentum of the particle about O is",
+      "options": [
+        "18 kg m²/s",
+        "6 kg m²/s",
+        "24 kg m²/s",
+        "12 kg m²/s"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "For a particle in straight-line motion, $L = mvr_\\perp = 2\\times3\\times4 = 24$ kg m² s$^{-1}$, and it stays constant since no torque acts about O."
+    },
+    {
+      "id": "phy-system-of-particles-rotational-motion-024",
+      "q": "A uniform disc of mass 4 kg and radius 0.5 m has moment of inertia 0.5 kg m² about the central axis perpendicular to its plane. Using the perpendicular axis theorem, its moment of inertia about a diameter is",
+      "options": [
+        "0.5 kg m²",
+        "0.125 kg m²",
+        "1 kg m²",
+        "0.25 kg m²"
+      ],
+      "answer": 3,
+      "difficulty": "hard",
+      "explanation": "By symmetry $I_x=I_y$ for the two perpendicular diameters, and $I_x+I_y=I_z \\Rightarrow I_x = I_z/2 = 0.5/2 = 0.25$ kg m²."
+    },
+    {
+      "id": "phy-system-of-particles-rotational-motion-025",
+      "q": "A wheel of moment of inertia 5 kg m² spinning at 10 rad s$^{-1}$ is brought to rest in 5 s by a constant torque. The magnitude of the torque is",
+      "options": [
+        "50 N m",
+        "10 N m",
+        "5 N m",
+        "2 N m"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "$\\alpha = \\Delta\\omega/t = 10/5 = 2$ rad s$^{-2}$; $\\tau = I\\alpha = 5\\times2 = 10$ N m."
+    },
+    {
+      "id": "phy-system-of-particles-rotational-motion-026",
+      "q": "The SI unit of angular momentum is",
+      "options": [
+        "kg m/s",
+        "N m",
+        "W",
+        "kg m²/s"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "$L = I\\omega$ has units kg m$^2$ $\\times$ s$^{-1}$ = kg m$^2$ s$^{-1}$."
+    },
+    {
+      "id": "phy-system-of-particles-rotational-motion-027",
+      "q": "A see-saw pivoted at its centre has a 30 kg child sitting 2 m from the pivot. For the see-saw to balance, a 20 kg child must sit on the other side at a distance of",
+      "options": [
+        "3 m",
+        "4 m",
+        "2.5 m",
+        "2 m"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "Balancing torques: $30\\times2 = 20\\times x \\Rightarrow x = 3$ m."
+    },
+    {
+      "id": "phy-system-of-particles-rotational-motion-028",
+      "q": "A solid sphere rolls without slipping down a rough incline of angle 30°. Its linear acceleration is ($g=10$ m s$^{-2}$)",
+      "options": [
+        "2.5 m/s²",
+        "5 m/s²",
+        "3.57 m/s²",
+        "5.83 m/s²"
+      ],
+      "answer": 2,
+      "difficulty": "hard",
+      "explanation": "$a = \\dfrac{g\\sin\\theta}{1+k^2/R^2} = \\dfrac{10\\times0.5}{1+2/5} = \\dfrac{5}{1.4} \\approx 3.57$ m s$^{-2}$."
+    },
+    {
+      "id": "phy-system-of-particles-rotational-motion-029",
+      "q": "A ring, a disc and a solid sphere of the same mass and radius are released from rest together at the top of the same rough incline and roll down without slipping. The order in which they reach the bottom, fastest to slowest, is",
+      "options": [
+        "ring, disc, sphere",
+        "sphere, disc, ring",
+        "ring, sphere, disc",
+        "disc, sphere, ring"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "Acceleration $\\propto 1/(1+k^2/R^2)$, which is largest for the sphere ($k^2/R^2=2/5$), then the disc ($1/2$), then the ring ($1$, the slowest)."
+    },
+    {
+      "id": "phy-system-of-particles-rotational-motion-030",
+      "q": "A torque of 5 N m acts on a body, rotating it through one complete revolution ($2\\pi$ rad). The work done by the torque is",
+      "options": [
+        "10 J",
+        "15.7 J",
+        "31.4 J",
+        "62.8 J"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "$W = \\tau\\theta = 5\\times2\\pi \\approx 31.4$ J."
+    },
+    {
+      "id": "phy-system-of-particles-rotational-motion-031",
+      "q": "A couple is best described as",
+      "options": [
+        "a pair of equal, opposite, parallel, non-collinear forces producing pure rotation without translation",
+        "a single force that produces rotation",
+        "any two forces acting on a rigid body",
+        "two equal and opposite forces acting along the same line"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "A couple consists of two equal and opposite forces whose lines of action do not coincide; it produces a net torque but zero net force, so it rotates the body without translating it."
+    },
+    {
+      "id": "phy-system-of-particles-rotational-motion-032",
+      "q": "For a rigid body rolling without slipping, the friction force at the point of contact with the ground is",
+      "options": [
+        "zero, since the body is not sliding",
+        "kinetic friction, directed forward",
+        "kinetic friction, directed backward",
+        "static friction, since there is no relative sliding at the contact point"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "The contact point is instantaneously at rest relative to the ground during rolling without slipping, so the friction acting there is static friction (though it may still be non-zero, e.g. down an incline)."
+    },
+    {
+      "id": "phy-system-of-particles-rotational-motion-033",
+      "q": "A rotating platform of moment of inertia 2 kg m² spins at 4 rad s$^{-1}$. A person then steps onto it, increasing the total moment of inertia to 4 kg m² (no external torque acts). The new angular velocity is",
+      "options": [
+        "1 rad/s",
+        "4 rad/s",
+        "2 rad/s",
+        "8 rad/s"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "Angular momentum is conserved: $I_1\\omega_1 = I_2\\omega_2 \\Rightarrow 2\\times4 = 4\\times\\omega_2 \\Rightarrow \\omega_2 = 2$ rad s$^{-1}$."
+    },
+    {
+      "id": "phy-system-of-particles-rotational-motion-034",
+      "q": "A 1 kg mass moves at 2 m s$^{-1}$ and a 3 kg mass moves at 6 m s$^{-1}$, both in the same direction along the same line. The velocity of their centre of mass is",
+      "options": [
+        "5 m/s",
+        "6 m/s",
+        "4 m/s",
+        "3 m/s"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "$v_{cm} = \\dfrac{m_1v_1+m_2v_2}{m_1+m_2} = \\dfrac{1\\times2+3\\times6}{4} = \\dfrac{20}{4} = 5$ m s$^{-1}$."
+    },
+    {
+      "id": "phy-system-of-particles-rotational-motion-035",
+      "q": "The moment of inertia of a rigid body about a given axis depends on",
+      "options": [
+        "only the total mass of the body",
+        "only the shape of the body",
+        "only the axis chosen, regardless of the mass",
+        "the mass and how it is distributed relative to the axis of rotation"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "$I=\\sum m_ir_i^2$ depends on both how much mass there is and how far each part lies from the chosen axis."
+    },
+    {
+      "id": "phy-system-of-particles-rotational-motion-036",
+      "q": "A solid cylinder of mass 3 kg and radius 0.2 m has a moment of inertia about its own (central, symmetry) axis equal to",
+      "options": [
+        "0.6 kg m²",
+        "0.06 kg m²",
+        "0.03 kg m²",
+        "0.12 kg m²"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "$I = \\frac12MR^2 = \\frac12\\times3\\times(0.2)^2 = 1.5\\times0.04 = 0.06$ kg m²."
+    },
+    {
+      "id": "phy-system-of-particles-rotational-motion-037",
+      "q": "A disc of mass 2 kg and radius 0.5 m has a point mass of 1 kg attached at its rim, giving the system a moment of inertia of 0.5 kg m² about the disc's central axis. The torque needed to give it an angular acceleration of 4 rad s$^{-2}$ is",
+      "options": [
+        "1 N m",
+        "0.5 N m",
+        "4 N m",
+        "2 N m"
+      ],
+      "answer": 3,
+      "difficulty": "hard",
+      "explanation": "$\\tau = I\\alpha = 0.5\\times4 = 2$ N m."
+    },
+    {
+      "id": "phy-system-of-particles-rotational-motion-038",
+      "q": "The radius of gyration of a ring of radius R about its central axis (perpendicular to its plane) is",
+      "options": [
+        "$R\\sqrt2$",
+        "2R",
+        "R",
+        "R/2"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "Since $I_{ring}=MR^2=Mk^2$, the radius of gyration $k=R$: all the mass effectively acts at the rim itself."
+    },
+    {
+      "id": "phy-system-of-particles-rotational-motion-039",
+      "q": "In rotational motion, the quantity that plays the role analogous to mass (inertia) in linear motion is",
+      "options": [
+        "moment of inertia",
+        "angular momentum",
+        "torque",
+        "angular velocity"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "Moment of inertia measures a body's reluctance to change its rotational state, just as mass measures reluctance to change linear motion; compare $\\tau=I\\alpha$ with $F=ma$."
+    },
+    {
+      "id": "phy-system-of-particles-rotational-motion-040",
+      "q": "A uniform disc rolls without slipping such that its translational kinetic energy is 40 J. Its total kinetic energy (translational + rotational) is",
+      "options": [
+        "53.3 J",
+        "60 J",
+        "50 J",
+        "40 J"
+      ],
+      "answer": 1,
+      "difficulty": "hard",
+      "explanation": "For a disc, $k^2/R^2=\\frac12$, so total $KE = KE_{trans}(1+k^2/R^2) = 40\\times1.5 = 60$ J."
+    }
+  ]
+}

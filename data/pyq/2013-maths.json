@@ -1,0 +1,792 @@
+{
+  "title": "KCET 2013 Maths",
+  "year": 2013,
+  "subject": "maths",
+  "code": "A-1",
+  "source": "KEA question paper (copy) + KEA answer key column A1",
+  "excluded": [],
+  "questions": [
+    {
+      "n": 1,
+      "q": "If $\\dfrac{(x+1)^2}{x^3+x}=\\dfrac{A}{x}+\\dfrac{Bx+C}{x^2+1}$, then $\\sin^{-1}A+\\tan^{-1}B+\\sec^{-1}C=$",
+      "options": [
+        "$\\dfrac{\\pi}{2}$",
+        "$\\dfrac{\\pi}{6}$",
+        "0",
+        "$\\dfrac{5\\pi}{6}$"
+      ],
+      "answer": 3,
+      "chapter": "Inverse Trigonometric Functions",
+      "explanation": "Comparing coefficients gives $A=1,B=0,C=2$, so $\\sin^{-1}1+\\tan^{-1}0+\\sec^{-1}2=\\pi/2+0+\\pi/3=5\\pi/6$."
+    },
+    {
+      "n": 2,
+      "q": "The sum of the series $\\dfrac{1}{2\\cdot3}\\cdot2+\\dfrac{2}{3\\cdot4}\\cdot2^2+\\dfrac{3}{4\\cdot5}\\cdot2^3+\\ldots$ to n terms is",
+      "options": [
+        "$\\dfrac{2^{n+1}}{n+2}+1$",
+        "$\\dfrac{2^{n+1}}{n+2}-1$",
+        "$\\dfrac{2^{n+1}}{n+2}+2$",
+        "$\\dfrac{2^{n+1}}{n+2}-2$"
+      ],
+      "answer": 1,
+      "chapter": "Sequences and Series",
+      "explanation": "The general term telescopes as $b_{k+1}-b_k$ with $b_k=\\dfrac{2^k}{k+1}$, giving the sum $\\dfrac{2^{n+1}}{n+2}-1$."
+    },
+    {
+      "n": 3,
+      "q": "If the roots of the equation $x^3+ax^2+bx+c=0$ are in A.P., then $2a^3-9ab=$",
+      "options": [
+        "9c",
+        "18c",
+        "27c",
+        "-27c"
+      ],
+      "answer": 3,
+      "chapter": "Complex Numbers and Quadratic Equations",
+      "explanation": "The middle root equals $-a/3$; substituting into the cubic and simplifying gives $2a^3-9ab=-27c$."
+    },
+    {
+      "n": 4,
+      "q": "If the value of $C_0+2\\cdot C_1+3\\cdot C_2+\\ldots+(n+1)\\cdot C_n=576$, then n is",
+      "options": [
+        "7",
+        "5",
+        "6",
+        "9"
+      ],
+      "answer": 0,
+      "chapter": "Binomial Theorem",
+      "explanation": "$\\sum(k+1)\\binom{n}{k}=n\\cdot2^{n-1}+2^n=2^{n-1}(n+2)=576$ gives $n=7$."
+    },
+    {
+      "n": 5,
+      "q": "The inverse of the proposition $(p\\wedge\\sim q)\\to r$ is",
+      "options": [
+        "$(\\sim r)\\to(\\sim p)\\vee q$",
+        "$(\\sim p)\\vee q\\to(\\sim r)$",
+        "$r\\to p\\wedge(\\sim q)$",
+        "$(\\sim p)\\vee(\\sim q)\\to r$"
+      ],
+      "answer": 1,
+      "chapter": "Old syllabus: Mathematical Reasoning",
+      "explanation": "Negating both the hypothesis and conclusion of $(p\\wedge\\sim q)\\to r$ gives $(\\sim p\\vee q)\\to\\sim r$."
+    },
+    {
+      "n": 6,
+      "q": "The range of the function $f(x)=\\sin[x]$, $-\\dfrac{\\pi}{4}<x<\\dfrac{\\pi}{4}$ where $[x]$ denotes the greatest integer $\\le x$, is",
+      "options": [
+        "$\\{0\\}$",
+        "$\\{0,-1\\}$",
+        "$\\{0,\\pm\\sin1\\}$",
+        "$\\{0,-\\sin1\\}$"
+      ],
+      "answer": 3,
+      "chapter": "Relations and Functions",
+      "explanation": "$[x]=0$ for $0\\le x<\\pi/4$ giving $\\sin0=0$, and $[x]=-1$ for $-\\pi/4<x<0$ giving $\\sin(-1)=-\\sin1$."
+    },
+    {
+      "n": 7,
+      "q": "If the line $6x-7y+8+\\lambda(3x-y+5)=0$ is parallel to y-axis, then $\\lambda=$",
+      "options": [
+        "-7",
+        "-2",
+        "7",
+        "2"
+      ],
+      "answer": 0,
+      "chapter": "Straight Lines",
+      "explanation": "The coefficient of y must vanish: $-7-\\lambda=0\\Rightarrow\\lambda=-7$."
+    },
+    {
+      "n": 8,
+      "q": "The angle between the lines $\\sin^2\\alpha\\cdot y^2-2xy\\cos^2\\alpha+(\\cos^2\\alpha-1)x^2=0$ is",
+      "options": [
+        "$90°$",
+        "$\\alpha$",
+        "$\\dfrac{\\alpha}{2}$",
+        "$2\\alpha$"
+      ],
+      "answer": 0,
+      "chapter": "Straight Lines",
+      "explanation": "Using $\\tan\\theta=\\dfrac{2\\sqrt{h^2-ab}}{a+b}$ with $a+b=0$ here, the angle is $90°$."
+    },
+    {
+      "n": 9,
+      "q": "The minimum area of the triangle formed by the variable line $3\\cos\\theta\\cdot x+4\\sin\\theta\\cdot y=12$ and the co-ordinate axes is",
+      "options": [
+        "144",
+        "$\\dfrac{25}{2}$",
+        "$\\dfrac{49}{4}$",
+        "12"
+      ],
+      "answer": 3,
+      "chapter": "Straight Lines",
+      "explanation": "Area $=\\dfrac12\\cdot\\dfrac{4}{\\cos\\theta}\\cdot\\dfrac{3}{\\sin\\theta}=\\dfrac{12}{\\sin2\\theta}$, minimized at $\\sin2\\theta=1$ giving area 12."
+    },
+    {
+      "n": 10,
+      "q": "$\\log(\\sin1°)\\cdot\\log(\\sin2°)\\cdot\\log(\\sin3°)\\ldots\\log(\\sin179°)$",
+      "options": [
+        "is positive",
+        "is negative",
+        "lies between 1 and 180",
+        "is zero"
+      ],
+      "answer": 3,
+      "chapter": "Trigonometric Functions",
+      "explanation": "Since $\\sin90°=1$, the factor $\\log(\\sin90°)=0$ makes the whole product zero."
+    },
+    {
+      "n": 11,
+      "q": "If $\\sin x-\\sin y=\\dfrac12$ and $\\cos x-\\cos y=1$, then $\\tan(x+y)=$",
+      "options": [
+        "$\\dfrac38$",
+        "$-\\dfrac38$",
+        "$\\dfrac43$",
+        "$-\\dfrac43$"
+      ],
+      "answer": 2,
+      "chapter": "Trigonometric Functions",
+      "explanation": "Dividing the sum-to-product forms gives $\\cot\\dfrac{x+y}{2}=-\\dfrac12$, so $\\tan(x+y)=\\dfrac{2(-2)}{1-4}=\\dfrac43$."
+    },
+    {
+      "n": 12,
+      "q": "In a triangle ABC, if $\\dfrac{\\cos A}{a}=\\dfrac{\\cos B}{b}=\\dfrac{\\cos C}{c}$ and $a=2$, then its area is",
+      "options": [
+        "$2\\sqrt3$",
+        "$\\sqrt3$",
+        "$\\dfrac{\\sqrt3}{2}$",
+        "$\\dfrac{\\sqrt3}{4}$"
+      ],
+      "answer": 1,
+      "chapter": "Trigonometric Functions",
+      "explanation": "The condition forces the triangle to be equilateral, so with side 2 the area is $\\sqrt3$."
+    },
+    {
+      "n": 13,
+      "q": "$\\displaystyle\\lim_{x\\to0}\\dfrac{\\log_e(1+x)}{3^x-1}=$",
+      "options": [
+        "$\\log_e3$",
+        "0",
+        "$\\log_3e$",
+        "1"
+      ],
+      "answer": 2,
+      "chapter": "Limits and Derivatives",
+      "explanation": "Using $\\ln(1+x)\\sim x$ and $3^x-1\\sim x\\ln3$, the limit is $\\dfrac{1}{\\ln3}=\\log_3e$."
+    },
+    {
+      "n": 14,
+      "q": "Let $f(x)=\\begin{cases}x, & x\\text{ is irrational}\\\\0, & x\\text{ is rational}\\end{cases}$, then f is",
+      "options": [
+        "continuous everywhere",
+        "discontinuous everywhere",
+        "continuous only at $x=0$",
+        "continuous at all rational numbers"
+      ],
+      "answer": 2,
+      "chapter": "Continuity and Differentiability",
+      "explanation": "Near $x=0$ both rational and irrational sequences give function values approaching 0, but at any other point they give different limits, so f is continuous only at $x=0$."
+    },
+    {
+      "n": 15,
+      "q": "In a regular graph of 15 vertices the sum of the degree of the vertices is 60. Then the degree of each vertex is",
+      "options": [
+        "5",
+        "3",
+        "4",
+        "2"
+      ],
+      "answer": 2,
+      "chapter": "Old syllabus: Graph Theory",
+      "explanation": "In a regular graph, sum of degrees $=n\\cdot d=15d=60\\Rightarrow d=4$."
+    },
+    {
+      "n": 16,
+      "q": "The remainder when $10^{10}\\cdot(10^{10}+1)(10^{10}+2)$ is divided by 6 is",
+      "options": [
+        "2",
+        "4",
+        "0",
+        "6"
+      ],
+      "answer": 2,
+      "chapter": "Old syllabus: Number Theory",
+      "explanation": "$10^{10}\\equiv4\\pmod6$, so the three factors are $\\equiv4,5,0\\pmod6$; since one factor is divisible by 6, the product's remainder is 0."
+    },
+    {
+      "n": 17,
+      "q": "A value of x satisfying $150x\\equiv35\\pmod{31}$ is",
+      "options": [
+        "14",
+        "22",
+        "24",
+        "12"
+      ],
+      "answer": 2,
+      "chapter": "Old syllabus: Number Theory",
+      "explanation": "Reducing gives $26x\\equiv4\\pmod{31}$; since $5^{-1}\\equiv25\\pmod{31}$, solving yields $x\\equiv24\\pmod{31}$."
+    },
+    {
+      "n": 18,
+      "q": "The smallest positive divisor greater than 1 of a composite number 'a' is",
+      "options": [
+        "$<\\sqrt a$",
+        "$=\\sqrt a$",
+        "$>\\sqrt a$",
+        "$\\le\\sqrt a$"
+      ],
+      "answer": 3,
+      "chapter": "Old syllabus: Number Theory",
+      "explanation": "If the smallest prime factor exceeded $\\sqrt a$, all its factors would exceed $\\sqrt a$, making the product exceed a; hence it is $\\le\\sqrt a$."
+    },
+    {
+      "n": 19,
+      "q": "If A and B are square matrices of order 'n' such that $A^2-B^2=(A-B)(A+B)$, then which of the following will be true?",
+      "options": [
+        "Either of A or B is zero matrix.",
+        "A = B",
+        "AB = BA",
+        "Either of A or B is an identity matrix."
+      ],
+      "answer": 2,
+      "chapter": "Matrices",
+      "explanation": "Expanding $(A-B)(A+B)=A^2+AB-BA-B^2$ and equating to $A^2-B^2$ gives $AB=BA$."
+    },
+    {
+      "n": 20,
+      "q": "If $A=\\begin{bmatrix}\\alpha&2\\\\2&\\alpha\\end{bmatrix}$ and $|A^3|=125$, then $\\alpha=$",
+      "options": [
+        "$\\pm1$",
+        "$\\pm2$",
+        "$\\pm3$",
+        "$\\pm5$"
+      ],
+      "answer": 2,
+      "chapter": "Determinants",
+      "explanation": "$|A|^3=(\\alpha^2-4)^3=125\\Rightarrow\\alpha^2-4=5\\Rightarrow\\alpha=\\pm3$."
+    },
+    {
+      "n": 21,
+      "q": "If $A=\\begin{vmatrix}x&1&1\\\\1&x&1\\\\1&1&x\\end{vmatrix}$ and $B=\\begin{vmatrix}x&1\\\\1&x\\end{vmatrix}$, then $\\dfrac{dA}{dx}=$",
+      "options": [
+        "3B+1",
+        "3B",
+        "-3B",
+        "1-3B"
+      ],
+      "answer": 1,
+      "chapter": "Determinants",
+      "explanation": "$A=x^3-3x+2$, so $\\dfrac{dA}{dx}=3x^2-3=3(x^2-1)=3B$."
+    },
+    {
+      "n": 22,
+      "q": "If the determinant of the adjoint of a (real) matrix of order 3 is 25, then the determinant of the inverse of the matrix is",
+      "options": [
+        "0.2",
+        "$\\pm5$",
+        "$\\dfrac{1}{\\sqrt[5]{625}}$",
+        "$\\pm0.2$"
+      ],
+      "answer": 3,
+      "chapter": "Determinants",
+      "explanation": "$|\\mathrm{adj}\\,A|=|A|^{2}=25\\Rightarrow|A|=\\pm5$, so $|A^{-1}|=1/|A|=\\pm0.2$."
+    },
+    {
+      "n": 23,
+      "q": "If the matrix $\\begin{bmatrix}2&3\\\\5&-1\\end{bmatrix}=A+B$, where A is symmetric and B is skew symmetric, then $B=$",
+      "options": [
+        "$\\begin{bmatrix}2&4\\\\4&-1\\end{bmatrix}$",
+        "$\\begin{bmatrix}0&-2\\\\2&0\\end{bmatrix}$",
+        "$\\begin{bmatrix}0&1\\\\-1&0\\end{bmatrix}$",
+        "$\\begin{bmatrix}0&-1\\\\1&0\\end{bmatrix}$"
+      ],
+      "answer": 3,
+      "chapter": "Matrices",
+      "explanation": "$B=\\dfrac{M-M^T}{2}=\\dfrac12\\begin{bmatrix}0&-2\\\\2&0\\end{bmatrix}=\\begin{bmatrix}0&-1\\\\1&0\\end{bmatrix}$."
+    },
+    {
+      "n": 24,
+      "q": "In a group (G, *), for some element 'a' of G, if $a^2=e$, where e is the identity element, then",
+      "options": [
+        "$a=a^{-1}$",
+        "$a=\\sqrt e$",
+        "$a=\\dfrac{1}{a^2}$",
+        "a = e"
+      ],
+      "answer": 0,
+      "chapter": "Old syllabus: Group Theory",
+      "explanation": "$a^2=e\\Rightarrow a\\cdot a=e\\Rightarrow a=a^{-1}$."
+    },
+    {
+      "n": 25,
+      "q": "In the group (Z, *), if $a*b=a+b-n$ for all $a,b\\in Z$, where n is a fixed integer, then the inverse of $(-n)$ is",
+      "options": [
+        "n",
+        "-n",
+        "-3n",
+        "3n"
+      ],
+      "answer": 3,
+      "chapter": "Old syllabus: Group Theory",
+      "explanation": "The identity element is n; solving $(-n)*b=n$ gives $-n+b-n=n\\Rightarrow b=3n$."
+    },
+    {
+      "n": 26,
+      "q": "If $\\vec a=(1,2,3)$, $\\vec b=(2,-1,1)$, $\\vec c=(3,2,1)$ and $\\vec a\\times(\\vec b\\times\\vec c)=\\alpha\\vec a+\\beta\\vec b+\\gamma\\vec c$, then",
+      "options": [
+        "$\\alpha=1,\\beta=10,\\gamma=3$",
+        "$\\alpha=0,\\beta=10,\\gamma=-3$",
+        "$\\alpha+\\beta+\\gamma=8$",
+        "$\\alpha=\\beta=\\gamma=0$"
+      ],
+      "answer": 1,
+      "chapter": "Vector Algebra",
+      "explanation": "By $\\vec a\\times(\\vec b\\times\\vec c)=\\vec b(\\vec a\\cdot\\vec c)-\\vec c(\\vec a\\cdot\\vec b)=10\\vec b-3\\vec c$, giving $\\alpha=0,\\beta=10,\\gamma=-3$ (KEA awarded a grace mark for this question).",
+      "grace": true
+    },
+    {
+      "n": 27,
+      "q": "If $\\vec a\\perp\\vec b$ and $(\\vec a+\\vec b)\\perp(\\vec a+m\\vec b)$, then $m=$",
+      "options": [
+        "-1",
+        "1",
+        "$-\\dfrac{|\\vec a|^2}{|\\vec b|^2}$",
+        "0"
+      ],
+      "answer": 2,
+      "chapter": "Vector Algebra",
+      "explanation": "Expanding the dot product using $\\vec a\\cdot\\vec b=0$ gives $|\\vec a|^2+m|\\vec b|^2=0\\Rightarrow m=-|\\vec a|^2/|\\vec b|^2$."
+    },
+    {
+      "n": 28,
+      "q": "If $\\vec a,\\vec b,\\vec c$ are unit vectors such that $\\vec a+\\vec b+\\vec c=\\vec 0$, then $\\vec a\\cdot\\vec b+\\vec b\\cdot\\vec c+\\vec c\\cdot\\vec a=$",
+      "options": [
+        "$\\dfrac32$",
+        "$-\\dfrac32$",
+        "$\\dfrac23$",
+        "$\\dfrac12$"
+      ],
+      "answer": 1,
+      "chapter": "Vector Algebra",
+      "explanation": "Squaring $\\vec a+\\vec b+\\vec c=0$ gives $3+2(\\vec a\\cdot\\vec b+\\vec b\\cdot\\vec c+\\vec c\\cdot\\vec a)=0$, so the sum is $-3/2$."
+    },
+    {
+      "n": 29,
+      "q": "If $\\vec a$ is a vector perpendicular to both $\\vec b$ and $\\vec c$, then",
+      "options": [
+        "$\\vec a\\cdot(\\vec b\\times\\vec c)=0$",
+        "$\\vec a\\times(\\vec b\\times\\vec c)=\\vec 0$",
+        "$\\vec a\\times(\\vec b+\\vec c)=\\vec 0$",
+        "$\\vec a+(\\vec b+\\vec c)=\\vec 0$"
+      ],
+      "answer": 1,
+      "chapter": "Vector Algebra",
+      "explanation": "Since $\\vec a$ is parallel to $\\vec b\\times\\vec c$, their cross product vanishes."
+    },
+    {
+      "n": 30,
+      "q": "A tangent is drawn to the circle $2x^2+2y^2-3x+4y=0$ at the point 'A' and it meets the line $x+y=3$ at $B(2,1)$, then $AB=$",
+      "options": [
+        "$\\sqrt{10}$",
+        "2",
+        "$2\\sqrt2$",
+        "0"
+      ],
+      "answer": 1,
+      "chapter": "Conic Sections",
+      "explanation": "The tangent length from B equals $\\sqrt{\\text{power of }B}=\\sqrt{2^2+1^2-1.5(2)+2(1)}=\\sqrt4=2$."
+    },
+    {
+      "n": 31,
+      "q": "The area of the circle having its centre at $(3,4)$ and touching the line $5x+12y-11=0$ is",
+      "options": [
+        "$16\\pi$ sq. units",
+        "$4\\pi$ sq. units",
+        "$12\\pi$ sq. units",
+        "$25\\pi$ sq. units"
+      ],
+      "answer": 0,
+      "chapter": "Conic Sections",
+      "explanation": "Radius $=\\dfrac{|15+48-11|}{13}=4$, so area $=16\\pi$."
+    },
+    {
+      "n": 32,
+      "q": "The number of real circles cutting orthogonally the circle $x^2+y^2+2x-2y+7=0$ is",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "infinitely many"
+      ],
+      "answer": 3,
+      "chapter": "Conic Sections",
+      "explanation": "The orthogonality condition $2g_1g_2+2f_1f_2=c_1+c_2$ is a single linear relation in the unknown circle's coefficients, satisfied by infinitely many real circles even though the given circle itself is imaginary (radius$^2<0$); KEA awarded a grace mark for this question.",
+      "grace": true
+    },
+    {
+      "n": 33,
+      "q": "The length of the chord of the circle $x^2+y^2+3x+2y-8=0$ intercepted by the y-axis is",
+      "options": [
+        "3",
+        "8",
+        "9",
+        "6"
+      ],
+      "answer": 3,
+      "chapter": "Conic Sections",
+      "explanation": "Setting $x=0$ gives $y^2+2y-8=0\\Rightarrow y=2,-4$, so the chord length is 6."
+    },
+    {
+      "n": 34,
+      "q": "$A\\equiv(\\cos\\theta,\\sin\\theta)$, $B\\equiv(\\sin\\theta,-\\cos\\theta)$ are two points. The locus of the centroid of $\\triangle OAB$, where 'O' is the origin, is",
+      "options": [
+        "$x^2+y^2=3$",
+        "$9x^2+9y^2=2$",
+        "$2x^2+2y^2=9$",
+        "$3x^2+3y^2=2$"
+      ],
+      "answer": 1,
+      "chapter": "Conic Sections",
+      "explanation": "The centroid is $\\left(\\dfrac{\\cos\\theta+\\sin\\theta}{3},\\dfrac{\\sin\\theta-\\cos\\theta}{3}\\right)$, so $x^2+y^2=\\dfrac29$, i.e. $9x^2+9y^2=2$."
+    },
+    {
+      "n": 35,
+      "q": "The sum of the squares of the eccentricities of the conics $\\dfrac{x^2}{4}+\\dfrac{y^2}{3}=1$ and $\\dfrac{x^2}{4}-\\dfrac{y^2}{3}=1$ is",
+      "options": [
+        "2",
+        "$\\sqrt{\\dfrac73}$",
+        "$\\sqrt7$",
+        "$\\sqrt3$"
+      ],
+      "answer": 0,
+      "chapter": "Conic Sections",
+      "explanation": "For the ellipse $e^2=1-3/4=1/4$ and for the hyperbola $e^2=1+3/4=7/4$; their sum is 2."
+    },
+    {
+      "n": 36,
+      "q": "The equation of the tangent to the parabola $y^2=4x$ inclined at an angle of $\\dfrac{\\pi}{4}$ to the +ve direction of x-axis is",
+      "options": [
+        "$x+y-4=0$",
+        "$x-y+4=0$",
+        "$x-y-1=0$",
+        "$x-y+1=0$"
+      ],
+      "answer": 3,
+      "chapter": "Conic Sections",
+      "explanation": "Using $y=mx+1/m$ with $m=1$ (since $4a=4\\Rightarrow a=1$) gives $y=x+1$, i.e. $x-y+1=0$."
+    },
+    {
+      "n": 37,
+      "q": "If the distance between the foci and the distance between the directrices of the hyperbola $\\dfrac{x^2}{a^2}-\\dfrac{y^2}{b^2}=1$ are in the ratio 3 : 2, then $a:b$ is",
+      "options": [
+        "$\\sqrt2:1$",
+        "1:2",
+        "$\\sqrt3:\\sqrt2$",
+        "2:1"
+      ],
+      "answer": 0,
+      "chapter": "Conic Sections",
+      "explanation": "$\\dfrac{2ae}{2a/e}=e^2=\\dfrac32\\Rightarrow b^2/a^2=1/2\\Rightarrow a:b=\\sqrt2:1$."
+    },
+    {
+      "n": 38,
+      "q": "If the area of the auxiliary circle of the ellipse $\\dfrac{x^2}{a^2}+\\dfrac{y^2}{b^2}=1$ $(a>b)$ is twice the area of the ellipse, then the eccentricity of the ellipse is",
+      "options": [
+        "$\\dfrac{1}{\\sqrt3}$",
+        "$\\dfrac12$",
+        "$\\dfrac{1}{\\sqrt2}$",
+        "$\\dfrac{\\sqrt3}{2}$"
+      ],
+      "answer": 3,
+      "chapter": "Conic Sections",
+      "explanation": "$\\pi a^2=2\\pi ab\\Rightarrow a=2b$, so $e^2=1-b^2/a^2=3/4\\Rightarrow e=\\sqrt3/2$."
+    },
+    {
+      "n": 39,
+      "q": "$\\cos\\left[2\\cos^{-1}\\dfrac15+\\sin^{-1}\\dfrac15\\right]=$",
+      "options": [
+        "$\\dfrac15$",
+        "$\\dfrac{-2\\sqrt6}{5}$",
+        "$-\\dfrac15$",
+        "$\\dfrac{\\sqrt6}{5}$"
+      ],
+      "answer": 1,
+      "chapter": "Inverse Trigonometric Functions",
+      "explanation": "Writing the angle as $\\cos^{-1}(1/5)+\\pi/2$, the cosine becomes $-\\sin(\\cos^{-1}(1/5))=-2\\sqrt6/5$."
+    },
+    {
+      "n": 40,
+      "q": "The value of $\\tan^{-1}\\left(\\dfrac{x}{y}\\right)-\\tan^{-1}\\left(\\dfrac{x-y}{x+y}\\right)$, $x,y>0$ is",
+      "options": [
+        "$\\dfrac{\\pi}{4}$",
+        "$-\\dfrac{\\pi}{4}$",
+        "$\\dfrac{\\pi}{2}$",
+        "$-\\dfrac{\\pi}{2}$"
+      ],
+      "answer": 0,
+      "chapter": "Inverse Trigonometric Functions",
+      "explanation": "This is a standard identity: $\\tan^{-1}(x/y)-\\tan^{-1}\\left(\\dfrac{x-y}{x+y}\\right)=\\pi/4$ for $x,y>0$."
+    },
+    {
+      "n": 41,
+      "q": "The general solution of $\\sin x-\\cos x=\\sqrt2$, for any integer 'n' is",
+      "options": [
+        "$2n\\pi+\\dfrac{3\\pi}{4}$",
+        "$n\\pi$",
+        "$(2n+1)\\pi$",
+        "$2n\\pi$"
+      ],
+      "answer": 0,
+      "chapter": "Trigonometric Functions",
+      "explanation": "$\\sqrt2\\sin(x-\\pi/4)=\\sqrt2\\Rightarrow\\sin(x-\\pi/4)=1\\Rightarrow x=2n\\pi+3\\pi/4$."
+    },
+    {
+      "n": 42,
+      "q": "The modulus and amplitude of $\\dfrac{1+2i}{1-(1-i)^2}$ are",
+      "options": [
+        "$\\sqrt2$ and $\\dfrac{\\pi}{6}$",
+        "1 and $\\dfrac{\\pi}{4}$",
+        "1 and 0",
+        "1 and $\\dfrac{\\pi}{3}$"
+      ],
+      "answer": 2,
+      "chapter": "Complex Numbers and Quadratic Equations",
+      "explanation": "$(1-i)^2=-2i$, so the expression is $\\dfrac{1+2i}{1+2i}=1$, with modulus 1 and amplitude 0."
+    },
+    {
+      "n": 43,
+      "q": "If $2x=-1+\\sqrt3i$, then the value of $(1-x^2+x)^6-(1-x+x^2)^6=$",
+      "options": [
+        "32",
+        "64",
+        "-64",
+        "0"
+      ],
+      "answer": 3,
+      "chapter": "Complex Numbers and Quadratic Equations",
+      "explanation": "Here $x$ is a complex cube root of unity satisfying $x^2+x+1=0$; both bracketed expressions reduce to $\\mp2x^2,-2x$ whose sixth powers use $x^6=1$, giving the difference 0."
+    },
+    {
+      "n": 44,
+      "q": "If $x+y=\\tan^{-1}y$ and $\\dfrac{d^2y}{dx^2}=f(y)\\dfrac{dy}{dx}$, then $f(y)=$",
+      "options": [
+        "$\\dfrac{-2}{y^3}$",
+        "$\\dfrac{2}{y^3}$",
+        "$\\dfrac1y$",
+        "$\\dfrac{-1}{y}$"
+      ],
+      "answer": 1,
+      "chapter": "Continuity and Differentiability",
+      "explanation": "Differentiating gives $dy/dx=-(1+y^2)/y^2$; differentiating again shows $f(y)=2/y^3$."
+    },
+    {
+      "n": 45,
+      "q": "$f(x)=\\begin{cases}2a-x, & -a<x<a\\\\3x-2a, & a\\le x\\end{cases}$. Then which of the following is true?",
+      "options": [
+        "$f(x)$ is not differentiable at $x=a$.",
+        "$f(x)$ is discontinuous at $x=a$.",
+        "$f(x)$ is continuous for all $x<a$.",
+        "$f(x)$ is differentiable for all $x\\ge a$."
+      ],
+      "answer": 0,
+      "chapter": "Continuity and Differentiability",
+      "explanation": "The function is continuous at $x=a$ (both pieces equal $a$), but the left derivative $-1$ differs from the right derivative $3$."
+    },
+    {
+      "n": 46,
+      "q": "Let $f(x)=\\cos^{-1}\\left[\\dfrac{1}{\\sqrt{13}}(2\\cos x-3\\sin x)\\right]$. Then $f'(0.5)=$",
+      "options": [
+        "0.5",
+        "1",
+        "0",
+        "-1"
+      ],
+      "answer": 1,
+      "chapter": "Continuity and Differentiability",
+      "explanation": "Writing $2\\cos x-3\\sin x=\\sqrt{13}\\cos(x+\\phi)$ gives $f(x)=x+\\phi$, so $f'(x)=1$ everywhere."
+    },
+    {
+      "n": 47,
+      "q": "If $f(x)$ is a function such that $f''(x)+f(x)=0$ and $g(x)=[f(x)]^2+[f'(x)]^2$ and $g(3)=8$, then $g(8)=$",
+      "options": [
+        "0",
+        "3",
+        "5",
+        "8"
+      ],
+      "answer": 3,
+      "chapter": "Continuity and Differentiability",
+      "explanation": "$g'(x)=2f'(x)[f(x)+f''(x)]=0$, so g is constant; hence $g(8)=g(3)=8$."
+    },
+    {
+      "n": 48,
+      "q": "If $f(x)=f'(x)+f''(x)+f'''(x)+\\ldots$ and $f(0)=1$, then $f(x)=$",
+      "options": [
+        "$e^{\\frac{x}{2}}$",
+        "$e^x$",
+        "$e^{2x}$",
+        "$e^{4x}$"
+      ],
+      "answer": 0,
+      "chapter": "Differential Equations",
+      "explanation": "Differentiating shows $f'(x)=f(x)-f'(x)$, so $2f'=f$, giving $f(x)=e^{x/2}$ since $f(0)=1$."
+    },
+    {
+      "n": 49,
+      "q": "The function $f(x)=\\dfrac{x}{3}+\\dfrac{3}{x}$ decreases in the interval",
+      "options": [
+        "$(-3,3)$",
+        "$(-\\infty,3)$",
+        "$(3,\\infty)$",
+        "$(-9,9)$"
+      ],
+      "answer": 0,
+      "chapter": "Application of Derivatives",
+      "explanation": "$f'(x)=\\dfrac13-\\dfrac{3}{x^2}<0\\Rightarrow x^2<9\\Rightarrow -3<x<3$."
+    },
+    {
+      "n": 50,
+      "q": "If $\\sin^{-1}a$ is the acute angle between the curves $x^2+y^2=4x$ and $x^2+y^2=8$ at $(2,2)$, then $a=$",
+      "options": [
+        "1",
+        "0",
+        "$\\dfrac{1}{\\sqrt2}$",
+        "$\\dfrac{\\sqrt3}{2}$"
+      ],
+      "answer": 2,
+      "chapter": "Application of Derivatives",
+      "explanation": "The tangent slopes at $(2,2)$ are 0 and $-1$, so $\\tan\\theta=1\\Rightarrow\\theta=45°$, giving $a=\\sin45°=1/\\sqrt2$."
+    },
+    {
+      "n": 51,
+      "q": "The maximum area of a rectangle that can be inscribed in a circle of radius 2 units is",
+      "options": [
+        "$8\\pi$ sq. units",
+        "4 sq. units",
+        "5 sq. units",
+        "8 sq. units"
+      ],
+      "answer": 3,
+      "chapter": "Application of Derivatives",
+      "explanation": "The maximum-area rectangle is a square with diagonal 4, giving side $2\\sqrt2$ and area 8."
+    },
+    {
+      "n": 52,
+      "q": "If the length of the sub-tangent at any point to the curve $xy^n=a$ is proportional to the abscissa, then 'n' is",
+      "options": [
+        "any non-zero real number",
+        "2",
+        "-2",
+        "1"
+      ],
+      "answer": 0,
+      "chapter": "Application of Derivatives",
+      "explanation": "The subtangent is $y/y'=-nx$, which is proportional to the abscissa x for any value of n."
+    },
+    {
+      "n": 53,
+      "q": "$\\displaystyle\\int\\dfrac{\\cos^{n-1}x}{\\sin^{n+1}x}\\,dx$, $n\\ne0$ is",
+      "options": [
+        "$\\dfrac{\\cot^nx}{n}$",
+        "$\\dfrac{-\\cot^{n-1}x}{n-1}$",
+        "$\\dfrac{-\\cot^nx}{n}$",
+        "$\\dfrac{\\cot^{n-1}x}{n-1}$"
+      ],
+      "answer": 2,
+      "chapter": "Integrals",
+      "explanation": "Writing the integrand as $\\cot^{n-1}x\\csc^2x$ and substituting $u=\\cot x$ gives $-\\dfrac{\\cot^nx}{n}+C$."
+    },
+    {
+      "n": 54,
+      "q": "$\\displaystyle\\int\\dfrac{(x-1)e^x}{(x+1)^3}\\,dx=$",
+      "options": [
+        "$\\dfrac{e^x}{x+1}$",
+        "$\\dfrac{e^x}{(x+1)^2}$",
+        "$\\dfrac{e^x}{(x+1)^3}$",
+        "$\\dfrac{x\\cdot e^x}{(x+1)}$"
+      ],
+      "answer": 1,
+      "chapter": "Integrals",
+      "explanation": "With $f(x)=1/(x+1)^2$, $f(x)+f'(x)=(x-1)/(x+1)^3$, so by $\\int e^x[f+f']dx=e^xf(x)$ the integral is $e^x/(x+1)^2$."
+    },
+    {
+      "n": 55,
+      "q": "If $I_1=\\displaystyle\\int_0^{\\pi/2}x\\cdot\\sin x\\,dx$ and $I_2=\\displaystyle\\int_0^{\\pi/2}x\\cdot\\cos x\\,dx$, then which one of the following is true?",
+      "options": [
+        "$I_1=I_2$",
+        "$I_1+I_2=0$",
+        "$I_1=\\dfrac{\\pi}{2}\\cdot I_2$",
+        "$I_1+I_2=\\dfrac{\\pi}{2}$"
+      ],
+      "answer": 3,
+      "chapter": "Integrals",
+      "explanation": "Integration by parts gives $I_1=1$ and $I_2=\\pi/2-1$, so $I_1+I_2=\\pi/2$."
+    },
+    {
+      "n": 56,
+      "q": "The value of $\\displaystyle\\int_{-1}^{2}\\dfrac{|x|}{x}\\,dx$ is",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "answer": 1,
+      "chapter": "Integrals",
+      "explanation": "$|x|/x=-1$ on $(-1,0)$ and $1$ on $(0,2)$, giving $-1+2=1$."
+    },
+    {
+      "n": 57,
+      "q": "$\\displaystyle\\int_0^{\\pi}\\dfrac{\\cos^4x}{\\cos^4x+\\sin^4x}\\,dx=$",
+      "options": [
+        "$\\dfrac{\\pi}{4}$",
+        "$\\dfrac{\\pi}{2}$",
+        "$\\dfrac{\\pi}{8}$",
+        "$\\pi$"
+      ],
+      "answer": 1,
+      "chapter": "Integrals",
+      "explanation": "On $[0,\\pi/2]$, $\\int\\cos^4/(\\cos^4+\\sin^4)\\,dx+\\int\\sin^4/(\\cos^4+\\sin^4)\\,dx=\\pi/2$, and by symmetry the two are equal, so each is $\\pi/4$; by $f(\\pi-x)=f(x)$ the integral over $[\\pi/2,\\pi]$ repeats this, giving a total of $\\pi/2$."
+    },
+    {
+      "n": 58,
+      "q": "The area bounded by the curve $y=\\sin\\left(\\dfrac{x}{3}\\right)$, x-axis and lines $x=0$ and $x=3\\pi$ is",
+      "options": [
+        "9",
+        "0",
+        "6",
+        "3"
+      ],
+      "answer": 2,
+      "chapter": "Application of Integrals",
+      "explanation": "Over $[0,3\\pi]$, $x/3$ ranges over $[0,\\pi]$ where sine is non-negative, so area $=\\int_0^{3\\pi}\\sin(x/3)\\,dx=6$."
+    },
+    {
+      "n": 59,
+      "q": "The general solution of the differential equation $\\sqrt{1-x^2y^2}\\cdot dx=y\\cdot dx+x\\cdot dy$ is",
+      "options": [
+        "$\\sin(xy)=x+c$",
+        "$\\sin^{-1}(xy)+x=c$",
+        "$\\sin(x+c)=xy$",
+        "$\\sin(xy)+x=c$"
+      ],
+      "answer": 2,
+      "chapter": "Differential Equations",
+      "explanation": "Since $y\\,dx+x\\,dy=d(xy)$, the equation becomes $\\sqrt{1-u^2}\\,dx=du$ with $u=xy$, integrating to $u=\\sin(x+c)$, i.e. $\\sin(x+c)=xy$."
+    },
+    {
+      "n": 60,
+      "q": "If 'm' and 'n' are the order and degree of the differential equation $(y'')^5+4\\cdot\\dfrac{(y'')^3}{y'''}+y'''=\\sin x$, then",
+      "options": [
+        "m=3, n=5",
+        "m=3, n=1",
+        "m=3, n=3",
+        "m=3, n=2"
+      ],
+      "answer": 3,
+      "chapter": "Differential Equations",
+      "explanation": "Clearing the fraction by multiplying through by $y'''$ gives $(y'')^5y'''+4(y'')^3+(y''')^2=y'''\\sin x$, a polynomial equation of order 3 (highest derivative $y'''$) and degree 2."
+    }
+  ]
+}

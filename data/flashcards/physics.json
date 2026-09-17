@@ -1,0 +1,1724 @@
+{
+ "chapters": [
+  {
+   "slug": "units-and-measurements",
+   "cards": [
+    {
+     "f": "SI unit of luminous intensity",
+     "b": "Candela (cd)"
+    },
+    {
+     "f": "Dimensional formula of force",
+     "b": "$[MLT^{-2}]$"
+    },
+    {
+     "f": "Dimensional formula of energy/work",
+     "b": "$[ML^2T^{-2}]$"
+    },
+    {
+     "f": "Dimensional formula of power",
+     "b": "$[ML^2T^{-3}]$"
+    },
+    {
+     "f": "Dimensional formula of pressure",
+     "b": "$[ML^{-1}T^{-2}]$"
+    },
+    {
+     "f": "Number of significant figures in 0.00250",
+     "b": "3 (2, 5, 0)"
+    },
+    {
+     "f": "Rule for significant figures in addition/subtraction",
+     "b": "Result has as many decimal places as the term with the fewest decimal places"
+    },
+    {
+     "f": "Rule for significant figures in multiplication/division",
+     "b": "Result has as many significant figures as the factor with the fewest"
+    },
+    {
+     "f": "Percentage error formula",
+     "b": "$\\dfrac{\\Delta a}{a}\\times 100\\%$"
+    },
+    {
+     "f": "Error in a product $Z=AB$",
+     "b": "$\\dfrac{\\Delta Z}{Z} = \\dfrac{\\Delta A}{A} + \\dfrac{\\Delta B}{B}$ (max fractional error)"
+    },
+    {
+     "f": "Error in $Z = A^n$",
+     "b": "$\\dfrac{\\Delta Z}{Z} = n\\dfrac{\\Delta A}{A}$"
+    },
+    {
+     "f": "1 parsec equals",
+     "b": "$3.08\\times10^{16}$ m (distance at which 1 AU subtends 1 arcsec)"
+    },
+    {
+     "f": "Principle of homogeneity of dimensions",
+     "b": "Only physically comparable (same-dimension) quantities can be added or equated"
+    },
+    {
+     "f": "Least count of vernier callipers (typical)",
+     "b": "$0.01$ cm (1 MSD $-$ 1 VSD)"
+    }
+   ]
+  },
+  {
+   "slug": "motion-in-a-straight-line",
+   "cards": [
+    {
+     "f": "Equations of motion (constant acceleration)",
+     "b": "$v=u+at$; $s=ut+\\tfrac12at^2$; $v^2=u^2+2as$"
+    },
+    {
+     "f": "Distance in $n^{th}$ second",
+     "b": "$s_n = u + \\dfrac{a}{2}(2n-1)$"
+    },
+    {
+     "f": "Average velocity vs average speed",
+     "b": "Avg velocity = displacement/time; avg speed = total path length/time; speed $\\geq$ |velocity|"
+    },
+    {
+     "f": "Slope of position-time graph gives",
+     "b": "Instantaneous velocity"
+    },
+    {
+     "f": "Slope of velocity-time graph gives",
+     "b": "Instantaneous acceleration"
+    },
+    {
+     "f": "Area under velocity-time graph gives",
+     "b": "Displacement"
+    },
+    {
+     "f": "Relative velocity of A with respect to B",
+     "b": "$v_{AB} = v_A - v_B$"
+    },
+    {
+     "f": "Condition for two bodies to collide/meet in 1D",
+     "b": "Relative velocity directed from one toward the other and relative displacement covered"
+    },
+    {
+     "f": "Freely falling body: velocity after time $t$",
+     "b": "$v = gt$ (downward, $u=0$)"
+    },
+    {
+     "f": "Ball thrown up: time to reach max height",
+     "b": "$t = u/g$"
+    },
+    {
+     "f": "Ball thrown up: max height",
+     "b": "$h = u^2/2g$"
+    },
+    {
+     "f": "Ratio of distances in successive seconds of free fall from rest",
+     "b": "$1:3:5:7\\ldots$ (odd numbers)"
+    },
+    {
+     "f": "For uniformly accelerated motion, is average velocity $=(u+v)/2$?",
+     "b": "Yes, only when acceleration is constant"
+    },
+    {
+     "f": "Graph shape for uniformly accelerated motion (v-t)",
+     "b": "Straight line with slope = acceleration"
+    }
+   ]
+  },
+  {
+   "slug": "motion-in-a-plane",
+   "cards": [
+    {
+     "f": "Resultant of two vectors $A,B$ at angle $\\theta$",
+     "b": "$R=\\sqrt{A^2+B^2+2AB\\cos\\theta}$"
+    },
+    {
+     "f": "Direction of resultant vector (angle with A)",
+     "b": "$\\tan\\alpha = \\dfrac{B\\sin\\theta}{A+B\\cos\\theta}$"
+    },
+    {
+     "f": "Condition for maximum resultant of two vectors",
+     "b": "$\\theta = 0^\\circ$, $R_{max}=A+B$"
+    },
+    {
+     "f": "Condition for minimum resultant of two vectors",
+     "b": "$\\theta = 180^\\circ$, $R_{min}=|A-B|$"
+    },
+    {
+     "f": "Dot product of two vectors",
+     "b": "$\\vec A\\cdot\\vec B = AB\\cos\\theta$ (scalar)"
+    },
+    {
+     "f": "Cross product of two vectors",
+     "b": "$\\vec A\\times\\vec B = AB\\sin\\theta\\,\\hat n$ (vector, direction by right-hand rule)"
+    },
+    {
+     "f": "Time of flight in projectile motion",
+     "b": "$T = \\dfrac{2u\\sin\\theta}{g}$"
+    },
+    {
+     "f": "Maximum height of projectile",
+     "b": "$H = \\dfrac{u^2\\sin^2\\theta}{2g}$"
+    },
+    {
+     "f": "Horizontal range of projectile",
+     "b": "$R = \\dfrac{u^2\\sin2\\theta}{g}$"
+    },
+    {
+     "f": "Angle for maximum range",
+     "b": "$\\theta = 45^\\circ$"
+    },
+    {
+     "f": "Two angles giving same range",
+     "b": "$\\theta$ and $(90^\\circ-\\theta)$"
+    },
+    {
+     "f": "Trajectory shape of projectile",
+     "b": "Parabola"
+    },
+    {
+     "f": "Centripetal acceleration formula",
+     "b": "$a_c = \\dfrac{v^2}{r} = \\omega^2 r$, directed toward centre"
+    },
+    {
+     "f": "Relation between linear and angular velocity",
+     "b": "$v = \\omega r$"
+    },
+    {
+     "f": "Condition for uniform circular motion",
+     "b": "Speed constant, but velocity direction continuously changes"
+    }
+   ]
+  },
+  {
+   "slug": "laws-of-motion",
+   "cards": [
+    {
+     "f": "Newton's first law states",
+     "b": "A body continues in its state of rest/uniform motion unless acted on by an external unbalanced force (law of inertia)"
+    },
+    {
+     "f": "Newton's second law formula",
+     "b": "$F = \\dfrac{dp}{dt} = ma$"
+    },
+    {
+     "f": "Newton's third law states",
+     "b": "Every action has an equal and opposite reaction, acting on different bodies"
+    },
+    {
+     "f": "Impulse formula",
+     "b": "$J = F\\Delta t = \\Delta p$ (change in momentum)"
+    },
+    {
+     "f": "Law of conservation of linear momentum",
+     "b": "Total momentum of an isolated system is constant when no external force acts"
+    },
+    {
+     "f": "Maximum static friction",
+     "b": "$f_s^{max} = \\mu_s N$"
+    },
+    {
+     "f": "Kinetic friction",
+     "b": "$f_k = \\mu_k N$ (independent of contact area and, roughly, speed)"
+    },
+    {
+     "f": "Angle of friction",
+     "b": "$\\tan\\lambda = \\mu_s$"
+    },
+    {
+     "f": "Maximum speed on a banked curve without friction",
+     "b": "$v = \\sqrt{rg\\tan\\theta}$"
+    },
+    {
+     "f": "Maximum safe speed on a banked road with friction",
+     "b": "$v_{max}=\\sqrt{rg\\dfrac{\\mu+\\tan\\theta}{1-\\mu\\tan\\theta}}$"
+    },
+    {
+     "f": "Apparent weight in a lift accelerating upward",
+     "b": "$N = m(g+a)$"
+    },
+    {
+     "f": "Apparent weight in a lift accelerating downward",
+     "b": "$N = m(g-a)$"
+    },
+    {
+     "f": "Apparent weight during free fall of lift",
+     "b": "Zero (weightlessness), $a=g$"
+    },
+    {
+     "f": "Why is static friction generally more than kinetic friction?",
+     "b": "Kinetic friction coefficient is usually less than static; once moving, less force needed to sustain motion"
+    }
+   ]
+  },
+  {
+   "slug": "work-energy-power",
+   "cards": [
+    {
+     "f": "Work done by a constant force",
+     "b": "$W = \\vec F\\cdot\\vec d = Fd\\cos\\theta$"
+    },
+    {
+     "f": "Work-energy theorem",
+     "b": "$W_{net} = \\Delta KE = \\tfrac12mv^2-\\tfrac12mu^2$"
+    },
+    {
+     "f": "Kinetic energy formula",
+     "b": "$KE=\\tfrac12mv^2 = \\dfrac{p^2}{2m}$"
+    },
+    {
+     "f": "Gravitational potential energy (near surface)",
+     "b": "$U = mgh$"
+    },
+    {
+     "f": "Elastic potential energy of spring",
+     "b": "$U = \\tfrac12kx^2$"
+    },
+    {
+     "f": "Power formula",
+     "b": "$P = \\dfrac{W}{t} = \\vec F\\cdot\\vec v$"
+    },
+    {
+     "f": "Law of conservation of mechanical energy",
+     "b": "$KE+PE=$ constant, when only conservative forces act"
+    },
+    {
+     "f": "Elastic collision: what is conserved?",
+     "b": "Both momentum and kinetic energy"
+    },
+    {
+     "f": "Inelastic collision: what is conserved?",
+     "b": "Only momentum; kinetic energy is lost"
+    },
+    {
+     "f": "Velocities after 1D elastic collision, equal masses",
+     "b": "Velocities are exchanged"
+    },
+    {
+     "f": "Coefficient of restitution formula",
+     "b": "$e = \\dfrac{\\text{relative velocity of separation}}{\\text{relative velocity of approach}}$"
+    },
+    {
+     "f": "Value of $e$ for perfectly inelastic collision",
+     "b": "$e=0$ (bodies stick together)"
+    },
+    {
+     "f": "Value of $e$ for perfectly elastic collision",
+     "b": "$e=1$"
+    },
+    {
+     "f": "SI unit of power",
+     "b": "Watt (1 W = 1 J/s); 1 horsepower = 746 W"
+    },
+    {
+     "f": "Is work done by centripetal force zero?",
+     "b": "Yes, since force is always perpendicular to displacement"
+    }
+   ]
+  },
+  {
+   "slug": "system-of-particles-rotational-motion",
+   "cards": [
+    {
+     "f": "Centre of mass of two particles",
+     "b": "$x_{cm}=\\dfrac{m_1x_1+m_2x_2}{m_1+m_2}$"
+    },
+    {
+     "f": "Torque formula",
+     "b": "$\\vec\\tau = \\vec r\\times\\vec F$, magnitude $=rF\\sin\\theta$"
+    },
+    {
+     "f": "Angular momentum formula",
+     "b": "$\\vec L = \\vec r\\times\\vec p = I\\omega$"
+    },
+    {
+     "f": "Newton's second law for rotation",
+     "b": "$\\tau = \\dfrac{dL}{dt} = I\\alpha$"
+    },
+    {
+     "f": "Law of conservation of angular momentum",
+     "b": "$L=I\\omega=$ constant when net external torque is zero"
+    },
+    {
+     "f": "Why does a spinning skater speed up on pulling arms in?",
+     "b": "Moment of inertia $I$ decreases, so $\\omega$ increases to keep $L=I\\omega$ constant"
+    },
+    {
+     "f": "Moment of inertia of a ring about its axis",
+     "b": "$I=MR^2$"
+    },
+    {
+     "f": "Moment of inertia of a disc about its axis",
+     "b": "$I=\\tfrac12MR^2$"
+    },
+    {
+     "f": "Moment of inertia of a solid sphere about diameter",
+     "b": "$I=\\tfrac25MR^2$"
+    },
+    {
+     "f": "Moment of inertia of a rod about centre (perpendicular)",
+     "b": "$I=\\dfrac{ML^2}{12}$"
+    },
+    {
+     "f": "Parallel axis theorem",
+     "b": "$I=I_{cm}+Md^2$"
+    },
+    {
+     "f": "Perpendicular axis theorem",
+     "b": "$I_z=I_x+I_y$ (for a planar lamina)"
+    },
+    {
+     "f": "Kinetic energy of rolling body (rotation + translation)",
+     "b": "$KE=\\tfrac12mv^2+\\tfrac12I\\omega^2$"
+    },
+    {
+     "f": "Condition of rolling without slipping",
+     "b": "$v=R\\omega$"
+    },
+    {
+     "f": "Radius of gyration definition",
+     "b": "$k$ such that $I=Mk^2$"
+    }
+   ]
+  },
+  {
+   "slug": "gravitation",
+   "cards": [
+    {
+     "f": "Newton's law of gravitation",
+     "b": "$F=\\dfrac{Gm_1m_2}{r^2}$, $G=6.67\\times10^{-11}\\,\\text{N m}^2\\text{kg}^{-2}$"
+    },
+    {
+     "f": "Acceleration due to gravity at surface",
+     "b": "$g=\\dfrac{GM}{R^2}$"
+    },
+    {
+     "f": "Variation of $g$ with height $h$ ($h\\ll R$)",
+     "b": "$g'\\approx g\\left(1-\\dfrac{2h}{R}\\right)$"
+    },
+    {
+     "f": "Variation of $g$ with depth $d$",
+     "b": "$g'=g\\left(1-\\dfrac{d}{R}\\right)$"
+    },
+    {
+     "f": "Where is $g$ maximum on Earth?",
+     "b": "At the poles (Earth is flattened + slowest rotation effect there)"
+    },
+    {
+     "f": "Gravitational potential energy",
+     "b": "$U=-\\dfrac{GMm}{r}$ (zero at infinity)"
+    },
+    {
+     "f": "Escape velocity formula",
+     "b": "$v_e=\\sqrt{2gR}=\\sqrt{\\dfrac{2GM}{R}}\\approx 11.2$ km/s for Earth"
+    },
+    {
+     "f": "Orbital velocity close to surface",
+     "b": "$v_o=\\sqrt{\\dfrac{GM}{r}}$; relation $v_e=\\sqrt2\\,v_o$"
+    },
+    {
+     "f": "Total energy of orbiting satellite",
+     "b": "$E=-\\dfrac{GMm}{2r}$ (negative, bound orbit)"
+    },
+    {
+     "f": "Why do astronauts feel weightless in orbit?",
+     "b": "They and the spacecraft are in continuous free fall with the same acceleration, not because gravity is absent"
+    },
+    {
+     "f": "Time period of geostationary satellite",
+     "b": "24 hours, orbiting in the equatorial plane, same direction as Earth's rotation"
+    },
+    {
+     "f": "Kepler's first law",
+     "b": "Planets move in elliptical orbits with Sun at one focus"
+    },
+    {
+     "f": "Kepler's second law",
+     "b": "Line joining planet to Sun sweeps equal areas in equal times (conservation of angular momentum)"
+    },
+    {
+     "f": "Kepler's third law",
+     "b": "$T^2\\propto r^3$"
+    },
+    {
+     "f": "Height of geostationary orbit above Earth's surface",
+     "b": "$\\approx 36000$ km"
+    }
+   ]
+  },
+  {
+   "slug": "mechanical-properties-of-solids",
+   "cards": [
+    {
+     "f": "Stress definition and formula",
+     "b": "Restoring force per unit area, $\\sigma = F/A$; unit N/m$^2$"
+    },
+    {
+     "f": "Strain definition",
+     "b": "Fractional change in dimension (dimensionless)"
+    },
+    {
+     "f": "Hooke's law",
+     "b": "Stress $\\propto$ strain, within elastic limit"
+    },
+    {
+     "f": "Young's modulus formula",
+     "b": "$Y=\\dfrac{\\text{longitudinal stress}}{\\text{longitudinal strain}}=\\dfrac{FL}{A\\Delta L}$"
+    },
+    {
+     "f": "Bulk modulus formula",
+     "b": "$K=-\\dfrac{V\\,dP}{dV}$ (measures resistance to volume change)"
+    },
+    {
+     "f": "Shear (rigidity) modulus formula",
+     "b": "$\\eta=\\dfrac{\\text{shearing stress}}{\\text{shearing strain}}$"
+    },
+    {
+     "f": "Poisson's ratio",
+     "b": "Ratio of lateral strain to longitudinal strain, typically 0.2-0.4 for metals"
+    },
+    {
+     "f": "Elastic potential energy per unit volume in a stretched wire",
+     "b": "$u=\\tfrac12\\times\\text{stress}\\times\\text{strain}=\\dfrac{Y(\\Delta L)^2}{2L^2}$"
+    },
+    {
+     "f": "What does the area under stress-strain curve represent?",
+     "b": "Elastic potential energy stored per unit volume (up to that strain)"
+    },
+    {
+     "f": "Elastic limit vs yield point",
+     "b": "Elastic limit: max stress with full recovery; yield point: stress beyond which permanent (plastic) deformation begins"
+    },
+    {
+     "f": "Which is stiffer: steel or rubber?",
+     "b": "Steel (higher Young's modulus for same strain)"
+    },
+    {
+     "f": "Compressibility definition",
+     "b": "Reciprocal of bulk modulus, $1/K$"
+    },
+    {
+     "f": "Why are bridge/crane cables/girders made thick or I-shaped?",
+     "b": "To increase area/moment of inertia and reduce bending/stress for a given load"
+    }
+   ]
+  },
+  {
+   "slug": "mechanical-properties-of-fluids",
+   "cards": [
+    {
+     "f": "Pressure due to a fluid column",
+     "b": "$P=h\\rho g$"
+    },
+    {
+     "f": "Pascal's law states",
+     "b": "Pressure applied to an enclosed fluid is transmitted equally in all directions"
+    },
+    {
+     "f": "Archimedes' principle",
+     "b": "Buoyant force = weight of fluid displaced"
+    },
+    {
+     "f": "Equation of continuity",
+     "b": "$A_1v_1=A_2v_2$ (mass conservation in flow)"
+    },
+    {
+     "f": "Bernoulli's equation",
+     "b": "$P+\\tfrac12\\rho v^2+\\rho gh=$ constant along a streamline"
+    },
+    {
+     "f": "Torricelli's law (speed of efflux)",
+     "b": "$v=\\sqrt{2gh}$"
+    },
+    {
+     "f": "Reynolds number significance",
+     "b": "$N_R<1000$: laminar; $N_R>2000$: turbulent flow"
+    },
+    {
+     "f": "Stokes' law (viscous drag on sphere)",
+     "b": "$F=6\\pi\\eta rv$"
+    },
+    {
+     "f": "Terminal velocity formula",
+     "b": "$v_t=\\dfrac{2r^2(\\rho-\\sigma)g}{9\\eta}$"
+    },
+    {
+     "f": "Surface tension definition",
+     "b": "Force per unit length acting along the surface, tending to minimise surface area"
+    },
+    {
+     "f": "Excess pressure inside a liquid drop",
+     "b": "$\\Delta P=\\dfrac{2T}{r}$"
+    },
+    {
+     "f": "Excess pressure inside a soap bubble",
+     "b": "$\\Delta P=\\dfrac{4T}{r}$ (two surfaces)"
+    },
+    {
+     "f": "Capillary rise formula",
+     "b": "$h=\\dfrac{2T\\cos\\theta}{r\\rho g}$"
+    },
+    {
+     "f": "Why does a needle/insect float on water?",
+     "b": "Surface tension supports its weight without breaking the surface film"
+    },
+    {
+     "f": "Effect of temperature on surface tension and viscosity",
+     "b": "Both decrease as temperature increases (for liquids)"
+    }
+   ]
+  },
+  {
+   "slug": "thermal-properties-of-matter",
+   "cards": [
+    {
+     "f": "Relation between Celsius and Kelvin",
+     "b": "$T(K)=T(^\\circ C)+273.15$"
+    },
+    {
+     "f": "Linear expansion formula",
+     "b": "$L=L_0(1+\\alpha\\Delta T)$"
+    },
+    {
+     "f": "Relation between $\\alpha,\\beta,\\gamma$ (linear, area, volume expansion)",
+     "b": "$\\alpha:\\beta:\\gamma = 1:2:3$"
+    },
+    {
+     "f": "Anomalous behaviour of water",
+     "b": "Water contracts on heating from 0°C to 4°C, then expands; density max at 4°C"
+    },
+    {
+     "f": "Heat required formula (specific heat)",
+     "b": "$Q=ms\\Delta T$"
+    },
+    {
+     "f": "Latent heat definition",
+     "b": "Heat absorbed/released per unit mass during phase change at constant temperature"
+    },
+    {
+     "f": "Latent heat of fusion of ice",
+     "b": "$L_f = 336$ J/g (80 cal/g)"
+    },
+    {
+     "f": "Latent heat of vaporisation of water",
+     "b": "$L_v = 2260$ J/g (540 cal/g)"
+    },
+    {
+     "f": "Principle of calorimetry",
+     "b": "Heat lost by hot body = heat gained by cold body (in an isolated system)"
+    },
+    {
+     "f": "Modes of heat transfer",
+     "b": "Conduction, convection, radiation"
+    },
+    {
+     "f": "Fourier's law of conduction (rate of heat flow)",
+     "b": "$\\dfrac{Q}{t}=\\dfrac{KA\\Delta T}{d}$"
+    },
+    {
+     "f": "Stefan-Boltzmann law",
+     "b": "$E=\\sigma T^4$ (energy radiated per unit area per unit time by a black body)"
+    },
+    {
+     "f": "Wien's displacement law",
+     "b": "$\\lambda_m T=$ constant $(b=2.9\\times10^{-3}\\,\\text{m K})$"
+    },
+    {
+     "f": "Newton's law of cooling",
+     "b": "Rate of cooling $\\propto$ (temperature of body $-$ surrounding temperature), for small differences"
+    }
+   ]
+  },
+  {
+   "slug": "thermodynamics",
+   "cards": [
+    {
+     "f": "Zeroth law of thermodynamics",
+     "b": "If A and B are each in thermal equilibrium with C, then A and B are in thermal equilibrium with each other; defines temperature"
+    },
+    {
+     "f": "First law of thermodynamics",
+     "b": "$\\Delta Q=\\Delta U+\\Delta W$ (energy conservation)"
+    },
+    {
+     "f": "Work done in isothermal process (ideal gas)",
+     "b": "$W=nRT\\ln\\left(\\dfrac{V_2}{V_1}\\right)$"
+    },
+    {
+     "f": "Work done in adiabatic process",
+     "b": "$W=\\dfrac{nR(T_1-T_2)}{\\gamma-1}$"
+    },
+    {
+     "f": "Condition for adiabatic process",
+     "b": "$PV^\\gamma=$ constant, no heat exchange, $Q=0$"
+    },
+    {
+     "f": "Condition for isothermal process",
+     "b": "$PV=$ constant, temperature constant, $\\Delta U=0$"
+    },
+    {
+     "f": "$\\Delta U$ for cyclic process",
+     "b": "Zero, since internal energy is a state function"
+    },
+    {
+     "f": "Second law of thermodynamics (Kelvin-Planck)",
+     "b": "No engine can convert heat completely into work with no other effect (100% efficiency impossible)"
+    },
+    {
+     "f": "Efficiency of heat engine",
+     "b": "$\\eta = \\dfrac{W}{Q_1}=1-\\dfrac{Q_2}{Q_1}$"
+    },
+    {
+     "f": "Carnot engine efficiency",
+     "b": "$\\eta=1-\\dfrac{T_2}{T_1}$ (temperatures in Kelvin)"
+    },
+    {
+     "f": "Carnot's theorem",
+     "b": "No engine operating between two given temperatures can be more efficient than a reversible (Carnot) engine"
+    },
+    {
+     "f": "Coefficient of performance of refrigerator",
+     "b": "$\\alpha=\\dfrac{Q_2}{W}=\\dfrac{Q_2}{Q_1-Q_2}$"
+    },
+    {
+     "f": "Isochoric (isovolumic) process work done",
+     "b": "Zero, since $\\Delta V=0$"
+    },
+    {
+     "f": "Which is steeper: adiabatic or isothermal curve on P-V diagram?",
+     "b": "Adiabatic curve is steeper than isothermal at a given point"
+    }
+   ]
+  },
+  {
+   "slug": "kinetic-theory",
+   "cards": [
+    {
+     "f": "Ideal gas equation",
+     "b": "$PV=nRT$"
+    },
+    {
+     "f": "Kinetic theory pressure formula",
+     "b": "$P=\\dfrac13\\rho \\overline{v^2}$"
+    },
+    {
+     "f": "RMS speed of gas molecules",
+     "b": "$v_{rms}=\\sqrt{\\dfrac{3RT}{M}}=\\sqrt{\\dfrac{3kT}{m}}$"
+    },
+    {
+     "f": "Average kinetic energy per molecule",
+     "b": "$\\tfrac32kT$ (depends only on temperature)"
+    },
+    {
+     "f": "Degrees of freedom of a monatomic gas",
+     "b": "3 (translational only)"
+    },
+    {
+     "f": "Degrees of freedom of a diatomic gas",
+     "b": "5 (3 translational + 2 rotational), 7 at high T with vibration"
+    },
+    {
+     "f": "Law of equipartition of energy",
+     "b": "Each degree of freedom contributes $\\tfrac12kT$ average energy per molecule"
+    },
+    {
+     "f": "$C_v$ and $C_p$ for monatomic gas",
+     "b": "$C_v=\\tfrac32R$, $C_p=\\tfrac52R$"
+    },
+    {
+     "f": "Mayer's relation",
+     "b": "$C_p-C_v=R$"
+    },
+    {
+     "f": "$\\gamma=C_p/C_v$ for monatomic gas",
+     "b": "$5/3\\approx1.67$"
+    },
+    {
+     "f": "$\\gamma=C_p/C_v$ for diatomic gas",
+     "b": "$7/5=1.4$"
+    },
+    {
+     "f": "Order of RMS speeds $v_{rms}, v_{avg}, v_{mp}$",
+     "b": "$v_{rms}>v_{avg}>v_{mp}$"
+    },
+    {
+     "f": "Mean free path formula",
+     "b": "$\\lambda=\\dfrac{1}{\\sqrt2\\,n\\pi d^2}$ (n = number density, d = molecular diameter)"
+    },
+    {
+     "f": "Avogadro's number value",
+     "b": "$N_A=6.022\\times10^{23}\\,\\text{mol}^{-1}$"
+    }
+   ]
+  },
+  {
+   "slug": "oscillations",
+   "cards": [
+    {
+     "f": "Condition for SHM",
+     "b": "Restoring force/acceleration $\\propto -x$ (directed toward mean position)"
+    },
+    {
+     "f": "Displacement equation of SHM",
+     "b": "$x=A\\sin(\\omega t+\\phi)$"
+    },
+    {
+     "f": "Velocity in SHM",
+     "b": "$v=\\omega\\sqrt{A^2-x^2}$; max at mean position $v_{max}=\\omega A$"
+    },
+    {
+     "f": "Acceleration in SHM",
+     "b": "$a=-\\omega^2x$; max at extreme position, $a_{max}=\\omega^2A$"
+    },
+    {
+     "f": "Time period of simple pendulum",
+     "b": "$T=2\\pi\\sqrt{L/g}$"
+    },
+    {
+     "f": "Time period of spring-mass system",
+     "b": "$T=2\\pi\\sqrt{m/k}$"
+    },
+    {
+     "f": "Total energy of SHM oscillator",
+     "b": "$E=\\tfrac12m\\omega^2A^2$ (constant, sum of KE and PE)"
+    },
+    {
+     "f": "KE and PE at mean position in SHM",
+     "b": "KE maximum, PE zero (minimum)"
+    },
+    {
+     "f": "KE and PE at extreme position in SHM",
+     "b": "KE zero, PE maximum"
+    },
+    {
+     "f": "Phase difference between displacement and velocity in SHM",
+     "b": "$\\pi/2$ (90°)"
+    },
+    {
+     "f": "Phase difference between displacement and acceleration in SHM",
+     "b": "$\\pi$ (180°), acceleration opposes displacement"
+    },
+    {
+     "f": "Effect of amplitude on time period of SHM",
+     "b": "None; time period is independent of amplitude"
+    },
+    {
+     "f": "Free, damped, and forced oscillations",
+     "b": "Free: no external force/friction; damped: amplitude decays due to resistive forces; forced: driven by external periodic force"
+    },
+    {
+     "f": "Resonance condition",
+     "b": "Driving frequency equals natural frequency of the system, causing maximum amplitude"
+    }
+   ]
+  },
+  {
+   "slug": "waves",
+   "cards": [
+    {
+     "f": "Wave speed formula",
+     "b": "$v=f\\lambda = \\dfrac{\\omega}{k}$"
+    },
+    {
+     "f": "Speed of transverse wave on a string",
+     "b": "$v=\\sqrt{T/\\mu}$ ($\\mu$ = mass per unit length)"
+    },
+    {
+     "f": "Speed of sound in a gas (Newton-Laplace)",
+     "b": "$v=\\sqrt{\\gamma P/\\rho}$"
+    },
+    {
+     "f": "Why did Newton's formula for sound speed need correction?",
+     "b": "Laplace corrected it for adiabatic (not isothermal) compression, introducing $\\gamma$"
+    },
+    {
+     "f": "Principle of superposition of waves",
+     "b": "Resultant displacement = algebraic sum of displacements due to individual waves"
+    },
+    {
+     "f": "Condition for constructive interference",
+     "b": "Path difference $=n\\lambda$ (in phase)"
+    },
+    {
+     "f": "Condition for destructive interference",
+     "b": "Path difference $=(n+\\tfrac12)\\lambda$ (out of phase)"
+    },
+    {
+     "f": "Beat frequency formula",
+     "b": "$f_{beat}=|f_1-f_2|$"
+    },
+    {
+     "f": "Standing wave: distance between adjacent nodes",
+     "b": "$\\lambda/2$"
+    },
+    {
+     "f": "Fundamental frequency of string fixed at both ends",
+     "b": "$f_1=\\dfrac{v}{2L}$"
+    },
+    {
+     "f": "Fundamental frequency of closed organ pipe (one end closed)",
+     "b": "$f_1=\\dfrac{v}{4L}$; only odd harmonics present"
+    },
+    {
+     "f": "Fundamental frequency of open organ pipe (both ends open)",
+     "b": "$f_1=\\dfrac{v}{2L}$; all harmonics present"
+    },
+    {
+     "f": "Doppler effect: source moving toward stationary observer",
+     "b": "$f'=f\\dfrac{v}{v-v_s}$ (apparent frequency increases)"
+    },
+    {
+     "f": "Doppler effect: observer moving toward stationary source",
+     "b": "$f'=f\\dfrac{v+v_o}{v}$"
+    }
+   ]
+  },
+  {
+   "slug": "electric-charges-and-fields",
+   "cards": [
+    {
+     "f": "Coulomb's law",
+     "b": "$F=\\dfrac{1}{4\\pi\\epsilon_0}\\dfrac{q_1q_2}{r^2}$"
+    },
+    {
+     "f": "Value of $\\dfrac{1}{4\\pi\\epsilon_0}$",
+     "b": "$9\\times10^9\\,\\text{N m}^2\\text{C}^{-2}$"
+    },
+    {
+     "f": "Principle of superposition of electric forces/fields",
+     "b": "Net force/field due to multiple charges = vector sum of individual contributions"
+    },
+    {
+     "f": "Electric field due to a point charge",
+     "b": "$E=\\dfrac{1}{4\\pi\\epsilon_0}\\dfrac{q}{r^2}$, directed radially"
+    },
+    {
+     "f": "Electric field on axis of a dipole",
+     "b": "$E=\\dfrac{1}{4\\pi\\epsilon_0}\\dfrac{2p}{r^3}$ (for $r\\gg$ dipole length)"
+    },
+    {
+     "f": "Electric field on equatorial line of a dipole",
+     "b": "$E=\\dfrac{1}{4\\pi\\epsilon_0}\\dfrac{p}{r^3}$, opposite direction to dipole moment"
+    },
+    {
+     "f": "Torque on a dipole in uniform field",
+     "b": "$\\tau=\\vec p\\times\\vec E = pE\\sin\\theta$"
+    },
+    {
+     "f": "Gauss's law",
+     "b": "$\\oint\\vec E\\cdot d\\vec A=\\dfrac{q_{enc}}{\\epsilon_0}$"
+    },
+    {
+     "f": "Electric field due to infinite line charge",
+     "b": "$E=\\dfrac{\\lambda}{2\\pi\\epsilon_0 r}$"
+    },
+    {
+     "f": "Electric field due to infinite plane sheet of charge",
+     "b": "$E=\\dfrac{\\sigma}{2\\epsilon_0}$"
+    },
+    {
+     "f": "Electric field inside a charged conducting sphere/shell",
+     "b": "Zero"
+    },
+    {
+     "f": "Electric field just outside a charged conductor's surface",
+     "b": "$E=\\dfrac{\\sigma}{\\epsilon_0}$, perpendicular to surface"
+    },
+    {
+     "f": "Quantisation of charge",
+     "b": "$q=ne$, where $n$ is an integer and $e=1.6\\times10^{-19}$ C"
+    },
+    {
+     "f": "Electric field lines: can they intersect?",
+     "b": "No, since the field has a unique direction at every point"
+    }
+   ]
+  },
+  {
+   "slug": "electrostatic-potential-and-capacitance",
+   "cards": [
+    {
+     "f": "Electric potential due to a point charge",
+     "b": "$V=\\dfrac{1}{4\\pi\\epsilon_0}\\dfrac{q}{r}$"
+    },
+    {
+     "f": "Relation between electric field and potential",
+     "b": "$E=-\\dfrac{dV}{dr}$"
+    },
+    {
+     "f": "Potential energy of two point charges",
+     "b": "$U=\\dfrac{1}{4\\pi\\epsilon_0}\\dfrac{q_1q_2}{r}$"
+    },
+    {
+     "f": "Work done in moving a charge on an equipotential surface",
+     "b": "Zero"
+    },
+    {
+     "f": "Relation between equipotential surfaces and field lines",
+     "b": "Always perpendicular to each other"
+    },
+    {
+     "f": "Capacitance definition and formula",
+     "b": "Ability to store charge; $C=Q/V$, unit farad"
+    },
+    {
+     "f": "Capacitance of parallel plate capacitor",
+     "b": "$C=\\dfrac{\\epsilon_0 A}{d}$"
+    },
+    {
+     "f": "Effect of dielectric on capacitance",
+     "b": "Increases capacitance by factor $K$ (dielectric constant): $C=K\\dfrac{\\epsilon_0A}{d}$"
+    },
+    {
+     "f": "Capacitors in series",
+     "b": "$\\dfrac1C=\\dfrac1{C_1}+\\dfrac1{C_2}+\\dots$ (same charge on each)"
+    },
+    {
+     "f": "Capacitors in parallel",
+     "b": "$C=C_1+C_2+\\dots$ (same voltage across each)"
+    },
+    {
+     "f": "Energy stored in a capacitor",
+     "b": "$U=\\tfrac12CV^2=\\dfrac{Q^2}{2C}=\\tfrac12QV$"
+    },
+    {
+     "f": "Energy density of electric field",
+     "b": "$u=\\tfrac12\\epsilon_0E^2$"
+    },
+    {
+     "f": "Van de Graaff generator principle",
+     "b": "Charge given to a hollow conductor resides entirely on the outer surface, allowing very high potentials"
+    },
+    {
+     "f": "Potential inside a charged conductor",
+     "b": "Constant, same as on its surface"
+    }
+   ]
+  },
+  {
+   "slug": "current-electricity",
+   "cards": [
+    {
+     "f": "Current formula in terms of drift velocity",
+     "b": "$I=nAev_d$"
+    },
+    {
+     "f": "Ohm's law",
+     "b": "$V=IR$"
+    },
+    {
+     "f": "Resistivity formula",
+     "b": "$\\rho=\\dfrac{m}{ne^2\\tau}$; $R=\\rho\\dfrac{l}{A}$"
+    },
+    {
+     "f": "Effect of stretching a wire to $n$ times length on resistance",
+     "b": "$R'=n^2R$ (volume constant)"
+    },
+    {
+     "f": "Temperature dependence of resistance",
+     "b": "$R_T=R_0(1+\\alpha\\Delta T)$; $\\alpha$ positive for metals, negative for semiconductors"
+    },
+    {
+     "f": "Resistors in series",
+     "b": "$R=R_1+R_2+\\dots$ (same current)"
+    },
+    {
+     "f": "Resistors in parallel",
+     "b": "$\\dfrac1R=\\dfrac1{R_1}+\\dfrac1{R_2}+\\dots$ (same voltage)"
+    },
+    {
+     "f": "Terminal voltage of a cell (discharging)",
+     "b": "$V=E-Ir$"
+    },
+    {
+     "f": "Current from a cell with internal resistance",
+     "b": "$I=\\dfrac{E}{R+r}$"
+    },
+    {
+     "f": "Kirchhoff's junction rule",
+     "b": "Sum of currents entering a junction = sum leaving it (charge conservation)"
+    },
+    {
+     "f": "Kirchhoff's loop rule",
+     "b": "Sum of potential drops around a closed loop = 0 (energy conservation)"
+    },
+    {
+     "f": "Wheatstone bridge balance condition",
+     "b": "$\\dfrac{P}{Q}=\\dfrac{R}{S}$"
+    },
+    {
+     "f": "Metre bridge formula",
+     "b": "$\\dfrac{R}{X}=\\dfrac{l}{100-l}$"
+    },
+    {
+     "f": "Potentiometer internal resistance formula",
+     "b": "$r=R\\left(\\dfrac{l_1}{l_2}-1\\right)$"
+    },
+    {
+     "f": "Why is potentiometer preferred over voltmeter for EMF measurement?",
+     "b": "It draws no current at balance, giving a true EMF reading"
+    },
+    {
+     "f": "Electric power formula",
+     "b": "$P=VI=I^2R=V^2/R$"
+    }
+   ]
+  },
+  {
+   "slug": "moving-charges-and-magnetism",
+   "cards": [
+    {
+     "f": "Magnetic force on a moving charge (Lorentz force)",
+     "b": "$\\vec F=q\\vec v\\times\\vec B$"
+    },
+    {
+     "f": "Force on a current-carrying conductor in magnetic field",
+     "b": "$F=BIL\\sin\\theta$"
+    },
+    {
+     "f": "Biot-Savart law",
+     "b": "$dB=\\dfrac{\\mu_0}{4\\pi}\\dfrac{Idl\\sin\\theta}{r^2}$"
+    },
+    {
+     "f": "Magnetic field at centre of circular current loop",
+     "b": "$B=\\dfrac{\\mu_0 I}{2R}$"
+    },
+    {
+     "f": "Magnetic field due to infinite straight wire",
+     "b": "$B=\\dfrac{\\mu_0I}{2\\pi r}$"
+    },
+    {
+     "f": "Ampere's circuital law",
+     "b": "$\\oint\\vec B\\cdot d\\vec l=\\mu_0I_{enc}$"
+    },
+    {
+     "f": "Magnetic field inside a long solenoid",
+     "b": "$B=\\mu_0nI$ ($n$ = turns per unit length)"
+    },
+    {
+     "f": "Magnetic field inside a toroid",
+     "b": "$B=\\mu_0nI$ (uniform inside the core)"
+    },
+    {
+     "f": "Radius of circular path of charged particle in magnetic field",
+     "b": "$r=\\dfrac{mv}{qB}$"
+    },
+    {
+     "f": "Force between two parallel current-carrying wires",
+     "b": "$F/l=\\dfrac{\\mu_0I_1I_2}{2\\pi d}$; like currents attract, unlike repel"
+    },
+    {
+     "f": "Definition of 1 ampere (via force between wires)",
+     "b": "Current that produces $2\\times10^{-7}$ N/m force between two infinite parallel wires 1 m apart"
+    },
+    {
+     "f": "Torque on a current loop in magnetic field",
+     "b": "$\\tau=NIAB\\sin\\theta=\\vec m\\times\\vec B$"
+    },
+    {
+     "f": "Magnetic moment of a current loop",
+     "b": "$m=NIA$"
+    },
+    {
+     "f": "Conversion of galvanometer to ammeter",
+     "b": "Connect low resistance (shunt) in parallel"
+    },
+    {
+     "f": "Conversion of galvanometer to voltmeter",
+     "b": "Connect high resistance in series"
+    }
+   ]
+  },
+  {
+   "slug": "magnetism-and-matter",
+   "cards": [
+    {
+     "f": "Magnetic dipole moment of a bar magnet",
+     "b": "$m=$ pole strength $\\times$ magnetic length ($m=q_m\\times 2l$)"
+    },
+    {
+     "f": "Magnetic field on axial line of bar magnet",
+     "b": "$B=\\dfrac{\\mu_0}{4\\pi}\\dfrac{2m}{r^3}$"
+    },
+    {
+     "f": "Magnetic field on equatorial line of bar magnet",
+     "b": "$B=\\dfrac{\\mu_0}{4\\pi}\\dfrac{m}{r^3}$"
+    },
+    {
+     "f": "Torque on bar magnet in uniform field",
+     "b": "$\\tau=mB\\sin\\theta$"
+    },
+    {
+     "f": "Gauss's law in magnetism",
+     "b": "$\\oint\\vec B\\cdot d\\vec A=0$ (no magnetic monopoles)"
+    },
+    {
+     "f": "Angle of dip definition",
+     "b": "Angle between Earth's total magnetic field and the horizontal"
+    },
+    {
+     "f": "Elements of Earth's magnetic field",
+     "b": "Declination, dip (inclination), horizontal component $B_H$"
+    },
+    {
+     "f": "Angle of dip at magnetic poles and equator",
+     "b": "$90^\\circ$ at poles, $0^\\circ$ at magnetic equator"
+    },
+    {
+     "f": "Diamagnetic materials: susceptibility and behaviour",
+     "b": "Small negative susceptibility; weakly repelled by magnetic field; e.g. bismuth, copper"
+    },
+    {
+     "f": "Paramagnetic materials: susceptibility and behaviour",
+     "b": "Small positive susceptibility; weakly attracted; e.g. aluminium, sodium"
+    },
+    {
+     "f": "Ferromagnetic materials: susceptibility and behaviour",
+     "b": "Large positive susceptibility; strongly attracted; e.g. iron, cobalt, nickel"
+    },
+    {
+     "f": "Curie's law",
+     "b": "Magnetic susceptibility of paramagnetic material $\\propto 1/T$"
+    },
+    {
+     "f": "Curie temperature",
+     "b": "Temperature above which a ferromagnetic material becomes paramagnetic"
+    },
+    {
+     "f": "Hysteresis loop area represents",
+     "b": "Energy loss per unit volume per cycle of magnetisation"
+    },
+    {
+     "f": "Properties needed for a good permanent magnet",
+     "b": "High retentivity and high coercivity"
+    }
+   ]
+  },
+  {
+   "slug": "electromagnetic-induction",
+   "cards": [
+    {
+     "f": "Faraday's law of electromagnetic induction",
+     "b": "Induced EMF $=-\\dfrac{d\\Phi_B}{dt}$"
+    },
+    {
+     "f": "Lenz's law",
+     "b": "Induced current opposes the change in flux that produces it (conservation of energy)"
+    },
+    {
+     "f": "Motional EMF formula",
+     "b": "$\\varepsilon=Bvl$ (rod moving perpendicular to field)"
+    },
+    {
+     "f": "Magnetic flux formula",
+     "b": "$\\Phi_B=\\vec B\\cdot\\vec A=BA\\cos\\theta$"
+    },
+    {
+     "f": "Self-inductance definition",
+     "b": "$\\Phi=LI$; EMF opposing change in its own current, $\\varepsilon=-L\\dfrac{dI}{dt}$"
+    },
+    {
+     "f": "Self-inductance of a solenoid",
+     "b": "$L=\\mu_0n^2Al$"
+    },
+    {
+     "f": "Mutual inductance definition",
+     "b": "$\\Phi_2=MI_1$; EMF induced in one coil due to changing current in another"
+    },
+    {
+     "f": "Energy stored in an inductor",
+     "b": "$U=\\tfrac12LI^2$"
+    },
+    {
+     "f": "EMF induced in a rotating coil (AC generator)",
+     "b": "$\\varepsilon=\\varepsilon_0\\sin\\omega t$, $\\varepsilon_0=NBA\\omega$"
+    },
+    {
+     "f": "Eddy currents: definition and use",
+     "b": "Induced currents in bulk conductors due to changing flux; used in electromagnetic braking, induction furnaces"
+    },
+    {
+     "f": "How to reduce eddy current losses in transformers?",
+     "b": "Use laminated (thin, insulated) iron cores"
+    },
+    {
+     "f": "Direction of induced current found by",
+     "b": "Lenz's law (or right-hand/FBI rule for motional EMF)"
+    }
+   ]
+  },
+  {
+   "slug": "alternating-current",
+   "cards": [
+    {
+     "f": "RMS value of AC current",
+     "b": "$I_{rms}=\\dfrac{I_0}{\\sqrt2}$"
+    },
+    {
+     "f": "RMS value of AC voltage",
+     "b": "$V_{rms}=\\dfrac{V_0}{\\sqrt2}$"
+    },
+    {
+     "f": "Capacitive reactance",
+     "b": "$X_C=\\dfrac{1}{\\omega C}$"
+    },
+    {
+     "f": "Inductive reactance",
+     "b": "$X_L=\\omega L$"
+    },
+    {
+     "f": "Impedance of LCR series circuit",
+     "b": "$Z=\\sqrt{R^2+(X_L-X_C)^2}$"
+    },
+    {
+     "f": "Phase in pure resistive AC circuit",
+     "b": "Voltage and current in phase"
+    },
+    {
+     "f": "Phase in pure inductive AC circuit",
+     "b": "Current lags voltage by $90^\\circ$"
+    },
+    {
+     "f": "Phase in pure capacitive AC circuit",
+     "b": "Current leads voltage by $90^\\circ$"
+    },
+    {
+     "f": "Resonance condition in LCR series circuit",
+     "b": "$X_L=X_C$, i.e. $\\omega_0=\\dfrac{1}{\\sqrt{LC}}$; impedance minimum $=R$"
+    },
+    {
+     "f": "Power factor formula",
+     "b": "$\\cos\\phi=\\dfrac{R}{Z}$"
+    },
+    {
+     "f": "Average power in AC circuit",
+     "b": "$P_{avg}=V_{rms}I_{rms}\\cos\\phi$"
+    },
+    {
+     "f": "Q-factor of LCR circuit",
+     "b": "$Q=\\dfrac{\\omega_0L}{R}=\\dfrac{1}{R}\\sqrt{L/C}$ (sharpness of resonance)"
+    },
+    {
+     "f": "Transformer equation",
+     "b": "$\\dfrac{V_s}{V_p}=\\dfrac{N_s}{N_p}=\\dfrac{I_p}{I_s}$"
+    },
+    {
+     "f": "Why is AC transmitted at high voltage, low current?",
+     "b": "Reduces $I^2R$ power loss in transmission lines"
+    },
+    {
+     "f": "Wattless current occurs in",
+     "b": "Pure inductive or pure capacitive circuit ($\\phi=90^\\circ$, average power = 0)"
+    }
+   ]
+  },
+  {
+   "slug": "electromagnetic-waves",
+   "cards": [
+    {
+     "f": "Displacement current formula",
+     "b": "$I_d=\\epsilon_0\\dfrac{d\\Phi_E}{dt}$"
+    },
+    {
+     "f": "Why did Maxwell introduce displacement current?",
+     "b": "To make Ampere's law consistent with charge conservation in circuits with capacitors"
+    },
+    {
+     "f": "Speed of EM waves in vacuum",
+     "b": "$c=\\dfrac{1}{\\sqrt{\\mu_0\\epsilon_0}}=3\\times10^8$ m/s"
+    },
+    {
+     "f": "Relation between E and B in EM wave",
+     "b": "$E_0/B_0=c$; both perpendicular to each other and to direction of propagation"
+    },
+    {
+     "f": "Are EM waves transverse or longitudinal?",
+     "b": "Transverse"
+    },
+    {
+     "f": "Order of EM spectrum by increasing wavelength",
+     "b": "Gamma rays < X-rays < UV < visible < IR < microwaves < radio waves"
+    },
+    {
+     "f": "Order of EM spectrum by increasing frequency/energy",
+     "b": "Radio < microwave < IR < visible < UV < X-ray < gamma ray"
+    },
+    {
+     "f": "Use of X-rays",
+     "b": "Medical diagnosis (imaging bones), studying crystal structure"
+    },
+    {
+     "f": "Use of microwaves",
+     "b": "Radar, satellite communication, microwave ovens"
+    },
+    {
+     "f": "Use of infrared waves",
+     "b": "Remote controls, thermal imaging, greenhouse warming"
+    },
+    {
+     "f": "Use of UV rays",
+     "b": "Sterilisation, causes tanning/skin damage, absorbed by ozone layer"
+    },
+    {
+     "f": "Which carries momentum in EM waves?",
+     "b": "EM waves carry both energy and momentum; can exert radiation pressure"
+    }
+   ]
+  },
+  {
+   "slug": "ray-optics",
+   "cards": [
+    {
+     "f": "Mirror formula",
+     "b": "$\\dfrac1v+\\dfrac1u=\\dfrac1f$"
+    },
+    {
+     "f": "Linear magnification for mirrors",
+     "b": "$m=-\\dfrac{v}{u}$"
+    },
+    {
+     "f": "Focal length in terms of radius of curvature",
+     "b": "$f=R/2$"
+    },
+    {
+     "f": "Lens maker's formula",
+     "b": "$\\dfrac1f=(n-1)\\left(\\dfrac1{R_1}-\\dfrac1{R_2}\\right)$"
+    },
+    {
+     "f": "Thin lens formula",
+     "b": "$\\dfrac1v-\\dfrac1u=\\dfrac1f$"
+    },
+    {
+     "f": "Linear magnification for lens",
+     "b": "$m=\\dfrac{v}{u}$"
+    },
+    {
+     "f": "Power of a lens",
+     "b": "$P=1/f$ (in metres), unit dioptre"
+    },
+    {
+     "f": "Power of combination of lenses in contact",
+     "b": "$P=P_1+P_2+\\dots$"
+    },
+    {
+     "f": "Snell's law",
+     "b": "$n_1\\sin\\theta_1=n_2\\sin\\theta_2$"
+    },
+    {
+     "f": "Condition for total internal reflection",
+     "b": "Light travels denser $\\to$ rarer and $i>C$, where $\\sin C=1/n$"
+    },
+    {
+     "f": "Critical angle and refractive index relation",
+     "b": "$\\sin C=1/n$"
+    },
+    {
+     "f": "Why does a diamond sparkle?",
+     "b": "High refractive index gives a small critical angle, causing multiple total internal reflections"
+    },
+    {
+     "f": "Magnifying power of simple microscope",
+     "b": "$M=1+\\dfrac{D}{f}$ (image at near point, $D=25$ cm)"
+    },
+    {
+     "f": "Magnifying power of compound microscope (image at infinity)",
+     "b": "$M=\\dfrac{L}{f_o}\\times\\dfrac{D}{f_e}$"
+    },
+    {
+     "f": "Magnifying power of astronomical telescope (normal adjustment)",
+     "b": "$M=\\dfrac{f_o}{f_e}$"
+    },
+    {
+     "f": "Why does the sky appear blue?",
+     "b": "Rayleigh scattering: shorter (blue) wavelengths scatter more than longer ones"
+    }
+   ]
+  },
+  {
+   "slug": "wave-optics",
+   "cards": [
+    {
+     "f": "Huygens' principle",
+     "b": "Every point on a wavefront acts as a source of secondary wavelets; the envelope of these gives the new wavefront"
+    },
+    {
+     "f": "Young's double slit fringe width formula",
+     "b": "$\\beta=\\dfrac{\\lambda D}{d}$"
+    },
+    {
+     "f": "Condition for bright fringe in YDSE",
+     "b": "Path difference $=n\\lambda$"
+    },
+    {
+     "f": "Condition for dark fringe in YDSE",
+     "b": "Path difference $=(n+\\tfrac12)\\lambda$"
+    },
+    {
+     "f": "Effect of introducing a thin transparent sheet in one slit",
+     "b": "Fringe pattern shifts (by $\\dfrac{(n-1)tD}{d}$) but fringe width remains unchanged"
+    },
+    {
+     "f": "Diffraction condition for first minimum at single slit",
+     "b": "$a\\sin\\theta=\\lambda$"
+    },
+    {
+     "f": "Width of central maximum in single-slit diffraction",
+     "b": "$2\\lambda D/a$ (twice the width of secondary maxima)"
+    },
+    {
+     "f": "Resolving power of microscope",
+     "b": "$\\propto \\dfrac{2n\\sin\\theta}{\\lambda}$ (numerical aperture / wavelength)"
+    },
+    {
+     "f": "Malus's law (polarisation)",
+     "b": "$I=I_0\\cos^2\\theta$"
+    },
+    {
+     "f": "Brewster's law",
+     "b": "$\\tan\\theta_B=n$; reflected and refracted rays are perpendicular at this angle"
+    },
+    {
+     "f": "Can sound waves be polarised?",
+     "b": "No, since sound is a longitudinal wave; only transverse waves can be polarised"
+    },
+    {
+     "f": "Coherent sources definition",
+     "b": "Sources with constant phase difference, necessary for sustained interference"
+    }
+   ]
+  },
+  {
+   "slug": "dual-nature-of-radiation-and-matter",
+   "cards": [
+    {
+     "f": "Einstein's photoelectric equation",
+     "b": "$KE_{max}=h\\nu-\\phi_0$"
+    },
+    {
+     "f": "Work function definition",
+     "b": "Minimum energy needed to eject an electron from a metal surface"
+    },
+    {
+     "f": "Threshold frequency",
+     "b": "Minimum frequency of incident light below which no photoemission occurs; $\\nu_0=\\phi_0/h$"
+    },
+    {
+     "f": "Stopping potential relation",
+     "b": "$eV_0=KE_{max}=h\\nu-\\phi_0$"
+    },
+    {
+     "f": "Effect of intensity on photoelectric current",
+     "b": "Photocurrent $\\propto$ intensity (number of photoelectrons), for $\\nu>\\nu_0$"
+    },
+    {
+     "f": "Effect of frequency on stopping potential",
+     "b": "Stopping potential increases linearly with frequency, independent of intensity"
+    },
+    {
+     "f": "Why is photoelectric emission instantaneous?",
+     "b": "Photon energy is absorbed by a single electron in one-to-one interaction (particle nature of light)"
+    },
+    {
+     "f": "De Broglie wavelength formula",
+     "b": "$\\lambda=\\dfrac{h}{p}=\\dfrac{h}{mv}$"
+    },
+    {
+     "f": "De Broglie wavelength of electron accelerated through V volts",
+     "b": "$\\lambda=\\dfrac{h}{\\sqrt{2meV}}=\\dfrac{12.27}{\\sqrt V}\\,\\text{\\AA}$"
+    },
+    {
+     "f": "Davisson-Germer experiment significance",
+     "b": "Confirmed wave nature of electrons via electron diffraction"
+    },
+    {
+     "f": "Value of Planck's constant",
+     "b": "$h=6.63\\times10^{-34}$ J s"
+    },
+    {
+     "f": "Photon momentum formula",
+     "b": "$p=h\\nu/c=h/\\lambda$"
+    }
+   ]
+  },
+  {
+   "slug": "atoms",
+   "cards": [
+    {
+     "f": "Rutherford's alpha-scattering conclusion",
+     "b": "Atom has a small, dense, positively charged nucleus with electrons orbiting around it"
+    },
+    {
+     "f": "Bohr's first postulate (quantisation of angular momentum)",
+     "b": "$L=n\\dfrac{h}{2\\pi}$, $n=1,2,3\\ldots$"
+    },
+    {
+     "f": "Radius of $n^{th}$ Bohr orbit (hydrogen)",
+     "b": "$r_n=n^2\\times0.529\\,\\text{\\AA}$"
+    },
+    {
+     "f": "Energy of electron in $n^{th}$ Bohr orbit (hydrogen)",
+     "b": "$E_n=-\\dfrac{13.6}{n^2}$ eV"
+    },
+    {
+     "f": "Ground state energy of hydrogen atom",
+     "b": "$-13.6$ eV"
+    },
+    {
+     "f": "Rydberg formula for spectral lines",
+     "b": "$\\dfrac1\\lambda=R\\left(\\dfrac1{n_1^2}-\\dfrac1{n_2^2}\\right)$"
+    },
+    {
+     "f": "Lyman series: transition and region",
+     "b": "Transitions to $n=1$; ultraviolet region"
+    },
+    {
+     "f": "Balmer series: transition and region",
+     "b": "Transitions to $n=2$; visible region"
+    },
+    {
+     "f": "Paschen, Brackett, Pfund series: transitions to",
+     "b": "$n=3, 4, 5$ respectively; infrared region"
+    },
+    {
+     "f": "Ionisation energy of hydrogen atom",
+     "b": "13.6 eV (energy to remove electron from ground state to $n=\\infty$)"
+    },
+    {
+     "f": "Limitation of Bohr's model",
+     "b": "Could not explain spectra of multi-electron atoms or fine structure; ad hoc quantisation postulate"
+    },
+    {
+     "f": "De Broglie's explanation of Bohr's quantisation",
+     "b": "Stationary orbits are those where the orbit circumference is an integral number of electron de Broglie wavelengths"
+    }
+   ]
+  },
+  {
+   "slug": "nuclei",
+   "cards": [
+    {
+     "f": "Nuclear radius formula",
+     "b": "$R=R_0A^{1/3}$, $R_0\\approx1.2$ fm"
+    },
+    {
+     "f": "Mass defect definition",
+     "b": "$\\Delta m = $ sum of masses of nucleons $-$ mass of nucleus"
+    },
+    {
+     "f": "Binding energy formula",
+     "b": "$E_b=\\Delta mc^2$"
+    },
+    {
+     "f": "Binding energy per nucleon trend",
+     "b": "Rises, peaks near mass number 56 (iron), then slowly decreases — most stable nuclei are mid-mass"
+    },
+    {
+     "f": "Why do heavy nuclei undergo fission and light nuclei fusion?",
+     "b": "Both processes move toward the peak of binding energy per nucleon curve, releasing energy"
+    },
+    {
+     "f": "Radioactive decay law",
+     "b": "$N=N_0e^{-\\lambda t}$"
+    },
+    {
+     "f": "Half-life formula",
+     "b": "$T_{1/2}=\\dfrac{0.693}{\\lambda}$"
+    },
+    {
+     "f": "Relation between mean life and decay constant",
+     "b": "$\\tau=1/\\lambda$; $T_{1/2}=0.693\\tau$"
+    },
+    {
+     "f": "Alpha decay: change in mass number and atomic number",
+     "b": "Mass number decreases by 4, atomic number decreases by 2"
+    },
+    {
+     "f": "Beta-minus decay: change in atomic number",
+     "b": "Atomic number increases by 1 (neutron converts to proton + electron + antineutrino)"
+    },
+    {
+     "f": "Gamma decay involves",
+     "b": "Emission of high-energy photon; no change in mass or atomic number, nucleus de-excites"
+    },
+    {
+     "f": "Nuclear fission example",
+     "b": "$^{235}_{92}$U + n $\\to$ fission fragments + neutrons + energy (used in nuclear reactors)"
+    },
+    {
+     "f": "Nuclear fusion example",
+     "b": "Hydrogen nuclei fusing to form helium, releasing energy (powers the Sun)"
+    },
+    {
+     "f": "Mass-energy equivalence formula",
+     "b": "$E=mc^2$"
+    }
+   ]
+  },
+  {
+   "slug": "semiconductor-electronics",
+   "cards": [
+    {
+     "f": "Energy gap for conductors, semiconductors, insulators",
+     "b": "Conductors: overlapping/no gap; semiconductors: $\\sim1$ eV; insulators: $>3$ eV"
+    },
+    {
+     "f": "n-type semiconductor: dopant and majority carrier",
+     "b": "Pentavalent dopant (P, As); majority carriers are electrons"
+    },
+    {
+     "f": "p-type semiconductor: dopant and majority carrier",
+     "b": "Trivalent dopant (B, In); majority carriers are holes"
+    },
+    {
+     "f": "p-n junction: depletion region formation",
+     "b": "Diffusion of majority carriers across junction leaves immobile ions, forming a depletion layer with a barrier potential"
+    },
+    {
+     "f": "Forward bias effect on p-n junction",
+     "b": "Reduces depletion width and barrier; allows large current flow"
+    },
+    {
+     "f": "Reverse bias effect on p-n junction",
+     "b": "Increases depletion width; only small reverse saturation current flows"
+    },
+    {
+     "f": "Diode as rectifier: half-wave vs full-wave",
+     "b": "Half-wave uses one diode, conducts for half cycle; full-wave uses two/four diodes (bridge), conducts both half cycles"
+    },
+    {
+     "f": "Zener diode use",
+     "b": "Voltage regulation; operates in reverse breakdown region at constant voltage"
+    },
+    {
+     "f": "Photodiode: operating bias and use",
+     "b": "Operated in reverse bias; used to detect light/measure light intensity"
+    },
+    {
+     "f": "Solar cell principle",
+     "b": "p-n junction generates EMF/current when light falls on it (photovoltaic effect), used with no external bias"
+    },
+    {
+     "f": "Transistor: three terminals and their doping role",
+     "b": "Emitter (heavily doped), base (thin, lightly doped), collector (moderately doped)"
+    },
+    {
+     "f": "Transistor current relation",
+     "b": "$I_E=I_B+I_C$"
+    },
+    {
+     "f": "Relation between $\\alpha$ and $\\beta$ of a transistor",
+     "b": "$\\beta=\\dfrac{\\alpha}{1-\\alpha}$, where $\\alpha=I_C/I_E$, $\\beta=I_C/I_B$"
+    },
+    {
+     "f": "Logic gate: output of AND gate",
+     "b": "HIGH only when both inputs are HIGH"
+    },
+    {
+     "f": "Logic gate: output of NOT gate",
+     "b": "Inverts the input (HIGH becomes LOW and vice versa)"
+    },
+    {
+     "f": "NAND and NOR gates are called universal gates because",
+     "b": "Any logic gate can be constructed using only NAND gates or only NOR gates"
+    }
+   ]
+  }
+ ]
+}

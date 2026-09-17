@@ -1,0 +1,525 @@
+{
+  "notes": "<h3>Area under a curve</h3><ul><li>Area bounded by $y=f(x)$, the x-axis, and lines $x=a,x=b$ (with $f(x)\\ge0$): $A=\\displaystyle\\int_a^b f(x)\\,dx$.</li><li>If part of the curve lies below the x-axis, take the absolute value of that part's integral before adding (area is always positive).</li><li>Area bounded by $x=g(y)$, y-axis, and $y=c,y=d$: $A=\\displaystyle\\int_c^d g(y)\\,dy$.</li></ul><h3>Area between two curves</h3><ul><li>If $f(x)\\ge g(x)$ on $[a,b]$: $A=\\displaystyle\\int_a^b [f(x)-g(x)]\\,dx$.</li><li>Always find intersection points first (solve $f(x)=g(x)$) to get correct limits.</li></ul><h3>Standard curves & areas</h3><table><tr><th>Curve</th><th>Region / Area</th></tr><tr><td>Circle $x^2+y^2=a^2$</td><td>Full area $=\\pi a^2$; area in first quadrant $=\\pi a^2/4$</td></tr><tr><td>Ellipse $\\dfrac{x^2}{a^2}+\\dfrac{y^2}{b^2}=1$</td><td>Full area $=\\pi ab$</td></tr><tr><td>Parabola $y^2=4ax$ and line $x=a$</td><td>Area $=\\dfrac{8a^2}{3}$ (both sides of axis)</td></tr><tr><td>Line $y=mx$ and parabola $y=x^2$</td><td>Find intersections, integrate (line $-$ parabola)</td></tr></table><h3>Useful integrals for area problems</h3><ul><li>$\\displaystyle\\int\\sqrt{a^2-x^2}\\,dx=\\dfrac{x}{2}\\sqrt{a^2-x^2}+\\dfrac{a^2}{2}\\sin^{-1}\\dfrac{x}{a}+C$.</li><li>$\\displaystyle\\int_0^a\\sqrt{a^2-x^2}\\,dx=\\dfrac{\\pi a^2}{4}$ (quarter circle area, a quick shortcut).</li><li>Power rule: $\\displaystyle\\int x^n\\,dx=\\dfrac{x^{n+1}}{n+1}+C$ ($n\\ne-1$).</li></ul><h3>Method / steps</h3><ul><li>1. Sketch (or mentally visualise) the region. 2. Identify boundaries and points of intersection. 3. Decide whether to integrate w.r.t. $x$ or $y$ (whichever gives simpler limits/integrand). 4. Set up the definite integral of (upper $-$ lower) or (right $-$ left). 5. Evaluate.</li></ul><h3>Exam tip</h3><p>KCET usually asks 1-2 questions from this chapter, most often the area under a simple parabola/line, the standard circle-quadrant area, or area between a line and a parabola. Memorising the ready-made results for circle, ellipse and parabola areas saves valuable time versus deriving them from scratch.</p>",
+  "questions": [
+    {
+      "id": "mat-application-of-integrals-001",
+      "q": "The area bounded by the curve $y=x^2$, the x-axis and the lines $x=0,x=2$ is",
+      "options": [
+        "$8/3$ sq units",
+        "$4$ sq units",
+        "$2$ sq units",
+        "$16/3$ sq units"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "$A=\\int_0^2 x^2\\,dx=\\left[\\dfrac{x^3}{3}\\right]_0^2=\\dfrac{8}{3}$."
+    },
+    {
+      "id": "mat-application-of-integrals-002",
+      "q": "The area of the region bounded by $y=x$, the x-axis and $x=0,x=4$ is",
+      "options": [
+        "$12$ sq units",
+        "$4$ sq units",
+        "$16$ sq units",
+        "$8$ sq units"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "$A=\\int_0^4 x\\,dx=\\left[\\dfrac{x^2}{2}\\right]_0^4=8$."
+    },
+    {
+      "id": "mat-application-of-integrals-003",
+      "q": "The area of the circle $x^2+y^2=16$ lying in the first quadrant is",
+      "options": [
+        "$2\\pi$ sq units",
+        "$4\\pi$ sq units",
+        "$16\\pi$ sq units",
+        "$8\\pi$ sq units"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "Full circle area $=\\pi r^2=16\\pi$; first quadrant is a quarter: $16\\pi/4=4\\pi$."
+    },
+    {
+      "id": "mat-application-of-integrals-004",
+      "q": "The area enclosed by the ellipse $\\dfrac{x^2}{9}+\\dfrac{y^2}{4}=1$ is",
+      "options": [
+        "$3\\pi$ sq units",
+        "$12\\pi$ sq units",
+        "$6\\pi$ sq units",
+        "$36\\pi$ sq units"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "Area of ellipse $=\\pi ab=\\pi(3)(2)=6\\pi$."
+    },
+    {
+      "id": "mat-application-of-integrals-005",
+      "q": "The area between the parabola $y^2=4x$ and the line $x=4$ (both sides of the x-axis) is",
+      "options": [
+        "$\\dfrac{64}{3}$ sq units",
+        "$16$ sq units",
+        "$\\dfrac{32}{3}$ sq units",
+        "$\\dfrac{128}{3}$ sq units"
+      ],
+      "answer": 0,
+      "difficulty": "hard",
+      "explanation": "$A=2\\int_0^4\\sqrt{4x}\\,dx=4\\int_0^4\\sqrt x\\,dx=4\\left[\\dfrac{2}{3}x^{3/2}\\right]_0^4=4\\times\\dfrac{2}{3}\\times8=\\dfrac{64}{3}$."
+    },
+    {
+      "id": "mat-application-of-integrals-006",
+      "q": "The area bounded by $y=\\sin x$ and the x-axis between $x=0$ and $x=\\pi$ is",
+      "options": [
+        "$\\pi$ sq units",
+        "$2$ sq units",
+        "$0$ sq units",
+        "$1$ sq units"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "$A=\\int_0^\\pi\\sin x\\,dx=[-\\cos x]_0^\\pi=(-(-1))-(-1)=1+1=2$."
+    },
+    {
+      "id": "mat-application-of-integrals-007",
+      "q": "The area of the region bounded by $y=x^2$ and $y=x$ is",
+      "options": [
+        "$1$ sq unit",
+        "$1/2$ sq units",
+        "$1/6$ sq units",
+        "$1/3$ sq units"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "Intersections at $x=0,1$. $A=\\int_0^1(x-x^2)\\,dx=\\left[\\dfrac{x^2}{2}-\\dfrac{x^3}{3}\\right]_0^1=\\dfrac12-\\dfrac13=\\dfrac16$."
+    },
+    {
+      "id": "mat-application-of-integrals-008",
+      "q": "The area under the curve $y=\\sqrt{4-x^2}$ from $x=0$ to $x=2$ (a quarter circle of radius 2) is",
+      "options": [
+        "$2\\pi$ sq units",
+        "$\\pi/2$ sq units",
+        "$4\\pi$ sq units",
+        "$\\pi$ sq units"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "Quarter circle area $=\\pi r^2/4=\\pi(4)/4=\\pi$."
+    },
+    {
+      "id": "mat-application-of-integrals-009",
+      "q": "The area bounded by the curve $y=e^x$, the x-axis, and the lines $x=0,x=1$ is",
+      "options": [
+        "$e+1$ sq units",
+        "$e$ sq units",
+        "$e-1$ sq units",
+        "$1$ sq unit"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "$A=\\int_0^1 e^x\\,dx=[e^x]_0^1=e-1$."
+    },
+    {
+      "id": "mat-application-of-integrals-010",
+      "q": "The area of the region bounded by $y^2=x$, the y-axis, and the lines $y=0,y=3$ is",
+      "options": [
+        "$27$ sq units",
+        "$9$ sq units",
+        "$3$ sq units",
+        "$18$ sq units"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "Integrating w.r.t. $y$: $A=\\int_0^3 y^2\\,dy=\\left[\\dfrac{y^3}{3}\\right]_0^3=9$."
+    },
+    {
+      "id": "mat-application-of-integrals-011",
+      "q": "The area of the region bounded by the line $y=3x+2$, the x-axis and the lines $x=-1,x=1$ is",
+      "options": [
+        "$4$ sq units",
+        "$\\dfrac{5}{3}$ sq units",
+        "$6$ sq units",
+        "$\\dfrac{13}{3}$ sq units"
+      ],
+      "answer": 3,
+      "difficulty": "hard",
+      "explanation": "The line crosses the x-axis at $x=-2/3$. For $x\\in[-1,-2/3]$, $y<0$, giving $\\left|\\int_{-1}^{-2/3}(3x+2)dx\\right|=\\dfrac16$; for $x\\in[-2/3,1]$, $y>0$, giving $\\int_{-2/3}^{1}(3x+2)dx=\\dfrac{25}{6}$. Total area $=\\dfrac16+\\dfrac{25}{6}=\\dfrac{26}{6}=\\dfrac{13}{3}$."
+    },
+    {
+      "id": "mat-application-of-integrals-012",
+      "q": "The area of the region in the first quadrant bounded by $y^2=4x$, $x=1$ and $x=4$ is",
+      "options": [
+        "$\\dfrac{28}{3}$ sq units",
+        "$\\dfrac{56}{3}$ sq units",
+        "$\\dfrac{14}{3}$ sq units",
+        "$7$ sq units"
+      ],
+      "answer": 0,
+      "difficulty": "hard",
+      "explanation": "$A=\\int_1^4\\sqrt{4x}\\,dx=2\\int_1^4\\sqrt x\\,dx=2\\left[\\dfrac23x^{3/2}\\right]_1^4=\\dfrac43(8-1)=\\dfrac{28}{3}$."
+    },
+    {
+      "id": "mat-application-of-integrals-013",
+      "q": "The area of the smaller region bounded by the circle $x^2+y^2=4$ and the line $x=1$ (to the right of the line, inside the circle) is",
+      "options": [
+        "$\\dfrac{4\\pi}{3}+\\sqrt3$ sq units",
+        "$2\\pi-\\sqrt3$ sq units",
+        "$\\pi-\\sqrt3$ sq units",
+        "$\\dfrac{4\\pi}{3}-\\sqrt3$ sq units"
+      ],
+      "answer": 3,
+      "difficulty": "hard",
+      "explanation": "Area $=2\\int_1^2\\sqrt{4-x^2}\\,dx=2\\left[\\dfrac{x}{2}\\sqrt{4-x^2}+2\\sin^{-1}\\dfrac{x}{2}\\right]_1^2=2\\left[\\pi-\\left(\\dfrac{\\sqrt3}{2}+\\dfrac{\\pi}{3}\\right)\\right]=\\dfrac{4\\pi}{3}-\\sqrt3$."
+    },
+    {
+      "id": "mat-application-of-integrals-014",
+      "q": "For a region where the curve lies below the x-axis over $[a,b]$, the area (a positive quantity) is given by",
+      "options": [
+        "$\\displaystyle\\int_a^b f(x)\\,dx$",
+        "$-\\displaystyle\\int_b^a f(x)\\,dx$",
+        "$\\left|\\displaystyle\\int_a^b f(x)\\,dx\\right|$",
+        "$\\displaystyle\\int_a^b |f(x)|^2\\,dx$"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "Since $f(x)<0$ there, the plain integral is negative; taking its absolute value gives the (positive) area."
+    },
+    {
+      "id": "mat-application-of-integrals-015",
+      "q": "The area bounded by $y=\\cos x$, the x-axis, $x=0$ and $x=\\pi/2$ is",
+      "options": [
+        "$0$ sq units",
+        "$1$ sq unit",
+        "$\\pi/2$ sq units",
+        "$2$ sq units"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "$A=\\int_0^{\\pi/2}\\cos x\\,dx=[\\sin x]_0^{\\pi/2}=1-0=1$."
+    },
+    {
+      "id": "mat-application-of-integrals-016",
+      "q": "The area of the region bounded by $y=x^3$, the x-axis, and $x=-1,x=1$ is",
+      "options": [
+        "$1/2$ sq unit",
+        "$1$ sq unit",
+        "$1/4$ sq unit",
+        "$0$ sq units"
+      ],
+      "answer": 0,
+      "difficulty": "hard",
+      "explanation": "By symmetry the areas on either side are equal in magnitude but opposite in sign; total area (using absolute values) $=2\\int_0^1x^3dx=2\\times\\dfrac14=\\dfrac12$ (the plain integral over $[-1,1]$ would wrongly give 0)."
+    },
+    {
+      "id": "mat-application-of-integrals-017",
+      "q": "The area enclosed between the parabola $y=x^2$ and the line $y=4$ is",
+      "options": [
+        "$\\dfrac{16}{3}$ sq units",
+        "$\\dfrac{32}{3}$ sq units",
+        "$16$ sq units",
+        "$8$ sq units"
+      ],
+      "answer": 1,
+      "difficulty": "hard",
+      "explanation": "Intersections at $x=\\pm2$. $A=\\int_{-2}^2(4-x^2)\\,dx=2\\int_0^2(4-x^2)\\,dx=2\\left[4x-\\dfrac{x^3}{3}\\right]_0^2=2\\left(8-\\dfrac83\\right)=2\\times\\dfrac{16}{3}=\\dfrac{32}{3}$."
+    },
+    {
+      "id": "mat-application-of-integrals-018",
+      "q": "To find the area between two curves $y=f(x)$ and $y=g(x)$ over $[a,b]$ where they cross at an interior point, the correct approach is to",
+      "options": [
+        "split the interval at the crossing point and integrate $|f-g|$ on each part",
+        "integrate $(f-g)$ directly over $[a,b]$ without splitting",
+        "ignore the crossing point",
+        "integrate $(f+g)$ over $[a,b]$"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "Since which function is on top switches at the crossing point, the interval must be split there and the areas added, each taken as a positive quantity."
+    },
+    {
+      "id": "mat-application-of-integrals-019",
+      "q": "The area bounded by the curve $y=\\sqrt x$, the x-axis and the ordinates $x=0,x=9$ is",
+      "options": [
+        "$6$ sq units",
+        "$9$ sq units",
+        "$18$ sq units",
+        "$27$ sq units"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "$A=\\int_0^9\\sqrt x\\,dx=\\left[\\dfrac23x^{3/2}\\right]_0^9=\\dfrac23(27)=18$."
+    },
+    {
+      "id": "mat-application-of-integrals-020",
+      "q": "The area of the region bounded by $y=4-x^2$ and the x-axis is",
+      "options": [
+        "$\\dfrac{16}{3}$ sq units",
+        "$16$ sq units",
+        "$8$ sq units",
+        "$\\dfrac{32}{3}$ sq units"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "Curve meets x-axis at $x=\\pm2$. $A=\\int_{-2}^2(4-x^2)\\,dx=2\\left[4x-\\dfrac{x^3}{3}\\right]_0^2=2\\left(8-\\dfrac83\\right)=\\dfrac{32}{3}$."
+    },
+    {
+      "id": "mat-application-of-integrals-021",
+      "q": "The area of the region bounded by $y=3x^2$, the x-axis and the lines $x=1,x=2$ is",
+      "options": [
+        "7 sq units",
+        "9 sq units",
+        "3 sq units",
+        "5 sq units"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "$A=\\int_1^2 3x^2\\,dx=[x^3]_1^2=8-1=7$."
+    },
+    {
+      "id": "mat-application-of-integrals-022",
+      "q": "The area of the region bounded by $y=x+2$, the x-axis and the lines $x=-1,x=1$ is",
+      "options": [
+        "2 sq units",
+        "8 sq units",
+        "6 sq units",
+        "4 sq units"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "Since $y=x+2>0$ throughout $[-1,1]$, $A=\\int_{-1}^1(x+2)\\,dx=\\left[\\dfrac{x^2}{2}+2x\\right]_{-1}^1=2.5-(-1.5)=4$."
+    },
+    {
+      "id": "mat-application-of-integrals-023",
+      "q": "The area of the circle $x^2+y^2=9$ lying in the second quadrant is",
+      "options": [
+        "$\\dfrac{9\\pi}{2}$ sq units",
+        "$9\\pi$ sq units",
+        "$\\dfrac{9\\pi}{4}$ sq units",
+        "$3\\pi$ sq units"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "Full circle area $=\\pi(3)^2=9\\pi$; a quadrant is one-fourth of this, $\\dfrac{9\\pi}{4}$."
+    },
+    {
+      "id": "mat-application-of-integrals-024",
+      "q": "The area of the region in the first quadrant bounded by the ellipse $\\dfrac{x^2}{16}+\\dfrac{y^2}{9}=1$ and the coordinate axes is",
+      "options": [
+        "$12\\pi$ sq units",
+        "$3\\pi$ sq units",
+        "$4\\pi$ sq units",
+        "$6\\pi$ sq units"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "Full ellipse area $=\\pi ab=\\pi(4)(3)=12\\pi$; the first-quadrant quarter is $3\\pi$."
+    },
+    {
+      "id": "mat-application-of-integrals-025",
+      "q": "The area bounded by $y=|x|$, the x-axis and the lines $x=-2,x=2$ is",
+      "options": [
+        "16 sq units",
+        "8 sq units",
+        "4 sq units",
+        "2 sq units"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "The region is two right triangles each of area $\\dfrac12(2)(2)=2$, giving a total of $4$."
+    },
+    {
+      "id": "mat-application-of-integrals-026",
+      "q": "The area of the region bounded by $y=5$, the x-axis and the lines $x=0,x=3$ is",
+      "options": [
+        "10 sq units",
+        "18 sq units",
+        "12 sq units",
+        "15 sq units"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "This is a rectangle of width 3 and height 5, so $A=\\int_0^3 5\\,dx=15$."
+    },
+    {
+      "id": "mat-application-of-integrals-027",
+      "q": "The area of the region bounded by $y=x$, the x-axis and the lines $x=2,x=5$ is",
+      "options": [
+        "6 sq units",
+        "$\\dfrac{21}{2}$ sq units",
+        "10 sq units",
+        "8 sq units"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "$A=\\int_2^5 x\\,dx=\\left[\\dfrac{x^2}{2}\\right]_2^5=\\dfrac{25-4}{2}=\\dfrac{21}{2}$."
+    },
+    {
+      "id": "mat-application-of-integrals-028",
+      "q": "The area of the region bounded by the parabolas $y=x^2$ and $y=4x-x^2$ is",
+      "options": [
+        "$\\dfrac{8}{3}$ sq units",
+        "$\\dfrac{4}{3}$ sq units",
+        "$\\dfrac{16}{3}$ sq units",
+        "4 sq units"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "They meet where $x^2=4x-x^2\\Rightarrow x=0,2$. $A=\\int_0^2[(4x-x^2)-x^2]dx=\\int_0^2(4x-2x^2)dx=\\left[2x^2-\\dfrac{2x^3}{3}\\right]_0^2=8-\\dfrac{16}{3}=\\dfrac{8}{3}$."
+    },
+    {
+      "id": "mat-application-of-integrals-029",
+      "q": "The area of the region bounded by the parabolas $y^2=4x$ and $x^2=4y$ is",
+      "options": [
+        "$\\dfrac{8}{3}$ sq units",
+        "$\\dfrac{32}{3}$ sq units",
+        "4 sq units",
+        "$\\dfrac{16}{3}$ sq units"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "They intersect at $(0,0)$ and $(4,4)$. $A=\\int_0^4\\left(2\\sqrt x-\\dfrac{x^2}{4}\\right)dx=\\left[\\dfrac43x^{3/2}-\\dfrac{x^3}{12}\\right]_0^4=\\dfrac{32}{3}-\\dfrac{16}{3}=\\dfrac{16}{3}$."
+    },
+    {
+      "id": "mat-application-of-integrals-030",
+      "q": "The area of the region bounded by $y=x^3$, the x-axis and the lines $x=1,x=2$ is",
+      "options": [
+        "$\\dfrac{17}{4}$ sq units",
+        "$\\dfrac{15}{4}$ sq units",
+        "$\\dfrac{13}{4}$ sq units",
+        "4 sq units"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "$A=\\int_1^2x^3\\,dx=\\left[\\dfrac{x^4}{4}\\right]_1^2=\\dfrac{16-1}{4}=\\dfrac{15}{4}$."
+    },
+    {
+      "id": "mat-application-of-integrals-031",
+      "q": "The area bounded by $y=\\dfrac{1}{x}$, the x-axis and the lines $x=1,x=e$ is",
+      "options": [
+        "$e-1$ sq units",
+        "$e$ sq units",
+        "1 sq unit",
+        "$1/e$ sq units"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "$A=\\int_1^e\\dfrac1x\\,dx=[\\ln x]_1^e=\\ln e-\\ln1=1$."
+    },
+    {
+      "id": "mat-application-of-integrals-032",
+      "q": "The area of the region bounded by the curve $y=4-x^2$ and the line $y=x+2$ is",
+      "options": [
+        "$\\dfrac{9}{2}$ sq units",
+        "5 sq units",
+        "4 sq units",
+        "$\\dfrac{7}{2}$ sq units"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "They meet at $x=-2,1$. $A=\\int_{-2}^1[(4-x^2)-(x+2)]dx=\\int_{-2}^1(2-x-x^2)dx=\\dfrac{9}{2}$."
+    },
+    {
+      "id": "mat-application-of-integrals-033",
+      "q": "The area of the region bounded by $y=\\sqrt x$ and $y=x$ between $x=0$ and $x=1$ is",
+      "options": [
+        "$\\dfrac13$ sq units",
+        "$\\dfrac{1}{12}$ sq units",
+        "$\\dfrac12$ sq units",
+        "$\\dfrac16$ sq units"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "Since $\\sqrt x\\ge x$ on $[0,1]$, $A=\\int_0^1(\\sqrt x-x)dx=\\left[\\dfrac23x^{3/2}-\\dfrac{x^2}{2}\\right]_0^1=\\dfrac23-\\dfrac12=\\dfrac16$."
+    },
+    {
+      "id": "mat-application-of-integrals-034",
+      "q": "The area of the triangular region in the first quadrant bounded by $y=4-x$ and the coordinate axes is",
+      "options": [
+        "10 sq units",
+        "8 sq units",
+        "4 sq units",
+        "6 sq units"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "$A=\\int_0^4(4-x)\\,dx=\\left[4x-\\dfrac{x^2}{2}\\right]_0^4=16-8=8$, matching $\\dfrac12(4)(4)=8$."
+    },
+    {
+      "id": "mat-application-of-integrals-035",
+      "q": "The area of the region bounded by $y=x^2-4$ and the x-axis between $x=-2$ and $x=2$ is",
+      "options": [
+        "$\\dfrac{16}{3}$ sq units",
+        "$\\dfrac{8}{3}$ sq units",
+        "$\\dfrac{32}{3}$ sq units",
+        "8 sq units"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "Since $y\\le0$ on $[-2,2]$, area $=\\left|\\int_{-2}^2(x^2-4)dx\\right|=\\left|\\left[\\dfrac{x^3}{3}-4x\\right]_{-2}^2\\right|=\\left|-\\dfrac{32}{3}\\right|=\\dfrac{32}{3}$."
+    },
+    {
+      "id": "mat-application-of-integrals-036",
+      "q": "The smaller area between the ellipse $\\dfrac{x^2}{4}+y^2=1$ and the line $\\dfrac{x}{2}+y=1$ (in the first quadrant) is",
+      "options": [
+        "$\\left(\\dfrac{\\pi}{2}-1\\right)$ sq units",
+        "$\\dfrac{\\pi}{2}$ sq units",
+        "$\\left(\\dfrac{\\pi}{4}-1\\right)$ sq units",
+        "$(\\pi-1)$ sq units"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "Quarter-ellipse area $=\\dfrac{\\pi(2)(1)}{4}=\\dfrac{\\pi}{2}$; the triangle formed by the chord and axes has area $\\dfrac12(2)(1)=1$. The region between the arc and the chord is $\\dfrac{\\pi}{2}-1$."
+    },
+    {
+      "id": "mat-application-of-integrals-037",
+      "q": "The area of the region bounded by the parabola $y^2=4ax$ and its latus rectum ($x=a$) is",
+      "options": [
+        "$\\dfrac{4a^2}{3}$ sq units",
+        "$\\dfrac{2a^2}{3}$ sq units",
+        "$\\dfrac{16a^2}{3}$ sq units",
+        "$\\dfrac{8a^2}{3}$ sq units"
+      ],
+      "answer": 3,
+      "difficulty": "hard",
+      "explanation": "$A=2\\int_0^a\\sqrt{4ax}\\,dx=4\\sqrt a\\left[\\dfrac23x^{3/2}\\right]_0^a=\\dfrac{8}{3}a\\sqrt a\\cdot\\sqrt a=\\dfrac{8a^2}{3}$."
+    },
+    {
+      "id": "mat-application-of-integrals-038",
+      "q": "Using integration, the area of the triangle with vertices $(2,0)$, $(4,5)$ and $(6,3)$ is",
+      "options": [
+        "7 sq units",
+        "6 sq units",
+        "5 sq units",
+        "8 sq units"
+      ],
+      "answer": 0,
+      "difficulty": "hard",
+      "explanation": "Summing the integrals of the three side-lines (or using $\\tfrac12|x_1(y_2-y_3)+x_2(y_3-y_1)+x_3(y_1-y_2)|$) gives $\\tfrac12|2(2)+4(3)+6(-5)|=\\tfrac12(14)=7$."
+    },
+    {
+      "id": "mat-application-of-integrals-039",
+      "q": "The area of the region $\\{(x,y): x^2+y^2\\le4,\\ x+y\\ge2\\}$ is",
+      "options": [
+        "$(2\\pi-2)$ sq units",
+        "$(\\pi-2)$ sq units",
+        "$\\left(\\dfrac{\\pi}{2}-1\\right)$ sq units",
+        "$(\\pi-1)$ sq units"
+      ],
+      "answer": 1,
+      "difficulty": "hard",
+      "explanation": "This is the minor segment cut off by the chord $x+y=2$: quarter-circle area $\\pi$ minus the right triangle of area $2$ (vertices $(0,0),(2,0),(0,2)$), giving $\\pi-2$."
+    },
+    {
+      "id": "mat-application-of-integrals-040",
+      "q": "The area of the region bounded by $y=x^2$ and $y=|x|$ for $-1\\le x\\le1$ is",
+      "options": [
+        "$\\dfrac16$ sq units",
+        "$\\dfrac12$ sq units",
+        "$\\dfrac13$ sq units",
+        "$\\dfrac23$ sq units"
+      ],
+      "answer": 2,
+      "difficulty": "hard",
+      "explanation": "Since $|x|\\ge x^2$ on $[-1,1]$, $A=2\\int_0^1(x-x^2)dx=2\\left(\\dfrac12-\\dfrac13\\right)=2\\times\\dfrac16=\\dfrac13$."
+    }
+  ]
+}

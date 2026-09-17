@@ -1,0 +1,797 @@
+{
+  "title": "KCET 2021 Maths",
+  "year": 2021,
+  "subject": "maths",
+  "code": "A1",
+  "source": "KEA question paper (copy) + KEA answer key column A1",
+  "excluded": [],
+  "questions": [
+    {
+      "n": 1,
+      "q": "In a certain town 65% families own cellphones, 15000 families own scooter and 15% families own both. Taking into consideration that the families own at least one of the two, the total number of families in the town is",
+      "options": [
+        "20000",
+        "30000",
+        "40000",
+        "50000"
+      ],
+      "answer": 1,
+      "chapter": "Sets",
+      "explanation": "Since every family owns at least one, % owning scooter = 100 - 65 + 15 = 50%. So 50% of total = 15000, giving total = 30000."
+    },
+    {
+      "n": 2,
+      "q": "A and B are non-singleton sets and n(A $\\times$ B) = 35. If B $\\subset$ A then $^{n(A)}C_{n(B)}$ =",
+      "options": [
+        "28",
+        "35",
+        "42",
+        "21"
+      ],
+      "answer": 3,
+      "chapter": "Sets",
+      "explanation": "n(A)n(B)=35=7$\\times$5 with both >1, and since B$\\subset$A, n(A)=7, n(B)=5, so $^7C_5$=21."
+    },
+    {
+      "n": 3,
+      "q": "Domain of f(x) = $\\dfrac{x}{1-|x|}$ is",
+      "options": [
+        "R $-$ [$-$1, 1]",
+        "($-\\infty$, 1)",
+        "($-\\infty$, 1) $\\cup$ (0, 1)",
+        "R $-$ {$-$1, 1}"
+      ],
+      "answer": 3,
+      "chapter": "Relations and Functions",
+      "explanation": "The function is undefined when $|x|=1$, i.e. x = 1 or x = $-$1, so the domain is R $-$ {$-$1, 1}."
+    },
+    {
+      "n": 4,
+      "q": "The value of cos1200$^\\circ$ + tan1485$^\\circ$ is",
+      "options": [
+        "1/2",
+        "3/2",
+        "$-$3/2",
+        "$-$1/2"
+      ],
+      "answer": 0,
+      "chapter": "Trigonometric Functions",
+      "explanation": "cos1200$^\\circ$ = cos120$^\\circ$ = $-1/2$ and tan1485$^\\circ$ = tan45$^\\circ$ = 1, so the sum is 1/2."
+    },
+    {
+      "n": 5,
+      "q": "The value of tan1$^\\circ$ tan2$^\\circ$ tan3$^\\circ$ ............. tan89$^\\circ$ is",
+      "options": [
+        "0",
+        "1",
+        "1/2",
+        "$-$1"
+      ],
+      "answer": 1,
+      "chapter": "Trigonometric Functions",
+      "explanation": "Pairing tan$k^\\circ$ with tan(90$-k$)$^\\circ$ gives products of 1 for k=1..44, and tan45$^\\circ$=1, so the product is 1."
+    },
+    {
+      "n": 6,
+      "q": "If $\\left(\\dfrac{1+i}{1-i}\\right)^{x}=1$ then",
+      "options": [
+        "x = 4n + 1 ; n$\\in$N",
+        "x = 2n + 1 ; n$\\in$N",
+        "x = 2n ; n$\\in$N",
+        "x = 4n ; n$\\in$N"
+      ],
+      "answer": 3,
+      "chapter": "Complex Numbers and Quadratic Equations",
+      "explanation": "(1+i)/(1-i) = i, and $i^x=1$ requires x to be a multiple of 4, so x = 4n, n$\\in$N."
+    },
+    {
+      "n": 7,
+      "q": "The cost and revenue functions of a product are given by c(x) = 20x + 4000 and R(x) = 60x + 2000 respectively, where x is the number of items produced and sold. The value of x to earn profit is",
+      "options": [
+        ">50",
+        ">60",
+        ">80",
+        ">40"
+      ],
+      "answer": 0,
+      "chapter": "Linear Inequalities",
+      "explanation": "Profit requires R(x) > C(x): 60x+2000 > 20x+4000 $\\Rightarrow$ 40x > 2000 $\\Rightarrow$ x > 50."
+    },
+    {
+      "n": 8,
+      "q": "A student has to answer 10 questions, choosing at least 4 from each of the parts A and B. If there are 6 questions in part A and 7 in part B, then the number of ways the student can choose 10 questions is",
+      "options": [
+        "256",
+        "352",
+        "266",
+        "426"
+      ],
+      "answer": 2,
+      "chapter": "Permutations and Combinations",
+      "explanation": "Summing valid splits: $^6C_4{}^7C_6+{}^6C_5{}^7C_5+{}^6C_6{}^7C_4$ = 105+126+35 = 266."
+    },
+    {
+      "n": 9,
+      "q": "If the middle term of the A.P is 300 then the sum of its first 51 terms is",
+      "options": [
+        "15300",
+        "14800",
+        "16500",
+        "14300"
+      ],
+      "answer": 0,
+      "chapter": "Sequences and Series",
+      "explanation": "For 51 terms, the middle (26th) term equals the average term, so sum = 51 $\\times$ 300 = 15300."
+    },
+    {
+      "n": 10,
+      "q": "The equation of straight line which passes through the point (a cos$^3\\theta$, a sin$^3\\theta$) and perpendicular to x sec$\\theta$ + y cosec$\\theta$ = a is",
+      "options": [
+        "$\\dfrac{x}{a}+\\dfrac{y}{a}=a\\cos\\theta$",
+        "x cos$\\theta$ $-$ y sin$\\theta$ = a cos2$\\theta$",
+        "x cos$\\theta$ + y sin$\\theta$ = a cos2$\\theta$",
+        "x cos$\\theta$ $-$ y sin$\\theta$ = $-$a cos2$\\theta$"
+      ],
+      "answer": 1,
+      "chapter": "Straight Lines",
+      "explanation": "The given line has slope $-\\tan\\theta$, so the perpendicular has slope $\\cot\\theta$; using the point, the line simplifies to x cos$\\theta$ $-$ y sin$\\theta$ = a cos2$\\theta$."
+    },
+    {
+      "n": 11,
+      "q": "The mid points of the sides of a triangle are (1, 5, $-$1), (0, 4, $-$2) and (2, 3, 4) then centroid of the triangle",
+      "options": [
+        "(1, 4, 3)",
+        "(1, 4, 1/3)",
+        "($-$1, 4, 3)",
+        "(1/3, 2, 4)"
+      ],
+      "answer": 1,
+      "chapter": "Introduction to Three Dimensional Geometry",
+      "explanation": "The centroid of a triangle equals the centroid of its midpoint triangle: averaging the three midpoints gives (1, 4, 1/3)."
+    },
+    {
+      "n": 12,
+      "q": "Consider the following statements: Statement 1: $\\displaystyle\\lim_{x\\to1}\\dfrac{ax^2+bx+c}{cx^2+bx+a}$ is 1 (where a+b+c $\\ne$ 0). Statement 2: $\\displaystyle\\lim_{x\\to-2}\\dfrac{\\frac{1}{x}+\\frac{1}{2}}{x+2}$ is $\\dfrac{1}{4}$",
+      "options": [
+        "Only statement 2 is true",
+        "Only statement 1 is true",
+        "Both statements 1 and 2 are true",
+        "Both statements 1 and 2 are false"
+      ],
+      "answer": 1,
+      "chapter": "Limits and Derivatives",
+      "explanation": "Statement 1: substituting x=1 gives (a+b+c)/(c+b+a)=1, true. Statement 2 simplifies to $\\frac{1}{2x}$, which at x=$-$2 is $-1/4$, not $1/4$, so false."
+    },
+    {
+      "n": 13,
+      "q": "If a and b are fixed non-zero constants, then the derivative of $\\dfrac{a}{x^4}-\\dfrac{b}{x^2}$ + cosx is ma + nb $-$ p where",
+      "options": [
+        "m = 4x$^3$ ; n = $-2/x^3$ ; p = sinx",
+        "m = $-4/x^5$ ; n = $2/x^3$ ; p = sinx",
+        "m = $-4/x^5$ ; n = $-2/x^3$ ; p = $-$sinx",
+        "m = 4x$^3$ ; n = $2/x^3$ ; p = $-$sinx"
+      ],
+      "answer": 1,
+      "chapter": "Limits and Derivatives",
+      "explanation": "Differentiating term by term: $-4a/x^5 + 2b/x^3 - \\sin x$, matching m=$-4/x^5$, n=$2/x^3$, p=sinx."
+    },
+    {
+      "n": 14,
+      "q": "The Standard Deviation of the numbers 31, 32, 33 ........... 46, 47 is",
+      "options": [
+        "$\\sqrt{17/12}$",
+        "$\\sqrt{(47^2-1)/12}$",
+        "2$\\sqrt{6}$",
+        "4$\\sqrt{3}$"
+      ],
+      "answer": 2,
+      "chapter": "Statistics",
+      "explanation": "For n=17 consecutive integers, SD = $\\sqrt{(n^2-1)/12}=\\sqrt{288/12}=\\sqrt{24}=2\\sqrt6$."
+    },
+    {
+      "n": 15,
+      "q": "If P(A) = 0.59, P(B) = 0.30 and P(A $\\cap$ B) = 0.21 then P(A' $\\cap$ B') =",
+      "options": [
+        "0.11",
+        "0.38",
+        "0.32",
+        "0.35"
+      ],
+      "answer": 2,
+      "chapter": "Probability",
+      "explanation": "P(A'$\\cap$B') = 1 $-$ P(A$\\cup$B) = 1 $-$ (0.59+0.30$-$0.21) = 1$-$0.68 = 0.32."
+    },
+    {
+      "n": 16,
+      "q": "f : R $\\to$ R defined by f(x) = 2x for x > 3; x$^2$ for 1 < x $\\le$ 3; 3x for x $\\le$ 1, then f($-$2) + f(3) + f(4) is",
+      "options": [
+        "14",
+        "9",
+        "5",
+        "11"
+      ],
+      "answer": 3,
+      "chapter": "Relations and Functions",
+      "explanation": "f($-$2)=3($-$2)=$-$6 (since $-2\\le1$), f(3)=3$^2$=9, f(4)=2(4)=8; sum = $-6+9+8=11$."
+    },
+    {
+      "n": 17,
+      "q": "Let A = {x : x $\\in$ R ; x is not a positive integer}. Define f : A $\\to$ R as f(x) = $\\dfrac{2x}{x-1}$, then f is",
+      "options": [
+        "injective but not surjective",
+        "surjective but not injective",
+        "bijective",
+        "neither injective nor surjective"
+      ],
+      "answer": 0,
+      "chapter": "Relations and Functions",
+      "explanation": "The map $y=2x/(x-1)$ is one-one wherever defined, but since A excludes positive integers, some real y (whose pre-image is a positive integer) are never attained, so f is injective but not surjective."
+    },
+    {
+      "n": 18,
+      "q": "The function f(x) = $\\sqrt3$ sin2x $-$ cos2x + 4 is one-one in the interval",
+      "options": [
+        "[$-\\pi/6$, $\\pi/3$]",
+        "($\\pi/6$, $-\\pi/3$)",
+        "[$-\\pi/2$, $\\pi/2$]",
+        "[$-\\pi/6$, $-\\pi/3$]"
+      ],
+      "answer": 0,
+      "chapter": "Relations and Functions",
+      "explanation": "f(x) = 2sin(2x $-\\pi/6$) + 4 is one-one when its argument lies in an interval of length $\\pi$, giving x $\\in$ [$-\\pi/6$, $\\pi/3$]."
+    },
+    {
+      "n": 19,
+      "q": "Domain of the function f(x) = $\\dfrac{1}{\\sqrt{[x]^2-[x]-6}}$ where [x] is greatest integer $\\le$ x is",
+      "options": [
+        "($-\\infty$, $-$2) $\\cup$ [4, $\\infty$)",
+        "($-\\infty$, $-$2) $\\cup$ [3, $\\infty$)",
+        "[$-\\infty$, $-$2] $\\cup$ [4, $\\infty$)",
+        "[$-\\infty$, $-$2] $\\cup$ (3, $\\infty$)"
+      ],
+      "answer": 0,
+      "chapter": "Relations and Functions",
+      "explanation": "Need $([x]-3)([x]+2)>0$, i.e. [x] $\\ge$ 4 or [x] $\\le$ $-3$, which gives x $\\in$ ($-\\infty,-2)\\cup[4,\\infty)$."
+    },
+    {
+      "n": 20,
+      "q": "cos[cot$^{-1}$($-\\sqrt3$) + $\\pi/6$] =",
+      "options": [
+        "0",
+        "1",
+        "$1/\\sqrt2$",
+        "$-$1"
+      ],
+      "answer": 3,
+      "chapter": "Inverse Trigonometric Functions",
+      "explanation": "cot$^{-1}(-\\sqrt3) = 5\\pi/6$; adding $\\pi/6$ gives $\\pi$, and cos$\\pi = -1$."
+    },
+    {
+      "n": 21,
+      "q": "$\\tan^{-1}\\left[\\dfrac{1}{\\sqrt3}\\sin\\dfrac{5\\pi}{2}\\right] + \\sin^{-1}\\left[\\cos\\left(\\sin^{-1}\\dfrac{\\sqrt3}{2}\\right)\\right] =$",
+      "options": [
+        "0",
+        "$\\pi/6$",
+        "$\\pi/3$",
+        "$\\pi$"
+      ],
+      "answer": 2,
+      "chapter": "Inverse Trigonometric Functions",
+      "grace": true,
+      "explanation": "sin(5$\\pi$/2) = sin($\\pi$/2) = 1, so the first term is tan$^{-1}(1/\\sqrt3)=\\pi/6$. sin$^{-1}(\\sqrt3/2)=\\pi/3$, cos($\\pi$/3)=1/2, so the second term is sin$^{-1}(1/2)=\\pi/6$. Summing gives $\\pi/3$; the operator between the two bracketed terms is unclear in the printed paper (a garbled '+' could be misread as no operator/multiplication), which is likely why KEA awarded grace marks to all four options."
+    },
+    {
+      "n": 22,
+      "q": "If A = $\\begin{bmatrix}1 & -2 & 1\\\\ 2 & 1 & 3\\end{bmatrix}$, B = $\\begin{bmatrix}2 & 1\\\\ 3 & 2\\\\ 1 & 1\\end{bmatrix}$ then (AB)' is equal to",
+      "options": [
+        "$\\begin{bmatrix}-3 & -2\\\\ 10 & 7\\end{bmatrix}$",
+        "$\\begin{bmatrix}-3 & 10\\\\ -2 & 7\\end{bmatrix}$",
+        "$\\begin{bmatrix}-3 & 7\\\\ 10 & 2\\end{bmatrix}$",
+        "$\\begin{bmatrix}-3 & 7\\\\ 10 & -2\\end{bmatrix}$"
+      ],
+      "answer": 1,
+      "chapter": "Matrices",
+      "explanation": "AB = $\\begin{bmatrix}-3 & -2\\\\ 10 & 7\\end{bmatrix}$, so its transpose (AB)' = $\\begin{bmatrix}-3 & 10\\\\ -2 & 7\\end{bmatrix}$."
+    },
+    {
+      "n": 23,
+      "q": "Let M be 2 $\\times$ 2 symmetric matrix with integer entries, then M is invertible if",
+      "options": [
+        "the first column of M is the transpose of second row of M",
+        "the second row of M is the transpose of first column of M",
+        "M is a diagonal matrix with non-zero entries in the principal diagonal",
+        "The product of entries in the principal diagonal of M is the product of entries in the other diagonal"
+      ],
+      "answer": 2,
+      "chapter": "Matrices",
+      "explanation": "A diagonal matrix with non-zero diagonal entries has non-zero determinant (product of diagonal entries), so it is always invertible."
+    },
+    {
+      "n": 24,
+      "q": "If A and B are matrices of order 3 and |A| = 5, |B| = 3 then |3AB| is",
+      "options": [
+        "425",
+        "405",
+        "565",
+        "585"
+      ],
+      "answer": 1,
+      "chapter": "Determinants",
+      "explanation": "For a 3$\\times$3 matrix, |3AB| = $3^3$|A||B| = 27 $\\times$ 5 $\\times$ 3 = 405."
+    },
+    {
+      "n": 25,
+      "q": "If A and B are invertible matrices then which of the following is not correct?",
+      "options": [
+        "adjA = |A|A$^{-1}$",
+        "det(A$^{-1}$) = [det(A)]$^{-1}$",
+        "(AB)$^{-1}$ = B$^{-1}$A$^{-1}$",
+        "(A + B)$^{-1}$ = B$^{-1}$ + A$^{-1}$"
+      ],
+      "answer": 3,
+      "chapter": "Determinants",
+      "explanation": "The first three are standard matrix identities; (A+B)$^{-1}$ = B$^{-1}$+A$^{-1}$ is not a valid identity in general."
+    },
+    {
+      "n": 26,
+      "q": "If f(x) = $\\begin{vmatrix}\\cos x & 1 & 0\\\\ 0 & 2\\cos x & 3\\\\ 0 & 1 & 2\\cos x\\end{vmatrix}$ then $\\displaystyle\\lim_{x\\to\\pi}f(x)$ =",
+      "options": [
+        "$-$1",
+        "1",
+        "0",
+        "3"
+      ],
+      "answer": 0,
+      "chapter": "Limits and Derivatives",
+      "explanation": "Expanding along the first column, f(x) = cosx(4cos$^2$x $-$3); at x=$\\pi$, f($\\pi$) = ($-1)(4-3)=-1$."
+    },
+    {
+      "n": 27,
+      "q": "If x$^3$ $-$ 2x$^2$ $-$ 9x + 18 = 0 and A = $\\begin{vmatrix}1 & 2 & 3\\\\ 4 & x & 6\\\\ 7 & 8 & 9\\end{vmatrix}$ then the maximum value of A is",
+      "options": [
+        "96",
+        "36",
+        "24",
+        "120"
+      ],
+      "answer": 0,
+      "chapter": "Determinants",
+      "explanation": "The cubic has roots x=2,3,$-$3, and A simplifies to $-12x+60$; evaluating at x=$-$3 gives the maximum value 96."
+    },
+    {
+      "n": 28,
+      "q": "At x = 1, the function f(x) = x$^3$ $-$ 1 for 1 < x < $\\infty$, x $-$ 1 for $-\\infty$ < x $\\le$ 1 is",
+      "options": [
+        "continuous and differentiable",
+        "continuous and non-differentiable",
+        "discontinuous and differentiable",
+        "discontinuous and non-differentiable"
+      ],
+      "answer": 1,
+      "chapter": "Continuity and Differentiability",
+      "explanation": "Both one-sided limits and f(1) equal 0, so f is continuous; but the left derivative is 1 while the right derivative is 3, so it is not differentiable."
+    },
+    {
+      "n": 29,
+      "q": "If y = (cosx$^2$)$^2$, then dy/dx is equal to",
+      "options": [
+        "$-$4x sin2x$^2$",
+        "$-$x sinx$^2$",
+        "$-$2x sin2x$^2$",
+        "$-$x cos2x$^2$"
+      ],
+      "answer": 2,
+      "chapter": "Continuity and Differentiability",
+      "explanation": "dy/dx = 2cos(x$^2$)($-$sin(x$^2$))(2x) = $-4x\\sin(x^2)\\cos(x^2) = -2x\\sin2x^2$."
+    },
+    {
+      "n": 30,
+      "q": "For constant a, $\\dfrac{d}{dx}(x^x + x^a + a^x + a^a)$ is",
+      "options": [
+        "x$^x$(1 + logx) + ax$^{a-1}$",
+        "x$^x$(1 + logx) + ax$^{a-1}$ + a$^x$log a",
+        "x$^x$(1 + logx) + a$^a$(1 + logx)",
+        "x$^x$(1 + logx) + a$^a$(1 + loga) + ax$^{a-1}$"
+      ],
+      "answer": 1,
+      "chapter": "Continuity and Differentiability",
+      "explanation": "Differentiating each term: $x^x(1+\\log x)$, $ax^{a-1}$, $a^x\\log a$, and 0 (a$^a$ is constant); summing gives option B."
+    },
+    {
+      "n": 31,
+      "q": "Consider the following statements: Statement 1: If y = log$_{10}$x + log$_e$x then dy/dx = $\\dfrac{\\log_{10}e}{x}+\\dfrac{1}{x}$. Statement 2: $\\dfrac{d}{dx}(\\log_{10}x)=\\dfrac{\\log x}{\\log 10}$ and $\\dfrac{d}{dx}(\\log_e x) = \\dfrac{\\log x}{\\log e}$",
+      "options": [
+        "Statement 1 is true; statement 2 is false",
+        "Statement 1 is false; statement 2 is true",
+        "Both statements 1 and 2 are true",
+        "Both statements 1 and 2 are false"
+      ],
+      "answer": 0,
+      "chapter": "Continuity and Differentiability",
+      "explanation": "Statement 1 correctly gives dy/dx using the change of base rule; statement 2 wrongly states the derivative formulas (as per KEA key)."
+    },
+    {
+      "n": 32,
+      "q": "If the parametric equation of a curve is given by x = cos$\\theta$ + log tan($\\theta$/2) and y = sin$\\theta$, then the points for which dy/dx = 0 are given by",
+      "options": [
+        "$\\theta=n\\pi/2, n\\in z$",
+        "$\\theta=(2n+1)\\pi/2, n\\in z$",
+        "$\\theta=(2n+1)\\pi, n\\in z$",
+        "$\\theta=n\\pi, n\\in z$"
+      ],
+      "answer": 3,
+      "chapter": "Continuity and Differentiability",
+      "explanation": "dx/d$\\theta$ = cos$^2\\theta$/sin$\\theta$ and dy/d$\\theta$=cos$\\theta$, so dy/dx = tan$\\theta$, which is 0 when $\\theta=n\\pi$."
+    },
+    {
+      "n": 33,
+      "q": "If y = (x $-$ 1)$^2$(x $-$ 2)$^3$(x $-$ 3)$^5$ then dy/dx at x = 4 is equal to",
+      "options": [
+        "108",
+        "54",
+        "36",
+        "516"
+      ],
+      "answer": 3,
+      "chapter": "Continuity and Differentiability",
+      "explanation": "Using logarithmic differentiation, y'/y = 2/(x-1)+3/(x-2)+5/(x-3); at x=4, y=72 and y'/y=43/6, giving y'=516."
+    },
+    {
+      "n": 34,
+      "q": "A particle starts from rest and its angular displacement (in radians) is given by $\\theta=\\dfrac{t^2}{20}+\\dfrac{t}{5}$. If the angular velocity at the end of t = 4 is k, then the value of 5k is",
+      "options": [
+        "0.6",
+        "5",
+        "5k",
+        "3"
+      ],
+      "answer": 3,
+      "chapter": "Application of Derivatives",
+      "explanation": "$\\omega=d\\theta/dt=t/10+1/5$; at t=4, $\\omega$=0.6=k, so 5k=3."
+    },
+    {
+      "n": 35,
+      "q": "If the parabola y = $\\alpha$x$^2$ $-$ 6x + $\\beta$ passes through the point (0, 2) and has its tangent at x = 3/2 parallel to x axis, then",
+      "options": [
+        "$\\alpha$ = 2, $\\beta$ = $-$2",
+        "$\\alpha$ = $-$2, $\\beta$ = 2",
+        "$\\alpha$ = 2, $\\beta$ = 2",
+        "$\\alpha$ = $-$2, $\\beta$ = $-$2"
+      ],
+      "answer": 2,
+      "chapter": "Application of Derivatives",
+      "explanation": "Passing through (0,2) gives $\\beta$=2; the tangent slope 2$\\alpha$x$-$6=0 at x=3/2 gives $\\alpha$=2."
+    },
+    {
+      "n": 36,
+      "q": "The function f(x) = x$^2$ $-$ 2x is strictly decreasing in the interval",
+      "options": [
+        "($-\\infty$, 1)",
+        "(1, $\\infty$)",
+        "R",
+        "($-\\infty$, $\\infty$)"
+      ],
+      "answer": 0,
+      "chapter": "Application of Derivatives",
+      "explanation": "f'(x) = 2x $-$ 2 < 0 gives x < 1, so f is strictly decreasing on ($-\\infty$, 1)."
+    },
+    {
+      "n": 37,
+      "q": "The maximum slope of the curve y = $-$x$^3$ + 3x$^2$ + 2x $-$ 27 is",
+      "options": [
+        "1",
+        "23",
+        "5",
+        "$-$23"
+      ],
+      "answer": 2,
+      "chapter": "Application of Derivatives",
+      "explanation": "Slope y' = $-3x^2+6x+2$; maximizing gives x=1, so maximum slope = $-3+6+2=5$."
+    },
+    {
+      "n": 38,
+      "q": "$\\displaystyle\\int\\dfrac{x^3\\sin(\\tan^{-1}(x^4))}{1+x^8}dx$ is equal to",
+      "options": [
+        "$\\dfrac{-\\cos(\\tan^{-1}(x^4))}{4}+C$",
+        "$\\dfrac{\\cos(\\tan^{-1}(x^4))}{4}+C$",
+        "$\\dfrac{-\\cos(\\tan^{-1}(x^3))}{3}+C$",
+        "$\\dfrac{\\sin(\\tan^{-1}(x^4))}{4}+C$"
+      ],
+      "answer": 0,
+      "chapter": "Integrals",
+      "explanation": "Substituting u = tan$^{-1}(x^4)$, du = $4x^3/(1+x^8)dx$, the integral becomes $-\\cos u/4+C$."
+    },
+    {
+      "n": 39,
+      "q": "The value of $\\displaystyle\\int\\dfrac{x^2dx}{\\sqrt{x^6+a^6}}$ is equal to",
+      "options": [
+        "log|x$^3$ + $\\sqrt{x^6+a^6}$| + c",
+        "log|x$^3$ $-$ $\\sqrt{x^6+a^6}$| + c",
+        "$\\dfrac{1}{3}$log|x$^3$ + $\\sqrt{x^6+a^6}$| + c",
+        "$\\dfrac{1}{3}$log|x$^3$ $-$ $\\sqrt{x^6+a^6}$| + c"
+      ],
+      "answer": 2,
+      "chapter": "Integrals",
+      "explanation": "Substituting u = x$^3$, du = 3x$^2$dx, the integral becomes $\\frac13\\log|x^3+\\sqrt{x^6+a^6}|+c$."
+    },
+    {
+      "n": 40,
+      "q": "The value of $\\displaystyle\\int\\dfrac{xe^x dx}{(1+x)^2}$ is equal to",
+      "options": [
+        "e$^x$(1 + x) + c",
+        "e$^x$(1 + x$^2$) + c",
+        "e$^x$(1 + x)$^2$ + c",
+        "$\\dfrac{e^x}{1+x}+c$"
+      ],
+      "answer": 3,
+      "chapter": "Integrals",
+      "explanation": "Since $\\frac{d}{dx}\\left[\\frac{e^x}{1+x}\\right]=\\frac{xe^x}{(1+x)^2}$, the integral is $\\dfrac{e^x}{1+x}+c$."
+    },
+    {
+      "n": 41,
+      "q": "The value of $\\displaystyle\\int e^x\\left[\\dfrac{1+\\sin x}{1+\\cos x}\\right]dx$ is equal to",
+      "options": [
+        "e$^x$tan(x/2) + c",
+        "e$^x$tanx + c",
+        "e$^x$(1 + cosx) + c",
+        "e$^x$(1 + sinx) + c"
+      ],
+      "answer": 0,
+      "chapter": "Integrals",
+      "explanation": "$\\frac{1+\\sin x}{1+\\cos x}=\\tan(x/2)+\\frac12\\sec^2(x/2)$, which is of the form f(x)+f'(x) with f(x)=tan(x/2), giving $e^x\\tan(x/2)+c$."
+    },
+    {
+      "n": 42,
+      "q": "If $I_n=\\displaystyle\\int_0^{\\pi/4}\\tan^n x\\,dx$ where n is a positive integer, then $I_{10}+I_8$ is equal to",
+      "options": [
+        "9",
+        "1/7",
+        "1/8",
+        "1/9"
+      ],
+      "answer": 3,
+      "chapter": "Integrals",
+      "explanation": "Using $I_n+I_{n-2}=\\frac{1}{n-1}$, we get $I_{10}+I_8=\\frac{1}{9}$."
+    },
+    {
+      "n": 43,
+      "q": "The value of $\\displaystyle\\int_0^{4042}\\dfrac{\\sqrt x\\,dx}{\\sqrt x+\\sqrt{4042-x}}$ is equal to",
+      "options": [
+        "4042",
+        "2021",
+        "8084",
+        "1010"
+      ],
+      "answer": 1,
+      "chapter": "Integrals",
+      "explanation": "Using $\\int_0^a f(x)dx=\\int_0^a f(a-x)dx$, twice the integral equals 4042, so the integral is 2021."
+    },
+    {
+      "n": 44,
+      "q": "The area of the region bounded by y = $\\sqrt{16-x^2}$ and x $-$ axis is",
+      "options": [
+        "8 square units",
+        "20$\\pi$ square units",
+        "16$\\pi$ square units",
+        "256$\\pi$ square units"
+      ],
+      "answer": 2,
+      "chapter": "Application of Integrals",
+      "explanation": "This curve is the upper half of a circle of radius 4, so the correctly bounded area is $8\\pi$ sq units, which is not among the printed options; KEA awarded grace marks for this defective question (closest listed option taken here is 16$\\pi$).",
+      "grace": true
+    },
+    {
+      "n": 45,
+      "q": "If the area of the Ellipse $\\dfrac{x^2}{25}+\\dfrac{y^2}{\\lambda^2}=1$ is 20$\\pi$ square units, then $\\lambda$ is",
+      "options": [
+        "$\\pm$4",
+        "$\\pm$3",
+        "$\\pm$2",
+        "$\\pm$1"
+      ],
+      "answer": 0,
+      "chapter": "Conic Sections",
+      "explanation": "Area of ellipse = $\\pi ab = \\pi(5)|\\lambda|=20\\pi$, giving $|\\lambda|=4$, so $\\lambda=\\pm4$."
+    },
+    {
+      "n": 46,
+      "q": "Solution of Differential Equation xdy $-$ ydx = 0 represents",
+      "options": [
+        "A rectangular Hyperbola",
+        "Parabola whose vertex is at origin",
+        "Straight line passing through origin",
+        "A circle whose centre is origin"
+      ],
+      "answer": 2,
+      "chapter": "Differential Equations",
+      "explanation": "Separating variables, dy/y = dx/x, giving y = kx, a straight line through the origin."
+    },
+    {
+      "n": 47,
+      "q": "The number of solutions of $\\dfrac{dy}{dx}=\\dfrac{y+1}{x-1}$ when y(1) = 2 is",
+      "options": [
+        "three",
+        "one",
+        "infinite",
+        "two"
+      ],
+      "answer": 1,
+      "chapter": "Differential Equations",
+      "explanation": "The initial point x=1 is a singular point of the equation (denominator vanishes there); KEA's key accepts both 'one' and 'infinite' as correct.",
+      "alsoCorrect": [
+        2
+      ]
+    },
+    {
+      "n": 48,
+      "q": "A vector $\\vec a$ makes equal acute angles on the coordinate axis. Then the projection of vector $\\vec b$ = 5$\\hat i$ + 7$\\hat j$ $-\\hat k$ on $\\vec a$ is",
+      "options": [
+        "11/15",
+        "$11/\\sqrt3$",
+        "4/5",
+        "$3/(5\\sqrt3)$"
+      ],
+      "answer": 1,
+      "chapter": "Vector Algebra",
+      "explanation": "Equal acute angles give direction cosines $1/\\sqrt3$ each; projection = $\\vec b\\cdot\\hat a=(5+7-1)/\\sqrt3=11/\\sqrt3$."
+    },
+    {
+      "n": 49,
+      "q": "The diagonals of a parallelogram are the vectors 3$\\hat i$ + 6$\\hat j$ $-2\\hat k$ and $-\\hat i-2\\hat j-8\\hat k$ then the length of the shorter side of parallelogram is",
+      "options": [
+        "$2\\sqrt3$",
+        "$\\sqrt{14}$",
+        "$3\\sqrt5$",
+        "$4\\sqrt3$"
+      ],
+      "answer": 1,
+      "chapter": "Vector Algebra",
+      "explanation": "The sides are half the sum and difference of the diagonals; as printed this gives lengths $\\sqrt{30}$ and $\\sqrt{29}$, matching none of the options exactly (apparent sign typo in the question), so KEA awarded grace marks. Taking the likely-intended diagonal, the shorter side works out to $\\sqrt{14}$.",
+      "grace": true
+    },
+    {
+      "n": 50,
+      "q": "If $\\vec a\\cdot\\vec b$ = 0 and $\\vec a+\\vec b$ makes an angle 60$^\\circ$ with $\\vec a$ then",
+      "options": [
+        "$|\\vec a|=2|\\vec b|$",
+        "$2|\\vec a|=|\\vec b|$",
+        "$|\\vec a|=\\sqrt3|\\vec b|$",
+        "$\\sqrt3|\\vec a|=|\\vec b|$"
+      ],
+      "answer": 3,
+      "chapter": "Vector Algebra",
+      "explanation": "cos60$^\\circ = |\\vec a|/|\\vec a+\\vec b| = 1/2$, so $|\\vec a+\\vec b|=2|\\vec a|$; since $\\vec a\\cdot\\vec b=0$, $|\\vec a+\\vec b|^2=|\\vec a|^2+|\\vec b|^2$ gives $|\\vec b|=\\sqrt3|\\vec a|$."
+    },
+    {
+      "n": 51,
+      "q": "If the area of the parallelogram with $\\vec a$ and $\\vec b$ as two adjacent sides is 15 sq. units then the area of the parallelogram having 3$\\vec a$+2$\\vec b$ and $\\vec a$+3$\\vec b$ as two adjacent sides in sq. units is",
+      "options": [
+        "45",
+        "75",
+        "105",
+        "120"
+      ],
+      "answer": 2,
+      "chapter": "Vector Algebra",
+      "explanation": "$(3\\vec a+2\\vec b)\\times(\\vec a+3\\vec b)=7(\\vec a\\times\\vec b)$, so the new area = 7 $\\times$ 15 = 105."
+    },
+    {
+      "n": 52,
+      "q": "The equation of the line joining the points ($-$3, 4, 11) and (1, $-$2, 7) is",
+      "options": [
+        "$\\dfrac{x+3}{2}=\\dfrac{y-4}{3}=\\dfrac{z-11}{4}$",
+        "$\\dfrac{x+3}{-2}=\\dfrac{y-4}{3}=\\dfrac{z-11}{2}$",
+        "$\\dfrac{x+3}{-2}=\\dfrac{y+4}{3}=\\dfrac{z+11}{4}$",
+        "$\\dfrac{x+3}{2}=\\dfrac{y-4}{-3}=\\dfrac{z-11}{2}$"
+      ],
+      "answer": 1,
+      "chapter": "Three Dimensional Geometry",
+      "explanation": "Direction ratios are (4,$-$6,$-$4), i.e. (2,$-$3,$-$2) or equivalently ($-$2,3,2), giving the equation in option B."
+    },
+    {
+      "n": 53,
+      "q": "The angle between the lines whose direction cosines are $\\left(\\dfrac{\\sqrt3}{4},\\dfrac14,\\dfrac{\\sqrt3}{2}\\right)$ and $\\left(\\dfrac{\\sqrt3}{4},\\dfrac14,\\dfrac{-\\sqrt3}{2}\\right)$ is",
+      "options": [
+        "$\\pi$",
+        "$\\pi/2$",
+        "$\\pi/3$",
+        "$\\pi/4$"
+      ],
+      "answer": 2,
+      "chapter": "Three Dimensional Geometry",
+      "explanation": "cos$\\theta$ = 3/16+1/16$-$3/4 = $-1/2$; taking the acute angle between the lines (absolute value), $\\theta=\\pi/3$."
+    },
+    {
+      "n": 54,
+      "q": "If a plane meets the coordinate axes at A, B and C in such a way that the centroid of triangle ABC is at the point (1, 2, 3) then the equation of the plane is",
+      "options": [
+        "$\\dfrac{x}{1}+\\dfrac{y}{2}+\\dfrac{z}{3}=1$",
+        "$\\dfrac{x}{3}+\\dfrac{y}{6}+\\dfrac{z}{9}=1$",
+        "$\\dfrac{x}{1}+\\dfrac{y}{2}+\\dfrac{z}{3}=\\dfrac13$",
+        "$\\dfrac{x}{1}-\\dfrac{y}{2}+\\dfrac{z}{3}=-1$"
+      ],
+      "answer": 1,
+      "chapter": "Three Dimensional Geometry",
+      "explanation": "With intercepts p,q,r, centroid = (p/3,q/3,r/3) = (1,2,3) gives p=3,q=6,r=9, so the plane is x/3+y/6+z/9=1."
+    },
+    {
+      "n": 55,
+      "q": "The area of the quadrilateral ABCD, when A(0, 4, 1) B(2, 3, $-$1) C(4, 5, 0) and D(2, 6, 2) is equal to",
+      "options": [
+        "9 sq.units",
+        "18 sq. units",
+        "27 sq. units",
+        "81 sq. units"
+      ],
+      "answer": 0,
+      "chapter": "Vector Algebra",
+      "explanation": "Area = $\\frac12|\\vec{AC}\\times\\vec{BD}| = \\frac12|(6,-12,12)| = \\frac12(18)=9$ sq. units."
+    },
+    {
+      "n": 56,
+      "q": "The shaded region is the solution set of the inequalities [graph shows the line 5x+4y=20 through (0,5) and (4,0), with the lines x=6 and y=3, and the shaded region between these boundaries]",
+      "options": [
+        "5x + 4y $\\ge$ 20, x $\\le$ 6, y $\\ge$ 3, x $\\ge$ 0, y $\\ge$ 0",
+        "5x + 4y $\\le$ 20, x $\\le$ 6, y $\\le$ 3, x $\\ge$ 0, y $\\ge$ 0",
+        "5x + 4y $\\ge$ 20, x $\\le$ 6, y $\\le$ 3, x $\\ge$ 0, y $\\ge$ 0",
+        "5x + 4y $\\ge$ 20, x $\\ge$ 6, y $\\le$ 3, x $\\ge$ 0, y $\\ge$ 0"
+      ],
+      "answer": 2,
+      "chapter": "Linear Programming",
+      "explanation": "The shaded region lies on the far side of the line 5x+4y=20 from the origin, bounded also by x $\\le$ 6 and y $\\le$ 3 (as per KEA key).",
+      "figure": true
+    },
+    {
+      "n": 57,
+      "q": "Given that A and B are two events such that P(B) = 3/5, P(A/B) = 1/2 and P(A $\\cup$ B) = 4/5, then P(A) =",
+      "options": [
+        "3/10",
+        "1/2",
+        "1/5",
+        "3/5"
+      ],
+      "answer": 1,
+      "chapter": "Probability",
+      "explanation": "P(A$\\cap$B) = P(A/B)P(B) = 3/10; P(A) = P(A$\\cup$B) $-$ P(B) + P(A$\\cap$B) = 4/5$-$3/5+3/10 = 1/2."
+    },
+    {
+      "n": 58,
+      "q": "If A, B and C are three independent events such that P(A) = P(B) = P(C) = P then P(at least two of A, B, C occur) =",
+      "options": [
+        "P$^3$ $-$ 3P",
+        "3P $-$ 2P$^2$",
+        "3P$^2$ $-$ 2P$^3$",
+        "3P$^2$"
+      ],
+      "answer": 2,
+      "chapter": "Probability",
+      "explanation": "P(exactly two) + P(all three) = $3P^2(1-P)+P^3 = 3P^2-2P^3$."
+    },
+    {
+      "n": 59,
+      "q": "Two dice are thrown. If it is known that the sum of numbers on the dice was less than 6 the probability of getting a sum as 3 is",
+      "options": [
+        "1/18",
+        "5/18",
+        "1/5",
+        "2/5"
+      ],
+      "answer": 2,
+      "chapter": "Probability",
+      "explanation": "Outcomes with sum < 6: 1+2+3+4 = 10 (for sums 2,3,4,5); outcomes with sum 3 = 2; probability = 2/10 = 1/5."
+    },
+    {
+      "n": 60,
+      "q": "A car manufacturing factory has two plants X and Y. Plant X manufactures 70% of cars and plant Y manufactures 30% of cars. 80% of cars at plant X and 90% of cars at plant Y are rated as standard quality. A car is chosen at random and is found to be of standard quality. The probability that it has come from plant X is",
+      "options": [
+        "56/73",
+        "56/84",
+        "56/83",
+        "56/79"
+      ],
+      "answer": 2,
+      "chapter": "Probability",
+      "explanation": "P(X|std) = (0.7 $\\times$ 0.8)/(0.7 $\\times$ 0.8 + 0.3 $\\times$ 0.9) = 0.56/0.83 = 56/83."
+    }
+  ]
+}

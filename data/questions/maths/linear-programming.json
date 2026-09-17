@@ -1,0 +1,525 @@
+{
+  "notes": "<h3>Basic Terms</h3><ul><li><b>Objective function</b>: the linear function of the decision variables to be maximised or minimised, e.g. $Z=ax+by$.</li><li><b>Constraints</b>: linear inequalities/equations restricting the variables; together with $x\\ge0,\\ y\\ge0$ (non-negative restrictions) they define the <b>feasible region</b> &mdash; the common region satisfying all constraints.</li><li>A point in the feasible region is a <b>feasible solution</b>; the point(s) that optimise $Z$ give the <b>optimal solution</b>.</li></ul><h3>Corner Point Method</h3><ul><li>The feasible region of an LPP is always a convex region (a convex polygon if bounded).</li><li><b>Corner Point Theorem</b>: if the feasible region is bounded, the objective function attains both its maximum and minimum at corner points (vertices) of the feasible region.</li><li>Steps: (1) sketch the feasible region and find its corner points by solving pairs of boundary equations; (2) evaluate $Z$ at every corner point; (3) the largest/smallest value is the maximum/minimum.</li><li>If the feasible region is unbounded, a maximum or minimum may or may not exist; it must be verified by checking whether the half-plane $ax+by>M$ (or $<m$) has any point in common with the feasible region.</li><li>If two corner points give the same optimal $Z$ and the edge joining them lies on the boundary, then every point of that edge is also optimal &mdash; <b>infinitely many optimal solutions</b>. If the constraints admit no common point in the first quadrant, the LPP has <b>no feasible solution</b>.</li></ul><h3>Types of LPP</h3><ul><li>Manufacturing (maximise profit/output given machine-hours), diet (minimise cost given nutrient requirements), transportation (minimise cost given supply/demand) &mdash; all are modelled the same way: define decision variables, write the objective function, then translate each resource limit into a linear inequality.</li></ul><h3>Exam tip</h3><p>KCET usually asks 2&ndash;3 questions from this chapter, almost always of the form: identify the corner points of a given feasible region and pick the maximum/minimum of $Z$. Sketch quickly, mark every boundary intersection lying in the first quadrant, and evaluate $Z$ at each &mdash; do not try to guess the answer from slopes under time pressure.</p>",
+  "questions": [
+    {
+      "id": "mat-linear-programming-001",
+      "q": "In a linear programming problem, the common region determined by all the constraints (including $x\\ge0,y\\ge0$) is called the",
+      "options": [
+        "infeasible region",
+        "bounded region",
+        "optimal region",
+        "feasible region"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "By definition, the set of all points satisfying every constraint simultaneously is called the feasible region."
+    },
+    {
+      "id": "mat-linear-programming-002",
+      "q": "According to the Corner Point Theorem, if the feasible region of an LPP is bounded, the objective function attains its maximum and minimum at",
+      "options": [
+        "the centroid of the feasible region",
+        "corner points of the feasible region",
+        "any interior point",
+        "midpoints of the edges"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "The Corner Point Theorem states that for a bounded feasible region, the optimal values of a linear objective function occur at corner points (vertices)."
+    },
+    {
+      "id": "mat-linear-programming-003",
+      "q": "A point that satisfies all the constraints of a linear programming problem, including the non-negativity restrictions, is called a",
+      "options": [
+        "optimal solution",
+        "basic solution",
+        "feasible solution",
+        "corner solution"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "Any point lying in the feasible region is, by definition, a feasible solution."
+    },
+    {
+      "id": "mat-linear-programming-004",
+      "q": "Maximise $Z = 3x + 4y$ subject to $x+y\\le4$, $x\\ge0$, $y\\ge0$. The maximum value of $Z$ is",
+      "options": [
+        "16",
+        "12",
+        "0",
+        "20"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "Corner points are $(0,0), (4,0), (0,4)$ with $Z = 0, 12, 16$ respectively; the maximum is $16$."
+    },
+    {
+      "id": "mat-linear-programming-005",
+      "q": "Maximise $Z = 3x + 4y$ subject to $x+y\\le4$, $x,y\\ge0$. The maximum occurs at the corner point",
+      "options": [
+        "$(0,0)$",
+        "$(4,0)$",
+        "$(2,2)$",
+        "$(0,4)$"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "$Z(0,4) = 16$ is the largest of the three corner values $0, 12, 16$."
+    },
+    {
+      "id": "mat-linear-programming-006",
+      "q": "Minimise $Z = 200x + 500y$ subject to $x+2y\\ge10$, $3x+4y\\le24$, $x,y\\ge0$. The minimum value of $Z$ is",
+      "options": [
+        "2000",
+        "2500",
+        "2300",
+        "3000"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "The feasible corner points are $(0,5), (0,6), (4,3)$ with $Z = 2500, 3000, 2300$; the minimum is $2300$."
+    },
+    {
+      "id": "mat-linear-programming-007",
+      "q": "Minimise $Z = 200x + 500y$ subject to $x+2y\\ge10$, $3x+4y\\le24$, $x,y\\ge0$. The minimum value of $Z$ occurs at the corner point",
+      "options": [
+        "$(4,3)$",
+        "$(0,5)$",
+        "$(0,6)$",
+        "$(8,0)$"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "$(4,3)$ is the intersection of $x+2y=10$ and $3x+4y=24$, and gives $Z=200(4)+500(3)=2300$, the smallest of the corner values."
+    },
+    {
+      "id": "mat-linear-programming-008",
+      "q": "\"If the feasible region of an LPP is unbounded, a maximum or a minimum of the objective function may fail to exist.\" This statement is",
+      "options": [
+        "true only for the maximum",
+        "true",
+        "false",
+        "true only for the minimum"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "For an unbounded feasible region, an optimal value (max or min) exists only if the corresponding half-plane test confirms it; otherwise it may not exist, so the statement is true in general."
+    },
+    {
+      "id": "mat-linear-programming-009",
+      "q": "Maximise $Z = x + y$ subject to $x+y\\le10$, $x\\le6$, $y\\le6$, $x,y\\ge0$. This problem has",
+      "options": [
+        "a unique optimal solution",
+        "infinitely many optimal solutions",
+        "no feasible solution",
+        "an unbounded solution"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "Since $Z=x+y$ is parallel to the constraint line $x+y=10$, every point on the edge from $(6,4)$ to $(4,6)$ gives the same maximum value, so there are infinitely many optimal solutions."
+    },
+    {
+      "id": "mat-linear-programming-010",
+      "q": "Maximise $Z = x + y$ subject to $x+y\\le10$, $x\\le6$, $y\\le6$, $x,y\\ge0$. The maximum value of $Z$ is",
+      "options": [
+        "6",
+        "12",
+        "16",
+        "10"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "At any point on the boundary edge $x+y=10$ within the feasible region, $Z=x+y=10$, which is the maximum."
+    },
+    {
+      "id": "mat-linear-programming-011",
+      "q": "The feasible region of a linear programming problem is always a",
+      "options": [
+        "convex region",
+        "concave region",
+        "circle",
+        "single point"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "Since it is the intersection of half-planes, the feasible region of an LPP is always convex."
+    },
+    {
+      "id": "mat-linear-programming-012",
+      "q": "Maximise $Z = 5x + 3y$ subject to $3x+5y\\le15$, $5x+2y\\le10$, $x,y\\ge0$. The maximum value of $Z$ is",
+      "options": [
+        "9",
+        "250/19",
+        "235/19",
+        "10"
+      ],
+      "answer": 2,
+      "difficulty": "hard",
+      "explanation": "Corner points are $(0,0), (2,0), \\left(\\dfrac{20}{19},\\dfrac{45}{19}\\right), (0,3)$ giving $Z = 0, 10, \\dfrac{235}{19}\\approx12.4, 9$; the maximum is $\\dfrac{235}{19}$."
+    },
+    {
+      "id": "mat-linear-programming-013",
+      "q": "Maximise $Z = 5x + 3y$ subject to $3x+5y\\le15$, $5x+2y\\le10$, $x,y\\ge0$. The maximum of $Z$ occurs at the corner point",
+      "options": [
+        "$(0,0)$",
+        "$(20/19, 45/19)$",
+        "$(0,3)$",
+        "$(2,0)$"
+      ],
+      "answer": 1,
+      "difficulty": "hard",
+      "explanation": "Solving $3x+5y=15$ and $5x+2y=10$ simultaneously gives $x=20/19, y=45/19$, which yields the highest $Z$ value among all corners."
+    },
+    {
+      "id": "mat-linear-programming-014",
+      "q": "The linear function of the variables which is to be maximised or minimised in an LPP is called the",
+      "options": [
+        "objective function",
+        "decision function",
+        "constraint",
+        "feasible function"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "By definition, this is called the objective function, usually written $Z = ax+by$."
+    },
+    {
+      "id": "mat-linear-programming-015",
+      "q": "The conditions $x\\ge0, y\\ge0$ in a linear programming problem are called the",
+      "options": [
+        "feasible constraints",
+        "objective function",
+        "non-negative restrictions",
+        "redundant constraints"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "These conditions, required because decision variables usually represent quantities, are called non-negative restrictions."
+    },
+    {
+      "id": "mat-linear-programming-016",
+      "q": "Consider minimising $Z=3x+2y$ subject to $x+y\\ge8$, $3x+5y\\le15$, $x,y\\ge0$. This LPP has",
+      "options": [
+        "a unique optimal solution",
+        "an unbounded solution",
+        "infinitely many optimal solutions",
+        "no feasible solution"
+      ],
+      "answer": 3,
+      "difficulty": "hard",
+      "explanation": "Along $x+y=8$ in the first quadrant, $3x+5y$ ranges from $24$ (at $(8,0)$) upward, always exceeding $15$; hence no point satisfies both constraints, so there is no feasible region."
+    },
+    {
+      "id": "mat-linear-programming-017",
+      "q": "A firm makes chairs ($x$) and tables ($y$). Each chair needs 2 h of carpentry and 1 h of finishing; each table needs 1 h of carpentry and 2 h of finishing. Carpentry time available is 60 h and finishing time is 48 h per week. The correct constraints (besides $x,y\\ge0$) are",
+      "options": [
+        "$2x+y\\le48,\\ x+2y\\le60$",
+        "$x+2y\\le60,\\ 2x+y\\le48$",
+        "$2x+y\\le60,\\ x+2y\\le48$",
+        "$2x+y\\ge60,\\ x+2y\\ge48$"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "Total carpentry time used is $2x+y$, capped at 60 h; total finishing time used is $x+2y$, capped at 48 h."
+    },
+    {
+      "id": "mat-linear-programming-018",
+      "q": "Maximise $Z=4x+y$ subject to $x+y\\le50$, $3x+y\\le90$, $x,y\\ge0$. The maximum value of $Z$ is",
+      "options": [
+        "90",
+        "120",
+        "110",
+        "50"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "Corner points are $(0,0), (30,0), (20,30), (0,50)$ with $Z = 0, 120, 110, 50$; the maximum is $120$."
+    },
+    {
+      "id": "mat-linear-programming-019",
+      "q": "Which of the following is NOT a requirement of a (standard) linear programming problem?",
+      "options": [
+        "the decision variables must be integers",
+        "the constraints must be linear inequalities or equations",
+        "the decision variables must be non-negative",
+        "the objective function must be linear in the decision variables"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "Standard LPPs allow continuous (real-valued) decision variables; requiring integer values defines the separate topic of integer programming."
+    },
+    {
+      "id": "mat-linear-programming-020",
+      "q": "A feasible solution that maximises or minimises the objective function of an LPP is called the",
+      "options": [
+        "basic solution",
+        "corner solution",
+        "redundant solution",
+        "optimal solution"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "By definition, the feasible solution that gives the best (maximum or minimum) value of $Z$ is called the optimal solution."
+    },
+    {
+      "id": "mat-linear-programming-021",
+      "q": "The graphical method of solving a linear programming problem can be directly applied only when the number of decision variables is at most",
+      "options": [
+        "two",
+        "any number of",
+        "one",
+        "three"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "A 2-D graph can represent at most two decision variables, so the graphical method is limited to LPPs with two decision variables."
+    },
+    {
+      "id": "mat-linear-programming-022",
+      "q": "Maximise $Z=x+2y$ subject to $x+y\\le6$, $x,y\\ge0$. The maximum value of $Z$ is",
+      "options": [
+        "18",
+        "12",
+        "8",
+        "6"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "Corner points are $(0,0),(6,0),(0,6)$ with $Z=0,6,12$; the maximum is $12$."
+    },
+    {
+      "id": "mat-linear-programming-023",
+      "q": "Maximise $Z=x+2y$ subject to $x+y\\le6$, $x,y\\ge0$. The maximum of $Z$ occurs at the corner point",
+      "options": [
+        "$(6,0)$",
+        "$(3,3)$",
+        "$(0,0)$",
+        "$(0,6)$"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "$Z(0,6)=12$ is the largest among the corner values $0,6,12$."
+    },
+    {
+      "id": "mat-linear-programming-024",
+      "q": "Minimise $Z=2x+3y$ subject to $x+y\\ge6$, $x,y\\ge0$. The minimum value of $Z$ is",
+      "options": [
+        "0",
+        "18",
+        "12",
+        "6"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "The relevant corner points are $(6,0)$ and $(0,6)$ with $Z=12,18$; since $Z$ only increases moving away from $(6,0)$, the minimum is $12$."
+    },
+    {
+      "id": "mat-linear-programming-025",
+      "q": "For the constraints $x+y\\le10$, $x\\ge0$, $y\\ge0$, the point $(2,3)$ is",
+      "options": [
+        "a corner point",
+        "not a feasible solution",
+        "the optimal solution",
+        "a feasible solution"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "Since $2+3=5\\le10$ and both coordinates are non-negative, $(2,3)$ satisfies all constraints, so it is a feasible solution (though not a corner point)."
+    },
+    {
+      "id": "mat-linear-programming-026",
+      "q": "The feasible region defined by $x\\ge0$, $y\\ge0$, $x+y\\le5$ has how many corner points?",
+      "options": [
+        "3",
+        "2",
+        "4",
+        "5"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "The region is a triangle with vertices $(0,0),(5,0),(0,5)$, giving 3 corner points."
+    },
+    {
+      "id": "mat-linear-programming-027",
+      "q": "Maximise $Z=50x+40y$ subject to $2x+y\\le12$, $x+2y\\le14$, $x,y\\ge0$. The maximum value of $Z$ is",
+      "options": [
+        "280",
+        "300",
+        "380",
+        "360"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "Corner points are $(0,0),(6,0),\\left(\\dfrac{10}{3},\\dfrac{16}{3}\\right),(0,7)$ with $Z=0,300,380,280$; the maximum is $380$."
+    },
+    {
+      "id": "mat-linear-programming-028",
+      "q": "Maximise $Z=50x+40y$ subject to $2x+y\\le12$, $x+2y\\le14$, $x,y\\ge0$. The maximum of $Z$ occurs at the corner point",
+      "options": [
+        "$(0,7)$",
+        "$(10/3,16/3)$",
+        "$(0,0)$",
+        "$(6,0)$"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "Solving $2x+y=12$ and $x+2y=14$ together gives $x=10/3,y=16/3$, which yields the highest $Z$ value among the corners."
+    },
+    {
+      "id": "mat-linear-programming-029",
+      "q": "Minimise $Z=200x+300y$ subject to $x+2y\\ge10$, $3x+4y\\ge24$, $x,y\\ge0$. The minimum value of $Z$ is",
+      "options": [
+        "1600",
+        "2000",
+        "1700",
+        "1800"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "The corner points are $(0,6),(4,3),(10,0)$ with $Z=1800,1700,2000$; the minimum is $1700$ at $(4,3)$."
+    },
+    {
+      "id": "mat-linear-programming-030",
+      "q": "If the only constraints on an LPP are $x\\ge0$ and $y\\ge0$ (no other restriction), the feasible region is",
+      "options": [
+        "empty",
+        "a line segment",
+        "a single point",
+        "the entire first quadrant (unbounded)"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "With no upper bound on $x$ or $y$, every point in the first quadrant satisfies both constraints, so the feasible region is the whole (unbounded) first quadrant."
+    },
+    {
+      "id": "mat-linear-programming-031",
+      "q": "For a maximisation LPP with an unbounded feasible region, if the open half-plane $ax+by>M$ has no point in common with the feasible region (where $M$ is the value of $Z$ at some corner point), then the LPP",
+      "options": [
+        "definitely has a maximum value, attained at that corner point",
+        "cannot be solved graphically",
+        "has infinitely many maximum values",
+        "definitely has no maximum value"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "This is exactly the test used to confirm that a maximum exists on an unbounded region: it exists and equals $M$, attained at the corresponding corner point."
+    },
+    {
+      "id": "mat-linear-programming-032",
+      "q": "Maximise $Z=3x+5y$ subject to $x+y\\le2$, $3x+y\\le3$, $x,y\\ge0$. The maximum value of $Z$ is",
+      "options": [
+        "6",
+        "10",
+        "9",
+        "7.5"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "Corner points are $(0,0),(1,0),(0.5,1.5),(0,2)$ with $Z=0,3,9,10$; the maximum is $10$."
+    },
+    {
+      "id": "mat-linear-programming-033",
+      "q": "Maximise $Z=3x+5y$ subject to $x+y\\le2$, $3x+y\\le3$, $x,y\\ge0$. The maximum of $Z$ occurs at the corner point",
+      "options": [
+        "$(0,2)$",
+        "$(1,0)$",
+        "$(0.5,1.5)$",
+        "$(0,0)$"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "$Z(0,2)=10$ is the largest of the corner values $0,3,9,10$."
+    },
+    {
+      "id": "mat-linear-programming-034",
+      "q": "Minimise $Z=3x+2y$ subject to $x+y\\ge6$, $2x+y\\ge10$, $x,y\\ge0$. The minimum value of $Z$ is",
+      "options": [
+        "18",
+        "24",
+        "16",
+        "20"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "Corner points are $(0,10),(4,2),(6,0)$ with $Z=20,16,18$; the minimum is $16$."
+    },
+    {
+      "id": "mat-linear-programming-035",
+      "q": "Minimise $Z=3x+2y$ subject to $x+y\\ge6$, $2x+y\\ge10$, $x,y\\ge0$. The minimum occurs at the corner point",
+      "options": [
+        "$(0,10)$",
+        "$(4,2)$",
+        "$(5,1)$",
+        "$(6,0)$"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "$Z(4,2)=16$ is the smallest of the corner values $20,18,16$, and $(4,2)$ is where the two boundary lines cross."
+    },
+    {
+      "id": "mat-linear-programming-036",
+      "q": "A constraint that does not change the feasible region at all (every point satisfying the other constraints automatically satisfies it) is called",
+      "options": [
+        "a binding constraint",
+        "an infeasible constraint",
+        "the objective function",
+        "a redundant constraint"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "Such a constraint adds no new restriction and is therefore called redundant."
+    },
+    {
+      "id": "mat-linear-programming-037",
+      "q": "A diet must supply at least 10 units of a nutrient from foods X and Y, with $2x+y\\ge10$ and $x+3y\\ge15$ (x,y = units of X,Y), $x,y\\ge0$. If food X costs Rs 4/unit and Y costs Rs 3/unit, the minimum cost is",
+      "options": [
+        "24",
+        "30",
+        "20",
+        "60"
+      ],
+      "answer": 0,
+      "difficulty": "hard",
+      "explanation": "Minimise $Z=4x+3y$; corner points are $(0,10),(3,4),(15,0)$ with $Z=30,24,60$. The minimum cost is Rs 24, using 3 units of X and 4 of Y."
+    },
+    {
+      "id": "mat-linear-programming-038",
+      "q": "Maximise $Z=5x+3y$ subject to $x+2y\\le10$, $3x+y\\le15$, $x,y\\ge0$. The maximum value of $Z$ is",
+      "options": [
+        "25",
+        "29",
+        "20",
+        "15"
+      ],
+      "answer": 1,
+      "difficulty": "hard",
+      "explanation": "Corner points are $(0,0),(5,0),(4,3),(0,5)$ with $Z=0,25,29,15$; the maximum is $29$ at $(4,3)$."
+    },
+    {
+      "id": "mat-linear-programming-039",
+      "q": "A firm makes products X and Y; each unit of X needs 3 h on machine A and 1 h on machine B, each unit of Y needs 1 h on A and 2 h on B. Machine A has 12 h and machine B has 8 h available. Profit is Rs 6 per unit of X and Rs 4 per unit of Y. The maximum possible profit is",
+      "options": [
+        "28",
+        "16",
+        "144/5",
+        "24"
+      ],
+      "answer": 2,
+      "difficulty": "hard",
+      "explanation": "Maximise $Z=6x+4y$ subject to $3x+y\\le12$, $x+2y\\le8$; corner points give $Z=0,24,16$ and, at $\\left(\\dfrac{16}{5},\\dfrac{12}{5}\\right)$, $Z=\\dfrac{144}{5}=28.8$, the maximum."
+    },
+    {
+      "id": "mat-linear-programming-040",
+      "q": "For the LPP: maximise $Z=x+y$ subject to $x-y\\le1$, $x+y\\ge2$, $x,y\\ge0$, the objective function",
+      "options": [
+        "attains maximum 3",
+        "attains maximum 2 at $(1.5,0.5)$",
+        "has no feasible solution",
+        "has no maximum (Z is unbounded)"
+      ],
+      "answer": 3,
+      "difficulty": "hard",
+      "explanation": "The feasible region extends without bound along $x-y=1$ as $x,y\\to\\infty$ (e.g. points $(t,t-1)$ for large $t$), so $Z=x+y$ increases without bound and has no maximum."
+    }
+  ]
+}

@@ -1,0 +1,527 @@
+{
+  "notes": "<h3>Basics</h3><ul><li>$I = \\dfrac{q}{t} = nAev_d$; drift velocity $v_d = \\dfrac{eE\\tau}{m}$ (order $10^{-4}$ m s$^{-1}$ in metals). Mobility $\\mu = v_d/E$, unit m$^2$V$^{-1}$s$^{-1}$.</li><li>Ohm's law $V = IR$; $R = \\rho\\dfrac{l}{A}$; $\\rho = \\dfrac{m}{ne^2\\tau}$; conductivity $\\sigma = 1/\\rho$ (S m$^{-1}$).</li><li>Wire stretched to $n$ times its length (volume constant): $R' = n^2 R$.</li><li>$R_T = R_0(1 + \\alpha\\Delta T)$. $\\alpha$ is positive for metals, negative for semiconductors and insulators; nearly zero for manganin/constantan.</li></ul><h3>Combinations</h3><ul><li>Series: $R = R_1 + R_2 + \\dots$; Parallel: $\\dfrac1R = \\dfrac1{R_1} + \\dfrac1{R_2} + \\dots$. $n$ equal resistors: series/parallel ratio $= n^2$.</li></ul><h3>Cells</h3><ul><li>$I = \\dfrac{E}{R + r}$; terminal voltage $V = E - Ir$ (discharging), $V = E + Ir$ (charging).</li><li>$n$ cells in series: $I = \\dfrac{nE}{R + nr}$; $m$ cells in parallel: $I = \\dfrac{E}{R + r/m}$. Max power to external $R$ when $R = r$.</li></ul><h3>Kirchhoff's laws</h3><ul><li>Junction rule (charge conservation): $\\sum I = 0$. Loop rule (energy conservation): $\\sum IR = \\sum E$.</li></ul><h3>Wheatstone bridge & instruments</h3><ul><li>Balanced: $\\dfrac{P}{Q} = \\dfrac{R}{S}$; no current through galvanometer.</li><li>Metre bridge: $\\dfrac{R}{X} = \\dfrac{l}{100 - l}$.</li><li>Potentiometer: $E \\propto l$; $\\dfrac{E_1}{E_2} = \\dfrac{l_1}{l_2}$; internal resistance $r = R\\left(\\dfrac{l_1}{l_2} - 1\\right)$. Draws no current at balance, hence better than a voltmeter. Sensitivity ↑ when potential gradient ↓ (longer wire).</li></ul><h3>Power</h3><ul><li>$P = VI = I^2R = V^2/R$. Bulb: $R = V_{rated}^2/P_{rated}$. Bulbs in series: lower-wattage bulb glows brighter.</li><li>Colour code: <b>B</b>lack <b>B</b>rown <b>R</b>ed <b>O</b>range <b>Y</b>ellow <b>G</b>reen <b>B</b>lue <b>V</b>iolet <b>G</b>rey <b>W</b>hite (0–9). Gold ±5%, silver ±10%, none ±20%.</li></ul><h3>Exam tip</h3><p>Highest-weightage chapter in 2nd PUC physics (3–4 questions). Practise metre bridge, potentiometer and cell combination numericals till they take under a minute.</p>",
+  "questions": [
+    {
+      "id": "phy-current-electricity-001",
+      "q": "A wire of resistance $R$ is stretched uniformly so that its length doubles. Its new resistance is",
+      "options": [
+        "$R/2$",
+        "$R/4$",
+        "$4R$",
+        "$2R$"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "Volume is constant, so area halves when length doubles. $R' = \\rho\\dfrac{2l}{A/2} = 4R$.",
+      "tip": "Stretched $n$ times → $n^2$ times resistance."
+    },
+    {
+      "id": "phy-current-electricity-002",
+      "q": "A cell of emf 2 V and internal resistance 1 $\\Omega$ is connected to an external resistance of 4 $\\Omega$. The terminal voltage of the cell is",
+      "options": [
+        "1 V",
+        "1.6 V",
+        "0.4 V",
+        "2 V"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "$I = E/(R+r) = 2/5 = 0.4$ A; $V = IR = 0.4\\times4 = 1.6$ V (or $E - Ir$)."
+    },
+    {
+      "id": "phy-current-electricity-003",
+      "q": "In a balanced Wheatstone bridge, $P = 2\\,\\Omega$, $Q = 4\\,\\Omega$ and $R = 3\\,\\Omega$. The value of $S$ is",
+      "options": [
+        "1.5 $\\Omega$",
+        "2.67 $\\Omega$",
+        "8 $\\Omega$",
+        "6 $\\Omega$"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "$P/Q = R/S \\Rightarrow S = QR/P = 4\\times3/2 = 6\\,\\Omega$."
+    },
+    {
+      "id": "phy-current-electricity-004",
+      "q": "In a metre bridge, a resistance of 4 $\\Omega$ in the left gap balances an unknown resistance in the right gap at 40 cm from the left end. The unknown resistance is",
+      "options": [
+        "6 $\\Omega$",
+        "2.67 $\\Omega$",
+        "10 $\\Omega$",
+        "1.6 $\\Omega$"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "$\\dfrac{R}{X} = \\dfrac{l}{100-l} \\Rightarrow X = 4\\times\\dfrac{60}{40} = 6\\,\\Omega$."
+    },
+    {
+      "id": "phy-current-electricity-005",
+      "q": "A potentiometer is preferred over a voltmeter for measuring emf because",
+      "options": [
+        "it has a high resistance",
+        "it draws no current from the cell at balance",
+        "it is cheaper",
+        "it has a longer wire"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "At the null point no current flows through the cell, so the reading equals the true emf. A voltmeter always draws some current and reads slightly less than emf."
+    },
+    {
+      "id": "phy-current-electricity-006",
+      "q": "A 100 W, 220 V bulb has a resistance of",
+      "options": [
+        "484 $\\Omega$",
+        "4840 $\\Omega$",
+        "2.2 $\\Omega$",
+        "22 $\\Omega$"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "$R = V^2/P = 220^2/100 = 484\\,\\Omega$."
+    },
+    {
+      "id": "phy-current-electricity-007",
+      "q": "A carbon resistor has colour bands red, violet, orange, gold. Its resistance is",
+      "options": [
+        "2.7 k$\\Omega$ ± 10%",
+        "270 $\\Omega$ ± 5%",
+        "27 k$\\Omega$ ± 5%",
+        "27 k$\\Omega$ ± 10%"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "Red = 2, violet = 7, orange = $10^3$ → $27\\times10^3 = 27$ k$\\Omega$; gold = ±5%."
+    },
+    {
+      "id": "phy-current-electricity-008",
+      "q": "Three resistors each of resistance $R$ give equivalent resistance $R_s$ in series and $R_p$ in parallel. $R_s/R_p$ is",
+      "options": [
+        "6",
+        "3",
+        "1/3",
+        "9"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "$R_s = 3R$, $R_p = R/3$, ratio $= 9$. In general $n^2$."
+    },
+    {
+      "id": "phy-current-electricity-009",
+      "q": "The drift velocity of free electrons in a conductor is $v$ when a current $I$ flows. If both the radius of the wire and the current are doubled, the drift velocity becomes",
+      "options": [
+        "$v/2$",
+        "$v/4$",
+        "$2v$",
+        "$v$"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "$v_d = I/(nAe)$. Area becomes 4 times, current 2 times → $v_d' = 2v/4 = v/2$."
+    },
+    {
+      "id": "phy-current-electricity-010",
+      "q": "$n$ identical cells, each of emf $E$ and internal resistance $r$, are connected in series across an external resistance $R$. The current is",
+      "options": [
+        "$\\dfrac{E}{R + nr}$",
+        "$\\dfrac{E}{R + r/n}$",
+        "$\\dfrac{nE}{R + nr}$",
+        "$\\dfrac{nE}{nR + r}$"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "Total emf $nE$, total internal resistance $nr$: $I = \\dfrac{nE}{R+nr}$."
+    },
+    {
+      "id": "phy-current-electricity-011",
+      "q": "Kirchhoff's junction rule is a consequence of conservation of",
+      "options": [
+        "momentum",
+        "mass",
+        "energy",
+        "charge"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "Charge cannot accumulate at a junction, so the total current in equals the total current out. The loop rule follows from conservation of energy."
+    },
+    {
+      "id": "phy-current-electricity-012",
+      "q": "The SI unit of mobility of charge carriers is",
+      "options": [
+        "m$^2$ V s$^{-1}$",
+        "m$^2$ V$^{-1}$ s$^{-1}$",
+        "m s$^{-1}$",
+        "m V$^{-1}$ s$^{-1}$"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "$\\mu = v_d/E$ → (m s$^{-1}$)/(V m$^{-1}$) = m$^2$ V$^{-1}$ s$^{-1}$."
+    },
+    {
+      "id": "phy-current-electricity-013",
+      "q": "In a potentiometer experiment, the balancing length for a cell is 240 cm on open circuit. When a 2 $\\Omega$ resistor is connected across the cell, the balancing length becomes 120 cm. The internal resistance of the cell is",
+      "options": [
+        "1 $\\Omega$",
+        "0.5 $\\Omega$",
+        "2 $\\Omega$",
+        "4 $\\Omega$"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "$r = R\\left(\\dfrac{l_1}{l_2} - 1\\right) = 2\\left(\\dfrac{240}{120} - 1\\right) = 2\\,\\Omega$."
+    },
+    {
+      "id": "phy-current-electricity-014",
+      "q": "Two bulbs of 60 W and 100 W (both rated 220 V) are connected in series to a 220 V supply. Then",
+      "options": [
+        "neither glows",
+        "the 100 W bulb glows brighter",
+        "both glow equally",
+        "the 60 W bulb glows brighter"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "In series the same current flows; power $= I^2R$. The 60 W bulb has higher resistance ($V^2/P$), so it dissipates more power and glows brighter.",
+      "tip": "Series → higher resistance (lower wattage) bulb brighter. Parallel → higher wattage brighter."
+    },
+    {
+      "id": "phy-current-electricity-015",
+      "q": "The resistance of a conductor is 5 $\\Omega$ at 50°C and 6 $\\Omega$ at 100°C. Its resistance at 0°C is",
+      "options": [
+        "3 $\\Omega$",
+        "4 $\\Omega$",
+        "2 $\\Omega$",
+        "1 $\\Omega$"
+      ],
+      "answer": 1,
+      "difficulty": "hard",
+      "explanation": "$R = R_0(1+\\alpha t)$: $5 = R_0(1+50\\alpha)$, $6 = R_0(1+100\\alpha)$. Dividing: $6(1+50\\alpha) = 5(1+100\\alpha) \\Rightarrow 1 = 200\\alpha \\Rightarrow \\alpha = 1/200$. Then $R_0 = 5/(1+0.25) = 4\\,\\Omega$."
+    },
+    {
+      "id": "phy-current-electricity-016",
+      "q": "Maximum power is delivered by a cell of internal resistance $r$ to an external resistance $R$ when",
+      "options": [
+        "$R = r$",
+        "$R = 0$",
+        "$R = 2r$",
+        "$R \\to \\infty$"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "$P = \\dfrac{E^2R}{(R+r)^2}$ is maximum when $R = r$ (maximum power transfer theorem); then $P_{max} = E^2/4r$."
+    },
+    {
+      "id": "phy-current-electricity-017",
+      "q": "The electrical resistivity $\\rho$ of a conductor depends on",
+      "options": [
+        "the material of the conductor and its temperature",
+        "length of the conductor",
+        "area of cross-section of the conductor",
+        "the shape of the conductor"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "Resistivity is an intrinsic property of the material, depending on its nature and temperature, unlike resistance which also depends on length and area."
+    },
+    {
+      "id": "phy-current-electricity-018",
+      "q": "Current density $J$ at a point in a conductor is defined as",
+      "options": [
+        "charge per unit time",
+        "current per unit length",
+        "current per unit area of cross-section, in the direction of current flow",
+        "current per unit volume"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "Current density is a vector, $J=I/A$, representing current flowing per unit cross-sectional area in the direction of current flow."
+    },
+    {
+      "id": "phy-current-electricity-019",
+      "q": "A copper wire of cross-sectional area $1\\times10^{-6}$ m$^2$ carries a current of 1.6 A. If the free electron density is $n=8\\times10^{28}$ m$^{-3}$, the drift velocity of the electrons is (take $e=1.6\\times10^{-19}$ C)",
+      "options": [
+        "$1.25\\times10^{-2}$ m/s",
+        "$1.25\\times10^{-4}$ m/s",
+        "$8\\times10^{-4}$ m/s",
+        "$2\\times10^{-4}$ m/s"
+      ],
+      "answer": 1,
+      "difficulty": "hard",
+      "explanation": "$v_d=\\dfrac{I}{nAe}=\\dfrac{1.6}{8\\times10^{28}\\times10^{-6}\\times1.6\\times10^{-19}}=\\dfrac{1.6}{1.28\\times10^{4}}\\approx1.25\\times10^{-4}$ m/s."
+    },
+    {
+      "id": "phy-current-electricity-020",
+      "q": "A battery of emf $E$ and internal resistance $r$ is being charged by a current $I$ flowing into it. Its terminal voltage is",
+      "options": [
+        "$E-Ir$",
+        "$E$",
+        "$Ir$",
+        "$E+Ir$"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "While charging, the terminal voltage exceeds the emf by the drop across internal resistance: $V=E+Ir$ (as opposed to $V=E-Ir$ while discharging)."
+    },
+    {
+      "id": "phy-current-electricity-021",
+      "q": "Two identical cells, each of emf 1.5 V and internal resistance 1 $\\Omega$, are connected in parallel across an external resistance of 2 $\\Omega$. The current through the external resistance is",
+      "options": [
+        "0.3 A",
+        "0.75 A",
+        "0.6 A",
+        "1.2 A"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "For $m$ identical cells in parallel, $I=\\dfrac{E}{R+r/m}=\\dfrac{1.5}{2+0.5}=0.6$ A."
+    },
+    {
+      "id": "phy-current-electricity-022",
+      "q": "A 4 $\\Omega$ resistor is connected in series with a parallel combination of 6 $\\Omega$ and 3 $\\Omega$ resistors. The total resistance of the combination is",
+      "options": [
+        "5 $\\Omega$",
+        "6 $\\Omega$",
+        "13 $\\Omega$",
+        "9 $\\Omega$"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "Parallel: $\\dfrac{6\\times3}{6+3}=2\\,\\Omega$; in series with 4 $\\Omega$: total $=4+2=6\\,\\Omega$."
+    },
+    {
+      "id": "phy-current-electricity-023",
+      "q": "Kirchhoff's loop (voltage) rule for any closed loop in a circuit is a consequence of conservation of",
+      "options": [
+        "mass",
+        "momentum",
+        "charge",
+        "energy"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "The loop rule ($\\sum IR = \\sum E$) follows from conservation of energy: the net change in potential around any closed loop is zero."
+    },
+    {
+      "id": "phy-current-electricity-024",
+      "q": "The sensitivity of a potentiometer (its ability to measure small potential differences) can be increased by",
+      "options": [
+        "decreasing the potential gradient along the wire (e.g. using a longer wire)",
+        "increasing the potential gradient along the wire",
+        "increasing the current through the wire",
+        "decreasing the length of the potentiometer wire"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "A smaller potential gradient ($E$ per unit length) means a larger balancing length for a given potential difference, allowing finer (more sensitive) measurement; this is achieved with a longer wire."
+    },
+    {
+      "id": "phy-current-electricity-025",
+      "q": "An ideal ammeter should have",
+      "options": [
+        "infinite resistance",
+        "resistance equal to the galvanometer resistance",
+        "zero resistance",
+        "resistance equal to the circuit resistance"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "An ideal ammeter, connected in series, should have zero resistance so that it does not alter the current it is measuring."
+    },
+    {
+      "id": "phy-current-electricity-026",
+      "q": "An ideal voltmeter should have",
+      "options": [
+        "very low resistance",
+        "infinite resistance",
+        "zero resistance",
+        "resistance equal to that of the component across which it is connected"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "An ideal voltmeter, connected in parallel, should have infinite resistance so that it draws no current and does not change the potential difference being measured."
+    },
+    {
+      "id": "phy-current-electricity-027",
+      "q": "An electrical appliance rated 2000 W is used for 3 hours daily. The energy consumed in 5 days, in kWh, is",
+      "options": [
+        "6 kWh",
+        "10 kWh",
+        "15 kWh",
+        "30 kWh"
+      ],
+      "answer": 3,
+      "difficulty": "hard",
+      "explanation": "Energy $= P\\times t = 2\\,\\text{kW}\\times3\\,\\text{h}\\times5\\,\\text{days} = 30$ kWh."
+    },
+    {
+      "id": "phy-current-electricity-028",
+      "q": "A current of 2 A flows through a resistor of 50 $\\Omega$ for 1 minute. The heat generated is",
+      "options": [
+        "12000 J",
+        "24000 J",
+        "200 J",
+        "6000 J"
+      ],
+      "answer": 0,
+      "difficulty": "hard",
+      "explanation": "$P=I^2R=2^2\\times50=200$ W; heat $=P\\times t=200\\times60=12000$ J."
+    },
+    {
+      "id": "phy-current-electricity-029",
+      "q": "Which of the following does NOT obey Ohm's law (is a non-ohmic device)?",
+      "options": [
+        "a carbon resistor",
+        "a nichrome wire",
+        "a metallic wire at constant temperature",
+        "a semiconductor diode"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "A semiconductor diode has a non-linear V-I characteristic and does not obey Ohm's law; metallic conductors at constant temperature are ohmic."
+    },
+    {
+      "id": "phy-current-electricity-030",
+      "q": "As temperature increases, the resistance of a pure semiconductor",
+      "options": [
+        "increases",
+        "decreases",
+        "first increases then decreases",
+        "remains constant"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "In semiconductors, increasing temperature releases more charge carriers, increasing conductivity and hence decreasing resistance — opposite to the behaviour of metals."
+    },
+    {
+      "id": "phy-current-electricity-031",
+      "q": "A superconductor is a material whose electrical resistance",
+      "options": [
+        "increases with current",
+        "increases sharply at low temperature",
+        "becomes exactly zero below a certain critical temperature",
+        "remains constant at all temperatures"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "Below its critical temperature, a superconductor offers zero resistance to the flow of current."
+    },
+    {
+      "id": "phy-current-electricity-032",
+      "q": "The electromotive force (emf) of a cell is defined as the",
+      "options": [
+        "work done per unit charge by the source in driving charge around the complete circuit, including through the cell itself",
+        "resistance offered by the cell to current flow",
+        "maximum current the cell can supply",
+        "potential difference across its terminals when maximum current flows"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "EMF is the total work done per unit charge by the source in moving charge around the entire circuit; it equals the terminal voltage only when no current flows (open circuit)."
+    },
+    {
+      "id": "phy-current-electricity-033",
+      "q": "A cell of emf $E$ and internal resistance $r$ is short-circuited (external resistance = 0). The current drawn from the cell is",
+      "options": [
+        "$E/r$",
+        "$Er$",
+        "infinite",
+        "zero"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "With $R=0$, $I=E/(R+r)=E/r$, the maximum current the cell can deliver."
+    },
+    {
+      "id": "phy-current-electricity-034",
+      "q": "Two resistors of 2 $\\Omega$ and 3 $\\Omega$ are connected in series across a 10 V battery of negligible internal resistance. The voltage across the 3 $\\Omega$ resistor is",
+      "options": [
+        "4 V",
+        "5 V",
+        "10 V",
+        "6 V"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "$I=10/(2+3)=2$ A; voltage across 3 $\\Omega$ $=IR=2\\times3=6$ V (voltage divider)."
+    },
+    {
+      "id": "phy-current-electricity-035",
+      "q": "Two resistors of 2 $\\Omega$ and 3 $\\Omega$ are connected in parallel, and the combination carries a total current of 5 A. The current through the 2 $\\Omega$ resistor is",
+      "options": [
+        "2.5 A",
+        "3 A",
+        "2 A",
+        "4 A"
+      ],
+      "answer": 1,
+      "difficulty": "hard",
+      "explanation": "By the current divider rule, the current through one branch is inversely proportional to its resistance: $I_2 = I_{total}\\times\\dfrac{R_3}{R_2+R_3}=5\\times\\dfrac{3}{5}=3$ A."
+    },
+    {
+      "id": "phy-current-electricity-036",
+      "q": "The SI unit of electrical conductivity is",
+      "options": [
+        "ohm metre",
+        "siemens metre",
+        "siemens per metre (S/m)",
+        "ohm per metre"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "Conductivity $\\sigma=1/\\rho$ has SI unit siemens per metre (S/m), the reciprocal of resistivity's unit ($\\Omega$ m)."
+    },
+    {
+      "id": "phy-current-electricity-037",
+      "q": "A copper wire is drawn thinner (its cross-sectional area is reduced) while its length is kept fixed. The resistivity of the copper",
+      "options": [
+        "becomes zero",
+        "remains unchanged, since it depends only on the material and temperature",
+        "increases",
+        "decreases"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "Resistivity is a material property (depending only on the material and temperature), unaffected by changes in the conductor's dimensions; only the resistance $R=\\rho l/A$ changes."
+    },
+    {
+      "id": "phy-current-electricity-038",
+      "q": "In a circuit, a 2 $\\Omega$ resistor is in series with a parallel combination of 3 $\\Omega$ and 6 $\\Omega$ resistors, connected to a 12 V battery of negligible internal resistance. The current through the 6 $\\Omega$ resistor is",
+      "options": [
+        "2 A",
+        "3 A",
+        "1 A",
+        "0.5 A"
+      ],
+      "answer": 2,
+      "difficulty": "hard",
+      "explanation": "Parallel part: $\\dfrac{3\\times6}{3+6}=2\\,\\Omega$; total resistance $=2+2=4\\,\\Omega$; total current $=12/4=3$ A; voltage across parallel part $=3\\times2=6$ V; current through 6 $\\Omega$ $=6/6=1$ A."
+    },
+    {
+      "id": "phy-current-electricity-039",
+      "q": "In an electrolyte, electric current is carried by",
+      "options": [
+        "both positive and negative ions moving in opposite directions",
+        "protons only",
+        "photons",
+        "free electrons only"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "In an electrolyte, current is due to the drift of both positive ions (towards the cathode) and negative ions (towards the anode) in opposite directions."
+    },
+    {
+      "id": "phy-current-electricity-040",
+      "q": "For an ohmic conductor at constant temperature, the graph of potential difference $V$ versus current $I$ is",
+      "options": [
+        "a curve bending towards the V-axis",
+        "a straight line with a positive intercept",
+        "a parabola",
+        "a straight line passing through the origin"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "Ohm's law, $V=IR$ with constant $R$, gives a straight line through the origin with slope $R$."
+    }
+  ]
+}

@@ -1,0 +1,795 @@
+{
+  "title": "KCET 2017 Maths",
+  "year": 2017,
+  "subject": "maths",
+  "code": "Master key (no version code printed on this copy; KEA key is a single master-question key, verified to match this paper question-by-question)",
+  "source": "KEA question paper (copy) + KEA final answer key (master)",
+  "excluded": [],
+  "questions": [
+    {
+      "n": 1,
+      "q": "If A and B are finite sets and $A \\subset B$, then",
+      "options": [
+        "$n(A \\cup B) = n(A)$",
+        "$n(A \\cap B) = n(B)$",
+        "$n(A \\cup B) = n(B)$",
+        "$n(A \\cap B) = \\phi$"
+      ],
+      "answer": 2,
+      "chapter": "Sets",
+      "explanation": "Since $A \\subset B$, $A \\cup B = B$, so $n(A \\cup B) = n(B)$."
+    },
+    {
+      "n": 2,
+      "q": "The value of $\\cos^2 45^\\circ - \\sin^2 15^\\circ$ is",
+      "options": [
+        "$\\dfrac{\\sqrt3}{2}$",
+        "$\\dfrac{\\sqrt3}{4}$",
+        "$\\dfrac{\\sqrt3+1}{2\\sqrt2}$",
+        "$\\dfrac{\\sqrt3-1}{2\\sqrt2}$"
+      ],
+      "answer": 1,
+      "chapter": "Trigonometric Functions",
+      "explanation": "$\\cos^2A-\\sin^2B=\\cos(A+B)\\cos(A-B)=\\cos60^\\circ\\cos30^\\circ=\\dfrac12\\cdot\\dfrac{\\sqrt3}{2}=\\dfrac{\\sqrt3}{4}$."
+    },
+    {
+      "n": 3,
+      "q": "$3+5+7+\\ldots$ to n terms is",
+      "options": [
+        "$n(n+2)$",
+        "$n(n-2)$",
+        "$n^2$",
+        "$(n+1)^2$"
+      ],
+      "answer": 0,
+      "chapter": "Sequences and Series",
+      "explanation": "This is an AP with first term 3 and common difference 2; sum $=\\dfrac n2[2(3)+(n-1)2]=n(n+2)$."
+    },
+    {
+      "n": 4,
+      "q": "If $\\left(\\dfrac{1+i}{1-i}\\right)^m=1$, then the least positive integral value of m is",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "1"
+      ],
+      "answer": 2,
+      "chapter": "Complex Numbers and Quadratic Equations",
+      "explanation": "$\\dfrac{1+i}{1-i}=i$, and $i^m=1$ needs the least positive $m=4$."
+    },
+    {
+      "n": 5,
+      "q": "If $|x-2|\\le1$, then",
+      "options": [
+        "$x\\in[1,3]$",
+        "$x\\in(1,3)$",
+        "$x\\in[-1,3]$",
+        "$x\\in(-1,3)$"
+      ],
+      "answer": 0,
+      "chapter": "Linear Inequalities",
+      "explanation": "$|x-2|\\le1$ gives $1\\le x\\le3$, i.e. $x\\in[1,3]$."
+    },
+    {
+      "n": 6,
+      "q": "If ${}^nC_{12}={}^nC_8$ then n is equal to",
+      "options": [
+        "26",
+        "12",
+        "6",
+        "20"
+      ],
+      "answer": 3,
+      "chapter": "Permutations and Combinations",
+      "explanation": "${}^nC_r={}^nC_s$ with $r\\ne s$ implies $n=r+s=12+8=20$."
+    },
+    {
+      "n": 7,
+      "q": "The total number of terms in the expansion of $(x+a)^{47}-(x-a)^{47}$ after simplification is",
+      "options": [
+        "24",
+        "47",
+        "48",
+        "96"
+      ],
+      "answer": 0,
+      "chapter": "Binomial Theorem",
+      "explanation": "Only terms with odd powers of $a$ survive, giving $\\dfrac{47+1}{2}=24$ terms."
+    },
+    {
+      "n": 8,
+      "q": "Equation of line passing through the point $(1,2)$ and perpendicular to the line $y=3x-1$ is",
+      "options": [
+        "$x+3y-7=0$",
+        "$x+3y+7=0$",
+        "$x+3y=0$",
+        "$x-3y=0$"
+      ],
+      "answer": 0,
+      "chapter": "Straight Lines",
+      "explanation": "Slope of the given line is 3, so the perpendicular slope is $-\\dfrac13$; the line through $(1,2)$ is $y-2=-\\dfrac13(x-1) \\Rightarrow x+3y-7=0$."
+    },
+    {
+      "n": 9,
+      "q": "The eccentricity of the ellipse $\\dfrac{x^2}{36}+\\dfrac{y^2}{16}=1$ is",
+      "options": [
+        "$\\dfrac{2\\sqrt5}{6}$",
+        "$\\dfrac{2\\sqrt5}{4}$",
+        "$\\dfrac{2\\sqrt{13}}{6}$",
+        "$\\dfrac{2\\sqrt{13}}{4}$"
+      ],
+      "answer": 0,
+      "chapter": "Conic Sections",
+      "explanation": "Here $a^2=36,b^2=16$, so $e=\\sqrt{1-\\frac{16}{36}}=\\dfrac{\\sqrt{20}}{6}=\\dfrac{2\\sqrt5}{6}$."
+    },
+    {
+      "n": 10,
+      "q": "The perpendicular distance of the point $P(6,7,8)$ from XY-plane is",
+      "options": [
+        "8",
+        "7",
+        "6",
+        "5"
+      ],
+      "answer": 0,
+      "chapter": "Introduction to Three Dimensional Geometry",
+      "explanation": "The distance of a point from the XY-plane equals $|z|=8$."
+    },
+    {
+      "n": 11,
+      "q": "The value of $\\displaystyle\\lim_{\\theta\\to0}\\dfrac{1-\\cos4\\theta}{1-\\cos6\\theta}$ is",
+      "options": [
+        "4/9",
+        "9/4",
+        "9/3",
+        "3/4"
+      ],
+      "answer": 0,
+      "chapter": "Limits and Derivatives",
+      "explanation": "Using $1-\\cos k\\theta\\approx \\dfrac{k^2\\theta^2}{2}$, the limit is $\\dfrac{16}{36}=\\dfrac49$."
+    },
+    {
+      "n": 12,
+      "q": "The contrapositive statement of the statement \"If x is prime number, then x is odd\" is",
+      "options": [
+        "If x is not a prime number, then x is not odd",
+        "If x is a prime number, then x is not odd.",
+        "If x is not a prime number, then x is odd.",
+        "If x is not odd, then x is not a prime number."
+      ],
+      "answer": 3,
+      "chapter": "Old syllabus: Mathematical Reasoning",
+      "explanation": "The contrapositive of \"if p then q\" is \"if not q then not p\": \"If x is not odd, then x is not a prime number.\""
+    },
+    {
+      "n": 13,
+      "q": "If coefficient of variation is 60 and standard deviation is 24, then Arithmetic mean is",
+      "options": [
+        "40",
+        "7/20",
+        "20/7",
+        "1/40"
+      ],
+      "answer": 0,
+      "chapter": "Statistics",
+      "explanation": "$CV=\\dfrac{\\sigma}{\\bar x}\\times100 \\Rightarrow 60=\\dfrac{24}{\\bar x}\\times100 \\Rightarrow \\bar x=40$."
+    },
+    {
+      "n": 14,
+      "q": "The range of the function $f(x)=\\sqrt{9-x^2}$ is",
+      "options": [
+        "$(0,3)$",
+        "$[0,3]$",
+        "$(0,3]$",
+        "$[0,3)$"
+      ],
+      "answer": 1,
+      "chapter": "Relations and Functions",
+      "explanation": "For $x\\in[-3,3]$, $f(x)$ ranges from $0$ (at $x=\\pm3$) to $3$ (at $x=0$), giving $[0,3]$."
+    },
+    {
+      "n": 15,
+      "q": "Let $f:R\\to R$ be defined by $f(x)=x^4$, then",
+      "options": [
+        "f is one-one and onto",
+        "f may be one-one and onto",
+        "f is one-one but not onto",
+        "f is neither one-one nor onto"
+      ],
+      "answer": 3,
+      "chapter": "Relations and Functions",
+      "explanation": "$f(x)=x^4$ gives $f(1)=f(-1)$ (not one-one) and never takes negative values (not onto R)."
+    },
+    {
+      "n": 16,
+      "q": "The range of $\\sec^{-1}x$ is",
+      "options": [
+        "$\\left[-\\dfrac{\\pi}{2},\\dfrac{\\pi}{2}\\right]$",
+        "$\\left(-\\dfrac{\\pi}{2},\\dfrac{\\pi}{2}\\right)$",
+        "$[0,\\pi]$",
+        "$[0,\\pi]-\\left\\{\\dfrac{\\pi}{2}\\right\\}$"
+      ],
+      "answer": 3,
+      "chapter": "Inverse Trigonometric Functions",
+      "explanation": "By definition the range of $\\sec^{-1}x$ is $[0,\\pi]$ excluding $\\pi/2$."
+    },
+    {
+      "n": 17,
+      "q": "If $\\tan^{-1}x+\\tan^{-1}y=\\dfrac{4\\pi}{5}$, then $\\cot^{-1}x+\\cot^{-1}y$ is equal to",
+      "options": [
+        "$\\pi$",
+        "$\\dfrac{\\pi}{5}$",
+        "$\\dfrac{2\\pi}{5}$",
+        "$\\dfrac{3\\pi}{5}$"
+      ],
+      "answer": 1,
+      "chapter": "Inverse Trigonometric Functions",
+      "explanation": "$\\cot^{-1}x+\\cot^{-1}y=\\pi-(\\tan^{-1}x+\\tan^{-1}y)=\\pi-\\dfrac{4\\pi}{5}=\\dfrac{\\pi}{5}$."
+    },
+    {
+      "n": 18,
+      "q": "If $f(x)=8x^3$, $g(x)=x^{1/3}$, then $fog(x)$ is",
+      "options": [
+        "$8x$",
+        "$8^3x$",
+        "$(8x)^{1/3}$",
+        "$8x^3$"
+      ],
+      "answer": 0,
+      "chapter": "Relations and Functions",
+      "explanation": "$f(g(x))=8(x^{1/3})^3=8x$."
+    },
+    {
+      "n": 19,
+      "q": "If $A=\\dfrac{1}{\\pi}\\begin{bmatrix}\\sin^{-1}(\\pi x) & \\tan^{-1}(x/\\pi)\\\\ \\sin^{-1}(x/\\pi) & \\cot^{-1}(\\pi x)\\end{bmatrix}$, $B=\\begin{bmatrix}-\\cos^{-1}(\\pi x) & \\tan^{-1}(x/\\pi)\\\\ \\sin^{-1}(x/\\pi) & -\\tan^{-1}(\\pi x)\\end{bmatrix}$ then $A-B$ is equal to",
+      "options": [
+        "I",
+        "0",
+        "2I",
+        "$\\dfrac12 I$"
+      ],
+      "answer": 1,
+      "grace": true,
+      "chapter": "Matrices",
+      "explanation": "As printed, the entries of B are not scaled by $1/\\pi$ like A, making the difference ill-defined, so KEA awarded grace marks to all. Taking the intended matching entries (using $\\sin^{-1}\\theta+\\cos^{-1}\\theta=\\pi/2$ and $\\tan^{-1}\\theta+\\cot^{-1}\\theta=\\pi/2$ after scaling by $1/\\pi$), $A-B$ works out to the zero matrix (as per KEA key)."
+    },
+    {
+      "n": 20,
+      "q": "If a matrix A is both symmetric and skew symmetric, then",
+      "options": [
+        "A is diagonal matrix",
+        "A is a zero matrix",
+        "A is scalar matrix",
+        "A is square matrix"
+      ],
+      "answer": 1,
+      "chapter": "Matrices",
+      "explanation": "$A=A^T$ and $A=-A^T$ together force $A=-A$, so every entry is 0, i.e. A is the zero matrix."
+    },
+    {
+      "n": 21,
+      "q": "If $2\\begin{bmatrix}1&3\\\\0&x\\end{bmatrix}+\\begin{bmatrix}y&0\\\\1&2\\end{bmatrix}=\\begin{bmatrix}5&6\\\\1&8\\end{bmatrix}$, then the value of x and y are",
+      "options": [
+        "$x=3,\\ y=3$",
+        "$x=-3,\\ y=3$",
+        "$x=3,\\ y=-3$",
+        "$x=-3,\\ y=-3$"
+      ],
+      "answer": 0,
+      "chapter": "Matrices",
+      "explanation": "Comparing entries: $2+y=5\\Rightarrow y=3$, and $2x+2=8\\Rightarrow x=3$."
+    },
+    {
+      "n": 22,
+      "q": "Binary operation $*$ on $R-\\{-1\\}$ defined by $a*b=\\dfrac{a}{b+1}$ is",
+      "options": [
+        "* is associative and commutative",
+        "* is associative but not commutative",
+        "* is neither associative nor commutative",
+        "* is commutative but not associative"
+      ],
+      "answer": 2,
+      "chapter": "Relations and Functions",
+      "explanation": "Since $a*b=\\dfrac{a}{b+1}\\ne \\dfrac{b}{a+1}=b*a$ in general, and $(a*b)*c\\ne a*(b*c)$ in general, the operation is neither commutative nor associative."
+    },
+    {
+      "n": 23,
+      "q": "If $\\begin{vmatrix}3&x\\\\x&1\\end{vmatrix}=\\begin{vmatrix}3&2\\\\4&1\\end{vmatrix}$ then x is equal to",
+      "options": [
+        "2",
+        "4",
+        "8",
+        "$\\pm2\\sqrt2$"
+      ],
+      "answer": 3,
+      "chapter": "Determinants",
+      "explanation": "$3-x^2=3-8=-5\\Rightarrow x^2=8\\Rightarrow x=\\pm2\\sqrt2$."
+    },
+    {
+      "n": 24,
+      "q": "If A is a square matrix of order $3\\times3$, then $|KA|$ is equal to",
+      "options": [
+        "$K|A|$",
+        "$K^2|A|$",
+        "$K^3|A|$",
+        "$3K|A|$"
+      ],
+      "answer": 2,
+      "chapter": "Determinants",
+      "explanation": "For an $n\\times n$ matrix, $|KA|=K^n|A|$; here $n=3$, so $|KA|=K^3|A|$."
+    },
+    {
+      "n": 25,
+      "q": "The area of triangle with vertices $(K,0), (4,0), (0,2)$ is 4 square units, then value of K is",
+      "options": [
+        "0 or 8",
+        "0 or -8",
+        "0",
+        "8"
+      ],
+      "answer": 0,
+      "chapter": "Determinants",
+      "explanation": "Area $=\\dfrac12|K(0-2)+4(2-0)+0(0-0)|=\\dfrac12|8-2K|=4\\Rightarrow K=0$ or $K=8$."
+    },
+    {
+      "n": 26,
+      "q": "Let $\\Delta=\\begin{vmatrix}Ax&x^2&1\\\\By&y^2&1\\\\Cz&z^2&1\\end{vmatrix}$ and $\\Delta_1=\\begin{vmatrix}A&B&C\\\\x&y&z\\\\zy&zx&xy\\end{vmatrix}$ then",
+      "options": [
+        "$\\Delta_1=-\\Delta$",
+        "$\\Delta_1=\\Delta$",
+        "$\\Delta_1\\ne\\Delta$",
+        "$\\Delta_1=2\\Delta$"
+      ],
+      "answer": 1,
+      "chapter": "Determinants",
+      "explanation": "Expanding both determinants and using column operations to factor out $xyz$ shows $\\Delta_1=\\Delta$."
+    },
+    {
+      "n": 27,
+      "q": "If $f(x)=\\begin{cases}Kx^2 & x\\le2\\\\3 & x>2\\end{cases}$ is continuous at $x=2$, then the value of K is",
+      "options": [
+        "3",
+        "4",
+        "3/4",
+        "4/3"
+      ],
+      "answer": 2,
+      "chapter": "Continuity and Differentiability",
+      "explanation": "Continuity requires $K(2)^2=3\\Rightarrow4K=3\\Rightarrow K=3/4$."
+    },
+    {
+      "n": 28,
+      "q": "The value of C in Mean value theorem for the function $f(x)=x^2$ in $[2,4]$ is",
+      "options": [
+        "3",
+        "2",
+        "4",
+        "7/2"
+      ],
+      "answer": 0,
+      "chapter": "Continuity and Differentiability",
+      "explanation": "$f'(c)=2c=\\dfrac{f(4)-f(2)}{4-2}=\\dfrac{16-4}{2}=6\\Rightarrow c=3$."
+    },
+    {
+      "n": 29,
+      "q": "The point on the curve $y^2=x$ where the tangent makes an angle of $\\pi/4$ with X-axis is",
+      "options": [
+        "$\\left(\\dfrac12,\\dfrac14\\right)$",
+        "$\\left(\\dfrac14,\\dfrac12\\right)$",
+        "$(4,2)$",
+        "$(1,1)$"
+      ],
+      "answer": 1,
+      "chapter": "Application of Derivatives",
+      "explanation": "$2y\\,dy/dx=1\\Rightarrow dy/dx=\\dfrac{1}{2y}=\\tan(\\pi/4)=1\\Rightarrow y=\\dfrac12,\\ x=y^2=\\dfrac14$."
+    },
+    {
+      "n": 30,
+      "q": "The function $f(x)=x^2+2x-5$ is strictly increasing in the interval",
+      "options": [
+        "$(-1,\\infty)$",
+        "$(-\\infty,-1)$",
+        "$[-1,\\infty)$",
+        "$(-\\infty,-1]$"
+      ],
+      "answer": 0,
+      "chapter": "Application of Derivatives",
+      "explanation": "$f'(x)=2x+2>0$ when $x>-1$, so f is strictly increasing on $(-1,\\infty)$."
+    },
+    {
+      "n": 31,
+      "q": "The rate of change of volume of a sphere with respect to its surface area when the radius is 4 cm is",
+      "options": [
+        "$4\\ cm^3/cm^2$",
+        "$2\\ cm^3/cm^2$",
+        "$6\\ cm^3/cm^2$",
+        "$8\\ cm^3/cm^2$"
+      ],
+      "answer": 1,
+      "chapter": "Application of Derivatives",
+      "explanation": "$\\dfrac{dV}{dS}=\\dfrac{dV/dr}{dS/dr}=\\dfrac{4\\pi r^2}{8\\pi r}=\\dfrac r2=2\\ cm^3/cm^2$ at $r=4$."
+    },
+    {
+      "n": 32,
+      "q": "If $y=\\tan^{-1}\\left(\\dfrac{\\sin x+\\cos x}{\\cos x-\\sin x}\\right)$, then $\\dfrac{dy}{dx}$ is equal to",
+      "options": [
+        "1/2",
+        "$\\pi/4$",
+        "0",
+        "1"
+      ],
+      "answer": 3,
+      "chapter": "Continuity and Differentiability",
+      "explanation": "$y=\\tan^{-1}\\left(\\tan\\left(\\dfrac\\pi4+x\\right)\\right)=\\dfrac\\pi4+x$, so $\\dfrac{dy}{dx}=1$."
+    },
+    {
+      "n": 33,
+      "q": "If $y=\\begin{vmatrix}f(x)&g(x)&h(x)\\\\l&m&n\\\\a&b&c\\end{vmatrix}$, then $\\dfrac{dy}{dx}$ is equal to",
+      "options": [
+        "$\\begin{vmatrix}f'(x)&g'(x)&h'(x)\\\\l&m&n\\\\a&b&c\\end{vmatrix}$",
+        "$\\begin{vmatrix}l&m&n\\\\f'(x)&g'(x)&h'(x)\\\\a&b&c\\end{vmatrix}$",
+        "$\\begin{vmatrix}f'(x)&l&a\\\\g'(x)&m&b\\\\h'(x)&n&c\\end{vmatrix}$",
+        "$\\begin{vmatrix}l&m&n\\\\a&b&c\\\\f'(x)&g'(x)&h'(x)\\end{vmatrix}$"
+      ],
+      "answer": 0,
+      "alsoCorrect": [
+        2,
+        3
+      ],
+      "chapter": "Continuity and Differentiability",
+      "explanation": "Since rows 2 and 3 are constants, only row 1 is differentiated, giving option A; a cyclic permutation of the rows (option D) and the transpose (option C) leave the determinant's value unchanged, so KEA accepted A, C and D."
+    },
+    {
+      "n": 34,
+      "q": "If $\\sin x=\\dfrac{2t}{1+t^2}$, $\\tan y=\\dfrac{2t}{1-t^2}$, then $\\dfrac{dy}{dx}$ is equal to",
+      "options": [
+        "1",
+        "0",
+        "-1",
+        "2"
+      ],
+      "answer": 0,
+      "chapter": "Continuity and Differentiability",
+      "explanation": "Both expressions equal $\\sin(2\\tan^{-1}t)$ and $\\tan(2\\tan^{-1}t)$ respectively, giving $x=y=2\\tan^{-1}t$, so $dy/dx=1$."
+    },
+    {
+      "n": 35,
+      "q": "The derivative of $\\cos^{-1}(2x^2-1)$ w.r.t $\\cos^{-1}x$ is",
+      "options": [
+        "2",
+        "$\\dfrac{-1}{2\\sqrt{1-x^2}}$",
+        "$\\dfrac2x$",
+        "$1-x^2$"
+      ],
+      "answer": 0,
+      "chapter": "Continuity and Differentiability",
+      "explanation": "Since $\\cos^{-1}(2x^2-1)=2\\cos^{-1}x$, its derivative with respect to $\\cos^{-1}x$ is simply 2."
+    },
+    {
+      "n": 36,
+      "q": "If $y=\\log(\\log x)$ then $\\dfrac{d^2y}{dx^2}$ is equal to",
+      "options": [
+        "$\\dfrac{-(1+\\log x)}{(x\\log x)^2}$",
+        "$\\dfrac{-(1+\\log x)}{x^2\\log x}$",
+        "$\\dfrac{1+\\log x}{(x\\log x)^2}$",
+        "$\\dfrac{1+\\log x}{x^2\\log x}$"
+      ],
+      "answer": 0,
+      "chapter": "Continuity and Differentiability",
+      "explanation": "$y'=\\dfrac{1}{x\\log x}$; differentiating again with the quotient rule gives $y''=\\dfrac{-(1+\\log x)}{(x\\log x)^2}$."
+    },
+    {
+      "n": 37,
+      "q": "$\\displaystyle\\int\\dfrac{(x+3)e^x}{(x+4)^2}\\,dx$ is equal to",
+      "options": [
+        "$\\dfrac{1}{(x+4)^2}+C$",
+        "$\\dfrac{e^x}{(x+4)^2}+C$",
+        "$\\dfrac{e^x}{x+4}+C$",
+        "$\\dfrac{e^x}{x+3}+C$"
+      ],
+      "answer": 2,
+      "chapter": "Integrals",
+      "explanation": "Writing the integrand as $e^x\\left[\\dfrac{1}{x+4}-\\dfrac{1}{(x+4)^2}\\right]$ matches $e^x[f(x)+f'(x)]$ with $f(x)=\\dfrac1{x+4}$, so the integral is $\\dfrac{e^x}{x+4}+C$."
+    },
+    {
+      "n": 38,
+      "q": "$\\displaystyle\\int\\dfrac{\\cos2x-\\cos2\\theta}{\\cos x-\\cos\\theta}\\,dx$ is equal to",
+      "options": [
+        "$2(\\sin x+x\\cos\\theta)+C$",
+        "$2(\\sin x-x\\cos\\theta)+C$",
+        "$2(\\sin x+2x\\cos\\theta)+C$",
+        "$2(\\sin x-2x\\cos\\theta)+C$"
+      ],
+      "answer": 0,
+      "chapter": "Integrals",
+      "explanation": "$\\cos2x-\\cos2\\theta=2(\\cos x-\\cos\\theta)(\\cos x+\\cos\\theta)$, so the integrand simplifies to $2(\\cos x+\\cos\\theta)$, giving $2(\\sin x+x\\cos\\theta)+C$."
+    },
+    {
+      "n": 39,
+      "q": "$\\displaystyle\\int\\sqrt{x^2+2x+5}\\,dx$ is equal to",
+      "options": [
+        "$\\dfrac12(x+1)\\sqrt{x^2+2x+5}+2\\log\\left|x+1+\\sqrt{x^2+2x+5}\\right|+C$",
+        "$(x+1)\\sqrt{x^2+2x+5}+2\\log\\left|x+1+\\sqrt{x^2+2x+5}\\right|+C$",
+        "$(x+1)\\sqrt{x^2+2x+5}-2\\log\\left|x+1+\\sqrt{x^2+2x+5}\\right|+C$",
+        "$(x+1)\\sqrt{x^2+2x+5}+\\dfrac12\\log\\left|x+1+\\sqrt{x^2+2x+5}\\right|+C$"
+      ],
+      "answer": 0,
+      "chapter": "Integrals",
+      "explanation": "Writing $x^2+2x+5=(x+1)^2+2^2$ and using the standard formula $\\int\\sqrt{u^2+a^2}\\,du$ gives $\\dfrac12(x+1)\\sqrt{x^2+2x+5}+2\\log|x+1+\\sqrt{x^2+2x+5}|+C$."
+    },
+    {
+      "n": 40,
+      "q": "$\\displaystyle\\int_0^{\\pi/2}\\dfrac{\\tan^7x}{\\cot^7x+\\tan^7x}\\,dx$ is equal to",
+      "options": [
+        "$\\pi/2$",
+        "$\\pi/4$",
+        "$\\pi/6$",
+        "$\\pi/3$"
+      ],
+      "answer": 1,
+      "chapter": "Integrals",
+      "explanation": "Using $\\int_0^a f(x)dx=\\int_0^a f(a-x)dx$ with $a=\\pi/2$, the integral equals its own complement, so it equals half of $\\pi/2$, i.e. $\\pi/4$."
+    },
+    {
+      "n": 41,
+      "q": "$\\displaystyle\\int_{-5}^{5}|x+2|\\,dx$ is equal to",
+      "options": [
+        "29",
+        "28",
+        "27",
+        "30"
+      ],
+      "answer": 0,
+      "chapter": "Integrals",
+      "explanation": "Splitting at $x=-2$: $\\int_{-5}^{-2}-(x+2)dx+\\int_{-2}^{5}(x+2)dx=4.5+24.5=29$."
+    },
+    {
+      "n": 42,
+      "q": "$\\displaystyle\\int_{-\\pi/2}^{\\pi/2}\\dfrac{dx}{e^{\\sin x}+1}$ is equal to",
+      "options": [
+        "0",
+        "1",
+        "$-\\pi/2$",
+        "$\\pi/2$"
+      ],
+      "answer": 3,
+      "chapter": "Integrals",
+      "explanation": "Since $f(x)+f(-x)=1$ here, the integral equals half the length of the interval, $\\dfrac12\\cdot\\pi=\\dfrac\\pi2$."
+    },
+    {
+      "n": 43,
+      "q": "$\\displaystyle\\int_0^{\\pi/2}\\dfrac{dx}{a^2\\sin^2x+b^2\\cos^2x}$ is equal to",
+      "options": [
+        "$\\dfrac{\\pi a}{4b}$",
+        "$\\dfrac{\\pi a}{2b}$",
+        "$\\dfrac{\\pi b}{4a}$",
+        "$\\dfrac{\\pi}{2ab}$"
+      ],
+      "answer": 3,
+      "chapter": "Integrals",
+      "explanation": "This is a standard result: $\\displaystyle\\int_0^{\\pi/2}\\dfrac{dx}{a^2\\sin^2x+b^2\\cos^2x}=\\dfrac{\\pi}{2ab}$."
+    },
+    {
+      "n": 44,
+      "q": "The area of the region bounded by the curve $y=x^2$ and the line $y=16$ is",
+      "options": [
+        "$\\dfrac{32}{3}$ sq. units",
+        "$\\dfrac{256}{3}$ sq. units",
+        "$\\dfrac{64}{3}$ sq. units",
+        "$\\dfrac{128}{3}$ sq. units"
+      ],
+      "answer": 1,
+      "chapter": "Application of Integrals",
+      "explanation": "By symmetry, area $=2\\int_0^4(16-x^2)dx=2\\left[16x-\\dfrac{x^3}{3}\\right]_0^4=\\dfrac{256}{3}$ sq units."
+    },
+    {
+      "n": 45,
+      "q": "Area of the region bounded by the curve $y=\\cos x$, $x=0$ and $x=\\pi$ is",
+      "options": [
+        "2 sq. units",
+        "4 sq. units",
+        "3 sq. units",
+        "1 sq. unit"
+      ],
+      "answer": 0,
+      "chapter": "Application of Integrals",
+      "explanation": "Area $=\\left|\\int_0^{\\pi/2}\\cos x\\,dx\\right|+\\left|\\int_{\\pi/2}^{\\pi}\\cos x\\,dx\\right|=1+1=2$ sq units."
+    },
+    {
+      "n": 46,
+      "q": "The degree of the differential equation $\\left[1+\\left(\\dfrac{dy}{dx}\\right)^2\\right]^2=\\dfrac{d^2y}{dx^2}$ is",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "answer": 0,
+      "chapter": "Differential Equations",
+      "explanation": "The highest order derivative $\\dfrac{d^2y}{dx^2}$ occurs to the power 1, so the degree is 1."
+    },
+    {
+      "n": 47,
+      "q": "General solution of differential equation $\\dfrac{dy}{dx}+y=1\\ (y\\ne1)$ is",
+      "options": [
+        "$\\log\\left|\\dfrac{1}{1-y}\\right|=x+C$",
+        "$\\log|1-y|=x+C$",
+        "$\\log|1+y|=x+C$",
+        "$\\log\\left|\\dfrac{1}{1-y}\\right|=-x+C$"
+      ],
+      "answer": 0,
+      "chapter": "Differential Equations",
+      "explanation": "Separating variables, $\\dfrac{dy}{1-y}=dx$; integrating gives $-\\log|1-y|=x+C$, i.e. $\\log\\left|\\dfrac{1}{1-y}\\right|=x+C$."
+    },
+    {
+      "n": 48,
+      "q": "The integrating factor of the differential equation $x\\cdot\\dfrac{dy}{dx}+2y=x^2$ is $(x\\ne0)$",
+      "options": [
+        "$x^2$",
+        "$\\log|x|$",
+        "$e^{\\log x}$",
+        "$x$"
+      ],
+      "answer": 0,
+      "chapter": "Differential Equations",
+      "explanation": "Writing as $\\dfrac{dy}{dx}+\\dfrac2xy=x$, the integrating factor is $e^{\\int(2/x)dx}=e^{2\\log x}=x^2$."
+    },
+    {
+      "n": 49,
+      "q": "If $\\vec a=2\\hat i+\\lambda\\hat j+\\hat k$ and $\\vec b=\\hat i+2\\hat j+3\\hat k$ are orthogonal, then value of $\\lambda$ is",
+      "options": [
+        "0",
+        "1",
+        "3/2",
+        "-5/2"
+      ],
+      "answer": 3,
+      "chapter": "Vector Algebra",
+      "explanation": "$\\vec a\\cdot\\vec b=2+2\\lambda+3=0\\Rightarrow\\lambda=-\\dfrac52$."
+    },
+    {
+      "n": 50,
+      "q": "If $\\vec a,\\vec b,\\vec c$ are unit vectors such that $\\vec a+\\vec b+\\vec c=\\vec 0$, then the value of $\\vec a\\cdot\\vec b+\\vec b\\cdot\\vec c+\\vec c\\cdot\\vec a$ is equal to",
+      "options": [
+        "1",
+        "3",
+        "$-\\dfrac32$",
+        "$\\dfrac32$"
+      ],
+      "answer": 2,
+      "chapter": "Vector Algebra",
+      "explanation": "$|\\vec a+\\vec b+\\vec c|^2=0=3+2(\\vec a\\cdot\\vec b+\\vec b\\cdot\\vec c+\\vec c\\cdot\\vec a)$, giving the sum $=-\\dfrac32$."
+    },
+    {
+      "n": 51,
+      "q": "If $\\vec a$ and $\\vec b$ are unit vectors, then angle between $\\vec a$ and $\\vec b$ for $\\sqrt3\\vec a-\\vec b$ to be a unit vector is",
+      "options": [
+        "$30^\\circ$",
+        "$45^\\circ$",
+        "$60^\\circ$",
+        "$90^\\circ$"
+      ],
+      "answer": 0,
+      "chapter": "Vector Algebra",
+      "explanation": "$|\\sqrt3\\vec a-\\vec b|^2=3+1-2\\sqrt3\\cos\\theta=1\\Rightarrow\\cos\\theta=\\dfrac{\\sqrt3}{2}\\Rightarrow\\theta=30^\\circ$."
+    },
+    {
+      "n": 52,
+      "q": "Reflexion of the point $(\\alpha,\\beta,\\gamma)$ in XY plane is",
+      "options": [
+        "$(\\alpha,\\beta,0)$",
+        "$(0,0,\\gamma)$",
+        "$(-\\alpha,-\\beta,\\gamma)$",
+        "$(\\alpha,\\beta,-\\gamma)$"
+      ],
+      "answer": 3,
+      "chapter": "Three Dimensional Geometry",
+      "explanation": "Reflection in the XY-plane keeps x and y unchanged and reverses the sign of z."
+    },
+    {
+      "n": 53,
+      "q": "The plane $2x-3y+6z-11=0$ makes an angle $\\sin^{-1}(\\alpha)$ with X-axis. The value of $\\alpha$ is equal to",
+      "options": [
+        "$\\dfrac{\\sqrt3}{2}$",
+        "$\\dfrac{\\sqrt2}{3}$",
+        "$\\dfrac27$",
+        "$\\dfrac37$"
+      ],
+      "answer": 2,
+      "chapter": "Three Dimensional Geometry",
+      "explanation": "The normal vector $(2,-3,6)$ has magnitude 7; the angle the plane makes with the x-axis satisfies $\\sin\\alpha=\\dfrac{|2|}{7}=\\dfrac27$."
+    },
+    {
+      "n": 54,
+      "q": "The distance of the point $(-2,4,-5)$ from the line $\\dfrac{x+3}{3}=\\dfrac{y-4}{5}=\\dfrac{z+8}{6}$ is",
+      "options": [
+        "$\\dfrac{\\sqrt{37}}{10}$",
+        "$\\sqrt{\\dfrac{37}{10}}$",
+        "$\\dfrac{37}{\\sqrt{10}}$",
+        "$\\dfrac{37}{10}$"
+      ],
+      "answer": 1,
+      "chapter": "Three Dimensional Geometry",
+      "explanation": "Taking the vector from the line's point $(-3,4,-8)$ to the given point, $(1,0,3)$, and removing its component along the direction $(3,5,6)$, the perpendicular component has magnitude $\\sqrt{37/10}$."
+    },
+    {
+      "n": 55,
+      "q": "A box has 100 pens of which 10 are defective. The probability that out of a sample of 5 pens drawn one by one with replacement and atmost one is defective is",
+      "options": [
+        "$\\dfrac{9}{10}$",
+        "$\\dfrac12\\left(\\dfrac{9}{10}\\right)^4$",
+        "$\\left(\\dfrac{9}{10}\\right)^5+\\dfrac12\\left(\\dfrac{9}{10}\\right)^4$",
+        "$\\dfrac12\\left(\\dfrac{9}{10}\\right)^5$"
+      ],
+      "answer": 2,
+      "chapter": "Probability",
+      "explanation": "$P(\\text{at most 1 defective})=P(0)+P(1)=(0.9)^5+{}^5C_1(0.1)(0.9)^4=\\left(\\dfrac9{10}\\right)^5+\\dfrac12\\left(\\dfrac9{10}\\right)^4$."
+    },
+    {
+      "n": 56,
+      "q": "Two events A and B will be independent if",
+      "options": [
+        "A and B are mutually exclusive",
+        "$P(A'\\cap B')=(1-P(A))(1-P(B))$",
+        "$P(A)=P(B)$",
+        "$P(A)+P(B)=1$"
+      ],
+      "answer": 1,
+      "chapter": "Probability",
+      "explanation": "$A,B$ are independent $\\iff$ $A',B'$ are independent $\\iff$ $P(A'\\cap B')=P(A')P(B')=(1-P(A))(1-P(B))$."
+    },
+    {
+      "n": 57,
+      "q": "The probability distribution of X is: X = 0, 1, 2, 3 with P(X) = 0.3, k, 2k, 2k respectively. The value of k is",
+      "options": [
+        "0.14",
+        "0.3",
+        "0.7",
+        "1"
+      ],
+      "answer": 0,
+      "chapter": "Probability",
+      "explanation": "Sum of probabilities is 1: $0.3+k+2k+2k=1\\Rightarrow5k=0.7\\Rightarrow k=0.14$."
+    },
+    {
+      "n": 58,
+      "q": "[Figure: a line through (0,5) and (4,0) forms a triangle-like boundary with a horizontal line through (0,3) and a vertical line through (6,0); the shaded region is the triangular area between the slanted line, below y=3 and left of x=6.] The shaded region in the figure is the solution set of the inequations",
+      "options": [
+        "$5x+4y\\ge20, x\\le6, y\\ge3, x\\ge0, y\\ge0$",
+        "$5x+4y\\le20, x\\le6, y\\le3, x\\ge0, y\\ge0$",
+        "$5x+4y\\ge20, x\\le6, y\\le3, x\\ge0, y\\ge0$",
+        "$5x+4y\\ge20, x\\ge6, y\\le3, x\\ge0, y\\ge0$"
+      ],
+      "answer": 2,
+      "chapter": "Linear Programming",
+      "explanation": "The line through $(0,5)$ and $(4,0)$ is $5x+4y=20$; the shaded region lies on the outer side of this line, below $y=3$ and left of $x=6$, i.e. $5x+4y\\ge20, x\\le6, y\\le3, x\\ge0, y\\ge0$."
+    },
+    {
+      "n": 59,
+      "q": "If an LPP admits optimal solution at two consecutive vertices of a feasible region, then",
+      "options": [
+        "the required optimal solution is at the midpoint of the line joining two points.",
+        "the optimal solution occurs at every point on the line joining these two points",
+        "the LPP under consideration is not solvable",
+        "the LPP under consideration must be reconstructed"
+      ],
+      "answer": 1,
+      "chapter": "Linear Programming",
+      "explanation": "When two adjacent vertices give the same optimal value, every point on the segment joining them is also optimal."
+    },
+    {
+      "n": 60,
+      "q": "$\\displaystyle\\int_{0.2}^{3.5}[x]\\,dx$ is equal to",
+      "options": [
+        "4",
+        "4.5",
+        "3.5",
+        "3"
+      ],
+      "answer": 1,
+      "chapter": "Integrals",
+      "explanation": "$[x]=0$ on $[0.2,1)$, $1$ on $[1,2)$, $2$ on $[2,3)$, $3$ on $[3,3.5)$: total $=0+1+2+1.5=4.5$."
+    }
+  ]
+}

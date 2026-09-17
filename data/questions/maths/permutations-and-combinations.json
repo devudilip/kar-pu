@@ -1,0 +1,525 @@
+{
+  "notes": "<h3>Fundamental Principle of Counting</h3><ul><li>If one event can occur in $m$ ways and another (independent) event in $n$ ways, both together can occur in $m\\times n$ ways (multiplication principle); either/or uses addition.</li></ul><h3>Factorial</h3><ul><li>$n! = n(n-1)(n-2)\\cdots2\\cdot1$; $0! = 1$; $n! = n\\cdot(n-1)!$.</li></ul><h3>Permutations (order matters)</h3><table><tr><th>Formula</th><th>Meaning</th></tr><tr><td>$^nP_r = \\dfrac{n!}{(n-r)!}$</td><td>arrangements of $r$ from $n$ distinct objects</td></tr><tr><td>$^nP_n = n!$</td><td>arrange all $n$ objects</td></tr><tr><td>Circular</td><td>$(n-1)!$ (clockwise/anticlockwise distinct); $(n-1)!/2$ if not</td></tr><tr><td>Repetition allowed</td><td>$n^r$ (each of $r$ places has $n$ choices)</td></tr><tr><td>Objects not all distinct</td><td>$\\dfrac{n!}{p!\\,q!\\,r!\\cdots}$ ($p,q,r$ = repetition counts)</td></tr></table><h3>Combinations (order does not matter)</h3><ul><li>$^nC_r = \\dfrac{n!}{r!(n-r)!} = \\dfrac{^nP_r}{r!}$.</li><li>$^nC_r = {}^nC_{n-r}$; $^nC_0 = {}^nC_n = 1$; $^nC_1 = n$.</li><li>Pascal's rule: $^nC_r + {}^nC_{r-1} = {}^{n+1}C_r$.</li><li>If $^nC_x = {}^nC_y$ then $x=y$ or $x+y=n$.</li><li>Number of diagonals of an $n$-sided polygon: $^nC_2 - n$.</li></ul><h3>Key distinctions</h3><ul><li>Use permutation when arrangement/order matters (seating, ranks, words); use combination for selection/grouping (committees, teams).</li><li>Word problems with vowels/consonants together: treat the group as one unit, multiply by internal arrangements.</li></ul><h3>Exam tip</h3><p>KCET typically asks 2–3 questions from this chapter, mixing direct formula application ($^nP_r$, $^nC_r$), word-arrangement problems (letters together/apart, distinct letters), and committee-selection problems. Always double check whether the problem needs permutation (arrangement) or combination (selection) before applying a formula.</p>",
+  "questions": [
+    {
+      "id": "mat-permutations-and-combinations-001",
+      "q": "The value of $^6P_2$ is",
+      "options": [
+        "12",
+        "15",
+        "20",
+        "30"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "$^6P_2 = \\dfrac{6!}{4!} = 6\\times5 = 30$."
+    },
+    {
+      "id": "mat-permutations-and-combinations-002",
+      "q": "The value of $^7C_3$ is",
+      "options": [
+        "42",
+        "210",
+        "35",
+        "21"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "$^7C_3 = \\dfrac{7!}{3!4!} = \\dfrac{7\\times6\\times5}{6} = 35$."
+    },
+    {
+      "id": "mat-permutations-and-combinations-003",
+      "q": "The number of ways to arrange the letters of the word 'MISSISSIPPI' is",
+      "options": [
+        "$\\dfrac{11!}{4!4!2!}$",
+        "$\\dfrac{11!}{4!4!}$",
+        "$11!$",
+        "$\\dfrac{11!}{2!2!}$"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "MISSISSIPPI has 11 letters: M(1), I(4), S(4), P(2). Arrangements $= \\dfrac{11!}{4!4!2!}$."
+    },
+    {
+      "id": "mat-permutations-and-combinations-004",
+      "q": "How many 3-digit numbers can be formed using digits $1,2,3,4,5$ without repetition?",
+      "options": [
+        "20",
+        "60",
+        "125",
+        "10"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "$^5P_3 = 5\\times4\\times3 = 60$."
+    },
+    {
+      "id": "mat-permutations-and-combinations-005",
+      "q": "How many 3-digit numbers can be formed using digits $1,2,3,4,5$ if repetition is allowed?",
+      "options": [
+        "243",
+        "60",
+        "125",
+        "15"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "Each of 3 places has 5 choices independently: $5^3 = 125$."
+    },
+    {
+      "id": "mat-permutations-and-combinations-006",
+      "q": "The number of ways 5 people can be seated around a circular table is",
+      "options": [
+        "60",
+        "24",
+        "20",
+        "120"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "Circular permutations of $n$ distinct objects $= (n-1)! = 4! = 24$."
+    },
+    {
+      "id": "mat-permutations-and-combinations-007",
+      "q": "In how many ways can a committee of 3 be chosen from 5 men and 4 women (no restriction)?",
+      "options": [
+        "60",
+        "126",
+        "45",
+        "84"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "Total people $=9$; choose 3: $^9C_3 = \\dfrac{9\\times8\\times7}{6} = 84$."
+    },
+    {
+      "id": "mat-permutations-and-combinations-008",
+      "q": "In how many ways can a committee of 3 men and 2 women be formed from 5 men and 4 women?",
+      "options": [
+        "60",
+        "126",
+        "84",
+        "20"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "Choose men and women independently and multiply: $^5C_3 \\times {}^4C_2 = 10\\times6 = 60$."
+    },
+    {
+      "id": "mat-permutations-and-combinations-009",
+      "q": "If $^nC_8 = {}^nC_6$, the value of $n$ is",
+      "options": [
+        "48",
+        "2",
+        "8",
+        "14"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "$^nC_r = {}^nC_{n-r}$ with $r\\ne n-r$ implies $8+6=n \\Rightarrow n=14$."
+    },
+    {
+      "id": "mat-permutations-and-combinations-010",
+      "q": "The number of diagonals of a hexagon (6 sides) is",
+      "options": [
+        "15",
+        "12",
+        "9",
+        "6"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "Diagonals $= {}^6C_2 - 6 = 15-6 = 9$."
+    },
+    {
+      "id": "mat-permutations-and-combinations-011",
+      "q": "How many words (with or without meaning) can be formed using all letters of 'EQUATION' (all distinct, 8 letters), taken all at a time?",
+      "options": [
+        "$8!$",
+        "$8^8$",
+        "$4!$",
+        "$^8P_4$"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "All 8 letters are distinct; arranging all of them gives $8!$ words."
+    },
+    {
+      "id": "mat-permutations-and-combinations-012",
+      "q": "How many ways can the letters of the word 'DELHI' be arranged so that the vowels (E, I) always come together?",
+      "options": [
+        "12",
+        "48",
+        "24",
+        "120"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "Treat EI as one block: 4 units (D,L,H,[EI]) arrange in $4!$ ways; internal arrangement of E,I in $2!$ ways: $4!\\times2! = 24\\times2=48$."
+    },
+    {
+      "id": "mat-permutations-and-combinations-013",
+      "q": "The value of $^{10}C_4 + {}^{10}C_5$ is",
+      "options": [
+        "$^{10}C_9$",
+        "$^{11}C_4$",
+        "$^{11}C_5$",
+        "$^{20}C_9$"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "By Pascal's rule, $^nC_r + {}^nC_{r-1} = {}^{n+1}C_r$; here $^{10}C_5+{}^{10}C_4 = {}^{11}C_5$."
+    },
+    {
+      "id": "mat-permutations-and-combinations-014",
+      "q": "Number of ways to select 2 cards from a deck of 52 playing cards is",
+      "options": [
+        "1326",
+        "104",
+        "2601",
+        "2652"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "$^{52}C_2 = \\dfrac{52\\times51}{2} = 1326$."
+    },
+    {
+      "id": "mat-permutations-and-combinations-015",
+      "q": "How many 4-letter codes can be formed from the 26 English letters if repetition is not allowed?",
+      "options": [
+        "456976",
+        "358800",
+        "14950",
+        "26!"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "$^{26}P_4 = 26\\times25\\times24\\times23 = 358800$."
+    },
+    {
+      "id": "mat-permutations-and-combinations-016",
+      "q": "The number of ways to arrange 3 boys and 3 girls in a row so that boys and girls alternate is",
+      "options": [
+        "144",
+        "720",
+        "36",
+        "72"
+      ],
+      "answer": 3,
+      "difficulty": "hard",
+      "explanation": "Two alternating patterns (BGBGBG or GBGBGB), each allows $3!$ ways for boys and $3!$ for girls: $2\\times3!\\times3! = 2\\times6\\times6=72$."
+    },
+    {
+      "id": "mat-permutations-and-combinations-017",
+      "q": "If $^nP_2 = 30$, the value of $n$ is",
+      "options": [
+        "10",
+        "6",
+        "5",
+        "15"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "$^nP_2 = n(n-1) = 30 \\Rightarrow n^2-n-30=0 \\Rightarrow (n-6)(n+5)=0 \\Rightarrow n=6$ (rejecting negative)."
+    },
+    {
+      "id": "mat-permutations-and-combinations-018",
+      "q": "The number of ways to distribute 5 distinct books to 5 students, one each, is",
+      "options": [
+        "120",
+        "25",
+        "3125",
+        "5"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "This is arranging 5 distinct books among 5 students: $5! = 120$."
+    },
+    {
+      "id": "mat-permutations-and-combinations-019",
+      "q": "Out of 6 novels and 3 biographies, the number of ways to choose 4 novels and 1 biography is",
+      "options": [
+        "126",
+        "9",
+        "45",
+        "15"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "$^6C_4 \\times {}^3C_1 = 15\\times3 = 45$."
+    },
+    {
+      "id": "mat-permutations-and-combinations-020",
+      "q": "How many words can be formed from the letters of 'APPLE' (5 letters with P repeated twice)?",
+      "options": [
+        "30",
+        "20",
+        "120",
+        "60"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "Total arrangements $= \\dfrac{5!}{2!} = \\dfrac{120}{2} = 60$ (dividing by $2!$ for the repeated P)."
+    },
+    {
+      "id": "mat-permutations-and-combinations-021",
+      "q": "The value of $0! + 1!$ is",
+      "options": [
+        "0",
+        "6",
+        "1",
+        "2"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "By convention $0! = 1$ and $1! = 1$, so their sum is $2$."
+    },
+    {
+      "id": "mat-permutations-and-combinations-022",
+      "q": "Using $^nC_r = {}^nC_{n-r}$, the value of $^{12}C_9$ is",
+      "options": [
+        "66",
+        "220",
+        "110",
+        "462"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "$^{12}C_9 = {}^{12}C_{3} = \\dfrac{12\\times11\\times10}{3\\times2\\times1} = 220$."
+    },
+    {
+      "id": "mat-permutations-and-combinations-023",
+      "q": "In how many ways can a captain and a vice-captain be chosen from 11 players?",
+      "options": [
+        "121",
+        "55",
+        "110",
+        "100"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "Order matters (different roles), so this is $^{11}P_2 = 11\\times10 = 110$."
+    },
+    {
+      "id": "mat-permutations-and-combinations-024",
+      "q": "The number of diagonals of a polygon with $n$ sides is given by the formula",
+      "options": [
+        "$\\dfrac{n(n-3)}{2}$",
+        "$\\dfrac{n(n-2)}{2}$",
+        "$n(n-3)$",
+        "$\\dfrac{n(n-1)}{2}$"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "Total line segments between $n$ vertices are $^nC_2 = \\dfrac{n(n-1)}{2}$; removing the $n$ sides gives $\\dfrac{n(n-3)}{2}$ diagonals."
+    },
+    {
+      "id": "mat-permutations-and-combinations-025",
+      "q": "The number of ways to arrange the letters of the word 'MATHS' (all distinct) is",
+      "options": [
+        "60",
+        "720",
+        "120",
+        "24"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "'MATHS' has 5 distinct letters, so it can be arranged in $5! = 120$ ways."
+    },
+    {
+      "id": "mat-permutations-and-combinations-026",
+      "q": "A person has 3 different fruits and wants to choose at least one of them. In how many ways can this be done?",
+      "options": [
+        "8",
+        "7",
+        "9",
+        "6"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "Each fruit can be chosen or not, giving $2^3=8$ subsets; excluding the case of choosing none gives $2^3-1=7$."
+    },
+    {
+      "id": "mat-permutations-and-combinations-027",
+      "q": "The number of triangles that can be formed by joining 6 points in a plane, no three of which are collinear, is",
+      "options": [
+        "120",
+        "10",
+        "15",
+        "20"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "A triangle needs 3 non-collinear points: $^6C_3 = 20$."
+    },
+    {
+      "id": "mat-permutations-and-combinations-028",
+      "q": "The number of straight lines that can be formed by joining 6 points in a plane, no three of which are collinear, is",
+      "options": [
+        "15",
+        "20",
+        "10",
+        "6"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "A line needs 2 points: $^6C_2 = 15$."
+    },
+    {
+      "id": "mat-permutations-and-combinations-029",
+      "q": "The value of $^8P_3$ is",
+      "options": [
+        "168",
+        "512",
+        "56",
+        "336"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "$^8P_3 = 8\\times7\\times6 = 336$."
+    },
+    {
+      "id": "mat-permutations-and-combinations-030",
+      "q": "In how many ways can 8 people be seated in a row if 4 particular people must always sit together?",
+      "options": [
+        "120",
+        "40320",
+        "2880",
+        "5760"
+      ],
+      "answer": 2,
+      "difficulty": "hard",
+      "explanation": "Treat the 4 people as one block: this gives 5 units to arrange in $5!$ ways, and the block internally in $4!$ ways: $5!\\times4! = 120\\times24 = 2880$."
+    },
+    {
+      "id": "mat-permutations-and-combinations-031",
+      "q": "In how many ways can 6 people be seated around a circular table if two particular persons must always sit together?",
+      "options": [
+        "24",
+        "48",
+        "240",
+        "120"
+      ],
+      "answer": 1,
+      "difficulty": "hard",
+      "explanation": "Treat the pair as one unit, giving 5 units in a circle: $(5-1)! = 24$ arrangements, times $2!$ for the internal order of the pair: $24\\times2=48$."
+    },
+    {
+      "id": "mat-permutations-and-combinations-032",
+      "q": "The number of distinct arrangements of the letters of the word 'STATISTICS' is",
+      "options": [
+        "50400",
+        "604800",
+        "25200",
+        "3628800"
+      ],
+      "answer": 0,
+      "difficulty": "hard",
+      "explanation": "'STATISTICS' has 10 letters with S repeated 3 times, T repeated 3 times and I repeated 2 times: $\\dfrac{10!}{3!\\,3!\\,2!} = \\dfrac{3628800}{72} = 50400$."
+    },
+    {
+      "id": "mat-permutations-and-combinations-033",
+      "q": "If a task can be completed by method 1 in $m$ ways or by method 2 in $n$ ways, and the two methods cannot be used together, the total number of ways to complete the task is",
+      "options": [
+        "$m+n$",
+        "$m/n$",
+        "$m\\times n$",
+        "$m-n$"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "This is the fundamental principle of addition (sum rule): the two sets of ways are mutually exclusive, so they add."
+    },
+    {
+      "id": "mat-permutations-and-combinations-034",
+      "q": "If a task consists of two independent steps that can be done in $m$ and $n$ ways respectively, the total number of ways to complete the task is",
+      "options": [
+        "$m+n$",
+        "$2mn$",
+        "$m\\times n$",
+        "$m-n$"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "This is the fundamental principle of multiplication (product rule): $m\\times n$."
+    },
+    {
+      "id": "mat-permutations-and-combinations-035",
+      "q": "The number of ways to select a team of 2 boys and 3 girls from 4 boys and 5 girls is",
+      "options": [
+        "120",
+        "60",
+        "24",
+        "10"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "$^4C_2 \\times {}^5C_3 = 6\\times10 = 60$."
+    },
+    {
+      "id": "mat-permutations-and-combinations-036",
+      "q": "The number of ways to choose a chairperson and a secretary (different posts) from 10 committee members is",
+      "options": [
+        "100",
+        "50",
+        "45",
+        "90"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "Since the two posts are distinct, order matters: $^{10}P_2 = 10\\times9 = 90$."
+    },
+    {
+      "id": "mat-permutations-and-combinations-037",
+      "q": "How many 3-letter codes (repetition allowed) can be formed from the 26 English letters if the first letter must be a vowel?",
+      "options": [
+        "3380",
+        "2600",
+        "676",
+        "17576"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "The first letter has 5 vowel choices; each of the remaining 2 letters has 26 choices: $5\\times26\\times26 = 3380$."
+    },
+    {
+      "id": "mat-permutations-and-combinations-038",
+      "q": "In how many ways can 4 different books be arranged on a shelf so that 2 particular books are never together?",
+      "options": [
+        "18",
+        "6",
+        "24",
+        "12"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "Total arrangements $=4!=24$. Arrangements with the 2 particular books together (block): $3!\\times2!=12$. Never together $= 24-12 = 12$."
+    },
+    {
+      "id": "mat-permutations-and-combinations-039",
+      "q": "From 6 men, a committee of 4 is to be formed such that a particular man is always included. The number of ways is",
+      "options": [
+        "15",
+        "10",
+        "20",
+        "5"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "With that man fixed in the committee, 3 more must be chosen from the remaining 5: $^5C_3 = 10$."
+    },
+    {
+      "id": "mat-permutations-and-combinations-040",
+      "q": "The number of ways to divide 6 distinct objects into two unlabelled groups of 3 each is",
+      "options": [
+        "6",
+        "20",
+        "10",
+        "15"
+      ],
+      "answer": 2,
+      "difficulty": "hard",
+      "explanation": "Choosing 3 of the 6 for one group can be done in $^6C_3=20$ ways, but since the two groups are unlabelled, each division is counted twice: $20/2 = 10$."
+    }
+  ]
+}

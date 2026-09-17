@@ -1,0 +1,526 @@
+{
+  "notes": "<h3>Binomial Theorem for a positive integer $n$</h3><ul><li>$(a+b)^n = \\displaystyle\\sum_{r=0}^{n} {}^nC_r\\,a^{n-r}b^r = {}^nC_0a^n + {}^nC_1a^{n-1}b + \\cdots + {}^nC_nb^n$.</li><li>Total number of terms in the expansion $= n+1$.</li><li>Sum of all binomial coefficients: $^nC_0+{}^nC_1+\\cdots+{}^nC_n = 2^n$ (put $a=b=1$).</li><li>Sum of coefficients at odd positions = sum at even positions $= 2^{n-1}$ (put $a=1,b=-1$).</li></ul><h3>General term</h3><ul><li>$T_{r+1} = {}^nC_r\\,a^{n-r}b^r$ (the $(r+1)$th term, so $r=0$ gives the first term).</li><li>To find a specific term (e.g. term containing $x^k$), set the power of the variable in $T_{r+1}$ equal to $k$ and solve for $r$.</li></ul><h3>Middle term(s)</h3><table><tr><th>Case</th><th>Middle term(s)</th></tr><tr><td>$n$ even</td><td>single middle term $= T_{(n/2)+1}$</td></tr><tr><td>$n$ odd</td><td>two middle terms $= T_{(n+1)/2}$ and $T_{(n+3)/2}$</td></tr></table><h3>Useful expansions</h3><ul><li>$(1+x)^n = 1+nx+\\dfrac{n(n-1)}{2!}x^2+\\cdots$ (for small $x$, $(1+x)^n \\approx 1+nx$).</li><li>$(a+b)^n + (a-b)^n = 2[T_1+T_3+T_5+\\cdots]$ (even-position original terms); $(a+b)^n - (a-b)^n = 2[T_2+T_4+\\cdots]$.</li></ul><h3>Pascal's triangle</h3><ul><li>Row $n$ gives coefficients $^nC_0, {}^nC_1,\\ldots,{}^nC_n$; each entry is the sum of the two entries above it (Pascal's rule).</li></ul><h3>Common tricks</h3><ul><li>Greatest binomial coefficient: for even $n$, it is $^nC_{n/2}$; for odd $n$, the two equal largest are $^nC_{(n-1)/2}$ and $^nC_{(n+1)/2}$.</li><li>To find the term independent of $x$, set the net power of $x$ in $T_{r+1}$ to 0.</li></ul><h3>Exam tip</h3><p>KCET typically asks 1–2 questions from this chapter, usually finding a general/middle term, the term independent of $x$, or using $a=1,b=\\pm1$ to evaluate a sum of binomial coefficients. Always write the general term formula first and substitute carefully — sign and power errors are the most common mistakes.</p>",
+  "questions": [
+    {
+      "id": "mat-binomial-theorem-001",
+      "q": "The number of terms in the expansion of $(x+y)^7$ is",
+      "options": [
+        "8",
+        "14",
+        "6",
+        "7"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "Number of terms in $(a+b)^n$ is $n+1 = 7+1 = 8$."
+    },
+    {
+      "id": "mat-binomial-theorem-002",
+      "q": "The value of $^5C_0 + {}^5C_1 + {}^5C_2 + {}^5C_3 + {}^5C_4 + {}^5C_5$ is",
+      "options": [
+        "10",
+        "25",
+        "16",
+        "32"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "Sum of all binomial coefficients $= 2^n = 2^5 = 32$."
+    },
+    {
+      "id": "mat-binomial-theorem-003",
+      "q": "The general term in the expansion of $(a+b)^n$ is",
+      "options": [
+        "$^nC_r a^r b^{n-r}$",
+        "$^nC_r a^{n-r} b^r$",
+        "$^nC_r a^n b^r$",
+        "$^nC_{r+1} a^{n-r} b^r$"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "The $(r+1)$th term is $T_{r+1} = {}^nC_r a^{n-r}b^r$."
+    },
+    {
+      "id": "mat-binomial-theorem-004",
+      "q": "In the expansion of $(x+2)^5$, the coefficient of $x^3$ is",
+      "options": [
+        "80",
+        "10",
+        "40",
+        "20"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "$T_{r+1} = {}^5C_r x^{5-r}2^r$; power of $x$ is 3 when $r=2$: coefficient $= {}^5C_2\\cdot2^2 = 10\\times4=40$."
+    },
+    {
+      "id": "mat-binomial-theorem-005",
+      "q": "The middle term in the expansion of $(x+y)^6$ is",
+      "options": [
+        "$T_6$",
+        "$T_5$",
+        "$T_3$",
+        "$T_4$"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "For even $n=6$, the single middle term is $T_{(n/2)+1} = T_4$."
+    },
+    {
+      "id": "mat-binomial-theorem-006",
+      "q": "The middle terms in the expansion of $(x+y)^7$ are",
+      "options": [
+        "$T_3, T_4$",
+        "$T_3, T_5$",
+        "$T_4, T_5$",
+        "$T_5, T_6$"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "For odd $n=7$, middle terms are $T_{(n+1)/2}=T_4$ and $T_{(n+3)/2}=T_5$."
+    },
+    {
+      "id": "mat-binomial-theorem-007",
+      "q": "In the expansion of $(2x - 1)^4$, the coefficient of $x^2$ is",
+      "options": [
+        "24",
+        "-24",
+        "16",
+        "-16"
+      ],
+      "answer": 0,
+      "difficulty": "hard",
+      "explanation": "$T_{r+1}={}^4C_r(2x)^{4-r}(-1)^r$; power of $x$ is 2 when $r=2$: term $= {}^4C_2(2x)^2(-1)^2 = 6\\times4x^2\\times1=24x^2$, coefficient $24$."
+    },
+    {
+      "id": "mat-binomial-theorem-008",
+      "q": "The sum $^{10}C_0 + {}^{10}C_2 + {}^{10}C_4 + \\cdots + {}^{10}C_{10}$ (even-indexed coefficients) equals",
+      "options": [
+        "$10$",
+        "$2^9$",
+        "$2^{10}$",
+        "$2^{11}$"
+      ],
+      "answer": 1,
+      "difficulty": "hard",
+      "explanation": "Sum of coefficients at odd positions equals sum at even positions, each equal to $2^{n-1} = 2^9 = 512$."
+    },
+    {
+      "id": "mat-binomial-theorem-009",
+      "q": "The number of terms in the expansion of $(2x+3y)^{10}$ is",
+      "options": [
+        "20",
+        "9",
+        "10",
+        "11"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "Number of terms $= n+1 = 10+1 = 11$."
+    },
+    {
+      "id": "mat-binomial-theorem-010",
+      "q": "The coefficient of $x^5$ in the expansion of $(1+x)^8$ is",
+      "options": [
+        "$56$",
+        "$70$",
+        "$28$",
+        "$8$"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "Coefficient of $x^5$ is $^8C_5 = {}^8C_3 = \\dfrac{8\\times7\\times6}{6} = 56$."
+    },
+    {
+      "id": "mat-binomial-theorem-011",
+      "q": "The coefficient of $x^3y^3$ in the expansion of $(x+y)^6$ is",
+      "options": [
+        "1",
+        "20",
+        "6",
+        "15"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "This is $T_4 = {}^6C_3x^3y^3$, and $^6C_3 = \\dfrac{6!}{3!3!} = 20$."
+    },
+    {
+      "id": "mat-binomial-theorem-012",
+      "q": "If the coefficients of the 2nd and 3rd terms in the expansion of $(1+x)^n$ are equal, then $n$ equals",
+      "options": [
+        "4",
+        "1",
+        "3",
+        "2"
+      ],
+      "answer": 2,
+      "difficulty": "hard",
+      "explanation": "$^nC_1 = {}^nC_2 \\Rightarrow n = \\dfrac{n(n-1)}{2} \\Rightarrow 2n = n(n-1) \\Rightarrow 2 = n-1 \\Rightarrow n=3$."
+    },
+    {
+      "id": "mat-binomial-theorem-013",
+      "q": "In the expansion of $\\left(x - \\dfrac{1}{x}\\right)^6$, the term independent of $x$ is",
+      "options": [
+        "$-20$",
+        "$-15$",
+        "$15$",
+        "$20$"
+      ],
+      "answer": 0,
+      "difficulty": "hard",
+      "explanation": "$T_{r+1} = {}^6C_r x^{6-r}(-1/x)^r = {}^6C_r(-1)^r x^{6-2r}$. Independent of $x$ when $6-2r=0 \\Rightarrow r=3$: term $= {}^6C_3(-1)^3 = 20\\times(-1) = -20$.",
+      "tip": "Watch the sign from $(-1)^r$."
+    },
+    {
+      "id": "mat-binomial-theorem-014",
+      "q": "The coefficient of $x^4$ in $(1-x)^7$ is",
+      "options": [
+        "70",
+        "-35",
+        "35",
+        "-70"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "$T_{r+1} = {}^7C_r(-x)^r$; for $r=4$: $^7C_4(-1)^4x^4 = 35x^4$ since $(-1)^4=1$, so the coefficient is $+35$."
+    },
+    {
+      "id": "mat-binomial-theorem-015",
+      "q": "$(a+b)^4 + (a-b)^4$ simplifies to",
+      "options": [
+        "$2a^4+2b^4$",
+        "$2(a^4-6a^2b^2+b^4)$",
+        "$4a^3b+4ab^3$",
+        "$2(a^4+6a^2b^2+b^4)$"
+      ],
+      "answer": 3,
+      "difficulty": "hard",
+      "explanation": "$(a+b)^4+(a-b)^4$ retains only even-position terms doubled: $2[a^4+{}^4C_2a^2b^2+b^4] = 2[a^4+6a^2b^2+b^4]$."
+    },
+    {
+      "id": "mat-binomial-theorem-016",
+      "q": "Using binomial approximation, the value of $(1.02)^{10}$ (correct to 3 decimal places) is approximately",
+      "options": [
+        "1.10",
+        "1.219",
+        "1.02",
+        "2.0"
+      ],
+      "answer": 1,
+      "difficulty": "hard",
+      "explanation": "$(1+0.02)^{10} \\approx 1+10(0.02)+\\dfrac{10\\times9}{2}(0.02)^2 = 1+0.2+0.018 = 1.218 \\approx 1.219$ with the next small term."
+    },
+    {
+      "id": "mat-binomial-theorem-017",
+      "q": "The greatest coefficient in the expansion of $(x+y)^6$ occurs for the term",
+      "options": [
+        "$^6C_3$",
+        "$^6C_2$",
+        "$^6C_0$",
+        "$^6C_6$"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "For even $n=6$, the greatest binomial coefficient is $^nC_{n/2} = {}^6C_3$."
+    },
+    {
+      "id": "mat-binomial-theorem-018",
+      "q": "The value of $^nC_0 - {}^nC_1 + {}^nC_2 - \\cdots + (-1)^n{}^nC_n$ is",
+      "options": [
+        "$n$",
+        "$0$",
+        "$2^n$",
+        "$1$"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "Putting $a=1, b=-1$ in $(a+b)^n$ expansion gives $(1-1)^n = 0$, which equals the alternating sum of binomial coefficients."
+    },
+    {
+      "id": "mat-binomial-theorem-019",
+      "q": "In the expansion of $(1+x)^{n}$, if the coefficients of the 5th and 6th terms are in the ratio $1:2$, given $^nC_4 : {}^nC_5 = 1:2$, then $n$ is",
+      "options": [
+        "15",
+        "13",
+        "12",
+        "14"
+      ],
+      "answer": 3,
+      "difficulty": "hard",
+      "explanation": "$\\dfrac{^nC_4}{^nC_5} = \\dfrac{5}{n-4} = \\dfrac12 \\Rightarrow n-4=10 \\Rightarrow n=14$."
+    },
+    {
+      "id": "mat-binomial-theorem-020",
+      "q": "The number of terms in the expansion of $(2x-3y+z)^2$ (trinomial, related to binomial extension) is",
+      "options": [
+        "4",
+        "3",
+        "6",
+        "9"
+      ],
+      "answer": 2,
+      "difficulty": "hard",
+      "explanation": "Number of terms in expansion of a trinomial raised to power $n$ is $^{n+2}C_2$; here $n=2$: $^4C_2 = 6$."
+    },
+    {
+      "id": "mat-binomial-theorem-021",
+      "q": "The 4th term in the expansion of $(x+2y)^6$ is",
+      "options": [
+        "$160x^3y^3$",
+        "$20x^3y^3$",
+        "$60x^3y^3$",
+        "$240x^4y^2$"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "$T_4 = T_{3+1} = {}^6C_3\\,x^{3}(2y)^3 = 20\\times x^3\\times8y^3 = 160x^3y^3$."
+    },
+    {
+      "id": "mat-binomial-theorem-022",
+      "q": "The term independent of $x$ in the expansion of $\\left(2x^2 - \\dfrac{1}{x}\\right)^{9}$ is",
+      "options": [
+        "84",
+        "672",
+        "-672",
+        "756"
+      ],
+      "answer": 1,
+      "difficulty": "hard",
+      "explanation": "$T_{r+1} = {}^9C_r(2x^2)^{9-r}\\left(-\\dfrac1x\\right)^r = {}^9C_r 2^{9-r}(-1)^r x^{18-3r}$. Setting $18-3r=0$ gives $r=6$; the term is $^9C_6\\,2^3(-1)^6 = 84\\times8 = 672$."
+    },
+    {
+      "id": "mat-binomial-theorem-023",
+      "q": "Pascal's rule states that $^nC_r + {}^nC_{r-1}$ equals",
+      "options": [
+        "$^{n+1}C_{r-1}$",
+        "$^{n-1}C_r$",
+        "$^{n+1}C_r$",
+        "$^nC_{r+1}$"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "This is the standard Pascal's triangle identity: $^nC_r + {}^nC_{r-1} = {}^{n+1}C_r$."
+    },
+    {
+      "id": "mat-binomial-theorem-024",
+      "q": "In the expansion of $(1+x)^n$, the ratio of the coefficient of $x^r$ to the coefficient of $x^{r-1}$ is",
+      "options": [
+        "$\\dfrac{n-r}{r}$",
+        "$\\dfrac{n+1-r}{r+1}$",
+        "$\\dfrac{r}{n-r+1}$",
+        "$\\dfrac{n-r+1}{r}$"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "$\\dfrac{^nC_r}{^nC_{r-1}} = \\dfrac{n-r+1}{r}$, a standard result used to compare consecutive binomial coefficients."
+    },
+    {
+      "id": "mat-binomial-theorem-025",
+      "q": "Using the binomial theorem, the value of $(0.98)^4$ correct to three decimal places is",
+      "options": [
+        "0.940",
+        "0.902",
+        "0.980",
+        "0.922"
+      ],
+      "answer": 3,
+      "difficulty": "hard",
+      "explanation": "$(0.98)^4=(1-0.02)^4 \\approx 1 - 4(0.02) + 6(0.02)^2 = 1 - 0.08 + 0.0024 = 0.9224 \\approx 0.922$."
+    },
+    {
+      "id": "mat-binomial-theorem-026",
+      "q": "The coefficient of $x^7$ in the expansion of $\\left(x^2 + \\dfrac{2}{x}\\right)^{11}$ is",
+      "options": [
+        "7392",
+        "1848",
+        "14784",
+        "29568"
+      ],
+      "answer": 2,
+      "difficulty": "hard",
+      "explanation": "$T_{r+1} = {}^{11}C_r(x^2)^{11-r}\\left(\\dfrac2x\\right)^r = {}^{11}C_r 2^r x^{22-3r}$. Setting $22-3r=7$ gives $r=5$; the coefficient is $^{11}C_5\\,2^5 = 462\\times32 = 14784$."
+    },
+    {
+      "id": "mat-binomial-theorem-027",
+      "q": "In the expansion of $(x+y)^7$, the greatest coefficient(s) occur for",
+      "options": [
+        "the 3rd and 6th terms, each equal to 21",
+        "the 4th and 5th terms, each equal to 35",
+        "only the 4th term, equal to 35",
+        "only the 5th term, equal to 35"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "Since $n=7$ is odd, two middle terms tie for the greatest coefficient: $^7C_3 = {}^7C_4 = 35$, corresponding to the 4th and 5th terms."
+    },
+    {
+      "id": "mat-binomial-theorem-028",
+      "q": "The number of terms in the expansion of $(1+x)^{10} + (1-x)^{10}$ (after simplification) is",
+      "options": [
+        "6",
+        "11",
+        "10",
+        "5"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "Odd-power terms cancel and even-power terms double, leaving powers $0,2,4,6,8,10$ — a total of 6 terms."
+    },
+    {
+      "id": "mat-binomial-theorem-029",
+      "q": "If the coefficients of the 2nd, 3rd and 4th terms in the expansion of $(1+x)^n$ are in arithmetic progression, the value of $n$ (other than the trivial small case) is",
+      "options": [
+        "21",
+        "2",
+        "14",
+        "7"
+      ],
+      "answer": 3,
+      "difficulty": "hard",
+      "explanation": "We need $^nC_1, {}^nC_2, {}^nC_3$ in AP, i.e. $2\\,{}^nC_2 = {}^nC_1+{}^nC_3$. For $n=7$: $7, 21, 35$, which indeed form an AP (common difference 14)."
+    },
+    {
+      "id": "mat-binomial-theorem-030",
+      "q": "The sum of the coefficients in the expansion of $(2x-1)^{10}$ is",
+      "options": [
+        "1024",
+        "59049",
+        "1",
+        "-1"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "Putting $x=1$ gives the sum of coefficients: $(2(1)-1)^{10} = 1^{10} = 1$."
+    },
+    {
+      "id": "mat-binomial-theorem-031",
+      "q": "If the sum of the coefficients in the expansion of $(x+y)^n$ is 128, the value of $n$ is",
+      "options": [
+        "7",
+        "128",
+        "6",
+        "8"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "Putting $x=y=1$ gives $2^n = 128 = 2^7$, so $n=7$."
+    },
+    {
+      "id": "mat-binomial-theorem-032",
+      "q": "The number of terms in the expansion of $(x-y)^{12}$ is",
+      "options": [
+        "11",
+        "13",
+        "14",
+        "12"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "The expansion of $(a+b)^n$ has $n+1$ terms, so $(x-y)^{12}$ has $12+1=13$ terms."
+    },
+    {
+      "id": "mat-binomial-theorem-033",
+      "q": "In the expansion of $(1+x)^n$, the coefficient of $x^r$ is",
+      "options": [
+        "$^nP_r$",
+        "$^nC_r$",
+        "$r\\cdot{}^nC_r$",
+        "$^nC_{r-1}$"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "The general term is $^nC_r x^r$, so the coefficient of $x^r$ is simply $^nC_r$."
+    },
+    {
+      "id": "mat-binomial-theorem-034",
+      "q": "If $^nC_4 = {}^nC_6$, then $^nC_2$ equals",
+      "options": [
+        "45",
+        "66",
+        "55",
+        "36"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "$^nC_4={}^nC_6 \\Rightarrow n=4+6=10$ (since $r_1\\ne r_2$). Then $^{10}C_2 = 45$."
+    },
+    {
+      "id": "mat-binomial-theorem-035",
+      "q": "In the expansion of $(1+x)^{20}$, comparing the coefficients of $x^{10}$ and $x^{11}$,",
+      "options": [
+        "both are equal",
+        "the coefficient of $x^{11}$ is greater",
+        "they cannot be compared",
+        "the coefficient of $x^{10}$ is greater"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "Since $n=20$ is even, the coefficients $^{20}C_r$ are largest at $r=10$ (the middle term) and decrease moving away from it, so $^{20}C_{10} > {}^{20}C_{11}$."
+    },
+    {
+      "id": "mat-binomial-theorem-036",
+      "q": "The term independent of $x$ in the expansion of $\\left(x + \\dfrac{1}{x}\\right)^{10}$ is",
+      "options": [
+        "120",
+        "210",
+        "252",
+        "45"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "$T_{r+1} = {}^{10}C_r x^{10-2r}$. Setting $10-2r=0$ gives $r=5$, so the term is $^{10}C_5 = 252$."
+    },
+    {
+      "id": "mat-binomial-theorem-037",
+      "q": "The value of $^{20}C_{18}$ is",
+      "options": [
+        "380",
+        "190",
+        "180",
+        "210"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "$^{20}C_{18} = {}^{20}C_{2} = \\dfrac{20\\times19}{2} = 190$."
+    },
+    {
+      "id": "mat-binomial-theorem-038",
+      "q": "The coefficient of $x^3$ in the expansion of $(1-2x)^7$ is",
+      "options": [
+        "-280",
+        "-140",
+        "140",
+        "280"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "$T_{r+1} = {}^7C_r(-2x)^r$. For $r=3$: $^7C_3(-2)^3 = 35\\times(-8) = -280$."
+    },
+    {
+      "id": "mat-binomial-theorem-039",
+      "q": "Which of the following statements about binomial coefficients $^nC_r$ is TRUE?",
+      "options": [
+        "$^nC_r = \\dfrac{n!}{r!}$ only",
+        "$^nC_r$ is always odd",
+        "$^nC_0 = n$",
+        "$^nC_r = {}^nC_{n-r}$"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "The symmetry property $^nC_r = {}^nC_{n-r}$ always holds; the other statements are false in general (e.g. $^nC_0=1$, not $n$)."
+    },
+    {
+      "id": "mat-binomial-theorem-040",
+      "q": "The coefficient of $y^3$ in the expansion of $(2-y)^5$ is",
+      "options": [
+        "40",
+        "10",
+        "-40",
+        "-10"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "$T_{r+1} = {}^5C_r\\,2^{5-r}(-y)^r$. For $r=3$: $^5C_3\\,2^2(-1)^3 = 10\\times4\\times(-1) = -40$."
+    }
+  ]
+}

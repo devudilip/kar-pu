@@ -1,0 +1,819 @@
+{
+  "title": "KCET 2013 Physics",
+  "year": 2013,
+  "subject": "physics",
+  "code": "A-1",
+  "source": "KEA question paper (copy) + KEA answer key column A1",
+  "excluded": [],
+  "questions": [
+    {
+      "n": 1,
+      "q": "Which one of the following is NOT correct ?",
+      "options": [
+        "Dimensional formula of thermal conductivity (K) is M$^1$L$^1$T$^{-3}$K$^{-1}$",
+        "Dimensional formula of potential (V) is M$^1$L$^2$T$^3$A$^{-1}$",
+        "Dimensional formula of permeability of free space ($\\mu_0$) is M$^1$L$^1$T$^{-2}$A$^{-2}$",
+        "Dimensional formula of RC is M$^0$L$^0$T$^{-1}$"
+      ],
+      "answer": 1,
+      "chapter": "Units and Measurements",
+      "explanation": "Potential actually has dimension M$^1$L$^2$T$^{-3}$A$^{-1}$ (T exponent should be $-3$, not $+3$), and RC (a time constant) has dimension T$^1$, not T$^{-1}$; so both (2) and (4) are not correct, matching the KEA key.",
+      "alsoCorrect": [
+        3
+      ]
+    },
+    {
+      "n": 2,
+      "q": "In a lift moving up with an acceleration of 5 ms$^{-2}$, a ball is dropped from a height of 1.25 m. The time taken by the ball to reach the floor of the lift is ...... (nearly) (g = 10 ms$^{-2}$)",
+      "options": [
+        "0.3 second",
+        "0.2 second",
+        "0.16 second",
+        "0.4 second"
+      ],
+      "answer": 3,
+      "chapter": "Laws of Motion",
+      "explanation": "Inside the accelerating lift, the effective gravity is $g'=g+a=15\\ \\text{ms}^{-2}$. Using $h=\\dfrac{1}{2}g't^2$, $t=\\sqrt{2h/g'}=\\sqrt{2(1.25)/15}\\approx0.41\\text{ s}\\approx0.4\\text{ s}$."
+    },
+    {
+      "n": 3,
+      "q": "A gun fires a small bullet with kinetic energy K. Then kinetic energy of the gun while recoiling is",
+      "options": [
+        "K",
+        "more than K",
+        "less than K",
+        "$\\sqrt{K}$"
+      ],
+      "answer": 2,
+      "chapter": "Laws of Motion",
+      "explanation": "By momentum conservation the gun and bullet have equal and opposite momentum $p$. Since $KE=p^2/2m$, the much heavier gun (larger $m$) has a smaller kinetic energy than the bullet's $K$."
+    },
+    {
+      "n": 4,
+      "q": "From a fixed support, two small identical spheres are suspended by means of strings of length 1 m each. They are pulled aside as shown and then released. B is the mean position. Then the two spheres collide, [two identical pendulums of length 1 m hang from the same point; one is pulled to 30$^\\circ$ from the vertical on one side and the other to 60$^\\circ$ on the other side; B marks the common vertical mean position]",
+      "options": [
+        "at B after 0.25 second",
+        "at B after 0.5 second",
+        "on the right side of B after some time",
+        "on the right side of B when the strings are inclined at 15$^\\circ$ with B"
+      ],
+      "answer": 1,
+      "chapter": "Oscillations",
+      "explanation": "Both pendulums have the same length, so (for small-angle SHM) each takes a quarter period $T/4$ to swing to the mean position B, regardless of its release angle. $T=2\\pi\\sqrt{L/g}\\approx2\\text{ s}$, so $T/4\\approx0.5\\text{ s}$. (KEA's key also accepts option 3.)",
+      "alsoCorrect": [
+        2
+      ],
+      "figure": true
+    },
+    {
+      "n": 5,
+      "q": "A truck accelerates from speed v to 2v. Work done in during this is",
+      "options": [
+        "three times as the work done in accelerating it from rest to v.",
+        "same as the work done in accelerating it from rest to v.",
+        "four times as the work done in accelerating it from rest to v.",
+        "less than the work done in accelerating it from rest to v."
+      ],
+      "answer": 0,
+      "chapter": "Work, Energy and Power",
+      "explanation": "Work done = $\\Delta KE$. From $v$ to $2v$: $\\dfrac12 m(4v^2-v^2)=\\dfrac32 mv^2$, which is 3 times the work $\\dfrac12 mv^2$ done in accelerating from rest to $v$."
+    },
+    {
+      "n": 6,
+      "q": "Earth is moving around the Sun in elliptical orbit as shown. The ratio of OB and OA is R. Then the ratio of speed of Earth at A and B is [an ellipse with the Sun at its centre O; A is the topmost point (end of the minor axis) and B is the rightmost point (end of the major axis); OB/OA = R]",
+      "options": [
+        "R$^{-1}$",
+        "$\\sqrt{R}$",
+        "R",
+        "R$^{2/3}$"
+      ],
+      "answer": 2,
+      "chapter": "Gravitation",
+      "explanation": "By conservation of angular momentum (areal velocity) about O, speed is inversely proportional to distance from O, so the ratio of speeds at A and B equals OB:OA = R. KEA awarded grace marks for this question, likely because of the ambiguous figure (the Sun should really be at a focus, not the centre, of the ellipse).",
+      "grace": true,
+      "figure": true
+    },
+    {
+      "n": 7,
+      "q": "A projectile is projected at 10 ms$^{-1}$ by making at an angle 60$^\\circ$ to the horizontal. After some time its velocity makes an angle of 30$^\\circ$ to the horizontal. Its speed at this instant is",
+      "options": [
+        "$\\dfrac{10}{\\sqrt3}$",
+        "$10\\sqrt3$",
+        "$\\dfrac{5}{\\sqrt3}$",
+        "$5\\sqrt3$"
+      ],
+      "answer": 0,
+      "chapter": "Motion in a Plane",
+      "explanation": "The horizontal velocity component $v_x=10\\cos60^\\circ=5\\ \\text{ms}^{-1}$ stays constant throughout the flight. When the velocity makes 30$^\\circ$ with the horizontal, $v_x=v\\cos30^\\circ$, so $v=5/\\cos30^\\circ=10/\\sqrt3\\ \\text{ms}^{-1}$."
+    },
+    {
+      "n": 8,
+      "q": "For which combination of working temperatures of source and sink, the efficiency of Carnot's heat engine is maximum ?",
+      "options": [
+        "600 K, 400 K",
+        "400 K, 200 K",
+        "500 K, 300 K",
+        "300 K, 100 K"
+      ],
+      "answer": 3,
+      "chapter": "Thermodynamics",
+      "explanation": "Efficiency $\\eta=1-T_c/T_h$. Computing each pair gives 33.3%, 50%, 40% and 66.7% respectively, so (300 K, 100 K) gives the maximum efficiency."
+    },
+    {
+      "n": 9,
+      "q": "A solid cylinder of radius R made of a material of thermal conductivity K$_1$ is surrounded by a cylindrical shell of inner radius R and outer radius 2R made of a material of thermal conductivity K$_2$. The two ends of the combined system are maintained at two different temperatures. Then there is no loss of heat across the cylindrical surface and the system is in steady state. The effective thermal conductivity of the system is",
+      "options": [
+        "K$_1$ + K$_2$",
+        "$\\dfrac{K_1K_2}{K_1+K_2}$",
+        "$\\dfrac{3K_1+K_2}{4}$",
+        "$\\dfrac{K_1+3K_2}{4}$"
+      ],
+      "answer": 3,
+      "chapter": "Thermal Properties of Matter",
+      "explanation": "The core and shell conduct heat in parallel (same length, no radial loss); their cross-sectional areas are $\\pi R^2$ and $3\\pi R^2$, so $K_{eff}=\\dfrac{K_1(\\pi R^2)+K_2(3\\pi R^2)}{4\\pi R^2}=\\dfrac{K_1+3K_2}{4}$."
+    },
+    {
+      "n": 10,
+      "q": "Two stars A and B radiate maximum energy at the wavelengths of 360 nm and 480 nm respectively. Then the ratio of the surface temperatures of A and B is",
+      "options": [
+        "3 : 4",
+        "81 : 256",
+        "4 : 3",
+        "256 : 81"
+      ],
+      "answer": 2,
+      "chapter": "Thermal Properties of Matter",
+      "explanation": "By Wien's displacement law, $T\\propto1/\\lambda_{max}$, so $T_A:T_B=\\lambda_B:\\lambda_A=480:360=4:3$."
+    },
+    {
+      "n": 11,
+      "q": "Two solids P and Q float in water. It is observed that P floats with half of its volume immersed and Q floats with $\\dfrac{2}{3}^{rd}$ of its volume is immersed. The ratio of densities of P and Q is",
+      "options": [
+        "4/3",
+        "3/4",
+        "2/3",
+        "3/2"
+      ],
+      "answer": 1,
+      "chapter": "Mechanical Properties of Fluids",
+      "explanation": "For a floating body, the fraction immersed equals the ratio of its density to water's density: $\\rho_P=0.5\\rho_w$, $\\rho_Q=\\dfrac23\\rho_w$, so $\\rho_P:\\rho_Q=0.5:\\dfrac23=3:4$."
+    },
+    {
+      "n": 12,
+      "q": "The equation of a transverse wave is given by y = 0.05 sin $\\pi$(2t $-$ 0.02x), where x, y are in metre and t is in second. The minimum distance of separation between two particles which are in phase and the wave velocity are respectively",
+      "options": [
+        "50 m, 50 ms$^{-1}$",
+        "100 m, 100 ms$^{-1}$",
+        "50 m, 100 ms$^{-1}$",
+        "100 m, 50 ms$^{-1}$"
+      ],
+      "answer": 1,
+      "chapter": "Waves",
+      "explanation": "Comparing with $y=A\\sin(\\omega t-kx)$: $\\omega=2\\pi$ rad/s, $k=0.02\\pi$ rad/m. Wavelength (the least separation between particles in the same phase) $\\lambda=2\\pi/k=100$ m; wave speed $v=\\omega/k=100\\ \\text{ms}^{-1}$."
+    },
+    {
+      "n": 13,
+      "q": "The frequency of the second overtone of the open pipe is equal to the frequency of the first overtone of the closed pipe. The ratio of the lengths of the open pipe and the closed pipe is",
+      "options": [
+        "2 : 1",
+        "1 : 2",
+        "1 : 3",
+        "3 : 1"
+      ],
+      "answer": 0,
+      "chapter": "Waves",
+      "explanation": "Open pipe 2nd overtone (3rd harmonic): $f=3v/2L_o$. Closed pipe 1st overtone (3rd harmonic): $f=3v/4L_c$. Equating gives $L_o:L_c=2:1$."
+    },
+    {
+      "n": 14,
+      "q": "A person with vibrating tuning fork of frequency 338 Hz is moving towards a vertical wall with a speed of 2 ms$^{-1}$. Velocity of sound in air is 340 ms$^{-1}$. The number of beats heard by that person per second is",
+      "options": [
+        "2",
+        "4",
+        "6",
+        "8"
+      ],
+      "answer": 1,
+      "chapter": "Waves",
+      "explanation": "The wall receives sound from a source (the person) approaching at 2 ms$^{-1}$: $f'=f\\dfrac{v}{v-v_s}=338\\times\\dfrac{340}{338}=340$ Hz. The person (now a moving observer approaching the wall) hears this reflected wave as $f''=f'\\dfrac{v+v_o}{v}=340\\times\\dfrac{342}{340}=342$ Hz. Beats $=f''-f=342-338=4$."
+    },
+    {
+      "n": 15,
+      "q": "Pick out the WRONG statement from the following :",
+      "options": [
+        "Lateral shift increases as the angle of incidence increases.",
+        "Lateral shift increases as the value of refractive index increases.",
+        "Normal shift decreases as the value of refractive index increases.",
+        "Both normal shift and lateral shift are directly proportional to the thickness of the medium."
+      ],
+      "answer": 2,
+      "chapter": "Ray Optics and Optical Instruments",
+      "explanation": "Normal (apparent) shift $=t(1-1/n)$; as the refractive index $n$ increases, $1/n$ decreases, so the shift actually increases — making statement (3) the wrong one."
+    },
+    {
+      "n": 16,
+      "q": "The refraction through the prisms are as shown. Pick out the WRONG statement from the following. Path of the light ray in [four triangular prisms (a), (b), (c), (d), each showing a ray entering from a medium of index n$_1$, refracting through the prism material n$_2$, and emerging into a medium of index n$_3$, with slightly different bend directions drawn in each diagram]",
+      "options": [
+        "a is correct if n$_2$ > n$_1$ and n$_2$ > n$_3$",
+        "b is correct if n$_1$ = n$_2$ and n$_2$ > n$_3$",
+        "c is correct if n$_2$ < n$_1$ and n$_2$ = n$_3$",
+        "d is correct if n$_1$ > n$_2$ and n$_2$ < n$_3$"
+      ],
+      "answer": 2,
+      "chapter": "Ray Optics and Optical Instruments",
+      "explanation": "A ray bends towards the normal on entering a denser medium and away from the normal on entering a rarer one. Applying this to the four sketched ray paths, the KEA key accepted both statements (c) and (d) as correct descriptions of their diagrams.",
+      "alsoCorrect": [
+        3
+      ],
+      "figure": true
+    },
+    {
+      "n": 17,
+      "q": "The distance between an object and its real image produced by a converging lens is 0.72 m. The magnification is 2. What will be the magnification when the object is moved by 0.04 m towards the lens ?",
+      "options": [
+        "2",
+        "4",
+        "3",
+        "6"
+      ],
+      "answer": 1,
+      "chapter": "Ray Optics and Optical Instruments",
+      "explanation": "With $|u|+v=0.72$ and $v=2|u|$, $|u|=0.24$ m, $v=0.48$ m, giving $f=0.16$ m. Moving the object to $|u'|=0.20$ m gives $v'=0.8$ m and new magnification $m'=v'/u'=4$."
+    },
+    {
+      "n": 18,
+      "q": "The speed of light in media M$_1$ and M$_2$ are 1.5 $\\times$ 10$^8$ ms$^{-1}$ and 2 $\\times$ 10$^8$ ms$^{-1}$ respectively. A ray travels from medium M$_1$ to the medium M$_2$ with an angle of incidence $\\theta$. The ray suffers total internal reflection. Then the value of the angle of incidence $\\theta$ is",
+      "options": [
+        "> sin$^{-1}\\left(\\dfrac34\\right)$",
+        "< sin$^{-1}\\left(\\dfrac34\\right)$",
+        "= sin$^{-1}\\left(\\dfrac43\\right)$",
+        "$\\le$ sin$^{-1}\\left(\\dfrac34\\right)$"
+      ],
+      "answer": 0,
+      "chapter": "Ray Optics and Optical Instruments",
+      "explanation": "$n_1=c/v_1=2$, $n_2=c/v_2=1.5$. Critical angle $\\theta_c=\\sin^{-1}(n_2/n_1)=\\sin^{-1}(3/4)$. Total internal reflection occurs only when the angle of incidence exceeds this critical angle."
+    },
+    {
+      "n": 19,
+      "q": "Which of the following phenomena support the wave theory of light ?\n(a) scattering\n(b) interference\n(c) diffraction\n(d) velocity of light in a denser medium is less than the velocity of light in the rarer medium",
+      "options": [
+        "a, b, c",
+        "a, b, d",
+        "b, c, d",
+        "a, c, d"
+      ],
+      "answer": 2,
+      "chapter": "Wave Optics",
+      "explanation": "Interference and diffraction are explained only by wave theory. The lower speed of light in a denser medium (predicted by Huygens' wave theory, contrary to Newton's corpuscular theory) also supports the wave nature; scattering does not specifically favour either theory."
+    },
+    {
+      "n": 20,
+      "q": "White light reflected from a soap film (Refractive Index = 1.5) has a maxima at 600 nm and a minima at 450 nm with no minimum in between. Then the thickness of the film is ______ $\\times$ 10$^{-7}$ m.",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "answer": 2,
+      "chapter": "Wave Optics",
+      "explanation": "For reflected light: minima $2\\mu t=m\\lambda$, maxima $2\\mu t=(n+\\tfrac12)\\lambda$. Taking the adjacent orders $m=2$ (for 450 nm) and $n=1$ (for 600 nm) gives $2\\mu t=900$ nm, so $t=900/(2\\times1.5)=300$ nm $=3\\times10^{-7}$ m."
+    },
+    {
+      "n": 21,
+      "q": "A cylindrical tube of length 0.2 m and radius R with sugar solution of concentration 'C' produce a rotation of $\\theta$ in the plane of vibration of a plane polarized light. The same sugar solution is transferred to another tube of length 0.3 m of same radius. The remaining gap is filled by distilled water. Now the optical rotation produced is",
+      "options": [
+        "$\\theta$",
+        "$2\\dfrac{\\theta}{3}$",
+        "$3\\dfrac{\\theta}{2}$",
+        "$9\\dfrac{\\theta}{4}$"
+      ],
+      "answer": 0,
+      "chapter": "Wave Optics",
+      "explanation": "Optical rotation $\\theta\\propto$ concentration $\\times$ length. Spreading the same amount of sugar over a longer tube (0.3 m instead of 0.2 m, same radius) reduces its concentration to $\\dfrac{0.2}{0.3}C=\\dfrac23C$, so the new rotation $=k\\times\\dfrac23C\\times0.3=k\\times C\\times0.2=\\theta$, unchanged."
+    },
+    {
+      "n": 22,
+      "q": "Radii of curvature of a converging lens are in the ratio 1 : 2. Its focal length is 6 cm and refractive index is 1.5. Then its radii of curvature are ________ respectively.",
+      "options": [
+        "9 cm and 18 cm",
+        "6 cm and 12 cm",
+        "3 cm and 6 cm",
+        "4.5 cm and 9 cm"
+      ],
+      "answer": 3,
+      "chapter": "Ray Optics and Optical Instruments",
+      "explanation": "For a biconvex lens, $\\dfrac1f=(n-1)\\left(\\dfrac{1}{R_1}-\\dfrac{1}{R_2}\\right)$ with $R_2=-2R_1$: $\\dfrac16=0.5\\left(\\dfrac{1}{R_1}+\\dfrac{1}{2R_1}\\right)=\\dfrac{0.75}{R_1}$, giving $R_1=4.5$ cm and $R_2=9$ cm."
+    },
+    {
+      "n": 23,
+      "q": "A small oil drop of mass 10$^{-6}$ kg is hanging in at rest between two plates separated by 1 mm having a potential difference of 500 V. The charge on the drop is ________ (g = 10 ms$^{-2}$)",
+      "options": [
+        "2 $\\times$ 10$^{-9}$ C",
+        "2 $\\times$ 10$^{-11}$ C",
+        "2 $\\times$ 10$^{-6}$ C",
+        "2 $\\times$ 10$^{-8}$ C"
+      ],
+      "answer": 1,
+      "chapter": "Electric Charges and Fields",
+      "explanation": "For equilibrium, $qE=mg$: $E=V/d=500/10^{-3}=5\\times10^5\\ \\text{Vm}^{-1}$; $q=mg/E=(10^{-6}\\times10)/(5\\times10^5)=2\\times10^{-11}$ C."
+    },
+    {
+      "n": 24,
+      "q": "A uniform electric field in the plane of the paper as shown. Here A, B, C, D are the points on the circle. V$_1$, V$_2$, V$_3$, V$_4$ are the potentials at those points respectively. Then [horizontal field lines pass through a circle; A is the topmost point and B the bottommost point of the circle (both on the vertical diameter), while C and D lie on the horizontal diameter, C on the left and D on the right]",
+      "options": [
+        "V$_A$ = V$_C$, V$_B$ = V$_D$",
+        "V$_A$ = V$_C$, V$_B$ > V$_D$",
+        "V$_A$ > V$_C$, V$_B$ > V$_D$",
+        "V$_A$ = V$_B$, V$_C$ = V$_D$"
+      ],
+      "answer": 3,
+      "chapter": "Electric Charges and Fields",
+      "explanation": "The circle represents a conductor placed in the uniform field; in electrostatic equilibrium its entire surface is one equipotential, so all four points share the same potential (in particular V_A = V_B and V_C = V_D). KEA marked this question for grace marks.",
+      "grace": true,
+      "figure": true
+    },
+    {
+      "n": 25,
+      "q": "Two metal spheres of radii 0.01 m and 0.02 m are given a charge of 15 mC and 45 mC respectively. They are then connected by a wire. The final charge on the first sphere is ______ $\\times$ 10$^{-3}$ C.",
+      "options": [
+        "40",
+        "30",
+        "20",
+        "10"
+      ],
+      "answer": 2,
+      "chapter": "Electrostatic Potential and Capacitance",
+      "explanation": "Connecting the spheres by a wire brings them to the same potential, so the total charge (60 mC) divides in the ratio of their radii: $Q_1=\\dfrac{0.01}{0.01+0.02}\\times60=20\\times10^{-3}$ C."
+    },
+    {
+      "n": 26,
+      "q": "Two concentric spheres of radii R and r have positive charges q$_1$ and q$_2$ with equal surface charge densities. What is the electric potential at their common centre ?",
+      "options": [
+        "$\\dfrac{\\sigma}{\\epsilon_0}(R+r)$",
+        "$\\dfrac{\\sigma}{\\epsilon_0}(R-r)$",
+        "$\\dfrac{\\sigma}{\\epsilon_0}\\left(\\dfrac1R+\\dfrac1r\\right)$",
+        "$\\dfrac{\\sigma}{\\epsilon_0}\\left(\\dfrac{R}{r}\\right)$"
+      ],
+      "answer": 0,
+      "chapter": "Electrostatic Potential and Capacitance",
+      "explanation": "Both shells contribute to the centre's potential: $V=\\dfrac{1}{4\\pi\\epsilon_0}\\left(\\dfrac{q_1}{R}+\\dfrac{q_2}{r}\\right)$. Using $q=\\sigma\\times4\\pi(\\text{radius})^2$ for each shell gives $V=\\dfrac{\\sigma}{\\epsilon_0}(R+r)$."
+    },
+    {
+      "n": 27,
+      "q": "When an additional charge of 2C is given to a capacitor, energy stored in it is increased by 21%. The original charge of the capacitor is",
+      "options": [
+        "30 C",
+        "40 C",
+        "10 C",
+        "20 C"
+      ],
+      "answer": 3,
+      "chapter": "Electrostatic Potential and Capacitance",
+      "explanation": "Energy $U=q^2/2C$. $(q+2)^2=1.21q^2\\Rightarrow q+2=1.1q\\Rightarrow q=20$ C."
+    },
+    {
+      "n": 28,
+      "q": "When a potential difference of 10$^3$ V is applied between A and B, a charge of 0.75 mC is stored in the system of capacitors as shown. The value of C is (in $\\mu$F) [a quadrilateral capacitor bridge: the top side has two 2 $\\mu$F capacitors in series through a midpoint node; the bottom side has one 2 $\\mu$F capacitor; the right side has one 2 $\\mu$F capacitor; a diagonal from the bottom-left corner to the top-right corner carries the unknown capacitor C; the 10$^3$ V source connects the bottom-left corner (A) to the top-left corner (B)]",
+      "options": [
+        "1/2",
+        "2",
+        "2.5",
+        "3"
+      ],
+      "answer": 1,
+      "chapter": "Electrostatic Potential and Capacitance",
+      "explanation": "Writing charge-conservation (node) equations for this capacitor bridge with the given source and requiring the total charge drawn to equal 0.75 mC gives C = 2 $\\mu$F.",
+      "figure": true
+    },
+    {
+      "n": 29,
+      "q": "See the diagram. Area of each plate is 2.0 m$^2$ and d = 2 $\\times$ 10$^{-3}$ m. A charge of 8.85 $\\times$ 10$^{-8}$ C is given to Q. Then the potential of Q becomes [three parallel plates P, Q, R; the gap between P and Q is d, and the gap between Q and R is 2d; P and R are both connected to ground]",
+      "options": [
+        "13 V",
+        "10 V",
+        "6.67 V",
+        "8.825 V"
+      ],
+      "answer": 2,
+      "chapter": "Electrostatic Potential and Capacitance",
+      "explanation": "The charge on the isolated middle plate Q splits between its two faces inversely with distance (since both P and R are grounded): the face towards P (gap $d$) carries $\\dfrac23$ of the total charge. $V_Q=\\dfrac{q_{top}\\,d}{\\epsilon_0 A}=\\dfrac{(2/3)(8.85\\times10^{-8})(2\\times10^{-3})}{8.85\\times10^{-12}\\times2}\\approx6.67$ V.",
+      "figure": true
+    },
+    {
+      "n": 30,
+      "q": "Three conductors draw currents of 1 A, 2 A and 3 A respectively, when connected in turn across a battery. If they are connected in series and the combination is connected across the same battery, the current drawn will be",
+      "options": [
+        "2/7 A",
+        "3/7 A",
+        "4/7 A",
+        "5/7 A"
+      ],
+      "answer": 2,
+      "chapter": "Current Electricity",
+      "explanation": "Treating the battery as ideal, each conductor's resistance is $R_i=V/I_i$, so the series current is $I_s=\\dfrac{V}{\\sum R_i}=\\dfrac{1}{\\sum(1/I_i)}=\\dfrac{1}{1+1/2+1/3}=\\dfrac{6}{11}\\approx0.545$ A. This does not exactly match any option (closest is 4/7 $\\approx$ 0.571 A), so KEA granted grace marks for this question.",
+      "grace": true
+    },
+    {
+      "n": 31,
+      "q": "In the circuit, R$_1$ = R$_2$. The value of E and R$_1$ are ________ (E $-$ EMF, R$_1$ $-$ resistance) [a cell E with internal resistance r = 0 in series with resistor R$_1$; the line then splits into two parallel branches returning to the cell, one containing R$_2$ and the other an unlabelled resistor carrying a current of 1.5 A]",
+      "options": [
+        "180 V, 60 $\\Omega$",
+        "120 V, 60 $\\Omega$",
+        "180 V, 10 $\\Omega$",
+        "120 V, 10 $\\Omega$"
+      ],
+      "answer": 1,
+      "chapter": "Current Electricity",
+      "explanation": "The second parallel branch's resistance value is not legible/printed on this scanned copy, so the circuit cannot be solved exactly as given; taking that resistor as 10 $\\Omega$ reproduces E = 120 V, R$_1$ = 60 $\\Omega$ (option 2). KEA granted grace marks for this question, most likely because of a missing value in the original figure.",
+      "grace": true,
+      "figure": true
+    },
+    {
+      "n": 32,
+      "q": "Masses of three wires of copper are in the ratio of 1 : 3 : 5 and their lengths are in the ratio of 5 : 3 : 1. The ratio of their electrical resistances is",
+      "options": [
+        "1 : 3 : 5",
+        "5 : 3 : 1",
+        "1 : 15 : 125",
+        "125 : 15 : 1"
+      ],
+      "answer": 3,
+      "chapter": "Current Electricity",
+      "explanation": "$R=\\rho L/A$ and mass $=\\rho_d A L$, so $R\\propto L^2/\\text{mass}$. With $L$ in ratio 5:3:1 and mass in ratio 1:3:5: $R\\propto25/1,\\,9/3,\\,1/5=25:3:0.2=125:15:1$."
+    },
+    {
+      "n": 33,
+      "q": "For a transformer, the turns ratio is 3 and its efficiency is 0.75. The current flowing in the primary coil is 2 A and the voltage applied to it is 100 V. Then the voltage and the current flowing in the secondary coil are ________ respectively.",
+      "options": [
+        "150 V, 1.5 A",
+        "300 V, 0.5 A",
+        "300 V, 1.5 A",
+        "150 V, 0.5 A"
+      ],
+      "answer": 1,
+      "chapter": "Alternating Current",
+      "explanation": "Step-up turns ratio 3 gives $V_s=3\\times100=300$ V. Input power $=100\\times2=200$ W; output power $=0.75\\times200=150$ W; $I_s=150/300=0.5$ A."
+    },
+    {
+      "n": 34,
+      "q": "A proton and helium nucleus are shot into a magnetic field at right angles to the field with same kinetic energy. Then the ratio of their radii is",
+      "options": [
+        "1 : 1",
+        "1 : 2",
+        "2 : 1",
+        "1 : 4"
+      ],
+      "answer": 0,
+      "chapter": "Moving Charges and Magnetism",
+      "explanation": "$r=\\sqrt{2mKE}/(qB)$. For a proton ($m,\\,q=e$) versus a He nucleus ($4m,\\,q=2e$) at the same $KE$: $r_p/r_{He}=\\dfrac{\\sqrt{m}/e}{\\sqrt{4m}/2e}=1$."
+    },
+    {
+      "n": 35,
+      "q": "Two identical circular coils A and B are kept on a horizontal tube side by side without touching each other. If the current in the coil A increases with time, in response, the coil B",
+      "options": [
+        "is attracted by A",
+        "remains stationary",
+        "is repelled",
+        "rotates"
+      ],
+      "answer": 2,
+      "chapter": "Electromagnetic Induction",
+      "explanation": "By Lenz's law, the current induced in B opposes the increasing flux from A, which makes the facing sides of A and B act like similar magnetic poles, so B is repelled."
+    },
+    {
+      "n": 36,
+      "q": "In the diagram, I$_1$, I$_2$ are the strength of the currents in the loop and straight conductors respectively. OA = AB = R. The net magnetic field at the centre O is zero. Then the ratio of the currents in the loop and the straight conductors is [a circular loop of radius R carrying current I$_1$ is centred at O; point A lies on the loop directly below O; a long straight horizontal wire carrying current I$_2$ passes through point B, a further distance R below A]",
+      "options": [
+        "$\\pi$",
+        "$2\\pi$",
+        "$\\dfrac{1}{\\pi}$",
+        "$\\dfrac{1}{2\\pi}$"
+      ],
+      "answer": 3,
+      "chapter": "Moving Charges and Magnetism",
+      "explanation": "Field at O due to the loop $=\\dfrac{\\mu_0I_1}{2R}$; field at O due to the wire (at distance $2R$) $=\\dfrac{\\mu_0I_2}{2\\pi(2R)}=\\dfrac{\\mu_0I_2}{4\\pi R}$. Equating (opposing directions) gives $I_1/I_2=\\dfrac{1}{2\\pi}$.",
+      "figure": true
+    },
+    {
+      "n": 37,
+      "q": "Two tangent galvanometers, which are identical except in their number of turns, are connected in parallel. The ratio of their resistances of the coils is 1 : 3. If the deflections in the two tangent galvanometers are 30$^\\circ$ and 60$^\\circ$ respectively, then the ratio of their number of turns is",
+      "options": [
+        "1 : 1",
+        "3 : 1",
+        "1 : 2",
+        "1 : 6"
+      ],
+      "answer": 0,
+      "chapter": "Moving Charges and Magnetism",
+      "explanation": "For a tangent galvanometer $I\\propto n\\tan\\theta$, and in parallel the branch currents satisfy $I\\propto1/R$. Depending on which coil is taken to have the larger resistance, the turns ratio works out to 1:1 or 9:1, so the question is ambiguous; KEA granted grace marks for it.",
+      "grace": true
+    },
+    {
+      "n": 38,
+      "q": "A charged particle with a velocity 2 $\\times$ 10$^3$ ms$^{-1}$ passes undeflected through electric field and magnetic fields in mutually perpendicular directions. The magnetic field is 1.5 T. The magnitude of electric field will be",
+      "options": [
+        "1.5 $\\times$ 10$^3$ NC$^{-1}$",
+        "2 $\\times$ 10$^3$ NC$^{-1}$",
+        "3 $\\times$ 10$^3$ NC$^{-1}$",
+        "1.33 $\\times$ 10$^3$ NC$^{-1}$"
+      ],
+      "answer": 2,
+      "chapter": "Moving Charges and Magnetism",
+      "explanation": "For a velocity selector (undeflected path), $qE=qvB$, so $E=vB=2\\times10^3\\times1.5=3\\times10^3\\ \\text{NC}^{-1}$."
+    },
+    {
+      "n": 39,
+      "q": "In R-L-C series circuit, the potential differences across each element is 20 V. Now the value of the resistance alone is doubled, then P.D. across R, L and C respectively",
+      "options": [
+        "20 V, 10 V, 10 V",
+        "20 V, 20 V, 20 V",
+        "20 V, 40 V, 40 V",
+        "10 V, 20 V, 20 V"
+      ],
+      "answer": 0,
+      "chapter": "Alternating Current",
+      "explanation": "Equal PDs across R, L, C mean the circuit is at resonance ($X_L=X_C=R$ numerically) with source voltage 20 V. Doubling $R$ preserves resonance ($X_L=X_C$ unchanged), halving the current; $V_R$ stays 20 V (since $Z=R$ at resonance, so $V_R=$ source voltage), while $V_L=V_C$ each halve to 10 V."
+    },
+    {
+      "n": 40,
+      "q": "A rectangular coil of 100 turns and size 0.1 m $\\times$ 0.05 m is placed perpendicular to a magnetic field of 0.1 T. If the field drops to 0.05 T in 0.05 second, the magnitude of the e.m.f. induced in the coil is",
+      "options": [
+        "$\\sqrt2$",
+        "$\\sqrt3$",
+        "$\\sqrt{0.6}$",
+        "$\\sqrt6$"
+      ],
+      "answer": 2,
+      "chapter": "Electromagnetic Induction",
+      "explanation": "$\\text{EMF}=NA\\,\\dfrac{dB}{dt}=100\\times0.005\\times\\dfrac{0.05}{0.05}=0.5\\ \\text{V}=\\sqrt{0.25}\\ \\text{V}$, which does not match any of the given square-root options; KEA granted grace marks for this question.",
+      "grace": true
+    },
+    {
+      "n": 41,
+      "q": "In the circuit diagram, heat produces in R, 2R and 1.5R are in the ratio of [current enters a parallel combination of resistors R and 2R, which then reconnects in series with a resistor 1.5R before leaving]",
+      "options": [
+        "4 : 2 : 3",
+        "8 : 4 : 27",
+        "2 : 4 : 3",
+        "27 : 8 : 4"
+      ],
+      "answer": 1,
+      "chapter": "Current Electricity",
+      "explanation": "Current splits as $I_R:I_{2R}=2:1$ (inversely as resistance). Heat $\\propto I^2R$: $H_R:H_{2R}=\\left(\\dfrac{2I}{3}\\right)^2R:\\left(\\dfrac{I}{3}\\right)^2(2R)=4:2$; with $H_{1.5R}=I^2(1.5R)$, overall $H_R:H_{2R}:H_{1.5R}=\\dfrac49:\\dfrac29:\\dfrac32=8:4:27$.",
+      "figure": true
+    },
+    {
+      "n": 42,
+      "q": "A series combination of resistor (R), capacitor (C) is connected to an A.C. source of angular frequency '$\\omega$'. Keeping the voltage same, if the frequency is changed to $\\omega$/3, the current becomes half of the original current. Then the ratio of the capacitive reactance and resistance at the former frequency is",
+      "options": [
+        "$\\sqrt{0.6}$",
+        "$\\sqrt3$",
+        "$\\sqrt2$",
+        "$\\sqrt6$"
+      ],
+      "answer": 0,
+      "chapter": "Alternating Current",
+      "explanation": "Same voltage, halved current, and $X_C$ tripling (since $\\omega\\to\\omega/3$) at the same $R$ gives $Z_2=2Z_1$: $R^2+9X_C^2=4(R^2+X_C^2)\\Rightarrow5X_C^2=3R^2\\Rightarrow X_C/R=\\sqrt{0.6}$."
+    },
+    {
+      "n": 43,
+      "q": "Pick out the correct statement from the following :",
+      "options": [
+        "Mercury vapour lamp produces line emission spectrum.",
+        "Oil flame produces line emission spectrum.",
+        "Band spectrum helps us to study molecular structure.",
+        "Sunlight spectrum is an example for line absorption spectrum."
+      ],
+      "answer": 0,
+      "chapter": "Atoms",
+      "explanation": "A mercury vapour lamp gives a discrete line emission spectrum; band spectra (from molecules) are used to study molecular structure; and the Fraunhofer lines in sunlight form a line absorption spectrum — so statements (1), (3) and (4) are all correct (an oil flame does not give a clean line spectrum).",
+      "alsoCorrect": [
+        2,
+        3
+      ]
+    },
+    {
+      "n": 44,
+      "q": "Light emitted during the deexcitation of electron from n = 3 to n = 2, when incident on a metal, photoelectrons are just emitted from that metal. In which of the following deexcitations photoelectric effect is not possible ?",
+      "options": [
+        "From n = 2 to n = 1",
+        "From n = 3 to n = 1",
+        "From n = 5 to n = 2",
+        "From n = 4 to n = 3"
+      ],
+      "answer": 3,
+      "chapter": "Dual Nature of Radiation and Matter",
+      "explanation": "The $n=3\\to2$ photon energy ($\\approx1.89$ eV for hydrogen) just equals the metal's work function. Checking each transition's energy (10.2 eV, 12.09 eV, 2.86 eV, 0.66 eV), only $n=4\\to3$ (0.66 eV) is less than the work function, so photoelectric emission is not possible for it."
+    },
+    {
+      "n": 45,
+      "q": "The additional energy that should be given to an electron to reduce its de-Broglie wavelength from 1 nm to 0.5 nm is",
+      "options": [
+        "2 times the initial kinetic energy",
+        "3 times the initial kinetic energy",
+        "0.5 times the initial kinetic energy",
+        "4 times the initial kinetic energy"
+      ],
+      "answer": 1,
+      "chapter": "Dual Nature of Radiation and Matter",
+      "explanation": "$KE=h^2/2m\\lambda^2\\propto1/\\lambda^2$. Halving $\\lambda$ quadruples $KE$, so the additional energy needed $=4KE-KE=3\\times$(initial $KE$)."
+    },
+    {
+      "n": 46,
+      "q": "The ionisation energy of an electron in the ground state of helium atom is 24.6 eV. The energy required to remove both the electron is",
+      "options": [
+        "51.8 eV",
+        "79 eV",
+        "38.2 eV",
+        "49.2 eV"
+      ],
+      "answer": 1,
+      "chapter": "Atoms",
+      "explanation": "Removing the first electron needs the given 24.6 eV. The remaining electron sees a hydrogen-like ion with $Z=2$, needing $13.6\\times2^2=54.4$ eV. Total $=24.6+54.4=79$ eV."
+    },
+    {
+      "n": 47,
+      "q": "[energy-level diagram of an atom showing three levels: 3E, 5E/3 and E] The figure shows the energy level of certain atom. When the electron deexcites from 3E to E, an electromagnetic wave of wavelength $\\lambda$ is emitted. What is the wavelength of the electromagnetic wave emitted when the electron deexcites from $\\dfrac{5E}{3}$ to E ?",
+      "options": [
+        "3$\\lambda$",
+        "2$\\lambda$",
+        "5$\\lambda$",
+        "$\\dfrac{3\\lambda}{5}$"
+      ],
+      "answer": 0,
+      "chapter": "Atoms",
+      "explanation": "$\\lambda\\propto1/\\Delta E$. $\\Delta E(3E\\to E)=2E$ gives $\\lambda$; $\\Delta E(5E/3\\to E)=2E/3$, one-third as much, so its wavelength is three times as long: $3\\lambda$.",
+      "figure": true
+    },
+    {
+      "n": 48,
+      "q": "Maximum velocity of the photoelectron emitted by a metal is 1.8 $\\times$ 10$^6$ ms$^{-1}$. Take the value of specific charge of the electron is 1.8 $\\times$ 10$^{11}$ C kg$^{-1}$. Then the stopping potential in volt is",
+      "options": [
+        "1",
+        "3",
+        "9",
+        "6"
+      ],
+      "answer": 2,
+      "chapter": "Dual Nature of Radiation and Matter",
+      "explanation": "$eV_0=\\dfrac12mv^2\\Rightarrow V_0=\\dfrac12\\left(\\dfrac{m}{e}\\right)v^2=\\dfrac12\\times\\dfrac{1}{1.8\\times10^{11}}\\times(1.8\\times10^6)^2=9$ V."
+    },
+    {
+      "n": 49,
+      "q": "$\\lambda_1$ and $\\lambda_2$ are used to illuminate the slits. $\\beta_1$ and $\\beta_2$ are the corresponding fringe widths. The wavelength $\\lambda_1$ can produce photoelectric effect when incident on a metal. But the wavelength $\\lambda_2$ cannot produce photoelectric effect. The correct relation between $\\beta_1$ and $\\beta_2$ is",
+      "options": [
+        "$\\beta_1$ < $\\beta_2$",
+        "$\\beta_1$ = $\\beta_2$",
+        "$\\beta_1$ > $\\beta_2$",
+        "$\\beta_1 \\ge \\beta_2$"
+      ],
+      "answer": 0,
+      "chapter": "Dual Nature of Radiation and Matter",
+      "explanation": "Since $\\lambda_1$ causes photoemission, it has the higher photon energy and hence the shorter wavelength. Fringe width $\\beta=\\lambda D/d\\propto\\lambda$, so the shorter $\\lambda_1$ gives the smaller fringe width: $\\beta_1<\\beta_2$."
+    },
+    {
+      "n": 50,
+      "q": "Pick out the correct statement/s from the following :\n(a) Electron emission during $\\beta$-decay is always accompanied by neutrino.\n(b) Nuclear force is charge independent.\n(c) Fusion is the chief source of stellar energy.",
+      "options": [
+        "(a), (b) are correct.",
+        "(a), (c) are correct.",
+        "only (a) is correct.",
+        "(b), (c) are correct."
+      ],
+      "answer": 3,
+      "chapter": "Nuclei",
+      "explanation": "Nuclear force is charge-independent and nuclear fusion powers stars, so (b) and (c) are correct. $\\beta^-$ decay is actually accompanied by an antineutrino (not a neutrino), so strictly, statement (a) is not correct as worded."
+    },
+    {
+      "n": 51,
+      "q": "A nucleus $_Z$X$^A$ emits an $\\alpha$-particle with velocity v. The recoil speed of the daughter nucleus is",
+      "options": [
+        "$\\dfrac{A-4}{4v}$",
+        "$\\dfrac{4v}{A-4}$",
+        "v",
+        "$\\dfrac{v}{4}$"
+      ],
+      "answer": 1,
+      "chapter": "Nuclei",
+      "explanation": "By momentum conservation, $4v=(A-4)V$, so the daughter's recoil speed $V=\\dfrac{4v}{A-4}$."
+    },
+    {
+      "n": 52,
+      "q": "A radioactive substance emits 100 beta particles in the first 2 seconds and 50 beta particles in the next 2 seconds. The mean life of the sample is",
+      "options": [
+        "4 seconds",
+        "2 seconds",
+        "$\\dfrac{2}{0.693}$ seconds",
+        "2 $\\times$ 0.693 seconds"
+      ],
+      "answer": 2,
+      "chapter": "Nuclei",
+      "explanation": "The ratio of decays in successive equal intervals gives $e^{-2\\lambda}=50/100=0.5$, so $2\\lambda=\\ln2=0.693$ and mean life $=1/\\lambda=2/0.693$ s."
+    },
+    {
+      "n": 53,
+      "q": "In which of the following statements, the obtained impure semiconductor is of p-type ?",
+      "options": [
+        "Germanium is doped with bismuth",
+        "Silicon is doped with antimony",
+        "Germanium is doped with gallium",
+        "Silicon is doped with phosphorus"
+      ],
+      "answer": 2,
+      "chapter": "Semiconductor Electronics",
+      "explanation": "Doping tetravalent germanium with trivalent gallium (an acceptor impurity) creates a p-type semiconductor; the other options use pentavalent dopants (bismuth, antimony, phosphorus), which give n-type semiconductors."
+    },
+    {
+      "n": 54,
+      "q": "The width of the depletion region in a P-N junction diode is",
+      "options": [
+        "increased by reverse bias",
+        "increased by forward bias",
+        "decreased by reverse bias",
+        "independent of the bias voltage"
+      ],
+      "answer": 0,
+      "chapter": "Semiconductor Electronics",
+      "explanation": "Reverse bias pulls majority carriers further away from the junction, widening the depletion region."
+    },
+    {
+      "n": 55,
+      "q": "When the transistor is used as an amplifier",
+      "options": [
+        "Emitter-base junction must be reverse biased, Collector-base junction must be forward biased.",
+        "Emitter-base junction must be forward biased, Collector-base junction must be forward biased.",
+        "Emitter-base junction must be reverse biased, Collector-base junction must be reverse biased.",
+        "Emitter-base junction must be forward biased, Collector-base junction must be reverse biased."
+      ],
+      "answer": 3,
+      "chapter": "Semiconductor Electronics",
+      "explanation": "For amplification the emitter-base junction is forward biased (low resistance) and the collector-base junction is reverse biased (high resistance), giving voltage/power gain."
+    },
+    {
+      "n": 56,
+      "q": "Which of the following is not made by quarks ?",
+      "options": [
+        "Neutron",
+        "Positron",
+        "Proton",
+        "$\\pi$-meson"
+      ],
+      "answer": 1,
+      "chapter": "Nuclei",
+      "explanation": "Neutrons, protons and pions are hadrons built from quarks; the positron is a lepton (the electron's antiparticle) and has no internal quark structure."
+    },
+    {
+      "n": 57,
+      "q": "Which one of the following is NOT correct ?",
+      "options": [
+        "In forward biased condition diode conducts.",
+        "If the packing fraction is negative, the element is stable.",
+        "Binding energy is the energy equivalent to mass defect.",
+        "Radioactive element can undergo spontaneous fission."
+      ],
+      "answer": 1,
+      "chapter": "Nuclei",
+      "explanation": "A negative packing fraction indicates a relatively high binding energy per nucleon and hence greater — but not absolute — stability, so statement (2) is not universally correct; the other three statements are correct."
+    },
+    {
+      "n": 58,
+      "q": "The output of an OR gate is connected to both the inputs of a NAND gate. The combination will serve as",
+      "options": [
+        "AND gate",
+        "NOT gate",
+        "NAND gate",
+        "NOR gate"
+      ],
+      "answer": 3,
+      "chapter": "Semiconductor Electronics",
+      "explanation": "Feeding the same signal to both inputs of a NAND gate makes it act as a NOT gate; NOT(OR(inputs)) is exactly the NOR function."
+    },
+    {
+      "n": 59,
+      "q": "A and B are the two radioactive elements. The mixture of these elements show a total activity of 1200 disintegrations/minute. The half life of A is 1 day and that of B is 2 days. What will be the total activity after 4 days ? Given : The initial number of atoms in A and B are equal.",
+      "options": [
+        "200 dis/min",
+        "250 dis/min",
+        "500 dis/min",
+        "150 dis/min"
+      ],
+      "answer": 3,
+      "chapter": "Nuclei",
+      "explanation": "With equal initial atoms $N_0$: $\\lambda_A=\\ln2/1$ per day, $\\lambda_B=\\ln2/2$ per day, and $N_0(\\lambda_A+\\lambda_B)=1200$ fixes $N_0$. After 4 days, $N_A\\to N_0/16$ and $N_B\\to N_0/4$; the new activity $N_0(\\lambda_A/16+\\lambda_B/4)\\approx150$ dis/min."
+    },
+    {
+      "n": 60,
+      "q": "The binding energy/nucleon of deuteron ($_1$H$^2$) and the helium atom ($_2$He$^4$) are 1.1 MeV and 7 MeV respectively. If the two deuteron atoms fuse to form a single helium atom, then the energy released is",
+      "options": [
+        "26.9 MeV",
+        "25.8 MeV",
+        "23.6 MeV",
+        "12.9 MeV"
+      ],
+      "answer": 2,
+      "chapter": "Nuclei",
+      "explanation": "Total binding energy of 2 deuterons $=2\\times2\\times1.1=4.4$ MeV; binding energy of one He-4 $=4\\times7=28$ MeV. Energy released $=28-4.4=23.6$ MeV."
+    }
+  ]
+}

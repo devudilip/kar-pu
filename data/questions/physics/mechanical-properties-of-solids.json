@@ -1,0 +1,525 @@
+{
+  "notes": "<h3>Stress and strain</h3><ul><li>Stress $= F/A$ (unit: pascal, Pa = N m$^{-2}$). The three types are longitudinal, shearing (tangential) and volume (hydraulic) stress.</li><li>Strain = (change in dimension)/(original dimension) &mdash; dimensionless. Longitudinal strain $= \\Delta L/L$; shear strain = angle of shear; volumetric strain $= \\Delta V/V$.</li><li>Hooke's law: within the proportional (elastic) limit, stress $\\propto$ strain.</li></ul><h3>Elastic moduli</h3><table><tr><th>Modulus</th><th>Defined by</th><th>Applicable to</th></tr><tr><td>Young's, $Y$</td><td>$\\dfrac{\\text{longitudinal stress}}{\\text{longitudinal strain}} = \\dfrac{FL}{A\\Delta L}$</td><td>solids only</td></tr><tr><td>Shear (rigidity), $G$</td><td>$\\dfrac{\\text{shear stress}}{\\text{shear strain}}$</td><td>solids only</td></tr><tr><td>Bulk, $K$</td><td>$-V\\dfrac{\\Delta P}{\\Delta V}$</td><td>solids, liquids and gases</td></tr></table><ul><li>Compressibility $= 1/K$.</li><li>Poisson's ratio $\\sigma = \\dfrac{\\text{lateral strain}}{\\text{longitudinal strain}}$; for most materials $\\sigma \\approx 0.2$&ndash;$0.4$ (theoretical range $-1$ to $0.5$).</li></ul><h3>Stress&ndash;strain curve</h3><ul><li>Proportional limit: stress $\\propto$ strain (Hooke's law valid).</li><li>Elastic limit: the maximum stress after which removing the load still restores the original shape; beyond it, deformation becomes permanent (plastic).</li><li>Yield point, then ultimate tensile strength (the maximum stress the material can bear), and finally the fracture (breaking) point.</li></ul><h3>Elastic potential energy</h3><ul><li>Energy stored per unit volume of a stretched wire $= \\frac12\\times\\text{stress}\\times\\text{strain} = \\frac12Y(\\text{strain})^2$.</li><li>Work done in stretching a wire obeying Hooke's law by $\\Delta L$ under a final force $F$: $W = \\frac12F\\Delta L$.</li></ul><h3>Key results</h3><ul><li>Elongation $\\Delta L = \\dfrac{FL}{AY}$: for the same load and material, $\\Delta L \\propto L$ and $\\Delta L \\propto 1/A$ (i.e. $\\propto 1/r^2$ for a wire of radius $r$).</li><li>Strain produced by a given stress depends only on the material's Young's modulus, not on the length or cross-section of the sample.</li></ul><h3>Exam tip</h3><p>KCET usually sets about 1 question from this chapter, most often a direct Young's-modulus or elongation numerical, occasionally a stress&ndash;strain-curve or moduli-comparison concept question.</p>",
+  "questions": [
+    {
+      "id": "phy-mechanical-properties-of-solids-001",
+      "q": "The SI unit of stress is",
+      "options": [
+        "pascal (N m$^{-2}$)",
+        "newton",
+        "N m",
+        "it is dimensionless"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "Stress $= F/A$, so its unit is N m$^{-2}$, which is the pascal (Pa)."
+    },
+    {
+      "id": "phy-mechanical-properties-of-solids-002",
+      "q": "Strain, defined as the ratio of change in dimension to the original dimension, has",
+      "options": [
+        "units of force",
+        "units of pascal",
+        "units of length",
+        "no units (it is dimensionless)"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "Strain is a ratio of two like quantities (e.g. $\\Delta L/L$), so all units cancel and it is dimensionless."
+    },
+    {
+      "id": "phy-mechanical-properties-of-solids-003",
+      "q": "A wire of length 1 m and cross-sectional area 1 mm$^2$ stretches by 0.5 mm under a load of 100 N. Its Young's modulus is",
+      "options": [
+        "$5\\times10^{10}$ Pa",
+        "$2\\times10^{11}$ Pa",
+        "$1\\times10^{11}$ Pa",
+        "$2\\times10^{10}$ Pa"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "$Y = \\dfrac{FL}{A\\Delta L} = \\dfrac{100\\times1}{(1\\times10^{-6})(5\\times10^{-4})} = \\dfrac{100}{5\\times10^{-10}} = 2\\times10^{11}$ Pa."
+    },
+    {
+      "id": "phy-mechanical-properties-of-solids-004",
+      "q": "A wire of length 2 m, cross-sectional area $1\\times10^{-6}$ m$^2$ and Young's modulus $2\\times10^{11}$ Pa is stretched by a force of 100 N. Its elongation is",
+      "options": [
+        "0.5 mm",
+        "0.1 mm",
+        "1 mm",
+        "2 mm"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "$\\Delta L = \\dfrac{FL}{AY} = \\dfrac{100\\times2}{(1\\times10^{-6})(2\\times10^{11})} = \\dfrac{200}{2\\times10^{5}} = 1\\times10^{-3}$ m = 1 mm."
+    },
+    {
+      "id": "phy-mechanical-properties-of-solids-005",
+      "q": "Two wires of the same material and cross-sectional area, but of lengths $L$ and $2L$, are stretched by the same load. The ratio of their elongations (shorter : longer) is",
+      "options": [
+        "1 : 4",
+        "1 : 2",
+        "2 : 1",
+        "1 : 1"
+      ],
+      "answer": 1,
+      "difficulty": "hard",
+      "explanation": "$\\Delta L = FL/(AY) \\propto L$ for fixed $F, A, Y$, so the elongations are in the ratio $L:2L = 1:2$."
+    },
+    {
+      "id": "phy-mechanical-properties-of-solids-006",
+      "q": "Two wires of the same material and length, but of radii $r$ and $2r$, are stretched by the same load. The ratio of their elongations (thinner : thicker) is",
+      "options": [
+        "4 : 1",
+        "2 : 1",
+        "1 : 4",
+        "1 : 2"
+      ],
+      "answer": 0,
+      "difficulty": "hard",
+      "explanation": "$\\Delta L \\propto 1/A \\propto 1/r^2$. Ratio $= (2r)^2 : r^2 = 4:1$ for thinner to thicker."
+    },
+    {
+      "id": "phy-mechanical-properties-of-solids-007",
+      "q": "A material under a stress of $1\\times10^8$ Pa develops a strain of $1\\times10^{-3}$. The elastic potential energy stored per unit volume is",
+      "options": [
+        "$1\\times10^{11}$ J m$^{-3}$",
+        "$2.5\\times10^4$ J m$^{-3}$",
+        "$5\\times10^4$ J m$^{-3}$",
+        "$1\\times10^5$ J m$^{-3}$"
+      ],
+      "answer": 2,
+      "difficulty": "hard",
+      "explanation": "Energy density $= \\frac12\\times\\text{stress}\\times\\text{strain} = \\frac12\\times10^8\\times10^{-3} = 5\\times10^4$ J m$^{-3}$."
+    },
+    {
+      "id": "phy-mechanical-properties-of-solids-008",
+      "q": "The reciprocal of the bulk modulus of a substance is called its",
+      "options": [
+        "Poisson's ratio",
+        "rigidity modulus",
+        "Young's modulus",
+        "compressibility"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "Compressibility is defined as $1/K$, where $K$ is the bulk modulus."
+    },
+    {
+      "id": "phy-mechanical-properties-of-solids-009",
+      "q": "For most engineering materials, Poisson's ratio typically lies between",
+      "options": [
+        "1 and 2",
+        "0.2 and 0.4",
+        "$-1$ and 0",
+        "0.5 and 1"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "Experimentally, Poisson's ratio for common metals and alloys is usually in the range 0.2 to 0.4 (theoretical limits are $-1$ to $0.5$)."
+    },
+    {
+      "id": "phy-mechanical-properties-of-solids-010",
+      "q": "In a stress&ndash;strain curve, the point up to which stress is directly proportional to strain is called the",
+      "options": [
+        "yield point",
+        "fracture point",
+        "proportional limit",
+        "ultimate tensile strength point"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "Hooke's law (stress $\\propto$ strain) holds only up to the proportional limit; beyond it the curve is no longer linear."
+    },
+    {
+      "id": "phy-mechanical-properties-of-solids-011",
+      "q": "For the same applied stress, steel shows much smaller strain than rubber. This means, in terms of Young's modulus,",
+      "options": [
+        "steel is more elastic than rubber (steel has a higher Young's modulus)",
+        "Young's modulus cannot be compared between them",
+        "steel and rubber are equally elastic",
+        "steel is less elastic than rubber"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "Elasticity is measured by how strongly a material resists deformation; smaller strain for the same stress means a higher $Y = \\text{stress/strain}$, i.e. steel is more elastic."
+    },
+    {
+      "id": "phy-mechanical-properties-of-solids-012",
+      "q": "The shear (rigidity) modulus relates tangential stress to shear strain and can be meaningfully defined for",
+      "options": [
+        "none of the states of matter",
+        "solids, liquids and gases equally",
+        "liquids and gases only",
+        "solids only, since a shape-restoring force is required"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "Only solids can sustain a shearing (tangential) stress without continuously deforming; liquids and gases flow instead, so shear modulus is not defined for them."
+    },
+    {
+      "id": "phy-mechanical-properties-of-solids-013",
+      "q": "Bulk modulus can be meaningfully defined and measured for",
+      "options": [
+        "solids only",
+        "solids, liquids and gases",
+        "gases only",
+        "liquids only"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "Volume (hydraulic) stress can be applied to any state of matter, so bulk modulus is defined for solids, liquids and gases."
+    },
+    {
+      "id": "phy-mechanical-properties-of-solids-014",
+      "q": "If a wire is stretched beyond its elastic limit and the load is then removed, the wire",
+      "options": [
+        "shows zero strain at all times",
+        "returns exactly to its original length",
+        "does not return to its original length; a permanent (plastic) deformation remains",
+        "breaks immediately on load removal"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "Beyond the elastic limit the material behaves plastically, so some permanent deformation remains even after the load is removed."
+    },
+    {
+      "id": "phy-mechanical-properties-of-solids-015",
+      "q": "A wire obeying Hooke's law stretches by 2 mm under a final applied force of 200 N (force increases linearly from zero). The work done in stretching it is",
+      "options": [
+        "0.1 J",
+        "0.4 J",
+        "2 J",
+        "0.2 J"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "$W = \\frac12F\\Delta L = \\frac12\\times200\\times0.002 = 0.2$ J."
+    },
+    {
+      "id": "phy-mechanical-properties-of-solids-016",
+      "q": "Young's modulus and shear (rigidity) modulus are elastic properties defined only for",
+      "options": [
+        "solids",
+        "liquids",
+        "all states of matter equally",
+        "gases"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "Only solids can sustain the tensile and shearing stresses used to define Young's modulus and shear modulus."
+    },
+    {
+      "id": "phy-mechanical-properties-of-solids-017",
+      "q": "Two rods of the same material but different lengths $L_1$ and $L_2$ are subjected to the same tensile stress. The ratio of the strains produced in them is",
+      "options": [
+        "1 : 1",
+        "$L_1^2 : L_2^2$",
+        "$L_2 : L_1$",
+        "$L_1 : L_2$"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "Strain $= \\text{stress}/Y$ depends only on the material's Young's modulus and the applied stress, not on the length of the rod, so both rods have equal strain."
+    },
+    {
+      "id": "phy-mechanical-properties-of-solids-018",
+      "q": "The maximum stress a material can withstand and still return exactly to its original dimensions once the load is removed defines its",
+      "options": [
+        "Young's modulus",
+        "ultimate tensile strength",
+        "fracture stress",
+        "elastic limit"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "This is precisely the definition of the elastic limit; stresses beyond it cause permanent (plastic) deformation."
+    },
+    {
+      "id": "phy-mechanical-properties-of-solids-019",
+      "q": "Young's modulus of most metals",
+      "options": [
+        "becomes infinite at very high temperature",
+        "is completely independent of temperature",
+        "decreases with increase in temperature",
+        "increases with increase in temperature"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "Increasing temperature generally weakens interatomic bonding forces, reducing the material's stiffness, so Young's modulus decreases with rising temperature for most metals."
+    },
+    {
+      "id": "phy-mechanical-properties-of-solids-020",
+      "q": "Two wires of the same material, having different lengths $L_1,L_2$ and the same cross-sectional area, are joined end to end and stretched by a common load $F$. The total elongation of the combination is",
+      "options": [
+        "$\\dfrac{FL_1}{AY}$ only",
+        "$\\dfrac{F(L_1+L_2)}{AY}$",
+        "$\\dfrac{2F(L_1+L_2)}{AY}$",
+        "$\\dfrac{FL_1L_2}{AY(L_1+L_2)}$"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "In series, both wires carry the same load $F$; total elongation = sum of individual elongations = $\\dfrac{FL_1}{AY}+\\dfrac{FL_2}{AY}=\\dfrac{F(L_1+L_2)}{AY}$."
+    },
+    {
+      "id": "phy-mechanical-properties-of-solids-021",
+      "q": "Two wires of the same material and length but cross-sectional areas $A_1$ and $A_2$ are fixed side by side between two rigid supports and jointly support a load $F$. Since both stretch by the same amount, the load shared by each wire is proportional to",
+      "options": [
+        "its cross-sectional area",
+        "the square of its length",
+        "its length",
+        "the inverse of its cross-sectional area"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "With $\\Delta L = FL/(AY)$ and equal $L,Y,\\Delta L$ for both wires, $F\\propto A$; the wire with the larger area bears proportionally more load."
+    },
+    {
+      "id": "phy-mechanical-properties-of-solids-022",
+      "q": "Using $Y=3K(1-2\\sigma)$, if a material has bulk modulus $K=1.6\\times10^{11}$ Pa and Poisson's ratio $\\sigma=0.25$, its Young's modulus is",
+      "options": [
+        "$1.6\\times10^{11}$ Pa",
+        "$8\\times10^{10}$ Pa",
+        "$7.2\\times10^{11}$ Pa",
+        "$2.4\\times10^{11}$ Pa"
+      ],
+      "answer": 3,
+      "difficulty": "hard",
+      "explanation": "$Y=3K(1-2\\sigma)=3\\times1.6\\times10^{11}\\times(1-0.5)=2.4\\times10^{11}$ Pa."
+    },
+    {
+      "id": "phy-mechanical-properties-of-solids-023",
+      "q": "Using $Y=2G(1+\\sigma)$, for a material with $Y=2\\times10^{11}$ Pa and Poisson's ratio $\\sigma=0.25$, the rigidity (shear) modulus $G$ is",
+      "options": [
+        "$4\\times10^{11}$ Pa",
+        "$8\\times10^{10}$ Pa",
+        "$2.5\\times10^{11}$ Pa",
+        "$1.6\\times10^{11}$ Pa"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "$G=\\dfrac{Y}{2(1+\\sigma)}=\\dfrac{2\\times10^{11}}{2\\times1.25}=8\\times10^{10}$ Pa."
+    },
+    {
+      "id": "phy-mechanical-properties-of-solids-024",
+      "q": "A material subjected to repeated loading and unloading cycles, each time staying within its elastic limit, gradually loses some of its elastic strength over time. This phenomenon is called",
+      "options": [
+        "creep",
+        "elastic hysteresis",
+        "elastic fatigue",
+        "plastic flow"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "Repeated stress cycling weakens a material's elastic response over time even though each load stays within the elastic limit — this is elastic fatigue, important in the design of bridges and machine parts under cyclic loads."
+    },
+    {
+      "id": "phy-mechanical-properties-of-solids-025",
+      "q": "The breaking stress (tensile strength) of a given material for wires of different lengths and cross-sections is",
+      "options": [
+        "inversely proportional to the cross-sectional area",
+        "proportional to the cross-sectional area",
+        "proportional to the length of the wire",
+        "a constant, independent of the wire's length or area"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "Breaking stress is an intrinsic property of the material and does not depend on the sample's dimensions; only the breaking force ($=$ breaking stress $\\times$ area) depends on the cross-sectional area."
+    },
+    {
+      "id": "phy-mechanical-properties-of-solids-026",
+      "q": "A wire of volume $2\\times10^{-6}$ m$^3$ is under a stress of $1\\times10^8$ Pa producing a strain of $1\\times10^{-3}$. The total elastic potential energy stored in the wire is",
+      "options": [
+        "0.1 J",
+        "0.2 J",
+        "0.05 J",
+        "1 J"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "Energy density $=\\frac12\\times\\text{stress}\\times\\text{strain}=\\frac12\\times10^8\\times10^{-3}=5\\times10^4$ J m$^{-3}$; total energy $=5\\times10^4\\times2\\times10^{-6}=0.1$ J."
+    },
+    {
+      "id": "phy-mechanical-properties-of-solids-027",
+      "q": "A ductile material such as copper, compared to a brittle material such as glass, typically shows",
+      "options": [
+        "identical stress-strain behaviour to glass",
+        "a long plastic region with significant elongation between the yield point and fracture",
+        "no elastic region at all",
+        "fracture almost immediately after the elastic limit is crossed, with negligible plastic deformation"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "Ductile materials undergo considerable plastic deformation (elongation, necking) before breaking, unlike brittle materials, which fracture soon after the elastic limit with little plastic flow."
+    },
+    {
+      "id": "phy-mechanical-properties-of-solids-028",
+      "q": "Rubber-like materials (elastomers) show large strains for comparatively small stresses, and their loading and unloading stress-strain curves do not coincide (elastic hysteresis). This property makes rubber well suited for",
+      "options": [
+        "replacing steel in load-bearing structural beams",
+        "precision measuring instruments requiring exact linear response",
+        "shock absorbers and vibration dampers, since the enclosed loop area represents energy dissipated as heat",
+        "building high-tension transmission cables"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "The hysteresis loop's area equals the energy dissipated per cycle as heat, which is exactly the damping behaviour desired in shock absorbers and vibration mounts."
+    },
+    {
+      "id": "phy-mechanical-properties-of-solids-029",
+      "q": "A steel rod is rigidly clamped at both ends so its length cannot change, and its temperature is then raised by 50°C. Taking $Y=2\\times10^{11}$ Pa and $\\alpha=1.2\\times10^{-5}\\,{}^\\circ\\text{C}^{-1}$ for steel, the thermal stress developed in the rod is",
+      "options": [
+        "$1.2\\times10^{8}$ Pa",
+        "$6\\times10^{6}$ Pa",
+        "$2.4\\times10^{7}$ Pa",
+        "$6\\times10^{8}$ Pa"
+      ],
+      "answer": 0,
+      "difficulty": "hard",
+      "explanation": "Since the length is fixed, the strain that would otherwise occur is entirely converted to stress: thermal stress $=Y\\alpha\\Delta T = 2\\times10^{11}\\times1.2\\times10^{-5}\\times50 = 1.2\\times10^8$ Pa."
+    },
+    {
+      "id": "phy-mechanical-properties-of-solids-030",
+      "q": "Arrange steel, copper and rubber in decreasing order of Young's modulus.",
+      "options": [
+        "copper > steel > rubber",
+        "rubber > copper > steel",
+        "rubber > steel > copper",
+        "steel > copper > rubber"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "Steel is stiffer (Y $\\approx 2\\times10^{11}$ Pa) than copper ($\\approx1.1\\times10^{11}$ Pa), and both are far stiffer than rubber (Y of order $10^6$ Pa)."
+    },
+    {
+      "id": "phy-mechanical-properties-of-solids-031",
+      "q": "A solid sphere of bulk modulus $2\\times10^{10}$ Pa is subjected to a uniform pressure increase of $2\\times10^6$ Pa. The fractional decrease in its volume is",
+      "options": [
+        "$1\\times10^{-3}$",
+        "$1\\times10^{-4}$",
+        "$2\\times10^{-4}$",
+        "$1\\times10^{-5}$"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "Volumetric strain $=\\Delta P/K = (2\\times10^6)/(2\\times10^{10}) = 1\\times10^{-4}$."
+    },
+    {
+      "id": "phy-mechanical-properties-of-solids-032",
+      "q": "A steel wire of length 2.5 m and cross-sectional area $0.5\\times10^{-6}$ m$^2$ ($Y=2\\times10^{11}$ Pa) has an 8 kg mass hung from it. Taking $g=10$ m s$^{-2}$, the elongation produced is",
+      "options": [
+        "0.5 mm",
+        "4 mm",
+        "2 mm",
+        "1 mm"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "$F=mg=80$ N. $\\Delta L=\\dfrac{FL}{AY}=\\dfrac{80\\times2.5}{0.5\\times10^{-6}\\times2\\times10^{11}}=\\dfrac{200}{1\\times10^{5}}=2\\times10^{-3}$ m $=2$ mm."
+    },
+    {
+      "id": "phy-mechanical-properties-of-solids-033",
+      "q": "Two wires of the same length and cross-sectional area, but made of materials with Young's moduli $Y_1$ and $Y_2$ ($Y_1=2Y_2$), are stretched by the same load. The ratio of their elongations $\\Delta L_1:\\Delta L_2$ is",
+      "options": [
+        "4:1",
+        "1:2",
+        "1:4",
+        "2:1"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "$\\Delta L \\propto 1/Y$ for fixed $F,L,A$; since $Y_1=2Y_2$, $\\Delta L_1:\\Delta L_2 = Y_2:Y_1 = 1:2$."
+    },
+    {
+      "id": "phy-mechanical-properties-of-solids-034",
+      "q": "Within the elastic limit, the potential energy stored in a stretched wire arises from",
+      "options": [
+        "the gravitational potential energy of the wire",
+        "heat generated due to friction between atoms",
+        "the kinetic energy of vibrating atoms",
+        "work done against the internal restoring (interatomic) forces as atoms are displaced from their equilibrium positions"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "Stretching a wire displaces its atoms from their equilibrium separations; the work done against the interatomic restoring forces is stored as elastic potential energy, recoverable when the load is removed."
+    },
+    {
+      "id": "phy-mechanical-properties-of-solids-035",
+      "q": "When the pressure on a liquid is increased by $4\\times10^6$ Pa, its volume decreases by 0.02%. The bulk modulus of the liquid is",
+      "options": [
+        "$8\\times10^{10}$ Pa",
+        "$4\\times10^{10}$ Pa",
+        "$2\\times10^{10}$ Pa",
+        "$2\\times10^{9}$ Pa"
+      ],
+      "answer": 2,
+      "difficulty": "hard",
+      "explanation": "$K=\\dfrac{\\Delta P}{\\Delta V/V}=\\dfrac{4\\times10^6}{2\\times10^{-4}}=2\\times10^{10}$ Pa."
+    },
+    {
+      "id": "phy-mechanical-properties-of-solids-036",
+      "q": "On a stress-strain graph, between the proportional limit and the elastic limit, a material",
+      "options": [
+        "still returns exactly to its original dimensions on removing the load, even though stress is no longer strictly proportional to strain",
+        "has already fractured",
+        "obeys Hooke's law exactly",
+        "shows permanent (plastic) deformation on unloading"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "Up to the elastic limit (which lies slightly beyond the proportional limit for many materials), the deformation is fully recoverable even though the stress-strain relation is no longer linear in this small intermediate region."
+    },
+    {
+      "id": "phy-mechanical-properties-of-solids-037",
+      "q": "Wires A and B of the same material have radii in the ratio 2:1 and lengths in the ratio 1:2. The same load is applied to both. The ratio of their elongations $\\Delta L_A:\\Delta L_B$ is",
+      "options": [
+        "2:1",
+        "8:1",
+        "1:2",
+        "1:8"
+      ],
+      "answer": 3,
+      "difficulty": "hard",
+      "explanation": "$\\Delta L \\propto L/r^2$. $\\dfrac{\\Delta L_A}{\\Delta L_B}=\\dfrac{L_A/r_A^2}{L_B/r_B^2}=\\dfrac{1/4}{2}=\\dfrac18$, i.e. $1:8$."
+    },
+    {
+      "id": "phy-mechanical-properties-of-solids-038",
+      "q": "For an ideal liquid at rest, which of the following is true?",
+      "options": [
+        "Young's modulus is nonzero but shear modulus is zero",
+        "The shear (rigidity) modulus is zero, while the bulk modulus has a finite, nonzero value",
+        "The bulk modulus is zero",
+        "Both Young's modulus and shear modulus are well defined and nonzero"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "A liquid cannot sustain a static shearing stress (it flows), so its shear modulus is zero, but it strongly resists a uniform change in volume, so its bulk modulus is finite and generally large."
+    },
+    {
+      "id": "phy-mechanical-properties-of-solids-039",
+      "q": "Which of the following statements is CORRECT?",
+      "options": [
+        "Bulk modulus is defined only for solids.",
+        "Poisson's ratio can exceed 1 for common engineering materials.",
+        "The strain produced in a stretched wire depends only on the applied stress and the material's Young's modulus, not on the wire's length or cross-section.",
+        "Shear (rigidity) modulus can be defined for liquids at rest."
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "Strain $=\\text{stress}/Y$ is fixed once the stress and material are fixed, independent of the sample's length or area. The other statements are false: Poisson's ratio for real materials is theoretically capped at 0.5, bulk modulus applies to solids, liquids and gases, and liquids at rest cannot sustain shear stress."
+    },
+    {
+      "id": "phy-mechanical-properties-of-solids-040",
+      "q": "On the stress-strain graph of a ductile metal, the region just after the yield point, where the material continues to elongate substantially even though the stress increases only slightly, is called",
+      "options": [
+        "the plastic (yielding) region",
+        "the proportional region",
+        "the fracture point",
+        "the elastic region"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "Beyond the yield point, the material deforms plastically with large increases in strain for only small increases in stress, until it reaches the ultimate tensile strength and eventually fractures."
+    }
+  ]
+}

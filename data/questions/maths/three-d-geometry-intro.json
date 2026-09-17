@@ -1,0 +1,525 @@
+{
+  "notes": "<h3>Coordinate axes and octants</h3><ul><li>Space is divided by the three coordinate planes ($xy,yz,zx$) into 8 octants. All three planes meet at the origin $(0,0,0)$.</li><li>In the first octant all of $x,y,z$ are positive.</li></ul><h3>Distance formula</h3><ul><li>Distance between $(x_1,y_1,z_1)$ and $(x_2,y_2,z_2)$: $d=\\sqrt{(x_2-x_1)^2+(y_2-y_1)^2+(z_2-z_1)^2}$.</li><li>Distance from origin to $(x,y,z)$: $\\sqrt{x^2+y^2+z^2}$.</li></ul><h3>Section formula</h3><ul><li>Point dividing $AB$ internally in ratio $m:n$: $\\left(\\dfrac{mx_2+nx_1}{m+n},\\dfrac{my_2+ny_1}{m+n},\\dfrac{mz_2+nz_1}{m+n}\\right)$.</li><li>Midpoint: average of corresponding coordinates. A negative ratio (e.g. $-2:3$) means external division.</li></ul><h3>Direction cosines (dc's) and direction ratios (dr's)</h3><ul><li>If a line makes angles $\\alpha,\\beta,\\gamma$ with the $x,y,z$ axes, its dc's are $l=\\cos\\alpha, m=\\cos\\beta, n=\\cos\\gamma$, and always $l^2+m^2+n^2=1$.</li><li>Any numbers $a,b,c$ proportional to $l,m,n$ are direction ratios; dc's are recovered by $l=\\dfrac{a}{\\sqrt{a^2+b^2+c^2}}$ (similarly for $m,n$).</li><li>Direction ratios of the line joining $(x_1,y_1,z_1)$ and $(x_2,y_2,z_2)$ are $(x_2-x_1, y_2-y_1, z_2-z_1)$.</li><li>A line making equal angles with all three axes has $l=m=n=\\pm\\dfrac{1}{\\sqrt3}$.</li></ul><h3>Angle between two lines</h3><ul><li>Using dr's $(a_1,b_1,c_1)$ and $(a_2,b_2,c_2)$: $\\cos\\theta = \\dfrac{a_1a_2+b_1b_2+c_1c_2}{\\sqrt{a_1^2+b_1^2+c_1^2}\\sqrt{a_2^2+b_2^2+c_2^2}}$.</li><li>Parallel lines: dr's proportional. Perpendicular lines: $a_1a_2+b_1b_2+c_1c_2=0$.</li></ul><h3>Exam tip</h3><p>KCET usually asks 1-2 questions from this introductory chapter — typically the distance formula, section formula (including external division), or checking whether two lines (given by direction ratios) are parallel/perpendicular. Do not confuse direction ratios (any proportional triple) with direction cosines (must satisfy $l^2+m^2+n^2=1$).</p>",
+  "questions": [
+    {
+      "id": "mat-three-d-geometry-intro-001",
+      "q": "The distance between the points $(1,2,3)$ and $(4,6,3)$ is",
+      "options": [
+        "$\\sqrt7$",
+        "25",
+        "5",
+        "7"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "$d=\\sqrt{3^2+4^2+0^2}=\\sqrt{25}=5$."
+    },
+    {
+      "id": "mat-three-d-geometry-intro-002",
+      "q": "The distance of the point $(2,-3,6)$ from the origin is",
+      "options": [
+        "6",
+        "$\\sqrt{29}$",
+        "49",
+        "7"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "$d=\\sqrt{4+9+36}=\\sqrt{49}=7$."
+    },
+    {
+      "id": "mat-three-d-geometry-intro-003",
+      "q": "The midpoint of the segment joining $(2,-3,4)$ and $(4,1,-2)$ is",
+      "options": [
+        "$(3,-1,-1)$",
+        "$(3,-1,1)$",
+        "$(6,-2,2)$",
+        "$(1,-1,1)$"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "Midpoint $=\\left(\\dfrac{2+4}{2},\\dfrac{-3+1}{2},\\dfrac{4-2}{2}\\right)=(3,-1,1)$."
+    },
+    {
+      "id": "mat-three-d-geometry-intro-004",
+      "q": "The point dividing the segment joining $(1,-2,3)$ and $(3,4,-5)$ internally in the ratio $2:3$ is",
+      "options": [
+        "$(9/5,\\ 2/5,\\ -1/5)$",
+        "$(9/5,\\ -2/5,\\ 1/5)$",
+        "$(3/5,\\ 2/5,\\ -1/5)$",
+        "$(11/5,\\ -2/5,\\ 1/5)$"
+      ],
+      "answer": 0,
+      "difficulty": "hard",
+      "explanation": "$x=\\dfrac{2(3)+3(1)}{5}=\\dfrac95$, $y=\\dfrac{2(4)+3(-2)}{5}=\\dfrac25$, $z=\\dfrac{2(-5)+3(3)}{5}=-\\dfrac15$."
+    },
+    {
+      "id": "mat-three-d-geometry-intro-005",
+      "q": "The direction cosines of a line making equal angles with all three coordinate axes are",
+      "options": [
+        "$\\left(\\dfrac1{\\sqrt3},\\dfrac1{\\sqrt3},0\\right)$",
+        "$\\left(\\dfrac1{\\sqrt3},\\dfrac1{\\sqrt3},\\dfrac1{\\sqrt3}\\right)$",
+        "$\\left(\\dfrac13,\\dfrac13,\\dfrac13\\right)$",
+        "$(1,1,1)$"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "$l=m=n$ and $l^2+m^2+n^2=1 \\Rightarrow 3l^2=1 \\Rightarrow l=\\dfrac{1}{\\sqrt3}$."
+    },
+    {
+      "id": "mat-three-d-geometry-intro-006",
+      "q": "The direction ratios of the line joining $(1,2,-3)$ and $(4,-2,1)$ are",
+      "options": [
+        "$(3,-4,-4)$",
+        "$(-3,4,-4)$",
+        "$(3,4,4)$",
+        "$(3,-4,4)$"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "Dr's $=(4-1,\\,-2-2,\\,1-(-3))=(3,-4,4)$."
+    },
+    {
+      "id": "mat-three-d-geometry-intro-007",
+      "q": "The direction cosines of a line whose direction ratios are $2,3,-6$ are",
+      "options": [
+        "$\\left(\\dfrac27,-\\dfrac37,\\dfrac67\\right)$",
+        "$\\left(\\dfrac67,\\dfrac37,-\\dfrac27\\right)$",
+        "$\\left(\\dfrac27,\\dfrac37,-\\dfrac67\\right)$",
+        "$\\left(\\dfrac26,\\dfrac36,-\\dfrac66\\right)$"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "Magnitude $=\\sqrt{4+9+36}=7$; dc's $=\\left(\\dfrac27,\\dfrac37,-\\dfrac67\\right)$."
+    },
+    {
+      "id": "mat-three-d-geometry-intro-008",
+      "q": "Lines with direction ratios $(2,-1,2)$ and $(1,2,0)$ are",
+      "options": [
+        "perpendicular",
+        "coincident",
+        "parallel",
+        "cannot be determined"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "$a_1a_2+b_1b_2+c_1c_2 = 2(1)+(-1)(2)+2(0) = 0$, so the lines are perpendicular."
+    },
+    {
+      "id": "mat-three-d-geometry-intro-009",
+      "q": "Lines with direction ratios $(2,4,-6)$ and $(1,2,-3)$ are",
+      "options": [
+        "coincident (same line)",
+        "skew",
+        "perpendicular",
+        "parallel"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "$(2,4,-6) = 2\\times(1,2,-3)$, so the direction ratios are proportional — the lines are parallel."
+    },
+    {
+      "id": "mat-three-d-geometry-intro-010",
+      "q": "The $YZ$-plane divides the segment joining $(2,4,5)$ and $(3,5,-4)$ in the ratio",
+      "options": [
+        "$-2:3$",
+        "$3:2$",
+        "$-3:2$",
+        "$2:3$"
+      ],
+      "answer": 0,
+      "difficulty": "hard",
+      "explanation": "On the $YZ$-plane, $x=0$. For ratio $k:1$, $x=\\dfrac{3k+2}{k+1}=0 \\Rightarrow k=-\\dfrac23$, i.e. ratio $-2:3$ (external division)."
+    },
+    {
+      "id": "mat-three-d-geometry-intro-011",
+      "q": "The three coordinate planes intersect at",
+      "options": [
+        "the $x$-axis",
+        "the origin",
+        "the $y$-axis",
+        "the $z$-axis"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "The $xy$, $yz$ and $zx$ planes are all common to only one point: the origin $(0,0,0)$."
+    },
+    {
+      "id": "mat-three-d-geometry-intro-012",
+      "q": "If the direction cosines of a line are $k,k,k$, then $k$ equals",
+      "options": [
+        "$\\dfrac{1}{\\sqrt3}$ only",
+        "$\\pm\\dfrac13$",
+        "$\\pm\\dfrac{1}{\\sqrt3}$",
+        "$\\dfrac13$ only"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "$k^2+k^2+k^2=1 \\Rightarrow 3k^2=1 \\Rightarrow k=\\pm\\dfrac{1}{\\sqrt3}$ (negative dc's represent the opposite direction)."
+    },
+    {
+      "id": "mat-three-d-geometry-intro-013",
+      "q": "The distance of the point $(3,4,5)$ from the $x$-axis is",
+      "options": [
+        "$\\sqrt{41}$",
+        "$\\sqrt{34}$",
+        "$\\sqrt{50}$",
+        "3"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "Distance from the $x$-axis $=\\sqrt{y^2+z^2}=\\sqrt{16+25}=\\sqrt{41}$."
+    },
+    {
+      "id": "mat-three-d-geometry-intro-014",
+      "q": "The point $(2,3,4)$ lies in the",
+      "options": [
+        "second octant",
+        "first octant",
+        "seventh octant",
+        "cannot be determined"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "All three coordinates are positive, which corresponds to the first octant."
+    },
+    {
+      "id": "mat-three-d-geometry-intro-015",
+      "q": "The direction ratios of a line perpendicular to both lines with direction ratios $(1,-2,-2)$ and $(0,2,1)$ are",
+      "options": [
+        "$(-2,-1,2)$",
+        "$(2,1,2)$",
+        "$(2,-1,-2)$",
+        "$(2,-1,2)$"
+      ],
+      "answer": 3,
+      "difficulty": "hard",
+      "explanation": "Cross product $(1,-2,-2)\\times(0,2,1) = \\big((-2)(1)-(-2)(2),\\,(-2)(0)-(1)(1),\\,(1)(2)-(-2)(0)\\big) = (2,-1,2)$."
+    },
+    {
+      "id": "mat-three-d-geometry-intro-016",
+      "q": "The distance between $(x_1,y_1,z_1)$ and $(x_2,y_2,z_2)$ is given by",
+      "options": [
+        "$\\sqrt{(x_2-x_1)+(y_2-y_1)+(z_2-z_1)}$",
+        "$(x_2-x_1)^2+(y_2-y_1)^2+(z_2-z_1)^2$",
+        "$\\sqrt{(x_2-x_1)^2+(y_2-y_1)^2+(z_2-z_1)^2}$",
+        "$\\sqrt{(x_2+x_1)^2+(y_2+y_1)^2+(z_2+z_1)^2}$"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "The 3D distance formula extends the 2D one by adding the squared difference of $z$-coordinates under the root."
+    },
+    {
+      "id": "mat-three-d-geometry-intro-017",
+      "q": "If $a,b,c$ are the direction ratios of a line, its direction cosine $l$ equals",
+      "options": [
+        "$\\dfrac{a}{a+b+c}$",
+        "$\\dfrac{a}{\\sqrt{a^2+b^2+c^2}}$",
+        "$\\sqrt{a^2+b^2+c^2}$",
+        "$\\dfrac{a^2}{a^2+b^2+c^2}$"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "Direction cosines are the direction ratios divided by the magnitude $\\sqrt{a^2+b^2+c^2}$."
+    },
+    {
+      "id": "mat-three-d-geometry-intro-018",
+      "q": "For $P(1,2,3)$ and $Q(4,6,15)$, the direction cosines of line $PQ$ are",
+      "options": [
+        "$\\left(\\dfrac3{13},\\dfrac4{13},\\dfrac{12}{13}\\right)$",
+        "$\\left(\\dfrac3{12},\\dfrac4{12},\\dfrac{12}{12}\\right)$",
+        "$\\left(\\dfrac3{13},\\dfrac4{13},\\dfrac{15}{13}\\right)$",
+        "$\\left(\\dfrac4{13},\\dfrac3{13},\\dfrac{12}{13}\\right)$"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "Dr's $=(3,4,12)$; magnitude $=\\sqrt{9+16+144}=13$, giving dc's $\\left(\\dfrac3{13},\\dfrac4{13},\\dfrac{12}{13}\\right)$."
+    },
+    {
+      "id": "mat-three-d-geometry-intro-019",
+      "q": "The distance of the point $(3,-4,5)$ from the $y$-axis is",
+      "options": [
+        "$\\sqrt{41}$",
+        "$\\sqrt{50}$",
+        "5",
+        "$\\sqrt{34}$"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "Distance from the $y$-axis $=\\sqrt{x^2+z^2}=\\sqrt{9+25}=\\sqrt{34}$."
+    },
+    {
+      "id": "mat-three-d-geometry-intro-020",
+      "q": "The centroid of the triangle with vertices $(1,2,3), (3,4,5), (5,6,1)$ is",
+      "options": [
+        "$(2,4,3)$",
+        "$(3,4,4)$",
+        "$(3,4,3)$",
+        "$(9,12,9)$"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "Centroid $=\\left(\\dfrac{1+3+5}{3},\\dfrac{2+4+6}{3},\\dfrac{3+5+1}{3}\\right)=(3,4,3)$."
+    },
+    {
+      "id": "mat-three-d-geometry-intro-021",
+      "q": "The point dividing the segment joining $(2,3,4)$ and $(5,6,7)$ externally in the ratio $2:1$ is",
+      "options": [
+        "$(11,12,13)$",
+        "$(3,4,5)$",
+        "$(4,5,6)$",
+        "$(8,9,10)$"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "External division formula: $x=\\dfrac{2(5)-1(2)}{2-1}=8$, similarly $y=9, z=10$."
+    },
+    {
+      "id": "mat-three-d-geometry-intro-022",
+      "q": "The $XZ$-plane divides the segment joining $(1,2,3)$ and $(4,-5,6)$ in the ratio",
+      "options": [
+        "$2:5$",
+        "$5:2$",
+        "$5:3$",
+        "$3:5$"
+      ],
+      "answer": 0,
+      "difficulty": "hard",
+      "explanation": "On the $XZ$-plane, $y=0$. For ratio $m:n$ from the first to second point, $\\dfrac{m(-5)+n(2)}{m+n}=0 \\Rightarrow m/n=2/5$, i.e. ratio $2:5$."
+    },
+    {
+      "id": "mat-three-d-geometry-intro-023",
+      "q": "The direction ratios of the $x$-axis are",
+      "options": [
+        "$(0,1,0)$",
+        "$(1,0,0)$",
+        "$(1,1,1)$",
+        "$(0,0,1)$"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "The $x$-axis points purely in the $x$-direction, so its direction ratios are $(1,0,0)$."
+    },
+    {
+      "id": "mat-three-d-geometry-intro-024",
+      "q": "A line makes angles $90^\\circ, 60^\\circ, 30^\\circ$ with the $x, y, z$ axes respectively. Its direction cosines are",
+      "options": [
+        "$(0.5,0,\\sqrt3/2)$",
+        "$(0,\\sqrt3/2,0.5)$",
+        "$(0,0.5,\\sqrt3/2)$",
+        "$(\\sqrt3/2,0.5,0)$"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "$l=\\cos90^\\circ=0$, $m=\\cos60^\\circ=0.5$, $n=\\cos30^\\circ=\\sqrt3/2$."
+    },
+    {
+      "id": "mat-three-d-geometry-intro-025",
+      "q": "A line has direction cosines $l=\\dfrac13, m=\\dfrac23$. Its positive direction cosine $n$ is",
+      "options": [
+        "$1/2$",
+        "$1/3$",
+        "$2/3$",
+        "$4/9$"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "$l^2+m^2+n^2=1 \\Rightarrow \\dfrac19+\\dfrac49+n^2=1 \\Rightarrow n^2=\\dfrac49 \\Rightarrow n=\\dfrac23$."
+    },
+    {
+      "id": "mat-three-d-geometry-intro-026",
+      "q": "The points $(1,2,3), (4,5,6), (7,8,9)$ are",
+      "options": [
+        "forming an isosceles triangle",
+        "not collinear",
+        "forming a right triangle",
+        "collinear"
+      ],
+      "answer": 3,
+      "difficulty": "hard",
+      "explanation": "Direction ratios of both $(1,2,3)$-$(4,5,6)$ and $(4,5,6)$-$(7,8,9)$ are $(3,3,3)$, so the three points lie on the same line."
+    },
+    {
+      "id": "mat-three-d-geometry-intro-027",
+      "q": "The distance of the point $(1,2,2)$ from the origin is",
+      "options": [
+        "3",
+        "5",
+        "9",
+        "$\\sqrt5$"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "$d=\\sqrt{1+4+4}=\\sqrt9=3$."
+    },
+    {
+      "id": "mat-three-d-geometry-intro-028",
+      "q": "The distance between the points $(0,3,-2)$ and $(0,-1,1)$ is",
+      "options": [
+        "7",
+        "5",
+        "4",
+        "3"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "$d=\\sqrt{0^2+(-4)^2+3^2}=\\sqrt{16+9}=5$."
+    },
+    {
+      "id": "mat-three-d-geometry-intro-029",
+      "q": "The direction cosines of a line with direction ratios $2,-2,1$ are",
+      "options": [
+        "$(2/3,2/3,1/3)$",
+        "$(2/3,-2/3,1/3)$",
+        "$(1/3,-1/3,2/3)$",
+        "$(-2/3,2/3,1/3)$"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "Magnitude $=\\sqrt{4+4+1}=3$; dc's $=\\left(\\dfrac23,-\\dfrac23,\\dfrac13\\right)$."
+    },
+    {
+      "id": "mat-three-d-geometry-intro-030",
+      "q": "A line has direction ratios $2,5,-4$. Taking $l,m,n$ as its direction cosines (positive magnitude), $l+m+n$ equals",
+      "options": [
+        "$1/3$",
+        "$\\sqrt5$",
+        "$1/\\sqrt5$",
+        "$3/\\sqrt5$"
+      ],
+      "answer": 2,
+      "difficulty": "hard",
+      "explanation": "Magnitude $=\\sqrt{4+25+16}=\\sqrt{45}=3\\sqrt5$; $l+m+n=\\dfrac{2+5-4}{3\\sqrt5}=\\dfrac{3}{3\\sqrt5}=\\dfrac{1}{\\sqrt5}$."
+    },
+    {
+      "id": "mat-three-d-geometry-intro-031",
+      "q": "The distance of the point $(6,8,0)$ from the $z$-axis is",
+      "options": [
+        "8",
+        "14",
+        "6",
+        "10"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "Distance from the $z$-axis $=\\sqrt{x^2+y^2}=\\sqrt{36+64}=10$."
+    },
+    {
+      "id": "mat-three-d-geometry-intro-032",
+      "q": "A point $P$ on the line joining $(3,-2,1)$ and $(1,4,-3)$ has $x$-coordinate 2. $P$ divides the segment in the ratio",
+      "options": [
+        "$1:1$",
+        "$1:2$",
+        "$2:1$",
+        "$3:1$"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "For ratio $m:n$ from the first point, $\\dfrac{m(1)+n(3)}{m+n}=2 \\Rightarrow m+3n=2m+2n \\Rightarrow m=n$, i.e. ratio $1:1$ (the midpoint)."
+    },
+    {
+      "id": "mat-three-d-geometry-intro-033",
+      "q": "Which of the following can be the direction cosines of a line?",
+      "options": [
+        "$(0.5,0.5,0.5)$",
+        "$(2,2,2)$",
+        "$(1,1,1)$",
+        "$\\left(-\\dfrac1{\\sqrt3},-\\dfrac1{\\sqrt3},-\\dfrac1{\\sqrt3}\\right)$"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "Direction cosines must satisfy $l^2+m^2+n^2=1$. Only $\\left(-\\dfrac1{\\sqrt3},-\\dfrac1{\\sqrt3},-\\dfrac1{\\sqrt3}\\right)$ gives $3\\times\\dfrac13=1$; the others do not."
+    },
+    {
+      "id": "mat-three-d-geometry-intro-034",
+      "q": "The angle between lines with direction ratios $(1,2,-2)$ and $(2,2,1)$ has cosine equal to",
+      "options": [
+        "$1/3$",
+        "$5/9$",
+        "$4/9$",
+        "$2/9$"
+      ],
+      "answer": 2,
+      "difficulty": "hard",
+      "explanation": "$\\cos\\theta=\\dfrac{1(2)+2(2)+(-2)(1)}{\\sqrt{1+4+4}\\sqrt{4+4+1}}=\\dfrac{4}{3\\times3}=\\dfrac49$."
+    },
+    {
+      "id": "mat-three-d-geometry-intro-035",
+      "q": "The distance of the point $(x,y,z)$ from the origin is",
+      "options": [
+        "$\\sqrt{x^2+y^2+z^2}$",
+        "$x+y+z$",
+        "$x^2+y^2+z^2$",
+        "$\\sqrt{xy+yz+zx}$"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "The distance formula from the origin is the square root of the sum of the squares of the coordinates."
+    },
+    {
+      "id": "mat-three-d-geometry-intro-036",
+      "q": "The direction ratios of the line joining $(2,3,-1)$ and $(2,3,4)$ are proportional to",
+      "options": [
+        "$(1,0,0)$",
+        "$(0,0,1)$",
+        "$(1,1,0)$",
+        "$(0,1,0)$"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "Dr's $=(2-2,3-3,4-(-1))=(0,0,5)$, proportional to $(0,0,1)$ — the line is parallel to the $z$-axis."
+    },
+    {
+      "id": "mat-three-d-geometry-intro-037",
+      "q": "Two lines have direction ratios proportional to $(1,-2,1)$ and $(2,3,4)$. The lines are",
+      "options": [
+        "parallel",
+        "skew but not perpendicular",
+        "perpendicular",
+        "coincident"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "$1(2)+(-2)(3)+1(4) = 2-6+4=0$, so the lines are perpendicular."
+    },
+    {
+      "id": "mat-three-d-geometry-intro-038",
+      "q": "The point on the $z$-axis equidistant from $(1,2,3)$ and $(3,2,1)$ is",
+      "options": [
+        "$(0,0,-2)$",
+        "$(0,0,2)$",
+        "$(0,0,4)$",
+        "$(0,0,0)$"
+      ],
+      "answer": 3,
+      "difficulty": "hard",
+      "explanation": "Let the point be $(0,0,z)$. Setting the squared distances equal: $5+(z-3)^2=13+(z-1)^2 \\Rightarrow -4z=0 \\Rightarrow z=0$, giving $(0,0,0)$."
+    },
+    {
+      "id": "mat-three-d-geometry-intro-039",
+      "q": "The three coordinate planes divide space into how many octants?",
+      "options": [
+        "6",
+        "8",
+        "3",
+        "4"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "The $xy$, $yz$ and $zx$ planes together divide space into 8 octants."
+    },
+    {
+      "id": "mat-three-d-geometry-intro-040",
+      "q": "The direction cosines of the $z$-axis are",
+      "options": [
+        "$(0,0,1)$",
+        "$(0,1,0)$",
+        "$(1,1,1)/\\sqrt3$",
+        "$(1,0,0)$"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "The $z$-axis points purely in the $z$-direction, so its direction cosines are $(0,0,1)$."
+    }
+  ]
+}

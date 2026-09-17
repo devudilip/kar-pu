@@ -1,0 +1,799 @@
+{
+  "title": "KCET 2025 Physics",
+  "year": 2025,
+  "subject": "physics",
+  "code": "A1",
+  "source": "KEA question paper (copy) + KEA answer key column A1 + KEA revised key (Q1, Q34)",
+  "excluded": [],
+  "questions": [
+    {
+      "n": 1,
+      "q": "Which of the following expressions can be deduced on the basis of dimensional analysis? (All symbols have their usual meanings)",
+      "options": [
+        "$s = ut + \\dfrac{1}{2}at^2$",
+        "$x = A\\cos\\omega t$",
+        "$N = N_0 e^{-\\lambda t}$",
+        "$F = 6\\pi\\eta rv$"
+      ],
+      "answer": 3,
+      "chapter": "Units and Measurements",
+      "explanation": "Dimensional analysis can only give relations that are products of powers of quantities (with a dimensionless constant), like Stokes' law $F=6\\pi\\eta rv$; it cannot fix additive terms, or trigonometric/exponential dependence as in the other options. KEA's revised key marked this a grace-mark question, but $F=6\\pi\\eta rv$ remains the correct choice.",
+      "grace": true
+    },
+    {
+      "n": 2,
+      "q": "Two stones begin to fall from rest from the same height, with the second stone starting to fall 'Δt' seconds after the first falls from rest. The distance of separation between the two stones becomes 'H', 't$_0$' seconds after the first stone starts its motion. Then t$_0$ is equal to",
+      "options": [
+        "$\\dfrac{H}{g\\Delta t}$",
+        "$\\dfrac{H}{\\Delta t}+\\dfrac{\\Delta t}{2g}$",
+        "$\\dfrac{H}{g\\Delta t}-\\dfrac{\\Delta t}{2}$",
+        "$\\dfrac{H}{g\\Delta t}+\\dfrac{\\Delta t}{2}$"
+      ],
+      "answer": 3,
+      "chapter": "Motion in a Straight Line",
+      "explanation": "$H=\\tfrac12g t_0^2-\\tfrac12 g(t_0-\\Delta t)^2 = g\\Delta t\\, t_0-\\tfrac12 g\\Delta t^2$, so $t_0=\\dfrac{H}{g\\Delta t}+\\dfrac{\\Delta t}{2}$."
+    },
+    {
+      "n": 3,
+      "q": "In the projectile motion of a particle on a level ground, which of the following remains constant with reference to time and position?",
+      "options": [
+        "Vertical component of the velocity of the projectile",
+        "Average velocity between any two points on the path",
+        "Horizontal component of velocity",
+        "Angle between the instantaneous velocity with the horizontal"
+      ],
+      "answer": 2,
+      "chapter": "Motion in a Plane",
+      "explanation": "In projectile motion there is no horizontal acceleration, so the horizontal component of velocity stays constant throughout the flight."
+    },
+    {
+      "n": 4,
+      "q": "A particle is in uniform circular motion. The equation of its trajectory is given by (x − 2)$^2$ + y$^2$ = 25, where x and y are in meter. The speed of the particle is 2 ms$^{-1}$. When the particle attains the lowest 'y' co-ordinate, the acceleration of the particle is (in ms$^{-2}$)",
+      "options": [
+        "$0.4\\,\\hat i$",
+        "$0.4\\,\\hat j$",
+        "$0.8\\,\\hat i$",
+        "$0.8\\,\\hat j$"
+      ],
+      "answer": 3,
+      "chapter": "Motion in a Plane",
+      "explanation": "Radius $=5$m, centre $(2,0)$. At the lowest point $(2,-5)$ the centripetal acceleration $a=v^2/r=4/5=0.8\\,ms^{-2}$ directed towards the centre, i.e. along $+\\hat j$."
+    },
+    {
+      "n": 5,
+      "q": "A wooden block of mass M lies on a rough floor. Another wooden block of the same mass is hanging from the point O through strings as shown in the figure. To achieve equilibrium, the co-efficient of static friction between the block on the floor with the floor itself is [figure: block M on floor connected by a horizontal string to point O; from O another string goes up at angle θ to a wall/ceiling, and a third string hangs straight down from O holding a second block M]",
+      "options": [
+        "$\\mu=\\cos\\theta$",
+        "$\\mu=\\cot\\theta$",
+        "$\\mu=\\sin\\theta$",
+        "$\\mu=\\tan\\theta$"
+      ],
+      "answer": 1,
+      "chapter": "Laws of Motion",
+      "explanation": "At O: $T\\sin\\theta = Mg$ (supports hanging block) and $T\\cos\\theta$ equals the friction force $\\mu Mg$ on the floor block. Dividing, $\\tan\\theta = 1/\\mu$, so $\\mu=\\cot\\theta$."
+    },
+    {
+      "n": 6,
+      "q": "A block of certain mass is placed on a rough floor. The coefficients of static and kinetic friction between the block and the floor are 0.4 and 0.25 respectively. A constant horizontal force F = 20 N acts on it so that the velocity of the block varies with time according to the following graph. The mass of the block is nearly (Take g ≃ 10 ms$^{-2}$) [graph: v (m/s) on y-axis reaching 20 at t = 3 s, straight line through origin]",
+      "options": [
+        "2.2 kg",
+        "4.4 kg",
+        "1.2 kg",
+        "1.0 kg"
+      ],
+      "answer": 0,
+      "chapter": "Laws of Motion",
+      "explanation": "From the graph $a=20/3\\approx6.7\\,ms^{-2}$. Using $F-\\mu_k mg=ma$: $20-2.5m=6.7m$, giving $m\\approx2.2$ kg."
+    },
+    {
+      "n": 7,
+      "q": "A body of mass 0.25 kg travels along a straight line from x = 0 to x = 2 m with a speed v = k x$^{3/2}$ where k = 2 SI units. The work done by the net force during this displacement is",
+      "options": [
+        "4 J",
+        "8 J",
+        "16 J",
+        "32 J"
+      ],
+      "answer": 0,
+      "chapter": "Work, Energy and Power",
+      "explanation": "At $x=2$, $v=2(2)^{3/2}=4\\sqrt2$, so $v^2=32$. Work done $=\\Delta KE=\\tfrac12(0.25)(32)-0=4$ J."
+    },
+    {
+      "n": 8,
+      "q": "During an elastic collision between two bodies, which of the following statements are correct? I. The initial kinetic energy is equal to the final kinetic energy of the system. II. The linear momentum is conserved. III. The kinetic energy during Δt (the collision time) is not conserved.",
+      "options": [
+        "I and II only",
+        "II and III only",
+        "I and III only",
+        "I, II and III"
+      ],
+      "answer": 3,
+      "chapter": "Work, Energy and Power",
+      "explanation": "In an elastic collision total KE and momentum are conserved before and after (I, II true); during the brief collision time energy is momentarily stored as deformation energy so KE is not conserved instant-to-instant (III true). All three are correct."
+    },
+    {
+      "n": 9,
+      "q": "Three particles of mass 1 kg, 2 kg and 3 kg are placed at the vertices A, B and C respectively of an equilateral triangle ABC of side 1 m. The centre of mass of the system from vertex A (located at origin) is",
+      "options": [
+        "(0,0)",
+        "$\\left(\\dfrac{7}{12},\\dfrac{3\\sqrt3}{12}\\right)$",
+        "$\\left(\\dfrac{9}{12},\\dfrac{3\\sqrt3}{12}\\right)$",
+        "$\\left(\\dfrac{7}{12},\\dfrac{6+3\\sqrt3}{12}\\right)$"
+      ],
+      "answer": 1,
+      "chapter": "System of Particles and Rotational Motion",
+      "explanation": "With A=(0,0), B=(1,0), C=(0.5,\\dfrac{\\sqrt3}{2}): $x_{cm}=\\dfrac{1(0)+2(1)+3(0.5)}{6}=\\dfrac{7}{12}$, $y_{cm}=\\dfrac{3(\\sqrt3/2)}{6}=\\dfrac{3\\sqrt3}{12}$."
+    },
+    {
+      "n": 10,
+      "q": "Two fly wheels are connected by a non-slipping belt as shown in the figure. I$_1$ = 4 kg m$^2$, r$_1$ = 20 cm, I$_2$ = 20 kg m$^2$ and r$_2$ = 30 cm. A torque of 10 Nm is applied on the smaller wheel. Then match the entries of column I with appropriate entries of column II. Column I: (a) Angular acceleration of smaller wheel (b) Torque on the larger wheel (c) Angular acceleration of larger wheel. Column II: (i) 5/3 (ii) 100/3 (iii) 5/2",
+      "options": [
+        "a – iii, b – ii, c – i",
+        "a – ii, b – iii, c – i",
+        "a – iii, b – i, c – ii",
+        "a – ii, b – i, c – iii"
+      ],
+      "answer": 0,
+      "chapter": "System of Particles and Rotational Motion",
+      "explanation": "$\\alpha_1=\\tau/I_1=10/4=5/2$ rad/s$^2$. The belt gives equal rim acceleration: $\\alpha_2=\\alpha_1 r_1/r_2=2.5(0.2)/0.3=5/3$ rad/s$^2$. Torque on the larger wheel $=I_2\\alpha_2=20(5/3)=100/3$ Nm."
+    },
+    {
+      "n": 11,
+      "q": "If r$_p$, v$_p$, L$_p$ and r$_a$, v$_a$, L$_a$ are radii, velocities and angular momenta of a planet at perihelion and aphelion of its elliptical orbit around the Sun respectively, then",
+      "options": [
+        "$r_p<r_a, v_p<v_a, L_a<L_p$",
+        "$r_p>r_a, v_p>v_a, L_a>L_p$",
+        "$r_p<r_a, v_p>v_a, L_a=L_p$",
+        "$r_p>r_a, v_p<v_a, L_a=L_p$"
+      ],
+      "answer": 2,
+      "chapter": "Gravitation",
+      "explanation": "Perihelion is the closest point (smaller r, larger v by Kepler's law of areas), and angular momentum about the Sun is conserved throughout the orbit, so $L_a=L_p$."
+    },
+    {
+      "n": 12,
+      "q": "The total energy of a satellite in a circular orbit at a distance (R + h) from the center of the Earth varies as [R is the radius of the Earth and h is the height of the orbit from Earth's surface]",
+      "options": [
+        "$\\dfrac{1}{(R+h)}$",
+        "$-\\dfrac{1}{(R+h)}$",
+        "$\\dfrac{1}{(R+h)^2}$",
+        "$-\\dfrac{1}{(R+h)^2}$"
+      ],
+      "answer": 1,
+      "chapter": "Gravitation",
+      "explanation": "Total energy of an orbiting satellite is $E=-\\dfrac{GMm}{2(R+h)}$, which varies as $-1/(R+h)$."
+    },
+    {
+      "n": 13,
+      "q": "Two wires A and B are made of same material. Their diameters are in the ratio of 1:2 and lengths are in the ratio of 1:3. If they are stretched by the same force, then increase in their lengths will be in the ratio of",
+      "options": [
+        "4:3",
+        "3:4",
+        "2:3",
+        "3:2"
+      ],
+      "answer": 0,
+      "chapter": "Mechanical Properties of Solids",
+      "explanation": "$\\Delta L=\\dfrac{FL}{\\pi r^2 E}$, so $\\dfrac{\\Delta L_A}{\\Delta L_B}=\\dfrac{L_A/r_A^2}{L_B/r_B^2}=\\dfrac{1/1}{3/4}=\\dfrac{4}{3}$."
+    },
+    {
+      "n": 14,
+      "q": "A horizontal pipe carries water in a streamlined flow. At a point along the pipe, where the cross-sectional area is 10 cm$^2$, the velocity of water is 1 ms$^{-1}$ and the pressure is 2000 Pa. What is the pressure of water at another point where the cross-sectional area is 5 cm$^2$? [Density of water = 1000 kgm$^{-3}$]",
+      "options": [
+        "200 Pa",
+        "300 Pa",
+        "400 Pa",
+        "500 Pa"
+      ],
+      "answer": 3,
+      "chapter": "Mechanical Properties of Fluids",
+      "explanation": "By continuity, $v_2=10(1)/5=2\\,ms^{-1}$. By Bernoulli's equation, $P_2=P_1+\\tfrac12\\rho(v_1^2-v_2^2)=2000+500(1-4)=500$ Pa."
+    },
+    {
+      "n": 15,
+      "q": "Three metal rods of the same material and identical in all respects are joined as shown in the figure. The temperatures at the ends of these rods are maintained as indicated. Assuming no heat energy loss occurs through the curved surfaces of the rods, the temperature at the junction x is [figure: one rod at 0°C meets junction X, two other identical rods from X go to two ends both at 90°C]",
+      "options": [
+        "45°C",
+        "60°C",
+        "30°C",
+        "20°C"
+      ],
+      "answer": 1,
+      "chapter": "Thermal Properties of Matter",
+      "explanation": "Heat balance at the junction with identical rods gives $T_x-0=2(90-T_x)$, so $3T_x=180$ and $T_x=60\\,{}^\\circ C$."
+    },
+    {
+      "n": 16,
+      "q": "A gas is taken from state A to state B along two different paths 1 and 2. The heat absorbed and work done by the system along these two paths are Q$_1$, Q$_2$ and W$_1$, W$_2$ respectively. Then",
+      "options": [
+        "$Q_1=Q_2$",
+        "$W_1=W_2$",
+        "$Q_1-W_1=Q_2-W_2$",
+        "$Q_1+W_1=Q_2+W_2$"
+      ],
+      "answer": 2,
+      "chapter": "Thermodynamics",
+      "explanation": "Internal energy is a state function, so $\\Delta U=Q_1-W_1=Q_2-W_2$ regardless of the path taken between the same states A and B."
+    },
+    {
+      "n": 17,
+      "q": "At 27°C temperature, the mean kinetic energy of the atoms of an ideal gas is E$_1$. If this atomic temperature is increased to 327°C, then the mean kinetic energy of the atoms will be",
+      "options": [
+        "$\\dfrac{E_1}{2}$",
+        "$\\dfrac{E_1}{\\sqrt2}$",
+        "$\\sqrt2\\,E_1$",
+        "$2E_1$"
+      ],
+      "answer": 3,
+      "chapter": "Kinetic Theory",
+      "explanation": "Mean KE $\\propto T$(kelvin). $27^\\circ C=300$K and $327^\\circ C=600$K, so temperature doubles and mean KE becomes $2E_1$."
+    },
+    {
+      "n": 18,
+      "q": "The variations of kinetic energy K(x), potential energy U(x) and total energy as a function of displacement of a particle in SHM is as shown in the figure. The value of |x$_0$| is",
+      "options": [
+        "$\\dfrac{A}{2}$",
+        "$2A$",
+        "$\\dfrac{A}{\\sqrt2}$",
+        "$\\sqrt2\\,A$"
+      ],
+      "answer": 2,
+      "chapter": "Oscillations",
+      "explanation": "$K(x)=U(x)$ (curves cross) occurs when $\\tfrac12 x^2=\\tfrac12(A^2-x^2)$ i.e. $x=A/\\sqrt2$; this is the marked point $x_0$."
+    },
+    {
+      "n": 19,
+      "q": "The angle between the particle velocity and wave velocity in a transverse wave is [except when the particle passes through the mean position]",
+      "options": [
+        "Zero radian",
+        "$\\dfrac{\\pi}{4}$ radian",
+        "$\\dfrac{\\pi}{2}$ radian",
+        "$\\pi$ radian"
+      ],
+      "answer": 2,
+      "chapter": "Waves",
+      "explanation": "In a transverse wave the medium particles oscillate perpendicular to the direction of wave travel, so the particle velocity is always at 90° ($\\pi/2$) to the wave velocity."
+    },
+    {
+      "n": 20,
+      "q": "A metallic sphere of radius R carrying a charge q is kept at certain distance from another metallic sphere of radius R/4 carrying a charge Q. What is the electric flux at any point inside the metallic sphere of radius R due to the sphere of radius R/4?",
+      "options": [
+        "$\\dfrac{Q}{\\varepsilon_0}$",
+        "$\\dfrac{Q}{\\varepsilon_0}-\\dfrac{q}{\\varepsilon_0}$",
+        "Zero",
+        "$\\dfrac{q}{\\varepsilon_0}-\\dfrac{Q}{\\varepsilon_0}$"
+      ],
+      "answer": 2,
+      "chapter": "Electric Charges and Fields",
+      "explanation": "Inside the material of a conductor in electrostatic equilibrium the electric field is always zero, so the flux through any surface drawn inside it is zero, irrespective of external charges."
+    },
+    {
+      "n": 21,
+      "q": "You are given a dipole of charge + q and − q separated by a distance 2R. A sphere 'A' of radius 'R' passes through the centre of the dipole as shown below and another sphere 'B' of radius '2R' passes through the charge + q. Then the electric flux through the sphere A is [figure: concentric spheres A (radius R) and B (radius 2R) centred at −q; +q lies on the boundary of A]",
+      "options": [
+        "$-q/\\varepsilon_0$",
+        "$q/\\varepsilon_0$",
+        "Zero",
+        "$2q/\\varepsilon_0$"
+      ],
+      "answer": 0,
+      "chapter": "Electric Charges and Fields",
+      "explanation": "Sphere A (radius R, centred on −q) encloses only the charge −q, so by Gauss's law the flux through it is $-q/\\varepsilon_0$."
+    },
+    {
+      "n": 22,
+      "q": "A potential at a point A is –3 V and that at another point B is 5 V. What is the work done in carrying a charge of 5 m C from B to A?",
+      "options": [
+        "–40 J",
+        "–0.04 J",
+        "–0.4 J",
+        "–4 J"
+      ],
+      "answer": 1,
+      "chapter": "Electrostatic Potential and Capacitance",
+      "explanation": "$W=q(V_A-V_B)=5\\times10^{-3}(-3-5)=-0.04$ J."
+    },
+    {
+      "n": 23,
+      "q": "Charges are uniformly spread on the surface of a conducting sphere. The electric field from the centre of sphere to a point outside the sphere varies with distance r from the centre as [graphs of E vs r]",
+      "options": [
+        "graph rising to a peak at r = R then decreasing (curve 1)",
+        "graph rising to a peak at r = R then decreasing more steeply (curve 2)",
+        "straight line decreasing from origin (curve 3)",
+        "curve decreasing steadily from r = 0 (curve 4)"
+      ],
+      "answer": 1,
+      "chapter": "Electric Charges and Fields",
+      "explanation": "For a charged conducting sphere, E = 0 inside, rises to a maximum at the surface (r = R), and falls off as $1/r^2$ outside — matching the second graph.",
+      "figure": true
+    },
+    {
+      "n": 24,
+      "q": "Match Column–I with Column–II related to an electric dipole of dipole moment $\\vec p$ that is placed in a uniform electric field $\\vec E$. Column–I (Angle between $\\vec p$ and $\\vec E$): a) 180° b) 120° c) 90°. Column–II (Potential energy of the dipole): i) –pE ii) pE iii) $\\tfrac12$pE iv) Zero",
+      "options": [
+        "a – ii, b – iii, c – iv",
+        "a – i, b – ii, c – iii",
+        "a – ii, b – iii, c – i",
+        "a – ii, b – i, c – iv"
+      ],
+      "answer": 0,
+      "chapter": "Electrostatic Potential and Capacitance",
+      "explanation": "$U=-pE\\cos\\theta$. At $180^\\circ$, $U=pE$ (ii); at $120^\\circ$, $U=-pE(-\\tfrac12)=\\tfrac12pE$ (iii); at $90^\\circ$, $U=0$ (iv)."
+    },
+    {
+      "n": 25,
+      "q": "Which of the following statements is not true?",
+      "options": [
+        "Electric field is always perpendicular to an equipotential surface.",
+        "Work done to move a charge on an equipotential surface is not zero",
+        "Equipotential surfaces are the surfaces where the potential is constant",
+        "Equipotential surfaces for a uniform electric field are parallel and equidistant from each other."
+      ],
+      "answer": 1,
+      "chapter": "Electrostatic Potential and Capacitance",
+      "explanation": "Since the potential does not change along an equipotential surface, the work done moving a charge on it is always zero — so statement (2) is the false one."
+    },
+    {
+      "n": 26,
+      "q": "Which of the following is a correct statement?",
+      "options": [
+        "Gauss's law is true for any closed surface",
+        "Gauss's law is true for any open surface",
+        "Gauss's law is not applicable when charges are not symmetrically distributed over a closed surface.",
+        "Gauss's law does not hold good for a charge situated outside the Gaussian surface."
+      ],
+      "answer": 0,
+      "chapter": "Electric Charges and Fields",
+      "explanation": "Gauss's law, $\\oint \\vec E\\cdot d\\vec A=q_{enc}/\\varepsilon_0$, holds for any closed surface regardless of the charge distribution or symmetry."
+    },
+    {
+      "n": 27,
+      "q": "In the following circuit, the terminal voltage across the cell is [circuit: 2 V cell with internal resistance 0.1 Ω in series with an external resistor of 3.9 Ω]",
+      "options": [
+        "0.52 V",
+        "1.68 V",
+        "1.95 V",
+        "2.71 V"
+      ],
+      "answer": 2,
+      "chapter": "Current Electricity",
+      "explanation": "$I=\\dfrac{2}{0.1+3.9}=0.5$ A. Terminal voltage $=E-Ir=2-0.5(0.1)=1.95$ V."
+    },
+    {
+      "n": 28,
+      "q": "Two cells of emfs E$_1$ and E$_2$ and internal resistances r$_1$ and r$_2$ (E$_2$ > E$_1$ and r$_2$ > r$_1$) respectively, are connected in parallel as shown in figure. The equivalent emf of the combination is E$_{eq}$. Then",
+      "options": [
+        "$E_1<E_{eq}<E_2$ and $E_{eq}$ is nearer $E_1$",
+        "$E_1<E_{eq}<E_2$ and $E_{eq}$ is nearer $E_2$",
+        "$E_{eq}>E_2$",
+        "$E_{eq}<E_1$"
+      ],
+      "answer": 0,
+      "chapter": "Current Electricity",
+      "explanation": "$E_{eq}=\\dfrac{E_1/r_1+E_2/r_2}{1/r_1+1/r_2}$. Since $r_1<r_2$, the branch with $E_1$ is weighted more heavily, pulling $E_{eq}$ closer to $E_1$."
+    },
+    {
+      "n": 29,
+      "q": "The variations of resistivity ρ with absolute temperature T for three different materials X, Y and Z are shown in the graph below. Identify the materials X, Y and Z. [graph: ρ vs T; Z decreases sharply with T, X and Y increase with T, X lying above Y]",
+      "options": [
+        "X – copper, Y – nichrome, Z – semiconductor",
+        "X – copper, Y – semiconductor, Z – nichrome",
+        "X – semiconductor, Y – nichrome, Z – copper",
+        "X – nichrome, Y – copper, Z – semiconductor"
+      ],
+      "answer": 0,
+      "chapter": "Current Electricity",
+      "explanation": "Metals (copper, nichrome) show resistivity increasing with temperature while a semiconductor's resistivity falls sharply as T increases, identifying Z as the semiconductor and X, Y as the two metals as per the KEA key.",
+      "figure": true
+    },
+    {
+      "n": 30,
+      "q": "Given, a current carrying wire of non-uniform cross-section, which of the following is constant throughout the length of wire?",
+      "options": [
+        "Current, electric field and drift speed",
+        "Drift speed",
+        "Current and drift speed",
+        "Current only"
+      ],
+      "answer": 3,
+      "chapter": "Current Electricity",
+      "explanation": "By charge conservation the current I is the same everywhere along the wire; since the area varies, the electric field and drift speed (which depend on area) are not constant."
+    },
+    {
+      "n": 31,
+      "q": "The graph between variation of resistance of a metal wire as a function of its diameter keeping other parameters like length and temperature constant is",
+      "options": [
+        "straight line increasing from origin (graph 1)",
+        "straight line decreasing (graph 2)",
+        "curve increasing steeply (graph 3)",
+        "curve decreasing steeply then levelling off (graph 4)"
+      ],
+      "answer": 3,
+      "chapter": "Current Electricity",
+      "explanation": "$R=\\dfrac{\\rho L}{A}=\\dfrac{4\\rho L}{\\pi D^2}\\propto \\dfrac{1}{D^2}$, which is a steadily decreasing curve as shown in graph 4.",
+      "figure": true
+    },
+    {
+      "n": 32,
+      "q": "Two thin long parallel wires separated by a distance 'r' from each other in vacuum carry a current of I ampere in opposite directions. Then, they will",
+      "options": [
+        "Attract each other with a force per unit length of $\\dfrac{\\mu_0 I^2}{2\\pi r^2}$",
+        "Attract each other with a force per unit length of $\\dfrac{\\mu_0 I^2}{2\\pi r}$",
+        "Repel each other with a force per unit length of $\\dfrac{\\mu_0 I^2}{2\\pi r}$",
+        "Repel each other with a force per unit length of $\\dfrac{\\mu_0 I^2}{2\\pi r^2}$"
+      ],
+      "answer": 2,
+      "chapter": "Moving Charges and Magnetism",
+      "explanation": "Currents in opposite directions repel each other; the force per unit length between two long parallel wires is $\\dfrac{\\mu_0 I^2}{2\\pi r}$."
+    },
+    {
+      "n": 33,
+      "q": "A solenoid is 1 m long and 4 cm in diameter. It has five layers of windings of 1000 turns each and carries a current of 7A. The magnetic field at the centre of the solenoid is",
+      "options": [
+        "439.6 T",
+        "$0.4396\\times10^{-5}$ T",
+        "$4.396\\times10^{-2}$ T",
+        "$43.96\\times10^{-2}$ T"
+      ],
+      "answer": 2,
+      "chapter": "Moving Charges and Magnetism",
+      "explanation": "$n=5000$ turns/m. $B=\\mu_0 nI=4\\pi\\times10^{-7}\\times5000\\times7\\approx4.4\\times10^{-2}$ T."
+    },
+    {
+      "n": 34,
+      "q": "Two similar galvanometers are converted into an ammeter and a milliammeter. The shunt resistance of ammeter as compared to the shunt resistance of milliammeter will be",
+      "options": [
+        "Equal",
+        "Zero",
+        "More",
+        "Less"
+      ],
+      "answer": 3,
+      "chapter": "Moving Charges and Magnetism",
+      "explanation": "Using $S=\\dfrac{I_gG}{I-I_g}$, a wider full-scale range (ammeter) needs a much smaller shunt than a milliammeter, so the ammeter's shunt resistance is less. KEA's initial key had said 'More', but the revised key corrected this to 'Less'."
+    },
+    {
+      "n": 35,
+      "q": "Which of the following statements is true in respect of diamagnetic substances?",
+      "options": [
+        "Susceptibility is small and negative",
+        "They are feebly attracted by magnets",
+        "Permeability is greater than 1000",
+        "Susceptibility decreases with temperature."
+      ],
+      "answer": 0,
+      "chapter": "Magnetism and Matter",
+      "explanation": "Diamagnetic substances have a small, negative, and (nearly) temperature-independent susceptibility, and are feebly repelled (not attracted) by magnets."
+    },
+    {
+      "n": 36,
+      "q": "Identify the correct statement",
+      "options": [
+        "The magnetic field inside a solenoid is non-uniform",
+        "A current carrying conductor produces an electric field around it.",
+        "A straight current carrying conductor has circular magnetic field lines around it.",
+        "The direction of magnetic field due to a current element is given by Flemings Left Hand Rule"
+      ],
+      "answer": 2,
+      "chapter": "Moving Charges and Magnetism",
+      "explanation": "A straight current-carrying conductor produces concentric circular magnetic field lines around it (right-hand rule); the field inside an ideal solenoid is fairly uniform, and it is the magnetic (not electric) field that a current produces."
+    },
+    {
+      "n": 37,
+      "q": "Which of the following graphs represents the variation of magnetic field B with perpendicular distance 'r' from an infinitely long, straight conductor carrying current?",
+      "options": [
+        "straight line decreasing from origin (graph 1)",
+        "straight line increasing from origin (graph 2)",
+        "curve decreasing steadily, steep near origin (graph 3)",
+        "curve rising then falling (graph 4)"
+      ],
+      "answer": 2,
+      "chapter": "Moving Charges and Magnetism",
+      "explanation": "$B=\\dfrac{\\mu_0 I}{2\\pi r}\\propto 1/r$, a hyperbolic curve that falls steadily as r increases, as in graph 3.",
+      "figure": true
+    },
+    {
+      "n": 38,
+      "q": "If we consider an electron and a photon of same de-Broglie wavelength, then they will have same",
+      "options": [
+        "Momentum",
+        "Angular momentum",
+        "Energy",
+        "Velocity"
+      ],
+      "answer": 0,
+      "chapter": "Dual Nature of Radiation and Matter",
+      "explanation": "de Broglie wavelength $\\lambda=h/p$ depends only on momentum, so equal wavelength implies equal momentum for both the electron and the photon."
+    },
+    {
+      "n": 39,
+      "q": "The anode voltage of a photocell is kept fixed. The frequency of the light falling on the cathode is gradually increased. Then the correct graph which shows the variation of photo current I with the frequency ν of incident light is",
+      "options": [
+        "I rising linearly from $\\nu_0$ (graph 1)",
+        "I zero till $\\nu_0$ then jumping to a constant value (graph 2)",
+        "I rising and saturating (graph 3)",
+        "I decreasing with ν (graph 4)"
+      ],
+      "answer": 1,
+      "chapter": "Dual Nature of Radiation and Matter",
+      "explanation": "For fixed intensity and anode voltage, photocurrent is zero below the threshold frequency $\\nu_0$ and then jumps to a steady value independent of further increase in frequency, as shown in graph 2.",
+      "figure": true
+    },
+    {
+      "n": 40,
+      "q": "When a bar magnet is pushed towards the coil, along its axis, as shown in the figure, the galvanometer pointer deflects towards X. When this magnet is pulled away from the coil, the galvanometer pointer",
+      "options": [
+        "deflects towards X",
+        "deflects towards X$^1$",
+        "does not deflect",
+        "oscillates"
+      ],
+      "answer": 1,
+      "chapter": "Electromagnetic Induction",
+      "explanation": "By Lenz's law, reversing the relative motion of the magnet reverses the induced EMF and current, so the galvanometer deflects the other way, towards X$^1$."
+    },
+    {
+      "n": 41,
+      "q": "A square loop of side 2 m lies in the Y-Z plane in a region having a magnetic field $\\vec B=(5\\hat i+3\\hat j-4\\hat k)$T. The magnitude of magnetic flux through the square loop is",
+      "options": [
+        "10 Wb",
+        "20 Wb",
+        "12 Wb",
+        "16 Wb"
+      ],
+      "answer": 1,
+      "chapter": "Electromagnetic Induction",
+      "explanation": "The loop's normal is along $\\hat i$ (x-direction) since it lies in the Y-Z plane. Flux $=B_x A=5\\times(2^2)=20$ Wb."
+    },
+    {
+      "n": 42,
+      "q": "In domestic electric mains supply, the voltage and the current are",
+      "options": [
+        "AC voltage and AC current",
+        "AC voltage and DC current",
+        "DC voltage and DC current",
+        "DC voltage and AC current"
+      ],
+      "answer": 0,
+      "chapter": "Alternating Current",
+      "explanation": "Domestic mains supply an alternating voltage which drives an alternating current through the load."
+    },
+    {
+      "n": 43,
+      "q": "A sinusoidal voltage produced by an AC generator at any instant t is given by an equation V = 311 sin 314 t. The rms value of voltage and frequency are respectively",
+      "options": [
+        "200 V, 100 Hz",
+        "200 V, 50 Hz",
+        "220 V, 100 Hz",
+        "220 V, 50 Hz"
+      ],
+      "answer": 3,
+      "chapter": "Alternating Current",
+      "explanation": "$V_{rms}=311/\\sqrt2\\approx220$ V, and $\\omega=314=2\\pi f$ gives $f=50$ Hz."
+    },
+    {
+      "n": 44,
+      "q": "A series LCR circuit containing an AC source of 100 V has an inductor and a capacitor of reactances 24 Ω and 16 Ω respectively. If a resistance of 6 Ω is connected in series, then the potential difference across the series combination of inductor and capacitor only is",
+      "options": [
+        "40 V",
+        "80 V",
+        "400 V",
+        "8 V"
+      ],
+      "answer": 1,
+      "chapter": "Alternating Current",
+      "explanation": "$Z=\\sqrt{6^2+(24-16)^2}=10\\,\\Omega$, so $I=100/10=10$ A. Voltage across (L–C) combination $=I(X_L-X_C)=10\\times8=80$ V."
+    },
+    {
+      "n": 45,
+      "q": "Match the following types of waves with their wavelength ranges. Waves: i. Microwave ii. Visible light iii. Ultraviolet iv. X-rays. Wavelength ranges: a) 700 nm to 400 nm b) 1 nm to $10^{-3}$ nm c) 0.1 m to 1mm d) 400 nm to 1nm",
+      "options": [
+        "i – a, ii – d, iii – b, iv – c",
+        "i – c, ii – a, iii – d, iv – b",
+        "i – d, ii – b, iii – c, iv – a",
+        "i – b, ii – c, iii – a, iv – d"
+      ],
+      "answer": 1,
+      "chapter": "Electromagnetic Waves",
+      "explanation": "Microwave: 0.1 m to 1 mm (c); visible light: 700-400 nm (a); ultraviolet: 400-1 nm (d); X-rays: 1 nm to $10^{-3}$ nm (b)."
+    },
+    {
+      "n": 46,
+      "q": "A ray of light passes from vacuum into a medium of refractive index n. If the angle of incidence is twice the angle of refraction, then the angle of incidence in terms of refractive index is",
+      "options": [
+        "$\\cos^{-1}\\left(\\dfrac{n}{2}\\right)$",
+        "$\\sin^{-1}\\left(\\dfrac{n}{2}\\right)$",
+        "$2\\cos^{-1}\\left(\\dfrac{n}{2}\\right)$",
+        "$2\\sin^{-1}\\left(\\dfrac{n}{2}\\right)$"
+      ],
+      "answer": 2,
+      "chapter": "Ray Optics and Optical Instruments",
+      "explanation": "$\\sin(2r)=n\\sin r \\Rightarrow 2\\cos r = n \\Rightarrow r=\\cos^{-1}(n/2)$, and the angle of incidence $i=2r=2\\cos^{-1}(n/2)$."
+    },
+    {
+      "n": 47,
+      "q": "A convex lens has power P. It is cut into two halves along its principal axis. Further one piece (out of two halves) is cut into two halves perpendicular to the principal axis as shown in figure. Choose the incorrect option for the reported lens pieces",
+      "options": [
+        "Power of L$_1$ is $\\dfrac{P}{2}$",
+        "Power of L$_2$ is $\\dfrac{P}{2}$",
+        "Power of L$_3$ is $\\dfrac{P}{2}$",
+        "Power of L$_1$ is P"
+      ],
+      "answer": 0,
+      "chapter": "Ray Optics and Optical Instruments",
+      "explanation": "Cutting along the principal axis leaves each half (L$_1$) with the same power P as the original lens; cutting that half perpendicular to the axis instead halves the power of each smaller piece (L$_2$, L$_3$) to P/2. So the claim that L$_1$'s power is P/2 is the incorrect one.",
+      "figure": true
+    },
+    {
+      "n": 48,
+      "q": "The image formed by an objective lens of a compound microscope is",
+      "options": [
+        "Virtual and diminished",
+        "Real and diminished",
+        "Real and enlarged",
+        "Virtual and enlarged"
+      ],
+      "answer": 2,
+      "chapter": "Ray Optics and Optical Instruments",
+      "explanation": "The objective forms a real, inverted and enlarged image of the object (placed just beyond its focus), which then acts as the object for the eyepiece."
+    },
+    {
+      "n": 49,
+      "q": "If r and r$^1$ denote the angles inside the prism having angle of prism 50° considering that during interval of time from t = 0 to t = t, r varies with time as r = 10° + t$^2$. During this time r$^1$ will vary with time as",
+      "options": [
+        "$40^\\circ-t^2$",
+        "$40^\\circ+t^2$",
+        "$50^\\circ-t^2$",
+        "$50^\\circ+t^2$"
+      ],
+      "answer": 0,
+      "chapter": "Ray Optics and Optical Instruments",
+      "explanation": "For a prism, $r+r^1=A=50^\\circ$, so $r^1=50^\\circ-r=50^\\circ-(10^\\circ+t^2)=40^\\circ-t^2$."
+    },
+    {
+      "n": 50,
+      "q": "If AB is incident plane wave front then refracted wave front is ($n_2 > n_1$) [figure: plane wavefront AB entering a converging lens from medium $n_1$ into $n_2$]",
+      "options": [
+        "a smoothly curving concave wavefront (option 1)",
+        "a smoothly curving concave wavefront, more curved (option 2)",
+        "two parallel straight wavefronts (option 3)",
+        "two crossing straight wavefronts (option 4)"
+      ],
+      "answer": 1,
+      "chapter": "Wave Optics",
+      "explanation": "Passing into the denser medium via the lens, the central part of the wavefront (thicker glass) is delayed more than the edges, bending the initially plane wavefront into a converging spherical (concave) wavefront, as in option 2.",
+      "figure": true
+    },
+    {
+      "n": 51,
+      "q": "The total energy carried by the light wave when it travels from a rarer to a non-reflecting and non-absorbing medium",
+      "options": [
+        "decreases",
+        "remains same",
+        "increases",
+        "either increases or decreases depending upon angle of incidence"
+      ],
+      "answer": 1,
+      "chapter": "Wave Optics",
+      "explanation": "If the medium reflects nothing and absorbs nothing, all the incident energy is transmitted, so the total energy carried by the wave remains the same."
+    },
+    {
+      "n": 52,
+      "q": "If the radius of first Bohr orbit is r, then the radius of the second Bohr orbit will be",
+      "options": [
+        "2r",
+        "8r",
+        "4r",
+        "$2\\sqrt2\\,r$"
+      ],
+      "answer": 2,
+      "chapter": "Atoms",
+      "explanation": "Bohr radius $r_n \\propto n^2$, so for $n=2$, $r_2 = 4r_1 = 4r$."
+    },
+    {
+      "n": 53,
+      "q": "Match the following types of nuclei with examples shown. Column-I: (A) Isotopes (B) Isobars (C) Isotones. Column-II: (i) $_3$Li$^7$, $_4$Be$^7$ (ii) $_8$O$^{18}$, $_9$F$^{19}$ (iii) $_1$H$^1$, $_1$H$^2$",
+      "options": [
+        "A – iii, B – i, C – ii",
+        "A – ii, B – iii, C – i",
+        "A – i, B – iii, C – ii",
+        "A – iii, B – ii, C – i"
+      ],
+      "answer": 0,
+      "chapter": "Nuclei",
+      "explanation": "$_1$H$^1,\\,{}_1$H$^2$ have the same Z (isotopes, iii); $_3$Li$^7,\\,{}_4$Be$^7$ have the same mass number (isobars, i); $_8$O$^{18},\\,{}_9$F$^{19}$ have the same neutron number 10 (isotones, ii)."
+    },
+    {
+      "n": 54,
+      "q": "Which of the following statements is incorrect with reference to 'Nuclear force'?",
+      "options": [
+        "Potential energy is minimum, if the separation between the nucleons is 0.8 fm",
+        "Nuclear force becomes attractive for nucleon distances larger than 0.8 fm",
+        "Nuclear force becomes repulsive for nucleon distances less than 0.8 fm",
+        "Nuclear force is always attractive"
+      ],
+      "answer": 3,
+      "chapter": "Nuclei",
+      "explanation": "The nuclear force is attractive beyond about 0.8 fm but becomes strongly repulsive at shorter distances, so it is not \"always attractive\" — statement (4) is incorrect."
+    },
+    {
+      "n": 55,
+      "q": "The range of electrical conductivity (σ) and resistivity (ρ) for metals, among the following, is",
+      "options": [
+        "$\\rho\\to10^{-2}-10^{-8}\\,\\Omega m,\\ \\sigma\\to10^{2}-10^{8}\\,Sm^{-1}$",
+        "$\\rho\\to10^{-5}-10^{6}\\,\\Omega m,\\ \\sigma\\to10^{5}-10^{-6}\\,Sm^{-1}$",
+        "$\\rho\\to10^{11}-10^{19}\\,\\Omega m,\\ \\sigma\\to10^{-11}-10^{-19}\\,Sm^{-1}$",
+        "$\\rho\\to10^{2}-10^{8}\\,\\Omega m,\\ \\sigma\\to10^{-2}-10^{-8}\\,Sm^{-1}$"
+      ],
+      "answer": 0,
+      "chapter": "Semiconductor Electronics",
+      "explanation": "Metals are good conductors with very low resistivity, typically in the range $10^{-2}$ to $10^{-8}\\,\\Omega m$ (conductivity $10^2$ to $10^8\\,Sm^{-1}$), as per the standard classification table."
+    },
+    {
+      "n": 56,
+      "q": "Which of the following statements is correct for an n-type semiconductor?",
+      "options": [
+        "The donor energy level lies just below the bottom of the conduction band",
+        "The donor energy level lies closely above the top of the valence band",
+        "The donor energy level lies at the half way mark of forbidden energy gap",
+        "The donor energy level does not exist"
+      ],
+      "answer": 0,
+      "chapter": "Semiconductor Electronics",
+      "explanation": "In an n-type semiconductor the donor impurity introduces energy levels just below the conduction band, from where electrons are easily excited into it."
+    },
+    {
+      "n": 57,
+      "q": "The circuit shown in the figure contains two ideal diodes D$_1$ and D$_2$. If a cell of emf 3 V and negligible internal resistance is connected as shown, then the current through 70 Ω resistance (in ampere) is [circuit: D$_1$ with 30Ω and D$_2$ with 30Ω in two parallel forward-biased branches, in series with a 70Ω resistor and a 3V cell]",
+      "options": [
+        "0",
+        "0.01",
+        "0.02",
+        "0.03"
+      ],
+      "answer": 3,
+      "chapter": "Semiconductor Electronics",
+      "explanation": "With both diodes forward biased, the two 30Ω branches are in parallel (15Ω), giving a total resistance of $15+70=85\\,\\Omega$. Current $=3/85\\approx0.03$ A.",
+      "figure": true
+    },
+    {
+      "n": 58,
+      "q": "In determining the refractive index of a glass slab using a travelling microscope, the following readings are tabulated. (a) Reading of travelling microscope for ink mark = 5.123 cm (b) Reading of travelling microscope for ink mark through glass slab = 6.123 cm (c) Reading of travelling microscope for chalk dust on glass slab = 8.123 cm. From the data, the refractive index of a glass slab is",
+      "options": [
+        "1.390",
+        "1.500",
+        "1.601",
+        "1.399"
+      ],
+      "answer": 1,
+      "chapter": "Ray Optics and Optical Instruments",
+      "explanation": "Real thickness $=c-a=3.0$ cm; apparent thickness $=c-b=2.0$ cm. $\\mu=\\dfrac{\\text{real depth}}{\\text{apparent depth}}=\\dfrac{3.0}{2.0}=1.5$."
+    },
+    {
+      "n": 59,
+      "q": "In an experiment to determine the figure of merit of a galvanometer by half deflection method, a student constructed the following circuit. He unplugged a resistance of 5200 Ω in R. When K$_1$ is closed and K$_2$ is open, the deflection observed in the galvanometer is 26 div. When K$_2$ is also closed and a resistance of 90 Ω is removed in S, the deflection becomes 13 div. The resistance of galvanometer is nearly",
+      "options": [
+        "116.0 Ω",
+        "45.0 Ω",
+        "103.0 Ω",
+        "91.6 Ω"
+      ],
+      "answer": 3,
+      "chapter": "Current Electricity",
+      "explanation": "Using the half-deflection method formula $G=\\dfrac{RS}{R-S}$ with the resistance box values obtained from the given readings gives $G\\approx91.6\\,\\Omega$ (as per KEA key)."
+    },
+    {
+      "n": 60,
+      "q": "While determining the coefficient of viscosity of the given liquid, a spherical steel ball sinks by a distance h = 0.9 m. The radius of the ball is r = $\\sqrt3\\times10^{-3}$m. The time taken by the ball to sink in three trials are tabulated as follows. Trial 1: 2.75 s, Trial 2: 2.65 s, Trial 3: 2.70 s. The difference between the densities of the steel ball and the liquid is 7000 kg m$^{-3}$. If g = 10.0 ms$^{-2}$, then the coefficient of viscosity of the given liquid at room temperature is",
+      "options": [
+        "0.28 Pa.s",
+        "0.14 Pa.s",
+        "$0.14\\times10^{-3}$ Pa.s",
+        "14 Pa.s"
+      ],
+      "answer": 1,
+      "chapter": "Mechanical Properties of Fluids",
+      "explanation": "Average time $=2.70$ s, so $v=h/t=0.9/2.7=1/3\\,ms^{-1}$. By Stokes' law, $\\eta=\\dfrac{2r^2\\Delta\\rho\\,g}{9v}=\\dfrac{2(3\\times10^{-6})(7000)(10)}{9(1/3)}\\approx0.14$ Pa.s."
+    }
+  ]
+}
