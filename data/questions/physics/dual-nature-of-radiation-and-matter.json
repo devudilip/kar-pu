@@ -12,7 +12,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "$\\nu_0 = \\phi_0/h = (2\\times1.6\\times10^{-19})/(6.6\\times10^{-34}) \\approx 4.85\\times10^{14}$ Hz."
+      "explanation": "$\\nu_0 = \\phi_0/h = (2\\times1.6\\times10^{-19})/(6.6\\times10^{-34}) \\approx 4.85\\times10^{14}$ Hz.",
+      "trick": "$\\nu_0=\\phi_0/h$ — divide the work function (in joules) by Planck's constant."
     },
     {
       "id": "phy-dual-nature-of-radiation-and-matter-002",
@@ -25,7 +26,8 @@
       ],
       "answer": 3,
       "difficulty": "easy",
-      "explanation": "More intensity means more photons per second, ejecting more electrons per second, increasing saturation current; $KE_{max}$ and stopping potential depend only on frequency, not intensity."
+      "explanation": "More intensity means more photons per second, ejecting more electrons per second, increasing saturation current; $KE_{max}$ and stopping potential depend only on frequency, not intensity.",
+      "trick": "Intensity up means only saturation current up; $KE_{max}$ never changes with intensity."
     },
     {
       "id": "phy-dual-nature-of-radiation-and-matter-003",
@@ -38,7 +40,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "$h\\nu = (6.6\\times10^{-34}\\times8\\times10^{14})/(1.6\\times10^{-19}) \\approx 3.3$ eV; $KE_{max} = 3.3 - 2.0 = 1.3$ eV."
+      "explanation": "$h\\nu = (6.6\\times10^{-34}\\times8\\times10^{14})/(1.6\\times10^{-19}) \\approx 3.3$ eV; $KE_{max} = 3.3 - 2.0 = 1.3$ eV.",
+      "trick": "$KE_{max}=h\\nu-\\phi_0$ — compute $h\\nu$ in eV, subtract the work function."
     },
     {
       "id": "phy-dual-nature-of-radiation-and-matter-004",
@@ -51,7 +54,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "$\\lambda = \\dfrac{1.227}{\\sqrt{V}}$ nm $= \\dfrac{1.227}{\\sqrt{100}} = 0.123$ nm."
+      "explanation": "$\\lambda = \\dfrac{1.227}{\\sqrt{V}}$ nm $= \\dfrac{1.227}{\\sqrt{100}} = 0.123$ nm.",
+      "trick": "Electron: $\\lambda=1.227/\\sqrt{V}$ nm — memorise this shortcut formula."
     },
     {
       "id": "phy-dual-nature-of-radiation-and-matter-005",
@@ -64,7 +68,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "$eV_0 = h\\nu - \\phi_0$, a linear relation with a non-zero intercept ($\\phi_0$), so doubling $\\nu$ increases $V_0$ but does not simply double it."
+      "explanation": "$eV_0 = h\\nu - \\phi_0$, a linear relation with a non-zero intercept ($\\phi_0$), so doubling $\\nu$ increases $V_0$ but does not simply double it.",
+      "trick": "$V_0$ vs $\\nu$ has a non-zero intercept — doubling $\\nu$ never doubles $V_0$."
     },
     {
       "id": "phy-dual-nature-of-radiation-and-matter-006",
@@ -77,7 +82,8 @@
       ],
       "answer": 3,
       "difficulty": "medium",
-      "explanation": "$\\lambda = h/p$ for both; equal $\\lambda$ implies equal momentum $p$. Their energies differ since photon energy is $pc$ while electron KE is $p^2/2m$."
+      "explanation": "$\\lambda = h/p$ for both; equal $\\lambda$ implies equal momentum $p$. Their energies differ since photon energy is $pc$ while electron KE is $p^2/2m$.",
+      "trick": "Same de Broglie $\\lambda$ means same momentum $p=h/\\lambda$, not same energy."
     },
     {
       "id": "phy-dual-nature-of-radiation-and-matter-007",
@@ -90,7 +96,8 @@
       ],
       "answer": 0,
       "difficulty": "easy",
-      "explanation": "From $eV_0 = h\\nu - \\phi_0$, $V_0 = (h/e)\\nu - \\phi_0/e$; the slope is $h/e$, independent of the metal, verifying Planck's constant experimentally."
+      "explanation": "From $eV_0 = h\\nu - \\phi_0$, $V_0 = (h/e)\\nu - \\phi_0/e$; the slope is $h/e$, independent of the metal, verifying Planck's constant experimentally.",
+      "trick": "Slope of the $V_0$ vs $\\nu$ graph is always $h/e$ — a Planck's-constant giveaway."
     },
     {
       "id": "phy-dual-nature-of-radiation-and-matter-008",
@@ -103,7 +110,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "$p = h/\\lambda = (6.6\\times10^{-34})/(500\\times10^{-9}) = 1.32\\times10^{-27}$ kg m/s."
+      "explanation": "$p = h/\\lambda = (6.6\\times10^{-34})/(500\\times10^{-9}) = 1.32\\times10^{-27}$ kg m/s.",
+      "trick": "Photon momentum: $p=h/\\lambda$ — plug in wavelength directly, no energy needed."
     },
     {
       "id": "phy-dual-nature-of-radiation-and-matter-009",
@@ -116,7 +124,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "Emission occurs only if $\\nu \\ge$ threshold frequency of that metal. Since $\\nu > \\nu_A$ but $\\nu < \\nu_B$, only metal A (lower work function) emits photoelectrons."
+      "explanation": "Emission occurs only if $\\nu \\ge$ threshold frequency of that metal. Since $\\nu > \\nu_A$ but $\\nu < \\nu_B$, only metal A (lower work function) emits photoelectrons.",
+      "trick": "Only the metal with threshold frequency below the incident $\\nu$ emits — check each separately."
     },
     {
       "id": "phy-dual-nature-of-radiation-and-matter-010",
@@ -129,7 +138,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "Classical wave theory predicts that sufficiently intense light of any frequency should eventually eject electrons by accumulating energy, but experiments showed no emission below a threshold frequency no matter how intense — explained only by Einstein's photon (quantum) picture."
+      "explanation": "Classical wave theory predicts that sufficiently intense light of any frequency should eventually eject electrons by accumulating energy, but experiments showed no emission below a threshold frequency no matter how intense — explained only by Einstein's photon (quantum) picture.",
+      "trick": "A threshold frequency independent of intensity is the wave theory's fatal flaw."
     },
     {
       "id": "phy-dual-nature-of-radiation-and-matter-011",
@@ -142,7 +152,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "$\\lambda = h/\\sqrt{2meV}$; since $m_{electron} \\ll m_{proton}$, $\\lambda_{electron} > \\lambda_{proton}$ for the same $V$."
+      "explanation": "$\\lambda = h/\\sqrt{2meV}$; since $m_{electron} \\ll m_{proton}$, $\\lambda_{electron} > \\lambda_{proton}$ for the same $V$.",
+      "trick": "Same $V$: lighter mass (electron) gives a longer de Broglie wavelength."
     },
     {
       "id": "phy-dual-nature-of-radiation-and-matter-012",
@@ -155,7 +166,8 @@
       ],
       "answer": 1,
       "difficulty": "easy",
-      "explanation": "$E = hc/\\lambda = 1240/620 = 2$ eV."
+      "explanation": "$E = hc/\\lambda = 1240/620 = 2$ eV.",
+      "trick": "$E(\\text{eV})=1240/\\lambda(\\text{nm})$ — memorise $hc=1240$ eV·nm."
     },
     {
       "id": "phy-dual-nature-of-radiation-and-matter-013",
@@ -168,7 +180,8 @@
       ],
       "answer": 0,
       "difficulty": "easy",
-      "explanation": "Photoelectric emission is essentially instantaneous ($<10^{-9}$ s), consistent with a single photon transferring its energy to a single electron in one interaction."
+      "explanation": "Photoelectric emission is essentially instantaneous ($<10^{-9}$ s), consistent with a single photon transferring its energy to a single electron in one interaction.",
+      "trick": "Photoelectric emission has no time lag — one photon, one electron, instantly."
     },
     {
       "id": "phy-dual-nature-of-radiation-and-matter-014",
@@ -181,7 +194,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "$\\lambda = h/(mv) = (6.6\\times10^{-34})/(0.1\\times10) = 6.6\\times10^{-34}$ m — far too small to observe, showing why macroscopic objects don't show measurable wave behaviour."
+      "explanation": "$\\lambda = h/(mv) = (6.6\\times10^{-34})/(0.1\\times10) = 6.6\\times10^{-34}$ m — far too small to observe, showing why macroscopic objects don't show measurable wave behaviour.",
+      "trick": "Macroscopic $\\lambda=h/mv$ is always absurdly tiny — that's why we never see it."
     },
     {
       "id": "phy-dual-nature-of-radiation-and-matter-015",
@@ -194,7 +208,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "Electrons scattered from a nickel crystal showed intensity maxima at specific angles, exactly as predicted by treating the electron beam as a wave undergoing diffraction, verifying the de Broglie hypothesis."
+      "explanation": "Electrons scattered from a nickel crystal showed intensity maxima at specific angles, exactly as predicted by treating the electron beam as a wave undergoing diffraction, verifying the de Broglie hypothesis.",
+      "trick": "Davisson–Germer: electron diffraction peaks are direct proof of matter waves."
     },
     {
       "id": "phy-dual-nature-of-radiation-and-matter-016",
@@ -207,7 +222,8 @@
       ],
       "answer": 3,
       "difficulty": "hard",
-      "explanation": "$\\tfrac12 mv^2 = eV_0 \\Rightarrow v = \\sqrt{2V_0(e/m)} = \\sqrt{2\\times2\\times1.76\\times10^{11}} = \\sqrt{7.04\\times10^{11}} \\approx 8.4\\times10^{5}$ m/s."
+      "explanation": "$\\tfrac12 mv^2 = eV_0 \\Rightarrow v = \\sqrt{2V_0(e/m)} = \\sqrt{2\\times2\\times1.76\\times10^{11}} = \\sqrt{7.04\\times10^{11}} \\approx 8.4\\times10^{5}$ m/s.",
+      "trick": "Stopping potential to speed: $v=\\sqrt{2V_0(e/m)}$, plug in numbers directly."
     },
     {
       "id": "phy-dual-nature-of-radiation-and-matter-017",
@@ -220,7 +236,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "For the same KE, $\\lambda = h/\\sqrt{2mKE}$, so $\\lambda \\propto 1/\\sqrt{m}$; the electron has by far the smallest mass, giving it the largest wavelength."
+      "explanation": "For the same KE, $\\lambda = h/\\sqrt{2mKE}$, so $\\lambda \\propto 1/\\sqrt{m}$; the electron has by far the smallest mass, giving it the largest wavelength.",
+      "trick": "Same KE: $\\lambda\\propto1/\\sqrt m$ — the lightest particle always wins the longest $\\lambda$."
     },
     {
       "id": "phy-dual-nature-of-radiation-and-matter-018",
@@ -233,7 +250,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "$h\\nu = hc/\\lambda = 1240/300 \\approx 4.13$ eV; $eV_0 = 4.13 - 1.5 = 2.63$ eV, so $V_0 \\approx 2.6$ V."
+      "explanation": "$h\\nu = hc/\\lambda = 1240/300 \\approx 4.13$ eV; $eV_0 = 4.13 - 1.5 = 2.63$ eV, so $V_0 \\approx 2.6$ V.",
+      "trick": "$eV_0=hc/\\lambda-\\phi_0$ — compute the photon energy first, then subtract $\\phi_0$."
     },
     {
       "id": "phy-dual-nature-of-radiation-and-matter-019",
@@ -246,7 +264,8 @@
       ],
       "answer": 3,
       "difficulty": "easy",
-      "explanation": "$\\lambda_0 = hc/\\phi_0 = 1240/2 = 620$ nm."
+      "explanation": "$\\lambda_0 = hc/\\phi_0 = 1240/2 = 620$ nm.",
+      "trick": "Threshold wavelength: $\\lambda_0=hc/\\phi_0$ — invert to relate energy and cutoff $\\lambda$."
     },
     {
       "id": "phy-dual-nature-of-radiation-and-matter-020",
@@ -259,7 +278,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "The intensity of light from a point source falls off as $1/r^2$; since saturation current is proportional to intensity (number of photons per second), it too varies as $1/r^2$."
+      "explanation": "The intensity of light from a point source falls off as $1/r^2$; since saturation current is proportional to intensity (number of photons per second), it too varies as $1/r^2$.",
+      "trick": "Point-source intensity falls as $1/r^2$ — saturation current follows the same law."
     },
     {
       "id": "phy-dual-nature-of-radiation-and-matter-021",
@@ -272,7 +292,8 @@
       ],
       "answer": 3,
       "difficulty": "easy",
-      "explanation": "At and beyond the stopping potential, even the most energetic photoelectrons are turned back, so the photocurrent stays at zero."
+      "explanation": "At and beyond the stopping potential, even the most energetic photoelectrons are turned back, so the photocurrent stays at zero.",
+      "trick": "Beyond the stopping potential, current is exactly zero — no exceptions, no oscillation."
     },
     {
       "id": "phy-dual-nature-of-radiation-and-matter-022",
@@ -285,7 +306,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "Slope of the $V_0$ vs $\\nu$ graph is $h/e$, so $h = e\\times\\text{slope} = 1.6\\times10^{-19}\\times4.14\\times10^{-15} \\approx 6.6\\times10^{-34}$ J s."
+      "explanation": "Slope of the $V_0$ vs $\\nu$ graph is $h/e$, so $h = e\\times\\text{slope} = 1.6\\times10^{-19}\\times4.14\\times10^{-15} \\approx 6.6\\times10^{-34}$ J s.",
+      "trick": "Recover $h$ from a graph: $h=e\\times\\text{slope}$ of $V_0$ vs $\\nu$."
     },
     {
       "id": "phy-dual-nature-of-radiation-and-matter-023",
@@ -298,7 +320,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "Energy per photon $= hc/\\lambda = 1.99\\times10^{-25}/5.9\\times10^{-7} \\approx 3.37\\times10^{-19}$ J. Number of photons per second $= 100/3.37\\times10^{-19} \\approx 3\\times10^{20}$."
+      "explanation": "Energy per photon $= hc/\\lambda = 1.99\\times10^{-25}/5.9\\times10^{-7} \\approx 3.37\\times10^{-19}$ J. Number of photons per second $= 100/3.37\\times10^{-19} \\approx 3\\times10^{20}$.",
+      "trick": "Photons per second equal power divided by energy per photon ($hc/\\lambda$)."
     },
     {
       "id": "phy-dual-nature-of-radiation-and-matter-024",
@@ -311,7 +334,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "$\\phi_0 = hc/\\lambda_0$, so a smaller threshold wavelength gives a larger work function; P (300 nm) has the greater work function."
+      "explanation": "$\\phi_0 = hc/\\lambda_0$, so a smaller threshold wavelength gives a larger work function; P (300 nm) has the greater work function.",
+      "trick": "Smaller threshold wavelength means bigger work function — they're inversely related."
     },
     {
       "id": "phy-dual-nature-of-radiation-and-matter-025",
@@ -324,7 +348,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "$\\lambda = \\dfrac{1.227}{\\sqrt{V}}$ nm with $V=150$ V gives $\\lambda = 1.227/\\sqrt{150} \\approx 0.1$ nm $= 1$ Å."
+      "explanation": "$\\lambda = \\dfrac{1.227}{\\sqrt{V}}$ nm with $V=150$ V gives $\\lambda = 1.227/\\sqrt{150} \\approx 0.1$ nm $= 1$ Å.",
+      "trick": "Just use $\\lambda=1.227/\\sqrt V$ nm with $V$ as the accelerating potential (or KE in eV)."
     },
     {
       "id": "phy-dual-nature-of-radiation-and-matter-026",
@@ -337,7 +362,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "$\\lambda = h/\\sqrt{2mE}$, so $\\lambda \\propto 1/\\sqrt{E}$. Increasing $E$ four-fold makes $\\lambda$ half of its original value."
+      "explanation": "$\\lambda = h/\\sqrt{2mE}$, so $\\lambda \\propto 1/\\sqrt{E}$. Increasing $E$ four-fold makes $\\lambda$ half of its original value.",
+      "trick": "$\\lambda\\propto1/\\sqrt E$ — quadrupling KE always halves the wavelength."
     },
     {
       "id": "phy-dual-nature-of-radiation-and-matter-027",
@@ -350,7 +376,8 @@
       ],
       "answer": 0,
       "difficulty": "easy",
-      "explanation": "All photons of a given frequency have exactly the same energy $h\\nu$; the statement that they can differ is incorrect."
+      "explanation": "All photons of a given frequency have exactly the same energy $h\\nu$; the statement that they can differ is incorrect.",
+      "trick": "All photons of one frequency carry identical energy — never a range."
     },
     {
       "id": "phy-dual-nature-of-radiation-and-matter-028",
@@ -363,7 +390,8 @@
       ],
       "answer": 3,
       "difficulty": "medium",
-      "explanation": "By Einstein's equation $KE_{max} = h\\nu - \\phi_0$, the maximum kinetic energy depends only on frequency and the metal's work function, never on intensity."
+      "explanation": "By Einstein's equation $KE_{max} = h\\nu - \\phi_0$, the maximum kinetic energy depends only on frequency and the metal's work function, never on intensity.",
+      "trick": "$KE_{max}$ depends ONLY on frequency and metal — intensity never enters this formula."
     },
     {
       "id": "phy-dual-nature-of-radiation-and-matter-029",
@@ -376,7 +404,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "$\\phi_0 = 1240/300 = 4.13$ eV, $h\\nu = 1240/200 = 6.2$ eV, so $KE_{max} = 6.2 - 4.13 \\approx 2.07$ eV."
+      "explanation": "$\\phi_0 = 1240/300 = 4.13$ eV, $h\\nu = 1240/200 = 6.2$ eV, so $KE_{max} = 6.2 - 4.13 \\approx 2.07$ eV.",
+      "trick": "$KE_{max}=hc\\left(\\frac1\\lambda-\\frac1{\\lambda_0}\\right)$ — subtract in energy units directly."
     },
     {
       "id": "phy-dual-nature-of-radiation-and-matter-030",
@@ -389,7 +418,8 @@
       ],
       "answer": 3,
       "difficulty": "hard",
-      "explanation": "For the same kinetic energy, $\\lambda \\propto 1/\\sqrt{m}$; since the alpha particle's mass is 4 times the proton's, its wavelength is $\\lambda/\\sqrt{4} = \\lambda/2$."
+      "explanation": "For the same kinetic energy, $\\lambda \\propto 1/\\sqrt{m}$; since the alpha particle's mass is 4 times the proton's, its wavelength is $\\lambda/\\sqrt{4} = \\lambda/2$.",
+      "trick": "Same KE: alpha (4x proton mass) has wavelength $\\lambda/\\sqrt4=\\lambda/2$."
     },
     {
       "id": "phy-dual-nature-of-radiation-and-matter-031",
@@ -402,7 +432,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "Stopping potential depends only on frequency, so it stays the same; more intense light means more photons per second, raising the saturation current."
+      "explanation": "Stopping potential depends only on frequency, so it stays the same; more intense light means more photons per second, raising the saturation current.",
+      "trick": "Fixed frequency, more intensity: $V_0$ stays put, only saturation current rises."
     },
     {
       "id": "phy-dual-nature-of-radiation-and-matter-032",
@@ -415,7 +446,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "At the same intensity, the same number of photons arrive per second, so saturation current stays the same; but higher frequency gives photoelectrons more kinetic energy, requiring a larger stopping potential to halt them."
+      "explanation": "At the same intensity, the same number of photons arrive per second, so saturation current stays the same; but higher frequency gives photoelectrons more kinetic energy, requiring a larger stopping potential to halt them.",
+      "trick": "Fixed intensity, higher frequency: current unchanged, but $V_0$ rises (more KE)."
     },
     {
       "id": "phy-dual-nature-of-radiation-and-matter-033",
@@ -428,7 +460,8 @@
       ],
       "answer": 3,
       "difficulty": "easy",
-      "explanation": "Photon energy $E = hc/\\lambda$. Since $\\lambda_{red} > \\lambda_{green} > \\lambda_{violet}$, the energies satisfy $E_{red} < E_{green} < E_{violet}$."
+      "explanation": "Photon energy $E = hc/\\lambda$. Since $\\lambda_{red} > \\lambda_{green} > \\lambda_{violet}$, the energies satisfy $E_{red} < E_{green} < E_{violet}$.",
+      "trick": "Shorter wavelength means higher photon energy: violet greater than green greater than red, always."
     },
     {
       "id": "phy-dual-nature-of-radiation-and-matter-034",
@@ -441,7 +474,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "$\\phi_0 = hc/\\lambda_0 = 1240/400 = 3.1$ eV."
+      "explanation": "$\\phi_0 = hc/\\lambda_0 = 1240/400 = 3.1$ eV.",
+      "trick": "$\\phi_0=hc/\\lambda_0=1240/\\lambda_0(\\text{nm})$ eV — a one-line calculation."
     },
     {
       "id": "phy-dual-nature-of-radiation-and-matter-035",
@@ -454,7 +488,8 @@
       ],
       "answer": 2,
       "difficulty": "easy",
-      "explanation": "The threshold-frequency behaviour and instantaneous emission observed in the photoelectric effect could only be explained by treating light as quanta (photons) of energy $h\\nu$, as proposed by Einstein."
+      "explanation": "The threshold-frequency behaviour and instantaneous emission observed in the photoelectric effect could only be explained by treating light as quanta (photons) of energy $h\\nu$, as proposed by Einstein.",
+      "trick": "The photoelectric effect's whole point: light behaves as quanta of energy $h\\nu$."
     },
     {
       "id": "phy-dual-nature-of-radiation-and-matter-036",
@@ -467,7 +502,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "More intense light delivers more photons per second; since each photon ejects at most one electron (one-to-one interaction), more electrons are emitted per second, increasing the saturation current proportionally."
+      "explanation": "More intense light delivers more photons per second; since each photon ejects at most one electron (one-to-one interaction), more electrons are emitted per second, increasing the saturation current proportionally.",
+      "trick": "One photon ejects at most one electron, so current scales linearly with intensity."
     },
     {
       "id": "phy-dual-nature-of-radiation-and-matter-037",
@@ -480,7 +516,8 @@
       ],
       "answer": 1,
       "difficulty": "easy",
-      "explanation": "$\\phi_0$, the work function, is the minimum energy required to free the most loosely bound electron from the metal surface, with no kinetic energy left over."
+      "explanation": "$\\phi_0$, the work function, is the minimum energy required to free the most loosely bound electron from the metal surface, with no kinetic energy left over.",
+      "trick": "$\\phi_0$ is the minimum energy to JUST free an electron, zero KE left over."
     },
     {
       "id": "phy-dual-nature-of-radiation-and-matter-038",
@@ -493,7 +530,8 @@
       ],
       "answer": 2,
       "difficulty": "hard",
-      "explanation": "Power on the surface $= I\\times A = 2\\times10^{-3}\\times2\\times10^{-4} = 4\\times10^{-7}$ W. Energy per photon $= hc/\\lambda = 1.99\\times10^{-25}/5\\times10^{-7} \\approx 3.98\\times10^{-19}$ J. Photons per second $\\approx 4\\times10^{-7}/3.98\\times10^{-19} \\approx 1\\times10^{12}$."
+      "explanation": "Power on the surface $= I\\times A = 2\\times10^{-3}\\times2\\times10^{-4} = 4\\times10^{-7}$ W. Energy per photon $= hc/\\lambda = 1.99\\times10^{-25}/5\\times10^{-7} \\approx 3.98\\times10^{-19}$ J. Photons per second $\\approx 4\\times10^{-7}/3.98\\times10^{-19} \\approx 1\\times10^{12}$.",
+      "trick": "Photon rate equals (intensity times area) divided by energy per photon — two-step calc."
     },
     {
       "id": "phy-dual-nature-of-radiation-and-matter-039",
@@ -506,7 +544,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "In the photon picture, a single photon transfers all its energy to a single electron in one instantaneous interaction, naturally explaining the absence of any time lag, unlike the classical wave model which predicts a measurable delay."
+      "explanation": "In the photon picture, a single photon transfers all its energy to a single electron in one instantaneous interaction, naturally explaining the absence of any time lag, unlike the classical wave model which predicts a measurable delay.",
+      "trick": "Zero time lag only makes sense if light delivers energy as single-shot photons."
     },
     {
       "id": "phy-dual-nature-of-radiation-and-matter-040",
@@ -519,7 +558,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "Equal wavelength means equal momentum $p$. Since $KE = p^2/2m$ for the same $p$, the lighter particle (the electron) has the larger kinetic energy."
+      "explanation": "Equal wavelength means equal momentum $p$. Since $KE = p^2/2m$ for the same $p$, the lighter particle (the electron) has the larger kinetic energy.",
+      "trick": "Same $\\lambda$ means same $p$; since $KE=p^2/2m$, the lighter electron has MORE kinetic energy."
     }
   ]
 }

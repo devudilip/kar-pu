@@ -12,7 +12,8 @@
       ],
       "answer": 1,
       "difficulty": "easy",
-      "explanation": "$x_{cm} = \\dfrac{2\\times0 + 3\\times5}{2+3} = \\dfrac{15}{5} = 3$ m."
+      "explanation": "$x_{cm} = \\dfrac{2\\times0 + 3\\times5}{2+3} = \\dfrac{15}{5} = 3$ m.",
+      "trick": "$x_{cm}=\\sum m_ix_i/\\sum m_i$ — weighted average of positions."
     },
     {
       "id": "phy-system-of-particles-rotational-motion-002",
@@ -25,7 +26,8 @@
       ],
       "answer": 3,
       "difficulty": "medium",
-      "explanation": "$\\tau = F\\times(\\text{perpendicular distance}) = 10\\times0.5 = 5$ N m."
+      "explanation": "$\\tau = F\\times(\\text{perpendicular distance}) = 10\\times0.5 = 5$ N m.",
+      "trick": "$\\tau=F\\times r_\\perp$ — direct plug-in."
     },
     {
       "id": "phy-system-of-particles-rotational-motion-003",
@@ -38,7 +40,8 @@
       ],
       "answer": 0,
       "difficulty": "easy",
-      "explanation": "For a ring, $I = MR^2 = 2\\times(0.5)^2 = 0.5$ kg m$^2$."
+      "explanation": "For a ring, $I = MR^2 = 2\\times(0.5)^2 = 0.5$ kg m$^2$.",
+      "trick": "Ring: $I=MR^2$ — memorise the I-table."
     },
     {
       "id": "phy-system-of-particles-rotational-motion-004",
@@ -51,7 +54,8 @@
       ],
       "answer": 2,
       "difficulty": "easy",
-      "explanation": "For a disc, $I = \\frac12MR^2 = \\frac12\\times2\\times0.25 = 0.25$ kg m$^2$."
+      "explanation": "For a disc, $I = \\frac12MR^2 = \\frac12\\times2\\times0.25 = 0.25$ kg m$^2$.",
+      "trick": "Disc: $I=\\frac12MR^2$ — memorise the I-table."
     },
     {
       "id": "phy-system-of-particles-rotational-motion-005",
@@ -64,7 +68,8 @@
       ],
       "answer": 1,
       "difficulty": "hard",
-      "explanation": "This is a standard result for a uniform solid sphere about its diameter: $I = \\frac25MR^2$."
+      "explanation": "This is a standard result for a uniform solid sphere about its diameter: $I = \\frac25MR^2$.",
+      "trick": "Solid sphere about diameter: $I=\\frac25MR^2$ — memorise."
     },
     {
       "id": "phy-system-of-particles-rotational-motion-006",
@@ -77,7 +82,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "Standard result for a thin rod about its centre: $I = \\dfrac{ML^2}{12}$."
+      "explanation": "Standard result for a thin rod about its centre: $I = \\dfrac{ML^2}{12}$.",
+      "trick": "Thin rod about centre: $I=\\dfrac{ML^2}{12}$ — memorise."
     },
     {
       "id": "phy-system-of-particles-rotational-motion-007",
@@ -90,7 +96,8 @@
       ],
       "answer": 3,
       "difficulty": "medium",
-      "explanation": "Parallel axis theorem: $I = I_{cm}+Md^2 = 0.2 + 2\\times(0.5)^2 = 0.2+0.5 = 0.7$ kg m$^2$."
+      "explanation": "Parallel axis theorem: $I = I_{cm}+Md^2 = 0.2 + 2\\times(0.5)^2 = 0.2+0.5 = 0.7$ kg m$^2$.",
+      "trick": "Parallel axis theorem: $I=I_{cm}+Md^2$."
     },
     {
       "id": "phy-system-of-particles-rotational-motion-008",
@@ -103,7 +110,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "The perpendicular axis theorem is valid only for flat, plane laminas, not for general 3-D bodies like spheres or cylinders."
+      "explanation": "The perpendicular axis theorem is valid only for flat, plane laminas, not for general 3-D bodies like spheres or cylinders.",
+      "trick": "Perpendicular axis theorem applies only to flat (2-D) laminas."
     },
     {
       "id": "phy-system-of-particles-rotational-motion-009",
@@ -116,7 +124,8 @@
       ],
       "answer": 0,
       "difficulty": "easy",
-      "explanation": "$L = I\\omega = 2\\times5 = 10$ kg m$^2$ s$^{-1}$."
+      "explanation": "$L = I\\omega = 2\\times5 = 10$ kg m$^2$ s$^{-1}$.",
+      "trick": "$L=I\\omega$ — direct plug-in."
     },
     {
       "id": "phy-system-of-particles-rotational-motion-010",
@@ -129,7 +138,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "No external torque acts, so angular momentum $L=I\\omega$ is conserved. Pulling arms in decreases $I$, so $\\omega$ must increase to keep $L$ constant."
+      "explanation": "No external torque acts, so angular momentum $L=I\\omega$ is conserved. Pulling arms in decreases $I$, so $\\omega$ must increase to keep $L$ constant.",
+      "trick": "No external torque → $L$ conserved: $I$ down means $\\omega$ up."
     },
     {
       "id": "phy-system-of-particles-rotational-motion-011",
@@ -142,7 +152,8 @@
       ],
       "answer": 3,
       "difficulty": "medium",
-      "explanation": "$KE_{rot} = \\frac12I\\omega^2 = \\frac12\\times4\\times9 = 18$ J."
+      "explanation": "$KE_{rot} = \\frac12I\\omega^2 = \\frac12\\times4\\times9 = 18$ J.",
+      "trick": "Rotational KE: $\\frac12I\\omega^2$ — direct plug-in."
     },
     {
       "id": "phy-system-of-particles-rotational-motion-012",
@@ -155,7 +166,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "$\\tau = I\\alpha \\Rightarrow \\alpha = \\tau/I = 10/2 = 5$ rad s$^{-2}$."
+      "explanation": "$\\tau = I\\alpha \\Rightarrow \\alpha = \\tau/I = 10/2 = 5$ rad s$^{-2}$.",
+      "trick": "$\\tau=I\\alpha\\Rightarrow\\alpha=\\tau/I$."
     },
     {
       "id": "phy-system-of-particles-rotational-motion-013",
@@ -168,7 +180,8 @@
       ],
       "answer": 2,
       "difficulty": "easy",
-      "explanation": "Rolling without slipping requires the contact point's velocity to be zero, giving $v = R\\omega$."
+      "explanation": "Rolling without slipping requires the contact point's velocity to be zero, giving $v = R\\omega$.",
+      "trick": "Rolling without slipping: $v=R\\omega$ — memorise this link."
     },
     {
       "id": "phy-system-of-particles-rotational-motion-014",
@@ -181,7 +194,8 @@
       ],
       "answer": 0,
       "difficulty": "hard",
-      "explanation": "$KE = \\frac12mv^2 + \\frac12I\\omega^2 = \\frac12mv^2\\left(1+\\dfrac{k^2}{R^2}\\right)$; for a solid sphere $k^2/R^2 = 2/5$, giving $KE = \\frac{7}{10}mv^2$."
+      "explanation": "$KE = \\frac12mv^2 + \\frac12I\\omega^2 = \\frac12mv^2\\left(1+\\dfrac{k^2}{R^2}\\right)$; for a solid sphere $k^2/R^2 = 2/5$, giving $KE = \\frac{7}{10}mv^2$.",
+      "trick": "Solid sphere rolling KE $=\\frac{7}{10}mv^2$ — memorise the rolling-KE table."
     },
     {
       "id": "phy-system-of-particles-rotational-motion-015",
@@ -194,7 +208,8 @@
       ],
       "answer": 1,
       "difficulty": "easy",
-      "explanation": "$I = Mk^2 \\Rightarrow k = \\sqrt{I/M} = \\sqrt{8/2} = \\sqrt4 = 2$ m."
+      "explanation": "$I = Mk^2 \\Rightarrow k = \\sqrt{I/M} = \\sqrt{8/2} = \\sqrt4 = 2$ m.",
+      "trick": "Radius of gyration: $k=\\sqrt{I/M}$."
     },
     {
       "id": "phy-system-of-particles-rotational-motion-016",
@@ -207,7 +222,8 @@
       ],
       "answer": 3,
       "difficulty": "medium",
-      "explanation": "The cross product of two vectors is always perpendicular to the plane containing them, direction given by the right-hand rule."
+      "explanation": "The cross product of two vectors is always perpendicular to the plane containing them, direction given by the right-hand rule.",
+      "trick": "Cross product $\\vec r\\times\\vec F$ is always perpendicular to both vectors' plane."
     },
     {
       "id": "phy-system-of-particles-rotational-motion-017",
@@ -220,7 +236,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "Angular momentum is conserved: $I_1\\omega_1 = I_2\\omega_2 \\Rightarrow 6\\times2 = 3\\times\\omega_2 \\Rightarrow \\omega_2 = 4$ rad s$^{-1}$."
+      "explanation": "Angular momentum is conserved: $I_1\\omega_1 = I_2\\omega_2 \\Rightarrow 6\\times2 = 3\\times\\omega_2 \\Rightarrow \\omega_2 = 4$ rad s$^{-1}$.",
+      "trick": "Angular momentum conserved: $I_1\\omega_1=I_2\\omega_2$."
     },
     {
       "id": "phy-system-of-particles-rotational-motion-018",
@@ -233,7 +250,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "Internal forces cannot change the motion of the centre of mass; only gravity (an external force) continues to act, so the COM keeps falling exactly as before."
+      "explanation": "Internal forces cannot change the motion of the centre of mass; only gravity (an external force) continues to act, so the COM keeps falling exactly as before.",
+      "trick": "Internal explosion forces can't change COM motion — it keeps falling as before."
     },
     {
       "id": "phy-system-of-particles-rotational-motion-019",
@@ -246,7 +264,8 @@
       ],
       "answer": 3,
       "difficulty": "easy",
-      "explanation": "Translational equilibrium requires zero net force; rotational equilibrium requires zero net torque. Both are needed together; the body could still be moving with constant velocity."
+      "explanation": "Translational equilibrium requires zero net force; rotational equilibrium requires zero net torque. Both are needed together; the body could still be moving with constant velocity.",
+      "trick": "Equilibrium needs BOTH net force = 0 AND net torque = 0."
     },
     {
       "id": "phy-system-of-particles-rotational-motion-020",
@@ -259,7 +278,8 @@
       ],
       "answer": 1,
       "difficulty": "easy",
-      "explanation": "$I_{ring} = MR^2$ while $I_{disc} = \\frac12MR^2$, so the ring's moment of inertia is exactly twice the disc's."
+      "explanation": "$I_{ring} = MR^2$ while $I_{disc} = \\frac12MR^2$, so the ring's moment of inertia is exactly twice the disc's.",
+      "trick": "Same mass & radius: $I_{ring}=2\\times I_{disc}$ (memorise the ratio)."
     },
     {
       "id": "phy-system-of-particles-rotational-motion-021",
@@ -272,7 +292,8 @@
       ],
       "answer": 0,
       "difficulty": "easy",
-      "explanation": "For a thin hollow spherical shell about a diameter, $I = \\frac23MR^2$ (larger than a solid sphere's $\\frac25MR^2$ since the mass lies farther from the axis)."
+      "explanation": "For a thin hollow spherical shell about a diameter, $I = \\frac23MR^2$ (larger than a solid sphere's $\\frac25MR^2$ since the mass lies farther from the axis).",
+      "trick": "Hollow sphere about diameter: $I=\\frac23MR^2$ (bigger than solid sphere's $\\frac25$)."
     },
     {
       "id": "phy-system-of-particles-rotational-motion-022",
@@ -285,7 +306,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "Each mass is 0.5 m from the axis: $I = 2\\times m(L/2)^2 = 2\\times2\\times(0.5)^2 = 1$ kg m²."
+      "explanation": "Each mass is 0.5 m from the axis: $I = 2\\times m(L/2)^2 = 2\\times2\\times(0.5)^2 = 1$ kg m².",
+      "trick": "Two point masses at rod ends: $I=2\\times m(L/2)^2$, not $mL^2$."
     },
     {
       "id": "phy-system-of-particles-rotational-motion-023",
@@ -298,7 +320,8 @@
       ],
       "answer": 2,
       "difficulty": "easy",
-      "explanation": "For a particle in straight-line motion, $L = mvr_\\perp = 2\\times3\\times4 = 24$ kg m² s$^{-1}$, and it stays constant since no torque acts about O."
+      "explanation": "For a particle in straight-line motion, $L = mvr_\\perp = 2\\times3\\times4 = 24$ kg m² s$^{-1}$, and it stays constant since no torque acts about O.",
+      "trick": "Straight-line motion: $L=mv r_\\perp$ (perpendicular distance to the line)."
     },
     {
       "id": "phy-system-of-particles-rotational-motion-024",
@@ -311,7 +334,8 @@
       ],
       "answer": 3,
       "difficulty": "hard",
-      "explanation": "By symmetry $I_x=I_y$ for the two perpendicular diameters, and $I_x+I_y=I_z \\Rightarrow I_x = I_z/2 = 0.5/2 = 0.25$ kg m²."
+      "explanation": "By symmetry $I_x=I_y$ for the two perpendicular diameters, and $I_x+I_y=I_z \\Rightarrow I_x = I_z/2 = 0.5/2 = 0.25$ kg m².",
+      "trick": "Perpendicular axis theorem: by symmetry $I_x=I_y=I_z/2$ for a disc's diameter."
     },
     {
       "id": "phy-system-of-particles-rotational-motion-025",
@@ -324,7 +348,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "$\\alpha = \\Delta\\omega/t = 10/5 = 2$ rad s$^{-2}$; $\\tau = I\\alpha = 5\\times2 = 10$ N m."
+      "explanation": "$\\alpha = \\Delta\\omega/t = 10/5 = 2$ rad s$^{-2}$; $\\tau = I\\alpha = 5\\times2 = 10$ N m.",
+      "trick": "Find $\\alpha=\\Delta\\omega/t$ first, then $\\tau=I\\alpha$."
     },
     {
       "id": "phy-system-of-particles-rotational-motion-026",
@@ -337,7 +362,8 @@
       ],
       "answer": 3,
       "difficulty": "easy",
-      "explanation": "$L = I\\omega$ has units kg m$^2$ $\\times$ s$^{-1}$ = kg m$^2$ s$^{-1}$."
+      "explanation": "$L = I\\omega$ has units kg m$^2$ $\\times$ s$^{-1}$ = kg m$^2$ s$^{-1}$.",
+      "trick": "Angular momentum unit: kg m²/s (mass$\\times$length²$\\times$time⁻¹)."
     },
     {
       "id": "phy-system-of-particles-rotational-motion-027",
@@ -350,7 +376,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "Balancing torques: $30\\times2 = 20\\times x \\Rightarrow x = 3$ m."
+      "explanation": "Balancing torques: $30\\times2 = 20\\times x \\Rightarrow x = 3$ m.",
+      "trick": "Balance torques: $m_1r_1=m_2r_2$ about the pivot."
     },
     {
       "id": "phy-system-of-particles-rotational-motion-028",
@@ -363,7 +390,8 @@
       ],
       "answer": 2,
       "difficulty": "hard",
-      "explanation": "$a = \\dfrac{g\\sin\\theta}{1+k^2/R^2} = \\dfrac{10\\times0.5}{1+2/5} = \\dfrac{5}{1.4} \\approx 3.57$ m s$^{-2}$."
+      "explanation": "$a = \\dfrac{g\\sin\\theta}{1+k^2/R^2} = \\dfrac{10\\times0.5}{1+2/5} = \\dfrac{5}{1.4} \\approx 3.57$ m s$^{-2}$.",
+      "trick": "Rolling acceleration down incline: $a=\\dfrac{g\\sin\\theta}{1+k^2/R^2}$."
     },
     {
       "id": "phy-system-of-particles-rotational-motion-029",
@@ -376,7 +404,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "Acceleration $\\propto 1/(1+k^2/R^2)$, which is largest for the sphere ($k^2/R^2=2/5$), then the disc ($1/2$), then the ring ($1$, the slowest)."
+      "explanation": "Acceleration $\\propto 1/(1+k^2/R^2)$, which is largest for the sphere ($k^2/R^2=2/5$), then the disc ($1/2$), then the ring ($1$, the slowest).",
+      "trick": "Smaller $k^2/R^2$ rolls faster: sphere $<$ disc $<$ ring."
     },
     {
       "id": "phy-system-of-particles-rotational-motion-030",
@@ -389,7 +418,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "$W = \\tau\\theta = 5\\times2\\pi \\approx 31.4$ J."
+      "explanation": "$W = \\tau\\theta = 5\\times2\\pi \\approx 31.4$ J.",
+      "trick": "Rotational work: $W=\\tau\\theta$ (analogous to $W=Fd$)."
     },
     {
       "id": "phy-system-of-particles-rotational-motion-031",
@@ -402,7 +432,8 @@
       ],
       "answer": 0,
       "difficulty": "easy",
-      "explanation": "A couple consists of two equal and opposite forces whose lines of action do not coincide; it produces a net torque but zero net force, so it rotates the body without translating it."
+      "explanation": "A couple consists of two equal and opposite forces whose lines of action do not coincide; it produces a net torque but zero net force, so it rotates the body without translating it.",
+      "trick": "A couple = equal, opposite, non-collinear forces → pure rotation, zero net force."
     },
     {
       "id": "phy-system-of-particles-rotational-motion-032",
@@ -415,7 +446,8 @@
       ],
       "answer": 3,
       "difficulty": "medium",
-      "explanation": "The contact point is instantaneously at rest relative to the ground during rolling without slipping, so the friction acting there is static friction (though it may still be non-zero, e.g. down an incline)."
+      "explanation": "The contact point is instantaneously at rest relative to the ground during rolling without slipping, so the friction acting there is static friction (though it may still be non-zero, e.g. down an incline).",
+      "trick": "Rolling without slipping → friction at contact is static, not kinetic."
     },
     {
       "id": "phy-system-of-particles-rotational-motion-033",
@@ -428,7 +460,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "Angular momentum is conserved: $I_1\\omega_1 = I_2\\omega_2 \\Rightarrow 2\\times4 = 4\\times\\omega_2 \\Rightarrow \\omega_2 = 2$ rad s$^{-1}$."
+      "explanation": "Angular momentum is conserved: $I_1\\omega_1 = I_2\\omega_2 \\Rightarrow 2\\times4 = 4\\times\\omega_2 \\Rightarrow \\omega_2 = 2$ rad s$^{-1}$.",
+      "trick": "No external torque → $L$ conserved: $I_1\\omega_1=I_2\\omega_2$."
     },
     {
       "id": "phy-system-of-particles-rotational-motion-034",
@@ -441,7 +474,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "$v_{cm} = \\dfrac{m_1v_1+m_2v_2}{m_1+m_2} = \\dfrac{1\\times2+3\\times6}{4} = \\dfrac{20}{4} = 5$ m s$^{-1}$."
+      "explanation": "$v_{cm} = \\dfrac{m_1v_1+m_2v_2}{m_1+m_2} = \\dfrac{1\\times2+3\\times6}{4} = \\dfrac{20}{4} = 5$ m s$^{-1}$.",
+      "trick": "$v_{cm}=(m_1v_1+m_2v_2)/(m_1+m_2)$ — weighted average of velocities."
     },
     {
       "id": "phy-system-of-particles-rotational-motion-035",
@@ -454,7 +488,8 @@
       ],
       "answer": 3,
       "difficulty": "easy",
-      "explanation": "$I=\\sum m_ir_i^2$ depends on both how much mass there is and how far each part lies from the chosen axis."
+      "explanation": "$I=\\sum m_ir_i^2$ depends on both how much mass there is and how far each part lies from the chosen axis.",
+      "trick": "Moment of inertia depends on both mass AND its distribution about the axis."
     },
     {
       "id": "phy-system-of-particles-rotational-motion-036",
@@ -467,7 +502,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "$I = \\frac12MR^2 = \\frac12\\times3\\times(0.2)^2 = 1.5\\times0.04 = 0.06$ kg m²."
+      "explanation": "$I = \\frac12MR^2 = \\frac12\\times3\\times(0.2)^2 = 1.5\\times0.04 = 0.06$ kg m².",
+      "trick": "Solid cylinder: $I=\\frac12MR^2$, same formula as a disc."
     },
     {
       "id": "phy-system-of-particles-rotational-motion-037",
@@ -480,7 +516,8 @@
       ],
       "answer": 3,
       "difficulty": "hard",
-      "explanation": "$\\tau = I\\alpha = 0.5\\times4 = 2$ N m."
+      "explanation": "$\\tau = I\\alpha = 0.5\\times4 = 2$ N m.",
+      "trick": "Given combined $I$ already, just apply $\\tau=I\\alpha$ directly."
     },
     {
       "id": "phy-system-of-particles-rotational-motion-038",
@@ -493,7 +530,8 @@
       ],
       "answer": 2,
       "difficulty": "easy",
-      "explanation": "Since $I_{ring}=MR^2=Mk^2$, the radius of gyration $k=R$: all the mass effectively acts at the rim itself."
+      "explanation": "Since $I_{ring}=MR^2=Mk^2$, the radius of gyration $k=R$: all the mass effectively acts at the rim itself.",
+      "trick": "Ring's radius of gyration equals its radius: $k=R$."
     },
     {
       "id": "phy-system-of-particles-rotational-motion-039",
@@ -506,7 +544,8 @@
       ],
       "answer": 0,
       "difficulty": "easy",
-      "explanation": "Moment of inertia measures a body's reluctance to change its rotational state, just as mass measures reluctance to change linear motion; compare $\\tau=I\\alpha$ with $F=ma$."
+      "explanation": "Moment of inertia measures a body's reluctance to change its rotational state, just as mass measures reluctance to change linear motion; compare $\\tau=I\\alpha$ with $F=ma$.",
+      "trick": "Moment of inertia is rotational analogue of mass — compare $\\tau=I\\alpha$ to $F=ma$."
     },
     {
       "id": "phy-system-of-particles-rotational-motion-040",
@@ -519,7 +558,8 @@
       ],
       "answer": 1,
       "difficulty": "hard",
-      "explanation": "For a disc, $k^2/R^2=\\frac12$, so total $KE = KE_{trans}(1+k^2/R^2) = 40\\times1.5 = 60$ J."
+      "explanation": "For a disc, $k^2/R^2=\\frac12$, so total $KE = KE_{trans}(1+k^2/R^2) = 40\\times1.5 = 60$ J.",
+      "trick": "Total rolling KE $=KE_{trans}(1+k^2/R^2)$; for disc, factor is 1.5."
     }
   ]
 }

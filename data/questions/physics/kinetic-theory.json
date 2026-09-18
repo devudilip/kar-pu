@@ -12,7 +12,8 @@
       ],
       "answer": 2,
       "difficulty": "easy",
-      "explanation": "Ideal gas equation: $PV=nRT$, combining Boyle's, Charles's and Avogadro's laws."
+      "explanation": "Ideal gas equation: $PV=nRT$, combining Boyle's, Charles's and Avogadro's laws.",
+      "trick": "Memorise ideal gas equation $PV=nRT$ directly — combines Boyle's, Charles's, Avogadro's."
     },
     {
       "id": "phy-kinetic-theory-002",
@@ -25,7 +26,8 @@
       ],
       "answer": 1,
       "difficulty": "easy",
-      "explanation": "Boyle's law: $PV=$ constant, so halving $V$ doubles $P$."
+      "explanation": "Boyle's law: $PV=$ constant, so halving $V$ doubles $P$.",
+      "trick": "Boyle's law: $PV=$const at fixed $T$ — halve $V$, double $P$."
     },
     {
       "id": "phy-kinetic-theory-003",
@@ -38,7 +40,8 @@
       ],
       "answer": 3,
       "difficulty": "easy",
-      "explanation": "At a given density $\\rho$, $P \\propto \\overline{v^2}$, the mean square speed of the gas molecules."
+      "explanation": "At a given density $\\rho$, $P \\propto \\overline{v^2}$, the mean square speed of the gas molecules.",
+      "trick": "$P=\\frac13\\rho\\overline{v^2}$ — at fixed density, pressure tracks mean square speed."
     },
     {
       "id": "phy-kinetic-theory-004",
@@ -51,7 +54,8 @@
       ],
       "answer": 0,
       "difficulty": "easy",
-      "explanation": "$v_{rms}\\propto\\sqrt T$; quadrupling $T$ multiplies $v_{rms}$ by $\\sqrt4=2$."
+      "explanation": "$v_{rms}\\propto\\sqrt T$; quadrupling $T$ multiplies $v_{rms}$ by $\\sqrt4=2$.",
+      "trick": "$v_{rms}\\propto\\sqrt T$ — quadruple $T$ gives $\\sqrt4=2\\times$ speed."
     },
     {
       "id": "phy-kinetic-theory-005",
@@ -64,7 +68,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "$v_{rms}\\propto1/\\sqrt M$; ratio $=\\sqrt{32/2}=\\sqrt{16}=4$, so hydrogen:oxygen $=4:1$."
+      "explanation": "$v_{rms}\\propto1/\\sqrt M$; ratio $=\\sqrt{32/2}=\\sqrt{16}=4$, so hydrogen:oxygen $=4:1$.",
+      "trick": "$v_{rms}\\propto1/\\sqrt M$ — ratio $=\\sqrt{M_2/M_1}$, lighter gas is faster."
     },
     {
       "id": "phy-kinetic-theory-006",
@@ -77,7 +82,8 @@
       ],
       "answer": 2,
       "difficulty": "easy",
-      "explanation": "From kinetic theory, average translational KE per molecule $=\\tfrac32k_BT$."
+      "explanation": "From kinetic theory, average translational KE per molecule $=\\tfrac32k_BT$.",
+      "trick": "Memorise: average translational KE per molecule $=\\frac32k_BT$."
     },
     {
       "id": "phy-kinetic-theory-007",
@@ -90,7 +96,8 @@
       ],
       "answer": 3,
       "difficulty": "medium",
-      "explanation": "Average KE per molecule $=\\tfrac32k_BT$ depends only on temperature, so it is equal for both gases at the same $T$; however rms speeds differ since $v_{rms}\\propto1/\\sqrt M$ and the masses differ."
+      "explanation": "Average KE per molecule $=\\tfrac32k_BT$ depends only on temperature, so it is equal for both gases at the same $T$; however rms speeds differ since $v_{rms}\\propto1/\\sqrt M$ and the masses differ.",
+      "trick": "Same $T\\Rightarrow$ same KE per molecule always; speeds differ via $1/\\sqrt M$."
     },
     {
       "id": "phy-kinetic-theory-008",
@@ -103,7 +110,8 @@
       ],
       "answer": 0,
       "difficulty": "easy",
-      "explanation": "A monatomic molecule (treated as a point mass) can move independently along 3 perpendicular axes, giving 3 translational degrees of freedom."
+      "explanation": "A monatomic molecule (treated as a point mass) can move independently along 3 perpendicular axes, giving 3 translational degrees of freedom.",
+      "trick": "Monatomic = point mass moving in 3D $\\Rightarrow$ 3 translational DOF only."
     },
     {
       "id": "phy-kinetic-theory-009",
@@ -116,7 +124,8 @@
       ],
       "answer": 2,
       "difficulty": "easy",
-      "explanation": "3 translational + 2 rotational (about the two axes perpendicular to the bond) = 5 degrees of freedom."
+      "explanation": "3 translational + 2 rotational (about the two axes perpendicular to the bond) = 5 degrees of freedom.",
+      "trick": "Rigid diatomic: 3 translational + 2 rotational $=5$ DOF — memorise this."
     },
     {
       "id": "phy-kinetic-theory-010",
@@ -129,7 +138,8 @@
       ],
       "answer": 3,
       "difficulty": "medium",
-      "explanation": "Each of the 5 degrees of freedom contributes $\\tfrac12RT$ per mole, giving $U=5\\times\\tfrac12RT=\\tfrac52RT$."
+      "explanation": "Each of the 5 degrees of freedom contributes $\\tfrac12RT$ per mole, giving $U=5\\times\\tfrac12RT=\\tfrac52RT$.",
+      "trick": "Equipartition: $U=\\frac f2RT$ per mole — plug $f=5$ for rigid diatomic."
     },
     {
       "id": "phy-kinetic-theory-011",
@@ -142,7 +152,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "$\\lambda \\propto 1/n$, so doubling the number density halves the mean free path."
+      "explanation": "$\\lambda \\propto 1/n$, so doubling the number density halves the mean free path.",
+      "trick": "$\\lambda\\propto1/n$ — double the number density, halve the mean free path."
     },
     {
       "id": "phy-kinetic-theory-012",
@@ -155,7 +166,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "At constant pressure, number density $n=P/(k_BT)$ decreases as $T$ increases, and since $\\lambda\\propto1/n$, the mean free path increases."
+      "explanation": "At constant pressure, number density $n=P/(k_BT)$ decreases as $T$ increases, and since $\\lambda\\propto1/n$, the mean free path increases.",
+      "trick": "At fixed $P$, $n=P/(k_BT)$ falls as $T$ rises $\\Rightarrow\\lambda\\propto1/n$ increases."
     },
     {
       "id": "phy-kinetic-theory-013",
@@ -168,7 +180,8 @@
       ],
       "answer": 3,
       "difficulty": "easy",
-      "explanation": "Kinetic theory assumes molecules undergo perfectly elastic collisions with each other and the walls, and are point masses with negligible volume and no intermolecular forces except during collision."
+      "explanation": "Kinetic theory assumes molecules undergo perfectly elastic collisions with each other and the walls, and are point masses with negligible volume and no intermolecular forces except during collision.",
+      "trick": "Kinetic theory core assumption: molecular collisions are perfectly elastic."
     },
     {
       "id": "phy-kinetic-theory-014",
@@ -181,7 +194,8 @@
       ],
       "answer": 2,
       "difficulty": "hard",
-      "explanation": "From $P=\\tfrac13\\rho v_{rms}^2$, at fixed $P$, $v_{rms}=\\sqrt{3P/\\rho}\\propto1/\\sqrt\\rho$."
+      "explanation": "From $P=\\tfrac13\\rho v_{rms}^2$, at fixed $P$, $v_{rms}=\\sqrt{3P/\\rho}\\propto1/\\sqrt\\rho$.",
+      "trick": "From $P=\\frac13\\rho v_{rms}^2$ at fixed $P$: $v_{rms}\\propto1/\\sqrt\\rho$."
     },
     {
       "id": "phy-kinetic-theory-015",
@@ -194,7 +208,8 @@
       ],
       "answer": 1,
       "difficulty": "easy",
-      "explanation": "At constant volume, $P\\propto T$ (Gay-Lussac's law), so doubling absolute temperature doubles pressure."
+      "explanation": "At constant volume, $P\\propto T$ (Gay-Lussac's law), so doubling absolute temperature doubles pressure.",
+      "trick": "Constant volume: $P\\propto T$ (Gay-Lussac) — doubling $T$ doubles $P$."
     },
     {
       "id": "phy-kinetic-theory-016",
@@ -207,7 +222,8 @@
       ],
       "answer": 0,
       "difficulty": "easy",
-      "explanation": "$k_B = R/N_A = 8.31/(6.022\\times10^{23}) \\approx 1.38\\times10^{-23}$ J K$^{-1}$."
+      "explanation": "$k_B = R/N_A = 8.31/(6.022\\times10^{23}) \\approx 1.38\\times10^{-23}$ J K$^{-1}$.",
+      "trick": "Memorise $k_B=1.38\\times10^{-23}$ J K$^{-1}$ $=R/N_A$."
     },
     {
       "id": "phy-kinetic-theory-017",
@@ -220,7 +236,8 @@
       ],
       "answer": 2,
       "difficulty": "easy",
-      "explanation": "Since average KE $=\\tfrac32k_BT$, at $T=0$ K the average translational kinetic energy of the molecules becomes zero (ignoring quantum effects), consistent with molecular motion ceasing at absolute zero."
+      "explanation": "Since average KE $=\\tfrac32k_BT$, at $T=0$ K the average translational kinetic energy of the molecules becomes zero (ignoring quantum effects), consistent with molecular motion ceasing at absolute zero.",
+      "trick": "KE $=\\frac32k_BT\\to0$ as $T\\to0$ K — motion ceases at absolute zero."
     },
     {
       "id": "phy-kinetic-theory-018",
@@ -233,7 +250,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "Average KE per molecule $=\\tfrac32k_BT$ depends only on the common temperature $T$, not on the molecular mass, so it is the same for both gases."
+      "explanation": "Average KE per molecule $=\\tfrac32k_BT$ depends only on the common temperature $T$, not on the molecular mass, so it is the same for both gases.",
+      "trick": "KE per molecule $=\\frac32k_BT$ depends only on $T$, mass is irrelevant."
     },
     {
       "id": "phy-kinetic-theory-019",
@@ -246,7 +264,8 @@
       ],
       "answer": 1,
       "difficulty": "easy",
-      "explanation": "By definition, one mole of any substance contains Avogadro's number, $N_A=6.022\\times10^{23}$, of elementary entities."
+      "explanation": "By definition, one mole of any substance contains Avogadro's number, $N_A=6.022\\times10^{23}$, of elementary entities.",
+      "trick": "Memorise Avogadro's number $N_A=6.022\\times10^{23}$ per mole."
     },
     {
       "id": "phy-kinetic-theory-020",
@@ -259,7 +278,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "Moles $=8/32=0.25$; number of molecules $=0.25\\times6.022\\times10^{23}\\approx1.5\\times10^{23}$."
+      "explanation": "Moles $=8/32=0.25$; number of molecules $=0.25\\times6.022\\times10^{23}\\approx1.5\\times10^{23}$.",
+      "trick": "Moles $=$ mass/molar mass, then molecules $=$ moles $\\times N_A$."
     },
     {
       "id": "phy-kinetic-theory-021",
@@ -272,7 +292,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "$v_{rms}=\\sqrt{3RT/M}=\\sqrt{(3\\times8.3\\times300)/0.028}=\\sqrt{266786}\\approx517$ m/s."
+      "explanation": "$v_{rms}=\\sqrt{3RT/M}=\\sqrt{(3\\times8.3\\times300)/0.028}=\\sqrt{266786}\\approx517$ m/s.",
+      "trick": "$v_{rms}=\\sqrt{3RT/M}$ — convert molar mass to kg mol$^{-1}$ before plugging."
     },
     {
       "id": "phy-kinetic-theory-022",
@@ -285,7 +306,8 @@
       ],
       "answer": 2,
       "difficulty": "easy",
-      "explanation": "Charles's law: $V\\propto T$ at constant pressure; doubling $T$ doubles $V$ to 4 L."
+      "explanation": "Charles's law: $V\\propto T$ at constant pressure; doubling $T$ doubles $V$ to 4 L.",
+      "trick": "Charles's law: $V\\propto T$ at constant $P$ — doubling $T$ doubles $V$."
     },
     {
       "id": "phy-kinetic-theory-023",
@@ -298,7 +320,8 @@
       ],
       "answer": 3,
       "difficulty": "medium",
-      "explanation": "Dalton's law: total pressure equals the sum of the partial pressures of each component gas: $2\\times10^5+3\\times10^5=5\\times10^5$ Pa."
+      "explanation": "Dalton's law: total pressure equals the sum of the partial pressures of each component gas: $2\\times10^5+3\\times10^5=5\\times10^5$ Pa.",
+      "trick": "Dalton's law: total pressure $=$ sum of partial pressures, just add them."
     },
     {
       "id": "phy-kinetic-theory-024",
@@ -311,7 +334,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "The $b$ term corrects for the finite volume occupied by real molecules, and the $a/V^2$ term accounts for mutual attraction between molecules, both neglected in the ideal gas model."
+      "explanation": "The $b$ term corrects for the finite volume occupied by real molecules, and the $a/V^2$ term accounts for mutual attraction between molecules, both neglected in the ideal gas model.",
+      "trick": "Van der Waals: $b$ fixes molecule size, $a/V^2$ fixes intermolecular attraction."
     },
     {
       "id": "phy-kinetic-theory-025",
@@ -324,7 +348,8 @@
       ],
       "answer": 2,
       "difficulty": "easy",
-      "explanation": "Graham's law: rate of diffusion $r\\propto1/\\sqrt M$, consistent with lighter molecules (higher rms speed) diffusing faster."
+      "explanation": "Graham's law: rate of diffusion $r\\propto1/\\sqrt M$, consistent with lighter molecules (higher rms speed) diffusing faster.",
+      "trick": "Graham's law: diffusion rate $\\propto1/\\sqrt M$ — lighter gas diffuses faster."
     },
     {
       "id": "phy-kinetic-theory-026",
@@ -337,7 +362,8 @@
       ],
       "answer": 3,
       "difficulty": "medium",
-      "explanation": "$\\dfrac{r_{H_2}}{r_{O_2}}=\\sqrt{\\dfrac{M_{O_2}}{M_{H_2}}}=\\sqrt{\\dfrac{32}{2}}=\\sqrt{16}=4$, so the ratio is 4:1."
+      "explanation": "$\\dfrac{r_{H_2}}{r_{O_2}}=\\sqrt{\\dfrac{M_{O_2}}{M_{H_2}}}=\\sqrt{\\dfrac{32}{2}}=\\sqrt{16}=4$, so the ratio is 4:1.",
+      "trick": "$r_1/r_2=\\sqrt{M_2/M_1}$ (Graham's law) — square-root the mass ratio."
     },
     {
       "id": "phy-kinetic-theory-027",
@@ -350,7 +376,8 @@
       ],
       "answer": 0,
       "difficulty": "easy",
-      "explanation": "3 translational + 3 rotational degrees of freedom (since a nonlinear molecule can rotate about all three axes) $=6$."
+      "explanation": "3 translational + 3 rotational degrees of freedom (since a nonlinear molecule can rotate about all three axes) $=6$.",
+      "trick": "Nonlinear polyatomic: 3 translational + 3 rotational $=6$ DOF (all axes rotate)."
     },
     {
       "id": "phy-kinetic-theory-028",
@@ -363,7 +390,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "$\\gamma=1+\\dfrac2f=1+\\dfrac26=1+0.33=1.33$ (i.e. $4/3$)."
+      "explanation": "$\\gamma=1+\\dfrac2f=1+\\dfrac26=1+0.33=1.33$ (i.e. $4/3$).",
+      "trick": "$\\gamma=1+2/f$ — plug degrees of freedom directly to get $\\gamma$."
     },
     {
       "id": "phy-kinetic-theory-029",
@@ -376,7 +404,8 @@
       ],
       "answer": 2,
       "difficulty": "hard",
-      "explanation": "$\\dfrac{v_{avg}}{v_{rms}}=\\sqrt{\\dfrac{8/\\pi}{3}}=\\sqrt{\\dfrac{8}{3\\pi}}\\approx\\sqrt{0.849}\\approx0.92$."
+      "explanation": "$\\dfrac{v_{avg}}{v_{rms}}=\\sqrt{\\dfrac{8/\\pi}{3}}=\\sqrt{\\dfrac{8}{3\\pi}}\\approx\\sqrt{0.849}\\approx0.92$.",
+      "trick": "$v_{avg}/v_{rms}=\\sqrt{8/(3\\pi)}\\approx0.92$ — a fixed numeric ratio, memorise."
     },
     {
       "id": "phy-kinetic-theory-030",
@@ -389,7 +418,8 @@
       ],
       "answer": 1,
       "difficulty": "easy",
-      "explanation": "Numerically $v_{rms}:v_{avg}:v_p\\approx1.73:1.60:1.41$ (in units of $\\sqrt{RT/M}$), so $v_{rms}$ is the largest and $v_p$ the smallest."
+      "explanation": "Numerically $v_{rms}:v_{avg}:v_p\\approx1.73:1.60:1.41$ (in units of $\\sqrt{RT/M}$), so $v_{rms}$ is the largest and $v_p$ the smallest.",
+      "trick": "Memorise order: $v_{rms}>v_{avg}>v_p$ (1.73:1.60:1.41 in $\\sqrt{RT/M}$ units)."
     },
     {
       "id": "phy-kinetic-theory-031",
@@ -402,7 +432,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "$v_p=\\sqrt{2RT/M}=\\sqrt{(2\\times8.3\\times300)/0.032}=\\sqrt{155625}\\approx395$ m/s."
+      "explanation": "$v_p=\\sqrt{2RT/M}=\\sqrt{(2\\times8.3\\times300)/0.032}=\\sqrt{155625}\\approx395$ m/s.",
+      "trick": "$v_p=\\sqrt{2RT/M}$ — smallest of the three speed formulas, coefficient 2."
     },
     {
       "id": "phy-kinetic-theory-032",
@@ -415,7 +446,8 @@
       ],
       "answer": 3,
       "difficulty": "hard",
-      "explanation": "$v_{rms}=\\sqrt{3P/\\rho}=\\sqrt{(3\\times1.5\\times10^5)/1.2}=\\sqrt{375000}\\approx612$ m/s."
+      "explanation": "$v_{rms}=\\sqrt{3P/\\rho}=\\sqrt{(3\\times1.5\\times10^5)/1.2}=\\sqrt{375000}\\approx612$ m/s.",
+      "trick": "$v_{rms}=\\sqrt{3P/\\rho}$ — direct from pressure-density kinetic theory relation."
     },
     {
       "id": "phy-kinetic-theory-033",
@@ -428,7 +460,8 @@
       ],
       "answer": 1,
       "difficulty": "easy",
-      "explanation": "Kinetic theory treats gas molecules as point-like particles whose own volume is negligible compared to the container's volume — an assumption that breaks down for real gases at high pressure."
+      "explanation": "Kinetic theory treats gas molecules as point-like particles whose own volume is negligible compared to the container's volume — an assumption that breaks down for real gases at high pressure.",
+      "trick": "Kinetic theory assumption: molecular volume is negligible vs container volume."
     },
     {
       "id": "phy-kinetic-theory-034",
@@ -441,7 +474,8 @@
       ],
       "answer": 3,
       "difficulty": "medium",
-      "explanation": "At low pressure (large intermolecular spacing) and high temperature (high kinetic energy relative to intermolecular attraction), the volume of the molecules and their mutual attractions become negligible, so real gas behaviour approaches ideal gas behaviour."
+      "explanation": "At low pressure (large intermolecular spacing) and high temperature (high kinetic energy relative to intermolecular attraction), the volume of the molecules and their mutual attractions become negligible, so real gas behaviour approaches ideal gas behaviour.",
+      "trick": "Real gas $\\to$ ideal gas behaviour at low pressure and high temperature."
     },
     {
       "id": "phy-kinetic-theory-035",
@@ -454,7 +488,8 @@
       ],
       "answer": 0,
       "difficulty": "hard",
-      "explanation": "$\\dfrac{P_1V_1}{T_1}=\\dfrac{P_2V_2}{T_2} \\Rightarrow P_2=\\dfrac{P_1V_1T_2}{T_1V_2}=\\dfrac{10^5\\times4\\times450}{300\\times2}=3\\times10^5$ Pa."
+      "explanation": "$\\dfrac{P_1V_1}{T_1}=\\dfrac{P_2V_2}{T_2} \\Rightarrow P_2=\\dfrac{P_1V_1T_2}{T_1V_2}=\\dfrac{10^5\\times4\\times450}{300\\times2}=3\\times10^5$ Pa.",
+      "trick": "Combined gas law: $P_1V_1/T_1=P_2V_2/T_2$ — solve for the unknown $P_2$."
     },
     {
       "id": "phy-kinetic-theory-036",
@@ -467,7 +502,8 @@
       ],
       "answer": 2,
       "difficulty": "easy",
-      "explanation": "3 translational + 2 rotational + 2 vibrational $=7$ degrees of freedom at sufficiently high temperature."
+      "explanation": "3 translational + 2 rotational + 2 vibrational $=7$ degrees of freedom at sufficiently high temperature.",
+      "trick": "Add 2 vibrational DOF to rigid diatomic's 5 $\\Rightarrow$ 7 DOF at high $T$."
     },
     {
       "id": "phy-kinetic-theory-037",
@@ -480,7 +516,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "$N=\\dfrac{PV}{k_BT}=\\dfrac{10^5\\times10^{-3}}{1.38\\times10^{-23}\\times300}=\\dfrac{100}{4.14\\times10^{-21}}\\approx2.4\\times10^{22}$."
+      "explanation": "$N=\\dfrac{PV}{k_BT}=\\dfrac{10^5\\times10^{-3}}{1.38\\times10^{-23}\\times300}=\\dfrac{100}{4.14\\times10^{-21}}\\approx2.4\\times10^{22}$.",
+      "trick": "$N=PV/(k_BT)$ — rearrange $PV=Nk_BT$ and substitute directly."
     },
     {
       "id": "phy-kinetic-theory-038",
@@ -493,7 +530,8 @@
       ],
       "answer": 0,
       "difficulty": "easy",
-      "explanation": "This is the statement of the equipartition theorem, which underlies the calculation of specific heats from the number of degrees of freedom."
+      "explanation": "This is the statement of the equipartition theorem, which underlies the calculation of specific heats from the number of degrees of freedom.",
+      "trick": "Equipartition: each quadratic DOF gets exactly $\\frac12k_BT$ average energy."
     },
     {
       "id": "phy-kinetic-theory-039",
@@ -506,7 +544,8 @@
       ],
       "answer": 3,
       "difficulty": "medium",
-      "explanation": "Higher temperature means higher average molecular speed; both the collision frequency with the walls and the momentum transferred per collision increase, raising the pressure, consistent with $P\\propto T$ at constant volume."
+      "explanation": "Higher temperature means higher average molecular speed; both the collision frequency with the walls and the momentum transferred per collision increase, raising the pressure, consistent with $P\\propto T$ at constant volume.",
+      "trick": "Higher $T\\Rightarrow$ faster molecules $\\Rightarrow$ more frequent, harder wall collisions $\\Rightarrow P$ up."
     },
     {
       "id": "phy-kinetic-theory-040",
@@ -519,7 +558,8 @@
       ],
       "answer": 1,
       "difficulty": "hard",
-      "explanation": "$v_{rms}\\propto\\sqrt T$; to double $v_{rms}$, $T$ must increase by a factor of $2^2=4$: $T_2=4\\times300=1200$ K."
+      "explanation": "$v_{rms}\\propto\\sqrt T$; to double $v_{rms}$, $T$ must increase by a factor of $2^2=4$: $T_2=4\\times300=1200$ K.",
+      "trick": "$v_{rms}\\propto\\sqrt T$ — to double speed, need $T\\times4$ (square the speed factor)."
     }
   ]
 }

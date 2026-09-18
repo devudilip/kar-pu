@@ -12,7 +12,8 @@
       ],
       "answer": 0,
       "difficulty": "easy",
-      "explanation": "Mean $=6$; deviations $|{-4}|,|{-2}|,0,2,4$ sum to $12$; $MD=12/5=2.4$."
+      "explanation": "Mean $=6$; deviations $|{-4}|,|{-2}|,0,2,4$ sum to $12$; $MD=12/5=2.4$.",
+      "trick": "$MD=\\dfrac1n\\sum|x_i-\\bar x|$ — use absolute deviations, sum then divide."
     },
     {
       "id": "mat-statistics-002",
@@ -25,7 +26,8 @@
       ],
       "answer": 1,
       "difficulty": "easy",
-      "explanation": "Variance is the mean of the squared deviations from the mean: $\\sigma^2=\\dfrac1n\\sum(x_i-\\bar x)^2$."
+      "explanation": "Variance is the mean of the squared deviations from the mean: $\\sigma^2=\\dfrac1n\\sum(x_i-\\bar x)^2$.",
+      "trick": "Variance is mean of squared deviations: $\\dfrac1n\\sum(x_i-\\bar x)^2$."
     },
     {
       "id": "mat-statistics-003",
@@ -38,7 +40,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "Mean $=6$; squared deviations $16,4,0,4,16$ sum to $40$; variance $=40/5=8$."
+      "explanation": "Mean $=6$; squared deviations $16,4,0,4,16$ sum to $40$; variance $=40/5=8$.",
+      "trick": "Find mean, square each deviation, average them."
     },
     {
       "id": "mat-statistics-004",
@@ -51,7 +54,8 @@
       ],
       "answer": 3,
       "difficulty": "medium",
-      "explanation": "Mean $=6$; squared deviations $16,4,0,4,16$ sum to $40$; variance $=40/5=8$; $\\sigma=\\sqrt8=2\\sqrt2$."
+      "explanation": "Mean $=6$; squared deviations $16,4,0,4,16$ sum to $40$; variance $=40/5=8$; $\\sigma=\\sqrt8=2\\sqrt2$.",
+      "trick": "SD is just $\\sqrt{\\text{variance}}$ — compute variance first."
     },
     {
       "id": "mat-statistics-005",
@@ -64,7 +68,8 @@
       ],
       "answer": 0,
       "difficulty": "easy",
-      "explanation": "$CV=\\dfrac{\\sigma}{\\bar x}\\times100=\\dfrac{5}{25}\\times100=20\\%$."
+      "explanation": "$CV=\\dfrac{\\sigma}{\\bar x}\\times100=\\dfrac{5}{25}\\times100=20\\%$.",
+      "trick": "$CV=\\dfrac{\\sigma}{\\bar x}\\times100\\%$ — plug straight in."
     },
     {
       "id": "mat-statistics-006",
@@ -77,7 +82,8 @@
       ],
       "answer": 2,
       "difficulty": "easy",
-      "explanation": "Median $=7$; deviations $3,0,3$ sum to $6$; $MD=6/3=2$."
+      "explanation": "Median $=7$; deviations $3,0,3$ sum to $6$; $MD=6/3=2$.",
+      "trick": "For odd count, median is the middle value; use absolute deviations from it."
     },
     {
       "id": "mat-statistics-007",
@@ -90,7 +96,8 @@
       ],
       "answer": 3,
       "difficulty": "medium",
-      "explanation": "Variance is a sum of squares divided by $n$, so it can never be negative; it equals zero only when every observation equals the mean."
+      "explanation": "Variance is a sum of squares divided by $n$, so it can never be negative; it equals zero only when every observation equals the mean.",
+      "trick": "Variance is a sum of squares — never negative, zero only if all values equal."
     },
     {
       "id": "mat-statistics-008",
@@ -103,7 +110,8 @@
       ],
       "answer": 1,
       "difficulty": "easy",
-      "explanation": "Adding a constant shifts every value and the mean by the same amount, so the deviations from the mean — and hence the variance — do not change."
+      "explanation": "Adding a constant shifts every value and the mean by the same amount, so the deviations from the mean — and hence the variance — do not change.",
+      "trick": "Shifting all data by a constant leaves variance/SD unchanged."
     },
     {
       "id": "mat-statistics-009",
@@ -116,7 +124,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "Multiplying each value by $k$ multiplies every deviation by $k$, so variance (a squared quantity) scales by $k^2=9$."
+      "explanation": "Multiplying each value by $k$ multiplies every deviation by $k$, so variance (a squared quantity) scales by $k^2=9$.",
+      "trick": "Scaling data by $k$ multiplies variance by $k^2$."
     },
     {
       "id": "mat-statistics-010",
@@ -129,7 +138,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "$\\sigma=\\sqrt{\\dfrac{n^2-1}{12}}=\\sqrt{\\dfrac{49-1}{12}}=\\sqrt4=2$."
+      "explanation": "$\\sigma=\\sqrt{\\dfrac{n^2-1}{12}}=\\sqrt{\\dfrac{49-1}{12}}=\\sqrt4=2$.",
+      "trick": "$\\sigma=\\sqrt{\\dfrac{n^2-1}{12}}$ for first $n$ natural numbers — memorize this formula."
     },
     {
       "id": "mat-statistics-011",
@@ -142,7 +152,8 @@
       ],
       "answer": 3,
       "difficulty": "hard",
-      "explanation": "Variance $=\\dfrac{50}{5}=10$, so $\\sigma=\\sqrt{10}$."
+      "explanation": "Variance $=\\dfrac{50}{5}=10$, so $\\sigma=\\sqrt{10}$.",
+      "trick": "$\\sigma=\\sqrt{\\dfrac{\\sum(x_i-\\bar x)^2}{n}}$ — divide given sum by $n$, then root."
     },
     {
       "id": "mat-statistics-012",
@@ -155,7 +166,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "$CV_A=\\dfrac5{50}\\times100=10\\%$, $CV_B=\\dfrac9{60}\\times100=15\\%$. Lower CV means more consistent, so A is more consistent."
+      "explanation": "$CV_A=\\dfrac5{50}\\times100=10\\%$, $CV_B=\\dfrac9{60}\\times100=15\\%$. Lower CV means more consistent, so A is more consistent.",
+      "trick": "Lower CV = more consistent; compute $\\sigma/\\bar x\\times100$ for both."
     },
     {
       "id": "mat-statistics-013",
@@ -168,7 +180,8 @@
       ],
       "answer": 2,
       "difficulty": "easy",
-      "explanation": "Signed deviations from the mean always sum to zero, so mean deviation uses $|x_i-\\bar x|$ or $|x_i-\\text{median}|$ instead."
+      "explanation": "Signed deviations from the mean always sum to zero, so mean deviation uses $|x_i-\\bar x|$ or $|x_i-\\text{median}|$ instead.",
+      "trick": "MD always uses absolute deviations — signed deviations from mean sum to zero."
     },
     {
       "id": "mat-statistics-014",
@@ -181,7 +194,8 @@
       ],
       "answer": 1,
       "difficulty": "easy",
-      "explanation": "All values equal the mean, so every deviation is 0 and the variance is 0."
+      "explanation": "All values equal the mean, so every deviation is 0 and the variance is 0.",
+      "trick": "All values equal $\\Rightarrow$ every deviation is 0 $\\Rightarrow$ variance 0."
     },
     {
       "id": "mat-statistics-015",
@@ -194,7 +208,8 @@
       ],
       "answer": 0,
       "difficulty": "easy",
-      "explanation": "$\\sigma=\\sqrt{\\text{variance}}=\\sqrt{16}=4$."
+      "explanation": "$\\sigma=\\sqrt{\\text{variance}}=\\sqrt{16}=4$.",
+      "trick": "SD $=\\sqrt{\\text{variance}}$, just take the square root."
     },
     {
       "id": "mat-statistics-016",
@@ -207,7 +222,8 @@
       ],
       "answer": 3,
       "difficulty": "hard",
-      "explanation": "Adding a constant shifts the mean by that constant (new mean $=8+4=12$) but leaves the variance unchanged (still 16)."
+      "explanation": "Adding a constant shifts the mean by that constant (new mean $=8+4=12$) but leaves the variance unchanged (still 16).",
+      "trick": "Adding a constant shifts the mean by that amount but leaves variance untouched."
     },
     {
       "id": "mat-statistics-017",
@@ -220,7 +236,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "It is a standard result that mean deviation about the mean never exceeds the standard deviation of the same data."
+      "explanation": "It is a standard result that mean deviation about the mean never exceeds the standard deviation of the same data.",
+      "trick": "Standard result: mean deviation about the mean $\\le$ standard deviation, always."
     },
     {
       "id": "mat-statistics-018",
@@ -233,7 +250,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "Shifting all values by a constant (change of origin) does not affect SD, but multiplying by a constant (change of scale) does."
+      "explanation": "Shifting all values by a constant (change of origin) does not affect SD, but multiplying by a constant (change of scale) does.",
+      "trick": "SD is invariant to shift (origin) but scales with multiplication (scale)."
     },
     {
       "id": "mat-statistics-019",
@@ -246,7 +264,8 @@
       ],
       "answer": 1,
       "difficulty": "easy",
-      "explanation": "Mean $=9$; deviations $6,3,0,3,6$ sum to $18$; $MD=18/5=3.6$."
+      "explanation": "Mean $=9$; deviations $6,3,0,3,6$ sum to $18$; $MD=18/5=3.6$.",
+      "trick": "$MD=\\dfrac1n\\sum|x_i-\\bar x|$ — find mean, sum absolute deviations, divide."
     },
     {
       "id": "mat-statistics-020",
@@ -259,7 +278,8 @@
       ],
       "answer": 3,
       "difficulty": "easy",
-      "explanation": "$\\sigma^2=\\dfrac{\\sum x_i^2}{n}-\\bar x^2=\\dfrac{90}{5}-4^2=18-16=2$."
+      "explanation": "$\\sigma^2=\\dfrac{\\sum x_i^2}{n}-\\bar x^2=\\dfrac{90}{5}-4^2=18-16=2$.",
+      "trick": "$\\sigma^2=\\dfrac{\\sum x_i^2}{n}-\\bar x^2$ — shortcut formula, avoids finding each deviation."
     },
     {
       "id": "mat-statistics-021",
@@ -272,7 +292,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "Adding a constant does not change variance; multiplying by 2 then scales variance by $2^2=4$, giving $5\\times4=20$."
+      "explanation": "Adding a constant does not change variance; multiplying by 2 then scales variance by $2^2=4$, giving $5\\times4=20$.",
+      "trick": "Shift doesn't change variance; only the multiply step scales it by $k^2$."
     },
     {
       "id": "mat-statistics-022",
@@ -285,7 +306,8 @@
       ],
       "answer": 2,
       "difficulty": "hard",
-      "explanation": "Variance $=\\dfrac{98}{8}=12.25$; $\\sigma=\\sqrt{12.25}=3.5$."
+      "explanation": "Variance $=\\dfrac{98}{8}=12.25$; $\\sigma=\\sqrt{12.25}=3.5$.",
+      "trick": "Variance $=\\dfrac{\\sum(x_i-\\bar x)^2}{n}$, then square-root for SD."
     },
     {
       "id": "mat-statistics-023",
@@ -298,7 +320,8 @@
       ],
       "answer": 3,
       "difficulty": "easy",
-      "explanation": "$\\sigma=\\sqrt{\\dfrac{n^2-1}{12}}=\\sqrt{\\dfrac{25-1}{12}}=\\sqrt2$."
+      "explanation": "$\\sigma=\\sqrt{\\dfrac{n^2-1}{12}}=\\sqrt{\\dfrac{25-1}{12}}=\\sqrt2$.",
+      "trick": "$\\sigma=\\sqrt{\\dfrac{n^2-1}{12}}$ — direct formula for first $n$ naturals."
     },
     {
       "id": "mat-statistics-024",
@@ -311,7 +334,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "Dividing by a constant $k$ scales variance by $k^2$: $25\\times(1/5)^2=25/25=1$."
+      "explanation": "Dividing by a constant $k$ scales variance by $k^2$: $25\\times(1/5)^2=25/25=1$.",
+      "trick": "Dividing by $k$ scales variance by $1/k^2$."
     },
     {
       "id": "mat-statistics-025",
@@ -324,7 +348,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "Mean $=14$; deviations $4,2,0,2,4$ sum to $12$; $MD=12/5=2.4$."
+      "explanation": "Mean $=14$; deviations $4,2,0,2,4$ sum to $12$; $MD=12/5=2.4$.",
+      "trick": "$MD=\\dfrac1n\\sum|x_i-\\bar x|$ — same pattern regardless of data values."
     },
     {
       "id": "mat-statistics-026",
@@ -337,7 +362,8 @@
       ],
       "answer": 2,
       "difficulty": "hard",
-      "explanation": "$CV_A=\\dfrac8{40}\\times100=20\\%$, $CV_B=\\dfrac8{50}\\times100=16\\%$. The higher CV (A) means A is relatively more variable."
+      "explanation": "$CV_A=\\dfrac8{40}\\times100=20\\%$, $CV_B=\\dfrac8{50}\\times100=16\\%$. The higher CV (A) means A is relatively more variable.",
+      "trick": "Compare $CV=\\sigma/\\bar x\\times100$; higher CV = more variable."
     },
     {
       "id": "mat-statistics-027",
@@ -350,7 +376,8 @@
       ],
       "answer": 1,
       "difficulty": "easy",
-      "explanation": "Since variance is an average of squared deviations, its units are the square of the original data's units (SD restores the original units)."
+      "explanation": "Since variance is an average of squared deviations, its units are the square of the original data's units (SD restores the original units).",
+      "trick": "Variance carries squared units of the data; SD restores original units."
     },
     {
       "id": "mat-statistics-028",
@@ -363,7 +390,8 @@
       ],
       "answer": 3,
       "difficulty": "medium",
-      "explanation": "$\\sigma^2=\\dfrac{\\sum(x_i-\\bar x)^2}{n} \\Rightarrow 9=\\dfrac{\\sum(x_i-\\bar x)^2}{9} \\Rightarrow \\sum(x_i-\\bar x)^2=81$."
+      "explanation": "$\\sigma^2=\\dfrac{\\sum(x_i-\\bar x)^2}{n} \\Rightarrow 9=\\dfrac{\\sum(x_i-\\bar x)^2}{9} \\Rightarrow \\sum(x_i-\\bar x)^2=81$.",
+      "trick": "$\\sum(x_i-\\bar x)^2=n\\times\\text{variance}$ — rearrange the variance formula."
     },
     {
       "id": "mat-statistics-029",
@@ -376,7 +404,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "SD scales by the same multiplicative factor as the data: $5\\times1.2=6$."
+      "explanation": "SD scales by the same multiplicative factor as the data: $5\\times1.2=6$.",
+      "trick": "SD scales by the same factor as the data under multiplication."
     },
     {
       "id": "mat-statistics-030",
@@ -389,7 +418,8 @@
       ],
       "answer": 0,
       "difficulty": "hard",
-      "explanation": "Original sum $=100$. Corrected sum $=100-3+8=105$; corrected mean $=105/10=10.5$."
+      "explanation": "Original sum $=100$. Corrected sum $=100-3+8=105$; corrected mean $=105/10=10.5$.",
+      "trick": "Corrected sum = original sum − wrong value + correct value, then divide by $n$."
     },
     {
       "id": "mat-statistics-031",
@@ -402,7 +432,8 @@
       ],
       "answer": 3,
       "difficulty": "easy",
-      "explanation": "SD is the non-negative square root of variance, so it can never be negative."
+      "explanation": "SD is the non-negative square root of variance, so it can never be negative.",
+      "trick": "SD is a square root of a non-negative number — never negative."
     },
     {
       "id": "mat-statistics-032",
@@ -415,7 +446,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "$\\sigma^2=\\dfrac{n^2-1}{12}=\\dfrac{81-1}{12}=\\dfrac{80}{12}\\approx6.67$."
+      "explanation": "$\\sigma^2=\\dfrac{n^2-1}{12}=\\dfrac{81-1}{12}=\\dfrac{80}{12}\\approx6.67$.",
+      "trick": "$\\sigma^2=\\dfrac{n^2-1}{12}$ for first $n$ naturals — direct substitution."
     },
     {
       "id": "mat-statistics-033",
@@ -428,7 +460,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "Adding a constant to every observation shifts the mean equally, leaving all deviations — and hence the variance — unchanged."
+      "explanation": "Adding a constant to every observation shifts the mean equally, leaving all deviations — and hence the variance — unchanged.",
+      "trick": "Adding a constant to every term never changes variance."
     },
     {
       "id": "mat-statistics-034",
@@ -441,7 +474,8 @@
       ],
       "answer": 3,
       "difficulty": "hard",
-      "explanation": "Multiplying every observation by $k$ multiplies variance by $k^2$; here $k=2$, so the new variance is $4\\sigma^2$."
+      "explanation": "Multiplying every observation by $k$ multiplies variance by $k^2$; here $k=2$, so the new variance is $4\\sigma^2$.",
+      "trick": "Multiplying every term by $k$ multiplies variance by $k^2$."
     },
     {
       "id": "mat-statistics-035",
@@ -454,7 +488,8 @@
       ],
       "answer": 2,
       "difficulty": "easy",
-      "explanation": "Range $=$ maximum value $-$ minimum value, using only the two extreme observations, unlike MD/variance/SD which use every observation."
+      "explanation": "Range $=$ maximum value $-$ minimum value, using only the two extreme observations, unlike MD/variance/SD which use every observation.",
+      "trick": "Range uses only max and min — ignores every other observation."
     },
     {
       "id": "mat-statistics-036",
@@ -467,7 +502,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "Variance equals the mean of the squares minus the square of the mean: $\\sigma^2=\\dfrac{\\sum x^2}{n}-\\bar x^2$."
+      "explanation": "Variance equals the mean of the squares minus the square of the mean: $\\sigma^2=\\dfrac{\\sum x^2}{n}-\\bar x^2$.",
+      "trick": "Shortcut variance formula: mean of squares minus square of mean."
     },
     {
       "id": "mat-statistics-037",
@@ -480,7 +516,8 @@
       ],
       "answer": 3,
       "difficulty": "medium",
-      "explanation": "SD $=0$ means every deviation from the mean is 0, so every observation must equal the mean, 9."
+      "explanation": "SD $=0$ means every deviation from the mean is 0, so every observation must equal the mean, 9.",
+      "trick": "SD $=0$ forces every observation to equal the mean exactly."
     },
     {
       "id": "mat-statistics-038",
@@ -493,7 +530,8 @@
       ],
       "answer": 0,
       "difficulty": "hard",
-      "explanation": "Sum of 5 numbers $=30$; sum of remaining 4 $=20$; removed number $=30-20=10$."
+      "explanation": "Sum of 5 numbers $=30$; sum of remaining 4 $=20$; removed number $=30-20=10$.",
+      "trick": "Removed value = (sum before) − (sum after); use $n\\times\\text{mean}$ for each sum."
     },
     {
       "id": "mat-statistics-039",
@@ -506,7 +544,8 @@
       ],
       "answer": 2,
       "difficulty": "easy",
-      "explanation": "CV expresses SD as a percentage of the mean, allowing fair comparison of variability between data sets with different units or means."
+      "explanation": "CV expresses SD as a percentage of the mean, allowing fair comparison of variability between data sets with different units or means.",
+      "trick": "CV is built to compare relative variability across different data sets."
     },
     {
       "id": "mat-statistics-040",
@@ -519,7 +558,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "$\\sigma=\\sqrt{100}=10$; $CV=\\dfrac{10}{50}\\times100=20\\%$."
+      "explanation": "$\\sigma=\\sqrt{100}=10$; $CV=\\dfrac{10}{50}\\times100=20\\%$.",
+      "trick": "Variance given: take $\\sqrt{\\text{variance}}$ for SD, then $CV=\\sigma/\\bar x\\times100$."
     }
   ]
 }

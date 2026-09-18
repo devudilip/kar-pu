@@ -12,7 +12,8 @@
       ],
       "answer": 3,
       "difficulty": "easy",
-      "explanation": "Large-angle scattering requires a strong repulsive force from a concentrated positive charge; this could only happen if nearly all the mass and positive charge occupy a very small volume (the nucleus)."
+      "explanation": "Large-angle scattering requires a strong repulsive force from a concentrated positive charge; this could only happen if nearly all the mass and positive charge occupy a very small volume (the nucleus).",
+      "trick": "Large-angle bounce-back needs a tiny, massive, charged nucleus doing the repelling."
     },
     {
       "id": "phy-atoms-002",
@@ -25,7 +26,8 @@
       ],
       "answer": 1,
       "difficulty": "easy",
-      "explanation": "$r_n \\propto n^2$, so $r_2 = 0.529\\times2^2 = 2.116$ Å."
+      "explanation": "$r_n \\propto n^2$, so $r_2 = 0.529\\times2^2 = 2.116$ Å.",
+      "trick": "$r_n\\propto n^2$ — square the orbit number, multiply by $r_1$."
     },
     {
       "id": "phy-atoms-003",
@@ -38,7 +40,8 @@
       ],
       "answer": 2,
       "difficulty": "easy",
-      "explanation": "$E_n = -13.6/n^2$ eV; $E_2 = -13.6/4 = -3.4$ eV."
+      "explanation": "$E_n = -13.6/n^2$ eV; $E_2 = -13.6/4 = -3.4$ eV.",
+      "trick": "$E_n=-13.6/n^2$ eV — just square $n$ and divide."
     },
     {
       "id": "phy-atoms-004",
@@ -51,7 +54,8 @@
       ],
       "answer": 0,
       "difficulty": "easy",
-      "explanation": "Ionisation energy = energy needed to take the electron from $n=1$ ($E_1=-13.6$ eV) to $n=\\infty$ ($E_\\infty = 0$), i.e. 13.6 eV."
+      "explanation": "Ionisation energy = energy needed to take the electron from $n=1$ ($E_1=-13.6$ eV) to $n=\\infty$ ($E_\\infty = 0$), i.e. 13.6 eV.",
+      "trick": "Ionisation energy from the ground state is always $13.6$ eV — memorise it."
     },
     {
       "id": "phy-atoms-005",
@@ -64,7 +68,8 @@
       ],
       "answer": 3,
       "difficulty": "easy",
-      "explanation": "Bohr's quantisation postulate: $mvr = \\dfrac{nh}{2\\pi}$, $n = 1,2,3,\\dots$."
+      "explanation": "Bohr's quantisation postulate: $mvr = \\dfrac{nh}{2\\pi}$, $n = 1,2,3,\\dots$.",
+      "trick": "Bohr quantisation: $L=nh/2\\pi$ — the one formula behind everything else."
     },
     {
       "id": "phy-atoms-006",
@@ -77,7 +82,8 @@
       ],
       "answer": 0,
       "difficulty": "easy",
-      "explanation": "Transitions ending at $n_1 = 1$ constitute the Lyman series, which lies in the ultraviolet region."
+      "explanation": "Transitions ending at $n_1 = 1$ constitute the Lyman series, which lies in the ultraviolet region.",
+      "trick": "Ends at $n=1$ is Lyman; $n=2$ is Balmer; $n=3$ is Paschen — memorise the ladder."
     },
     {
       "id": "phy-atoms-007",
@@ -90,7 +96,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "Number of lines $= \\dfrac{n(n-1)}{2} = \\dfrac{4\\times3}{2} = 6$."
+      "explanation": "Number of lines $= \\dfrac{n(n-1)}{2} = \\dfrac{4\\times3}{2} = 6$.",
+      "trick": "Max spectral lines from level $n$: $n(n-1)/2$ — a combinatorics shortcut."
     },
     {
       "id": "phy-atoms-008",
@@ -103,7 +110,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "From Bohr's theory, $v_n = \\dfrac{Ze^2}{2\\varepsilon_0 nh} \\propto Z/n$; for hydrogen ($Z=1$), $v_n \\propto 1/n$."
+      "explanation": "From Bohr's theory, $v_n = \\dfrac{Ze^2}{2\\varepsilon_0 nh} \\propto Z/n$; for hydrogen ($Z=1$), $v_n \\propto 1/n$.",
+      "trick": "$v_n\\propto Z/n$; for hydrogen it's just $v_n\\propto1/n$."
     },
     {
       "id": "phy-atoms-009",
@@ -116,7 +124,8 @@
       ],
       "answer": 3,
       "difficulty": "hard",
-      "explanation": "$\\dfrac{1}{\\lambda} = R\\left(\\dfrac{1}{4}-\\dfrac{1}{9}\\right) = R\\times\\dfrac{5}{36} = 1.097\\times10^7\\times0.1389 \\approx 1.524\\times10^6\\ \\text{m}^{-1}$, so $\\lambda \\approx 656$ nm (H-alpha line)."
+      "explanation": "$\\dfrac{1}{\\lambda} = R\\left(\\dfrac{1}{4}-\\dfrac{1}{9}\\right) = R\\times\\dfrac{5}{36} = 1.097\\times10^7\\times0.1389 \\approx 1.524\\times10^6\\ \\text{m}^{-1}$, so $\\lambda \\approx 656$ nm (H-alpha line).",
+      "trick": "Balmer 656 nm (H-alpha) is the classic $3\\to2$ transition, worth memorising directly."
     },
     {
       "id": "phy-atoms-010",
@@ -129,7 +138,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "$E_n = -13.6Z^2/n^2$ eV is negative for every orbit, showing the electron is bound to the nucleus; energy becomes zero only when $n\\to\\infty$ (free electron)."
+      "explanation": "$E_n = -13.6Z^2/n^2$ eV is negative for every orbit, showing the electron is bound to the nucleus; energy becomes zero only when $n\\to\\infty$ (free electron).",
+      "trick": "$E_n$ is always negative — that just means the electron is bound, not free."
     },
     {
       "id": "phy-atoms-011",
@@ -142,7 +152,8 @@
       ],
       "answer": 1,
       "difficulty": "hard",
-      "explanation": "For an inverse-square (Coulomb) force, the virial theorem gives $PE = -2KE$, and total energy $E = KE + PE = -KE$, consistent with $E_n$ being negative."
+      "explanation": "For an inverse-square (Coulomb) force, the virial theorem gives $PE = -2KE$, and total energy $E = KE + PE = -KE$, consistent with $E_n$ being negative.",
+      "trick": "Virial theorem for the Coulomb force: $PE=-2KE$, so $E=KE+PE=-KE$."
     },
     {
       "id": "phy-atoms-012",
@@ -155,7 +166,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "Shortest wavelength (highest energy, series limit) corresponds to the largest possible energy gap, i.e. from $n=\\infty$ down to $n=1$."
+      "explanation": "Shortest wavelength (highest energy, series limit) corresponds to the largest possible energy gap, i.e. from $n=\\infty$ down to $n=1$.",
+      "trick": "Series limit (shortest $\\lambda$) always means the biggest possible jump: from $n=\\infty$."
     },
     {
       "id": "phy-atoms-013",
@@ -168,7 +180,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "$\\dfrac{n(n-1)}{2} = \\dfrac{3\\times2}{2} = 3$ possible transitions/wavelengths: $3\\to2$, $2\\to1$, $3\\to1$."
+      "explanation": "$\\dfrac{n(n-1)}{2} = \\dfrac{3\\times2}{2} = 3$ possible transitions/wavelengths: $3\\to2$, $2\\to1$, $3\\to1$.",
+      "trick": "3 possible transitions from $n=3$ to ground: $3(3-1)/2=3$ — just compute directly."
     },
     {
       "id": "phy-atoms-014",
@@ -181,7 +194,8 @@
       ],
       "answer": 1,
       "difficulty": "easy",
-      "explanation": "Classically, an orbiting (accelerating) electron should continuously radiate energy and spiral into the nucleus, making atoms unstable, and the model gave no explanation for the discrete spectral lines observed."
+      "explanation": "Classically, an orbiting (accelerating) electron should continuously radiate energy and spiral into the nucleus, making atoms unstable, and the model gave no explanation for the discrete spectral lines observed.",
+      "trick": "Rutherford's fatal gaps: no atomic stability, no line spectra explanation."
     },
     {
       "id": "phy-atoms-015",
@@ -194,7 +208,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "$E_1 = -13.6Z^2$ eV $= -13.6\\times4 = -54.4$ eV."
+      "explanation": "$E_1 = -13.6Z^2$ eV $= -13.6\\times4 = -54.4$ eV.",
+      "trick": "$E_1=-13.6Z^2$ — square $Z$ first, then multiply."
     },
     {
       "id": "phy-atoms-016",
@@ -207,7 +222,8 @@
       ],
       "answer": 3,
       "difficulty": "medium",
-      "explanation": "$r_0 = \\dfrac{2kZe^2}{E_k}$, so the distance of closest approach is inversely proportional to the kinetic energy of the alpha particle."
+      "explanation": "$r_0 = \\dfrac{2kZe^2}{E_k}$, so the distance of closest approach is inversely proportional to the kinetic energy of the alpha particle.",
+      "trick": "Closest approach $r_0\\propto1/E_k$ — higher KE means the alpha gets closer."
     },
     {
       "id": "phy-atoms-017",
@@ -220,7 +236,8 @@
       ],
       "answer": 3,
       "difficulty": "hard",
-      "explanation": "Bohr's quantisation $mvr = nh/2\\pi$ combined with de Broglie's $\\lambda = h/mv$ gives $2\\pi r_n = n\\lambda$ — an integer number of de Broglie wavelengths fit the orbit, providing a physical basis for quantisation."
+      "explanation": "Bohr's quantisation $mvr = nh/2\\pi$ combined with de Broglie's $\\lambda = h/mv$ gives $2\\pi r_n = n\\lambda$ — an integer number of de Broglie wavelengths fit the orbit, providing a physical basis for quantisation.",
+      "trick": "Bohr plus de Broglie: $2\\pi r_n=n\\lambda$ — integer wavelengths fit the orbit exactly."
     },
     {
       "id": "phy-atoms-018",
@@ -233,7 +250,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "$E_2 - E_1 = (-3.4) - (-13.6) = 10.2$ eV, emitted as a photon (Lyman-alpha line)."
+      "explanation": "$E_2 - E_1 = (-3.4) - (-13.6) = 10.2$ eV, emitted as a photon (Lyman-alpha line).",
+      "trick": "The $n=2\\to1$ energy gap is the famous $10.2$ eV Lyman-alpha line."
     },
     {
       "id": "phy-atoms-019",
@@ -246,7 +264,8 @@
       ],
       "answer": 2,
       "difficulty": "easy",
-      "explanation": "$r_n \\propto n^2/Z$; for He$^+$, $r_1 = 0.529/2 = 0.2645$ Å."
+      "explanation": "$r_n \\propto n^2/Z$; for He$^+$, $r_1 = 0.529/2 = 0.2645$ Å.",
+      "trick": "$r_n\\propto n^2/Z$ — divide the hydrogen radius by $Z$ for ions."
     },
     {
       "id": "phy-atoms-020",
@@ -259,7 +278,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "Since $v_n \\propto 1/n$ and $r_n \\propto n^2$, the revolution frequency $f = v_n/(2\\pi r_n) \\propto 1/n^3$."
+      "explanation": "Since $v_n \\propto 1/n$ and $r_n \\propto n^2$, the revolution frequency $f = v_n/(2\\pi r_n) \\propto 1/n^3$.",
+      "trick": "Revolution frequency $f=v/(2\\pi r)\\propto1/n^3$ — combine the $v_n$ and $r_n$ laws."
     },
     {
       "id": "phy-atoms-021",
@@ -272,7 +292,8 @@
       ],
       "answer": 3,
       "difficulty": "medium",
-      "explanation": "Ionisation energy $= 13.6Z^2 = 13.6\\times9 = 122.4$ eV."
+      "explanation": "Ionisation energy $= 13.6Z^2 = 13.6\\times9 = 122.4$ eV.",
+      "trick": "Ionisation energy scales as $13.6Z^2$ eV — just square the atomic number."
     },
     {
       "id": "phy-atoms-022",
@@ -285,7 +306,8 @@
       ],
       "answer": 1,
       "difficulty": "easy",
-      "explanation": "Transitions ending at $n_1=3$ constitute the Paschen series, which lies entirely in the infrared region."
+      "explanation": "Transitions ending at $n_1=3$ constitute the Paschen series, which lies entirely in the infrared region.",
+      "trick": "Ends at $n=3$ means the Paschen series, always infrared — pair the number with the name."
     },
     {
       "id": "phy-atoms-023",
@@ -298,7 +320,8 @@
       ],
       "answer": 0,
       "difficulty": "hard",
-      "explanation": "The Balmer line at 486 nm (H-beta) arises from the transition $n=4 \\to n=2$."
+      "explanation": "The Balmer line at 486 nm (H-beta) arises from the transition $n=4 \\to n=2$.",
+      "trick": "486 nm (H-beta) is the specific $4\\to2$ Balmer transition — a memorisable pair."
     },
     {
       "id": "phy-atoms-024",
@@ -311,7 +334,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "$E_3 = -13.6/9 = -1.51$ eV; excitation energy $= E_3 - E_1 = -1.51-(-13.6) \\approx 12.1$ eV."
+      "explanation": "$E_3 = -13.6/9 = -1.51$ eV; excitation energy $= E_3 - E_1 = -1.51-(-13.6) \\approx 12.1$ eV.",
+      "trick": "Excitation energy is $E_{final}-E_{initial}$; both negative, so subtract carefully."
     },
     {
       "id": "phy-atoms-025",
@@ -324,7 +348,8 @@
       ],
       "answer": 3,
       "difficulty": "easy",
-      "explanation": "If most alpha particles pass through undeviated, then most of the atom's volume must contain no significant charge or mass, i.e. the atom is mostly empty space, with charge and mass concentrated in a tiny nucleus."
+      "explanation": "If most alpha particles pass through undeviated, then most of the atom's volume must contain no significant charge or mass, i.e. the atom is mostly empty space, with charge and mass concentrated in a tiny nucleus.",
+      "trick": "Most alphas pass straight through, so the atom is mostly empty space."
     },
     {
       "id": "phy-atoms-026",
@@ -337,7 +362,8 @@
       ],
       "answer": 0,
       "difficulty": "easy",
-      "explanation": "By Bohr's quantisation rule, $L = nh/2\\pi$; for $n=3$, $L = 3h/2\\pi$."
+      "explanation": "By Bohr's quantisation rule, $L = nh/2\\pi$; for $n=3$, $L = 3h/2\\pi$.",
+      "trick": "Angular momentum for $n=3$: just plug into $L=nh/2\\pi$."
     },
     {
       "id": "phy-atoms-027",
@@ -350,7 +376,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "$r_0 = \\dfrac{2kZe^2}{E_k} \\propto 1/E_k$, so doubling the kinetic energy halves the distance of closest approach."
+      "explanation": "$r_0 = \\dfrac{2kZe^2}{E_k} \\propto 1/E_k$, so doubling the kinetic energy halves the distance of closest approach.",
+      "trick": "Doubling KE halves the closest-approach distance ($r_0\\propto1/E_k$)."
     },
     {
       "id": "phy-atoms-028",
@@ -363,7 +390,8 @@
       ],
       "answer": 2,
       "difficulty": "hard",
-      "explanation": "Series limit corresponds to $n_2\\to\\infty$: $\\dfrac{1}{\\lambda} = R\\left(\\dfrac{1}{4}-0\\right) = R/4 \\approx 2.74\\times10^6\\ \\text{m}^{-1}$, so $\\lambda \\approx 365$ nm."
+      "explanation": "Series limit corresponds to $n_2\\to\\infty$: $\\dfrac{1}{\\lambda} = R\\left(\\dfrac{1}{4}-0\\right) = R/4 \\approx 2.74\\times10^6\\ \\text{m}^{-1}$, so $\\lambda \\approx 365$ nm.",
+      "trick": "Balmer series limit: $1/\\lambda=R/4$ — set $n_2\\to\\infty$, $n_1=2$."
     },
     {
       "id": "phy-atoms-029",
@@ -376,7 +404,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "Classically, an electron moving in a circular orbit is accelerating and should radiate energy continuously, spiralling into the nucleus; Bohr's postulate of non-radiating stationary orbits was an ad hoc departure from classical theory needed to explain atomic stability."
+      "explanation": "Classically, an electron moving in a circular orbit is accelerating and should radiate energy continuously, spiralling into the nucleus; Bohr's postulate of non-radiating stationary orbits was an ad hoc departure from classical theory needed to explain atomic stability.",
+      "trick": "Bohr's 'no radiation' postulate directly defies classical EM theory — that's the point."
     },
     {
       "id": "phy-atoms-030",
@@ -389,7 +418,8 @@
       ],
       "answer": 0,
       "difficulty": "easy",
-      "explanation": "Maximum number of spectral lines $= \\dfrac{n(n-1)}{2} = \\dfrac{5\\times4}{2} = 10$."
+      "explanation": "Maximum number of spectral lines $= \\dfrac{n(n-1)}{2} = \\dfrac{5\\times4}{2} = 10$.",
+      "trick": "$n(n-1)/2$ again: for $n=5$, that's $5\\times4/2=10$ lines."
     },
     {
       "id": "phy-atoms-031",
@@ -402,7 +432,8 @@
       ],
       "answer": 3,
       "difficulty": "medium",
-      "explanation": "A key Bohr postulate is that electrons do NOT radiate energy while in a stationary orbit; energy is emitted only during a transition between orbits, so the statement of continuous emission is incorrect."
+      "explanation": "A key Bohr postulate is that electrons do NOT radiate energy while in a stationary orbit; energy is emitted only during a transition between orbits, so the statement of continuous emission is incorrect.",
+      "trick": "Trap: Bohr orbits do NOT emit continuously — only during a jump between orbits."
     },
     {
       "id": "phy-atoms-032",
@@ -415,7 +446,8 @@
       ],
       "answer": 2,
       "difficulty": "hard",
-      "explanation": "$\\Delta E = 13.6-0.85 = 12.75$ eV $= 12.75\\times1.6\\times10^{-19}$ J $\\approx 2.04\\times10^{-18}$ J. $\\nu = \\Delta E/h \\approx 2.04\\times10^{-18}/6.63\\times10^{-34} \\approx 3.1\\times10^{15}$ Hz."
+      "explanation": "$\\Delta E = 13.6-0.85 = 12.75$ eV $= 12.75\\times1.6\\times10^{-19}$ J $\\approx 2.04\\times10^{-18}$ J. $\\nu = \\Delta E/h \\approx 2.04\\times10^{-18}/6.63\\times10^{-34} \\approx 3.1\\times10^{15}$ Hz.",
+      "trick": "Photon frequency: find $\\Delta E$ in joules, then $\\nu=\\Delta E/h$."
     },
     {
       "id": "phy-atoms-033",
@@ -428,7 +460,8 @@
       ],
       "answer": 0,
       "difficulty": "easy",
-      "explanation": "Bohr's model, based on a single electron orbiting a nucleus, accurately predicts the spectra of hydrogen and hydrogen-like ions (He$^+$, Li$^{2+}$, etc.) but fails for multi-electron atoms due to electron-electron interactions."
+      "explanation": "Bohr's model, based on a single electron orbiting a nucleus, accurately predicts the spectra of hydrogen and hydrogen-like ions (He$^+$, Li$^{2+}$, etc.) but fails for multi-electron atoms due to electron-electron interactions.",
+      "trick": "Bohr's model only works for single-electron systems — fails for multi-electron atoms."
     },
     {
       "id": "phy-atoms-034",
@@ -441,7 +474,8 @@
       ],
       "answer": 1,
       "difficulty": "hard",
-      "explanation": "By the virial theorem for a Coulomb (inverse-square) force, $PE = -2KE$ and $E_n = KE+PE = -KE$, so $KE = -E_n$."
+      "explanation": "By the virial theorem for a Coulomb (inverse-square) force, $PE = -2KE$ and $E_n = KE+PE = -KE$, so $KE = -E_n$.",
+      "trick": "$KE=-E_n$ always — kinetic energy is just minus the (negative) total energy."
     },
     {
       "id": "phy-atoms-035",
@@ -454,7 +488,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "$E_n = -13.6Z^2/n^2$; $E_1 = -54.4$ eV, $E_2 = -13.6$ eV. $\\Delta E = 54.4-13.6 = 40.8$ eV."
+      "explanation": "$E_n = -13.6Z^2/n^2$; $E_1 = -54.4$ eV, $E_2 = -13.6$ eV. $\\Delta E = 54.4-13.6 = 40.8$ eV.",
+      "trick": "For ions, compute $E_n=-13.6Z^2/n^2$ first, then subtract for $\\Delta E$."
     },
     {
       "id": "phy-atoms-036",
@@ -467,7 +502,8 @@
       ],
       "answer": 3,
       "difficulty": "easy",
-      "explanation": "Since $E_n \\propto -1/n^2$, the spacing between consecutive levels, $E_{n+1}-E_n$, decreases as $n$ increases, so the levels crowd closer together near $E=0$."
+      "explanation": "Since $E_n \\propto -1/n^2$, the spacing between consecutive levels, $E_{n+1}-E_n$, decreases as $n$ increases, so the levels crowd closer together near $E=0$.",
+      "trick": "Levels crowd closer as $n$ grows — spacing shrinks like differences of $1/n^2$."
     },
     {
       "id": "phy-atoms-037",
@@ -480,7 +516,8 @@
       ],
       "answer": 0,
       "difficulty": "easy",
-      "explanation": "Only discrete, quantised energy levels can produce sharp spectral lines at specific frequencies corresponding to specific energy differences, as opposed to a continuous spread of frequencies."
+      "explanation": "Only discrete, quantised energy levels can produce sharp spectral lines at specific frequencies corresponding to specific energy differences, as opposed to a continuous spread of frequencies.",
+      "trick": "Discrete spectral lines are direct proof energy levels are quantised, not continuous."
     },
     {
       "id": "phy-atoms-038",
@@ -493,7 +530,8 @@
       ],
       "answer": 3,
       "difficulty": "hard",
-      "explanation": "$E_n = -13.6/n^2 = -0.85 \\Rightarrow n^2 = 13.6/0.85 = 16 \\Rightarrow n = 4$."
+      "explanation": "$E_n = -13.6/n^2 = -0.85 \\Rightarrow n^2 = 13.6/0.85 = 16 \\Rightarrow n = 4$.",
+      "trick": "Given $E_n$, solve $n^2=13.6/|E_n|$ to find the quantum number."
     },
     {
       "id": "phy-atoms-039",
@@ -506,7 +544,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "$\\dfrac{1}{\\lambda} \\propto Z^2$ for fixed $n_1, n_2$, so $\\lambda \\propto 1/Z^2$."
+      "explanation": "$\\dfrac{1}{\\lambda} \\propto Z^2$ for fixed $n_1, n_2$, so $\\lambda \\propto 1/Z^2$.",
+      "trick": "Fixed transition, varying $Z$: wavelength scales as $1/Z^2$."
     },
     {
       "id": "phy-atoms-040",
@@ -519,7 +558,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "The Balmer series lies in the visible region, not the ultraviolet; only the Lyman series lies in the ultraviolet, so 'Balmer – Ultraviolet' is the incorrect pairing."
+      "explanation": "The Balmer series lies in the visible region, not the ultraviolet; only the Lyman series lies in the ultraviolet, so 'Balmer – Ultraviolet' is the incorrect pairing.",
+      "trick": "Trap: Balmer is VISIBLE, not ultraviolet — only Lyman lies in UV."
     }
   ]
 }

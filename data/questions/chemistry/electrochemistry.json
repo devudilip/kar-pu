@@ -12,7 +12,8 @@
       ],
       "answer": 2,
       "difficulty": "easy",
-      "explanation": "By convention the cathode is written on the right; reduction (Cu$^{2+}$ + 2e$^-$ $\\to$ Cu) occurs there, while oxidation of Zn occurs at the anode on the left."
+      "explanation": "By convention the cathode is written on the right; reduction (Cu$^{2+}$ + 2e$^-$ $\\to$ Cu) occurs there, while oxidation of Zn occurs at the anode on the left.",
+      "trick": "Cathode = right side of cell notation = reduction always."
     },
     {
       "id": "che-electrochemistry-002",
@@ -25,7 +26,8 @@
       ],
       "answer": 3,
       "difficulty": "easy",
-      "explanation": "$E^\\circ_{cell} = E^\\circ_{cathode} - E^\\circ_{anode} = 0.34 - (-0.76) = 1.10$ V (Cu is cathode, Zn is anode)."
+      "explanation": "$E^\\circ_{cell} = E^\\circ_{cathode} - E^\\circ_{anode} = 0.34 - (-0.76) = 1.10$ V (Cu is cathode, Zn is anode).",
+      "trick": "$E^\\circ_{cell}=E^\\circ_{cathode}-E^\\circ_{anode}$ (right minus left)."
     },
     {
       "id": "che-electrochemistry-003",
@@ -38,7 +40,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "$\\Delta G^\\circ = -nFE^\\circ_{cell} = -2\\times96500\\times1.10 = -212300$ J mol$^{-1}$."
+      "explanation": "$\\Delta G^\\circ = -nFE^\\circ_{cell} = -2\\times96500\\times1.10 = -212300$ J mol$^{-1}$.",
+      "trick": "$\\Delta G^\\circ=-nFE^\\circ_{cell}$ — plug n, F, E directly."
     },
     {
       "id": "che-electrochemistry-004",
@@ -51,7 +54,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "Charge $= it = 2\\times965 = 1930$ C $= 0.02$ F. Na$^+$ + e$^-$ $\\to$ Na needs 1 F per mole, so mass $= 0.02\\times23 = 0.46$ g."
+      "explanation": "Charge $= it = 2\\times965 = 1930$ C $= 0.02$ F. Na$^+$ + e$^-$ $\\to$ Na needs 1 F per mole, so mass $= 0.02\\times23 = 0.46$ g.",
+      "trick": "$w=\\dfrac{it}{F}\\times M$ (n=1 for Na$^+$) — Faraday's first law."
     },
     {
       "id": "che-electrochemistry-005",
@@ -64,7 +68,8 @@
       ],
       "answer": 1,
       "difficulty": "hard",
-      "explanation": "Moles of electrons $= 5.4/108 = 0.05$ mol e$^-$. Cu$^{2+}$ needs 2 e$^-$ per atom, so moles Cu $= 0.05/2 = 0.025$; mass $= 0.025\\times63.5 = 1.588$ g."
+      "explanation": "Moles of electrons $= 5.4/108 = 0.05$ mol e$^-$. Cu$^{2+}$ needs 2 e$^-$ per atom, so moles Cu $= 0.05/2 = 0.025$; mass $= 0.025\\times63.5 = 1.588$ g.",
+      "trick": "Same charge → equal moles of e⁻; use $n_e=w/M$ then scale by valency."
     },
     {
       "id": "che-electrochemistry-006",
@@ -77,7 +82,8 @@
       ],
       "answer": 0,
       "difficulty": "easy",
-      "explanation": "Weak electrolytes dissociate more as concentration decreases (dilution), producing more ions per mole and hence sharply higher molar conductivity, approaching $\\Lambda_m^\\circ$ only at infinite dilution."
+      "explanation": "Weak electrolytes dissociate more as concentration decreases (dilution), producing more ions per mole and hence sharply higher molar conductivity, approaching $\\Lambda_m^\\circ$ only at infinite dilution.",
+      "trick": "Weak electrolyte: dilution boosts dissociation → $\\Lambda_m$ shoots up."
     },
     {
       "id": "che-electrochemistry-007",
@@ -90,7 +96,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "Since weak electrolytes cannot be extrapolated directly to infinite dilution, $\\Lambda_m^\\circ$ for e.g. CH$_3$COOH is obtained as $\\Lambda_m^\\circ(CH_3COONa) + \\Lambda_m^\\circ(HCl) - \\Lambda_m^\\circ(NaCl)$, using Kohlrausch's law that each ion contributes independently."
+      "explanation": "Since weak electrolytes cannot be extrapolated directly to infinite dilution, $\\Lambda_m^\\circ$ for e.g. CH$_3$COOH is obtained as $\\Lambda_m^\\circ(CH_3COONa) + \\Lambda_m^\\circ(HCl) - \\Lambda_m^\\circ(NaCl)$, using Kohlrausch's law that each ion contributes independently.",
+      "trick": "Kohlrausch's law builds weak electrolyte $\\Lambda_m^\\circ$ from strong-electrolyte data."
     },
     {
       "id": "che-electrochemistry-008",
@@ -103,7 +110,8 @@
       ],
       "answer": 3,
       "difficulty": "medium",
-      "explanation": "$\\log K_c = \\dfrac{nE^\\circ_{cell}}{0.0591} = \\dfrac{1\\times0.0591}{0.0591} = 1 \\Rightarrow K_c = 10$."
+      "explanation": "$\\log K_c = \\dfrac{nE^\\circ_{cell}}{0.0591} = \\dfrac{1\\times0.0591}{0.0591} = 1 \\Rightarrow K_c = 10$.",
+      "trick": "$\\log K_c=\\dfrac{nE^\\circ_{cell}}{0.0591}$ — Nernst-derived shortcut."
     },
     {
       "id": "che-electrochemistry-009",
@@ -116,7 +124,8 @@
       ],
       "answer": 0,
       "difficulty": "hard",
-      "explanation": "$Q = [M^{2+}]/[N^{2+}] = 0.1/0.001 = 100$. $E_{cell} = 0.30 - \\dfrac{0.0591}{2}\\log(100) = 0.30 - 0.0591 = 0.2409 \\approx 0.24$ V."
+      "explanation": "$Q = [M^{2+}]/[N^{2+}] = 0.1/0.001 = 100$. $E_{cell} = 0.30 - \\dfrac{0.0591}{2}\\log(100) = 0.30 - 0.0591 = 0.2409 \\approx 0.24$ V.",
+      "trick": "Nernst: $E_{cell}=E^\\circ-\\dfrac{0.0591}{n}\\log Q$, Q = products/reactants conc."
     },
     {
       "id": "che-electrochemistry-010",
@@ -129,7 +138,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "During discharge, Pb (anode) is oxidised to PbSO$_4$ and PbO$_2$ (cathode) is reduced to PbSO$_4$, consuming H$_2$SO$_4$ from the electrolyte."
+      "explanation": "During discharge, Pb (anode) is oxidised to PbSO$_4$ and PbO$_2$ (cathode) is reduced to PbSO$_4$, consuming H$_2$SO$_4$ from the electrolyte.",
+      "trick": "Lead-acid discharge: both Pb and PbO$_2$ end up as PbSO$_4$."
     },
     {
       "id": "che-electrochemistry-011",
@@ -142,7 +152,8 @@
       ],
       "answer": 3,
       "difficulty": "easy",
-      "explanation": "In a H$_2$-O$_2$ fuel cell, hydrogen is oxidised at the anode and oxygen reduced at the cathode (with KOH electrolyte), giving water as the sole product, so no pollutants are released."
+      "explanation": "In a H$_2$-O$_2$ fuel cell, hydrogen is oxidised at the anode and oxygen reduced at the cathode (with KOH electrolyte), giving water as the sole product, so no pollutants are released.",
+      "trick": "H$_2$-O$_2$ fuel cell's only product is water — zero pollution."
     },
     {
       "id": "che-electrochemistry-012",
@@ -155,7 +166,8 @@
       ],
       "answer": 1,
       "difficulty": "easy",
-      "explanation": "Rusting is electrochemical corrosion: Fe is oxidised (Fe $\\to$ Fe$^{2+}$ + 2e$^-$) at anodic spots, and O$_2$ is reduced at cathodic spots (with moisture as the medium), ultimately forming hydrated Fe$_2$O$_3$."
+      "explanation": "Rusting is electrochemical corrosion: Fe is oxidised (Fe $\\to$ Fe$^{2+}$ + 2e$^-$) at anodic spots, and O$_2$ is reduced at cathodic spots (with moisture as the medium), ultimately forming hydrated Fe$_2$O$_3$.",
+      "trick": "Rusting = electrochemical: Fe oxidised at anode spot, O$_2$ reduced at cathode spot."
     },
     {
       "id": "che-electrochemistry-013",
@@ -168,7 +180,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "A more reactive metal like Zn or Mg is connected to iron; it oxidises preferentially (acts as the anode), protecting the iron (cathode) from corrosion."
+      "explanation": "A more reactive metal like Zn or Mg is connected to iron; it oxidises preferentially (acts as the anode), protecting the iron (cathode) from corrosion.",
+      "trick": "Sacrificial anode must be MORE reactive than iron (Zn/Mg)."
     },
     {
       "id": "che-electrochemistry-014",
@@ -181,7 +194,8 @@
       ],
       "answer": 3,
       "difficulty": "medium",
-      "explanation": "For strong electrolytes, $\\Lambda_m$ decreases slightly with increasing concentration due to inter-ionic attractions, following $\\Lambda_m = \\Lambda_m^\\circ - A\\sqrt{C}$; a plot of $\\Lambda_m$ vs $\\sqrt{C}$ is linear allowing extrapolation to get $\\Lambda_m^\\circ$."
+      "explanation": "For strong electrolytes, $\\Lambda_m$ decreases slightly with increasing concentration due to inter-ionic attractions, following $\\Lambda_m = \\Lambda_m^\\circ - A\\sqrt{C}$; a plot of $\\Lambda_m$ vs $\\sqrt{C}$ is linear allowing extrapolation to get $\\Lambda_m^\\circ$.",
+      "trick": "Strong electrolyte: $\\Lambda_m=\\Lambda_m^\\circ-A\\sqrt{C}$, linear in $\\sqrt{C}$."
     },
     {
       "id": "che-electrochemistry-015",
@@ -194,7 +208,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "Charge $= it = 1.5\\times600 = 900$ C. Moles of electrons $= 900/96500 = 0.00933$ mol."
+      "explanation": "Charge $= it = 1.5\\times600 = 900$ C. Moles of electrons $= 900/96500 = 0.00933$ mol.",
+      "trick": "moles e⁻ $=\\dfrac{it}{F}$ — charge over Faraday constant."
     },
     {
       "id": "che-electrochemistry-016",
@@ -207,7 +222,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "In electrolysis, the anode is connected to the positive terminal of the external battery and oxidation still occurs there — only the polarity convention differs from a galvanic cell (where the anode is negative)."
+      "explanation": "In electrolysis, the anode is connected to the positive terminal of the external battery and oxidation still occurs there — only the polarity convention differs from a galvanic cell (where the anode is negative).",
+      "trick": "Electrolytic cell: anode is still oxidation but wired to +ve terminal."
     },
     {
       "id": "che-electrochemistry-017",
@@ -220,7 +236,8 @@
       ],
       "answer": 1,
       "difficulty": "easy",
-      "explanation": "$E^\\circ_{cell} = E^\\circ_{cathode} - E^\\circ_{anode} = 0.80 - (-0.76) = 1.56$ V $> 0$, so the reaction Zn + 2Ag$^+$ $\\to$ Zn$^{2+}$ + 2Ag is spontaneous."
+      "explanation": "$E^\\circ_{cell} = E^\\circ_{cathode} - E^\\circ_{anode} = 0.80 - (-0.76) = 1.56$ V $> 0$, so the reaction Zn + 2Ag$^+$ $\\to$ Zn$^{2+}$ + 2Ag is spontaneous.",
+      "trick": "Higher $E^\\circ$ = cathode; $E^\\circ_{cell}=E_{cathode}-E_{anode}>0$ means spontaneous."
     },
     {
       "id": "che-electrochemistry-018",
@@ -233,7 +250,8 @@
       ],
       "answer": 3,
       "difficulty": "medium",
-      "explanation": "$\\Lambda_m = \\dfrac{\\kappa\\times1000}{C} = \\dfrac{1.5\\times10^{-3}\\times1000}{0.01} = 150$ S cm$^2$ mol$^{-1}$."
+      "explanation": "$\\Lambda_m = \\dfrac{\\kappa\\times1000}{C} = \\dfrac{1.5\\times10^{-3}\\times1000}{0.01} = 150$ S cm$^2$ mol$^{-1}$.",
+      "trick": "$\\Lambda_m=\\dfrac{\\kappa\\times1000}{C}$ — molar conductivity from conductivity and molarity."
     },
     {
       "id": "che-electrochemistry-019",
@@ -246,7 +264,8 @@
       ],
       "answer": 2,
       "difficulty": "easy",
-      "explanation": "The Leclanché (dry) cell is a primary cell — once its reactants are consumed it cannot be recharged, unlike lead storage, Ni-Cd or Li-ion cells which are secondary (rechargeable)."
+      "explanation": "The Leclanché (dry) cell is a primary cell — once its reactants are consumed it cannot be recharged, unlike lead storage, Ni-Cd or Li-ion cells which are secondary (rechargeable).",
+      "trick": "Primary cell = one-use, cannot recharge (Leclanché/dry cell)."
     },
     {
       "id": "che-electrochemistry-020",
@@ -259,7 +278,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "By convention, the SHE is assigned $E^\\circ = 0$ V under standard conditions: 1 M H$^+$ ion concentration, H$_2$ gas at 1 bar pressure, 298 K, using an inert Pt electrode."
+      "explanation": "By convention, the SHE is assigned $E^\\circ = 0$ V under standard conditions: 1 M H$^+$ ion concentration, H$_2$ gas at 1 bar pressure, 298 K, using an inert Pt electrode.",
+      "trick": "SHE reference: 1 M H$^+$, 1 bar H$_2$, 298 K, Pt, by definition $E^\\circ=0$."
     },
     {
       "id": "che-electrochemistry-021",
@@ -272,7 +292,8 @@
       ],
       "answer": 3,
       "difficulty": "easy",
-      "explanation": "Cell constant $G^* = l/A$ is a fixed geometric property of the conductivity cell, used to convert measured conductance into conductivity: $\\kappa = G^*\\times G$ (G = measured conductance)."
+      "explanation": "Cell constant $G^* = l/A$ is a fixed geometric property of the conductivity cell, used to convert measured conductance into conductivity: $\\kappa = G^*\\times G$ (G = measured conductance).",
+      "trick": "Cell constant $G^*=l/A$ — pure geometry of the conductivity cell."
     },
     {
       "id": "che-electrochemistry-022",
@@ -285,7 +306,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "$\\kappa = G^*\\times G = 1.5\\times2\\times10^{-3} = 3\\times10^{-3}$ S cm$^{-1}$."
+      "explanation": "$\\kappa = G^*\\times G = 1.5\\times2\\times10^{-3} = 3\\times10^{-3}$ S cm$^{-1}$.",
+      "trick": "$\\kappa=G^*\\times G$ — cell constant times measured conductance."
     },
     {
       "id": "che-electrochemistry-023",
@@ -298,7 +320,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "Equivalent conductivity is molar conductivity divided by the number of charges (equivalents) furnished per formula unit, $\\Lambda_{eq} = \\Lambda_m/z$."
+      "explanation": "Equivalent conductivity is molar conductivity divided by the number of charges (equivalents) furnished per formula unit, $\\Lambda_{eq} = \\Lambda_m/z$.",
+      "trick": "$\\Lambda_{eq}=\\Lambda_m/z$ — divide by charge number per formula unit."
     },
     {
       "id": "che-electrochemistry-024",
@@ -311,7 +334,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "For a concentration cell, $E^\\circ_{cell}=0$, and $E_{cell} = \\dfrac{0.0591}{2}\\log\\dfrac{[Cu^{2+}]_{cathode}}{[Cu^{2+}]_{anode}} = \\dfrac{0.0591}{2}\\log\\dfrac{1}{0.01} = \\dfrac{0.0591}{2}\\times2 = 0.0591$ V."
+      "explanation": "For a concentration cell, $E^\\circ_{cell}=0$, and $E_{cell} = \\dfrac{0.0591}{2}\\log\\dfrac{[Cu^{2+}]_{cathode}}{[Cu^{2+}]_{anode}} = \\dfrac{0.0591}{2}\\log\\dfrac{1}{0.01} = \\dfrac{0.0591}{2}\\times2 = 0.0591$ V.",
+      "trick": "Concentration cell: $E_{cell}=\\dfrac{0.0591}{n}\\log\\dfrac{C_{cathode}}{C_{anode}}$, $E^\\circ=0$."
     },
     {
       "id": "che-electrochemistry-025",
@@ -324,7 +348,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "As the cell reaction proceeds, charge builds up in each half-cell; the salt bridge allows ions to migrate between the half-cells to maintain electrical neutrality and complete the circuit, while minimising the liquid-junction potential."
+      "explanation": "As the cell reaction proceeds, charge builds up in each half-cell; the salt bridge allows ions to migrate between the half-cells to maintain electrical neutrality and complete the circuit, while minimising the liquid-junction potential.",
+      "trick": "Salt bridge = ion flow to keep both half-cells electrically neutral."
     },
     {
       "id": "che-electrochemistry-026",
@@ -337,7 +362,8 @@
       ],
       "answer": 0,
       "difficulty": "easy",
-      "explanation": "A high (very positive) standard reduction potential means the species is easily reduced, i.e. it is a strong oxidising agent; F$_2$ has the highest $E^\\circ$ in the electrochemical series."
+      "explanation": "A high (very positive) standard reduction potential means the species is easily reduced, i.e. it is a strong oxidising agent; F$_2$ has the highest $E^\\circ$ in the electrochemical series.",
+      "trick": "Most positive $E^\\circ_{red}$ = easiest to reduce = strongest oxidiser (F$_2$)."
     },
     {
       "id": "che-electrochemistry-027",
@@ -350,7 +376,8 @@
       ],
       "answer": 3,
       "difficulty": "medium",
-      "explanation": "A metal with a lower (more negative/less positive) standard reduction potential is the better reducing agent and will displace a metal ion with higher $E^\\circ$ from solution; since $E^\\circ_{Cu}< E^\\circ_{Ag}$, Cu displaces Ag$^+$ from solution."
+      "explanation": "A metal with a lower (more negative/less positive) standard reduction potential is the better reducing agent and will displace a metal ion with higher $E^\\circ$ from solution; since $E^\\circ_{Cu}< E^\\circ_{Ag}$, Cu displaces Ag$^+$ from solution.",
+      "trick": "Lower $E^\\circ$ metal is the better reducing agent, displaces the higher one."
     },
     {
       "id": "che-electrochemistry-028",
@@ -363,7 +390,8 @@
       ],
       "answer": 2,
       "difficulty": "hard",
-      "explanation": "Since 3 electrons are needed per Al$^{3+}$ ion, 1 mole of Al requires 3 Faradays of charge $= 3\\times96500 = 289500$ C."
+      "explanation": "Since 3 electrons are needed per Al$^{3+}$ ion, 1 mole of Al requires 3 Faradays of charge $= 3\\times96500 = 289500$ C.",
+      "trick": "Charge needed = n (electrons per ion) $\\times$ 96500 C per mole."
     },
     {
       "id": "che-electrochemistry-029",
@@ -376,7 +404,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "In electroplating (an electrolytic process), the object to be plated is connected as the cathode so that metal cations from the electrolyte are reduced and deposited onto its surface."
+      "explanation": "In electroplating (an electrolytic process), the object to be plated is connected as the cathode so that metal cations from the electrolyte are reduced and deposited onto its surface.",
+      "trick": "Electroplating: object to be plated = cathode (gets reduced metal)."
     },
     {
       "id": "che-electrochemistry-030",
@@ -389,7 +418,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "Combustion engines first convert chemical energy to heat, then heat to work, and are limited by Carnot (thermodynamic) efficiency; fuel cells convert chemical energy directly to electrical energy, bypassing this limitation and achieving higher efficiency."
+      "explanation": "Combustion engines first convert chemical energy to heat, then heat to work, and are limited by Carnot (thermodynamic) efficiency; fuel cells convert chemical energy directly to electrical energy, bypassing this limitation and achieving higher efficiency.",
+      "trick": "Fuel cells skip Carnot-limited heat→work step, going chemical→electrical directly."
     },
     {
       "id": "che-electrochemistry-031",
@@ -402,7 +432,8 @@
       ],
       "answer": 0,
       "difficulty": "easy",
-      "explanation": "Raising the temperature decreases the viscosity of the solvent (increasing ionic mobility) and increases the degree of dissociation of weak electrolytes, so electrolytic conductivity rises with temperature — opposite to metals, where conductivity falls."
+      "explanation": "Raising the temperature decreases the viscosity of the solvent (increasing ionic mobility) and increases the degree of dissociation of weak electrolytes, so electrolytic conductivity rises with temperature — opposite to metals, where conductivity falls.",
+      "trick": "Electrolytes: heat → more dissociation + mobility → conductivity UP (opposite of metals)."
     },
     {
       "id": "che-electrochemistry-032",
@@ -415,7 +446,8 @@
       ],
       "answer": 3,
       "difficulty": "medium",
-      "explanation": "Water is preferentially reduced at the cathode (giving H$_2$ and OH$^-$) rather than Na$^+$ (which has a much more negative reduction potential), while Cl$^-$ is oxidised at the anode to Cl$_2$; NaOH accumulates in the solution."
+      "explanation": "Water is preferentially reduced at the cathode (giving H$_2$ and OH$^-$) rather than Na$^+$ (which has a much more negative reduction potential), while Cl$^-$ is oxidised at the anode to Cl$_2$; NaOH accumulates in the solution.",
+      "trick": "Chlor-alkali: water reduced (H$_2$) at cathode beats Na$^+$; Cl$^-$ oxidised at anode."
     },
     {
       "id": "che-electrochemistry-033",
@@ -428,7 +460,8 @@
       ],
       "answer": 3,
       "difficulty": "hard",
-      "explanation": "$\\log K_c = \\dfrac{nE^\\circ_{cell}}{0.0591} = \\dfrac{2\\times0.295}{0.0591} = \\dfrac{0.59}{0.0591}\\approx10$, so $K_c \\approx 10^{10}$."
+      "explanation": "$\\log K_c = \\dfrac{nE^\\circ_{cell}}{0.0591} = \\dfrac{2\\times0.295}{0.0591} = \\dfrac{0.59}{0.0591}\\approx10$, so $K_c \\approx 10^{10}$.",
+      "trick": "$\\log K_c=\\dfrac{nE^\\circ}{0.0591}$; compute exponent then $K_c=10^{\\text{exponent}}$."
     },
     {
       "id": "che-electrochemistry-034",
@@ -441,7 +474,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "Conductivity $\\kappa$ is the reciprocal of resistivity and is expressed in siemens per centimetre (S cm$^{-1}$) or siemens per metre (S m$^{-1}$)."
+      "explanation": "Conductivity $\\kappa$ is the reciprocal of resistivity and is expressed in siemens per centimetre (S cm$^{-1}$) or siemens per metre (S m$^{-1}$).",
+      "trick": "Conductivity's SI-friendly unit: S cm$^{-1}$ (or S m$^{-1}$)."
     },
     {
       "id": "che-electrochemistry-035",
@@ -454,7 +488,8 @@
       ],
       "answer": 2,
       "difficulty": "hard",
-      "explanation": "Moles of Cu $= 6.35/63.5 = 0.1$; charge needed $= 0.1\\times2\\times96500 = 19300$ C. Time $= Q/i = 19300/2 = 9650$ s."
+      "explanation": "Moles of Cu $= 6.35/63.5 = 0.1$; charge needed $= 0.1\\times2\\times96500 = 19300$ C. Time $= Q/i = 19300/2 = 9650$ s.",
+      "trick": "$t=\\dfrac{nFw}{Mi}$ — rearrange Faraday's law for time."
     },
     {
       "id": "che-electrochemistry-036",
@@ -467,7 +502,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "In the Daniell cell, copper is the cathode (site of reduction, Cu$^{2+}$ + 2e$^-$ $\\to$ Cu); zinc is the anode (site of oxidation), so calling copper the anode is incorrect."
+      "explanation": "In the Daniell cell, copper is the cathode (site of reduction, Cu$^{2+}$ + 2e$^-$ $\\to$ Cu); zinc is the anode (site of oxidation), so calling copper the anode is incorrect.",
+      "trick": "In Daniell cell Cu is always cathode (reduction), never anode."
     },
     {
       "id": "che-electrochemistry-037",
@@ -480,7 +516,8 @@
       ],
       "answer": 3,
       "difficulty": "easy",
-      "explanation": "By Faraday's first law, $w = Zit$, and since $w = \\dfrac{Mit}{nF}$, comparing the two gives $Z = \\dfrac{M}{nF}$, the mass deposited per coulomb of charge passed."
+      "explanation": "By Faraday's first law, $w = Zit$, and since $w = \\dfrac{Mit}{nF}$, comparing the two gives $Z = \\dfrac{M}{nF}$, the mass deposited per coulomb of charge passed.",
+      "trick": "$Z=M/(nF)$ — electrochemical equivalent, mass per coulomb."
     },
     {
       "id": "che-electrochemistry-038",
@@ -493,7 +530,8 @@
       ],
       "answer": 0,
       "difficulty": "hard",
-      "explanation": "Fe$^{3+}$ is reduced (cathode) and I$^-$ is oxidised (anode): $E^\\circ_{cell} = E^\\circ_{cathode}-E^\\circ_{anode} = 0.77-0.54 = 0.23$ V $>0$, so the reaction is spontaneous, consistent with iodide reducing Fe$^{3+}$."
+      "explanation": "Fe$^{3+}$ is reduced (cathode) and I$^-$ is oxidised (anode): $E^\\circ_{cell} = E^\\circ_{cathode}-E^\\circ_{anode} = 0.77-0.54 = 0.23$ V $>0$, so the reaction is spontaneous, consistent with iodide reducing Fe$^{3+}$.",
+      "trick": "Higher $E^\\circ$ species gets reduced (cathode); subtract to get $E^\\circ_{cell}$."
     },
     {
       "id": "che-electrochemistry-039",
@@ -506,7 +544,8 @@
       ],
       "answer": 2,
       "difficulty": "hard",
-      "explanation": "Moles of O$_2$ $= 5.6/22.4 = 0.25$ mol, requiring $0.25\\times4 = 1$ mol electrons $= 1\\times96500 = 96500$ C."
+      "explanation": "Moles of O$_2$ $= 5.6/22.4 = 0.25$ mol, requiring $0.25\\times4 = 1$ mol electrons $= 1\\times96500 = 96500$ C.",
+      "trick": "moles gas at anode $\\times$ electrons per reaction $\\times$ F = charge."
     },
     {
       "id": "che-electrochemistry-040",
@@ -519,7 +558,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "A very negative reduction potential means the reverse (oxidation) reaction is highly favoured, so the metal readily loses electrons and acts as a strong reducing agent — Li is in fact the strongest reducing agent among common metals in aqueous solution."
+      "explanation": "A very negative reduction potential means the reverse (oxidation) reaction is highly favoured, so the metal readily loses electrons and acts as a strong reducing agent — Li is in fact the strongest reducing agent among common metals in aqueous solution.",
+      "trick": "Very negative $E^\\circ_{red}$ → metal loses e⁻ easily → strong reducing agent."
     }
   ]
 }

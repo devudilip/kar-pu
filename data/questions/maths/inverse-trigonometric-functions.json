@@ -12,7 +12,8 @@
       ],
       "answer": 3,
       "difficulty": "easy",
-      "explanation": "$\\sin(\\pi/6)=1/2$ and $\\pi/6\\in[-\\pi/2,\\pi/2]$, so it is the principal value."
+      "explanation": "$\\sin(\\pi/6)=1/2$ and $\\pi/6\\in[-\\pi/2,\\pi/2]$, so it is the principal value.",
+      "trick": "Recall standard triangle values: $\\sin(\\pi/6)=1/2$."
     },
     {
       "id": "mat-inverse-trigonometric-functions-002",
@@ -25,7 +26,8 @@
       ],
       "answer": 0,
       "difficulty": "easy",
-      "explanation": "$\\cos^{-1}(-x)=\\pi-\\cos^{-1}x=\\pi-\\pi/3=2\\pi/3$, which lies in $[0,\\pi]$."
+      "explanation": "$\\cos^{-1}(-x)=\\pi-\\cos^{-1}x=\\pi-\\pi/3=2\\pi/3$, which lies in $[0,\\pi]$.",
+      "trick": "$\\cos^{-1}(-x)=\\pi-\\cos^{-1}x$ for negative inputs."
     },
     {
       "id": "mat-inverse-trigonometric-functions-003",
@@ -38,7 +40,8 @@
       ],
       "answer": 2,
       "difficulty": "hard",
-      "explanation": "$\\tan^{-1}(1/2)+\\tan^{-1}(1/3)=\\tan^{-1}\\left(\\dfrac{1/2+1/3}{1-1/6}\\right)=\\tan^{-1}(1)=\\pi/4$. Adding $\\tan^{-1}(1)=\\pi/4$ gives $\\pi/2$."
+      "explanation": "$\\tan^{-1}(1/2)+\\tan^{-1}(1/3)=\\tan^{-1}\\left(\\dfrac{1/2+1/3}{1-1/6}\\right)=\\tan^{-1}(1)=\\pi/4$. Adding $\\tan^{-1}(1)=\\pi/4$ gives $\\pi/2$.",
+      "trick": "Combine two terms with the $\\tan^{-1}$ addition formula first, then add the rest."
     },
     {
       "id": "mat-inverse-trigonometric-functions-004",
@@ -51,7 +54,8 @@
       ],
       "answer": 1,
       "difficulty": "easy",
-      "explanation": "This is a standard identity valid for all $x\\in[-1,1]$."
+      "explanation": "This is a standard identity valid for all $x\\in[-1,1]$.",
+      "trick": "$\\sin^{-1}x+\\cos^{-1}x=\\pi/2$ always — instant answer, no computation."
     },
     {
       "id": "mat-inverse-trigonometric-functions-005",
@@ -64,7 +68,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "Let $\\theta=\\sin^{-1}(3/5)$, so $\\sin\\theta=3/5$ and $\\theta$ is in the first quadrant. Then $\\cos\\theta=\\sqrt{1-9/25}=4/5$."
+      "explanation": "Let $\\theta=\\sin^{-1}(3/5)$, so $\\sin\\theta=3/5$ and $\\theta$ is in the first quadrant. Then $\\cos\\theta=\\sqrt{1-9/25}=4/5$.",
+      "trick": "Draw the 3-4-5 triangle: $\\sin\\theta=3/5\\Rightarrow\\cos\\theta=4/5$."
     },
     {
       "id": "mat-inverse-trigonometric-functions-006",
@@ -77,7 +82,8 @@
       ],
       "answer": 3,
       "difficulty": "easy",
-      "explanation": "$\\sec\\theta$ never takes values strictly between $-1$ and $1$, so its inverse is defined only for $|x|\\ge1$."
+      "explanation": "$\\sec\\theta$ never takes values strictly between $-1$ and $1$, so its inverse is defined only for $|x|\\ge1$.",
+      "trick": "$\\sec\\theta$ never lies strictly between $-1$ and $1$, so domain is $|x|\\ge1$."
     },
     {
       "id": "mat-inverse-trigonometric-functions-007",
@@ -90,7 +96,8 @@
       ],
       "answer": 2,
       "difficulty": "easy",
-      "explanation": "$\\tan^{-1}$ is an odd function: $\\tan^{-1}(-1)=-\\tan^{-1}(1)=-\\pi/4$, which lies in $(-\\pi/2,\\pi/2)$."
+      "explanation": "$\\tan^{-1}$ is an odd function: $\\tan^{-1}(-1)=-\\tan^{-1}(1)=-\\pi/4$, which lies in $(-\\pi/2,\\pi/2)$.",
+      "trick": "$\\tan^{-1}$ is odd: $\\tan^{-1}(-x)=-\\tan^{-1}x$."
     },
     {
       "id": "mat-inverse-trigonometric-functions-008",
@@ -103,7 +110,8 @@
       ],
       "answer": 1,
       "difficulty": "hard",
-      "explanation": "$\\tan^{-1}\\sqrt3=\\pi/3$. $\\cot^{-1}(-\\sqrt3)=\\pi-\\cot^{-1}\\sqrt3=\\pi-\\pi/6=5\\pi/6$. So $\\pi/3-5\\pi/6=2\\pi/6-5\\pi/6=-3\\pi/6=-\\pi/2$."
+      "explanation": "$\\tan^{-1}\\sqrt3=\\pi/3$. $\\cot^{-1}(-\\sqrt3)=\\pi-\\cot^{-1}\\sqrt3=\\pi-\\pi/6=5\\pi/6$. So $\\pi/3-5\\pi/6=2\\pi/6-5\\pi/6=-3\\pi/6=-\\pi/2$.",
+      "trick": "Convert $\\cot^{-1}(-x)=\\pi-\\cot^{-1}x$, then just subtract standard angles."
     },
     {
       "id": "mat-inverse-trigonometric-functions-009",
@@ -116,7 +124,8 @@
       ],
       "answer": 3,
       "difficulty": "medium",
-      "explanation": "$2\\tan^{-1}x=\\tan^{-1}\\left(\\dfrac{2x}{1-x^2}\\right)$ for $|x|<1$. With $x=1/2$: $\\dfrac{2(1/2)}{1-1/4}=\\dfrac{1}{3/4}=\\dfrac{4}{3}$."
+      "explanation": "$2\\tan^{-1}x=\\tan^{-1}\\left(\\dfrac{2x}{1-x^2}\\right)$ for $|x|<1$. With $x=1/2$: $\\dfrac{2(1/2)}{1-1/4}=\\dfrac{1}{3/4}=\\dfrac{4}{3}$.",
+      "trick": "$2\\tan^{-1}x=\\tan^{-1}\\left(\\dfrac{2x}{1-x^2}\\right)$ for $|x|<1$."
     },
     {
       "id": "mat-inverse-trigonometric-functions-010",
@@ -129,7 +138,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "$\\sin^{-1}(-1/2)=-\\pi/6$, so expression $=\\sin(\\pi/3+\\pi/6)=\\sin(\\pi/2)=1$."
+      "explanation": "$\\sin^{-1}(-1/2)=-\\pi/6$, so expression $=\\sin(\\pi/3+\\pi/6)=\\sin(\\pi/2)=1$.",
+      "trick": "Evaluate the inner inverse first, then simply add the angles."
     },
     {
       "id": "mat-inverse-trigonometric-functions-011",
@@ -142,7 +152,8 @@
       ],
       "answer": 0,
       "difficulty": "easy",
-      "explanation": "$\\cos(\\pi/6)=\\sqrt3/2$."
+      "explanation": "$\\cos(\\pi/6)=\\sqrt3/2$.",
+      "trick": "Take cosine of both sides: $x=\\cos(\\pi/6)$."
     },
     {
       "id": "mat-inverse-trigonometric-functions-012",
@@ -155,7 +166,8 @@
       ],
       "answer": 1,
       "difficulty": "easy",
-      "explanation": "The principal branch of $\\cot^{-1}x$ is taken as $(0,\\pi)$, excluding the endpoints since $\\cot$ is undefined there in the usual convention."
+      "explanation": "The principal branch of $\\cot^{-1}x$ is taken as $(0,\\pi)$, excluding the endpoints since $\\cot$ is undefined there in the usual convention.",
+      "trick": "$\\cot^{-1}$ principal range is the open interval $(0,\\pi)$."
     },
     {
       "id": "mat-inverse-trigonometric-functions-013",
@@ -168,7 +180,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "Let $\\theta=\\cos^{-1}(4/5)$, so $\\cos\\theta=4/5$, $\\sin\\theta=3/5$ (first quadrant), hence $\\tan\\theta=3/4$."
+      "explanation": "Let $\\theta=\\cos^{-1}(4/5)$, so $\\cos\\theta=4/5$, $\\sin\\theta=3/5$ (first quadrant), hence $\\tan\\theta=3/4$.",
+      "trick": "3-4-5 triangle again: $\\cos\\theta=4/5\\Rightarrow\\tan\\theta=3/4$."
     },
     {
       "id": "mat-inverse-trigonometric-functions-014",
@@ -181,7 +194,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "$3\\pi/4$ is outside $[-\\pi/2,\\pi/2]$. $\\sin(3\\pi/4)=\\sin(\\pi/4)$, and $\\pi/4$ lies in the principal range, so the answer is $\\pi/4$."
+      "explanation": "$3\\pi/4$ is outside $[-\\pi/2,\\pi/2]$. $\\sin(3\\pi/4)=\\sin(\\pi/4)$, and $\\pi/4$ lies in the principal range, so the answer is $\\pi/4$.",
+      "trick": "Use $\\sin(\\pi-x)=\\sin x$ to pull the angle into $[-\\pi/2,\\pi/2]$ first."
     },
     {
       "id": "mat-inverse-trigonometric-functions-015",
@@ -194,7 +208,8 @@
       ],
       "answer": 3,
       "difficulty": "hard",
-      "explanation": "$7\\pi/6$ is outside $[0,\\pi]$. $\\cos(7\\pi/6)=\\cos(2\\pi-7\\pi/6)=\\cos(5\\pi/6)$ since cosine is even about $2\\pi$; actually $\\cos(7\\pi/6)=-\\cos(\\pi/6)=\\cos(\\pi-\\pi/6)=\\cos(5\\pi/6)$, and $5\\pi/6\\in[0,\\pi]$, so the answer is $5\\pi/6$."
+      "explanation": "$7\\pi/6$ is outside $[0,\\pi]$. $\\cos(7\\pi/6)=\\cos(2\\pi-7\\pi/6)=\\cos(5\\pi/6)$ since cosine is even about $2\\pi$; actually $\\cos(7\\pi/6)=-\\cos(\\pi/6)=\\cos(\\pi-\\pi/6)=\\cos(5\\pi/6)$, and $5\\pi/6\\in[0,\\pi]$, so the answer is $5\\pi/6$.",
+      "trick": "Reduce the angle into $[0,\\pi]$ using cosine symmetry before reading it off."
     },
     {
       "id": "mat-inverse-trigonometric-functions-016",
@@ -207,7 +222,8 @@
       ],
       "answer": 1,
       "difficulty": "hard",
-      "explanation": "$\\tan(\\pi/4)=\\dfrac{x+y}{1-xy}=1\\Rightarrow x+y=1-xy\\Rightarrow x+y+xy=1$."
+      "explanation": "$\\tan(\\pi/4)=\\dfrac{x+y}{1-xy}=1\\Rightarrow x+y=1-xy\\Rightarrow x+y+xy=1$.",
+      "trick": "$\\tan(\\text{sum})=1\\Rightarrow(x+y)/(1-xy)=1$ gives $x+y+xy$ directly."
     },
     {
       "id": "mat-inverse-trigonometric-functions-017",
@@ -220,7 +236,8 @@
       ],
       "answer": 2,
       "difficulty": "easy",
-      "explanation": "$\\csc(\\pi/6)=1/\\sin(\\pi/6)=1/(1/2)=2$, and $\\pi/6$ lies in the principal range."
+      "explanation": "$\\csc(\\pi/6)=1/\\sin(\\pi/6)=1/(1/2)=2$, and $\\pi/6$ lies in the principal range.",
+      "trick": "$\\csc\\theta=2\\Rightarrow\\sin\\theta=1/2\\Rightarrow\\theta=\\pi/6$."
     },
     {
       "id": "mat-inverse-trigonometric-functions-018",
@@ -233,7 +250,8 @@
       ],
       "answer": 0,
       "difficulty": "hard",
-      "explanation": "Using $\\sin^{-1}x+\\sin^{-1}y=\\sin^{-1}(x\\sqrt{1-y^2}+y\\sqrt{1-x^2})$: $=\\sin^{-1}\\left(\\dfrac{4}{5}\\cdot\\dfrac{12}{13}+\\dfrac{5}{13}\\cdot\\dfrac{3}{5}\\right)=\\sin^{-1}\\left(\\dfrac{48+15}{65}\\right)=\\sin^{-1}\\left(\\dfrac{63}{65}\\right)$."
+      "explanation": "Using $\\sin^{-1}x+\\sin^{-1}y=\\sin^{-1}(x\\sqrt{1-y^2}+y\\sqrt{1-x^2})$: $=\\sin^{-1}\\left(\\dfrac{4}{5}\\cdot\\dfrac{12}{13}+\\dfrac{5}{13}\\cdot\\dfrac{3}{5}\\right)=\\sin^{-1}\\left(\\dfrac{48+15}{65}\\right)=\\sin^{-1}\\left(\\dfrac{63}{65}\\right)$.",
+      "trick": "Use $\\sin^{-1}x+\\sin^{-1}y=\\sin^{-1}(x\\sqrt{1-y^2}+y\\sqrt{1-x^2})$."
     },
     {
       "id": "mat-inverse-trigonometric-functions-019",
@@ -246,7 +264,8 @@
       ],
       "answer": 3,
       "difficulty": "medium",
-      "explanation": "$\\sec^{-1}(-x)=\\pi-\\sec^{-1}x=\\pi-\\pi/3=2\\pi/3$, which lies in $[0,\\pi]-\\{\\pi/2\\}$."
+      "explanation": "$\\sec^{-1}(-x)=\\pi-\\sec^{-1}x=\\pi-\\pi/3=2\\pi/3$, which lies in $[0,\\pi]-\\{\\pi/2\\}$.",
+      "trick": "$\\sec^{-1}(-x)=\\pi-\\sec^{-1}x$."
     },
     {
       "id": "mat-inverse-trigonometric-functions-020",
@@ -259,7 +278,8 @@
       ],
       "answer": 1,
       "difficulty": "easy",
-      "explanation": "By definition $\\cot\\theta=1/7$, so $\\tan\\theta=1/\\cot\\theta=7$."
+      "explanation": "By definition $\\cot\\theta=1/7$, so $\\tan\\theta=1/\\cot\\theta=7$.",
+      "trick": "$\\tan\\theta=1/\\cot\\theta$ — just flip the given fraction."
     },
     {
       "id": "mat-inverse-trigonometric-functions-021",
@@ -272,7 +292,8 @@
       ],
       "answer": 0,
       "difficulty": "easy",
-      "explanation": "$\\sin\\left(-\\dfrac{\\pi}{3}\\right)=-\\dfrac{\\sqrt3}{2}$ and $-\\dfrac{\\pi}{3}\\in\\left[-\\dfrac{\\pi}{2},\\dfrac{\\pi}{2}\\right]$, so it is the principal value."
+      "explanation": "$\\sin\\left(-\\dfrac{\\pi}{3}\\right)=-\\dfrac{\\sqrt3}{2}$ and $-\\dfrac{\\pi}{3}\\in\\left[-\\dfrac{\\pi}{2},\\dfrac{\\pi}{2}\\right]$, so it is the principal value.",
+      "trick": "Odd function: $\\sin^{-1}(-x)=-\\sin^{-1}x$, then use a standard angle."
     },
     {
       "id": "mat-inverse-trigonometric-functions-022",
@@ -285,7 +306,8 @@
       ],
       "answer": 1,
       "difficulty": "easy",
-      "explanation": "Using $\\tan^{-1}x+\\cot^{-1}x=\\dfrac{\\pi}{2}$ for all real $x$, the sum is $\\dfrac{\\pi}{2}$."
+      "explanation": "Using $\\tan^{-1}x+\\cot^{-1}x=\\dfrac{\\pi}{2}$ for all real $x$, the sum is $\\dfrac{\\pi}{2}$.",
+      "trick": "$\\tan^{-1}x+\\cot^{-1}x=\\pi/2$ for any real $x$."
     },
     {
       "id": "mat-inverse-trigonometric-functions-023",
@@ -298,7 +320,8 @@
       ],
       "answer": 3,
       "difficulty": "medium",
-      "explanation": "We need $-1\\le 2x-1\\le 1 \\Rightarrow 0\\le 2x\\le 2 \\Rightarrow 0\\le x\\le 1$, so the domain is $[0,1]$."
+      "explanation": "We need $-1\\le 2x-1\\le 1 \\Rightarrow 0\\le 2x\\le 2 \\Rightarrow 0\\le x\\le 1$, so the domain is $[0,1]$.",
+      "trick": "Set $-1\\le(\\text{inner expression})\\le1$ and solve for $x$."
     },
     {
       "id": "mat-inverse-trigonometric-functions-024",
@@ -311,7 +334,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "Since $\\sin^{-1}x+\\cos^{-1}x=\\dfrac{\\pi}{2}$, the sum equals $\\dfrac{\\pi}{2}$, and $\\cos\\dfrac{\\pi}{2}=0$."
+      "explanation": "Since $\\sin^{-1}x+\\cos^{-1}x=\\dfrac{\\pi}{2}$, the sum equals $\\dfrac{\\pi}{2}$, and $\\cos\\dfrac{\\pi}{2}=0$.",
+      "trick": "The sum inside is $\\pi/2$ by identity, so $\\cos(\\pi/2)=0$."
     },
     {
       "id": "mat-inverse-trigonometric-functions-025",
@@ -324,7 +348,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "Let $\\sin^{-1}\\dfrac{3}{5}=\\theta$, so $\\sin\\theta=\\dfrac{3}{5},\\cos\\theta=\\dfrac{4}{5}$. Then $\\sin2\\theta=2\\sin\\theta\\cos\\theta=2\\cdot\\dfrac35\\cdot\\dfrac45=\\dfrac{24}{25}$."
+      "explanation": "Let $\\sin^{-1}\\dfrac{3}{5}=\\theta$, so $\\sin\\theta=\\dfrac{3}{5},\\cos\\theta=\\dfrac{4}{5}$. Then $\\sin2\\theta=2\\sin\\theta\\cos\\theta=2\\cdot\\dfrac35\\cdot\\dfrac45=\\dfrac{24}{25}$.",
+      "trick": "Find $\\sin\\theta,\\cos\\theta$ from a triangle, then use $\\sin2\\theta=2\\sin\\theta\\cos\\theta$."
     },
     {
       "id": "mat-inverse-trigonometric-functions-026",
@@ -337,7 +362,8 @@
       ],
       "answer": 0,
       "difficulty": "hard",
-      "explanation": "Since $2\\times3=6>1$, use $\\tan^{-1}x+\\tan^{-1}y=\\pi+\\tan^{-1}\\dfrac{x+y}{1-xy}$ for $x,y>0,xy>1$: $\\tan^{-1}\\dfrac{5}{1-6}=\\tan^{-1}(-1)=-\\dfrac{\\pi}{4}$, so the sum is $\\pi-\\dfrac{\\pi}{4}=\\dfrac{3\\pi}{4}$."
+      "explanation": "Since $2\\times3=6>1$, use $\\tan^{-1}x+\\tan^{-1}y=\\pi+\\tan^{-1}\\dfrac{x+y}{1-xy}$ for $x,y>0,xy>1$: $\\tan^{-1}\\dfrac{5}{1-6}=\\tan^{-1}(-1)=-\\dfrac{\\pi}{4}$, so the sum is $\\pi-\\dfrac{\\pi}{4}=\\dfrac{3\\pi}{4}$.",
+      "trick": "Both positive with $xy>1$ $\\Rightarrow$ add $\\pi$ to the addition-formula result."
     },
     {
       "id": "mat-inverse-trigonometric-functions-027",
@@ -350,7 +376,8 @@
       ],
       "answer": 2,
       "difficulty": "easy",
-      "explanation": "The principal branch of $\\sec^{-1}x$ has range $[0,\\pi]$ excluding $\\dfrac{\\pi}{2}$ (where secant is undefined)."
+      "explanation": "The principal branch of $\\sec^{-1}x$ has range $[0,\\pi]$ excluding $\\dfrac{\\pi}{2}$ (where secant is undefined).",
+      "trick": "$\\sec^{-1}$ range is $[0,\\pi]$ minus the undefined point $\\pi/2$."
     },
     {
       "id": "mat-inverse-trigonometric-functions-028",
@@ -363,7 +390,8 @@
       ],
       "answer": 3,
       "difficulty": "medium",
-      "explanation": "$\\cos^{-1}$ is not an odd function; the correct identity is $\\cos^{-1}(-x)=\\pi-\\cos^{-1}x$, so option D is false."
+      "explanation": "$\\cos^{-1}$ is not an odd function; the correct identity is $\\cos^{-1}(-x)=\\pi-\\cos^{-1}x$, so option D is false.",
+      "trick": "Only $\\cos^{-1}$, $\\cot^{-1}$, $\\sec^{-1}$ are non-odd — check the sign rule per function."
     },
     {
       "id": "mat-inverse-trigonometric-functions-029",
@@ -376,7 +404,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "Principal range of $\\cot^{-1}$ is $(0,\\pi)$. Since $\\cot\\dfrac{2\\pi}{3}=-\\dfrac{1}{\\sqrt3}$, the value is $\\dfrac{2\\pi}{3}$."
+      "explanation": "Principal range of $\\cot^{-1}$ is $(0,\\pi)$. Since $\\cot\\dfrac{2\\pi}{3}=-\\dfrac{1}{\\sqrt3}$, the value is $\\dfrac{2\\pi}{3}$.",
+      "trick": "Use $\\pi-\\cot^{-1}(1/\\sqrt3)$ since $\\cot^{-1}$'s range is $(0,\\pi)$."
     },
     {
       "id": "mat-inverse-trigonometric-functions-030",
@@ -389,7 +418,8 @@
       ],
       "answer": 3,
       "difficulty": "hard",
-      "explanation": "$\\dfrac{5\\pi}{6}$ is outside $\\left[-\\dfrac{\\pi}{2},\\dfrac{\\pi}{2}\\right]$, but $\\sin\\dfrac{5\\pi}{6}=\\sin\\left(\\pi-\\dfrac{5\\pi}{6}\\right)=\\sin\\dfrac{\\pi}{6}$, and $\\dfrac{\\pi}{6}$ lies in the principal range, so the answer is $\\dfrac{\\pi}{6}$."
+      "explanation": "$\\dfrac{5\\pi}{6}$ is outside $\\left[-\\dfrac{\\pi}{2},\\dfrac{\\pi}{2}\\right]$, but $\\sin\\dfrac{5\\pi}{6}=\\sin\\left(\\pi-\\dfrac{5\\pi}{6}\\right)=\\sin\\dfrac{\\pi}{6}$, and $\\dfrac{\\pi}{6}$ lies in the principal range, so the answer is $\\dfrac{\\pi}{6}$.",
+      "trick": "$\\sin(\\pi-x)=\\sin x$: reduce $5\\pi/6$ down to $\\pi/6$ inside the range."
     },
     {
       "id": "mat-inverse-trigonometric-functions-031",
@@ -402,7 +432,8 @@
       ],
       "answer": 0,
       "difficulty": "hard",
-      "explanation": "Using the sum formula, $\\tan^{-1}\\dfrac{\\frac{x-1}{x-2}+\\frac{x+1}{x+2}}{1-\\frac{(x-1)(x+1)}{(x-2)(x+2)}}=\\dfrac{\\pi}{4}$. Simplifying the numerator and denominator and solving gives $2x^2=1$, so $x=\\pm\\dfrac{1}{\\sqrt2}$."
+      "explanation": "Using the sum formula, $\\tan^{-1}\\dfrac{\\frac{x-1}{x-2}+\\frac{x+1}{x+2}}{1-\\frac{(x-1)(x+1)}{(x-2)(x+2)}}=\\dfrac{\\pi}{4}$. Simplifying the numerator and denominator and solving gives $2x^2=1$, so $x=\\pm\\dfrac{1}{\\sqrt2}$.",
+      "trick": "Apply the $\\tan^{-1}$ addition formula, set result $=\\tan(\\pi/4)=1$, solve."
     },
     {
       "id": "mat-inverse-trigonometric-functions-032",
@@ -415,7 +446,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "\\(\\cos^{-1}\\dfrac12=\\dfrac{\\pi}{3}\\) and \\(\\sin^{-1}\\dfrac12=\\dfrac{\\pi}{6}\\), so the sum is \\(\\dfrac{\\pi}{3}+2\\cdot\\dfrac{\\pi}{6}=\\dfrac{2\\pi}{3}\\)."
+      "explanation": "\\(\\cos^{-1}\\dfrac12=\\dfrac{\\pi}{3}\\) and \\(\\sin^{-1}\\dfrac12=\\dfrac{\\pi}{6}\\), so the sum is \\(\\dfrac{\\pi}{3}+2\\cdot\\dfrac{\\pi}{6}=\\dfrac{2\\pi}{3}\\).",
+      "trick": "Recall standard values $\\pi/3$ and $\\pi/6$, then combine with the given coefficients."
     },
     {
       "id": "mat-inverse-trigonometric-functions-033",
@@ -428,7 +460,8 @@
       ],
       "answer": 1,
       "difficulty": "hard",
-      "explanation": "$\\sin^{-1}\\frac{5}{13}=\\tan^{-1}\\frac{5}{12}$ and $\\cos^{-1}\\frac35=\\tan^{-1}\\frac43$. Using $\\tan(A+B)=\\dfrac{\\frac{5}{12}+\\frac{4}{3}}{1-\\frac{5}{12}\\cdot\\frac{4}{3}}=\\dfrac{\\frac{5+16}{12}}{1-\\frac{20}{36}}=\\dfrac{\\frac{21}{12}}{\\frac{16}{36}}=\\dfrac{21}{12}\\times\\dfrac{36}{16}=\\dfrac{63}{16}$."
+      "explanation": "$\\sin^{-1}\\frac{5}{13}=\\tan^{-1}\\frac{5}{12}$ and $\\cos^{-1}\\frac35=\\tan^{-1}\\frac43$. Using $\\tan(A+B)=\\dfrac{\\frac{5}{12}+\\frac{4}{3}}{1-\\frac{5}{12}\\cdot\\frac{4}{3}}=\\dfrac{\\frac{5+16}{12}}{1-\\frac{20}{36}}=\\dfrac{\\frac{21}{12}}{\\frac{16}{36}}=\\dfrac{21}{12}\\times\\dfrac{36}{16}=\\dfrac{63}{16}$.",
+      "trick": "Convert each term to $\\tan^{-1}$ form via a triangle, then apply $\\tan(A+B)$."
     },
     {
       "id": "mat-inverse-trigonometric-functions-034",
@@ -441,7 +474,8 @@
       ],
       "answer": 3,
       "difficulty": "medium",
-      "explanation": "$\\tan^{-1}x$ is strictly increasing on $\\mathbb{R}$ with $\\displaystyle\\lim_{x\\to\\pm\\infty}\\tan^{-1}x=\\pm\\dfrac{\\pi}{2}$, giving horizontal asymptotes $y=\\pm\\dfrac{\\pi}{2}$."
+      "explanation": "$\\tan^{-1}x$ is strictly increasing on $\\mathbb{R}$ with $\\displaystyle\\lim_{x\\to\\pm\\infty}\\tan^{-1}x=\\pm\\dfrac{\\pi}{2}$, giving horizontal asymptotes $y=\\pm\\dfrac{\\pi}{2}$.",
+      "trick": "$\\tan^{-1}x$ is increasing with horizontal asymptotes $y=\\pm\\pi/2$, no vertical ones."
     },
     {
       "id": "mat-inverse-trigonometric-functions-035",
@@ -454,7 +488,8 @@
       ],
       "answer": 0,
       "difficulty": "easy",
-      "explanation": "Since $\\theta\\in\\left[-\\dfrac{\\pi}{2},\\dfrac{\\pi}{2}\\right]$, $\\cos\\theta\\ge0$, so $\\cos\\theta=\\sqrt{1-\\sin^2\\theta}=\\sqrt{1-x^2}$."
+      "explanation": "Since $\\theta\\in\\left[-\\dfrac{\\pi}{2},\\dfrac{\\pi}{2}\\right]$, $\\cos\\theta\\ge0$, so $\\cos\\theta=\\sqrt{1-\\sin^2\\theta}=\\sqrt{1-x^2}$.",
+      "trick": "$\\theta\\in[-\\pi/2,\\pi/2]\\Rightarrow\\cos\\theta\\ge0$, so take the $+$ square root."
     },
     {
       "id": "mat-inverse-trigonometric-functions-036",
@@ -467,7 +502,8 @@
       ],
       "answer": 2,
       "difficulty": "hard",
-      "explanation": "$2\\tan^{-1}\\frac13=\\tan^{-1}\\dfrac{2\\cdot\\frac13}{1-\\frac19}=\\tan^{-1}\\dfrac{2/3}{8/9}=\\tan^{-1}\\dfrac{3}{4}$. Then $\\tan^{-1}\\frac34+\\tan^{-1}\\frac17=\\tan^{-1}\\dfrac{\\frac34+\\frac17}{1-\\frac34\\cdot\\frac17}=\\tan^{-1}\\dfrac{\\frac{25}{28}}{\\frac{25}{28}}=\\tan^{-1}(1)=\\dfrac{\\pi}{4}$."
+      "explanation": "$2\\tan^{-1}\\frac13=\\tan^{-1}\\dfrac{2\\cdot\\frac13}{1-\\frac19}=\\tan^{-1}\\dfrac{2/3}{8/9}=\\tan^{-1}\\dfrac{3}{4}$. Then $\\tan^{-1}\\frac34+\\tan^{-1}\\frac17=\\tan^{-1}\\dfrac{\\frac34+\\frac17}{1-\\frac34\\cdot\\frac17}=\\tan^{-1}\\dfrac{\\frac{25}{28}}{\\frac{25}{28}}=\\tan^{-1}(1)=\\dfrac{\\pi}{4}$.",
+      "trick": "Combine the first pair with the double-angle formula, then add the last term."
     },
     {
       "id": "mat-inverse-trigonometric-functions-037",
@@ -480,7 +516,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "Since $\\pi\\approx3.14<4<\\dfrac{3\\pi}{2}\\approx4.71$, the value $4$ lies outside $\\left[-\\frac{\\pi}{2},\\frac{\\pi}{2}\\right]$, hence $\\sin^{-1}(\\sin4)\\ne4$; R correctly explains why A is true."
+      "explanation": "Since $\\pi\\approx3.14<4<\\dfrac{3\\pi}{2}\\approx4.71$, the value $4$ lies outside $\\left[-\\frac{\\pi}{2},\\frac{\\pi}{2}\\right]$, hence $\\sin^{-1}(\\sin4)\\ne4$; R correctly explains why A is true.",
+      "trick": "Reduce the angle into the principal range before equating to the raw input value."
     },
     {
       "id": "mat-inverse-trigonometric-functions-038",
@@ -493,7 +530,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "$\\sec\\dfrac{\\pi}{6}=\\dfrac{1}{\\cos(\\pi/6)}=\\dfrac{1}{\\sqrt3/2}=\\dfrac{2}{\\sqrt3}$, and $\\dfrac{\\pi}{6}\\in[0,\\pi]-\\{\\pi/2\\}$, so it is the principal value."
+      "explanation": "$\\sec\\dfrac{\\pi}{6}=\\dfrac{1}{\\cos(\\pi/6)}=\\dfrac{1}{\\sqrt3/2}=\\dfrac{2}{\\sqrt3}$, and $\\dfrac{\\pi}{6}\\in[0,\\pi]-\\{\\pi/2\\}$, so it is the principal value.",
+      "trick": "$\\sec\\theta=2/\\sqrt3\\Rightarrow\\cos\\theta=\\sqrt3/2\\Rightarrow\\theta=\\pi/6$."
     },
     {
       "id": "mat-inverse-trigonometric-functions-039",
@@ -506,7 +544,8 @@
       ],
       "answer": 3,
       "difficulty": "hard",
-      "explanation": "If $x=y$, then $2\\cos^{-1}x=\\dfrac{\\pi}{2}\\Rightarrow\\cos^{-1}x=\\dfrac{\\pi}{4}\\Rightarrow x=\\dfrac{1}{\\sqrt2}$. So $x^2+y^2=\\dfrac12+\\dfrac12=1$."
+      "explanation": "If $x=y$, then $2\\cos^{-1}x=\\dfrac{\\pi}{2}\\Rightarrow\\cos^{-1}x=\\dfrac{\\pi}{4}\\Rightarrow x=\\dfrac{1}{\\sqrt2}$. So $x^2+y^2=\\dfrac12+\\dfrac12=1$.",
+      "trick": "Equal angles: each is $\\pi/4$, then square and add both values."
     },
     {
       "id": "mat-inverse-trigonometric-functions-040",
@@ -519,7 +558,8 @@
       ],
       "answer": 2,
       "difficulty": "easy",
-      "explanation": "$\\csc^{-1}x$ is defined for $|x|\\ge1$, i.e. domain $\\mathbb{R}-(-1,1)$, not $[-1,1]$ — so option C is incorrect."
+      "explanation": "$\\csc^{-1}x$ is defined for $|x|\\ge1$, i.e. domain $\\mathbb{R}-(-1,1)$, not $[-1,1]$ — so option C is incorrect.",
+      "trick": "$\\csc^{-1}x$ excludes $(-1,1)$; its domain is $|x|\\ge1$, not $[-1,1]$."
     }
   ]
 }

@@ -12,7 +12,8 @@
       ],
       "answer": 3,
       "difficulty": "easy",
-      "explanation": "By definition, the set of all points satisfying every constraint simultaneously is called the feasible region."
+      "explanation": "By definition, the set of all points satisfying every constraint simultaneously is called the feasible region.",
+      "trick": "Common region of all constraints $=$ the feasible region, by definition."
     },
     {
       "id": "mat-linear-programming-002",
@@ -25,7 +26,8 @@
       ],
       "answer": 1,
       "difficulty": "easy",
-      "explanation": "The Corner Point Theorem states that for a bounded feasible region, the optimal values of a linear objective function occur at corner points (vertices)."
+      "explanation": "The Corner Point Theorem states that for a bounded feasible region, the optimal values of a linear objective function occur at corner points (vertices).",
+      "trick": "Bounded region $\\Rightarrow$ optimum always sits at a corner, never inside."
     },
     {
       "id": "mat-linear-programming-003",
@@ -38,7 +40,8 @@
       ],
       "answer": 2,
       "difficulty": "easy",
-      "explanation": "Any point lying in the feasible region is, by definition, a feasible solution."
+      "explanation": "Any point lying in the feasible region is, by definition, a feasible solution.",
+      "trick": "Any point satisfying every constraint is feasible — corner or not."
     },
     {
       "id": "mat-linear-programming-004",
@@ -51,7 +54,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "Corner points are $(0,0), (4,0), (0,4)$ with $Z = 0, 12, 16$ respectively; the maximum is $16$."
+      "explanation": "Corner points are $(0,0), (4,0), (0,4)$ with $Z = 0, 12, 16$ respectively; the maximum is $16$.",
+      "trick": "Evaluate $Z$ at every corner point; the largest is the maximum."
     },
     {
       "id": "mat-linear-programming-005",
@@ -64,7 +68,8 @@
       ],
       "answer": 3,
       "difficulty": "medium",
-      "explanation": "$Z(0,4) = 16$ is the largest of the three corner values $0, 12, 16$."
+      "explanation": "$Z(0,4) = 16$ is the largest of the three corner values $0, 12, 16$.",
+      "trick": "Compare $Z$ at all corners; pick the one giving the biggest value."
     },
     {
       "id": "mat-linear-programming-006",
@@ -77,7 +82,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "The feasible corner points are $(0,5), (0,6), (4,3)$ with $Z = 2500, 3000, 2300$; the minimum is $2300$."
+      "explanation": "The feasible corner points are $(0,5), (0,6), (4,3)$ with $Z = 2500, 3000, 2300$; the minimum is $2300$.",
+      "trick": "List all corner points, compute $Z$ at each, pick the smallest."
     },
     {
       "id": "mat-linear-programming-007",
@@ -90,7 +96,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "$(4,3)$ is the intersection of $x+2y=10$ and $3x+4y=24$, and gives $Z=200(4)+500(3)=2300$, the smallest of the corner values."
+      "explanation": "$(4,3)$ is the intersection of $x+2y=10$ and $3x+4y=24$, and gives $Z=200(4)+500(3)=2300$, the smallest of the corner values.",
+      "trick": "Intersection of two boundary lines often gives the optimal corner — solve simultaneously."
     },
     {
       "id": "mat-linear-programming-008",
@@ -103,7 +110,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "For an unbounded feasible region, an optimal value (max or min) exists only if the corresponding half-plane test confirms it; otherwise it may not exist, so the statement is true in general."
+      "explanation": "For an unbounded feasible region, an optimal value (max or min) exists only if the corresponding half-plane test confirms it; otherwise it may not exist, so the statement is true in general.",
+      "trick": "Unbounded region: always check the half-plane test before claiming a max/min exists."
     },
     {
       "id": "mat-linear-programming-009",
@@ -116,7 +124,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "Since $Z=x+y$ is parallel to the constraint line $x+y=10$, every point on the edge from $(6,4)$ to $(4,6)$ gives the same maximum value, so there are infinitely many optimal solutions."
+      "explanation": "Since $Z=x+y$ is parallel to the constraint line $x+y=10$, every point on the edge from $(6,4)$ to $(4,6)$ gives the same maximum value, so there are infinitely many optimal solutions.",
+      "trick": "If $Z$'s line is parallel to a boundary edge, every point on it is optimal."
     },
     {
       "id": "mat-linear-programming-010",
@@ -129,7 +138,8 @@
       ],
       "answer": 3,
       "difficulty": "medium",
-      "explanation": "At any point on the boundary edge $x+y=10$ within the feasible region, $Z=x+y=10$, which is the maximum."
+      "explanation": "At any point on the boundary edge $x+y=10$ within the feasible region, $Z=x+y=10$, which is the maximum.",
+      "trick": "On a parallel-edge optimum, just evaluate $Z$ at any point on that edge."
     },
     {
       "id": "mat-linear-programming-011",
@@ -142,7 +152,8 @@
       ],
       "answer": 0,
       "difficulty": "easy",
-      "explanation": "Since it is the intersection of half-planes, the feasible region of an LPP is always convex."
+      "explanation": "Since it is the intersection of half-planes, the feasible region of an LPP is always convex.",
+      "trick": "Feasible region (intersection of half-planes) is always convex, never concave."
     },
     {
       "id": "mat-linear-programming-012",
@@ -155,7 +166,8 @@
       ],
       "answer": 2,
       "difficulty": "hard",
-      "explanation": "Corner points are $(0,0), (2,0), \\left(\\dfrac{20}{19},\\dfrac{45}{19}\\right), (0,3)$ giving $Z = 0, 10, \\dfrac{235}{19}\\approx12.4, 9$; the maximum is $\\dfrac{235}{19}$."
+      "explanation": "Corner points are $(0,0), (2,0), \\left(\\dfrac{20}{19},\\dfrac{45}{19}\\right), (0,3)$ giving $Z = 0, 10, \\dfrac{235}{19}\\approx12.4, 9$; the maximum is $\\dfrac{235}{19}$.",
+      "trick": "Solve two boundary equations together for a fractional corner; still just compare $Z$."
     },
     {
       "id": "mat-linear-programming-013",
@@ -168,7 +180,8 @@
       ],
       "answer": 1,
       "difficulty": "hard",
-      "explanation": "Solving $3x+5y=15$ and $5x+2y=10$ simultaneously gives $x=20/19, y=45/19$, which yields the highest $Z$ value among all corners."
+      "explanation": "Solving $3x+5y=15$ and $5x+2y=10$ simultaneously gives $x=20/19, y=45/19$, which yields the highest $Z$ value among all corners.",
+      "trick": "Intersection of two lines: solve simultaneously, even if the answer is a fraction."
     },
     {
       "id": "mat-linear-programming-014",
@@ -181,7 +194,8 @@
       ],
       "answer": 0,
       "difficulty": "easy",
-      "explanation": "By definition, this is called the objective function, usually written $Z = ax+by$."
+      "explanation": "By definition, this is called the objective function, usually written $Z = ax+by$.",
+      "trick": "The function being optimised ($Z=ax+by$) is called the objective function."
     },
     {
       "id": "mat-linear-programming-015",
@@ -194,7 +208,8 @@
       ],
       "answer": 2,
       "difficulty": "easy",
-      "explanation": "These conditions, required because decision variables usually represent quantities, are called non-negative restrictions."
+      "explanation": "These conditions, required because decision variables usually represent quantities, are called non-negative restrictions.",
+      "trick": "$x\\ge0,y\\ge0$ are called non-negative restrictions, distinct from the other constraints."
     },
     {
       "id": "mat-linear-programming-016",
@@ -207,7 +222,8 @@
       ],
       "answer": 3,
       "difficulty": "hard",
-      "explanation": "Along $x+y=8$ in the first quadrant, $3x+5y$ ranges from $24$ (at $(8,0)$) upward, always exceeding $15$; hence no point satisfies both constraints, so there is no feasible region."
+      "explanation": "Along $x+y=8$ in the first quadrant, $3x+5y$ ranges from $24$ (at $(8,0)$) upward, always exceeding $15$; hence no point satisfies both constraints, so there is no feasible region.",
+      "trick": "If two constraints can't be satisfied together anywhere, there's no feasible solution."
     },
     {
       "id": "mat-linear-programming-017",
@@ -220,7 +236,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "Total carpentry time used is $2x+y$, capped at 60 h; total finishing time used is $x+2y$, capped at 48 h."
+      "explanation": "Total carpentry time used is $2x+y$, capped at 60 h; total finishing time used is $x+2y$, capped at 48 h.",
+      "trick": "Match each resource's total usage (coeff$\\times x$+coeff$\\times y$) to its available limit."
     },
     {
       "id": "mat-linear-programming-018",
@@ -233,7 +250,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "Corner points are $(0,0), (30,0), (20,30), (0,50)$ with $Z = 0, 120, 110, 50$; the maximum is $120$."
+      "explanation": "Corner points are $(0,0), (30,0), (20,30), (0,50)$ with $Z = 0, 120, 110, 50$; the maximum is $120$.",
+      "trick": "Always list every corner, including axis intercepts, before comparing $Z$."
     },
     {
       "id": "mat-linear-programming-019",
@@ -246,7 +264,8 @@
       ],
       "answer": 0,
       "difficulty": "easy",
-      "explanation": "Standard LPPs allow continuous (real-valued) decision variables; requiring integer values defines the separate topic of integer programming."
+      "explanation": "Standard LPPs allow continuous (real-valued) decision variables; requiring integer values defines the separate topic of integer programming.",
+      "trick": "Standard LPP variables are continuous — integers belong to integer programming instead."
     },
     {
       "id": "mat-linear-programming-020",
@@ -259,7 +278,8 @@
       ],
       "answer": 3,
       "difficulty": "easy",
-      "explanation": "By definition, the feasible solution that gives the best (maximum or minimum) value of $Z$ is called the optimal solution."
+      "explanation": "By definition, the feasible solution that gives the best (maximum or minimum) value of $Z$ is called the optimal solution.",
+      "trick": "The best feasible solution (max or min of $Z$) is the optimal solution."
     },
     {
       "id": "mat-linear-programming-021",
@@ -272,7 +292,8 @@
       ],
       "answer": 0,
       "difficulty": "easy",
-      "explanation": "A 2-D graph can represent at most two decision variables, so the graphical method is limited to LPPs with two decision variables."
+      "explanation": "A 2-D graph can represent at most two decision variables, so the graphical method is limited to LPPs with two decision variables.",
+      "trick": "Graphical method only works up to 2 decision variables (a 2D plot limit)."
     },
     {
       "id": "mat-linear-programming-022",
@@ -285,7 +306,8 @@
       ],
       "answer": 1,
       "difficulty": "easy",
-      "explanation": "Corner points are $(0,0),(6,0),(0,6)$ with $Z=0,6,12$; the maximum is $12$."
+      "explanation": "Corner points are $(0,0),(6,0),(0,6)$ with $Z=0,6,12$; the maximum is $12$.",
+      "trick": "List corners, evaluate $Z$ at each, pick the largest."
     },
     {
       "id": "mat-linear-programming-023",
@@ -298,7 +320,8 @@
       ],
       "answer": 3,
       "difficulty": "easy",
-      "explanation": "$Z(0,6)=12$ is the largest among the corner values $0,6,12$."
+      "explanation": "$Z(0,6)=12$ is the largest among the corner values $0,6,12$.",
+      "trick": "Compare $Z$ values at each vertex; the biggest one wins."
     },
     {
       "id": "mat-linear-programming-024",
@@ -311,7 +334,8 @@
       ],
       "answer": 2,
       "difficulty": "easy",
-      "explanation": "The relevant corner points are $(6,0)$ and $(0,6)$ with $Z=12,18$; since $Z$ only increases moving away from $(6,0)$, the minimum is $12$."
+      "explanation": "The relevant corner points are $(6,0)$ and $(0,6)$ with $Z=12,18$; since $Z$ only increases moving away from $(6,0)$, the minimum is $12$.",
+      "trick": "For minimise with $\\ge$ constraints, check the boundary vertices nearest the origin."
     },
     {
       "id": "mat-linear-programming-025",
@@ -324,7 +348,8 @@
       ],
       "answer": 3,
       "difficulty": "easy",
-      "explanation": "Since $2+3=5\\le10$ and both coordinates are non-negative, $(2,3)$ satisfies all constraints, so it is a feasible solution (though not a corner point)."
+      "explanation": "Since $2+3=5\\le10$ and both coordinates are non-negative, $(2,3)$ satisfies all constraints, so it is a feasible solution (though not a corner point).",
+      "trick": "Plug the point into every constraint; if all hold, it's feasible."
     },
     {
       "id": "mat-linear-programming-026",
@@ -337,7 +362,8 @@
       ],
       "answer": 0,
       "difficulty": "easy",
-      "explanation": "The region is a triangle with vertices $(0,0),(5,0),(0,5)$, giving 3 corner points."
+      "explanation": "The region is a triangle with vertices $(0,0),(5,0),(0,5)$, giving 3 corner points.",
+      "trick": "Count the vertices of the bounded polygon formed by the constraint lines."
     },
     {
       "id": "mat-linear-programming-027",
@@ -350,7 +376,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "Corner points are $(0,0),(6,0),\\left(\\dfrac{10}{3},\\dfrac{16}{3}\\right),(0,7)$ with $Z=0,300,380,280$; the maximum is $380$."
+      "explanation": "Corner points are $(0,0),(6,0),\\left(\\dfrac{10}{3},\\dfrac{16}{3}\\right),(0,7)$ with $Z=0,300,380,280$; the maximum is $380$.",
+      "trick": "Solve two intersecting boundary lines for the interior corner, then compare all $Z$ values."
     },
     {
       "id": "mat-linear-programming-028",
@@ -363,7 +390,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "Solving $2x+y=12$ and $x+2y=14$ together gives $x=10/3,y=16/3$, which yields the highest $Z$ value among the corners."
+      "explanation": "Solving $2x+y=12$ and $x+2y=14$ together gives $x=10/3,y=16/3$, which yields the highest $Z$ value among the corners.",
+      "trick": "The corner from solving two binding constraints together usually optimises $\\le$ problems."
     },
     {
       "id": "mat-linear-programming-029",
@@ -376,7 +404,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "The corner points are $(0,6),(4,3),(10,0)$ with $Z=1800,1700,2000$; the minimum is $1700$ at $(4,3)$."
+      "explanation": "The corner points are $(0,6),(4,3),(10,0)$ with $Z=1800,1700,2000$; the minimum is $1700$ at $(4,3)$.",
+      "trick": "For $\\ge$ constraints, the region opens outward — check corners near the origin for the min."
     },
     {
       "id": "mat-linear-programming-030",
@@ -389,7 +418,8 @@
       ],
       "answer": 3,
       "difficulty": "medium",
-      "explanation": "With no upper bound on $x$ or $y$, every point in the first quadrant satisfies both constraints, so the feasible region is the whole (unbounded) first quadrant."
+      "explanation": "With no upper bound on $x$ or $y$, every point in the first quadrant satisfies both constraints, so the feasible region is the whole (unbounded) first quadrant.",
+      "trick": "Only $x,y\\ge0$ with no upper bound $\\Rightarrow$ the whole first quadrant is feasible."
     },
     {
       "id": "mat-linear-programming-031",
@@ -402,7 +432,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "This is exactly the test used to confirm that a maximum exists on an unbounded region: it exists and equals $M$, attained at the corresponding corner point."
+      "explanation": "This is exactly the test used to confirm that a maximum exists on an unbounded region: it exists and equals $M$, attained at the corresponding corner point.",
+      "trick": "Half-plane test: if $ax+by>M$ misses the region entirely, $M$ is the true maximum."
     },
     {
       "id": "mat-linear-programming-032",
@@ -415,7 +446,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "Corner points are $(0,0),(1,0),(0.5,1.5),(0,2)$ with $Z=0,3,9,10$; the maximum is $10$."
+      "explanation": "Corner points are $(0,0),(1,0),(0.5,1.5),(0,2)$ with $Z=0,3,9,10$; the maximum is $10$.",
+      "trick": "Evaluate $Z$ at every corner, including fractional or decimal intersection points."
     },
     {
       "id": "mat-linear-programming-033",
@@ -428,7 +460,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "$Z(0,2)=10$ is the largest of the corner values $0,3,9,10$."
+      "explanation": "$Z(0,2)=10$ is the largest of the corner values $0,3,9,10$.",
+      "trick": "The corner giving the largest $Z$ is the answer — just compare, no shortcuts."
     },
     {
       "id": "mat-linear-programming-034",
@@ -441,7 +474,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "Corner points are $(0,10),(4,2),(6,0)$ with $Z=20,16,18$; the minimum is $16$."
+      "explanation": "Corner points are $(0,10),(4,2),(6,0)$ with $Z=20,16,18$; the minimum is $16$.",
+      "trick": "Two $\\ge$ constraints: solve for their intersection, usually the minimising corner."
     },
     {
       "id": "mat-linear-programming-035",
@@ -454,7 +488,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "$Z(4,2)=16$ is the smallest of the corner values $20,18,16$, and $(4,2)$ is where the two boundary lines cross."
+      "explanation": "$Z(4,2)=16$ is the smallest of the corner values $20,18,16$, and $(4,2)$ is where the two boundary lines cross.",
+      "trick": "Intersection of two boundary lines — solve them simultaneously for the corner."
     },
     {
       "id": "mat-linear-programming-036",
@@ -467,7 +502,8 @@
       ],
       "answer": 3,
       "difficulty": "medium",
-      "explanation": "Such a constraint adds no new restriction and is therefore called redundant."
+      "explanation": "Such a constraint adds no new restriction and is therefore called redundant.",
+      "trick": "A constraint that never binds (region unchanged without it) is called redundant."
     },
     {
       "id": "mat-linear-programming-037",
@@ -480,7 +516,8 @@
       ],
       "answer": 0,
       "difficulty": "hard",
-      "explanation": "Minimise $Z=4x+3y$; corner points are $(0,10),(3,4),(15,0)$ with $Z=30,24,60$. The minimum cost is Rs 24, using 3 units of X and 4 of Y."
+      "explanation": "Minimise $Z=4x+3y$; corner points are $(0,10),(3,4),(15,0)$ with $Z=30,24,60$. The minimum cost is Rs 24, using 3 units of X and 4 of Y.",
+      "trick": "Minimise the cost function at feasible corners, exactly like any other min-$Z$ LPP."
     },
     {
       "id": "mat-linear-programming-038",
@@ -493,7 +530,8 @@
       ],
       "answer": 1,
       "difficulty": "hard",
-      "explanation": "Corner points are $(0,0),(5,0),(4,3),(0,5)$ with $Z=0,25,29,15$; the maximum is $29$ at $(4,3)$."
+      "explanation": "Corner points are $(0,0),(5,0),(4,3),(0,5)$ with $Z=0,25,29,15$; the maximum is $29$ at $(4,3)$.",
+      "trick": "Straightforward $\\le$ constraints: plug each corner's coordinates straight into $Z$."
     },
     {
       "id": "mat-linear-programming-039",
@@ -506,7 +544,8 @@
       ],
       "answer": 2,
       "difficulty": "hard",
-      "explanation": "Maximise $Z=6x+4y$ subject to $3x+y\\le12$, $x+2y\\le8$; corner points give $Z=0,24,16$ and, at $\\left(\\dfrac{16}{5},\\dfrac{12}{5}\\right)$, $Z=\\dfrac{144}{5}=28.8$, the maximum."
+      "explanation": "Maximise $Z=6x+4y$ subject to $3x+y\\le12$, $x+2y\\le8$; corner points give $Z=0,24,16$ and, at $\\left(\\dfrac{16}{5},\\dfrac{12}{5}\\right)$, $Z=\\dfrac{144}{5}=28.8$, the maximum.",
+      "trick": "Convert 'hours available' into $\\le$ constraints, then treat it like any max-$Z$ corner problem."
     },
     {
       "id": "mat-linear-programming-040",
@@ -519,7 +558,8 @@
       ],
       "answer": 3,
       "difficulty": "hard",
-      "explanation": "The feasible region extends without bound along $x-y=1$ as $x,y\\to\\infty$ (e.g. points $(t,t-1)$ for large $t$), so $Z=x+y$ increases without bound and has no maximum."
+      "explanation": "The feasible region extends without bound along $x-y=1$ as $x,y\\to\\infty$ (e.g. points $(t,t-1)$ for large $t$), so $Z=x+y$ increases without bound and has no maximum.",
+      "trick": "If the feasible region stretches to infinity in $Z$'s increasing direction, no maximum exists."
     }
   ]
 }

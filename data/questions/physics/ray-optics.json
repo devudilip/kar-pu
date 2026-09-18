@@ -12,7 +12,8 @@
       ],
       "answer": 3,
       "difficulty": "medium",
-      "explanation": "$\\dfrac1v = \\dfrac1f - \\dfrac1u = -\\dfrac1{10} + \\dfrac1{15} = -\\dfrac1{30}$ → $v = -30$ cm: real, inverted, magnified ($m = -2$)."
+      "explanation": "$\\dfrac1v = \\dfrac1f - \\dfrac1u = -\\dfrac1{10} + \\dfrac1{15} = -\\dfrac1{30}$ → $v = -30$ cm: real, inverted, magnified ($m = -2$).",
+      "trick": "Mirror: $1/v=1/f-1/u$; use sign convention (concave $f$ negative, real $u$ negative)."
     },
     {
       "id": "phy-ray-optics-002",
@@ -25,7 +26,8 @@
       ],
       "answer": 1,
       "difficulty": "easy",
-      "explanation": "$\\sin C = 1/n = 1/\\sqrt2 \\Rightarrow C = 45^\\circ$."
+      "explanation": "$\\sin C = 1/n = 1/\\sqrt2 \\Rightarrow C = 45^\\circ$.",
+      "trick": "$\\sin C=1/n$ — plug in $n$, solve the inverse sine directly."
     },
     {
       "id": "phy-ray-optics-003",
@@ -38,7 +40,8 @@
       ],
       "answer": 0,
       "difficulty": "easy",
-      "explanation": "$P = 1/f(\\text{m}) = 1/(-0.25) = -4$ D. Negative → concave (diverging) lens."
+      "explanation": "$P = 1/f(\\text{m}) = 1/(-0.25) = -4$ D. Negative → concave (diverging) lens.",
+      "trick": "$P=1/f(\\text{m})$; the sign of $f$ gives the sign of power directly."
     },
     {
       "id": "phy-ray-optics-004",
@@ -51,7 +54,8 @@
       ],
       "answer": 2,
       "difficulty": "easy",
-      "explanation": "$P = 5 - 2 = 3$ D → $f = 1/3$ m $= 33.3$ cm, converging."
+      "explanation": "$P = 5 - 2 = 3$ D → $f = 1/3$ m $= 33.3$ cm, converging.",
+      "trick": "Lenses in contact: powers simply add, $P=P_1+P_2$."
     },
     {
       "id": "phy-ray-optics-005",
@@ -64,7 +68,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "$n = \\dfrac{\\sin\\frac{A+\\delta_m}{2}}{\\sin\\frac A2} = \\dfrac{\\sin45^\\circ}{\\sin30^\\circ} = \\dfrac{1/\\sqrt2}{1/2} = \\sqrt2$."
+      "explanation": "$n = \\dfrac{\\sin\\frac{A+\\delta_m}{2}}{\\sin\\frac A2} = \\dfrac{\\sin45^\\circ}{\\sin30^\\circ} = \\dfrac{1/\\sqrt2}{1/2} = \\sqrt2$.",
+      "trick": "Prism: $n=\\sin\\frac{A+\\delta_m}{2}/\\sin\\frac{A}{2}$ — the half-angle formula, memorise it."
     },
     {
       "id": "phy-ray-optics-006",
@@ -77,7 +82,8 @@
       ],
       "answer": 0,
       "difficulty": "easy",
-      "explanation": "$m = 1 + D/f = 1 + 25/5 = 6$."
+      "explanation": "$m = 1 + D/f = 1 + 25/5 = 6$.",
+      "trick": "Near-point viewing: $m=1+D/f$; at infinity drop the '+1'."
     },
     {
       "id": "phy-ray-optics-007",
@@ -90,7 +96,8 @@
       ],
       "answer": 1,
       "difficulty": "easy",
-      "explanation": "$m = f_o/f_e = 20$; $L = f_o + f_e = 105$ cm."
+      "explanation": "$m = f_o/f_e = 20$; $L = f_o + f_e = 105$ cm.",
+      "trick": "Telescope: $m=f_o/f_e$, tube length $=f_o+f_e$ — two formulas, learn both."
     },
     {
       "id": "phy-ray-optics-008",
@@ -104,7 +111,8 @@
       "answer": 3,
       "difficulty": "hard",
       "explanation": "$\\dfrac{f_w}{f_a} = \\dfrac{n_g - 1}{n_g/n_w - 1} = \\dfrac{0.5}{1.125 - 1} = 4 \\Rightarrow f_w = 80$ cm.",
-      "tip": "Focal length of a glass lens becomes about 4 times in water."
+      "tip": "Focal length of a glass lens becomes about 4 times in water.",
+      "trick": "Lens in water: use $n_{rel}=n_g/n_m$ in the lens-maker equation; $f$ roughly quadruples."
     },
     {
       "id": "phy-ray-optics-009",
@@ -117,7 +125,8 @@
       ],
       "answer": 1,
       "difficulty": "easy",
-      "explanation": "Object at $2f$ → image at $2f$ on the other side, real, inverted, same size ($m = -1$)."
+      "explanation": "Object at $2f$ → image at $2f$ on the other side, real, inverted, same size ($m = -1$).",
+      "trick": "Object at $2f$ gives image at $2f$, same size, inverted — an instant recall pair."
     },
     {
       "id": "phy-ray-optics-010",
@@ -130,7 +139,8 @@
       ],
       "answer": 2,
       "difficulty": "easy",
-      "explanation": "Real depth $= n\\times$ apparent depth $= \\dfrac43\\times3 = 4$ m."
+      "explanation": "Real depth $= n\\times$ apparent depth $= \\dfrac43\\times3 = 4$ m.",
+      "trick": "Real depth $=n\\times$ apparent depth — denser medium looks shallower."
     },
     {
       "id": "phy-ray-optics-011",
@@ -143,7 +153,8 @@
       ],
       "answer": 0,
       "difficulty": "easy",
-      "explanation": "Violet has the shortest wavelength and highest refractive index in glass, so it deviates most. $\\delta = (n-1)A$."
+      "explanation": "Violet has the shortest wavelength and highest refractive index in glass, so it deviates most. $\\delta = (n-1)A$.",
+      "trick": "Violet bends most: shortest $\\lambda$ gives highest $n$ gives highest deviation."
     },
     {
       "id": "phy-ray-optics-012",
@@ -156,7 +167,8 @@
       ],
       "answer": 3,
       "difficulty": "easy",
-      "explanation": "Both conditions are needed: denser → rarer and $i > C$."
+      "explanation": "Both conditions are needed: denser → rarer and $i > C$.",
+      "trick": "TIR needs BOTH conditions: denser to rarer AND angle greater than critical angle."
     },
     {
       "id": "phy-ray-optics-013",
@@ -169,7 +181,8 @@
       ],
       "answer": 2,
       "difficulty": "easy",
-      "explanation": "Convex mirrors have a wide field of view and always form virtual, erect, diminished images — hence used as rear-view mirrors."
+      "explanation": "Convex mirrors have a wide field of view and always form virtual, erect, diminished images — hence used as rear-view mirrors.",
+      "trick": "Convex mirror: always virtual, erect, diminished — no exceptions, ever."
     },
     {
       "id": "phy-ray-optics-014",
@@ -182,7 +195,8 @@
       ],
       "answer": 0,
       "difficulty": "easy",
-      "explanation": "The two refractions at parallel faces cancel the deviation; only a lateral shift $t\\sin(i-r)/\\cos r$ remains."
+      "explanation": "The two refractions at parallel faces cancel the deviation; only a lateral shift $t\\sin(i-r)/\\cos r$ remains.",
+      "trick": "Slab: net deviation is zero, only a lateral shift remains — no direction change."
     },
     {
       "id": "phy-ray-optics-015",
@@ -195,7 +209,8 @@
       ],
       "answer": 3,
       "difficulty": "medium",
-      "explanation": "With object at $2f$, image at $2f$: separation $4f$. For any other position the separation is larger."
+      "explanation": "With object at $2f$, image at $2f$: separation $4f$. For any other position the separation is larger.",
+      "trick": "Minimum real-object-to-real-image separation via a convex lens is always $4f$."
     },
     {
       "id": "phy-ray-optics-016",
@@ -208,7 +223,8 @@
       ],
       "answer": 1,
       "difficulty": "easy",
-      "explanation": "$\\delta = (n - 1)A = 0.5\\times5^\\circ = 2.5^\\circ$."
+      "explanation": "$\\delta = (n - 1)A = 0.5\\times5^\\circ = 2.5^\\circ$.",
+      "trick": "Thin prism: $\\delta=(n-1)A$ — no need for the full sine formula."
     },
     {
       "id": "phy-ray-optics-017",
@@ -221,7 +237,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "$\\dfrac1v=\\dfrac1f-\\dfrac1u=\\dfrac1{15}-\\dfrac1{-20}=\\dfrac1{15}+\\dfrac1{20}=\\dfrac{7}{60}$, so $v\\approx8.6$ cm (positive, behind the mirror); convex mirrors always give virtual, diminished images."
+      "explanation": "$\\dfrac1v=\\dfrac1f-\\dfrac1u=\\dfrac1{15}-\\dfrac1{-20}=\\dfrac1{15}+\\dfrac1{20}=\\dfrac{7}{60}$, so $v\\approx8.6$ cm (positive, behind the mirror); convex mirrors always give virtual, diminished images.",
+      "trick": "Convex mirror: $f$ and $v$ both positive → image always behind, virtual."
     },
     {
       "id": "phy-ray-optics-018",
@@ -234,7 +251,8 @@
       ],
       "answer": 2,
       "difficulty": "easy",
-      "explanation": "In myopia the image of a distant object forms in front of the retina; a diverging (concave) lens shifts it back onto the retina."
+      "explanation": "In myopia the image of a distant object forms in front of the retina; a diverging (concave) lens shifts it back onto the retina.",
+      "trick": "Myopia (far objects blurry) needs a concave lens; hypermetropia needs a convex lens."
     },
     {
       "id": "phy-ray-optics-019",
@@ -247,7 +265,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "$\\dfrac1v-\\dfrac1u=\\dfrac1f$: with $u=-25$ cm, $v=-50$ cm, $\\dfrac1f=-\\dfrac1{50}+\\dfrac1{25}=\\dfrac1{50}$, so $f=50$ cm $=0.5$ m and $P=+2$ D."
+      "explanation": "$\\dfrac1v-\\dfrac1u=\\dfrac1f$: with $u=-25$ cm, $v=-50$ cm, $\\dfrac1f=-\\dfrac1{50}+\\dfrac1{25}=\\dfrac1{50}$, so $f=50$ cm $=0.5$ m and $P=+2$ D.",
+      "trick": "Hypermetropia fix: apply $1/f=1/v-1/u$ with the given near points, then $P=1/f$."
     },
     {
       "id": "phy-ray-optics-020",
@@ -260,7 +279,8 @@
       ],
       "answer": 3,
       "difficulty": "easy",
-      "explanation": "Presbyopia often accompanies both near- and far-vision difficulty in the same person, so bifocal lenses (convex portion for near vision, concave for distant vision) are used."
+      "explanation": "Presbyopia often accompanies both near- and far-vision difficulty in the same person, so bifocal lenses (convex portion for near vision, concave for distant vision) are used.",
+      "trick": "Presbyopia = both defects together → bifocal (convex+concave) lenses."
     },
     {
       "id": "phy-ray-optics-021",
@@ -273,7 +293,8 @@
       ],
       "answer": 3,
       "difficulty": "medium",
-      "explanation": "$\\dfrac{1.5}{v}-\\dfrac{1}{-100}=\\dfrac{0.5}{20}=0.025 \\Rightarrow \\dfrac{1.5}{v}=0.025-0.01=0.015 \\Rightarrow v=100$ cm."
+      "explanation": "$\\dfrac{1.5}{v}-\\dfrac{1}{-100}=\\dfrac{0.5}{20}=0.025 \\Rightarrow \\dfrac{1.5}{v}=0.025-0.01=0.015 \\Rightarrow v=100$ cm.",
+      "trick": "Curved surface: $n_2/v-n_1/u=(n_2-n_1)/R$ — plug in signs carefully."
     },
     {
       "id": "phy-ray-optics-022",
@@ -286,7 +307,8 @@
       ],
       "answer": 0,
       "difficulty": "hard",
-      "explanation": "$\\dfrac1F=\\dfrac1{f_1}+\\dfrac1{f_2}-\\dfrac{d}{f_1f_2}=0.1+0.1-\\dfrac{5}{100}=0.15$, so $F\\approx6.67$ cm."
+      "explanation": "$\\dfrac1F=\\dfrac1{f_1}+\\dfrac1{f_2}-\\dfrac{d}{f_1f_2}=0.1+0.1-\\dfrac{5}{100}=0.15$, so $F\\approx6.67$ cm.",
+      "trick": "Separated lenses: $1/F=1/f_1+1/f_2-d/(f_1f_2)$ — subtract the extra term."
     },
     {
       "id": "phy-ray-optics-023",
@@ -299,7 +321,8 @@
       ],
       "answer": 2,
       "difficulty": "hard",
-      "explanation": "For a lens silvered on one face, equivalent power $P_{eq}=2P_{lens}+P_{mirror}$. With the plane face silvered ($P_{mirror}=0$), $P_{eq}=2/20=0.1$, giving $f_{eq}=10$ cm, behaving as a converging (concave-type) mirror."
+      "explanation": "For a lens silvered on one face, equivalent power $P_{eq}=2P_{lens}+P_{mirror}$. With the plane face silvered ($P_{mirror}=0$), $P_{eq}=2/20=0.1$, giving $f_{eq}=10$ cm, behaving as a converging (concave-type) mirror.",
+      "trick": "Silvered lens acts as a mirror: $P_{eq}=2P_{lens}+P_{mirror}$."
     },
     {
       "id": "phy-ray-optics-024",
@@ -312,7 +335,8 @@
       ],
       "answer": 1,
       "difficulty": "easy",
-      "explanation": "Resolving power $\\propto \\dfrac{2n\\sin\\theta}{\\lambda}$ (numerical aperture over wavelength); using shorter-wavelength light and a larger aperture angle improves resolution."
+      "explanation": "Resolving power $\\propto \\dfrac{2n\\sin\\theta}{\\lambda}$ (numerical aperture over wavelength); using shorter-wavelength light and a larger aperture angle improves resolution.",
+      "trick": "Resolving power is proportional to numerical aperture over $\\lambda$ — shorter $\\lambda$, bigger aperture wins."
     },
     {
       "id": "phy-ray-optics-025",
@@ -325,7 +349,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "An achromatic combination of a convergent and a divergent lens of different dispersive powers can bring two colours to the same focus, greatly reducing chromatic aberration."
+      "explanation": "An achromatic combination of a convergent and a divergent lens of different dispersive powers can bring two colours to the same focus, greatly reducing chromatic aberration.",
+      "trick": "Chromatic aberration fix = achromatic doublet (converging plus diverging, different $n$)."
     },
     {
       "id": "phy-ray-optics-026",
@@ -338,7 +363,8 @@
       ],
       "answer": 2,
       "difficulty": "easy",
-      "explanation": "Rays striking near the edge (marginal rays) of a spherical lens/mirror focus at a different point than paraxial rays, causing a blurred image called spherical aberration; it can be reduced using a stop or parabolic mirrors."
+      "explanation": "Rays striking near the edge (marginal rays) of a spherical lens/mirror focus at a different point than paraxial rays, causing a blurred image called spherical aberration; it can be reduced using a stop or parabolic mirrors.",
+      "trick": "Spherical aberration = marginal vs paraxial rays focus differently — use a stop."
     },
     {
       "id": "phy-ray-optics-027",
@@ -351,7 +377,8 @@
       ],
       "answer": 0,
       "difficulty": "hard",
-      "explanation": "Achromatism requires $\\dfrac{\\omega_1}{f_1}+\\dfrac{\\omega_2}{f_2}=0 \\Rightarrow f_2=-\\dfrac{\\omega_2f_1}{\\omega_1}=-\\dfrac{0.03\\times10}{0.02}=-15$ cm (a diverging lens)."
+      "explanation": "Achromatism requires $\\dfrac{\\omega_1}{f_1}+\\dfrac{\\omega_2}{f_2}=0 \\Rightarrow f_2=-\\dfrac{\\omega_2f_1}{\\omega_1}=-\\dfrac{0.03\\times10}{0.02}=-15$ cm (a diverging lens).",
+      "trick": "Achromatism condition: $\\omega_1/f_1+\\omega_2/f_2=0$ — solve for the unknown $f$."
     },
     {
       "id": "phy-ray-optics-028",
@@ -364,7 +391,8 @@
       ],
       "answer": 3,
       "difficulty": "medium",
-      "explanation": "Rayleigh scattering by air molecules is much stronger for shorter wavelengths, so blue light is scattered across the sky far more than red, giving the sky its blue colour."
+      "explanation": "Rayleigh scattering by air molecules is much stronger for shorter wavelengths, so blue light is scattered across the sky far more than red, giving the sky its blue colour.",
+      "trick": "Rayleigh scattering goes as $1/\\lambda^4$ — blue scatters most, hence blue sky."
     },
     {
       "id": "phy-ray-optics-029",
@@ -377,7 +405,8 @@
       ],
       "answer": 3,
       "difficulty": "medium",
-      "explanation": "At sunrise/sunset, sunlight travels a much longer path through the atmosphere; the shorter (blue) wavelengths are scattered away en route, leaving the transmitted light dominated by red/orange."
+      "explanation": "At sunrise/sunset, sunlight travels a much longer path through the atmosphere; the shorter (blue) wavelengths are scattered away en route, leaving the transmitted light dominated by red/orange.",
+      "trick": "Sunset: longer atmospheric path scatters away blue, leaving red to reach the eye."
     },
     {
       "id": "phy-ray-optics-030",
@@ -390,7 +419,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "Light entering the fibre core (higher $n$) strikes the core-cladding boundary at an angle greater than the critical angle and undergoes repeated total internal reflection, travelling with minimal loss."
+      "explanation": "Light entering the fibre core (higher $n$) strikes the core-cladding boundary at an angle greater than the critical angle and undergoes repeated total internal reflection, travelling with minimal loss.",
+      "trick": "Optical fibre works via TIR: core $n$ greater than cladding $n$, always."
     },
     {
       "id": "phy-ray-optics-031",
@@ -403,7 +433,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "Hot air close to the road is less dense (lower $n$) than the cooler air above; light from the sky refracts continuously through these layers and eventually curves upward as if reflected, creating the illusion of a water pool."
+      "explanation": "Hot air close to the road is less dense (lower $n$) than the cooler air above; light from the sky refracts continuously through these layers and eventually curves upward as if reflected, creating the illusion of a water pool.",
+      "trick": "Mirage: hot ground air has lower $n$ → light curves up, mimics reflection."
     },
     {
       "id": "phy-ray-optics-032",
@@ -416,7 +447,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "$\\sin C=1/n=3/4=0.75 \\Rightarrow C\\approx48.6^\\circ$."
+      "explanation": "$\\sin C=1/n=3/4=0.75 \\Rightarrow C\\approx48.6^\\circ$.",
+      "trick": "$\\sin C=1/n$; for water $n=4/3$ gives $C\\approx48.6°$ — a common one to memorise."
     },
     {
       "id": "phy-ray-optics-033",
@@ -429,7 +461,8 @@
       ],
       "answer": 0,
       "difficulty": "hard",
-      "explanation": "For near-normal viewing, apparent depth of stacked layers $=\\sum(t_i/n_i)=\\dfrac{6}{4/3}+\\dfrac{4}{1.5}=4.5+2.67\\approx7.17$ cm."
+      "explanation": "For near-normal viewing, apparent depth of stacked layers $=\\sum(t_i/n_i)=\\dfrac{6}{4/3}+\\dfrac{4}{1.5}=4.5+2.67\\approx7.17$ cm.",
+      "trick": "Stacked layers: apparent depth $=\\sum t_i/n_i$ — add each layer's own apparent depth."
     },
     {
       "id": "phy-ray-optics-034",
@@ -442,7 +475,8 @@
       ],
       "answer": 3,
       "difficulty": "easy",
-      "explanation": "With incident light taken as travelling in the positive direction, a real object (always in front of the mirror/lens) has $u$ measured backward from the pole/optical centre, so $u$ is negative."
+      "explanation": "With incident light taken as travelling in the positive direction, a real object (always in front of the mirror/lens) has $u$ measured backward from the pole/optical centre, so $u$ is negative.",
+      "trick": "Real object $u$ is always negative — incident light direction is the positive axis."
     },
     {
       "id": "phy-ray-optics-035",
@@ -455,7 +489,8 @@
       ],
       "answer": 1,
       "difficulty": "hard",
-      "explanation": "$m\\approx\\dfrac{L}{f_o}\\left(1+\\dfrac{D}{f_e}\\right)=\\dfrac{20}{1}\\times\\left(1+\\dfrac{25}{5}\\right)=20\\times6=120$."
+      "explanation": "$m\\approx\\dfrac{L}{f_o}\\left(1+\\dfrac{D}{f_e}\\right)=\\dfrac{20}{1}\\times\\left(1+\\dfrac{25}{5}\\right)=20\\times6=120$.",
+      "trick": "Compound scope: $m=(L/f_o)(1+D/f_e)$ — multiply the two magnification factors."
     },
     {
       "id": "phy-ray-optics-036",
@@ -468,7 +503,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "$m=f_o/f_e$, so a smaller $f_e$ gives higher magnification, but this comes at the cost of a narrower field of view."
+      "explanation": "$m=f_o/f_e$, so a smaller $f_e$ gives higher magnification, but this comes at the cost of a narrower field of view.",
+      "trick": "Smaller eyepiece $f_e$ gives more zoom but a narrower field of view — trade-off."
     },
     {
       "id": "phy-ray-optics-037",
@@ -481,7 +517,8 @@
       ],
       "answer": 3,
       "difficulty": "easy",
-      "explanation": "A concave mirror with the object (teeth) placed between the pole and focus produces a virtual, erect, magnified image, ideal for close dental examination."
+      "explanation": "A concave mirror with the object (teeth) placed between the pole and focus produces a virtual, erect, magnified image, ideal for close dental examination.",
+      "trick": "Concave mirror with object inside focus gives magnified virtual image (dentist's trick)."
     },
     {
       "id": "phy-ray-optics-038",
@@ -494,7 +531,8 @@
       ],
       "answer": 0,
       "difficulty": "easy",
-      "explanation": "Held within its focal length, a concave mirror forms a magnified, erect, virtual image, which is why it is used for shaving and makeup."
+      "explanation": "Held within its focal length, a concave mirror forms a magnified, erect, virtual image, which is why it is used for shaving and makeup.",
+      "trick": "Shaving/makeup mirror is concave, held within focal length for a magnified erect image."
     },
     {
       "id": "phy-ray-optics-039",
@@ -507,7 +545,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "$\\dfrac1f=(n-1)\\left(\\dfrac1{R_1}-\\dfrac1{R_2}\\right)=0.5\\left(\\dfrac1{10}-\\dfrac1{-10}\\right)=0.5\\times0.2=0.1 \\Rightarrow f=10$ cm."
+      "explanation": "$\\dfrac1f=(n-1)\\left(\\dfrac1{R_1}-\\dfrac1{R_2}\\right)=0.5\\left(\\dfrac1{10}-\\dfrac1{-10}\\right)=0.5\\times0.2=0.1 \\Rightarrow f=10$ cm.",
+      "trick": "Biconvex, equal radii: $1/f=(n-1)(2/R)$ — $R_1$ positive, $R_2$ negative, don't cancel."
     },
     {
       "id": "phy-ray-optics-040",
@@ -520,7 +559,8 @@
       ],
       "answer": 2,
       "difficulty": "easy",
-      "explanation": "For an object between $f$ and $2f$, the convex lens forms a real, inverted image that is magnified and located beyond $2f$ on the other side."
+      "explanation": "For an object between $f$ and $2f$, the convex lens forms a real, inverted image that is magnified and located beyond $2f$ on the other side.",
+      "trick": "Between $f$ and $2f$ gives an image beyond $2f$: real, inverted, magnified (projector case)."
     }
   ]
 }

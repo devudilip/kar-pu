@@ -12,7 +12,8 @@
       ],
       "answer": 1,
       "difficulty": "easy",
-      "explanation": "Maxwell defined $I_d = \\varepsilon_0\\dfrac{d\\Phi_E}{dt}$, which exists wherever the electric flux through a surface changes with time, such as between capacitor plates while charging."
+      "explanation": "Maxwell defined $I_d = \\varepsilon_0\\dfrac{d\\Phi_E}{dt}$, which exists wherever the electric flux through a surface changes with time, such as between capacitor plates while charging.",
+      "trick": "$I_d=\\varepsilon_0\\dfrac{d\\Phi_E}{dt}$: displacement current needs changing E, not steady current itself."
     },
     {
       "id": "phy-electromagnetic-waves-002",
@@ -25,7 +26,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "$\\vec{E}$, $\\vec{B}$ and the direction of propagation $\\vec{k}$ are mutually perpendicular, forming a right-handed set; $\\hat{y}\\times\\hat{z} = \\hat{x}$, so $\\vec{B}$ is along $z$."
+      "explanation": "$\\vec{E}$, $\\vec{B}$ and the direction of propagation $\\vec{k}$ are mutually perpendicular, forming a right-handed set; $\\hat{y}\\times\\hat{z} = \\hat{x}$, so $\\vec{B}$ is along $z$.",
+      "trick": "Right-hand rule: $\\hat E\\times\\hat B$ = propagation direction; solve for the missing axis."
     },
     {
       "id": "phy-electromagnetic-waves-003",
@@ -38,7 +40,8 @@
       ],
       "answer": 3,
       "difficulty": "easy",
-      "explanation": "$E_0/B_0 = c$, the speed of light, a direct consequence of Maxwell's equations."
+      "explanation": "$E_0/B_0 = c$, the speed of light, a direct consequence of Maxwell's equations.",
+      "trick": "$E_0/B_0=c$ always in vacuum — memorise this one ratio."
     },
     {
       "id": "phy-electromagnetic-waves-004",
@@ -51,7 +54,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "In series with the charging circuit, the displacement current between the plates always equals the conduction current in the wires, so $I_d = 2$ A."
+      "explanation": "In series with the charging circuit, the displacement current between the plates always equals the conduction current in the wires, so $I_d = 2$ A.",
+      "trick": "Series circuit: $I_d$ between plates always equals $I_c$ in the wires."
     },
     {
       "id": "phy-electromagnetic-waves-005",
@@ -64,7 +68,8 @@
       ],
       "answer": 1,
       "difficulty": "easy",
-      "explanation": "Frequency increases as radio < microwave < infrared < visible < ultraviolet < X-rays < gamma rays (wavelength decreases in the same order)."
+      "explanation": "Frequency increases as radio < microwave < infrared < visible < ultraviolet < X-rays < gamma rays (wavelength decreases in the same order).",
+      "trick": "Memorise: Radio-Microwave-IR-Visible-UV-X-ray-Gamma, increasing frequency order."
     },
     {
       "id": "phy-electromagnetic-waves-006",
@@ -77,7 +82,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "In an X-ray tube, high-energy electrons are suddenly stopped by a metal (target) anode; the lost kinetic energy is emitted as X-ray photons (bremsstrahlung)."
+      "explanation": "In an X-ray tube, high-energy electrons are suddenly stopped by a metal (target) anode; the lost kinetic energy is emitted as X-ray photons (bremsstrahlung).",
+      "trick": "X-rays = sudden stopping of fast electrons on a metal target (bremsstrahlung)."
     },
     {
       "id": "phy-electromagnetic-waves-007",
@@ -90,7 +96,8 @@
       ],
       "answer": 3,
       "difficulty": "easy",
-      "explanation": "Ozone (O$_3$) in the stratosphere absorbs UV radiation, protecting living organisms from its harmful effects."
+      "explanation": "Ozone (O$_3$) in the stratosphere absorbs UV radiation, protecting living organisms from its harmful effects.",
+      "trick": "Ozone layer (stratosphere) absorbs harmful UV — don't confuse with ionosphere."
     },
     {
       "id": "phy-electromagnetic-waves-008",
@@ -103,7 +110,8 @@
       ],
       "answer": 0,
       "difficulty": "easy",
-      "explanation": "For total reflection, momentum transferred per unit area per unit time is $2I/c$ (energy $U=I$ per unit area per unit time, and $p = 2U/c$ for reflection)."
+      "explanation": "For total reflection, momentum transferred per unit area per unit time is $2I/c$ (energy $U=I$ per unit area per unit time, and $p = 2U/c$ for reflection).",
+      "trick": "Reflection gives $p=2I/c$; absorption gives $p=I/c$. Double for mirrors."
     },
     {
       "id": "phy-electromagnetic-waves-009",
@@ -116,7 +124,8 @@
       ],
       "answer": 3,
       "difficulty": "medium",
-      "explanation": "$n = \\sqrt{\\mu_r\\varepsilon_r} = \\sqrt{1\\times2.25} = 1.5$."
+      "explanation": "$n = \\sqrt{\\mu_r\\varepsilon_r} = \\sqrt{1\\times2.25} = 1.5$.",
+      "trick": "$n=\\sqrt{\\mu_r\\varepsilon_r}$; for non-magnetic media it's just $n=\\sqrt{\\varepsilon_r}$."
     },
     {
       "id": "phy-electromagnetic-waves-010",
@@ -129,7 +138,8 @@
       ],
       "answer": 0,
       "difficulty": "easy",
-      "explanation": "EM waves are transverse, need no medium, are electrically neutral (not deflected by fields), and carry both energy and momentum; $E$ and $B$ oscillate in phase."
+      "explanation": "EM waves are transverse, need no medium, are electrically neutral (not deflected by fields), and carry both energy and momentum; $E$ and $B$ oscillate in phase.",
+      "trick": "EM waves: transverse, need no medium, neutral (undeflected), carry both energy and momentum."
     },
     {
       "id": "phy-electromagnetic-waves-011",
@@ -142,7 +152,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "Microwaves have short wavelength, allowing them to be formed into narrow directional beams (using small antennas) that reflect off targets, ideal for radar."
+      "explanation": "Microwaves have short wavelength, allowing them to be formed into narrow directional beams (using small antennas) that reflect off targets, ideal for radar.",
+      "trick": "Short $\\lambda$ gives a narrow directional beam — that's why radar uses microwaves."
     },
     {
       "id": "phy-electromagnetic-waves-012",
@@ -155,7 +166,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "For an EM wave, average electric energy density $\\dfrac{1}{2}\\varepsilon_0 E_{rms}^2$ equals average magnetic energy density $\\dfrac{1}{2}\\dfrac{B_{rms}^2}{\\mu_0}$, each contributing equally to total energy."
+      "explanation": "For an EM wave, average electric energy density $\\dfrac{1}{2}\\varepsilon_0 E_{rms}^2$ equals average magnetic energy density $\\dfrac{1}{2}\\dfrac{B_{rms}^2}{\\mu_0}$, each contributing equally to total energy.",
+      "trick": "Average $u_E = u_B$ always in an EM wave — energy is shared equally."
     },
     {
       "id": "phy-electromagnetic-waves-013",
@@ -168,7 +180,8 @@
       ],
       "answer": 3,
       "difficulty": "easy",
-      "explanation": "Infrared photons are readily absorbed by water and other molecules, increasing their kinetic energy (heat), which is why IR lamps are used for warming."
+      "explanation": "Infrared photons are readily absorbed by water and other molecules, increasing their kinetic energy (heat), which is why IR lamps are used for warming.",
+      "trick": "IR heats because water molecules absorb it strongly — hence 'heat radiation'."
     },
     {
       "id": "phy-electromagnetic-waves-014",
@@ -181,7 +194,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "$E_0 = cB_0 = 3\\times10^8\\times2\\times10^{-7} = 60$ V/m."
+      "explanation": "$E_0 = cB_0 = 3\\times10^8\\times2\\times10^{-7} = 60$ V/m.",
+      "trick": "$E_0=cB_0$ — just multiply $c$ by the given $B_0$."
     },
     {
       "id": "phy-electromagnetic-waves-015",
@@ -194,7 +208,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "$c = \\dfrac{1}{\\sqrt{\\mu_0\\varepsilon_0}}$, so $c$ is inversely proportional to $\\sqrt{\\mu_0\\varepsilon_0}$."
+      "explanation": "$c = \\dfrac{1}{\\sqrt{\\mu_0\\varepsilon_0}}$, so $c$ is inversely proportional to $\\sqrt{\\mu_0\\varepsilon_0}$.",
+      "trick": "$c=1/\\sqrt{\\mu_0\\varepsilon_0}$ → inversely proportional to $\\sqrt{\\mu_0\\varepsilon_0}$, not directly."
     },
     {
       "id": "phy-electromagnetic-waves-016",
@@ -207,7 +222,8 @@
       ],
       "answer": 0,
       "difficulty": "easy",
-      "explanation": "Gamma rays originate from nuclear transitions/decays, unlike X-rays which arise from electron transitions or deceleration; this is a common point of confusion in KCET."
+      "explanation": "Gamma rays originate from nuclear transitions/decays, unlike X-rays which arise from electron transitions or deceleration; this is a common point of confusion in KCET.",
+      "trick": "Gamma = nuclear origin; X-rays = electron origin. Don't swap them."
     },
     {
       "id": "phy-electromagnetic-waves-017",
@@ -220,7 +236,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "$\\lambda = c/f = \\dfrac{3\\times10^8}{6\\times10^{14}} = 5\\times10^{-7}\\ \\text{m} = 500$ nm, in the visible (green) range."
+      "explanation": "$\\lambda = c/f = \\dfrac{3\\times10^8}{6\\times10^{14}} = 5\\times10^{-7}\\ \\text{m} = 500$ nm, in the visible (green) range.",
+      "trick": "$\\lambda=c/f$; quick check: visible range is roughly 400–700 nm."
     },
     {
       "id": "phy-electromagnetic-waves-018",
@@ -233,7 +250,8 @@
       ],
       "answer": 3,
       "difficulty": "easy",
-      "explanation": "EM waves are transverse, not longitudinal; all the other listed properties (superposition, constant vacuum speed, wave phenomena) are correct."
+      "explanation": "EM waves are transverse, not longitudinal; all the other listed properties (superposition, constant vacuum speed, wave phenomena) are correct.",
+      "trick": "EM waves are transverse, never longitudinal — instant elimination trick."
     },
     {
       "id": "phy-electromagnetic-waves-019",
@@ -246,7 +264,8 @@
       ],
       "answer": 2,
       "difficulty": "easy",
-      "explanation": "The Poynting vector $\\vec S=\\vec E\\times\\vec H$ gives both the direction and magnitude of energy flux carried by an electromagnetic wave, and points along the direction of propagation."
+      "explanation": "The Poynting vector $\\vec S=\\vec E\\times\\vec H$ gives both the direction and magnitude of energy flux carried by an electromagnetic wave, and points along the direction of propagation.",
+      "trick": "Poynting vector $\\vec S=\\vec E\\times\\vec H$ points along wave propagation and energy flow."
     },
     {
       "id": "phy-electromagnetic-waves-020",
@@ -259,7 +278,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "$I=\\dfrac12\\times8.85\\times10^{-12}\\times3\\times10^8\\times(100)^2\\approx13.3$ W/m$^2$."
+      "explanation": "$I=\\dfrac12\\times8.85\\times10^{-12}\\times3\\times10^8\\times(100)^2\\approx13.3$ W/m$^2$.",
+      "trick": "$I=\\tfrac12\\varepsilon_0cE_0^2$ — plug in $E_0$ and the constants directly."
     },
     {
       "id": "phy-electromagnetic-waves-021",
@@ -272,7 +292,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "Electric and magnetic energy densities are equal, each averaging $\\frac12\\varepsilon_0E_{rms}^2$; their sum gives total average energy density $u=\\varepsilon_0E_{rms}^2$."
+      "explanation": "Electric and magnetic energy densities are equal, each averaging $\\frac12\\varepsilon_0E_{rms}^2$; their sum gives total average energy density $u=\\varepsilon_0E_{rms}^2$.",
+      "trick": "Total average energy density $u=\\varepsilon_0E_{rms}^2$ (double the electric-only half)."
     },
     {
       "id": "phy-electromagnetic-waves-022",
@@ -285,7 +306,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "$k=2\\pi/\\lambda=2\\pi/(5\\times10^{-7})\\approx1.26\\times10^{7}$ m$^{-1}$."
+      "explanation": "$k=2\\pi/\\lambda=2\\pi/(5\\times10^{-7})\\approx1.26\\times10^{7}$ m$^{-1}$.",
+      "trick": "$k=2\\pi/\\lambda$ — just divide $2\\pi$ by the wavelength in metres."
     },
     {
       "id": "phy-electromagnetic-waves-023",
@@ -298,7 +320,8 @@
       ],
       "answer": 3,
       "difficulty": "medium",
-      "explanation": "Propagation direction is along $\\vec E\\times\\vec B$; with $\\vec E$ along $+z$ and propagation along $-y$, $\\vec B$ must be along $-x$, since $\\hat z\\times(-\\hat x)=-\\hat y$."
+      "explanation": "Propagation direction is along $\\vec E\\times\\vec B$; with $\\vec E$ along $+z$ and propagation along $-y$, $\\vec B$ must be along $-x$, since $\\hat z\\times(-\\hat x)=-\\hat y$.",
+      "trick": "Use $\\hat E\\times\\hat B=$ propagation direction; solve via unit-vector cross product."
     },
     {
       "id": "phy-electromagnetic-waves-024",
@@ -311,7 +334,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "A valid EM wave in vacuum requires $E_0/B_0=c=3\\times10^8$ m/s; only $300/(1\\times10^{-6})=3\\times10^8$ satisfies this."
+      "explanation": "A valid EM wave in vacuum requires $E_0/B_0=c=3\\times10^8$ m/s; only $300/(1\\times10^{-6})=3\\times10^8$ satisfies this.",
+      "trick": "Check which pair satisfies $E_0/B_0=c=3\\times10^8$ exactly."
     },
     {
       "id": "phy-electromagnetic-waves-025",
@@ -324,7 +348,8 @@
       ],
       "answer": 2,
       "difficulty": "easy",
-      "explanation": "$f=c/\\lambda=3\\times10^8/300=1\\times10^6$ Hz $=1$ MHz."
+      "explanation": "$f=c/\\lambda=3\\times10^8/300=1\\times10^6$ Hz $=1$ MHz.",
+      "trick": "$f=c/\\lambda$; a 300 m wavelength is classic AM-radio scale → MHz range."
     },
     {
       "id": "phy-electromagnetic-waves-026",
@@ -337,7 +362,8 @@
       ],
       "answer": 0,
       "difficulty": "easy",
-      "explanation": "Lower-frequency radio waves are reflected by the ionosphere, but microwaves are short enough in wavelength to pass through it, making them suitable for communicating with satellites."
+      "explanation": "Lower-frequency radio waves are reflected by the ionosphere, but microwaves are short enough in wavelength to pass through it, making them suitable for communicating with satellites.",
+      "trick": "Microwaves pass through the ionosphere (not reflected) — ideal for satellite links."
     },
     {
       "id": "phy-electromagnetic-waves-027",
@@ -350,7 +376,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "VHF/UHF television signals are neither reflected by the ionosphere nor diffract appreciably around the earth's curvature, so they travel as space (line-of-sight) waves, requiring tall transmitting/receiving antennas."
+      "explanation": "VHF/UHF television signals are neither reflected by the ionosphere nor diffract appreciably around the earth's curvature, so they travel as space (line-of-sight) waves, requiring tall transmitting/receiving antennas.",
+      "trick": "VHF/UHF TV = space waves, line-of-sight only — hence tall antennas needed."
     },
     {
       "id": "phy-electromagnetic-waves-028",
@@ -363,7 +390,8 @@
       ],
       "answer": 3,
       "difficulty": "easy",
-      "explanation": "All objects above absolute zero continuously emit infrared (thermal) radiation; thermal cameras detect this IR emission to form an image even without any visible light."
+      "explanation": "All objects above absolute zero continuously emit infrared (thermal) radiation; thermal cameras detect this IR emission to form an image even without any visible light.",
+      "trick": "All objects emit IR by virtue of temperature — thermal cameras 'see' that."
     },
     {
       "id": "phy-electromagnetic-waves-029",
@@ -376,7 +404,8 @@
       ],
       "answer": 2,
       "difficulty": "easy",
-      "explanation": "UV radiation triggers vitamin D synthesis in skin in small doses, but prolonged exposure causes skin cancer and eye damage; most harmful UV is absorbed by the ozone layer."
+      "explanation": "UV radiation triggers vitamin D synthesis in skin in small doses, but prolonged exposure causes skin cancer and eye damage; most harmful UV is absorbed by the ozone layer.",
+      "trick": "UV: vitamin D benefit vs skin-cancer risk — check both ends of the statement."
     },
     {
       "id": "phy-electromagnetic-waves-030",
@@ -389,7 +418,8 @@
       ],
       "answer": 3,
       "difficulty": "medium",
-      "explanation": "Diffraction effects are prominent when wavelength is comparable to the spacing of scattering centres; X-ray wavelengths (~0.1 nm) match typical interatomic distances in crystals."
+      "explanation": "Diffraction effects are prominent when wavelength is comparable to the spacing of scattering centres; X-ray wavelengths (~0.1 nm) match typical interatomic distances in crystals.",
+      "trick": "Diffraction needs $\\lambda\\sim$ spacing; X-ray $\\lambda$ matches atomic spacing → used for crystals."
     },
     {
       "id": "phy-electromagnetic-waves-031",
@@ -402,7 +432,8 @@
       ],
       "answer": 1,
       "difficulty": "easy",
-      "explanation": "The high energy and penetrating power of gamma rays make them useful for destroying cancerous cells (radiotherapy) and sterilising medical instruments."
+      "explanation": "The high energy and penetrating power of gamma rays make them useful for destroying cancerous cells (radiotherapy) and sterilising medical instruments.",
+      "trick": "Gamma rays: cancer radiotherapy plus sterilising equipment — high energy, high penetration."
     },
     {
       "id": "phy-electromagnetic-waves-032",
@@ -415,7 +446,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "Maxwell added the displacement current term $\\varepsilon_0d\\Phi_E/dt$ to Ampere's law, giving $\\oint\\vec B\\cdot d\\vec l=\\mu_0(I_c+I_d)$, making it consistent with charge conservation."
+      "explanation": "Maxwell added the displacement current term $\\varepsilon_0d\\Phi_E/dt$ to Ampere's law, giving $\\oint\\vec B\\cdot d\\vec l=\\mu_0(I_c+I_d)$, making it consistent with charge conservation.",
+      "trick": "Displacement current was Maxwell's fix to Ampere's law, not Faraday's or Gauss's."
     },
     {
       "id": "phy-electromagnetic-waves-033",
@@ -428,7 +460,8 @@
       ],
       "answer": 2,
       "difficulty": "hard",
-      "explanation": "No charge crosses the gap (no conduction current), but the changing electric flux between the plates produces a displacement current numerically equal to the conduction current in the wires, keeping the circuit current continuous."
+      "explanation": "No charge crosses the gap (no conduction current), but the changing electric flux between the plates produces a displacement current numerically equal to the conduction current in the wires, keeping the circuit current continuous.",
+      "trick": "Gap: zero conduction current, but $I_d$ equals the wire's $I_c$ — circuit stays continuous."
     },
     {
       "id": "phy-electromagnetic-waves-034",
@@ -441,7 +474,8 @@
       ],
       "answer": 1,
       "difficulty": "easy",
-      "explanation": "Microwaves at a frequency matched to water's rotational absorption cause water molecules in the food to oscillate rapidly, generating heat throughout the food (dielectric heating)."
+      "explanation": "Microwaves at a frequency matched to water's rotational absorption cause water molecules in the food to oscillate rapidly, generating heat throughout the food (dielectric heating).",
+      "trick": "Microwaves make water molecules rotate rapidly — dielectric heating, not burning."
     },
     {
       "id": "phy-electromagnetic-waves-035",
@@ -454,7 +488,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "$f=c/\\lambda=3\\times10^8/(600\\times10^{-9})=5\\times10^{14}$ Hz."
+      "explanation": "$f=c/\\lambda=3\\times10^8/(600\\times10^{-9})=5\\times10^{14}$ Hz.",
+      "trick": "$f=c/\\lambda$: 600 nm gives $5\\times10^{14}$ Hz — memorise visible-light order of magnitude."
     },
     {
       "id": "phy-electromagnetic-waves-036",
@@ -467,7 +502,8 @@
       ],
       "answer": 3,
       "difficulty": "medium",
-      "explanation": "Wave speed $v=\\omega/k=(6\\times10^{15})/(2\\times10^7)=3\\times10^8$ m/s, as expected for an EM wave in vacuum."
+      "explanation": "Wave speed $v=\\omega/k=(6\\times10^{15})/(2\\times10^7)=3\\times10^8$ m/s, as expected for an EM wave in vacuum.",
+      "trick": "Wave speed $v=\\omega/k$ — divide angular frequency by wave number directly."
     },
     {
       "id": "phy-electromagnetic-waves-037",
@@ -480,7 +516,8 @@
       ],
       "answer": 3,
       "difficulty": "easy",
-      "explanation": "Heinrich Hertz generated and detected radio waves in the laboratory in 1887, confirming Maxwell's theoretical prediction of electromagnetic waves."
+      "explanation": "Heinrich Hertz generated and detected radio waves in the laboratory in 1887, confirming Maxwell's theoretical prediction of electromagnetic waves.",
+      "trick": "Maxwell predicted, Hertz proved (1887) — the classic theory-vs-experiment pairing."
     },
     {
       "id": "phy-electromagnetic-waves-038",
@@ -493,7 +530,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "Wavelength increases as frequency decreases, so the order is gamma rays < X-rays < UV < visible < IR < microwave < radio — exactly the reverse of the increasing-frequency order."
+      "explanation": "Wavelength increases as frequency decreases, so the order is gamma rays < X-rays < UV < visible < IR < microwave < radio — exactly the reverse of the increasing-frequency order.",
+      "trick": "Increasing wavelength is just the reverse of the frequency order (gamma to radio)."
     },
     {
       "id": "phy-electromagnetic-waves-039",
@@ -506,7 +544,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "Since $v=c/n$, $v_1:v_2 = n_2:n_1 = 2.0:1.5 = 4:3$."
+      "explanation": "Since $v=c/n$, $v_1:v_2 = n_2:n_1 = 2.0:1.5 = 4:3$.",
+      "trick": "$v\\propto1/n$, so $v_1:v_2=n_2:n_1$ — invert the ratio of refractive indices."
     },
     {
       "id": "phy-electromagnetic-waves-040",
@@ -519,7 +558,8 @@
       ],
       "answer": 0,
       "difficulty": "hard",
-      "explanation": "Radiation pressure for total absorption $p=I/c=1000/(3\\times10^8)\\approx3.3\\times10^{-6}$ Pa; force $=p\\times A\\approx3.3\\times10^{-6}\\times2\\approx6.7\\times10^{-6}$ N."
+      "explanation": "Radiation pressure for total absorption $p=I/c=1000/(3\\times10^8)\\approx3.3\\times10^{-6}$ Pa; force $=p\\times A\\approx3.3\\times10^{-6}\\times2\\approx6.7\\times10^{-6}$ N.",
+      "trick": "Absorption: $F=(I/c)\\times A$ — find pressure first, then multiply by area."
     }
   ]
 }

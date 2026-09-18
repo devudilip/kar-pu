@@ -12,7 +12,8 @@
       ],
       "answer": 2,
       "difficulty": "easy",
-      "explanation": "$|\\vec a| = \\sqrt{2^2+(-3)^2+6^2} = \\sqrt{4+9+36} = \\sqrt{49} = 7$."
+      "explanation": "$|\\vec a| = \\sqrt{2^2+(-3)^2+6^2} = \\sqrt{4+9+36} = \\sqrt{49} = 7$.",
+      "trick": "$|\\vec a|=\\sqrt{\\text{sum of squares of components}}$ — always."
     },
     {
       "id": "mat-vector-algebra-002",
@@ -25,7 +26,8 @@
       ],
       "answer": 0,
       "difficulty": "easy",
-      "explanation": "$|3\\hat i+4\\hat j| = \\sqrt{9+16} = 5$, so the unit vector is $\\dfrac{3\\hat i+4\\hat j}{5}$."
+      "explanation": "$|3\\hat i+4\\hat j| = \\sqrt{9+16} = 5$, so the unit vector is $\\dfrac{3\\hat i+4\\hat j}{5}$.",
+      "trick": "3-4-5 triangle: magnitude is 5 instantly, so unit vector is $\\vec a/5$."
     },
     {
       "id": "mat-vector-algebra-003",
@@ -38,7 +40,8 @@
       ],
       "answer": 1,
       "difficulty": "easy",
-      "explanation": "$\\hat a\\cdot\\hat b = |\\hat a||\\hat b|\\cos60^\\circ = 1\\times1\\times0.5 = 0.5$."
+      "explanation": "$\\hat a\\cdot\\hat b = |\\hat a||\\hat b|\\cos60^\\circ = 1\\times1\\times0.5 = 0.5$.",
+      "trick": "For unit vectors, $\\hat a\\cdot\\hat b=\\cos\\theta$ directly — no magnitudes needed."
     },
     {
       "id": "mat-vector-algebra-004",
@@ -51,7 +54,8 @@
       ],
       "answer": 3,
       "difficulty": "medium",
-      "explanation": "$\\vec a\\cdot\\vec b = (1)(1)+(1)(-1)+(1)(1) = 1-1+1 = 1$."
+      "explanation": "$\\vec a\\cdot\\vec b = (1)(1)+(1)(-1)+(1)(1) = 1-1+1 = 1$.",
+      "trick": "Dot product: multiply matching components, then sum them."
     },
     {
       "id": "mat-vector-algebra-005",
@@ -64,7 +68,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "$\\vec a\\cdot\\vec b = 1$, $|\\vec a|=|\\vec b|=\\sqrt2$, so $\\cos\\theta = \\dfrac{1}{2}$, giving $\\theta = 60^\\circ$."
+      "explanation": "$\\vec a\\cdot\\vec b = 1$, $|\\vec a|=|\\vec b|=\\sqrt2$, so $\\cos\\theta = \\dfrac{1}{2}$, giving $\\theta = 60^\\circ$.",
+      "trick": "$\\cos\\theta=(\\vec a\\cdot\\vec b)/(|\\vec a||\\vec b|)$ — compute all three quickly."
     },
     {
       "id": "mat-vector-algebra-006",
@@ -77,7 +82,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "$\\hat i\\times\\hat j = \\hat k$, so $(\\hat i\\times\\hat j)\\cdot\\hat k = \\hat k\\cdot\\hat k = 1$."
+      "explanation": "$\\hat i\\times\\hat j = \\hat k$, so $(\\hat i\\times\\hat j)\\cdot\\hat k = \\hat k\\cdot\\hat k = 1$.",
+      "trick": "$\\hat i\\times\\hat j=\\hat k$ identity, then $\\hat k\\cdot\\hat k=1$ — memorise the cyclic triad."
     },
     {
       "id": "mat-vector-algebra-007",
@@ -90,7 +96,8 @@
       ],
       "answer": 3,
       "difficulty": "medium",
-      "explanation": "$\\vec a\\times\\vec b = \\hat i(1\\cdot3-(-1)\\cdot2) - \\hat j(2\\cdot3-(-1)\\cdot1) + \\hat k(2\\cdot2-1\\cdot1) = 5\\hat i-7\\hat j+3\\hat k$."
+      "explanation": "$\\vec a\\times\\vec b = \\hat i(1\\cdot3-(-1)\\cdot2) - \\hat j(2\\cdot3-(-1)\\cdot1) + \\hat k(2\\cdot2-1\\cdot1) = 5\\hat i-7\\hat j+3\\hat k$.",
+      "trick": "Cross product = determinant of $\\hat i,\\hat j,\\hat k$ rows; expand along the top."
     },
     {
       "id": "mat-vector-algebra-008",
@@ -103,7 +110,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "$(\\hat i+\\hat j)\\times(\\hat i-\\hat j) = -2\\hat k$, magnitude $2$; area of triangle $= \\dfrac12(2) = 1$."
+      "explanation": "$(\\hat i+\\hat j)\\times(\\hat i-\\hat j) = -2\\hat k$, magnitude $2$; area of triangle $= \\dfrac12(2) = 1$.",
+      "trick": "Cross first, then halve the magnitude for triangle area (not parallelogram)."
     },
     {
       "id": "mat-vector-algebra-009",
@@ -116,7 +124,8 @@
       ],
       "answer": 2,
       "difficulty": "easy",
-      "explanation": "The cross product vanishes only when $\\sin\\theta = 0$, i.e. $\\theta = 0^\\circ$ or $180^\\circ$, so the vectors are parallel."
+      "explanation": "The cross product vanishes only when $\\sin\\theta = 0$, i.e. $\\theta = 0^\\circ$ or $180^\\circ$, so the vectors are parallel.",
+      "trick": "Zero cross product $\\Rightarrow$ parallel vectors, since $\\sin\\theta=0$."
     },
     {
       "id": "mat-vector-algebra-010",
@@ -129,7 +138,8 @@
       ],
       "answer": 1,
       "difficulty": "easy",
-      "explanation": "The dot product vanishes only when $\\cos\\theta=0$, i.e. $\\theta = 90^\\circ$, so the vectors are perpendicular."
+      "explanation": "The dot product vanishes only when $\\cos\\theta=0$, i.e. $\\theta = 90^\\circ$, so the vectors are perpendicular.",
+      "trick": "Zero dot product $\\Rightarrow$ perpendicular vectors, since $\\cos\\theta=0$."
     },
     {
       "id": "mat-vector-algebra-011",
@@ -142,7 +152,8 @@
       ],
       "answer": 3,
       "difficulty": "medium",
-      "explanation": "$\\vec a\\cdot\\vec b = 2-2+1 = 1$, $|\\vec b| = \\sqrt{4+4+1}=3$, so the projection $= \\dfrac{\\vec a\\cdot\\vec b}{|\\vec b|} = \\dfrac13$."
+      "explanation": "$\\vec a\\cdot\\vec b = 2-2+1 = 1$, $|\\vec b| = \\sqrt{4+4+1}=3$, so the projection $= \\dfrac{\\vec a\\cdot\\vec b}{|\\vec b|} = \\dfrac13$.",
+      "trick": "Projection of $\\vec a$ on $\\vec b$ is $(\\vec a\\cdot\\vec b)/|\\vec b|$, divide by $|\\vec b|$ only."
     },
     {
       "id": "mat-vector-algebra-012",
@@ -155,7 +166,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "$\\hat j\\times\\hat k = \\hat i$, so $\\hat i\\cdot(\\hat j\\times\\hat k) = \\hat i\\cdot\\hat i = 1$."
+      "explanation": "$\\hat j\\times\\hat k = \\hat i$, so $\\hat i\\cdot(\\hat j\\times\\hat k) = \\hat i\\cdot\\hat i = 1$.",
+      "trick": "$\\hat j\\times\\hat k=\\hat i$, so $\\hat i\\cdot(\\hat j\\times\\hat k)=1$ — basis triple product."
     },
     {
       "id": "mat-vector-algebra-013",
@@ -168,7 +180,8 @@
       ],
       "answer": 1,
       "difficulty": "hard",
-      "explanation": "The scalar triple product $\\begin{vmatrix}1&1&1\\\\1&2&3\\\\2&3&4\\end{vmatrix} = 1(8-9)-1(4-6)+1(3-4) = -1+2-1 = 0$, so the vectors are coplanar."
+      "explanation": "The scalar triple product $\\begin{vmatrix}1&1&1\\\\1&2&3\\\\2&3&4\\end{vmatrix} = 1(8-9)-1(4-6)+1(3-4) = -1+2-1 = 0$, so the vectors are coplanar.",
+      "trick": "Coplanar test: the $3\\times3$ scalar triple product determinant equals zero."
     },
     {
       "id": "mat-vector-algebra-014",
@@ -181,7 +194,8 @@
       ],
       "answer": 0,
       "difficulty": "easy",
-      "explanation": "$|\\hat i+\\hat j+\\hat k| = \\sqrt3$, so each direction cosine is $\\dfrac{1}{\\sqrt3}$."
+      "explanation": "$|\\hat i+\\hat j+\\hat k| = \\sqrt3$, so each direction cosine is $\\dfrac{1}{\\sqrt3}$.",
+      "trick": "Divide each component by the magnitude to get direction cosines."
     },
     {
       "id": "mat-vector-algebra-015",
@@ -194,7 +208,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "$\\vec{AB} = (3,4,0)$, so $|\\vec{AB}| = \\sqrt{9+16+0} = 5$."
+      "explanation": "$\\vec{AB} = (3,4,0)$, so $|\\vec{AB}| = \\sqrt{9+16+0} = 5$.",
+      "trick": "$\\vec{AB}=B-A$; then magnitude is $\\sqrt{\\text{sum of squares}}$."
     },
     {
       "id": "mat-vector-algebra-016",
@@ -207,7 +222,8 @@
       ],
       "answer": 3,
       "difficulty": "hard",
-      "explanation": "Using $\\dfrac{m\\vec b+n\\vec a}{m+n}$ with $m:n=2:1$: $\\dfrac{2(4,5,6)+1(2,3,4)}{3} = \\dfrac{(10,13,16)}{3}$."
+      "explanation": "Using $\\dfrac{m\\vec b+n\\vec a}{m+n}$ with $m:n=2:1$: $\\dfrac{2(4,5,6)+1(2,3,4)}{3} = \\dfrac{(10,13,16)}{3}$.",
+      "trick": "Internal division ratio $m{:}n$: point $=(m\\vec b+n\\vec a)/(m+n)$."
     },
     {
       "id": "mat-vector-algebra-017",
@@ -220,7 +236,8 @@
       ],
       "answer": 1,
       "difficulty": "easy",
-      "explanation": "$|\\vec a+\\vec b|^2 = |\\vec a|^2+|\\vec b|^2+2\\vec a\\cdot\\vec b = 9+16+0=25$, so $|\\vec a+\\vec b|=5$."
+      "explanation": "$|\\vec a+\\vec b|^2 = |\\vec a|^2+|\\vec b|^2+2\\vec a\\cdot\\vec b = 9+16+0=25$, so $|\\vec a+\\vec b|=5$.",
+      "trick": "Perpendicular vectors: $|\\vec a+\\vec b|^2=|\\vec a|^2+|\\vec b|^2$, like Pythagoras."
     },
     {
       "id": "mat-vector-algebra-018",
@@ -233,7 +250,8 @@
       ],
       "answer": 3,
       "difficulty": "medium",
-      "explanation": "$|\\vec a-2\\vec b|^2 = |\\vec a|^2+4|\\vec b|^2-4\\vec a\\cdot\\vec b = 1+4-0=5$, so $|\\vec a-2\\vec b|=\\sqrt5$."
+      "explanation": "$|\\vec a-2\\vec b|^2 = |\\vec a|^2+4|\\vec b|^2-4\\vec a\\cdot\\vec b = 1+4-0=5$, so $|\\vec a-2\\vec b|=\\sqrt5$.",
+      "trick": "Expand $|\\vec a-2\\vec b|^2=|\\vec a|^2+4|\\vec b|^2-4\\vec a\\cdot\\vec b$, use $\\vec a\\cdot\\vec b=0$."
     },
     {
       "id": "mat-vector-algebra-019",
@@ -246,7 +264,8 @@
       ],
       "answer": 0,
       "difficulty": "easy",
-      "explanation": "Adding components: $(2+1)\\hat i+(-1+1)\\hat j+(1-2)\\hat k = 3\\hat i - \\hat k$."
+      "explanation": "Adding components: $(2+1)\\hat i+(-1+1)\\hat j+(1-2)\\hat k = 3\\hat i - \\hat k$.",
+      "trick": "Add or subtract vectors component-wise: $\\hat i,\\hat j,\\hat k$ terms separately."
     },
     {
       "id": "mat-vector-algebra-020",
@@ -259,7 +278,8 @@
       ],
       "answer": 2,
       "difficulty": "hard",
-      "explanation": "$|\\vec a+\\vec b+\\vec c|^2=0=|\\vec a|^2+|\\vec b|^2+|\\vec c|^2+2(\\vec a\\cdot\\vec b+\\vec b\\cdot\\vec c+\\vec c\\cdot\\vec a) = 83+2S$, so $S=-83/2$."
+      "explanation": "$|\\vec a+\\vec b+\\vec c|^2=0=|\\vec a|^2+|\\vec b|^2+|\\vec c|^2+2(\\vec a\\cdot\\vec b+\\vec b\\cdot\\vec c+\\vec c\\cdot\\vec a) = 83+2S$, so $S=-83/2$.",
+      "trick": "$|\\vec a+\\vec b+\\vec c|^2=0$ expands to sum of squares $+2(\\text{dot terms})$ — solve for the sum."
     },
     {
       "id": "mat-vector-algebra-021",
@@ -272,7 +292,8 @@
       ],
       "answer": 2,
       "difficulty": "easy",
-      "explanation": "$|\\vec a|=\\sqrt{9+16+144}=\\sqrt{169}=13$."
+      "explanation": "$|\\vec a|=\\sqrt{9+16+144}=\\sqrt{169}=13$.",
+      "trick": "3-4-12 form a Pythagorean-style triple: $\\sqrt{9+16+144}=13$ instantly."
     },
     {
       "id": "mat-vector-algebra-022",
@@ -285,7 +306,8 @@
       ],
       "answer": 0,
       "difficulty": "easy",
-      "explanation": "$|-\\hat i+\\hat j|=\\sqrt{1+1}=\\sqrt2$, so the unit vector is $\\dfrac{-\\hat i+\\hat j}{\\sqrt2}$."
+      "explanation": "$|-\\hat i+\\hat j|=\\sqrt{1+1}=\\sqrt2$, so the unit vector is $\\dfrac{-\\hat i+\\hat j}{\\sqrt2}$.",
+      "trick": "Magnitude of $(-1,1,0)$-type vectors is $\\sqrt2$ — a standard shortcut."
     },
     {
       "id": "mat-vector-algebra-023",
@@ -298,7 +320,8 @@
       ],
       "answer": 3,
       "difficulty": "easy",
-      "explanation": "$|\\vec a+\\vec b|^2=|\\vec a|^2+|\\vec b|^2+2\\vec a\\cdot\\vec b=25+144+0=169$, so $|\\vec a+\\vec b|=13$."
+      "explanation": "$|\\vec a+\\vec b|^2=|\\vec a|^2+|\\vec b|^2+2\\vec a\\cdot\\vec b=25+144+0=169$, so $|\\vec a+\\vec b|=13$.",
+      "trick": "5-12-13 triple: perpendicular vectors add via Pythagoras to give 13."
     },
     {
       "id": "mat-vector-algebra-024",
@@ -311,7 +334,8 @@
       ],
       "answer": 1,
       "difficulty": "easy",
-      "explanation": "Each term equals 1 since $\\hat i,\\hat j,\\hat k$ are unit vectors, so the sum is $3$."
+      "explanation": "Each term equals 1 since $\\hat i,\\hat j,\\hat k$ are unit vectors, so the sum is $3$.",
+      "trick": "Each basis dot-itself equals 1, so the sum is simply 3."
     },
     {
       "id": "mat-vector-algebra-025",
@@ -324,7 +348,8 @@
       ],
       "answer": 3,
       "difficulty": "easy",
-      "explanation": "$\\hat i\\times\\hat j=\\hat k$, $\\hat j\\times\\hat k=\\hat i$, $\\hat k\\times\\hat i=\\hat j$; summing gives $\\hat i+\\hat j+\\hat k$."
+      "explanation": "$\\hat i\\times\\hat j=\\hat k$, $\\hat j\\times\\hat k=\\hat i$, $\\hat k\\times\\hat i=\\hat j$; summing gives $\\hat i+\\hat j+\\hat k$.",
+      "trick": "$\\hat i\\times\\hat j+\\hat j\\times\\hat k+\\hat k\\times\\hat i$ cycles to $\\hat i+\\hat j+\\hat k$."
     },
     {
       "id": "mat-vector-algebra-026",
@@ -337,7 +362,8 @@
       ],
       "answer": 1,
       "difficulty": "easy",
-      "explanation": "$\\vec{AB}=B-A=(0-1,1-0,1-0)=(-1,1,1)$."
+      "explanation": "$\\vec{AB}=B-A=(0-1,1-0,1-0)=(-1,1,1)$.",
+      "trick": "DRs of $\\vec{AB}=B-A$, component-wise subtraction, no need to normalise."
     },
     {
       "id": "mat-vector-algebra-027",
@@ -350,7 +376,8 @@
       ],
       "answer": 2,
       "difficulty": "easy",
-      "explanation": "$|\\vec a|=\\sqrt{4+9}=\\sqrt{13}$, so $|3\\vec a|=3\\sqrt{13}$."
+      "explanation": "$|\\vec a|=\\sqrt{4+9}=\\sqrt{13}$, so $|3\\vec a|=3\\sqrt{13}$.",
+      "trick": "$|k\\vec v|=|k|\\cdot|\\vec v|$ — pull the scalar out of the magnitude."
     },
     {
       "id": "mat-vector-algebra-028",
@@ -363,7 +390,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "$\\vec a\\cdot\\vec b=2-2\\lambda+3=5-2\\lambda=0\\Rightarrow\\lambda=\\dfrac52$."
+      "explanation": "$\\vec a\\cdot\\vec b=2-2\\lambda+3=5-2\\lambda=0\\Rightarrow\\lambda=\\dfrac52$.",
+      "trick": "Perpendicular $\\Rightarrow$ set the dot product to zero and solve for the unknown."
     },
     {
       "id": "mat-vector-algebra-029",
@@ -376,7 +404,8 @@
       ],
       "answer": 3,
       "difficulty": "medium",
-      "explanation": "Direction $=(4-1,5-2,6-3)=(3,3,3)$, parallel to $(1,1,1)$; the line through $(1,2,3)$ is $\\vec r=(\\hat i+2\\hat j+3\\hat k)+t(\\hat i+\\hat j+\\hat k)$."
+      "explanation": "Direction $=(4-1,5-2,6-3)=(3,3,3)$, parallel to $(1,1,1)$; the line through $(1,2,3)$ is $\\vec r=(\\hat i+2\\hat j+3\\hat k)+t(\\hat i+\\hat j+\\hat k)$.",
+      "trick": "Direction vector = difference of the two position vectors; use either point in the line."
     },
     {
       "id": "mat-vector-algebra-030",
@@ -389,7 +418,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "Squaring both sides: $|\\vec a|^2+|\\vec b|^2+2\\vec a\\cdot\\vec b=|\\vec a|^2+|\\vec b|^2-2\\vec a\\cdot\\vec b\\Rightarrow \\vec a\\cdot\\vec b=0$, so they are perpendicular."
+      "explanation": "Squaring both sides: $|\\vec a|^2+|\\vec b|^2+2\\vec a\\cdot\\vec b=|\\vec a|^2+|\\vec b|^2-2\\vec a\\cdot\\vec b\\Rightarrow \\vec a\\cdot\\vec b=0$, so they are perpendicular.",
+      "trick": "Equal magnitudes on both sides forces $\\vec a\\cdot\\vec b=0$ — perpendicular vectors."
     },
     {
       "id": "mat-vector-algebra-031",
@@ -402,7 +432,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "By definition, this is the vector equation of the straight line through the point with position vector $\\vec a$, in the direction of $\\vec b$."
+      "explanation": "By definition, this is the vector equation of the straight line through the point with position vector $\\vec a$, in the direction of $\\vec b$.",
+      "trick": "$\\vec r=\\vec a+t\\vec b$ is a line through point $\\vec a$, direction $\\vec b$."
     },
     {
       "id": "mat-vector-algebra-032",
@@ -415,7 +446,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "$\\vec{AB}\\times\\vec{AC}=(1,0,0)\\times(0,1,0)=(0,0,1)$, magnitude 1; area $=\\dfrac12(1)=\\dfrac12$."
+      "explanation": "$\\vec{AB}\\times\\vec{AC}=(1,0,0)\\times(0,1,0)=(0,0,1)$, magnitude 1; area $=\\dfrac12(1)=\\dfrac12$.",
+      "trick": "Cross $\\vec{AB}\\times\\vec{AC}$, halve the magnitude — works for any 3D triangle."
     },
     {
       "id": "mat-vector-algebra-033",
@@ -428,7 +460,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "Setting the scalar triple product $\\begin{vmatrix}2&-1&1\\\\1&2&-3\\\\3&\\lambda&5\\end{vmatrix}=0$ gives $28+7\\lambda=0\\Rightarrow\\lambda=-4$."
+      "explanation": "Setting the scalar triple product $\\begin{vmatrix}2&-1&1\\\\1&2&-3\\\\3&\\lambda&5\\end{vmatrix}=0$ gives $28+7\\lambda=0\\Rightarrow\\lambda=-4$.",
+      "trick": "Set the $3\\times3$ scalar triple product determinant to zero, solve for the unknown."
     },
     {
       "id": "mat-vector-algebra-034",
@@ -441,7 +474,8 @@
       ],
       "answer": 3,
       "difficulty": "medium",
-      "explanation": "$|\\vec a\\times\\vec b|^2=|\\vec a|^2|\\vec b|^2-(\\vec a\\cdot\\vec b)^2=144-36=108$, so $|\\vec a\\times\\vec b|=\\sqrt{108}=6\\sqrt3$."
+      "explanation": "$|\\vec a\\times\\vec b|^2=|\\vec a|^2|\\vec b|^2-(\\vec a\\cdot\\vec b)^2=144-36=108$, so $|\\vec a\\times\\vec b|=\\sqrt{108}=6\\sqrt3$.",
+      "trick": "$|\\vec a\\times\\vec b|^2=|\\vec a|^2|\\vec b|^2-(\\vec a\\cdot\\vec b)^2$ links dot and cross."
     },
     {
       "id": "mat-vector-algebra-035",
@@ -454,7 +488,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "$\\vec a\\times\\vec b=(1,1,0)\\times(0,1,1)=(1,-1,1)=\\hat i-\\hat j+\\hat k$."
+      "explanation": "$\\vec a\\times\\vec b=(1,1,0)\\times(0,1,1)=(1,-1,1)=\\hat i-\\hat j+\\hat k$.",
+      "trick": "A vector perpendicular to two given vectors is exactly their cross product."
     },
     {
       "id": "mat-vector-algebra-036",
@@ -467,7 +502,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "Work $=\\vec F\\cdot\\vec d=2-3+2=1$."
+      "explanation": "Work $=\\vec F\\cdot\\vec d=2-3+2=1$.",
+      "trick": "Work done by a force $=\\vec F\\cdot\\vec d$ (dot product), never cross product."
     },
     {
       "id": "mat-vector-algebra-037",
@@ -480,7 +516,8 @@
       ],
       "answer": 0,
       "difficulty": "hard",
-      "explanation": "$\\vec b\\times\\vec c=(1,1,-1)$; $\\vec a\\cdot(\\vec b\\times\\vec c)=(1)(1)+(1)(1)+(0)(-1)=2$, so the volume is $2$."
+      "explanation": "$\\vec b\\times\\vec c=(1,1,-1)$; $\\vec a\\cdot(\\vec b\\times\\vec c)=(1)(1)+(1)(1)+(0)(-1)=2$, so the volume is $2$.",
+      "trick": "Volume of a parallelepiped = scalar triple product $\\vec a\\cdot(\\vec b\\times\\vec c)$."
     },
     {
       "id": "mat-vector-algebra-038",
@@ -493,7 +530,8 @@
       ],
       "answer": 3,
       "difficulty": "hard",
-      "explanation": "$\\vec a\\times\\vec b=(7,7,-7)$, magnitude $7\\sqrt3$; the unit vector is $\\dfrac{\\hat i+\\hat j-\\hat k}{\\sqrt3}$."
+      "explanation": "$\\vec a\\times\\vec b=(7,7,-7)$, magnitude $7\\sqrt3$; the unit vector is $\\dfrac{\\hat i+\\hat j-\\hat k}{\\sqrt3}$.",
+      "trick": "Perpendicular vector = cross product; normalise by dividing by its magnitude."
     },
     {
       "id": "mat-vector-algebra-039",
@@ -506,7 +544,8 @@
       ],
       "answer": 2,
       "difficulty": "hard",
-      "explanation": "$\\vec a\\times\\vec b=(1,7,5)$, magnitude $\\sqrt{75}=5\\sqrt3$; area $=\\dfrac12(5\\sqrt3)=\\dfrac{5\\sqrt3}{2}$."
+      "explanation": "$\\vec a\\times\\vec b=(1,7,5)$, magnitude $\\sqrt{75}=5\\sqrt3$; area $=\\dfrac12(5\\sqrt3)=\\dfrac{5\\sqrt3}{2}$.",
+      "trick": "Area of triangle $=\\tfrac12|\\vec a\\times\\vec b|$ — compute cross, take magnitude, halve."
     },
     {
       "id": "mat-vector-algebra-040",
@@ -519,7 +558,8 @@
       ],
       "answer": 1,
       "difficulty": "hard",
-      "explanation": "Expanding using the scalar triple product's multilinearity, all repeated-vector terms vanish, leaving exactly $2[\\vec a\\ \\vec b\\ \\vec c]$."
+      "explanation": "Expanding using the scalar triple product's multilinearity, all repeated-vector terms vanish, leaving exactly $2[\\vec a\\ \\vec b\\ \\vec c]$.",
+      "trick": "This identity always simplifies to exactly $2[\\vec a\\ \\vec b\\ \\vec c]$ — memorise the factor 2."
     }
   ]
 }

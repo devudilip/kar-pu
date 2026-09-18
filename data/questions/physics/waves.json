@@ -12,7 +12,8 @@
       ],
       "answer": 3,
       "difficulty": "easy",
-      "explanation": "Wave speed $v=f\\lambda=\\dfrac{\\omega/2\\pi}{2\\pi/k}\\times2\\pi=\\omega/k$."
+      "explanation": "Wave speed $v=f\\lambda=\\dfrac{\\omega/2\\pi}{2\\pi/k}\\times2\\pi=\\omega/k$.",
+      "trick": "Wave speed $v=\\omega/k$ — coefficient of $t$ over coefficient of $x$."
     },
     {
       "id": "phy-waves-002",
@@ -25,7 +26,8 @@
       ],
       "answer": 2,
       "difficulty": "easy",
-      "explanation": "In sound waves, air particles oscillate parallel to the direction of wave propagation, making them longitudinal waves."
+      "explanation": "In sound waves, air particles oscillate parallel to the direction of wave propagation, making them longitudinal waves.",
+      "trick": "Sound: particles vibrate along propagation direction $\\Rightarrow$ longitudinal wave."
     },
     {
       "id": "phy-waves-003",
@@ -38,7 +40,8 @@
       ],
       "answer": 0,
       "difficulty": "easy",
-      "explanation": "$v=\\sqrt{T/\\mu}$ is the standard formula for wave speed on a stretched string."
+      "explanation": "$v=\\sqrt{T/\\mu}$ is the standard formula for wave speed on a stretched string.",
+      "trick": "Memorise string wave speed formula: $v=\\sqrt{T/\\mu}$."
     },
     {
       "id": "phy-waves-004",
@@ -51,7 +54,8 @@
       ],
       "answer": 1,
       "difficulty": "easy",
-      "explanation": "$v\\propto\\sqrt T$; quadrupling $T$ doubles $v$."
+      "explanation": "$v\\propto\\sqrt T$; quadrupling $T$ doubles $v$.",
+      "trick": "$v\\propto\\sqrt T$ — quadrupling tension only doubles the speed."
     },
     {
       "id": "phy-waves-005",
@@ -64,7 +68,8 @@
       ],
       "answer": 1,
       "difficulty": "easy",
-      "explanation": "$v=\\sqrt{\\gamma RT/M}$, so $v \\propto \\sqrt T$; speed of sound in a gas increases with absolute temperature and is independent of pressure at constant temperature."
+      "explanation": "$v=\\sqrt{\\gamma RT/M}$, so $v \\propto \\sqrt T$; speed of sound in a gas increases with absolute temperature and is independent of pressure at constant temperature.",
+      "trick": "$v\\propto\\sqrt T_{abs}$ for sound in gas — higher temperature, faster sound."
     },
     {
       "id": "phy-waves-006",
@@ -77,7 +82,8 @@
       ],
       "answer": 0,
       "difficulty": "easy",
-      "explanation": "In a stationary wave, adjacent nodes (and adjacent antinodes) are separated by $\\lambda/2$; a node and the next antinode are separated by $\\lambda/4$."
+      "explanation": "In a stationary wave, adjacent nodes (and adjacent antinodes) are separated by $\\lambda/2$; a node and the next antinode are separated by $\\lambda/4$.",
+      "trick": "Adjacent nodes are $\\lambda/2$ apart; node-to-antinode is $\\lambda/4$."
     },
     {
       "id": "phy-waves-007",
@@ -90,7 +96,8 @@
       ],
       "answer": 3,
       "difficulty": "medium",
-      "explanation": "Closed pipe: $f=v/4L$. Open pipe of same length: $f_{open}=v/2L=2f$."
+      "explanation": "Closed pipe: $f=v/4L$. Open pipe of same length: $f_{open}=v/2L=2f$.",
+      "trick": "Closed pipe $f=v/4L$; open pipe same $L$ gives $f_{open}=v/2L=2f$."
     },
     {
       "id": "phy-waves-008",
@@ -103,7 +110,8 @@
       ],
       "answer": 2,
       "difficulty": "easy",
-      "explanation": "A closed pipe (one end closed) supports only odd harmonics of its fundamental: $f_1:f_3:f_5=1:3:5...$"
+      "explanation": "A closed pipe (one end closed) supports only odd harmonics of its fundamental: $f_1:f_3:f_5=1:3:5...$",
+      "trick": "Closed pipe: only odd harmonics, ratio $1:3:5:7\\ldots$ — memorise."
     },
     {
       "id": "phy-waves-009",
@@ -116,7 +124,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "Fundamental: $f_1=v/2L \\Rightarrow v=2Lf_1=2\\times1\\times100=200$ m s$^{-1}$."
+      "explanation": "Fundamental: $f_1=v/2L \\Rightarrow v=2Lf_1=2\\times1\\times100=200$ m s$^{-1}$.",
+      "trick": "Fixed-fixed string fundamental: $v=2Lf_1$ — rearrange and plug directly."
     },
     {
       "id": "phy-waves-010",
@@ -129,7 +138,8 @@
       ],
       "answer": 0,
       "difficulty": "easy",
-      "explanation": "Beat frequency $=|f_1-f_2|=|260-256|=4$ Hz."
+      "explanation": "Beat frequency $=|f_1-f_2|=|260-256|=4$ Hz.",
+      "trick": "Beat frequency $=|f_1-f_2|$ — simple subtraction, no formula needed."
     },
     {
       "id": "phy-waves-011",
@@ -142,7 +152,8 @@
       ],
       "answer": 1,
       "difficulty": "hard",
-      "explanation": "Loading with wax decreases the unknown fork's frequency. Since the beat frequency decreased, the unknown frequency must have been above 256 Hz, moving closer to it: $f=256+4=260$ Hz."
+      "explanation": "Loading with wax decreases the unknown fork's frequency. Since the beat frequency decreased, the unknown frequency must have been above 256 Hz, moving closer to it: $f=256+4=260$ Hz.",
+      "trick": "Wax lowers frequency; beats decreasing means unknown was above standard: add 4."
     },
     {
       "id": "phy-waves-012",
@@ -155,7 +166,8 @@
       ],
       "answer": 3,
       "difficulty": "medium",
-      "explanation": "$f'=f\\dfrac{v}{v-v_s}=500\\times\\dfrac{340}{340-34}=500\\times\\dfrac{340}{306}\\approx556$ Hz."
+      "explanation": "$f'=f\\dfrac{v}{v-v_s}=500\\times\\dfrac{340}{340-34}=500\\times\\dfrac{340}{306}\\approx556$ Hz.",
+      "trick": "Source approaching: $f'=f\\cdot v/(v-v_s)$ — denominator shrinks, frequency rises."
     },
     {
       "id": "phy-waves-013",
@@ -168,7 +180,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "When the observer approaches a stationary source, apparent frequency $f'=f\\dfrac{v+v_o}{v}$, which is greater than $f$."
+      "explanation": "When the observer approaches a stationary source, apparent frequency $f'=f\\dfrac{v+v_o}{v}$, which is greater than $f$.",
+      "trick": "Observer approaching stationary source: $f'=f(v+v_o)/v$ — numerator grows."
     },
     {
       "id": "phy-waves-014",
@@ -181,7 +194,8 @@
       ],
       "answer": 3,
       "difficulty": "easy",
-      "explanation": "The Doppler effect is the apparent change in the frequency (and wavelength) of a wave observed due to relative motion between the source and the observer."
+      "explanation": "The Doppler effect is the apparent change in the frequency (and wavelength) of a wave observed due to relative motion between the source and the observer.",
+      "trick": "Doppler effect = apparent frequency shift from relative source-observer motion."
     },
     {
       "id": "phy-waves-015",
@@ -194,7 +208,8 @@
       ],
       "answer": 0,
       "difficulty": "easy",
-      "explanation": "An open pipe supports all harmonics $nf_1$; the first overtone is the second harmonic, $2f_1$."
+      "explanation": "An open pipe supports all harmonics $nf_1$; the first overtone is the second harmonic, $2f_1$.",
+      "trick": "Open pipe harmonics are all integers $nf_1$; first overtone $=2f_1$."
     },
     {
       "id": "phy-waves-016",
@@ -207,7 +222,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "A closed pipe supports only odd harmonics $f_1,3f_1,5f_1,...$; its first overtone is the third harmonic, $3f_1$."
+      "explanation": "A closed pipe supports only odd harmonics $f_1,3f_1,5f_1,...$; its first overtone is the third harmonic, $3f_1$.",
+      "trick": "Closed pipe: only odd harmonics $\\Rightarrow$ first overtone is $3f_1$, not $2f_1$."
     },
     {
       "id": "phy-waves-017",
@@ -220,7 +236,8 @@
       ],
       "answer": 3,
       "difficulty": "medium",
-      "explanation": "For phase difference $\\pi$, the waves destructively interfere completely (for equal amplitudes): resultant amplitude $=\\sqrt{a^2+a^2+2a^2\\cos\\pi}=0$."
+      "explanation": "For phase difference $\\pi$, the waves destructively interfere completely (for equal amplitudes): resultant amplitude $=\\sqrt{a^2+a^2+2a^2\\cos\\pi}=0$.",
+      "trick": "Phase $\\pi$, equal amplitude $\\Rightarrow$ perfect cancellation, resultant amplitude zero."
     },
     {
       "id": "phy-waves-018",
@@ -233,7 +250,8 @@
       ],
       "answer": 0,
       "difficulty": "easy",
-      "explanation": "Nodes are points of permanent zero displacement in a stationary wave; antinodes are points of maximum amplitude of vibration."
+      "explanation": "Nodes are points of permanent zero displacement in a stationary wave; antinodes are points of maximum amplitude of vibration.",
+      "trick": "Nodes = permanent zero displacement; antinodes = maximum displacement points."
     },
     {
       "id": "phy-waves-019",
@@ -246,7 +264,8 @@
       ],
       "answer": 2,
       "difficulty": "easy",
-      "explanation": "$v=f\\lambda=170\\times2=340$ m/s."
+      "explanation": "$v=f\\lambda=170\\times2=340$ m/s.",
+      "trick": "$v=f\\lambda$ — direct multiplication, no other formula needed."
     },
     {
       "id": "phy-waves-020",
@@ -259,7 +278,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "For $y=A\\sin(\\omega t+kx)$, a point of constant phase requires $x$ to decrease as $t$ increases, so the wave travels in the negative x-direction (opposite to $y=A\\sin(\\omega t-kx)$, which travels in $+x$)."
+      "explanation": "For $y=A\\sin(\\omega t+kx)$, a point of constant phase requires $x$ to decrease as $t$ increases, so the wave travels in the negative x-direction (opposite to $y=A\\sin(\\omega t-kx)$, which travels in $+x$).",
+      "trick": "$\\sin(\\omega t+kx)$ form travels in $-x$; $(\\omega t-kx)$ travels in $+x$."
     },
     {
       "id": "phy-waves-021",
@@ -272,7 +292,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "Reflection at a rigid boundary inverts the pulse, a phase reversal of $\\pi$; reflection at a free end occurs with no phase change."
+      "explanation": "Reflection at a rigid boundary inverts the pulse, a phase reversal of $\\pi$; reflection at a free end occurs with no phase change.",
+      "trick": "Fixed-end reflection inverts the pulse $\\Rightarrow$ phase change of $\\pi$."
     },
     {
       "id": "phy-waves-022",
@@ -285,7 +306,8 @@
       ],
       "answer": 1,
       "difficulty": "easy",
-      "explanation": "By the principle of superposition, the net displacement at a point is the vector (here, algebraic) sum of the individual displacements due to each wave."
+      "explanation": "By the principle of superposition, the net displacement at a point is the vector (here, algebraic) sum of the individual displacements due to each wave.",
+      "trick": "Superposition: net displacement is just the algebraic sum of individual waves."
     },
     {
       "id": "phy-waves-023",
@@ -298,7 +320,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "Expanding: $\\sin(\\omega t-kx)+\\sin(\\omega t+kx)=2\\sin\\omega t\\cos kx$, so $y=2A\\sin\\omega t\\cos kx$: an amplitude $2A\\cos kx$ fixed in space, oscillating in time as $\\sin\\omega t$ — a stationary wave."
+      "explanation": "Expanding: $\\sin(\\omega t-kx)+\\sin(\\omega t+kx)=2\\sin\\omega t\\cos kx$, so $y=2A\\sin\\omega t\\cos kx$: an amplitude $2A\\cos kx$ fixed in space, oscillating in time as $\\sin\\omega t$ — a stationary wave.",
+      "trick": "Opposite-direction waves combine to $2A\\sin\\omega t\\cos kx$ — standing wave form."
     },
     {
       "id": "phy-waves-024",
@@ -311,7 +334,8 @@
       ],
       "answer": 3,
       "difficulty": "hard",
-      "explanation": "The $n$th harmonic of a string fixed at both ends has $(n+1)$ nodes and $n$ antinodes; for $n=3$, nodes $=4$."
+      "explanation": "The $n$th harmonic of a string fixed at both ends has $(n+1)$ nodes and $n$ antinodes; for $n=3$, nodes $=4$.",
+      "trick": "$n$th harmonic of fixed-fixed string has $(n+1)$ nodes — third harmonic gives 4."
     },
     {
       "id": "phy-waves-025",
@@ -324,7 +348,8 @@
       ],
       "answer": 3,
       "difficulty": "hard",
-      "explanation": "$\\lambda/2 = l_2-l_1 = 50-16=34$ cm $\\Rightarrow \\lambda=68$ cm $=0.68$ m; $v=f\\lambda=500\\times0.68=340$ m/s."
+      "explanation": "$\\lambda/2 = l_2-l_1 = 50-16=34$ cm $\\Rightarrow \\lambda=68$ cm $=0.68$ m; $v=f\\lambda=500\\times0.68=340$ m/s.",
+      "trick": "Resonance tube: $\\lambda/2=l_2-l_1$, then $v=f\\lambda$ — classic two-step."
     },
     {
       "id": "phy-waves-026",
@@ -337,7 +362,8 @@
       ],
       "answer": 0,
       "difficulty": "easy",
-      "explanation": "Pitch, the perceived highness or lowness of a note, corresponds to the frequency of the sound wave."
+      "explanation": "Pitch, the perceived highness or lowness of a note, corresponds to the frequency of the sound wave.",
+      "trick": "Pitch $\\leftrightarrow$ frequency; loudness $\\leftrightarrow$ amplitude/intensity — don't confuse them."
     },
     {
       "id": "phy-waves-027",
@@ -350,7 +376,8 @@
       ],
       "answer": 1,
       "difficulty": "easy",
-      "explanation": "Loudness is a physiological sensation corresponding to the intensity of the sound wave, which depends on its amplitude."
+      "explanation": "Loudness is a physiological sensation corresponding to the intensity of the sound wave, which depends on its amplitude.",
+      "trick": "Loudness tracks intensity (amplitude squared), not frequency or wavelength."
     },
     {
       "id": "phy-waves-028",
@@ -363,7 +390,8 @@
       ],
       "answer": 2,
       "difficulty": "easy",
-      "explanation": "Quality (timbre) distinguishes sounds of the same pitch and loudness and arises from the different combination of harmonics (overtones) present."
+      "explanation": "Quality (timbre) distinguishes sounds of the same pitch and loudness and arises from the different combination of harmonics (overtones) present.",
+      "trick": "Same pitch and loudness but different sound $=$ quality/timbre from harmonic mix."
     },
     {
       "id": "phy-waves-029",
@@ -376,7 +404,8 @@
       ],
       "answer": 1,
       "difficulty": "easy",
-      "explanation": "The normal human ear can perceive sound frequencies roughly from 20 Hz to 20 kHz."
+      "explanation": "The normal human ear can perceive sound frequencies roughly from 20 Hz to 20 kHz.",
+      "trick": "Memorise the audible range: 20 Hz to 20 kHz for the human ear."
     },
     {
       "id": "phy-waves-030",
@@ -389,7 +418,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "Waves above the upper audible limit (20 kHz) are called ultrasonic waves."
+      "explanation": "Waves above the upper audible limit (20 kHz) are called ultrasonic waves.",
+      "trick": "Above 20 kHz (inaudible, high) = ultrasonic; below 20 Hz = infrasonic."
     },
     {
       "id": "phy-waves-031",
@@ -402,7 +432,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "Waves below the lower audible limit (20 Hz) are called infrasonic waves."
+      "explanation": "Waves below the lower audible limit (20 Hz) are called infrasonic waves.",
+      "trick": "Below 20 Hz (inaudible, low) = infrasonic; above 20 kHz = ultrasonic."
     },
     {
       "id": "phy-waves-032",
@@ -415,7 +446,8 @@
       ],
       "answer": 3,
       "difficulty": "medium",
-      "explanation": "Intensity $I\\propto A^2$ (for fixed frequency and medium), so doubling amplitude quadruples the intensity."
+      "explanation": "Intensity $I\\propto A^2$ (for fixed frequency and medium), so doubling amplitude quadruples the intensity.",
+      "trick": "Intensity $I\\propto A^2$ — doubling amplitude quadruples intensity, not doubles."
     },
     {
       "id": "phy-waves-033",
@@ -428,7 +460,8 @@
       ],
       "answer": 1,
       "difficulty": "hard",
-      "explanation": "When both approach each other, the observer term takes $+v_o$ and the source term takes $-v_s$, both increasing the apparent frequency: $f'=f\\dfrac{v+v_o}{v-v_s}$."
+      "explanation": "When both approach each other, the observer term takes $+v_o$ and the source term takes $-v_s$, both increasing the apparent frequency: $f'=f\\dfrac{v+v_o}{v-v_s}$.",
+      "trick": "Both approach: observer term $+v_o$ (numerator), source term $-v_s$ (denominator)."
     },
     {
       "id": "phy-waves-034",
@@ -441,7 +474,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "Phase difference $\\Delta\\phi = \\dfrac{2\\pi}{\\lambda}\\Delta x = \\dfrac{2\\pi}{\\lambda}\\times\\dfrac{\\lambda}{4}=\\dfrac{\\pi}{2}$."
+      "explanation": "Phase difference $\\Delta\\phi = \\dfrac{2\\pi}{\\lambda}\\Delta x = \\dfrac{2\\pi}{\\lambda}\\times\\dfrac{\\lambda}{4}=\\dfrac{\\pi}{2}$.",
+      "trick": "Phase diff $=(2\\pi/\\lambda)\\times$path diff — plug $\\lambda/4$ directly for $\\pi/2$."
     },
     {
       "id": "phy-waves-035",
@@ -454,7 +488,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "Constructive interference occurs when the path difference is an integral (whole number) multiple of the wavelength, $n\\lambda$."
+      "explanation": "Constructive interference occurs when the path difference is an integral (whole number) multiple of the wavelength, $n\\lambda$.",
+      "trick": "Constructive interference: path difference $=$ integral multiple of $\\lambda$ ($n\\lambda$)."
     },
     {
       "id": "phy-waves-036",
@@ -467,7 +502,8 @@
       ],
       "answer": 3,
       "difficulty": "medium",
-      "explanation": "Destructive interference (for equal amplitudes, complete cancellation) occurs when the path difference is an odd multiple of half the wavelength, $(2n-1)\\lambda/2$."
+      "explanation": "Destructive interference (for equal amplitudes, complete cancellation) occurs when the path difference is an odd multiple of half the wavelength, $(2n-1)\\lambda/2$.",
+      "trick": "Destructive (equal amplitude) interference: path difference $=$ odd multiple of $\\lambda/2$."
     },
     {
       "id": "phy-waves-037",
@@ -480,7 +516,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "$f=\\dfrac{1}{2L}\\sqrt{T/\\mu}\\propto\\sqrt T$; quadrupling $T$ doubles $f$."
+      "explanation": "$f=\\dfrac{1}{2L}\\sqrt{T/\\mu}\\propto\\sqrt T$; quadrupling $T$ doubles $f$.",
+      "trick": "Sonometer: $f\\propto\\sqrt T$ — quadrupling tension only doubles frequency."
     },
     {
       "id": "phy-waves-038",
@@ -493,7 +530,8 @@
       ],
       "answer": 0,
       "difficulty": "hard",
-      "explanation": "$\\mu=\\rho\\pi r^2$, so for the same $L,T,\\rho$: $f\\propto1/\\sqrt\\mu\\propto1/r$; with $r_1:r_2=1:2$, $f_1:f_2=2:1$."
+      "explanation": "$\\mu=\\rho\\pi r^2$, so for the same $L,T,\\rho$: $f\\propto1/\\sqrt\\mu\\propto1/r$; with $r_1:r_2=1:2$, $f_1:f_2=2:1$.",
+      "trick": "$\\mu\\propto r^2\\Rightarrow f\\propto1/r$ (same $L,T$) — thinner wire, higher frequency."
     },
     {
       "id": "phy-waves-039",
@@ -506,7 +544,8 @@
       ],
       "answer": 2,
       "difficulty": "easy",
-      "explanation": "Frequency, the number of oscillations per second, is measured in hertz (Hz)."
+      "explanation": "Frequency, the number of oscillations per second, is measured in hertz (Hz).",
+      "trick": "Frequency's SI unit is always hertz (Hz), oscillations per second."
     },
     {
       "id": "phy-waves-040",
@@ -519,7 +558,8 @@
       ],
       "answer": 3,
       "difficulty": "medium",
-      "explanation": "$f_{open}=v/2L_{open}$ and $f_{closed}=v/4L_{closed}$. Equating: $L_{closed}=L_{open}/2$, so the closed pipe is half as long as the open pipe of equal fundamental frequency."
+      "explanation": "$f_{open}=v/2L_{open}$ and $f_{closed}=v/4L_{closed}$. Equating: $L_{closed}=L_{open}/2$, so the closed pipe is half as long as the open pipe of equal fundamental frequency.",
+      "trick": "Equal fundamentals: $v/2L_{open}=v/4L_{closed}\\Rightarrow L_{closed}=L_{open}/2$."
     }
   ]
 }

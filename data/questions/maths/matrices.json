@@ -12,7 +12,8 @@
       ],
       "answer": 2,
       "difficulty": "easy",
-      "explanation": "$(3\\times4)(4\\times2) = 3\\times2$. Note $BA$ is not defined."
+      "explanation": "$(3\\times4)(4\\times2) = 3\\times2$. Note $BA$ is not defined.",
+      "trick": "Order of $AB=$ (rows of $A)\\times$(cols of $B$); cols of $A$ must equal rows of $B$."
     },
     {
       "id": "mat-matrices-002",
@@ -25,7 +26,8 @@
       ],
       "answer": 0,
       "difficulty": "easy",
-      "explanation": "4 entries, each with 2 choices: $2^4 = 16$."
+      "explanation": "4 entries, each with 2 choices: $2^4 = 16$.",
+      "trick": "Count matrices: $2^{(\\text{number of entries})}$."
     },
     {
       "id": "mat-matrices-003",
@@ -38,7 +40,8 @@
       ],
       "answer": 1,
       "difficulty": "easy",
-      "explanation": "$a_{ii} = -a_{ii} \\Rightarrow a_{ii} = 0$."
+      "explanation": "$a_{ii} = -a_{ii} \\Rightarrow a_{ii} = 0$.",
+      "trick": "Skew-symmetric $\\Rightarrow$ diagonal entries always $0$ (since $a_{ii}=-a_{ii}$)."
     },
     {
       "id": "mat-matrices-004",
@@ -51,7 +54,8 @@
       ],
       "answer": 3,
       "difficulty": "easy",
-      "explanation": "Reversal law for transpose of a product."
+      "explanation": "Reversal law for transpose of a product.",
+      "trick": "Reversal law: $(AB)'=B'A'$ — order flips on transpose of a product."
     },
     {
       "id": "mat-matrices-005",
@@ -64,7 +68,8 @@
       ],
       "answer": 3,
       "difficulty": "medium",
-      "explanation": "$|A| = 4 - 6 = -2$. $A^{-1} = \\dfrac{1}{-2}\\begin{pmatrix}4 & -2\\\\ -3 & 1\\end{pmatrix} = \\begin{pmatrix}-2 & 1\\\\ 3/2 & -1/2\\end{pmatrix}$."
+      "explanation": "$|A| = 4 - 6 = -2$. $A^{-1} = \\dfrac{1}{-2}\\begin{pmatrix}4 & -2\\\\ -3 & 1\\end{pmatrix} = \\begin{pmatrix}-2 & 1\\\\ 3/2 & -1/2\\end{pmatrix}$.",
+      "trick": "$A^{-1}=\\dfrac1{|A|}\\begin{pmatrix}d&-b\\\\-c&a\\end{pmatrix}$ — swap diagonal, negate off-diagonal."
     },
     {
       "id": "mat-matrices-006",
@@ -77,7 +82,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "$(I-A)^2 = I - 2A + A^2 = I - 2A + A = I - A$. Both $A$ and $I - A$ are idempotent."
+      "explanation": "$(I-A)^2 = I - 2A + A^2 = I - 2A + A = I - A$. Both $A$ and $I - A$ are idempotent.",
+      "trick": "Idempotent $A$ means $I-A$ is idempotent too; expand $(I-A)^2$ and simplify with $A^2=A$."
     },
     {
       "id": "mat-matrices-007",
@@ -90,7 +96,8 @@
       ],
       "answer": 2,
       "difficulty": "easy",
-      "explanation": "$|\\text{adj}A| = |A|^{n-1} = 5^2 = 25$."
+      "explanation": "$|\\text{adj}A| = |A|^{n-1} = 5^2 = 25$.",
+      "trick": "$|\\text{adj}\\,A|=|A|^{n-1}$ — plug in $n$ and the given $|A|$."
     },
     {
       "id": "mat-matrices-008",
@@ -103,7 +110,8 @@
       ],
       "answer": 0,
       "difficulty": "easy",
-      "explanation": "$AA' = \\begin{pmatrix}\\cos^2\\theta+\\sin^2\\theta & 0\\\\ 0 & \\sin^2\\theta+\\cos^2\\theta\\end{pmatrix} = I$. $A$ is orthogonal."
+      "explanation": "$AA' = \\begin{pmatrix}\\cos^2\\theta+\\sin^2\\theta & 0\\\\ 0 & \\sin^2\\theta+\\cos^2\\theta\\end{pmatrix} = I$. $A$ is orthogonal.",
+      "trick": "$\\cos^2\\theta+\\sin^2\\theta=1$ kills off-diagonal terms — rotation matrices are orthogonal."
     },
     {
       "id": "mat-matrices-009",
@@ -116,7 +124,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "$x + y = 6$, $xy = 8$ → $x^2 + y^2 = (x+y)^2 - 2xy = 36 - 16 = 20$."
+      "explanation": "$x + y = 6$, $xy = 8$ → $x^2 + y^2 = (x+y)^2 - 2xy = 36 - 16 = 20$.",
+      "trick": "Use $(x+y)^2-2xy=x^2+y^2$ instead of solving for $x,y$ separately."
     },
     {
       "id": "mat-matrices-010",
@@ -129,7 +138,8 @@
       ],
       "answer": 3,
       "difficulty": "easy",
-      "explanation": "$A' = A$ and $A' = -A \\Rightarrow A = -A \\Rightarrow A = 0$."
+      "explanation": "$A' = A$ and $A' = -A \\Rightarrow A = -A \\Rightarrow A = 0$.",
+      "trick": "Only the zero matrix can be both symmetric and skew-symmetric."
     },
     {
       "id": "mat-matrices-011",
@@ -142,7 +152,8 @@
       ],
       "answer": 1,
       "difficulty": "easy",
-      "explanation": "$A^2 = \\begin{pmatrix}0\\cdot0+1\\cdot0 & 0\\cdot1+1\\cdot0\\\\ 0 & 0\\end{pmatrix} = 0$. $A$ is nilpotent."
+      "explanation": "$A^2 = \\begin{pmatrix}0\\cdot0+1\\cdot0 & 0\\cdot1+1\\cdot0\\\\ 0 & 0\\end{pmatrix} = 0$. $A$ is nilpotent.",
+      "trick": "A strictly upper/lower-triangular matrix squares to zero — that's nilpotent."
     },
     {
       "id": "mat-matrices-012",
@@ -155,7 +166,8 @@
       ],
       "answer": 0,
       "difficulty": "easy",
-      "explanation": "Powers of a diagonal matrix are obtained by raising each diagonal entry to that power."
+      "explanation": "Powers of a diagonal matrix are obtained by raising each diagonal entry to that power.",
+      "trick": "Diagonal matrix power: raise each diagonal entry to that power."
     },
     {
       "id": "mat-matrices-013",
@@ -169,7 +181,8 @@
       "answer": 0,
       "difficulty": "medium",
       "explanation": "$|kA| = k^n|A| = 27\\times2 = 54$.",
-      "tip": "Multiplying a matrix by $k$ multiplies every row — hence $k^n$."
+      "tip": "Multiplying a matrix by $k$ multiplies every row — hence $k^n$.",
+      "trick": "$|kA|=k^n|A|$ for an $n\\times n$ matrix — don't forget the power on $k$."
     },
     {
       "id": "mat-matrices-014",
@@ -182,7 +195,8 @@
       ],
       "answer": 1,
       "difficulty": "easy",
-      "explanation": "$A(\\text{adj}A) = (\\text{adj}A)A = |A|I$, which gives $A^{-1} = \\text{adj}A/|A|$."
+      "explanation": "$A(\\text{adj}A) = (\\text{adj}A)A = |A|I$, which gives $A^{-1} = \\text{adj}A/|A|$.",
+      "trick": "$A\\cdot\\text{adj}\\,A=|A|I$ always holds, even when $A$ isn't invertible."
     },
     {
       "id": "mat-matrices-015",
@@ -195,7 +209,8 @@
       ],
       "answer": 2,
       "difficulty": "easy",
-      "explanation": "$(AB)(B^{-1}A^{-1}) = A(BB^{-1})A^{-1} = I$."
+      "explanation": "$(AB)(B^{-1}A^{-1}) = A(BB^{-1})A^{-1} = I$.",
+      "trick": "$(AB)^{-1}=B^{-1}A^{-1}$ — order reverses, just like transpose."
     },
     {
       "id": "mat-matrices-016",
@@ -208,7 +223,8 @@
       ],
       "answer": 3,
       "difficulty": "medium",
-      "explanation": "$A^2 = \\begin{pmatrix}1 & 2\\\\ 0 & 1\\end{pmatrix}$, $A^3 = \\begin{pmatrix}1 & 3\\\\ 0 & 1\\end{pmatrix}$, so $A^n = \\begin{pmatrix}1 & n\\\\ 0 & 1\\end{pmatrix}$."
+      "explanation": "$A^2 = \\begin{pmatrix}1 & 2\\\\ 0 & 1\\end{pmatrix}$, $A^3 = \\begin{pmatrix}1 & 3\\\\ 0 & 1\\end{pmatrix}$, so $A^n = \\begin{pmatrix}1 & n\\\\ 0 & 1\\end{pmatrix}$.",
+      "trick": "Spot the pattern: $\\begin{pmatrix}1&1\\\\0&1\\end{pmatrix}^n=\\begin{pmatrix}1&n\\\\0&1\\end{pmatrix}$."
     },
     {
       "id": "mat-matrices-017",
@@ -221,7 +237,8 @@
       ],
       "answer": 1,
       "difficulty": "easy",
-      "explanation": "$2B=\\begin{pmatrix}2&4\\\\0&-2\\end{pmatrix}$, so $A+2B=\\begin{pmatrix}2+2&-1+4\\\\3+0&4-2\\end{pmatrix}=\\begin{pmatrix}4&3\\\\3&2\\end{pmatrix}$."
+      "explanation": "$2B=\\begin{pmatrix}2&4\\\\0&-2\\end{pmatrix}$, so $A+2B=\\begin{pmatrix}2+2&-1+4\\\\3+0&4-2\\end{pmatrix}=\\begin{pmatrix}4&3\\\\3&2\\end{pmatrix}$.",
+      "trick": "Scale then add entrywise — no shortcut, just careful entry-by-entry arithmetic."
     },
     {
       "id": "mat-matrices-018",
@@ -234,7 +251,8 @@
       ],
       "answer": 3,
       "difficulty": "easy",
-      "explanation": "By definition, $A$ is idempotent when $A^2=A$."
+      "explanation": "By definition, $A$ is idempotent when $A^2=A$.",
+      "trick": "Idempotent means $A^2=A$, by definition."
     },
     {
       "id": "mat-matrices-019",
@@ -247,7 +265,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "For any square matrix $A$, $(A+A')'=A'+A=A+A'$, so $A+A'$ is always symmetric."
+      "explanation": "For any square matrix $A$, $(A+A')'=A'+A=A+A'$, so $A+A'$ is always symmetric.",
+      "trick": "$A+A'$ is always symmetric since $(A+A')'=A'+A=A+A'$."
     },
     {
       "id": "mat-matrices-020",
@@ -260,7 +279,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "$A=\\dfrac12(A+A')+\\dfrac12(A-A')$, where $\\dfrac12(A+A')$ is symmetric and $\\dfrac12(A-A')$ is skew-symmetric."
+      "explanation": "$A=\\dfrac12(A+A')+\\dfrac12(A-A')$, where $\\dfrac12(A+A')$ is symmetric and $\\dfrac12(A-A')$ is skew-symmetric.",
+      "trick": "Any square $A=$ symmetric part $\\tfrac12(A+A')$ + skew part $\\tfrac12(A-A')$."
     },
     {
       "id": "mat-matrices-021",
@@ -273,7 +293,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "$A^2=\\begin{pmatrix}1&2\\\\2&1\\end{pmatrix}\\begin{pmatrix}1&2\\\\2&1\\end{pmatrix}=\\begin{pmatrix}1+4&2+2\\\\2+2&4+1\\end{pmatrix}=\\begin{pmatrix}5&4\\\\4&5\\end{pmatrix}$."
+      "explanation": "$A^2=\\begin{pmatrix}1&2\\\\2&1\\end{pmatrix}\\begin{pmatrix}1&2\\\\2&1\\end{pmatrix}=\\begin{pmatrix}1+4&2+2\\\\2+2&4+1\\end{pmatrix}=\\begin{pmatrix}5&4\\\\4&5\\end{pmatrix}$.",
+      "trick": "Multiply row by column carefully; a quick recheck avoids sign slips."
     },
     {
       "id": "mat-matrices-022",
@@ -286,7 +307,8 @@
       ],
       "answer": 0,
       "difficulty": "easy",
-      "explanation": "A matrix satisfying $A^2=I$ (i.e. $A$ is its own inverse) is called involutory."
+      "explanation": "A matrix satisfying $A^2=I$ (i.e. $A$ is its own inverse) is called involutory.",
+      "trick": "$A^2=I$ defines an involutory matrix (its own inverse)."
     },
     {
       "id": "mat-matrices-023",
@@ -299,7 +321,8 @@
       ],
       "answer": 3,
       "difficulty": "easy",
-      "explanation": "There are $3\\times2=6$ entries, each with 2 choices (1 or 2), giving $2^6=64$ matrices."
+      "explanation": "There are $3\\times2=6$ entries, each with 2 choices (1 or 2), giving $2^6=64$ matrices.",
+      "trick": "$k$ choices per entry over $m\\times n$ entries gives $k^{mn}$ matrices."
     },
     {
       "id": "mat-matrices-024",
@@ -312,7 +335,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "$B$ is $3\\times2$ and $A$ is $2\\times3$; the product $BA$ has order (rows of $B$) $\\times$ (columns of $A$) $=3\\times3$."
+      "explanation": "$B$ is $3\\times2$ and $A$ is $2\\times3$; the product $BA$ has order (rows of $B$) $\\times$ (columns of $A$) $=3\\times3$.",
+      "trick": "$BA$'s order $=$ rows of $B$ $\\times$ cols of $A$ — opposite of $AB$'s order."
     },
     {
       "id": "mat-matrices-025",
@@ -325,7 +349,8 @@
       ],
       "answer": 3,
       "difficulty": "hard",
-      "explanation": "$(AB-BA)'=B'A'-A'B'=BA-AB=-(AB-BA)$, so $AB-BA$ is skew-symmetric."
+      "explanation": "$(AB-BA)'=B'A'-A'B'=BA-AB=-(AB-BA)$, so $AB-BA$ is skew-symmetric.",
+      "trick": "For symmetric $A,B$: $AB-BA$ is always skew-symmetric (transpose flips its sign)."
     },
     {
       "id": "mat-matrices-026",
@@ -338,7 +363,8 @@
       ],
       "answer": 2,
       "difficulty": "easy",
-      "explanation": "For symmetry, $A=A'$ requires the $(1,2)$ and $(2,1)$ entries to be equal, so $x=y$."
+      "explanation": "For symmetry, $A=A'$ requires the $(1,2)$ and $(2,1)$ entries to be equal, so $x=y$.",
+      "trick": "Symmetric $\\Rightarrow$ mirror off-diagonal entries must be equal: $x=y$."
     },
     {
       "id": "mat-matrices-027",
@@ -351,7 +377,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "$|A|=4-3=1$. $A^{-1}=\\dfrac{1}{|A|}\\text{adj}(A)=\\dfrac{1}{1}\\begin{pmatrix}2&-3\\\\-1&2\\end{pmatrix}$."
+      "explanation": "$|A|=4-3=1$. $A^{-1}=\\dfrac{1}{|A|}\\text{adj}(A)=\\dfrac{1}{1}\\begin{pmatrix}2&-3\\\\-1&2\\end{pmatrix}$.",
+      "trick": "When $|A|=1$, $A^{-1}=\\text{adj}(A)$ directly — no division needed."
     },
     {
       "id": "mat-matrices-028",
@@ -364,7 +391,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "The standard identity is $|\\text{adj}\\,A|=|A|^{n-1}$ for an $n\\times n$ matrix."
+      "explanation": "The standard identity is $|\\text{adj}\\,A|=|A|^{n-1}$ for an $n\\times n$ matrix.",
+      "trick": "Memorize $|\\text{adj}\\,A|=|A|^{n-1}$ — a standard one-liner result."
     },
     {
       "id": "mat-matrices-029",
@@ -377,7 +405,8 @@
       ],
       "answer": 3,
       "difficulty": "easy",
-      "explanation": "$|A^{-1}|=\\dfrac{1}{|A|}=\\dfrac{1}{4}$."
+      "explanation": "$|A^{-1}|=\\dfrac{1}{|A|}=\\dfrac{1}{4}$.",
+      "trick": "$|A^{-1}|=1/|A|$ — reciprocal, no matrix computation needed."
     },
     {
       "id": "mat-matrices-030",
@@ -390,7 +419,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "Since matrix multiplication is not commutative in general, $(A+B)^2=A^2+AB+BA+B^2$ is always true, but it simplifies to $A^2+2AB+B^2$ only when $AB=BA$. The other statements can fail."
+      "explanation": "Since matrix multiplication is not commutative in general, $(A+B)^2=A^2+AB+BA+B^2$ is always true, but it simplifies to $A^2+2AB+B^2$ only when $AB=BA$. The other statements can fail.",
+      "trick": "$(A+B)^2=A^2+AB+BA+B^2$ always; it collapses to $A^2+2AB+B^2$ only if $AB=BA$."
     },
     {
       "id": "mat-matrices-031",
@@ -403,7 +433,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "$A'=A$ (symmetric), and $AA'=\\begin{pmatrix}1&0\\\\0&1\\end{pmatrix}=I$, so $A$ is orthogonal as well."
+      "explanation": "$A'=A$ (symmetric), and $AA'=\\begin{pmatrix}1&0\\\\0&1\\end{pmatrix}=I$, so $A$ is orthogonal as well.",
+      "trick": "Check $A'=A$ (symmetric) and $AA'=I$ (orthogonal) separately for diagonal $\\pm1$ matrices."
     },
     {
       "id": "mat-matrices-032",
@@ -416,7 +447,8 @@
       ],
       "answer": 1,
       "difficulty": "easy",
-      "explanation": "Equating corresponding entries: $2x=6\\Rightarrow x=3$; $y-3=5\\Rightarrow y=8$."
+      "explanation": "Equating corresponding entries: $2x=6\\Rightarrow x=3$; $y-3=5\\Rightarrow y=8$.",
+      "trick": "Equate corresponding entries directly; solve each little equation on its own."
     },
     {
       "id": "mat-matrices-033",
@@ -429,7 +461,8 @@
       ],
       "answer": 3,
       "difficulty": "hard",
-      "explanation": "$A\\cdot\\text{adj}\\,A=|A|I$, so $|A\\cdot\\text{adj}\\,A|=|A|^3=|A|^n=3^3=27$ for $n=3$."
+      "explanation": "$A\\cdot\\text{adj}\\,A=|A|I$, so $|A\\cdot\\text{adj}\\,A|=|A|^3=|A|^n=3^3=27$ for $n=3$.",
+      "trick": "$|A\\cdot\\text{adj}\\,A|=|A|^n$ since $A\\cdot\\text{adj}\\,A=|A|I$."
     },
     {
       "id": "mat-matrices-034",
@@ -442,7 +475,8 @@
       ],
       "answer": 1,
       "difficulty": "easy",
-      "explanation": "$A'=-A$ means $A$ is skew-symmetric, so $a_{ii}=-a_{ii}\\Rightarrow 2a_{ii}=0\\Rightarrow a_{ii}=0$ for every diagonal entry."
+      "explanation": "$A'=-A$ means $A$ is skew-symmetric, so $a_{ii}=-a_{ii}\\Rightarrow 2a_{ii}=0\\Rightarrow a_{ii}=0$ for every diagonal entry.",
+      "trick": "$A'=-A$ (skew-symmetric) forces every diagonal entry to be zero."
     },
     {
       "id": "mat-matrices-035",
@@ -455,7 +489,8 @@
       ],
       "answer": 2,
       "difficulty": "easy",
-      "explanation": "By definition, if $AB=BA=I$, then $B=A^{-1}$, the inverse of $A$."
+      "explanation": "By definition, if $AB=BA=I$, then $B=A^{-1}$, the inverse of $A$.",
+      "trick": "$AB=BA=I$ defines $B$ as $A$'s inverse, by definition."
     },
     {
       "id": "mat-matrices-036",
@@ -468,7 +503,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "The transpose of $\\begin{pmatrix}0&2\\\\-2&0\\end{pmatrix}$ is $\\begin{pmatrix}0&-2\\\\2&0\\end{pmatrix}$, which equals $-A$, confirming both the definition (R) and the assertion (A)."
+      "explanation": "The transpose of $\\begin{pmatrix}0&2\\\\-2&0\\end{pmatrix}$ is $\\begin{pmatrix}0&-2\\\\2&0\\end{pmatrix}$, which equals $-A$, confirming both the definition (R) and the assertion (A).",
+      "trick": "Transpose the given matrix and compare to $-A$ to confirm skew-symmetry."
     },
     {
       "id": "mat-matrices-037",
@@ -481,7 +517,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "$AB=\\begin{pmatrix}1\\cdot0+2\\cdot1&1\\cdot1+2\\cdot0\\\\3\\cdot0+4\\cdot1&3\\cdot1+4\\cdot0\\end{pmatrix}=\\begin{pmatrix}2&1\\\\4&3\\end{pmatrix}$ (this swaps the columns of $A$)."
+      "explanation": "$AB=\\begin{pmatrix}1\\cdot0+2\\cdot1&1\\cdot1+2\\cdot0\\\\3\\cdot0+4\\cdot1&3\\cdot1+4\\cdot0\\end{pmatrix}=\\begin{pmatrix}2&1\\\\4&3\\end{pmatrix}$ (this swaps the columns of $A$).",
+      "trick": "Right-multiplying by $\\begin{pmatrix}0&1\\\\1&0\\end{pmatrix}$ just swaps $A$'s columns."
     },
     {
       "id": "mat-matrices-038",
@@ -494,7 +531,8 @@
       ],
       "answer": 3,
       "difficulty": "medium",
-      "explanation": "A matrix $A$ for which some positive power $A^k=0$ is called nilpotent."
+      "explanation": "A matrix $A$ for which some positive power $A^k=0$ is called nilpotent.",
+      "trick": "Some power $=0$ (but not the one before) $\\Rightarrow$ nilpotent, by definition."
     },
     {
       "id": "mat-matrices-039",
@@ -507,7 +545,8 @@
       ],
       "answer": 1,
       "difficulty": "hard",
-      "explanation": "$A^2=\\begin{pmatrix}1\\cdot1+(-1)\\cdot2 & 1\\cdot(-1)+(-1)\\cdot(-1)\\\\2\\cdot1+(-1)\\cdot2 & 2\\cdot(-1)+(-1)\\cdot(-1)\\end{pmatrix}=\\begin{pmatrix}1-2&-1+1\\\\2-2&-2+1\\end{pmatrix}=\\begin{pmatrix}-1&0\\\\0&-1\\end{pmatrix}$."
+      "explanation": "$A^2=\\begin{pmatrix}1\\cdot1+(-1)\\cdot2 & 1\\cdot(-1)+(-1)\\cdot(-1)\\\\2\\cdot1+(-1)\\cdot2 & 2\\cdot(-1)+(-1)\\cdot(-1)\\end{pmatrix}=\\begin{pmatrix}1-2&-1+1\\\\2-2&-2+1\\end{pmatrix}=\\begin{pmatrix}-1&0\\\\0&-1\\end{pmatrix}$.",
+      "trick": "Multiply row-by-column carefully; here it collapses neatly to $-I$."
     }
   ]
 }

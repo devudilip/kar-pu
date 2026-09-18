@@ -12,7 +12,8 @@
       ],
       "answer": 2,
       "difficulty": "easy",
-      "explanation": "Equilibrium is dynamic: both forward and reverse reactions continue at equal rates, so concentrations stay constant, not zero net reaction."
+      "explanation": "Equilibrium is dynamic: both forward and reverse reactions continue at equal rates, so concentrations stay constant, not zero net reaction.",
+      "trick": "Dynamic equilibrium: rates equal, concentrations constant — reaction never actually stops."
     },
     {
       "id": "che-equilibrium-002",
@@ -25,7 +26,8 @@
       ],
       "answer": 3,
       "difficulty": "easy",
-      "explanation": "Derived from ideal gas law substitution into the equilibrium expression; when $\\Delta n_g = 0$, $K_p = K_c$."
+      "explanation": "Derived from ideal gas law substitution into the equilibrium expression; when $\\Delta n_g = 0$, $K_p = K_c$.",
+      "trick": "$K_p = K_c(RT)^{\\Delta n_g}$; if $\\Delta n_g=0$, they're equal."
     },
     {
       "id": "che-equilibrium-003",
@@ -38,7 +40,8 @@
       ],
       "answer": 0,
       "difficulty": "easy",
-      "explanation": "Since the forward reaction is exothermic, raising temperature (adding heat) shifts equilibrium in the endothermic (reverse) direction, per Le Chatelier's principle."
+      "explanation": "Since the forward reaction is exothermic, raising temperature (adding heat) shifts equilibrium in the endothermic (reverse) direction, per Le Chatelier's principle.",
+      "trick": "Exothermic forward → heating favours the reverse (endothermic) direction."
     },
     {
       "id": "che-equilibrium-004",
@@ -51,7 +54,8 @@
       ],
       "answer": 1,
       "difficulty": "easy",
-      "explanation": "4 mol gas → 2 mol gas; increasing pressure favours the side with fewer moles of gas, i.e. the forward direction."
+      "explanation": "4 mol gas → 2 mol gas; increasing pressure favours the side with fewer moles of gas, i.e. the forward direction.",
+      "trick": "More pressure favours the side with fewer gas moles."
     },
     {
       "id": "che-equilibrium-005",
@@ -64,7 +68,8 @@
       ],
       "answer": 2,
       "difficulty": "easy",
-      "explanation": "A catalyst lowers activation energy for both forward and reverse reactions equally, helping equilibrium to be reached faster without changing its position or $K$."
+      "explanation": "A catalyst lowers activation energy for both forward and reverse reactions equally, helping equilibrium to be reached faster without changing its position or $K$.",
+      "trick": "Catalyst speeds both directions equally — no shift, no change in $K$."
     },
     {
       "id": "che-equilibrium-006",
@@ -77,7 +82,8 @@
       ],
       "answer": 1,
       "difficulty": "easy",
-      "explanation": "HCl is a strong acid, fully dissociated: $[H^+] = 10^{-3}$ M, so $pH = -\\log(10^{-3}) = 3$."
+      "explanation": "HCl is a strong acid, fully dissociated: $[H^+] = 10^{-3}$ M, so $pH = -\\log(10^{-3}) = 3$.",
+      "trick": "Strong acid fully dissociates: $pH = -\\log[H^+]$ directly from concentration."
     },
     {
       "id": "che-equilibrium-007",
@@ -90,7 +96,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "$K_a = C\\alpha^2$ (for small $\\alpha$), so $\\alpha = \\sqrt{K_a/C}$ — degree of dissociation increases on dilution (decreasing $C$)."
+      "explanation": "$K_a = C\\alpha^2$ (for small $\\alpha$), so $\\alpha = \\sqrt{K_a/C}$ — degree of dissociation increases on dilution (decreasing $C$).",
+      "trick": "Ostwald: $\\alpha=\\sqrt{K_a/C}$ — dissociation rises as concentration falls."
     },
     {
       "id": "che-equilibrium-008",
@@ -103,7 +110,8 @@
       ],
       "answer": 3,
       "difficulty": "medium",
-      "explanation": "$[H^+] = \\sqrt{K_aC} = \\sqrt{10^{-6}\\times10^{-2}} = \\sqrt{10^{-8}} = 10^{-4}$ M; $pH = 4$."
+      "explanation": "$[H^+] = \\sqrt{K_aC} = \\sqrt{10^{-6}\\times10^{-2}} = \\sqrt{10^{-8}} = 10^{-4}$ M; $pH = 4$.",
+      "trick": "$[H^+]=\\sqrt{K_aC}$ for a weak acid — plug in and take $-\\log$."
     },
     {
       "id": "che-equilibrium-009",
@@ -116,7 +124,8 @@
       ],
       "answer": 3,
       "difficulty": "easy",
-      "explanation": "Bronsted-Lowry base = proton acceptor; the corresponding acid is a proton donor. (Electron pair donor/acceptor is the Lewis definition.)"
+      "explanation": "Bronsted-Lowry base = proton acceptor; the corresponding acid is a proton donor. (Electron pair donor/acceptor is the Lewis definition.)",
+      "trick": "Bronsted-Lowry base = proton acceptor (not electron-pair donor — that's Lewis)."
     },
     {
       "id": "che-equilibrium-010",
@@ -129,7 +138,8 @@
       ],
       "answer": 1,
       "difficulty": "easy",
-      "explanation": "A weak acid (CH$_3$COOH) with its salt of a strong base (CH$_3$COONa) forms an acidic buffer. NH$_4$OH+NH$_4$Cl is a basic buffer."
+      "explanation": "A weak acid (CH$_3$COOH) with its salt of a strong base (CH$_3$COONa) forms an acidic buffer. NH$_4$OH+NH$_4$Cl is a basic buffer.",
+      "trick": "Weak acid + its salt of a strong base = classic acidic buffer."
     },
     {
       "id": "che-equilibrium-011",
@@ -142,7 +152,8 @@
       ],
       "answer": 2,
       "difficulty": "easy",
-      "explanation": "Standard Henderson-Hasselbalch relation for a weak acid buffer."
+      "explanation": "Standard Henderson-Hasselbalch relation for a weak acid buffer.",
+      "trick": "Henderson-Hasselbalch: $pH = pK_a + \\log([\\text{salt}]/[\\text{acid}])$."
     },
     {
       "id": "che-equilibrium-012",
@@ -155,7 +166,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "Since [salt] = [acid], $\\log(1) = 0$, so $pH = pK_a = 4.74$ — buffer capacity is maximum here."
+      "explanation": "Since [salt] = [acid], $\\log(1) = 0$, so $pH = pK_a = 4.74$ — buffer capacity is maximum here.",
+      "trick": "Equal salt and acid → $\\log(1)=0$ → $pH = pK_a$ exactly."
     },
     {
       "id": "che-equilibrium-013",
@@ -168,7 +180,8 @@
       ],
       "answer": 0,
       "difficulty": "easy",
-      "explanation": "NH$_4$Cl is a salt of a weak base (NH$_4$OH) and strong acid (HCl); the NH$_4^+$ ion hydrolyses to give an acidic solution."
+      "explanation": "NH$_4$Cl is a salt of a weak base (NH$_4$OH) and strong acid (HCl); the NH$_4^+$ ion hydrolyses to give an acidic solution.",
+      "trick": "Weak base + strong acid salt (NH$_4$Cl) → cation hydrolyses → acidic."
     },
     {
       "id": "che-equilibrium-014",
@@ -181,7 +194,8 @@
       ],
       "answer": 3,
       "difficulty": "easy",
-      "explanation": "$K_{sp} = [Ag^+]^2[CrO_4^{2-}]$, powers equal to stoichiometric coefficients."
+      "explanation": "$K_{sp} = [Ag^+]^2[CrO_4^{2-}]$, powers equal to stoichiometric coefficients.",
+      "trick": "$K_{sp}$ powers match stoichiometric coefficients: $[Ag^+]^2[CrO_4^{2-}]$."
     },
     {
       "id": "che-equilibrium-015",
@@ -194,7 +208,8 @@
       ],
       "answer": 2,
       "difficulty": "easy",
-      "explanation": "AgCl $\\rightleftharpoons Ag^+ + Cl^-$; $[Ag^+]=[Cl^-]=s$, so $K_{sp} = s\\times s = s^2$."
+      "explanation": "AgCl $\\rightleftharpoons Ag^+ + Cl^-$; $[Ag^+]=[Cl^-]=s$, so $K_{sp} = s\\times s = s^2$.",
+      "trick": "1:1 salt: $K_{sp}=s^2$ when both ions come from one formula unit."
     },
     {
       "id": "che-equilibrium-016",
@@ -207,7 +222,8 @@
       ],
       "answer": 1,
       "difficulty": "easy",
-      "explanation": "Adding a common ion shifts the dissolution equilibrium backward (Le Chatelier), decreasing solubility, e.g. adding NaCl decreases AgCl solubility."
+      "explanation": "Adding a common ion shifts the dissolution equilibrium backward (Le Chatelier), decreasing solubility, e.g. adding NaCl decreases AgCl solubility.",
+      "trick": "Common ion pushes dissolution equilibrium backward — solubility always drops."
     },
     {
       "id": "che-equilibrium-017",
@@ -220,7 +236,8 @@
       ],
       "answer": 0,
       "difficulty": "easy",
-      "explanation": "Water self-ionises slightly: $[H^+][OH^-]=10^{-14}$; since they're equal, each is $10^{-7}$ M, giving pH 7 (neutral)."
+      "explanation": "Water self-ionises slightly: $[H^+][OH^-]=10^{-14}$; since they're equal, each is $10^{-7}$ M, giving pH 7 (neutral).",
+      "trick": "$K_w=[H^+][OH^-]=10^{-14}$; equal split gives $10^{-7}$ each → pH 7."
     },
     {
       "id": "che-equilibrium-018",
@@ -233,7 +250,8 @@
       ],
       "answer": 2,
       "difficulty": "easy",
-      "explanation": "$pH + pOH = 14 \\Rightarrow pH = 14 - 4 = 10$."
+      "explanation": "$pH + pOH = 14 \\Rightarrow pH = 14 - 4 = 10$.",
+      "trick": "$pH+pOH=14$ always at 25°C — just subtract."
     },
     {
       "id": "che-equilibrium-019",
@@ -246,7 +264,8 @@
       ],
       "answer": 3,
       "difficulty": "medium",
-      "explanation": "$pK_a = -\\log(10^{-5}) = 5$. Since $pK_a + pK_b = 14$ for a conjugate pair, $pK_b = 14 - 5 = 9$."
+      "explanation": "$pK_a = -\\log(10^{-5}) = 5$. Since $pK_a + pK_b = 14$ for a conjugate pair, $pK_b = 14 - 5 = 9$.",
+      "trick": "$pK_a+pK_b=14$ for a conjugate pair; compute $pK_a$ first, subtract from 14."
     },
     {
       "id": "che-equilibrium-020",
@@ -259,7 +278,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "When $Q < K$, there is a relative excess of reactants, so the reaction moves forward (more products form) until $Q$ equals $K$."
+      "explanation": "When $Q < K$, there is a relative excess of reactants, so the reaction moves forward (more products form) until $Q$ equals $K$.",
+      "trick": "$Q<K$ means excess reactant → reaction runs forward to catch up."
     },
     {
       "id": "che-equilibrium-021",
@@ -272,7 +292,8 @@
       ],
       "answer": 0,
       "difficulty": "hard",
-      "explanation": "$\\Delta n_g = 2-1 = 1$; $K_p = K_c(RT)^1 = 1.8\\times0.0821\\times500 \\approx 73.9$."
+      "explanation": "$\\Delta n_g = 2-1 = 1$; $K_p = K_c(RT)^1 = 1.8\\times0.0821\\times500 \\approx 73.9$.",
+      "trick": "$K_p=K_c(RT)^{\\Delta n_g}$; here $\\Delta n_g=1$, so multiply by $RT$ once."
     },
     {
       "id": "che-equilibrium-022",
@@ -285,7 +306,8 @@
       ],
       "answer": 2,
       "difficulty": "easy",
-      "explanation": "At constant volume, adding an inert gas does not change the partial pressures or concentrations of the reacting species, so the equilibrium position is unaffected."
+      "explanation": "At constant volume, adding an inert gas does not change the partial pressures or concentrations of the reacting species, so the equilibrium position is unaffected.",
+      "trick": "Inert gas at constant volume doesn't change partial pressures — no shift."
     },
     {
       "id": "che-equilibrium-023",
@@ -298,7 +320,8 @@
       ],
       "answer": 3,
       "difficulty": "medium",
-      "explanation": "At constant pressure, adding inert gas increases the total volume, which lowers the partial pressures of all reacting gases — equivalent to decreasing pressure, so equilibrium shifts toward the side with more gas moles (backward here)."
+      "explanation": "At constant pressure, adding inert gas increases the total volume, which lowers the partial pressures of all reacting gases — equivalent to decreasing pressure, so equilibrium shifts toward the side with more gas moles (backward here).",
+      "trick": "Inert gas at constant pressure dilutes the gases like lowering pressure — shifts toward more gas moles."
     },
     {
       "id": "che-equilibrium-024",
@@ -311,7 +334,8 @@
       ],
       "answer": 1,
       "difficulty": "easy",
-      "explanation": "BF$_3$ has an incomplete octet on boron and can accept an electron pair, making it a Lewis acid; the others are electron-pair donors (Lewis bases)."
+      "explanation": "BF$_3$ has an incomplete octet on boron and can accept an electron pair, making it a Lewis acid; the others are electron-pair donors (Lewis bases).",
+      "trick": "Lewis acid accepts an electron pair; incomplete octet (BF$_3$) is the giveaway."
     },
     {
       "id": "che-equilibrium-025",
@@ -324,7 +348,8 @@
       ],
       "answer": 2,
       "difficulty": "easy",
-      "explanation": "HCO$_3^-$ can donate a proton (to form CO$_3^{2-}$) or accept one (to form H$_2$CO$_3$), so it is amphiprotic."
+      "explanation": "HCO$_3^-$ can donate a proton (to form CO$_3^{2-}$) or accept one (to form H$_2$CO$_3$), so it is amphiprotic.",
+      "trick": "Amphiprotic species can both gain and lose a proton — look for an -HCO$_3^-$-type ion."
     },
     {
       "id": "che-equilibrium-026",
@@ -337,7 +362,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "$[OH^-] = \\sqrt{K_bC} = \\sqrt{10^{-6}\\times10^{-2}} = 10^{-4}$ M; $pOH = 4$, so $pH = 14-4 = 10$."
+      "explanation": "$[OH^-] = \\sqrt{K_bC} = \\sqrt{10^{-6}\\times10^{-2}} = 10^{-4}$ M; $pOH = 4$, so $pH = 14-4 = 10$.",
+      "trick": "$[OH^-]=\\sqrt{K_bC}$ for a weak base; convert $pOH$ to $pH$ via 14 minus."
     },
     {
       "id": "che-equilibrium-027",
@@ -350,7 +376,8 @@
       ],
       "answer": 3,
       "difficulty": "medium",
-      "explanation": "The acetate ion from CH$_3$COONa is common to the acid's dissociation equilibrium; by Le Chatelier's principle it suppresses further ionisation of CH$_3$COOH."
+      "explanation": "The acetate ion from CH$_3$COONa is common to the acid's dissociation equilibrium; by Le Chatelier's principle it suppresses further ionisation of CH$_3$COOH.",
+      "trick": "Adding the salt's common ion suppresses the weak acid's own ionisation."
     },
     {
       "id": "che-equilibrium-028",
@@ -363,7 +390,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "$K_{sp} = s^2 \\Rightarrow s = \\sqrt{1.8\\times10^{-10}} \\approx 1.34\\times10^{-5}$ M."
+      "explanation": "$K_{sp} = s^2 \\Rightarrow s = \\sqrt{1.8\\times10^{-10}} \\approx 1.34\\times10^{-5}$ M.",
+      "trick": "1:1 salt: $s=\\sqrt{K_{sp}}$ — simple square root, no factors needed."
     },
     {
       "id": "che-equilibrium-029",
@@ -376,7 +404,8 @@
       ],
       "answer": 0,
       "difficulty": "hard",
-      "explanation": "With a common ion, $[Cl^-] \\approx 0.1$ M (from NaCl); $s = K_{sp}/[Cl^-] = 1.8\\times10^{-10}/0.1 = 1.8\\times10^{-9}$ M — much lower solubility than in pure water (common ion effect)."
+      "explanation": "With a common ion, $[Cl^-] \\approx 0.1$ M (from NaCl); $s = K_{sp}/[Cl^-] = 1.8\\times10^{-10}/0.1 = 1.8\\times10^{-9}$ M — much lower solubility than in pure water (common ion effect).",
+      "trick": "Common ion effect: $s \\approx K_{sp}/[\\text{common ion}]$, not $\\sqrt{K_{sp}}$."
     },
     {
       "id": "che-equilibrium-030",
@@ -389,7 +418,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "When the ionic product exceeds $K_{sp}$, the solution is supersaturated, and excess solid precipitates out until the ionic product equals $K_{sp}$."
+      "explanation": "When the ionic product exceeds $K_{sp}$, the solution is supersaturated, and excess solid precipitates out until the ionic product equals $K_{sp}$.",
+      "trick": "Ionic product $> K_{sp}$ means supersaturated → excess solid precipitates."
     },
     {
       "id": "che-equilibrium-031",
@@ -402,7 +432,8 @@
       ],
       "answer": 2,
       "difficulty": "easy",
-      "explanation": "$K$ depends only on temperature; catalysts, concentration and pressure changes shift the position of equilibrium but leave $K$ unchanged at a given $T$."
+      "explanation": "$K$ depends only on temperature; catalysts, concentration and pressure changes shift the position of equilibrium but leave $K$ unchanged at a given $T$.",
+      "trick": "$K$ changes with temperature only — catalyst/pressure/concentration never touch it."
     },
     {
       "id": "che-equilibrium-032",
@@ -415,7 +446,8 @@
       ],
       "answer": 0,
       "difficulty": "hard",
-      "explanation": "$Q_c = (0.4)^2/(0.1\\times0.1) = 16$, which is less than $K_c = 50$, so the reaction proceeds forward to form more HI until $Q_c = K_c$."
+      "explanation": "$Q_c = (0.4)^2/(0.1\\times0.1) = 16$, which is less than $K_c = 50$, so the reaction proceeds forward to form more HI until $Q_c = K_c$.",
+      "trick": "Compute $Q_c$ from given concentrations, compare to $K_c$ to find direction."
     },
     {
       "id": "che-equilibrium-033",
@@ -428,7 +460,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "Raising temperature favours the endothermic (heat-absorbing) direction; since the forward reaction is endothermic here, more products form, increasing $K$."
+      "explanation": "Raising temperature favours the endothermic (heat-absorbing) direction; since the forward reaction is endothermic here, more products form, increasing $K$.",
+      "trick": "Endothermic forward reaction: heating increases $K$, favouring products."
     },
     {
       "id": "che-equilibrium-034",
@@ -441,7 +474,8 @@
       ],
       "answer": 3,
       "difficulty": "medium",
-      "explanation": "By Ostwald's dilution law, $\\alpha = \\sqrt{K_a/C}$, so $\\alpha \\propto 1/\\sqrt{C}$; diluting 100 times increases $\\alpha$ by a factor of $\\sqrt{100} = 10$."
+      "explanation": "By Ostwald's dilution law, $\\alpha = \\sqrt{K_a/C}$, so $\\alpha \\propto 1/\\sqrt{C}$; diluting 100 times increases $\\alpha$ by a factor of $\\sqrt{100} = 10$.",
+      "trick": "$\\alpha \\propto 1/\\sqrt{C}$; diluting 100$\\times$ raises $\\alpha$ by $\\sqrt{100}=10\\times$."
     },
     {
       "id": "che-equilibrium-035",
@@ -454,7 +488,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "NaOH is a strong base: $[OH^-] = 10^{-3}$ M, $pOH = 3$, so $pH = 14-3 = 11$."
+      "explanation": "NaOH is a strong base: $[OH^-] = 10^{-3}$ M, $pOH = 3$, so $pH = 14-3 = 11$.",
+      "trick": "Strong base fully dissociates: get $pOH$ from $[OH^-]$, then $pH=14-pOH$."
     },
     {
       "id": "che-equilibrium-036",
@@ -467,7 +502,8 @@
       ],
       "answer": 2,
       "difficulty": "hard",
-      "explanation": "$pH = pK_a + \\log\\dfrac{[\\text{salt}]}{[\\text{acid}]} = 4.74 + \\log(0.1/0.2) = 4.74 - 0.301 = 4.44$."
+      "explanation": "$pH = pK_a + \\log\\dfrac{[\\text{salt}]}{[\\text{acid}]} = 4.74 + \\log(0.1/0.2) = 4.74 - 0.301 = 4.44$.",
+      "trick": "Henderson-Hasselbalch with unequal moles: $pH=pK_a+\\log(\\text{salt/acid ratio})$."
     },
     {
       "id": "che-equilibrium-037",
@@ -480,7 +516,8 @@
       ],
       "answer": 2,
       "difficulty": "easy",
-      "explanation": "NaCl is a salt of a strong acid (HCl) and a strong base (NaOH); neither ion hydrolyses, so the solution remains neutral."
+      "explanation": "NaCl is a salt of a strong acid (HCl) and a strong base (NaOH); neither ion hydrolyses, so the solution remains neutral.",
+      "trick": "Strong acid + strong base salt hydrolyses not at all → stays neutral."
     },
     {
       "id": "che-equilibrium-038",
@@ -493,7 +530,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "For a salt of a weak acid and weak base, the solution's nature depends on the relative strengths of $K_a$ and $K_b$; if they are equal, the hydrolysis exactly balances and the solution is neutral."
+      "explanation": "For a salt of a weak acid and weak base, the solution's nature depends on the relative strengths of $K_a$ and $K_b$; if they are equal, the hydrolysis exactly balances and the solution is neutral.",
+      "trick": "Weak acid + weak base salt: equal $K_a$ and $K_b$ cancel out to neutral."
     },
     {
       "id": "che-equilibrium-039",
@@ -506,7 +544,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "$\\Delta n_g = 2 - 3 = -1$, so $K_p = K_c(RT)^{-1} = K_c/(RT)$."
+      "explanation": "$\\Delta n_g = 2 - 3 = -1$, so $K_p = K_c(RT)^{-1} = K_c/(RT)$.",
+      "trick": "Compute $\\Delta n_g$ (products − reactants) first, then apply $K_p=K_c(RT)^{\\Delta n_g}$."
     },
     {
       "id": "che-equilibrium-040",
@@ -519,7 +558,8 @@
       ],
       "answer": 0,
       "difficulty": "easy",
-      "explanation": "When $Q > K$, there is a relative excess of products, so the reaction shifts in the reverse direction until $Q$ decreases to equal $K$."
+      "explanation": "When $Q > K$, there is a relative excess of products, so the reaction shifts in the reverse direction until $Q$ decreases to equal $K$.",
+      "trick": "$Q>K$ means excess product → reaction runs backward to catch up."
     }
   ]
 }

@@ -12,7 +12,8 @@
       ],
       "answer": 0,
       "difficulty": "easy",
-      "explanation": "$i_{rms} = i_0/\\sqrt2 = 10/1.414 = 7.07$ A."
+      "explanation": "$i_{rms} = i_0/\\sqrt2 = 10/1.414 = 7.07$ A.",
+      "trick": "$i_{rms}=i_0/\\sqrt2\\approx0.707\\,i_0$ — memorise the 0.707 factor directly."
     },
     {
       "id": "phy-alternating-current-002",
@@ -25,7 +26,8 @@
       ],
       "answer": 3,
       "difficulty": "easy",
-      "explanation": "$P = V_{rms}^2/R = 220^2/100 = 484$ W."
+      "explanation": "$P = V_{rms}^2/R = 220^2/100 = 484$ W.",
+      "trick": "Pure resistor: $P=V_{rms}^2/R$, use rms voltage directly, no $\\cos\\phi$ needed."
     },
     {
       "id": "phy-alternating-current-003",
@@ -38,7 +40,8 @@
       ],
       "answer": 1,
       "difficulty": "easy",
-      "explanation": "For an inductor, $V=L\\,di/dt$ makes the current lag the voltage by $90^\\circ$ ('ELI')."
+      "explanation": "For an inductor, $V=L\\,di/dt$ makes the current lag the voltage by $90^\\circ$ ('ELI').",
+      "trick": "Remember 'ELI': in an inductor, EMF leads current — current LAGS by 90°."
     },
     {
       "id": "phy-alternating-current-004",
@@ -51,7 +54,8 @@
       ],
       "answer": 2,
       "difficulty": "easy",
-      "explanation": "Power factor $\\cos\\phi = \\cos90^\\circ = 0$ for a pure capacitor, so average power over a cycle is zero (wattless current)."
+      "explanation": "Power factor $\\cos\\phi = \\cos90^\\circ = 0$ for a pure capacitor, so average power over a cycle is zero (wattless current).",
+      "trick": "Pure C or pure L: power factor is zero, so average power is always zero."
     },
     {
       "id": "phy-alternating-current-005",
@@ -64,7 +68,8 @@
       ],
       "answer": 3,
       "difficulty": "easy",
-      "explanation": "$X_L = \\omega L = 2\\pi fL = 2\\pi\\times50\\times0.5 = 157\\,\\Omega$."
+      "explanation": "$X_L = \\omega L = 2\\pi fL = 2\\pi\\times50\\times0.5 = 157\\,\\Omega$.",
+      "trick": "$X_L=2\\pi fL$ — plug in directly, don't forget the $2\\pi$."
     },
     {
       "id": "phy-alternating-current-006",
@@ -77,7 +82,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "$X_C = 1/(2\\pi fC) = 1/(2\\pi\\times50\\times10\\times10^{-6}) = 1/(3.14\\times10^{-3}) \\approx 318\\,\\Omega$."
+      "explanation": "$X_C = 1/(2\\pi fC) = 1/(2\\pi\\times50\\times10\\times10^{-6}) = 1/(3.14\\times10^{-3}) \\approx 318\\,\\Omega$.",
+      "trick": "$X_C=1/(2\\pi fC)$ — reciprocal relation, larger $C$ means smaller $X_C$."
     },
     {
       "id": "phy-alternating-current-007",
@@ -90,7 +96,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "$Z=\\sqrt{R^2+(X_L-X_C)^2}=\\sqrt{30^2+40^2}=\\sqrt{900+1600}=\\sqrt{2500}=50\\,\\Omega$."
+      "explanation": "$Z=\\sqrt{R^2+(X_L-X_C)^2}=\\sqrt{30^2+40^2}=\\sqrt{900+1600}=\\sqrt{2500}=50\\,\\Omega$.",
+      "trick": "$Z=\\sqrt{R^2+(X_L-X_C)^2}$ — subtract reactances first, then Pythagoras."
     },
     {
       "id": "phy-alternating-current-008",
@@ -103,7 +110,8 @@
       ],
       "answer": 0,
       "difficulty": "easy",
-      "explanation": "At resonance $X_L=X_C$, so $Z=R$ (minimum possible value), the circuit is purely resistive and current is maximum."
+      "explanation": "At resonance $X_L=X_C$, so $Z=R$ (minimum possible value), the circuit is purely resistive and current is maximum.",
+      "trick": "Resonance: $Z=R$ minimum, current maximum, purely resistive — the three facts to recall."
     },
     {
       "id": "phy-alternating-current-009",
@@ -116,7 +124,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "$f_0 = \\dfrac{1}{2\\pi\\sqrt{LC}} = \\dfrac{1}{2\\pi\\sqrt{1\\times10^{-6}}} = \\dfrac{1}{2\\pi\\times10^{-3}} \\approx 159$ Hz."
+      "explanation": "$f_0 = \\dfrac{1}{2\\pi\\sqrt{LC}} = \\dfrac{1}{2\\pi\\sqrt{1\\times10^{-6}}} = \\dfrac{1}{2\\pi\\times10^{-3}} \\approx 159$ Hz.",
+      "trick": "$f_0=1/(2\\pi\\sqrt{LC})$ — same shape as $\\omega_0$, just divide by $2\\pi$."
     },
     {
       "id": "phy-alternating-current-010",
@@ -129,7 +138,8 @@
       ],
       "answer": 2,
       "difficulty": "easy",
-      "explanation": "$N_s/N_p = V_s/V_p \\Rightarrow N_s = 1000\\times(22/220) = 100$."
+      "explanation": "$N_s/N_p = V_s/V_p \\Rightarrow N_s = 1000\\times(22/220) = 100$.",
+      "trick": "$N_s/N_p=V_s/V_p$ — turns ratio equals voltage ratio directly."
     },
     {
       "id": "phy-alternating-current-011",
@@ -142,7 +152,8 @@
       ],
       "answer": 3,
       "difficulty": "easy",
-      "explanation": "For an ideal transformer, input power = output power: $V_pI_p = V_sI_s \\Rightarrow I_s = 100\\times10/1000 = 1$ A."
+      "explanation": "For an ideal transformer, input power = output power: $V_pI_p = V_sI_s \\Rightarrow I_s = 100\\times10/1000 = 1$ A.",
+      "trick": "Ideal transformer: $V_pI_p=V_sI_s$ — power conserved, so current ratio is inverse of voltage ratio."
     },
     {
       "id": "phy-alternating-current-012",
@@ -155,7 +166,8 @@
       ],
       "answer": 0,
       "difficulty": "easy",
-      "explanation": "Laminating the core with thin, mutually insulated sheets restricts the paths available for eddy currents, reducing heating losses."
+      "explanation": "Laminating the core with thin, mutually insulated sheets restricts the paths available for eddy currents, reducing heating losses.",
+      "trick": "Eddy current fix in transformers: laminated core, same trick as in motors/generators."
     },
     {
       "id": "phy-alternating-current-013",
@@ -168,7 +180,8 @@
       ],
       "answer": 1,
       "difficulty": "easy",
-      "explanation": "At resonance the circuit is purely resistive ($\\phi=0$), so $\\cos\\phi = 1$."
+      "explanation": "At resonance the circuit is purely resistive ($\\phi=0$), so $\\cos\\phi = 1$.",
+      "trick": "At resonance power factor is always exactly 1 — purely resistive behaviour."
     },
     {
       "id": "phy-alternating-current-014",
@@ -181,7 +194,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "For fixed power $P=VI$, raising $V$ lowers $I$; since line loss $=I^2R$, a lower current drastically cuts losses over long cables."
+      "explanation": "For fixed power $P=VI$, raising $V$ lowers $I$; since line loss $=I^2R$, a lower current drastically cuts losses over long cables.",
+      "trick": "High voltage transmission: $P=VI$ fixed, so higher $V$ means lower $I$, and loss $\\propto I^2$."
     },
     {
       "id": "phy-alternating-current-015",
@@ -194,7 +208,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "An ideal inductor (choke) has power factor $\\approx 0$, so it limits ac current via reactance while dissipating almost no power, unlike a resistor which wastes energy as heat."
+      "explanation": "An ideal inductor (choke) has power factor $\\approx 0$, so it limits ac current via reactance while dissipating almost no power, unlike a resistor which wastes energy as heat.",
+      "trick": "Choke coil: reactance limits current with near-zero power loss — that's the whole advantage over a resistor."
     },
     {
       "id": "phy-alternating-current-016",
@@ -207,7 +222,8 @@
       ],
       "answer": 3,
       "difficulty": "medium",
-      "explanation": "Energy oscillates between $C$ (as $Q^2/2C$) and $L$ (as $LI^2/2$); when all energy is electrical (in $C$), the magnetic energy and hence current is zero."
+      "explanation": "Energy oscillates between $C$ (as $Q^2/2C$) and $L$ (as $LI^2/2$); when all energy is electrical (in $C$), the magnetic energy and hence current is zero.",
+      "trick": "LC oscillation: all energy in C means zero magnetic energy, so current is exactly zero."
     },
     {
       "id": "phy-alternating-current-017",
@@ -220,7 +236,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "$Q = \\omega_0L/R = \\dfrac1R\\sqrt{L/C}$; a higher $Q$ means a sharper resonance curve."
+      "explanation": "$Q = \\omega_0L/R = \\dfrac1R\\sqrt{L/C}$; a higher $Q$ means a sharper resonance curve.",
+      "trick": "$Q=\\frac1R\\sqrt{L/C}$ — higher $Q$ means sharper resonance peak."
     },
     {
       "id": "phy-alternating-current-018",
@@ -233,7 +250,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "$Z=\\sqrt{R^2+X_L^2}=\\sqrt{1600+900}=\\sqrt{2500}=50\\,\\Omega$; $I=V/Z=100/50=2$ A."
+      "explanation": "$Z=\\sqrt{R^2+X_L^2}=\\sqrt{1600+900}=\\sqrt{2500}=50\\,\\Omega$; $I=V/Z=100/50=2$ A.",
+      "trick": "RL circuit (no C): $Z=\\sqrt{R^2+X_L^2}$ then $I=V/Z$ — standard two-step."
     },
     {
       "id": "phy-alternating-current-019",
@@ -246,7 +264,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "$\\cos\\phi = R/Z = 40/50 = 0.8$."
+      "explanation": "$\\cos\\phi = R/Z = 40/50 = 0.8$.",
+      "trick": "Power factor $=R/Z$ always — the resistive fraction of total impedance."
     },
     {
       "id": "phy-alternating-current-020",
@@ -259,7 +278,8 @@
       ],
       "answer": 3,
       "difficulty": "easy",
-      "explanation": "A transformer relies on a continuously changing flux linking the primary and secondary coils (mutual induction), which requires alternating current; it cannot step dc voltage and never creates extra power (ideal efficiency = 100%, real transformers have losses)."
+      "explanation": "A transformer relies on a continuously changing flux linking the primary and secondary coils (mutual induction), which requires alternating current; it cannot step dc voltage and never creates extra power (ideal efficiency = 100%, real transformers have losses).",
+      "trick": "Transformer works ONLY on ac — needs continuously changing flux via mutual induction."
     },
     {
       "id": "phy-alternating-current-021",
@@ -272,7 +292,8 @@
       ],
       "answer": 2,
       "difficulty": "easy",
-      "explanation": "Averaging $i_0\\sin\\omega t$ over a half cycle gives $i_{avg}=\\dfrac{2i_0}{\\pi}\\approx0.637i_0$, while the average over a full cycle is zero."
+      "explanation": "Averaging $i_0\\sin\\omega t$ over a half cycle gives $i_{avg}=\\dfrac{2i_0}{\\pi}\\approx0.637i_0$, while the average over a full cycle is zero.",
+      "trick": "Half-cycle average of sine is $2i_0/\\pi\\approx0.637i_0$ — different from rms's 0.707."
     },
     {
       "id": "phy-alternating-current-022",
@@ -285,7 +306,8 @@
       ],
       "answer": 3,
       "difficulty": "easy",
-      "explanation": "$Z=\\sqrt{R^2+X_C^2}=\\sqrt{900+1600}=50\\,\\Omega$; $I=V/Z=100/50=2$ A."
+      "explanation": "$Z=\\sqrt{R^2+X_C^2}=\\sqrt{900+1600}=50\\,\\Omega$; $I=V/Z=100/50=2$ A.",
+      "trick": "RC circuit: $Z=\\sqrt{R^2+X_C^2}$, same Pythagoras pattern as RL, just swap $X_L$ for $X_C$."
     },
     {
       "id": "phy-alternating-current-023",
@@ -298,7 +320,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "$\\cos\\phi=R/Z=30/50=0.6$; in a series RC circuit, the current leads the applied voltage."
+      "explanation": "$\\cos\\phi=R/Z=30/50=0.6$; in a series RC circuit, the current leads the applied voltage.",
+      "trick": "In RC circuits, current always LEADS the voltage — opposite phase behaviour to RL."
     },
     {
       "id": "phy-alternating-current-024",
@@ -311,7 +334,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "$Z=\\sqrt{30^2+(90-50)^2}=\\sqrt{900+1600}=50\\,\\Omega$; since $X_L>X_C$, the circuit is net inductive and current lags voltage."
+      "explanation": "$Z=\\sqrt{30^2+(90-50)^2}=\\sqrt{900+1600}=50\\,\\Omega$; since $X_L>X_C$, the circuit is net inductive and current lags voltage.",
+      "trick": "$X_L>X_C$ means net inductive circuit → current lags voltage; check the sign first."
     },
     {
       "id": "phy-alternating-current-025",
@@ -324,7 +348,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "Unlike series resonance, a parallel LCR/LC circuit at resonance offers maximum impedance to the source, so the line current drawn is minimum, even though large circulating currents exist in the L and C branches."
+      "explanation": "Unlike series resonance, a parallel LCR/LC circuit at resonance offers maximum impedance to the source, so the line current drawn is minimum, even though large circulating currents exist in the L and C branches.",
+      "trick": "Parallel LC (tank) at resonance: impedance is MAXIMUM, current MINIMUM — opposite of series."
     },
     {
       "id": "phy-alternating-current-026",
@@ -337,7 +362,8 @@
       ],
       "answer": 1,
       "difficulty": "easy",
-      "explanation": "$\\Delta\\omega = R/L = 10/0.5 = 20$ rad/s."
+      "explanation": "$\\Delta\\omega = R/L = 10/0.5 = 20$ rad/s.",
+      "trick": "Bandwidth $\\Delta\\omega=R/L$ — simple ratio, no square roots involved."
     },
     {
       "id": "phy-alternating-current-027",
@@ -350,7 +376,8 @@
       ],
       "answer": 3,
       "difficulty": "easy",
-      "explanation": "$Q=\\omega_0/\\Delta\\omega=1000/20=50$; a larger $Q$ means a sharper resonance curve."
+      "explanation": "$Q=\\omega_0/\\Delta\\omega=1000/20=50$; a larger $Q$ means a sharper resonance curve.",
+      "trick": "$Q=\\omega_0/\\Delta\\omega$ — resonant frequency divided by bandwidth, straightforward."
     },
     {
       "id": "phy-alternating-current-028",
@@ -363,7 +390,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "Form factor $=\\dfrac{i_{rms}}{i_{avg}}=\\dfrac{i_0/\\sqrt2}{2i_0/\\pi}=\\dfrac{\\pi}{2\\sqrt2}\\approx1.11$."
+      "explanation": "Form factor $=\\dfrac{i_{rms}}{i_{avg}}=\\dfrac{i_0/\\sqrt2}{2i_0/\\pi}=\\dfrac{\\pi}{2\\sqrt2}\\approx1.11$.",
+      "trick": "Form factor $=\\pi/(2\\sqrt2)\\approx1.11$ — a fixed number worth memorising for sine waves."
     },
     {
       "id": "phy-alternating-current-029",
@@ -376,7 +404,8 @@
       ],
       "answer": 0,
       "difficulty": "easy",
-      "explanation": "Efficiency $=\\dfrac{\\text{output}}{\\text{input}}\\times100=\\dfrac{2000-100}{2000}\\times100=95\\%$."
+      "explanation": "Efficiency $=\\dfrac{\\text{output}}{\\text{input}}\\times100=\\dfrac{2000-100}{2000}\\times100=95\\%$.",
+      "trick": "Transformer efficiency $=(\\text{input}-\\text{loss})/\\text{input}\\times100$ — subtract loss from input first."
     },
     {
       "id": "phy-alternating-current-030",
@@ -389,7 +418,8 @@
       ],
       "answer": 1,
       "difficulty": "easy",
-      "explanation": "In a purely inductive or capacitive circuit, current flows but does no net work over a cycle; such a current is called the wattless (idle) component."
+      "explanation": "In a purely inductive or capacitive circuit, current flows but does no net work over a cycle; such a current is called the wattless (idle) component.",
+      "trick": "Zero-power-factor current in pure L or C circuits is called wattless (idle) current."
     },
     {
       "id": "phy-alternating-current-031",
@@ -402,7 +432,8 @@
       ],
       "answer": 2,
       "difficulty": "easy",
-      "explanation": "$V_0=V_{rms}\\times\\sqrt2=220\\times1.414\\approx311$ V."
+      "explanation": "$V_0=V_{rms}\\times\\sqrt2=220\\times1.414\\approx311$ V.",
+      "trick": "$V_0=V_{rms}\\times\\sqrt2$ — for 220 V mains this gives the classic 311 V peak."
     },
     {
       "id": "phy-alternating-current-032",
@@ -415,7 +446,8 @@
       ],
       "answer": 3,
       "difficulty": "medium",
-      "explanation": "$V_L$ leads the current by 90° while $V_C$ lags it by 90°, so $V_L$ and $V_C$ are exactly 180° out of phase with each other; their phasors point in opposite directions."
+      "explanation": "$V_L$ leads the current by 90° while $V_C$ lags it by 90°, so $V_L$ and $V_C$ are exactly 180° out of phase with each other; their phasors point in opposite directions.",
+      "trick": "$V_L$ and $V_C$ are always 180° out of phase on the phasor diagram."
     },
     {
       "id": "phy-alternating-current-033",
@@ -428,7 +460,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "$P_{avg}=V_{rms}I_{rms}\\cos\\phi=100\\times2\\times\\cos60^\\circ=100\\times2\\times0.5=100$ W."
+      "explanation": "$P_{avg}=V_{rms}I_{rms}\\cos\\phi=100\\times2\\times\\cos60^\\circ=100\\times2\\times0.5=100$ W.",
+      "trick": "$P_{avg}=V_{rms}I_{rms}\\cos\\phi$ — plug in the given phase angle's cosine directly."
     },
     {
       "id": "phy-alternating-current-034",
@@ -441,7 +474,8 @@
       ],
       "answer": 1,
       "difficulty": "easy",
-      "explanation": "A material with a thin (narrow-area) hysteresis loop, like soft iron, dissipates little energy per magnetisation cycle, minimising hysteresis loss."
+      "explanation": "A material with a thin (narrow-area) hysteresis loop, like soft iron, dissipates little energy per magnetisation cycle, minimising hysteresis loss.",
+      "trick": "Narrow hysteresis loop (soft iron) minimises hysteresis loss — same idea as electromagnet cores."
     },
     {
       "id": "phy-alternating-current-035",
@@ -454,7 +488,8 @@
       ],
       "answer": 3,
       "difficulty": "medium",
-      "explanation": "$\\omega=\\dfrac{1}{\\sqrt{LC}}=\\dfrac{1}{\\sqrt{0.01\\times10^{-6}}}=\\dfrac{1}{\\sqrt{10^{-8}}}=\\dfrac{1}{10^{-4}}=10^4$ rad/s."
+      "explanation": "$\\omega=\\dfrac{1}{\\sqrt{LC}}=\\dfrac{1}{\\sqrt{0.01\\times10^{-6}}}=\\dfrac{1}{\\sqrt{10^{-8}}}=\\dfrac{1}{10^{-4}}=10^4$ rad/s.",
+      "trick": "$\\omega=1/\\sqrt{LC}$ — same formula whether asked as $f_0$ or $\\omega$, watch which is wanted."
     },
     {
       "id": "phy-alternating-current-036",
@@ -467,7 +502,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "At resonance, $V_L=V_C=Q\\times V_{source}$; a high-$Q$ circuit can develop voltages across $L$ and $C$ far exceeding the applied voltage, even though they cancel in the total impedance."
+      "explanation": "At resonance, $V_L=V_C=Q\\times V_{source}$; a high-$Q$ circuit can develop voltages across $L$ and $C$ far exceeding the applied voltage, even though they cancel in the total impedance.",
+      "trick": "At resonance, $V_L=V_C=Q\\times V_{source}$ — high Q means voltage magnification across L, C."
     },
     {
       "id": "phy-alternating-current-037",
@@ -480,7 +516,8 @@
       ],
       "answer": 3,
       "difficulty": "easy",
-      "explanation": "Impedance is minimum ($Z=R$) at resonance, so current is maximum there; it is smaller both below and above resonance, giving a peaked current-frequency graph."
+      "explanation": "Impedance is minimum ($Z=R$) at resonance, so current is maximum there; it is smaller both below and above resonance, giving a peaked current-frequency graph.",
+      "trick": "Current-frequency graph always peaks at resonance — rises then falls, never monotonic."
     },
     {
       "id": "phy-alternating-current-038",
@@ -493,7 +530,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "$X_L=\\omega L\\to\\infty$ as $\\omega\\to\\infty$ (inductor blocks high-frequency ac), while $X_C=1/\\omega C\\to0$ (capacitor behaves like a short/wire)."
+      "explanation": "$X_L=\\omega L\\to\\infty$ as $\\omega\\to\\infty$ (inductor blocks high-frequency ac), while $X_C=1/\\omega C\\to0$ (capacitor behaves like a short/wire).",
+      "trick": "High frequency: inductor $\\to$ open circuit ($X_L\\to\\infty$), capacitor $\\to$ short circuit ($X_C\\to0$)."
     },
     {
       "id": "phy-alternating-current-039",
@@ -506,7 +544,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "$Z=\\sqrt{80^2+60^2}=100\\,\\Omega$, $I=200/100=2$ A, $\\cos\\phi=R/Z=0.8$; $P=VI\\cos\\phi=200\\times2\\times0.8=320$ W."
+      "explanation": "$Z=\\sqrt{80^2+60^2}=100\\,\\Omega$, $I=200/100=2$ A, $\\cos\\phi=R/Z=0.8$; $P=VI\\cos\\phi=200\\times2\\times0.8=320$ W.",
+      "trick": "$P=VI\\cos\\phi$ with $\\cos\\phi=R/Z$ — find $Z$, then $I$, then multiply all three."
     },
     {
       "id": "phy-alternating-current-040",
@@ -519,7 +558,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "At resonance $Z=R$, so $P=V_{rms}^2/R=100^2/25=400$ W."
+      "explanation": "At resonance $Z=R$, so $P=V_{rms}^2/R=100^2/25=400$ W.",
+      "trick": "At resonance $Z=R$, so power is simply $V_{rms}^2/R$ — skip finding $Z$ separately."
     }
   ]
 }

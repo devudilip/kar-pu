@@ -12,7 +12,8 @@
       ],
       "answer": 3,
       "difficulty": "easy",
-      "explanation": "First law: $\\Delta U = \\Delta Q - \\Delta W = 500-200 = 300$ J."
+      "explanation": "First law: $\\Delta U = \\Delta Q - \\Delta W = 500-200 = 300$ J.",
+      "trick": "First law: $\\Delta U=\\Delta Q-\\Delta W$ — heat in minus work done by gas."
     },
     {
       "id": "phy-thermodynamics-002",
@@ -25,7 +26,8 @@
       ],
       "answer": 1,
       "difficulty": "easy",
-      "explanation": "Internal energy of an ideal gas depends only on temperature; since $T$ is constant in an isothermal process, $\\Delta U=0$."
+      "explanation": "Internal energy of an ideal gas depends only on temperature; since $T$ is constant in an isothermal process, $\\Delta U=0$.",
+      "trick": "Ideal gas $U$ depends only on $T$; isothermal $\\Rightarrow\\Delta T=0\\Rightarrow\\Delta U=0$."
     },
     {
       "id": "phy-thermodynamics-003",
@@ -38,7 +40,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "Adiabatic means $Q=0$. On expansion the gas does positive work using its internal energy ($\\Delta U = -W$), so its temperature falls."
+      "explanation": "Adiabatic means $Q=0$. On expansion the gas does positive work using its internal energy ($\\Delta U = -W$), so its temperature falls.",
+      "trick": "Adiabatic expansion: gas does work using its own $U$, so temperature drops."
     },
     {
       "id": "phy-thermodynamics-004",
@@ -51,7 +54,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "$W = nRT\\ln(V_2/V_1) = RT\\ln(2V/V) = RT\\ln 2$."
+      "explanation": "$W = nRT\\ln(V_2/V_1) = RT\\ln(2V/V) = RT\\ln 2$.",
+      "trick": "Isothermal work $W=nRT\\ln(V_2/V_1)$ — here $V_2/V_1=2$, so $RT\\ln2$."
     },
     {
       "id": "phy-thermodynamics-005",
@@ -64,7 +68,8 @@
       ],
       "answer": 1,
       "difficulty": "easy",
-      "explanation": "Monatomic gas: $C_V = \\tfrac32R$, $C_P=\\tfrac52R$, so $\\gamma = 5/3$."
+      "explanation": "Monatomic gas: $C_V = \\tfrac32R$, $C_P=\\tfrac52R$, so $\\gamma = 5/3$.",
+      "trick": "Memorise: monatomic $\\gamma=5/3$, diatomic $\\gamma=7/5$."
     },
     {
       "id": "phy-thermodynamics-006",
@@ -77,7 +82,8 @@
       ],
       "answer": 3,
       "difficulty": "easy",
-      "explanation": "Mayer's relation: $C_P - C_V = R$ for one mole of an ideal gas."
+      "explanation": "Mayer's relation: $C_P - C_V = R$ for one mole of an ideal gas.",
+      "trick": "Mayer's relation: $C_P-C_V=R$ per mole — a fixed constant, memorise it."
     },
     {
       "id": "phy-thermodynamics-007",
@@ -90,7 +96,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "Slope of isothermal $=-P/V$; slope of adiabatic $=-\\gamma P/V$. Since $\\gamma>1$, the adiabatic curve is steeper at the point of intersection."
+      "explanation": "Slope of isothermal $=-P/V$; slope of adiabatic $=-\\gamma P/V$. Since $\\gamma>1$, the adiabatic curve is steeper at the point of intersection.",
+      "trick": "Adiabatic slope $=-\\gamma P/V$, steeper than isothermal's $-P/V$ since $\\gamma>1$."
     },
     {
       "id": "phy-thermodynamics-008",
@@ -103,7 +110,8 @@
       ],
       "answer": 2,
       "difficulty": "easy",
-      "explanation": "$\\eta = 1-\\dfrac{T_2}{T_1} = 1-\\dfrac{300}{600} = 0.5 = 50\\%$."
+      "explanation": "$\\eta = 1-\\dfrac{T_2}{T_1} = 1-\\dfrac{300}{600} = 0.5 = 50\\%$.",
+      "trick": "Carnot: $\\eta=1-T_2/T_1$ — plug kelvin temperatures directly."
     },
     {
       "id": "phy-thermodynamics-009",
@@ -116,7 +124,8 @@
       ],
       "answer": 3,
       "difficulty": "medium",
-      "explanation": "$\\eta = 1-300/500 = 0.4$; $W = \\eta Q_1 = 0.4\\times800 = 320$ J."
+      "explanation": "$\\eta = 1-300/500 = 0.4$; $W = \\eta Q_1 = 0.4\\times800 = 320$ J.",
+      "trick": "Find $\\eta=1-T_2/T_1$ first, then $W=\\eta Q_1$."
     },
     {
       "id": "phy-thermodynamics-010",
@@ -129,7 +138,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "Kelvin-Planck statement: it is impossible to construct an engine operating in a cycle that converts heat completely into work, with no other effect. Option A ('heat cannot flow from a cold body to a hot body on its own') is the Clausius statement."
+      "explanation": "Kelvin-Planck statement: it is impossible to construct an engine operating in a cycle that converts heat completely into work, with no other effect. Option A ('heat cannot flow from a cold body to a hot body on its own') is the Clausius statement.",
+      "trick": "Kelvin-Planck = no 100% efficient engine; Clausius = no heat flow cold$\\to$hot alone."
     },
     {
       "id": "phy-thermodynamics-011",
@@ -142,7 +152,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "$\\text{COP} = \\dfrac{T_2}{T_1-T_2} = \\dfrac{260}{300-260} = \\dfrac{260}{40} = 6.5$."
+      "explanation": "$\\text{COP} = \\dfrac{T_2}{T_1-T_2} = \\dfrac{260}{300-260} = \\dfrac{260}{40} = 6.5$.",
+      "trick": "$\\text{COP}=T_2/(T_1-T_2)$ — plug the cold and hot reservoir temperatures."
     },
     {
       "id": "phy-thermodynamics-012",
@@ -155,7 +166,8 @@
       ],
       "answer": 1,
       "difficulty": "easy",
-      "explanation": "Internal energy is a state function; after a complete cycle the system returns to its initial state, so $\\Delta U_{net}=0$, and hence $Q_{net}=W_{net}$."
+      "explanation": "Internal energy is a state function; after a complete cycle the system returns to its initial state, so $\\Delta U_{net}=0$, and hence $Q_{net}=W_{net}$.",
+      "trick": "Cyclic process returns to start $\\Rightarrow\\Delta U=0$ always (state function)."
     },
     {
       "id": "phy-thermodynamics-013",
@@ -168,7 +180,8 @@
       ],
       "answer": 1,
       "difficulty": "easy",
-      "explanation": "Since volume does not change, $W=\\int P\\,dV = 0$."
+      "explanation": "Since volume does not change, $W=\\int P\\,dV = 0$.",
+      "trick": "Constant volume $\\Rightarrow$ no $dV\\Rightarrow W=\\int P\\,dV=0$."
     },
     {
       "id": "phy-thermodynamics-014",
@@ -181,7 +194,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "At constant pressure, $W = nR\\Delta T = 2\\times8.3\\times20 = 332$ J."
+      "explanation": "At constant pressure, $W = nR\\Delta T = 2\\times8.3\\times20 = 332$ J.",
+      "trick": "Isobaric work $W=nR\\Delta T$ — no need for pressure or volume values."
     },
     {
       "id": "phy-thermodynamics-015",
@@ -194,7 +208,8 @@
       ],
       "answer": 3,
       "difficulty": "medium",
-      "explanation": "For a cyclic process $\\Delta U=0$, so the net work done by the gas (equal to net heat absorbed) equals the area enclosed by the closed loop on the $P$-$V$ diagram."
+      "explanation": "For a cyclic process $\\Delta U=0$, so the net work done by the gas (equal to net heat absorbed) equals the area enclosed by the closed loop on the $P$-$V$ diagram.",
+      "trick": "Cyclic loop's enclosed area $=$ net work $=$ net heat absorbed per cycle."
     },
     {
       "id": "phy-thermodynamics-016",
@@ -207,7 +222,8 @@
       ],
       "answer": 2,
       "difficulty": "easy",
-      "explanation": "A quasi-static process occurs slowly enough that the system stays arbitrarily close to equilibrium at each stage, allowing well-defined P, V, T throughout."
+      "explanation": "A quasi-static process occurs slowly enough that the system stays arbitrarily close to equilibrium at each stage, allowing well-defined P, V, T throughout.",
+      "trick": "Quasi-static = infinitely slow, staying in equilibrium at every intermediate step."
     },
     {
       "id": "phy-thermodynamics-017",
@@ -220,7 +236,8 @@
       ],
       "answer": 0,
       "difficulty": "easy",
-      "explanation": "In adiabatic compression $Q=0$, so all the work done on the gas increases its internal energy, raising the temperature."
+      "explanation": "In adiabatic compression $Q=0$, so all the work done on the gas increases its internal energy, raising the temperature.",
+      "trick": "Adiabatic compression: work done on gas raises $U\\Rightarrow$ temperature rises."
     },
     {
       "id": "phy-thermodynamics-018",
@@ -233,7 +250,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "The Carnot engine is an idealized, fully reversible cycle with no friction or dissipation, giving it the maximum possible efficiency $1-T_2/T_1$ between two given temperatures; any real (irreversible) engine is less efficient."
+      "explanation": "The Carnot engine is an idealized, fully reversible cycle with no friction or dissipation, giving it the maximum possible efficiency $1-T_2/T_1$ between two given temperatures; any real (irreversible) engine is less efficient.",
+      "trick": "Carnot is reversible with zero dissipation $\\Rightarrow$ sets the max efficiency bound."
     },
     {
       "id": "phy-thermodynamics-019",
@@ -246,7 +264,8 @@
       ],
       "answer": 3,
       "difficulty": "easy",
-      "explanation": "This is the statement of the zeroth law; it justifies using a thermometer (C) to compare the temperatures of two bodies (A and B) without bringing them into direct contact."
+      "explanation": "This is the statement of the zeroth law; it justifies using a thermometer (C) to compare the temperatures of two bodies (A and B) without bringing them into direct contact.",
+      "trick": "Zeroth law: A,B each in equilibrium with C $\\Rightarrow$ A,B in equilibrium too."
     },
     {
       "id": "phy-thermodynamics-020",
@@ -259,7 +278,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "At constant volume $W=0$, so $Q=\\Delta U=nC_V\\Delta T=1\\times(1.5\\times8.3)\\times40=12.45\\times40=498$ J."
+      "explanation": "At constant volume $W=0$, so $Q=\\Delta U=nC_V\\Delta T=1\\times(1.5\\times8.3)\\times40=12.45\\times40=498$ J.",
+      "trick": "Constant volume: $Q=\\Delta U=nC_V\\Delta T$ (no work term to subtract)."
     },
     {
       "id": "phy-thermodynamics-021",
@@ -272,7 +292,8 @@
       ],
       "answer": 1,
       "difficulty": "hard",
-      "explanation": "$W=\\dfrac{nR(T_1-T_2)}{\\gamma-1}=\\dfrac{2\\times8.3\\times100}{0.4}=4150$ J."
+      "explanation": "$W=\\dfrac{nR(T_1-T_2)}{\\gamma-1}=\\dfrac{2\\times8.3\\times100}{0.4}=4150$ J.",
+      "trick": "Adiabatic work $W=nR(T_1-T_2)/(\\gamma-1)$ — direct formula, plug and go."
     },
     {
       "id": "phy-thermodynamics-022",
@@ -285,7 +306,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "Free expansion is irreversible; no work is done against a vacuum ($W=0$) and the system is insulated ($Q=0$), so by the first law $\\Delta U=0$ — for an ideal gas this means the temperature stays the same."
+      "explanation": "Free expansion is irreversible; no work is done against a vacuum ($W=0$) and the system is insulated ($Q=0$), so by the first law $\\Delta U=0$ — for an ideal gas this means the temperature stays the same.",
+      "trick": "Free expansion: $Q=0,W=0\\Rightarrow\\Delta U=0\\Rightarrow$ temperature unchanged for ideal gas."
     },
     {
       "id": "phy-thermodynamics-023",
@@ -298,7 +320,8 @@
       ],
       "answer": 3,
       "difficulty": "easy",
-      "explanation": "A reversible process proceeds through a continuous series of equilibrium states with no dissipative effects (friction, unrestrained expansion), so reversing it restores the initial state of both system and surroundings exactly."
+      "explanation": "A reversible process proceeds through a continuous series of equilibrium states with no dissipative effects (friction, unrestrained expansion), so reversing it restores the initial state of both system and surroundings exactly.",
+      "trick": "Reversible = retraceable exactly, passing only through equilibrium states throughout."
     },
     {
       "id": "phy-thermodynamics-024",
@@ -311,7 +334,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "The second law implies the entropy of an isolated system can never decrease; it increases for irreversible (real, spontaneous) processes and stays constant only in the idealised reversible limit."
+      "explanation": "The second law implies the entropy of an isolated system can never decrease; it increases for irreversible (real, spontaneous) processes and stays constant only in the idealised reversible limit.",
+      "trick": "Second law: isolated-system entropy never decreases, rises for real irreversible processes."
     },
     {
       "id": "phy-thermodynamics-025",
@@ -324,7 +348,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "$C_V=\\dfrac{R}{\\gamma-1}=\\dfrac{8.3}{0.4}=20.75$ J mol$^{-1}$K$^{-1}$."
+      "explanation": "$C_V=\\dfrac{R}{\\gamma-1}=\\dfrac{8.3}{0.4}=20.75$ J mol$^{-1}$K$^{-1}$.",
+      "trick": "$C_V=R/(\\gamma-1)$ — direct formula linking $\\gamma$ and $C_V$."
     },
     {
       "id": "phy-thermodynamics-026",
@@ -337,7 +362,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "$C_P=\\dfrac{\\gamma R}{\\gamma-1}=\\dfrac{(5/3)\\times8.3}{2/3}=\\dfrac{5}{2}\\times8.3=20.75$ J mol$^{-1}$K$^{-1}$."
+      "explanation": "$C_P=\\dfrac{\\gamma R}{\\gamma-1}=\\dfrac{(5/3)\\times8.3}{2/3}=\\dfrac{5}{2}\\times8.3=20.75$ J mol$^{-1}$K$^{-1}$.",
+      "trick": "$C_P=\\gamma R/(\\gamma-1)$ — companion formula to $C_V=R/(\\gamma-1)$."
     },
     {
       "id": "phy-thermodynamics-027",
@@ -350,7 +376,8 @@
       ],
       "answer": 3,
       "difficulty": "easy",
-      "explanation": "Carnot's theorem shows $\\eta = 1-T_2/T_1$ is a universal result for any reversible engine working between two fixed temperatures, independent of the working substance."
+      "explanation": "Carnot's theorem shows $\\eta = 1-T_2/T_1$ is a universal result for any reversible engine working between two fixed temperatures, independent of the working substance.",
+      "trick": "Carnot efficiency depends only on the two temperatures, never on the gas used."
     },
     {
       "id": "phy-thermodynamics-028",
@@ -363,7 +390,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "$\\text{COP}=Q_2/W \\Rightarrow W = Q_2/\\text{COP} = 800/4 = 200$ J."
+      "explanation": "$\\text{COP}=Q_2/W \\Rightarrow W = Q_2/\\text{COP} = 800/4 = 200$ J.",
+      "trick": "$\\text{COP}=Q_2/W\\Rightarrow W=Q_2/\\text{COP}$ — rearrange and divide."
     },
     {
       "id": "phy-thermodynamics-029",
@@ -376,7 +404,8 @@
       ],
       "answer": 0,
       "difficulty": "easy",
-      "explanation": "Since $Q_1=Q_2+W$, dividing by $W$ gives $\\text{COP}_{HP}=Q_1/W=Q_2/W+1=\\text{COP}_R+1$, so the heat-pump COP always exceeds the refrigerator COP by exactly 1."
+      "explanation": "Since $Q_1=Q_2+W$, dividing by $W$ gives $\\text{COP}_{HP}=Q_1/W=Q_2/W+1=\\text{COP}_R+1$, so the heat-pump COP always exceeds the refrigerator COP by exactly 1.",
+      "trick": "$Q_1=Q_2+W\\Rightarrow\\text{COP}_{HP}=\\text{COP}_R+1$ always, for same device/temperatures."
     },
     {
       "id": "phy-thermodynamics-030",
@@ -389,7 +418,8 @@
       ],
       "answer": 1,
       "difficulty": "hard",
-      "explanation": "For a rectangular cycle, net work $=$ area enclosed $=\\Delta P\\times\\Delta V=(3-1)\\times10^5\\times(5-2)\\times10^{-3}=2\\times10^5\\times3\\times10^{-3}=600$ J."
+      "explanation": "For a rectangular cycle, net work $=$ area enclosed $=\\Delta P\\times\\Delta V=(3-1)\\times10^5\\times(5-2)\\times10^{-3}=2\\times10^5\\times3\\times10^{-3}=600$ J.",
+      "trick": "Rectangular cycle: net work $=\\Delta P\\times\\Delta V$ (area of the rectangle)."
     },
     {
       "id": "phy-thermodynamics-031",
@@ -402,7 +432,8 @@
       ],
       "answer": 3,
       "difficulty": "easy",
-      "explanation": "During compression the gas's volume decreases, so the gas does negative work on the surroundings (equivalently, the surroundings do positive work on the gas); by convention this is written as negative $\\Delta W$."
+      "explanation": "During compression the gas's volume decreases, so the gas does negative work on the surroundings (equivalently, the surroundings do positive work on the gas); by convention this is written as negative $\\Delta W$.",
+      "trick": "Compression shrinks volume $\\Rightarrow$ gas does negative work (surroundings push in)."
     },
     {
       "id": "phy-thermodynamics-032",
@@ -415,7 +446,8 @@
       ],
       "answer": 2,
       "difficulty": "easy",
-      "explanation": "The Clausius statement says spontaneous heat flow always occurs from hot to cold; making heat flow the other way (as in a refrigerator) requires external work to be supplied."
+      "explanation": "The Clausius statement says spontaneous heat flow always occurs from hot to cold; making heat flow the other way (as in a refrigerator) requires external work to be supplied.",
+      "trick": "Clausius: heat never flows cold$\\to$hot spontaneously, needs external work input."
     },
     {
       "id": "phy-thermodynamics-033",
@@ -428,7 +460,8 @@
       ],
       "answer": 3,
       "difficulty": "medium",
-      "explanation": "$C_V=\\tfrac52R=20.75$ J mol$^{-1}$K$^{-1}$ for a diatomic gas; $\\Delta U=nC_V\\Delta T=2\\times20.75\\times20=830$ J."
+      "explanation": "$C_V=\\tfrac52R=20.75$ J mol$^{-1}$K$^{-1}$ for a diatomic gas; $\\Delta U=nC_V\\Delta T=2\\times20.75\\times20=830$ J.",
+      "trick": "$\\Delta U=nC_V\\Delta T$ always, regardless of process — use diatomic $C_V=\\frac52R$."
     },
     {
       "id": "phy-thermodynamics-034",
@@ -441,7 +474,8 @@
       ],
       "answer": 2,
       "difficulty": "hard",
-      "explanation": "$C_P=\\tfrac72R=29.05$ J mol$^{-1}$K$^{-1}$; $Q=nC_P\\Delta T=2\\times29.05\\times20=1162$ J (consistent with $Q=\\Delta U+W=830+332=1162$ J)."
+      "explanation": "$C_P=\\tfrac72R=29.05$ J mol$^{-1}$K$^{-1}$; $Q=nC_P\\Delta T=2\\times29.05\\times20=1162$ J (consistent with $Q=\\Delta U+W=830+332=1162$ J).",
+      "trick": "Isobaric: $Q=nC_P\\Delta T$; cross-check via $Q=\\Delta U+W$."
     },
     {
       "id": "phy-thermodynamics-035",
@@ -454,7 +488,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "Isothermal: $P_1V_1=P_2V_2 \\Rightarrow P_2 = \\dfrac{2\\times10^5\\times4\\times10^{-3}}{2\\times10^{-3}} = 4\\times10^5$ Pa."
+      "explanation": "Isothermal: $P_1V_1=P_2V_2 \\Rightarrow P_2 = \\dfrac{2\\times10^5\\times4\\times10^{-3}}{2\\times10^{-3}} = 4\\times10^5$ Pa.",
+      "trick": "Isothermal: $P_1V_1=P_2V_2$ — Boyle's law, cross-multiply directly."
     },
     {
       "id": "phy-thermodynamics-036",
@@ -467,7 +502,8 @@
       ],
       "answer": 0,
       "difficulty": "easy",
-      "explanation": "Internal energy is a state function (it depends only on temperature for an ideal gas); heat and work, in contrast, both depend on the specific path (process) followed."
+      "explanation": "Internal energy is a state function (it depends only on temperature for an ideal gas); heat and work, in contrast, both depend on the specific path (process) followed.",
+      "trick": "Only $U$ is path-independent (state function); $Q$ and $W$ both depend on path."
     },
     {
       "id": "phy-thermodynamics-037",
@@ -480,7 +516,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "Since the adiabatic curve is steeper than the isothermal curve through the same initial point ($PV^\\gamma$ falls off faster than $PV=$ const), for the same volume increase the adiabatic final pressure is lower."
+      "explanation": "Since the adiabatic curve is steeper than the isothermal curve through the same initial point ($PV^\\gamma$ falls off faster than $PV=$ const), for the same volume increase the adiabatic final pressure is lower.",
+      "trick": "Same starting point, same $V$: adiabatic curve falls steeper $\\Rightarrow$ lower final $P$."
     },
     {
       "id": "phy-thermodynamics-038",
@@ -493,7 +530,8 @@
       ],
       "answer": 3,
       "difficulty": "easy",
-      "explanation": "Because $Q=\\Delta U+W$ and $W$ depends on the process followed, the heat needed to raise a gas's temperature by a given amount (and hence its specific heat) differs for, say, constant-volume and constant-pressure heating."
+      "explanation": "Because $Q=\\Delta U+W$ and $W$ depends on the process followed, the heat needed to raise a gas's temperature by a given amount (and hence its specific heat) differs for, say, constant-volume and constant-pressure heating.",
+      "trick": "Gas specific heat isn't fixed because $W$ (hence $Q$) depends on the process."
     },
     {
       "id": "phy-thermodynamics-039",
@@ -506,7 +544,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "$\\eta=1$ requires $T_2=0$ K; since absolute zero can never actually be reached, no real (or even ideal Carnot) engine can achieve 100% efficiency, consistent with the Kelvin-Planck statement."
+      "explanation": "$\\eta=1$ requires $T_2=0$ K; since absolute zero can never actually be reached, no real (or even ideal Carnot) engine can achieve 100% efficiency, consistent with the Kelvin-Planck statement.",
+      "trick": "$\\eta=1$ needs $T_2=0$ K, unreachable $\\Rightarrow$ 100% efficiency is impossible."
     },
     {
       "id": "phy-thermodynamics-040",
@@ -519,7 +558,8 @@
       ],
       "answer": 1,
       "difficulty": "hard",
-      "explanation": "$\\eta=1-T_2/T_1=0.4 \\Rightarrow T_2/T_1=0.6$. $\\text{COP}=\\dfrac{T_2}{T_1-T_2}=\\dfrac{0.6}{1-0.6}=\\dfrac{0.6}{0.4}=1.5$."
+      "explanation": "$\\eta=1-T_2/T_1=0.4 \\Rightarrow T_2/T_1=0.6$. $\\text{COP}=\\dfrac{T_2}{T_1-T_2}=\\dfrac{0.6}{1-0.6}=\\dfrac{0.6}{0.4}=1.5$.",
+      "trick": "Get $T_2/T_1$ from $\\eta=1-T_2/T_1$, then $\\text{COP}=T_2/(T_1-T_2)$."
     }
   ]
 }

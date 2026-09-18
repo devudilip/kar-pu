@@ -12,7 +12,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "$F = \\dfrac{Gm_1m_2}{r^2} = \\dfrac{6.67\\times10^{-11}\\times2\\times3}{1^2} \\approx 4\\times10^{-10}$ N."
+      "explanation": "$F = \\dfrac{Gm_1m_2}{r^2} = \\dfrac{6.67\\times10^{-11}\\times2\\times3}{1^2} \\approx 4\\times10^{-10}$ N.",
+      "trick": "$F=Gm_1m_2/r^2$ — direct plug-in."
     },
     {
       "id": "phy-gravitation-002",
@@ -25,7 +26,8 @@
       ],
       "answer": 1,
       "difficulty": "easy",
-      "explanation": "$F \\propto 1/r^2$; doubling $r$ reduces $F$ to $1/2^2 = 1/4$ of its original value."
+      "explanation": "$F \\propto 1/r^2$; doubling $r$ reduces $F$ to $1/2^2 = 1/4$ of its original value.",
+      "trick": "$F\\propto1/r^2$: doubling $r$ quarters the force."
     },
     {
       "id": "phy-gravitation-003",
@@ -38,7 +40,8 @@
       ],
       "answer": 0,
       "difficulty": "easy",
-      "explanation": "$F \\propto m_1m_2$; doubling both masses multiplies $F$ by $2\\times2 = 4$."
+      "explanation": "$F \\propto m_1m_2$; doubling both masses multiplies $F$ by $2\\times2 = 4$.",
+      "trick": "$F\\propto m_1m_2$: doubling both masses quadruples force."
     },
     {
       "id": "phy-gravitation-004",
@@ -51,7 +54,8 @@
       ],
       "answer": 3,
       "difficulty": "medium",
-      "explanation": "$g' = \\dfrac{g}{(1+h/R)^2} = \\dfrac{g}{(1+1)^2} = \\dfrac{g}{4}$."
+      "explanation": "$g' = \\dfrac{g}{(1+h/R)^2} = \\dfrac{g}{(1+1)^2} = \\dfrac{g}{4}$.",
+      "trick": "At $h=R$: $g'=g/(1+h/R)^2=g/4$ — memorise this common case."
     },
     {
       "id": "phy-gravitation-005",
@@ -64,7 +68,8 @@
       ],
       "answer": 3,
       "difficulty": "medium",
-      "explanation": "$g' = g\\left(1-\\dfrac{d}{R}\\right) = g\\left(1-\\dfrac12\\right) = \\dfrac{g}{2}$."
+      "explanation": "$g' = g\\left(1-\\dfrac{d}{R}\\right) = g\\left(1-\\dfrac12\\right) = \\dfrac{g}{2}$.",
+      "trick": "Depth formula: $g'=g(1-d/R)$, linear not squared."
     },
     {
       "id": "phy-gravitation-006",
@@ -77,7 +82,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "$v_e = \\sqrt{2GM/R}$, so $v_e \\propto 1/\\sqrt{R}$. Halving $R$ multiplies $v_e$ by $\\sqrt2$."
+      "explanation": "$v_e = \\sqrt{2GM/R}$, so $v_e \\propto 1/\\sqrt{R}$. Halving $R$ multiplies $v_e$ by $\\sqrt2$.",
+      "trick": "$v_e\\propto1/\\sqrt R$: halving $R$ multiplies $v_e$ by $\\sqrt2$."
     },
     {
       "id": "phy-gravitation-007",
@@ -90,7 +96,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "$v_o = \\sqrt{GM/R}$ and $v_e = \\sqrt{2GM/R} = \\sqrt2\\,v_o$."
+      "explanation": "$v_o = \\sqrt{GM/R}$ and $v_e = \\sqrt{2GM/R} = \\sqrt2\\,v_o$.",
+      "trick": "Memorise: $v_e=\\sqrt2\\,v_o$ — saves time instantly."
     },
     {
       "id": "phy-gravitation-008",
@@ -103,7 +110,8 @@
       ],
       "answer": 1,
       "difficulty": "hard",
-      "explanation": "By Kepler's third law $T \\propto r^{3/2}$, so $T_1/T_2 = (r_1/r_2)^{3/2} = 4^{3/2} = 8$."
+      "explanation": "By Kepler's third law $T \\propto r^{3/2}$, so $T_1/T_2 = (r_1/r_2)^{3/2} = 4^{3/2} = 8$.",
+      "trick": "Kepler's third law: $T\\propto r^{3/2}$, so ratio 4:1 in $r$ gives $4^{1.5}=8$ in $T$."
     },
     {
       "id": "phy-gravitation-009",
@@ -116,7 +124,8 @@
       ],
       "answer": 3,
       "difficulty": "easy",
-      "explanation": "$U = -GMm/r$; as $r$ decreases, $1/r$ increases, so $U$ becomes more negative."
+      "explanation": "$U = -GMm/r$; as $r$ decreases, $1/r$ increases, so $U$ becomes more negative.",
+      "trick": "$U=-GMm/r$ becomes more negative as $r$ shrinks — never positive."
     },
     {
       "id": "phy-gravitation-010",
@@ -129,7 +138,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "Gravity at orbital altitude is still substantial; apparent weightlessness arises because the station and everything in it fall freely together, so there is no normal contact force."
+      "explanation": "Gravity at orbital altitude is still substantial; apparent weightlessness arises because the station and everything in it fall freely together, so there is no normal contact force.",
+      "trick": "Weightlessness in orbit = free fall together, not absence of gravity."
     },
     {
       "id": "phy-gravitation-011",
@@ -142,7 +152,8 @@
       ],
       "answer": 2,
       "difficulty": "easy",
-      "explanation": "A geostationary satellite must match Earth's rotation period (about 24 h) and stay above a fixed point on the equator, so it must orbit in the equatorial plane."
+      "explanation": "A geostationary satellite must match Earth's rotation period (about 24 h) and stay above a fixed point on the equator, so it must orbit in the equatorial plane.",
+      "trick": "Geostationary = 24 h period AND equatorial plane, both required."
     },
     {
       "id": "phy-gravitation-012",
@@ -155,7 +166,8 @@
       ],
       "answer": 1,
       "difficulty": "easy",
-      "explanation": "$v_e = \\sqrt{2GM/R}$ depends only on the mass and radius of the planet, not on the mass of the projected body."
+      "explanation": "$v_e = \\sqrt{2GM/R}$ depends only on the mass and radius of the planet, not on the mass of the projected body.",
+      "trick": "$v_e$ depends only on planet's $M,R$ — never on the projectile's own mass."
     },
     {
       "id": "phy-gravitation-013",
@@ -168,7 +180,8 @@
       ],
       "answer": 1,
       "difficulty": "easy",
-      "explanation": "$G$ is a fundamental constant of nature, believed to be the same everywhere and unaffected by the intervening medium."
+      "explanation": "$G$ is a fundamental constant of nature, believed to be the same everywhere and unaffected by the intervening medium.",
+      "trick": "$G$ is universal: same everywhere, independent of medium."
     },
     {
       "id": "phy-gravitation-014",
@@ -181,7 +194,8 @@
       ],
       "answer": 2,
       "difficulty": "hard",
-      "explanation": "$M = \\dfrac{gR^2}{G} = \\dfrac{10\\times(6.4\\times10^6)^2}{6.67\\times10^{-11}} = \\dfrac{4.096\\times10^{14}}{6.67\\times10^{-11}} \\approx 6.14\\times10^{24}$ kg."
+      "explanation": "$M = \\dfrac{gR^2}{G} = \\dfrac{10\\times(6.4\\times10^6)^2}{6.67\\times10^{-11}} = \\dfrac{4.096\\times10^{14}}{6.67\\times10^{-11}} \\approx 6.14\\times10^{24}$ kg.",
+      "trick": "$M=gR^2/G$ — direct plug-in, watch powers of ten."
     },
     {
       "id": "phy-gravitation-015",
@@ -194,7 +208,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "$v_o \\propto 1/\\sqrt{r}$, so $v_1/v_2 = \\sqrt{r_2/r_1} = \\sqrt{4} = 2$."
+      "explanation": "$v_o \\propto 1/\\sqrt{r}$, so $v_1/v_2 = \\sqrt{r_2/r_1} = \\sqrt{4} = 2$.",
+      "trick": "$v_o\\propto1/\\sqrt r$: ratio 1:4 in $r$ gives ratio $2:1$ in speed (inverted, square-rooted)."
     },
     {
       "id": "phy-gravitation-016",
@@ -207,7 +222,8 @@
       ],
       "answer": 3,
       "difficulty": "medium",
-      "explanation": "Kinetic energy $\\frac12mv_o^2 = \\dfrac{GMm}{2r}$ and potential energy $-\\dfrac{GMm}{r}$; adding gives total energy $-\\dfrac{GMm}{2r}$, negative because the satellite is gravitationally bound."
+      "explanation": "Kinetic energy $\\frac12mv_o^2 = \\dfrac{GMm}{2r}$ and potential energy $-\\dfrac{GMm}{r}$; adding gives total energy $-\\dfrac{GMm}{2r}$, negative because the satellite is gravitationally bound.",
+      "trick": "Total orbital energy is always $-GMm/2r$ — memorise the negative half."
     },
     {
       "id": "phy-gravitation-017",
@@ -220,7 +236,8 @@
       ],
       "answer": 1,
       "difficulty": "hard",
-      "explanation": "For small $x$: rising gives $\\Delta g/g \\approx 2x/R$, while descending gives $\\Delta g/g \\approx x/R$ &mdash; so $g$ falls off twice as fast with height as with depth."
+      "explanation": "For small $x$: rising gives $\\Delta g/g \\approx 2x/R$, while descending gives $\\Delta g/g \\approx x/R$ &mdash; so $g$ falls off twice as fast with height as with depth.",
+      "trick": "For small $x$: rising drops $g$ twice as fast as descending the same distance."
     },
     {
       "id": "phy-gravitation-018",
@@ -233,7 +250,8 @@
       ],
       "answer": 3,
       "difficulty": "easy",
-      "explanation": "A uniform sphere behaves gravitationally, for points outside it, as if its entire mass were concentrated at its centre, so $r$ is measured centre to centre."
+      "explanation": "A uniform sphere behaves gravitationally, for points outside it, as if its entire mass were concentrated at its centre, so $r$ is measured centre to centre.",
+      "trick": "For spheres, use centre-to-centre distance in $F=Gm_1m_2/r^2$."
     },
     {
       "id": "phy-gravitation-019",
@@ -246,7 +264,8 @@
       ],
       "answer": 2,
       "difficulty": "easy",
-      "explanation": "Gravitational force on a planet is central (along the line to the Sun), so it exerts no torque about the Sun; hence angular momentum, and therefore areal velocity, stays constant."
+      "explanation": "Gravitational force on a planet is central (along the line to the Sun), so it exerts no torque about the Sun; hence angular momentum, and therefore areal velocity, stays constant.",
+      "trick": "Kepler's second law ⇐ conservation of angular momentum (central force, zero torque)."
     },
     {
       "id": "phy-gravitation-020",
@@ -259,7 +278,8 @@
       ],
       "answer": 0,
       "difficulty": "easy",
-      "explanation": "Earth's rotation produces an outward effect greatest at the equator, and the equatorial radius is also larger due to the bulge (g \\propto 1/R^2); both effects lower g there compared to the poles."
+      "explanation": "Earth's rotation produces an outward effect greatest at the equator, and the equatorial radius is also larger due to the bulge (g \\propto 1/R^2); both effects lower g there compared to the poles.",
+      "trick": "Equator vs pole $g$ difference: rotation's outward effect + equatorial bulge, both reduce $g$."
     },
     {
       "id": "phy-gravitation-021",
@@ -272,7 +292,8 @@
       ],
       "answer": 0,
       "difficulty": "easy",
-      "explanation": "$g' = g(1-d/R)$; at the centre $d=R$, so $g'=0$. Only the mass enclosed within radius $r$ contributes, and none is enclosed at $r=0$."
+      "explanation": "$g' = g(1-d/R)$; at the centre $d=R$, so $g'=0$. Only the mass enclosed within radius $r$ contributes, and none is enclosed at $r=0$.",
+      "trick": "At Earth's centre, enclosed mass is zero → $g=0$."
     },
     {
       "id": "phy-gravitation-022",
@@ -285,7 +306,8 @@
       ],
       "answer": 1,
       "difficulty": "hard",
-      "explanation": "$T \\propto r^{3/2}$, so $T_2 = T_1(4)^{3/2} = 1\\times8 = 8$ years."
+      "explanation": "$T \\propto r^{3/2}$, so $T_2 = T_1(4)^{3/2} = 1\\times8 = 8$ years.",
+      "trick": "$T\\propto r^{3/2}$: ratio 4 in $r$ gives $4^{1.5}=8$ in $T$."
     },
     {
       "id": "phy-gravitation-023",
@@ -298,7 +320,8 @@
       ],
       "answer": 3,
       "difficulty": "medium",
-      "explanation": "$T \\propto r^{3/2}$; $T = T_0(2R/R)^{3/2} = T_0\\times2^{3/2} = 2\\sqrt2\\,T_0 \\approx 2.83T_0$."
+      "explanation": "$T \\propto r^{3/2}$; $T = T_0(2R/R)^{3/2} = T_0\\times2^{3/2} = 2\\sqrt2\\,T_0 \\approx 2.83T_0$.",
+      "trick": "$T\\propto r^{3/2}$: orbital radius doubling gives $T\\times2\\sqrt2$."
     },
     {
       "id": "phy-gravitation-024",
@@ -311,7 +334,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "Total energy of the orbit is $-\\dfrac{GMm}{2r}$. To take the satellite to infinity (zero energy), an energy $+\\dfrac{GMm}{2r}$ must be supplied — this is the binding energy."
+      "explanation": "Total energy of the orbit is $-\\dfrac{GMm}{2r}$. To take the satellite to infinity (zero energy), an energy $+\\dfrac{GMm}{2r}$ must be supplied — this is the binding energy.",
+      "trick": "Binding energy = $+GMm/2r$, the magnitude of the (negative) total orbital energy."
     },
     {
       "id": "phy-gravitation-025",
@@ -324,7 +348,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "$v_e=\\sqrt{2gR}$, so $v_{e,\\text{moon}}/v_{e,\\text{earth}} = \\sqrt{(1/6)(1/4)} = \\sqrt{1/24}\\approx0.204$; $0.204\\times11.2\\approx2.3$ km/s."
+      "explanation": "$v_e=\\sqrt{2gR}$, so $v_{e,\\text{moon}}/v_{e,\\text{earth}} = \\sqrt{(1/6)(1/4)} = \\sqrt{1/24}\\approx0.204$; $0.204\\times11.2\\approx2.3$ km/s.",
+      "trick": "$v_e=\\sqrt{2gR}$: combine the given ratios of $g$ and $R$ under one square root."
     },
     {
       "id": "phy-gravitation-026",
@@ -337,7 +362,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "$g=\\dfrac{4}{3}\\pi G\\rho R$, so for equal $g$, $\\rho R$ is constant; with $R_B=2R_A$, $\\rho_B=\\rho_A/2$, giving $\\rho_A:\\rho_B=2:1$."
+      "explanation": "$g=\\dfrac{4}{3}\\pi G\\rho R$, so for equal $g$, $\\rho R$ is constant; with $R_B=2R_A$, $\\rho_B=\\rho_A/2$, giving $\\rho_A:\\rho_B=2:1$.",
+      "trick": "$g=\\frac43\\pi G\\rho R$: equal $g$ means $\\rho\\propto1/R$."
     },
     {
       "id": "phy-gravitation-027",
@@ -350,7 +376,8 @@
       ],
       "answer": 0,
       "difficulty": "hard",
-      "explanation": "Each mass is $d/2$ from the midpoint: $V=-\\dfrac{Gm}{d/2}-\\dfrac{G(4m)}{d/2} = -\\dfrac{2Gm}{d}-\\dfrac{8Gm}{d} = -\\dfrac{10Gm}{d}$."
+      "explanation": "Each mass is $d/2$ from the midpoint: $V=-\\dfrac{Gm}{d/2}-\\dfrac{G(4m)}{d/2} = -\\dfrac{2Gm}{d}-\\dfrac{8Gm}{d} = -\\dfrac{10Gm}{d}$.",
+      "trick": "Potential is scalar: just add $-Gm_1/r_1-Gm_2/r_2$ at the point."
     },
     {
       "id": "phy-gravitation-028",
@@ -363,7 +390,8 @@
       ],
       "answer": 3,
       "difficulty": "medium",
-      "explanation": "Setting $\\dfrac{Gm}{x^2}=\\dfrac{G(4m)}{(d-x)^2}$ gives $d-x=2x$, so $x=d/3$."
+      "explanation": "Setting $\\dfrac{Gm}{x^2}=\\dfrac{G(4m)}{(d-x)^2}$ gives $d-x=2x$, so $x=d/3$.",
+      "trick": "Null point: set $Gm/x^2=G(4m)/(d-x)^2$, solve the ratio (never at the midpoint for unequal masses)."
     },
     {
       "id": "phy-gravitation-029",
@@ -376,7 +404,8 @@
       ],
       "answer": 1,
       "difficulty": "easy",
-      "explanation": "$K=\\dfrac{GMm}{2r}$ and $U=-\\dfrac{GMm}{r}=-2K$."
+      "explanation": "$K=\\dfrac{GMm}{2r}$ and $U=-\\dfrac{GMm}{r}=-2K$.",
+      "trick": "Orbiting satellite always has $U=-2K$ — a fixed relation worth memorising."
     },
     {
       "id": "phy-gravitation-030",
@@ -389,7 +418,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "Currently part of the true gravitational force at the equator supplies the centripetal force for rotation, reducing apparent weight; if rotation stops, this requirement vanishes and the full gravitational force is felt as weight, so apparent weight increases."
+      "explanation": "Currently part of the true gravitational force at the equator supplies the centripetal force for rotation, reducing apparent weight; if rotation stops, this requirement vanishes and the full gravitational force is felt as weight, so apparent weight increases.",
+      "trick": "Stopping rotation removes the centripetal 'discount' on weight at the equator → weight increases."
     },
     {
       "id": "phy-gravitation-031",
@@ -402,7 +432,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "$K=\\dfrac{GMm}{2r}\\propto\\dfrac1r$, so $K_A:K_B = \\dfrac{1/r}{1/4r} = 4:1$."
+      "explanation": "$K=\\dfrac{GMm}{2r}\\propto\\dfrac1r$, so $K_A:K_B = \\dfrac{1/r}{1/4r} = 4:1$.",
+      "trick": "$K=GMm/2r\\propto1/r$: inverse ratio of orbital radii gives KE ratio."
     },
     {
       "id": "phy-gravitation-032",
@@ -415,7 +446,8 @@
       ],
       "answer": 3,
       "difficulty": "hard",
-      "explanation": "$E_1=-\\dfrac{GMm}{2r}$, $E_2=-\\dfrac{GMm}{4r}$; energy needed $=E_2-E_1=\\dfrac{GMm}{4r}$."
+      "explanation": "$E_1=-\\dfrac{GMm}{2r}$, $E_2=-\\dfrac{GMm}{4r}$; energy needed $=E_2-E_1=\\dfrac{GMm}{4r}$.",
+      "trick": "Energy to raise orbit = $E_2-E_1$ using $E=-GMm/2r$ at each radius."
     },
     {
       "id": "phy-gravitation-033",
@@ -428,7 +460,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "Kepler's second law follows from conservation of angular momentum; as $r$ decreases near the Sun, $v$ must increase to keep angular momentum (and areal velocity) constant, making the planet fastest at perihelion."
+      "explanation": "Kepler's second law follows from conservation of angular momentum; as $r$ decreases near the Sun, $v$ must increase to keep angular momentum (and areal velocity) constant, making the planet fastest at perihelion.",
+      "trick": "Kepler's second law is literally angular momentum conservation — both A and R true and linked."
     },
     {
       "id": "phy-gravitation-034",
@@ -441,7 +474,8 @@
       ],
       "answer": 3,
       "difficulty": "medium",
-      "explanation": "Unlike electrostatic force, which can be modified by a dielectric medium, gravitational force is unaffected by the intervening medium — statement D is false."
+      "explanation": "Unlike electrostatic force, which can be modified by a dielectric medium, gravitational force is unaffected by the intervening medium — statement D is false.",
+      "trick": "Spot the false one: gravity, unlike electrostatics, never depends on the medium."
     },
     {
       "id": "phy-gravitation-035",
@@ -454,7 +488,8 @@
       ],
       "answer": 0,
       "difficulty": "easy",
-      "explanation": "$v_o=\\sqrt{GM/r}$ depends on the planet's mass $M$ and orbital radius $r$; the satellite's own mass cancels out."
+      "explanation": "$v_o=\\sqrt{GM/r}$ depends on the planet's mass $M$ and orbital radius $r$; the satellite's own mass cancels out.",
+      "trick": "$v_o=\\sqrt{GM/r}$ — satellite's own mass always cancels out."
     },
     {
       "id": "phy-gravitation-036",
@@ -467,7 +502,8 @@
       ],
       "answer": 2,
       "difficulty": "easy",
-      "explanation": "$v_e=\\sqrt{2GM/R}\\propto\\sqrt M$; quadrupling $M$ multiplies $v_e$ by $\\sqrt4=2$."
+      "explanation": "$v_e=\\sqrt{2GM/R}\\propto\\sqrt M$; quadrupling $M$ multiplies $v_e$ by $\\sqrt4=2$.",
+      "trick": "$v_e\\propto\\sqrt M$: quadrupling $M$ doubles $v_e$."
     },
     {
       "id": "phy-gravitation-037",
@@ -480,7 +516,8 @@
       ],
       "answer": 1,
       "difficulty": "hard",
-      "explanation": "$v_e\\propto1/\\sqrt R$ for the same $M$; halving $R$ multiplies $v_e$ by $\\sqrt2$: $11.2\\times\\sqrt2\\approx15.8$ km/s."
+      "explanation": "$v_e\\propto1/\\sqrt R$ for the same $M$; halving $R$ multiplies $v_e$ by $\\sqrt2$: $11.2\\times\\sqrt2\\approx15.8$ km/s.",
+      "trick": "$v_e\\propto1/\\sqrt R$ for fixed $M$: halving $R$ scales $v_e$ by $\\sqrt2$."
     },
     {
       "id": "phy-gravitation-038",
@@ -493,7 +530,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "Inside, $g\\propto r$ because enclosed mass $\\propto r^3$ so $g=GM_{enc}/r^2 \\propto r$; outside, all mass $M$ acts from the centre giving the standard $1/r^2$ decrease."
+      "explanation": "Inside, $g\\propto r$ because enclosed mass $\\propto r^3$ so $g=GM_{enc}/r^2 \\propto r$; outside, all mass $M$ acts from the centre giving the standard $1/r^2$ decrease.",
+      "trick": "Inside Earth $g\\propto r$ (enclosed mass grows as $r^3$); outside $g\\propto1/r^2$."
     },
     {
       "id": "phy-gravitation-039",
@@ -506,7 +544,8 @@
       ],
       "answer": 0,
       "difficulty": "easy",
-      "explanation": "By convention, $U=-GMm/r \\to 0$ as $r\\to\\infty$, which is chosen as the reference (zero) level of gravitational potential energy."
+      "explanation": "By convention, $U=-GMm/r \\to 0$ as $r\\to\\infty$, which is chosen as the reference (zero) level of gravitational potential energy.",
+      "trick": "PE reference (zero) is conventionally set at infinite separation."
     },
     {
       "id": "phy-gravitation-040",
@@ -519,7 +558,8 @@
       ],
       "answer": 3,
       "difficulty": "easy",
-      "explanation": "By Newton's third law, the force each mass exerts on the other is equal in magnitude ($Gm_1m_2/r^2$ for both) and opposite in direction, even though the masses differ."
+      "explanation": "By Newton's third law, the force each mass exerts on the other is equal in magnitude ($Gm_1m_2/r^2$ for both) and opposite in direction, even though the masses differ.",
+      "trick": "Gravity obeys Newton's third law: equal, opposite mutual forces regardless of mass difference."
     }
   ]
 }

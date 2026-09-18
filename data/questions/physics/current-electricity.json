@@ -13,7 +13,8 @@
       "answer": 2,
       "difficulty": "easy",
       "explanation": "Volume is constant, so area halves when length doubles. $R' = \\rho\\dfrac{2l}{A/2} = 4R$.",
-      "tip": "Stretched $n$ times → $n^2$ times resistance."
+      "tip": "Stretched $n$ times → $n^2$ times resistance.",
+      "trick": "Stretched $n\\times$ in length (volume fixed) → resistance goes up $n^2\\times$."
     },
     {
       "id": "phy-current-electricity-002",
@@ -26,7 +27,8 @@
       ],
       "answer": 1,
       "difficulty": "easy",
-      "explanation": "$I = E/(R+r) = 2/5 = 0.4$ A; $V = IR = 0.4\\times4 = 1.6$ V (or $E - Ir$)."
+      "explanation": "$I = E/(R+r) = 2/5 = 0.4$ A; $V = IR = 0.4\\times4 = 1.6$ V (or $E - Ir$).",
+      "trick": "Terminal V $=IR$, computed from $I=E/(R+r)$ — quicker than $E-Ir$ here."
     },
     {
       "id": "phy-current-electricity-003",
@@ -39,7 +41,8 @@
       ],
       "answer": 3,
       "difficulty": "easy",
-      "explanation": "$P/Q = R/S \\Rightarrow S = QR/P = 4\\times3/2 = 6\\,\\Omega$."
+      "explanation": "$P/Q = R/S \\Rightarrow S = QR/P = 4\\times3/2 = 6\\,\\Omega$.",
+      "trick": "Wheatstone balance: cross-multiply $P/Q=R/S$, solve for the unknown arm."
     },
     {
       "id": "phy-current-electricity-004",
@@ -52,7 +55,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "$\\dfrac{R}{X} = \\dfrac{l}{100-l} \\Rightarrow X = 4\\times\\dfrac{60}{40} = 6\\,\\Omega$."
+      "explanation": "$\\dfrac{R}{X} = \\dfrac{l}{100-l} \\Rightarrow X = 4\\times\\dfrac{60}{40} = 6\\,\\Omega$.",
+      "trick": "Metre bridge: $R/X=l/(100-l)$ — balance length from LEFT end goes with $R$."
     },
     {
       "id": "phy-current-electricity-005",
@@ -65,7 +69,8 @@
       ],
       "answer": 1,
       "difficulty": "easy",
-      "explanation": "At the null point no current flows through the cell, so the reading equals the true emf. A voltmeter always draws some current and reads slightly less than emf."
+      "explanation": "At the null point no current flows through the cell, so the reading equals the true emf. A voltmeter always draws some current and reads slightly less than emf.",
+      "trick": "Potentiometer draws zero current at balance — that's the whole reason it beats a voltmeter."
     },
     {
       "id": "phy-current-electricity-006",
@@ -78,7 +83,8 @@
       ],
       "answer": 0,
       "difficulty": "easy",
-      "explanation": "$R = V^2/P = 220^2/100 = 484\\,\\Omega$."
+      "explanation": "$R = V^2/P = 220^2/100 = 484\\,\\Omega$.",
+      "trick": "Bulb resistance: $R=V_{rated}^2/P_{rated}$ — always use rated values, not actual."
     },
     {
       "id": "phy-current-electricity-007",
@@ -91,7 +97,8 @@
       ],
       "answer": 2,
       "difficulty": "easy",
-      "explanation": "Red = 2, violet = 7, orange = $10^3$ → $27\\times10^3 = 27$ k$\\Omega$; gold = ±5%."
+      "explanation": "Red = 2, violet = 7, orange = $10^3$ → $27\\times10^3 = 27$ k$\\Omega$; gold = ±5%.",
+      "trick": "Colour code: 1st-2nd digits, 3rd=multiplier power of 10, 4th=tolerance."
     },
     {
       "id": "phy-current-electricity-008",
@@ -104,7 +111,8 @@
       ],
       "answer": 3,
       "difficulty": "easy",
-      "explanation": "$R_s = 3R$, $R_p = R/3$, ratio $= 9$. In general $n^2$."
+      "explanation": "$R_s = 3R$, $R_p = R/3$, ratio $= 9$. In general $n^2$.",
+      "trick": "Equal resistors: series/parallel ratio is always $n^2$ for $n$ resistors."
     },
     {
       "id": "phy-current-electricity-009",
@@ -117,7 +125,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "$v_d = I/(nAe)$. Area becomes 4 times, current 2 times → $v_d' = 2v/4 = v/2$."
+      "explanation": "$v_d = I/(nAe)$. Area becomes 4 times, current 2 times → $v_d' = 2v/4 = v/2$.",
+      "trick": "$v_d\\propto I/A$: area scales as $r^2$, so doubling both gives $v_d\\to v_d/2$."
     },
     {
       "id": "phy-current-electricity-010",
@@ -130,7 +139,8 @@
       ],
       "answer": 2,
       "difficulty": "easy",
-      "explanation": "Total emf $nE$, total internal resistance $nr$: $I = \\dfrac{nE}{R+nr}$."
+      "explanation": "Total emf $nE$, total internal resistance $nr$: $I = \\dfrac{nE}{R+nr}$.",
+      "trick": "$n$ cells in series: emf and internal resistance both scale by $n$: $nE/(R+nr)$."
     },
     {
       "id": "phy-current-electricity-011",
@@ -143,7 +153,8 @@
       ],
       "answer": 3,
       "difficulty": "easy",
-      "explanation": "Charge cannot accumulate at a junction, so the total current in equals the total current out. The loop rule follows from conservation of energy."
+      "explanation": "Charge cannot accumulate at a junction, so the total current in equals the total current out. The loop rule follows from conservation of energy.",
+      "trick": "Junction rule = charge conservation; loop rule = energy conservation — don't swap them."
     },
     {
       "id": "phy-current-electricity-012",
@@ -156,7 +167,8 @@
       ],
       "answer": 1,
       "difficulty": "easy",
-      "explanation": "$\\mu = v_d/E$ → (m s$^{-1}$)/(V m$^{-1}$) = m$^2$ V$^{-1}$ s$^{-1}$."
+      "explanation": "$\\mu = v_d/E$ → (m s$^{-1}$)/(V m$^{-1}$) = m$^2$ V$^{-1}$ s$^{-1}$.",
+      "trick": "Mobility unit: $v_d/E$ = (m/s)/(V/m) = m$^2$V$^{-1}$s$^{-1}$, build it from definition."
     },
     {
       "id": "phy-current-electricity-013",
@@ -169,7 +181,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "$r = R\\left(\\dfrac{l_1}{l_2} - 1\\right) = 2\\left(\\dfrac{240}{120} - 1\\right) = 2\\,\\Omega$."
+      "explanation": "$r = R\\left(\\dfrac{l_1}{l_2} - 1\\right) = 2\\left(\\dfrac{240}{120} - 1\\right) = 2\\,\\Omega$.",
+      "trick": "$r=R(l_1/l_2-1)$ — plug open-circuit and loaded balancing lengths directly."
     },
     {
       "id": "phy-current-electricity-014",
@@ -183,7 +196,8 @@
       "answer": 3,
       "difficulty": "medium",
       "explanation": "In series the same current flows; power $= I^2R$. The 60 W bulb has higher resistance ($V^2/P$), so it dissipates more power and glows brighter.",
-      "tip": "Series → higher resistance (lower wattage) bulb brighter. Parallel → higher wattage brighter."
+      "tip": "Series → higher resistance (lower wattage) bulb brighter. Parallel → higher wattage brighter.",
+      "trick": "Series circuit: LOWER wattage bulb has higher R, so it glows brighter."
     },
     {
       "id": "phy-current-electricity-015",
@@ -196,7 +210,8 @@
       ],
       "answer": 1,
       "difficulty": "hard",
-      "explanation": "$R = R_0(1+\\alpha t)$: $5 = R_0(1+50\\alpha)$, $6 = R_0(1+100\\alpha)$. Dividing: $6(1+50\\alpha) = 5(1+100\\alpha) \\Rightarrow 1 = 200\\alpha \\Rightarrow \\alpha = 1/200$. Then $R_0 = 5/(1+0.25) = 4\\,\\Omega$."
+      "explanation": "$R = R_0(1+\\alpha t)$: $5 = R_0(1+50\\alpha)$, $6 = R_0(1+100\\alpha)$. Dividing: $6(1+50\\alpha) = 5(1+100\\alpha) \\Rightarrow 1 = 200\\alpha \\Rightarrow \\alpha = 1/200$. Then $R_0 = 5/(1+0.25) = 4\\,\\Omega$.",
+      "trick": "Two $R$-$t$ equations, $R=R_0(1+\\alpha t)$: solve simultaneously for $\\alpha$ then $R_0$."
     },
     {
       "id": "phy-current-electricity-016",
@@ -209,7 +224,8 @@
       ],
       "answer": 0,
       "difficulty": "easy",
-      "explanation": "$P = \\dfrac{E^2R}{(R+r)^2}$ is maximum when $R = r$ (maximum power transfer theorem); then $P_{max} = E^2/4r$."
+      "explanation": "$P = \\dfrac{E^2R}{(R+r)^2}$ is maximum when $R = r$ (maximum power transfer theorem); then $P_{max} = E^2/4r$.",
+      "trick": "Max power transfer: always $R=r$, giving $P_{max}=E^2/4r$."
     },
     {
       "id": "phy-current-electricity-017",
@@ -222,7 +238,8 @@
       ],
       "answer": 0,
       "difficulty": "easy",
-      "explanation": "Resistivity is an intrinsic property of the material, depending on its nature and temperature, unlike resistance which also depends on length and area."
+      "explanation": "Resistivity is an intrinsic property of the material, depending on its nature and temperature, unlike resistance which also depends on length and area.",
+      "trick": "Resistivity depends only on material and temperature — never on length or area."
     },
     {
       "id": "phy-current-electricity-018",
@@ -235,7 +252,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "Current density is a vector, $J=I/A$, representing current flowing per unit cross-sectional area in the direction of current flow."
+      "explanation": "Current density is a vector, $J=I/A$, representing current flowing per unit cross-sectional area in the direction of current flow.",
+      "trick": "Current density $J=I/A$ is a vector along current flow — not per length or volume."
     },
     {
       "id": "phy-current-electricity-019",
@@ -248,7 +266,8 @@
       ],
       "answer": 1,
       "difficulty": "hard",
-      "explanation": "$v_d=\\dfrac{I}{nAe}=\\dfrac{1.6}{8\\times10^{28}\\times10^{-6}\\times1.6\\times10^{-19}}=\\dfrac{1.6}{1.28\\times10^{4}}\\approx1.25\\times10^{-4}$ m/s."
+      "explanation": "$v_d=\\dfrac{I}{nAe}=\\dfrac{1.6}{8\\times10^{28}\\times10^{-6}\\times1.6\\times10^{-19}}=\\dfrac{1.6}{1.28\\times10^{4}}\\approx1.25\\times10^{-4}$ m/s.",
+      "trick": "$v_d=I/(nAe)$ — plug all four given values directly, watch powers of 10."
     },
     {
       "id": "phy-current-electricity-020",
@@ -261,7 +280,8 @@
       ],
       "answer": 3,
       "difficulty": "easy",
-      "explanation": "While charging, the terminal voltage exceeds the emf by the drop across internal resistance: $V=E+Ir$ (as opposed to $V=E-Ir$ while discharging)."
+      "explanation": "While charging, the terminal voltage exceeds the emf by the drop across internal resistance: $V=E+Ir$ (as opposed to $V=E-Ir$ while discharging).",
+      "trick": "Charging: terminal voltage is $E+Ir$ (exceeds emf); discharging: $E-Ir$."
     },
     {
       "id": "phy-current-electricity-021",
@@ -274,7 +294,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "For $m$ identical cells in parallel, $I=\\dfrac{E}{R+r/m}=\\dfrac{1.5}{2+0.5}=0.6$ A."
+      "explanation": "For $m$ identical cells in parallel, $I=\\dfrac{E}{R+r/m}=\\dfrac{1.5}{2+0.5}=0.6$ A.",
+      "trick": "Identical cells in parallel: use $I=E/(R+r/m)$ with $m$ = number of cells."
     },
     {
       "id": "phy-current-electricity-022",
@@ -287,7 +308,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "Parallel: $\\dfrac{6\\times3}{6+3}=2\\,\\Omega$; in series with 4 $\\Omega$: total $=4+2=6\\,\\Omega$."
+      "explanation": "Parallel: $\\dfrac{6\\times3}{6+3}=2\\,\\Omega$; in series with 4 $\\Omega$: total $=4+2=6\\,\\Omega$.",
+      "trick": "Solve the parallel branch first, then simply add the series resistor."
     },
     {
       "id": "phy-current-electricity-023",
@@ -300,7 +322,8 @@
       ],
       "answer": 3,
       "difficulty": "medium",
-      "explanation": "The loop rule ($\\sum IR = \\sum E$) follows from conservation of energy: the net change in potential around any closed loop is zero."
+      "explanation": "The loop rule ($\\sum IR = \\sum E$) follows from conservation of energy: the net change in potential around any closed loop is zero.",
+      "trick": "Loop rule ($\\sum IR=\\sum E$) comes from energy conservation, not charge."
     },
     {
       "id": "phy-current-electricity-024",
@@ -313,7 +336,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "A smaller potential gradient ($E$ per unit length) means a larger balancing length for a given potential difference, allowing finer (more sensitive) measurement; this is achieved with a longer wire."
+      "explanation": "A smaller potential gradient ($E$ per unit length) means a larger balancing length for a given potential difference, allowing finer (more sensitive) measurement; this is achieved with a longer wire.",
+      "trick": "Lower potential gradient (longer wire) = higher potentiometer sensitivity."
     },
     {
       "id": "phy-current-electricity-025",
@@ -326,7 +350,8 @@
       ],
       "answer": 2,
       "difficulty": "easy",
-      "explanation": "An ideal ammeter, connected in series, should have zero resistance so that it does not alter the current it is measuring."
+      "explanation": "An ideal ammeter, connected in series, should have zero resistance so that it does not alter the current it is measuring.",
+      "trick": "Ideal ammeter: zero resistance (in series, shouldn't add resistance)."
     },
     {
       "id": "phy-current-electricity-026",
@@ -339,7 +364,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "An ideal voltmeter, connected in parallel, should have infinite resistance so that it draws no current and does not change the potential difference being measured."
+      "explanation": "An ideal voltmeter, connected in parallel, should have infinite resistance so that it draws no current and does not change the potential difference being measured.",
+      "trick": "Ideal voltmeter: infinite resistance (in parallel, shouldn't draw current)."
     },
     {
       "id": "phy-current-electricity-027",
@@ -352,7 +378,8 @@
       ],
       "answer": 3,
       "difficulty": "hard",
-      "explanation": "Energy $= P\\times t = 2\\,\\text{kW}\\times3\\,\\text{h}\\times5\\,\\text{days} = 30$ kWh."
+      "explanation": "Energy $= P\\times t = 2\\,\\text{kW}\\times3\\,\\text{h}\\times5\\,\\text{days} = 30$ kWh.",
+      "trick": "Energy = power(kW) $\\times$ hours/day $\\times$ days — straight multiplication, keep units in kWh."
     },
     {
       "id": "phy-current-electricity-028",
@@ -365,7 +392,8 @@
       ],
       "answer": 0,
       "difficulty": "hard",
-      "explanation": "$P=I^2R=2^2\\times50=200$ W; heat $=P\\times t=200\\times60=12000$ J."
+      "explanation": "$P=I^2R=2^2\\times50=200$ W; heat $=P\\times t=200\\times60=12000$ J.",
+      "trick": "Heat $=I^2Rt$ — square the current, don't forget minutes to seconds."
     },
     {
       "id": "phy-current-electricity-029",
@@ -378,7 +406,8 @@
       ],
       "answer": 3,
       "difficulty": "easy",
-      "explanation": "A semiconductor diode has a non-linear V-I characteristic and does not obey Ohm's law; metallic conductors at constant temperature are ohmic."
+      "explanation": "A semiconductor diode has a non-linear V-I characteristic and does not obey Ohm's law; metallic conductors at constant temperature are ohmic.",
+      "trick": "Non-ohmic = non-linear V-I graph; diodes, not simple resistors or metal wires."
     },
     {
       "id": "phy-current-electricity-030",
@@ -391,7 +420,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "In semiconductors, increasing temperature releases more charge carriers, increasing conductivity and hence decreasing resistance — opposite to the behaviour of metals."
+      "explanation": "In semiconductors, increasing temperature releases more charge carriers, increasing conductivity and hence decreasing resistance — opposite to the behaviour of metals.",
+      "trick": "Semiconductors: resistance DECREASES with rising temperature — opposite trend to metals."
     },
     {
       "id": "phy-current-electricity-031",
@@ -404,7 +434,8 @@
       ],
       "answer": 2,
       "difficulty": "easy",
-      "explanation": "Below its critical temperature, a superconductor offers zero resistance to the flow of current."
+      "explanation": "Below its critical temperature, a superconductor offers zero resistance to the flow of current.",
+      "trick": "Superconductor = exactly zero resistance below its critical temperature, not just low."
     },
     {
       "id": "phy-current-electricity-032",
@@ -417,7 +448,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "EMF is the total work done per unit charge by the source in moving charge around the entire circuit; it equals the terminal voltage only when no current flows (open circuit)."
+      "explanation": "EMF is the total work done per unit charge by the source in moving charge around the entire circuit; it equals the terminal voltage only when no current flows (open circuit).",
+      "trick": "EMF = work per unit charge round the WHOLE circuit, including inside the cell."
     },
     {
       "id": "phy-current-electricity-033",
@@ -430,7 +462,8 @@
       ],
       "answer": 0,
       "difficulty": "easy",
-      "explanation": "With $R=0$, $I=E/(R+r)=E/r$, the maximum current the cell can deliver."
+      "explanation": "With $R=0$, $I=E/(R+r)=E/r$, the maximum current the cell can deliver.",
+      "trick": "Short circuit ($R=0$): current is simply $E/r$, the cell's maximum output."
     },
     {
       "id": "phy-current-electricity-034",
@@ -443,7 +476,8 @@
       ],
       "answer": 3,
       "difficulty": "medium",
-      "explanation": "$I=10/(2+3)=2$ A; voltage across 3 $\\Omega$ $=IR=2\\times3=6$ V (voltage divider)."
+      "explanation": "$I=10/(2+3)=2$ A; voltage across 3 $\\Omega$ $=IR=2\\times3=6$ V (voltage divider).",
+      "trick": "Voltage divider in series: $V_i=I\\times R_i$, using the same series current throughout."
     },
     {
       "id": "phy-current-electricity-035",
@@ -456,7 +490,8 @@
       ],
       "answer": 1,
       "difficulty": "hard",
-      "explanation": "By the current divider rule, the current through one branch is inversely proportional to its resistance: $I_2 = I_{total}\\times\\dfrac{R_3}{R_2+R_3}=5\\times\\dfrac{3}{5}=3$ A."
+      "explanation": "By the current divider rule, the current through one branch is inversely proportional to its resistance: $I_2 = I_{total}\\times\\dfrac{R_3}{R_2+R_3}=5\\times\\dfrac{3}{5}=3$ A.",
+      "trick": "Current divider: current splits in INVERSE proportion to resistance in that branch."
     },
     {
       "id": "phy-current-electricity-036",
@@ -469,7 +504,8 @@
       ],
       "answer": 2,
       "difficulty": "easy",
-      "explanation": "Conductivity $\\sigma=1/\\rho$ has SI unit siemens per metre (S/m), the reciprocal of resistivity's unit ($\\Omega$ m)."
+      "explanation": "Conductivity $\\sigma=1/\\rho$ has SI unit siemens per metre (S/m), the reciprocal of resistivity's unit ($\\Omega$ m).",
+      "trick": "Conductivity unit is S/m — reciprocal of resistivity's $\\Omega\\cdot$m, invert to recall."
     },
     {
       "id": "phy-current-electricity-037",
@@ -482,7 +518,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "Resistivity is a material property (depending only on the material and temperature), unaffected by changes in the conductor's dimensions; only the resistance $R=\\rho l/A$ changes."
+      "explanation": "Resistivity is a material property (depending only on the material and temperature), unaffected by changes in the conductor's dimensions; only the resistance $R=\\rho l/A$ changes.",
+      "trick": "Resistivity is material-only — changing wire dimensions changes $R$, never $\\rho$."
     },
     {
       "id": "phy-current-electricity-038",
@@ -495,7 +532,8 @@
       ],
       "answer": 2,
       "difficulty": "hard",
-      "explanation": "Parallel part: $\\dfrac{3\\times6}{3+6}=2\\,\\Omega$; total resistance $=2+2=4\\,\\Omega$; total current $=12/4=3$ A; voltage across parallel part $=3\\times2=6$ V; current through 6 $\\Omega$ $=6/6=1$ A."
+      "explanation": "Parallel part: $\\dfrac{3\\times6}{3+6}=2\\,\\Omega$; total resistance $=2+2=4\\,\\Omega$; total current $=12/4=3$ A; voltage across parallel part $=3\\times2=6$ V; current through 6 $\\Omega$ $=6/6=1$ A.",
+      "trick": "Reduce parallel branch, find total current, then back-calculate voltage across it for branch currents."
     },
     {
       "id": "phy-current-electricity-039",
@@ -508,7 +546,8 @@
       ],
       "answer": 0,
       "difficulty": "easy",
-      "explanation": "In an electrolyte, current is due to the drift of both positive ions (towards the cathode) and negative ions (towards the anode) in opposite directions."
+      "explanation": "In an electrolyte, current is due to the drift of both positive ions (towards the cathode) and negative ions (towards the anode) in opposite directions.",
+      "trick": "Electrolyte current: BOTH +ve and −ve ions move, in opposite directions — not electrons alone."
     },
     {
       "id": "phy-current-electricity-040",
@@ -521,7 +560,8 @@
       ],
       "answer": 3,
       "difficulty": "medium",
-      "explanation": "Ohm's law, $V=IR$ with constant $R$, gives a straight line through the origin with slope $R$."
+      "explanation": "Ohm's law, $V=IR$ with constant $R$, gives a straight line through the origin with slope $R$.",
+      "trick": "Ohmic conductor: $V$-$I$ graph is a straight line through the origin, slope = $R$."
     }
   ]
 }

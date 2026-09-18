@@ -12,7 +12,8 @@
       ],
       "answer": 2,
       "difficulty": "easy",
-      "explanation": "$n(A\\cup B) = 20 + 30 - 10 = 40$."
+      "explanation": "$n(A\\cup B) = 20 + 30 - 10 = 40$.",
+      "trick": "Union formula: add both, then subtract the overlap once."
     },
     {
       "id": "mat-sets-002",
@@ -25,7 +26,8 @@
       ],
       "answer": 3,
       "difficulty": "easy",
-      "explanation": "$2^5 - 1 = 31$ (the set itself is excluded)."
+      "explanation": "$2^5 - 1 = 31$ (the set itself is excluded).",
+      "trick": "Proper subsets $= 2^n - 1$; exclude the set itself."
     },
     {
       "id": "mat-sets-003",
@@ -38,7 +40,8 @@
       ],
       "answer": 1,
       "difficulty": "easy",
-      "explanation": "$P(\\phi) = \\{\\phi\\}$, which has one element."
+      "explanation": "$P(\\phi) = \\{\\phi\\}$, which has one element.",
+      "trick": "$P(\\phi) = \\{\\phi\\}$ always has exactly 1 element."
     },
     {
       "id": "mat-sets-004",
@@ -51,7 +54,8 @@
       ],
       "answer": 0,
       "difficulty": "easy",
-      "explanation": "Every element of $A$ is in $B$, so the intersection is $A$ and the union is $B$."
+      "explanation": "Every element of $A$ is in $B$, so the intersection is $A$ and the union is $B$.",
+      "trick": "$A\\subset B$: intersection is smaller set $A$, union is bigger set $B$."
     },
     {
       "id": "mat-sets-005",
@@ -64,7 +68,8 @@
       ],
       "answer": 1,
       "difficulty": "easy",
-      "explanation": "De Morgan's law."
+      "explanation": "De Morgan's law.",
+      "trick": "De Morgan: complement of union = intersection of complements."
     },
     {
       "id": "mat-sets-006",
@@ -77,7 +82,8 @@
       ],
       "answer": 0,
       "difficulty": "easy",
-      "explanation": "$n(C\\cup F) = 25 + 20 - 10 = 35$; neither $= 60 - 35 = 25$."
+      "explanation": "$n(C\\cup F) = 25 + 20 - 10 = 35$; neither $= 60 - 35 = 25$.",
+      "trick": "Neither $=$ total $- n(A\\cup B)$."
     },
     {
       "id": "mat-sets-007",
@@ -90,7 +96,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "A relation is a subset of $A\\times B$, which has 12 elements; number of subsets $= 2^{12}$."
+      "explanation": "A relation is a subset of $A\\times B$, which has 12 elements; number of subsets $= 2^{12}$.",
+      "trick": "Relations from $A$ to $B$ $= 2^{n(A)n(B)}$, not $n(A)n(B)$ itself."
     },
     {
       "id": "mat-sets-008",
@@ -103,7 +110,8 @@
       ],
       "answer": 3,
       "difficulty": "easy",
-      "explanation": "$-2$ is excluded (round bracket), 5 is included (square bracket)."
+      "explanation": "$-2$ is excluded (round bracket), 5 is included (square bracket).",
+      "trick": "Round bracket = point excluded, square bracket = point included."
     },
     {
       "id": "mat-sets-009",
@@ -116,7 +124,8 @@
       ],
       "answer": 1,
       "difficulty": "easy",
-      "explanation": "2 is the only even prime, so there is no even prime greater than 2. The others give $\\{2\\}$, $\\{2\\}$ and $\\{0\\}$."
+      "explanation": "2 is the only even prime, so there is no even prime greater than 2. The others give $\\{2\\}$, $\\{2\\}$ and $\\{0\\}$.",
+      "trick": "2 is the only even prime — check that edge case first."
     },
     {
       "id": "mat-sets-010",
@@ -129,7 +138,8 @@
       ],
       "answer": 2,
       "difficulty": "easy",
-      "explanation": "$A - B = \\{1,2\\}$, $B - A = \\{5,6\\}$; union $= \\{1,2,5,6\\}$ (the symmetric difference)."
+      "explanation": "$A - B = \\{1,2\\}$, $B - A = \\{5,6\\}$; union $= \\{1,2,5,6\\}$ (the symmetric difference).",
+      "trick": "$(A-B)\\cup(B-A)$ = elements belonging to exactly one set."
     },
     {
       "id": "mat-sets-011",
@@ -142,7 +152,8 @@
       ],
       "answer": 0,
       "difficulty": "easy",
-      "explanation": "$2^n = 64 \\Rightarrow n = 6$."
+      "explanation": "$2^n = 64 \\Rightarrow n = 6$.",
+      "trick": "Solve $2^n =$ given subset count for $n$."
     },
     {
       "id": "mat-sets-012",
@@ -155,7 +166,8 @@
       ],
       "answer": 3,
       "difficulty": "easy",
-      "explanation": "$x^2 - 5x + 6 = (x-2)(x-3) = 0 \\Rightarrow A = \\{2, 3\\}$, a proper subset of $B$."
+      "explanation": "$x^2 - 5x + 6 = (x-2)(x-3) = 0 \\Rightarrow A = \\{2, 3\\}$, a proper subset of $B$.",
+      "trick": "Factor the equation into a set first, then compare with $B$."
     },
     {
       "id": "mat-sets-013",
@@ -168,7 +180,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "Only tea $= 60 - 30 = 30$; only coffee $= 50 - 30 = 20$; exactly one $= 50$."
+      "explanation": "Only tea $= 60 - 30 = 30$; only coffee $= 50 - 30 = 20$; exactly one $= 50$.",
+      "trick": "Exactly one $=$ (only $A$) $+$ (only $B$), not the plain union."
     },
     {
       "id": "mat-sets-014",
@@ -181,7 +194,8 @@
       ],
       "answer": 1,
       "difficulty": "easy",
-      "explanation": "Distributive law of intersection over union."
+      "explanation": "Distributive law of intersection over union.",
+      "trick": "$\\cap$ distributes over $\\cup$: $A\\cap(B\\cup C)=(A\\cap B)\\cup(A\\cap C)$."
     },
     {
       "id": "mat-sets-015",
@@ -194,7 +208,8 @@
       ],
       "answer": 2,
       "difficulty": "easy",
-      "explanation": "$A\\cup B\\cup C = \\{1,2,3,4,5\\}$, which has 5 elements."
+      "explanation": "$A\\cup B\\cup C = \\{1,2,3,4,5\\}$, which has 5 elements.",
+      "trick": "List all distinct elements once; that count is $n(A\\cup B\\cup C)$."
     },
     {
       "id": "mat-sets-016",
@@ -207,7 +222,8 @@
       ],
       "answer": 3,
       "difficulty": "easy",
-      "explanation": "$A\\triangle B = (A-B)\\cup(B-A)$, which equals $(A\\cup B) - (A\\cap B)$."
+      "explanation": "$A\\triangle B = (A-B)\\cup(B-A)$, which equals $(A\\cup B) - (A\\cap B)$.",
+      "trick": "Symmetric difference = union minus intersection."
     },
     {
       "id": "mat-sets-017",
@@ -220,7 +236,8 @@
       ],
       "answer": 3,
       "difficulty": "medium",
-      "explanation": "Fix that element; the remaining 3 elements can each be included or not, giving $2^3 = 8$ such subsets."
+      "explanation": "Fix that element; the remaining 3 elements can each be included or not, giving $2^3 = 8$ such subsets.",
+      "trick": "Fix one element; remaining $n-1$ are free $\\Rightarrow 2^{n-1}$ subsets."
     },
     {
       "id": "mat-sets-018",
@@ -233,7 +250,8 @@
       ],
       "answer": 2,
       "difficulty": "easy",
-      "explanation": "$A - B$ consists of elements of $A$ that are not in $B$, i.e. $A \\cap B'$."
+      "explanation": "$A - B$ consists of elements of $A$ that are not in $B$, i.e. $A \\cap B'$.",
+      "trick": "$A-B$ always equals $A\\cap B'$."
     },
     {
       "id": "mat-sets-019",
@@ -246,7 +264,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "$\\{x : x\\in\\mathbb N\\}$ is the set of all natural numbers, which is infinite; the other three are finite."
+      "explanation": "$\\{x : x\\in\\mathbb N\\}$ is the set of all natural numbers, which is infinite; the other three are finite.",
+      "trick": "$\\mathbb N$ itself is infinite; equation-defined sets are usually finite."
     },
     {
       "id": "mat-sets-020",
@@ -259,7 +278,8 @@
       ],
       "answer": 0,
       "difficulty": "easy",
-      "explanation": "$A$ and $B$ have the same number of elements (3) but different elements, so they are equivalent but not equal."
+      "explanation": "$A$ and $B$ have the same number of elements (3) but different elements, so they are equivalent but not equal.",
+      "trick": "Same element count but different elements $=$ equivalent, not equal."
     },
     {
       "id": "mat-sets-021",
@@ -272,7 +292,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "$A \\cap A' = \\phi$, not $U$; the other three statements are standard set identities."
+      "explanation": "$A \\cap A' = \\phi$, not $U$; the other three statements are standard set identities.",
+      "trick": "$A\\cap A'$ is always $\\phi$, never $U$ — spot the fake identity."
     },
     {
       "id": "mat-sets-022",
@@ -285,7 +306,8 @@
       ],
       "answer": 1,
       "difficulty": "easy",
-      "explanation": "For disjoint sets $n(A\\cap B) = 0$, so $n(A\\cup B) = n(A) + n(B)$."
+      "explanation": "For disjoint sets $n(A\\cap B) = 0$, so $n(A\\cup B) = n(A) + n(B)$.",
+      "trick": "Disjoint $\\Rightarrow n(A\\cap B)=0$, so union is just the sum."
     },
     {
       "id": "mat-sets-023",
@@ -298,7 +320,8 @@
       ],
       "answer": 3,
       "difficulty": "hard",
-      "explanation": "$n(P\\cup C\\cup M) = 40+30+30-10-8-6+5 = 81$. Students studying none $= 100 - 81 = 19$."
+      "explanation": "$n(P\\cup C\\cup M) = 40+30+30-10-8-6+5 = 81$. Students studying none $= 100 - 81 = 19$.",
+      "trick": "Inclusion-exclusion: $+$singles $-$pairs$+$triple, then subtract from total."
     },
     {
       "id": "mat-sets-024",
@@ -311,7 +334,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "$2^n = 256 = 2^8 \\Rightarrow n = 8$."
+      "explanation": "$2^n = 256 = 2^8 \\Rightarrow n = 8$.",
+      "trick": "Solve $2^n = $ given power-set size directly for $n$."
     },
     {
       "id": "mat-sets-025",
@@ -324,7 +348,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "$\\{2,4,6\\}$ (even numbers) and $\\{1,3,5\\}$ (odd numbers) share no common element; the other pairs all overlap."
+      "explanation": "$\\{2,4,6\\}$ (even numbers) and $\\{1,3,5\\}$ (odd numbers) share no common element; the other pairs all overlap.",
+      "trick": "Evens and odds share nothing — the classic disjoint pair."
     },
     {
       "id": "mat-sets-026",
@@ -337,7 +362,8 @@
       ],
       "answer": 3,
       "difficulty": "easy",
-      "explanation": "Mutual containment of two sets means they have exactly the same elements, so $A = B$."
+      "explanation": "Mutual containment of two sets means they have exactly the same elements, so $A = B$.",
+      "trick": "Mutual containment $A\\subseteq B$ and $B\\subseteq A$ forces $A=B$."
     },
     {
       "id": "mat-sets-027",
@@ -350,7 +376,8 @@
       ],
       "answer": 1,
       "difficulty": "easy",
-      "explanation": "For the two sets to be equal, every element must match, so $a = 2$."
+      "explanation": "For the two sets to be equal, every element must match, so $a = 2$.",
+      "trick": "Match up the one unmatched element between the two set listings."
     },
     {
       "id": "mat-sets-028",
@@ -363,7 +390,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "$\\{0\\}$ is a set containing the element $0$, so it has one element, while $\\phi$ has none; hence $\\phi \\ne \\{0\\}$."
+      "explanation": "$\\{0\\}$ is a set containing the element $0$, so it has one element, while $\\phi$ has none; hence $\\phi \\ne \\{0\\}$.",
+      "trick": "$\\phi$ has zero elements; $\\{0\\}$ has one — never equate them."
     },
     {
       "id": "mat-sets-029",
@@ -376,7 +404,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "$n(A\\cap B) = n(A) + n(B) - n(A\\cup B) = 17 + 17 - 30 = 4$."
+      "explanation": "$n(A\\cap B) = n(A) + n(B) - n(A\\cup B) = 17 + 17 - 30 = 4$.",
+      "trick": "$n(A\\cap B) = n(A)+n(B)-n(A\\cup B)$."
     },
     {
       "id": "mat-sets-030",
@@ -389,7 +418,8 @@
       ],
       "answer": 0,
       "difficulty": "easy",
-      "explanation": "$A'$ contains the elements of $U$ not in $A$, i.e. $\\{6,7,8,9,10\\}$."
+      "explanation": "$A'$ contains the elements of $U$ not in $A$, i.e. $\\{6,7,8,9,10\\}$.",
+      "trick": "Complement $=$ universal set minus $A$."
     },
     {
       "id": "mat-sets-031",
@@ -402,7 +432,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "Elements in $A\\cap B$ but excluding $C$ form $(A\\cap B)\\cap C'$."
+      "explanation": "Elements in $A\\cap B$ but excluding $C$ form $(A\\cap B)\\cap C'$.",
+      "trick": "In $A$ and $B$ but not $C$: write $(A\\cap B)\\cap C'$."
     },
     {
       "id": "mat-sets-032",
@@ -415,7 +446,8 @@
       ],
       "answer": 3,
       "difficulty": "easy",
-      "explanation": "The union is largest when $A$ and $B$ are disjoint: $n(A\\cup B) = 5 + 8 = 13$."
+      "explanation": "The union is largest when $A$ and $B$ are disjoint: $n(A\\cup B) = 5 + 8 = 13$.",
+      "trick": "Union is largest when the sets are disjoint — just add."
     },
     {
       "id": "mat-sets-033",
@@ -428,7 +460,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "The union is smallest when $A \\subseteq B$, giving $n(A\\cup B) = n(B) = 8$."
+      "explanation": "The union is smallest when $A \\subseteq B$, giving $n(A\\cup B) = n(B) = 8$.",
+      "trick": "Union is smallest when the smaller set sits inside the bigger one."
     },
     {
       "id": "mat-sets-034",
@@ -441,7 +474,8 @@
       ],
       "answer": 3,
       "difficulty": "medium",
-      "explanation": "The distinct letters are A, L, O, W, E, D — 6 elements (the repeated L is counted once)."
+      "explanation": "The distinct letters are A, L, O, W, E, D — 6 elements (the repeated L is counted once).",
+      "trick": "Count each repeated letter only once."
     },
     {
       "id": "mat-sets-035",
@@ -454,7 +488,8 @@
       ],
       "answer": 0,
       "difficulty": "easy",
-      "explanation": "The number of 2-element subsets of a 3-element set is $^3C_2 = 3$."
+      "explanation": "The number of 2-element subsets of a 3-element set is $^3C_2 = 3$.",
+      "trick": "Choosing $r$ elements from $n$: use $^nC_r$, not a power of 2."
     },
     {
       "id": "mat-sets-036",
@@ -467,7 +502,8 @@
       ],
       "answer": 1,
       "difficulty": "easy",
-      "explanation": "Both statements are standard facts about finite sets and the null set."
+      "explanation": "Both statements are standard facts about finite sets and the null set.",
+      "trick": "The empty set is a subset of every set — always true."
     },
     {
       "id": "mat-sets-037",
@@ -480,7 +516,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "$A - B = \\{1,2,3\\}$ and $B - A = \\{6,7\\}$, so $A\\triangle B = \\{1,2,3,6,7\\}$, which has 5 elements."
+      "explanation": "$A - B = \\{1,2,3\\}$ and $B - A = \\{6,7\\}$, so $A\\triangle B = \\{1,2,3,6,7\\}$, which has 5 elements.",
+      "trick": "Symmetric difference count: add elements unique to each set."
     },
     {
       "id": "mat-sets-038",
@@ -493,7 +530,8 @@
       ],
       "answer": 0,
       "difficulty": "hard",
-      "explanation": "Excluding the fixed element, each of the remaining $n-1$ elements can be included or not, giving $2^{n-1}$ subsets."
+      "explanation": "Excluding the fixed element, each of the remaining $n-1$ elements can be included or not, giving $2^{n-1}$ subsets.",
+      "trick": "Excluding one fixed element still leaves $2^{n-1}$ subsets."
     },
     {
       "id": "mat-sets-039",
@@ -506,7 +544,8 @@
       ],
       "answer": 3,
       "difficulty": "hard",
-      "explanation": "Since $A\\cap B \\subseteq A$, $n(A\\cap B) \\le n(A) = p$; since $B \\subseteq A\\cup B$, $n(A\\cup B) \\ge n(B) = q$. These hold regardless of how $A$ and $B$ overlap."
+      "explanation": "Since $A\\cap B \\subseteq A$, $n(A\\cap B) \\le n(A) = p$; since $B \\subseteq A\\cup B$, $n(A\\cup B) \\ge n(B) = q$. These hold regardless of how $A$ and $B$ overlap.",
+      "trick": "$A\\cap B\\subseteq$ smaller set; $A\\cup B\\supseteq$ bigger set, always."
     },
     {
       "id": "mat-sets-040",
@@ -519,7 +558,8 @@
       ],
       "answer": 1,
       "difficulty": "easy",
-      "explanation": "Total $= 30 (\\text{tea only}) + 20 (\\text{coffee only}) + 15 (\\text{both}) = 65$."
+      "explanation": "Total $= 30 (\\text{tea only}) + 20 (\\text{coffee only}) + 15 (\\text{both}) = 65$.",
+      "trick": "Total $=$ only-$A$ $+$ only-$B$ $+$ both, no double counting needed."
     }
   ]
 }

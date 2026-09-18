@@ -12,7 +12,8 @@
       ],
       "answer": 3,
       "difficulty": "easy",
-      "explanation": "Molar mass of CO$_2 = 44$ g mol$^{-1}$; $8.8/44 = 0.2$ mol."
+      "explanation": "Molar mass of CO$_2 = 44$ g mol$^{-1}$; $8.8/44 = 0.2$ mol.",
+      "trick": "Moles = mass ÷ molar mass; no need to find molecules first."
     },
     {
       "id": "che-some-basic-concepts-002",
@@ -25,7 +26,8 @@
       ],
       "answer": 1,
       "difficulty": "easy",
-      "explanation": "$4.4/44 = 0.1$ mol $= 0.1\\times6.022\\times10^{23} = 6.022\\times10^{22}$ molecules."
+      "explanation": "$4.4/44 = 0.1$ mol $= 0.1\\times6.022\\times10^{23} = 6.022\\times10^{22}$ molecules.",
+      "trick": "Find moles first, then × $N_A$; never multiply mass by $N_A$ directly."
     },
     {
       "id": "che-some-basic-concepts-003",
@@ -38,7 +40,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "C: $40/12 = 3.33$; H: $6.67/1 = 6.67$; O: $53.33/16 = 3.33$. Ratio 1 : 2 : 1 → CH$_2$O."
+      "explanation": "C: $40/12 = 3.33$; H: $6.67/1 = 6.67$; O: $53.33/16 = 3.33$. Ratio 1 : 2 : 1 → CH$_2$O.",
+      "trick": "Divide %s by atomic mass, then divide all by the smallest for the ratio."
     },
     {
       "id": "che-some-basic-concepts-004",
@@ -52,7 +55,8 @@
       "answer": 2,
       "difficulty": "medium",
       "explanation": "$2\\text{H}_2 + \\text{O}_2 \\to 2\\text{H}_2\\text{O}$. H$_2$: 2 mol, O$_2$: 0.5 mol. O$_2$ is limiting; 0.5 mol O$_2$ gives 1 mol H$_2$O = 18 g.",
-      "tip": "Always find the limiting reagent first."
+      "tip": "Always find the limiting reagent first.",
+      "trick": "Convert to moles and compare with stoichiometric ratio, not raw mass."
     },
     {
       "id": "che-some-basic-concepts-005",
@@ -65,7 +69,8 @@
       ],
       "answer": 3,
       "difficulty": "easy",
-      "explanation": "Moles $= 4/40 = 0.1$; $M = 0.1/0.25 = 0.4$ M."
+      "explanation": "Moles $= 4/40 = 0.1$; $M = 0.1/0.25 = 0.4$ M.",
+      "trick": "$M$ = moles ÷ litres of solution, not of solvent."
     },
     {
       "id": "che-some-basic-concepts-006",
@@ -78,7 +83,8 @@
       ],
       "answer": 2,
       "difficulty": "easy",
-      "explanation": "Molality uses mass of solvent, which does not change with temperature; molarity uses volume, which does."
+      "explanation": "Molality uses mass of solvent, which does not change with temperature; molarity uses volume, which does.",
+      "trick": "Mass-based terms (molality) don't shift with $T$; volume-based ones do."
     },
     {
       "id": "che-some-basic-concepts-007",
@@ -91,7 +97,8 @@
       ],
       "answer": 0,
       "difficulty": "easy",
-      "explanation": "1 mol occupies 22.4 L at STP, so 0.5 mol → 11.2 L."
+      "explanation": "1 mol occupies 22.4 L at STP, so 0.5 mol → 11.2 L.",
+      "trick": "1 mol = 22.4 L at STP; just scale linearly by moles."
     },
     {
       "id": "che-some-basic-concepts-008",
@@ -104,7 +111,8 @@
       ],
       "answer": 1,
       "difficulty": "easy",
-      "explanation": "Masses of O combining with a fixed mass of C (12 g) are 16 and 32, in a simple ratio 1:2 — Dalton's law of multiple proportions."
+      "explanation": "Masses of O combining with a fixed mass of C (12 g) are 16 and 32, in a simple ratio 1:2 — Dalton's law of multiple proportions.",
+      "trick": "Same C, O masses in a simple whole-number ratio → multiple proportions."
     },
     {
       "id": "che-some-basic-concepts-009",
@@ -117,7 +125,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "H$_2$: $\\tfrac12$ mol molecules $= 1$ mol atoms. He: 0.25 mol atoms. O$_2$: $\\tfrac1{32}\\times2 = 0.0625$ mol. CH$_4$: $\\tfrac1{16}\\times5 = 0.3125$ mol. Hydrogen wins."
+      "explanation": "H$_2$: $\\tfrac12$ mol molecules $= 1$ mol atoms. He: 0.25 mol atoms. O$_2$: $\\tfrac1{32}\\times2 = 0.0625$ mol. CH$_4$: $\\tfrac1{16}\\times5 = 0.3125$ mol. Hydrogen wins.",
+      "trick": "Divide 1 g by molar mass, × atoms/molecule; lightest atom per molecule wins."
     },
     {
       "id": "che-some-basic-concepts-010",
@@ -130,7 +139,8 @@
       ],
       "answer": 3,
       "difficulty": "easy",
-      "explanation": "Ethanol: $46/46 = 1$ mol; water: $18/18 = 1$ mol. $x = 1/2 = 0.5$."
+      "explanation": "Ethanol: $46/46 = 1$ mol; water: $18/18 = 1$ mol. $x = 1/2 = 0.5$.",
+      "trick": "$x$ = mol of component ÷ total mol, never mass ÷ total mass."
     },
     {
       "id": "che-some-basic-concepts-011",
@@ -143,7 +153,8 @@
       ],
       "answer": 2,
       "difficulty": "easy",
-      "explanation": "$12/(6.022\\times10^{23}) = 1.99\\times10^{-23}$ g. (One amu $= 1.66\\times10^{-24}$ g.)"
+      "explanation": "$12/(6.022\\times10^{23}) = 1.99\\times10^{-23}$ g. (One amu $= 1.66\\times10^{-24}$ g.)",
+      "trick": "Atomic mass ÷ $N_A$ gives the mass of one atom in grams."
     },
     {
       "id": "che-some-basic-concepts-012",
@@ -156,7 +167,8 @@
       ],
       "answer": 1,
       "difficulty": "easy",
-      "explanation": "$M_1V_1 = M_2V_2 \\Rightarrow V_1 = 0.1\\times500/0.5 = 100$ mL."
+      "explanation": "$M_1V_1 = M_2V_2 \\Rightarrow V_1 = 0.1\\times500/0.5 = 100$ mL.",
+      "trick": "$M_1V_1 = M_2V_2$; plug in and solve for the unknown volume."
     },
     {
       "id": "che-some-basic-concepts-013",
@@ -169,7 +181,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "Moles $= 5/40 = 0.125$; kg solvent $= 0.2$; $m = 0.125/0.2 = 0.625$ m."
+      "explanation": "Moles $= 5/40 = 0.125$; kg solvent $= 0.2$; $m = 0.125/0.2 = 0.625$ m.",
+      "trick": "$m$ = moles solute ÷ kg solvent, never kg of solution."
     },
     {
       "id": "che-some-basic-concepts-014",
@@ -182,7 +195,8 @@
       ],
       "answer": 1,
       "difficulty": "easy",
-      "explanation": "Molar mass 98; O $= 64$; $64/98\\times100 \\approx 65.3\\%$."
+      "explanation": "Molar mass 98; O $= 64$; $64/98\\times100 \\approx 65.3\\%$.",
+      "trick": "% element = (mass of element ÷ molar mass) × 100."
     },
     {
       "id": "che-some-basic-concepts-015",
@@ -195,7 +209,8 @@
       ],
       "answer": 3,
       "difficulty": "easy",
-      "explanation": "Avogadro's hypothesis (1811), which explained Gay-Lussac's law of gaseous volumes."
+      "explanation": "Avogadro's hypothesis (1811), which explained Gay-Lussac's law of gaseous volumes.",
+      "trick": "Equal volumes, equal molecules, same $T,P$ → Avogadro's law, by definition."
     },
     {
       "id": "che-some-basic-concepts-016",
@@ -208,7 +223,8 @@
       ],
       "answer": 0,
       "difficulty": "easy",
-      "explanation": "0.5 mol N$_2$ = 1 mol N atoms = $6.022\\times10^{23}$ atoms."
+      "explanation": "0.5 mol N$_2$ = 1 mol N atoms = $6.022\\times10^{23}$ atoms.",
+      "trick": "Atoms = moles × atomicity × $N_A$; N$_2$ is diatomic."
     },
     {
       "id": "che-some-basic-concepts-017",
@@ -221,7 +237,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "Molecular mass $= 2\\times$ vapour density $= 2\\times22 = 44$."
+      "explanation": "Molecular mass $= 2\\times$ vapour density $= 2\\times22 = 44$.",
+      "trick": "Molecular mass = 2 × vapour density, always — pure recall."
     },
     {
       "id": "che-some-basic-concepts-018",
@@ -234,7 +251,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "Moles $= 5.6/22.4 = 0.25$; molar mass $= 11/0.25 = 44$ g mol$^{-1}$."
+      "explanation": "Moles $= 5.6/22.4 = 0.25$; molar mass $= 11/0.25 = 44$ g mol$^{-1}$.",
+      "trick": "Moles = $V/22.4$ at STP, then molar mass = mass ÷ moles."
     },
     {
       "id": "che-some-basic-concepts-019",
@@ -247,7 +265,8 @@
       ],
       "answer": 3,
       "difficulty": "easy",
-      "explanation": "When H and O each combine separately with a fixed mass of C (as in CH$_4$ and CO$_2$), the ratio of their masses equals the ratio in which they combine directly (as in H$_2$O) — the law of reciprocal proportions."
+      "explanation": "When H and O each combine separately with a fixed mass of C (as in CH$_4$ and CO$_2$), the ratio of their masses equals the ratio in which they combine directly (as in H$_2$O) — the law of reciprocal proportions.",
+      "trick": "Two elements combining separately with a third matching their direct-combination ratio → reciprocal proportions."
     },
     {
       "id": "che-some-basic-concepts-020",
@@ -261,7 +280,8 @@
       "answer": 0,
       "difficulty": "medium",
       "explanation": "Moles: CH$_4 = 0.2$, O$_2 = 0.1$. O$_2$ needs $0.05$ mol CH$_4$ only, so O$_2$ is limiting. CO$_2$ formed $= 0.1/2 = 0.05$ mol $= 2.2$ g.",
-      "tip": "Compare mol ratio available to mol ratio required, not just masses."
+      "tip": "Compare mol ratio available to mol ratio required, not just masses.",
+      "trick": "Compare moles needed vs moles available from the equation, not raw masses."
     },
     {
       "id": "che-some-basic-concepts-021",
@@ -274,7 +294,8 @@
       ],
       "answer": 2,
       "difficulty": "easy",
-      "explanation": "Leading zeros are not significant; 6, 2 and the trailing 0 are significant, giving 3 significant figures."
+      "explanation": "Leading zeros are not significant; 6, 2 and the trailing 0 are significant, giving 3 significant figures.",
+      "trick": "Leading zeros never count; only 6, 2 and the trailing 0 are significant."
     },
     {
       "id": "che-some-basic-concepts-022",
@@ -287,7 +308,8 @@
       ],
       "answer": 0,
       "difficulty": "easy",
-      "explanation": "2.50 has three significant figures (2, 5, 0); leading zeros in 0.025 and 0.0025 are not significant."
+      "explanation": "2.50 has three significant figures (2, 5, 0); leading zeros in 0.025 and 0.0025 are not significant.",
+      "trick": "A trailing zero after the decimal point counts as significant."
     },
     {
       "id": "che-some-basic-concepts-023",
@@ -300,7 +322,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "Molar mass of CuSO$_4 = 160$. $\\dfrac{18x}{160+18x} = 0.36 \\Rightarrow 18x = 57.6+6.48x \\Rightarrow x = 5$, matching CuSO$_4\\cdot5\\text{H}_2\\text{O}$."
+      "explanation": "Molar mass of CuSO$_4 = 160$. $\\dfrac{18x}{160+18x} = 0.36 \\Rightarrow 18x = 57.6+6.48x \\Rightarrow x = 5$, matching CuSO$_4\\cdot5\\text{H}_2\\text{O}$.",
+      "trick": "Set water's mass fraction $= 18x/(M+18x)$ and solve for $x$."
     },
     {
       "id": "che-some-basic-concepts-024",
@@ -313,7 +336,8 @@
       ],
       "answer": 3,
       "difficulty": "medium",
-      "explanation": "Moles H$_2 = 0.1$; equivalents $= 0.2$ (1 mol H$_2$ = 2 eq). Equivalent mass of metal $= 4/0.2 = 20$; atomic mass $=$ equivalent mass $\\times$ valency $= 20\\times2 = 40$."
+      "explanation": "Moles H$_2 = 0.1$; equivalents $= 0.2$ (1 mol H$_2$ = 2 eq). Equivalent mass of metal $= 4/0.2 = 20$; atomic mass $=$ equivalent mass $\\times$ valency $= 20\\times2 = 40$.",
+      "trick": "Equivalent mass = mass ÷ equivalents; atomic mass = eq. mass × valency."
     },
     {
       "id": "che-some-basic-concepts-025",
@@ -326,7 +350,8 @@
       ],
       "answer": 0,
       "difficulty": "easy",
-      "explanation": "% yield $= (15/20)\\times100 = 75\\%$."
+      "explanation": "% yield $= (15/20)\\times100 = 75\\%$.",
+      "trick": "% yield = (actual ÷ theoretical) × 100 — direct plug-in."
     },
     {
       "id": "che-some-basic-concepts-026",
@@ -339,7 +364,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "Total moles $= 0.5\\times0.2 + 0.2\\times0.3 = 0.10+0.06 = 0.16$ mol; total volume $= 0.5$ L; $M = 0.16/0.5 = 0.32$ M."
+      "explanation": "Total moles $= 0.5\\times0.2 + 0.2\\times0.3 = 0.10+0.06 = 0.16$ mol; total volume $= 0.5$ L; $M = 0.16/0.5 = 0.32$ M.",
+      "trick": "Total moles ÷ total volume; moles simply add, volumes simply add."
     },
     {
       "id": "che-some-basic-concepts-027",
@@ -352,7 +378,8 @@
       ],
       "answer": 3,
       "difficulty": "easy",
-      "explanation": "Parts per million by mass means 1 part solute in $10^6$ parts solution, i.e. 1 mg solute per kg of solution."
+      "explanation": "Parts per million by mass means 1 part solute in $10^6$ parts solution, i.e. 1 mg solute per kg of solution.",
+      "trick": "ppm (mass/mass) = mg solute per kg solution — memorise the unit."
     },
     {
       "id": "che-some-basic-concepts-028",
@@ -365,7 +392,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "$n = 180/30 = 6$; molecular formula $= 6\\times$CH$_2$O $=$ C$_6$H$_{12}$O$_6$ (glucose)."
+      "explanation": "$n = 180/30 = 6$; molecular formula $= 6\\times$CH$_2$O $=$ C$_6$H$_{12}$O$_6$ (glucose).",
+      "trick": "$n$ = molar mass ÷ empirical mass; multiply the empirical formula by $n$."
     },
     {
       "id": "che-some-basic-concepts-029",
@@ -378,7 +406,8 @@
       ],
       "answer": 0,
       "difficulty": "hard",
-      "explanation": "Pure CaCO$_3 = 0.80\\times12.5 = 10$ g $= 0.1$ mol, giving $0.1$ mol CO$_2 = 4.4$ g."
+      "explanation": "Pure CaCO$_3 = 0.80\\times12.5 = 10$ g $= 0.1$ mol, giving $0.1$ mol CO$_2 = 4.4$ g.",
+      "trick": "Use only the pure fraction (purity% × mass) before converting to moles."
     },
     {
       "id": "che-some-basic-concepts-030",
@@ -391,7 +420,8 @@
       ],
       "answer": 2,
       "difficulty": "easy",
-      "explanation": "$40 + 2(16+1) = 40+34 = 74$."
+      "explanation": "$40 + 2(16+1) = 40+34 = 74$.",
+      "trick": "Add up atomic masses per formula unit directly, no shortcuts needed."
     },
     {
       "id": "che-some-basic-concepts-031",
@@ -404,7 +434,8 @@
       ],
       "answer": 3,
       "difficulty": "easy",
-      "explanation": "$3.011\\times10^{23}/6.022\\times10^{23} = 0.5$ mol; mass $= 0.5\\times44 = 22$ g."
+      "explanation": "$3.011\\times10^{23}/6.022\\times10^{23} = 0.5$ mol; mass $= 0.5\\times44 = 22$ g.",
+      "trick": "Molecules ÷ $N_A$ = moles; moles × molar mass = mass."
     },
     {
       "id": "che-some-basic-concepts-032",
@@ -417,7 +448,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "Moles per gram $= 1/M$: CO$_2$ (1/44=0.023) < N$_2$ (1/28=0.036) < H$_2$O (1/18=0.056) < CH$_4$ (1/16=0.063). Lower molar mass gives more moles for the same mass."
+      "explanation": "Moles per gram $= 1/M$: CO$_2$ (1/44=0.023) < N$_2$ (1/28=0.036) < H$_2$O (1/18=0.056) < CH$_4$ (1/16=0.063). Lower molar mass gives more moles for the same mass.",
+      "trick": "Moles per gram $= 1/M$; the smaller the molar mass, the more moles."
     },
     {
       "id": "che-some-basic-concepts-033",
@@ -430,7 +462,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "Molarity is moles of solute per litre of solution, not per kg of solvent — that is the definition of molality."
+      "explanation": "Molarity is moles of solute per litre of solution, not per kg of solvent — that is the definition of molality.",
+      "trick": "Molarity is always per litre of solution, never per kg of solvent."
     },
     {
       "id": "che-some-basic-concepts-034",
@@ -443,7 +476,8 @@
       ],
       "answer": 3,
       "difficulty": "hard",
-      "explanation": "CO$_2$: $4.4/44 = 0.1$ mol; N$_2$: $2.8/28 = 0.1$ mol; total $= 0.2$ mol $\\times6.022\\times10^{23} = 1.204\\times10^{23}$ molecules."
+      "explanation": "CO$_2$: $4.4/44 = 0.1$ mol; N$_2$: $2.8/28 = 0.1$ mol; total $= 0.2$ mol $\\times6.022\\times10^{23} = 1.204\\times10^{23}$ molecules.",
+      "trick": "Find moles of each species separately, add them, then × $N_A$."
     },
     {
       "id": "che-some-basic-concepts-035",
@@ -456,7 +490,8 @@
       ],
       "answer": 2,
       "difficulty": "easy",
-      "explanation": "A pure compound always contains its constituent elements in a fixed mass ratio regardless of source — the law of definite (constant) proportions."
+      "explanation": "A pure compound always contains its constituent elements in a fixed mass ratio regardless of source — the law of definite (constant) proportions.",
+      "trick": "Same ratio regardless of source → law of definite proportions."
     },
     {
       "id": "che-some-basic-concepts-036",
@@ -470,7 +505,8 @@
       "answer": 0,
       "difficulty": "hard",
       "explanation": "Mass C $= 0.88\\times12/44 = 0.24$ g, mass H $= 0.36\\times2/18 = 0.04$ g, so mass O $= 0.6-0.28 = 0.32$ g. Moles: C $= 0.02$, H $= 0.04$, O $= 0.02$; ratio 1:2:1 gives CH$_2$O.",
-      "tip": "Any mass not accounted for by C and H in a combustion problem is oxygen."
+      "tip": "Any mass not accounted for by C and H in a combustion problem is oxygen.",
+      "trick": "Mass left over after accounting for C and H is oxygen."
     },
     {
       "id": "che-some-basic-concepts-037",
@@ -483,7 +519,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "$M_1V_1 = M_2V_2 \\Rightarrow 0.5\\times100 = 0.1\\times V_2 \\Rightarrow V_2 = 500$ mL. Water to be added $= 500-100 = 400$ mL."
+      "explanation": "$M_1V_1 = M_2V_2 \\Rightarrow 0.5\\times100 = 0.1\\times V_2 \\Rightarrow V_2 = 500$ mL. Water to be added $= 500-100 = 400$ mL.",
+      "trick": "Find final volume via $M_1V_1=M_2V_2$, then subtract the initial volume."
     },
     {
       "id": "che-some-basic-concepts-038",
@@ -496,7 +533,8 @@
       ],
       "answer": 1,
       "difficulty": "easy",
-      "explanation": "The mole is the SI base unit for amount of substance."
+      "explanation": "The mole is the SI base unit for amount of substance.",
+      "trick": "Mole is the SI base unit for amount of substance — direct recall."
     },
     {
       "id": "che-some-basic-concepts-039",
@@ -509,7 +547,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "Equivalent mass of H$_2$SO$_4 = 98/2 = 49$; equivalents $= 4.9/49 = 0.1$; normality $= 0.1/0.5 = 0.2$ N."
+      "explanation": "Equivalent mass of H$_2$SO$_4 = 98/2 = 49$; equivalents $= 4.9/49 = 0.1$; normality $= 0.1/0.5 = 0.2$ N.",
+      "trick": "$N$ = equivalents ÷ litres; eq. mass of H$_2$SO$_4$ = molar mass/2."
     },
     {
       "id": "che-some-basic-concepts-040",
@@ -522,7 +561,8 @@
       ],
       "answer": 3,
       "difficulty": "hard",
-      "explanation": "Moles: Al $= 0.2$, Cl$_2 = 4.48/22.4 = 0.2$. Cl$_2$ needs $0.2\\times2/3 = 0.1333$ mol Al to react fully, so Cl$_2$ is limiting. Unreacted Al $= 0.2-0.1333 = 0.0667$ mol $= 1.8$ g."
+      "explanation": "Moles: Al $= 0.2$, Cl$_2 = 4.48/22.4 = 0.2$. Cl$_2$ needs $0.2\\times2/3 = 0.1333$ mol Al to react fully, so Cl$_2$ is limiting. Unreacted Al $= 0.2-0.1333 = 0.0667$ mol $= 1.8$ g.",
+      "trick": "Find limiting reagent by mole ratio needed; only excess reactant remains unreacted."
     }
   ]
 }

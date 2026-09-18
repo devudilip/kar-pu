@@ -12,7 +12,8 @@
       ],
       "answer": 3,
       "difficulty": "easy",
-      "explanation": "$^6P_2 = \\dfrac{6!}{4!} = 6\\times5 = 30$."
+      "explanation": "$^6P_2 = \\dfrac{6!}{4!} = 6\\times5 = 30$.",
+      "trick": "$^nP_r = n(n-1)\\cdots$ down to $r$ factors."
     },
     {
       "id": "mat-permutations-and-combinations-002",
@@ -25,7 +26,8 @@
       ],
       "answer": 2,
       "difficulty": "easy",
-      "explanation": "$^7C_3 = \\dfrac{7!}{3!4!} = \\dfrac{7\\times6\\times5}{6} = 35$."
+      "explanation": "$^7C_3 = \\dfrac{7!}{3!4!} = \\dfrac{7\\times6\\times5}{6} = 35$.",
+      "trick": "$^nC_r = \\dfrac{^nP_r}{r!}$ — compute the permutation then divide."
     },
     {
       "id": "mat-permutations-and-combinations-003",
@@ -38,7 +40,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "MISSISSIPPI has 11 letters: M(1), I(4), S(4), P(2). Arrangements $= \\dfrac{11!}{4!4!2!}$."
+      "explanation": "MISSISSIPPI has 11 letters: M(1), I(4), S(4), P(2). Arrangements $= \\dfrac{11!}{4!4!2!}$.",
+      "trick": "Divide $n!$ by the factorial of each repeated letter's count."
     },
     {
       "id": "mat-permutations-and-combinations-004",
@@ -51,7 +54,8 @@
       ],
       "answer": 1,
       "difficulty": "easy",
-      "explanation": "$^5P_3 = 5\\times4\\times3 = 60$."
+      "explanation": "$^5P_3 = 5\\times4\\times3 = 60$.",
+      "trick": "No repetition, order matters $\\Rightarrow$ use $^nP_r$."
     },
     {
       "id": "mat-permutations-and-combinations-005",
@@ -64,7 +68,8 @@
       ],
       "answer": 2,
       "difficulty": "easy",
-      "explanation": "Each of 3 places has 5 choices independently: $5^3 = 125$."
+      "explanation": "Each of 3 places has 5 choices independently: $5^3 = 125$.",
+      "trick": "Repetition allowed, order matters $\\Rightarrow$ use $n^r$."
     },
     {
       "id": "mat-permutations-and-combinations-006",
@@ -77,7 +82,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "Circular permutations of $n$ distinct objects $= (n-1)! = 4! = 24$."
+      "explanation": "Circular permutations of $n$ distinct objects $= (n-1)! = 4! = 24$.",
+      "trick": "Circular arrangement of $n$ distinct people $= (n-1)!$."
     },
     {
       "id": "mat-permutations-and-combinations-007",
@@ -90,7 +96,8 @@
       ],
       "answer": 3,
       "difficulty": "easy",
-      "explanation": "Total people $=9$; choose 3: $^9C_3 = \\dfrac{9\\times8\\times7}{6} = 84$."
+      "explanation": "Total people $=9$; choose 3: $^9C_3 = \\dfrac{9\\times8\\times7}{6} = 84$.",
+      "trick": "No restriction $\\Rightarrow$ pool everyone together and use $^nC_r$."
     },
     {
       "id": "mat-permutations-and-combinations-008",
@@ -103,7 +110,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "Choose men and women independently and multiply: $^5C_3 \\times {}^4C_2 = 10\\times6 = 60$."
+      "explanation": "Choose men and women independently and multiply: $^5C_3 \\times {}^4C_2 = 10\\times6 = 60$.",
+      "trick": "Split by group, choose each independently, then multiply."
     },
     {
       "id": "mat-permutations-and-combinations-009",
@@ -116,7 +124,8 @@
       ],
       "answer": 3,
       "difficulty": "medium",
-      "explanation": "$^nC_r = {}^nC_{n-r}$ with $r\\ne n-r$ implies $8+6=n \\Rightarrow n=14$."
+      "explanation": "$^nC_r = {}^nC_{n-r}$ with $r\\ne n-r$ implies $8+6=n \\Rightarrow n=14$.",
+      "trick": "$^nC_r={}^nC_{n-r} \\Rightarrow$ the two lower indices add to $n$."
     },
     {
       "id": "mat-permutations-and-combinations-010",
@@ -129,7 +138,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "Diagonals $= {}^6C_2 - 6 = 15-6 = 9$."
+      "explanation": "Diagonals $= {}^6C_2 - 6 = 15-6 = 9$.",
+      "trick": "Diagonals $= {}^nC_2 - n$ (all segments minus the sides)."
     },
     {
       "id": "mat-permutations-and-combinations-011",
@@ -142,7 +152,8 @@
       ],
       "answer": 0,
       "difficulty": "easy",
-      "explanation": "All 8 letters are distinct; arranging all of them gives $8!$ words."
+      "explanation": "All 8 letters are distinct; arranging all of them gives $8!$ words.",
+      "trick": "All letters distinct, arrange all $\\Rightarrow$ just $n!$."
     },
     {
       "id": "mat-permutations-and-combinations-012",
@@ -155,7 +166,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "Treat EI as one block: 4 units (D,L,H,[EI]) arrange in $4!$ ways; internal arrangement of E,I in $2!$ ways: $4!\\times2! = 24\\times2=48$."
+      "explanation": "Treat EI as one block: 4 units (D,L,H,[EI]) arrange in $4!$ ways; internal arrangement of E,I in $2!$ ways: $4!\\times2! = 24\\times2=48$.",
+      "trick": "Glue the 'together' letters into one block, then arrange blocks $\\times$ internal order."
     },
     {
       "id": "mat-permutations-and-combinations-013",
@@ -168,7 +180,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "By Pascal's rule, $^nC_r + {}^nC_{r-1} = {}^{n+1}C_r$; here $^{10}C_5+{}^{10}C_4 = {}^{11}C_5$."
+      "explanation": "By Pascal's rule, $^nC_r + {}^nC_{r-1} = {}^{n+1}C_r$; here $^{10}C_5+{}^{10}C_4 = {}^{11}C_5$.",
+      "trick": "Pascal's rule: $^nC_{r-1}+{}^nC_r = {}^{n+1}C_r$."
     },
     {
       "id": "mat-permutations-and-combinations-014",
@@ -181,7 +194,8 @@
       ],
       "answer": 0,
       "difficulty": "easy",
-      "explanation": "$^{52}C_2 = \\dfrac{52\\times51}{2} = 1326$."
+      "explanation": "$^{52}C_2 = \\dfrac{52\\times51}{2} = 1326$.",
+      "trick": "Selecting cards (order irrelevant) $\\Rightarrow$ use $^nC_r$."
     },
     {
       "id": "mat-permutations-and-combinations-015",
@@ -194,7 +208,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "$^{26}P_4 = 26\\times25\\times24\\times23 = 358800$."
+      "explanation": "$^{26}P_4 = 26\\times25\\times24\\times23 = 358800$.",
+      "trick": "No repetition, order matters $\\Rightarrow ^nP_r$."
     },
     {
       "id": "mat-permutations-and-combinations-016",
@@ -207,7 +222,8 @@
       ],
       "answer": 3,
       "difficulty": "hard",
-      "explanation": "Two alternating patterns (BGBGBG or GBGBGB), each allows $3!$ ways for boys and $3!$ for girls: $2\\times3!\\times3! = 2\\times6\\times6=72$."
+      "explanation": "Two alternating patterns (BGBGBG or GBGBGB), each allows $3!$ ways for boys and $3!$ for girls: $2\\times3!\\times3! = 2\\times6\\times6=72$.",
+      "trick": "Alternating pattern: 2 pattern choices $\\times$ arrangements within each group."
     },
     {
       "id": "mat-permutations-and-combinations-017",
@@ -220,7 +236,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "$^nP_2 = n(n-1) = 30 \\Rightarrow n^2-n-30=0 \\Rightarrow (n-6)(n+5)=0 \\Rightarrow n=6$ (rejecting negative)."
+      "explanation": "$^nP_2 = n(n-1) = 30 \\Rightarrow n^2-n-30=0 \\Rightarrow (n-6)(n+5)=0 \\Rightarrow n=6$ (rejecting negative).",
+      "trick": "$^nP_2=n(n-1)$; solve the resulting quadratic, reject the negative root."
     },
     {
       "id": "mat-permutations-and-combinations-018",
@@ -233,7 +250,8 @@
       ],
       "answer": 0,
       "difficulty": "easy",
-      "explanation": "This is arranging 5 distinct books among 5 students: $5! = 120$."
+      "explanation": "This is arranging 5 distinct books among 5 students: $5! = 120$.",
+      "trick": "Distributing $n$ distinct items to $n$ people, one each, is just $n!$."
     },
     {
       "id": "mat-permutations-and-combinations-019",
@@ -246,7 +264,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "$^6C_4 \\times {}^3C_1 = 15\\times3 = 45$."
+      "explanation": "$^6C_4 \\times {}^3C_1 = 15\\times3 = 45$.",
+      "trick": "Choose each category independently with $^nC_r$, then multiply."
     },
     {
       "id": "mat-permutations-and-combinations-020",
@@ -259,7 +278,8 @@
       ],
       "answer": 3,
       "difficulty": "medium",
-      "explanation": "Total arrangements $= \\dfrac{5!}{2!} = \\dfrac{120}{2} = 60$ (dividing by $2!$ for the repeated P)."
+      "explanation": "Total arrangements $= \\dfrac{5!}{2!} = \\dfrac{120}{2} = 60$ (dividing by $2!$ for the repeated P).",
+      "trick": "Divide $n!$ by the factorial of the repeated letter's count."
     },
     {
       "id": "mat-permutations-and-combinations-021",
@@ -272,7 +292,8 @@
       ],
       "answer": 3,
       "difficulty": "easy",
-      "explanation": "By convention $0! = 1$ and $1! = 1$, so their sum is $2$."
+      "explanation": "By convention $0! = 1$ and $1! = 1$, so their sum is $2$.",
+      "trick": "$0!=1$ by convention; add the other factorial directly."
     },
     {
       "id": "mat-permutations-and-combinations-022",
@@ -285,7 +306,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "$^{12}C_9 = {}^{12}C_{3} = \\dfrac{12\\times11\\times10}{3\\times2\\times1} = 220$."
+      "explanation": "$^{12}C_9 = {}^{12}C_{3} = \\dfrac{12\\times11\\times10}{3\\times2\\times1} = 220$.",
+      "trick": "Use $^nC_r={}^nC_{n-r}$ to switch to the smaller, easier index."
     },
     {
       "id": "mat-permutations-and-combinations-023",
@@ -298,7 +320,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "Order matters (different roles), so this is $^{11}P_2 = 11\\times10 = 110$."
+      "explanation": "Order matters (different roles), so this is $^{11}P_2 = 11\\times10 = 110$.",
+      "trick": "Distinct roles $\\Rightarrow$ order matters $\\Rightarrow$ use $^nP_r$."
     },
     {
       "id": "mat-permutations-and-combinations-024",
@@ -311,7 +334,8 @@
       ],
       "answer": 0,
       "difficulty": "easy",
-      "explanation": "Total line segments between $n$ vertices are $^nC_2 = \\dfrac{n(n-1)}{2}$; removing the $n$ sides gives $\\dfrac{n(n-3)}{2}$ diagonals."
+      "explanation": "Total line segments between $n$ vertices are $^nC_2 = \\dfrac{n(n-1)}{2}$; removing the $n$ sides gives $\\dfrac{n(n-3)}{2}$ diagonals.",
+      "trick": "Diagonals of an $n$-gon $= n(n-3)/2$."
     },
     {
       "id": "mat-permutations-and-combinations-025",
@@ -324,7 +348,8 @@
       ],
       "answer": 2,
       "difficulty": "easy",
-      "explanation": "'MATHS' has 5 distinct letters, so it can be arranged in $5! = 120$ ways."
+      "explanation": "'MATHS' has 5 distinct letters, so it can be arranged in $5! = 120$ ways.",
+      "trick": "All letters distinct $\\Rightarrow$ arrangements $=n!$."
     },
     {
       "id": "mat-permutations-and-combinations-026",
@@ -337,7 +362,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "Each fruit can be chosen or not, giving $2^3=8$ subsets; excluding the case of choosing none gives $2^3-1=7$."
+      "explanation": "Each fruit can be chosen or not, giving $2^3=8$ subsets; excluding the case of choosing none gives $2^3-1=7$.",
+      "trick": "'At least one' from $n$ items $=2^n-1$ (exclude choosing none)."
     },
     {
       "id": "mat-permutations-and-combinations-027",
@@ -350,7 +376,8 @@
       ],
       "answer": 3,
       "difficulty": "medium",
-      "explanation": "A triangle needs 3 non-collinear points: $^6C_3 = 20$."
+      "explanation": "A triangle needs 3 non-collinear points: $^6C_3 = 20$.",
+      "trick": "A triangle needs 3 points, order irrelevant $\\Rightarrow ^nC_3$."
     },
     {
       "id": "mat-permutations-and-combinations-028",
@@ -363,7 +390,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "A line needs 2 points: $^6C_2 = 15$."
+      "explanation": "A line needs 2 points: $^6C_2 = 15$.",
+      "trick": "A line needs 2 points, order irrelevant $\\Rightarrow ^nC_2$."
     },
     {
       "id": "mat-permutations-and-combinations-029",
@@ -376,7 +404,8 @@
       ],
       "answer": 3,
       "difficulty": "easy",
-      "explanation": "$^8P_3 = 8\\times7\\times6 = 336$."
+      "explanation": "$^8P_3 = 8\\times7\\times6 = 336$.",
+      "trick": "$^nP_r = n(n-1)\\cdots$ for $r$ terms; multiply straight down."
     },
     {
       "id": "mat-permutations-and-combinations-030",
@@ -389,7 +418,8 @@
       ],
       "answer": 2,
       "difficulty": "hard",
-      "explanation": "Treat the 4 people as one block: this gives 5 units to arrange in $5!$ ways, and the block internally in $4!$ ways: $5!\\times4! = 120\\times24 = 2880$."
+      "explanation": "Treat the 4 people as one block: this gives 5 units to arrange in $5!$ ways, and the block internally in $4!$ ways: $5!\\times4! = 120\\times24 = 2880$.",
+      "trick": "Glue the 'together' group into one block: arrange blocks $\\times$ internal order."
     },
     {
       "id": "mat-permutations-and-combinations-031",
@@ -402,7 +432,8 @@
       ],
       "answer": 1,
       "difficulty": "hard",
-      "explanation": "Treat the pair as one unit, giving 5 units in a circle: $(5-1)! = 24$ arrangements, times $2!$ for the internal order of the pair: $24\\times2=48$."
+      "explanation": "Treat the pair as one unit, giving 5 units in a circle: $(5-1)! = 24$ arrangements, times $2!$ for the internal order of the pair: $24\\times2=48$.",
+      "trick": "Circular table + pair together: treat pair as one unit, use $(n-1)!\\times2!$."
     },
     {
       "id": "mat-permutations-and-combinations-032",
@@ -415,7 +446,8 @@
       ],
       "answer": 0,
       "difficulty": "hard",
-      "explanation": "'STATISTICS' has 10 letters with S repeated 3 times, T repeated 3 times and I repeated 2 times: $\\dfrac{10!}{3!\\,3!\\,2!} = \\dfrac{3628800}{72} = 50400$."
+      "explanation": "'STATISTICS' has 10 letters with S repeated 3 times, T repeated 3 times and I repeated 2 times: $\\dfrac{10!}{3!\\,3!\\,2!} = \\dfrac{3628800}{72} = 50400$.",
+      "trick": "Divide $n!$ by the factorial of each letter's repeat count."
     },
     {
       "id": "mat-permutations-and-combinations-033",
@@ -428,7 +460,8 @@
       ],
       "answer": 0,
       "difficulty": "easy",
-      "explanation": "This is the fundamental principle of addition (sum rule): the two sets of ways are mutually exclusive, so they add."
+      "explanation": "This is the fundamental principle of addition (sum rule): the two sets of ways are mutually exclusive, so they add.",
+      "trick": "Mutually exclusive methods: add the ways ('or' rule)."
     },
     {
       "id": "mat-permutations-and-combinations-034",
@@ -441,7 +474,8 @@
       ],
       "answer": 2,
       "difficulty": "easy",
-      "explanation": "This is the fundamental principle of multiplication (product rule): $m\\times n$."
+      "explanation": "This is the fundamental principle of multiplication (product rule): $m\\times n$.",
+      "trick": "Independent steps: multiply the ways ('and' rule)."
     },
     {
       "id": "mat-permutations-and-combinations-035",
@@ -454,7 +488,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "$^4C_2 \\times {}^5C_3 = 6\\times10 = 60$."
+      "explanation": "$^4C_2 \\times {}^5C_3 = 6\\times10 = 60$.",
+      "trick": "Choose each group independently with $^nC_r$, then multiply."
     },
     {
       "id": "mat-permutations-and-combinations-036",
@@ -467,7 +502,8 @@
       ],
       "answer": 3,
       "difficulty": "medium",
-      "explanation": "Since the two posts are distinct, order matters: $^{10}P_2 = 10\\times9 = 90$."
+      "explanation": "Since the two posts are distinct, order matters: $^{10}P_2 = 10\\times9 = 90$.",
+      "trick": "Distinct posts $\\Rightarrow$ order matters $\\Rightarrow$ use $^nP_r$."
     },
     {
       "id": "mat-permutations-and-combinations-037",
@@ -480,7 +516,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "The first letter has 5 vowel choices; each of the remaining 2 letters has 26 choices: $5\\times26\\times26 = 3380$."
+      "explanation": "The first letter has 5 vowel choices; each of the remaining 2 letters has 26 choices: $5\\times26\\times26 = 3380$.",
+      "trick": "Fix the restricted position's choices first, then multiply by the free positions."
     },
     {
       "id": "mat-permutations-and-combinations-038",
@@ -493,7 +530,8 @@
       ],
       "answer": 3,
       "difficulty": "medium",
-      "explanation": "Total arrangements $=4!=24$. Arrangements with the 2 particular books together (block): $3!\\times2!=12$. Never together $= 24-12 = 12$."
+      "explanation": "Total arrangements $=4!=24$. Arrangements with the 2 particular books together (block): $3!\\times2!=12$. Never together $= 24-12 = 12$.",
+      "trick": "Never together $=$ total arrangements $-$ (together as one block)."
     },
     {
       "id": "mat-permutations-and-combinations-039",
@@ -506,7 +544,8 @@
       ],
       "answer": 1,
       "difficulty": "easy",
-      "explanation": "With that man fixed in the committee, 3 more must be chosen from the remaining 5: $^5C_3 = 10$."
+      "explanation": "With that man fixed in the committee, 3 more must be chosen from the remaining 5: $^5C_3 = 10$.",
+      "trick": "Fix the required member, then choose the rest from what's left with $^nC_r$."
     },
     {
       "id": "mat-permutations-and-combinations-040",
@@ -519,7 +558,8 @@
       ],
       "answer": 2,
       "difficulty": "hard",
-      "explanation": "Choosing 3 of the 6 for one group can be done in $^6C_3=20$ ways, but since the two groups are unlabelled, each division is counted twice: $20/2 = 10$."
+      "explanation": "Choosing 3 of the 6 for one group can be done in $^6C_3=20$ ways, but since the two groups are unlabelled, each division is counted twice: $20/2 = 10$.",
+      "trick": "Split into two labelled groups with $^nC_r$, then divide by $2!$ since groups are identical."
     }
   ]
 }

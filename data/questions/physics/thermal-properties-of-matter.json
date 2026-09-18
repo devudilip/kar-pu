@@ -12,7 +12,8 @@
       ],
       "answer": 2,
       "difficulty": "easy",
-      "explanation": "$F = \\dfrac{9}{5}C+32 = \\dfrac{9}{5}(100)+32 = 212^\\circ$F."
+      "explanation": "$F = \\dfrac{9}{5}C+32 = \\dfrac{9}{5}(100)+32 = 212^\\circ$F.",
+      "trick": "$F=\\frac95C+32$ — 100°C is a nice round number, gives 212°F."
     },
     {
       "id": "phy-thermal-properties-of-matter-002",
@@ -25,7 +26,8 @@
       ],
       "answer": 1,
       "difficulty": "easy",
-      "explanation": "Absolute zero (0 K) is $-273.15^\\circ$C by definition of the Kelvin scale."
+      "explanation": "Absolute zero (0 K) is $-273.15^\\circ$C by definition of the Kelvin scale.",
+      "trick": "Memorise: 0 K $=-273.15^\\circ$C exactly, by definition of Kelvin scale."
     },
     {
       "id": "phy-thermal-properties-of-matter-003",
@@ -38,7 +40,8 @@
       ],
       "answer": 3,
       "difficulty": "easy",
-      "explanation": "$\\Delta L = L_0\\alpha\\Delta T = 2\\times2\\times10^{-5}\\times50 = 2\\times10^{-3}$ m $=2$ mm."
+      "explanation": "$\\Delta L = L_0\\alpha\\Delta T = 2\\times2\\times10^{-5}\\times50 = 2\\times10^{-3}$ m $=2$ mm.",
+      "trick": "$\\Delta L=L_0\\alpha\\Delta T$ — straight substitution, no conversion needed here."
     },
     {
       "id": "phy-thermal-properties-of-matter-004",
@@ -51,7 +54,8 @@
       ],
       "answer": 0,
       "difficulty": "easy",
-      "explanation": "For small expansions $\\gamma = 3\\alpha$ (and $\\beta = 2\\alpha$ for area)."
+      "explanation": "For small expansions $\\gamma = 3\\alpha$ (and $\\beta = 2\\alpha$ for area).",
+      "trick": "Memorise: $\\gamma=3\\alpha$ (volume), $\\beta=2\\alpha$ (area), linear is just $\\alpha$."
     },
     {
       "id": "phy-thermal-properties-of-matter-005",
@@ -64,7 +68,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "Water shows anomalous expansion: it contracts on cooling from 10°C to 4°C (density rising to a maximum at 4°C) and then expands as it is cooled further from 4°C to 0°C."
+      "explanation": "Water shows anomalous expansion: it contracts on cooling from 10°C to 4°C (density rising to a maximum at 4°C) and then expands as it is cooled further from 4°C to 0°C.",
+      "trick": "Water's anomaly: density peaks at 4°C, so volume dips then rises below it."
     },
     {
       "id": "phy-thermal-properties-of-matter-006",
@@ -77,7 +82,8 @@
       ],
       "answer": 0,
       "difficulty": "easy",
-      "explanation": "$Q = mc\\Delta T = 0.5\\times4200\\times60 = 126000$ J $= 126$ kJ."
+      "explanation": "$Q = mc\\Delta T = 0.5\\times4200\\times60 = 126000$ J $= 126$ kJ.",
+      "trick": "$Q=mc\\Delta T$ — convert grams to kg, multiply straight through."
     },
     {
       "id": "phy-thermal-properties-of-matter-007",
@@ -90,7 +96,8 @@
       ],
       "answer": 3,
       "difficulty": "easy",
-      "explanation": "$Q = mL = 0.01\\times3.34\\times10^5 = 3340$ J. No temperature change occurs during melting."
+      "explanation": "$Q = mL = 0.01\\times3.34\\times10^5 = 3340$ J. No temperature change occurs during melting.",
+      "trick": "$Q=mL$ for phase change — no $\\Delta T$ term, temperature stays fixed."
     },
     {
       "id": "phy-thermal-properties-of-matter-008",
@@ -103,7 +110,8 @@
       ],
       "answer": 1,
       "difficulty": "easy",
-      "explanation": "Equal masses of the same liquid: heat lost by hot water = heat gained by cold water, so final temperature is the simple average $=(90+10)/2 = 50^\\circ$C."
+      "explanation": "Equal masses of the same liquid: heat lost by hot water = heat gained by cold water, so final temperature is the simple average $=(90+10)/2 = 50^\\circ$C.",
+      "trick": "Equal masses, same liquid $\\Rightarrow$ final temp is just the simple average."
     },
     {
       "id": "phy-thermal-properties-of-matter-009",
@@ -116,7 +124,8 @@
       ],
       "answer": 3,
       "difficulty": "hard",
-      "explanation": "Heat needed to melt ice $=50\\times80=4000$ cal. Heat available if water cools from 80°C to 0°C $=50\\times1\\times80=4000$ cal, exactly enough to melt all the ice with nothing left to raise temperature further, so the mixture settles at 0°C."
+      "explanation": "Heat needed to melt ice $=50\\times80=4000$ cal. Heat available if water cools from 80°C to 0°C $=50\\times1\\times80=4000$ cal, exactly enough to melt all the ice with nothing left to raise temperature further, so the mixture settles at 0°C.",
+      "trick": "Check heat to melt ice vs heat water can give — equal means final $T=0$°C."
     },
     {
       "id": "phy-thermal-properties-of-matter-010",
@@ -129,7 +138,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "In steady state the same heat current flows through both; $\\dfrac{dT}{dx} \\propto \\dfrac1K$, so the rod with conductivity $K$ has twice the temperature gradient of the rod with conductivity $2K$."
+      "explanation": "In steady state the same heat current flows through both; $\\dfrac{dT}{dx} \\propto \\dfrac1K$, so the rod with conductivity $K$ has twice the temperature gradient of the rod with conductivity $2K$.",
+      "trick": "Steady state: same heat current $\\Rightarrow dT/dx\\propto1/K$ (lower $K$, steeper gradient)."
     },
     {
       "id": "phy-thermal-properties-of-matter-011",
@@ -142,7 +152,8 @@
       ],
       "answer": 0,
       "difficulty": "easy",
-      "explanation": "Radiation is the only mode of heat transfer that can occur through vacuum, as electromagnetic waves."
+      "explanation": "Radiation is the only mode of heat transfer that can occur through vacuum, as electromagnetic waves.",
+      "trick": "Only radiation needs no medium — it travels as EM waves, even through vacuum."
     },
     {
       "id": "phy-thermal-properties-of-matter-012",
@@ -155,7 +166,8 @@
       ],
       "answer": 2,
       "difficulty": "easy",
-      "explanation": "Stefan-Boltzmann law: $E = \\sigma T^4$."
+      "explanation": "Stefan-Boltzmann law: $E = \\sigma T^4$.",
+      "trick": "Stefan-Boltzmann: $E=\\sigma T^4$ — fourth power, not squared or cubed."
     },
     {
       "id": "phy-thermal-properties-of-matter-013",
@@ -168,7 +180,8 @@
       ],
       "answer": 3,
       "difficulty": "medium",
-      "explanation": "$E \\propto T^4$, so doubling $T$ increases $E$ by a factor of $2^4 = 16$."
+      "explanation": "$E \\propto T^4$, so doubling $T$ increases $E$ by a factor of $2^4 = 16$.",
+      "trick": "$E\\propto T^4$ — doubling $T$ multiplies power by $2^4=16$."
     },
     {
       "id": "phy-thermal-properties-of-matter-014",
@@ -181,7 +194,8 @@
       ],
       "answer": 0,
       "difficulty": "easy",
-      "explanation": "Since $\\lambda_m T$ is constant, $\\lambda_m \\propto 1/T$; a hotter body has its peak emission shifted to a shorter wavelength (e.g. from red to blue-white)."
+      "explanation": "Since $\\lambda_m T$ is constant, $\\lambda_m \\propto 1/T$; a hotter body has its peak emission shifted to a shorter wavelength (e.g. from red to blue-white).",
+      "trick": "Wien: $\\lambda_m T=$const $\\Rightarrow\\lambda_m\\propto1/T$ — hotter body, shorter peak wavelength."
     },
     {
       "id": "phy-thermal-properties-of-matter-015",
@@ -194,7 +208,8 @@
       ],
       "answer": 2,
       "difficulty": "easy",
-      "explanation": "Newton's law of cooling (rate of loss of heat $\\propto$ excess temperature over surroundings) is an approximation valid only for small temperature differences."
+      "explanation": "Newton's law of cooling (rate of loss of heat $\\propto$ excess temperature over surroundings) is an approximation valid only for small temperature differences.",
+      "trick": "Newton's cooling law only holds for small body-surroundings temperature difference."
     },
     {
       "id": "phy-thermal-properties-of-matter-016",
@@ -207,7 +222,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "Newton's law of cooling states the rate of cooling is proportional to the difference between the (average) body temperature and the surrounding temperature."
+      "explanation": "Newton's law of cooling states the rate of cooling is proportional to the difference between the (average) body temperature and the surrounding temperature.",
+      "trick": "Rate of cooling $\\propto$ (average body temp $-$ surrounding temp), per Newton's law."
     },
     {
       "id": "phy-thermal-properties-of-matter-017",
@@ -220,7 +236,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "On heating, brass (higher $\\alpha$) elongates more than iron, forcing the strip to curve with brass forming the outer (longer) arc, i.e. the strip bends towards the iron side."
+      "explanation": "On heating, brass (higher $\\alpha$) elongates more than iron, forcing the strip to curve with brass forming the outer (longer) arc, i.e. the strip bends towards the iron side.",
+      "trick": "Higher-$\\alpha$ metal (brass) elongates more, forming the outer arc of the curve."
     },
     {
       "id": "phy-thermal-properties-of-matter-018",
@@ -233,7 +250,8 @@
       ],
       "answer": 3,
       "difficulty": "medium",
-      "explanation": "From $Q/t = KA\\Delta T/L$, $K = \\dfrac{Q L}{t A \\Delta T}$, giving units W m$^{-1}$K$^{-1}$ = J s$^{-1}$m$^{-1}$K$^{-1}$."
+      "explanation": "From $Q/t = KA\\Delta T/L$, $K = \\dfrac{Q L}{t A \\Delta T}$, giving units W m$^{-1}$K$^{-1}$ = J s$^{-1}$m$^{-1}$K$^{-1}$.",
+      "trick": "Derive $K$'s unit from $Q/t=KA\\Delta T/L$: comes out W m$^{-1}$K$^{-1}$."
     },
     {
       "id": "phy-thermal-properties-of-matter-019",
@@ -246,7 +264,8 @@
       ],
       "answer": 2,
       "difficulty": "easy",
-      "explanation": "By international agreement, the triple point of water (where ice, water and water vapour coexist in equilibrium) is assigned the value 273.16 K exactly."
+      "explanation": "By international agreement, the triple point of water (where ice, water and water vapour coexist in equilibrium) is assigned the value 273.16 K exactly.",
+      "trick": "Memorise: triple point of water is fixed at exactly 273.16 K."
     },
     {
       "id": "phy-thermal-properties-of-matter-020",
@@ -259,7 +278,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "$\\gamma_{apparent} = \\gamma_{real} - \\gamma_{vessel} = 180\\times10^{-6}-27\\times10^{-6}=153\\times10^{-6}\\,{}^\\circ\\text{C}^{-1}$."
+      "explanation": "$\\gamma_{apparent} = \\gamma_{real} - \\gamma_{vessel} = 180\\times10^{-6}-27\\times10^{-6}=153\\times10^{-6}\\,{}^\\circ\\text{C}^{-1}$.",
+      "trick": "Apparent $\\gamma=$ real $\\gamma-$ vessel $\\gamma$ — subtract the two coefficients."
     },
     {
       "id": "phy-thermal-properties-of-matter-021",
@@ -272,7 +292,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "$\\beta=2\\alpha=4\\times10^{-5}\\,{}^\\circ\\text{C}^{-1}$; $\\Delta A=A_0\\beta\\Delta T=1\\times4\\times10^{-5}\\times100=4\\times10^{-3}$ m$^2$."
+      "explanation": "$\\beta=2\\alpha=4\\times10^{-5}\\,{}^\\circ\\text{C}^{-1}$; $\\Delta A=A_0\\beta\\Delta T=1\\times4\\times10^{-5}\\times100=4\\times10^{-3}$ m$^2$.",
+      "trick": "Area expansion: $\\Delta A=A_0(2\\alpha)\\Delta T$ — double $\\alpha$, not triple."
     },
     {
       "id": "phy-thermal-properties-of-matter-022",
@@ -285,7 +306,8 @@
       ],
       "answer": 3,
       "difficulty": "easy",
-      "explanation": "Metal rails expand on heating in summer; the gaps provide room for this expansion and prevent the track from buckling."
+      "explanation": "Metal rails expand on heating in summer; the gaps provide room for this expansion and prevent the track from buckling.",
+      "trick": "Gaps in rails prevent buckling by allowing room for summer thermal expansion."
     },
     {
       "id": "phy-thermal-properties-of-matter-023",
@@ -298,7 +320,8 @@
       ],
       "answer": 0,
       "difficulty": "easy",
-      "explanation": "Invar's very small $\\alpha$ means its length barely changes with temperature, keeping measurements and pendulum periods accurate despite temperature fluctuations."
+      "explanation": "Invar's very small $\\alpha$ means its length barely changes with temperature, keeping measurements and pendulum periods accurate despite temperature fluctuations.",
+      "trick": "Invar = near-zero $\\alpha$, so its length stays stable across temperature — precision use."
     },
     {
       "id": "phy-thermal-properties-of-matter-024",
@@ -311,7 +334,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "Water equivalent accounts for the calorimeter's own heat capacity as if it were extra water; effective mass $=180+20=200$ g, so $Q=200\\times1\\times10=2000$ cal."
+      "explanation": "Water equivalent accounts for the calorimeter's own heat capacity as if it were extra water; effective mass $=180+20=200$ g, so $Q=200\\times1\\times10=2000$ cal.",
+      "trick": "Water equivalent adds directly to mass: use $(m_{water}+W)c\\Delta T$."
     },
     {
       "id": "phy-thermal-properties-of-matter-025",
@@ -324,7 +348,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "$Q=mL=0.005\\times2.26\\times10^6=11300$ J $=11.3$ kJ."
+      "explanation": "$Q=mL=0.005\\times2.26\\times10^6=11300$ J $=11.3$ kJ.",
+      "trick": "$Q=mL_{vap}$ for boiling — no temperature-rise term, just latent heat."
     },
     {
       "id": "phy-thermal-properties-of-matter-026",
@@ -337,7 +362,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "Heat current $=KA\\Delta T/L \\propto A$ for fixed $K,L,\\Delta T$, so the ratio of currents equals the ratio of areas, $A:2A=1:2$."
+      "explanation": "Heat current $=KA\\Delta T/L \\propto A$ for fixed $K,L,\\Delta T$, so the ratio of currents equals the ratio of areas, $A:2A=1:2$.",
+      "trick": "Parallel rods: heat current $\\propto A$ (same $K,L,\\Delta T$) — ratio equals area ratio."
     },
     {
       "id": "phy-thermal-properties-of-matter-027",
@@ -350,7 +376,8 @@
       ],
       "answer": 3,
       "difficulty": "easy",
-      "explanation": "Specific heat capacity $c$ is a per-unit-mass material property, while the heat capacity of a particular body is $mc$, which scales with the amount of substance present."
+      "explanation": "Specific heat capacity $c$ is a per-unit-mass material property, while the heat capacity of a particular body is $mc$, which scales with the amount of substance present.",
+      "trick": "Heat capacity $=mc$ scales with mass; specific heat $c$ is per-unit-mass, material-only."
     },
     {
       "id": "phy-thermal-properties-of-matter-028",
@@ -363,7 +390,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "Evaporation is a surface phenomenon that occurs at any temperature, whereas boiling occurs throughout the liquid's volume (via bubble formation) only at a fixed temperature determined by the external pressure."
+      "explanation": "Evaporation is a surface phenomenon that occurs at any temperature, whereas boiling occurs throughout the liquid's volume (via bubble formation) only at a fixed temperature determined by the external pressure.",
+      "trick": "Evaporation: surface, any temperature. Boiling: whole bulk, fixed temperature, bubbles."
     },
     {
       "id": "phy-thermal-properties-of-matter-029",
@@ -376,7 +404,8 @@
       ],
       "answer": 3,
       "difficulty": "medium",
-      "explanation": "Boiling point rises with increasing pressure; the sealed cooker traps steam, raising the internal pressure and hence the temperature at which water boils, cooking food faster."
+      "explanation": "Boiling point rises with increasing pressure; the sealed cooker traps steam, raising the internal pressure and hence the temperature at which water boils, cooking food faster.",
+      "trick": "Pressure cooker: higher internal pressure raises boiling point, cooks faster at higher $T$."
     },
     {
       "id": "phy-thermal-properties-of-matter-030",
@@ -389,7 +418,8 @@
       ],
       "answer": 2,
       "difficulty": "easy",
-      "explanation": "Ice's anomalous behaviour (water being denser than ice) means applied pressure favours melting, lowering the melting point slightly — the ice refreezes once the pressure is released and it recools."
+      "explanation": "Ice's anomalous behaviour (water being denser than ice) means applied pressure favours melting, lowering the melting point slightly — the ice refreezes once the pressure is released and it recools.",
+      "trick": "Regelation: ice is less dense than water, so pressure favours melting, lowering melting point."
     },
     {
       "id": "phy-thermal-properties-of-matter-031",
@@ -402,7 +432,8 @@
       ],
       "answer": 1,
       "difficulty": "hard",
-      "explanation": "$\\lambda_m = b/T = (2.9\\times10^{-3})/5800 \\approx 5\\times10^{-7}$ m $= 500$ nm, in the visible range, consistent with the Sun appearing yellow-white."
+      "explanation": "$\\lambda_m = b/T = (2.9\\times10^{-3})/5800 \\approx 5\\times10^{-7}$ m $= 500$ nm, in the visible range, consistent with the Sun appearing yellow-white.",
+      "trick": "$\\lambda_m=b/T$ — plug Wien's constant and $T$, get order of visible light."
     },
     {
       "id": "phy-thermal-properties-of-matter-032",
@@ -415,7 +446,8 @@
       ],
       "answer": 0,
       "difficulty": "hard",
-      "explanation": "$P=e\\sigma(4\\pi r^2)T^4 \\propto r^2T^4$. $\\dfrac{P_A}{P_B}=\\dfrac{1^2\\times2^4}{2^2\\times1^4}=\\dfrac{16}{4}=4$, so $P_A:P_B=4:1$."
+      "explanation": "$P=e\\sigma(4\\pi r^2)T^4 \\propto r^2T^4$. $\\dfrac{P_A}{P_B}=\\dfrac{1^2\\times2^4}{2^2\\times1^4}=\\dfrac{16}{4}=4$, so $P_A:P_B=4:1$.",
+      "trick": "$P\\propto r^2T^4$ — combine both ratios raised to their respective powers."
     },
     {
       "id": "phy-thermal-properties-of-matter-033",
@@ -428,7 +460,8 @@
       ],
       "answer": 0,
       "difficulty": "easy",
-      "explanation": "Emissivity is a dimensionless ratio comparing a surface's emission to that of an ideal black body at the same temperature, so $0\\le e\\le1$, with $e=1$ only for a perfect black body."
+      "explanation": "Emissivity is a dimensionless ratio comparing a surface's emission to that of an ideal black body at the same temperature, so $0\\le e\\le1$, with $e=1$ only for a perfect black body.",
+      "trick": "Emissivity is dimensionless, bounded $0\\le e\\le1$, with $e=1$ only for black body."
     },
     {
       "id": "phy-thermal-properties-of-matter-034",
@@ -441,7 +474,8 @@
       ],
       "answer": 1,
       "difficulty": "easy",
-      "explanation": "During a phase change, supplied heat is used entirely to break/form intermolecular bonds (latent heat), so the temperature stays constant even as heat continues to flow in."
+      "explanation": "During a phase change, supplied heat is used entirely to break/form intermolecular bonds (latent heat), so the temperature stays constant even as heat continues to flow in.",
+      "trick": "Flat plateaus on a heating curve = phase change, all heat going into latent heat."
     },
     {
       "id": "phy-thermal-properties-of-matter-035",
@@ -454,7 +488,8 @@
       ],
       "answer": 3,
       "difficulty": "hard",
-      "explanation": "Melting: $Q_1=mL=0.1\\times3.34\\times10^5=33400$ J. Heating: $Q_2=mc\\Delta T=0.1\\times4200\\times20=8400$ J. Total $=41800$ J $=41.8$ kJ."
+      "explanation": "Melting: $Q_1=mL=0.1\\times3.34\\times10^5=33400$ J. Heating: $Q_2=mc\\Delta T=0.1\\times4200\\times20=8400$ J. Total $=41800$ J $=41.8$ kJ.",
+      "trick": "Two-step sum: melting ($Q=mL$) plus heating ($Q=mc\\Delta T$) — add both."
     },
     {
       "id": "phy-thermal-properties-of-matter-036",
@@ -467,7 +502,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "Setting $C=F=x$ in $C=\\dfrac{5}{9}(F-32)$ gives $x=\\dfrac59(x-32) \\Rightarrow 9x=5x-160 \\Rightarrow x=-40$."
+      "explanation": "Setting $C=F=x$ in $C=\\dfrac{5}{9}(F-32)$ gives $x=\\dfrac59(x-32) \\Rightarrow 9x=5x-160 \\Rightarrow x=-40$.",
+      "trick": "Set $C=F=x$ in the conversion formula and solve — memorise the answer $-40°$."
     },
     {
       "id": "phy-thermal-properties-of-matter-037",
@@ -480,7 +516,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "Molar specific heat $C=Mc=0.028\\times700=19.6$ J mol$^{-1}$K$^{-1}$."
+      "explanation": "Molar specific heat $C=Mc=0.028\\times700=19.6$ J mol$^{-1}$K$^{-1}$.",
+      "trick": "Molar specific heat $C=Mc$ — multiply specific heat by molar mass."
     },
     {
       "id": "phy-thermal-properties-of-matter-038",
@@ -493,7 +530,8 @@
       ],
       "answer": 3,
       "difficulty": "medium",
-      "explanation": "$V_0=1000$ cm$^3$; $\\gamma=3\\alpha=3.6\\times10^{-5}\\,{}^\\circ\\text{C}^{-1}$; $\\Delta V=V_0\\gamma\\Delta T=1000\\times3.6\\times10^{-5}\\times100=3.6$ cm$^3$."
+      "explanation": "$V_0=1000$ cm$^3$; $\\gamma=3\\alpha=3.6\\times10^{-5}\\,{}^\\circ\\text{C}^{-1}$; $\\Delta V=V_0\\gamma\\Delta T=1000\\times3.6\\times10^{-5}\\times100=3.6$ cm$^3$.",
+      "trick": "Volume expansion: $\\Delta V=V_0(3\\alpha)\\Delta T$ — cube the side first for $V_0$."
     },
     {
       "id": "phy-thermal-properties-of-matter-039",
@@ -506,7 +544,8 @@
       ],
       "answer": 1,
       "difficulty": "hard",
-      "explanation": "Since the rod cannot expand, the would-be strain converts entirely to stress: $F=YA\\alpha\\Delta T=2\\times10^{11}\\times2\\times10^{-4}\\times1.2\\times10^{-5}\\times40=1.92\\times10^4$ N."
+      "explanation": "Since the rod cannot expand, the would-be strain converts entirely to stress: $F=YA\\alpha\\Delta T=2\\times10^{11}\\times2\\times10^{-4}\\times1.2\\times10^{-5}\\times40=1.92\\times10^4$ N.",
+      "trick": "Fixed rod: thermal force $F=YA\\alpha\\Delta T$ — same trick as thermal-stress problems."
     },
     {
       "id": "phy-thermal-properties-of-matter-040",
@@ -519,7 +558,8 @@
       ],
       "answer": 0,
       "difficulty": "easy",
-      "explanation": "Kirchhoff's law states that the emissivity of a surface at a given temperature equals its absorptivity at that temperature, so good absorbers (like black surfaces) are also good emitters."
+      "explanation": "Kirchhoff's law states that the emissivity of a surface at a given temperature equals its absorptivity at that temperature, so good absorbers (like black surfaces) are also good emitters.",
+      "trick": "Kirchhoff's law: good absorber $=$ good emitter at that same temperature."
     }
   ]
 }

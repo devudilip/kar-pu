@@ -12,7 +12,8 @@
       ],
       "answer": 3,
       "difficulty": "easy",
-      "explanation": "$P = \\rho gh = 1000\\times10\\times5 = 5\\times10^4$ Pa."
+      "explanation": "$P = \\rho gh = 1000\\times10\\times5 = 5\\times10^4$ Pa.",
+      "trick": "$P=\\rho gh$ — plug depth, density, $g$ directly, no atmospheric term needed."
     },
     {
       "id": "phy-mechanical-properties-of-fluids-002",
@@ -25,7 +26,8 @@
       ],
       "answer": 1,
       "difficulty": "easy",
-      "explanation": "$F_2 = F_1\\dfrac{A_2}{A_1} = 50\\times\\dfrac{500}{5} = 5000$ N."
+      "explanation": "$F_2 = F_1\\dfrac{A_2}{A_1} = 50\\times\\dfrac{500}{5} = 5000$ N.",
+      "trick": "Hydraulic lift: $F_2=F_1(A_2/A_1)$ — force scales with area ratio."
     },
     {
       "id": "phy-mechanical-properties-of-fluids-003",
@@ -38,7 +40,8 @@
       ],
       "answer": 0,
       "difficulty": "easy",
-      "explanation": "Fraction submerged $= \\rho_{body}/\\rho_{fluid} = 0.6$, so fraction above $= 1-0.6 = 0.4$."
+      "explanation": "Fraction submerged $= \\rho_{body}/\\rho_{fluid} = 0.6$, so fraction above $= 1-0.6 = 0.4$.",
+      "trick": "Fraction submerged $=\\rho_{body}/\\rho_{fluid}$; fraction above $=1-$ that."
     },
     {
       "id": "phy-mechanical-properties-of-fluids-004",
@@ -51,7 +54,8 @@
       ],
       "answer": 2,
       "difficulty": "easy",
-      "explanation": "Equation of continuity: $A_1v_1 = A_2v_2 \\Rightarrow v_2 = 4\\times3/2 = 6$ m s$^{-1}$."
+      "explanation": "Equation of continuity: $A_1v_1 = A_2v_2 \\Rightarrow v_2 = 4\\times3/2 = 6$ m s$^{-1}$.",
+      "trick": "Continuity: $A_1v_1=A_2v_2$ — narrower area means proportionally faster flow."
     },
     {
       "id": "phy-mechanical-properties-of-fluids-005",
@@ -64,7 +68,8 @@
       ],
       "answer": 3,
       "difficulty": "easy",
-      "explanation": "By Bernoulli's theorem (Torricelli's law), $v = \\sqrt{2gH}$."
+      "explanation": "By Bernoulli's theorem (Torricelli's law), $v = \\sqrt{2gH}$.",
+      "trick": "Torricelli: efflux speed $=\\sqrt{2gh}$ — same as free-fall speed formula."
     },
     {
       "id": "phy-mechanical-properties-of-fluids-006",
@@ -77,7 +82,8 @@
       ],
       "answer": 0,
       "difficulty": "easy",
-      "explanation": "For horizontal flow $P + \\tfrac12\\rho v^2 = $ constant; higher $v$ means lower $P$ (this is the principle used in a venturimeter and carburettor)."
+      "explanation": "For horizontal flow $P + \\tfrac12\\rho v^2 = $ constant; higher $v$ means lower $P$ (this is the principle used in a venturimeter and carburettor).",
+      "trick": "Bernoulli: speed up $\\Rightarrow$ pressure down (venturi/carburettor principle)."
     },
     {
       "id": "phy-mechanical-properties-of-fluids-007",
@@ -90,7 +96,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "$v_t \\propto r^2$, so doubling $r$ makes $v_t$ four times."
+      "explanation": "$v_t \\propto r^2$, so doubling $r$ makes $v_t$ four times.",
+      "trick": "$v_t\\propto r^2$ (Stokes) — double radius, quadruple terminal velocity."
     },
     {
       "id": "phy-mechanical-properties-of-fluids-008",
@@ -103,7 +110,8 @@
       ],
       "answer": 1,
       "difficulty": "easy",
-      "explanation": "From the Stokes' law terminal velocity formula, $v_t \\propto r^2$ when all other quantities are fixed."
+      "explanation": "From the Stokes' law terminal velocity formula, $v_t \\propto r^2$ when all other quantities are fixed.",
+      "trick": "Terminal velocity formula's $r^2$ factor directly gives $v_t\\propto r^2$."
     },
     {
       "id": "phy-mechanical-properties-of-fluids-009",
@@ -116,7 +124,8 @@
       ],
       "answer": 1,
       "difficulty": "easy",
-      "explanation": "A soap bubble has two free surfaces (inner and outer film surfaces), so $\\Delta P = 4T/r$, unlike a liquid drop which has only one surface ($2T/r$)."
+      "explanation": "A soap bubble has two free surfaces (inner and outer film surfaces), so $\\Delta P = 4T/r$, unlike a liquid drop which has only one surface ($2T/r$).",
+      "trick": "Soap bubble has two surfaces $\\Rightarrow\\Delta P=4T/r$ (drop: $2T/r$)."
     },
     {
       "id": "phy-mechanical-properties-of-fluids-010",
@@ -129,7 +138,8 @@
       ],
       "answer": 0,
       "difficulty": "hard",
-      "explanation": "Surface energy is conserved: $r^2 = r_1^2+r_2^2$ (since $\\Delta P\\cdot dV$ work argument gives $r_1^2+r_2^2=r^2$ for bubbles) $=9+16=25 \\Rightarrow r=5$ cm."
+      "explanation": "Surface energy is conserved: $r^2 = r_1^2+r_2^2$ (since $\\Delta P\\cdot dV$ work argument gives $r_1^2+r_2^2=r^2$ for bubbles) $=9+16=25 \\Rightarrow r=5$ cm.",
+      "trick": "Bubble coalescence conserves surface energy: $r^2=r_1^2+r_2^2$."
     },
     {
       "id": "phy-mechanical-properties-of-fluids-011",
@@ -142,7 +152,8 @@
       ],
       "answer": 3,
       "difficulty": "medium",
-      "explanation": "$h = \\dfrac{2T\\cos\\theta}{\\rho g r} \\propto \\dfrac1r$; doubling $r$ halves $h$ to 2 cm."
+      "explanation": "$h = \\dfrac{2T\\cos\\theta}{\\rho g r} \\propto \\dfrac1r$; doubling $r$ halves $h$ to 2 cm.",
+      "trick": "$h\\propto1/r$ (capillary rise) — doubling radius halves the rise."
     },
     {
       "id": "phy-mechanical-properties-of-fluids-012",
@@ -155,7 +166,8 @@
       ],
       "answer": 2,
       "difficulty": "easy",
-      "explanation": "Mercury-glass has an obtuse angle of contact ($\\approx 140^\\circ$), which makes $\\cos\\theta$ negative, giving depression instead of rise."
+      "explanation": "Mercury-glass has an obtuse angle of contact ($\\approx 140^\\circ$), which makes $\\cos\\theta$ negative, giving depression instead of rise.",
+      "trick": "Obtuse contact angle $\\Rightarrow\\cos\\theta<0\\Rightarrow$ depression, not rise."
     },
     {
       "id": "phy-mechanical-properties-of-fluids-013",
@@ -168,7 +180,8 @@
       ],
       "answer": 0,
       "difficulty": "easy",
-      "explanation": "Molecular attraction weakens with rising temperature, so surface tension decreases (it becomes zero at the critical temperature)."
+      "explanation": "Molecular attraction weakens with rising temperature, so surface tension decreases (it becomes zero at the critical temperature).",
+      "trick": "Heat weakens molecular attraction $\\Rightarrow$ surface tension falls with temperature."
     },
     {
       "id": "phy-mechanical-properties-of-fluids-014",
@@ -181,7 +194,8 @@
       ],
       "answer": 2,
       "difficulty": "hard",
-      "explanation": "Volume conservation: $R^3 = 8r^3 \\Rightarrow r=R/2$. Total new area $=8(4\\pi r^2)=8\\times4\\pi (R/2)^2=8\\pi R^2$, which is $2\\times$ the original area $4\\pi R^2$, so surface energy doubles."
+      "explanation": "Volume conservation: $R^3 = 8r^3 \\Rightarrow r=R/2$. Total new area $=8(4\\pi r^2)=8\\times4\\pi (R/2)^2=8\\pi R^2$, which is $2\\times$ the original area $4\\pi R^2$, so surface energy doubles.",
+      "trick": "Volume fixed, area up on splitting $\\Rightarrow$ smaller drops mean more surface energy."
     },
     {
       "id": "phy-mechanical-properties-of-fluids-015",
@@ -194,7 +208,8 @@
       ],
       "answer": 1,
       "difficulty": "easy",
-      "explanation": "For an incompressible fluid, the mass flowing per second must be the same everywhere along the tube, giving $A_1v_1=A_2v_2$."
+      "explanation": "For an incompressible fluid, the mass flowing per second must be the same everywhere along the tube, giving $A_1v_1=A_2v_2$.",
+      "trick": "Continuity equation $Av=$const is just mass conservation for incompressible flow."
     },
     {
       "id": "phy-mechanical-properties-of-fluids-016",
@@ -207,7 +222,8 @@
       ],
       "answer": 3,
       "difficulty": "medium",
-      "explanation": "Upthrust $=20-15=5$ N $= $ weight of water displaced. Relative density $=\\dfrac{\\text{weight in air}}{\\text{upthrust}}=\\dfrac{20}{5}=4$."
+      "explanation": "Upthrust $=20-15=5$ N $= $ weight of water displaced. Relative density $=\\dfrac{\\text{weight in air}}{\\text{upthrust}}=\\dfrac{20}{5}=4$.",
+      "trick": "Relative density $=$ weight in air $\\div$ (weight in air $-$ weight in water)."
     },
     {
       "id": "phy-mechanical-properties-of-fluids-017",
@@ -220,7 +236,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "$R_e = \\rho vd/\\eta$; flow is laminar for $R_e$ below roughly 1000 and turbulent above about 2000, with an unstable region in between."
+      "explanation": "$R_e = \\rho vd/\\eta$; flow is laminar for $R_e$ below roughly 1000 and turbulent above about 2000, with an unstable region in between.",
+      "trick": "Recall cutoffs: $R_e<1000$ laminar, $R_e>2000$ turbulent, in between unstable."
     },
     {
       "id": "phy-mechanical-properties-of-fluids-018",
@@ -233,7 +250,8 @@
       ],
       "answer": 2,
       "difficulty": "easy",
-      "explanation": "At terminal velocity, weight $=$ upthrust $+$ viscous drag, so the net force (and hence acceleration) is zero and velocity stays constant."
+      "explanation": "At terminal velocity, weight $=$ upthrust $+$ viscous drag, so the net force (and hence acceleration) is zero and velocity stays constant.",
+      "trick": "Terminal velocity $\\Rightarrow$ constant speed $\\Rightarrow$ net force $=0$ (weight $=$ upthrust $+$ drag)."
     },
     {
       "id": "phy-mechanical-properties-of-fluids-019",
@@ -246,7 +264,8 @@
       ],
       "answer": 1,
       "difficulty": "easy",
-      "explanation": "From $F=\\eta A\\,dv/dx$, $\\eta = \\dfrac{F\\,dx}{A\\,dv}$, units N m/(m$^2$·m s$^{-1}$) = N s m$^{-2}$ = Pa s (also called poiseuille)."
+      "explanation": "From $F=\\eta A\\,dv/dx$, $\\eta = \\dfrac{F\\,dx}{A\\,dv}$, units N m/(m$^2$·m s$^{-1}$) = N s m$^{-2}$ = Pa s (also called poiseuille).",
+      "trick": "$\\eta$'s SI unit is poiseuille $=$ Pa s; derive from $F=\\eta A\\,dv/dx$."
     },
     {
       "id": "phy-mechanical-properties-of-fluids-020",
@@ -259,7 +278,8 @@
       ],
       "answer": 3,
       "difficulty": "easy",
-      "explanation": "A venturimeter uses the pressure difference between a wide and a narrow section (Bernoulli's principle) to determine the flow speed of a liquid."
+      "explanation": "A venturimeter uses the pressure difference between a wide and a narrow section (Bernoulli's principle) to determine the flow speed of a liquid.",
+      "trick": "Venturimeter uses pressure drop at a constriction to find flow speed."
     },
     {
       "id": "phy-mechanical-properties-of-fluids-021",
@@ -272,7 +292,8 @@
       ],
       "answer": 0,
       "difficulty": "easy",
-      "explanation": "This is the statement of Pascal's law, which is the working principle of hydraulic lifts, jacks and brakes."
+      "explanation": "This is the statement of Pascal's law, which is the working principle of hydraulic lifts, jacks and brakes.",
+      "trick": "Pascal's law: pressure transmits equally, undiminished, in every direction."
     },
     {
       "id": "phy-mechanical-properties-of-fluids-022",
@@ -285,7 +306,8 @@
       ],
       "answer": 1,
       "difficulty": "easy",
-      "explanation": "By definition, standard atmospheric pressure supports a mercury column 76 cm high."
+      "explanation": "By definition, standard atmospheric pressure supports a mercury column 76 cm high.",
+      "trick": "Memorise: 1 atm $=1.013\\times10^5$ Pa $=76$ cm of Hg."
     },
     {
       "id": "phy-mechanical-properties-of-fluids-023",
@@ -298,7 +320,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "$P=\\rho gh$ depends only on the depth and density of the liquid, not on the shape or cross-section of the container — this is the hydrostatic paradox."
+      "explanation": "$P=\\rho gh$ depends only on the depth and density of the liquid, not on the shape or cross-section of the container — this is the hydrostatic paradox.",
+      "trick": "Hydrostatic paradox: $P=\\rho gh$ ignores container shape — same base pressure everywhere."
     },
     {
       "id": "phy-mechanical-properties-of-fluids-024",
@@ -311,7 +334,8 @@
       ],
       "answer": 3,
       "difficulty": "medium",
-      "explanation": "Gauge pressure $=$ absolute pressure $-$ atmospheric pressure, so absolute pressure $=200+100=300$ kPa."
+      "explanation": "Gauge pressure $=$ absolute pressure $-$ atmospheric pressure, so absolute pressure $=200+100=300$ kPa.",
+      "trick": "Absolute $=$ gauge $+$ atmospheric — always add the two given pressures."
     },
     {
       "id": "phy-mechanical-properties-of-fluids-025",
@@ -324,7 +348,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "$\\Delta P = \\frac12\\rho(v_2^2-v_1^2) = \\frac12\\times1000\\times(16-1)=7500$ Pa."
+      "explanation": "$\\Delta P = \\frac12\\rho(v_2^2-v_1^2) = \\frac12\\times1000\\times(16-1)=7500$ Pa.",
+      "trick": "Bernoulli (horizontal): $\\Delta P=\\frac12\\rho(v_2^2-v_1^2)$ — square the speeds, subtract, halve."
     },
     {
       "id": "phy-mechanical-properties-of-fluids-026",
@@ -337,7 +362,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "Faster flow over the top means lower pressure there (Bernoulli's theorem); the resulting pressure difference produces the net upward lift force."
+      "explanation": "Faster flow over the top means lower pressure there (Bernoulli's theorem); the resulting pressure difference produces the net upward lift force.",
+      "trick": "Faster air on top (Bernoulli) $\\Rightarrow$ lower pressure there $\\Rightarrow$ net lift up."
     },
     {
       "id": "phy-mechanical-properties-of-fluids-027",
@@ -350,7 +376,8 @@
       ],
       "answer": 3,
       "difficulty": "medium",
-      "explanation": "Poiseuille's equation gives volume flow rate $\\propto r^4$; doubling $r$ increases the rate by $2^4=16$ times."
+      "explanation": "Poiseuille's equation gives volume flow rate $\\propto r^4$; doubling $r$ increases the rate by $2^4=16$ times.",
+      "trick": "Poiseuille: rate $\\propto r^4$ — doubling radius gives $2^4=16\\times$ flow."
     },
     {
       "id": "phy-mechanical-properties-of-fluids-028",
@@ -363,7 +390,8 @@
       ],
       "answer": 0,
       "difficulty": "hard",
-      "explanation": "$\\eta = \\dfrac{2r^2(\\rho-\\sigma)g}{9v_t} = \\dfrac{2\\times(10^{-3})^2\\times9000\\times10}{9\\times0.02} = \\dfrac{0.18}{0.18}=1$ Pa s."
+      "explanation": "$\\eta = \\dfrac{2r^2(\\rho-\\sigma)g}{9v_t} = \\dfrac{2\\times(10^{-3})^2\\times9000\\times10}{9\\times0.02} = \\dfrac{0.18}{0.18}=1$ Pa s.",
+      "trick": "Terminal velocity: $\\eta=2r^2(\\rho-\\sigma)g/(9v_t)$ — direct plug-in, watch mm$\\to$m."
     },
     {
       "id": "phy-mechanical-properties-of-fluids-029",
@@ -376,7 +404,8 @@
       ],
       "answer": 2,
       "difficulty": "easy",
-      "explanation": "Surface energy released when the area decreases on coalescence is converted mainly into heat, slightly warming the resulting drop."
+      "explanation": "Surface energy released when the area decreases on coalescence is converted mainly into heat, slightly warming the resulting drop.",
+      "trick": "Coalescence: lost surface energy $\\to$ heat, slightly warms the merged drop."
     },
     {
       "id": "phy-mechanical-properties-of-fluids-030",
@@ -389,7 +418,8 @@
       ],
       "answer": 1,
       "difficulty": "easy",
-      "explanation": "$h=\\dfrac{2T\\cos\\theta}{\\rho g r}$; a lower surface tension $T$ directly gives a smaller rise $h$."
+      "explanation": "$h=\\dfrac{2T\\cos\\theta}{\\rho g r}$; a lower surface tension $T$ directly gives a smaller rise $h$.",
+      "trick": "$h\\propto T$ directly (capillary rise) — lower $T$ from detergent means smaller $h$."
     },
     {
       "id": "phy-mechanical-properties-of-fluids-031",
@@ -402,7 +432,8 @@
       ],
       "answer": 0,
       "difficulty": "hard",
-      "explanation": "$v = \\dfrac{R_e\\,\\eta}{\\rho d} = \\dfrac{2000\\times10^{-3}}{1000\\times0.02} = \\dfrac{2}{20}=0.1$ m/s."
+      "explanation": "$v = \\dfrac{R_e\\,\\eta}{\\rho d} = \\dfrac{2000\\times10^{-3}}{1000\\times0.02} = \\dfrac{2}{20}=0.1$ m/s.",
+      "trick": "Set $R_e=2000$, solve $v=R_e\\eta/(\\rho d)$ for the turbulence threshold speed."
     },
     {
       "id": "phy-mechanical-properties-of-fluids-032",
@@ -415,7 +446,8 @@
       ],
       "answer": 3,
       "difficulty": "easy",
-      "explanation": "In liquids, weaker intermolecular cohesion at higher temperature lowers viscosity; in gases, viscosity arises from molecular momentum transfer, which increases with temperature, so gas viscosity rises."
+      "explanation": "In liquids, weaker intermolecular cohesion at higher temperature lowers viscosity; in gases, viscosity arises from molecular momentum transfer, which increases with temperature, so gas viscosity rises.",
+      "trick": "Liquids: viscosity falls with heat (weaker cohesion); gases: rises (more molecular collisions)."
     },
     {
       "id": "phy-mechanical-properties-of-fluids-033",
@@ -428,7 +460,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "At the common interface, pressures balance: $\\rho_{oil}gh_{oil}=\\rho_{water}gh_{water}$, so $\\rho_{oil}=1000\\times8/10=800$ kg m$^{-3}$."
+      "explanation": "At the common interface, pressures balance: $\\rho_{oil}gh_{oil}=\\rho_{water}gh_{water}$, so $\\rho_{oil}=1000\\times8/10=800$ kg m$^{-3}$.",
+      "trick": "U-tube balance: $\\rho_1h_1=\\rho_2h_2$ at the common interface — cross-multiply."
     },
     {
       "id": "phy-mechanical-properties-of-fluids-034",
@@ -441,7 +474,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "Range $=2\\sqrt{h(H-h)}$, which is maximised at $h=H/2$, giving the maximum range equal to $H$."
+      "explanation": "Range $=2\\sqrt{h(H-h)}$, which is maximised at $h=H/2$, giving the maximum range equal to $H$.",
+      "trick": "Efflux range $=2\\sqrt{h(H-h)}$ is maximised at $h=H/2$ (like projectile symmetry)."
     },
     {
       "id": "phy-mechanical-properties-of-fluids-035",
@@ -454,7 +488,8 @@
       ],
       "answer": 0,
       "difficulty": "easy",
-      "explanation": "The relative air speeds on the two sides of the spinning ball differ, so by Bernoulli's principle the pressures differ, producing a net sideways (Magnus) force that curves the path."
+      "explanation": "The relative air speeds on the two sides of the spinning ball differ, so by Bernoulli's principle the pressures differ, producing a net sideways (Magnus) force that curves the path.",
+      "trick": "Spin makes air speeds unequal on two sides $\\Rightarrow$ Bernoulli pressure gap $\\Rightarrow$ Magnus curve."
     },
     {
       "id": "phy-mechanical-properties-of-fluids-036",
@@ -467,7 +502,8 @@
       ],
       "answer": 3,
       "difficulty": "medium",
-      "explanation": "Rate $\\propto P/L$; doubling both $P$ and $L$ leaves the ratio $P/L$, and hence the flow rate, unchanged."
+      "explanation": "Rate $\\propto P/L$; doubling both $P$ and $L$ leaves the ratio $P/L$, and hence the flow rate, unchanged.",
+      "trick": "Poiseuille rate $\\propto P/L$ — doubling both leaves the ratio, hence rate, unchanged."
     },
     {
       "id": "phy-mechanical-properties-of-fluids-037",
@@ -480,7 +516,8 @@
       ],
       "answer": 3,
       "difficulty": "hard",
-      "explanation": "$T=\\dfrac{h\\rho g r}{2\\cos\\theta}=\\dfrac{0.03\\times1000\\times10\\times0.0005}{2}=0.075$ N/m."
+      "explanation": "$T=\\dfrac{h\\rho g r}{2\\cos\\theta}=\\dfrac{0.03\\times1000\\times10\\times0.0005}{2}=0.075$ N/m.",
+      "trick": "$T=h\\rho gr/(2\\cos\\theta)$ — rearranged capillary-rise formula, plug and simplify."
     },
     {
       "id": "phy-mechanical-properties-of-fluids-038",
@@ -493,7 +530,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "Fraction submerged $=\\rho_{ice}/\\rho_{sea}=900/1030\\approx0.874$; fraction above the surface $\\approx1-0.874=0.126=12.6\\%$."
+      "explanation": "Fraction submerged $=\\rho_{ice}/\\rho_{sea}=900/1030\\approx0.874$; fraction above the surface $\\approx1-0.874=0.126=12.6\\%$.",
+      "trick": "Fraction above $=1-\\rho_{ice}/\\rho_{sea}$ — compute the density ratio first."
     },
     {
       "id": "phy-mechanical-properties-of-fluids-039",
@@ -506,7 +544,8 @@
       ],
       "answer": 1,
       "difficulty": "easy",
-      "explanation": "Hydraulic lifts, brakes and jacks all transmit an applied pressure through an enclosed fluid (Pascal's law); a venturimeter instead measures flow speed using the pressure drop predicted by Bernoulli's theorem."
+      "explanation": "Hydraulic lifts, brakes and jacks all transmit an applied pressure through an enclosed fluid (Pascal's law); a venturimeter instead measures flow speed using the pressure drop predicted by Bernoulli's theorem.",
+      "trick": "Pascal's law devices transmit pressure (lift, brake, jack); venturimeter is Bernoulli-based."
     },
     {
       "id": "phy-mechanical-properties-of-fluids-040",
@@ -519,7 +558,8 @@
       ],
       "answer": 0,
       "difficulty": "hard",
-      "explanation": "Since $\\Delta P=4T/r$, a smaller radius gives a larger excess pressure; air therefore flows from the high-pressure smaller bubble into the larger, lower-pressure one until the smaller bubble empties and collapses."
+      "explanation": "Since $\\Delta P=4T/r$, a smaller radius gives a larger excess pressure; air therefore flows from the high-pressure smaller bubble into the larger, lower-pressure one until the smaller bubble empties and collapses.",
+      "trick": "Smaller bubble has higher $\\Delta P=4T/r$ $\\Rightarrow$ air flows small $\\to$ large."
     }
   ]
 }

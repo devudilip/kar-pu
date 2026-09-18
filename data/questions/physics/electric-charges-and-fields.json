@@ -12,7 +12,8 @@
       ],
       "answer": 2,
       "difficulty": "easy",
-      "explanation": "$F = k\\dfrac{q_1q_2}{r^2} = \\dfrac{9\\times10^9\\times2\\times10^{-6}\\times8\\times10^{-6}}{0.09} = \\dfrac{0.144}{0.09} = 1.6\\,\\text{N}$."
+      "explanation": "$F = k\\dfrac{q_1q_2}{r^2} = \\dfrac{9\\times10^9\\times2\\times10^{-6}\\times8\\times10^{-6}}{0.09} = \\dfrac{0.144}{0.09} = 1.6\\,\\text{N}$.",
+      "trick": "Plug into $F=kq_1q_2/r^2$ directly; convert cm to m first, don't forget."
     },
     {
       "id": "phy-electric-charges-and-fields-002",
@@ -25,7 +26,8 @@
       ],
       "answer": 0,
       "difficulty": "easy",
-      "explanation": "Force in a medium reduces by the dielectric constant: $F_{medium} = F/K = F/5$."
+      "explanation": "Force in a medium reduces by the dielectric constant: $F_{medium} = F/K = F/5$.",
+      "trick": "Medium always divides force by $K$: $F/K$, never multiplies."
     },
     {
       "id": "phy-electric-charges-and-fields-003",
@@ -38,7 +40,8 @@
       ],
       "answer": 1,
       "difficulty": "easy",
-      "explanation": "$E = F/q = 0.8/(4\\times10^{-6}) = 2\\times10^5$ N/C."
+      "explanation": "$E = F/q = 0.8/(4\\times10^{-6}) = 2\\times10^5$ N/C.",
+      "trick": "$E=F/q$ — just divide, no geometry needed."
     },
     {
       "id": "phy-electric-charges-and-fields-004",
@@ -51,7 +54,8 @@
       ],
       "answer": 3,
       "difficulty": "easy",
-      "explanation": "$E \\propto 1/r^2$, so field reduces to $1/9$ when distance triples: $r' = 3r$."
+      "explanation": "$E \\propto 1/r^2$, so field reduces to $1/9$ when distance triples: $r' = 3r$.",
+      "trick": "$E\\propto1/r^2$: field $\\to E/9$ means $r\\to3r$ (square root of 9)."
     },
     {
       "id": "phy-electric-charges-and-fields-005",
@@ -64,7 +68,8 @@
       ],
       "answer": 3,
       "difficulty": "easy",
-      "explanation": "$\\tau = pE\\sin\\theta = pE\\sin60^\\circ = pE\\sqrt3/2$."
+      "explanation": "$\\tau = pE\\sin\\theta = pE\\sin60^\\circ = pE\\sqrt3/2$.",
+      "trick": "$\\tau=pE\\sin\\theta$; $\\sin60^\\circ=\\sqrt3/2$, memorise the standard angles."
     },
     {
       "id": "phy-electric-charges-and-fields-006",
@@ -77,7 +82,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "$E_{axial} = 2kp/r^3$ and $E_{eq} = kp/r^3$, so $E_{eq} = E_{axial}/2$."
+      "explanation": "$E_{axial} = 2kp/r^3$ and $E_{eq} = kp/r^3$, so $E_{eq} = E_{axial}/2$.",
+      "trick": "Axial is always $2\\times$ equatorial for same $r$: halve it."
     },
     {
       "id": "phy-electric-charges-and-fields-007",
@@ -90,7 +96,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "$W = U(180^\\circ)-U(0^\\circ) = pE - (-pE) = 2pE = 2\\times2\\times10^{-8}\\times5\\times10^4 = 2\\times10^{-3}$ J."
+      "explanation": "$W = U(180^\\circ)-U(0^\\circ) = pE - (-pE) = 2pE = 2\\times2\\times10^{-8}\\times5\\times10^4 = 2\\times10^{-3}$ J.",
+      "trick": "$180^\\circ$ flip work is always $2pE$ — a shortcut worth memorising."
     },
     {
       "id": "phy-electric-charges-and-fields-008",
@@ -103,7 +110,8 @@
       ],
       "answer": 1,
       "difficulty": "easy",
-      "explanation": "Gauss's law states $\\phi = q_{enc}/\\varepsilon_0$, independent of the surface's shape or size and unaffected by charges outside it."
+      "explanation": "Gauss's law states $\\phi = q_{enc}/\\varepsilon_0$, independent of the surface's shape or size and unaffected by charges outside it.",
+      "trick": "Gauss's law: flux depends ONLY on enclosed charge — ignore shape/size/outside charges."
     },
     {
       "id": "phy-electric-charges-and-fields-009",
@@ -116,7 +124,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "Total flux $= q/\\varepsilon_0 = 8.85\\times10^{-6}/8.85\\times10^{-12} = 1\\times10^6$; by symmetry one of 6 faces gets $1/6$ of it $= 1.67\\times10^5$ N m$^2$/C."
+      "explanation": "Total flux $= q/\\varepsilon_0 = 8.85\\times10^{-6}/8.85\\times10^{-12} = 1\\times10^6$; by symmetry one of 6 faces gets $1/6$ of it $= 1.67\\times10^5$ N m$^2$/C.",
+      "trick": "By symmetry a cube face gets $\\frac16$ of total flux $q/\\varepsilon_0$."
     },
     {
       "id": "phy-electric-charges-and-fields-010",
@@ -129,7 +138,8 @@
       ],
       "answer": 3,
       "difficulty": "easy",
-      "explanation": "For a conductor surface, $E = \\sigma/\\varepsilon_0$ (twice the field of an isolated infinite sheet of the same $\\sigma$)."
+      "explanation": "For a conductor surface, $E = \\sigma/\\varepsilon_0$ (twice the field of an isolated infinite sheet of the same $\\sigma$).",
+      "trick": "Conductor surface field is $\\sigma/\\varepsilon_0$ — double the isolated-sheet value."
     },
     {
       "id": "phy-electric-charges-and-fields-011",
@@ -142,7 +152,8 @@
       ],
       "answer": 2,
       "difficulty": "easy",
-      "explanation": "All charge resides on the outer surface; a Gaussian surface inside encloses zero charge, so $E=0$ inside."
+      "explanation": "All charge resides on the outer surface; a Gaussian surface inside encloses zero charge, so $E=0$ inside.",
+      "trick": "Hollow conductor: charge only on outer surface → inside field is always zero."
     },
     {
       "id": "phy-electric-charges-and-fields-012",
@@ -155,7 +166,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "Fields from both sheets ($\\sigma/2\\varepsilon_0$ each) add up between the plates: total $= \\sigma/\\varepsilon_0$; outside the plates they cancel to zero."
+      "explanation": "Fields from both sheets ($\\sigma/2\\varepsilon_0$ each) add up between the plates: total $= \\sigma/\\varepsilon_0$; outside the plates they cancel to zero.",
+      "trick": "Opposite charged plates: fields ADD between them ($\\sigma/\\varepsilon_0$), cancel outside."
     },
     {
       "id": "phy-electric-charges-and-fields-013",
@@ -168,7 +180,8 @@
       ],
       "answer": 3,
       "difficulty": "easy",
-      "explanation": "By Gauss's law with a cylindrical surface, $E(2\\pi r l) = \\lambda l/\\varepsilon_0 \\Rightarrow E = \\lambda/(2\\pi\\varepsilon_0 r)$, falling as $1/r$ (not $1/r^2$)."
+      "explanation": "By Gauss's law with a cylindrical surface, $E(2\\pi r l) = \\lambda l/\\varepsilon_0 \\Rightarrow E = \\lambda/(2\\pi\\varepsilon_0 r)$, falling as $1/r$ (not $1/r^2$).",
+      "trick": "Line charge field falls as $1/r$, not $1/r^2$ — a common trap."
     },
     {
       "id": "phy-electric-charges-and-fields-014",
@@ -181,7 +194,8 @@
       ],
       "answer": 0,
       "difficulty": "easy",
-      "explanation": "Net enclosed charge $= q+q-2q = 0$, so total outward flux through the enclosing surface is zero (field need not be zero everywhere on it)."
+      "explanation": "Net enclosed charge $= q+q-2q = 0$, so total outward flux through the enclosing surface is zero (field need not be zero everywhere on it).",
+      "trick": "Just algebraically sum the charges for enclosed-charge questions: $q+q-2q=0$."
     },
     {
       "id": "phy-electric-charges-and-fields-015",
@@ -194,7 +208,8 @@
       ],
       "answer": 2,
       "difficulty": "easy",
-      "explanation": "Field lines originate on positive charge and point radially outward in all directions."
+      "explanation": "Field lines originate on positive charge and point radially outward in all directions.",
+      "trick": "Positive point charge: field lines are straight and radially outward, always."
     },
     {
       "id": "phy-electric-charges-and-fields-016",
@@ -207,7 +222,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "Total flux through a closed surface depends only on enclosed charge ($q/\\varepsilon_0$), regardless of the charge's position inside."
+      "explanation": "Total flux through a closed surface depends only on enclosed charge ($q/\\varepsilon_0$), regardless of the charge's position inside.",
+      "trick": "Total flux depends only on enclosed charge, not its position inside — unchanged."
     },
     {
       "id": "phy-electric-charges-and-fields-017",
@@ -220,7 +236,8 @@
       ],
       "answer": 1,
       "difficulty": "easy",
-      "explanation": "On contact, identical conductors share total charge equally: $(6+(-2))/2 = 2\\,\\mu$C each."
+      "explanation": "On contact, identical conductors share total charge equally: $(6+(-2))/2 = 2\\,\\mu$C each.",
+      "trick": "Identical conductors touching: charge splits equally, total$/2$ each."
     },
     {
       "id": "phy-electric-charges-and-fields-018",
@@ -233,7 +250,8 @@
       ],
       "answer": 2,
       "difficulty": "hard",
-      "explanation": "Inside a uniformly charged solid sphere, $E = kQr/R^3$. At $r=R/2$: $E = kQ(R/2)/R^3 = kQ/(2R^2)$."
+      "explanation": "Inside a uniformly charged solid sphere, $E = kQr/R^3$. At $r=R/2$: $E = kQ(R/2)/R^3 = kQ/(2R^2)$.",
+      "trick": "Inside solid sphere $E\\propto r$: use $E=kQr/R^3$, not $kQ/r^2$."
     },
     {
       "id": "phy-electric-charges-and-fields-019",
@@ -246,7 +264,8 @@
       ],
       "answer": 0,
       "difficulty": "easy",
-      "explanation": "$p = q\\times(2a)$, product of charge (C) and separation (m), so unit is C m."
+      "explanation": "$p = q\\times(2a)$, product of charge (C) and separation (m), so unit is C m.",
+      "trick": "Dipole moment unit: charge $\\times$ distance = C m, remember it's not C m$^2$."
     },
     {
       "id": "phy-electric-charges-and-fields-020",
@@ -259,7 +278,8 @@
       ],
       "answer": 3,
       "difficulty": "medium",
-      "explanation": "At the midpoint, fields due to $+q$ (pointing away, toward $-q$) and $-q$ (pointing toward it, same direction) add up: each contributes $kq/(r_0/2)^2 = 4kq/r_0^2$, total $8kq/r_0^2$, directed from $+q$ towards $-q$."
+      "explanation": "At the midpoint, fields due to $+q$ (pointing away, toward $-q$) and $-q$ (pointing toward it, same direction) add up: each contributes $kq/(r_0/2)^2 = 4kq/r_0^2$, total $8kq/r_0^2$, directed from $+q$ towards $-q$.",
+      "trick": "Midpoint of $+q,-q$: both fields point the same way (+ to −), so they ADD, not cancel."
     },
     {
       "id": "phy-electric-charges-and-fields-021",
@@ -272,7 +292,8 @@
       ],
       "answer": 3,
       "difficulty": "medium",
-      "explanation": "$n = q/e = 3.2\\times10^{-18}/1.6\\times10^{-19} = 20$."
+      "explanation": "$n = q/e = 3.2\\times10^{-18}/1.6\\times10^{-19} = 20$.",
+      "trick": "$n=q/e$ — divide charge by $1.6\\times10^{-19}$ C."
     },
     {
       "id": "phy-electric-charges-and-fields-022",
@@ -285,7 +306,8 @@
       ],
       "answer": 2,
       "difficulty": "easy",
-      "explanation": "Charge is a conserved, quantised, additive scalar quantity; like charges repel, they do not attract."
+      "explanation": "Charge is a conserved, quantised, additive scalar quantity; like charges repel, they do not attract.",
+      "trick": "Charge properties: quantised, additive, conserved; like charges REPEL not attract."
     },
     {
       "id": "phy-electric-charges-and-fields-023",
@@ -298,7 +320,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "In electrostatics, field lines never form closed loops since the electrostatic field is conservative; the other three statements are correct."
+      "explanation": "In electrostatics, field lines never form closed loops since the electrostatic field is conservative; the other three statements are correct.",
+      "trick": "Field lines never form closed loops in electrostatics — the one false-statement trap."
     },
     {
       "id": "phy-electric-charges-and-fields-024",
@@ -311,7 +334,8 @@
       ],
       "answer": 1,
       "difficulty": "easy",
-      "explanation": "$k=1/(4\\pi\\varepsilon_0)\\approx9\\times10^9$ N m$^2$C$^{-2}$ in vacuum/air."
+      "explanation": "$k=1/(4\\pi\\varepsilon_0)\\approx9\\times10^9$ N m$^2$C$^{-2}$ in vacuum/air.",
+      "trick": "$k=9\\times10^9$; don't confuse with $\\varepsilon_0=8.85\\times10^{-12}$."
     },
     {
       "id": "phy-electric-charges-and-fields-025",
@@ -324,7 +348,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "$F\\propto1/r^2$; halving $r$ quadruples the force."
+      "explanation": "$F\\propto1/r^2$; halving $r$ quadruples the force.",
+      "trick": "$F\\propto1/r^2$: halve $r$ → force becomes $4F$."
     },
     {
       "id": "phy-electric-charges-and-fields-026",
@@ -337,7 +362,8 @@
       ],
       "answer": 1,
       "difficulty": "hard",
-      "explanation": "The resultant of two equal, mutually perpendicular vectors of magnitude $F$ is $\\sqrt{F^2+F^2}=F\\sqrt2$."
+      "explanation": "The resultant of two equal, mutually perpendicular vectors of magnitude $F$ is $\\sqrt{F^2+F^2}=F\\sqrt2$.",
+      "trick": "Perpendicular equal forces combine as $F\\sqrt2$ (Pythagoras), not $2F$."
     },
     {
       "id": "phy-electric-charges-and-fields-027",
@@ -350,7 +376,8 @@
       ],
       "answer": 2,
       "difficulty": "easy",
-      "explanation": "Both the axial ($2kp/r^3$) and equatorial ($kp/r^3$) dipole fields fall off as $1/r^3$, faster than a monopole's $1/r^2$."
+      "explanation": "Both the axial ($2kp/r^3$) and equatorial ($kp/r^3$) dipole fields fall off as $1/r^3$, faster than a monopole's $1/r^2$.",
+      "trick": "Dipole field always falls as $1/r^3$ — one power faster than monopole's $1/r^2$."
     },
     {
       "id": "phy-electric-charges-and-fields-028",
@@ -363,7 +390,8 @@
       ],
       "answer": 3,
       "difficulty": "easy",
-      "explanation": "$\\tau=pE\\sin\\theta$ is maximum at $\\theta=90^\\circ$, where $\\sin\\theta=1$."
+      "explanation": "$\\tau=pE\\sin\\theta$ is maximum at $\\theta=90^\\circ$, where $\\sin\\theta=1$.",
+      "trick": "Torque max at $90^\\circ$ (where $\\sin\\theta=1$); energy min at $0^\\circ$ — don't mix them up."
     },
     {
       "id": "phy-electric-charges-and-fields-029",
@@ -376,7 +404,8 @@
       ],
       "answer": 1,
       "difficulty": "easy",
-      "explanation": "$U=-pE\\cos\\theta$ is minimum (most stable) at $\\theta=0^\\circ$, when $\\vec p$ is aligned with $\\vec E$."
+      "explanation": "$U=-pE\\cos\\theta$ is minimum (most stable) at $\\theta=0^\\circ$, when $\\vec p$ is aligned with $\\vec E$.",
+      "trick": "Stable equilibrium: $\\vec p\\parallel\\vec E$, i.e. $\\theta=0^\\circ$, minimum $U=-pE$."
     },
     {
       "id": "phy-electric-charges-and-fields-030",
@@ -389,7 +418,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "In a non-uniform field the forces on the two ends of the dipole are unequal, producing a net force, and in general also a net torque (in a uniform field only a torque acts, with zero net force)."
+      "explanation": "In a non-uniform field the forces on the two ends of the dipole are unequal, producing a net force, and in general also a net torque (in a uniform field only a torque acts, with zero net force).",
+      "trick": "Non-uniform field on a dipole: net force AND torque both act (uniform field: only torque)."
     },
     {
       "id": "phy-electric-charges-and-fields-031",
@@ -402,7 +432,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "Surface charge density is charge per unit area, $\\sigma=q/A$, with SI unit C m$^{-2}$."
+      "explanation": "Surface charge density is charge per unit area, $\\sigma=q/A$, with SI unit C m$^{-2}$.",
+      "trick": "Surface density = charge/area → C m$^{-2}$; match units to the '2' in 'area'."
     },
     {
       "id": "phy-electric-charges-and-fields-032",
@@ -415,7 +446,8 @@
       ],
       "answer": 0,
       "difficulty": "hard",
-      "explanation": "$E=\\dfrac{\\sigma}{2\\varepsilon_0}=\\dfrac{4\\times10^{-6}}{2\\times8.85\\times10^{-12}}\\approx2.26\\times10^5$ N/C."
+      "explanation": "$E=\\dfrac{\\sigma}{2\\varepsilon_0}=\\dfrac{4\\times10^{-6}}{2\\times8.85\\times10^{-12}}\\approx2.26\\times10^5$ N/C.",
+      "trick": "Sheet field is $\\sigma/2\\varepsilon_0$ — the factor of 2 is easy to forget."
     },
     {
       "id": "phy-electric-charges-and-fields-033",
@@ -428,7 +460,8 @@
       ],
       "answer": 0,
       "difficulty": "hard",
-      "explanation": "At the neutral point, distance $x$ from $9q$: $\\dfrac{9q}{x^2}=\\dfrac{q}{(40-x)^2} \\Rightarrow 3(40-x)=x \\Rightarrow x=30$ cm."
+      "explanation": "At the neutral point, distance $x$ from $9q$: $\\dfrac{9q}{x^2}=\\dfrac{q}{(40-x)^2} \\Rightarrow 3(40-x)=x \\Rightarrow x=30$ cm.",
+      "trick": "Like charges: null point lies BETWEEN them, closer to the smaller charge."
     },
     {
       "id": "phy-electric-charges-and-fields-034",
@@ -441,7 +474,8 @@
       ],
       "answer": 3,
       "difficulty": "medium",
-      "explanation": "The neutron (charge 0) becomes a proton ($+e$) and an electron ($-e$); the total charge before and after remains zero, illustrating conservation of charge."
+      "explanation": "The neutron (charge 0) becomes a proton ($+e$) and an electron ($-e$); the total charge before and after remains zero, illustrating conservation of charge.",
+      "trick": "Beta decay: charge before (0) = charge after ($+e-e=0$) — conservation, always check totals."
     },
     {
       "id": "phy-electric-charges-and-fields-035",
@@ -454,7 +488,8 @@
       ],
       "answer": 2,
       "difficulty": "easy",
-      "explanation": "By the superposition principle, the resultant field is the vector sum of the fields each charge would independently produce at that point."
+      "explanation": "By the superposition principle, the resultant field is the vector sum of the fields each charge would independently produce at that point.",
+      "trick": "Superposition = vector sum of individual fields, each as if others didn't exist."
     },
     {
       "id": "phy-electric-charges-and-fields-036",
@@ -467,7 +502,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "$\\lambda=q/l=4\\times10^{-6}/0.2=2\\times10^{-5}$ C/m."
+      "explanation": "$\\lambda=q/l=4\\times10^{-6}/0.2=2\\times10^{-5}$ C/m.",
+      "trick": "$\\lambda=q/l$ — straightforward division, watch cm-to-m conversion."
     },
     {
       "id": "phy-electric-charges-and-fields-037",
@@ -480,7 +516,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "The two fields are perpendicular, so the resultant $=\\sqrt{3^2+4^2}=5$ N/C."
+      "explanation": "The two fields are perpendicular, so the resultant $=\\sqrt{3^2+4^2}=5$ N/C.",
+      "trick": "Perpendicular fields combine via Pythagoras: $\\sqrt{3^2+4^2}=5$ (3-4-5 triangle)."
     },
     {
       "id": "phy-electric-charges-and-fields-038",
@@ -493,7 +530,8 @@
       ],
       "answer": 0,
       "difficulty": "easy",
-      "explanation": "By convention, $\\vec p$ points from the negative charge towards the positive charge, along the dipole axis."
+      "explanation": "By convention, $\\vec p$ points from the negative charge towards the positive charge, along the dipole axis.",
+      "trick": "$\\vec p$ points negative → positive, by definition — opposite to conventional current-in-a-wire intuition."
     },
     {
       "id": "phy-electric-charges-and-fields-039",
@@ -506,7 +544,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "The flux through a closed surface depends only on the charge enclosed, not on any charges outside it — so this statement is incorrect; the other three are true."
+      "explanation": "The flux through a closed surface depends only on the charge enclosed, not on any charges outside it — so this statement is incorrect; the other three are true.",
+      "trick": "Spot the false statement: flux never depends on outside charges — that's the trap option."
     },
     {
       "id": "phy-electric-charges-and-fields-040",
@@ -519,7 +558,8 @@
       ],
       "answer": 3,
       "difficulty": "hard",
-      "explanation": "At distance $x$ from $+q$: $\\dfrac{q}{x^2}=\\dfrac{4q}{(30-x)^2} \\Rightarrow 30-x=2x \\Rightarrow x=10$ cm."
+      "explanation": "At distance $x$ from $+q$: $\\dfrac{q}{x^2}=\\dfrac{4q}{(30-x)^2} \\Rightarrow 30-x=2x \\Rightarrow x=10$ cm.",
+      "trick": "Between like charges, set $q/x^2=Q/(d-x)^2$ and solve the ratio, not a quadratic guess."
     }
   ]
 }

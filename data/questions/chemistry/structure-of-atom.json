@@ -12,7 +12,8 @@
       ],
       "answer": 2,
       "difficulty": "easy",
-      "explanation": "$Z = 17$ gives protons = electrons = 17; neutrons $= A - Z = 35 - 17 = 18$."
+      "explanation": "$Z = 17$ gives protons = electrons = 17; neutrons $= A - Z = 35 - 17 = 18$.",
+      "trick": "Electrons = protons = $Z$; neutrons = $A - Z$."
     },
     {
       "id": "che-structure-of-atom-002",
@@ -25,7 +26,8 @@
       ],
       "answer": 3,
       "difficulty": "easy",
-      "explanation": "Bohr's quantisation condition: $mvr = \\dfrac{nh}{2\\pi}$, $n = 1, 2, 3\\dots$"
+      "explanation": "Bohr's quantisation condition: $mvr = \\dfrac{nh}{2\\pi}$, $n = 1, 2, 3\\dots$",
+      "trick": "Bohr quantisation: $mvr = nh/2\\pi$ — memorise directly."
     },
     {
       "id": "che-structure-of-atom-003",
@@ -38,7 +40,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "$r_n = 0.529\\dfrac{n^2}{Z}$ Å $= 0.529\\times\\dfrac{1}{2} = 0.2645$ Å."
+      "explanation": "$r_n = 0.529\\dfrac{n^2}{Z}$ Å $= 0.529\\times\\dfrac{1}{2} = 0.2645$ Å.",
+      "trick": "$r_n = 0.529\\,n^2/Z$ Å; higher $Z$ shrinks the orbit."
     },
     {
       "id": "che-structure-of-atom-004",
@@ -51,7 +54,8 @@
       ],
       "answer": 0,
       "difficulty": "easy",
-      "explanation": "$E_n = -13.6/n^2$ eV $= -13.6/4 = -3.4$ eV for $n = 2$."
+      "explanation": "$E_n = -13.6/n^2$ eV $= -13.6/4 = -3.4$ eV for $n = 2$.",
+      "trick": "$E_n = -13.6/n^2$ eV; just substitute $n=2$."
     },
     {
       "id": "che-structure-of-atom-005",
@@ -64,7 +68,8 @@
       ],
       "answer": 0,
       "difficulty": "easy",
-      "explanation": "de Broglie: $\\lambda = h/(mv)$, so $\\lambda \\propto 1/v$; doubling $v$ halves $\\lambda$."
+      "explanation": "de Broglie: $\\lambda = h/(mv)$, so $\\lambda \\propto 1/v$; doubling $v$ halves $\\lambda$.",
+      "trick": "$\\lambda \\propto 1/v$; doubling $v$ halves $\\lambda$."
     },
     {
       "id": "che-structure-of-atom-006",
@@ -77,7 +82,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "$l$ can only range from $0$ to $n-1$. For $n=2$, $l$ can be 0 or 1, not 2."
+      "explanation": "$l$ can only range from $0$ to $n-1$. For $n=2$, $l$ can be 0 or 1, not 2.",
+      "trick": "$l$ must run $0$ to $n-1$; $l=2$ needs $n\\ge3$."
     },
     {
       "id": "che-structure-of-atom-007",
@@ -90,7 +96,8 @@
       ],
       "answer": 3,
       "difficulty": "easy",
-      "explanation": "Maximum electrons per shell $= 2n^2 = 2\\times9 = 18$."
+      "explanation": "Maximum electrons per shell $= 2n^2 = 2\\times9 = 18$.",
+      "trick": "Max electrons per shell $= 2n^2$; for $n=3$ that's 18."
     },
     {
       "id": "che-structure-of-atom-008",
@@ -103,7 +110,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "A half-filled 3d$^5$ and filled 4s$^1$ configuration is more stable than 3d$^4$4s$^2$, due to extra exchange stabilisation."
+      "explanation": "A half-filled 3d$^5$ and filled 4s$^1$ configuration is more stable than 3d$^4$4s$^2$, due to extra exchange stabilisation.",
+      "trick": "Half-filled d$^5$ + filled s$^1$ beats d$^4$s$^2$ — exchange stability wins."
     },
     {
       "id": "che-structure-of-atom-009",
@@ -116,7 +124,8 @@
       ],
       "answer": 2,
       "difficulty": "easy",
-      "explanation": "$\\Delta x \\cdot \\Delta p \\ge h/4\\pi$; the principle is significant for microscopic particles like electrons, not macroscopic bodies."
+      "explanation": "$\\Delta x \\cdot \\Delta p \\ge h/4\\pi$; the principle is significant for microscopic particles like electrons, not macroscopic bodies.",
+      "trick": "Uncertainty principle: can't fix position and momentum together for tiny particles."
     },
     {
       "id": "che-structure-of-atom-010",
@@ -129,7 +138,8 @@
       ],
       "answer": 1,
       "difficulty": "easy",
-      "explanation": "Balmer series corresponds to electronic transitions ending at $n_1 = 2$, lying in the visible region."
+      "explanation": "Balmer series corresponds to electronic transitions ending at $n_1 = 2$, lying in the visible region.",
+      "trick": "Balmer = transitions landing on $n_1=2$, visible region."
     },
     {
       "id": "che-structure-of-atom-011",
@@ -142,7 +152,8 @@
       ],
       "answer": 3,
       "difficulty": "easy",
-      "explanation": "Large-angle scattering of a few α-particles indicated a small volume of concentrated positive charge and mass — the nucleus."
+      "explanation": "Large-angle scattering of a few α-particles indicated a small volume of concentrated positive charge and mass — the nucleus.",
+      "trick": "Large-angle scattering → small, dense, positive nucleus, not a spread-out charge."
     },
     {
       "id": "che-structure-of-atom-012",
@@ -155,7 +166,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "Total orbitals per shell $= n^2 = 9$ (1 for $l=0$, 3 for $l=1$, 5 for $l=2$)."
+      "explanation": "Total orbitals per shell $= n^2 = 9$ (1 for $l=0$, 3 for $l=1$, 5 for $l=2$).",
+      "trick": "Total orbitals per shell $= n^2$."
     },
     {
       "id": "che-structure-of-atom-013",
@@ -168,7 +180,8 @@
       ],
       "answer": 2,
       "difficulty": "easy",
-      "explanation": "Maximum spin multiplicity gives lower energy (exchange stabilisation), so singly occupied degenerate orbitals are preferred first."
+      "explanation": "Maximum spin multiplicity gives lower energy (exchange stabilisation), so singly occupied degenerate orbitals are preferred first.",
+      "trick": "Hund's rule: fill degenerate orbitals singly with parallel spins before pairing."
     },
     {
       "id": "che-structure-of-atom-014",
@@ -181,7 +194,8 @@
       ],
       "answer": 3,
       "difficulty": "hard",
-      "explanation": "$\\dfrac1\\lambda = R_H\\left(1 - \\dfrac19\\right) = 1.097\\times10^7\\times\\dfrac89 = 9.75\\times10^6\\,\\text{m}^{-1}$, so $\\lambda \\approx 102.6$ nm."
+      "explanation": "$\\dfrac1\\lambda = R_H\\left(1 - \\dfrac19\\right) = 1.097\\times10^7\\times\\dfrac89 = 9.75\\times10^6\\,\\text{m}^{-1}$, so $\\lambda \\approx 102.6$ nm.",
+      "trick": "Use $1/\\lambda = R_H(1/n_1^2-1/n_2^2)$ with $n_1=1,n_2=3$ directly."
     },
     {
       "id": "che-structure-of-atom-015",
@@ -194,7 +208,8 @@
       ],
       "answer": 0,
       "difficulty": "easy",
-      "explanation": "Isotopes have the same number of protons (atomic number $Z$) but differ in the number of neutrons and hence mass number."
+      "explanation": "Isotopes have the same number of protons (atomic number $Z$) but differ in the number of neutrons and hence mass number.",
+      "trick": "Isotopes share atomic number $Z$, differ in neutrons and mass number."
     },
     {
       "id": "che-structure-of-atom-016",
@@ -207,7 +222,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "$\\lambda = \\dfrac{h}{\\sqrt{2meV}}$, so $\\lambda \\propto 1/\\sqrt{V}$."
+      "explanation": "$\\lambda = \\dfrac{h}{\\sqrt{2meV}}$, so $\\lambda \\propto 1/\\sqrt{V}$.",
+      "trick": "$\\lambda = h/\\sqrt{2meV}$, so $\\lambda \\propto 1/\\sqrt{V}$."
     },
     {
       "id": "che-structure-of-atom-017",
@@ -220,7 +236,8 @@
       ],
       "answer": 2,
       "difficulty": "easy",
-      "explanation": "Using $(n+l)$ values, 3d ($n+l=5$) has lower energy than 4p ($n+l=5$ but higher $n$) is filled right after 4s in the Aufbau order 1s,2s,2p,3s,3p,4s,3d..."
+      "explanation": "Using $(n+l)$ values, 3d ($n+l=5$) has lower energy than 4p ($n+l=5$ but higher $n$) is filled right after 4s in the Aufbau order 1s,2s,2p,3s,3p,4s,3d...",
+      "trick": "Aufbau order by $(n+l)$: after 4s comes 3d, not 4p."
     },
     {
       "id": "che-structure-of-atom-018",
@@ -233,7 +250,8 @@
       ],
       "answer": 3,
       "difficulty": "hard",
-      "explanation": "Full configuration: 1s$^2$2s$^2$2p$^6$3s$^2$3p$^6$3d$^6$4s$^2$. s-electrons: 1s,2s,3s,4s = $4\\times2=8$; p-electrons: 2p,3p = $2\\times6=12$; d-electrons: 3d = 6. Total $8+12+6=26$."
+      "explanation": "Full configuration: 1s$^2$2s$^2$2p$^6$3s$^2$3p$^6$3d$^6$4s$^2$. s-electrons: 1s,2s,3s,4s = $4\\times2=8$; p-electrons: 2p,3p = $2\\times6=12$; d-electrons: 3d = 6. Total $8+12+6=26$.",
+      "trick": "Write full config, then count electrons by subshell letter (s, p, d)."
     },
     {
       "id": "che-structure-of-atom-019",
@@ -246,7 +264,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "From $\\Delta x\\cdot\\Delta v \\ge \\dfrac{h}{4\\pi m}$, $\\Delta v \\propto 1/\\Delta x$ for fixed mass."
+      "explanation": "From $\\Delta x\\cdot\\Delta v \\ge \\dfrac{h}{4\\pi m}$, $\\Delta v \\propto 1/\\Delta x$ for fixed mass.",
+      "trick": "$\\Delta x\\Delta v \\ge h/4\\pi m$, so $\\Delta v \\propto 1/\\Delta x$."
     },
     {
       "id": "che-structure-of-atom-020",
@@ -259,7 +278,8 @@
       ],
       "answer": 1,
       "difficulty": "easy",
-      "explanation": "$l = 0,1,2,3$ correspond to s, p, d, f respectively; so $l=2$ with $n=4$ is 4d."
+      "explanation": "$l = 0,1,2,3$ correspond to s, p, d, f respectively; so $l=2$ with $n=4$ is 4d.",
+      "trick": "$l=0,1,2,3 \\to$ s,p,d,f; $l=2$ with $n=4$ is 4d."
     },
     {
       "id": "che-structure-of-atom-021",
@@ -272,7 +292,8 @@
       ],
       "answer": 1,
       "difficulty": "easy",
-      "explanation": "Below the threshold frequency $\\nu_0$, no photoelectrons are emitted regardless of intensity; above it, kinetic energy of ejected electrons increases with frequency."
+      "explanation": "Below the threshold frequency $\\nu_0$, no photoelectrons are emitted regardless of intensity; above it, kinetic energy of ejected electrons increases with frequency.",
+      "trick": "Threshold frequency = minimum frequency needed to eject an electron at all."
     },
     {
       "id": "che-structure-of-atom-022",
@@ -285,7 +306,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "$E = hc/\\lambda = (6.626\\times10^{-34}\\times3\\times10^8)/(400\\times10^{-9}) \\approx 4.97\\times10^{-19}$ J."
+      "explanation": "$E = hc/\\lambda = (6.626\\times10^{-34}\\times3\\times10^8)/(400\\times10^{-9}) \\approx 4.97\\times10^{-19}$ J.",
+      "trick": "$E = hc/\\lambda$; plug values directly, no shortcuts needed."
     },
     {
       "id": "che-structure-of-atom-023",
@@ -298,7 +320,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "Radial nodes $= n - l - 1 = 3 - 1 - 1 = 1$."
+      "explanation": "Radial nodes $= n - l - 1 = 3 - 1 - 1 = 1$.",
+      "trick": "Radial nodes $= n - l - 1$."
     },
     {
       "id": "che-structure-of-atom-024",
@@ -311,7 +334,8 @@
       ],
       "answer": 3,
       "difficulty": "easy",
-      "explanation": "Angular nodes $= l = 2$ for a d orbital ($l=2$)."
+      "explanation": "Angular nodes $= l = 2$ for a d orbital ($l=2$).",
+      "trick": "Angular nodes $= l$; for d orbital, $l=2$."
     },
     {
       "id": "che-structure-of-atom-025",
@@ -324,7 +348,8 @@
       ],
       "answer": 3,
       "difficulty": "medium",
-      "explanation": "Total nodes $= n - 1 = 4 - 1 = 3$ (all radial, since $l=0$)."
+      "explanation": "Total nodes $= n - 1 = 4 - 1 = 3$ (all radial, since $l=0$).",
+      "trick": "Total nodes $= n-1$; for s orbital all are radial."
     },
     {
       "id": "che-structure-of-atom-026",
@@ -337,7 +362,8 @@
       ],
       "answer": 0,
       "difficulty": "hard",
-      "explanation": "Series limit corresponds to $n_2 \\to \\infty$: $1/\\lambda = R_H(1/1^2 - 0) = 1.097\\times10^7$, so $\\lambda = 1/(1.097\\times10^7) \\approx 91.2$ nm."
+      "explanation": "Series limit corresponds to $n_2 \\to \\infty$: $1/\\lambda = R_H(1/1^2 - 0) = 1.097\\times10^7$, so $\\lambda = 1/(1.097\\times10^7) \\approx 91.2$ nm.",
+      "trick": "Series limit uses $n_2\\to\\infty$: $1/\\lambda = R_H/n_1^2$."
     },
     {
       "id": "che-structure-of-atom-027",
@@ -350,7 +376,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "A p subshell can hold a maximum of 6 electrons (3 orbitals × 2); 2p$^7$ would require two electrons with identical quantum numbers, violating Pauli's exclusion principle."
+      "explanation": "A p subshell can hold a maximum of 6 electrons (3 orbitals × 2); 2p$^7$ would require two electrons with identical quantum numbers, violating Pauli's exclusion principle.",
+      "trick": "A subshell holds max $2(2l+1)$ electrons; p can't exceed 6."
     },
     {
       "id": "che-structure-of-atom-028",
@@ -363,7 +390,8 @@
       ],
       "answer": 3,
       "difficulty": "easy",
-      "explanation": "$l = 0,1,2,3$ correspond to s, p, d, f subshells respectively."
+      "explanation": "$l = 0,1,2,3$ correspond to s, p, d, f subshells respectively.",
+      "trick": "$l=0,1,2,3 \\to$ s,p,d,f; $l=3$ is f."
     },
     {
       "id": "che-structure-of-atom-029",
@@ -376,7 +404,8 @@
       ],
       "answer": 1,
       "difficulty": "hard",
-      "explanation": "1s ($m_l=0$): 2 electrons; 2s ($m_l=0$): 2 electrons; 2p$^3$ singly occupies $m_l = -1, 0, +1$ by Hund's rule, contributing 1 electron with $m_l=0$. Total $= 2+2+1 = 5$."
+      "explanation": "1s ($m_l=0$): 2 electrons; 2s ($m_l=0$): 2 electrons; 2p$^3$ singly occupies $m_l = -1, 0, +1$ by Hund's rule, contributing 1 electron with $m_l=0$. Total $= 2+2+1 = 5$.",
+      "trick": "Fill each subshell's $m_l=0$ orbital by Hund's rule, then just count."
     },
     {
       "id": "che-structure-of-atom-030",
@@ -389,7 +418,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "$\\lambda = 12.27/\\sqrt{100} = 12.27/10 = 1.227$ Å."
+      "explanation": "$\\lambda = 12.27/\\sqrt{100} = 12.27/10 = 1.227$ Å.",
+      "trick": "$\\lambda(\\text{\\r{A}}) = 12.27/\\sqrt{V}$ — direct formula plug-in."
     },
     {
       "id": "che-structure-of-atom-031",
@@ -402,7 +432,8 @@
       ],
       "answer": 3,
       "difficulty": "medium",
-      "explanation": "Bohr's model successfully explained the hydrogen spectrum and energy quantisation but failed to account for the Zeeman and Stark effects and spectra of multi-electron atoms."
+      "explanation": "Bohr's model successfully explained the hydrogen spectrum and energy quantisation but failed to account for the Zeeman and Stark effects and spectra of multi-electron atoms.",
+      "trick": "Bohr's model fails wherever a magnetic/electric field splits spectral lines (Zeeman/Stark)."
     },
     {
       "id": "che-structure-of-atom-032",
@@ -415,7 +446,8 @@
       ],
       "answer": 0,
       "difficulty": "easy",
-      "explanation": "$\\Delta E = E_2 - E_1 = -3.4-(-13.6) = 10.2$ eV."
+      "explanation": "$\\Delta E = E_2 - E_1 = -3.4-(-13.6) = 10.2$ eV.",
+      "trick": "$\\Delta E = E_2-E_1$; excitation energy is always a positive difference."
     },
     {
       "id": "che-structure-of-atom-033",
@@ -428,7 +460,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "Ionisation energy $= 13.6\\,Z^2/n^2 = 13.6\\times4/1 = 54.4$ eV, since removing the electron from $n=1$ needs $-E_1$."
+      "explanation": "Ionisation energy $= 13.6\\,Z^2/n^2 = 13.6\\times4/1 = 54.4$ eV, since removing the electron from $n=1$ needs $-E_1$.",
+      "trick": "Ionisation energy $= 13.6\\,Z^2/n^2$; for He$^+$ from $n=1$, that's $13.6\\times4$."
     },
     {
       "id": "che-structure-of-atom-034",
@@ -441,7 +474,8 @@
       ],
       "answer": 2,
       "difficulty": "easy",
-      "explanation": "The electron's mass ($9.1\\times10^{-31}$ kg) is about 1836 times smaller than a proton's, and is often neglected in mass number calculations."
+      "explanation": "The electron's mass ($9.1\\times10^{-31}$ kg) is about 1836 times smaller than a proton's, and is often neglected in mass number calculations.",
+      "trick": "Electron mass is $\\sim$1836$\\times$ smaller than a proton's — essentially negligible."
     },
     {
       "id": "che-structure-of-atom-035",
@@ -454,7 +488,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "Isobars have the same mass number but different atomic numbers; $^{40}$Ar (Z=18) and $^{40}$Ca (Z=20) both have mass number 40."
+      "explanation": "Isobars have the same mass number but different atomic numbers; $^{40}$Ar (Z=18) and $^{40}$Ca (Z=20) both have mass number 40.",
+      "trick": "Isobars: same mass number $A$, different atomic number $Z$."
     },
     {
       "id": "che-structure-of-atom-036",
@@ -467,7 +502,8 @@
       ],
       "answer": 3,
       "difficulty": "medium",
-      "explanation": "$\\nu = E/h = 3.03\\times10^{-19}/6.626\\times10^{-34} \\approx 4.57\\times10^{14}$ Hz."
+      "explanation": "$\\nu = E/h = 3.03\\times10^{-19}/6.626\\times10^{-34} \\approx 4.57\\times10^{14}$ Hz.",
+      "trick": "$\\nu = E/h$ — direct substitution, no unit traps."
     },
     {
       "id": "che-structure-of-atom-037",
@@ -480,7 +516,8 @@
       ],
       "answer": 0,
       "difficulty": "easy",
-      "explanation": "The azimuthal (angular momentum) quantum number $l$ decides the subshell type and hence the shape of the orbital (s, p, d, f)."
+      "explanation": "The azimuthal (angular momentum) quantum number $l$ decides the subshell type and hence the shape of the orbital (s, p, d, f).",
+      "trick": "Azimuthal quantum number $l$ fixes the orbital's shape."
     },
     {
       "id": "che-structure-of-atom-038",
@@ -493,7 +530,8 @@
       ],
       "answer": 3,
       "difficulty": "easy",
-      "explanation": "Maximum electrons in a subshell $= 2(2l+1) = 2(5) = 10$ for a d subshell ($l=2$)."
+      "explanation": "Maximum electrons in a subshell $= 2(2l+1) = 2(5) = 10$ for a d subshell ($l=2$).",
+      "trick": "Max electrons in a subshell $= 2(2l+1)$; for d ($l=2$) that's 10."
     },
     {
       "id": "che-structure-of-atom-039",
@@ -506,7 +544,8 @@
       ],
       "answer": 1,
       "difficulty": "hard",
-      "explanation": "$1/\\lambda = R_H(1/4 - 1/16) = 1.097\\times10^7\\times0.1875 \\approx 2.057\\times10^6\\,\\text{m}^{-1}$, giving $\\lambda \\approx 486$ nm (the H$_\\beta$ line)."
+      "explanation": "$1/\\lambda = R_H(1/4 - 1/16) = 1.097\\times10^7\\times0.1875 \\approx 2.057\\times10^6\\,\\text{m}^{-1}$, giving $\\lambda \\approx 486$ nm (the H$_\\beta$ line).",
+      "trick": "Balmer second line: use $1/\\lambda = R_H(1/4-1/16)$ directly."
     },
     {
       "id": "che-structure-of-atom-040",
@@ -519,7 +558,8 @@
       ],
       "answer": 2,
       "difficulty": "easy",
-      "explanation": "By the Pauli exclusion principle, an orbital holds at most two electrons, and if both are present their spins must be paired (opposite)."
+      "explanation": "By the Pauli exclusion principle, an orbital holds at most two electrons, and if both are present their spins must be paired (opposite).",
+      "trick": "An orbital holds at most 2 electrons, and only with opposite (paired) spins."
     }
   ]
 }

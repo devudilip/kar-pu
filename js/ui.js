@@ -43,7 +43,7 @@ export function quiz(container, questions, { onDone, record } = {}) {
       <div class="question">${q.q}</div>
       <div class="options">${q.options.map((o, j) => optionButton(o, j)).join('')}</div>
       <div class="exp"></div>
-      <div class="row spread" style="margin-top:10px"><span class="muted">${correct} correct so far</span><button class="btn hidden next">Next →</button></div>`;
+      <div class="row spread" style="margin-top:10px"><span class="muted">${correct} correct so far</span><button class="btn hidden next">${i === questions.length - 1 ? 'See result →' : 'Next →'}</button></div>`;
     math(container);
     container.querySelectorAll('.option').forEach((b) => b.addEventListener('click', () => {
       const j = +b.dataset.i, ok = j === q.answer;
@@ -51,7 +51,7 @@ export function quiz(container, questions, { onDone, record } = {}) {
       record?.(q, ok);
       container.querySelectorAll('.option').forEach((x) => { x.disabled = true; const k = +x.dataset.i; if (k === q.answer) x.classList.add('correct'); else if (k === j) x.classList.add('wrong'); });
       const e = container.querySelector('.exp');
-      e.innerHTML = `<div class="explain"><b>${ok ? 'Correct!' : 'Wrong.'} Answer: ${LETTERS[q.answer]}</b>${q.explanation ? `<div>${q.explanation}</div>` : ''}</div>${ok ? '' : reasonChips(q.id)}`;
+      e.innerHTML = `<div class="explain"><b>${ok ? 'Correct!' : 'Wrong.'} Answer: ${LETTERS[q.answer]}</b>${q.trick ? `<div class="trick">⚡ ${q.trick}</div>` : ''}${q.explanation ? (q.trick ? `<details ${ok ? '' : 'open'}><summary class="muted">Full working</summary><div>${q.explanation}</div></details>` : `<div>${q.explanation}</div>`) : ''}</div>${ok ? '' : reasonChips(q.id)}`;
       math(e); bindReasonChips(e);
       container.querySelector('.next').classList.remove('hidden');
     }));

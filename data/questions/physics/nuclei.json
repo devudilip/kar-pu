@@ -12,7 +12,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "$R \\propto A^{1/3}$; ratio $= \\dfrac{64^{1/3}}{8^{1/3}} = \\dfrac{4}{2} = 2$ times."
+      "explanation": "$R \\propto A^{1/3}$; ratio $= \\dfrac{64^{1/3}}{8^{1/3}} = \\dfrac{4}{2} = 2$ times.",
+      "trick": "$R\\propto A^{1/3}$ — cube-root the mass-number ratio to get the radius ratio."
     },
     {
       "id": "phy-nuclei-002",
@@ -25,7 +26,8 @@
       ],
       "answer": 0,
       "difficulty": "easy",
-      "explanation": "60 days $= 3$ half-lives; fraction remaining $= (1/2)^3 = 1/8$."
+      "explanation": "60 days $= 3$ half-lives; fraction remaining $= (1/2)^3 = 1/8$.",
+      "trick": "Count half-lives ($t/T_{1/2}$), then remaining fraction is $(1/2)^n$."
     },
     {
       "id": "phy-nuclei-003",
@@ -38,7 +40,8 @@
       ],
       "answer": 3,
       "difficulty": "easy",
-      "explanation": "The BE/A curve peaks near $A \\approx 56$ (iron group), which is why iron-group nuclei are the most stable."
+      "explanation": "The BE/A curve peaks near $A \\approx 56$ (iron group), which is why iron-group nuclei are the most stable.",
+      "trick": "BE/A peaks near $A\\approx56$ (iron) — the most stable nucleus zone."
     },
     {
       "id": "phy-nuclei-004",
@@ -51,7 +54,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "$\\beta^-$ decay: $n \\to p + e^- + \\bar{\\nu}$; the atomic number increases by 1 while mass number stays the same."
+      "explanation": "$\\beta^-$ decay: $n \\to p + e^- + \\bar{\\nu}$; the atomic number increases by 1 while mass number stays the same.",
+      "trick": "$\\beta^-$: neutron becomes proton, so $Z$ up by 1, $A$ unchanged."
     },
     {
       "id": "phy-nuclei-005",
@@ -64,7 +68,8 @@
       ],
       "answer": 3,
       "difficulty": "easy",
-      "explanation": "By $E = \\Delta m c^2$, 1 u $= 1.66\\times10^{-27}$ kg corresponds to 931.5 MeV."
+      "explanation": "By $E = \\Delta m c^2$, 1 u $= 1.66\\times10^{-27}$ kg corresponds to 931.5 MeV.",
+      "trick": "1 u equals 931.5 MeV — the single most memorised nuclear conversion factor."
     },
     {
       "id": "phy-nuclei-006",
@@ -77,7 +82,8 @@
       ],
       "answer": 2,
       "difficulty": "easy",
-      "explanation": "Activity halves every half-life: after 2 half-lives, $8000\\times(1/2)^2 = 2000$ dps."
+      "explanation": "Activity halves every half-life: after 2 half-lives, $8000\\times(1/2)^2 = 2000$ dps.",
+      "trick": "Activity halves every half-life, exactly like the nuclei count itself."
     },
     {
       "id": "phy-nuclei-007",
@@ -90,7 +96,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "$\\lambda = 0.693/T_{1/2}$ and $\\tau = 1/\\lambda$, so $\\tau = T_{1/2}/0.693 \\approx 1.44\\,T_{1/2}$."
+      "explanation": "$\\lambda = 0.693/T_{1/2}$ and $\\tau = 1/\\lambda$, so $\\tau = T_{1/2}/0.693 \\approx 1.44\\,T_{1/2}$.",
+      "trick": "$\\tau=T_{1/2}/0.693\\approx1.44\\,T_{1/2}$ — mean life is always a bit longer."
     },
     {
       "id": "phy-nuclei-008",
@@ -103,7 +110,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "Fission products (medium mass number) lie closer to the peak of the BE/A curve, so they are more tightly bound per nucleon than uranium; this difference in BE/A, multiplied by $A$, appears as released energy."
+      "explanation": "Fission products (medium mass number) lie closer to the peak of the BE/A curve, so they are more tightly bound per nucleon than uranium; this difference in BE/A, multiplied by $A$, appears as released energy.",
+      "trick": "Fission releases energy because products sit HIGHER on the BE/A curve."
     },
     {
       "id": "phy-nuclei-009",
@@ -116,7 +124,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "Alpha emission: $Z\\to Z-2$, $A\\to A-4$. Beta-minus emission: $Z\\to Z-1$ (mass number unchanged). Net: $A-4$, $Z-2+1 = Z-1$."
+      "explanation": "Alpha emission: $Z\\to Z-2$, $A\\to A-4$. Beta-minus emission: $Z\\to Z-1$ (mass number unchanged). Net: $A-4$, $Z-2+1 = Z-1$.",
+      "trick": "Alpha then beta: net $A-4$, $Z-1$ — combine the two shift rules in order."
     },
     {
       "id": "phy-nuclei-010",
@@ -129,7 +138,8 @@
       ],
       "answer": 3,
       "difficulty": "easy",
-      "explanation": "Since $R\\propto A^{1/3}$, volume $\\propto A$, and mass $\\propto A$, so density (mass/volume) is nearly constant, independent of $A$, for all nuclei."
+      "explanation": "Since $R\\propto A^{1/3}$, volume $\\propto A$, and mass $\\propto A$, so density (mass/volume) is nearly constant, independent of $A$, for all nuclei.",
+      "trick": "Nuclear density is constant for ALL nuclei, since $R\\propto A^{1/3}$ cancels volume against mass."
     },
     {
       "id": "phy-nuclei-011",
@@ -142,7 +152,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "$N = N_0e^{-\\lambda\\tau} = N_0e^{-1} \\approx 0.37N_0$ remain, so decayed fraction $= N_0 - 0.37N_0 = 0.63N_0$."
+      "explanation": "$N = N_0e^{-\\lambda\\tau} = N_0e^{-1} \\approx 0.37N_0$ remain, so decayed fraction $= N_0 - 0.37N_0 = 0.63N_0$.",
+      "trick": "After one mean life, about 63% has decayed ($1-1/e$), not 50%."
     },
     {
       "id": "phy-nuclei-012",
@@ -155,7 +166,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "$R \\propto A^{1/3}$; ratio $= (1/8)^{1/3} = 1/2$, i.e. 1:2."
+      "explanation": "$R \\propto A^{1/3}$; ratio $= (1/8)^{1/3} = 1/2$, i.e. 1:2.",
+      "trick": "Cube-root the mass-number ratio directly for the radius ratio — no shortcuts skipped."
     },
     {
       "id": "phy-nuclei-013",
@@ -168,7 +180,8 @@
       ],
       "answer": 2,
       "difficulty": "easy",
-      "explanation": "Mass defect $\\Delta m = Zm_p + Nm_n - M_{nucleus}$; this 'missing' mass appears as the binding energy holding the nucleus together."
+      "explanation": "Mass defect $\\Delta m = Zm_p + Nm_n - M_{nucleus}$; this 'missing' mass appears as the binding energy holding the nucleus together.",
+      "trick": "Mass defect is (sum of free nucleon masses) minus actual nucleus mass — always positive."
     },
     {
       "id": "phy-nuclei-014",
@@ -181,7 +194,8 @@
       ],
       "answer": 3,
       "difficulty": "medium",
-      "explanation": "Control rods absorb neutrons, allowing the number of neutrons causing further fission to be regulated so the chain reaction proceeds at a steady, controlled rate."
+      "explanation": "Control rods absorb neutrons, allowing the number of neutrons causing further fission to be regulated so the chain reaction proceeds at a steady, controlled rate.",
+      "trick": "Control rods are neutron absorbers, keeping the chain reaction at $k=1$."
     },
     {
       "id": "phy-nuclei-015",
@@ -194,7 +208,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "Combining light nuclei (low BE/A) into a heavier nucleus (higher BE/A, closer to the peak) releases the difference in binding energy as energy."
+      "explanation": "Combining light nuclei (low BE/A) into a heavier nucleus (higher BE/A, closer to the peak) releases the difference in binding energy as energy.",
+      "trick": "Fusion works because the combined nucleus also sits HIGHER on the BE/A curve."
     },
     {
       "id": "phy-nuclei-016",
@@ -207,7 +222,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "$T_{1/2} = 0.693/\\lambda = 0.693/0.0231 \\approx 30$ days."
+      "explanation": "$T_{1/2} = 0.693/\\lambda = 0.693/0.0231 \\approx 30$ days.",
+      "trick": "$T_{1/2}=0.693/\\lambda$ — always divide 0.693 by the given decay constant."
     },
     {
       "id": "phy-nuclei-017",
@@ -220,7 +236,8 @@
       ],
       "answer": 2,
       "difficulty": "easy",
-      "explanation": "Isotopes have the same $Z$ (proton number, hence same chemical properties) but different $N$ (neutron number), so different mass number $A$."
+      "explanation": "Isotopes have the same $Z$ (proton number, hence same chemical properties) but different $N$ (neutron number), so different mass number $A$.",
+      "trick": "Isotopes have the same protons ($Z$) but different neutrons — same chemistry, different mass."
     },
     {
       "id": "phy-nuclei-018",
@@ -233,7 +250,8 @@
       ],
       "answer": 3,
       "difficulty": "medium",
-      "explanation": "87.5% decayed means 12.5% $= 1/8$ remains $= (1/2)^3$, which takes 3 half-lives, i.e. $3T$."
+      "explanation": "87.5% decayed means 12.5% $= 1/8$ remains $= (1/2)^3$, which takes 3 half-lives, i.e. $3T$.",
+      "trick": "12.5% remaining is exactly $(1/2)^3$ — always 3 half-lives, memorise the ladder."
     },
     {
       "id": "phy-nuclei-019",
@@ -246,7 +264,8 @@
       ],
       "answer": 0,
       "difficulty": "easy",
-      "explanation": "The becquerel (Bq), defined as one disintegration per second, is the SI unit of activity; the curie is an older, non-SI unit."
+      "explanation": "The becquerel (Bq), defined as one disintegration per second, is the SI unit of activity; the curie is an older, non-SI unit.",
+      "trick": "SI activity unit is the becquerel (1 dps); the curie is the older, bigger unit."
     },
     {
       "id": "phy-nuclei-020",
@@ -259,7 +278,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "By definition, 1 curie $= 3.7\\times10^{10}$ Bq, so this activity equals exactly 1 Ci."
+      "explanation": "By definition, 1 curie $= 3.7\\times10^{10}$ Bq, so this activity equals exactly 1 Ci.",
+      "trick": "$3.7\\times10^{10}$ Bq equals 1 Ci exactly — a definition to just recall."
     },
     {
       "id": "phy-nuclei-021",
@@ -272,7 +292,8 @@
       ],
       "answer": 2,
       "difficulty": "easy",
-      "explanation": "Gamma decay is simply the emission of a high-energy photon as an excited nucleus drops to a lower energy state; no particle is ejected, so $A$ and $Z$ are both unchanged."
+      "explanation": "Gamma decay is simply the emission of a high-energy photon as an excited nucleus drops to a lower energy state; no particle is ejected, so $A$ and $Z$ are both unchanged.",
+      "trick": "Gamma decay changes NEITHER $A$ nor $Z$ — pure de-excitation, no particle lost."
     },
     {
       "id": "phy-nuclei-022",
@@ -285,7 +306,8 @@
       ],
       "answer": 3,
       "difficulty": "medium",
-      "explanation": "Mass number drops by $238-206=32$, requiring $32/4=8$ alpha particles, which alone would drop $Z$ by 16 (to 76). To reach $Z=82$, 6 beta particles (each raising $Z$ by 1) are also needed."
+      "explanation": "Mass number drops by $238-206=32$, requiring $32/4=8$ alpha particles, which alone would drop $Z$ by 16 (to 76). To reach $Z=82$, 6 beta particles (each raising $Z$ by 1) are also needed.",
+      "trick": "Decay chain: alphas equal $\\Delta A/4$ first, then betas fix the remaining $\\Delta Z$."
     },
     {
       "id": "phy-nuclei-023",
@@ -298,7 +320,8 @@
       ],
       "answer": 0,
       "difficulty": "hard",
-      "explanation": "$\\Delta m = (1.007825+1.008665)-2.014102 = 0.002388$ u; $BE = 0.002388\\times931.5 \\approx 2.2$ MeV."
+      "explanation": "$\\Delta m = (1.007825+1.008665)-2.014102 = 0.002388$ u; $BE = 0.002388\\times931.5 \\approx 2.2$ MeV.",
+      "trick": "Deuteron binding energy is a classic ~2.2 MeV — compute $\\Delta m\\times931.5$."
     },
     {
       "id": "phy-nuclei-024",
@@ -311,7 +334,8 @@
       ],
       "answer": 1,
       "difficulty": "easy",
-      "explanation": "The nuclear (strong) force acts only over very short distances (a few fm), is much stronger than the Coulomb force at those distances, and acts equally between proton-proton, neutron-neutron, and proton-neutron pairs (charge-independent)."
+      "explanation": "The nuclear (strong) force acts only over very short distances (a few fm), is much stronger than the Coulomb force at those distances, and acts equally between proton-proton, neutron-neutron, and proton-neutron pairs (charge-independent).",
+      "trick": "Nuclear force: short-range, very strong, and charge-independent — memorise all three traits."
     },
     {
       "id": "phy-nuclei-025",
@@ -324,7 +348,8 @@
       ],
       "answer": 1,
       "difficulty": "easy",
-      "explanation": "Isobars share the same mass number $A$ but differ in atomic number $Z$ (and hence in the number of protons and neutrons); this is distinct from isotopes, which share the same $Z$."
+      "explanation": "Isobars share the same mass number $A$ but differ in atomic number $Z$ (and hence in the number of protons and neutrons); this is distinct from isotopes, which share the same $Z$.",
+      "trick": "Isobars share mass number $A$, NOT atomic number — opposite of isotopes."
     },
     {
       "id": "phy-nuclei-026",
@@ -337,7 +362,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "$N/N_0 = e^{-t/\\tau} = e^{-2} \\approx 0.135$, i.e. about 13.5% remains."
+      "explanation": "$N/N_0 = e^{-t/\\tau} = e^{-2} \\approx 0.135$, i.e. about 13.5% remains.",
+      "trick": "$t=2\\tau$ gives $N/N_0=e^{-2}\\approx13.5\\%$ — memorise this exponential value."
     },
     {
       "id": "phy-nuclei-027",
@@ -350,7 +376,8 @@
       ],
       "answer": 3,
       "difficulty": "easy",
-      "explanation": "Fission of one uranium-235 nucleus typically releases about 200 MeV of energy, most of it as kinetic energy of the fission fragments."
+      "explanation": "Fission of one uranium-235 nucleus typically releases about 200 MeV of energy, most of it as kinetic energy of the fission fragments.",
+      "trick": "U-235 fission releases about 200 MeV per nucleus — a number worth memorising."
     },
     {
       "id": "phy-nuclei-028",
@@ -363,7 +390,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "Alpha particles are stopped by paper/skin, beta particles need a few mm of aluminium, while gamma rays require thick lead or concrete; so penetrating power increases as alpha < beta < gamma."
+      "explanation": "Alpha particles are stopped by paper/skin, beta particles need a few mm of aluminium, while gamma rays require thick lead or concrete; so penetrating power increases as alpha < beta < gamma.",
+      "trick": "Penetrating power: alpha (paper) less than beta (Al foil) less than gamma (thick lead)."
     },
     {
       "id": "phy-nuclei-029",
@@ -376,7 +404,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "Alpha particles, being heavy and doubly charged, ionise matter most strongly over a short path; gamma rays, being uncharged and highly penetrating, ionise the least per unit path length. Order: alpha > beta > gamma."
+      "explanation": "Alpha particles, being heavy and doubly charged, ionise matter most strongly over a short path; gamma rays, being uncharged and highly penetrating, ionise the least per unit path length. Order: alpha > beta > gamma.",
+      "trick": "Ionising power is the REVERSE of penetrating power: alpha greater than beta greater than gamma."
     },
     {
       "id": "phy-nuclei-030",
@@ -389,7 +418,8 @@
       ],
       "answer": 3,
       "difficulty": "medium",
-      "explanation": "$N/N_0 = e^{-\\lambda t} = e^{-2} \\Rightarrow \\lambda t = 2$."
+      "explanation": "$N/N_0 = e^{-\\lambda t} = e^{-2} \\Rightarrow \\lambda t = 2$.",
+      "trick": "Directly equate exponents: $N/N_0=e^{-\\lambda t}$, so $\\lambda t=2$ matches $e^{-2}$."
     },
     {
       "id": "phy-nuclei-031",
@@ -402,7 +432,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "Half-life $T_{1/2} = 0.693/\\lambda$ depends only on the decay constant, a fixed property of the particular nuclide, and is unaffected by the quantity present or by external physical/chemical conditions."
+      "explanation": "Half-life $T_{1/2} = 0.693/\\lambda$ depends only on the decay constant, a fixed property of the particular nuclide, and is unaffected by the quantity present or by external physical/chemical conditions.",
+      "trick": "Half-life depends ONLY on the nuclide itself — never on temperature or amount present."
     },
     {
       "id": "phy-nuclei-032",
@@ -415,7 +446,8 @@
       ],
       "answer": 0,
       "difficulty": "easy",
-      "explanation": "From $N=N_0e^{-\\lambda t}$, the exponent must be dimensionless, so $\\lambda$ has units of inverse time, i.e. $s^{-1}$."
+      "explanation": "From $N=N_0e^{-\\lambda t}$, the exponent must be dimensionless, so $\\lambda$ has units of inverse time, i.e. $s^{-1}$.",
+      "trick": "The decay exponent must be dimensionless, so $\\lambda$ always has units of $s^{-1}$."
     },
     {
       "id": "phy-nuclei-033",
@@ -428,7 +460,8 @@
       ],
       "answer": 3,
       "difficulty": "hard",
-      "explanation": "In time $2T$, sample A completes 2 half-lives, so $N_A = N_0/4$; sample B completes 1 half-life, so $N_B = N_0/2$. Ratio $N_A:N_B = (1/4):(1/2) = 1:2$."
+      "explanation": "In time $2T$, sample A completes 2 half-lives, so $N_A = N_0/4$; sample B completes 1 half-life, so $N_B = N_0/2$. Ratio $N_A:N_B = (1/4):(1/2) = 1:2$.",
+      "trick": "Compute each sample's remaining fraction separately from ITS OWN half-life, then take the ratio."
     },
     {
       "id": "phy-nuclei-034",
@@ -441,7 +474,8 @@
       ],
       "answer": 0,
       "difficulty": "easy",
-      "explanation": "Fission is the splitting of a heavy nucleus (e.g. uranium-235) into two medium-mass fragments, releasing a large amount of energy along with a few neutrons."
+      "explanation": "Fission is the splitting of a heavy nucleus (e.g. uranium-235) into two medium-mass fragments, releasing a large amount of energy along with a few neutrons.",
+      "trick": "Fission is one heavy nucleus splitting into two lighter ones plus energy."
     },
     {
       "id": "phy-nuclei-035",
@@ -454,7 +488,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "Two positively charged nuclei repel each other electrostatically; only at extremely high temperatures do they gain enough kinetic energy to overcome this repulsion and approach close enough (about a few fm) for the short-range nuclear force to bind them."
+      "explanation": "Two positively charged nuclei repel each other electrostatically; only at extremely high temperatures do they gain enough kinetic energy to overcome this repulsion and approach close enough (about a few fm) for the short-range nuclear force to bind them.",
+      "trick": "High temperature in fusion is just to beat Coulomb repulsion, not for anything else."
     },
     {
       "id": "phy-nuclei-036",
@@ -467,7 +502,8 @@
       ],
       "answer": 1,
       "difficulty": "hard",
-      "explanation": "Total binding energy before $\\approx 240\\times7.6 = 1824$ MeV; after $\\approx 240\\times8.5 = 2040$ MeV. Energy released $\\approx 2040-1824 = 216$ MeV."
+      "explanation": "Total binding energy before $\\approx 240\\times7.6 = 1824$ MeV; after $\\approx 240\\times8.5 = 2040$ MeV. Energy released $\\approx 2040-1824 = 216$ MeV.",
+      "trick": "Fission energy equals (total BE after) minus (total BE before), using $BE/A\\times A$."
     },
     {
       "id": "phy-nuclei-037",
@@ -480,7 +516,8 @@
       ],
       "answer": 3,
       "difficulty": "medium",
-      "explanation": "When $k=1$ (critical), the number of neutrons causing fission in successive generations stays constant, sustaining a steady chain reaction; $k<1$ is subcritical (reaction dies out) and $k>1$ is supercritical (reaction grows uncontrollably)."
+      "explanation": "When $k=1$ (critical), the number of neutrons causing fission in successive generations stays constant, sustaining a steady chain reaction; $k<1$ is subcritical (reaction dies out) and $k>1$ is supercritical (reaction grows uncontrollably).",
+      "trick": "Chain reaction: $k=1$ steady, $k<1$ dies out, $k>1$ runs away — memorise all three."
     },
     {
       "id": "phy-nuclei-038",
@@ -493,7 +530,8 @@
       ],
       "answer": 2,
       "difficulty": "easy",
-      "explanation": "Radioactive decay is a spontaneous, random nuclear process; the decay constant is unaffected by temperature, pressure, or the chemical environment of the atom."
+      "explanation": "Radioactive decay is a spontaneous, random nuclear process; the decay constant is unaffected by temperature, pressure, or the chemical environment of the atom.",
+      "trick": "Radioactive decay is purely statistical — temperature, pressure, chemistry never matter."
     },
     {
       "id": "phy-nuclei-039",
@@ -506,7 +544,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "Total binding energy $= 0.0304\\times931.5 \\approx 28.3$ MeV; per nucleon (A=4), $BE/A \\approx 28.3/4 \\approx 7.1$ MeV."
+      "explanation": "Total binding energy $= 0.0304\\times931.5 \\approx 28.3$ MeV; per nucleon (A=4), $BE/A \\approx 28.3/4 \\approx 7.1$ MeV.",
+      "trick": "$BE/A=(\\Delta m\\times931.5)/A$ — compute total BE first, then divide by mass number."
     },
     {
       "id": "phy-nuclei-040",
@@ -519,7 +558,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "In every nuclear reaction, the total mass number (nucleon number) and total charge (sum of atomic numbers) on both sides must balance, even though total rest mass and kinetic energy can be interconverted."
+      "explanation": "In every nuclear reaction, the total mass number (nucleon number) and total charge (sum of atomic numbers) on both sides must balance, even though total rest mass and kinetic energy can be interconverted.",
+      "trick": "Nuclear reactions always conserve $A$ and $Z$ — mass and energy can still interconvert."
     }
   ]
 }

@@ -12,7 +12,8 @@
       ],
       "answer": 1,
       "difficulty": "easy",
-      "explanation": "$P(A|B) = 0.2/0.5 = 0.4$. (Note $P(A|B) = P(A)$, so $A$ and $B$ are independent.)"
+      "explanation": "$P(A|B) = 0.2/0.5 = 0.4$. (Note $P(A|B) = P(A)$, so $A$ and $B$ are independent.)",
+      "trick": "$P(A|B)=P(A\\cap B)/P(B)$ — divide intersection by the given event's probability."
     },
     {
       "id": "mat-probability-2-002",
@@ -25,7 +26,8 @@
       ],
       "answer": 0,
       "difficulty": "easy",
-      "explanation": "$P(A\\cup B) = 0.3 + 0.4 - (0.3)(0.4) = 0.58$."
+      "explanation": "$P(A\\cup B) = 0.3 + 0.4 - (0.3)(0.4) = 0.58$.",
+      "trick": "Independent $\\Rightarrow P(A\\cup B)=P(A)+P(B)-P(A)P(B)$, not just the sum."
     },
     {
       "id": "mat-probability-2-003",
@@ -38,7 +40,8 @@
       ],
       "answer": 3,
       "difficulty": "medium",
-      "explanation": "$P(\\text{II}|R) = \\dfrac{\\tfrac12\\cdot\\tfrac5{11}}{\\tfrac12\\cdot\\tfrac37 + \\tfrac12\\cdot\\tfrac5{11}} = \\dfrac{5/11}{(33 + 35)/77} = \\dfrac{5}{11}\\times\\dfrac{77}{68} = \\dfrac{35}{68}$."
+      "explanation": "$P(\\text{II}|R) = \\dfrac{\\tfrac12\\cdot\\tfrac5{11}}{\\tfrac12\\cdot\\tfrac37 + \\tfrac12\\cdot\\tfrac5{11}} = \\dfrac{5/11}{(33 + 35)/77} = \\dfrac{5}{11}\\times\\dfrac{77}{68} = \\dfrac{35}{68}$.",
+      "trick": "Bayes: (prior$\\times$likelihood for II) over (sum across all bags of prior$\\times$likelihood)."
     },
     {
       "id": "mat-probability-2-004",
@@ -51,7 +54,8 @@
       ],
       "answer": 2,
       "difficulty": "easy",
-      "explanation": "${}^5C_3\\left(\\tfrac12\\right)^5 = \\dfrac{10}{32} = \\dfrac{5}{16}$."
+      "explanation": "${}^5C_3\\left(\\tfrac12\\right)^5 = \\dfrac{10}{32} = \\dfrac{5}{16}$.",
+      "trick": "Binomial: $P(X{=}r)={}^nC_rp^rq^{n-r}$ — plug in $n,r$ and $p=q=1/2$ for coins."
     },
     {
       "id": "mat-probability-2-005",
@@ -64,7 +68,8 @@
       ],
       "answer": 3,
       "difficulty": "easy",
-      "explanation": "Mean $= np = 3$; variance $= npq = 10\\times0.3\\times0.7 = 2.1$."
+      "explanation": "Mean $= np = 3$; variance $= npq = 10\\times0.3\\times0.7 = 2.1$.",
+      "trick": "Mean$=np$, variance$=npq$ — variance is always less than the mean."
     },
     {
       "id": "mat-probability-2-006",
@@ -77,7 +82,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "$k(1+2+3) = 1 \\Rightarrow k = \\tfrac16$. $E(X) = \\tfrac16(1 + 4 + 9) = \\tfrac{14}{6} = \\tfrac73$."
+      "explanation": "$k(1+2+3) = 1 \\Rightarrow k = \\tfrac16$. $E(X) = \\tfrac16(1 + 4 + 9) = \\tfrac{14}{6} = \\tfrac73$.",
+      "trick": "Sum of all probabilities $=1$ gives $k$; then $E(X)=\\sum x_ip_i$."
     },
     {
       "id": "mat-probability-2-007",
@@ -90,7 +96,8 @@
       ],
       "answer": 2,
       "difficulty": "easy",
-      "explanation": "Given the first die is 4, the second must be 3: probability $1/6$."
+      "explanation": "Given the first die is 4, the second must be 3: probability $1/6$.",
+      "trick": "Given the first die's value, only the second die is uncertain — probability is $1/6$."
     },
     {
       "id": "mat-probability-2-008",
@@ -103,7 +110,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "$P(A) + P(B) = P(A\\cup B) + P(A\\cap B) = 0.8$; so $P(A') + P(B') = 2 - 0.8 = 1.2$."
+      "explanation": "$P(A) + P(B) = P(A\\cup B) + P(A\\cap B) = 0.8$; so $P(A') + P(B') = 2 - 0.8 = 1.2$.",
+      "trick": "$P(A')+P(B')=2-[P(A)+P(B)]$, and $P(A)+P(B)=P(A\\cup B)+P(A\\cap B)$."
     },
     {
       "id": "mat-probability-2-009",
@@ -116,7 +124,8 @@
       ],
       "answer": 3,
       "difficulty": "easy",
-      "explanation": "12 face cards, of which 4 are kings: $4/12 = 1/3$."
+      "explanation": "12 face cards, of which 4 are kings: $4/12 = 1/3$.",
+      "trick": "Among 12 face cards, exactly 4 are kings — ratio $4/12$."
     },
     {
       "id": "mat-probability-2-010",
@@ -129,7 +138,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "$P = P(A_T)P(B_F) + P(A_F)P(B_T) = \\tfrac45\\cdot\\tfrac14 + \\tfrac15\\cdot\\tfrac34 = \\tfrac{4 + 3}{20} = \\tfrac7{20}$."
+      "explanation": "$P = P(A_T)P(B_F) + P(A_F)P(B_T) = \\tfrac45\\cdot\\tfrac14 + \\tfrac15\\cdot\\tfrac34 = \\tfrac{4 + 3}{20} = \\tfrac7{20}$.",
+      "trick": "Contradiction $=$ (A true, B false) $+$ (A false, B true) — add the two products."
     },
     {
       "id": "mat-probability-2-011",
@@ -143,7 +153,8 @@
       "answer": 0,
       "difficulty": "medium",
       "explanation": "Mutually exclusive would need $P(A\\cup B) = 1.1 > 1$, impossible. Independence is not forced; $P(A\\cap B) = 0.3$ only if independent.",
-      "tip": "$P(A\\cap B) \\ge P(A) + P(B) - 1 = 0.1$ always."
+      "tip": "$P(A\\cap B) \\ge P(A) + P(B) - 1 = 0.1$ always.",
+      "trick": "Check mutual exclusivity via $P(A\\cup B)\\le1$; if it forces $>1$, it's impossible."
     },
     {
       "id": "mat-probability-2-012",
@@ -156,7 +167,8 @@
       ],
       "answer": 1,
       "difficulty": "easy",
-      "explanation": "$A', B'$ are also independent: $P(A')P(B') = \\tfrac23\\cdot\\tfrac34 = \\tfrac12$."
+      "explanation": "$A', B'$ are also independent: $P(A')P(B') = \\tfrac23\\cdot\\tfrac34 = \\tfrac12$.",
+      "trick": "If $A,B$ independent, so are $A',B'$ — just multiply $P(A')\\cdot P(B')$."
     },
     {
       "id": "mat-probability-2-013",
@@ -169,7 +181,8 @@
       ],
       "answer": 3,
       "difficulty": "medium",
-      "explanation": "$npq = 3$, $np = 4 \\Rightarrow q = \\tfrac34$, $p = \\tfrac14$, $n = 4/p = 16$."
+      "explanation": "$npq = 3$, $np = 4 \\Rightarrow q = \\tfrac34$, $p = \\tfrac14$, $n = 4/p = 16$.",
+      "trick": "$q=\\text{variance}/\\text{mean}$, then $p=1-q$, then $n=\\text{mean}/p$."
     },
     {
       "id": "mat-probability-2-014",
@@ -182,7 +195,8 @@
       ],
       "answer": 0,
       "difficulty": "easy",
-      "explanation": "Outcomes with 2 or 3 heads: 3 + 1 = 4 of 8."
+      "explanation": "Outcomes with 2 or 3 heads: 3 + 1 = 4 of 8.",
+      "trick": "List all 8 outcomes of 3 coins; count those with at least 2 heads."
     },
     {
       "id": "mat-probability-2-015",
@@ -195,7 +209,8 @@
       ],
       "answer": 1,
       "difficulty": "hard",
-      "explanation": "At least one 6: 11 outcomes. Among them sum 9: (6,3) and (3,6) → $2/11$."
+      "explanation": "At least one 6: 11 outcomes. Among them sum 9: (6,3) and (3,6) → $2/11$.",
+      "trick": "A condition narrows the sample space — count only outcomes meeting it, then find matches."
     },
     {
       "id": "mat-probability-2-016",
@@ -208,7 +223,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "$\\mu = 0.5 + 0.6 = 1.1$; $E(X^2) = 0.5 + 1.2 = 1.7$; variance $= 1.7 - 1.21 = 0.49$."
+      "explanation": "$\\mu = 0.5 + 0.6 = 1.1$; $E(X^2) = 0.5 + 1.2 = 1.7$; variance $= 1.7 - 1.21 = 0.49$.",
+      "trick": "Variance $=E(X^2)-[E(X)]^2$ — always compute both moments first."
     },
     {
       "id": "mat-probability-2-017",
@@ -221,7 +237,8 @@
       ],
       "answer": 0,
       "difficulty": "easy",
-      "explanation": "For independent events, $P(A\\cap B)=P(A)P(B)=0.6\\times0.3=0.18$."
+      "explanation": "For independent events, $P(A\\cap B)=P(A)P(B)=0.6\\times0.3=0.18$.",
+      "trick": "Independent $\\Rightarrow$ multiply $P(A)$ and $P(B)$ directly for the intersection."
     },
     {
       "id": "mat-probability-2-018",
@@ -234,7 +251,8 @@
       ],
       "answer": 1,
       "difficulty": "easy",
-      "explanation": "For mutually exclusive events, $P(A\\cup B)=P(A)+P(B)=0.3+0.4=0.7$."
+      "explanation": "For mutually exclusive events, $P(A\\cup B)=P(A)+P(B)=0.3+0.4=0.7$.",
+      "trick": "Mutually exclusive $\\Rightarrow$ just add $P(A)+P(B)$, no subtraction needed."
     },
     {
       "id": "mat-probability-2-019",
@@ -247,7 +265,8 @@
       ],
       "answer": 2,
       "difficulty": "easy",
-      "explanation": "There are 12 face cards, of which 6 (hearts and diamonds) are red: $6/12=1/2$."
+      "explanation": "There are 12 face cards, of which 6 (hearts and diamonds) are red: $6/12=1/2$.",
+      "trick": "Half of all face cards are red (hearts $+$ diamonds) — ratio $6/12$."
     },
     {
       "id": "mat-probability-2-020",
@@ -260,7 +279,8 @@
       ],
       "answer": 3,
       "difficulty": "easy",
-      "explanation": "Outcomes with exactly one head: HTT, THT, TTH — 3 of 8, so $P=3/8$."
+      "explanation": "Outcomes with exactly one head: HTT, THT, TTH — 3 of 8, so $P=3/8$.",
+      "trick": "Exactly one head in 3 tosses: ${}^3C_1$ out of $2^3=8$ outcomes."
     },
     {
       "id": "mat-probability-2-021",
@@ -273,7 +293,8 @@
       ],
       "answer": 2,
       "difficulty": "easy",
-      "explanation": "Mean $=np=8\\times0.5=4$."
+      "explanation": "Mean $=np=8\\times0.5=4$.",
+      "trick": "Mean of binomial $=np$ — direct formula, no need for the full distribution."
     },
     {
       "id": "mat-probability-2-022",
@@ -286,7 +307,8 @@
       ],
       "answer": 1,
       "difficulty": "easy",
-      "explanation": "By definition, $P(A|B)=P(A)$ means knowing $B$ does not change the probability of $A$, i.e. $A$ and $B$ are independent."
+      "explanation": "By definition, $P(A|B)=P(A)$ means knowing $B$ does not change the probability of $A$, i.e. $A$ and $B$ are independent.",
+      "trick": "$P(A|B)=P(A)$ is literally the definition of independence."
     },
     {
       "id": "mat-probability-2-023",
@@ -299,7 +321,8 @@
       ],
       "answer": 3,
       "difficulty": "easy",
-      "explanation": "Given even, the sample space is $\\{2,4,6\\}$; the probability of getting 4 is $1/3$."
+      "explanation": "Given even, the sample space is $\\{2,4,6\\}$; the probability of getting 4 is $1/3$.",
+      "trick": "Given even, the reduced sample space is $\\{2,4,6\\}$ — pick the target from 3."
     },
     {
       "id": "mat-probability-2-024",
@@ -312,7 +335,8 @@
       ],
       "answer": 0,
       "difficulty": "easy",
-      "explanation": "Since $P(A\\cap B)\\le P(A)=0$, we get $P(A|B)=P(A\\cap B)/P(B)=0$."
+      "explanation": "Since $P(A\\cap B)\\le P(A)=0$, we get $P(A|B)=P(A\\cap B)/P(B)=0$.",
+      "trick": "If $P(A)=0$, then $P(A\\cap B)=0$ too, so $P(A|B)=0$ regardless of $B$."
     },
     {
       "id": "mat-probability-2-025",
@@ -325,7 +349,8 @@
       ],
       "answer": 3,
       "difficulty": "medium",
-      "explanation": "$P=\\dfrac{6}{10}\\times\\dfrac{5}{9}=\\dfrac{30}{90}=\\dfrac13$."
+      "explanation": "$P=\\dfrac{6}{10}\\times\\dfrac{5}{9}=\\dfrac{30}{90}=\\dfrac13$.",
+      "trick": "Without replacement: multiply successive fractions, denominator shrinks by 1 each draw."
     },
     {
       "id": "mat-probability-2-026",
@@ -338,7 +363,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "$P=2(0.6)(0.4)=0.48$."
+      "explanation": "$P=2(0.6)(0.4)=0.48$.",
+      "trick": "Exactly one head in 2 tosses: $2p(1-p)$, not $p^2$."
     },
     {
       "id": "mat-probability-2-027",
@@ -351,7 +377,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "$P(\\text{red})=\\tfrac12\\cdot\\tfrac25+\\tfrac12\\cdot\\tfrac45=\\tfrac15+\\tfrac25=\\tfrac35$. $P(\\text{I}|\\text{red})=\\dfrac{1/5}{3/5}=\\dfrac13$."
+      "explanation": "$P(\\text{red})=\\tfrac12\\cdot\\tfrac25+\\tfrac12\\cdot\\tfrac45=\\tfrac15+\\tfrac25=\\tfrac35$. $P(\\text{I}|\\text{red})=\\dfrac{1/5}{3/5}=\\dfrac13$.",
+      "trick": "Bayes: compute $P(\\text{red})$ via total probability first, then invert for the specific bag."
     },
     {
       "id": "mat-probability-2-028",
@@ -364,7 +391,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "$E(X)=(-1)(0.3)+0(0.4)+1(0.3)=-0.3+0.3=0$."
+      "explanation": "$E(X)=(-1)(0.3)+0(0.4)+1(0.3)=-0.3+0.3=0$.",
+      "trick": "Symmetric distribution around 0 $\\Rightarrow E(X)=0$ by symmetry, skip the computation."
     },
     {
       "id": "mat-probability-2-029",
@@ -377,7 +405,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "Sums of 10, 11, 12 occur in $3+2+1=6$ of the 36 outcomes, giving $6/36=1/6$."
+      "explanation": "Sums of 10, 11, 12 occur in $3+2+1=6$ of the 36 outcomes, giving $6/36=1/6$.",
+      "trick": "Count favourable outcomes for sums 10, 11, 12 (3+2+1=6) out of 36."
     },
     {
       "id": "mat-probability-2-030",
@@ -390,7 +419,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "$P(A)P(B)=0.5\\times0.3=0.15=P(A\\cap B)$, so $A$ and $B$ are independent."
+      "explanation": "$P(A)P(B)=0.5\\times0.3=0.15=P(A\\cap B)$, so $A$ and $B$ are independent.",
+      "trick": "Verify independence by checking if $P(A\\cap B)$ equals $P(A)\\times P(B)$ exactly."
     },
     {
       "id": "mat-probability-2-031",
@@ -403,7 +433,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "$P(\\text{defective})=0.6(0.02)+0.4(0.03)=0.012+0.012=0.024$."
+      "explanation": "$P(\\text{defective})=0.6(0.02)+0.4(0.03)=0.012+0.012=0.024$.",
+      "trick": "Total probability: weight each machine's defect rate by its production share, then sum."
     },
     {
       "id": "mat-probability-2-032",
@@ -416,7 +447,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "$P(X=0)={}^6C_0\\left(\\tfrac13\\right)^0\\left(\\tfrac23\\right)^6=\\left(\\tfrac23\\right)^6=\\dfrac{64}{729}$."
+      "explanation": "$P(X=0)={}^6C_0\\left(\\tfrac13\\right)^0\\left(\\tfrac23\\right)^6=\\left(\\tfrac23\\right)^6=\\dfrac{64}{729}$.",
+      "trick": "$P(X{=}0)$ for a binomial is just $q^n$ — no combinations needed."
     },
     {
       "id": "mat-probability-2-033",
@@ -429,7 +461,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "Sum is even in 18 of 36 outcomes; among these, the 6 'doubles' outcomes (all of which have even sum) give both dice equal, so $P=6/18=1/3$."
+      "explanation": "Sum is even in 18 of 36 outcomes; among these, the 6 'doubles' outcomes (all of which have even sum) give both dice equal, so $P=6/18=1/3$.",
+      "trick": "Given sum even, doubles automatically qualify — count them among the even-sum outcomes."
     },
     {
       "id": "mat-probability-2-034",
@@ -442,7 +475,8 @@
       ],
       "answer": 3,
       "difficulty": "medium",
-      "explanation": "$P(A)=0.6(0.05)+0.4(0.10)=0.03+0.04=0.07$. $P(\\text{girl}|A)=\\dfrac{0.04}{0.07}=\\dfrac47$."
+      "explanation": "$P(A)=0.6(0.05)+0.4(0.10)=0.03+0.04=0.07$. $P(\\text{girl}|A)=\\dfrac{0.04}{0.07}=\\dfrac47$.",
+      "trick": "Bayes: numerator is (group's prior $\\times$ its rate); denominator sums both groups."
     },
     {
       "id": "mat-probability-2-035",
@@ -455,7 +489,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "$E(X)=0.5+0.5=1$; $E(X^2)=0.5+1=1.5$; variance $=1.5-1^2=0.5$."
+      "explanation": "$E(X)=0.5+0.5=1$; $E(X^2)=0.5+1=1.5$; variance $=1.5-1^2=0.5$.",
+      "trick": "Symmetric distribution: still compute $E(X^2)-[E(X)]^2$, don't skip the calculation."
     },
     {
       "id": "mat-probability-2-036",
@@ -468,7 +503,8 @@
       ],
       "answer": 0,
       "difficulty": "hard",
-      "explanation": "$P(W)=\\tfrac13\\left(\\tfrac35+\\tfrac13+\\tfrac56\\right)=\\tfrac13\\cdot\\tfrac{53}{30}=\\tfrac{53}{90}$. $P(A|W)=\\dfrac{\\tfrac13\\cdot\\tfrac35}{\\tfrac{53}{90}}=\\dfrac{1/5}{53/90}=\\dfrac{18}{53}$."
+      "explanation": "$P(W)=\\tfrac13\\left(\\tfrac35+\\tfrac13+\\tfrac56\\right)=\\tfrac13\\cdot\\tfrac{53}{30}=\\tfrac{53}{90}$. $P(A|W)=\\dfrac{\\tfrac13\\cdot\\tfrac35}{\\tfrac{53}{90}}=\\dfrac{1/5}{53/90}=\\dfrac{18}{53}$.",
+      "trick": "Three-source Bayes: weight each urn equally, sum all white-ball likelihoods for the denominator."
     },
     {
       "id": "mat-probability-2-037",
@@ -481,7 +517,8 @@
       ],
       "answer": 3,
       "difficulty": "hard",
-      "explanation": "$P(X\\ge4)={}^5C_4\\left(\\tfrac12\\right)^5+{}^5C_5\\left(\\tfrac12\\right)^5=\\dfrac{5+1}{32}=\\dfrac{6}{32}=\\dfrac{3}{16}$."
+      "explanation": "$P(X\\ge4)={}^5C_4\\left(\\tfrac12\\right)^5+{}^5C_5\\left(\\tfrac12\\right)^5=\\dfrac{5+1}{32}=\\dfrac{6}{32}=\\dfrac{3}{16}$.",
+      "trick": "At least 4 heads: sum only $P(X{=}4)$ and $P(X{=}5)$, two terms."
     },
     {
       "id": "mat-probability-2-038",
@@ -494,7 +531,8 @@
       ],
       "answer": 1,
       "difficulty": "hard",
-      "explanation": "$P(\\text{none})=(0.7)(0.6)(0.2)=0.084$, so $P(\\text{at least one})=1-0.084=0.916$."
+      "explanation": "$P(\\text{none})=(0.7)(0.6)(0.2)=0.084$, so $P(\\text{at least one})=1-0.084=0.916$.",
+      "trick": "At least one of several independents: $1-$ product of all 'none' probabilities."
     },
     {
       "id": "mat-probability-2-039",
@@ -507,7 +545,8 @@
       ],
       "answer": 0,
       "difficulty": "hard",
-      "explanation": "$P(X=2)={}^4C_2(0.1)^2(0.9)^2=6(0.01)(0.81)=0.0486$."
+      "explanation": "$P(X=2)={}^4C_2(0.1)^2(0.9)^2=6(0.01)(0.81)=0.0486$.",
+      "trick": "Binomial with small $n$: plug straight into ${}^nC_rp^rq^{n-r}$, no shortcuts needed."
     },
     {
       "id": "mat-probability-2-040",
@@ -520,7 +559,8 @@
       ],
       "answer": 2,
       "difficulty": "hard",
-      "explanation": "$10k=1\\Rightarrow k=0.1$. $E(X)=3$, $E(X^2)=10$, so variance $=10-9=1$."
+      "explanation": "$10k=1\\Rightarrow k=0.1$. $E(X)=3$, $E(X^2)=10$, so variance $=10-9=1$.",
+      "trick": "Sum of $k$-multiples $=1$ gives $k$; then variance is $E(X^2)-[E(X)]^2$ as usual."
     }
   ]
 }

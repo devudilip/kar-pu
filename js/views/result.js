@@ -54,7 +54,7 @@ export default async function result([id]) {
         <div class="row spread muted"><span>Q${i + 1} · ${status === 'right' ? '✅ Correct' : status === 'wrong' ? '❌ Wrong' : '⚪ Skipped'}</span><button class="btn small ghost bm" data-q="${q.id}">${store.isBookmarked(q.id) ? '★ Saved' : '☆ Save'}</button></div>
         <div class="question">${q.q}</div>
         <div class="options">${q.options.map((o, j) => optionButton(o, j, (j === it.correct || (it.also || []).includes(j)) ? 'correct' : j === it.chosen ? 'wrong' : '', true)).join('')}</div>
-        <div class="explain"><b>Answer: ${LETTERS[it.correct]}${(it.also || []).length ? ' (KEA also accepted ' + it.also.map((j) => LETTERS[j]).join(', ') + ')' : ''}${q.grace ? ' · KEA awarded grace marks (any answer counted)' : ''}</b>${q.explanation ? `<div>${q.explanation}</div>` : ''}${q.disputed ? `<div class="muted" style="margin-top:6px">⚠️ Official key is disputed: ${esc(q.note || '')}</div>` : ''}</div>
+        <div class="explain"><b>Answer: ${LETTERS[it.correct]}${(it.also || []).length ? ' (KEA also accepted ' + it.also.map((j) => LETTERS[j]).join(', ') + ')' : ''}${q.grace ? ' · KEA awarded grace marks (any answer counted)' : ''}</b>${q.trick ? `<div class="trick">⚡ ${q.trick}</div>` : ''}${q.explanation ? (q.trick ? `<details ${status === 'wrong' ? 'open' : ''}><summary class="muted">Full working</summary><div>${q.explanation}</div></details>` : `<div>${q.explanation}</div>`) : ''}${q.disputed ? `<div class="muted" style="margin-top:6px">⚠️ Official key is disputed: ${esc(q.note || '')}</div>` : ''}</div>
         ${status === 'wrong' ? reasonChips(q.id) : ''}
         <div style="margin-top:6px">${reportLink(it.qid)}</div>
       </div>`;

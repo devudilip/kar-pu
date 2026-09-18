@@ -20,7 +20,7 @@ export default async function progress() {
   const top = Object.entries(rs).sort((a, b) => b[1] - a[1])[0];
 
   const node = el(`<div>
-    <h1>Progress</h1>
+    <div class="row spread"><h1>Progress</h1><a class="btn small secondary" href="#/report">Weekly report</a></div>
     <div class="grid three">${perSub.map((s) => `<div class="card"><b>${s.name}</b><div class="muted">${s.att}/${s.tot} attempted · ${s.att ? Math.round(100 * s.cor / s.att) : 0}% correct</div>${bar(s.tot ? 100 * s.att / s.tot : 0, `var(--${s.id === 'physics' ? 'phy' : s.id === 'chemistry' ? 'chem' : 'math'})`)}</div>`).join('')}</div>
     ${weak.length ? `<div class="card"><h3 style="margin-top:0">Weakest chapters — revise these first</h3>${weak.map((r) => `<div class="row spread"><a href="#/chapter/${r.s}/${r.slug}?tab=practice">${esc(r.title)}</a><span class="pill ${r.acc >= .7 ? 'ok' : r.acc >= .4 ? 'warn' : 'bad'}">${Math.round(100 * r.acc)}%</span></div>`).join('')}</div>` : ''}
     ${untouched.length ? `<div class="card"><h3 style="margin-top:0">High-weightage chapters not started</h3>${untouched.map((r) => `<div class="row spread"><a href="#/chapter/${r.s}/${r.slug}">${esc(r.title)}</a><span class="pill">~${r.weight} Q</span></div>`).join('')}</div>` : ''}

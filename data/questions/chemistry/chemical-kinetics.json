@@ -12,7 +12,8 @@
       ],
       "answer": 0,
       "difficulty": "easy",
-      "explanation": "Rate (mol L$^{-1}$ s$^{-1}$) $= k[A]^2$ → $k$ = L mol$^{-1}$ s$^{-1}$. General: (mol L$^{-1}$)$^{1-n}$ s$^{-1}$."
+      "explanation": "Rate (mol L$^{-1}$ s$^{-1}$) $= k[A]^2$ → $k$ = L mol$^{-1}$ s$^{-1}$. General: (mol L$^{-1}$)$^{1-n}$ s$^{-1}$.",
+      "trick": "k units = $(\\text{mol L}^{-1})^{1-n}s^{-1}$; for n=2 → L mol$^{-1}$s$^{-1}$."
     },
     {
       "id": "che-chemical-kinetics-002",
@@ -25,7 +26,8 @@
       ],
       "answer": 3,
       "difficulty": "easy",
-      "explanation": "$t_{1/2} = 0.693/k = 0.693/0.0693 = 10$ min."
+      "explanation": "$t_{1/2} = 0.693/k = 0.693/0.0693 = 10$ min.",
+      "trick": "$t_{1/2}=0.693/k$ for first order — direct plug-in."
     },
     {
       "id": "che-chemical-kinetics-003",
@@ -38,7 +40,8 @@
       ],
       "answer": 1,
       "difficulty": "easy",
-      "explanation": "100% → 50% → 25% remaining takes two half-lives."
+      "explanation": "100% → 50% → 25% remaining takes two half-lives.",
+      "trick": "75% done = 25% left = $(1/2)^2$ → exactly 2 half-lives."
     },
     {
       "id": "che-chemical-kinetics-004",
@@ -51,7 +54,8 @@
       ],
       "answer": 2,
       "difficulty": "easy",
-      "explanation": "$2^2\\times2 = 8$ times."
+      "explanation": "$2^2\\times2 = 8$ times.",
+      "trick": "Multiply exponents: doubling both A(²) and B(¹) → $2^2\\times2^1=8$."
     },
     {
       "id": "che-chemical-kinetics-005",
@@ -64,7 +68,8 @@
       ],
       "answer": 2,
       "difficulty": "easy",
-      "explanation": "$t_{1/2} = [A]_0/2k$ for zero order."
+      "explanation": "$t_{1/2} = [A]_0/2k$ for zero order.",
+      "trick": "Zero order: $t_{1/2}=[A]_0/2k$ — proportional to initial conc."
     },
     {
       "id": "che-chemical-kinetics-006",
@@ -77,7 +82,8 @@
       ],
       "answer": 0,
       "difficulty": "easy",
-      "explanation": "$\\ln k = \\ln A - \\dfrac{E_a}{R}\\cdot\\dfrac1T$. (For $\\log k$ vs $1/T$ the slope is $-E_a/2.303R$.)"
+      "explanation": "$\\ln k = \\ln A - \\dfrac{E_a}{R}\\cdot\\dfrac1T$. (For $\\log k$ vs $1/T$ the slope is $-E_a/2.303R$.)",
+      "trick": "Arrhenius plot ($\\ln k$ vs 1/T): slope $=-E_a/R$."
     },
     {
       "id": "che-chemical-kinetics-007",
@@ -90,7 +96,8 @@
       ],
       "answer": 3,
       "difficulty": "easy",
-      "explanation": "It provides an alternative path with lower $E_a$; $\\Delta H$ and $K$ remain unchanged."
+      "explanation": "It provides an alternative path with lower $E_a$; $\\Delta H$ and $K$ remain unchanged.",
+      "trick": "Catalyst lowers $E_a$ only — doesn't touch $\\Delta H$ or $K$."
     },
     {
       "id": "che-chemical-kinetics-008",
@@ -103,7 +110,8 @@
       ],
       "answer": 1,
       "difficulty": "easy",
-      "explanation": "Molecularity counts reacting species in an elementary step: 1, 2 or 3. Order is the experimental quantity that can be zero or fractional."
+      "explanation": "Molecularity counts reacting species in an elementary step: 1, 2 or 3. Order is the experimental quantity that can be zero or fractional.",
+      "trick": "Molecularity is always a whole positive number (1,2,3); order can be 0 or fractional."
     },
     {
       "id": "che-chemical-kinetics-009",
@@ -116,7 +124,8 @@
       ],
       "answer": 1,
       "difficulty": "easy",
-      "explanation": "Rate $= -\\dfrac12\\dfrac{d[\\text{N}_2\\text{O}_5]}{dt} = \\dfrac14\\dfrac{d[\\text{NO}_2]}{dt} = \\dfrac{d[\\text{O}_2]}{dt}$."
+      "explanation": "Rate $= -\\dfrac12\\dfrac{d[\\text{N}_2\\text{O}_5]}{dt} = \\dfrac14\\dfrac{d[\\text{NO}_2]}{dt} = \\dfrac{d[\\text{O}_2]}{dt}$.",
+      "trick": "Divide by stoichiometric coefficient: rate $=\\dfrac1{\\text{coeff}}\\dfrac{d[\\text{product}]}{dt}$."
     },
     {
       "id": "che-chemical-kinetics-010",
@@ -129,7 +138,8 @@
       ],
       "answer": 2,
       "difficulty": "easy",
-      "explanation": "Water is in large excess, so its concentration is effectively constant and the reaction behaves as first order."
+      "explanation": "Water is in large excess, so its concentration is effectively constant and the reaction behaves as first order.",
+      "trick": "Water in large excess (constant conc.) → pseudo-first-order."
     },
     {
       "id": "che-chemical-kinetics-011",
@@ -142,7 +152,8 @@
       ],
       "answer": 3,
       "difficulty": "easy",
-      "explanation": "0.8 → 0.4 → 0.2 is two half-lives = 40 min."
+      "explanation": "0.8 → 0.4 → 0.2 is two half-lives = 40 min.",
+      "trick": "Count halvings: 0.8→0.4→0.2 is 2 half-lives, multiply by $t_{1/2}$."
     },
     {
       "id": "che-chemical-kinetics-012",
@@ -156,7 +167,8 @@
       "answer": 0,
       "difficulty": "hard",
       "explanation": "$\\log 2 = \\dfrac{E_a}{2.303\\times8.314}\\left(\\dfrac{1}{300} - \\dfrac{1}{310}\\right) = \\dfrac{E_a}{19.15}\\times\\dfrac{10}{93000}$ → $E_a \\approx 53.6$ kJ mol$^{-1}$.",
-      "tip": "A very frequently asked numerical — remember the answer ≈ 53.6 kJ/mol."
+      "tip": "A very frequently asked numerical — remember the answer ≈ 53.6 kJ/mol.",
+      "trick": "$\\log\\dfrac{k_2}{k_1}=\\dfrac{E_a}{2.303R}\\left(\\dfrac1{T_1}-\\dfrac1{T_2}\\right)$ — plug and solve for $E_a$."
     },
     {
       "id": "che-chemical-kinetics-013",
@@ -169,7 +181,8 @@
       ],
       "answer": 2,
       "difficulty": "easy",
-      "explanation": "Only for first order do the concentration units cancel, leaving s$^{-1}$."
+      "explanation": "Only for first order do the concentration units cancel, leaving s$^{-1}$.",
+      "trick": "k units of s$^{-1}$ alone (no conc. term) → first order."
     },
     {
       "id": "che-chemical-kinetics-014",
@@ -182,7 +195,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "$t = \\dfrac{2.303}{k}\\log\\dfrac{100}{0.1} = \\dfrac{2.303\\times3}{k} = \\dfrac{6.909}{k} = 10\\times\\dfrac{0.693}{k}$."
+      "explanation": "$t = \\dfrac{2.303}{k}\\log\\dfrac{100}{0.1} = \\dfrac{2.303\\times3}{k} = \\dfrac{6.909}{k} = 10\\times\\dfrac{0.693}{k}$.",
+      "trick": "%completion → remaining fraction → count as multiple of $t_{1/2}$ ($\\log$ of powers of 2)."
     },
     {
       "id": "che-chemical-kinetics-015",
@@ -195,7 +209,8 @@
       ],
       "answer": 1,
       "difficulty": "easy",
-      "explanation": "It is the Boltzmann fraction of molecules having kinetic energy equal to or greater than the activation energy. $A$ is the frequency (pre-exponential) factor."
+      "explanation": "It is the Boltzmann fraction of molecules having kinetic energy equal to or greater than the activation energy. $A$ is the frequency (pre-exponential) factor.",
+      "trick": "$e^{-E_a/RT}$ = Boltzmann fraction with energy ≥ $E_a$; A is frequency factor."
     },
     {
       "id": "che-chemical-kinetics-016",
@@ -208,7 +223,8 @@
       ],
       "answer": 3,
       "difficulty": "easy",
-      "explanation": "Order $= \\tfrac12 + \\tfrac32 = 2$. Fractional individual orders are allowed."
+      "explanation": "Order $= \\tfrac12 + \\tfrac32 = 2$. Fractional individual orders are allowed.",
+      "trick": "Overall order = sum of individual exponents in rate law."
     },
     {
       "id": "che-chemical-kinetics-017",
@@ -221,7 +237,8 @@
       ],
       "answer": 0,
       "difficulty": "easy",
-      "explanation": "$[A] = [A]_0 - kt$ is linear in $t$, with intercept $[A]_0$ and a negative slope of magnitude $k$."
+      "explanation": "$[A] = [A]_0 - kt$ is linear in $t$, with intercept $[A]_0$ and a negative slope of magnitude $k$.",
+      "trick": "Zero order: $[A]=[A]_0-kt$, straight line, slope $-k$."
     },
     {
       "id": "che-chemical-kinetics-018",
@@ -234,7 +251,8 @@
       ],
       "answer": 2,
       "difficulty": "easy",
-      "explanation": "Unlike molecularity, the order of a reaction is an experimental quantity found from rate data; it cannot be predicted merely from the balanced equation since most reactions proceed through multiple elementary steps."
+      "explanation": "Unlike molecularity, the order of a reaction is an experimental quantity found from rate data; it cannot be predicted merely from the balanced equation since most reactions proceed through multiple elementary steps.",
+      "trick": "Order is ALWAYS found by experiment, never assumed from stoichiometry."
     },
     {
       "id": "che-chemical-kinetics-019",
@@ -247,7 +265,8 @@
       ],
       "answer": 1,
       "difficulty": "easy",
-      "explanation": "Water is present in large excess and its concentration remains effectively constant, so although two species are involved, the reaction follows first-order kinetics with respect to sucrose — a pseudo-first-order reaction."
+      "explanation": "Water is present in large excess and its concentration remains effectively constant, so although two species are involved, the reaction follows first-order kinetics with respect to sucrose — a pseudo-first-order reaction.",
+      "trick": "Large excess of one reactant (water) → treat as pseudo-first-order."
     },
     {
       "id": "che-chemical-kinetics-020",
@@ -260,7 +279,8 @@
       ],
       "answer": 3,
       "difficulty": "medium",
-      "explanation": "Rate $\\propto [A]^1$ since doubling A doubles rate; rate is independent of B ($[B]^0$), so overall order $= 1+0 = 1$."
+      "explanation": "Rate $\\propto [A]^1$ since doubling A doubles rate; rate is independent of B ($[B]^0$), so overall order $= 1+0 = 1$.",
+      "trick": "Rate unaffected by a reactant → its order is 0; sum orders for overall."
     },
     {
       "id": "che-chemical-kinetics-021",
@@ -273,7 +293,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "Rate $\\propto [P]^1[Q]^2$ (doubling P doubles rate → order 1 in P; doubling Q gives $2^2=4\\times$ rate → order 2 in Q). Overall order $= 1+2 = 3$."
+      "explanation": "Rate $\\propto [P]^1[Q]^2$ (doubling P doubles rate → order 1 in P; doubling Q gives $2^2=4\\times$ rate → order 2 in Q). Overall order $= 1+2 = 3$.",
+      "trick": "Match rate-multiplier to power of 2: 2× rate→order 1, 4×→order 2."
     },
     {
       "id": "che-chemical-kinetics-022",
@@ -286,7 +307,8 @@
       ],
       "answer": 0,
       "difficulty": "hard",
-      "explanation": "$\\log A = \\log k + \\dfrac{E_a}{2.303RT} = -6 + \\dfrac{22970}{5742} = -6+4.0 = -2.0$, so $A \\approx 10^{-2}$ s$^{-1}$."
+      "explanation": "$\\log A = \\log k + \\dfrac{E_a}{2.303RT} = -6 + \\dfrac{22970}{5742} = -6+4.0 = -2.0$, so $A \\approx 10^{-2}$ s$^{-1}$.",
+      "trick": "$\\log A=\\log k+\\dfrac{E_a}{2.303RT}$ — rearranged Arrhenius equation."
     },
     {
       "id": "che-chemical-kinetics-023",
@@ -299,7 +321,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "Even when colliding molecules have energy $\\ge E_a$, they must also collide with the correct relative orientation for bonds to form/break; $P$ (usually $<1$) corrects the simple collision frequency for this requirement."
+      "explanation": "Even when colliding molecules have energy $\\ge E_a$, they must also collide with the correct relative orientation for bonds to form/break; $P$ (usually $<1$) corrects the simple collision frequency for this requirement.",
+      "trick": "Steric factor P corrects for molecular orientation, not just energy."
     },
     {
       "id": "che-chemical-kinetics-024",
@@ -312,7 +335,8 @@
       ],
       "answer": 3,
       "difficulty": "easy",
-      "explanation": "$\\ln[A] = \\ln[A]_0 - kt$ is linear in $t$ with slope $-k$; this graphical test distinguishes a first-order reaction from zero or second order."
+      "explanation": "$\\ln[A] = \\ln[A]_0 - kt$ is linear in $t$ with slope $-k$; this graphical test distinguishes a first-order reaction from zero or second order.",
+      "trick": "First order gives straight line only for $\\ln[A]$ (or $\\log[A]$) vs t."
     },
     {
       "id": "che-chemical-kinetics-025",
@@ -325,7 +349,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "$t_{1/2} = \\dfrac{[A]_0}{2k} = \\dfrac{0.5}{2\\times0.05} = 5$ s."
+      "explanation": "$t_{1/2} = \\dfrac{[A]_0}{2k} = \\dfrac{0.5}{2\\times0.05} = 5$ s.",
+      "trick": "$t_{1/2}=[A]_0/2k$ for zero order — direct substitution."
     },
     {
       "id": "che-chemical-kinetics-026",
@@ -338,7 +363,8 @@
       ],
       "answer": 0,
       "difficulty": "hard",
-      "explanation": "Units of $k$ are $(\\text{mol L}^{-1})^{1-n}$ s$^{-1}$. Here $(\\text{mol L}^{-1})^{1-n} = \\text{mol}^{-2}\\text{L}^2 = (\\text{mol L}^{-1})^{-2}$, so $1-n=-2 \\Rightarrow n=3$."
+      "explanation": "Units of $k$ are $(\\text{mol L}^{-1})^{1-n}$ s$^{-1}$. Here $(\\text{mol L}^{-1})^{1-n} = \\text{mol}^{-2}\\text{L}^2 = (\\text{mol L}^{-1})^{-2}$, so $1-n=-2 \\Rightarrow n=3$.",
+      "trick": "Match k's units to $(\\text{mol L}^{-1})^{1-n}$ and solve for n."
     },
     {
       "id": "che-chemical-kinetics-027",
@@ -351,7 +377,8 @@
       ],
       "answer": 1,
       "difficulty": "easy",
-      "explanation": "A catalyst lowers $E_a$ for both forward and reverse reactions equally, speeding up how quickly equilibrium is reached, but it does not change $\\Delta G^\\circ$, so the equilibrium constant $K$ remains unchanged."
+      "explanation": "A catalyst lowers $E_a$ for both forward and reverse reactions equally, speeding up how quickly equilibrium is reached, but it does not change $\\Delta G^\\circ$, so the equilibrium constant $K$ remains unchanged.",
+      "trick": "Catalyst speeds both directions equally → K unchanged, only rate changes."
     },
     {
       "id": "che-chemical-kinetics-028",
@@ -364,7 +391,8 @@
       ],
       "answer": 3,
       "difficulty": "medium",
-      "explanation": "For a first-order reaction, the half-life is independent of concentration, so each successive halving of concentration takes the same 20 minutes, whether from 100%→50% or 50%→25%."
+      "explanation": "For a first-order reaction, the half-life is independent of concentration, so each successive halving of concentration takes the same 20 minutes, whether from 100%→50% or 50%→25%.",
+      "trick": "First-order half-life is constant — independent of starting concentration."
     },
     {
       "id": "che-chemical-kinetics-029",
@@ -377,7 +405,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "Since rate $= k[X]^0 = k$, the rate is independent of $[X]$, so changing its concentration (while it remains present) does not change the rate."
+      "explanation": "Since rate $= k[X]^0 = k$, the rate is independent of $[X]$, so changing its concentration (while it remains present) does not change the rate.",
+      "trick": "Zero order in X → rate = k, unaffected by changing [X]."
     },
     {
       "id": "che-chemical-kinetics-030",
@@ -390,7 +419,8 @@
       ],
       "answer": 3,
       "difficulty": "hard",
-      "explanation": "87.5% completion leaves 12.5% $= (1/2)^3$ of the reactant, which takes exactly 3 successive half-lives: $t = 3t_{1/2}$."
+      "explanation": "87.5% completion leaves 12.5% $= (1/2)^3$ of the reactant, which takes exactly 3 successive half-lives: $t = 3t_{1/2}$.",
+      "trick": "12.5% left $=(1/2)^3$ → exactly 3 half-lives for 87.5% completion."
     },
     {
       "id": "che-chemical-kinetics-031",
@@ -403,7 +433,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "Unlike acid hydrolysis (where water is in large excess), saponification with OH$^-$ depends on the concentrations of both the ester and hydroxide ion, making it a genuine second-order, bimolecular reaction."
+      "explanation": "Unlike acid hydrolysis (where water is in large excess), saponification with OH$^-$ depends on the concentrations of both the ester and hydroxide ion, making it a genuine second-order, bimolecular reaction.",
+      "trick": "Saponification (OH$^-$ + ester) depends on both → true second order."
     },
     {
       "id": "che-chemical-kinetics-032",
@@ -416,7 +447,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "For a genuine single-step elementary reaction, the experimentally observed order equals the molecularity; here both are 2, consistent with the rate law rate $= k[H_2][I_2]$."
+      "explanation": "For a genuine single-step elementary reaction, the experimentally observed order equals the molecularity; here both are 2, consistent with the rate law rate $= k[H_2][I_2]$.",
+      "trick": "True single-step elementary reaction: order = molecularity exactly."
     },
     {
       "id": "che-chemical-kinetics-033",
@@ -429,7 +461,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "Order is determined only by experiment and reflects the rate-determining step of the actual (often multi-step) mechanism, so it need not equal the coefficients of the overall balanced equation."
+      "explanation": "Order is determined only by experiment and reflects the rate-determining step of the actual (often multi-step) mechanism, so it need not equal the coefficients of the overall balanced equation.",
+      "trick": "Order need NOT match stoichiometric coefficients — it's experimental (multi-step mechanism)."
     },
     {
       "id": "che-chemical-kinetics-034",
@@ -442,7 +475,8 @@
       ],
       "answer": 3,
       "difficulty": "easy",
-      "explanation": "According to the Boltzmann distribution, the fraction of molecules with energy $\\ge E_a$ (given by $e^{-E_a/RT}$) increases sharply with temperature, increasing the rate constant $k$, even though $E_a$ itself is unchanged."
+      "explanation": "According to the Boltzmann distribution, the fraction of molecules with energy $\\ge E_a$ (given by $e^{-E_a/RT}$) increases sharply with temperature, increasing the rate constant $k$, even though $E_a$ itself is unchanged.",
+      "trick": "Rate rises with T because $e^{-E_a/RT}$ (fraction with E≥$E_a$) grows, not $E_a$ itself."
     },
     {
       "id": "che-chemical-kinetics-035",
@@ -455,7 +489,8 @@
       ],
       "answer": 1,
       "difficulty": "hard",
-      "explanation": "$\\log\\dfrac{k_2}{k_1} = \\dfrac{E_a}{2.303R}\\left(\\dfrac1{T_1}-\\dfrac1{T_2}\\right)$: $0.477 = \\dfrac{E_a}{19.15}\\times\\left(\\dfrac1{300}-\\dfrac1{320}\\right) = \\dfrac{E_a}{19.15}\\times2.08\\times10^{-4}$, giving $E_a \\approx 43.8\\times10^3$ J mol$^{-1}$ = 43.8 kJ mol$^{-1}$."
+      "explanation": "$\\log\\dfrac{k_2}{k_1} = \\dfrac{E_a}{2.303R}\\left(\\dfrac1{T_1}-\\dfrac1{T_2}\\right)$: $0.477 = \\dfrac{E_a}{19.15}\\times\\left(\\dfrac1{300}-\\dfrac1{320}\\right) = \\dfrac{E_a}{19.15}\\times2.08\\times10^{-4}$, giving $E_a \\approx 43.8\\times10^3$ J mol$^{-1}$ = 43.8 kJ mol$^{-1}$.",
+      "trick": "Use two-point Arrhenius equation with given $\\log(k_2/k_1)$ to solve $E_a$."
     },
     {
       "id": "che-chemical-kinetics-036",
@@ -468,7 +503,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "$[A]$ vs $t$ is linear only for a zero-order reaction; for a first-order reaction it is $\\log[A]$ (or $\\ln[A]$) vs $t$ that gives a straight line, with slope $-k/2.303$."
+      "explanation": "$[A]$ vs $t$ is linear only for a zero-order reaction; for a first-order reaction it is $\\log[A]$ (or $\\ln[A]$) vs $t$ that gives a straight line, with slope $-k/2.303$.",
+      "trick": "Zero order: [A] vs t linear; first order: log[A] vs t linear."
     },
     {
       "id": "che-chemical-kinetics-037",
@@ -481,7 +517,8 @@
       ],
       "answer": 0,
       "difficulty": "easy",
-      "explanation": "For a zero-order reaction, rate $= k[A]^0 = k$, so $k$ has units of mol L$^{-1}$ s$^{-1}$, identical to the rate itself."
+      "explanation": "For a zero-order reaction, rate $= k[A]^0 = k$, so $k$ has units of mol L$^{-1}$ s$^{-1}$, identical to the rate itself.",
+      "trick": "k = rate units only when order = 0 (rate = k directly)."
     },
     {
       "id": "che-chemical-kinetics-038",
@@ -494,7 +531,8 @@
       ],
       "answer": 3,
       "difficulty": "medium",
-      "explanation": "Since water is the solvent and present in huge excess, its concentration barely changes during the reaction, so the rate appears independent of $[H_2O]$ even though it is a reactant — this is the basis of pseudo-order kinetics."
+      "explanation": "Since water is the solvent and present in huge excess, its concentration barely changes during the reaction, so the rate appears independent of $[H_2O]$ even though it is a reactant — this is the basis of pseudo-order kinetics.",
+      "trick": "Large-excess reactant (solvent water) has effectively constant, so 'zero' order."
     },
     {
       "id": "che-chemical-kinetics-039",
@@ -507,7 +545,8 @@
       ],
       "answer": 2,
       "difficulty": "hard",
-      "explanation": "75% decayed means 25% $= (1/2)^2$ remains, i.e. 2 half-lives have elapsed in 30 min, so $t_{1/2} = 30/2 = 15$ min."
+      "explanation": "75% decayed means 25% $= (1/2)^2$ remains, i.e. 2 half-lives have elapsed in 30 min, so $t_{1/2} = 30/2 = 15$ min.",
+      "trick": "25% remaining $=(1/2)^2$ → 2 half-lives elapsed; divide time by 2."
     },
     {
       "id": "che-chemical-kinetics-040",
@@ -520,7 +559,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "A 30 K rise corresponds to three 10 K steps, so the rate increases by a factor of $2^3 = 8$."
+      "explanation": "A 30 K rise corresponds to three 10 K steps, so the rate increases by a factor of $2^3 = 8$.",
+      "trick": "'Doubles per 10°C' → factor $=2^{(\\Delta T/10)}$."
     }
   ]
 }

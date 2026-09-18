@@ -12,7 +12,8 @@
       ],
       "answer": 0,
       "difficulty": "easy",
-      "explanation": "$A=\\int_0^2 x^2\\,dx=\\left[\\dfrac{x^3}{3}\\right]_0^2=\\dfrac{8}{3}$."
+      "explanation": "$A=\\int_0^2 x^2\\,dx=\\left[\\dfrac{x^3}{3}\\right]_0^2=\\dfrac{8}{3}$.",
+      "trick": "$\\int_a^b f(x)dx$ with $f=x^2$ gives the area directly."
     },
     {
       "id": "mat-application-of-integrals-002",
@@ -25,7 +26,8 @@
       ],
       "answer": 3,
       "difficulty": "easy",
-      "explanation": "$A=\\int_0^4 x\\,dx=\\left[\\dfrac{x^2}{2}\\right]_0^4=8$."
+      "explanation": "$A=\\int_0^4 x\\,dx=\\left[\\dfrac{x^2}{2}\\right]_0^4=8$.",
+      "trick": "$y=x$ is a line: check $\\frac12\\times\\text{base}\\times\\text{height}$ against the integral."
     },
     {
       "id": "mat-application-of-integrals-003",
@@ -38,7 +40,8 @@
       ],
       "answer": 1,
       "difficulty": "easy",
-      "explanation": "Full circle area $=\\pi r^2=16\\pi$; first quadrant is a quarter: $16\\pi/4=4\\pi$."
+      "explanation": "Full circle area $=\\pi r^2=16\\pi$; first quadrant is a quarter: $16\\pi/4=4\\pi$.",
+      "trick": "Quadrant of a circle is always $\\pi r^2/4$ — no integration needed."
     },
     {
       "id": "mat-application-of-integrals-004",
@@ -51,7 +54,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "Area of ellipse $=\\pi ab=\\pi(3)(2)=6\\pi$."
+      "explanation": "Area of ellipse $=\\pi ab=\\pi(3)(2)=6\\pi$.",
+      "trick": "Full ellipse area $=\\pi ab$; memorise it, skip integration."
     },
     {
       "id": "mat-application-of-integrals-005",
@@ -64,7 +68,8 @@
       ],
       "answer": 0,
       "difficulty": "hard",
-      "explanation": "$A=2\\int_0^4\\sqrt{4x}\\,dx=4\\int_0^4\\sqrt x\\,dx=4\\left[\\dfrac{2}{3}x^{3/2}\\right]_0^4=4\\times\\dfrac{2}{3}\\times8=\\dfrac{64}{3}$."
+      "explanation": "$A=2\\int_0^4\\sqrt{4x}\\,dx=4\\int_0^4\\sqrt x\\,dx=4\\left[\\dfrac{2}{3}x^{3/2}\\right]_0^4=4\\times\\dfrac{2}{3}\\times8=\\dfrac{64}{3}$.",
+      "trick": "$y^2=4ax$ area: double the one-sided integral by symmetry about the x-axis."
     },
     {
       "id": "mat-application-of-integrals-006",
@@ -77,7 +82,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "$A=\\int_0^\\pi\\sin x\\,dx=[-\\cos x]_0^\\pi=(-(-1))-(-1)=1+1=2$."
+      "explanation": "$A=\\int_0^\\pi\\sin x\\,dx=[-\\cos x]_0^\\pi=(-(-1))-(-1)=1+1=2$.",
+      "trick": "$\\sin x$ stays positive on $[0,\\pi]$, so integrate directly — no splitting needed."
     },
     {
       "id": "mat-application-of-integrals-007",
@@ -90,7 +96,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "Intersections at $x=0,1$. $A=\\int_0^1(x-x^2)\\,dx=\\left[\\dfrac{x^2}{2}-\\dfrac{x^3}{3}\\right]_0^1=\\dfrac12-\\dfrac13=\\dfrac16$."
+      "explanation": "Intersections at $x=0,1$. $A=\\int_0^1(x-x^2)\\,dx=\\left[\\dfrac{x^2}{2}-\\dfrac{x^3}{3}\\right]_0^1=\\dfrac12-\\dfrac13=\\dfrac16$.",
+      "trick": "Between two curves: find intersections first, then $\\int(\\text{top}-\\text{bottom})$."
     },
     {
       "id": "mat-application-of-integrals-008",
@@ -103,7 +110,8 @@
       ],
       "answer": 3,
       "difficulty": "medium",
-      "explanation": "Quarter circle area $=\\pi r^2/4=\\pi(4)/4=\\pi$."
+      "explanation": "Quarter circle area $=\\pi r^2/4=\\pi(4)/4=\\pi$.",
+      "trick": "Quarter-circle shortcut: $\\pi r^2/4$, here with $r=2$."
     },
     {
       "id": "mat-application-of-integrals-009",
@@ -116,7 +124,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "$A=\\int_0^1 e^x\\,dx=[e^x]_0^1=e-1$."
+      "explanation": "$A=\\int_0^1 e^x\\,dx=[e^x]_0^1=e-1$.",
+      "trick": "$\\int e^x=e^x$: just plug in the limits and subtract."
     },
     {
       "id": "mat-application-of-integrals-010",
@@ -129,7 +138,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "Integrating w.r.t. $y$: $A=\\int_0^3 y^2\\,dy=\\left[\\dfrac{y^3}{3}\\right]_0^3=9$."
+      "explanation": "Integrating w.r.t. $y$: $A=\\int_0^3 y^2\\,dy=\\left[\\dfrac{y^3}{3}\\right]_0^3=9$.",
+      "trick": "Bounded by the y-axis? Integrate w.r.t. $y$ instead of $x$."
     },
     {
       "id": "mat-application-of-integrals-011",
@@ -142,7 +152,8 @@
       ],
       "answer": 3,
       "difficulty": "hard",
-      "explanation": "The line crosses the x-axis at $x=-2/3$. For $x\\in[-1,-2/3]$, $y<0$, giving $\\left|\\int_{-1}^{-2/3}(3x+2)dx\\right|=\\dfrac16$; for $x\\in[-2/3,1]$, $y>0$, giving $\\int_{-2/3}^{1}(3x+2)dx=\\dfrac{25}{6}$. Total area $=\\dfrac16+\\dfrac{25}{6}=\\dfrac{26}{6}=\\dfrac{13}{3}$."
+      "explanation": "The line crosses the x-axis at $x=-2/3$. For $x\\in[-1,-2/3]$, $y<0$, giving $\\left|\\int_{-1}^{-2/3}(3x+2)dx\\right|=\\dfrac16$; for $x\\in[-2/3,1]$, $y>0$, giving $\\int_{-2/3}^{1}(3x+2)dx=\\dfrac{25}{6}$. Total area $=\\dfrac16+\\dfrac{25}{6}=\\dfrac{26}{6}=\\dfrac{13}{3}$.",
+      "trick": "Line crosses the axis: split at the root, take $|{\\cdot}|$ of each piece, add."
     },
     {
       "id": "mat-application-of-integrals-012",
@@ -155,7 +166,8 @@
       ],
       "answer": 0,
       "difficulty": "hard",
-      "explanation": "$A=\\int_1^4\\sqrt{4x}\\,dx=2\\int_1^4\\sqrt x\\,dx=2\\left[\\dfrac23x^{3/2}\\right]_1^4=\\dfrac43(8-1)=\\dfrac{28}{3}$."
+      "explanation": "$A=\\int_1^4\\sqrt{4x}\\,dx=2\\int_1^4\\sqrt x\\,dx=2\\left[\\dfrac23x^{3/2}\\right]_1^4=\\dfrac43(8-1)=\\dfrac{28}{3}$.",
+      "trick": "$\\sqrt{4x}$ integral: pull out the constant, use the $x^{3/2}$ power rule."
     },
     {
       "id": "mat-application-of-integrals-013",
@@ -168,7 +180,8 @@
       ],
       "answer": 3,
       "difficulty": "hard",
-      "explanation": "Area $=2\\int_1^2\\sqrt{4-x^2}\\,dx=2\\left[\\dfrac{x}{2}\\sqrt{4-x^2}+2\\sin^{-1}\\dfrac{x}{2}\\right]_1^2=2\\left[\\pi-\\left(\\dfrac{\\sqrt3}{2}+\\dfrac{\\pi}{3}\\right)\\right]=\\dfrac{4\\pi}{3}-\\sqrt3$."
+      "explanation": "Area $=2\\int_1^2\\sqrt{4-x^2}\\,dx=2\\left[\\dfrac{x}{2}\\sqrt{4-x^2}+2\\sin^{-1}\\dfrac{x}{2}\\right]_1^2=2\\left[\\pi-\\left(\\dfrac{\\sqrt3}{2}+\\dfrac{\\pi}{3}\\right)\\right]=\\dfrac{4\\pi}{3}-\\sqrt3$.",
+      "trick": "Circular segment $=2\\int\\sqrt{a^2-x^2}dx$ using the standard antiderivative formula."
     },
     {
       "id": "mat-application-of-integrals-014",
@@ -181,7 +194,8 @@
       ],
       "answer": 2,
       "difficulty": "easy",
-      "explanation": "Since $f(x)<0$ there, the plain integral is negative; taking its absolute value gives the (positive) area."
+      "explanation": "Since $f(x)<0$ there, the plain integral is negative; taking its absolute value gives the (positive) area.",
+      "trick": "Absolute value converts a negative below-axis integral into true positive area."
     },
     {
       "id": "mat-application-of-integrals-015",
@@ -194,7 +208,8 @@
       ],
       "answer": 1,
       "difficulty": "easy",
-      "explanation": "$A=\\int_0^{\\pi/2}\\cos x\\,dx=[\\sin x]_0^{\\pi/2}=1-0=1$."
+      "explanation": "$A=\\int_0^{\\pi/2}\\cos x\\,dx=[\\sin x]_0^{\\pi/2}=1-0=1$.",
+      "trick": "$\\int\\cos x=\\sin x$: plug in limits directly."
     },
     {
       "id": "mat-application-of-integrals-016",
@@ -207,7 +222,8 @@
       ],
       "answer": 0,
       "difficulty": "hard",
-      "explanation": "By symmetry the areas on either side are equal in magnitude but opposite in sign; total area (using absolute values) $=2\\int_0^1x^3dx=2\\times\\dfrac14=\\dfrac12$ (the plain integral over $[-1,1]$ would wrongly give 0)."
+      "explanation": "By symmetry the areas on either side are equal in magnitude but opposite in sign; total area (using absolute values) $=2\\int_0^1x^3dx=2\\times\\dfrac14=\\dfrac12$ (the plain integral over $[-1,1]$ would wrongly give 0).",
+      "trick": "Odd function about the x-axis flips sign — double one side, never subtract across it."
     },
     {
       "id": "mat-application-of-integrals-017",
@@ -220,7 +236,8 @@
       ],
       "answer": 1,
       "difficulty": "hard",
-      "explanation": "Intersections at $x=\\pm2$. $A=\\int_{-2}^2(4-x^2)\\,dx=2\\int_0^2(4-x^2)\\,dx=2\\left[4x-\\dfrac{x^3}{3}\\right]_0^2=2\\left(8-\\dfrac83\\right)=2\\times\\dfrac{16}{3}=\\dfrac{32}{3}$."
+      "explanation": "Intersections at $x=\\pm2$. $A=\\int_{-2}^2(4-x^2)\\,dx=2\\int_0^2(4-x^2)\\,dx=2\\left[4x-\\dfrac{x^3}{3}\\right]_0^2=2\\left(8-\\dfrac83\\right)=2\\times\\dfrac{16}{3}=\\dfrac{32}{3}$.",
+      "trick": "Curve vs. horizontal line: integrate (line$-$curve) between the two intersection x-values."
     },
     {
       "id": "mat-application-of-integrals-018",
@@ -233,7 +250,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "Since which function is on top switches at the crossing point, the interval must be split there and the areas added, each taken as a positive quantity."
+      "explanation": "Since which function is on top switches at the crossing point, the interval must be split there and the areas added, each taken as a positive quantity.",
+      "trick": "Curves crossing mid-interval: split there, or the areas wrongly cancel."
     },
     {
       "id": "mat-application-of-integrals-019",
@@ -246,7 +264,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "$A=\\int_0^9\\sqrt x\\,dx=\\left[\\dfrac23x^{3/2}\\right]_0^9=\\dfrac23(27)=18$."
+      "explanation": "$A=\\int_0^9\\sqrt x\\,dx=\\left[\\dfrac23x^{3/2}\\right]_0^9=\\dfrac23(27)=18$.",
+      "trick": "$\\int\\sqrt x\\,dx=\\tfrac23x^{3/2}$ — apply the power rule to the fractional exponent."
     },
     {
       "id": "mat-application-of-integrals-020",
@@ -259,7 +278,8 @@
       ],
       "answer": 3,
       "difficulty": "medium",
-      "explanation": "Curve meets x-axis at $x=\\pm2$. $A=\\int_{-2}^2(4-x^2)\\,dx=2\\left[4x-\\dfrac{x^3}{3}\\right]_0^2=2\\left(8-\\dfrac83\\right)=\\dfrac{32}{3}$."
+      "explanation": "Curve meets x-axis at $x=\\pm2$. $A=\\int_{-2}^2(4-x^2)\\,dx=2\\left[4x-\\dfrac{x^3}{3}\\right]_0^2=2\\left(8-\\dfrac83\\right)=\\dfrac{32}{3}$.",
+      "trick": "Symmetric parabola: double the integral from $0$ to the root instead of the full range."
     },
     {
       "id": "mat-application-of-integrals-021",
@@ -272,7 +292,8 @@
       ],
       "answer": 0,
       "difficulty": "easy",
-      "explanation": "$A=\\int_1^2 3x^2\\,dx=[x^3]_1^2=8-1=7$."
+      "explanation": "$A=\\int_1^2 3x^2\\,dx=[x^3]_1^2=8-1=7$.",
+      "trick": "$\\int 3x^2=x^3$: plug in limits, subtract the cubes."
     },
     {
       "id": "mat-application-of-integrals-022",
@@ -285,7 +306,8 @@
       ],
       "answer": 3,
       "difficulty": "easy",
-      "explanation": "Since $y=x+2>0$ throughout $[-1,1]$, $A=\\int_{-1}^1(x+2)\\,dx=\\left[\\dfrac{x^2}{2}+2x\\right]_{-1}^1=2.5-(-1.5)=4$."
+      "explanation": "Since $y=x+2>0$ throughout $[-1,1]$, $A=\\int_{-1}^1(x+2)\\,dx=\\left[\\dfrac{x^2}{2}+2x\\right]_{-1}^1=2.5-(-1.5)=4$.",
+      "trick": "Check the sign first: if $f(x)>0$ throughout, integrate directly, no splitting."
     },
     {
       "id": "mat-application-of-integrals-023",
@@ -298,7 +320,8 @@
       ],
       "answer": 2,
       "difficulty": "easy",
-      "explanation": "Full circle area $=\\pi(3)^2=9\\pi$; a quadrant is one-fourth of this, $\\dfrac{9\\pi}{4}$."
+      "explanation": "Full circle area $=\\pi(3)^2=9\\pi$; a quadrant is one-fourth of this, $\\dfrac{9\\pi}{4}$.",
+      "trick": "Any quadrant of a circle is exactly $\\tfrac14$ of $\\pi r^2$."
     },
     {
       "id": "mat-application-of-integrals-024",
@@ -311,7 +334,8 @@
       ],
       "answer": 1,
       "difficulty": "easy",
-      "explanation": "Full ellipse area $=\\pi ab=\\pi(4)(3)=12\\pi$; the first-quadrant quarter is $3\\pi$."
+      "explanation": "Full ellipse area $=\\pi ab=\\pi(4)(3)=12\\pi$; the first-quadrant quarter is $3\\pi$.",
+      "trick": "Quarter-ellipse $=\\tfrac14\\pi ab$, the same shortcut as for a circle."
     },
     {
       "id": "mat-application-of-integrals-025",
@@ -324,7 +348,8 @@
       ],
       "answer": 2,
       "difficulty": "easy",
-      "explanation": "The region is two right triangles each of area $\\dfrac12(2)(2)=2$, giving a total of $4$."
+      "explanation": "The region is two right triangles each of area $\\dfrac12(2)(2)=2$, giving a total of $4$.",
+      "trick": "$|x|$ bounded region = two identical right triangles; skip integration."
     },
     {
       "id": "mat-application-of-integrals-026",
@@ -337,7 +362,8 @@
       ],
       "answer": 3,
       "difficulty": "easy",
-      "explanation": "This is a rectangle of width 3 and height 5, so $A=\\int_0^3 5\\,dx=15$."
+      "explanation": "This is a rectangle of width 3 and height 5, so $A=\\int_0^3 5\\,dx=15$.",
+      "trick": "Constant $y=c$ over $[a,b]$ is just a rectangle: area $=c(b-a)$."
     },
     {
       "id": "mat-application-of-integrals-027",
@@ -350,7 +376,8 @@
       ],
       "answer": 1,
       "difficulty": "easy",
-      "explanation": "$A=\\int_2^5 x\\,dx=\\left[\\dfrac{x^2}{2}\\right]_2^5=\\dfrac{25-4}{2}=\\dfrac{21}{2}$."
+      "explanation": "$A=\\int_2^5 x\\,dx=\\left[\\dfrac{x^2}{2}\\right]_2^5=\\dfrac{25-4}{2}=\\dfrac{21}{2}$.",
+      "trick": "$\\int x\\,dx=x^2/2$: plug in limits and subtract."
     },
     {
       "id": "mat-application-of-integrals-028",
@@ -363,7 +390,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "They meet where $x^2=4x-x^2\\Rightarrow x=0,2$. $A=\\int_0^2[(4x-x^2)-x^2]dx=\\int_0^2(4x-2x^2)dx=\\left[2x^2-\\dfrac{2x^3}{3}\\right]_0^2=8-\\dfrac{16}{3}=\\dfrac{8}{3}$."
+      "explanation": "They meet where $x^2=4x-x^2\\Rightarrow x=0,2$. $A=\\int_0^2[(4x-x^2)-x^2]dx=\\int_0^2(4x-2x^2)dx=\\left[2x^2-\\dfrac{2x^3}{3}\\right]_0^2=8-\\dfrac{16}{3}=\\dfrac{8}{3}$.",
+      "trick": "Two parabolas: equate to find intersections, then $\\int(\\text{upper}-\\text{lower})$."
     },
     {
       "id": "mat-application-of-integrals-029",
@@ -376,7 +404,8 @@
       ],
       "answer": 3,
       "difficulty": "medium",
-      "explanation": "They intersect at $(0,0)$ and $(4,4)$. $A=\\int_0^4\\left(2\\sqrt x-\\dfrac{x^2}{4}\\right)dx=\\left[\\dfrac43x^{3/2}-\\dfrac{x^3}{12}\\right]_0^4=\\dfrac{32}{3}-\\dfrac{16}{3}=\\dfrac{16}{3}$."
+      "explanation": "They intersect at $(0,0)$ and $(4,4)$. $A=\\int_0^4\\left(2\\sqrt x-\\dfrac{x^2}{4}\\right)dx=\\left[\\dfrac43x^{3/2}-\\dfrac{x^3}{12}\\right]_0^4=\\dfrac{32}{3}-\\dfrac{16}{3}=\\dfrac{16}{3}$.",
+      "trick": "Symmetric parabolas about $y=x$: find intersections, integrate $\\left(2\\sqrt x-\\tfrac{x^2}{4}\\right)$."
     },
     {
       "id": "mat-application-of-integrals-030",
@@ -389,7 +418,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "$A=\\int_1^2x^3\\,dx=\\left[\\dfrac{x^4}{4}\\right]_1^2=\\dfrac{16-1}{4}=\\dfrac{15}{4}$."
+      "explanation": "$A=\\int_1^2x^3\\,dx=\\left[\\dfrac{x^4}{4}\\right]_1^2=\\dfrac{16-1}{4}=\\dfrac{15}{4}$.",
+      "trick": "$\\int x^3=x^4/4$: plug in limits, subtract."
     },
     {
       "id": "mat-application-of-integrals-031",
@@ -402,7 +432,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "$A=\\int_1^e\\dfrac1x\\,dx=[\\ln x]_1^e=\\ln e-\\ln1=1$."
+      "explanation": "$A=\\int_1^e\\dfrac1x\\,dx=[\\ln x]_1^e=\\ln e-\\ln1=1$.",
+      "trick": "$\\int(1/x)dx=\\ln x$: limits $1$ to $e$ always give exactly $1$."
     },
     {
       "id": "mat-application-of-integrals-032",
@@ -415,7 +446,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "They meet at $x=-2,1$. $A=\\int_{-2}^1[(4-x^2)-(x+2)]dx=\\int_{-2}^1(2-x-x^2)dx=\\dfrac{9}{2}$."
+      "explanation": "They meet at $x=-2,1$. $A=\\int_{-2}^1[(4-x^2)-(x+2)]dx=\\int_{-2}^1(2-x-x^2)dx=\\dfrac{9}{2}$.",
+      "trick": "Line vs. parabola: solve the intersection quadratic, integrate (line$-$parabola)."
     },
     {
       "id": "mat-application-of-integrals-033",
@@ -428,7 +460,8 @@
       ],
       "answer": 3,
       "difficulty": "medium",
-      "explanation": "Since $\\sqrt x\\ge x$ on $[0,1]$, $A=\\int_0^1(\\sqrt x-x)dx=\\left[\\dfrac23x^{3/2}-\\dfrac{x^2}{2}\\right]_0^1=\\dfrac23-\\dfrac12=\\dfrac16$."
+      "explanation": "Since $\\sqrt x\\ge x$ on $[0,1]$, $A=\\int_0^1(\\sqrt x-x)dx=\\left[\\dfrac23x^{3/2}-\\dfrac{x^2}{2}\\right]_0^1=\\dfrac23-\\dfrac12=\\dfrac16$.",
+      "trick": "Compare $\\sqrt x$ and $x$ on $[0,1]$: $\\sqrt x$ is always on top."
     },
     {
       "id": "mat-application-of-integrals-034",
@@ -441,7 +474,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "$A=\\int_0^4(4-x)\\,dx=\\left[4x-\\dfrac{x^2}{2}\\right]_0^4=16-8=8$, matching $\\dfrac12(4)(4)=8$."
+      "explanation": "$A=\\int_0^4(4-x)\\,dx=\\left[4x-\\dfrac{x^2}{2}\\right]_0^4=16-8=8$, matching $\\dfrac12(4)(4)=8$.",
+      "trick": "Line $+$ axes forms a right triangle — check $\\tfrac12\\text{base}\\times\\text{height}$ before integrating."
     },
     {
       "id": "mat-application-of-integrals-035",
@@ -454,7 +488,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "Since $y\\le0$ on $[-2,2]$, area $=\\left|\\int_{-2}^2(x^2-4)dx\\right|=\\left|\\left[\\dfrac{x^3}{3}-4x\\right]_{-2}^2\\right|=\\left|-\\dfrac{32}{3}\\right|=\\dfrac{32}{3}$."
+      "explanation": "Since $y\\le0$ on $[-2,2]$, area $=\\left|\\int_{-2}^2(x^2-4)dx\\right|=\\left|\\left[\\dfrac{x^3}{3}-4x\\right]_{-2}^2\\right|=\\left|-\\dfrac{32}{3}\\right|=\\dfrac{32}{3}$.",
+      "trick": "Curve dips below the axis: take $|\\int|$, don't report the negative raw value."
     },
     {
       "id": "mat-application-of-integrals-036",
@@ -467,7 +502,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "Quarter-ellipse area $=\\dfrac{\\pi(2)(1)}{4}=\\dfrac{\\pi}{2}$; the triangle formed by the chord and axes has area $\\dfrac12(2)(1)=1$. The region between the arc and the chord is $\\dfrac{\\pi}{2}-1$."
+      "explanation": "Quarter-ellipse area $=\\dfrac{\\pi(2)(1)}{4}=\\dfrac{\\pi}{2}$; the triangle formed by the chord and axes has area $\\dfrac12(2)(1)=1$. The region between the arc and the chord is $\\dfrac{\\pi}{2}-1$.",
+      "trick": "Segment between an ellipse arc and its chord $=$ quarter ellipse $-$ triangle."
     },
     {
       "id": "mat-application-of-integrals-037",
@@ -480,7 +516,8 @@
       ],
       "answer": 3,
       "difficulty": "hard",
-      "explanation": "$A=2\\int_0^a\\sqrt{4ax}\\,dx=4\\sqrt a\\left[\\dfrac23x^{3/2}\\right]_0^a=\\dfrac{8}{3}a\\sqrt a\\cdot\\sqrt a=\\dfrac{8a^2}{3}$."
+      "explanation": "$A=2\\int_0^a\\sqrt{4ax}\\,dx=4\\sqrt a\\left[\\dfrac23x^{3/2}\\right]_0^a=\\dfrac{8}{3}a\\sqrt a\\cdot\\sqrt a=\\dfrac{8a^2}{3}$.",
+      "trick": "Latus-rectum area for $y^2=4ax$ is the standard $\\tfrac{8a^2}{3}$ — memorise it."
     },
     {
       "id": "mat-application-of-integrals-038",
@@ -493,7 +530,8 @@
       ],
       "answer": 0,
       "difficulty": "hard",
-      "explanation": "Summing the integrals of the three side-lines (or using $\\tfrac12|x_1(y_2-y_3)+x_2(y_3-y_1)+x_3(y_1-y_2)|$) gives $\\tfrac12|2(2)+4(3)+6(-5)|=\\tfrac12(14)=7$."
+      "explanation": "Summing the integrals of the three side-lines (or using $\\tfrac12|x_1(y_2-y_3)+x_2(y_3-y_1)+x_3(y_1-y_2)|$) gives $\\tfrac12|2(2)+4(3)+6(-5)|=\\tfrac12(14)=7$.",
+      "trick": "Triangle area via vertices: $\\tfrac12|x_1(y_2-y_3)+x_2(y_3-y_1)+x_3(y_1-y_2)|$ beats 3 integrals."
     },
     {
       "id": "mat-application-of-integrals-039",
@@ -506,7 +544,8 @@
       ],
       "answer": 1,
       "difficulty": "hard",
-      "explanation": "This is the minor segment cut off by the chord $x+y=2$: quarter-circle area $\\pi$ minus the right triangle of area $2$ (vertices $(0,0),(2,0),(0,2)$), giving $\\pi-2$."
+      "explanation": "This is the minor segment cut off by the chord $x+y=2$: quarter-circle area $\\pi$ minus the right triangle of area $2$ (vertices $(0,0),(2,0),(0,2)$), giving $\\pi-2$.",
+      "trick": "Region above a chord inside a circle $=$ quarter circle $-$ chord's triangle."
     },
     {
       "id": "mat-application-of-integrals-040",
@@ -519,7 +558,8 @@
       ],
       "answer": 2,
       "difficulty": "hard",
-      "explanation": "Since $|x|\\ge x^2$ on $[-1,1]$, $A=2\\int_0^1(x-x^2)dx=2\\left(\\dfrac12-\\dfrac13\\right)=2\\times\\dfrac16=\\dfrac13$."
+      "explanation": "Since $|x|\\ge x^2$ on $[-1,1]$, $A=2\\int_0^1(x-x^2)dx=2\\left(\\dfrac12-\\dfrac13\\right)=2\\times\\dfrac16=\\dfrac13$.",
+      "trick": "By symmetry compute for $x\\ge0$ and double: check which curve sits on top."
     }
   ]
 }

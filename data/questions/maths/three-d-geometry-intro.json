@@ -12,7 +12,8 @@
       ],
       "answer": 2,
       "difficulty": "easy",
-      "explanation": "$d=\\sqrt{3^2+4^2+0^2}=\\sqrt{25}=5$."
+      "explanation": "$d=\\sqrt{3^2+4^2+0^2}=\\sqrt{25}=5$.",
+      "trick": "$d=\\sqrt{(\\Delta x)^2+(\\Delta y)^2+(\\Delta z)^2}$ — just extend Pythagoras to 3D."
     },
     {
       "id": "mat-three-d-geometry-intro-002",
@@ -25,7 +26,8 @@
       ],
       "answer": 3,
       "difficulty": "easy",
-      "explanation": "$d=\\sqrt{4+9+36}=\\sqrt{49}=7$."
+      "explanation": "$d=\\sqrt{4+9+36}=\\sqrt{49}=7$.",
+      "trick": "Distance from origin $=\\sqrt{x^2+y^2+z^2}$."
     },
     {
       "id": "mat-three-d-geometry-intro-003",
@@ -38,7 +40,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "Midpoint $=\\left(\\dfrac{2+4}{2},\\dfrac{-3+1}{2},\\dfrac{4-2}{2}\\right)=(3,-1,1)$."
+      "explanation": "Midpoint $=\\left(\\dfrac{2+4}{2},\\dfrac{-3+1}{2},\\dfrac{4-2}{2}\\right)=(3,-1,1)$.",
+      "trick": "Midpoint = average of each coordinate pair."
     },
     {
       "id": "mat-three-d-geometry-intro-004",
@@ -51,7 +54,8 @@
       ],
       "answer": 0,
       "difficulty": "hard",
-      "explanation": "$x=\\dfrac{2(3)+3(1)}{5}=\\dfrac95$, $y=\\dfrac{2(4)+3(-2)}{5}=\\dfrac25$, $z=\\dfrac{2(-5)+3(3)}{5}=-\\dfrac15$."
+      "explanation": "$x=\\dfrac{2(3)+3(1)}{5}=\\dfrac95$, $y=\\dfrac{2(4)+3(-2)}{5}=\\dfrac25$, $z=\\dfrac{2(-5)+3(3)}{5}=-\\dfrac15$.",
+      "trick": "Section formula: $\\dfrac{mx_2+nx_1}{m+n}$ for each coordinate."
     },
     {
       "id": "mat-three-d-geometry-intro-005",
@@ -64,7 +68,8 @@
       ],
       "answer": 1,
       "difficulty": "easy",
-      "explanation": "$l=m=n$ and $l^2+m^2+n^2=1 \\Rightarrow 3l^2=1 \\Rightarrow l=\\dfrac{1}{\\sqrt3}$."
+      "explanation": "$l=m=n$ and $l^2+m^2+n^2=1 \\Rightarrow 3l^2=1 \\Rightarrow l=\\dfrac{1}{\\sqrt3}$.",
+      "trick": "Equal angles $\\Rightarrow l=m=n=\\pm1/\\sqrt3$."
     },
     {
       "id": "mat-three-d-geometry-intro-006",
@@ -77,7 +82,8 @@
       ],
       "answer": 3,
       "difficulty": "medium",
-      "explanation": "Dr's $=(4-1,\\,-2-2,\\,1-(-3))=(3,-4,4)$."
+      "explanation": "Dr's $=(4-1,\\,-2-2,\\,1-(-3))=(3,-4,4)$.",
+      "trick": "Dr's of $PQ$ = coordinates of $Q$ minus coordinates of $P$."
     },
     {
       "id": "mat-three-d-geometry-intro-007",
@@ -90,7 +96,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "Magnitude $=\\sqrt{4+9+36}=7$; dc's $=\\left(\\dfrac27,\\dfrac37,-\\dfrac67\\right)$."
+      "explanation": "Magnitude $=\\sqrt{4+9+36}=7$; dc's $=\\left(\\dfrac27,\\dfrac37,-\\dfrac67\\right)$.",
+      "trick": "Divide each direction ratio by $\\sqrt{a^2+b^2+c^2}$ to get dc's."
     },
     {
       "id": "mat-three-d-geometry-intro-008",
@@ -103,7 +110,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "$a_1a_2+b_1b_2+c_1c_2 = 2(1)+(-1)(2)+2(0) = 0$, so the lines are perpendicular."
+      "explanation": "$a_1a_2+b_1b_2+c_1c_2 = 2(1)+(-1)(2)+2(0) = 0$, so the lines are perpendicular.",
+      "trick": "Perpendicular check: $a_1a_2+b_1b_2+c_1c_2=0$."
     },
     {
       "id": "mat-three-d-geometry-intro-009",
@@ -116,7 +124,8 @@
       ],
       "answer": 3,
       "difficulty": "medium",
-      "explanation": "$(2,4,-6) = 2\\times(1,2,-3)$, so the direction ratios are proportional — the lines are parallel."
+      "explanation": "$(2,4,-6) = 2\\times(1,2,-3)$, so the direction ratios are proportional — the lines are parallel.",
+      "trick": "Parallel check: one triple is a scalar multiple of the other."
     },
     {
       "id": "mat-three-d-geometry-intro-010",
@@ -129,7 +138,8 @@
       ],
       "answer": 0,
       "difficulty": "hard",
-      "explanation": "On the $YZ$-plane, $x=0$. For ratio $k:1$, $x=\\dfrac{3k+2}{k+1}=0 \\Rightarrow k=-\\dfrac23$, i.e. ratio $-2:3$ (external division)."
+      "explanation": "On the $YZ$-plane, $x=0$. For ratio $k:1$, $x=\\dfrac{3k+2}{k+1}=0 \\Rightarrow k=-\\dfrac23$, i.e. ratio $-2:3$ (external division).",
+      "trick": "Plane $x=0$ divides in ratio $-x_1:x_2$ (external if signs differ)."
     },
     {
       "id": "mat-three-d-geometry-intro-011",
@@ -142,7 +152,8 @@
       ],
       "answer": 1,
       "difficulty": "easy",
-      "explanation": "The $xy$, $yz$ and $zx$ planes are all common to only one point: the origin $(0,0,0)$."
+      "explanation": "The $xy$, $yz$ and $zx$ planes are all common to only one point: the origin $(0,0,0)$.",
+      "trick": "All three coordinate planes meet only at the origin."
     },
     {
       "id": "mat-three-d-geometry-intro-012",
@@ -155,7 +166,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "$k^2+k^2+k^2=1 \\Rightarrow 3k^2=1 \\Rightarrow k=\\pm\\dfrac{1}{\\sqrt3}$ (negative dc's represent the opposite direction)."
+      "explanation": "$k^2+k^2+k^2=1 \\Rightarrow 3k^2=1 \\Rightarrow k=\\pm\\dfrac{1}{\\sqrt3}$ (negative dc's represent the opposite direction).",
+      "trick": "$3k^2=1\\Rightarrow k=\\pm1/\\sqrt3$ — don't forget both signs."
     },
     {
       "id": "mat-three-d-geometry-intro-013",
@@ -168,7 +180,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "Distance from the $x$-axis $=\\sqrt{y^2+z^2}=\\sqrt{16+25}=\\sqrt{41}$."
+      "explanation": "Distance from the $x$-axis $=\\sqrt{y^2+z^2}=\\sqrt{16+25}=\\sqrt{41}$.",
+      "trick": "Distance from $x$-axis $=\\sqrt{y^2+z^2}$ (drop the $x$)."
     },
     {
       "id": "mat-three-d-geometry-intro-014",
@@ -181,7 +194,8 @@
       ],
       "answer": 1,
       "difficulty": "easy",
-      "explanation": "All three coordinates are positive, which corresponds to the first octant."
+      "explanation": "All three coordinates are positive, which corresponds to the first octant.",
+      "trick": "All coordinates positive $\\Rightarrow$ first octant, always."
     },
     {
       "id": "mat-three-d-geometry-intro-015",
@@ -194,7 +208,8 @@
       ],
       "answer": 3,
       "difficulty": "hard",
-      "explanation": "Cross product $(1,-2,-2)\\times(0,2,1) = \\big((-2)(1)-(-2)(2),\\,(-2)(0)-(1)(1),\\,(1)(2)-(-2)(0)\\big) = (2,-1,2)$."
+      "explanation": "Cross product $(1,-2,-2)\\times(0,2,1) = \\big((-2)(1)-(-2)(2),\\,(-2)(0)-(1)(1),\\,(1)(2)-(-2)(0)\\big) = (2,-1,2)$.",
+      "trick": "Perpendicular to both lines $\\Rightarrow$ take their cross product."
     },
     {
       "id": "mat-three-d-geometry-intro-016",
@@ -207,7 +222,8 @@
       ],
       "answer": 2,
       "difficulty": "easy",
-      "explanation": "The 3D distance formula extends the 2D one by adding the squared difference of $z$-coordinates under the root."
+      "explanation": "The 3D distance formula extends the 2D one by adding the squared difference of $z$-coordinates under the root.",
+      "trick": "3D distance = 2D formula plus $(\\Delta z)^2$ under the root."
     },
     {
       "id": "mat-three-d-geometry-intro-017",
@@ -220,7 +236,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "Direction cosines are the direction ratios divided by the magnitude $\\sqrt{a^2+b^2+c^2}$."
+      "explanation": "Direction cosines are the direction ratios divided by the magnitude $\\sqrt{a^2+b^2+c^2}$.",
+      "trick": "$l=\\dfrac{a}{\\sqrt{a^2+b^2+c^2}}$ — dr divided by magnitude."
     },
     {
       "id": "mat-three-d-geometry-intro-018",
@@ -233,7 +250,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "Dr's $=(3,4,12)$; magnitude $=\\sqrt{9+16+144}=13$, giving dc's $\\left(\\dfrac3{13},\\dfrac4{13},\\dfrac{12}{13}\\right)$."
+      "explanation": "Dr's $=(3,4,12)$; magnitude $=\\sqrt{9+16+144}=13$, giving dc's $\\left(\\dfrac3{13},\\dfrac4{13},\\dfrac{12}{13}\\right)$.",
+      "trick": "Find dr's $=Q-P$, then divide each by their magnitude."
     },
     {
       "id": "mat-three-d-geometry-intro-019",
@@ -246,7 +264,8 @@
       ],
       "answer": 3,
       "difficulty": "easy",
-      "explanation": "Distance from the $y$-axis $=\\sqrt{x^2+z^2}=\\sqrt{9+25}=\\sqrt{34}$."
+      "explanation": "Distance from the $y$-axis $=\\sqrt{x^2+z^2}=\\sqrt{9+25}=\\sqrt{34}$.",
+      "trick": "Distance from $y$-axis $=\\sqrt{x^2+z^2}$ (drop the $y$)."
     },
     {
       "id": "mat-three-d-geometry-intro-020",
@@ -259,7 +278,8 @@
       ],
       "answer": 2,
       "difficulty": "easy",
-      "explanation": "Centroid $=\\left(\\dfrac{1+3+5}{3},\\dfrac{2+4+6}{3},\\dfrac{3+5+1}{3}\\right)=(3,4,3)$."
+      "explanation": "Centroid $=\\left(\\dfrac{1+3+5}{3},\\dfrac{2+4+6}{3},\\dfrac{3+5+1}{3}\\right)=(3,4,3)$.",
+      "trick": "Centroid = average of the three vertices' coordinates, componentwise."
     },
     {
       "id": "mat-three-d-geometry-intro-021",
@@ -272,7 +292,8 @@
       ],
       "answer": 3,
       "difficulty": "medium",
-      "explanation": "External division formula: $x=\\dfrac{2(5)-1(2)}{2-1}=8$, similarly $y=9, z=10$."
+      "explanation": "External division formula: $x=\\dfrac{2(5)-1(2)}{2-1}=8$, similarly $y=9, z=10$.",
+      "trick": "External division: same formula but with a minus sign, $\\dfrac{mx_2-nx_1}{m-n}$."
     },
     {
       "id": "mat-three-d-geometry-intro-022",
@@ -285,7 +306,8 @@
       ],
       "answer": 0,
       "difficulty": "hard",
-      "explanation": "On the $XZ$-plane, $y=0$. For ratio $m:n$ from the first to second point, $\\dfrac{m(-5)+n(2)}{m+n}=0 \\Rightarrow m/n=2/5$, i.e. ratio $2:5$."
+      "explanation": "On the $XZ$-plane, $y=0$. For ratio $m:n$ from the first to second point, $\\dfrac{m(-5)+n(2)}{m+n}=0 \\Rightarrow m/n=2/5$, i.e. ratio $2:5$.",
+      "trick": "Plane $y=0$: set the $y$-section-formula expression to zero, solve $m:n$."
     },
     {
       "id": "mat-three-d-geometry-intro-023",
@@ -298,7 +320,8 @@
       ],
       "answer": 1,
       "difficulty": "easy",
-      "explanation": "The $x$-axis points purely in the $x$-direction, so its direction ratios are $(1,0,0)$."
+      "explanation": "The $x$-axis points purely in the $x$-direction, so its direction ratios are $(1,0,0)$.",
+      "trick": "$x$-axis direction ratios are simply $(1,0,0)$."
     },
     {
       "id": "mat-three-d-geometry-intro-024",
@@ -311,7 +334,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "$l=\\cos90^\\circ=0$, $m=\\cos60^\\circ=0.5$, $n=\\cos30^\\circ=\\sqrt3/2$."
+      "explanation": "$l=\\cos90^\\circ=0$, $m=\\cos60^\\circ=0.5$, $n=\\cos30^\\circ=\\sqrt3/2$.",
+      "trick": "$l=\\cos\\alpha,\\ m=\\cos\\beta,\\ n=\\cos\\gamma$ — plug angles in directly."
     },
     {
       "id": "mat-three-d-geometry-intro-025",
@@ -324,7 +348,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "$l^2+m^2+n^2=1 \\Rightarrow \\dfrac19+\\dfrac49+n^2=1 \\Rightarrow n^2=\\dfrac49 \\Rightarrow n=\\dfrac23$."
+      "explanation": "$l^2+m^2+n^2=1 \\Rightarrow \\dfrac19+\\dfrac49+n^2=1 \\Rightarrow n^2=\\dfrac49 \\Rightarrow n=\\dfrac23$.",
+      "trick": "Use $l^2+m^2+n^2=1$ to solve for the missing dc."
     },
     {
       "id": "mat-three-d-geometry-intro-026",
@@ -337,7 +362,8 @@
       ],
       "answer": 3,
       "difficulty": "hard",
-      "explanation": "Direction ratios of both $(1,2,3)$-$(4,5,6)$ and $(4,5,6)$-$(7,8,9)$ are $(3,3,3)$, so the three points lie on the same line."
+      "explanation": "Direction ratios of both $(1,2,3)$-$(4,5,6)$ and $(4,5,6)$-$(7,8,9)$ are $(3,3,3)$, so the three points lie on the same line.",
+      "trick": "Same direction ratios between consecutive pairs $\\Rightarrow$ collinear."
     },
     {
       "id": "mat-three-d-geometry-intro-027",
@@ -350,7 +376,8 @@
       ],
       "answer": 0,
       "difficulty": "easy",
-      "explanation": "$d=\\sqrt{1+4+4}=\\sqrt9=3$."
+      "explanation": "$d=\\sqrt{1+4+4}=\\sqrt9=3$.",
+      "trick": "Distance from origin $=\\sqrt{x^2+y^2+z^2}$."
     },
     {
       "id": "mat-three-d-geometry-intro-028",
@@ -363,7 +390,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "$d=\\sqrt{0^2+(-4)^2+3^2}=\\sqrt{16+9}=5$."
+      "explanation": "$d=\\sqrt{0^2+(-4)^2+3^2}=\\sqrt{16+9}=5$.",
+      "trick": "$d=\\sqrt{(\\Delta x)^2+(\\Delta y)^2+(\\Delta z)^2}$; here $\\Delta x=0$ drops out."
     },
     {
       "id": "mat-three-d-geometry-intro-029",
@@ -376,7 +404,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "Magnitude $=\\sqrt{4+4+1}=3$; dc's $=\\left(\\dfrac23,-\\dfrac23,\\dfrac13\\right)$."
+      "explanation": "Magnitude $=\\sqrt{4+4+1}=3$; dc's $=\\left(\\dfrac23,-\\dfrac23,\\dfrac13\\right)$.",
+      "trick": "Dc's = dr's divided by $\\sqrt{a^2+b^2+c^2}$."
     },
     {
       "id": "mat-three-d-geometry-intro-030",
@@ -389,7 +418,8 @@
       ],
       "answer": 2,
       "difficulty": "hard",
-      "explanation": "Magnitude $=\\sqrt{4+25+16}=\\sqrt{45}=3\\sqrt5$; $l+m+n=\\dfrac{2+5-4}{3\\sqrt5}=\\dfrac{3}{3\\sqrt5}=\\dfrac{1}{\\sqrt5}$."
+      "explanation": "Magnitude $=\\sqrt{4+25+16}=\\sqrt{45}=3\\sqrt5$; $l+m+n=\\dfrac{2+5-4}{3\\sqrt5}=\\dfrac{3}{3\\sqrt5}=\\dfrac{1}{\\sqrt5}$.",
+      "trick": "Find magnitude first, then sum the dc's over that one magnitude."
     },
     {
       "id": "mat-three-d-geometry-intro-031",
@@ -402,7 +432,8 @@
       ],
       "answer": 3,
       "difficulty": "easy",
-      "explanation": "Distance from the $z$-axis $=\\sqrt{x^2+y^2}=\\sqrt{36+64}=10$."
+      "explanation": "Distance from the $z$-axis $=\\sqrt{x^2+y^2}=\\sqrt{36+64}=10$.",
+      "trick": "Distance from $z$-axis $=\\sqrt{x^2+y^2}$ (drop the $z$)."
     },
     {
       "id": "mat-three-d-geometry-intro-032",
@@ -415,7 +446,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "For ratio $m:n$ from the first point, $\\dfrac{m(1)+n(3)}{m+n}=2 \\Rightarrow m+3n=2m+2n \\Rightarrow m=n$, i.e. ratio $1:1$ (the midpoint)."
+      "explanation": "For ratio $m:n$ from the first point, $\\dfrac{m(1)+n(3)}{m+n}=2 \\Rightarrow m+3n=2m+2n \\Rightarrow m=n$, i.e. ratio $1:1$ (the midpoint).",
+      "trick": "Set the section-formula $x$-expression equal to the known $x$-coordinate, solve $m:n$."
     },
     {
       "id": "mat-three-d-geometry-intro-033",
@@ -428,7 +460,8 @@
       ],
       "answer": 3,
       "difficulty": "medium",
-      "explanation": "Direction cosines must satisfy $l^2+m^2+n^2=1$. Only $\\left(-\\dfrac1{\\sqrt3},-\\dfrac1{\\sqrt3},-\\dfrac1{\\sqrt3}\\right)$ gives $3\\times\\dfrac13=1$; the others do not."
+      "explanation": "Direction cosines must satisfy $l^2+m^2+n^2=1$. Only $\\left(-\\dfrac1{\\sqrt3},-\\dfrac1{\\sqrt3},-\\dfrac1{\\sqrt3}\\right)$ gives $3\\times\\dfrac13=1$; the others do not.",
+      "trick": "Check $l^2+m^2+n^2=1$ for each option — only one satisfies it."
     },
     {
       "id": "mat-three-d-geometry-intro-034",
@@ -441,7 +474,8 @@
       ],
       "answer": 2,
       "difficulty": "hard",
-      "explanation": "$\\cos\\theta=\\dfrac{1(2)+2(2)+(-2)(1)}{\\sqrt{1+4+4}\\sqrt{4+4+1}}=\\dfrac{4}{3\\times3}=\\dfrac49$."
+      "explanation": "$\\cos\\theta=\\dfrac{1(2)+2(2)+(-2)(1)}{\\sqrt{1+4+4}\\sqrt{4+4+1}}=\\dfrac{4}{3\\times3}=\\dfrac49$.",
+      "trick": "$\\cos\\theta=\\dfrac{a_1a_2+b_1b_2+c_1c_2}{|\\vec{d_1}||\\vec{d_2}|}$ — dot product over magnitudes."
     },
     {
       "id": "mat-three-d-geometry-intro-035",
@@ -454,7 +488,8 @@
       ],
       "answer": 0,
       "difficulty": "easy",
-      "explanation": "The distance formula from the origin is the square root of the sum of the squares of the coordinates."
+      "explanation": "The distance formula from the origin is the square root of the sum of the squares of the coordinates.",
+      "trick": "Distance from origin: just $\\sqrt{x^2+y^2+z^2}$, no shortcuts needed."
     },
     {
       "id": "mat-three-d-geometry-intro-036",
@@ -467,7 +502,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "Dr's $=(2-2,3-3,4-(-1))=(0,0,5)$, proportional to $(0,0,1)$ — the line is parallel to the $z$-axis."
+      "explanation": "Dr's $=(2-2,3-3,4-(-1))=(0,0,5)$, proportional to $(0,0,1)$ — the line is parallel to the $z$-axis.",
+      "trick": "Only $z$ changes between the points $\\Rightarrow$ line is parallel to $z$-axis."
     },
     {
       "id": "mat-three-d-geometry-intro-037",
@@ -480,7 +516,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "$1(2)+(-2)(3)+1(4) = 2-6+4=0$, so the lines are perpendicular."
+      "explanation": "$1(2)+(-2)(3)+1(4) = 2-6+4=0$, so the lines are perpendicular.",
+      "trick": "Dot product of dr's $=0$ means perpendicular."
     },
     {
       "id": "mat-three-d-geometry-intro-038",
@@ -493,7 +530,8 @@
       ],
       "answer": 3,
       "difficulty": "hard",
-      "explanation": "Let the point be $(0,0,z)$. Setting the squared distances equal: $5+(z-3)^2=13+(z-1)^2 \\Rightarrow -4z=0 \\Rightarrow z=0$, giving $(0,0,0)$."
+      "explanation": "Let the point be $(0,0,z)$. Setting the squared distances equal: $5+(z-3)^2=13+(z-1)^2 \\Rightarrow -4z=0 \\Rightarrow z=0$, giving $(0,0,0)$.",
+      "trick": "Point on $z$-axis is $(0,0,z)$; equate squared distances to the two points."
     },
     {
       "id": "mat-three-d-geometry-intro-039",
@@ -506,7 +544,8 @@
       ],
       "answer": 1,
       "difficulty": "easy",
-      "explanation": "The $xy$, $yz$ and $zx$ planes together divide space into 8 octants."
+      "explanation": "The $xy$, $yz$ and $zx$ planes together divide space into 8 octants.",
+      "trick": "Three coordinate planes always split space into 8 octants."
     },
     {
       "id": "mat-three-d-geometry-intro-040",
@@ -519,7 +558,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "The $z$-axis points purely in the $z$-direction, so its direction cosines are $(0,0,1)$."
+      "explanation": "The $z$-axis points purely in the $z$-direction, so its direction cosines are $(0,0,1)$.",
+      "trick": "$z$-axis direction cosines are simply $(0,0,1)$."
     }
   ]
 }

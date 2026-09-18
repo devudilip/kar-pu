@@ -12,7 +12,8 @@
       ],
       "answer": 2,
       "difficulty": "easy",
-      "explanation": "$3x < 12 \\Rightarrow x < 4$."
+      "explanation": "$3x < 12 \\Rightarrow x < 4$.",
+      "trick": "Isolate $x$ like an equation; no negative multiply here, sign stays."
     },
     {
       "id": "mat-linear-inequalities-002",
@@ -25,7 +26,8 @@
       ],
       "answer": 3,
       "difficulty": "medium",
-      "explanation": "$-2x \\ge 4 \\Rightarrow x \\le -2$ (sign flips on dividing by $-2$)."
+      "explanation": "$-2x \\ge 4 \\Rightarrow x \\le -2$ (sign flips on dividing by $-2$).",
+      "trick": "Dividing by a negative number flips the inequality sign."
     },
     {
       "id": "mat-linear-inequalities-003",
@@ -38,7 +40,8 @@
       ],
       "answer": 1,
       "difficulty": "easy",
-      "explanation": "$2x < 9 \\Rightarrow x < 4.5$; natural numbers satisfying this: $1,2,3,4$."
+      "explanation": "$2x < 9 \\Rightarrow x < 4.5$; natural numbers satisfying this: $1,2,3,4$.",
+      "trick": "Solve for $x$, then keep only the natural numbers in range."
     },
     {
       "id": "mat-linear-inequalities-004",
@@ -51,7 +54,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "$|x-2|<3 \\Rightarrow -3<x-2<3 \\Rightarrow -1<x<5$."
+      "explanation": "$|x-2|<3 \\Rightarrow -3<x-2<3 \\Rightarrow -1<x<5$.",
+      "trick": "$|x-a|<r \\Rightarrow a-r<x<a+r$."
     },
     {
       "id": "mat-linear-inequalities-005",
@@ -64,7 +68,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "$2x+1 \\ge 5 \\Rightarrow x\\ge2$, or $2x+1\\le-5 \\Rightarrow x\\le-3$."
+      "explanation": "$2x+1 \\ge 5 \\Rightarrow x\\ge2$, or $2x+1\\le-5 \\Rightarrow x\\le-3$.",
+      "trick": "$|x-a|\\ge r \\Rightarrow x\\le a-r$ or $x\\ge a+r$."
     },
     {
       "id": "mat-linear-inequalities-006",
@@ -77,7 +82,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "Add 1: $-2 < 2x \\le 6$; divide by 2: $-1 < x \\le 3$."
+      "explanation": "Add 1: $-2 < 2x \\le 6$; divide by 2: $-1 < x \\le 3$.",
+      "trick": "Apply the same operation to all three parts of the compound inequality together."
     },
     {
       "id": "mat-linear-inequalities-007",
@@ -90,7 +96,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "Testing origin $(0,0)$: $0 \\le 4$ is true, so the origin's side (below the line) is the solution region, boundary included since $\\le$."
+      "explanation": "Testing origin $(0,0)$: $0 \\le 4$ is true, so the origin's side (below the line) is the solution region, boundary included since $\\le$.",
+      "trick": "Test the origin in the inequality to find which half-plane it's in."
     },
     {
       "id": "mat-linear-inequalities-008",
@@ -103,7 +110,8 @@
       ],
       "answer": 0,
       "difficulty": "hard",
-      "explanation": "For same-sign numbers, taking reciprocals reverses the inequality: $a<b \\Rightarrow 1/a>1/b$ (e.g. $a=-3,b=-1$: $1/a=-1/3 > 1/b=-1$)."
+      "explanation": "For same-sign numbers, taking reciprocals reverses the inequality: $a<b \\Rightarrow 1/a>1/b$ (e.g. $a=-3,b=-1$: $1/a=-1/3 > 1/b=-1$).",
+      "trick": "Same-sign reciprocals flip the inequality direction."
     },
     {
       "id": "mat-linear-inequalities-009",
@@ -116,7 +124,8 @@
       ],
       "answer": 2,
       "difficulty": "easy",
-      "explanation": "Substituting $(0,0)$: $2(0)+3(0)=0>6$ is false, so the origin does not satisfy the inequality."
+      "explanation": "Substituting $(0,0)$: $2(0)+3(0)=0>6$ is false, so the origin does not satisfy the inequality.",
+      "trick": "Plug $(0,0)$ straight into the inequality and check if it holds."
     },
     {
       "id": "mat-linear-inequalities-010",
@@ -129,7 +138,8 @@
       ],
       "answer": 0,
       "difficulty": "hard",
-      "explanation": "Multiply both sides by 6: $2(x-2) \\ge 3(x-1) \\Rightarrow 2x-4 \\ge 3x-3 \\Rightarrow -1 \\ge x \\Rightarrow x\\le-1$."
+      "explanation": "Multiply both sides by 6: $2(x-2) \\ge 3(x-1) \\Rightarrow 2x-4 \\ge 3x-3 \\Rightarrow -1 \\ge x \\Rightarrow x\\le-1$.",
+      "trick": "Clear denominators by multiplying by their LCM (a positive number) first."
     },
     {
       "id": "mat-linear-inequalities-011",
@@ -142,7 +152,8 @@
       ],
       "answer": 3,
       "difficulty": "easy",
-      "explanation": "'At least 40' means marks must be 40 or more, i.e. $x \\ge 40$."
+      "explanation": "'At least 40' means marks must be 40 or more, i.e. $x \\ge 40$.",
+      "trick": "'At least' translates to $\\ge$."
     },
     {
       "id": "mat-linear-inequalities-012",
@@ -155,7 +166,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "$x\\ge0,y\\ge0$ restricts to the first quadrant; $x+y\\le5$ cuts off a triangle with vertices $(0,0),(5,0),(0,5)$ — a bounded region."
+      "explanation": "$x\\ge0,y\\ge0$ restricts to the first quadrant; $x+y\\le5$ cuts off a triangle with vertices $(0,0),(5,0),(0,5)$ — a bounded region.",
+      "trick": "$x,y\\ge0$ pins the region to quadrant I; add the line to bound it."
     },
     {
       "id": "mat-linear-inequalities-013",
@@ -168,7 +180,8 @@
       ],
       "answer": 0,
       "difficulty": "easy",
-      "explanation": "Dividing by $-4$ (negative) flips the sign: $x \\le -3$."
+      "explanation": "Dividing by $-4$ (negative) flips the sign: $x \\le -3$.",
+      "trick": "Dividing by a negative coefficient flips the inequality."
     },
     {
       "id": "mat-linear-inequalities-014",
@@ -181,7 +194,8 @@
       ],
       "answer": 1,
       "difficulty": "easy",
-      "explanation": "Taking the intersection ('and') of both conditions gives $-2 < x < 5$."
+      "explanation": "Taking the intersection ('and') of both conditions gives $-2 < x < 5$.",
+      "trick": "'And' of two conditions means take their intersection on the number line."
     },
     {
       "id": "mat-linear-inequalities-015",
@@ -194,7 +208,8 @@
       ],
       "answer": 2,
       "difficulty": "easy",
-      "explanation": "$5x-3x < 1+3 \\Rightarrow 2x < 4 \\Rightarrow x < 2$."
+      "explanation": "$5x-3x < 1+3 \\Rightarrow 2x < 4 \\Rightarrow x < 2$.",
+      "trick": "Collect $x$ terms on one side, constants on the other; sign unchanged (positive divide)."
     },
     {
       "id": "mat-linear-inequalities-016",
@@ -207,7 +222,8 @@
       ],
       "answer": 3,
       "difficulty": "hard",
-      "explanation": "At $C=30$: $F = 9(30)/5+32 = 54+32=86$. At $C=40$: $F=72+32=104$. So $86 \\le F \\le 104$."
+      "explanation": "At $C=30$: $F = 9(30)/5+32 = 54+32=86$. At $C=40$: $F=72+32=104$. So $86 \\le F \\le 104$.",
+      "trick": "Plug both endpoints of $C$ into the linear formula to get the $F$ range."
     },
     {
       "id": "mat-linear-inequalities-017",
@@ -220,7 +236,8 @@
       ],
       "answer": 3,
       "difficulty": "medium",
-      "explanation": "Check $(2,2)$: $x-y=0\\le1$ true; $x+y=4\\ge3$ true. Both satisfied, so $(2,2)$ is in the solution region."
+      "explanation": "Check $(2,2)$: $x-y=0\\le1$ true; $x+y=4\\ge3$ true. Both satisfied, so $(2,2)$ is in the solution region.",
+      "trick": "Test each option point directly in both inequalities."
     },
     {
       "id": "mat-linear-inequalities-018",
@@ -233,7 +250,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "$|x| \\ge 0$ always, so $|x|\\le0$ forces $|x|=0$, giving the single solution $x=0$."
+      "explanation": "$|x| \\ge 0$ always, so $|x|\\le0$ forces $|x|=0$, giving the single solution $x=0$.",
+      "trick": "$|x|\\ge0$ always, so $|x|\\le0$ forces $x=0$ only."
     },
     {
       "id": "mat-linear-inequalities-019",
@@ -246,7 +264,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "Add 4: $6 \\le 3x \\le 15$; divide by 3: $2 \\le x \\le 5$."
+      "explanation": "Add 4: $6 \\le 3x \\le 15$; divide by 3: $2 \\le x \\le 5$.",
+      "trick": "Undo operations on all three parts together: add, then divide."
     },
     {
       "id": "mat-linear-inequalities-020",
@@ -259,7 +278,8 @@
       ],
       "answer": 2,
       "difficulty": "easy",
-      "explanation": "'At most ₹100' spent means total cost $8n$ must satisfy $8n \\le 100$, giving $n \\le 12.5$, so at most 12 pens."
+      "explanation": "'At most ₹100' spent means total cost $8n$ must satisfy $8n \\le 100$, giving $n \\le 12.5$, so at most 12 pens.",
+      "trick": "'At most' translates to $\\le$; solve then floor to a whole number."
     },
     {
       "id": "mat-linear-inequalities-021",
@@ -272,7 +292,8 @@
       ],
       "answer": 2,
       "difficulty": "easy",
-      "explanation": "$2x+1<15 \\Rightarrow 2x<14 \\Rightarrow x<7$."
+      "explanation": "$2x+1<15 \\Rightarrow 2x<14 \\Rightarrow x<7$.",
+      "trick": "Clear the fraction by multiplying (positive), then isolate $x$."
     },
     {
       "id": "mat-linear-inequalities-022",
@@ -285,7 +306,8 @@
       ],
       "answer": 0,
       "difficulty": "easy",
-      "explanation": "$3x+2>x-4 \\Rightarrow 2x>-6 \\Rightarrow x>-3$."
+      "explanation": "$3x+2>x-4 \\Rightarrow 2x>-6 \\Rightarrow x>-3$.",
+      "trick": "Move all $x$ to one side, constants to the other, sign unchanged."
     },
     {
       "id": "mat-linear-inequalities-023",
@@ -298,7 +320,8 @@
       ],
       "answer": 3,
       "difficulty": "medium",
-      "explanation": "The integers are $-3,-2,-1,0,1$, which is 5 integers ($2$ itself is excluded)."
+      "explanation": "The integers are $-3,-2,-1,0,1$, which is 5 integers ($2$ itself is excluded).",
+      "trick": "List integers between the bounds; upper end excluded if strict."
     },
     {
       "id": "mat-linear-inequalities-024",
@@ -311,7 +334,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "$2x<10 \\Rightarrow x<5$; the largest natural number less than 5 is 4."
+      "explanation": "$2x<10 \\Rightarrow x<5$; the largest natural number less than 5 is 4.",
+      "trick": "Solve the inequality, then pick the largest integer strictly below the bound."
     },
     {
       "id": "mat-linear-inequalities-025",
@@ -324,7 +348,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "$|x+3|>5$ means $x+3>5$ or $x+3<-5$, giving $x>2$ or $x<-8$."
+      "explanation": "$|x+3|>5$ means $x+3>5$ or $x+3<-5$, giving $x>2$ or $x<-8$.",
+      "trick": "$|x-a|>r \\Rightarrow x>a+r$ or $x<a-r$."
     },
     {
       "id": "mat-linear-inequalities-026",
@@ -337,7 +362,8 @@
       ],
       "answer": 0,
       "difficulty": "easy",
-      "explanation": "$|x|>a$ means $x$ lies outside $[-a,a]$, i.e. $x<-a$ or $x>a$."
+      "explanation": "$|x|>a$ means $x$ lies outside $[-a,a]$, i.e. $x<-a$ or $x>a$.",
+      "trick": "$|x|>a \\Rightarrow x<-a$ or $x>a$ — outside the interval."
     },
     {
       "id": "mat-linear-inequalities-027",
@@ -350,7 +376,8 @@
       ],
       "answer": 3,
       "difficulty": "medium",
-      "explanation": "$-5x \\le -10$; dividing by $-5$ flips the inequality: $x \\ge 2$."
+      "explanation": "$-5x \\le -10$; dividing by $-5$ flips the inequality: $x \\ge 2$.",
+      "trick": "Dividing by a negative coefficient flips the inequality sign."
     },
     {
       "id": "mat-linear-inequalities-028",
@@ -363,7 +390,8 @@
       ],
       "answer": 2,
       "difficulty": "easy",
-      "explanation": "$x\\ge2$ includes the vertical line $x=2$ and every point with $x$-coordinate at least 2, i.e. the region to its right."
+      "explanation": "$x\\ge2$ includes the vertical line $x=2$ and every point with $x$-coordinate at least 2, i.e. the region to its right.",
+      "trick": "$x\\ge k$ is everything to the right of the vertical line $x=k$."
     },
     {
       "id": "mat-linear-inequalities-029",
@@ -376,7 +404,8 @@
       ],
       "answer": 3,
       "difficulty": "easy",
-      "explanation": "$y<3$ is a strict inequality, so it is the open half-plane below the dashed line $y=3$."
+      "explanation": "$y<3$ is a strict inequality, so it is the open half-plane below the dashed line $y=3$.",
+      "trick": "Strict inequality $\\Rightarrow$ open (dashed) boundary, region excludes the line."
     },
     {
       "id": "mat-linear-inequalities-030",
@@ -389,7 +418,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "$\\dfrac{3x+2x}{6}<5 \\Rightarrow \\dfrac{5x}{6}<5 \\Rightarrow x<6$."
+      "explanation": "$\\dfrac{3x+2x}{6}<5 \\Rightarrow \\dfrac{5x}{6}<5 \\Rightarrow x<6$.",
+      "trick": "Clear fractions via LCM (positive), then isolate $x$."
     },
     {
       "id": "mat-linear-inequalities-031",
@@ -402,7 +432,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "Multiplying an inequality by a negative number reverses it, so $a>b$ gives $ac<bc$ when $c<0$."
+      "explanation": "Multiplying an inequality by a negative number reverses it, so $a>b$ gives $ac<bc$ when $c<0$.",
+      "trick": "Multiplying by a negative $c$ flips $>$ to $<$."
     },
     {
       "id": "mat-linear-inequalities-032",
@@ -415,7 +446,8 @@
       ],
       "answer": 2,
       "difficulty": "hard",
-      "explanation": "Multiply by 2: $14 \\le 3x+11 \\le 22$; subtract 11: $3\\le 3x\\le 11$; divide by 3: $1\\le x\\le\\dfrac{11}{3}$."
+      "explanation": "Multiply by 2: $14 \\le 3x+11 \\le 22$; subtract 11: $3\\le 3x\\le 11$; divide by 3: $1\\le x\\le\\dfrac{11}{3}$.",
+      "trick": "Undo in reverse order across all three parts: multiply, subtract, divide."
     },
     {
       "id": "mat-linear-inequalities-033",
@@ -428,7 +460,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "$\\dfrac{62+x}{2}\\ge70 \\Rightarrow 62+x\\ge140 \\Rightarrow x\\ge78$."
+      "explanation": "$\\dfrac{62+x}{2}\\ge70 \\Rightarrow 62+x\\ge140 \\Rightarrow x\\ge78$.",
+      "trick": "Average $\\ge$ target $\\Rightarrow$ sum $\\ge$ target$\\times$count; solve for $x$."
     },
     {
       "id": "mat-linear-inequalities-034",
@@ -441,7 +474,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "$4x-8\\ge2x+6 \\Rightarrow 2x\\ge14 \\Rightarrow x\\ge7$."
+      "explanation": "$4x-8\\ge2x+6 \\Rightarrow 2x\\ge14 \\Rightarrow x\\ge7$.",
+      "trick": "Expand both sides first, then collect $x$ terms — positive divide keeps sign."
     },
     {
       "id": "mat-linear-inequalities-035",
@@ -454,7 +488,8 @@
       ],
       "answer": 3,
       "difficulty": "medium",
-      "explanation": "No real number can be both strictly less than 3 and strictly greater than 3, so the solution set is empty."
+      "explanation": "No real number can be both strictly less than 3 and strictly greater than 3, so the solution set is empty.",
+      "trick": "No number can be both $<3$ and $>3$ — the answer is always the empty set."
     },
     {
       "id": "mat-linear-inequalities-036",
@@ -467,7 +502,8 @@
       ],
       "answer": 1,
       "difficulty": "easy",
-      "explanation": "The inequality is strict at $-2$ (excluded), so $x=-2$ does not satisfy it, while $0$, $3$ and $5$ all do."
+      "explanation": "The inequality is strict at $-2$ (excluded), so $x=-2$ does not satisfy it, while $0$, $3$ and $5$ all do.",
+      "trick": "Check the strict/non-strict boundary carefully — endpoints matter."
     },
     {
       "id": "mat-linear-inequalities-037",
@@ -480,7 +516,8 @@
       ],
       "answer": 3,
       "difficulty": "medium",
-      "explanation": "$|x-1|\\le4 \\Rightarrow -4\\le x-1\\le4 \\Rightarrow -3\\le x\\le5$."
+      "explanation": "$|x-1|\\le4 \\Rightarrow -4\\le x-1\\le4 \\Rightarrow -3\\le x\\le5$.",
+      "trick": "$|x-a|\\le r \\Rightarrow a-r\\le x\\le a+r$."
     },
     {
       "id": "mat-linear-inequalities-038",
@@ -493,7 +530,8 @@
       ],
       "answer": 0,
       "difficulty": "easy",
-      "explanation": "The four inequalities bound $x$ between 0 and 4 and $y$ between 0 and 3, giving a rectangle with vertices $(0,0),(4,0),(4,3),(0,3)$."
+      "explanation": "The four inequalities bound $x$ between 0 and 4 and $y$ between 0 and 3, giving a rectangle with vertices $(0,0),(4,0),(4,3),(0,3)$.",
+      "trick": "Two-sided bounds on $x$ and $y$ separately give a rectangle."
     },
     {
       "id": "mat-linear-inequalities-039",
@@ -506,7 +544,8 @@
       ],
       "answer": 2,
       "difficulty": "easy",
-      "explanation": "$6x-3\\ge4x+5 \\Rightarrow 2x\\ge8 \\Rightarrow x\\ge4$."
+      "explanation": "$6x-3\\ge4x+5 \\Rightarrow 2x\\ge8 \\Rightarrow x\\ge4$.",
+      "trick": "Collect $x$ terms on one side; positive coefficient keeps the sign."
     },
     {
       "id": "mat-linear-inequalities-040",
@@ -519,7 +558,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "$50+12x\\le200 \\Rightarrow 12x\\le150 \\Rightarrow x\\le12.5$; the largest whole number of km is 12."
+      "explanation": "$50+12x\\le200 \\Rightarrow 12x\\le150 \\Rightarrow x\\le12.5$; the largest whole number of km is 12.",
+      "trick": "Set up cost $\\le$ budget, solve, then floor to a whole number."
     }
   ]
 }

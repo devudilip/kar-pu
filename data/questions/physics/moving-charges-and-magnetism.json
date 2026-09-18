@@ -12,7 +12,8 @@
       ],
       "answer": 3,
       "difficulty": "easy",
-      "explanation": "$qvB = \\dfrac{mv^2}{r} \\Rightarrow r = \\dfrac{mv}{qB}$."
+      "explanation": "$qvB = \\dfrac{mv^2}{r} \\Rightarrow r = \\dfrac{mv}{qB}$.",
+      "trick": "$qvB=mv^2/r$ gives $r=mv/qB$ — memorise this one formula cold."
     },
     {
       "id": "phy-moving-charges-and-magnetism-002",
@@ -25,7 +26,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "$T = 2\\pi m/(qB)$ has no $v$ or $r$ dependence, which is why a fixed-frequency oscillator can accelerate the particle throughout."
+      "explanation": "$T = 2\\pi m/(qB)$ has no $v$ or $r$ dependence, which is why a fixed-frequency oscillator can accelerate the particle throughout.",
+      "trick": "Cyclotron period $T=2\\pi m/qB$ has no $v$ — always independent of speed."
     },
     {
       "id": "phy-moving-charges-and-magnetism-003",
@@ -38,7 +40,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "$F/l = \\mu_0I_1I_2/(2\\pi d) = (4\\pi\\times10^{-7}\\times3\\times5)/(2\\pi\\times0.02) = (2\\times10^{-7}\\times15)/0.02 = 1.5\\times10^{-4}$ N/m; currents in the same direction attract."
+      "explanation": "$F/l = \\mu_0I_1I_2/(2\\pi d) = (4\\pi\\times10^{-7}\\times3\\times5)/(2\\pi\\times0.02) = (2\\times10^{-7}\\times15)/0.02 = 1.5\\times10^{-4}$ N/m; currents in the same direction attract.",
+      "trick": "$F/l=\\mu_0I_1I_2/2\\pi d$; same direction currents ALWAYS attract."
     },
     {
       "id": "phy-moving-charges-and-magnetism-004",
@@ -51,7 +54,8 @@
       ],
       "answer": 1,
       "difficulty": "easy",
-      "explanation": "$F = BIl = 0.2\\times4\\times0.5 = 0.4$ N."
+      "explanation": "$F = BIl = 0.2\\times4\\times0.5 = 0.4$ N.",
+      "trick": "$F=BIl$ — perpendicular case, no $\\sin\\theta$ factor needed."
     },
     {
       "id": "phy-moving-charges-and-magnetism-005",
@@ -64,7 +68,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "$B = \\mu_0NI/(2R) = (4\\pi\\times10^{-7}\\times20\\times5)/(2\\times0.1) = (1.2566\\times10^{-4})/0.2 = 6.28\\times10^{-4}$ T."
+      "explanation": "$B = \\mu_0NI/(2R) = (4\\pi\\times10^{-7}\\times20\\times5)/(2\\times0.1) = (1.2566\\times10^{-4})/0.2 = 6.28\\times10^{-4}$ T.",
+      "trick": "$B=\\mu_0NI/2R$ at coil centre — multiply by turns, don't forget."
     },
     {
       "id": "phy-moving-charges-and-magnetism-006",
@@ -77,7 +82,8 @@
       ],
       "answer": 1,
       "difficulty": "easy",
-      "explanation": "$B = \\mu_0nI = 4\\pi\\times10^{-7}\\times2000\\times5 = 4\\pi\\times10^{-3}$ T."
+      "explanation": "$B = \\mu_0nI = 4\\pi\\times10^{-7}\\times2000\\times5 = 4\\pi\\times10^{-3}$ T.",
+      "trick": "Solenoid: $B=\\mu_0nI$, with $n$ = turns PER METRE, not total turns."
     },
     {
       "id": "phy-moving-charges-and-magnetism-007",
@@ -90,7 +96,8 @@
       ],
       "answer": 3,
       "difficulty": "easy",
-      "explanation": "Undeflected when $qE=qvB \\Rightarrow v=E/B = 4\\times10^4/0.2 = 2\\times10^5$ m/s."
+      "explanation": "Undeflected when $qE=qvB \\Rightarrow v=E/B = 4\\times10^4/0.2 = 2\\times10^5$ m/s.",
+      "trick": "Velocity selector: undeflected speed is always $v=E/B$, simple ratio."
     },
     {
       "id": "phy-moving-charges-and-magnetism-008",
@@ -103,7 +110,8 @@
       ],
       "answer": 2,
       "difficulty": "easy",
-      "explanation": "When the loop's plane is parallel to $B$, its normal (and $\\vec m$) is perpendicular to $B$, so $\\theta=90^\\circ$: $\\tau = mB\\sin90^\\circ = mB$, the maximum value."
+      "explanation": "When the loop's plane is parallel to $B$, its normal (and $\\vec m$) is perpendicular to $B$, so $\\theta=90^\\circ$: $\\tau = mB\\sin90^\\circ = mB$, the maximum value.",
+      "trick": "Plane parallel to $B$ means $\\vec m\\perp\\vec B$: torque is maximum, $\\tau=mB$."
     },
     {
       "id": "phy-moving-charges-and-magnetism-009",
@@ -116,7 +124,8 @@
       ],
       "answer": 3,
       "difficulty": "medium",
-      "explanation": "$S = \\dfrac{I_gG}{I-I_g} = \\dfrac{10^{-3}\\times100}{1-10^{-3}} \\approx \\dfrac{0.1}{1} = 0.1\\,\\Omega$."
+      "explanation": "$S = \\dfrac{I_gG}{I-I_g} = \\dfrac{10^{-3}\\times100}{1-10^{-3}} \\approx \\dfrac{0.1}{1} = 0.1\\,\\Omega$.",
+      "trick": "Shunt $S=I_gG/(I-I_g)$ — always much smaller than $G$ for ammeter conversion."
     },
     {
       "id": "phy-moving-charges-and-magnetism-010",
@@ -129,7 +138,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "$R = V/I_g - G = 10/(2\\times10^{-3}) - 50 = 5000-50 = 4950\\,\\Omega$."
+      "explanation": "$R = V/I_g - G = 10/(2\\times10^{-3}) - 50 = 5000-50 = 4950\\,\\Omega$.",
+      "trick": "Series resistance $R=V/I_g-G$ — always much bigger than $G$ for voltmeter conversion."
     },
     {
       "id": "phy-moving-charges-and-magnetism-011",
@@ -142,7 +152,8 @@
       ],
       "answer": 2,
       "difficulty": "easy",
-      "explanation": "Ampere's law: $\\oint\\vec{B}\\cdot d\\vec{l} = \\mu_0I_{enc}$, where $I_{enc}$ is only the current passing through the surface bounded by the loop."
+      "explanation": "Ampere's law: $\\oint\\vec{B}\\cdot d\\vec{l} = \\mu_0I_{enc}$, where $I_{enc}$ is only the current passing through the surface bounded by the loop.",
+      "trick": "Ampere's law uses only ENCLOSED current, ignore currents outside the loop."
     },
     {
       "id": "phy-moving-charges-and-magnetism-012",
@@ -155,7 +166,8 @@
       ],
       "answer": 0,
       "difficulty": "easy",
-      "explanation": "$F = qvB\\sin\\theta$; when velocity is parallel to $B$, $\\theta=0$, so $F=0$."
+      "explanation": "$F = qvB\\sin\\theta$; when velocity is parallel to $B$, $\\theta=0$, so $F=0$.",
+      "trick": "Velocity parallel to $B$ → $\\sin\\theta=0$ → force is always zero."
     },
     {
       "id": "phy-moving-charges-and-magnetism-013",
@@ -168,7 +180,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "$B = \\mu_0NI/(2\\pi r) = (4\\pi\\times10^{-7}\\times1000\\times2)/(2\\pi\\times0.2) = (8\\pi\\times10^{-4})/(0.4\\pi) = 2\\times10^{-3}$ T."
+      "explanation": "$B = \\mu_0NI/(2\\pi r) = (4\\pi\\times10^{-7}\\times1000\\times2)/(2\\pi\\times0.2) = (8\\pi\\times10^{-4})/(0.4\\pi) = 2\\times10^{-3}$ T.",
+      "trick": "Toroid: $B=\\mu_0NI/2\\pi r$ — same form as straight wire but with total turns $N$."
     },
     {
       "id": "phy-moving-charges-and-magnetism-014",
@@ -181,7 +194,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "$B = \\mu_0NIR^2/[2(R^2+x^2)^{3/2}]$; for $x\\gg R$, this reduces to $B \\propto R^2/x^3$, i.e. $1/x^3$, similar to a magnetic dipole field."
+      "explanation": "$B = \\mu_0NIR^2/[2(R^2+x^2)^{3/2}]$; for $x\\gg R$, this reduces to $B \\propto R^2/x^3$, i.e. $1/x^3$, similar to a magnetic dipole field.",
+      "trick": "Far axial field of a loop falls as $1/x^3$ — dipole-like, remember the cube."
     },
     {
       "id": "phy-moving-charges-and-magnetism-015",
@@ -194,7 +208,8 @@
       ],
       "answer": 3,
       "difficulty": "medium",
-      "explanation": "As the coil swings, eddy currents induced in the conducting (non-magnetic) frame oppose the motion, damping oscillations so the pointer comes to rest quickly without overshooting."
+      "explanation": "As the coil swings, eddy currents induced in the conducting (non-magnetic) frame oppose the motion, damping oscillations so the pointer comes to rest quickly without overshooting.",
+      "trick": "Aluminium frame in galvanometer = eddy-current damping, for quick, non-oscillating settling."
     },
     {
       "id": "phy-moving-charges-and-magnetism-016",
@@ -207,7 +222,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "The velocity component along $B$ is unaffected (uniform motion) while the perpendicular component causes circular motion; combined, the path is a helix."
+      "explanation": "The velocity component along $B$ is unaffected (uniform motion) while the perpendicular component causes circular motion; combined, the path is a helix.",
+      "trick": "Velocity at an angle (not 0/90) to $B$ → path is always a helix."
     },
     {
       "id": "phy-moving-charges-and-magnetism-017",
@@ -220,7 +236,8 @@
       ],
       "answer": 2,
       "difficulty": "hard",
-      "explanation": "The two fields are equal in magnitude ($B_0$) and mutually perpendicular, so the resultant is $\\sqrt{B_0^2+B_0^2} = B_0\\sqrt2$."
+      "explanation": "The two fields are equal in magnitude ($B_0$) and mutually perpendicular, so the resultant is $\\sqrt{B_0^2+B_0^2} = B_0\\sqrt2$.",
+      "trick": "Perpendicular equal fields combine as $B_0\\sqrt2$ (Pythagoras), same trick as force addition."
     },
     {
       "id": "phy-moving-charges-and-magnetism-018",
@@ -233,7 +250,8 @@
       ],
       "answer": 1,
       "difficulty": "easy",
-      "explanation": "The SI unit of $B$ is the tesla (T), equal to Wb/m$^2$; gauss is a CGS unit ($1\\,\\text{T}=10^4$ G)."
+      "explanation": "The SI unit of $B$ is the tesla (T), equal to Wb/m$^2$; gauss is a CGS unit ($1\\,\\text{T}=10^4$ G).",
+      "trick": "SI unit of $B$ is tesla; gauss is CGS ($1\\,T=10^4\\,G$) — don't confuse."
     },
     {
       "id": "phy-moving-charges-and-magnetism-019",
@@ -246,7 +264,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "Potential energy $U=-mB\\cos\\theta$ is minimum (stable) when $\\theta=0$, i.e. $\\vec m$ parallel to $\\vec B$."
+      "explanation": "Potential energy $U=-mB\\cos\\theta$ is minimum (stable) when $\\theta=0$, i.e. $\\vec m$ parallel to $\\vec B$.",
+      "trick": "Stable equilibrium: $\\vec m\\parallel\\vec B$ (minimum $U=-mB\\cos\\theta$), same logic as dipoles."
     },
     {
       "id": "phy-moving-charges-and-magnetism-020",
@@ -259,7 +278,8 @@
       ],
       "answer": 3,
       "difficulty": "medium",
-      "explanation": "Current sensitivity $= NAB/k$; it increases with more turns $N$, larger area $A$, stronger field $B$, and a smaller torsional constant $k$."
+      "explanation": "Current sensitivity $= NAB/k$; it increases with more turns $N$, larger area $A$, stronger field $B$, and a smaller torsional constant $k$.",
+      "trick": "Sensitivity $=NAB/k$: more turns/area/field, weaker spring, all raise sensitivity."
     },
     {
       "id": "phy-moving-charges-and-magnetism-021",
@@ -272,7 +292,8 @@
       ],
       "answer": 2,
       "difficulty": "easy",
-      "explanation": "The Lorentz force combines the electric and magnetic contributions: $\\vec F=q(\\vec E+\\vec v\\times\\vec B)$."
+      "explanation": "The Lorentz force combines the electric and magnetic contributions: $\\vec F=q(\\vec E+\\vec v\\times\\vec B)$.",
+      "trick": "Lorentz force is the SUM of electric and magnetic parts: $q(\\vec E+\\vec v\\times\\vec B)$."
     },
     {
       "id": "phy-moving-charges-and-magnetism-022",
@@ -285,7 +306,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "The Biot-Savart law gives $dB\\propto\\dfrac{Idl\\sin\\theta}{r^2}$, forming the basis for calculating fields due to current distributions."
+      "explanation": "The Biot-Savart law gives $dB\\propto\\dfrac{Idl\\sin\\theta}{r^2}$, forming the basis for calculating fields due to current distributions.",
+      "trick": "Biot-Savart: $dB\\propto Idl\\sin\\theta/r^2$ — same $\\sin\\theta$ pattern as force law."
     },
     {
       "id": "phy-moving-charges-and-magnetism-023",
@@ -298,7 +320,8 @@
       ],
       "answer": 1,
       "difficulty": "hard",
-      "explanation": "$f=\\dfrac{qB}{2\\pi m}=\\dfrac{1.6\\times10^{-19}\\times0.5}{2\\pi\\times1.6\\times10^{-27}}\\approx8\\times10^6$ Hz."
+      "explanation": "$f=\\dfrac{qB}{2\\pi m}=\\dfrac{1.6\\times10^{-19}\\times0.5}{2\\pi\\times1.6\\times10^{-27}}\\approx8\\times10^6$ Hz.",
+      "trick": "Cyclotron frequency $f=qB/2\\pi m$ — plug numbers directly, mass cancels the $2\\pi$ shape."
     },
     {
       "id": "phy-moving-charges-and-magnetism-024",
@@ -311,7 +334,8 @@
       ],
       "answer": 3,
       "difficulty": "easy",
-      "explanation": "$r=mv/(qB)$; with the same $v$, $B$, and charge magnitude, $r\\propto m$, so the much heavier proton follows a much larger radius."
+      "explanation": "$r=mv/(qB)$; with the same $v$, $B$, and charge magnitude, $r\\propto m$, so the much heavier proton follows a much larger radius.",
+      "trick": "$r\\propto m$ (same $v,B,q$) — heavier particle always curves in a bigger circle."
     },
     {
       "id": "phy-moving-charges-and-magnetism-025",
@@ -324,7 +348,8 @@
       ],
       "answer": 3,
       "difficulty": "easy",
-      "explanation": "The particle is accelerated once in each half of a revolution (twice per full revolution), gaining $qV$ each time, for a total of $2qV$ per revolution."
+      "explanation": "The particle is accelerated once in each half of a revolution (twice per full revolution), gaining $qV$ each time, for a total of $2qV$ per revolution.",
+      "trick": "Two accelerations per revolution (once per dee gap): total energy gain $=2qV$."
     },
     {
       "id": "phy-moving-charges-and-magnetism-026",
@@ -337,7 +362,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "Because of their small mass, electrons quickly reach speeds where relativistic mass increase becomes significant, changing their cyclotron frequency and desynchronising them from the fixed oscillator frequency."
+      "explanation": "Because of their small mass, electrons quickly reach speeds where relativistic mass increase becomes significant, changing their cyclotron frequency and desynchronising them from the fixed oscillator frequency.",
+      "trick": "Electrons fail in cyclotrons: light mass → quickly relativistic → falls out of sync with fixed frequency."
     },
     {
       "id": "phy-moving-charges-and-magnetism-027",
@@ -350,7 +376,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "Voltage sensitivity $=\\theta/V=\\dfrac{NAB}{kR}$, obtained by dividing the current sensitivity $NAB/k$ by the coil resistance $R$ (since $V=IR$)."
+      "explanation": "Voltage sensitivity $=\\theta/V=\\dfrac{NAB}{kR}$, obtained by dividing the current sensitivity $NAB/k$ by the coil resistance $R$ (since $V=IR$).",
+      "trick": "Voltage sensitivity = current sensitivity$/R$: divide $NAB/k$ by coil resistance."
     },
     {
       "id": "phy-moving-charges-and-magnetism-028",
@@ -363,7 +390,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "A radial field keeps the coil's plane always parallel to $B$ ($\\theta=90^\\circ$ throughout), so $\\tau=NIAB$ stays proportional to $I$ at every deflection, giving a linear (uniform) scale."
+      "explanation": "A radial field keeps the coil's plane always parallel to $B$ ($\\theta=90^\\circ$ throughout), so $\\tau=NIAB$ stays proportional to $I$ at every deflection, giving a linear (uniform) scale.",
+      "trick": "Radial field keeps coil plane parallel to $B$ always → linear (uniform) scale."
     },
     {
       "id": "phy-moving-charges-and-magnetism-029",
@@ -376,7 +404,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "Around a long straight current-carrying wire, the magnetic field lines form concentric circles centred on the wire, in planes perpendicular to it, with direction given by the right-hand thumb rule."
+      "explanation": "Around a long straight current-carrying wire, the magnetic field lines form concentric circles centred on the wire, in planes perpendicular to it, with direction given by the right-hand thumb rule.",
+      "trick": "Straight wire's field: concentric circles in a plane perpendicular to the wire, by right-hand rule."
     },
     {
       "id": "phy-moving-charges-and-magnetism-030",
@@ -389,7 +418,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "$B=\\mu_0I/(2\\pi r)\\propto1/r$; increasing $r$ by a factor of 4 (5 cm to 20 cm) reduces $B$ to $B/4$."
+      "explanation": "$B=\\mu_0I/(2\\pi r)\\propto1/r$; increasing $r$ by a factor of 4 (5 cm to 20 cm) reduces $B$ to $B/4$.",
+      "trick": "$B\\propto1/r$ for a straight wire: distance $\\times4$ means field $\\to B/4$."
     },
     {
       "id": "phy-moving-charges-and-magnetism-031",
@@ -402,7 +432,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "In a uniform field, the forces on different current elements of a closed loop sum to zero net force, although a net torque can still act unless the loop's plane is perpendicular to the field."
+      "explanation": "In a uniform field, the forces on different current elements of a closed loop sum to zero net force, although a net torque can still act unless the loop's plane is perpendicular to the field.",
+      "trick": "Uniform field on a closed loop: net force is always zero, torque may still exist."
     },
     {
       "id": "phy-moving-charges-and-magnetism-032",
@@ -415,7 +446,8 @@
       ],
       "answer": 3,
       "difficulty": "hard",
-      "explanation": "$r=mv/(qB)$. $r_p=\\dfrac{m v}{qB}$, $r_\\alpha=\\dfrac{4m\\,v}{2qB}=\\dfrac{2mv}{qB}=2r_p$. So $r_p:r_\\alpha=1:2$."
+      "explanation": "$r=mv/(qB)$. $r_p=\\dfrac{m v}{qB}$, $r_\\alpha=\\dfrac{4m\\,v}{2qB}=\\dfrac{2mv}{qB}=2r_p$. So $r_p:r_\\alpha=1:2$.",
+      "trick": "$r\\propto m/q$: compute the mass/charge ratio for each particle, then compare directly."
     },
     {
       "id": "phy-moving-charges-and-magnetism-033",
@@ -428,7 +460,8 @@
       ],
       "answer": 3,
       "difficulty": "hard",
-      "explanation": "$B=\\dfrac{\\mu_0IR^2}{2(R^2+x^2)^{3/2}}$; at $x=R$, $B=\\dfrac{\\mu_0IR^2}{2(2R^2)^{3/2}}=\\dfrac{\\mu_0I}{2\\times2^{3/2}R}=\\dfrac{B_0}{2^{3/2}}\\approx0.354B_0$, since $B_0=\\mu_0I/2R$."
+      "explanation": "$B=\\dfrac{\\mu_0IR^2}{2(R^2+x^2)^{3/2}}$; at $x=R$, $B=\\dfrac{\\mu_0IR^2}{2(2R^2)^{3/2}}=\\dfrac{\\mu_0I}{2\\times2^{3/2}R}=\\dfrac{B_0}{2^{3/2}}\\approx0.354B_0$, since $B_0=\\mu_0I/2R$.",
+      "trick": "At $x=R$ on axis, field drops to $B_0/2^{3/2}\\approx0.354B_0$ — a value worth remembering."
     },
     {
       "id": "phy-moving-charges-and-magnetism-034",
@@ -441,7 +474,8 @@
       ],
       "answer": 2,
       "difficulty": "easy",
-      "explanation": "Magnetic flux is measured in weber (Wb); tesla (Wb/m$^2$) is the unit of magnetic field."
+      "explanation": "Magnetic flux is measured in weber (Wb); tesla (Wb/m$^2$) is the unit of magnetic field.",
+      "trick": "Magnetic flux unit is weber; tesla is flux PER AREA — don't swap them."
     },
     {
       "id": "phy-moving-charges-and-magnetism-035",
@@ -454,7 +488,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "The winding confines the field entirely within the toroid's core; an Amperian loop drawn outside encloses zero net current, so $B=0$ outside an ideal toroid."
+      "explanation": "The winding confines the field entirely within the toroid's core; an Amperian loop drawn outside encloses zero net current, so $B=0$ outside an ideal toroid.",
+      "trick": "Ideal toroid: all field is confined inside the core — zero outside, always."
     },
     {
       "id": "phy-moving-charges-and-magnetism-036",
@@ -467,7 +502,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "Using $F/l=\\mu_0I_1I_2/(2\\pi d)$ with $I_1=I_2=1$ A and $d=1$ m gives $F/l=2\\times10^{-7}$ N/m, which defines the ampere."
+      "explanation": "Using $F/l=\\mu_0I_1I_2/(2\\pi d)$ with $I_1=I_2=1$ A and $d=1$ m gives $F/l=2\\times10^{-7}$ N/m, which defines the ampere.",
+      "trick": "Ampere's definition: $2\\times10^{-7}$ N/m per amp-pair at 1 m — the defining number."
     },
     {
       "id": "phy-moving-charges-and-magnetism-037",
@@ -480,7 +516,8 @@
       ],
       "answer": 2,
       "difficulty": "easy",
-      "explanation": "$\\vec\\tau=\\vec m\\times\\vec B$, so $\\tau=mB\\sin\\theta$, where $\\theta$ is the angle between $\\vec m$ and $\\vec B$."
+      "explanation": "$\\vec\\tau=\\vec m\\times\\vec B$, so $\\tau=mB\\sin\\theta$, where $\\theta$ is the angle between $\\vec m$ and $\\vec B$.",
+      "trick": "Torque on a loop is always $mB\\sin\\theta$, never $\\cos\\theta$ or $\\tan\\theta$."
     },
     {
       "id": "phy-moving-charges-and-magnetism-038",
@@ -493,7 +530,8 @@
       ],
       "answer": 3,
       "difficulty": "medium",
-      "explanation": "Currents in opposite directions in parallel wires repel each other; currents in the same direction attract."
+      "explanation": "Currents in opposite directions in parallel wires repel each other; currents in the same direction attract.",
+      "trick": "Opposite-direction currents in parallel wires ALWAYS repel."
     },
     {
       "id": "phy-moving-charges-and-magnetism-039",
@@ -506,7 +544,8 @@
       ],
       "answer": 0,
       "difficulty": "easy",
-      "explanation": "$B=\\mu_0nI$ with $n=N/l$; doubling $N$ (at fixed $l$) doubles $n$ and hence $B$."
+      "explanation": "$B=\\mu_0nI$ with $n=N/l$; doubling $N$ (at fixed $l$) doubles $n$ and hence $B$.",
+      "trick": "$B=\\mu_0nI$, $n=N/l$: doubling turns (fixed length) directly doubles $B$."
     },
     {
       "id": "phy-moving-charges-and-magnetism-040",
@@ -519,7 +558,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "Between the wires, the fields due to the two equal, same-direction currents point in opposite directions (by the right-hand rule); being equidistant, they are equal in magnitude at the midpoint and exactly cancel."
+      "explanation": "Between the wires, the fields due to the two equal, same-direction currents point in opposite directions (by the right-hand rule); being equidistant, they are equal in magnitude at the midpoint and exactly cancel.",
+      "trick": "Same-direction wires: fields between them point opposite ways and cancel at the midpoint."
     }
   ]
 }

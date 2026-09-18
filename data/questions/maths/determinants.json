@@ -12,7 +12,8 @@
       ],
       "answer": 3,
       "difficulty": "easy",
-      "explanation": "$ad-bc = 2\\times5-3\\times4=10-12=-2$."
+      "explanation": "$ad-bc = 2\\times5-3\\times4=10-12=-2$.",
+      "trick": "2×2 determinant: $ad-bc$ — mind the sign."
     },
     {
       "id": "mat-determinants-002",
@@ -25,7 +26,8 @@
       ],
       "answer": 0,
       "difficulty": "easy",
-      "explanation": "$x^2-6=0\\Rightarrow x=\\pm\\sqrt6$."
+      "explanation": "$x^2-6=0\\Rightarrow x=\\pm\\sqrt6$.",
+      "trick": "Expand into a quadratic in $x$ and take $\\pm$ roots."
     },
     {
       "id": "mat-determinants-003",
@@ -38,7 +40,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "$|kA|=k^n|A|$ for $n\\times n$; here $n=3$, so $|3A|=3^3\\times5=27\\times5=135$."
+      "explanation": "$|kA|=k^n|A|$ for $n\\times n$; here $n=3$, so $|3A|=3^3\\times5=27\\times5=135$.",
+      "trick": "$|kA|=k^n|A|$ — cube the scalar for a $3\\times3$ matrix."
     },
     {
       "id": "mat-determinants-004",
@@ -51,7 +54,8 @@
       ],
       "answer": 2,
       "difficulty": "easy",
-      "explanation": "$|AB|=|A||B|=2\\times3=6$."
+      "explanation": "$|AB|=|A||B|=2\\times3=6$.",
+      "trick": "$|AB|=|A|\\cdot|B|$ — just multiply the two determinants."
     },
     {
       "id": "mat-determinants-005",
@@ -64,7 +68,8 @@
       ],
       "answer": 0,
       "difficulty": "easy",
-      "explanation": "Right triangle with legs 4 and 3: Area $=\\dfrac12\\times4\\times3=6$."
+      "explanation": "Right triangle with legs 4 and 3: Area $=\\dfrac12\\times4\\times3=6$.",
+      "trick": "Right-triangle area $=\\tfrac12\\times$base$\\times$height, no determinant needed."
     },
     {
       "id": "mat-determinants-006",
@@ -77,7 +82,8 @@
       ],
       "answer": 3,
       "difficulty": "medium",
-      "explanation": "$\\begin{vmatrix}1&2&1\\\\2&4&1\\\\3&6&1\\end{vmatrix}=1(4-6)-2(2-3)+1(12-12)=-2+2+0=0$, so the area is zero and the points are collinear."
+      "explanation": "$\\begin{vmatrix}1&2&1\\\\2&4&1\\\\3&6&1\\end{vmatrix}=1(4-6)-2(2-3)+1(12-12)=-2+2+0=0$, so the area is zero and the points are collinear.",
+      "trick": "Area-determinant $=0$ $\\Rightarrow$ the three points are collinear."
     },
     {
       "id": "mat-determinants-007",
@@ -90,7 +96,8 @@
       ],
       "answer": 1,
       "difficulty": "easy",
-      "explanation": "For a diagonal matrix, the inverse is the diagonal matrix of reciprocals: $\\text{diag}(1/2,1/3)$."
+      "explanation": "For a diagonal matrix, the inverse is the diagonal matrix of reciprocals: $\\text{diag}(1/2,1/3)$.",
+      "trick": "Diagonal matrix inverse: reciprocal of each diagonal entry."
     },
     {
       "id": "mat-determinants-008",
@@ -103,7 +110,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "$|\\text{adj}\\,A|=|A|^{n-1}=4^{3-1}=4^2=16$."
+      "explanation": "$|\\text{adj}\\,A|=|A|^{n-1}=4^{3-1}=4^2=16$.",
+      "trick": "$|\\text{adj}\\,A|=|A|^{n-1}$ — plug $n$ and $|A|$ in directly."
     },
     {
       "id": "mat-determinants-009",
@@ -116,7 +124,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "$6$ is at row 2, column 3. $M_{23}=\\begin{vmatrix}1&2\\\\7&8\\end{vmatrix}=8-14=-6$. $C_{23}=(-1)^{2+3}M_{23}=(-1)(-6)=6$."
+      "explanation": "$6$ is at row 2, column 3. $M_{23}=\\begin{vmatrix}1&2\\\\7&8\\end{vmatrix}=8-14=-6$. $C_{23}=(-1)^{2+3}M_{23}=(-1)(-6)=6$.",
+      "trick": "Cofactor $=(-1)^{i+j}\\times$minor — watch the sign flip."
     },
     {
       "id": "mat-determinants-010",
@@ -129,7 +138,8 @@
       ],
       "answer": 1,
       "difficulty": "easy",
-      "explanation": "For $\\begin{pmatrix}a&b\\\\c&d\\end{pmatrix}$, adjoint is $\\begin{pmatrix}d&-b\\\\-c&a\\end{pmatrix}=\\begin{pmatrix}4&-2\\\\-3&1\\end{pmatrix}$."
+      "explanation": "For $\\begin{pmatrix}a&b\\\\c&d\\end{pmatrix}$, adjoint is $\\begin{pmatrix}d&-b\\\\-c&a\\end{pmatrix}=\\begin{pmatrix}4&-2\\\\-3&1\\end{pmatrix}$.",
+      "trick": "$\\text{adj}\\begin{pmatrix}a&b\\\\c&d\\end{pmatrix}=\\begin{pmatrix}d&-b\\\\-c&a\\end{pmatrix}$ — swap and negate."
     },
     {
       "id": "mat-determinants-011",
@@ -142,7 +152,8 @@
       ],
       "answer": 3,
       "difficulty": "medium",
-      "explanation": "The determinant $\\begin{vmatrix}2&3\\\\4&6\\end{vmatrix}=12-12=0$, and the second equation is exactly twice the first, so the equations are consistent with infinitely many solutions."
+      "explanation": "The determinant $\\begin{vmatrix}2&3\\\\4&6\\end{vmatrix}=12-12=0$, and the second equation is exactly twice the first, so the equations are consistent with infinitely many solutions.",
+      "trick": "$\\Delta=0$ and one equation is a multiple of the other $\\Rightarrow$ infinite solutions."
     },
     {
       "id": "mat-determinants-012",
@@ -155,7 +166,8 @@
       ],
       "answer": 2,
       "difficulty": "hard",
-      "explanation": "Taking determinants: $|A|^2=|A|$. Since $|A|\\ne0$, dividing by $|A|$ gives $|A|=1$."
+      "explanation": "Taking determinants: $|A|^2=|A|$. Since $|A|\\ne0$, dividing by $|A|$ gives $|A|=1$.",
+      "trick": "Take determinants of both sides: $|A|^2=|A|\\Rightarrow|A|=1$ when $|A|\\ne0$."
     },
     {
       "id": "mat-determinants-013",
@@ -168,7 +180,8 @@
       ],
       "answer": 0,
       "difficulty": "easy",
-      "explanation": "By definition, a matrix is singular exactly when its determinant is zero (it has no inverse)."
+      "explanation": "By definition, a matrix is singular exactly when its determinant is zero (it has no inverse).",
+      "trick": "Singular means $|A|=0$, by definition."
     },
     {
       "id": "mat-determinants-014",
@@ -181,7 +194,8 @@
       ],
       "answer": 2,
       "difficulty": "hard",
-      "explanation": "This is the Vandermonde determinant $=(a-b)(b-c)(c-a)$, which is nonzero whenever $a,b,c$ are all distinct. So the determinant being 0 is impossible under that condition."
+      "explanation": "This is the Vandermonde determinant $=(a-b)(b-c)(c-a)$, which is nonzero whenever $a,b,c$ are all distinct. So the determinant being 0 is impossible under that condition.",
+      "trick": "Vandermonde determinant $(a-b)(b-c)(c-a)$ is never $0$ for distinct values."
     },
     {
       "id": "mat-determinants-015",
@@ -194,7 +208,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "Collinear $\\Rightarrow \\begin{vmatrix}k&2&1\\\\2&4&1\\\\3&2&1\\end{vmatrix}=0$. Expanding: $k(4-2)-2(2-3)+1(4-12)=2k+2-8=2k-6=0\\Rightarrow k=3$."
+      "explanation": "Collinear $\\Rightarrow \\begin{vmatrix}k&2&1\\\\2&4&1\\\\3&2&1\\end{vmatrix}=0$. Expanding: $k(4-2)-2(2-3)+1(4-12)=2k+2-8=2k-6=0\\Rightarrow k=3$.",
+      "trick": "Set the area (collinearity) determinant to $0$ and solve the linear equation."
     },
     {
       "id": "mat-determinants-016",
@@ -207,7 +222,8 @@
       ],
       "answer": 3,
       "difficulty": "easy",
-      "explanation": "$|A^{-1}|=1/|A|=1/3$."
+      "explanation": "$|A^{-1}|=1/|A|=1/3$.",
+      "trick": "$|A^{-1}|$ is simply the reciprocal of $|A|$."
     },
     {
       "id": "mat-determinants-017",
@@ -220,7 +236,8 @@
       ],
       "answer": 1,
       "difficulty": "hard",
-      "explanation": "Expanding along the first row gives the value $2+2\\cos^2\\theta$, which lies between $2$ and $4$ as $\\cos^2\\theta\\in[0,1]$."
+      "explanation": "Expanding along the first row gives the value $2+2\\cos^2\\theta$, which lies between $2$ and $4$ as $\\cos^2\\theta\\in[0,1]$.",
+      "trick": "Expand along a row, then bound the resulting $\\cos^2\\theta$ term between $0$ and $1$."
     },
     {
       "id": "mat-determinants-018",
@@ -233,7 +250,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "For a skew-symmetric matrix of odd order $n$, $|A|=|A^T|=|-A|=(-1)^n|A|=-|A|$, forcing $|A|=0$."
+      "explanation": "For a skew-symmetric matrix of odd order $n$, $|A|=|A^T|=|-A|=(-1)^n|A|=-|A|$, forcing $|A|=0$.",
+      "trick": "Skew-symmetric determinant of ODD order always equals $0$."
     },
     {
       "id": "mat-determinants-019",
@@ -246,7 +264,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "$\\Delta=\\begin{vmatrix}1&1\\\\2&-1\\end{vmatrix}=-1-2=-3$. $\\Delta_x=\\begin{vmatrix}5&1\\\\1&-1\\end{vmatrix}=-5-1=-6$. $x=\\Delta_x/\\Delta=-6/-3=2$."
+      "explanation": "$\\Delta=\\begin{vmatrix}1&1\\\\2&-1\\end{vmatrix}=-1-2=-3$. $\\Delta_x=\\begin{vmatrix}5&1\\\\1&-1\\end{vmatrix}=-5-1=-6$. $x=\\Delta_x/\\Delta=-6/-3=2$.",
+      "trick": "Cramer's rule: $x=\\Delta_x/\\Delta$ — replace the first column with the RHS for $\\Delta_x$."
     },
     {
       "id": "mat-determinants-020",
@@ -259,7 +278,8 @@
       ],
       "answer": 3,
       "difficulty": "medium",
-      "explanation": "By definition, a square matrix satisfying $A^TA=AA^T=I$ (i.e. $A^T=A^{-1}$) is called an orthogonal matrix."
+      "explanation": "By definition, a square matrix satisfying $A^TA=AA^T=I$ (i.e. $A^T=A^{-1}$) is called an orthogonal matrix.",
+      "trick": "$A^T=A^{-1}$ defines an orthogonal matrix."
     },
     {
       "id": "mat-determinants-021",
@@ -272,7 +292,8 @@
       ],
       "answer": 3,
       "difficulty": "easy",
-      "explanation": "For an upper triangular matrix, the determinant equals the product of diagonal entries: $1\\times1\\times1=1$."
+      "explanation": "For an upper triangular matrix, the determinant equals the product of diagonal entries: $1\\times1\\times1=1$.",
+      "trick": "Triangular/diagonal matrix: determinant $=$ product of diagonal entries."
     },
     {
       "id": "mat-determinants-022",
@@ -285,7 +306,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "$|A^3|=|A|^3=(-2)^3=-8$."
+      "explanation": "$|A^3|=|A|^3=(-2)^3=-8$.",
+      "trick": "$|A^n|=|A|^n$ — cube the given determinant directly."
     },
     {
       "id": "mat-determinants-023",
@@ -298,7 +320,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "Deleting row 2 and column 3 leaves $\\begin{vmatrix}1&2\\\\7&8\\end{vmatrix}=8-14=-6$."
+      "explanation": "Deleting row 2 and column 3 leaves $\\begin{vmatrix}1&2\\\\7&8\\end{vmatrix}=8-14=-6$.",
+      "trick": "Minor: delete that row and column, take the determinant of what's left."
     },
     {
       "id": "mat-determinants-024",
@@ -311,7 +334,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "Adding a multiple of one row to another does not change the value of a determinant."
+      "explanation": "Adding a multiple of one row to another does not change the value of a determinant.",
+      "trick": "Adding a multiple of one row to another never changes the determinant."
     },
     {
       "id": "mat-determinants-025",
@@ -324,7 +348,8 @@
       ],
       "answer": 1,
       "difficulty": "easy",
-      "explanation": "For an $n\\times n$ matrix, $|kA|=k^n|A|$; here $n=3$, so $|kA|=k^3|A|$."
+      "explanation": "For an $n\\times n$ matrix, $|kA|=k^n|A|$; here $n=3$, so $|kA|=k^3|A|$.",
+      "trick": "$|kA|=k^n|A|$ — same rule, $n=3$ here too."
     },
     {
       "id": "mat-determinants-026",
@@ -337,7 +362,8 @@
       ],
       "answer": 0,
       "difficulty": "hard",
-      "explanation": "Area $=\\dfrac12\\left|2(1-8)+1(8-7)+10(7-1)\\right|=\\dfrac12|{-14}+1+60|=\\dfrac12(47)=23.5$ sq units."
+      "explanation": "Area $=\\dfrac12\\left|2(1-8)+1(8-7)+10(7-1)\\right|=\\dfrac12|{-14}+1+60|=\\dfrac12(47)=23.5$ sq units.",
+      "trick": "Shoelace formula: Area $=\\tfrac12|x_1(y_2-y_3)+x_2(y_3-y_1)+x_3(y_1-y_2)|$."
     },
     {
       "id": "mat-determinants-027",
@@ -350,7 +376,8 @@
       ],
       "answer": 2,
       "difficulty": "easy",
-      "explanation": "$x^2-1=8\\Rightarrow x^2=9\\Rightarrow x=\\pm3$."
+      "explanation": "$x^2-1=8\\Rightarrow x^2=9\\Rightarrow x=\\pm3$.",
+      "trick": "Solve $x^2-1=8$ like a quick quadratic, take the $\\pm$ root."
     },
     {
       "id": "mat-determinants-028",
@@ -363,7 +390,8 @@
       ],
       "answer": 3,
       "difficulty": "easy",
-      "explanation": "The standard identity is $A\\cdot\\text{adj}(A)=\\text{adj}(A)\\cdot A=|A|I$."
+      "explanation": "The standard identity is $A\\cdot\\text{adj}(A)=\\text{adj}(A)\\cdot A=|A|I$.",
+      "trick": "$A\\cdot\\text{adj}(A)$ always equals $|A|\\cdot I$ — a standard identity."
     },
     {
       "id": "mat-determinants-029",
@@ -376,7 +404,8 @@
       ],
       "answer": 1,
       "difficulty": "hard",
-      "explanation": "The coefficient determinant $\\begin{vmatrix}1&1&1\\\\1&2&3\\\\1&4&7\\end{vmatrix}=1(14-12)-1(7-3)+1(4-2)=2-4+2=0$. Checking, the third equation minus the second and the second minus the first both give $y+2z=8$, so the equations are dependent — the system is consistent with infinitely many solutions (e.g. $x=1,y=2,z=3$ is one)."
+      "explanation": "The coefficient determinant $\\begin{vmatrix}1&1&1\\\\1&2&3\\\\1&4&7\\end{vmatrix}=1(14-12)-1(7-3)+1(4-2)=2-4+2=0$. Checking, the third equation minus the second and the second minus the first both give $y+2z=8$, so the equations are dependent — the system is consistent with infinitely many solutions (e.g. $x=1,y=2,z=3$ is one).",
+      "trick": "$\\Delta=0$ but rows aren't proportional $\\Rightarrow$ check dependency directly for consistency."
     },
     {
       "id": "mat-determinants-030",
@@ -389,7 +418,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "Interchanging any two rows of a determinant changes its sign, so the new determinant is $-10$."
+      "explanation": "Interchanging any two rows of a determinant changes its sign, so the new determinant is $-10$.",
+      "trick": "Swapping any two rows just flips the sign of the determinant."
     },
     {
       "id": "mat-determinants-031",
@@ -402,7 +432,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "The second equation is a multiple of the first: $6x+4y=2(3x+2y)$. For infinitely many solutions the RHS must scale the same way: $k=2\\times5=10$."
+      "explanation": "The second equation is a multiple of the first: $6x+4y=2(3x+2y)$. For infinitely many solutions the RHS must scale the same way: $k=2\\times5=10$.",
+      "trick": "Proportional coefficients $\\Rightarrow$ RHS must scale by the same factor as the rows."
     },
     {
       "id": "mat-determinants-032",
@@ -415,7 +446,8 @@
       ],
       "answer": 3,
       "difficulty": "hard",
-      "explanation": "This is a skew-symmetric determinant of odd order (3); such determinants always equal $0$."
+      "explanation": "This is a skew-symmetric determinant of odd order (3); such determinants always equal $0$.",
+      "trick": "Skew-symmetric odd-order determinant is always $0$ — no computation needed."
     },
     {
       "id": "mat-determinants-033",
@@ -428,7 +460,8 @@
       ],
       "answer": 3,
       "difficulty": "medium",
-      "explanation": "$|\\text{adj}\\,A|=|A|^{n-1}$ with $n=2$, so $|\\text{adj}\\,A|=|A|^1=5$."
+      "explanation": "$|\\text{adj}\\,A|=|A|^{n-1}$ with $n=2$, so $|\\text{adj}\\,A|=|A|^1=5$.",
+      "trick": "$n=2\\Rightarrow|\\text{adj}\\,A|=|A|^1=|A|$ itself."
     },
     {
       "id": "mat-determinants-034",
@@ -441,7 +474,8 @@
       ],
       "answer": 0,
       "difficulty": "easy",
-      "explanation": "$D=\\begin{vmatrix}2&1\\\\1&-1\\end{vmatrix}=-2-1=-3$; $D_x=\\begin{vmatrix}3&1\\\\0&-1\\end{vmatrix}=-3-0=-3$; $x=D_x/D=(-3)/(-3)=1$."
+      "explanation": "$D=\\begin{vmatrix}2&1\\\\1&-1\\end{vmatrix}=-2-1=-3$; $D_x=\\begin{vmatrix}3&1\\\\0&-1\\end{vmatrix}=-3-0=-3$; $x=D_x/D=(-3)/(-3)=1$.",
+      "trick": "Cramer's rule: compute $D$ and $D_x$, then just divide."
     },
     {
       "id": "mat-determinants-035",
@@ -454,7 +488,8 @@
       ],
       "answer": 2,
       "difficulty": "easy",
-      "explanation": "A determinant with two identical rows (or columns) is always equal to $0$."
+      "explanation": "A determinant with two identical rows (or columns) is always equal to $0$.",
+      "trick": "Two identical rows or columns $\\Rightarrow$ determinant is $0$ instantly."
     },
     {
       "id": "mat-determinants-036",
@@ -467,7 +502,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "A homogeneous system $AX=0$ has a non-trivial solution exactly when $A$ is singular, i.e. $|A|=0$; otherwise $A^{-1}$ exists and the only solution is the trivial one $X=0$."
+      "explanation": "A homogeneous system $AX=0$ has a non-trivial solution exactly when $A$ is singular, i.e. $|A|=0$; otherwise $A^{-1}$ exists and the only solution is the trivial one $X=0$.",
+      "trick": "Non-trivial solution to $AX=0$ exists iff $|A|=0$."
     },
     {
       "id": "mat-determinants-037",
@@ -480,7 +516,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "Since the inverse formula divides by $|A|$, a zero determinant makes the inverse undefined, confirming both statements and their link."
+      "explanation": "Since the inverse formula divides by $|A|$, a zero determinant makes the inverse undefined, confirming both statements and their link.",
+      "trick": "No inverse exists when $|A|=0$, since $\\text{adj}(A)/|A|$ is undefined."
     },
     {
       "id": "mat-determinants-038",
@@ -493,7 +530,8 @@
       ],
       "answer": 0,
       "difficulty": "easy",
-      "explanation": "$|A|=\\cos\\alpha\\cos\\alpha-(-\\sin\\alpha)\\sin\\alpha=\\cos^2\\alpha+\\sin^2\\alpha=1$."
+      "explanation": "$|A|=\\cos\\alpha\\cos\\alpha-(-\\sin\\alpha)\\sin\\alpha=\\cos^2\\alpha+\\sin^2\\alpha=1$.",
+      "trick": "Rotation-matrix determinant is always $\\cos^2\\theta+\\sin^2\\theta=1$."
     },
     {
       "id": "mat-determinants-039",
@@ -506,7 +544,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "Multiplying a single row by a scalar $k$ multiplies the determinant by $k$ (not $k^n$), so $|B|=5|A|$."
+      "explanation": "Multiplying a single row by a scalar $k$ multiplies the determinant by $k$ (not $k^n$), so $|B|=5|A|$.",
+      "trick": "Scaling ONE row by $k$ multiplies the determinant by $k$ (not $k^n$)."
     },
     {
       "id": "mat-determinants-040",
@@ -519,7 +558,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "Row 1 entries $102,18,36$ are all divisible by $6$ ($=17\\times6,3\\times6,6\\times6$), so $6$ can be factored out of row 1 to simplify the calculation."
+      "explanation": "Row 1 entries $102,18,36$ are all divisible by $6$ ($=17\\times6,3\\times6,6\\times6$), so $6$ can be factored out of row 1 to simplify the calculation.",
+      "trick": "Spot the GCD of a row's entries and factor it out before expanding."
     }
   ]
 }

@@ -12,7 +12,8 @@
       ],
       "answer": 2,
       "difficulty": "easy",
-      "explanation": "$|x|$ has left derivative $-1$ and right derivative $+1$ at $0$, unequal so not differentiable; but $\\lim_{x\\to0}|x|=0=f(0)$, so it is continuous."
+      "explanation": "$|x|$ has left derivative $-1$ and right derivative $+1$ at $0$, unequal so not differentiable; but $\\lim_{x\\to0}|x|=0=f(0)$, so it is continuous.",
+      "trick": "$|x|$ is always continuous but never differentiable at the corner point."
     },
     {
       "id": "mat-continuity-and-differentiability-002",
@@ -25,7 +26,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "Need $5k+1=3(5)-5=10\\Rightarrow5k=9\\Rightarrow k=9/5$."
+      "explanation": "Need $5k+1=3(5)-5=10\\Rightarrow5k=9\\Rightarrow k=9/5$.",
+      "trick": "Equate the left piece and right piece at the join point, then solve."
     },
     {
       "id": "mat-continuity-and-differentiability-003",
@@ -38,7 +40,8 @@
       ],
       "answer": 1,
       "difficulty": "easy",
-      "explanation": "By the chain rule, $\\dfrac{d}{dx}\\sin(x^2)=\\cos(x^2)\\cdot2x$."
+      "explanation": "By the chain rule, $\\dfrac{d}{dx}\\sin(x^2)=\\cos(x^2)\\cdot2x$.",
+      "trick": "Chain rule: derivative of the outer function times derivative of the inner."
     },
     {
       "id": "mat-continuity-and-differentiability-004",
@@ -51,7 +54,8 @@
       ],
       "answer": 3,
       "difficulty": "medium",
-      "explanation": "Take $\\ln$: $\\ln y=x\\ln x$. Differentiate: $y'/y=\\ln x+1$, so $y'=x^x(\\ln x+1)$."
+      "explanation": "Take $\\ln$: $\\ln y=x\\ln x$. Differentiate: $y'/y=\\ln x+1$, so $y'=x^x(\\ln x+1)$.",
+      "trick": "Variable base AND exponent $\\Rightarrow$ take $\\ln$ first (logarithmic differentiation)."
     },
     {
       "id": "mat-continuity-and-differentiability-005",
@@ -64,7 +68,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "$dx/dt=2at$, $dy/dt=2a$. $\\dfrac{dy}{dx}=\\dfrac{2a}{2at}=\\dfrac{1}{t}$."
+      "explanation": "$dx/dt=2at$, $dy/dt=2a$. $\\dfrac{dy}{dx}=\\dfrac{2a}{2at}=\\dfrac{1}{t}$.",
+      "trick": "Parametric: divide $dy/dt$ by $dx/dt$."
     },
     {
       "id": "mat-continuity-and-differentiability-006",
@@ -77,7 +82,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "Differentiating implicitly: $2x+2y\\dfrac{dy}{dx}=0\\Rightarrow\\dfrac{dy}{dx}=-x/y=-3/4$."
+      "explanation": "Differentiating implicitly: $2x+2y\\dfrac{dy}{dx}=0\\Rightarrow\\dfrac{dy}{dx}=-x/y=-3/4$.",
+      "trick": "Implicit differentiation on a circle gives $dy/dx=-x/y$."
     },
     {
       "id": "mat-continuity-and-differentiability-007",
@@ -90,7 +96,8 @@
       ],
       "answer": 3,
       "difficulty": "easy",
-      "explanation": "Standard derivative formula: $\\dfrac{d}{dx}\\tan^{-1}x=\\dfrac{1}{1+x^2}$."
+      "explanation": "Standard derivative formula: $\\dfrac{d}{dx}\\tan^{-1}x=\\dfrac{1}{1+x^2}$.",
+      "trick": "Memorize: $\\dfrac{d}{dx}\\tan^{-1}x=\\dfrac1{1+x^2}$."
     },
     {
       "id": "mat-continuity-and-differentiability-008",
@@ -103,7 +110,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "$f(1)=0=f(3)$, so Rolle's applies. $f'(x)=2x-4=0\\Rightarrow x=2\\in(1,3)$."
+      "explanation": "$f(1)=0=f(3)$, so Rolle's applies. $f'(x)=2x-4=0\\Rightarrow x=2\\in(1,3)$.",
+      "trick": "Rolle's: after checking $f(a)=f(b)$, just solve $f'(x)=0$ inside $(a,b)$."
     },
     {
       "id": "mat-continuity-and-differentiability-009",
@@ -116,7 +124,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "$f'(c)=\\dfrac{f(4)-f(1)}{4-1}=\\dfrac{16-1}{3}=5$. Since $f'(x)=2x$, $2c=5\\Rightarrow c=2.5$."
+      "explanation": "$f'(c)=\\dfrac{f(4)-f(1)}{4-1}=\\dfrac{16-1}{3}=5$. Since $f'(x)=2x$, $2c=5\\Rightarrow c=2.5$.",
+      "trick": "MVT: set $f'(c)$ equal to the average slope $\\dfrac{f(b)-f(a)}{b-a}$, solve."
     },
     {
       "id": "mat-continuity-and-differentiability-010",
@@ -129,7 +138,8 @@
       ],
       "answer": 2,
       "difficulty": "easy",
-      "explanation": "$\\dfrac{d}{dx}\\log(\\sin x)=\\dfrac{\\cos x}{\\sin x}=\\cot x$."
+      "explanation": "$\\dfrac{d}{dx}\\log(\\sin x)=\\dfrac{\\cos x}{\\sin x}=\\cot x$.",
+      "trick": "$\\dfrac{d}{dx}\\log(\\sin x)=\\dfrac{\\cos x}{\\sin x}=\\cot x$."
     },
     {
       "id": "mat-continuity-and-differentiability-011",
@@ -142,7 +152,8 @@
       ],
       "answer": 3,
       "difficulty": "easy",
-      "explanation": "$y'=2e^{2x}$, $y''=4e^{2x}$."
+      "explanation": "$y'=2e^{2x}$, $y''=4e^{2x}$.",
+      "trick": "Differentiate twice; each chain-rule step brings down another factor of $2$."
     },
     {
       "id": "mat-continuity-and-differentiability-012",
@@ -155,7 +166,8 @@
       ],
       "answer": 1,
       "difficulty": "easy",
-      "explanation": "The function is undefined (denominator zero) at $x=2$, so it is discontinuous there; it is continuous everywhere else in its domain."
+      "explanation": "The function is undefined (denominator zero) at $x=2$, so it is discontinuous there; it is continuous everywhere else in its domain.",
+      "trick": "A rational function is discontinuous exactly where its denominator vanishes."
     },
     {
       "id": "mat-continuity-and-differentiability-013",
@@ -168,7 +180,8 @@
       ],
       "answer": 1,
       "difficulty": "hard",
-      "explanation": "For $|x|\\le1$, $\\sin^{-1}\\left(\\dfrac{2x}{1+x^2}\\right)=2\\tan^{-1}x$, so $\\dfrac{dy}{dx}=\\dfrac{2}{1+x^2}$."
+      "explanation": "For $|x|\\le1$, $\\sin^{-1}\\left(\\dfrac{2x}{1+x^2}\\right)=2\\tan^{-1}x$, so $\\dfrac{dy}{dx}=\\dfrac{2}{1+x^2}$.",
+      "trick": "Spot the disguised double-angle: $\\sin^{-1}\\left(\\tfrac{2x}{1+x^2}\\right)=2\\tan^{-1}x$ for $|x|\\le1$."
     },
     {
       "id": "mat-continuity-and-differentiability-014",
@@ -181,7 +194,8 @@
       ],
       "answer": 3,
       "difficulty": "medium",
-      "explanation": "$\\dfrac{dy}{dx}=3u^2\\cdot3=9u^2$. At $x=1$, $u=2$, so $\\dfrac{dy}{dx}=9\\times4=36$."
+      "explanation": "$\\dfrac{dy}{dx}=3u^2\\cdot3=9u^2$. At $x=1$, $u=2$, so $\\dfrac{dy}{dx}=9\\times4=36$.",
+      "trick": "Chain rule $dy/dx=dy/du\\cdot du/dx$, then substitute the $x$-value last."
     },
     {
       "id": "mat-continuity-and-differentiability-015",
@@ -194,7 +208,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "$\\log_{10}x=\\dfrac{\\ln x}{\\ln10}$, so its derivative is $\\dfrac{1}{x\\ln10}$."
+      "explanation": "$\\log_{10}x=\\dfrac{\\ln x}{\\ln10}$, so its derivative is $\\dfrac{1}{x\\ln10}$.",
+      "trick": "Convert $\\log_a x$ to $\\ln x/\\ln a$ before differentiating."
     },
     {
       "id": "mat-continuity-and-differentiability-016",
@@ -207,7 +222,8 @@
       ],
       "answer": 0,
       "difficulty": "easy",
-      "explanation": "$\\displaystyle\\lim_{x\\to0}\\dfrac{\\sin x}{x}=1$, so $k$ must equal $1$ for continuity."
+      "explanation": "$\\displaystyle\\lim_{x\\to0}\\dfrac{\\sin x}{x}=1$, so $k$ must equal $1$ for continuity.",
+      "trick": "Standard limit $\\sin x/x\\to1$ as $x\\to0$ fixes $k$ for continuity."
     },
     {
       "id": "mat-continuity-and-differentiability-017",
@@ -220,7 +236,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "$y=(\\sin x)^{1/2}$; by chain rule $y'=\\dfrac12(\\sin x)^{-1/2}\\cos x=\\dfrac{\\cos x}{2\\sqrt{\\sin x}}$."
+      "explanation": "$y=(\\sin x)^{1/2}$; by chain rule $y'=\\dfrac12(\\sin x)^{-1/2}\\cos x=\\dfrac{\\cos x}{2\\sqrt{\\sin x}}$.",
+      "trick": "Write as $(\\sin x)^{1/2}$ and apply the chain rule with the power rule."
     },
     {
       "id": "mat-continuity-and-differentiability-018",
@@ -233,7 +250,8 @@
       ],
       "answer": 2,
       "difficulty": "hard",
-      "explanation": "For $x\\ge0$, $f(x)=x^2$; for $x<0$, $f(x)=-x^2$. Both left and right derivatives at $0$ equal $0$, so $f$ is differentiable there with $f'(0)=0$."
+      "explanation": "For $x\\ge0$, $f(x)=x^2$; for $x<0$, $f(x)=-x^2$. Both left and right derivatives at $0$ equal $0$, so $f$ is differentiable there with $f'(0)=0$.",
+      "trick": "Split into cases ($x\\ge0$, $x<0$) and check that left/right derivatives match."
     },
     {
       "id": "mat-continuity-and-differentiability-019",
@@ -246,7 +264,8 @@
       ],
       "answer": 3,
       "difficulty": "medium",
-      "explanation": "$[x]$ jumps at every integer; within the open interval $(0,4)$ the integers are $1,2,3$, giving 3 points of discontinuity."
+      "explanation": "$[x]$ jumps at every integer; within the open interval $(0,4)$ the integers are $1,2,3$, giving 3 points of discontinuity.",
+      "trick": "The greatest integer function jumps at every integer inside the interval."
     },
     {
       "id": "mat-continuity-and-differentiability-020",
@@ -259,7 +278,8 @@
       ],
       "answer": 1,
       "difficulty": "hard",
-      "explanation": "Putting $x=\\cos\\theta$, $2x^2-1=\\cos2\\theta$, so $y=2\\theta=2\\cos^{-1}x$. Then $\\dfrac{dy}{dx}=\\dfrac{-2}{\\sqrt{1-x^2}}$."
+      "explanation": "Putting $x=\\cos\\theta$, $2x^2-1=\\cos2\\theta$, so $y=2\\theta=2\\cos^{-1}x$. Then $\\dfrac{dy}{dx}=\\dfrac{-2}{\\sqrt{1-x^2}}$.",
+      "trick": "Spot the disguised double-angle: $\\cos^{-1}(2x^2-1)=2\\cos^{-1}x$ for $0<x<1$."
     },
     {
       "id": "mat-continuity-and-differentiability-021",
@@ -272,7 +292,8 @@
       ],
       "answer": 3,
       "difficulty": "medium",
-      "explanation": "Left limit $=3(2)-2=4$, right limit $=2+2=4$. For continuity, $f(2)=2k$ must equal this common limit: $2k=4\\Rightarrow k=2$."
+      "explanation": "Left limit $=3(2)-2=4$, right limit $=2+2=4$. For continuity, $f(2)=2k$ must equal this common limit: $2k=4\\Rightarrow k=2$.",
+      "trick": "Match left limit $=$ right limit $=f(a)$, then solve for the unknown."
     },
     {
       "id": "mat-continuity-and-differentiability-022",
@@ -285,7 +306,8 @@
       ],
       "answer": 1,
       "difficulty": "hard",
-      "explanation": "Since $\\left|x^2\\sin\\frac1x\\right|\\le x^2\\to0$ as $x\\to0$, $f$ is continuous at $0$. Also $f'(0)=\\lim_{h\\to0}\\dfrac{h^2\\sin(1/h)}{h}=\\lim_{h\\to0}h\\sin(1/h)=0$ exists, so $f$ is differentiable at $0$ too."
+      "explanation": "Since $\\left|x^2\\sin\\frac1x\\right|\\le x^2\\to0$ as $x\\to0$, $f$ is continuous at $0$. Also $f'(0)=\\lim_{h\\to0}\\dfrac{h^2\\sin(1/h)}{h}=\\lim_{h\\to0}h\\sin(1/h)=0$ exists, so $f$ is differentiable at $0$ too.",
+      "trick": "Squeeze theorem: bounded $\\times\\,x^2\\to0$ gives both continuity and differentiability at $0$."
     },
     {
       "id": "mat-continuity-and-differentiability-023",
@@ -298,7 +320,8 @@
       ],
       "answer": 2,
       "difficulty": "easy",
-      "explanation": "By the product rule: $\\dfrac{dy}{dx}=e^x\\cos x+e^x(-\\sin x)=e^x(\\cos x-\\sin x)$."
+      "explanation": "By the product rule: $\\dfrac{dy}{dx}=e^x\\cos x+e^x(-\\sin x)=e^x(\\cos x-\\sin x)$.",
+      "trick": "Product rule: $(uv)'=u'v+uv'$."
     },
     {
       "id": "mat-continuity-and-differentiability-024",
@@ -311,7 +334,8 @@
       ],
       "answer": 0,
       "difficulty": "hard",
-      "explanation": "$\\dfrac{dy}{dx}=\\dfrac{1+\\frac{x}{\\sqrt{x^2+1}}}{x+\\sqrt{x^2+1}}=\\dfrac{\\frac{\\sqrt{x^2+1}+x}{\\sqrt{x^2+1}}}{x+\\sqrt{x^2+1}}=\\dfrac{1}{\\sqrt{x^2+1}}$."
+      "explanation": "$\\dfrac{dy}{dx}=\\dfrac{1+\\frac{x}{\\sqrt{x^2+1}}}{x+\\sqrt{x^2+1}}=\\dfrac{\\frac{\\sqrt{x^2+1}+x}{\\sqrt{x^2+1}}}{x+\\sqrt{x^2+1}}=\\dfrac{1}{\\sqrt{x^2+1}}$.",
+      "trick": "This is essentially $\\sinh^{-1}x$ — its derivative simplifies to $1/\\sqrt{x^2+1}$."
     },
     {
       "id": "mat-continuity-and-differentiability-025",
@@ -324,7 +348,8 @@
       ],
       "answer": 3,
       "difficulty": "medium",
-      "explanation": "$\\dfrac{dx}{d\\theta}=-a\\sin\\theta$, $\\dfrac{dy}{d\\theta}=a\\cos\\theta$, so $\\dfrac{dy}{dx}=\\dfrac{a\\cos\\theta}{-a\\sin\\theta}=-\\cot\\theta$."
+      "explanation": "$\\dfrac{dx}{d\\theta}=-a\\sin\\theta$, $\\dfrac{dy}{d\\theta}=a\\cos\\theta$, so $\\dfrac{dy}{dx}=\\dfrac{a\\cos\\theta}{-a\\sin\\theta}=-\\cot\\theta$.",
+      "trick": "Parametric circle: $dy/dx=-\\cot\\theta$, the ratio of the $\\theta$-derivatives."
     },
     {
       "id": "mat-continuity-and-differentiability-026",
@@ -337,7 +362,8 @@
       ],
       "answer": 0,
       "difficulty": "easy",
-      "explanation": "When the variable appears in both the base and exponent (as in $y^x=x^y$), taking logarithms first (logarithmic differentiation) makes the differentiation tractable."
+      "explanation": "When the variable appears in both the base and exponent (as in $y^x=x^y$), taking logarithms first (logarithmic differentiation) makes the differentiation tractable.",
+      "trick": "Variable exponents on both sides $\\Rightarrow$ logarithmic differentiation."
     },
     {
       "id": "mat-continuity-and-differentiability-027",
@@ -350,7 +376,8 @@
       ],
       "answer": 1,
       "difficulty": "easy",
-      "explanation": "Since $\\sin^{-1}x+\\cos^{-1}x=\\dfrac{\\pi}{2}$ (a constant) for all $x\\in[-1,1]$, its derivative is $0$."
+      "explanation": "Since $\\sin^{-1}x+\\cos^{-1}x=\\dfrac{\\pi}{2}$ (a constant) for all $x\\in[-1,1]$, its derivative is $0$.",
+      "trick": "Constant function ($\\pi/2$) has derivative $0$ — no computation needed."
     },
     {
       "id": "mat-continuity-and-differentiability-028",
@@ -363,7 +390,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "Left limit $=1$, right limit $=2(1)+1=3$; since these two limits are unequal, $f$ is discontinuous at $x=1$ (regardless of $f(1)=5$)."
+      "explanation": "Left limit $=1$, right limit $=2(1)+1=3$; since these two limits are unequal, $f$ is discontinuous at $x=1$ (regardless of $f(1)=5$).",
+      "trick": "Left limit $\\ne$ right limit alone is enough to prove discontinuity."
     },
     {
       "id": "mat-continuity-and-differentiability-029",
@@ -376,7 +404,8 @@
       ],
       "answer": 0,
       "difficulty": "easy",
-      "explanation": "$|x-3|$ is continuous everywhere (no jumps), but it has a sharp corner at $x=3$ where the left derivative ($-1$) and right derivative ($1$) differ, so it is not differentiable there."
+      "explanation": "$|x-3|$ is continuous everywhere (no jumps), but it has a sharp corner at $x=3$ where the left derivative ($-1$) and right derivative ($1$) differ, so it is not differentiable there.",
+      "trick": "$|x-a|$ is always continuous but has a non-differentiable corner at $x=a$."
     },
     {
       "id": "mat-continuity-and-differentiability-030",
@@ -389,7 +418,8 @@
       ],
       "answer": 3,
       "difficulty": "hard",
-      "explanation": "Using the substitution $x=\\tan\\phi$, $\\tan^{-1}\\dfrac{2x}{1-x^2}=2\\tan^{-1}x$, so $y=2\\tan^{-1}x$ and $\\dfrac{dy}{dx}=\\dfrac{2}{1+x^2}$."
+      "explanation": "Using the substitution $x=\\tan\\phi$, $\\tan^{-1}\\dfrac{2x}{1-x^2}=2\\tan^{-1}x$, so $y=2\\tan^{-1}x$ and $\\dfrac{dy}{dx}=\\dfrac{2}{1+x^2}$.",
+      "trick": "Spot the disguised double-angle: $\\tan^{-1}\\left(\\tfrac{2x}{1-x^2}\\right)=2\\tan^{-1}x$ for $|x|<1$."
     },
     {
       "id": "mat-continuity-and-differentiability-031",
@@ -402,7 +432,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "Differentiating implicitly: $2+3\\dfrac{dy}{dx}=\\cos y\\dfrac{dy}{dx}\\Rightarrow \\dfrac{dy}{dx}(\\cos y-3)=2\\Rightarrow\\dfrac{dy}{dx}=\\dfrac{2}{\\cos y-3}=\\dfrac{-2}{3-\\cos y}$."
+      "explanation": "Differentiating implicitly: $2+3\\dfrac{dy}{dx}=\\cos y\\dfrac{dy}{dx}\\Rightarrow \\dfrac{dy}{dx}(\\cos y-3)=2\\Rightarrow\\dfrac{dy}{dx}=\\dfrac{2}{\\cos y-3}=\\dfrac{-2}{3-\\cos y}$.",
+      "trick": "Differentiate both sides w.r.t. $x$, then collect all $dy/dx$ terms on one side."
     },
     {
       "id": "mat-continuity-and-differentiability-032",
@@ -415,7 +446,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "Since the base and exponent both involve $x$ (a variable raised to a variable power), taking logarithm first (logarithmic differentiation) is the standard technique."
+      "explanation": "Since the base and exponent both involve $x$ (a variable raised to a variable power), taking logarithm first (logarithmic differentiation) is the standard technique.",
+      "trick": "Variable base AND variable exponent $\\Rightarrow$ logarithmic differentiation is essential."
     },
     {
       "id": "mat-continuity-and-differentiability-033",
@@ -428,7 +460,8 @@
       ],
       "answer": 2,
       "difficulty": "easy",
-      "explanation": "These are exactly the conditions of Rolle's Theorem, which concludes that some $c\\in(a,b)$ has $f'(c)=0$."
+      "explanation": "These are exactly the conditions of Rolle's Theorem, which concludes that some $c\\in(a,b)$ has $f'(c)=0$.",
+      "trick": "$f(a)=f(b)$ plus continuity/differentiability is exactly Rolle's setup."
     },
     {
       "id": "mat-continuity-and-differentiability-034",
@@ -441,7 +474,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "By the chain rule, $\\dfrac{dy}{dx}=\\dfrac{1}{\\log x}\\cdot\\dfrac{1}{x}=\\dfrac{1}{x\\log x}$."
+      "explanation": "By the chain rule, $\\dfrac{dy}{dx}=\\dfrac{1}{\\log x}\\cdot\\dfrac{1}{x}=\\dfrac{1}{x\\log x}$.",
+      "trick": "Chain rule twice: outer log, then inner log, multiply the two factors."
     },
     {
       "id": "mat-continuity-and-differentiability-035",
@@ -454,7 +488,8 @@
       ],
       "answer": 3,
       "difficulty": "easy",
-      "explanation": "For $y=a^x$, $\\dfrac{dy}{dx}=a^x\\ln a$; here $a=3$, giving $3^x\\ln3$."
+      "explanation": "For $y=a^x$, $\\dfrac{dy}{dx}=a^x\\ln a$; here $a=3$, giving $3^x\\ln3$.",
+      "trick": "$\\dfrac{d}{dx}a^x=a^x\\ln a$ — don't forget the $\\ln a$ factor."
     },
     {
       "id": "mat-continuity-and-differentiability-036",
@@ -467,7 +502,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "$\\lim_{x\\to2}\\dfrac{x^2-4}{x-2}=\\lim_{x\\to2}(x+2)=4$, so for continuity $k=4$."
+      "explanation": "$\\lim_{x\\to2}\\dfrac{x^2-4}{x-2}=\\lim_{x\\to2}(x+2)=4$, so for continuity $k=4$.",
+      "trick": "Factor and cancel to find the removable-discontinuity limit value."
     },
     {
       "id": "mat-continuity-and-differentiability-037",
@@ -480,7 +516,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "Differentiability always implies continuity, so A is true. But the converse is false (e.g. $|x|$ is continuous but not differentiable at $0$), so R is false."
+      "explanation": "Differentiability always implies continuity, so A is true. But the converse is false (e.g. $|x|$ is continuous but not differentiable at $0$), so R is false.",
+      "trick": "Differentiable $\\Rightarrow$ continuous is TRUE; the converse is FALSE (e.g. $|x|$)."
     },
     {
       "id": "mat-continuity-and-differentiability-038",
@@ -493,7 +530,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "By the chain rule, $\\dfrac{dy}{dx}=\\cos(\\log x)\\cdot\\dfrac1x=\\dfrac{\\cos(\\log x)}{x}$."
+      "explanation": "By the chain rule, $\\dfrac{dy}{dx}=\\cos(\\log x)\\cdot\\dfrac1x=\\dfrac{\\cos(\\log x)}{x}$.",
+      "trick": "Chain rule: $\\cos(\\log x)$ times the derivative of $\\log x$ (which is $1/x$)."
     },
     {
       "id": "mat-continuity-and-differentiability-039",
@@ -506,7 +544,8 @@
       ],
       "answer": 3,
       "difficulty": "easy",
-      "explanation": "$\\dfrac{dy}{dx}=3x^2-6x$, $\\dfrac{d^2y}{dx^2}=6x-6$; at $x=1$: $6(1)-6=0$."
+      "explanation": "$\\dfrac{dy}{dx}=3x^2-6x$, $\\dfrac{d^2y}{dx^2}=6x-6$; at $x=1$: $6(1)-6=0$.",
+      "trick": "Differentiate twice, then just substitute the given $x$ value."
     },
     {
       "id": "mat-continuity-and-differentiability-040",
@@ -519,7 +558,8 @@
       ],
       "answer": 0,
       "difficulty": "hard",
-      "explanation": "$\\lim_{x\\to0}\\dfrac{1-\\cos x}{x^2}=\\lim_{x\\to0}\\dfrac{2\\sin^2(x/2)}{x^2}=\\lim_{x\\to0}\\dfrac12\\left(\\dfrac{\\sin(x/2)}{x/2}\\right)^2=\\dfrac12$, so $k=\\dfrac12$."
+      "explanation": "$\\lim_{x\\to0}\\dfrac{1-\\cos x}{x^2}=\\lim_{x\\to0}\\dfrac{2\\sin^2(x/2)}{x^2}=\\lim_{x\\to0}\\dfrac12\\left(\\dfrac{\\sin(x/2)}{x/2}\\right)^2=\\dfrac12$, so $k=\\dfrac12$.",
+      "trick": "Use $1-\\cos x=2\\sin^2(x/2)$ to reduce to the standard limit $\\sin\\theta/\\theta\\to1$."
     }
   ]
 }

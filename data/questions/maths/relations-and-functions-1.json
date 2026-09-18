@@ -12,7 +12,8 @@
       ],
       "answer": 1,
       "difficulty": "easy",
-      "explanation": "$n(A\\times B) = n(A)\\cdot n(B) = 3\\times4 = 12$."
+      "explanation": "$n(A\\times B) = n(A)\\cdot n(B) = 3\\times4 = 12$.",
+      "trick": "$n(A\\times B) = n(A)\\cdot n(B)$ directly."
     },
     {
       "id": "mat-relations-and-functions-1-002",
@@ -25,7 +26,8 @@
       ],
       "answer": 3,
       "difficulty": "easy",
-      "explanation": "Equate components: $x+1=3 \\Rightarrow x=2$; $y-2=1 \\Rightarrow y=3$."
+      "explanation": "Equate components: $x+1=3 \\Rightarrow x=2$; $y-2=1 \\Rightarrow y=3$.",
+      "trick": "Ordered pairs equal $\\Rightarrow$ match components separately."
     },
     {
       "id": "mat-relations-and-functions-1-003",
@@ -38,7 +40,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "Number of relations $= 2^{n(A)n(B)} = 2^{2\\times3} = 2^6 = 64$."
+      "explanation": "Number of relations $= 2^{n(A)n(B)} = 2^{2\\times3} = 2^6 = 64$.",
+      "trick": "Relations from $A$ to $B$ $= 2^{n(A)n(B)}$."
     },
     {
       "id": "mat-relations-and-functions-1-004",
@@ -51,7 +54,8 @@
       ],
       "answer": 2,
       "difficulty": "easy",
-      "explanation": "$A\\times B$ pairs every element of $A$ (first) with every element of $B$ (second)."
+      "explanation": "$A\\times B$ pairs every element of $A$ (first) with every element of $B$ (second).",
+      "trick": "$A\\times B$: pair every element of $A$ (first) with every $B$ (second)."
     },
     {
       "id": "mat-relations-and-functions-1-005",
@@ -64,7 +68,8 @@
       ],
       "answer": 3,
       "difficulty": "medium",
-      "explanation": "Need $x - 5 > 0$ (strictly, since it is in the denominator under a root, it cannot be zero), so $x > 5$."
+      "explanation": "Need $x - 5 > 0$ (strictly, since it is in the denominator under a root, it cannot be zero), so $x > 5$.",
+      "trick": "Root's inside $>0$ when it's also in a denominator — strict, not $\\ge$."
     },
     {
       "id": "mat-relations-and-functions-1-006",
@@ -77,7 +82,8 @@
       ],
       "answer": 1,
       "difficulty": "easy",
-      "explanation": "Need $9 - x^2 \\ge 0 \\Rightarrow x^2 \\le 9 \\Rightarrow -3 \\le x \\le 3$."
+      "explanation": "Need $9 - x^2 \\ge 0 \\Rightarrow x^2 \\le 9 \\Rightarrow -3 \\le x \\le 3$.",
+      "trick": "Even root needs the inside $\\ge 0$; solve the resulting inequality."
     },
     {
       "id": "mat-relations-and-functions-1-007",
@@ -90,7 +96,8 @@
       ],
       "answer": 0,
       "difficulty": "hard",
-      "explanation": "Let $y = x^2/(1+x^2) \\Rightarrow x^2 = y/(1-y) \\ge 0$, which holds for $0 \\le y < 1$ (since $x^2 \\ge 0$ and $y=1$ needs $x^2 \\to \\infty$, never attained)."
+      "explanation": "Let $y = x^2/(1+x^2) \\Rightarrow x^2 = y/(1-y) \\ge 0$, which holds for $0 \\le y < 1$ (since $x^2 \\ge 0$ and $y=1$ needs $x^2 \\to \\infty$, never attained).",
+      "trick": "Let $y=$ the expression, solve for $x^2\\ge0$ to bound $y$'s range."
     },
     {
       "id": "mat-relations-and-functions-1-008",
@@ -103,7 +110,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "In option C, $\\{(1,4),(1,5),(2,4),(3,5)\\}$, the element $1 \\in A$ has two images ($4$ and $5$), violating the function definition (unique image for each input)."
+      "explanation": "In option C, $\\{(1,4),(1,5),(2,4),(3,5)\\}$, the element $1 \\in A$ has two images ($4$ and $5$), violating the function definition (unique image for each input).",
+      "trick": "Function fails if one input maps to two outputs — scan for a repeated first entry."
     },
     {
       "id": "mat-relations-and-functions-1-009",
@@ -116,7 +124,8 @@
       ],
       "answer": 2,
       "difficulty": "easy",
-      "explanation": "$f(1) = 1^2 = 1$, $g(1) = 2(1)+1 = 3$; $(f+g)(1) = f(1)+g(1) = 1+3 = 4$."
+      "explanation": "$f(1) = 1^2 = 1$, $g(1) = 2(1)+1 = 3$; $(f+g)(1) = f(1)+g(1) = 1+3 = 4$.",
+      "trick": "$(f+g)(a) = f(a)+g(a)$; evaluate each separately first."
     },
     {
       "id": "mat-relations-and-functions-1-010",
@@ -129,7 +138,8 @@
       ],
       "answer": 0,
       "difficulty": "easy",
-      "explanation": "Signum function takes value $1$ for $x>0$, $-1$ for $x<0$, and $0$ at $x=0$."
+      "explanation": "Signum function takes value $1$ for $x>0$, $-1$ for $x<0$, and $0$ at $x=0$.",
+      "trick": "Signum only ever outputs $-1$, $0$, or $1$."
     },
     {
       "id": "mat-relations-and-functions-1-011",
@@ -142,7 +152,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "Each of the 3 elements of $A$ independently maps to one of 2 elements of $B$: total functions $= 2^3 = 8$."
+      "explanation": "Each of the 3 elements of $A$ independently maps to one of 2 elements of $B$: total functions $= 2^3 = 8$.",
+      "trick": "Functions $A\\to B$ (no restriction) $= n(B)^{n(A)}$."
     },
     {
       "id": "mat-relations-and-functions-1-012",
@@ -155,7 +166,8 @@
       ],
       "answer": 3,
       "difficulty": "easy",
-      "explanation": "Argument of log must be strictly positive: $x - 3 > 0 \\Rightarrow x > 3$."
+      "explanation": "Argument of log must be strictly positive: $x - 3 > 0 \\Rightarrow x > 3$.",
+      "trick": "Log domain: argument strictly $>0$."
     },
     {
       "id": "mat-relations-and-functions-1-013",
@@ -168,7 +180,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "$(f/g)(x)$ is undefined where $g(x)=0$, i.e. $x+1=0 \\Rightarrow x=-1$."
+      "explanation": "$(f/g)(x)$ is undefined where $g(x)=0$, i.e. $x+1=0 \\Rightarrow x=-1$.",
+      "trick": "$(f/g)(x)$ excludes wherever $g(x)=0$."
     },
     {
       "id": "mat-relations-and-functions-1-014",
@@ -181,7 +194,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "The vertical line $x=1$ meets the graph at two points ($y=2$ and $y=3$), so $x=1$ has two images — violating the function property."
+      "explanation": "The vertical line $x=1$ meets the graph at two points ($y=2$ and $y=3$), so $x=1$ has two images — violating the function property.",
+      "trick": "Vertical line test: two points on one vertical line $\\Rightarrow$ not a function."
     },
     {
       "id": "mat-relations-and-functions-1-015",
@@ -194,7 +208,8 @@
       ],
       "answer": 0,
       "difficulty": "hard",
-      "explanation": "Integer solutions of $x^2+y^2=25$: $(\\pm5,0), (0,\\pm5), (\\pm3,\\pm4), (\\pm4,\\pm3)$. So $x$ takes values $\\{-5,-4,-3,0,3,4,5\\}$."
+      "explanation": "Integer solutions of $x^2+y^2=25$: $(\\pm5,0), (0,\\pm5), (\\pm3,\\pm4), (\\pm4,\\pm3)$. So $x$ takes values $\\{-5,-4,-3,0,3,4,5\\}$.",
+      "trick": "List integer $(x,y)$ pairs on the circle, then collect the $x$-values."
     },
     {
       "id": "mat-relations-and-functions-1-016",
@@ -207,7 +222,8 @@
       ],
       "answer": 3,
       "difficulty": "medium",
-      "explanation": "$f(x+1) = (x+1)^2-1 = x^2+2x$; $f(x) = x^2-1$; difference $= 2x+1$."
+      "explanation": "$f(x+1) = (x+1)^2-1 = x^2+2x$; $f(x) = x^2-1$; difference $= 2x+1$.",
+      "trick": "Expand $f(x+1)$ and subtract $f(x)$ term by term."
     },
     {
       "id": "mat-relations-and-functions-1-017",
@@ -220,7 +236,8 @@
       ],
       "answer": 2,
       "difficulty": "easy",
-      "explanation": "$n(A\\times A) = n(A)^2 = 3^2 = 9$."
+      "explanation": "$n(A\\times A) = n(A)^2 = 3^2 = 9$.",
+      "trick": "$n(A\\times A) = n(A)^2$."
     },
     {
       "id": "mat-relations-and-functions-1-018",
@@ -233,7 +250,8 @@
       ],
       "answer": 1,
       "difficulty": "hard",
-      "explanation": "Check with $x=2$: $f(2) = \\dfrac{1}{1-2} = -1$; $f(-1) = \\dfrac{1}{1-(-1)} = \\dfrac{1}{2}$; $f(1/2) = \\dfrac{1}{1-1/2} = 2 = x$. So $f$ has order 3, and $f(f(f(x))) = x$ for all valid $x$."
+      "explanation": "Check with $x=2$: $f(2) = \\dfrac{1}{1-2} = -1$; $f(-1) = \\dfrac{1}{1-(-1)} = \\dfrac{1}{2}$; $f(1/2) = \\dfrac{1}{1-1/2} = 2 = x$. So $f$ has order 3, and $f(f(f(x))) = x$ for all valid $x$.",
+      "trick": "Try one numeric value through $f$ thrice to spot the cycle back to $x$."
     },
     {
       "id": "mat-relations-and-functions-1-019",
@@ -246,7 +264,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "For $x \\in [0,1)$, $[x]=0$; $[1,2)$, $[x]=1$; $[2,3)$, $[x]=2$. So range $= \\{0,1,2\\}$."
+      "explanation": "For $x \\in [0,1)$, $[x]=0$; $[1,2)$, $[x]=1$; $[2,3)$, $[x]=2$. So range $= \\{0,1,2\\}$.",
+      "trick": "$[x]$ is constant on each unit interval $[k,k+1)$ — list those constants."
     },
     {
       "id": "mat-relations-and-functions-1-020",
@@ -259,7 +278,8 @@
       ],
       "answer": 3,
       "difficulty": "easy",
-      "explanation": "The set of first components gives $A=\\{1,2\\}$ and the set of second components gives $B=\\{3,4\\}$."
+      "explanation": "The set of first components gives $A=\\{1,2\\}$ and the set of second components gives $B=\\{3,4\\}$.",
+      "trick": "$A =$ set of first coordinates, $B =$ set of second coordinates."
     },
     {
       "id": "mat-relations-and-functions-1-021",
@@ -272,7 +292,8 @@
       ],
       "answer": 2,
       "difficulty": "easy",
-      "explanation": "$f$ is undefined when $x^2 = 9$, i.e. $x = \\pm3$, so the domain excludes both values."
+      "explanation": "$f$ is undefined when $x^2 = 9$, i.e. $x = \\pm3$, so the domain excludes both values.",
+      "trick": "Domain excludes zeros of the denominator — factor and solve."
     },
     {
       "id": "mat-relations-and-functions-1-022",
@@ -285,7 +306,8 @@
       ],
       "answer": 3,
       "difficulty": "medium",
-      "explanation": "We need $x^2 \\ge 4$, which holds for $x \\le -2$ or $x \\ge 2$."
+      "explanation": "We need $x^2 \\ge 4$, which holds for $x \\le -2$ or $x \\ge 2$.",
+      "trick": "Even root: need inside $\\ge 0$, giving $|x|\\ge$ something."
     },
     {
       "id": "mat-relations-and-functions-1-023",
@@ -298,7 +320,8 @@
       ],
       "answer": 0,
       "difficulty": "easy",
-      "explanation": "A constant function takes only the single value 7, so its range is $\\{7\\}$."
+      "explanation": "A constant function takes only the single value 7, so its range is $\\{7\\}$.",
+      "trick": "Constant function's range is just that single constant."
     },
     {
       "id": "mat-relations-and-functions-1-024",
@@ -311,7 +334,8 @@
       ],
       "answer": 1,
       "difficulty": "easy",
-      "explanation": "$f(x)=x$ gives points like $(1,1),(2,2),\\ldots$, which lie on the line $y=x$, at $45^\\circ$ to the axes."
+      "explanation": "$f(x)=x$ gives points like $(1,1),(2,2),\\ldots$, which lie on the line $y=x$, at $45^\\circ$ to the axes.",
+      "trick": "$f(x)=x$ plots as the $45^\\circ$ line $y=x$ through the origin."
     },
     {
       "id": "mat-relations-and-functions-1-025",
@@ -324,7 +348,8 @@
       ],
       "answer": 3,
       "difficulty": "medium",
-      "explanation": "$f(-5) = 5$ and $f(3) = 3$, so $f(-5)+f(3) = 8$."
+      "explanation": "$f(-5) = 5$ and $f(3) = 3$, so $f(-5)+f(3) = 8$.",
+      "trick": "$|x|$ always strips the sign; add the resulting positives."
     },
     {
       "id": "mat-relations-and-functions-1-026",
@@ -337,7 +362,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "$[x]$ gives the greatest integer less than or equal to $x$; the greatest integer $\\le -2.7$ is $-3$."
+      "explanation": "$[x]$ gives the greatest integer less than or equal to $x$; the greatest integer $\\le -2.7$ is $-3$.",
+      "trick": "$[x]$ = greatest integer $\\le x$, so round down even for negatives."
     },
     {
       "id": "mat-relations-and-functions-1-027",
@@ -350,7 +376,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "$[3.6] = 3$, so $f(3.6) = 3.6 - 3 = 0.6$."
+      "explanation": "$[3.6] = 3$, so $f(3.6) = 3.6 - 3 = 0.6$.",
+      "trick": "Fractional part $= x - [x]$; subtract the floor value."
     },
     {
       "id": "mat-relations-and-functions-1-028",
@@ -363,7 +390,8 @@
       ],
       "answer": 0,
       "difficulty": "easy",
-      "explanation": "$f(x)=x^2$ satisfies $f(-x)=f(x)$, so it is even; the others are odd or neither."
+      "explanation": "$f(x)=x^2$ satisfies $f(-x)=f(x)$, so it is even; the others are odd or neither.",
+      "trick": "Even function: $f(-x)=f(x)$ — only even powers of $x$ qualify."
     },
     {
       "id": "mat-relations-and-functions-1-029",
@@ -376,7 +404,8 @@
       ],
       "answer": 1,
       "difficulty": "easy",
-      "explanation": "$f(x)=x^3$ satisfies $f(-x) = -f(x)$, so it is odd."
+      "explanation": "$f(x)=x^3$ satisfies $f(-x) = -f(x)$, so it is odd.",
+      "trick": "Odd function: $f(-x)=-f(x)$ — pure odd powers of $x$ qualify."
     },
     {
       "id": "mat-relations-and-functions-1-030",
@@ -389,7 +418,8 @@
       ],
       "answer": 2,
       "difficulty": "hard",
-      "explanation": "Although the expression simplifies to 1, it is undefined at $x=2$ (form $0/0$), so $x=2$ must be excluded from the domain."
+      "explanation": "Although the expression simplifies to 1, it is undefined at $x=2$ (form $0/0$), so $x=2$ must be excluded from the domain.",
+      "trick": "Simplifying cancels the factor, but the original zero-denominator point stays excluded."
     },
     {
       "id": "mat-relations-and-functions-1-031",
@@ -402,7 +432,8 @@
       ],
       "answer": 3,
       "difficulty": "easy",
-      "explanation": "By definition, a function assigns to every element of the domain $A$ a unique (exactly one) element of $B$."
+      "explanation": "By definition, a function assigns to every element of the domain $A$ a unique (exactly one) element of $B$.",
+      "trick": "Function = exactly one image per domain element, no more, no less."
     },
     {
       "id": "mat-relations-and-functions-1-032",
@@ -415,7 +446,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "Each of the 3 elements can map to either of 2 elements, giving $2^3 = 8$ functions."
+      "explanation": "Each of the 3 elements can map to either of 2 elements, giving $2^3 = 8$ functions.",
+      "trick": "Total functions $A\\to B$ (no restriction) $= n(B)^{n(A)}$."
     },
     {
       "id": "mat-relations-and-functions-1-033",
@@ -428,7 +460,8 @@
       ],
       "answer": 0,
       "difficulty": "hard",
-      "explanation": "A one-one function from a 3-element set to itself is a permutation of the 3 elements: $3! = 6$."
+      "explanation": "A one-one function from a 3-element set to itself is a permutation of the 3 elements: $3! = 6$.",
+      "trick": "One-one function from a set to itself = a permutation: $n!$."
     },
     {
       "id": "mat-relations-and-functions-1-034",
@@ -441,7 +474,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "A relation from $A$ to $B$ is a subset of $A\\times B$, which has $2\\times3=6$ elements, giving $2^6 = 64$ relations."
+      "explanation": "A relation from $A$ to $B$ is a subset of $A\\times B$, which has $2\\times3=6$ elements, giving $2^6 = 64$ relations.",
+      "trick": "Relations from $A$ to $B$ $= 2^{n(A)n(B)}$."
     },
     {
       "id": "mat-relations-and-functions-1-035",
@@ -454,7 +488,8 @@
       ],
       "answer": 3,
       "difficulty": "easy",
-      "explanation": "$f(2) = 5$, $g(2) = 3$, so $(fg)(2) = f(2)\\cdot g(2) = 15$."
+      "explanation": "$f(2) = 5$, $g(2) = 3$, so $(fg)(2) = f(2)\\cdot g(2) = 15$.",
+      "trick": "$(fg)(a) = f(a)\\cdot g(a)$; multiply the two evaluated values."
     },
     {
       "id": "mat-relations-and-functions-1-036",
@@ -467,7 +502,8 @@
       ],
       "answer": 2,
       "difficulty": "hard",
-      "explanation": "$(f\\circ g)(x) = f(g(x)) = (\\sqrt{x})^2 = x$ for $x \\ge 0$."
+      "explanation": "$(f\\circ g)(x) = f(g(x)) = (\\sqrt{x})^2 = x$ for $x \\ge 0$.",
+      "trick": "$(f\\circ g)(x) = f(g(x))$ — substitute inner into outer."
     },
     {
       "id": "mat-relations-and-functions-1-037",
@@ -480,7 +516,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "As $x$ ranges over all nonzero reals, $1/x$ takes every nonzero real value, so the range is $\\mathbb R - \\{0\\}$."
+      "explanation": "As $x$ ranges over all nonzero reals, $1/x$ takes every nonzero real value, so the range is $\\mathbb R - \\{0\\}$.",
+      "trick": "$1/x$ hits every nonzero real as $x$ ranges over nonzero reals."
     },
     {
       "id": "mat-relations-and-functions-1-038",
@@ -493,7 +530,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "In $\\{(1,4),(2,5),(3,4)\\}$ every element of the domain $\\{1,2,3\\}$ appears exactly once; the others either repeat an input with different outputs or miss an input."
+      "explanation": "In $\\{(1,4),(2,5),(3,4)\\}$ every element of the domain $\\{1,2,3\\}$ appears exactly once; the others either repeat an input with different outputs or miss an input.",
+      "trick": "Every domain element used exactly once, with no repeats, confirms a function."
     },
     {
       "id": "mat-relations-and-functions-1-039",
@@ -506,7 +544,8 @@
       ],
       "answer": 3,
       "difficulty": "medium",
-      "explanation": "This is the vertical line test: meeting each vertical line exactly once means each $x$ gives a unique $y$, so the curve is the graph of a function."
+      "explanation": "This is the vertical line test: meeting each vertical line exactly once means each $x$ gives a unique $y$, so the curve is the graph of a function.",
+      "trick": "Vertical line test passing everywhere = definition of a function."
     },
     {
       "id": "mat-relations-and-functions-1-040",
@@ -519,7 +558,8 @@
       ],
       "answer": 1,
       "difficulty": "easy",
-      "explanation": "$n(A\\times B\\times C) = n(A)\\cdot n(B)\\cdot n(C) = 2\\times3\\times4 = 24$."
+      "explanation": "$n(A\\times B\\times C) = n(A)\\cdot n(B)\\cdot n(C) = 2\\times3\\times4 = 24$.",
+      "trick": "$n(A\\times B\\times C) = n(A)\\,n(B)\\,n(C)$."
     }
   ]
 }

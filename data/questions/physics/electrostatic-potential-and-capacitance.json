@@ -12,7 +12,8 @@
       ],
       "answer": 2,
       "difficulty": "easy",
-      "explanation": "$V = kq/r = 9\\times10^9\\times4\\times10^{-6}/0.2 = 1.8\\times10^5$ V."
+      "explanation": "$V = kq/r = 9\\times10^9\\times4\\times10^{-6}/0.2 = 1.8\\times10^5$ V.",
+      "trick": "$V=kq/r$ — potential is scalar, just divide, no direction needed."
     },
     {
       "id": "phy-electrostatic-potential-and-capacitance-002",
@@ -25,7 +26,8 @@
       ],
       "answer": 1,
       "difficulty": "easy",
-      "explanation": "Potential is scalar: $V = kq_1/r + kq_2/r$; equal and opposite charges equidistant give $V = 0$ (unlike the field, which is non-zero there)."
+      "explanation": "Potential is scalar: $V = kq_1/r + kq_2/r$; equal and opposite charges equidistant give $V = 0$ (unlike the field, which is non-zero there).",
+      "trick": "Equal-opposite charges equidistant: potentials cancel (scalar) even though field doesn't."
     },
     {
       "id": "phy-electrostatic-potential-and-capacitance-003",
@@ -38,7 +40,8 @@
       ],
       "answer": 3,
       "difficulty": "easy",
-      "explanation": "$W = q(V_A-V_B) = 5\\times10^{-6}\\times(200-50) = 7.5\\times10^{-4}$ J."
+      "explanation": "$W = q(V_A-V_B) = 5\\times10^{-6}\\times(200-50) = 7.5\\times10^{-4}$ J.",
+      "trick": "$W=q(V_A-V_B)$; dropping potential (200$\\to$50) gives positive work by the field."
     },
     {
       "id": "phy-electrostatic-potential-and-capacitance-004",
@@ -51,7 +54,8 @@
       ],
       "answer": 0,
       "difficulty": "easy",
-      "explanation": "All points on an equipotential surface are at the same potential, so $W=q(V_A-V_B)=0$."
+      "explanation": "All points on an equipotential surface are at the same potential, so $W=q(V_A-V_B)=0$.",
+      "trick": "Equipotential surface → same $V$ everywhere → work done is always zero."
     },
     {
       "id": "phy-electrostatic-potential-and-capacitance-005",
@@ -64,7 +68,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "$C = \\varepsilon_0A/d = 8.85\\times10^{-12}\\times0.02/(2\\times10^{-3}) = 8.85\\times10^{-11} = 88.5$ pF."
+      "explanation": "$C = \\varepsilon_0A/d = 8.85\\times10^{-12}\\times0.02/(2\\times10^{-3}) = 8.85\\times10^{-11} = 88.5$ pF.",
+      "trick": "$C=\\varepsilon_0A/d$ — plug straight in, answer lands in pF range for cm-scale plates."
     },
     {
       "id": "phy-electrostatic-potential-and-capacitance-006",
@@ -77,7 +82,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "Connected to battery, $V$ stays 100 V; $C' = KC = 50\\,\\mu$F; $Q' = C'V = 50\\times100 = 5000\\,\\mu$C."
+      "explanation": "Connected to battery, $V$ stays 100 V; $C' = KC = 50\\,\\mu$F; $Q' = C'V = 50\\times100 = 5000\\,\\mu$C.",
+      "trick": "Battery stays connected → $V$ fixed, so $C,Q$ both scale by $K$."
     },
     {
       "id": "phy-electrostatic-potential-and-capacitance-007",
@@ -90,7 +96,8 @@
       ],
       "answer": 3,
       "difficulty": "medium",
-      "explanation": "With charge $Q$ fixed, $C$ becomes $4C$, so $U = Q^2/2C$ decreases to $U/4$."
+      "explanation": "With charge $Q$ fixed, $C$ becomes $4C$, so $U = Q^2/2C$ decreases to $U/4$.",
+      "trick": "Isolated capacitor → $Q$ fixed, $C\\to KC$, so $U=Q^2/2C$ falls by factor $K$."
     },
     {
       "id": "phy-electrostatic-potential-and-capacitance-008",
@@ -103,7 +110,8 @@
       ],
       "answer": 2,
       "difficulty": "easy",
-      "explanation": "$\\dfrac1C = \\dfrac12+\\dfrac13+\\dfrac16 = \\dfrac{3+2+1}{6}=1 \\Rightarrow C = 1\\,\\mu$F."
+      "explanation": "$\\dfrac1C = \\dfrac12+\\dfrac13+\\dfrac16 = \\dfrac{3+2+1}{6}=1 \\Rightarrow C = 1\\,\\mu$F.",
+      "trick": "Series: reciprocal sum, and it's always LESS than the smallest capacitor."
     },
     {
       "id": "phy-electrostatic-potential-and-capacitance-009",
@@ -116,7 +124,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "$C_{eq} = 10\\,\\mu$F; $U = \\dfrac12CV^2 = \\dfrac12\\times10\\times10^{-6}\\times100 = 500\\,\\mu$J."
+      "explanation": "$C_{eq} = 10\\,\\mu$F; $U = \\dfrac12CV^2 = \\dfrac12\\times10\\times10^{-6}\\times100 = 500\\,\\mu$J.",
+      "trick": "Parallel: capacitances add first, then use $U=\\frac12C_{eq}V^2$."
     },
     {
       "id": "phy-electrostatic-potential-and-capacitance-010",
@@ -129,7 +138,8 @@
       ],
       "answer": 3,
       "difficulty": "easy",
-      "explanation": "In electrostatic equilibrium, free charges rearrange until the net field inside the conductor's material is zero."
+      "explanation": "In electrostatic equilibrium, free charges rearrange until the net field inside the conductor's material is zero.",
+      "trick": "Conductor in equilibrium: interior field is always exactly zero."
     },
     {
       "id": "phy-electrostatic-potential-and-capacitance-011",
@@ -142,7 +152,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "A conductor is an equipotential body; since the field inside is zero, the potential inside equals the surface potential, 200 V."
+      "explanation": "A conductor is an equipotential body; since the field inside is zero, the potential inside equals the surface potential, 200 V.",
+      "trick": "Conductor is equipotential: centre potential = surface potential, always."
     },
     {
       "id": "phy-electrostatic-potential-and-capacitance-012",
@@ -155,7 +166,8 @@
       ],
       "answer": 0,
       "difficulty": "easy",
-      "explanation": "$C = Q/V$, so unit is coulomb per volt (C/V), defined as the farad."
+      "explanation": "$C = Q/V$, so unit is coulomb per volt (C/V), defined as the farad.",
+      "trick": "Farad $=C/V$ by definition of $C=Q/V$ — no other combination."
     },
     {
       "id": "phy-electrostatic-potential-and-capacitance-013",
@@ -168,7 +180,8 @@
       ],
       "answer": 2,
       "difficulty": "hard",
-      "explanation": "$C \\propto K/d$. Halving $d$ doubles $C$; inserting $K=4$ multiplies by 4: net factor $= 2\\times4 = 8$, so $C' = 8C$."
+      "explanation": "$C \\propto K/d$. Halving $d$ doubles $C$; inserting $K=4$ multiplies by 4: net factor $= 2\\times4 = 8$, so $C' = 8C$.",
+      "trick": "$C\\propto K/d$: multiply the separate factors (halved $d$ $\\times2$, $K=4$ $\\times4$) $=8C$."
     },
     {
       "id": "phy-electrostatic-potential-and-capacitance-014",
@@ -181,7 +194,8 @@
       ],
       "answer": 1,
       "difficulty": "hard",
-      "explanation": "Series: $C_s=C/2$, $U_s=\\dfrac12\\cdot\\dfrac{C}{2}V^2=\\dfrac{CV^2}{4}$. Parallel: $C_p=2C$, $U_p=\\dfrac12\\cdot2C\\cdot V^2=CV^2$. Ratio $U_p:U_s = 4:1$."
+      "explanation": "Series: $C_s=C/2$, $U_s=\\dfrac12\\cdot\\dfrac{C}{2}V^2=\\dfrac{CV^2}{4}$. Parallel: $C_p=2C$, $U_p=\\dfrac12\\cdot2C\\cdot V^2=CV^2$. Ratio $U_p:U_s = 4:1$.",
+      "trick": "Same battery: $U_{parallel}/U_{series}=4$ for two identical capacitors — a memorisable ratio."
     },
     {
       "id": "phy-electrostatic-potential-and-capacitance-015",
@@ -194,7 +208,8 @@
       ],
       "answer": 0,
       "difficulty": "easy",
-      "explanation": "$U = \\dfrac{kq_1q_2}{r} = \\dfrac{k(q)(-q)}{r} = -\\dfrac{kq^2}{r}$ (negative, since opposite charges attract)."
+      "explanation": "$U = \\dfrac{kq_1q_2}{r} = \\dfrac{k(q)(-q)}{r} = -\\dfrac{kq^2}{r}$ (negative, since opposite charges attract).",
+      "trick": "Opposite charges → $U$ is negative: $U=kq_1q_2/r$, sign follows charge product."
     },
     {
       "id": "phy-electrostatic-potential-and-capacitance-016",
@@ -207,7 +222,8 @@
       ],
       "answer": 3,
       "difficulty": "medium",
-      "explanation": "Charge given to a hollow conductor always moves to its outer surface, allowing the sphere's potential to keep rising as more charge is added."
+      "explanation": "Charge given to a hollow conductor always moves to its outer surface, allowing the sphere's potential to keep rising as more charge is added.",
+      "trick": "Hollow conductor: sprayed charge always migrates entirely to the outer surface."
     },
     {
       "id": "phy-electrostatic-potential-and-capacitance-017",
@@ -220,7 +236,8 @@
       ],
       "answer": 3,
       "difficulty": "easy",
-      "explanation": "Energy stored per unit volume in an electric field is $u = \\dfrac12\\varepsilon_0E^2$."
+      "explanation": "Energy stored per unit volume in an electric field is $u = \\dfrac12\\varepsilon_0E^2$.",
+      "trick": "Energy density formula: $\\frac12\\varepsilon_0E^2$ — same $\\frac12$ pattern as $\\frac12CV^2$."
     },
     {
       "id": "phy-electrostatic-potential-and-capacitance-018",
@@ -233,7 +250,8 @@
       ],
       "answer": 0,
       "difficulty": "easy",
-      "explanation": "Since $V = kq/r$ depends only on distance $r$ from the point charge, surfaces of constant $V$ are concentric spheres."
+      "explanation": "Since $V = kq/r$ depends only on distance $r$ from the point charge, surfaces of constant $V$ are concentric spheres.",
+      "trick": "Point charge equipotentials: concentric spheres, since $V$ depends only on $r$."
     },
     {
       "id": "phy-electrostatic-potential-and-capacitance-019",
@@ -246,7 +264,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "Charge is conserved: $Q = 4\\times50 = 200\\,\\mu$C shared over total capacitance $8\\,\\mu$F; $V = 200/8 = 25$ V."
+      "explanation": "Charge is conserved: $Q = 4\\times50 = 200\\,\\mu$C shared over total capacitance $8\\,\\mu$F; $V = 200/8 = 25$ V.",
+      "trick": "Charge conserves on parallel connection: total $Q$ over total $C$ gives common $V$."
     },
     {
       "id": "phy-electrostatic-potential-and-capacitance-020",
@@ -259,7 +278,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "$U = kq_1q_2/r$ is negative only when $q_1q_2<0$, i.e. unlike charges, which attract; external work would be needed to pull them apart to infinity."
+      "explanation": "$U = kq_1q_2/r$ is negative only when $q_1q_2<0$, i.e. unlike charges, which attract; external work would be needed to pull them apart to infinity.",
+      "trick": "Negative $U$ always means unlike (attracting) charges — sign of $q_1q_2$ tells all."
     },
     {
       "id": "phy-electrostatic-potential-and-capacitance-021",
@@ -272,7 +292,8 @@
       ],
       "answer": 0,
       "difficulty": "easy",
-      "explanation": "The electric field is the negative gradient of potential: $E=-dV/dr$, pointing from high to low potential."
+      "explanation": "The electric field is the negative gradient of potential: $E=-dV/dr$, pointing from high to low potential.",
+      "trick": "$E=-dV/dr$: the minus sign means field points toward decreasing potential."
     },
     {
       "id": "phy-electrostatic-potential-and-capacitance-022",
@@ -285,7 +306,8 @@
       ],
       "answer": 3,
       "difficulty": "medium",
-      "explanation": "At equilibrium the spheres reach the same potential: $kq_1/R = kq_2/(2R) \\Rightarrow q_1/q_2 = R/2R = 1/2$; charge divides in proportion to radius."
+      "explanation": "At equilibrium the spheres reach the same potential: $kq_1/R = kq_2/(2R) \\Rightarrow q_1/q_2 = R/2R = 1/2$; charge divides in proportion to radius.",
+      "trick": "Connected conductors reach common $V$: charge divides in proportion to radius $R$."
     },
     {
       "id": "phy-electrostatic-potential-and-capacitance-023",
@@ -298,7 +320,8 @@
       ],
       "answer": 1,
       "difficulty": "hard",
-      "explanation": "Potential is scalar: $V=4\\times\\dfrac{kq}{r}=4\\times\\dfrac{9\\times10^9\\times10^{-6}}{0.1}=4\\times9\\times10^4=3.6\\times10^5$ V."
+      "explanation": "Potential is scalar: $V=4\\times\\dfrac{kq}{r}=4\\times\\dfrac{9\\times10^9\\times10^{-6}}{0.1}=4\\times9\\times10^4=3.6\\times10^5$ V.",
+      "trick": "Potential is scalar: just multiply single-charge $V$ by the number of identical charges."
     },
     {
       "id": "phy-electrostatic-potential-and-capacitance-024",
@@ -311,7 +334,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "The axial potential of a short dipole is $V=kp/r^2$, falling off faster than a monopole's $kq/r$ but slower than the equatorial value (which is zero)."
+      "explanation": "The axial potential of a short dipole is $V=kp/r^2$, falling off faster than a monopole's $kq/r$ but slower than the equatorial value (which is zero).",
+      "trick": "Dipole axial potential is $kp/r^2$ — one power of $r$ less than the field."
     },
     {
       "id": "phy-electrostatic-potential-and-capacitance-025",
@@ -324,7 +348,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "Every point on the equatorial line is equidistant from $+q$ and $-q$, so their potentials cancel exactly, giving $V=0$."
+      "explanation": "Every point on the equatorial line is equidistant from $+q$ and $-q$, so their potentials cancel exactly, giving $V=0$.",
+      "trick": "Equatorial line is equidistant from $+q,-q$ → potential always exactly zero there."
     },
     {
       "id": "phy-electrostatic-potential-and-capacitance-026",
@@ -337,7 +362,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "Regardless of the resistance value, exactly half the energy supplied by the battery ($QV$) ends up stored in the capacitor ($\\tfrac12QV$), and the other half is dissipated as heat in the resistor."
+      "explanation": "Regardless of the resistance value, exactly half the energy supplied by the battery ($QV$) ends up stored in the capacitor ($\\tfrac12QV$), and the other half is dissipated as heat in the resistor.",
+      "trick": "Charging via a resistor: exactly half the battery's energy is always dissipated as heat."
     },
     {
       "id": "phy-electrostatic-potential-and-capacitance-027",
@@ -350,7 +376,8 @@
       ],
       "answer": 2,
       "difficulty": "hard",
-      "explanation": "Common potential $=V/2$; final energy $=\\dfrac12(2C)(V/2)^2=\\dfrac14CV^2$; initial energy was $\\dfrac12CV^2$, so the loss $=\\dfrac12CV^2-\\dfrac14CV^2=\\dfrac14CV^2$ (dissipated during charge redistribution)."
+      "explanation": "Common potential $=V/2$; final energy $=\\dfrac12(2C)(V/2)^2=\\dfrac14CV^2$; initial energy was $\\dfrac12CV^2$, so the loss $=\\dfrac12CV^2-\\dfrac14CV^2=\\dfrac14CV^2$ (dissipated during charge redistribution).",
+      "trick": "Sharing charge between capacitors always loses energy: use $\\Delta U=\\frac{C_1C_2}{2(C_1+C_2)}(V_1-V_2)^2$."
     },
     {
       "id": "phy-electrostatic-potential-and-capacitance-028",
@@ -363,7 +390,8 @@
       ],
       "answer": 3,
       "difficulty": "medium",
-      "explanation": "$C\\propto A/d$; doubling both $A$ and $d$ leaves the ratio, and hence $C$, unchanged."
+      "explanation": "$C\\propto A/d$; doubling both $A$ and $d$ leaves the ratio, and hence $C$, unchanged.",
+      "trick": "$C\\propto A/d$: doubling both leaves the ratio, hence $C$, unchanged."
     },
     {
       "id": "phy-electrostatic-potential-and-capacitance-029",
@@ -376,7 +404,8 @@
       ],
       "answer": 3,
       "difficulty": "easy",
-      "explanation": "In series, $1/C_{eq}=n/C \\Rightarrow C_{eq}=C/n$."
+      "explanation": "In series, $1/C_{eq}=n/C \\Rightarrow C_{eq}=C/n$.",
+      "trick": "$n$ identical in series: $C_{eq}=C/n$ — divide by count."
     },
     {
       "id": "phy-electrostatic-potential-and-capacitance-030",
@@ -389,7 +418,8 @@
       ],
       "answer": 1,
       "difficulty": "easy",
-      "explanation": "In parallel, capacitances simply add: $C_{eq}=nC$."
+      "explanation": "In parallel, capacitances simply add: $C_{eq}=nC$.",
+      "trick": "$n$ identical in parallel: $C_{eq}=nC$ — multiply by count."
     },
     {
       "id": "phy-electrostatic-potential-and-capacitance-031",
@@ -402,7 +432,8 @@
       ],
       "answer": 0,
       "difficulty": "hard",
-      "explanation": "Series combination of the two 2 $\\mu$F capacitors gives $1\\,\\mu$F; this in parallel with 3 $\\mu$F gives $1+3=4\\,\\mu$F."
+      "explanation": "Series combination of the two 2 $\\mu$F capacitors gives $1\\,\\mu$F; this in parallel with 3 $\\mu$F gives $1+3=4\\,\\mu$F.",
+      "trick": "Reduce series pairs first to a single value, then add parallel branches."
     },
     {
       "id": "phy-electrostatic-potential-and-capacitance-032",
@@ -415,7 +446,8 @@
       ],
       "answer": 2,
       "difficulty": "easy",
-      "explanation": "The work done in charging equals the energy stored, $U=\\dfrac{Q^2}{2C}$ (not $QV$, since the charging voltage rises gradually from 0 to $V$)."
+      "explanation": "The work done in charging equals the energy stored, $U=\\dfrac{Q^2}{2C}$ (not $QV$, since the charging voltage rises gradually from 0 to $V$).",
+      "trick": "Charging work $=Q^2/2C$, never $QV$ — the extra factor of 2 is the trap."
     },
     {
       "id": "phy-electrostatic-potential-and-capacitance-033",
@@ -428,7 +460,8 @@
       ],
       "answer": 3,
       "difficulty": "medium",
-      "explanation": "$E=-\\dfrac{dV}{dx}=-(-50)=50$ N/C, directed along the +x direction (potential decreases as $x$ increases, so field points along increasing $x$)."
+      "explanation": "$E=-\\dfrac{dV}{dx}=-(-50)=50$ N/C, directed along the +x direction (potential decreases as $x$ increases, so field points along increasing $x$).",
+      "trick": "$E=-dV/dx$ — read off the slope's negative directly from the linear $V(x)$ expression."
     },
     {
       "id": "phy-electrostatic-potential-and-capacitance-034",
@@ -441,7 +474,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "With charge $Q$ fixed, separating the plates decreases $C$ (since $C\\propto1/d$), so $U=Q^2/2C$ increases; the extra energy comes from the work done in pulling the plates apart against their mutual attraction."
+      "explanation": "With charge $Q$ fixed, separating the plates decreases $C$ (since $C\\propto1/d$), so $U=Q^2/2C$ increases; the extra energy comes from the work done in pulling the plates apart against their mutual attraction.",
+      "trick": "Isolated (Q fixed), plates pulled apart: $C$ falls so $U=Q^2/2C$ rises."
     },
     {
       "id": "phy-electrostatic-potential-and-capacitance-035",
@@ -454,7 +488,8 @@
       ],
       "answer": 0,
       "difficulty": "easy",
-      "explanation": "$C' = KC = 6\\times5 = 30$ pF."
+      "explanation": "$C' = KC = 6\\times5 = 30$ pF.",
+      "trick": "$C'=KC$ — dielectric constant is a direct multiplier on capacitance."
     },
     {
       "id": "phy-electrostatic-potential-and-capacitance-036",
@@ -467,7 +502,8 @@
       ],
       "answer": 1,
       "difficulty": "easy",
-      "explanation": "$V=kq'/r$ with $q'=-q$ gives $V=-kq/r$, negative for a negative source charge."
+      "explanation": "$V=kq'/r$ with $q'=-q$ gives $V=-kq/r$, negative for a negative source charge.",
+      "trick": "Negative source charge gives negative potential: $V=-kq/r$, sign follows the charge."
     },
     {
       "id": "phy-electrostatic-potential-and-capacitance-037",
@@ -480,7 +516,8 @@
       ],
       "answer": 2,
       "difficulty": "easy",
-      "explanation": "The electrostatic field is conservative, so the net work done around any closed path is always zero."
+      "explanation": "The electrostatic field is conservative, so the net work done around any closed path is always zero.",
+      "trick": "Conservative field → net work round any closed loop is always zero."
     },
     {
       "id": "phy-electrostatic-potential-and-capacitance-038",
@@ -493,7 +530,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "Dielectric constant $K=C_{medium}/C_{vacuum}$ for the same capacitor geometry; it is always $\\ge1$."
+      "explanation": "Dielectric constant $K=C_{medium}/C_{vacuum}$ for the same capacitor geometry; it is always $\\ge1$.",
+      "trick": "$K=C_{medium}/C_{vacuum}$, always $\\ge1$ — dielectric increases capacitance."
     },
     {
       "id": "phy-electrostatic-potential-and-capacitance-039",
@@ -506,7 +544,8 @@
       ],
       "answer": 3,
       "difficulty": "medium",
-      "explanation": "Two in parallel give $2C$; in series with the third $C$: $C_{eq}=\\dfrac{2C\\times C}{2C+C}=\\dfrac{2C}{3}$."
+      "explanation": "Two in parallel give $2C$; in series with the third $C$: $C_{eq}=\\dfrac{2C\\times C}{2C+C}=\\dfrac{2C}{3}$.",
+      "trick": "Combine parallel branch first ($2C$), then series formula with the third $C$."
     },
     {
       "id": "phy-electrostatic-potential-and-capacitance-040",
@@ -519,7 +558,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "The total potential energy is the sum of the pairwise potential energies over all pairs of charges."
+      "explanation": "The total potential energy is the sum of the pairwise potential energies over all pairs of charges.",
+      "trick": "Total PE of a charge system = sum over ALL distinct pairs, not just one."
     }
   ]
 }

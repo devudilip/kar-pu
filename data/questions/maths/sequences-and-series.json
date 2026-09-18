@@ -12,7 +12,8 @@
       ],
       "answer": 1,
       "difficulty": "easy",
-      "explanation": "$a=3, d=4$; $a_{10} = 3 + 9(4) = 39$."
+      "explanation": "$a=3, d=4$; $a_{10} = 3 + 9(4) = 39$.",
+      "trick": "Just plug into $a_n=a+(n-1)d$; no need to list terms."
     },
     {
       "id": "mat-sequences-and-series-002",
@@ -25,7 +26,8 @@
       ],
       "answer": 3,
       "difficulty": "easy",
-      "explanation": "$S_{15} = \\dfrac{15}{2}[2(2)+14(3)] = \\dfrac{15}{2}(46) = 345$."
+      "explanation": "$S_{15} = \\dfrac{15}{2}[2(2)+14(3)] = \\dfrac{15}{2}(46) = 345$.",
+      "trick": "$S_n=\\dfrac{n}{2}[2a+(n-1)d]$ — direct substitution, skip listing terms."
     },
     {
       "id": "mat-sequences-and-series-003",
@@ -38,7 +40,8 @@
       ],
       "answer": 2,
       "difficulty": "easy",
-      "explanation": "$a=2, r=3$; $a_6 = 2(3)^5 = 2(243) = 486$."
+      "explanation": "$a=2, r=3$; $a_6 = 2(3)^5 = 2(243) = 486$.",
+      "trick": "$a_n=ar^{n-1}$; multiply by $r$ repeatedly, don't add."
     },
     {
       "id": "mat-sequences-and-series-004",
@@ -51,7 +54,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "$S_\\infty = \\dfrac{a}{1-r} = \\dfrac{1}{1-1/2} = 2$."
+      "explanation": "$S_\\infty = \\dfrac{a}{1-r} = \\dfrac{1}{1-1/2} = 2$.",
+      "trick": "$S_\\infty=\\dfrac{a}{1-r}$, valid only for $|r|<1$."
     },
     {
       "id": "mat-sequences-and-series-005",
@@ -64,7 +68,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "Sum $=20$, product $=64$. Solving $t^2-20t+64=0$ gives $t=\\dfrac{20\\pm12}{2}=16,4$."
+      "explanation": "Sum $=20$, product $=64$. Solving $t^2-20t+64=0$ gives $t=\\dfrac{20\\pm12}{2}=16,4$.",
+      "trick": "Numbers are roots of $t^2-2At+G^2=0$."
     },
     {
       "id": "mat-sequences-and-series-006",
@@ -77,7 +82,8 @@
       ],
       "answer": 0,
       "difficulty": "easy",
-      "explanation": "$\\sum n = \\dfrac{n(n+1)}{2} = \\dfrac{20\\times21}{2} = 210$."
+      "explanation": "$\\sum n = \\dfrac{n(n+1)}{2} = \\dfrac{20\\times21}{2} = 210$.",
+      "trick": "$\\sum n=\\dfrac{n(n+1)}{2}$ — instant recall, no addition."
     },
     {
       "id": "mat-sequences-and-series-007",
@@ -90,7 +96,8 @@
       ],
       "answer": 3,
       "difficulty": "medium",
-      "explanation": "$\\sum n^2 = \\dfrac{n(n+1)(2n+1)}{6} = \\dfrac{10\\times11\\times21}{6} = 385$."
+      "explanation": "$\\sum n^2 = \\dfrac{n(n+1)(2n+1)}{6} = \\dfrac{10\\times11\\times21}{6} = 385$.",
+      "trick": "$\\sum n^2=\\dfrac{n(n+1)(2n+1)}{6}$."
     },
     {
       "id": "mat-sequences-and-series-008",
@@ -103,7 +110,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "$\\sum n^3 = \\left[\\dfrac{n(n+1)}{2}\\right]^2 = \\left[\\dfrac{5\\times6}{2}\\right]^2 = 15^2 = 225$."
+      "explanation": "$\\sum n^3 = \\left[\\dfrac{n(n+1)}{2}\\right]^2 = \\left[\\dfrac{5\\times6}{2}\\right]^2 = 15^2 = 225$.",
+      "trick": "$\\sum n^3=\\left[\\dfrac{n(n+1)}{2}\\right]^2=(\\sum n)^2$."
     },
     {
       "id": "mat-sequences-and-series-009",
@@ -116,7 +124,8 @@
       ],
       "answer": 3,
       "difficulty": "easy",
-      "explanation": "$a+2d=7$, $a+6d=19$. Subtracting: $4d=12 \\Rightarrow d=3$."
+      "explanation": "$a+2d=7$, $a+6d=19$. Subtracting: $4d=12 \\Rightarrow d=3$.",
+      "trick": "$d=\\dfrac{a_m-a_n}{m-n}$ from any two given terms."
     },
     {
       "id": "mat-sequences-and-series-010",
@@ -129,7 +138,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "$a=5, d=4$; $5+(n-1)4=101 \\Rightarrow n-1=24 \\Rightarrow n=25$."
+      "explanation": "$a=5, d=4$; $5+(n-1)4=101 \\Rightarrow n-1=24 \\Rightarrow n=25$.",
+      "trick": "$n=\\dfrac{\\text{last}-\\text{first}}{d}+1$."
     },
     {
       "id": "mat-sequences-and-series-011",
@@ -142,7 +152,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "$S_8 = \\dfrac{3(2^8-1)}{2-1} = 3\\times255 = 765$."
+      "explanation": "$S_8 = \\dfrac{3(2^8-1)}{2-1} = 3\\times255 = 765$.",
+      "trick": "$S_n=\\dfrac{a(r^n-1)}{r-1}$ for $r>1$."
     },
     {
       "id": "mat-sequences-and-series-012",
@@ -155,7 +166,8 @@
       ],
       "answer": 0,
       "difficulty": "hard",
-      "explanation": "Five terms total: $a=1, a_5=13$, so $d=\\dfrac{13-1}{4}=3$. Terms: $1,4,7,10,13$; the second mean is 7."
+      "explanation": "Five terms total: $a=1, a_5=13$, so $d=\\dfrac{13-1}{4}=3$. Terms: $1,4,7,10,13$; the second mean is 7.",
+      "trick": "Inserted means count $n+2$ total terms; find $d$, then read off the term."
     },
     {
       "id": "mat-sequences-and-series-013",
@@ -168,7 +180,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "$\\dfrac{a}{1-r} = 3a \\Rightarrow 1-r = \\dfrac13 \\Rightarrow r = \\dfrac23$."
+      "explanation": "$\\dfrac{a}{1-r} = 3a \\Rightarrow 1-r = \\dfrac13 \\Rightarrow r = \\dfrac23$.",
+      "trick": "$S_\\infty=ka \\Rightarrow r=1-\\dfrac1k$."
     },
     {
       "id": "mat-sequences-and-series-014",
@@ -181,7 +194,8 @@
       ],
       "answer": 0,
       "difficulty": "easy",
-      "explanation": "$a=21, d=-3$; $21-3(n-1)=-81 \\Rightarrow n-1=34 \\Rightarrow n=35$."
+      "explanation": "$a=21, d=-3$; $21-3(n-1)=-81 \\Rightarrow n-1=34 \\Rightarrow n=35$.",
+      "trick": "Set $a+(n-1)d=\\text{value}$ and solve for $n$ — watch the sign of $d$."
     },
     {
       "id": "mat-sequences-and-series-015",
@@ -194,7 +208,8 @@
       ],
       "answer": 3,
       "difficulty": "hard",
-      "explanation": "GP gives $b^2 = ac$, so $2\\log b = \\log a + \\log c$, which is the AP condition."
+      "explanation": "GP gives $b^2 = ac$, so $2\\log b = \\log a + \\log c$, which is the AP condition.",
+      "trick": "GP's constant ratio becomes a constant difference after taking $\\log$ — that's AP."
     },
     {
       "id": "mat-sequences-and-series-016",
@@ -207,7 +222,8 @@
       ],
       "answer": 1,
       "difficulty": "hard",
-      "explanation": "Let numbers be $a-d,a,a+d$. Sum $=3a=15\\Rightarrow a=5$. Product $=5(25-d^2)=105\\Rightarrow d^2=4\\Rightarrow d=2$, giving $3,5,7$."
+      "explanation": "Let numbers be $a-d,a,a+d$. Sum $=3a=15\\Rightarrow a=5$. Product $=5(25-d^2)=105\\Rightarrow d^2=4\\Rightarrow d=2$, giving $3,5,7$.",
+      "trick": "Take numbers as $a-d,a,a+d$; sum gives $a$ instantly, product gives $d$."
     },
     {
       "id": "mat-sequences-and-series-017",
@@ -220,7 +236,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "Sum of first $n$ odd numbers $=n^2$; for $n=12$, sum $=144$."
+      "explanation": "Sum of first $n$ odd numbers $=n^2$; for $n=12$, sum $=144$.",
+      "trick": "Sum of first $n$ odd numbers $=n^2$."
     },
     {
       "id": "mat-sequences-and-series-018",
@@ -233,7 +250,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "$\\dfrac{ar^6}{ar^3}=r^3=\\dfrac{192}{24}=8 \\Rightarrow r=2$."
+      "explanation": "$\\dfrac{ar^6}{ar^3}=r^3=\\dfrac{192}{24}=8 \\Rightarrow r=2$.",
+      "trick": "$r^{\\text{gap}}=$ ratio of the two given terms; take the root."
     },
     {
       "id": "mat-sequences-and-series-019",
@@ -246,7 +264,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "$S_n=\\dfrac{n}{2}(a+l) \\Rightarrow 400=\\dfrac{n}{2}(50) \\Rightarrow n=16$."
+      "explanation": "$S_n=\\dfrac{n}{2}(a+l) \\Rightarrow 400=\\dfrac{n}{2}(50) \\Rightarrow n=16$.",
+      "trick": "$S_n=\\dfrac{n}{2}(a+l)$ — solve directly for $n$."
     },
     {
       "id": "mat-sequences-and-series-020",
@@ -259,7 +278,8 @@
       ],
       "answer": 3,
       "difficulty": "medium",
-      "explanation": "$\\dfrac{5}{1-r}=25 \\Rightarrow 1-r=0.2 \\Rightarrow r=0.8$."
+      "explanation": "$\\dfrac{5}{1-r}=25 \\Rightarrow 1-r=0.2 \\Rightarrow r=0.8$.",
+      "trick": "$r=1-\\dfrac{a}{S_\\infty}$."
     },
     {
       "id": "mat-sequences-and-series-021",
@@ -272,7 +292,8 @@
       ],
       "answer": 1,
       "difficulty": "easy",
-      "explanation": "$a=8, d=-3$; $a_{15} = 8 + 14(-3) = 8 - 42 = -34$."
+      "explanation": "$a=8, d=-3$; $a_{15} = 8 + 14(-3) = 8 - 42 = -34$.",
+      "trick": "Just plug $n$ into $a+(n-1)d$; $d$ is negative here."
     },
     {
       "id": "mat-sequences-and-series-022",
@@ -285,7 +306,8 @@
       ],
       "answer": 0,
       "difficulty": "easy",
-      "explanation": "$S_8 = \\dfrac{1(3^8-1)}{3-1} = \\dfrac{6561-1}{2} = 3280$."
+      "explanation": "$S_8 = \\dfrac{1(3^8-1)}{3-1} = \\dfrac{6561-1}{2} = 3280$.",
+      "trick": "$S_n=\\dfrac{a(r^n-1)}{r-1}$."
     },
     {
       "id": "mat-sequences-and-series-023",
@@ -298,7 +320,8 @@
       ],
       "answer": 3,
       "difficulty": "medium",
-      "explanation": "$a+4d=17,\\ a+8d=33$. Subtracting: $4d=16 \\Rightarrow d=4$."
+      "explanation": "$a+4d=17,\\ a+8d=33$. Subtracting: $4d=16 \\Rightarrow d=4$.",
+      "trick": "$d=\\dfrac{a_m-a_n}{m-n}$."
     },
     {
       "id": "mat-sequences-and-series-024",
@@ -311,7 +334,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "For an AP, $S_n = \\dfrac{d}{2}n^2 + \\left(a-\\dfrac{d}{2}\\right)n$. Comparing coefficients of $n^2$: $\\dfrac{d}{2}=3 \\Rightarrow d=6$."
+      "explanation": "For an AP, $S_n = \\dfrac{d}{2}n^2 + \\left(a-\\dfrac{d}{2}\\right)n$. Comparing coefficients of $n^2$: $\\dfrac{d}{2}=3 \\Rightarrow d=6$.",
+      "trick": "Coefficient of $n^2$ in $S_n$ is $d/2$ — read $d$ off directly."
     },
     {
       "id": "mat-sequences-and-series-025",
@@ -324,7 +348,8 @@
       ],
       "answer": 1,
       "difficulty": "easy",
-      "explanation": "$ar^3=135 \\Rightarrow 5r^3=135 \\Rightarrow r^3=27 \\Rightarrow r=3$."
+      "explanation": "$ar^3=135 \\Rightarrow 5r^3=135 \\Rightarrow r^3=27 \\Rightarrow r=3$.",
+      "trick": "$r^{n-1}=a_n/a$; take the matching root."
     },
     {
       "id": "mat-sequences-and-series-026",
@@ -337,7 +362,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "$S_\\infty = \\dfrac{a}{1-r} = \\dfrac{8}{1-(-1/2)} = \\dfrac{8}{3/2} = \\dfrac{16}{3}$."
+      "explanation": "$S_\\infty = \\dfrac{a}{1-r} = \\dfrac{8}{1-(-1/2)} = \\dfrac{8}{3/2} = \\dfrac{16}{3}$.",
+      "trick": "$S_\\infty=\\dfrac{a}{1-r}$ works for negative $r$ too, just need $|r|<1$."
     },
     {
       "id": "mat-sequences-and-series-027",
@@ -350,7 +376,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "$0.\\overline3 = \\dfrac{3}{10}+\\dfrac{3}{100}+\\cdots$, a GP with $a=3/10, r=1/10$; sum $=\\dfrac{3/10}{1-1/10}=\\dfrac{3/10}{9/10}=\\dfrac13$."
+      "explanation": "$0.\\overline3 = \\dfrac{3}{10}+\\dfrac{3}{100}+\\cdots$, a GP with $a=3/10, r=1/10$; sum $=\\dfrac{3/10}{1-1/10}=\\dfrac{3/10}{9/10}=\\dfrac13$.",
+      "trick": "Repeating decimal is a GP with $r=1/10^{\\text{digits}}$; sum $=a/(1-r)$."
     },
     {
       "id": "mat-sequences-and-series-028",
@@ -363,7 +390,8 @@
       ],
       "answer": 3,
       "difficulty": "hard",
-      "explanation": "Let the numbers be $a/r, a, ar$. Product $=a^3=64 \\Rightarrow a=4$. Sum: $4/r+4+4r=14 \\Rightarrow 2r^2-5r+2=0 \\Rightarrow r=2$ or $0.5$. Taking $r=2$, the numbers are $2,4,8$; the largest is 8."
+      "explanation": "Let the numbers be $a/r, a, ar$. Product $=a^3=64 \\Rightarrow a=4$. Sum: $4/r+4+4r=14 \\Rightarrow 2r^2-5r+2=0 \\Rightarrow r=2$ or $0.5$. Taking $r=2$, the numbers are $2,4,8$; the largest is 8.",
+      "trick": "Take the three numbers as $a/r,a,ar$; product $=a^3$ gives $a$ at once."
     },
     {
       "id": "mat-sequences-and-series-029",
@@ -376,7 +404,8 @@
       ],
       "answer": 1,
       "difficulty": "easy",
-      "explanation": "$a_{20}=4(20)+1=81$."
+      "explanation": "$a_{20}=4(20)+1=81$.",
+      "trick": "Just substitute $n$ into the given $a_n$ formula."
     },
     {
       "id": "mat-sequences-and-series-030",
@@ -389,7 +418,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "$S_n=2n^2+3n$. $a_{10}=S_{10}-S_9 = (200+30)-(162+27) = 230-189 = 41$."
+      "explanation": "$S_n=2n^2+3n$. $a_{10}=S_{10}-S_9 = (200+30)-(162+27) = 230-189 = 41$.",
+      "trick": "$a_n=S_n-S_{n-1}$."
     },
     {
       "id": "mat-sequences-and-series-031",
@@ -402,7 +432,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "AP gives $2b=a+c$ and GP gives $b^2=ac$. Substituting shows $(a-c)^2=0$, so $a=b=c$; the numbers are not distinct unless all are equal."
+      "explanation": "AP gives $2b=a+c$ and GP gives $b^2=ac$. Substituting shows $(a-c)^2=0$, so $a=b=c$; the numbers are not distinct unless all are equal.",
+      "trick": "Three terms both AP and GP forces $a=b=c$ — pick 'equal'."
     },
     {
       "id": "mat-sequences-and-series-032",
@@ -415,7 +446,8 @@
       ],
       "answer": 3,
       "difficulty": "hard",
-      "explanation": "This is $4(1^2+2^2+\\cdots+5^2) = 4\\times\\dfrac{5\\times6\\times11}{6} = 4\\times55=220$."
+      "explanation": "This is $4(1^2+2^2+\\cdots+5^2) = 4\\times\\dfrac{5\\times6\\times11}{6} = 4\\times55=220$.",
+      "trick": "Sum of squares of first $n$ even numbers $=4\\sum n^2$."
     },
     {
       "id": "mat-sequences-and-series-033",
@@ -428,7 +460,8 @@
       ],
       "answer": 0,
       "difficulty": "easy",
-      "explanation": "$\\sum n = \\dfrac{n(n+1)}{2} = \\dfrac{25\\times26}{2} = 325$."
+      "explanation": "$\\sum n = \\dfrac{n(n+1)}{2} = \\dfrac{25\\times26}{2} = 325$.",
+      "trick": "$\\sum n=\\dfrac{n(n+1)}{2}$."
     },
     {
       "id": "mat-sequences-and-series-034",
@@ -441,7 +474,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "Sum $=26$, product $=144$. Solving $t^2-26t+144=0$: discriminant $=676-576=100$, so $t=\\dfrac{26\\pm10}{2}=18,8$."
+      "explanation": "Sum $=26$, product $=144$. Solving $t^2-26t+144=0$: discriminant $=676-576=100$, so $t=\\dfrac{26\\pm10}{2}=18,8$.",
+      "trick": "Solve $t^2-2At+G^2=0$ for the two numbers."
     },
     {
       "id": "mat-sequences-and-series-035",
@@ -454,7 +488,8 @@
       ],
       "answer": 3,
       "difficulty": "medium",
-      "explanation": "$a=3, r=2$; $3(2)^{n-1}=384 \\Rightarrow 2^{n-1}=128=2^7 \\Rightarrow n-1=7 \\Rightarrow n=8$."
+      "explanation": "$a=3, r=2$; $3(2)^{n-1}=384 \\Rightarrow 2^{n-1}=128=2^7 \\Rightarrow n-1=7 \\Rightarrow n=8$.",
+      "trick": "$r^{n-1}=\\text{last}/\\text{first}$; match it as a power of $r$."
     },
     {
       "id": "mat-sequences-and-series-036",
@@ -467,7 +502,8 @@
       ],
       "answer": 1,
       "difficulty": "hard",
-      "explanation": "Sum $=13$, product $=36$. Solving $t^2-13t+36=0$: discriminant $=169-144=25$, so $t=\\dfrac{13\\pm5}{2}=9,4$."
+      "explanation": "Sum $=13$, product $=36$. Solving $t^2-13t+36=0$: discriminant $=169-144=25$, so $t=\\dfrac{13\\pm5}{2}=9,4$.",
+      "trick": "Solve $t^2-(\\text{sum})t+(\\text{product})=0$."
     },
     {
       "id": "mat-sequences-and-series-037",
@@ -480,7 +516,8 @@
       ],
       "answer": 1,
       "difficulty": "easy",
-      "explanation": "$a=2, r=2$; $2(2)^{n-1}=128 \\Rightarrow 2^n=128=2^7 \\Rightarrow n=7$."
+      "explanation": "$a=2, r=2$; $2(2)^{n-1}=128 \\Rightarrow 2^n=128=2^7 \\Rightarrow n=7$.",
+      "trick": "$r^{n-1}=\\text{term}/\\text{first}$; match powers of $r$."
     },
     {
       "id": "mat-sequences-and-series-038",
@@ -493,7 +530,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "$a=1, d=3$; $S_{30}=\\dfrac{30}{2}[2(1)+29(3)] = 15(2+87) = 15\\times89 = 1335$."
+      "explanation": "$a=1, d=3$; $S_{30}=\\dfrac{30}{2}[2(1)+29(3)] = 15(2+87) = 15\\times89 = 1335$.",
+      "trick": "$S_n=\\dfrac{n}{2}[2a+(n-1)d]$."
     },
     {
       "id": "mat-sequences-and-series-039",
@@ -506,7 +544,8 @@
       ],
       "answer": 0,
       "difficulty": "hard",
-      "explanation": "$a_n=S_n-S_{n-1}=[3n^2+5n]-[3(n-1)^2+5(n-1)] = 6n+2$ after simplifying."
+      "explanation": "$a_n=S_n-S_{n-1}=[3n^2+5n]-[3(n-1)^2+5(n-1)] = 6n+2$ after simplifying.",
+      "trick": "$a_n=S_n-S_{n-1}$; for quadratic $S_n$, differentiate-and-adjust mentally."
     },
     {
       "id": "mat-sequences-and-series-040",
@@ -519,7 +558,8 @@
       ],
       "answer": 3,
       "difficulty": "hard",
-      "explanation": "Reciprocals form an AP: 4th term $=2$, 8th term $=4$, so $d=\\dfrac{4-2}{4}=0.5$ and first term $=2-3(0.5)=0.5$. The HP's first term is the reciprocal, $1/0.5=2$."
+      "explanation": "Reciprocals form an AP: 4th term $=2$, 8th term $=4$, so $d=\\dfrac{4-2}{4}=0.5$ and first term $=2-3(0.5)=0.5$. The HP's first term is the reciprocal, $1/0.5=2$.",
+      "trick": "Invert HP terms into AP, solve there, then invert the answer back."
     }
   ]
 }

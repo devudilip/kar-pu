@@ -6,6 +6,7 @@ const defaults = () => ({
   tests: [],         // { id, title, date, subjects, total, correct, wrong, skipped, timeTaken, items:[{qid, chosen, correct}] }
   chapterSeen: {},   // chapterKey -> timestamp
   daily: {},         // 'YYYY-MM-DD' -> { done, correct }
+  quick: {},         // 'subject/slug' -> { score, of, t }
   last: null,        // { type, href, title, sub, t } — continue where you left off
   plan: null,        // study plan { examDate, hoursPerDay, created, days:[{date, tasks:[{key,type,subject,slug,title,hours,done}]}] }
   cards: {},         // cardKey -> { lvl, next }
@@ -30,6 +31,8 @@ export const store = {
   },
   setReason(qid, reason) { const a = state.attempts[qid]; if (a) { a.reason = reason; save(); } },
   reasonStats() { const r = {}; for (const a of Object.values(state.attempts)) if (a.last === 0 && a.reason) r[a.reason] = (r[a.reason] || 0) + 1; return r; },
+  quickCheck(key) { return state.quick[key]; },
+  setQuickCheck(key, v) { state.quick[key] = { ...v, t: Date.now() }; save(); },
   setLast(o) { state.last = { ...o, t: Date.now() }; save(); },
   last() { return state.last; },
   setPlan(p) { state.plan = p; save(); },

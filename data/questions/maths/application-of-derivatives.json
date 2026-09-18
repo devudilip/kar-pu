@@ -12,7 +12,8 @@
       ],
       "answer": 3,
       "difficulty": "easy",
-      "explanation": "$A=\\pi r^2\\Rightarrow \\dfrac{dA}{dr}=2\\pi r=2\\pi(5)=10\\pi$."
+      "explanation": "$A=\\pi r^2\\Rightarrow \\dfrac{dA}{dr}=2\\pi r=2\\pi(5)=10\\pi$.",
+      "trick": "$dA/dr=2\\pi r$ — just plug in $r$."
     },
     {
       "id": "mat-application-of-derivatives-002",
@@ -25,7 +26,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "$V=\\dfrac43\\pi r^3\\Rightarrow\\dfrac{dV}{dt}=4\\pi r^2\\dfrac{dr}{dt}$. $72\\pi=4\\pi(36)\\dfrac{dr}{dt}\\Rightarrow\\dfrac{dr}{dt}=72\\pi/144\\pi=0.5$."
+      "explanation": "$V=\\dfrac43\\pi r^3\\Rightarrow\\dfrac{dV}{dt}=4\\pi r^2\\dfrac{dr}{dt}$. $72\\pi=4\\pi(36)\\dfrac{dr}{dt}\\Rightarrow\\dfrac{dr}{dt}=72\\pi/144\\pi=0.5$.",
+      "trick": "Related rates: differentiate $V=\\tfrac43\\pi r^3$, then plug in $dV/dt$ and $r$."
     },
     {
       "id": "mat-application-of-derivatives-003",
@@ -38,7 +40,8 @@
       ],
       "answer": 2,
       "difficulty": "easy",
-      "explanation": "$f'(x)=2x-4>0\\Rightarrow x>2$."
+      "explanation": "$f'(x)=2x-4>0\\Rightarrow x>2$.",
+      "trick": "$f'(x)>0$ gives the increasing interval — solve the linear inequality."
     },
     {
       "id": "mat-application-of-derivatives-004",
@@ -51,7 +54,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "$f'(x)=3x^2-3=3(x-1)(x+1)<0$ for $-1<x<1$."
+      "explanation": "$f'(x)=3x^2-3=3(x-1)(x+1)<0$ for $-1<x<1$.",
+      "trick": "Factor $f'(x)$ and find where the product of the two roots is negative."
     },
     {
       "id": "mat-application-of-derivatives-005",
@@ -64,7 +68,8 @@
       ],
       "answer": 3,
       "difficulty": "easy",
-      "explanation": "$dy/dx=2x$; at $x=2$, slope $=4$."
+      "explanation": "$dy/dx=2x$; at $x=2$, slope $=4$.",
+      "trick": "Slope of tangent $=f'(x)$ evaluated at that point."
     },
     {
       "id": "mat-application-of-derivatives-006",
@@ -77,7 +82,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "Slope at $(1,1)$ is $2(1)=2$. Tangent: $y-1=2(x-1)\\Rightarrow y=2x-1$."
+      "explanation": "Slope at $(1,1)$ is $2(1)=2$. Tangent: $y-1=2(x-1)\\Rightarrow y=2x-1$.",
+      "trick": "Find the slope via the derivative, then use point-slope form."
     },
     {
       "id": "mat-application-of-derivatives-007",
@@ -90,7 +96,8 @@
       ],
       "answer": 2,
       "difficulty": "easy",
-      "explanation": "Tangent parallel to x-axis $\\Rightarrow dy/dx=0\\Rightarrow2x=0\\Rightarrow x=0$, giving point $(0,0)$."
+      "explanation": "Tangent parallel to x-axis $\\Rightarrow dy/dx=0\\Rightarrow2x=0\\Rightarrow x=0$, giving point $(0,0)$.",
+      "trick": "Horizontal tangent $\\Rightarrow f'(x)=0$, solve for $x$."
     },
     {
       "id": "mat-application-of-derivatives-008",
@@ -103,7 +110,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "$f(x)=\\sqrt x$, $x=25,\\Delta x=0.2$. $f'(x)=1/(2\\sqrt x)=1/10$. $\\Delta y\\approx0.1\\times0.2=0.02$. $\\sqrt{25.2}\\approx5+0.02=5.02$."
+      "explanation": "$f(x)=\\sqrt x$, $x=25,\\Delta x=0.2$. $f'(x)=1/(2\\sqrt x)=1/10$. $\\Delta y\\approx0.1\\times0.2=0.02$. $\\sqrt{25.2}\\approx5+0.02=5.02$.",
+      "trick": "$\\Delta y\\approx f'(x)\\Delta x$ — pick the nearest perfect square/cube as the base point."
     },
     {
       "id": "mat-application-of-derivatives-009",
@@ -116,7 +124,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "$f'(x)=-2x+4=0\\Rightarrow x=2$; $f''(x)=-2<0$ (max). $f(2)=-4+8+1=5$."
+      "explanation": "$f'(x)=-2x+4=0\\Rightarrow x=2$; $f''(x)=-2<0$ (max). $f(2)=-4+8+1=5$.",
+      "trick": "Downward parabola: vertex is the max — set $f'(x)=0$, confirm $f''<0$."
     },
     {
       "id": "mat-application-of-derivatives-010",
@@ -129,7 +138,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "$f'(x)=3x^2-3=0\\Rightarrow x=\\pm1$. $f''(x)=6x$; at $x=1$, $f''>0$ (min). $f(1)=1-3+2=0$."
+      "explanation": "$f'(x)=3x^2-3=0\\Rightarrow x=\\pm1$. $f''(x)=6x$; at $x=1$, $f''>0$ (min). $f(1)=1-3+2=0$.",
+      "trick": "Solve $f'(x)=0$, then use the sign of $f''$ to pick the minimum root."
     },
     {
       "id": "mat-application-of-derivatives-011",
@@ -142,7 +152,8 @@
       ],
       "answer": 3,
       "difficulty": "medium",
-      "explanation": "For fixed perimeter, area $A=x(P/2-x)$ is maximised at $x=P/4$, giving equal sides — a square."
+      "explanation": "For fixed perimeter, area $A=x(P/2-x)$ is maximised at $x=P/4$, giving equal sides — a square.",
+      "trick": "Fixed perimeter always maximizes rectangle area at equal sides — a square."
     },
     {
       "id": "mat-application-of-derivatives-012",
@@ -155,7 +166,8 @@
       ],
       "answer": 1,
       "difficulty": "hard",
-      "explanation": "Tangent slope at $(1,1)$ is 2, so normal slope $=-1/2$. Normal: $y-1=-\\dfrac12(x-1)\\Rightarrow2y-2=-x+1\\Rightarrow x+2y=3$."
+      "explanation": "Tangent slope at $(1,1)$ is 2, so normal slope $=-1/2$. Normal: $y-1=-\\dfrac12(x-1)\\Rightarrow2y-2=-x+1\\Rightarrow x+2y=3$.",
+      "trick": "Normal slope $=-1/(\\text{tangent slope})$; use point-slope form."
     },
     {
       "id": "mat-application-of-derivatives-013",
@@ -168,7 +180,8 @@
       ],
       "answer": 1,
       "difficulty": "hard",
-      "explanation": "$x^2+y^2=25$. At $x=3$, $y=4$. Differentiating: $2x\\dfrac{dx}{dt}+2y\\dfrac{dy}{dt}=0\\Rightarrow\\dfrac{dy}{dt}=-\\dfrac{x}{y}\\dfrac{dx}{dt}=-\\dfrac34\\times2=-1.5$; speed is $1.5\\,\\text{m/s}$."
+      "explanation": "$x^2+y^2=25$. At $x=3$, $y=4$. Differentiating: $2x\\dfrac{dx}{dt}+2y\\dfrac{dy}{dt}=0\\Rightarrow\\dfrac{dy}{dt}=-\\dfrac{x}{y}\\dfrac{dx}{dt}=-\\dfrac34\\times2=-1.5$; speed is $1.5\\,\\text{m/s}$.",
+      "trick": "Ladder problem: $x^2+y^2=L^2$, differentiate implicitly w.r.t. time."
     },
     {
       "id": "mat-application-of-derivatives-014",
@@ -181,7 +194,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "$f'(x)=1/x-1>0\\Rightarrow x<1$. Combined with domain $x>0$, increasing on $(0,1)$."
+      "explanation": "$f'(x)=1/x-1>0\\Rightarrow x<1$. Combined with domain $x>0$, increasing on $(0,1)$.",
+      "trick": "$f'(x)=1/x-1>0$ then intersect with the domain restriction."
     },
     {
       "id": "mat-application-of-derivatives-015",
@@ -194,7 +208,8 @@
       ],
       "answer": 3,
       "difficulty": "hard",
-      "explanation": "The maximum-area rectangle inscribed in a circle is a square with diagonal $2r$, side $r\\sqrt2$, area $=2r^2$."
+      "explanation": "The maximum-area rectangle inscribed in a circle is a square with diagonal $2r$, side $r\\sqrt2$, area $=2r^2$.",
+      "trick": "Max-area rectangle inscribed in a circle is always a square."
     },
     {
       "id": "mat-application-of-derivatives-016",
@@ -207,7 +222,8 @@
       ],
       "answer": 0,
       "difficulty": "hard",
-      "explanation": "$f'(x)=3x^2\\ge0$ always (no sign change), so $x=0$ is neither max nor min; $f''(x)=6x$ changes sign at $0$, so it is a point of inflection."
+      "explanation": "$f'(x)=3x^2\\ge0$ always (no sign change), so $x=0$ is neither max nor min; $f''(x)=6x$ changes sign at $0$, so it is a point of inflection.",
+      "trick": "$f'\\ge0$ with no sign change means no extremum; check $f''=0$ with sign change for inflection."
     },
     {
       "id": "mat-application-of-derivatives-017",
@@ -220,7 +236,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "Compare endpoints and critical point $x=0$: $f(-2)=4$, $f(3)=9$, $f(0)=0$. Maximum is $9$ at $x=3$."
+      "explanation": "Compare endpoints and critical point $x=0$: $f(-2)=4$, $f(3)=9$, $f(0)=0$. Maximum is $9$ at $x=3$.",
+      "trick": "Absolute max/min: compare $f$ at critical points AND both endpoints."
     },
     {
       "id": "mat-application-of-derivatives-018",
@@ -233,7 +250,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "Let numbers be $x,16-x$; product $P=16x-x^2$, $P'=16-2x=0\\Rightarrow x=8$. Numbers are 8 and 8."
+      "explanation": "Let numbers be $x,16-x$; product $P=16x-x^2$, $P'=16-2x=0\\Rightarrow x=8$. Numbers are 8 and 8.",
+      "trick": "Fixed sum $\\Rightarrow$ product is maximized when the two numbers are equal."
     },
     {
       "id": "mat-application-of-derivatives-019",
@@ -246,7 +264,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "$V=x^3\\Rightarrow dV=3x^2\\,dx=3(100)(0.1)=30\\,\\text{cm}^3$."
+      "explanation": "$V=x^3\\Rightarrow dV=3x^2\\,dx=3(100)(0.1)=30\\,\\text{cm}^3$.",
+      "trick": "$dV=3x^2\\,dx$ for a cube — linear approximation of the volume change."
     },
     {
       "id": "mat-application-of-derivatives-020",
@@ -259,7 +278,8 @@
       ],
       "answer": 3,
       "difficulty": "easy",
-      "explanation": "$f'(x)=\\cos x=0$ at $x=\\pi/2,3\\pi/2$. $f''(x)=-\\sin x$; at $\\pi/2$, $f''<0$ (max); at $3\\pi/2$, $f''>0$ (min)."
+      "explanation": "$f'(x)=\\cos x=0$ at $x=\\pi/2,3\\pi/2$. $f''(x)=-\\sin x$; at $\\pi/2$, $f''<0$ (max); at $3\\pi/2$, $f''>0$ (min).",
+      "trick": "$\\cos x=0$ gives candidates; $f''=-\\sin x$ picks which is max vs min."
     },
     {
       "id": "mat-application-of-derivatives-021",
@@ -272,7 +292,8 @@
       ],
       "answer": 3,
       "difficulty": "easy",
-      "explanation": "$V=\\dfrac43\\pi r^3\\Rightarrow \\dfrac{dV}{dr}=4\\pi r^2$; at $r=3$: $4\\pi(9)=36\\pi$."
+      "explanation": "$V=\\dfrac43\\pi r^3\\Rightarrow \\dfrac{dV}{dr}=4\\pi r^2$; at $r=3$: $4\\pi(9)=36\\pi$.",
+      "trick": "$dV/dr=4\\pi r^2$ — plug in $r$ directly."
     },
     {
       "id": "mat-application-of-derivatives-022",
@@ -285,7 +306,8 @@
       ],
       "answer": 0,
       "difficulty": "hard",
-      "explanation": "Let $x$ = horizontal distance, height $=90$ (constant), string $l$: $l^2=x^2+90^2$. Here $x=120,\\ l=150$ (since $90^2+120^2=150^2$). Differentiating: $2l\\dfrac{dl}{dt}=2x\\dfrac{dx}{dt}\\Rightarrow\\dfrac{dl}{dt}=\\dfrac{x}{l}\\cdot\\dfrac{dx}{dt}=\\dfrac{120}{150}\\times5=4\\,\\text{m/s}$."
+      "explanation": "Let $x$ = horizontal distance, height $=90$ (constant), string $l$: $l^2=x^2+90^2$. Here $x=120,\\ l=150$ (since $90^2+120^2=150^2$). Differentiating: $2l\\dfrac{dl}{dt}=2x\\dfrac{dx}{dt}\\Rightarrow\\dfrac{dl}{dt}=\\dfrac{x}{l}\\cdot\\dfrac{dx}{dt}=\\dfrac{120}{150}\\times5=4\\,\\text{m/s}$.",
+      "trick": "Right-triangle relation $l^2=x^2+h^2$; differentiate, then plug in known values."
     },
     {
       "id": "mat-application-of-derivatives-023",
@@ -298,7 +320,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "$f'(x)=6x^2-18x+12=6(x-1)(x-2)$. This is positive when $x<1$ or $x>2$, so $f$ is strictly increasing on $(-\\infty,1)\\cup(2,\\infty)$."
+      "explanation": "$f'(x)=6x^2-18x+12=6(x-1)(x-2)$. This is positive when $x<1$ or $x>2$, so $f$ is strictly increasing on $(-\\infty,1)\\cup(2,\\infty)$.",
+      "trick": "Factor $f'(x)$ into two roots: positive outside them, negative between."
     },
     {
       "id": "mat-application-of-derivatives-024",
@@ -311,7 +334,8 @@
       ],
       "answer": 1,
       "difficulty": "easy",
-      "explanation": "$\\dfrac{dy}{dx}=2x=6\\Rightarrow x=3$, and $y=3^2=9$. The point is $(3,9)$."
+      "explanation": "$\\dfrac{dy}{dx}=2x=6\\Rightarrow x=3$, and $y=3^2=9$. The point is $(3,9)$.",
+      "trick": "Set $f'(x)$ equal to the given slope, solve for $x$, then find $y$."
     },
     {
       "id": "mat-application-of-derivatives-025",
@@ -324,7 +348,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "$\\dfrac{dy}{dx}=3x^2$; at $x=1$, slope $=3$. The line $3x-y=0$ i.e. $y=3x$ has slope $3$, matching."
+      "explanation": "$\\dfrac{dy}{dx}=3x^2$; at $x=1$, slope $=3$. The line $3x-y=0$ i.e. $y=3x$ has slope $3$, matching.",
+      "trick": "Match $f'(x)$ to the given line's slope, solve for $x$."
     },
     {
       "id": "mat-application-of-derivatives-026",
@@ -337,7 +362,8 @@
       ],
       "answer": 0,
       "difficulty": "hard",
-      "explanation": "Let $f(x)=x^{1/3}$, $x=8$, $dx=0.01$. $f'(x)=\\dfrac13x^{-2/3}$, at $x=8$: $f'(8)=\\dfrac13\\cdot\\dfrac14=\\dfrac{1}{12}$. Approx value $=2+\\dfrac{1}{12}(0.01)=2+0.000833=2.000833$."
+      "explanation": "Let $f(x)=x^{1/3}$, $x=8$, $dx=0.01$. $f'(x)=\\dfrac13x^{-2/3}$, at $x=8$: $f'(8)=\\dfrac13\\cdot\\dfrac14=\\dfrac{1}{12}$. Approx value $=2+\\dfrac{1}{12}(0.01)=2+0.000833=2.000833$.",
+      "trick": "Linear approximation $f(x+dx)\\approx f(x)+f'(x)dx$ with $x$ a nearby perfect cube."
     },
     {
       "id": "mat-application-of-derivatives-027",
@@ -350,7 +376,8 @@
       ],
       "answer": 2,
       "difficulty": "hard",
-      "explanation": "$f''(x)=6x-12$. Setting $f''(x)=0$ gives $x=2$, and $f''$ changes sign there, so it is a point of inflection."
+      "explanation": "$f''(x)=6x-12$. Setting $f''(x)=0$ gives $x=2$, and $f''$ changes sign there, so it is a point of inflection.",
+      "trick": "Solve $f''(x)=0$ and confirm the sign actually changes around that point."
     },
     {
       "id": "mat-application-of-derivatives-028",
@@ -363,7 +390,8 @@
       ],
       "answer": 3,
       "difficulty": "medium",
-      "explanation": "$V=\\pi r^2h\\Rightarrow\\dfrac{dV}{dt}=\\pi r^2\\dfrac{dh}{dt}$ (r fixed). $50=\\pi(25)\\dfrac{dh}{dt}\\Rightarrow\\dfrac{dh}{dt}=\\dfrac{50}{25\\pi}=\\dfrac{2}{\\pi}$."
+      "explanation": "$V=\\pi r^2h\\Rightarrow\\dfrac{dV}{dt}=\\pi r^2\\dfrac{dh}{dt}$ (r fixed). $50=\\pi(25)\\dfrac{dh}{dt}\\Rightarrow\\dfrac{dh}{dt}=\\dfrac{50}{25\\pi}=\\dfrac{2}{\\pi}$.",
+      "trick": "Fixed radius $\\Rightarrow dV/dt=\\pi r^2\\,dh/dt$, solve for $dh/dt$."
     },
     {
       "id": "mat-application-of-derivatives-029",
@@ -376,7 +404,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "$f'(x)=1-\\dfrac{1}{x^2}=0\\Rightarrow x^2=1\\Rightarrow x=1$ (taking $x>0$). Since $f''(x)=\\dfrac{2}{x^3}>0$ at $x=1$, it is a local minimum."
+      "explanation": "$f'(x)=1-\\dfrac{1}{x^2}=0\\Rightarrow x^2=1\\Rightarrow x=1$ (taking $x>0$). Since $f''(x)=\\dfrac{2}{x^3}>0$ at $x=1$, it is a local minimum.",
+      "trick": "Classic $x+1/x$ has its minimum at $x=1$ for $x>0$ (AM-GM intuition)."
     },
     {
       "id": "mat-application-of-derivatives-030",
@@ -389,7 +418,8 @@
       ],
       "answer": 1,
       "difficulty": "easy",
-      "explanation": "For fixed sum $S$, product $x(S-x)$ is maximised when $x=S/2$, i.e. the two numbers are equal: $12$ and $12$."
+      "explanation": "For fixed sum $S$, product $x(S-x)$ is maximised when $x=S/2$, i.e. the two numbers are equal: $12$ and $12$.",
+      "trick": "Equal split always maximizes the product for a fixed sum."
     },
     {
       "id": "mat-application-of-derivatives-031",
@@ -402,7 +432,8 @@
       ],
       "answer": 3,
       "difficulty": "easy",
-      "explanation": "$\\sin x+\\cos x=\\sqrt2\\sin\\left(x+\\dfrac{\\pi}{4}\\right)$, whose maximum value is $\\sqrt2$."
+      "explanation": "$\\sin x+\\cos x=\\sqrt2\\sin\\left(x+\\dfrac{\\pi}{4}\\right)$, whose maximum value is $\\sqrt2$.",
+      "trick": "$a\\sin x+b\\cos x$ has max value $\\sqrt{a^2+b^2}$ — here $\\sqrt2$."
     },
     {
       "id": "mat-application-of-derivatives-032",
@@ -415,7 +446,8 @@
       ],
       "answer": 2,
       "difficulty": "easy",
-      "explanation": "$A=s^2\\Rightarrow\\dfrac{dA}{dt}=2s\\dfrac{ds}{dt}=2(10)(3)=60\\,\\text{cm}^2/\\text{s}$."
+      "explanation": "$A=s^2\\Rightarrow\\dfrac{dA}{dt}=2s\\dfrac{ds}{dt}=2(10)(3)=60\\,\\text{cm}^2/\\text{s}$.",
+      "trick": "$dA/dt=2s\\cdot ds/dt$ for a square — chain rule on $A=s^2$."
     },
     {
       "id": "mat-application-of-derivatives-033",
@@ -428,7 +460,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "$f'(x)=2x-2=0\\Rightarrow x=1$ (in $[0,3]$), $f(1)=1-2+3=2$. Compare with endpoints: $f(0)=3$, $f(3)=9-6+3=6$. The minimum among these is $2$."
+      "explanation": "$f'(x)=2x-2=0\\Rightarrow x=1$ (in $[0,3]$), $f(1)=1-2+3=2$. Compare with endpoints: $f(0)=3$, $f(3)=9-6+3=6$. The minimum among these is $2$.",
+      "trick": "Check the critical point AND both endpoints, then pick the smallest value."
     },
     {
       "id": "mat-application-of-derivatives-034",
@@ -441,7 +474,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "By the second derivative test, if $f'(c)=0$ and $f''(c)>0$, then $f$ has a local minimum at $x=c$."
+      "explanation": "By the second derivative test, if $f'(c)=0$ and $f''(c)>0$, then $f$ has a local minimum at $x=c$.",
+      "trick": "$f''(c)>0$ at a critical point $\\Rightarrow$ local minimum, by the second derivative test."
     },
     {
       "id": "mat-application-of-derivatives-035",
@@ -454,7 +488,8 @@
       ],
       "answer": 1,
       "difficulty": "hard",
-      "explanation": "For the classic optimisation problem, maximising $V=\\dfrac13\\pi(2Rh-h^2)h$ with respect to $h$ gives $\\dfrac{dV}{dh}=\\dfrac13\\pi(4Rh-3h^2)=0\\Rightarrow h=\\dfrac{4R}{3}$ (rejecting $h=0$)."
+      "explanation": "For the classic optimisation problem, maximising $V=\\dfrac13\\pi(2Rh-h^2)h$ with respect to $h$ gives $\\dfrac{dV}{dh}=\\dfrac13\\pi(4Rh-3h^2)=0\\Rightarrow h=\\dfrac{4R}{3}$ (rejecting $h=0$).",
+      "trick": "Classic result: the max-volume cone in a sphere has height $=4R/3$."
     },
     {
       "id": "mat-application-of-derivatives-036",
@@ -467,7 +502,8 @@
       ],
       "answer": 3,
       "difficulty": "easy",
-      "explanation": "$f'(x)=-\\dfrac{1}{x^2}<0$ for all $x>0$, so $f$ is strictly decreasing on $(0,\\infty)$."
+      "explanation": "$f'(x)=-\\dfrac{1}{x^2}<0$ for all $x>0$, so $f$ is strictly decreasing on $(0,\\infty)$.",
+      "trick": "$f'(x)=-1/x^2<0$ always $\\Rightarrow$ always strictly decreasing."
     },
     {
       "id": "mat-application-of-derivatives-037",
@@ -480,7 +516,8 @@
       ],
       "answer": 3,
       "difficulty": "hard",
-      "explanation": "$f'(x)=4x^3=0\\Rightarrow x=0$; $f''(x)=12x^2$, and $f''(0)=0$, so the second derivative test is inconclusive. But checking directly, $f(x)=x^4\\ge0=f(0)$ for all $x$, so $x=0$ is in fact a local (and global) minimum."
+      "explanation": "$f'(x)=4x^3=0\\Rightarrow x=0$; $f''(x)=12x^2$, and $f''(0)=0$, so the second derivative test is inconclusive. But checking directly, $f(x)=x^4\\ge0=f(0)$ for all $x$, so $x=0$ is in fact a local (and global) minimum.",
+      "trick": "$f''(c)=0\\Rightarrow$ test fails; check $f$ directly instead of relying on the second derivative."
     },
     {
       "id": "mat-application-of-derivatives-038",
@@ -493,7 +530,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "At $x=0$, $y=3$. $\\dfrac{dy}{dx}=2x-2$, at $x=0$: slope $=-2$. Tangent: $y-3=-2(x-0)\\Rightarrow y=-2x+3$."
+      "explanation": "At $x=0$, $y=3$. $\\dfrac{dy}{dx}=2x-2$, at $x=0$: slope $=-2$. Tangent: $y-3=-2(x-0)\\Rightarrow y=-2x+3$.",
+      "trick": "Find the $y$-intercept ($x=0$) first, then compute the slope there for the tangent."
     },
     {
       "id": "mat-application-of-derivatives-039",
@@ -506,7 +544,8 @@
       ],
       "answer": 1,
       "difficulty": "hard",
-      "explanation": "Let $x$ = wire for the square (side $x/4$, area $x^2/16$); remaining $(28-x)$ forms the circle ($r=(28-x)/(2\\pi)$, area $(28-x)^2/(4\\pi)$). Minimising $A(x)=\\dfrac{x^2}{16}+\\dfrac{(28-x)^2}{4\\pi}$: $\\dfrac{dA}{dx}=\\dfrac{x}{8}-\\dfrac{28-x}{2\\pi}=0\\Rightarrow 2\\pi x=8(28-x)\\Rightarrow x(2\\pi+8)=224\\Rightarrow x=\\dfrac{224}{2\\pi+8}=\\dfrac{112}{\\pi+4}$."
+      "explanation": "Let $x$ = wire for the square (side $x/4$, area $x^2/16$); remaining $(28-x)$ forms the circle ($r=(28-x)/(2\\pi)$, area $(28-x)^2/(4\\pi)$). Minimising $A(x)=\\dfrac{x^2}{16}+\\dfrac{(28-x)^2}{4\\pi}$: $\\dfrac{dA}{dx}=\\dfrac{x}{8}-\\dfrac{28-x}{2\\pi}=0\\Rightarrow 2\\pi x=8(28-x)\\Rightarrow x(2\\pi+8)=224\\Rightarrow x=\\dfrac{224}{2\\pi+8}=\\dfrac{112}{\\pi+4}$.",
+      "trick": "Express total area as a function of one cut length, differentiate, set to $0$."
     },
     {
       "id": "mat-application-of-derivatives-040",
@@ -519,7 +558,8 @@
       ],
       "answer": 0,
       "difficulty": "easy",
-      "explanation": "$C=2\\pi r\\Rightarrow\\dfrac{dC}{dt}=2\\pi\\dfrac{dr}{dt}=2\\pi(0.7)=1.4\\pi\\,\\text{cm/s}$."
+      "explanation": "$C=2\\pi r\\Rightarrow\\dfrac{dC}{dt}=2\\pi\\dfrac{dr}{dt}=2\\pi(0.7)=1.4\\pi\\,\\text{cm/s}$.",
+      "trick": "$dC/dt=2\\pi\\,dr/dt$ — direct proportionality, radius value not even needed."
     }
   ]
 }

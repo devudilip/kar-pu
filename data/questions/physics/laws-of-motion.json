@@ -12,7 +12,8 @@
       ],
       "answer": 1,
       "difficulty": "easy",
-      "explanation": "$a = g\\sin\\theta = 10\\times\\sin30^\\circ = 5$ m s$^{-2}$."
+      "explanation": "$a = g\\sin\\theta = 10\\times\\sin30^\\circ = 5$ m s$^{-2}$.",
+      "trick": "Smooth incline: $a=g\\sin\\theta$ — direct plug-in."
     },
     {
       "id": "phy-laws-of-motion-002",
@@ -25,7 +26,8 @@
       ],
       "answer": 2,
       "difficulty": "easy",
-      "explanation": "Impulse $=\\Delta p = m(v - (-v)) = 0.15\\times(20+20) = 6$ N s. Direction reverses, so the change is $2mv$."
+      "explanation": "Impulse $=\\Delta p = m(v - (-v)) = 0.15\\times(20+20) = 6$ N s. Direction reverses, so the change is $2mv$.",
+      "trick": "Rebound with same speed reverses direction → impulse $=2mv$, not zero."
     },
     {
       "id": "phy-laws-of-motion-003",
@@ -38,7 +40,8 @@
       ],
       "answer": 3,
       "difficulty": "easy",
-      "explanation": "$N - mg = ma \\Rightarrow N = m(g+a) = 60\\times12 = 720$ N."
+      "explanation": "$N - mg = ma \\Rightarrow N = m(g+a) = 60\\times12 = 720$ N.",
+      "trick": "Lift accelerating up: $N=m(g+a)$."
     },
     {
       "id": "phy-laws-of-motion-004",
@@ -52,7 +55,8 @@
       "answer": 0,
       "difficulty": "medium",
       "explanation": "Maximum static friction $= \\mu_s N = 0.4\\times50 = 20$ N. Since applied force (15 N) is less than this, the block does not move and static friction equals the applied force: 15 N.",
-      "tip": "Static friction is self-adjusting — it equals the applied force until the limiting value."
+      "tip": "Static friction is self-adjusting — it equals the applied force until the limiting value.",
+      "trick": "Static friction self-adjusts to match applied force, up to $\\mu_sN$ — check applied < max first."
     },
     {
       "id": "phy-laws-of-motion-005",
@@ -65,7 +69,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "$a = \\dfrac{(m_1 - m_2)g}{m_1+m_2} = \\dfrac{2\\times10}{8} = 2.5$ m s$^{-2}$."
+      "explanation": "$a = \\dfrac{(m_1 - m_2)g}{m_1+m_2} = \\dfrac{2\\times10}{8} = 2.5$ m s$^{-2}$.",
+      "trick": "Atwood machine: $a=\\dfrac{(m_1-m_2)g}{m_1+m_2}$."
     },
     {
       "id": "phy-laws-of-motion-006",
@@ -78,7 +83,8 @@
       ],
       "answer": 3,
       "difficulty": "easy",
-      "explanation": "Momentum conservation: $MV = mv \\Rightarrow V = \\dfrac{0.01\\times400}{4} = 1$ m s$^{-1}$."
+      "explanation": "Momentum conservation: $MV = mv \\Rightarrow V = \\dfrac{0.01\\times400}{4} = 1$ m s$^{-1}$.",
+      "trick": "Recoil: $MV=mv$ — momentum conservation, opposite directions."
     },
     {
       "id": "phy-laws-of-motion-007",
@@ -91,7 +97,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "$v = \\sqrt{rg\\tan\\theta} = \\sqrt{100\\times10\\times1} = \\sqrt{1000} = 10\\sqrt{10}\\approx31.6$ m s$^{-1}$."
+      "explanation": "$v = \\sqrt{rg\\tan\\theta} = \\sqrt{100\\times10\\times1} = \\sqrt{1000} = 10\\sqrt{10}\\approx31.6$ m s$^{-1}$.",
+      "trick": "Frictionless banking: $v=\\sqrt{rg\\tan\\theta}$."
     },
     {
       "id": "phy-laws-of-motion-008",
@@ -104,7 +111,8 @@
       ],
       "answer": 2,
       "difficulty": "easy",
-      "explanation": "At the angle of repose $\\mu_s = \\tan\\theta = \\tan30^\\circ = 1/\\sqrt3$."
+      "explanation": "At the angle of repose $\\mu_s = \\tan\\theta = \\tan30^\\circ = 1/\\sqrt3$.",
+      "trick": "Angle of repose: $\\mu_s=\\tan\\theta$ at the sliding point."
     },
     {
       "id": "phy-laws-of-motion-009",
@@ -117,7 +125,8 @@
       ],
       "answer": 3,
       "difficulty": "medium",
-      "explanation": "$a = F/(m_1+m_2) = 10/5 = 2$ m s$^{-2}$. The contact force accelerates only the 3 kg block: $N = 3\\times2 = 6$ N."
+      "explanation": "$a = F/(m_1+m_2) = 10/5 = 2$ m s$^{-2}$. The contact force accelerates only the 3 kg block: $N = 3\\times2 = 6$ N.",
+      "trick": "Contact force = mass beyond contact $\\times$ common acceleration $a=F/(m_1+m_2)$."
     },
     {
       "id": "phy-laws-of-motion-010",
@@ -130,7 +139,8 @@
       ],
       "answer": 2,
       "difficulty": "easy",
-      "explanation": "$a = F/m = 5$ m s$^{-2}$; $v = at = 15$ m s$^{-1}$. Or impulse $Ft = 30 = mv$."
+      "explanation": "$a = F/m = 5$ m s$^{-2}$; $v = at = 15$ m s$^{-1}$. Or impulse $Ft = 30 = mv$.",
+      "trick": "$a=F/m$, then $v=at$ — or shortcut via impulse $Ft=mv$."
     },
     {
       "id": "phy-laws-of-motion-011",
@@ -144,7 +154,8 @@
       "answer": 1,
       "difficulty": "hard",
       "explanation": "$\\Delta\\vec v = 3\\hat j - 3\\hat i$, $|\\Delta v| = 3\\sqrt2$. $F = m|\\Delta v|/t = 2\\times3\\sqrt2/2 = 3\\sqrt2$ N.",
-      "tip": "Speed is unchanged but velocity (a vector) has changed — force is not zero."
+      "tip": "Speed is unchanged but velocity (a vector) has changed — force is not zero.",
+      "trick": "Speed same, direction changed → find $|\\Delta \\vec v|$ via vector subtraction, not scalar difference."
     },
     {
       "id": "phy-laws-of-motion-012",
@@ -157,7 +168,8 @@
       ],
       "answer": 0,
       "difficulty": "easy",
-      "explanation": "The pair of forces act on two different bodies, so they never cancel; they arise together."
+      "explanation": "The pair of forces act on two different bodies, so they never cancel; they arise together.",
+      "trick": "Action-reaction: different bodies, simultaneous, never cancel."
     },
     {
       "id": "phy-laws-of-motion-013",
@@ -170,7 +182,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "$\\mu m g \\ge \\dfrac{mv^2}{r} \\Rightarrow \\mu \\ge \\dfrac{v^2}{rg} = \\dfrac{100}{200} = 0.5$."
+      "explanation": "$\\mu m g \\ge \\dfrac{mv^2}{r} \\Rightarrow \\mu \\ge \\dfrac{v^2}{rg} = \\dfrac{100}{200} = 0.5$.",
+      "trick": "No-skid condition: $\\mu\\ge v^2/(rg)$."
     },
     {
       "id": "phy-laws-of-motion-014",
@@ -183,7 +196,8 @@
       ],
       "answer": 1,
       "difficulty": "easy",
-      "explanation": "Ejected gases carry momentum backward; the rocket gains equal momentum forward."
+      "explanation": "Ejected gases carry momentum backward; the rocket gains equal momentum forward.",
+      "trick": "Rocket propulsion = conservation of linear momentum."
     },
     {
       "id": "phy-laws-of-motion-015",
@@ -196,7 +210,8 @@
       ],
       "answer": 3,
       "difficulty": "easy",
-      "explanation": "The first law states a body resists a change in its state of rest or motion unless acted on by a net force — this property is inertia."
+      "explanation": "The first law states a body resists a change in its state of rest or motion unless acted on by a net force — this property is inertia.",
+      "trick": "First law = law of inertia — the definition question."
     },
     {
       "id": "phy-laws-of-motion-016",
@@ -209,7 +224,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "For downward acceleration, $N = m(g-a) = 50\\times(10-2) = 400$ N."
+      "explanation": "For downward acceleration, $N = m(g-a) = 50\\times(10-2) = 400$ N.",
+      "trick": "Lift accelerating down: $N=m(g-a)$."
     },
     {
       "id": "phy-laws-of-motion-017",
@@ -222,7 +238,8 @@
       ],
       "answer": 1,
       "difficulty": "easy",
-      "explanation": "In free fall, $a=g$, so $N=m(g-a)=0$: the person experiences weightlessness."
+      "explanation": "In free fall, $a=g$, so $N=m(g-a)=0$: the person experiences weightlessness.",
+      "trick": "Free fall of lift ⇒ $a=g$ ⇒ apparent weight $N=0$."
     },
     {
       "id": "phy-laws-of-motion-018",
@@ -235,7 +252,8 @@
       ],
       "answer": 2,
       "difficulty": "hard",
-      "explanation": "$a=\\dfrac{(m_1-m_2)g}{m_1+m_2}=2.5$ m s$^{-2}$; $T=\\dfrac{2m_1m_2g}{m_1+m_2}=\\dfrac{2\\times5\\times3\\times10}{8}=37.5$ N."
+      "explanation": "$a=\\dfrac{(m_1-m_2)g}{m_1+m_2}=2.5$ m s$^{-2}$; $T=\\dfrac{2m_1m_2g}{m_1+m_2}=\\dfrac{2\\times5\\times3\\times10}{8}=37.5$ N.",
+      "trick": "Atwood tension: $T=\\dfrac{2m_1m_2g}{m_1+m_2}$."
     },
     {
       "id": "phy-laws-of-motion-019",
@@ -248,7 +266,8 @@
       ],
       "answer": 3,
       "difficulty": "medium",
-      "explanation": "Friction force $=\\mu_k mg$, so deceleration $=\\mu_k g = 0.3\\times10 = 3$ m s$^{-2}$ (mass cancels)."
+      "explanation": "Friction force $=\\mu_k mg$, so deceleration $=\\mu_k g = 0.3\\times10 = 3$ m s$^{-2}$ (mass cancels).",
+      "trick": "Kinetic friction deceleration is just $\\mu_kg$ — mass cancels out."
     },
     {
       "id": "phy-laws-of-motion-020",
@@ -261,7 +280,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "The angle of friction $\\lambda$ satisfies $\\tan\\lambda = \\mu_s$, and it equals the angle of repose."
+      "explanation": "The angle of friction $\\lambda$ satisfies $\\tan\\lambda = \\mu_s$, and it equals the angle of repose.",
+      "trick": "Angle of friction: $\\tan\\lambda=\\mu_s$ (same as angle of repose)."
     },
     {
       "id": "phy-laws-of-motion-021",
@@ -274,7 +294,8 @@
       ],
       "answer": 2,
       "difficulty": "easy",
-      "explanation": "$\\mu_k < \\mu_s$ in general; static friction is self-adjusting (not constant), and friction is nearly independent of contact area."
+      "explanation": "$\\mu_k < \\mu_s$ in general; static friction is self-adjusting (not constant), and friction is nearly independent of contact area.",
+      "trick": "Remember: $\\mu_k<\\mu_s$, friction is area-independent, static friction isn't constant."
     },
     {
       "id": "phy-laws-of-motion-022",
@@ -287,7 +308,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "Friction (vertical) must balance weight: $\\mu F \\ge mg \\Rightarrow F \\ge mg/\\mu = 20/0.5 = 40$ N."
+      "explanation": "Friction (vertical) must balance weight: $\\mu F \\ge mg \\Rightarrow F \\ge mg/\\mu = 20/0.5 = 40$ N.",
+      "trick": "Vertical equilibrium: friction $\\mu F$ must balance weight $mg$ — solve $F\\ge mg/\\mu$."
     },
     {
       "id": "phy-laws-of-motion-023",
@@ -300,7 +322,8 @@
       ],
       "answer": 3,
       "difficulty": "hard",
-      "explanation": "Friction must accelerate the top block: max $a = \\mu g = 4$ m s$^{-2}$. Max $F = (m_1+m_2)a_{max} = 5\\times4 = 20$ N."
+      "explanation": "Friction must accelerate the top block: max $a = \\mu g = 4$ m s$^{-2}$. Max $F = (m_1+m_2)a_{max} = 5\\times4 = 20$ N.",
+      "trick": "Max common acceleration limited by friction on top block: $a_{max}=\\mu g$, then $F_{max}=(m_1+m_2)a_{max}$."
     },
     {
       "id": "phy-laws-of-motion-024",
@@ -313,7 +336,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "Impulse $=$ area of the triangle $=\\frac12\\times4\\times20=40$ N s $=\\Delta p = mv \\Rightarrow v = 40/2 = 20$ m s$^{-1}$."
+      "explanation": "Impulse $=$ area of the triangle $=\\frac12\\times4\\times20=40$ N s $=\\Delta p = mv \\Rightarrow v = 40/2 = 20$ m s$^{-1}$.",
+      "trick": "Impulse = area under F-t graph (here a triangle) $=\\Delta p=mv$."
     },
     {
       "id": "phy-laws-of-motion-025",
@@ -326,7 +350,8 @@
       ],
       "answer": 1,
       "difficulty": "easy",
-      "explanation": "Kinetic friction $f_k=\\mu_kN$ depends on the normal force and the surfaces (through $\\mu_k$), but is essentially independent of the apparent area of contact."
+      "explanation": "Kinetic friction $f_k=\\mu_kN$ depends on the normal force and the surfaces (through $\\mu_k$), but is essentially independent of the apparent area of contact.",
+      "trick": "Kinetic friction $f_k=\\mu_kN$ is independent of contact area — the odd one out."
     },
     {
       "id": "phy-laws-of-motion-026",
@@ -339,7 +364,8 @@
       ],
       "answer": 2,
       "difficulty": "easy",
-      "explanation": "Momentum $p=mv$ has SI unit kg m s$^{-1}$."
+      "explanation": "Momentum $p=mv$ has SI unit kg m s$^{-1}$.",
+      "trick": "Momentum unit: kg m/s (not to be confused with force's N)."
     },
     {
       "id": "phy-laws-of-motion-027",
@@ -352,7 +378,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "Momentum conservation: $mv = (m+m)v' \\Rightarrow v' = v/2$."
+      "explanation": "Momentum conservation: $mv = (m+m)v' \\Rightarrow v' = v/2$.",
+      "trick": "Perfectly inelastic collision, equal masses: common velocity halves."
     },
     {
       "id": "phy-laws-of-motion-028",
@@ -365,7 +392,8 @@
       ],
       "answer": 3,
       "difficulty": "medium",
-      "explanation": "Total momentum was zero: $M V = mv \\Rightarrow V = \\dfrac{50\\times2}{100} = 1$ m s$^{-1}$, in the direction opposite to the man."
+      "explanation": "Total momentum was zero: $M V = mv \\Rightarrow V = \\dfrac{50\\times2}{100} = 1$ m s$^{-1}$, in the direction opposite to the man.",
+      "trick": "Zero initial momentum system: $MV=mv$ gives boat's recoil speed."
     },
     {
       "id": "phy-laws-of-motion-029",
@@ -378,7 +406,8 @@
       ],
       "answer": 3,
       "difficulty": "hard",
-      "explanation": "$a=\\dfrac{m_2g}{m_1+m_2}=\\dfrac{1\\times10}{5}=2$ m s$^{-2}$; $T=m_1a=4\\times2=8$ N (also $=m_2(g-a)=1\\times8=8$ N)."
+      "explanation": "$a=\\dfrac{m_2g}{m_1+m_2}=\\dfrac{1\\times10}{5}=2$ m s$^{-2}$; $T=m_1a=4\\times2=8$ N (also $=m_2(g-a)=1\\times8=8$ N).",
+      "trick": "Pulley with hanging mass: $a=\\dfrac{m_2g}{m_1+m_2}$, then $T=m_1a$."
     },
     {
       "id": "phy-laws-of-motion-030",
@@ -391,7 +420,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "At constant velocity, $F = mg(\\sin\\theta+\\mu\\cos\\theta) = 20\\times(0.6+0.5\\times0.8) = 20\\times1.0 = 20$ N."
+      "explanation": "At constant velocity, $F = mg(\\sin\\theta+\\mu\\cos\\theta) = 20\\times(0.6+0.5\\times0.8) = 20\\times1.0 = 20$ N.",
+      "trick": "Constant velocity up incline: $F=mg(\\sin\\theta+\\mu\\cos\\theta)$ (friction opposes motion, acts down)."
     },
     {
       "id": "phy-laws-of-motion-031",
@@ -404,7 +434,8 @@
       ],
       "answer": 2,
       "difficulty": "easy",
-      "explanation": "$\\vec F = d(m\\vec v)/dt = m\\,d\\vec v/dt + \\vec v\\,dm/dt$; this reduces to $m\\vec a$ only when $dm/dt=0$, i.e. constant mass."
+      "explanation": "$\\vec F = d(m\\vec v)/dt = m\\,d\\vec v/dt + \\vec v\\,dm/dt$; this reduces to $m\\vec a$ only when $dm/dt=0$, i.e. constant mass.",
+      "trick": "$F=ma$ is valid only when mass is constant — watch for variable-mass traps."
     },
     {
       "id": "phy-laws-of-motion-032",
@@ -417,7 +448,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "The block remains at rest as long as the applied force does not exceed limiting friction: $F_{max}=\\mu_smg=0.6\\times5\\times10=30$ N."
+      "explanation": "The block remains at rest as long as the applied force does not exceed limiting friction: $F_{max}=\\mu_smg=0.6\\times5\\times10=30$ N.",
+      "trick": "Max force before sliding = limiting friction $\\mu_smg$."
     },
     {
       "id": "phy-laws-of-motion-033",
@@ -430,7 +462,8 @@
       ],
       "answer": 1,
       "difficulty": "hard",
-      "explanation": "$T=2\\pi\\sqrt{\\dfrac{L\\cos\\theta}{g}}=2\\pi\\sqrt{\\dfrac{0.2\\times0.5}{10}}=2\\pi\\sqrt{0.01}=2\\pi(0.1)\\approx0.63$ s."
+      "explanation": "$T=2\\pi\\sqrt{\\dfrac{L\\cos\\theta}{g}}=2\\pi\\sqrt{\\dfrac{0.2\\times0.5}{10}}=2\\pi\\sqrt{0.01}=2\\pi(0.1)\\approx0.63$ s.",
+      "trick": "Conical pendulum period: $T=2\\pi\\sqrt{L\\cos\\theta/g}$."
     },
     {
       "id": "phy-laws-of-motion-034",
@@ -443,7 +476,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "$a=g(\\sin\\theta-\\mu\\cos\\theta)=10\\times(0.6-0.25\\times0.8)=10\\times0.4=4$ m s$^{-2}$."
+      "explanation": "$a=g(\\sin\\theta-\\mu\\cos\\theta)=10\\times(0.6-0.25\\times0.8)=10\\times0.4=4$ m s$^{-2}$.",
+      "trick": "Rough incline sliding down: $a=g(\\sin\\theta-\\mu\\cos\\theta)$."
     },
     {
       "id": "phy-laws-of-motion-035",
@@ -456,7 +490,8 @@
       ],
       "answer": 2,
       "difficulty": "easy",
-      "explanation": "Inertia (reluctance to change state of motion) increases with mass; a heavier body is harder to accelerate for a given force."
+      "explanation": "Inertia (reluctance to change state of motion) increases with mass; a heavier body is harder to accelerate for a given force.",
+      "trick": "Inertia is measured by mass alone — not weight or volume."
     },
     {
       "id": "phy-laws-of-motion-036",
@@ -469,7 +504,8 @@
       ],
       "answer": 3,
       "difficulty": "medium",
-      "explanation": "$a=F/(m_1+m_2)=20/5=4$ m s$^{-2}$. Contact force accelerates only the 2 kg block: $N=2\\times4=8$ N."
+      "explanation": "$a=F/(m_1+m_2)=20/5=4$ m s$^{-2}$. Contact force accelerates only the 2 kg block: $N=2\\times4=8$ N.",
+      "trick": "Contact force = mass being pushed $\\times$ common acceleration $a=F/(m_1+m_2)$."
     },
     {
       "id": "phy-laws-of-motion-037",
@@ -482,7 +518,8 @@
       ],
       "answer": 3,
       "difficulty": "hard",
-      "explanation": "Speed just before impact $=\\sqrt{2\\times10\\times5}=10$ m/s; speed just after $=\\sqrt{2\\times10\\times1.25}=5$ m/s (opposite direction). $\\Delta p = 0.5(10+5)=7.5$ kg m/s. Average force $=7.5/0.1=75$ N."
+      "explanation": "Speed just before impact $=\\sqrt{2\\times10\\times5}=10$ m/s; speed just after $=\\sqrt{2\\times10\\times1.25}=5$ m/s (opposite direction). $\\Delta p = 0.5(10+5)=7.5$ kg m/s. Average force $=7.5/0.1=75$ N.",
+      "trick": "Use $\\Delta p=m(v_{in}+v_{out})$ (opposite directions add) then $F=\\Delta p/\\Delta t$."
     },
     {
       "id": "phy-laws-of-motion-038",
@@ -495,7 +532,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "$T - mg = ma \\Rightarrow T = m(g+a) = 5\\times12 = 60$ N."
+      "explanation": "$T - mg = ma \\Rightarrow T = m(g+a) = 5\\times12 = 60$ N.",
+      "trick": "Rope pulling up: $T=m(g+a)$."
     },
     {
       "id": "phy-laws-of-motion-039",
@@ -508,7 +546,8 @@
       ],
       "answer": 0,
       "difficulty": "easy",
-      "explanation": "Newton's laws hold directly only in inertial frames; in an accelerated (non-inertial) frame, a pseudo force (opposite to the frame's acceleration) must be added to make them work."
+      "explanation": "Newton's laws hold directly only in inertial frames; in an accelerated (non-inertial) frame, a pseudo force (opposite to the frame's acceleration) must be added to make them work.",
+      "trick": "Pseudo forces appear only in non-inertial (accelerating) frames."
     },
     {
       "id": "phy-laws-of-motion-040",
@@ -521,7 +560,8 @@
       ],
       "answer": 1,
       "difficulty": "easy",
-      "explanation": "Impulse $J = \\int F\\,dt = \\Delta p$, the change in the body's linear momentum."
+      "explanation": "Impulse $J = \\int F\\,dt = \\Delta p$, the change in the body's linear momentum.",
+      "trick": "Impulse-momentum theorem: impulse = change in momentum, always."
     }
   ]
 }

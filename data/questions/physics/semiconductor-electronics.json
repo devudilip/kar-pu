@@ -12,7 +12,8 @@
       ],
       "answer": 3,
       "difficulty": "easy",
-      "explanation": "Silicon has $E_g \\approx 1.1$ eV; germanium has $E_g \\approx 0.7$ eV. Both are semiconductors, unlike insulators with $E_g > 3$ eV."
+      "explanation": "Silicon has $E_g \\approx 1.1$ eV; germanium has $E_g \\approx 0.7$ eV. Both are semiconductors, unlike insulators with $E_g > 3$ eV.",
+      "trick": "Si: 1.1 eV, Ge: 0.7 eV — memorise both exact energy gap values."
     },
     {
       "id": "phy-semiconductor-electronics-002",
@@ -25,7 +26,8 @@
       ],
       "answer": 0,
       "difficulty": "easy",
-      "explanation": "Phosphorus has 5 valence electrons; 4 bond with silicon, leaving one extra loosely bound electron, giving an n-type semiconductor with electrons as majority carriers."
+      "explanation": "Phosphorus has 5 valence electrons; 4 bond with silicon, leaving one extra loosely bound electron, giving an n-type semiconductor with electrons as majority carriers.",
+      "trick": "Pentavalent dopant gives an extra electron — n-type, majority carrier electrons."
     },
     {
       "id": "phy-semiconductor-electronics-003",
@@ -38,7 +40,8 @@
       ],
       "answer": 1,
       "difficulty": "easy",
-      "explanation": "Forward bias opposes the built-in potential barrier, pushing majority carriers into the junction and narrowing the depletion region, allowing current to flow easily."
+      "explanation": "Forward bias opposes the built-in potential barrier, pushing majority carriers into the junction and narrowing the depletion region, allowing current to flow easily.",
+      "trick": "Forward bias narrows the depletion region — barrier opposed, carriers pushed in."
     },
     {
       "id": "phy-semiconductor-electronics-004",
@@ -51,7 +54,8 @@
       ],
       "answer": 2,
       "difficulty": "easy",
-      "explanation": "A bridge rectifier uses 4 diodes arranged so that current flows through the load in the same direction during both halves of the AC cycle, without needing a centre-tapped transformer."
+      "explanation": "A bridge rectifier uses 4 diodes arranged so that current flows through the load in the same direction during both halves of the AC cycle, without needing a centre-tapped transformer.",
+      "trick": "Bridge rectifier uses 4 diodes, no centre-tap needed — memorise the count."
     },
     {
       "id": "phy-semiconductor-electronics-005",
@@ -64,7 +68,8 @@
       ],
       "answer": 3,
       "difficulty": "medium",
-      "explanation": "A Zener diode is designed to be operated in reverse breakdown, where the voltage across it stays nearly constant ($V_z$) over a range of currents, making it useful as a voltage regulator."
+      "explanation": "A Zener diode is designed to be operated in reverse breakdown, where the voltage across it stays nearly constant ($V_z$) over a range of currents, making it useful as a voltage regulator.",
+      "trick": "Zener diode works in reverse BREAKDOWN — that's the whole point, not before it."
     },
     {
       "id": "phy-semiconductor-electronics-006",
@@ -77,7 +82,8 @@
       ],
       "answer": 2,
       "difficulty": "easy",
-      "explanation": "By Kirchhoff's current law applied to the transistor, the emitter current splits into base and collector currents: $I_E = I_B + I_C$."
+      "explanation": "By Kirchhoff's current law applied to the transistor, the emitter current splits into base and collector currents: $I_E = I_B + I_C$.",
+      "trick": "$I_E=I_B+I_C$ — emitter current always splits into base plus collector."
     },
     {
       "id": "phy-semiconductor-electronics-007",
@@ -90,7 +96,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "$\\beta = \\dfrac{\\alpha}{1-\\alpha} = \\dfrac{0.98}{0.02} = 49$."
+      "explanation": "$\\beta = \\dfrac{\\alpha}{1-\\alpha} = \\dfrac{0.98}{0.02} = 49$.",
+      "trick": "$\\beta=\\alpha/(1-\\alpha)$ — plug $\\alpha$ directly, don't derive from scratch."
     },
     {
       "id": "phy-semiconductor-electronics-008",
@@ -103,7 +110,8 @@
       ],
       "answer": 1,
       "difficulty": "easy",
-      "explanation": "NAND: $Y = \\overline{A\\cdot B} = \\overline{1\\cdot0} = \\overline{0} = 1$."
+      "explanation": "NAND: $Y = \\overline{A\\cdot B} = \\overline{1\\cdot0} = \\overline{0} = 1$.",
+      "trick": "NAND: $Y=\\overline{A\\cdot B}$ — AND first, then invert the result."
     },
     {
       "id": "phy-semiconductor-electronics-009",
@@ -116,7 +124,8 @@
       ],
       "answer": 3,
       "difficulty": "easy",
-      "explanation": "NAND (and NOR) gates are universal — any logic function, including AND, OR, and NOT, can be built using only NAND gates."
+      "explanation": "NAND (and NOR) gates are universal — any logic function, including AND, OR, and NOT, can be built using only NAND gates.",
+      "trick": "NAND and NOR are the two universal gates — memorise both, not just one."
     },
     {
       "id": "phy-semiconductor-electronics-010",
@@ -129,7 +138,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "In a CE amplifier, an increase in base current increases collector current, increasing voltage drop across $R_C$ and hence decreasing $V_{out}$; so output and input are 180° out of phase."
+      "explanation": "In a CE amplifier, an increase in base current increases collector current, increasing voltage drop across $R_C$ and hence decreasing $V_{out}$; so output and input are 180° out of phase.",
+      "trick": "CE amplifier: the 180° phase flip is a fixed signature — no calculation needed."
     },
     {
       "id": "phy-semiconductor-electronics-011",
@@ -142,7 +152,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "A photodiode is reverse-biased so that the small reverse saturation current (otherwise negligible) increases measurably and linearly with the intensity of incident light, useful for light detection."
+      "explanation": "A photodiode is reverse-biased so that the small reverse saturation current (otherwise negligible) increases measurably and linearly with the intensity of incident light, useful for light detection.",
+      "trick": "Photodiode is always reverse-biased; current scales with light intensity."
     },
     {
       "id": "phy-semiconductor-electronics-012",
@@ -155,7 +166,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "Doping to n-type greatly increases electrons (majority) while the mass-action law $n_en_h = n_i^2$ still holds, so holes (minority) correspondingly decrease."
+      "explanation": "Doping to n-type greatly increases electrons (majority) while the mass-action law $n_en_h = n_i^2$ still holds, so holes (minority) correspondingly decrease.",
+      "trick": "n-type: $n_e\\gg n_h$, but $n_en_h=n_i^2$ still holds regardless of doping."
     },
     {
       "id": "phy-semiconductor-electronics-013",
@@ -168,7 +180,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "As a switch, the transistor is either fully OFF (cutoff, both junctions reverse biased, negligible current) or fully ON (saturation, both junctions forward biased, maximum current), not in the linear active region used for amplification."
+      "explanation": "As a switch, the transistor is either fully OFF (cutoff, both junctions reverse biased, negligible current) or fully ON (saturation, both junctions forward biased, maximum current), not in the linear active region used for amplification.",
+      "trick": "Switch operation means cutoff OR saturation only — never the active/linear region."
     },
     {
       "id": "phy-semiconductor-electronics-014",
@@ -181,7 +194,8 @@
       ],
       "answer": 0,
       "difficulty": "easy",
-      "explanation": "Silicon diodes have a knee voltage of about 0.7 V, beyond which forward current rises sharply; germanium diodes have a lower knee voltage of about 0.3 V."
+      "explanation": "Silicon diodes have a knee voltage of about 0.7 V, beyond which forward current rises sharply; germanium diodes have a lower knee voltage of about 0.3 V.",
+      "trick": "Si knee voltage is 0.7 V, Ge knee voltage is 0.3 V — pair them, don't mix up."
     },
     {
       "id": "phy-semiconductor-electronics-015",
@@ -194,7 +208,8 @@
       ],
       "answer": 3,
       "difficulty": "medium",
-      "explanation": "A solar cell is a p-n junction that generates an emf (photovoltaic effect) when light falls on it, requiring no external bias, and operates in the fourth quadrant of its I-V characteristic (delivering power)."
+      "explanation": "A solar cell is a p-n junction that generates an emf (photovoltaic effect) when light falls on it, requiring no external bias, and operates in the fourth quadrant of its I-V characteristic (delivering power).",
+      "trick": "Solar cell needs NO external bias — it generates its own emf from light."
     },
     {
       "id": "phy-semiconductor-electronics-016",
@@ -207,7 +222,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "$A_v = \\beta\\dfrac{R_C}{R_{in}} = 100\\times\\dfrac{4}{1} = 400$."
+      "explanation": "$A_v = \\beta\\dfrac{R_C}{R_{in}} = 100\\times\\dfrac{4}{1} = 400$.",
+      "trick": "$A_v=\\beta\\times R_C/R_{in}$ — multiply the gain by the resistor ratio directly."
     },
     {
       "id": "phy-semiconductor-electronics-017",
@@ -220,7 +236,8 @@
       ],
       "answer": 2,
       "difficulty": "easy",
-      "explanation": "NOR: $Y = \\overline{A+B}$, which is HIGH (1) only when $A+B = 0$, i.e. both inputs are LOW."
+      "explanation": "NOR: $Y = \\overline{A+B}$, which is HIGH (1) only when $A+B = 0$, i.e. both inputs are LOW.",
+      "trick": "NOR is HIGH only when BOTH inputs are LOW — the strictest gate."
     },
     {
       "id": "phy-semiconductor-electronics-018",
@@ -233,7 +250,8 @@
       ],
       "answer": 3,
       "difficulty": "easy",
-      "explanation": "In forward bias, electrons and holes are injected across the junction and recombine, releasing energy roughly equal to the band gap as photons of light (visible for suitable compound semiconductors)."
+      "explanation": "In forward bias, electrons and holes are injected across the junction and recombine, releasing energy roughly equal to the band gap as photons of light (visible for suitable compound semiconductors).",
+      "trick": "LED: forward bias plus recombination releases photons — opposite mechanism to a photodiode."
     },
     {
       "id": "phy-semiconductor-electronics-019",
@@ -246,7 +264,8 @@
       ],
       "answer": 1,
       "difficulty": "easy",
-      "explanation": "An intrinsic semiconductor is pure Si/Ge with equal electrons and holes; adding a controlled impurity (doping) makes it extrinsic, with one carrier type dominating and much higher conductivity."
+      "explanation": "An intrinsic semiconductor is pure Si/Ge with equal electrons and holes; adding a controlled impurity (doping) makes it extrinsic, with one carrier type dominating and much higher conductivity.",
+      "trick": "Intrinsic means pure with equal carriers; extrinsic means doped with one carrier dominating."
     },
     {
       "id": "phy-semiconductor-electronics-020",
@@ -259,7 +278,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "In insulators, the gap between the filled valence band and empty conduction band is large (typically >3 eV), so thermal or ordinary electric energy is insufficient to make electrons conduct, unlike in semiconductors or conductors."
+      "explanation": "In insulators, the gap between the filled valence band and empty conduction band is large (typically >3 eV), so thermal or ordinary electric energy is insufficient to make electrons conduct, unlike in semiconductors or conductors.",
+      "trick": "An insulator's huge gap simply means electrons can't jump valence to conduction band."
     },
     {
       "id": "phy-semiconductor-electronics-021",
@@ -272,7 +292,8 @@
       ],
       "answer": 3,
       "difficulty": "easy",
-      "explanation": "A half-wave rectifier uses a single diode, which conducts during only one half of the AC input cycle, blocking the other half."
+      "explanation": "A half-wave rectifier uses a single diode, which conducts during only one half of the AC input cycle, blocking the other half.",
+      "trick": "Half-wave uses 1 diode, only ONE half-cycle conducts — the other is wasted."
     },
     {
       "id": "phy-semiconductor-electronics-022",
@@ -285,7 +306,8 @@
       ],
       "answer": 2,
       "difficulty": "easy",
-      "explanation": "Boron has only 3 valence electrons; it can form only 3 covalent bonds with silicon, leaving a hole in the fourth bond, giving a p-type semiconductor with holes as majority carriers."
+      "explanation": "Boron has only 3 valence electrons; it can form only 3 covalent bonds with silicon, leaving a hole in the fourth bond, giving a p-type semiconductor with holes as majority carriers.",
+      "trick": "Trivalent dopant creates a missing electron (hole) — p-type, majority carrier holes."
     },
     {
       "id": "phy-semiconductor-electronics-023",
@@ -298,7 +320,8 @@
       ],
       "answer": 1,
       "difficulty": "easy",
-      "explanation": "Conductors have essentially no gap (or overlapping bands), semiconductors have a small gap (~1 eV), and insulators have a large gap (>3 eV): conductor < semiconductor < insulator."
+      "explanation": "Conductors have essentially no gap (or overlapping bands), semiconductors have a small gap (~1 eV), and insulators have a large gap (>3 eV): conductor < semiconductor < insulator.",
+      "trick": "Energy gap order: conductor (none) less than semiconductor (~1 eV) less than insulator (>3 eV)."
     },
     {
       "id": "phy-semiconductor-electronics-024",
@@ -311,7 +334,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "Under reverse bias, only the small number of thermally generated minority carriers are swept across the junction, giving a current that is almost independent of the applied reverse voltage but rises with temperature (more thermal generation)."
+      "explanation": "Under reverse bias, only the small number of thermally generated minority carriers are swept across the junction, giving a current that is almost independent of the applied reverse voltage but rises with temperature (more thermal generation).",
+      "trick": "Reverse saturation current: minority carriers, nearly voltage-independent, rises with temperature."
     },
     {
       "id": "phy-semiconductor-electronics-025",
@@ -324,7 +348,8 @@
       ],
       "answer": 3,
       "difficulty": "medium",
-      "explanation": "Near the junction, electrons from the n-side and holes from the p-side diffuse across and recombine, leaving behind fixed (immobile) ionised donor and acceptor atoms, which create the depletion region and the built-in potential barrier."
+      "explanation": "Near the junction, electrons from the n-side and holes from the p-side diffuse across and recombine, leaving behind fixed (immobile) ionised donor and acceptor atoms, which create the depletion region and the built-in potential barrier.",
+      "trick": "Depletion region forms from diffusion plus recombination, leaving ionised dopant atoms behind."
     },
     {
       "id": "phy-semiconductor-electronics-026",
@@ -337,7 +362,8 @@
       ],
       "answer": 2,
       "difficulty": "hard",
-      "explanation": "Avalanche breakdown relies on accelerated carriers colliding with lattice atoms to multiply charge carriers (occurs in lightly doped, wider depletion diodes); Zener breakdown occurs when a very strong electric field in a heavily doped, narrow junction directly breaks covalent bonds, releasing carriers."
+      "explanation": "Avalanche breakdown relies on accelerated carriers colliding with lattice atoms to multiply charge carriers (occurs in lightly doped, wider depletion diodes); Zener breakdown occurs when a very strong electric field in a heavily doped, narrow junction directly breaks covalent bonds, releasing carriers.",
+      "trick": "Avalanche means carrier multiplication (lightly doped); Zener means direct bond-breaking (heavily doped)."
     },
     {
       "id": "phy-semiconductor-electronics-027",
@@ -350,7 +376,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "$\\lambda \\approx hc/E_g = 1240/1.9 \\approx 653$ nm, which lies in the red region of the visible spectrum."
+      "explanation": "$\\lambda \\approx hc/E_g = 1240/1.9 \\approx 653$ nm, which lies in the red region of the visible spectrum.",
+      "trick": "LED wavelength: $\\lambda\\approx hc/E_g=1240/E_g(\\text{eV})$ nm — same formula as photon energy."
     },
     {
       "id": "phy-semiconductor-electronics-028",
@@ -363,7 +390,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "The common collector configuration has high current gain but a voltage gain of nearly 1 (the output follows the input voltage, hence 'emitter follower'), making it useful for impedance matching rather than voltage amplification."
+      "explanation": "The common collector configuration has high current gain but a voltage gain of nearly 1 (the output follows the input voltage, hence 'emitter follower'), making it useful for impedance matching rather than voltage amplification.",
+      "trick": "Common collector (emitter follower): voltage gain always about 1, used for impedance matching."
     },
     {
       "id": "phy-semiconductor-electronics-029",
@@ -376,7 +404,8 @@
       ],
       "answer": 2,
       "difficulty": "hard",
-      "explanation": "In common base configuration, the input (emitter-base) impedance is low and the output (base-collector) impedance is high, and the current gain $\\alpha = I_C/I_E$ is always slightly less than 1; the output voltage is in phase with the input."
+      "explanation": "In common base configuration, the input (emitter-base) impedance is low and the output (base-collector) impedance is high, and the current gain $\\alpha = I_C/I_E$ is always slightly less than 1; the output voltage is in phase with the input.",
+      "trick": "Common base: low input impedance, high output impedance, $\\alpha<1$ always."
     },
     {
       "id": "phy-semiconductor-electronics-030",
@@ -389,7 +418,8 @@
       ],
       "answer": 1,
       "difficulty": "easy",
-      "explanation": "The voltage across the resistor is $12-6=6$ V, so the current through it is $I = 6/100 = 0.06$ A $= 60$ mA."
+      "explanation": "The voltage across the resistor is $12-6=6$ V, so the current through it is $I = 6/100 = 0.06$ A $= 60$ mA.",
+      "trick": "Zener regulator: resistor voltage equals supply minus $V_z$, then $I=V_R/R$."
     },
     {
       "id": "phy-semiconductor-electronics-031",
@@ -402,7 +432,8 @@
       ],
       "answer": 0,
       "difficulty": "easy",
-      "explanation": "An OR gate gives HIGH output if either or both inputs are HIGH, represented as $Y = A+B$."
+      "explanation": "An OR gate gives HIGH output if either or both inputs are HIGH, represented as $Y = A+B$.",
+      "trick": "OR gate: $Y=A+B$ — HIGH if EITHER input is HIGH."
     },
     {
       "id": "phy-semiconductor-electronics-032",
@@ -415,7 +446,8 @@
       ],
       "answer": 3,
       "difficulty": "medium",
-      "explanation": "An XOR gate outputs HIGH only when its inputs differ. Since both inputs are 1 (same), the output is 0."
+      "explanation": "An XOR gate outputs HIGH only when its inputs differ. Since both inputs are 1 (same), the output is 0.",
+      "trick": "XOR is HIGH only when inputs DIFFER — same inputs always give 0."
     },
     {
       "id": "phy-semiconductor-electronics-033",
@@ -428,7 +460,8 @@
       ],
       "answer": 3,
       "difficulty": "medium",
-      "explanation": "If both inputs of a NAND gate are tied together and driven by the same signal $A$, the output becomes $Y = \\overline{A\\cdot A} = \\overline{A}$, i.e. it behaves as a NOT gate."
+      "explanation": "If both inputs of a NAND gate are tied together and driven by the same signal $A$, the output becomes $Y = \\overline{A\\cdot A} = \\overline{A}$, i.e. it behaves as a NOT gate.",
+      "trick": "Tie both NAND inputs together for an instant NOT gate — a classic conversion trick."
     },
     {
       "id": "phy-semiconductor-electronics-034",
@@ -441,7 +474,8 @@
       ],
       "answer": 2,
       "difficulty": "easy",
-      "explanation": "AND gate: $Y = A\\cdot B = 0\\cdot1 = 0$."
+      "explanation": "AND gate: $Y = A\\cdot B = 0\\cdot1 = 0$.",
+      "trick": "AND gate: $Y=A\\cdot B$ — needs BOTH inputs HIGH, else 0."
     },
     {
       "id": "phy-semiconductor-electronics-035",
@@ -454,7 +488,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "A full-wave rectifier produces one output pulse for each half-cycle of the input, so the output repeats twice per input cycle, giving a ripple frequency of $2f$."
+      "explanation": "A full-wave rectifier produces one output pulse for each half-cycle of the input, so the output repeats twice per input cycle, giving a ripple frequency of $2f$.",
+      "trick": "Full-wave rectifier ripple frequency is $2f$ — double the input frequency."
     },
     {
       "id": "phy-semiconductor-electronics-036",
@@ -467,7 +502,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "A half-wave rectifier produces one output pulse per full input cycle (conducting during only one half-cycle), so the ripple repeats at the same frequency $f$ as the input."
+      "explanation": "A half-wave rectifier produces one output pulse per full input cycle (conducting during only one half-cycle), so the ripple repeats at the same frequency $f$ as the input.",
+      "trick": "Half-wave rectifier ripple frequency is $f$ — same as input, only one half used."
     },
     {
       "id": "phy-semiconductor-electronics-037",
@@ -480,7 +516,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "A forward-biased diode conducts appreciable current, typically in the milliampere range, while a reverse-biased diode carries only a tiny leakage current, typically in the microampere range."
+      "explanation": "A forward-biased diode conducts appreciable current, typically in the milliampere range, while a reverse-biased diode carries only a tiny leakage current, typically in the microampere range.",
+      "trick": "Forward diode current is in mA; reverse is in µA — three orders of magnitude apart."
     },
     {
       "id": "phy-semiconductor-electronics-038",
@@ -493,7 +530,8 @@
       ],
       "answer": 3,
       "difficulty": "medium",
-      "explanation": "In forward bias, majority carriers (holes from the p-side and electrons from the n-side) move towards the junction and combine, and by convention, current inside the diode flows from the p-side to the n-side."
+      "explanation": "In forward bias, majority carriers (holes from the p-side and electrons from the n-side) move towards the junction and combine, and by convention, current inside the diode flows from the p-side to the n-side.",
+      "trick": "Forward-biased diode: conventional current flows p-side to n-side, always."
     },
     {
       "id": "phy-semiconductor-electronics-039",
@@ -506,7 +544,8 @@
       ],
       "answer": 2,
       "difficulty": "hard",
-      "explanation": "$I_C = \\beta I_B = 99\\times20 = 1980\\ \\mu\\text{A}$; $I_E = I_B+I_C = 20+1980 = 2000\\ \\mu\\text{A} = 2$ mA."
+      "explanation": "$I_C = \\beta I_B = 99\\times20 = 1980\\ \\mu\\text{A}$; $I_E = I_B+I_C = 20+1980 = 2000\\ \\mu\\text{A} = 2$ mA.",
+      "trick": "$I_C=\\beta I_B$ first, then add $I_B$ to get $I_E$ — two steps, don't skip $I_B$."
     },
     {
       "id": "phy-semiconductor-electronics-040",
@@ -519,7 +558,8 @@
       ],
       "answer": 1,
       "difficulty": "easy",
-      "explanation": "The SUM of a half adder equals 1 only when exactly one of $A$, $B$ is 1, which is precisely the truth table of an XOR gate; the CARRY output is given by an AND gate."
+      "explanation": "The SUM of a half adder equals 1 only when exactly one of $A$, $B$ is 1, which is precisely the truth table of an XOR gate; the CARRY output is given by an AND gate.",
+      "trick": "Half adder: SUM comes from XOR, CARRY comes from AND — memorise the pair."
     }
   ]
 }

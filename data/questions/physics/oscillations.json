@@ -12,7 +12,8 @@
       ],
       "answer": 2,
       "difficulty": "easy",
-      "explanation": "SHM requires a restoring acceleration $a=-\\omega^2x$, i.e. proportional to displacement and always directed towards the equilibrium (mean) position."
+      "explanation": "SHM requires a restoring acceleration $a=-\\omega^2x$, i.e. proportional to displacement and always directed towards the equilibrium (mean) position.",
+      "trick": "SHM test: $a\\propto-x$, always pointing back toward mean position."
     },
     {
       "id": "phy-oscillations-002",
@@ -25,7 +26,8 @@
       ],
       "answer": 0,
       "difficulty": "easy",
-      "explanation": "$v=A\\omega\\cos(\\omega t+\\phi)$ has maximum value $A\\omega$, occurring at the mean position."
+      "explanation": "$v=A\\omega\\cos(\\omega t+\\phi)$ has maximum value $A\\omega$, occurring at the mean position.",
+      "trick": "$v_{max}=A\\omega$ — occurs exactly at the mean position ($x=0$)."
     },
     {
       "id": "phy-oscillations-003",
@@ -38,7 +40,8 @@
       ],
       "answer": 1,
       "difficulty": "easy",
-      "explanation": "$a=-\\omega^2x$, magnitude maximum when $|x|$ is maximum, i.e. at the extreme positions ($x=\\pm A$), where $a_{max}=A\\omega^2$."
+      "explanation": "$a=-\\omega^2x$, magnitude maximum when $|x|$ is maximum, i.e. at the extreme positions ($x=\\pm A$), where $a_{max}=A\\omega^2$.",
+      "trick": "$a_{max}=A\\omega^2$ at extremes — acceleration peaks where displacement peaks."
     },
     {
       "id": "phy-oscillations-004",
@@ -51,7 +54,8 @@
       ],
       "answer": 3,
       "difficulty": "easy",
-      "explanation": "$T\\propto\\sqrt l$; quadrupling $l$ doubles $T$."
+      "explanation": "$T\\propto\\sqrt l$; quadrupling $l$ doubles $T$.",
+      "trick": "$T\\propto\\sqrt l$ — quadrupling length doubles the period."
     },
     {
       "id": "phy-oscillations-005",
@@ -64,7 +68,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "$T=2\\pi\\sqrt{m/k}\\propto\\sqrt m$; doubling $m$ multiplies $T$ by $\\sqrt2$."
+      "explanation": "$T=2\\pi\\sqrt{m/k}\\propto\\sqrt m$; doubling $m$ multiplies $T$ by $\\sqrt2$.",
+      "trick": "$T=2\\pi\\sqrt{m/k}\\propto\\sqrt m$ — doubling mass scales $T$ by $\\sqrt2$."
     },
     {
       "id": "phy-oscillations-006",
@@ -77,7 +82,8 @@
       ],
       "answer": 3,
       "difficulty": "easy",
-      "explanation": "$T=2\\pi\\sqrt{l/g}=2\\pi\\sqrt{1/10}\\approx2\\pi\\times0.316\\approx2$ s."
+      "explanation": "$T=2\\pi\\sqrt{l/g}=2\\pi\\sqrt{1/10}\\approx2\\pi\\times0.316\\approx2$ s.",
+      "trick": "$T=2\\pi\\sqrt{l/g}$ — with $l=1,g=10$, gives $T\\approx2$ s (memorable case)."
     },
     {
       "id": "phy-oscillations-007",
@@ -90,7 +96,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "Effective gravity becomes $g_{eff}=g+a$ (greater than $g$); since $T=2\\pi\\sqrt{l/g_{eff}}$, a larger $g_{eff}$ gives a smaller time period."
+      "explanation": "Effective gravity becomes $g_{eff}=g+a$ (greater than $g$); since $T=2\\pi\\sqrt{l/g_{eff}}$, a larger $g_{eff}$ gives a smaller time period.",
+      "trick": "Lift accelerating up: $g_{eff}=g+a$ increases $\\Rightarrow T=2\\pi\\sqrt{l/g_{eff}}$ decreases."
     },
     {
       "id": "phy-oscillations-008",
@@ -103,7 +110,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "$T\\propto1/\\sqrt g$; with $g$ reduced to $1/6$, $T$ increases by a factor of $\\sqrt6$."
+      "explanation": "$T\\propto1/\\sqrt g$; with $g$ reduced to $1/6$, $T$ increases by a factor of $\\sqrt6$.",
+      "trick": "$T\\propto1/\\sqrt g$ — smaller $g$ (Moon) means $T$ grows by $\\sqrt6$."
     },
     {
       "id": "phy-oscillations-009",
@@ -116,7 +124,8 @@
       ],
       "answer": 2,
       "difficulty": "easy",
-      "explanation": "At the mean position $x=0$, PE$=\\tfrac12m\\omega^2x^2=0$, so all the total energy is kinetic: KE$=E=\\tfrac12m\\omega^2A^2$."
+      "explanation": "At the mean position $x=0$, PE$=\\tfrac12m\\omega^2x^2=0$, so all the total energy is kinetic: KE$=E=\\tfrac12m\\omega^2A^2$.",
+      "trick": "At mean position $x=0\\Rightarrow$ PE$=0\\Rightarrow$ all energy is KE $=E$."
     },
     {
       "id": "phy-oscillations-010",
@@ -129,7 +138,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "$\\dfrac{KE}{E}=1-\\dfrac{x^2}{A^2}=1-\\dfrac14=\\dfrac34$."
+      "explanation": "$\\dfrac{KE}{E}=1-\\dfrac{x^2}{A^2}=1-\\dfrac14=\\dfrac34$.",
+      "trick": "$KE/E=1-x^2/A^2$ — plug $x=A/2$ directly for the ratio."
     },
     {
       "id": "phy-oscillations-011",
@@ -142,7 +152,8 @@
       ],
       "answer": 1,
       "difficulty": "easy",
-      "explanation": "$E=\\tfrac12m\\omega^2A^2 \\propto A^2$ (for fixed $\\omega$)."
+      "explanation": "$E=\\tfrac12m\\omega^2A^2 \\propto A^2$ (for fixed $\\omega$).",
+      "trick": "$E=\\frac12m\\omega^2A^2\\propto A^2$ — energy scales with amplitude squared."
     },
     {
       "id": "phy-oscillations-012",
@@ -155,7 +166,8 @@
       ],
       "answer": 3,
       "difficulty": "medium",
-      "explanation": "In series, $1/k_{eff}=1/k+1/k=2/k \\Rightarrow k_{eff}=k/2$."
+      "explanation": "In series, $1/k_{eff}=1/k+1/k=2/k \\Rightarrow k_{eff}=k/2$.",
+      "trick": "Series springs: $1/k_{eff}=1/k_1+1/k_2$ — equal $k$'s give $k_{eff}=k/2$."
     },
     {
       "id": "phy-oscillations-013",
@@ -168,7 +180,8 @@
       ],
       "answer": 1,
       "difficulty": "easy",
-      "explanation": "In parallel, $k_{eff}=k_1+k_2=2k$."
+      "explanation": "In parallel, $k_{eff}=k_1+k_2=2k$.",
+      "trick": "Parallel springs: $k_{eff}=k_1+k_2$ — just add the constants."
     },
     {
       "id": "phy-oscillations-014",
@@ -181,7 +194,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "From $x=A\\sin\\omega t$, $v=A\\omega\\cos\\omega t=A\\omega\\sqrt{1-\\sin^2\\omega t}=\\omega\\sqrt{A^2-x^2}$."
+      "explanation": "From $x=A\\sin\\omega t$, $v=A\\omega\\cos\\omega t=A\\omega\\sqrt{1-\\sin^2\\omega t}=\\omega\\sqrt{A^2-x^2}$.",
+      "trick": "Memorise $v=\\omega\\sqrt{A^2-x^2}$ — comes straight from $\\sin^2+\\cos^2=1$."
     },
     {
       "id": "phy-oscillations-015",
@@ -194,7 +208,8 @@
       ],
       "answer": 2,
       "difficulty": "easy",
-      "explanation": "A resistive (damping) force dissipates energy continuously, causing the amplitude to decrease exponentially with time."
+      "explanation": "A resistive (damping) force dissipates energy continuously, causing the amplitude to decrease exponentially with time.",
+      "trick": "Damping $\\Rightarrow$ amplitude decays exponentially, $A(t)=A_0e^{-bt/2m}$."
     },
     {
       "id": "phy-oscillations-016",
@@ -207,7 +222,8 @@
       ],
       "answer": 3,
       "difficulty": "easy",
-      "explanation": "This is the condition of resonance: when the frequency of the external periodic force matches the natural frequency of the system, the amplitude of forced oscillation becomes maximum."
+      "explanation": "This is the condition of resonance: when the frequency of the external periodic force matches the natural frequency of the system, the amplitude of forced oscillation becomes maximum.",
+      "trick": "Resonance: driving frequency $=$ natural frequency $\\Rightarrow$ amplitude is maximum."
     },
     {
       "id": "phy-oscillations-017",
@@ -220,7 +236,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "Since $a=-\\omega^2x$, acceleration is always opposite in sign (direction) to displacement, corresponding to a phase difference of $\\pi$ radians."
+      "explanation": "Since $a=-\\omega^2x$, acceleration is always opposite in sign (direction) to displacement, corresponding to a phase difference of $\\pi$ radians.",
+      "trick": "$a=-\\omega^2x$ flips sign of $x$ $\\Rightarrow$ phase difference of $\\pi$ always."
     },
     {
       "id": "phy-oscillations-018",
@@ -233,7 +250,8 @@
       ],
       "answer": 1,
       "difficulty": "hard",
-      "explanation": "$x=A\\sin\\omega t$; at $x=A/2$, $\\sin\\omega t=1/2 \\Rightarrow \\omega t=\\pi/6 \\Rightarrow t=\\dfrac{\\pi/6}{2\\pi/T}=T/12$."
+      "explanation": "$x=A\\sin\\omega t$; at $x=A/2$, $\\sin\\omega t=1/2 \\Rightarrow \\omega t=\\pi/6 \\Rightarrow t=\\dfrac{\\pi/6}{2\\pi/T}=T/12$.",
+      "trick": "Solve $\\sin\\omega t=1/2\\Rightarrow\\omega t=\\pi/6\\Rightarrow t=T/12$ (not $T/6$)."
     },
     {
       "id": "phy-oscillations-019",
@@ -246,7 +264,8 @@
       ],
       "answer": 3,
       "difficulty": "easy",
-      "explanation": "SHM is defined by a restoring force directly proportional to displacement but oppositely directed: $F=-kx$, giving $a=-\\omega^2x$ with $\\omega^2=k/m$."
+      "explanation": "SHM is defined by a restoring force directly proportional to displacement but oppositely directed: $F=-kx$, giving $a=-\\omega^2x$ with $\\omega^2=k/m$.",
+      "trick": "SHM's defining equation: restoring force $F=-kx$, always opposing displacement."
     },
     {
       "id": "phy-oscillations-020",
@@ -259,7 +278,8 @@
       ],
       "answer": 0,
       "difficulty": "easy",
-      "explanation": "$x=A\\sin\\omega t$ gives $v=A\\omega\\cos\\omega t$; sine and cosine differ in phase by $\\pi/2$."
+      "explanation": "$x=A\\sin\\omega t$ gives $v=A\\omega\\cos\\omega t$; sine and cosine differ in phase by $\\pi/2$.",
+      "trick": "$x\\propto\\sin$, $v\\propto\\cos$ — sine and cosine are always $\\pi/2$ apart."
     },
     {
       "id": "phy-oscillations-021",
@@ -272,7 +292,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "KE=PE when $\\tfrac12m\\omega^2(A^2-x^2)=\\tfrac12m\\omega^2x^2 \\Rightarrow x^2=A^2/2 \\Rightarrow x=A/\\sqrt2$."
+      "explanation": "KE=PE when $\\tfrac12m\\omega^2(A^2-x^2)=\\tfrac12m\\omega^2x^2 \\Rightarrow x^2=A^2/2 \\Rightarrow x=A/\\sqrt2$.",
+      "trick": "Set KE$=$PE: $A^2-x^2=x^2\\Rightarrow x=A/\\sqrt2$ — memorise this crossover point."
     },
     {
       "id": "phy-oscillations-022",
@@ -285,7 +306,8 @@
       ],
       "answer": 3,
       "difficulty": "medium",
-      "explanation": "$T=2\\pi\\sqrt{l/g_{eff}}$; with $g_{eff}=0$, $T\\to\\infty$, i.e. the pendulum does not oscillate about the mean position at all."
+      "explanation": "$T=2\\pi\\sqrt{l/g_{eff}}$; with $g_{eff}=0$, $T\\to\\infty$, i.e. the pendulum does not oscillate about the mean position at all.",
+      "trick": "$g_{eff}=0$ (free fall/orbit) $\\Rightarrow T=2\\pi\\sqrt{l/0}\\to\\infty$: no oscillation."
     },
     {
       "id": "phy-oscillations-023",
@@ -298,7 +320,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "Cutting a spring in half doubles its force constant to $2k$ for each half; $T'=2\\pi\\sqrt{m/2k}=T/\\sqrt2$."
+      "explanation": "Cutting a spring in half doubles its force constant to $2k$ for each half; $T'=2\\pi\\sqrt{m/2k}=T/\\sqrt2$.",
+      "trick": "Cutting a spring in half doubles $k$ for each piece $\\Rightarrow T'=T/\\sqrt2$."
     },
     {
       "id": "phy-oscillations-024",
@@ -311,7 +334,8 @@
       ],
       "answer": 2,
       "difficulty": "easy",
-      "explanation": "$\\omega=2\\pi/T=2\\pi/0.5=4\\pi$ rad/s."
+      "explanation": "$\\omega=2\\pi/T=2\\pi/0.5=4\\pi$ rad/s.",
+      "trick": "$\\omega=2\\pi/T$ — plug $T=0.5$ s directly to get $4\\pi$ rad/s."
     },
     {
       "id": "phy-oscillations-025",
@@ -324,7 +348,8 @@
       ],
       "answer": 3,
       "difficulty": "medium",
-      "explanation": "At equilibrium $ke=mg \\Rightarrow k/m=g/e$; since $\\omega=\\sqrt{k/m}$, $\\omega=\\sqrt{g/e}$."
+      "explanation": "At equilibrium $ke=mg \\Rightarrow k/m=g/e$; since $\\omega=\\sqrt{k/m}$, $\\omega=\\sqrt{g/e}$.",
+      "trick": "Static extension trick: $\\omega=\\sqrt{g/e}$ since $k/m=g/e$ at equilibrium."
     },
     {
       "id": "phy-oscillations-026",
@@ -337,7 +362,8 @@
       ],
       "answer": 0,
       "difficulty": "hard",
-      "explanation": "Resultant amplitude $=\\sqrt{A^2+(2A)^2+2A(2A)\\cos\\pi}=\\sqrt{A^2+4A^2-4A^2}=A$."
+      "explanation": "Resultant amplitude $=\\sqrt{A^2+(2A)^2+2A(2A)\\cos\\pi}=\\sqrt{A^2+4A^2-4A^2}=A$.",
+      "trick": "Phase $\\pi$ opposition: resultant $=|A_2-A_1|$ — subtract, don't add amplitudes."
     },
     {
       "id": "phy-oscillations-027",
@@ -350,7 +376,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "KE$=E\\cos^2\\omega t$; averaged over a full cycle, $\\langle\\cos^2\\omega t\\rangle=1/2$, so average KE $=E/2$."
+      "explanation": "KE$=E\\cos^2\\omega t$; averaged over a full cycle, $\\langle\\cos^2\\omega t\\rangle=1/2$, so average KE $=E/2$.",
+      "trick": "Average of $\\cos^2$ or $\\sin^2$ over a cycle is $1/2$ $\\Rightarrow$ mean KE $=E/2$."
     },
     {
       "id": "phy-oscillations-028",
@@ -363,7 +390,8 @@
       ],
       "answer": 1,
       "difficulty": "easy",
-      "explanation": "From extreme to mean position is a quarter of one complete oscillation, so time $=T/4$."
+      "explanation": "From extreme to mean position is a quarter of one complete oscillation, so time $=T/4$.",
+      "trick": "Extreme to mean is a quarter cycle $\\Rightarrow$ time $=T/4$, always."
     },
     {
       "id": "phy-oscillations-029",
@@ -376,7 +404,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "For an ideal SHM (e.g. spring-mass or simple pendulum for small angles), the time period is independent of amplitude; the other three statements are correct."
+      "explanation": "For an ideal SHM (e.g. spring-mass or simple pendulum for small angles), the time period is independent of amplitude; the other three statements are correct.",
+      "trick": "Spot the false one: ideal SHM's time period never depends on amplitude."
     },
     {
       "id": "phy-oscillations-030",
@@ -389,7 +418,8 @@
       ],
       "answer": 3,
       "difficulty": "medium",
-      "explanation": "$T=2\\pi\\sqrt{l/g} \\Rightarrow l=\\dfrac{T^2g}{4\\pi^2}=\\dfrac{4\\times9.8}{4\\pi^2}\\approx0.993$ m."
+      "explanation": "$T=2\\pi\\sqrt{l/g} \\Rightarrow l=\\dfrac{T^2g}{4\\pi^2}=\\dfrac{4\\times9.8}{4\\pi^2}\\approx0.993$ m.",
+      "trick": "Rearrange $T=2\\pi\\sqrt{l/g}\\Rightarrow l=T^2g/(4\\pi^2)$ — seconds pendulum classic."
     },
     {
       "id": "phy-oscillations-031",
@@ -402,7 +432,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "$x=A\\sin\\omega t \\Rightarrow v=A\\omega\\cos\\omega t$; velocity is a cosine curve, ahead of displacement in phase by $\\pi/2$, i.e. a quarter period."
+      "explanation": "$x=A\\sin\\omega t \\Rightarrow v=A\\omega\\cos\\omega t$; velocity is a cosine curve, ahead of displacement in phase by $\\pi/2$, i.e. a quarter period.",
+      "trick": "$x=\\sin\\Rightarrow v=\\cos$: velocity graph leads displacement by a quarter period."
     },
     {
       "id": "phy-oscillations-032",
@@ -415,7 +446,8 @@
       ],
       "answer": 1,
       "difficulty": "hard",
-      "explanation": "At $t=0$: $\\sin\\phi=1/2$, giving $\\phi=\\pi/6$ or $5\\pi/6$. Since velocity $v=A\\omega\\cos\\phi$ is positive, $\\cos\\phi>0$, which selects $\\phi=\\pi/6$."
+      "explanation": "At $t=0$: $\\sin\\phi=1/2$, giving $\\phi=\\pi/6$ or $5\\pi/6$. Since velocity $v=A\\omega\\cos\\phi$ is positive, $\\cos\\phi>0$, which selects $\\phi=\\pi/6$.",
+      "trick": "$\\sin\\phi=1/2$ and $\\cos\\phi>0$ (moving positive) together pick $\\phi=\\pi/6$."
     },
     {
       "id": "phy-oscillations-033",
@@ -428,7 +460,8 @@
       ],
       "answer": 1,
       "difficulty": "easy",
-      "explanation": "SHM is periodic motion with a specific restoring-force law ($F\\propto-x$); other periodic motions (e.g. a bouncing ball) do not obey this law and hence are not SHM."
+      "explanation": "SHM is periodic motion with a specific restoring-force law ($F\\propto-x$); other periodic motions (e.g. a bouncing ball) do not obey this law and hence are not SHM.",
+      "trick": "All SHM is periodic, but not all periodic motion obeys $F\\propto-x$ (SHM)."
     },
     {
       "id": "phy-oscillations-034",
@@ -441,7 +474,8 @@
       ],
       "answer": 3,
       "difficulty": "medium",
-      "explanation": "$a_{max}=A\\omega^2$. Doubling $A$ gives factor 2; doubling $\\omega$ (hence $f$) gives factor $2^2=4$ in $\\omega^2$. Net factor $=2\\times4=8$."
+      "explanation": "$a_{max}=A\\omega^2$. Doubling $A$ gives factor 2; doubling $\\omega$ (hence $f$) gives factor $2^2=4$ in $\\omega^2$. Net factor $=2\\times4=8$.",
+      "trick": "$a_{max}=A\\omega^2$ — doubling $A$ and $\\omega$ gives factor $2\\times2^2=8$."
     },
     {
       "id": "phy-oscillations-035",
@@ -454,7 +488,8 @@
       ],
       "answer": 0,
       "difficulty": "easy",
-      "explanation": "Total energy $E=\\tfrac12m\\omega^2A^2$ is constant; only the split between KE and PE changes with position/time (KE and PE oscillate at twice the frequency of displacement, but their sum stays fixed)."
+      "explanation": "Total energy $E=\\tfrac12m\\omega^2A^2$ is constant; only the split between KE and PE changes with position/time (KE and PE oscillate at twice the frequency of displacement, but their sum stays fixed).",
+      "trick": "Total energy $E=\\frac12m\\omega^2A^2$ is fixed; only the KE/PE split shifts with $x$."
     },
     {
       "id": "phy-oscillations-036",
@@ -467,7 +502,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "$T=2\\pi\\sqrt{m/k}=2\\pi\\sqrt{0.1/10}=2\\pi\\times0.1\\approx0.628$ s."
+      "explanation": "$T=2\\pi\\sqrt{m/k}=2\\pi\\sqrt{0.1/10}=2\\pi\\times0.1\\approx0.628$ s.",
+      "trick": "$T=2\\pi\\sqrt{m/k}$ — plug values directly, $\\sqrt{0.1/10}=0.1$ gives clean answer."
     },
     {
       "id": "phy-oscillations-037",
@@ -480,7 +516,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "$\\omega=2\\pi/T=\\pi$ rad/s; $v=\\omega\\sqrt{A^2-x^2}=\\pi\\sqrt{25-9}=\\pi\\times4=4\\pi$ cm/s."
+      "explanation": "$\\omega=2\\pi/T=\\pi$ rad/s; $v=\\omega\\sqrt{A^2-x^2}=\\pi\\sqrt{25-9}=\\pi\\times4=4\\pi$ cm/s.",
+      "trick": "$v=\\omega\\sqrt{A^2-x^2}$ with $\\omega=2\\pi/T=\\pi$ — classic 3-4-5 triangle numbers."
     },
     {
       "id": "phy-oscillations-038",
@@ -493,7 +530,8 @@
       ],
       "answer": 0,
       "difficulty": "hard",
-      "explanation": "$T\\propto\\sqrt{m/k}$; new $T'=T\\sqrt{(m/2)/(2k)}=T\\sqrt{1/4}=T/2$."
+      "explanation": "$T\\propto\\sqrt{m/k}$; new $T'=T\\sqrt{(m/2)/(2k)}=T\\sqrt{1/4}=T/2$.",
+      "trick": "$T\\propto\\sqrt{m/k}$ — halve $m$, double $k$: ratio becomes $1/4$ inside root, $T/2$."
     },
     {
       "id": "phy-oscillations-039",
@@ -506,7 +544,8 @@
       ],
       "answer": 3,
       "difficulty": "easy",
-      "explanation": "Angular frequency $\\omega=2\\pi f$ is measured in radians per second (rad s$^{-1}$)."
+      "explanation": "Angular frequency $\\omega=2\\pi f$ is measured in radians per second (rad s$^{-1}$).",
+      "trick": "$\\omega$'s SI unit is always radian per second, like any angular frequency."
     },
     {
       "id": "phy-oscillations-040",
@@ -519,7 +558,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "$T\\propto\\sqrt l$, so $T_1:T_2=\\sqrt l:\\sqrt{4l}=1:2$."
+      "explanation": "$T\\propto\\sqrt l$, so $T_1:T_2=\\sqrt l:\\sqrt{4l}=1:2$.",
+      "trick": "$T\\propto\\sqrt l$ — ratio of periods is square root of the length ratio."
     }
   ]
 }

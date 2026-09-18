@@ -1,6 +1,6 @@
-import { SUBJECTS, chapter, shuffle } from '../data.js';
+import { SUBJECTS, chapter, shuffle, seededRandom, seededShuffle } from '../data.js';
 import { store } from '../store.js';
-import { el, esc, math, toast, optionButton, LETTERS, bar, reasonChips, bindReasonChips, reportLink, bindReportLinks } from '../ui.js';
+import { el, esc, math, toast, optionButton, LETTERS, bar, reasonChips, bindReasonChips, reportLink, bindReportLinks, quiz } from '../ui.js';
 
 export default async function chapterView([subject, slug], query) {
   const ch = await chapter(subject, slug);
@@ -20,10 +20,34 @@ export default async function chapterView([subject, slug], query) {
 
   // Notes
   const notes = node.querySelector('#notes');
-  notes.innerHTML = ch.notes
+  const qkey = `${subject}/${slug}`; const qc = store.quickCheck(qkey);
+  const fresh = !qc && stats.attempted < 8 && qs.length >= 8;
+  const quickHtml = fresh ? `<div class="card" id="quick" style="border-color:var(--primary)">
+      <div class="kicker">Quick check · 2 minutes</div>
+      <h2 style="margin:4px 0 6px">Do you already know this chapter?</h2>
+      <p class="muted">Answer 5 questions. Score 4 or more and you can skip the notes and go straight to practice.</p>
+      <div class="row"><button class="btn" id="qcStart">Start quick check</button><button class="btn secondary" id="qcSkip">Read notes first</button></div>
+      <div id="qcBox" style="margin-top:10px"></div>
+    </div>` : qc ? `<div class="card" style="background:${qc.score >= 4 ? 'var(--ok-bg)' : 'var(--warn-bg)'}"><b>Quick check: ${qc.score}/${qc.of}.</b> <span class="muted">${qc.score >= 4 ? 'You know the basics — go to Practice; use the notes only for revision.' : 'Read the notes below first, then practise.'}</span></div>` : '';
+  notes.innerHTML = quickHtml + (ch.notes
     ? `<div class="card notes">${ch.notes}</div>${ch.kn && ch.notes_en ? `<details class="card"><summary>Show English notes</summary><div class="notes">${ch.notes_en}</div></details>` : ''}<button class="btn block" id="startP">Start practice (${qs.length} Qs)</button>`
-    : `<div class="card empty">Notes for this chapter are not written yet.<br><span class="muted">Want to help? See Settings → Contribute.</span></div>`;
+    : `<div class="card empty">Notes for this chapter are not written yet.<br><span class="muted">Want to help? See Settings → Contribute.</span></div>`);
   math(notes);
+  if (fresh) {
+    const notesCard = notes.querySelector('.notes')?.parentElement === notes ? notes.querySelector('.notes') : null;
+    notes.querySelector('#qcSkip').addEventListener('click', () => { notes.querySelector('#quick').remove(); });
+    notes.querySelector('#qcStart').addEventListener('click', (e) => {
+      e.target.disabled = true; notes.querySelector('#qcSkip').classList.add('hidden');
+      const rnd = seededRandom(parseInt(store.today().replace(/-/g, ''), 10) + slug.length);
+      const five = seededShuffle(qs.filter((q) => q.difficulty !== 'hard'), rnd).slice(0, 5);
+      quiz(notes.querySelector('#qcBox'), five, { record: (q, ok) => store.recordAttempt(q.id, ok), onDone: (r) => {
+        store.setQuickCheck(qkey, { score: r.correct, of: r.done });
+        const box = notes.querySelector('#qcBox');
+        box.innerHTML = r.correct >= 4 ? `<div class="explain"><b>${r.correct}/${r.done} — you know this chapter!</b> Skip the notes and go to practice. <div style="margin-top:8px"><button class="btn" id="qcGo">Go to practice →</button></div></div>` : `<div class="explain"><b>${r.correct}/${r.done}.</b> Read the notes below, then practise. Most students need this — no shame in it.</div>`;
+        box.querySelector('#qcGo')?.addEventListener('click', () => switchTab('practice'));
+      } });
+    });
+  }
   notes.querySelector('#startP')?.addEventListener('click', () => switchTab('practice'));
 
   // Practice
@@ -70,7 +94,7 @@ export default async function chapterView([subject, slug], query) {
       if (session.done === 15 && (store.completePlanTask(`ch-${subject}-${slug}`) || store.completePlanTask(`rev-${subject}-${slug}`))) toast('✅ Today\'s plan task done!'); if (ok) { session.correct++; session.run++; if (session.run === 3 || session.run === 5 || session.run % 10 === 0) pop(`🔥 ${session.run} in a row!`); } else session.run = 0;
       practice.querySelectorAll('.option').forEach((x) => { x.disabled = true; const j = +x.dataset.i; if (j === q.answer) x.classList.add('correct'); else if (j === i) x.classList.add('wrong'); });
       const exp = practice.querySelector('#exp');
-      exp.innerHTML = `<div class="explain"><b>${ok ? 'Correct!' : 'Wrong.'} Answer: ${LETTERS[q.answer]}</b>${q.explanation ? `<div>${q.explanation}</div>` : ''}${q.explanation_en ? `<details><summary class="muted">English</summary>${q.explanation_en}</details>` : ''}${q.tip ? `<div class="muted" style="margin-top:6px">💡 ${q.tip}</div>` : ''}</div>${ok ? '' : reasonChips(q.id)}<div style="margin-top:6px">${reportLink(q.id)}</div>`;
+      exp.innerHTML = `<div class="explain"><b>${ok ? 'Correct!' : 'Wrong.'} Answer: ${LETTERS[q.answer]}</b>${q.trick ? `<div class="trick">⚡ ${q.trick}</div>` : ''}${q.explanation ? (q.trick ? `<details ${ok ? '' : 'open'}><summary class="muted">Full working</summary><div>${q.explanation}</div></details>` : `<div>${q.explanation}</div>`) : ''}${q.explanation_en ? `<details><summary class="muted">English</summary>${q.explanation_en}</details>` : ''}${q.tip ? `<div class="muted" style="margin-top:6px">💡 ${q.tip}</div>` : ''}</div>${ok ? '' : reasonChips(q.id)}<div style="margin-top:6px">${reportLink(q.id)}</div>`;
       math(exp); bindReasonChips(exp); bindReportLinks(exp);
       practice.querySelector('#skip').classList.add('hidden');
       practice.querySelector('#next').classList.remove('hidden');

@@ -12,7 +12,8 @@
       ],
       "answer": 0,
       "difficulty": "easy",
-      "explanation": "Number of terms in $(a+b)^n$ is $n+1 = 7+1 = 8$."
+      "explanation": "Number of terms in $(a+b)^n$ is $n+1 = 7+1 = 8$.",
+      "trick": "Number of terms in $(a+b)^n$ is always $n+1$."
     },
     {
       "id": "mat-binomial-theorem-002",
@@ -25,7 +26,8 @@
       ],
       "answer": 3,
       "difficulty": "easy",
-      "explanation": "Sum of all binomial coefficients $= 2^n = 2^5 = 32$."
+      "explanation": "Sum of all binomial coefficients $= 2^n = 2^5 = 32$.",
+      "trick": "Sum of all $^nC_r = 2^n$ (put $a=b=1$)."
     },
     {
       "id": "mat-binomial-theorem-003",
@@ -38,7 +40,8 @@
       ],
       "answer": 1,
       "difficulty": "easy",
-      "explanation": "The $(r+1)$th term is $T_{r+1} = {}^nC_r a^{n-r}b^r$."
+      "explanation": "The $(r+1)$th term is $T_{r+1} = {}^nC_r a^{n-r}b^r$.",
+      "trick": "General term: $T_{r+1} = {}^nC_r\\,a^{n-r}b^r$ — powers of $a,b$ swap with $r$."
     },
     {
       "id": "mat-binomial-theorem-004",
@@ -51,7 +54,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "$T_{r+1} = {}^5C_r x^{5-r}2^r$; power of $x$ is 3 when $r=2$: coefficient $= {}^5C_2\\cdot2^2 = 10\\times4=40$."
+      "explanation": "$T_{r+1} = {}^5C_r x^{5-r}2^r$; power of $x$ is 3 when $r=2$: coefficient $= {}^5C_2\\cdot2^2 = 10\\times4=40$.",
+      "trick": "Set the power of $x$ in $T_{r+1}$ equal to target, solve for $r$ first."
     },
     {
       "id": "mat-binomial-theorem-005",
@@ -64,7 +68,8 @@
       ],
       "answer": 3,
       "difficulty": "medium",
-      "explanation": "For even $n=6$, the single middle term is $T_{(n/2)+1} = T_4$."
+      "explanation": "For even $n=6$, the single middle term is $T_{(n/2)+1} = T_4$.",
+      "trick": "Even $n$: single middle term is $T_{(n/2)+1}$."
     },
     {
       "id": "mat-binomial-theorem-006",
@@ -77,7 +82,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "For odd $n=7$, middle terms are $T_{(n+1)/2}=T_4$ and $T_{(n+3)/2}=T_5$."
+      "explanation": "For odd $n=7$, middle terms are $T_{(n+1)/2}=T_4$ and $T_{(n+3)/2}=T_5$.",
+      "trick": "Odd $n$: two middle terms are $T_{(n+1)/2}$ and $T_{(n+3)/2}$."
     },
     {
       "id": "mat-binomial-theorem-007",
@@ -90,7 +96,8 @@
       ],
       "answer": 0,
       "difficulty": "hard",
-      "explanation": "$T_{r+1}={}^4C_r(2x)^{4-r}(-1)^r$; power of $x$ is 2 when $r=2$: term $= {}^4C_2(2x)^2(-1)^2 = 6\\times4x^2\\times1=24x^2$, coefficient $24$."
+      "explanation": "$T_{r+1}={}^4C_r(2x)^{4-r}(-1)^r$; power of $x$ is 2 when $r=2$: term $= {}^4C_2(2x)^2(-1)^2 = 6\\times4x^2\\times1=24x^2$, coefficient $24$.",
+      "trick": "Find $r$ from the target power of $x$, then plug into $T_{r+1}$ fully."
     },
     {
       "id": "mat-binomial-theorem-008",
@@ -103,7 +110,8 @@
       ],
       "answer": 1,
       "difficulty": "hard",
-      "explanation": "Sum of coefficients at odd positions equals sum at even positions, each equal to $2^{n-1} = 2^9 = 512$."
+      "explanation": "Sum of coefficients at odd positions equals sum at even positions, each equal to $2^{n-1} = 2^9 = 512$.",
+      "trick": "Odd-position sum = even-position sum $= 2^{n-1}$ each."
     },
     {
       "id": "mat-binomial-theorem-009",
@@ -116,7 +124,8 @@
       ],
       "answer": 3,
       "difficulty": "easy",
-      "explanation": "Number of terms $= n+1 = 10+1 = 11$."
+      "explanation": "Number of terms $= n+1 = 10+1 = 11$.",
+      "trick": "Number of terms $=n+1$, regardless of the coefficients inside."
     },
     {
       "id": "mat-binomial-theorem-010",
@@ -129,7 +138,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "Coefficient of $x^5$ is $^8C_5 = {}^8C_3 = \\dfrac{8\\times7\\times6}{6} = 56$."
+      "explanation": "Coefficient of $x^5$ is $^8C_5 = {}^8C_3 = \\dfrac{8\\times7\\times6}{6} = 56$.",
+      "trick": "Coefficient of $x^r$ in $(1+x)^n$ is simply $^nC_r$."
     },
     {
       "id": "mat-binomial-theorem-011",
@@ -142,7 +152,8 @@
       ],
       "answer": 1,
       "difficulty": "easy",
-      "explanation": "This is $T_4 = {}^6C_3x^3y^3$, and $^6C_3 = \\dfrac{6!}{3!3!} = 20$."
+      "explanation": "This is $T_4 = {}^6C_3x^3y^3$, and $^6C_3 = \\dfrac{6!}{3!3!} = 20$.",
+      "trick": "Coefficient of $a^{n-r}b^r$ is $^nC_r$ — read $r$ off the target term."
     },
     {
       "id": "mat-binomial-theorem-012",
@@ -155,7 +166,8 @@
       ],
       "answer": 2,
       "difficulty": "hard",
-      "explanation": "$^nC_1 = {}^nC_2 \\Rightarrow n = \\dfrac{n(n-1)}{2} \\Rightarrow 2n = n(n-1) \\Rightarrow 2 = n-1 \\Rightarrow n=3$."
+      "explanation": "$^nC_1 = {}^nC_2 \\Rightarrow n = \\dfrac{n(n-1)}{2} \\Rightarrow 2n = n(n-1) \\Rightarrow 2 = n-1 \\Rightarrow n=3$.",
+      "trick": "Equal consecutive coefficients: $^nC_1={}^nC_2$ gives a solvable equation in $n$."
     },
     {
       "id": "mat-binomial-theorem-013",
@@ -169,7 +181,8 @@
       "answer": 0,
       "difficulty": "hard",
       "explanation": "$T_{r+1} = {}^6C_r x^{6-r}(-1/x)^r = {}^6C_r(-1)^r x^{6-2r}$. Independent of $x$ when $6-2r=0 \\Rightarrow r=3$: term $= {}^6C_3(-1)^3 = 20\\times(-1) = -20$.",
-      "tip": "Watch the sign from $(-1)^r$."
+      "tip": "Watch the sign from $(-1)^r$.",
+      "trick": "Term independent of $x$: set net power of $x$ in $T_{r+1}$ to 0, solve $r$."
     },
     {
       "id": "mat-binomial-theorem-014",
@@ -182,7 +195,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "$T_{r+1} = {}^7C_r(-x)^r$; for $r=4$: $^7C_4(-1)^4x^4 = 35x^4$ since $(-1)^4=1$, so the coefficient is $+35$."
+      "explanation": "$T_{r+1} = {}^7C_r(-x)^r$; for $r=4$: $^7C_4(-1)^4x^4 = 35x^4$ since $(-1)^4=1$, so the coefficient is $+35$.",
+      "trick": "$(-1)^r$ sign in $(1-x)^n$: even $r$ stays positive, odd $r$ flips."
     },
     {
       "id": "mat-binomial-theorem-015",
@@ -195,7 +209,8 @@
       ],
       "answer": 3,
       "difficulty": "hard",
-      "explanation": "$(a+b)^4+(a-b)^4$ retains only even-position terms doubled: $2[a^4+{}^4C_2a^2b^2+b^4] = 2[a^4+6a^2b^2+b^4]$."
+      "explanation": "$(a+b)^4+(a-b)^4$ retains only even-position terms doubled: $2[a^4+{}^4C_2a^2b^2+b^4] = 2[a^4+6a^2b^2+b^4]$.",
+      "trick": "$(a+b)^n+(a-b)^n$ keeps only even-$r$ terms, doubled."
     },
     {
       "id": "mat-binomial-theorem-016",
@@ -208,7 +223,8 @@
       ],
       "answer": 1,
       "difficulty": "hard",
-      "explanation": "$(1+0.02)^{10} \\approx 1+10(0.02)+\\dfrac{10\\times9}{2}(0.02)^2 = 1+0.2+0.018 = 1.218 \\approx 1.219$ with the next small term."
+      "explanation": "$(1+0.02)^{10} \\approx 1+10(0.02)+\\dfrac{10\\times9}{2}(0.02)^2 = 1+0.2+0.018 = 1.218 \\approx 1.219$ with the next small term.",
+      "trick": "$(1+x)^n\\approx 1+nx+\\binom{n}{2}x^2$ for small $x$ — stop after 2-3 terms."
     },
     {
       "id": "mat-binomial-theorem-017",
@@ -221,7 +237,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "For even $n=6$, the greatest binomial coefficient is $^nC_{n/2} = {}^6C_3$."
+      "explanation": "For even $n=6$, the greatest binomial coefficient is $^nC_{n/2} = {}^6C_3$.",
+      "trick": "Even $n$: greatest coefficient is $^nC_{n/2}$."
     },
     {
       "id": "mat-binomial-theorem-018",
@@ -234,7 +251,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "Putting $a=1, b=-1$ in $(a+b)^n$ expansion gives $(1-1)^n = 0$, which equals the alternating sum of binomial coefficients."
+      "explanation": "Putting $a=1, b=-1$ in $(a+b)^n$ expansion gives $(1-1)^n = 0$, which equals the alternating sum of binomial coefficients.",
+      "trick": "Alternating sum of $^nC_r$ is always 0 (put $a=1,b=-1$)."
     },
     {
       "id": "mat-binomial-theorem-019",
@@ -247,7 +265,8 @@
       ],
       "answer": 3,
       "difficulty": "hard",
-      "explanation": "$\\dfrac{^nC_4}{^nC_5} = \\dfrac{5}{n-4} = \\dfrac12 \\Rightarrow n-4=10 \\Rightarrow n=14$."
+      "explanation": "$\\dfrac{^nC_4}{^nC_5} = \\dfrac{5}{n-4} = \\dfrac12 \\Rightarrow n-4=10 \\Rightarrow n=14$.",
+      "trick": "Set up $^nC_{r}/{}^nC_{r+1}$ ratio equation and solve for $n$."
     },
     {
       "id": "mat-binomial-theorem-020",
@@ -260,7 +279,8 @@
       ],
       "answer": 2,
       "difficulty": "hard",
-      "explanation": "Number of terms in expansion of a trinomial raised to power $n$ is $^{n+2}C_2$; here $n=2$: $^4C_2 = 6$."
+      "explanation": "Number of terms in expansion of a trinomial raised to power $n$ is $^{n+2}C_2$; here $n=2$: $^4C_2 = 6$.",
+      "trick": "Trinomial term count for power $n$ is $^{n+2}C_2$."
     },
     {
       "id": "mat-binomial-theorem-021",
@@ -273,7 +293,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "$T_4 = T_{3+1} = {}^6C_3\\,x^{3}(2y)^3 = 20\\times x^3\\times8y^3 = 160x^3y^3$."
+      "explanation": "$T_4 = T_{3+1} = {}^6C_3\\,x^{3}(2y)^3 = 20\\times x^3\\times8y^3 = 160x^3y^3$.",
+      "trick": "$T_{r+1}$ for the $(r+1)$th term: here 4th term means $r=3$."
     },
     {
       "id": "mat-binomial-theorem-022",
@@ -286,7 +307,8 @@
       ],
       "answer": 1,
       "difficulty": "hard",
-      "explanation": "$T_{r+1} = {}^9C_r(2x^2)^{9-r}\\left(-\\dfrac1x\\right)^r = {}^9C_r 2^{9-r}(-1)^r x^{18-3r}$. Setting $18-3r=0$ gives $r=6$; the term is $^9C_6\\,2^3(-1)^6 = 84\\times8 = 672$."
+      "explanation": "$T_{r+1} = {}^9C_r(2x^2)^{9-r}\\left(-\\dfrac1x\\right)^r = {}^9C_r 2^{9-r}(-1)^r x^{18-3r}$. Setting $18-3r=0$ gives $r=6$; the term is $^9C_6\\,2^3(-1)^6 = 84\\times8 = 672$.",
+      "trick": "Term independent of $x$: net power to 0, solve $r$, then substitute fully."
     },
     {
       "id": "mat-binomial-theorem-023",
@@ -299,7 +321,8 @@
       ],
       "answer": 2,
       "difficulty": "easy",
-      "explanation": "This is the standard Pascal's triangle identity: $^nC_r + {}^nC_{r-1} = {}^{n+1}C_r$."
+      "explanation": "This is the standard Pascal's triangle identity: $^nC_r + {}^nC_{r-1} = {}^{n+1}C_r$.",
+      "trick": "Pascal's rule: $^nC_r+{}^nC_{r-1}={}^{n+1}C_r$."
     },
     {
       "id": "mat-binomial-theorem-024",
@@ -312,7 +335,8 @@
       ],
       "answer": 3,
       "difficulty": "medium",
-      "explanation": "$\\dfrac{^nC_r}{^nC_{r-1}} = \\dfrac{n-r+1}{r}$, a standard result used to compare consecutive binomial coefficients."
+      "explanation": "$\\dfrac{^nC_r}{^nC_{r-1}} = \\dfrac{n-r+1}{r}$, a standard result used to compare consecutive binomial coefficients.",
+      "trick": "Ratio $^nC_r/{}^nC_{r-1} = (n-r+1)/r$ — memorise this shortcut."
     },
     {
       "id": "mat-binomial-theorem-025",
@@ -325,7 +349,8 @@
       ],
       "answer": 3,
       "difficulty": "hard",
-      "explanation": "$(0.98)^4=(1-0.02)^4 \\approx 1 - 4(0.02) + 6(0.02)^2 = 1 - 0.08 + 0.0024 = 0.9224 \\approx 0.922$."
+      "explanation": "$(0.98)^4=(1-0.02)^4 \\approx 1 - 4(0.02) + 6(0.02)^2 = 1 - 0.08 + 0.0024 = 0.9224 \\approx 0.922$.",
+      "trick": "Write as $(1\\pm\\text{small})^n$ and use the first 2-3 terms of the expansion."
     },
     {
       "id": "mat-binomial-theorem-026",
@@ -338,7 +363,8 @@
       ],
       "answer": 2,
       "difficulty": "hard",
-      "explanation": "$T_{r+1} = {}^{11}C_r(x^2)^{11-r}\\left(\\dfrac2x\\right)^r = {}^{11}C_r 2^r x^{22-3r}$. Setting $22-3r=7$ gives $r=5$; the coefficient is $^{11}C_5\\,2^5 = 462\\times32 = 14784$."
+      "explanation": "$T_{r+1} = {}^{11}C_r(x^2)^{11-r}\\left(\\dfrac2x\\right)^r = {}^{11}C_r 2^r x^{22-3r}$. Setting $22-3r=7$ gives $r=5$; the coefficient is $^{11}C_5\\,2^5 = 462\\times32 = 14784$.",
+      "trick": "Match net power of $x$ in $T_{r+1}$ to the target, solve $r$, then compute."
     },
     {
       "id": "mat-binomial-theorem-027",
@@ -351,7 +377,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "Since $n=7$ is odd, two middle terms tie for the greatest coefficient: $^7C_3 = {}^7C_4 = 35$, corresponding to the 4th and 5th terms."
+      "explanation": "Since $n=7$ is odd, two middle terms tie for the greatest coefficient: $^7C_3 = {}^7C_4 = 35$, corresponding to the 4th and 5th terms.",
+      "trick": "Odd $n$: the two greatest (equal) coefficients are $^nC_{(n-1)/2}={}^nC_{(n+1)/2}$."
     },
     {
       "id": "mat-binomial-theorem-028",
@@ -364,7 +391,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "Odd-power terms cancel and even-power terms double, leaving powers $0,2,4,6,8,10$ — a total of 6 terms."
+      "explanation": "Odd-power terms cancel and even-power terms double, leaving powers $0,2,4,6,8,10$ — a total of 6 terms.",
+      "trick": "$(1+x)^n+(1-x)^n$: odd powers cancel, only even powers survive — count them."
     },
     {
       "id": "mat-binomial-theorem-029",
@@ -377,7 +405,8 @@
       ],
       "answer": 3,
       "difficulty": "hard",
-      "explanation": "We need $^nC_1, {}^nC_2, {}^nC_3$ in AP, i.e. $2\\,{}^nC_2 = {}^nC_1+{}^nC_3$. For $n=7$: $7, 21, 35$, which indeed form an AP (common difference 14)."
+      "explanation": "We need $^nC_1, {}^nC_2, {}^nC_3$ in AP, i.e. $2\\,{}^nC_2 = {}^nC_1+{}^nC_3$. For $n=7$: $7, 21, 35$, which indeed form an AP (common difference 14).",
+      "trick": "AP condition: $2\\,{}^nC_2 = {}^nC_1+{}^nC_3$ — solve for $n$."
     },
     {
       "id": "mat-binomial-theorem-030",
@@ -390,7 +419,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "Putting $x=1$ gives the sum of coefficients: $(2(1)-1)^{10} = 1^{10} = 1$."
+      "explanation": "Putting $x=1$ gives the sum of coefficients: $(2(1)-1)^{10} = 1^{10} = 1$.",
+      "trick": "Put $x=1$ to get the sum of all coefficients instantly."
     },
     {
       "id": "mat-binomial-theorem-031",
@@ -403,7 +433,8 @@
       ],
       "answer": 0,
       "difficulty": "easy",
-      "explanation": "Putting $x=y=1$ gives $2^n = 128 = 2^7$, so $n=7$."
+      "explanation": "Putting $x=y=1$ gives $2^n = 128 = 2^7$, so $n=7$.",
+      "trick": "Put $x=y=1$: sum of coefficients $=2^n$, solve for $n$."
     },
     {
       "id": "mat-binomial-theorem-032",
@@ -416,7 +447,8 @@
       ],
       "answer": 1,
       "difficulty": "easy",
-      "explanation": "The expansion of $(a+b)^n$ has $n+1$ terms, so $(x-y)^{12}$ has $12+1=13$ terms."
+      "explanation": "The expansion of $(a+b)^n$ has $n+1$ terms, so $(x-y)^{12}$ has $12+1=13$ terms.",
+      "trick": "Number of terms $=n+1$, independent of the signs inside."
     },
     {
       "id": "mat-binomial-theorem-033",
@@ -429,7 +461,8 @@
       ],
       "answer": 1,
       "difficulty": "easy",
-      "explanation": "The general term is $^nC_r x^r$, so the coefficient of $x^r$ is simply $^nC_r$."
+      "explanation": "The general term is $^nC_r x^r$, so the coefficient of $x^r$ is simply $^nC_r$.",
+      "trick": "Coefficient of $x^r$ in $(1+x)^n$ is directly $^nC_r$."
     },
     {
       "id": "mat-binomial-theorem-034",
@@ -442,7 +475,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "$^nC_4={}^nC_6 \\Rightarrow n=4+6=10$ (since $r_1\\ne r_2$). Then $^{10}C_2 = 45$."
+      "explanation": "$^nC_4={}^nC_6 \\Rightarrow n=4+6=10$ (since $r_1\\ne r_2$). Then $^{10}C_2 = 45$.",
+      "trick": "$^nC_4={}^nC_6 \\Rightarrow n=4+6=10$, then compute the target directly."
     },
     {
       "id": "mat-binomial-theorem-035",
@@ -455,7 +489,8 @@
       ],
       "answer": 3,
       "difficulty": "medium",
-      "explanation": "Since $n=20$ is even, the coefficients $^{20}C_r$ are largest at $r=10$ (the middle term) and decrease moving away from it, so $^{20}C_{10} > {}^{20}C_{11}$."
+      "explanation": "Since $n=20$ is even, the coefficients $^{20}C_r$ are largest at $r=10$ (the middle term) and decrease moving away from it, so $^{20}C_{10} > {}^{20}C_{11}$.",
+      "trick": "Even $n$: coefficients peak at the middle index and decrease outward."
     },
     {
       "id": "mat-binomial-theorem-036",
@@ -468,7 +503,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "$T_{r+1} = {}^{10}C_r x^{10-2r}$. Setting $10-2r=0$ gives $r=5$, so the term is $^{10}C_5 = 252$."
+      "explanation": "$T_{r+1} = {}^{10}C_r x^{10-2r}$. Setting $10-2r=0$ gives $r=5$, so the term is $^{10}C_5 = 252$.",
+      "trick": "Term independent of $x$: set net exponent to 0, solve for $r$."
     },
     {
       "id": "mat-binomial-theorem-037",
@@ -481,7 +517,8 @@
       ],
       "answer": 1,
       "difficulty": "easy",
-      "explanation": "$^{20}C_{18} = {}^{20}C_{2} = \\dfrac{20\\times19}{2} = 190$."
+      "explanation": "$^{20}C_{18} = {}^{20}C_{2} = \\dfrac{20\\times19}{2} = 190$.",
+      "trick": "Use $^nC_r={}^nC_{n-r}$ to flip to the smaller, faster index."
     },
     {
       "id": "mat-binomial-theorem-038",
@@ -494,7 +531,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "$T_{r+1} = {}^7C_r(-2x)^r$. For $r=3$: $^7C_3(-2)^3 = 35\\times(-8) = -280$."
+      "explanation": "$T_{r+1} = {}^7C_r(-2x)^r$. For $r=3$: $^7C_3(-2)^3 = 35\\times(-8) = -280$.",
+      "trick": "$(-2x)^r$ sign: track $(-1)^r$ and the power of 2 together."
     },
     {
       "id": "mat-binomial-theorem-039",
@@ -507,7 +545,8 @@
       ],
       "answer": 3,
       "difficulty": "easy",
-      "explanation": "The symmetry property $^nC_r = {}^nC_{n-r}$ always holds; the other statements are false in general (e.g. $^nC_0=1$, not $n$)."
+      "explanation": "The symmetry property $^nC_r = {}^nC_{n-r}$ always holds; the other statements are false in general (e.g. $^nC_0=1$, not $n$).",
+      "trick": "$^nC_r={}^nC_{n-r}$ is the one universally true symmetry — check that first."
     },
     {
       "id": "mat-binomial-theorem-040",
@@ -520,7 +559,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "$T_{r+1} = {}^5C_r\\,2^{5-r}(-y)^r$. For $r=3$: $^5C_3\\,2^2(-1)^3 = 10\\times4\\times(-1) = -40$."
+      "explanation": "$T_{r+1} = {}^5C_r\\,2^{5-r}(-y)^r$. For $r=3$: $^5C_3\\,2^2(-1)^3 = 10\\times4\\times(-1) = -40$.",
+      "trick": "Track $(-1)^r$ sign and the base's power together in $T_{r+1}$."
     }
   ]
 }

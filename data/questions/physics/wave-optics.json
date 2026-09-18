@@ -12,7 +12,8 @@
       ],
       "answer": 0,
       "difficulty": "easy",
-      "explanation": "$\\beta \\propto \\lambda$, so $\\beta' = 0.4\\times\\dfrac{600}{500} = 0.48$ mm."
+      "explanation": "$\\beta \\propto \\lambda$, so $\\beta' = 0.4\\times\\dfrac{600}{500} = 0.48$ mm.",
+      "trick": "$\\beta\\propto\\lambda$: scale the fringe width by the wavelength ratio directly."
     },
     {
       "id": "phy-wave-optics-002",
@@ -25,7 +26,8 @@
       ],
       "answer": 2,
       "difficulty": "easy",
-      "explanation": "$\\beta = \\lambda D/d = (500\\times10^{-9}\\times1)/(1\\times10^{-3}) = 5\\times10^{-4}\\ \\text{m} = 0.5$ mm."
+      "explanation": "$\\beta = \\lambda D/d = (500\\times10^{-9}\\times1)/(1\\times10^{-3}) = 5\\times10^{-4}\\ \\text{m} = 0.5$ mm.",
+      "trick": "$\\beta=\\lambda D/d$ — plug values straight in, no shortcuts needed."
     },
     {
       "id": "phy-wave-optics-003",
@@ -38,7 +40,8 @@
       ],
       "answer": 1,
       "difficulty": "easy",
-      "explanation": "For equal-intensity coherent sources, $I_{min} = (\\sqrt{I_0}-\\sqrt{I_0})^2 = 0$."
+      "explanation": "For equal-intensity coherent sources, $I_{min} = (\\sqrt{I_0}-\\sqrt{I_0})^2 = 0$.",
+      "trick": "Equal-intensity coherent sources: $I_{min}=0$ always at destructive points."
     },
     {
       "id": "phy-wave-optics-004",
@@ -51,7 +54,8 @@
       ],
       "answer": 3,
       "difficulty": "medium",
-      "explanation": "Independent sources emit light with randomly varying phase relationships, so the interference pattern shifts too fast to be observed; only coherent sources (constant phase difference) give a stable fringe pattern."
+      "explanation": "Independent sources emit light with randomly varying phase relationships, so the interference pattern shifts too fast to be observed; only coherent sources (constant phase difference) give a stable fringe pattern.",
+      "trick": "Two separate lamps are incoherent, random phase — no stable fringe pattern."
     },
     {
       "id": "phy-wave-optics-005",
@@ -64,7 +68,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "Wavelength decreases in a denser medium: $\\lambda' = \\lambda/\\mu$, so $\\beta' = \\beta/\\mu$, a decrease by 4/3."
+      "explanation": "Wavelength decreases in a denser medium: $\\lambda' = \\lambda/\\mu$, so $\\beta' = \\beta/\\mu$, a decrease by 4/3.",
+      "trick": "Immersed in a medium: $\\beta'=\\beta/\\mu$ — wavelength shrinks by $\\mu$."
     },
     {
       "id": "phy-wave-optics-006",
@@ -77,7 +82,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "The central maximum extends between the first minima on either side and is twice as wide as any secondary maximum."
+      "explanation": "The central maximum extends between the first minima on either side and is twice as wide as any secondary maximum.",
+      "trick": "Central maximum is always exactly twice as wide as any secondary maximum."
     },
     {
       "id": "phy-wave-optics-007",
@@ -90,7 +96,8 @@
       ],
       "answer": 3,
       "difficulty": "medium",
-      "explanation": "Polariser halves intensity to $I_0/2$; Malus's law then gives $I = (I_0/2)\\cos^2 60^\\circ = (I_0/2)(1/4) = I_0/8$."
+      "explanation": "Polariser halves intensity to $I_0/2$; Malus's law then gives $I = (I_0/2)\\cos^2 60^\\circ = (I_0/2)(1/4) = I_0/8$.",
+      "trick": "Unpolarised light through polariser halves $I_0$, then apply Malus's $\\cos^2\\theta$ for the analyser."
     },
     {
       "id": "phy-wave-optics-008",
@@ -103,7 +110,8 @@
       ],
       "answer": 2,
       "difficulty": "hard",
-      "explanation": "$\\tan i_p = \\mu = 1.5 \\Rightarrow i_p = 56.3^\\circ$. At the polarising angle, reflected and refracted rays are perpendicular, so refraction angle $= 90^\\circ - 56.3^\\circ = 33.7^\\circ$."
+      "explanation": "$\\tan i_p = \\mu = 1.5 \\Rightarrow i_p = 56.3^\\circ$. At the polarising angle, reflected and refracted rays are perpendicular, so refraction angle $= 90^\\circ - 56.3^\\circ = 33.7^\\circ$.",
+      "trick": "At Brewster's angle, refracted ray angle $=90°-i_p$ (reflected ray perpendicular to refracted)."
     },
     {
       "id": "phy-wave-optics-009",
@@ -116,7 +124,8 @@
       ],
       "answer": 0,
       "difficulty": "easy",
-      "explanation": "Water is denser (optically), so light slows down; the part of the wavefront entering water first is retarded more, tilting the wavefront towards the normal, consistent with Snell's law."
+      "explanation": "Water is denser (optically), so light slows down; the part of the wavefront entering water first is retarded more, tilting the wavefront towards the normal, consistent with Snell's law.",
+      "trick": "Slower speed in denser medium bends the wavefront toward the normal (Huygens)."
     },
     {
       "id": "phy-wave-optics-010",
@@ -129,7 +138,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "With only one slit open there is no second coherent source to interfere with, so a single-slit diffraction pattern (broad central maximum with weak secondary maxima) is seen instead of equally spaced interference fringes."
+      "explanation": "With only one slit open there is no second coherent source to interfere with, so a single-slit diffraction pattern (broad central maximum with weak secondary maxima) is seen instead of equally spaced interference fringes.",
+      "trick": "Cover one slit and you lose interference, getting plain single-slit diffraction instead."
     },
     {
       "id": "phy-wave-optics-011",
@@ -142,7 +152,8 @@
       ],
       "answer": 2,
       "difficulty": "easy",
-      "explanation": "Malus's law gives the intensity transmitted by an analyser when plane-polarised light of intensity $I_0$ (already polarised by a first polariser) falls on it at angle $\\theta$ to its axis."
+      "explanation": "Malus's law gives the intensity transmitted by an analyser when plane-polarised light of intensity $I_0$ (already polarised by a first polariser) falls on it at angle $\\theta$ to its axis.",
+      "trick": "Malus's law needs already-polarised light hitting the analyser, not raw unpolarised light."
     },
     {
       "id": "phy-wave-optics-012",
@@ -155,7 +166,8 @@
       ],
       "answer": 3,
       "difficulty": "medium",
-      "explanation": "First minimum: $\\sin\\theta \\approx \\theta = \\lambda/a = (600\\times10^{-9})/(0.3\\times10^{-3}) = 2\\times10^{-3}$ rad."
+      "explanation": "First minimum: $\\sin\\theta \\approx \\theta = \\lambda/a = (600\\times10^{-9})/(0.3\\times10^{-3}) = 2\\times10^{-3}$ rad.",
+      "trick": "Single slit first minimum: $\\theta\\approx\\lambda/a$ (small angle, radians)."
     },
     {
       "id": "phy-wave-optics-013",
@@ -168,7 +180,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "$\\lambda = \\beta d/D = (1\\times10^{-3}\\times0.5\\times10^{-3})/1 = 5\\times10^{-7}\\ \\text{m} = 500$ nm."
+      "explanation": "$\\lambda = \\beta d/D = (1\\times10^{-3}\\times0.5\\times10^{-3})/1 = 5\\times10^{-7}\\ \\text{m} = 500$ nm.",
+      "trick": "Rearrange the fringe formula: $\\lambda=\\beta d/D$ when asked to find wavelength."
     },
     {
       "id": "phy-wave-optics-014",
@@ -181,7 +194,8 @@
       ],
       "answer": 3,
       "difficulty": "medium",
-      "explanation": "Interference, diffraction and polarisation are wave phenomena, well explained by transverse wave theory; the photoelectric effect (instantaneous emission, threshold frequency) needs the quantum/particle nature of light."
+      "explanation": "Interference, diffraction and polarisation are wave phenomena, well explained by transverse wave theory; the photoelectric effect (instantaneous emission, threshold frequency) needs the quantum/particle nature of light.",
+      "trick": "Interference/diffraction/polarisation are wave effects; photoelectric effect needs particles only."
     },
     {
       "id": "phy-wave-optics-015",
@@ -194,7 +208,8 @@
       ],
       "answer": 1,
       "difficulty": "easy",
-      "explanation": "For the $n$th bright fringe, path difference $= n\\lambda$; for $n=3$, it is $3\\lambda$."
+      "explanation": "For the $n$th bright fringe, path difference $= n\\lambda$; for $n=3$, it is $3\\lambda$.",
+      "trick": "The $n$th bright fringe's path difference is simply $n\\lambda$ — read off $n$."
     },
     {
       "id": "phy-wave-optics-016",
@@ -207,7 +222,8 @@
       ],
       "answer": 0,
       "difficulty": "easy",
-      "explanation": "Only transverse waves, whose displacement is perpendicular to propagation, can be polarised. Sound is longitudinal (displacement along propagation), so it has no polarisation."
+      "explanation": "Only transverse waves, whose displacement is perpendicular to propagation, can be polarised. Sound is longitudinal (displacement along propagation), so it has no polarisation.",
+      "trick": "No polarisation for longitudinal waves — sound is out, light (transverse) is in."
     },
     {
       "id": "phy-wave-optics-017",
@@ -220,7 +236,8 @@
       ],
       "answer": 0,
       "difficulty": "hard",
-      "explanation": "For dark fringes, $y_n = (n-\\tfrac12)\\dfrac{\\lambda D}{d}$; 4th dark fringe has $n=4$: $y_4 = 3.5\\times\\dfrac{500\\times10^{-9}\\times2}{2\\times10^{-3}} = 3.5\\times5\\times10^{-4} = 1.75\\times10^{-3}\\ \\text{m} = 1.75$ mm."
+      "explanation": "For dark fringes, $y_n = (n-\\tfrac12)\\dfrac{\\lambda D}{d}$; 4th dark fringe has $n=4$: $y_4 = 3.5\\times\\dfrac{500\\times10^{-9}\\times2}{2\\times10^{-3}} = 3.5\\times5\\times10^{-4} = 1.75\\times10^{-3}\\ \\text{m} = 1.75$ mm.",
+      "trick": "Dark fringe: $y_n=(n-\\tfrac12)\\lambda D/d$ — don't forget the half-integer."
     },
     {
       "id": "phy-wave-optics-018",
@@ -233,7 +250,8 @@
       ],
       "answer": 1,
       "difficulty": "hard",
-      "explanation": "After first polaroid: $I_0/2$. After middle polaroid at 45° to it: $(I_0/2)\\cos^2 45^\\circ = I_0/4$. After analyser at 45° to middle one (90° to first): $(I_0/4)\\cos^2 45^\\circ = I_0/8$."
+      "explanation": "After first polaroid: $I_0/2$. After middle polaroid at 45° to it: $(I_0/2)\\cos^2 45^\\circ = I_0/4$. After analyser at 45° to middle one (90° to first): $(I_0/4)\\cos^2 45^\\circ = I_0/8$.",
+      "trick": "Multiple polaroids: apply Malus's law step-by-step between consecutive axes."
     },
     {
       "id": "phy-wave-optics-019",
@@ -246,7 +264,8 @@
       ],
       "answer": 3,
       "difficulty": "easy",
-      "explanation": "Fringe width $\\beta \\propto \\lambda$. Since violet light has a shorter wavelength than red, the fringe width decreases."
+      "explanation": "Fringe width $\\beta \\propto \\lambda$. Since violet light has a shorter wavelength than red, the fringe width decreases.",
+      "trick": "Violet has shorter $\\lambda$ than red, so fringe width is smaller ($\\beta\\propto\\lambda$)."
     },
     {
       "id": "phy-wave-optics-020",
@@ -259,7 +278,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "$\\beta = \\lambda D/d \\propto D$, so tripling $D$ triples the fringe width."
+      "explanation": "$\\beta = \\lambda D/d \\propto D$, so tripling $D$ triples the fringe width.",
+      "trick": "$\\beta\\propto D$ — whatever multiplies $D$ directly multiplies the fringe width."
     },
     {
       "id": "phy-wave-optics-021",
@@ -272,7 +292,8 @@
       ],
       "answer": 3,
       "difficulty": "medium",
-      "explanation": "Amplitude ratio $\\propto \\sqrt{I}:\\sqrt{4I} = 1:2$. $I_{max}=(1+2)^2=9$ units, $I_{min}=(2-1)^2=1$ unit, giving a ratio of 9:1."
+      "explanation": "Amplitude ratio $\\propto \\sqrt{I}:\\sqrt{4I} = 1:2$. $I_{max}=(1+2)^2=9$ units, $I_{min}=(2-1)^2=1$ unit, giving a ratio of 9:1.",
+      "trick": "$I_{max}:I_{min}=(\\sqrt{I_1}+\\sqrt{I_2})^2:(\\sqrt{I_1}-\\sqrt{I_2})^2$ — use the amplitude ratio."
     },
     {
       "id": "phy-wave-optics-022",
@@ -285,7 +306,8 @@
       ],
       "answer": 2,
       "difficulty": "hard",
-      "explanation": "Number of fringes shifted $n = \\dfrac{(\\mu-1)t}{\\lambda} = \\dfrac{0.5\\times10^{-5}}{5\\times10^{-7}} = 10$."
+      "explanation": "Number of fringes shifted $n = \\dfrac{(\\mu-1)t}{\\lambda} = \\dfrac{0.5\\times10^{-5}}{5\\times10^{-7}} = 10$.",
+      "trick": "Fringe shift from a thin plate: $n=(\\mu-1)t/\\lambda$."
     },
     {
       "id": "phy-wave-optics-023",
@@ -298,7 +320,8 @@
       ],
       "answer": 1,
       "difficulty": "easy",
-      "explanation": "Optical path length $= \\mu t = 1.5\\times3 = 4.5$ mm."
+      "explanation": "Optical path length $= \\mu t = 1.5\\times3 = 4.5$ mm.",
+      "trick": "Optical path length $=\\mu\\times$ geometric thickness — a simple multiply."
     },
     {
       "id": "phy-wave-optics-024",
@@ -311,7 +334,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "Coherent sources must have identical frequency and a phase difference that does not change with time, so that a stable interference pattern can be observed."
+      "explanation": "Coherent sources must have identical frequency and a phase difference that does not change with time, so that a stable interference pattern can be observed.",
+      "trick": "Coherence needs BOTH same frequency AND constant phase difference, not just one."
     },
     {
       "id": "phy-wave-optics-025",
@@ -324,7 +348,8 @@
       ],
       "answer": 2,
       "difficulty": "easy",
-      "explanation": "Only sources derived from the same original wavefront (as in YDSE, by division of wavefront) maintain a constant phase relationship and are coherent; independent sources are never coherent."
+      "explanation": "Only sources derived from the same original wavefront (as in YDSE, by division of wavefront) maintain a constant phase relationship and are coherent; independent sources are never coherent.",
+      "trick": "Only division-of-wavefront sources (same origin) stay coherent — independent ones never do."
     },
     {
       "id": "phy-wave-optics-026",
@@ -337,7 +362,8 @@
       ],
       "answer": 3,
       "difficulty": "medium",
-      "explanation": "Width of central maximum $= \\dfrac{2\\lambda D}{a} = \\dfrac{2\\times600\\times10^{-9}\\times1}{0.2\\times10^{-3}} = 6\\times10^{-3}$ m $= 6$ mm."
+      "explanation": "Width of central maximum $= \\dfrac{2\\lambda D}{a} = \\dfrac{2\\times600\\times10^{-9}\\times1}{0.2\\times10^{-3}} = 6\\times10^{-3}$ m $= 6$ mm.",
+      "trick": "Central maximum width $=2\\lambda D/a$ — double the single-side angular spread."
     },
     {
       "id": "phy-wave-optics-027",
@@ -350,7 +376,8 @@
       ],
       "answer": 0,
       "difficulty": "easy",
-      "explanation": "Applying Huygens' principle to a plane wavefront striking a reflecting surface and constructing the envelope of secondary wavelets geometrically gives the law of reflection."
+      "explanation": "Applying Huygens' principle to a plane wavefront striking a reflecting surface and constructing the envelope of secondary wavelets geometrically gives the law of reflection.",
+      "trick": "Huygens' wavelet-envelope geometry directly derives $i=r$ for reflection."
     },
     {
       "id": "phy-wave-optics-028",
@@ -363,7 +390,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "Sunlight scattered by air molecules (Rayleigh scattering) becomes partially polarised; this is why polarising sunglasses/filters can reduce skylight glare."
+      "explanation": "Sunlight scattered by air molecules (Rayleigh scattering) becomes partially polarised; this is why polarising sunglasses/filters can reduce skylight glare.",
+      "trick": "Scattered skylight is partially polarised — that's why polarising filters cut sky glare."
     },
     {
       "id": "phy-wave-optics-029",
@@ -376,7 +404,8 @@
       ],
       "answer": 3,
       "difficulty": "easy",
-      "explanation": "A point source emits light equally in all directions, so surfaces of constant phase (wavefronts) are spheres centred on the source."
+      "explanation": "A point source emits light equally in all directions, so surfaces of constant phase (wavefronts) are spheres centred on the source.",
+      "trick": "A point source always gives spherical wavefronts (equal path in all directions)."
     },
     {
       "id": "phy-wave-optics-030",
@@ -389,7 +418,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "As the radius of a spherical wavefront becomes very large, a small region of it appears essentially flat, i.e. a plane wavefront."
+      "explanation": "As the radius of a spherical wavefront becomes very large, a small region of it appears essentially flat, i.e. a plane wavefront.",
+      "trick": "Far-away source plus small aperture makes the wavefront look locally plane."
     },
     {
       "id": "phy-wave-optics-031",
@@ -402,7 +432,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "$y_n = \\dfrac{n\\lambda D}{d} = \\dfrac{5\\times600\\times10^{-9}\\times1.5}{0.5\\times10^{-3}} = 9\\times10^{-3}\\ \\text{m} = 9$ mm."
+      "explanation": "$y_n = \\dfrac{n\\lambda D}{d} = \\dfrac{5\\times600\\times10^{-9}\\times1.5}{0.5\\times10^{-3}} = 9\\times10^{-3}\\ \\text{m} = 9$ mm.",
+      "trick": "Bright fringe position: $y_n=n\\lambda D/d$ — plug in the fringe number $n$ directly."
     },
     {
       "id": "phy-wave-optics-032",
@@ -415,7 +446,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "Small $d$ and large $D$ give a large, easily observable fringe width $\\beta = \\lambda D/d$; also, closely spaced sources are easier to keep coherent."
+      "explanation": "Small $d$ and large $D$ give a large, easily observable fringe width $\\beta = \\lambda D/d$; also, closely spaced sources are easier to keep coherent.",
+      "trick": "Good fringes need small $d$ (close sources) and large $D$ (far screen)."
     },
     {
       "id": "phy-wave-optics-033",
@@ -428,7 +460,8 @@
       ],
       "answer": 2,
       "difficulty": "easy",
-      "explanation": "An ideal polaroid transmits only the component of unpolarised light along its axis, which on averaging over all orientations gives exactly half the incident intensity."
+      "explanation": "An ideal polaroid transmits only the component of unpolarised light along its axis, which on averaging over all orientations gives exactly half the incident intensity.",
+      "trick": "A single ideal polaroid always halves unpolarised intensity, ignoring absorption."
     },
     {
       "id": "phy-wave-optics-034",
@@ -441,7 +474,8 @@
       ],
       "answer": 3,
       "difficulty": "medium",
-      "explanation": "Since the middle polaroid's axis is parallel to the first, it does not change the light's polarisation direction; that light then meets the second polaroid at 90° and is fully blocked, giving zero intensity."
+      "explanation": "Since the middle polaroid's axis is parallel to the first, it does not change the light's polarisation direction; that light then meets the second polaroid at 90° and is fully blocked, giving zero intensity.",
+      "trick": "Middle polaroid parallel to the first changes nothing — crossed pair still blocks all light."
     },
     {
       "id": "phy-wave-optics-035",
@@ -454,7 +488,8 @@
       ],
       "answer": 0,
       "difficulty": "hard",
-      "explanation": "First minimum: $a\\sin\\theta = \\lambda \\Rightarrow a = \\lambda/\\sin30^\\circ = 600/0.5 = 1200$ nm."
+      "explanation": "First minimum: $a\\sin\\theta = \\lambda \\Rightarrow a = \\lambda/\\sin30^\\circ = 600/0.5 = 1200$ nm.",
+      "trick": "$a\\sin\\theta=\\lambda$ at first minimum — rearrange for the slit width $a$."
     },
     {
       "id": "phy-wave-optics-036",
@@ -467,7 +502,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "Secondary maxima are much fainter than the central maximum and decrease rapidly in intensity further out, so the statement that they are equally bright is incorrect."
+      "explanation": "Secondary maxima are much fainter than the central maximum and decrease rapidly in intensity further out, so the statement that they are equally bright is incorrect.",
+      "trick": "Secondary maxima are NOT equal in brightness to the central maximum — key trap."
     },
     {
       "id": "phy-wave-optics-037",
@@ -480,7 +516,8 @@
       ],
       "answer": 3,
       "difficulty": "easy",
-      "explanation": "At the centre, the path difference is zero for every wavelength, so all colours reinforce to give a white central fringe; fringes of different colours appear on either side since fringe width depends on $\\lambda$."
+      "explanation": "At the centre, the path difference is zero for every wavelength, so all colours reinforce to give a white central fringe; fringes of different colours appear on either side since fringe width depends on $\\lambda$.",
+      "trick": "Zero path difference works for all colours at once, so the centre fringe is white."
     },
     {
       "id": "phy-wave-optics-038",
@@ -493,7 +530,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "Away from the centre, bright and dark fringes of different wavelengths no longer coincide and overlap to give nearly uniform illumination, washing out the fringe pattern."
+      "explanation": "Away from the centre, bright and dark fringes of different wavelengths no longer coincide and overlap to give nearly uniform illumination, washing out the fringe pattern.",
+      "trick": "Fringes wash out away from centre as different-wavelength patterns overlap (white light)."
     },
     {
       "id": "phy-wave-optics-039",
@@ -506,7 +544,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "Width of central maximum $\\propto 1/a$; halving the slit width $a$ doubles the width of the central maximum."
+      "explanation": "Width of central maximum $\\propto 1/a$; halving the slit width $a$ doubles the width of the central maximum.",
+      "trick": "Central maximum width $\\propto1/a$ — halve the slit width, double the width."
     },
     {
       "id": "phy-wave-optics-040",
@@ -519,7 +558,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "By Brewster's law, $\\tan i_p = \\mu = \\sqrt{3} \\Rightarrow i_p = 60^\\circ$."
+      "explanation": "By Brewster's law, $\\tan i_p = \\mu = \\sqrt{3} \\Rightarrow i_p = 60^\\circ$.",
+      "trick": "$\\tan i_p=\\mu$; $\\mu=\\sqrt3$ is the classic $60°$ Brewster-angle case."
     }
   ]
 }

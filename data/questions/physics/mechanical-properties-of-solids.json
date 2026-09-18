@@ -12,7 +12,8 @@
       ],
       "answer": 0,
       "difficulty": "easy",
-      "explanation": "Stress $= F/A$, so its unit is N m$^{-2}$, which is the pascal (Pa)."
+      "explanation": "Stress $= F/A$, so its unit is N m$^{-2}$, which is the pascal (Pa).",
+      "trick": "Stress $=F/A$, unit N m$^{-2}$ $=$ pascal directly."
     },
     {
       "id": "phy-mechanical-properties-of-solids-002",
@@ -25,7 +26,8 @@
       ],
       "answer": 3,
       "difficulty": "easy",
-      "explanation": "Strain is a ratio of two like quantities (e.g. $\\Delta L/L$), so all units cancel and it is dimensionless."
+      "explanation": "Strain is a ratio of two like quantities (e.g. $\\Delta L/L$), so all units cancel and it is dimensionless.",
+      "trick": "Ratio of two like quantities cancels units $\\Rightarrow$ strain is dimensionless."
     },
     {
       "id": "phy-mechanical-properties-of-solids-003",
@@ -38,7 +40,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "$Y = \\dfrac{FL}{A\\Delta L} = \\dfrac{100\\times1}{(1\\times10^{-6})(5\\times10^{-4})} = \\dfrac{100}{5\\times10^{-10}} = 2\\times10^{11}$ Pa."
+      "explanation": "$Y = \\dfrac{FL}{A\\Delta L} = \\dfrac{100\\times1}{(1\\times10^{-6})(5\\times10^{-4})} = \\dfrac{100}{5\\times10^{-10}} = 2\\times10^{11}$ Pa.",
+      "trick": "$Y=FL/(A\\Delta L)$: plug values, watch mm$^2\\to$m$^2$ and mm$\\to$m conversions."
     },
     {
       "id": "phy-mechanical-properties-of-solids-004",
@@ -51,7 +54,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "$\\Delta L = \\dfrac{FL}{AY} = \\dfrac{100\\times2}{(1\\times10^{-6})(2\\times10^{11})} = \\dfrac{200}{2\\times10^{5}} = 1\\times10^{-3}$ m = 1 mm."
+      "explanation": "$\\Delta L = \\dfrac{FL}{AY} = \\dfrac{100\\times2}{(1\\times10^{-6})(2\\times10^{11})} = \\dfrac{200}{2\\times10^{5}} = 1\\times10^{-3}$ m = 1 mm.",
+      "trick": "$\\Delta L=FL/(AY)$ — direct substitution, no need to find $Y$ separately."
     },
     {
       "id": "phy-mechanical-properties-of-solids-005",
@@ -64,7 +68,8 @@
       ],
       "answer": 1,
       "difficulty": "hard",
-      "explanation": "$\\Delta L = FL/(AY) \\propto L$ for fixed $F, A, Y$, so the elongations are in the ratio $L:2L = 1:2$."
+      "explanation": "$\\Delta L = FL/(AY) \\propto L$ for fixed $F, A, Y$, so the elongations are in the ratio $L:2L = 1:2$.",
+      "trick": "$\\Delta L\\propto L$ for same $F,A,Y$ — ratio equals length ratio."
     },
     {
       "id": "phy-mechanical-properties-of-solids-006",
@@ -77,7 +82,8 @@
       ],
       "answer": 0,
       "difficulty": "hard",
-      "explanation": "$\\Delta L \\propto 1/A \\propto 1/r^2$. Ratio $= (2r)^2 : r^2 = 4:1$ for thinner to thicker."
+      "explanation": "$\\Delta L \\propto 1/A \\propto 1/r^2$. Ratio $= (2r)^2 : r^2 = 4:1$ for thinner to thicker.",
+      "trick": "$\\Delta L\\propto1/r^2$ — thinner wire stretches more, ratio $=(r_2/r_1)^2$."
     },
     {
       "id": "phy-mechanical-properties-of-solids-007",
@@ -90,7 +96,8 @@
       ],
       "answer": 2,
       "difficulty": "hard",
-      "explanation": "Energy density $= \\frac12\\times\\text{stress}\\times\\text{strain} = \\frac12\\times10^8\\times10^{-3} = 5\\times10^4$ J m$^{-3}$."
+      "explanation": "Energy density $= \\frac12\\times\\text{stress}\\times\\text{strain} = \\frac12\\times10^8\\times10^{-3} = 5\\times10^4$ J m$^{-3}$.",
+      "trick": "Energy density $=\\frac12\\times$stress$\\times$strain — half, don't forget the $\\frac12$."
     },
     {
       "id": "phy-mechanical-properties-of-solids-008",
@@ -103,7 +110,8 @@
       ],
       "answer": 3,
       "difficulty": "easy",
-      "explanation": "Compressibility is defined as $1/K$, where $K$ is the bulk modulus."
+      "explanation": "Compressibility is defined as $1/K$, where $K$ is the bulk modulus.",
+      "trick": "Compressibility $=1/K$; recall it as bulk modulus's reciprocal."
     },
     {
       "id": "phy-mechanical-properties-of-solids-009",
@@ -116,7 +124,8 @@
       ],
       "answer": 1,
       "difficulty": "easy",
-      "explanation": "Experimentally, Poisson's ratio for common metals and alloys is usually in the range 0.2 to 0.4 (theoretical limits are $-1$ to $0.5$)."
+      "explanation": "Experimentally, Poisson's ratio for common metals and alloys is usually in the range 0.2 to 0.4 (theoretical limits are $-1$ to $0.5$).",
+      "trick": "Memorise: real materials' $\\sigma\\approx0.2$&ndash;$0.4$, theoretical cap 0.5."
     },
     {
       "id": "phy-mechanical-properties-of-solids-010",
@@ -129,7 +138,8 @@
       ],
       "answer": 2,
       "difficulty": "easy",
-      "explanation": "Hooke's law (stress $\\propto$ strain) holds only up to the proportional limit; beyond it the curve is no longer linear."
+      "explanation": "Hooke's law (stress $\\propto$ strain) holds only up to the proportional limit; beyond it the curve is no longer linear.",
+      "trick": "Proportional limit = where stress-strain graph is still a straight line."
     },
     {
       "id": "phy-mechanical-properties-of-solids-011",
@@ -142,7 +152,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "Elasticity is measured by how strongly a material resists deformation; smaller strain for the same stress means a higher $Y = \\text{stress/strain}$, i.e. steel is more elastic."
+      "explanation": "Elasticity is measured by how strongly a material resists deformation; smaller strain for the same stress means a higher $Y = \\text{stress/strain}$, i.e. steel is more elastic.",
+      "trick": "Less strain for same stress $\\Rightarrow$ higher $Y=$stress/strain $\\Rightarrow$ more elastic."
     },
     {
       "id": "phy-mechanical-properties-of-solids-012",
@@ -155,7 +166,8 @@
       ],
       "answer": 3,
       "difficulty": "medium",
-      "explanation": "Only solids can sustain a shearing (tangential) stress without continuously deforming; liquids and gases flow instead, so shear modulus is not defined for them."
+      "explanation": "Only solids can sustain a shearing (tangential) stress without continuously deforming; liquids and gases flow instead, so shear modulus is not defined for them.",
+      "trick": "Shear needs a fixed shape to resist sliding $\\Rightarrow$ solids only."
     },
     {
       "id": "phy-mechanical-properties-of-solids-013",
@@ -168,7 +180,8 @@
       ],
       "answer": 1,
       "difficulty": "easy",
-      "explanation": "Volume (hydraulic) stress can be applied to any state of matter, so bulk modulus is defined for solids, liquids and gases."
+      "explanation": "Volume (hydraulic) stress can be applied to any state of matter, so bulk modulus is defined for solids, liquids and gases.",
+      "trick": "Bulk modulus works wherever volume can be squeezed: solids, liquids, gases."
     },
     {
       "id": "phy-mechanical-properties-of-solids-014",
@@ -181,7 +194,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "Beyond the elastic limit the material behaves plastically, so some permanent deformation remains even after the load is removed."
+      "explanation": "Beyond the elastic limit the material behaves plastically, so some permanent deformation remains even after the load is removed.",
+      "trick": "Past elastic limit $\\Rightarrow$ permanent (plastic) set remains on unloading."
     },
     {
       "id": "phy-mechanical-properties-of-solids-015",
@@ -194,7 +208,8 @@
       ],
       "answer": 3,
       "difficulty": "medium",
-      "explanation": "$W = \\frac12F\\Delta L = \\frac12\\times200\\times0.002 = 0.2$ J."
+      "explanation": "$W = \\frac12F\\Delta L = \\frac12\\times200\\times0.002 = 0.2$ J.",
+      "trick": "Linear force build-up $\\Rightarrow$ $W=\\frac12F\\Delta L$ (area of force-extension triangle)."
     },
     {
       "id": "phy-mechanical-properties-of-solids-016",
@@ -207,7 +222,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "Only solids can sustain the tensile and shearing stresses used to define Young's modulus and shear modulus."
+      "explanation": "Only solids can sustain the tensile and shearing stresses used to define Young's modulus and shear modulus.",
+      "trick": "Tensile and shear stresses need rigidity $\\Rightarrow$ $Y,G$ defined for solids only."
     },
     {
       "id": "phy-mechanical-properties-of-solids-017",
@@ -220,7 +236,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "Strain $= \\text{stress}/Y$ depends only on the material's Young's modulus and the applied stress, not on the length of the rod, so both rods have equal strain."
+      "explanation": "Strain $= \\text{stress}/Y$ depends only on the material's Young's modulus and the applied stress, not on the length of the rod, so both rods have equal strain.",
+      "trick": "Strain $=$ stress$/Y$ — no length or area dependence at all."
     },
     {
       "id": "phy-mechanical-properties-of-solids-018",
@@ -233,7 +250,8 @@
       ],
       "answer": 3,
       "difficulty": "easy",
-      "explanation": "This is precisely the definition of the elastic limit; stresses beyond it cause permanent (plastic) deformation."
+      "explanation": "This is precisely the definition of the elastic limit; stresses beyond it cause permanent (plastic) deformation.",
+      "trick": "\"Returns exactly, still recoverable\" is the textbook definition of elastic limit."
     },
     {
       "id": "phy-mechanical-properties-of-solids-019",
@@ -246,7 +264,8 @@
       ],
       "answer": 2,
       "difficulty": "easy",
-      "explanation": "Increasing temperature generally weakens interatomic bonding forces, reducing the material's stiffness, so Young's modulus decreases with rising temperature for most metals."
+      "explanation": "Increasing temperature generally weakens interatomic bonding forces, reducing the material's stiffness, so Young's modulus decreases with rising temperature for most metals.",
+      "trick": "Heat weakens interatomic bonds $\\Rightarrow$ $Y$ falls as temperature rises."
     },
     {
       "id": "phy-mechanical-properties-of-solids-020",
@@ -259,7 +278,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "In series, both wires carry the same load $F$; total elongation = sum of individual elongations = $\\dfrac{FL_1}{AY}+\\dfrac{FL_2}{AY}=\\dfrac{F(L_1+L_2)}{AY}$."
+      "explanation": "In series, both wires carry the same load $F$; total elongation = sum of individual elongations = $\\dfrac{FL_1}{AY}+\\dfrac{FL_2}{AY}=\\dfrac{F(L_1+L_2)}{AY}$.",
+      "trick": "Series wires: same $F$ in each, elongations add $\\Rightarrow \\Delta L\\propto(L_1+L_2)$."
     },
     {
       "id": "phy-mechanical-properties-of-solids-021",
@@ -272,7 +292,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "With $\\Delta L = FL/(AY)$ and equal $L,Y,\\Delta L$ for both wires, $F\\propto A$; the wire with the larger area bears proportionally more load."
+      "explanation": "With $\\Delta L = FL/(AY)$ and equal $L,Y,\\Delta L$ for both wires, $F\\propto A$; the wire with the larger area bears proportionally more load.",
+      "trick": "Parallel wires: equal $\\Delta L$ forces $F\\propto A$ (same $L,Y$)."
     },
     {
       "id": "phy-mechanical-properties-of-solids-022",
@@ -285,7 +306,8 @@
       ],
       "answer": 3,
       "difficulty": "hard",
-      "explanation": "$Y=3K(1-2\\sigma)=3\\times1.6\\times10^{11}\\times(1-0.5)=2.4\\times10^{11}$ Pa."
+      "explanation": "$Y=3K(1-2\\sigma)=3\\times1.6\\times10^{11}\\times(1-0.5)=2.4\\times10^{11}$ Pa.",
+      "trick": "Recall $Y=3K(1-2\\sigma)$ — a direct plug-in relation between moduli."
     },
     {
       "id": "phy-mechanical-properties-of-solids-023",
@@ -298,7 +320,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "$G=\\dfrac{Y}{2(1+\\sigma)}=\\dfrac{2\\times10^{11}}{2\\times1.25}=8\\times10^{10}$ Pa."
+      "explanation": "$G=\\dfrac{Y}{2(1+\\sigma)}=\\dfrac{2\\times10^{11}}{2\\times1.25}=8\\times10^{10}$ Pa.",
+      "trick": "Recall $G=Y/[2(1+\\sigma)]$ — the other modulus-linking formula."
     },
     {
       "id": "phy-mechanical-properties-of-solids-024",
@@ -311,7 +334,8 @@
       ],
       "answer": 2,
       "difficulty": "easy",
-      "explanation": "Repeated stress cycling weakens a material's elastic response over time even though each load stays within the elastic limit — this is elastic fatigue, important in the design of bridges and machine parts under cyclic loads."
+      "explanation": "Repeated stress cycling weakens a material's elastic response over time even though each load stays within the elastic limit — this is elastic fatigue, important in the design of bridges and machine parts under cyclic loads.",
+      "trick": "Repeated elastic-limit cycling weakening the material = elastic fatigue, not creep."
     },
     {
       "id": "phy-mechanical-properties-of-solids-025",
@@ -324,7 +348,8 @@
       ],
       "answer": 3,
       "difficulty": "easy",
-      "explanation": "Breaking stress is an intrinsic property of the material and does not depend on the sample's dimensions; only the breaking force ($=$ breaking stress $\\times$ area) depends on the cross-sectional area."
+      "explanation": "Breaking stress is an intrinsic property of the material and does not depend on the sample's dimensions; only the breaking force ($=$ breaking stress $\\times$ area) depends on the cross-sectional area.",
+      "trick": "Breaking stress is a material constant; only breaking force scales with area."
     },
     {
       "id": "phy-mechanical-properties-of-solids-026",
@@ -337,7 +362,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "Energy density $=\\frac12\\times\\text{stress}\\times\\text{strain}=\\frac12\\times10^8\\times10^{-3}=5\\times10^4$ J m$^{-3}$; total energy $=5\\times10^4\\times2\\times10^{-6}=0.1$ J."
+      "explanation": "Energy density $=\\frac12\\times\\text{stress}\\times\\text{strain}=\\frac12\\times10^8\\times10^{-3}=5\\times10^4$ J m$^{-3}$; total energy $=5\\times10^4\\times2\\times10^{-6}=0.1$ J.",
+      "trick": "Total PE $=$ energy density $\\times$ volume — multiply the $\\frac12$stress$\\cdot$strain result."
     },
     {
       "id": "phy-mechanical-properties-of-solids-027",
@@ -350,7 +376,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "Ductile materials undergo considerable plastic deformation (elongation, necking) before breaking, unlike brittle materials, which fracture soon after the elastic limit with little plastic flow."
+      "explanation": "Ductile materials undergo considerable plastic deformation (elongation, necking) before breaking, unlike brittle materials, which fracture soon after the elastic limit with little plastic flow.",
+      "trick": "Ductile = long plastic stretch before break; brittle snaps soon after yield."
     },
     {
       "id": "phy-mechanical-properties-of-solids-028",
@@ -363,7 +390,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "The hysteresis loop's area equals the energy dissipated per cycle as heat, which is exactly the damping behaviour desired in shock absorbers and vibration mounts."
+      "explanation": "The hysteresis loop's area equals the energy dissipated per cycle as heat, which is exactly the damping behaviour desired in shock absorbers and vibration mounts.",
+      "trick": "Hysteresis loop area $=$ heat dissipated per cycle $\\Rightarrow$ ideal for dampers."
     },
     {
       "id": "phy-mechanical-properties-of-solids-029",
@@ -376,7 +404,8 @@
       ],
       "answer": 0,
       "difficulty": "hard",
-      "explanation": "Since the length is fixed, the strain that would otherwise occur is entirely converted to stress: thermal stress $=Y\\alpha\\Delta T = 2\\times10^{11}\\times1.2\\times10^{-5}\\times50 = 1.2\\times10^8$ Pa."
+      "explanation": "Since the length is fixed, the strain that would otherwise occur is entirely converted to stress: thermal stress $=Y\\alpha\\Delta T = 2\\times10^{11}\\times1.2\\times10^{-5}\\times50 = 1.2\\times10^8$ Pa.",
+      "trick": "Clamped ends: thermal stress $=Y\\alpha\\Delta T$, strain fully converts to stress."
     },
     {
       "id": "phy-mechanical-properties-of-solids-030",
@@ -389,7 +418,8 @@
       ],
       "answer": 3,
       "difficulty": "easy",
-      "explanation": "Steel is stiffer (Y $\\approx 2\\times10^{11}$ Pa) than copper ($\\approx1.1\\times10^{11}$ Pa), and both are far stiffer than rubber (Y of order $10^6$ Pa)."
+      "explanation": "Steel is stiffer (Y $\\approx 2\\times10^{11}$ Pa) than copper ($\\approx1.1\\times10^{11}$ Pa), and both are far stiffer than rubber (Y of order $10^6$ Pa).",
+      "trick": "Stiffness order: steel $\\gg$ copper $\\gg$ rubber (rubber's $Y\\sim10^6$ Pa)."
     },
     {
       "id": "phy-mechanical-properties-of-solids-031",
@@ -402,7 +432,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "Volumetric strain $=\\Delta P/K = (2\\times10^6)/(2\\times10^{10}) = 1\\times10^{-4}$."
+      "explanation": "Volumetric strain $=\\Delta P/K = (2\\times10^6)/(2\\times10^{10}) = 1\\times10^{-4}$.",
+      "trick": "Volumetric strain $=\\Delta P/K$ — direct substitution gives fractional decrease."
     },
     {
       "id": "phy-mechanical-properties-of-solids-032",
@@ -415,7 +446,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "$F=mg=80$ N. $\\Delta L=\\dfrac{FL}{AY}=\\dfrac{80\\times2.5}{0.5\\times10^{-6}\\times2\\times10^{11}}=\\dfrac{200}{1\\times10^{5}}=2\\times10^{-3}$ m $=2$ mm."
+      "explanation": "$F=mg=80$ N. $\\Delta L=\\dfrac{FL}{AY}=\\dfrac{80\\times2.5}{0.5\\times10^{-6}\\times2\\times10^{11}}=\\dfrac{200}{1\\times10^{5}}=2\\times10^{-3}$ m $=2$ mm.",
+      "trick": "$\\Delta L=FL/(AY)$ with $F=mg$ — convert mm$^2$ area to m$^2$ first."
     },
     {
       "id": "phy-mechanical-properties-of-solids-033",
@@ -428,7 +460,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "$\\Delta L \\propto 1/Y$ for fixed $F,L,A$; since $Y_1=2Y_2$, $\\Delta L_1:\\Delta L_2 = Y_2:Y_1 = 1:2$."
+      "explanation": "$\\Delta L \\propto 1/Y$ for fixed $F,L,A$; since $Y_1=2Y_2$, $\\Delta L_1:\\Delta L_2 = Y_2:Y_1 = 1:2$.",
+      "trick": "$\\Delta L\\propto1/Y$ for same $F,L,A$ — stiffer material stretches less."
     },
     {
       "id": "phy-mechanical-properties-of-solids-034",
@@ -441,7 +474,8 @@
       ],
       "answer": 3,
       "difficulty": "easy",
-      "explanation": "Stretching a wire displaces its atoms from their equilibrium separations; the work done against the interatomic restoring forces is stored as elastic potential energy, recoverable when the load is removed."
+      "explanation": "Stretching a wire displaces its atoms from their equilibrium separations; the work done against the interatomic restoring forces is stored as elastic potential energy, recoverable when the load is removed.",
+      "trick": "Elastic PE = work done against interatomic restoring forces on stretching."
     },
     {
       "id": "phy-mechanical-properties-of-solids-035",
@@ -454,7 +488,8 @@
       ],
       "answer": 2,
       "difficulty": "hard",
-      "explanation": "$K=\\dfrac{\\Delta P}{\\Delta V/V}=\\dfrac{4\\times10^6}{2\\times10^{-4}}=2\\times10^{10}$ Pa."
+      "explanation": "$K=\\dfrac{\\Delta P}{\\Delta V/V}=\\dfrac{4\\times10^6}{2\\times10^{-4}}=2\\times10^{10}$ Pa.",
+      "trick": "$K=\\Delta P/(\\Delta V/V)$ — convert the percentage to a fraction first."
     },
     {
       "id": "phy-mechanical-properties-of-solids-036",
@@ -467,7 +502,8 @@
       ],
       "answer": 0,
       "difficulty": "easy",
-      "explanation": "Up to the elastic limit (which lies slightly beyond the proportional limit for many materials), the deformation is fully recoverable even though the stress-strain relation is no longer linear in this small intermediate region."
+      "explanation": "Up to the elastic limit (which lies slightly beyond the proportional limit for many materials), the deformation is fully recoverable even though the stress-strain relation is no longer linear in this small intermediate region.",
+      "trick": "Between proportional and elastic limits: nonlinear but still fully recoverable."
     },
     {
       "id": "phy-mechanical-properties-of-solids-037",
@@ -480,7 +516,8 @@
       ],
       "answer": 3,
       "difficulty": "hard",
-      "explanation": "$\\Delta L \\propto L/r^2$. $\\dfrac{\\Delta L_A}{\\Delta L_B}=\\dfrac{L_A/r_A^2}{L_B/r_B^2}=\\dfrac{1/4}{2}=\\dfrac18$, i.e. $1:8$."
+      "explanation": "$\\Delta L \\propto L/r^2$. $\\dfrac{\\Delta L_A}{\\Delta L_B}=\\dfrac{L_A/r_A^2}{L_B/r_B^2}=\\dfrac{1/4}{2}=\\dfrac18$, i.e. $1:8$.",
+      "trick": "$\\Delta L\\propto L/r^2$ — combine both ratios, radius squared dominates."
     },
     {
       "id": "phy-mechanical-properties-of-solids-038",
@@ -493,7 +530,8 @@
       ],
       "answer": 1,
       "difficulty": "easy",
-      "explanation": "A liquid cannot sustain a static shearing stress (it flows), so its shear modulus is zero, but it strongly resists a uniform change in volume, so its bulk modulus is finite and generally large."
+      "explanation": "A liquid cannot sustain a static shearing stress (it flows), so its shear modulus is zero, but it strongly resists a uniform change in volume, so its bulk modulus is finite and generally large.",
+      "trick": "Liquids: zero shear modulus (flows), but finite, large bulk modulus."
     },
     {
       "id": "phy-mechanical-properties-of-solids-039",
@@ -506,7 +544,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "Strain $=\\text{stress}/Y$ is fixed once the stress and material are fixed, independent of the sample's length or area. The other statements are false: Poisson's ratio for real materials is theoretically capped at 0.5, bulk modulus applies to solids, liquids and gases, and liquids at rest cannot sustain shear stress."
+      "explanation": "Strain $=\\text{stress}/Y$ is fixed once the stress and material are fixed, independent of the sample's length or area. The other statements are false: Poisson's ratio for real materials is theoretically capped at 0.5, bulk modulus applies to solids, liquids and gases, and liquids at rest cannot sustain shear stress.",
+      "trick": "Eliminate the wrong absolutes; strain depending only on stress/$Y$ is the true one."
     },
     {
       "id": "phy-mechanical-properties-of-solids-040",
@@ -519,7 +558,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "Beyond the yield point, the material deforms plastically with large increases in strain for only small increases in stress, until it reaches the ultimate tensile strength and eventually fractures."
+      "explanation": "Beyond the yield point, the material deforms plastically with large increases in strain for only small increases in stress, until it reaches the ultimate tensile strength and eventually fractures.",
+      "trick": "Big strain jump for tiny stress rise right after yield = plastic region."
     }
   ]
 }

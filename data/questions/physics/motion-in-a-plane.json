@@ -12,7 +12,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "For equal vectors, $R = 2A\\cos(\\theta/2) = 2\\times5\\times\\cos30^\\circ = 10\\times\\dfrac{\\sqrt3}{2} = 5\\sqrt3$ N."
+      "explanation": "For equal vectors, $R = 2A\\cos(\\theta/2) = 2\\times5\\times\\cos30^\\circ = 10\\times\\dfrac{\\sqrt3}{2} = 5\\sqrt3$ N.",
+      "trick": "Equal vectors: $R=2A\\cos(\\theta/2)$."
     },
     {
       "id": "phy-motion-in-a-plane-002",
@@ -25,7 +26,8 @@
       ],
       "answer": 0,
       "difficulty": "easy",
-      "explanation": "$R = \\sqrt{3^2+4^2} = \\sqrt{25} = 5$ units (Pythagoras, since $\\theta=90^\\circ$)."
+      "explanation": "$R = \\sqrt{3^2+4^2} = \\sqrt{25} = 5$ units (Pythagoras, since $\\theta=90^\\circ$).",
+      "trick": "Perpendicular vectors → Pythagoras: $R=\\sqrt{A^2+B^2}$."
     },
     {
       "id": "phy-motion-in-a-plane-003",
@@ -38,7 +40,8 @@
       ],
       "answer": 2,
       "difficulty": "easy",
-      "explanation": "$R = \\sqrt{P^2+Q^2+2PQ\\cos\\theta}$ is largest when $\\cos\\theta = 1$, i.e. $\\theta = 0^\\circ$, giving $R = P+Q$."
+      "explanation": "$R = \\sqrt{P^2+Q^2+2PQ\\cos\\theta}$ is largest when $\\cos\\theta = 1$, i.e. $\\theta = 0^\\circ$, giving $R = P+Q$.",
+      "trick": "Resultant is max at $\\theta=0^\\circ$: $R=P+Q$."
     },
     {
       "id": "phy-motion-in-a-plane-004",
@@ -51,7 +54,8 @@
       ],
       "answer": 3,
       "difficulty": "easy",
-      "explanation": "$\\cos\\theta = -1$ at $\\theta=180^\\circ$ gives the smallest resultant, $R = |P-Q|$."
+      "explanation": "$\\cos\\theta = -1$ at $\\theta=180^\\circ$ gives the smallest resultant, $R = |P-Q|$.",
+      "trick": "Resultant is min at $\\theta=180^\\circ$: $R=|P-Q|$."
     },
     {
       "id": "phy-motion-in-a-plane-005",
@@ -64,7 +68,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "$A_y = A\\sin\\theta = 10\\times\\sin30^\\circ = 10\\times0.5 = 5$ units."
+      "explanation": "$A_y = A\\sin\\theta = 10\\times\\sin30^\\circ = 10\\times0.5 = 5$ units.",
+      "trick": "y-component $=A\\sin\\theta$; x-component $=A\\cos\\theta$."
     },
     {
       "id": "phy-motion-in-a-plane-006",
@@ -77,7 +82,8 @@
       ],
       "answer": 2,
       "difficulty": "easy",
-      "explanation": "$\\cos\\theta = \\dfrac{\\vec A\\cdot\\vec B}{AB} = \\dfrac{6}{12} = 0.5 \\Rightarrow \\theta = 60^\\circ$."
+      "explanation": "$\\cos\\theta = \\dfrac{\\vec A\\cdot\\vec B}{AB} = \\dfrac{6}{12} = 0.5 \\Rightarrow \\theta = 60^\\circ$.",
+      "trick": "$\\cos\\theta=\\vec A\\cdot\\vec B/(AB)$ — solve for $\\theta$."
     },
     {
       "id": "phy-motion-in-a-plane-007",
@@ -90,7 +96,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "$|\\vec A\\times\\vec B| = AB\\sin\\theta = 2\\times3\\times\\sin30^\\circ = 6\\times0.5 = 3$."
+      "explanation": "$|\\vec A\\times\\vec B| = AB\\sin\\theta = 2\\times3\\times\\sin30^\\circ = 6\\times0.5 = 3$.",
+      "trick": "$|\\vec A\\times\\vec B|=AB\\sin\\theta$ — plug in directly."
     },
     {
       "id": "phy-motion-in-a-plane-008",
@@ -103,7 +110,8 @@
       ],
       "answer": 3,
       "difficulty": "medium",
-      "explanation": "$R = \\dfrac{u^2\\sin2\\theta}{g} = \\dfrac{400\\times\\sin90^\\circ}{10} = 40$ m."
+      "explanation": "$R = \\dfrac{u^2\\sin2\\theta}{g} = \\dfrac{400\\times\\sin90^\\circ}{10} = 40$ m.",
+      "trick": "Range $R=u^2\\sin2\\theta/g$; at $45^\\circ$, $\\sin2\\theta=1$."
     },
     {
       "id": "phy-motion-in-a-plane-009",
@@ -116,7 +124,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "$T = \\dfrac{2u\\sin\\theta}{g} = \\dfrac{2\\times20\\times0.5}{10} = 2$ s."
+      "explanation": "$T = \\dfrac{2u\\sin\\theta}{g} = \\dfrac{2\\times20\\times0.5}{10} = 2$ s.",
+      "trick": "$T=2u\\sin\\theta/g$ — direct substitution."
     },
     {
       "id": "phy-motion-in-a-plane-010",
@@ -129,7 +138,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "$H = \\dfrac{u^2\\sin^2\\theta}{2g} = \\dfrac{400\\times0.25}{20} = 5$ m."
+      "explanation": "$H = \\dfrac{u^2\\sin^2\\theta}{2g} = \\dfrac{400\\times0.25}{20} = 5$ m.",
+      "trick": "$H=u^2\\sin^2\\theta/2g$ — direct substitution."
     },
     {
       "id": "phy-motion-in-a-plane-011",
@@ -142,7 +152,8 @@
       ],
       "answer": 3,
       "difficulty": "medium",
-      "explanation": "Time to fall: $t=\\sqrt{2h/g}=\\sqrt{40/10}=2$ s. Horizontal range $= v_0t = 10\\times2 = 20$ m."
+      "explanation": "Time to fall: $t=\\sqrt{2h/g}=\\sqrt{40/10}=2$ s. Horizontal range $= v_0t = 10\\times2 = 20$ m.",
+      "trick": "Horizontal projectile: find fall time $t=\\sqrt{2h/g}$, then range $=v_0t$."
     },
     {
       "id": "phy-motion-in-a-plane-012",
@@ -155,7 +166,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "$R = u^2\\sin2\\theta/g$ is maximum when $\\sin2\\theta = 1$, i.e. $\\theta = 45^\\circ$."
+      "explanation": "$R = u^2\\sin2\\theta/g$ is maximum when $\\sin2\\theta = 1$, i.e. $\\theta = 45^\\circ$.",
+      "trick": "Range is maximum at $\\theta=45^\\circ$ — memorise this constant."
     },
     {
       "id": "phy-motion-in-a-plane-013",
@@ -168,7 +180,8 @@
       ],
       "answer": 1,
       "difficulty": "hard",
-      "explanation": "Range depends on $\\sin2\\theta$, which is the same for complementary angles $\\theta$ and $(90^\\circ-\\theta)$; here $90^\\circ - 30^\\circ = 60^\\circ$."
+      "explanation": "Range depends on $\\sin2\\theta$, which is the same for complementary angles $\\theta$ and $(90^\\circ-\\theta)$; here $90^\\circ - 30^\\circ = 60^\\circ$.",
+      "trick": "Complementary angles ($\\theta$, $90^\\circ-\\theta$) give equal range."
     },
     {
       "id": "phy-motion-in-a-plane-014",
@@ -181,7 +194,8 @@
       ],
       "answer": 2,
       "difficulty": "easy",
-      "explanation": "$y = x\\tan\\theta - \\dfrac{gx^2}{2u^2\\cos^2\\theta}$ is quadratic in $x$, i.e. a parabola."
+      "explanation": "$y = x\\tan\\theta - \\dfrac{gx^2}{2u^2\\cos^2\\theta}$ is quadratic in $x$, i.e. a parabola.",
+      "trick": "No air resistance → trajectory is always a parabola."
     },
     {
       "id": "phy-motion-in-a-plane-015",
@@ -194,7 +208,8 @@
       ],
       "answer": 3,
       "difficulty": "medium",
-      "explanation": "$a = \\dfrac{v^2}{r} = \\dfrac{100}{5} = 20$ m s$^{-2}$."
+      "explanation": "$a = \\dfrac{v^2}{r} = \\dfrac{100}{5} = 20$ m s$^{-2}$.",
+      "trick": "Centripetal acceleration: $a=v^2/r$ — direct plug-in."
     },
     {
       "id": "phy-motion-in-a-plane-016",
@@ -207,7 +222,8 @@
       ],
       "answer": 0,
       "difficulty": "easy",
-      "explanation": "$v = r\\omega = 2\\times5 = 10$ m s$^{-1}$."
+      "explanation": "$v = r\\omega = 2\\times5 = 10$ m s$^{-1}$.",
+      "trick": "Linear speed: $v=r\\omega$ — direct plug-in."
     },
     {
       "id": "phy-motion-in-a-plane-017",
@@ -220,7 +236,8 @@
       ],
       "answer": 3,
       "difficulty": "easy",
-      "explanation": "The velocity is always tangent to the circular path; only its direction (not magnitude) keeps changing."
+      "explanation": "The velocity is always tangent to the circular path; only its direction (not magnitude) keeps changing.",
+      "trick": "Velocity in circular motion is always tangential, never radial."
     },
     {
       "id": "phy-motion-in-a-plane-018",
@@ -233,7 +250,8 @@
       ],
       "answer": 1,
       "difficulty": "easy",
-      "explanation": "Even though speed is constant, velocity direction changes continuously, producing a centripetal acceleration directed towards the centre."
+      "explanation": "Even though speed is constant, velocity direction changes continuously, producing a centripetal acceleration directed towards the centre.",
+      "trick": "Constant speed but changing direction → acceleration points to centre."
     },
     {
       "id": "phy-motion-in-a-plane-019",
@@ -246,7 +264,8 @@
       ],
       "answer": 2,
       "difficulty": "hard",
-      "explanation": "At $45^\\circ$, $H = u^2/4g$ and $R = u^2/g$, so $H:R = 1:4$."
+      "explanation": "At $45^\\circ$, $H = u^2/4g$ and $R = u^2/g$, so $H:R = 1:4$.",
+      "trick": "At $45^\\circ$: $H=R/4$ is a fixed ratio — memorise it."
     },
     {
       "id": "phy-motion-in-a-plane-020",
@@ -259,7 +278,8 @@
       ],
       "answer": 3,
       "difficulty": "hard",
-      "explanation": "$R = 2A\\cos(\\theta/2) = 2A\\cos60^\\circ = 2A\\times0.5 = A$."
+      "explanation": "$R = 2A\\cos(\\theta/2) = 2A\\cos60^\\circ = 2A\\times0.5 = A$.",
+      "trick": "Equal vectors at 120°: $R=2A\\cos60^\\circ=A$ — a classic KCET trap value."
     },
     {
       "id": "phy-motion-in-a-plane-021",
@@ -272,7 +292,8 @@
       ],
       "answer": 3,
       "difficulty": "easy",
-      "explanation": "A unit vector has magnitude exactly 1 and is used only to indicate direction; $\\hat n = \\vec A/|\\vec A|$."
+      "explanation": "A unit vector has magnitude exactly 1 and is used only to indicate direction; $\\hat n = \\vec A/|\\vec A|$.",
+      "trick": "Unit vector: magnitude exactly 1, direction only."
     },
     {
       "id": "phy-motion-in-a-plane-022",
@@ -285,7 +306,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "$\\vec v_{rain,man} = \\vec v_{rain} - \\vec v_{man}$, with perpendicular components 8 and 6: magnitude $=\\sqrt{8^2+6^2}=\\sqrt{100}=10$ m s$^{-1}$."
+      "explanation": "$\\vec v_{rain,man} = \\vec v_{rain} - \\vec v_{man}$, with perpendicular components 8 and 6: magnitude $=\\sqrt{8^2+6^2}=\\sqrt{100}=10$ m s$^{-1}$.",
+      "trick": "Rain vs man velocities are perpendicular → combine via Pythagoras."
     },
     {
       "id": "phy-motion-in-a-plane-023",
@@ -298,7 +320,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "$\\tan\\theta = \\dfrac{\\text{horizontal component}}{\\text{vertical component}} = \\dfrac{6}{8} = 0.75 \\Rightarrow \\theta \\approx 37^\\circ$ from the vertical."
+      "explanation": "$\\tan\\theta = \\dfrac{\\text{horizontal component}}{\\text{vertical component}} = \\dfrac{6}{8} = 0.75 \\Rightarrow \\theta \\approx 37^\\circ$ from the vertical.",
+      "trick": "Umbrella tilt angle: $\\tan\\theta=$ horizontal/vertical component."
     },
     {
       "id": "phy-motion-in-a-plane-024",
@@ -311,7 +334,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "At the highest point only the horizontal component survives: $v = u\\cos\\theta = 20\\times\\cos60^\\circ = 10$ m s$^{-1}$."
+      "explanation": "At the highest point only the horizontal component survives: $v = u\\cos\\theta = 20\\times\\cos60^\\circ = 10$ m s$^{-1}$.",
+      "trick": "At the top, only horizontal component survives: $v=u\\cos\\theta$."
     },
     {
       "id": "phy-motion-in-a-plane-025",
@@ -324,7 +348,8 @@
       ],
       "answer": 3,
       "difficulty": "medium",
-      "explanation": "$t = \\dfrac{u\\sin\\theta}{g} = \\dfrac{30\\times0.5}{10} = 1.5$ s."
+      "explanation": "$t = \\dfrac{u\\sin\\theta}{g} = \\dfrac{30\\times0.5}{10} = 1.5$ s.",
+      "trick": "Time to max height: $t=u\\sin\\theta/g$ (half the flight time)."
     },
     {
       "id": "phy-motion-in-a-plane-026",
@@ -337,7 +362,8 @@
       ],
       "answer": 2,
       "difficulty": "easy",
-      "explanation": "$\\vec A+\\vec B = 6\\hat i + 0\\hat j$, whose magnitude is $\\sqrt{6^2+0^2} = 6$."
+      "explanation": "$\\vec A+\\vec B = 6\\hat i + 0\\hat j$, whose magnitude is $\\sqrt{6^2+0^2} = 6$.",
+      "trick": "Add components separately, then take magnitude of the resultant vector."
     },
     {
       "id": "phy-motion-in-a-plane-027",
@@ -350,7 +376,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "A zero resultant only requires that the vectors, drawn head to tail in sequence, close up into a polygon; individual vectors need not be zero, equal, or parallel."
+      "explanation": "A zero resultant only requires that the vectors, drawn head to tail in sequence, close up into a polygon; individual vectors need not be zero, equal, or parallel.",
+      "trick": "Zero resultant of several vectors = they form a closed polygon head-to-tail."
     },
     {
       "id": "phy-motion-in-a-plane-028",
@@ -363,7 +390,8 @@
       ],
       "answer": 0,
       "difficulty": "hard",
-      "explanation": "$F = \\dfrac{mv^2}{r} = \\dfrac{1000\\times10^2}{50} = 2000$ N."
+      "explanation": "$F = \\dfrac{mv^2}{r} = \\dfrac{1000\\times10^2}{50} = 2000$ N.",
+      "trick": "Centripetal force: $F=mv^2/r$ — direct plug-in."
     },
     {
       "id": "phy-motion-in-a-plane-029",
@@ -376,7 +404,8 @@
       ],
       "answer": 2,
       "difficulty": "easy",
-      "explanation": "$n = 1/T = 1/0.5 = 2$ Hz."
+      "explanation": "$n = 1/T = 1/0.5 = 2$ Hz.",
+      "trick": "Frequency $n=1/T$ — invert the period."
     },
     {
       "id": "phy-motion-in-a-plane-030",
@@ -389,7 +418,8 @@
       ],
       "answer": 1,
       "difficulty": "easy",
-      "explanation": "$180^\\circ = \\pi$ rad $\\approx 3.14$ rad."
+      "explanation": "$180^\\circ = \\pi$ rad $\\approx 3.14$ rad.",
+      "trick": "$180^\\circ=\\pi$ rad $\\approx3.14$ rad — a fixed conversion to memorise."
     },
     {
       "id": "phy-motion-in-a-plane-031",
@@ -402,7 +432,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "$300$ rpm $= 5$ rev/s; $\\omega = 2\\pi n = 2\\pi\\times5 \\approx 31.4$ rad/s."
+      "explanation": "$300$ rpm $= 5$ rev/s; $\\omega = 2\\pi n = 2\\pi\\times5 \\approx 31.4$ rad/s.",
+      "trick": "Convert rpm to rev/s, then $\\omega=2\\pi n$."
     },
     {
       "id": "phy-motion-in-a-plane-032",
@@ -415,7 +446,8 @@
       ],
       "answer": 3,
       "difficulty": "hard",
-      "explanation": "$y = x\\tan\\theta - \\dfrac{gx^2}{2u^2\\cos^2\\theta} = 10(1) - \\dfrac{10\\times100}{2\\times400\\times0.5} = 10 - 2.5 = 7.5$ m."
+      "explanation": "$y = x\\tan\\theta - \\dfrac{gx^2}{2u^2\\cos^2\\theta} = 10(1) - \\dfrac{10\\times100}{2\\times400\\times0.5} = 10 - 2.5 = 7.5$ m.",
+      "trick": "Use the trajectory equation $y=x\\tan\\theta-\\dfrac{gx^2}{2u^2\\cos^2\\theta}$ directly."
     },
     {
       "id": "phy-motion-in-a-plane-033",
@@ -428,7 +460,8 @@
       ],
       "answer": 3,
       "difficulty": "easy",
-      "explanation": "$\\vec A\\cdot\\vec B = AB\\cos\\theta = 0$ with $A,B\\neq0$ requires $\\cos\\theta = 0$, i.e. $\\theta = 90^\\circ$."
+      "explanation": "$\\vec A\\cdot\\vec B = AB\\cos\\theta = 0$ with $A,B\\neq0$ requires $\\cos\\theta = 0$, i.e. $\\theta = 90^\\circ$.",
+      "trick": "Zero dot product with nonzero vectors → they're perpendicular ($90^\\circ$)."
     },
     {
       "id": "phy-motion-in-a-plane-034",
@@ -441,7 +474,8 @@
       ],
       "answer": 0,
       "difficulty": "easy",
-      "explanation": "$|\\vec A\\times\\vec B| = AB\\sin\\theta = 0$ with $A,B\\neq0$ requires $\\sin\\theta=0$, i.e. $\\theta = 0^\\circ$ or $180^\\circ$."
+      "explanation": "$|\\vec A\\times\\vec B| = AB\\sin\\theta = 0$ with $A,B\\neq0$ requires $\\sin\\theta=0$, i.e. $\\theta = 0^\\circ$ or $180^\\circ$.",
+      "trick": "Zero cross product with nonzero vectors → they're parallel/antiparallel ($0^\\circ$/$180^\\circ$)."
     },
     {
       "id": "phy-motion-in-a-plane-035",
@@ -454,7 +488,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "The two velocities are perpendicular, so $v_{resultant}=\\sqrt{4^2+3^2}=\\sqrt{25}=5$ m s$^{-1}$."
+      "explanation": "The two velocities are perpendicular, so $v_{resultant}=\\sqrt{4^2+3^2}=\\sqrt{25}=5$ m s$^{-1}$.",
+      "trick": "Perpendicular velocities combine via Pythagoras: $\\sqrt{v_{boat}^2+v_{river}^2}$."
     },
     {
       "id": "phy-motion-in-a-plane-036",
@@ -467,7 +502,8 @@
       ],
       "answer": 2,
       "difficulty": "hard",
-      "explanation": "Time to cross $= 100/4 = 25$ s (only the perpendicular component matters). Drift $=$ flow speed $\\times$ time $= 3\\times25 = 75$ m."
+      "explanation": "Time to cross $= 100/4 = 25$ s (only the perpendicular component matters). Drift $=$ flow speed $\\times$ time $= 3\\times25 = 75$ m.",
+      "trick": "Crossing time uses only the boat's own speed; drift = river speed $\\times$ that time."
     },
     {
       "id": "phy-motion-in-a-plane-037",
@@ -480,7 +516,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "At the highest point the vertical velocity component is zero, so the velocity is purely horizontal, i.e. at $0^\\circ$ to the horizontal."
+      "explanation": "At the highest point the vertical velocity component is zero, so the velocity is purely horizontal, i.e. at $0^\\circ$ to the horizontal.",
+      "trick": "At the highest point, velocity is purely horizontal → angle is $0^\\circ$."
     },
     {
       "id": "phy-motion-in-a-plane-038",
@@ -493,7 +530,8 @@
       ],
       "answer": 3,
       "difficulty": "easy",
-      "explanation": "For antiparallel equal vectors, $R=\\sqrt{A^2+A^2+2A^2\\cos180^\\circ}=\\sqrt{2A^2-2A^2}=0$, the null vector."
+      "explanation": "For antiparallel equal vectors, $R=\\sqrt{A^2+A^2+2A^2\\cos180^\\circ}=\\sqrt{2A^2-2A^2}=0$, the null vector.",
+      "trick": "Equal, opposite vectors always cancel to the null vector."
     },
     {
       "id": "phy-motion-in-a-plane-039",
@@ -506,7 +544,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "$\\omega = \\dfrac{2\\pi}{T} = \\dfrac{2\\pi}{24\\times3600} \\approx 7.27\\times10^{-5}$ rad/s."
+      "explanation": "$\\omega = \\dfrac{2\\pi}{T} = \\dfrac{2\\pi}{24\\times3600} \\approx 7.27\\times10^{-5}$ rad/s.",
+      "trick": "$\\omega=2\\pi/T$ with $T=24\\times3600$ s gives Earth's spin rate."
     },
     {
       "id": "phy-motion-in-a-plane-040",
@@ -519,7 +558,8 @@
       ],
       "answer": 0,
       "difficulty": "hard",
-      "explanation": "Setting $\\dfrac{u^2\\sin^2\\theta}{2g} = \\dfrac{u^2\\sin2\\theta}{g}$ gives $\\dfrac{\\sin\\theta}{2} = 2\\cos\\theta$, so $\\tan\\theta = 4$."
+      "explanation": "Setting $\\dfrac{u^2\\sin^2\\theta}{2g} = \\dfrac{u^2\\sin2\\theta}{g}$ gives $\\dfrac{\\sin\\theta}{2} = 2\\cos\\theta$, so $\\tan\\theta = 4$.",
+      "trick": "Set $H=R$ using the formulas, solve — gives $\\tan\\theta=4$."
     }
   ]
 }

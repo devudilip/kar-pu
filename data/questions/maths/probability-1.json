@@ -12,7 +12,8 @@
       ],
       "answer": 0,
       "difficulty": "easy",
-      "explanation": "Even numbers $\\{2,4,6\\}$: 3 favourable out of 6, so $P=3/6=1/2$."
+      "explanation": "Even numbers $\\{2,4,6\\}$: 3 favourable out of 6, so $P=3/6=1/2$.",
+      "trick": "$P=$ favourable/total; count evens out of 6 directly."
     },
     {
       "id": "mat-probability-1-002",
@@ -25,7 +26,8 @@
       ],
       "answer": 2,
       "difficulty": "easy",
-      "explanation": "Each die has 6 outcomes, so the sample space has $6\\times6=36$ ordered pairs."
+      "explanation": "Each die has 6 outcomes, so the sample space has $6\\times6=36$ ordered pairs.",
+      "trick": "Two dice: $n(S)=6\\times6=36$, always."
     },
     {
       "id": "mat-probability-1-003",
@@ -38,7 +40,8 @@
       ],
       "answer": 1,
       "difficulty": "easy",
-      "explanation": "Each toss has 2 outcomes, so $n(S)=2^3=8$."
+      "explanation": "Each toss has 2 outcomes, so $n(S)=2^3=8$.",
+      "trick": "$n$ tosses give $n(S)=2^n$ — here $2^3=8$."
     },
     {
       "id": "mat-probability-1-004",
@@ -51,7 +54,8 @@
       ],
       "answer": 3,
       "difficulty": "easy",
-      "explanation": "There are 4 kings, so $P=4/52=1/13$."
+      "explanation": "There are 4 kings, so $P=4/52=1/13$.",
+      "trick": "Cards: 4 of each rank $\\Rightarrow P=4/52=1/13$."
     },
     {
       "id": "mat-probability-1-005",
@@ -64,7 +68,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "Pairs giving sum 7: $(1,6),(2,5),(3,4),(4,3),(5,2),(6,1)$ — 6 outcomes, so $P=6/36=1/6$."
+      "explanation": "Pairs giving sum 7: $(1,6),(2,5),(3,4),(4,3),(5,2),(6,1)$ — 6 outcomes, so $P=6/36=1/6$.",
+      "trick": "Sum-7 pairs on two dice are always 6 out of 36 — memorize this count."
     },
     {
       "id": "mat-probability-1-006",
@@ -77,7 +82,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "$P(A\\cup B)=P(A)+P(B)-P(A\\cap B)=0.4+0.5-0.1=0.8$."
+      "explanation": "$P(A\\cup B)=P(A)+P(B)-P(A\\cap B)=0.4+0.5-0.1=0.8$.",
+      "trick": "$P(A\\cup B)=P(A)+P(B)-P(A\\cap B)$ — direct substitution."
     },
     {
       "id": "mat-probability-1-007",
@@ -90,7 +96,8 @@
       ],
       "answer": 3,
       "difficulty": "medium",
-      "explanation": "For mutually exclusive events, $P(A\\cup B)=P(A)+P(B)=0.3+0.4=0.7$."
+      "explanation": "For mutually exclusive events, $P(A\\cup B)=P(A)+P(B)=0.3+0.4=0.7$.",
+      "trick": "Mutually exclusive: just add $P(A)+P(B)$, no overlap to subtract."
     },
     {
       "id": "mat-probability-1-008",
@@ -103,7 +110,8 @@
       ],
       "answer": 1,
       "difficulty": "easy",
-      "explanation": "$P(A')=1-P(A)=1-0.35=0.65$."
+      "explanation": "$P(A')=1-P(A)=1-0.35=0.65$.",
+      "trick": "$P(A')=1-P(A)$ — instant complement."
     },
     {
       "id": "mat-probability-1-009",
@@ -116,7 +124,8 @@
       ],
       "answer": 3,
       "difficulty": "medium",
-      "explanation": "Red cards $=26$, kings $=4$, red kings $=2$. $P=\\dfrac{26+4-2}{52}=\\dfrac{28}{52}=\\dfrac{7}{13}$."
+      "explanation": "Red cards $=26$, kings $=4$, red kings $=2$. $P=\\dfrac{26+4-2}{52}=\\dfrac{28}{52}=\\dfrac{7}{13}$.",
+      "trick": "Overlap counting: $P=\\dfrac{n(A)+n(B)-n(A\\cap B)}{52}$; red+king overlap is 2."
     },
     {
       "id": "mat-probability-1-010",
@@ -129,7 +138,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "Sums that are multiples of 3 (3,6,9,12) occur in $2+5+4+1=12$ ways out of 36, so $P=12/36=1/3$."
+      "explanation": "Sums that are multiples of 3 (3,6,9,12) occur in $2+5+4+1=12$ ways out of 36, so $P=12/36=1/3$.",
+      "trick": "Count sum outcomes for each multiple of 3 (3,6,9,12) then add over 36."
     },
     {
       "id": "mat-probability-1-011",
@@ -142,7 +152,8 @@
       ],
       "answer": 2,
       "difficulty": "easy",
-      "explanation": "$A'$ contains all elements of $S$ not in $A$, i.e. $\\{1,3,5\\}$."
+      "explanation": "$A'$ contains all elements of $S$ not in $A$, i.e. $\\{1,3,5\\}$.",
+      "trick": "Complement in $S$: everything not listed in $A$."
     },
     {
       "id": "mat-probability-1-012",
@@ -155,7 +166,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "Favourable outcomes: HHT, HTH, THH — 3 out of 8 total, so $P=3/8$."
+      "explanation": "Favourable outcomes: HHT, HTH, THH — 3 out of 8 total, so $P=3/8$.",
+      "trick": "List/binomial-count exactly-$k$ heads out of total $2^n$ outcomes."
     },
     {
       "id": "mat-probability-1-013",
@@ -168,7 +180,8 @@
       ],
       "answer": 3,
       "difficulty": "medium",
-      "explanation": "Not red means black: $3$ out of $8$ balls, so $P=3/8$."
+      "explanation": "Not red means black: $3$ out of $8$ balls, so $P=3/8$.",
+      "trick": "'Not red' = black; just count black balls over total."
     },
     {
       "id": "mat-probability-1-014",
@@ -181,7 +194,8 @@
       ],
       "answer": 0,
       "difficulty": "hard",
-      "explanation": "Exhaustive and mutually exclusive gives $P(A)+P(B)=1$. With $P(A)=2P(B)$: $3P(B)=1 \\Rightarrow P(B)=1/3, P(A)=2/3$."
+      "explanation": "Exhaustive and mutually exclusive gives $P(A)+P(B)=1$. With $P(A)=2P(B)$: $3P(B)=1 \\Rightarrow P(B)=1/3, P(A)=2/3$.",
+      "trick": "Mutually exclusive + exhaustive $\\Rightarrow P(A)+P(B)=1$; use given ratio to split."
     },
     {
       "id": "mat-probability-1-015",
@@ -194,7 +208,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "Mutually exclusive events must have $P(A\\cap B)=0$; here it is 0.3, so they are not mutually exclusive."
+      "explanation": "Mutually exclusive events must have $P(A\\cap B)=0$; here it is 0.3, so they are not mutually exclusive.",
+      "trick": "Mutually exclusive requires $P(A\\cap B)=0$ — check the given value."
     },
     {
       "id": "mat-probability-1-016",
@@ -207,7 +222,8 @@
       ],
       "answer": 2,
       "difficulty": "easy",
-      "explanation": "Numbers greater than 4: $\\{5,6\\}$, so $P=2/6=1/3$."
+      "explanation": "Numbers greater than 4: $\\{5,6\\}$, so $P=2/6=1/3$.",
+      "trick": "Count favourable outcomes ($>4$) directly out of 6."
     },
     {
       "id": "mat-probability-1-017",
@@ -220,7 +236,8 @@
       ],
       "answer": 3,
       "difficulty": "hard",
-      "explanation": "Odds $a:b$ give $P=\\dfrac{a}{a+b}=\\dfrac{3}{3+5}=\\dfrac38$."
+      "explanation": "Odds $a:b$ give $P=\\dfrac{a}{a+b}=\\dfrac{3}{3+5}=\\dfrac38$.",
+      "trick": "Odds $a:b$ in favour $\\Rightarrow P=\\dfrac{a}{a+b}$."
     },
     {
       "id": "mat-probability-1-018",
@@ -233,7 +250,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "There are 12 face cards (3 per suit $\\times$ 4 suits), so $P=12/52=3/13$."
+      "explanation": "There are 12 face cards (3 per suit $\\times$ 4 suits), so $P=12/52=3/13$.",
+      "trick": "Face cards are always 12 (3 per suit $\\times$4) $\\Rightarrow P=12/52$."
     },
     {
       "id": "mat-probability-1-019",
@@ -246,7 +264,8 @@
       ],
       "answer": 2,
       "difficulty": "easy",
-      "explanation": "Sums of 2, 3, 4 occur in $1+2+3=6$ ways out of 36, so $P=6/36=1/6$."
+      "explanation": "Sums of 2, 3, 4 occur in $1+2+3=6$ ways out of 36, so $P=6/36=1/6$.",
+      "trick": "Add outcome-counts for each sum below 5 (2,3,4) over 36."
     },
     {
       "id": "mat-probability-1-020",
@@ -259,7 +278,8 @@
       ],
       "answer": 1,
       "difficulty": "easy",
-      "explanation": "Doubles are $(1,1),(2,2),\\ldots,(6,6)$ — 6 outcomes out of 36, so $P=6/36=1/6$."
+      "explanation": "Doubles are $(1,1),(2,2),\\ldots,(6,6)$ — 6 outcomes out of 36, so $P=6/36=1/6$.",
+      "trick": "Doubles are always 6 outcomes out of 36 for two dice."
     },
     {
       "id": "mat-probability-1-021",
@@ -272,7 +292,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "Outcomes HH, HT, TH, TT; at least one head occurs in 3 of the 4 outcomes, so $P=3/4$."
+      "explanation": "Outcomes HH, HT, TH, TT; at least one head occurs in 3 of the 4 outcomes, so $P=3/4$.",
+      "trick": "At least one head = 1 − P(no heads); easier via complement."
     },
     {
       "id": "mat-probability-1-022",
@@ -285,7 +306,8 @@
       ],
       "answer": 3,
       "difficulty": "hard",
-      "explanation": "Black cards $=26$, queens $=4$, black queens $=2$. $P=\\dfrac{26+4-2}{52}=\\dfrac{28}{52}=\\dfrac{7}{13}$."
+      "explanation": "Black cards $=26$, queens $=4$, black queens $=2$. $P=\\dfrac{26+4-2}{52}=\\dfrac{28}{52}=\\dfrac{7}{13}$.",
+      "trick": "Overlap counting: $P=\\dfrac{n(A)+n(B)-n(A\\cap B)}{52}$; black+queen overlap is 2."
     },
     {
       "id": "mat-probability-1-023",
@@ -298,7 +320,8 @@
       ],
       "answer": 1,
       "difficulty": "easy",
-      "explanation": "$P(A')=1-P(A)=1-0.7=0.3$."
+      "explanation": "$P(A')=1-P(A)=1-0.7=0.3$.",
+      "trick": "$P(A')=1-P(A)$."
     },
     {
       "id": "mat-probability-1-024",
@@ -311,7 +334,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "Total balls $=12$; blue $=5$, so $P=5/12$."
+      "explanation": "Total balls $=12$; blue $=5$, so $P=5/12$.",
+      "trick": "$P=$ favourable count / total balls — just divide directly."
     },
     {
       "id": "mat-probability-1-025",
@@ -324,7 +348,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "Pairs with difference 2: $(1,3),(3,1),(2,4),(4,2),(3,5),(5,3),(4,6),(6,4)$ — 8 outcomes, so $P=8/36=2/9$."
+      "explanation": "Pairs with difference 2: $(1,3),(3,1),(2,4),(4,2),(3,5),(5,3),(4,6),(6,4)$ — 8 outcomes, so $P=8/36=2/9$.",
+      "trick": "List ordered pairs with the given difference, count them over 36."
     },
     {
       "id": "mat-probability-1-026",
@@ -337,7 +362,8 @@
       ],
       "answer": 1,
       "difficulty": "hard",
-      "explanation": "Aces $=4$, hearts $=13$, ace of hearts $=1$. $P=\\dfrac{4+13-1}{52}=\\dfrac{16}{52}=\\dfrac{4}{13}$."
+      "explanation": "Aces $=4$, hearts $=13$, ace of hearts $=1$. $P=\\dfrac{4+13-1}{52}=\\dfrac{16}{52}=\\dfrac{4}{13}$.",
+      "trick": "Overlap counting: aces + hearts − ace-of-hearts, over 52."
     },
     {
       "id": "mat-probability-1-027",
@@ -350,7 +376,8 @@
       ],
       "answer": 2,
       "difficulty": "easy",
-      "explanation": "An impossible event corresponds to the empty set, and $P(\\emptyset)=0$ by the axioms of probability."
+      "explanation": "An impossible event corresponds to the empty set, and $P(\\emptyset)=0$ by the axioms of probability.",
+      "trick": "Impossible event is the empty set: $P(\\emptyset)=0$ always."
     },
     {
       "id": "mat-probability-1-028",
@@ -363,7 +390,8 @@
       ],
       "answer": 3,
       "difficulty": "medium",
-      "explanation": "Odds against $a:b$ give $P(\\text{event})=\\dfrac{b}{a+b}=\\dfrac{7}{10}$."
+      "explanation": "Odds against $a:b$ give $P(\\text{event})=\\dfrac{b}{a+b}=\\dfrac{7}{10}$.",
+      "trick": "Odds against $a:b$ $\\Rightarrow P(\\text{event})=\\dfrac{b}{a+b}$."
     },
     {
       "id": "mat-probability-1-029",
@@ -376,7 +404,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "Number of ways to choose 3 heads out of 4 tosses is $\\binom43=4$; total outcomes $=16$, so $P=4/16=1/4$."
+      "explanation": "Number of ways to choose 3 heads out of 4 tosses is $\\binom43=4$; total outcomes $=16$, so $P=4/16=1/4$.",
+      "trick": "Use $\\binom{n}{k}/2^n$ for exactly $k$ heads in $n$ tosses."
     },
     {
       "id": "mat-probability-1-030",
@@ -389,7 +418,8 @@
       ],
       "answer": 0,
       "difficulty": "hard",
-      "explanation": "Let $P(C)=x$; then $P(A)=3x$ and $P(B)=P(A)/2=1.5x$. Since they are exhaustive, $3x+1.5x+x=1 \\Rightarrow 5.5x=1 \\Rightarrow x=\\dfrac{2}{11}$."
+      "explanation": "Let $P(C)=x$; then $P(A)=3x$ and $P(B)=P(A)/2=1.5x$. Since they are exhaustive, $3x+1.5x+x=1 \\Rightarrow 5.5x=1 \\Rightarrow x=\\dfrac{2}{11}$.",
+      "trick": "Set unknowns as multiples of one variable, sum to 1, solve."
     },
     {
       "id": "mat-probability-1-031",
@@ -402,7 +432,8 @@
       ],
       "answer": 1,
       "difficulty": "easy",
-      "explanation": "By the axiomatic definition of probability, every event's probability lies between 0 and 1 inclusive."
+      "explanation": "By the axiomatic definition of probability, every event's probability lies between 0 and 1 inclusive.",
+      "trick": "Axiom: every probability lies in $[0,1]$ — no calculation needed."
     },
     {
       "id": "mat-probability-1-032",
@@ -415,7 +446,8 @@
       ],
       "answer": 3,
       "difficulty": "medium",
-      "explanation": "Total balls $=10$; red $=3$, so $P=3/10$."
+      "explanation": "Total balls $=10$; red $=3$, so $P=3/10$.",
+      "trick": "$P=$ red count / total balls — direct division."
     },
     {
       "id": "mat-probability-1-033",
@@ -428,7 +460,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "$P(A\\cap B)=P(A)+P(B)-P(A\\cup B)=0.5+0.4-0.8=0.1$."
+      "explanation": "$P(A\\cap B)=P(A)+P(B)-P(A\\cup B)=0.5+0.4-0.8=0.1$.",
+      "trick": "Rearrange addition theorem: $P(A\\cap B)=P(A)+P(B)-P(A\\cup B)$."
     },
     {
       "id": "mat-probability-1-034",
@@ -441,7 +474,8 @@
       ],
       "answer": 1,
       "difficulty": "hard",
-      "explanation": "For mutually exclusive events, $P(A\\cup B)=P(A)+P(B) \\Rightarrow 0.7=0.4+P(B) \\Rightarrow P(B)=0.3$."
+      "explanation": "For mutually exclusive events, $P(A\\cup B)=P(A)+P(B) \\Rightarrow 0.7=0.4+P(B) \\Rightarrow P(B)=0.3$.",
+      "trick": "Mutually exclusive: $P(B)=P(A\\cup B)-P(A)$."
     },
     {
       "id": "mat-probability-1-035",
@@ -454,7 +488,8 @@
       ],
       "answer": 3,
       "difficulty": "easy",
-      "explanation": "Sum 12 occurs only for $(6,6)$, so $P=1/36$."
+      "explanation": "Sum 12 occurs only for $(6,6)$, so $P=1/36$.",
+      "trick": "Sum 12 has exactly one pair, $(6,6)$: $P=1/36$."
     },
     {
       "id": "mat-probability-1-036",
@@ -467,7 +502,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "$P(\\text{event})=\\dfrac{5}{5+2}=\\dfrac57$, so $P(\\text{not event})=1-\\dfrac57=\\dfrac27$."
+      "explanation": "$P(\\text{event})=\\dfrac{5}{5+2}=\\dfrac57$, so $P(\\text{not event})=1-\\dfrac57=\\dfrac27$.",
+      "trick": "Find $P(\\text{event})=a/(a+b)$ from odds, then complement for 'not'."
     },
     {
       "id": "mat-probability-1-037",
@@ -480,7 +516,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "$P(\\text{no 6 on either die})=\\left(\\dfrac56\\right)^2=\\dfrac{25}{36}$, so $P(\\text{at least one 6})=1-\\dfrac{25}{36}=\\dfrac{11}{36}$."
+      "explanation": "$P(\\text{no 6 on either die})=\\left(\\dfrac56\\right)^2=\\dfrac{25}{36}$, so $P(\\text{at least one 6})=1-\\dfrac{25}{36}=\\dfrac{11}{36}$.",
+      "trick": "'At least one 6' = 1 − P(neither die shows 6) = $1-(5/6)^2$."
     },
     {
       "id": "mat-probability-1-038",
@@ -493,7 +530,8 @@
       ],
       "answer": 3,
       "difficulty": "hard",
-      "explanation": "$P(\\text{Maths}\\cup\\text{Physics})=0.6+0.5-0.3=0.8$, so $P(\\text{neither})=1-0.8=0.2$."
+      "explanation": "$P(\\text{Maths}\\cup\\text{Physics})=0.6+0.5-0.3=0.8$, so $P(\\text{neither})=1-0.8=0.2$.",
+      "trick": "Neither = 1 − P(union); use addition theorem first."
     },
     {
       "id": "mat-probability-1-039",
@@ -506,7 +544,8 @@
       ],
       "answer": 0,
       "difficulty": "easy",
-      "explanation": "Hearts $=13$, kings $=4$, king of hearts $=1$. $P(\\text{heart or king})=\\dfrac{13+4-1}{52}=\\dfrac{16}{52}=\\dfrac4{13}$, so $P(\\text{neither})=1-\\dfrac4{13}=\\dfrac9{13}$."
+      "explanation": "Hearts $=13$, kings $=4$, king of hearts $=1$. $P(\\text{heart or king})=\\dfrac{13+4-1}{52}=\\dfrac{16}{52}=\\dfrac4{13}$, so $P(\\text{neither})=1-\\dfrac4{13}=\\dfrac9{13}$.",
+      "trick": "Neither = 1 − P(heart or king); use overlap counting first."
     },
     {
       "id": "mat-probability-1-040",
@@ -519,7 +558,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "Outcomes with at least 2 heads: HHH, HHT, HTH, THH — 4 out of 8, so $P=4/8=1/2$."
+      "explanation": "Outcomes with at least 2 heads: HHH, HHT, HTH, THH — 4 out of 8, so $P=4/8=1/2$.",
+      "trick": "At least 2 heads: count HHH+exactly-2-heads outcomes over $2^n$."
     }
   ]
 }

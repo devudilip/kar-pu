@@ -2,6 +2,7 @@ import { SUBJECTS, PFX, syllabus, KCET, flashcards } from '../data.js';
 import { store } from '../store.js';
 import { el, esc, fmtDate, toast, fmtTime } from '../ui.js';
 import { buildPlan, taskLink } from './plan.js';
+import { weekStats } from './report.js';
 
 const FEEDBACK = 'https://forms.gle/YW9CKJa22dX5C2ph8';
 
@@ -28,7 +29,10 @@ export default async function home() {
   const last = store.last();
   if (!cont && last && Date.now() - last.t < 7 * 86400000) cont = { href: last.href, title: last.title, sub: last.sub, cta: 'Continue' };
 
+  const isSunday = new Date().getDay() === 0; const ws = weekStats(); const reportSeen = st.settings.reportSeen === today;
   const node = el(`<div>
+    ${installBanner()}
+    ${isSunday && ws.n && !reportSeen ? `<a class="card link" href="#/report" style="border-color:var(--accent);background:#fff7e6"><div class="kicker">Sunday</div><div class="row spread" style="align-items:center"><span><b style="font-size:1.1rem">Your weekly report card is ready</b><div class="muted">${ws.n} questions this week · ${Math.round(100 * ws.c / Math.max(1, ws.n))}% correct</div></span><span class="btn small">Open →</span></div></a>` : ''}
     <div class="card hero">
       <div class="kicker">Free for every Karnataka student</div>
       <h1>Get ready for KCET.</h1>
@@ -73,6 +77,7 @@ export default async function home() {
       <a class="card link" href="#/rank"><b>🎯 Rank calculator</b><div class="muted">Board marks + CET marks → rank estimate.</div></a>
       <a class="card link" href="#/plan"><b>📆 My study plan</b><div class="muted">${plan ? `${daysLeft} days left · edit plan` : 'Day-by-day schedule to your exam.'}</div></a>
       <a class="card link" href="#/progress"><b>📈 Progress & mistakes</b><div class="muted">Weak chapters and why you go wrong.</div></a>
+      <a class="card link" href="#/report"><b>🗂 Weekly report card</b><div class="muted">This week's score, shareable as an image.</div></a>
     </div>
 
     <div class="card">
@@ -85,6 +90,9 @@ export default async function home() {
     <p class="muted" style="text-align:center">Found a mistake or have an idea? <a href="${FEEDBACK}" target="_blank" rel="noopener">Tell us</a> · <a href="#/settings">Settings</a></p>
   </div>`);
 
+  node.querySelector('#installNow')?.addEventListener('click', async () => { const p = window.__installPrompt; if (!p) return; p.prompt(); const { outcome } = await p.userChoice; if (outcome === 'accepted') { toast('Installed! Open it from your home screen.'); node.querySelector('#installBanner')?.remove(); } });
+  node.querySelector('#installLater')?.addEventListener('click', () => { localStorage.setItem('kcet.installDismissed', String(Date.now())); node.querySelector('#installBanner')?.remove(); });
+  window.addEventListener('kcet:installable', () => { const b = node.querySelector('#installBanner'); if (b) { b.querySelector('#installNow')?.classList.remove('hidden'); b.querySelector('.install-how')?.classList.add('hidden'); } }, { once: true });
   node.querySelector('#makePlan')?.addEventListener('click', async (e) => {
     const date = node.querySelector('#examDate').value, hours = +node.querySelector('#hours').value;
     if (!date || new Date(date) <= new Date()) return alert('Please pick a future exam date');
@@ -97,3 +105,21 @@ export default async function home() {
 }
 function linkOf(t) { return t.type === 'chapter' ? `#/chapter/${t.subject}/${t.slug}` : t.type === 'revise' ? `#/flashcards/${t.subject}/${t.slug}` : t.type === 'mock' ? '#/tests' : t.type === 'pyq' ? '#/pyq' : '#/today'; }
 function defaultExam() { const d = new Date(); d.setMonth(d.getMonth() + 4); return d.toISOString().slice(0, 10); }
+
+function installBanner() {
+  const standalone = window.navigator.standalone === true || matchMedia('(display-mode: standalone)').matches;
+  const dismissed = +localStorage.getItem('kcet.installDismissed') || 0;
+  if (standalone || Date.now() - dismissed < 7 * 86400000) return '';
+  const ua = navigator.userAgent;
+  const isIOS = /iPhone|iPad|iPod/.test(ua) || (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1);
+  const isAndroid = /Android/.test(ua);
+  const canPrompt = !!window.__installPrompt;
+  const how = isIOS ? 'Tap the <b>Share</b> button (square with arrow) → <b>Add to Home Screen</b>.'
+    : isAndroid ? 'Tap the browser <b>⋮ menu</b> → <b>Add to Home screen</b> / <b>Install app</b>.'
+    : 'In Chrome or Edge: click the <b>install icon</b> in the address bar, or menu → <b>Install KCET Prep</b>.';
+  return `<div class="card install-banner" id="installBanner">
+    <div class="row spread" style="align-items:center;gap:10px">
+      <span><b>📲 Install the app</b><div class="muted">Opens full-screen, works offline, no store needed.</div><div class="muted install-how ${canPrompt ? 'hidden' : ''}" style="margin-top:4px">${how}</div></span>
+      <span class="row" style="gap:6px"><button class="btn small ${canPrompt ? '' : 'hidden'}" id="installNow">Install</button><button class="btn small ghost" id="installLater">Later</button></span>
+    </div></div>`;
+}

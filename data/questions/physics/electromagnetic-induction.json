@@ -12,7 +12,8 @@
       ],
       "answer": 3,
       "difficulty": "easy",
-      "explanation": "$\\varepsilon = N\\Delta\\phi/\\Delta t = 100\\times(0.06-0.02)/0.4 = 100\\times0.1 = 10$ V."
+      "explanation": "$\\varepsilon = N\\Delta\\phi/\\Delta t = 100\\times(0.06-0.02)/0.4 = 100\\times0.1 = 10$ V.",
+      "trick": "$\\varepsilon=N\\Delta\\phi/\\Delta t$ — multiply by turns, use the flux CHANGE not final value."
     },
     {
       "id": "phy-electromagnetic-induction-002",
@@ -25,7 +26,8 @@
       ],
       "answer": 2,
       "difficulty": "easy",
-      "explanation": "$\\varepsilon = Bvl = 0.4\\times4\\times0.5 = 0.8$ V."
+      "explanation": "$\\varepsilon = Bvl = 0.4\\times4\\times0.5 = 0.8$ V.",
+      "trick": "Motional emf: $\\varepsilon=Bvl$ — straight multiplication, no angle needed here."
     },
     {
       "id": "phy-electromagnetic-induction-003",
@@ -38,7 +40,8 @@
       ],
       "answer": 0,
       "difficulty": "easy",
-      "explanation": "The induced effect opposes the cause producing it; if it aided the cause, energy would be created from nothing, violating energy conservation."
+      "explanation": "The induced effect opposes the cause producing it; if it aided the cause, energy would be created from nothing, violating energy conservation.",
+      "trick": "Lenz's law = energy conservation; aiding the change would create energy from nothing."
     },
     {
       "id": "phy-electromagnetic-induction-004",
@@ -51,7 +54,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "Induced current $I = Bvl/R$; opposing force on rod $F=BIl = B^2l^2v/R$, which an external agent must supply to maintain constant $v$."
+      "explanation": "Induced current $I = Bvl/R$; opposing force on rod $F=BIl = B^2l^2v/R$, which an external agent must supply to maintain constant $v$.",
+      "trick": "Rod-on-rails: force to sustain constant $v$ is always $B^2l^2v/R$ — memorise this formula."
     },
     {
       "id": "phy-electromagnetic-induction-005",
@@ -64,7 +68,8 @@
       ],
       "answer": 3,
       "difficulty": "medium",
-      "explanation": "$P = F v = (B^2l^2v/R)\\times v = B^2l^2v^2/R = 0.25\\times1\\times4/2 = 0.5$ W, equal to $I^2R$ dissipated."
+      "explanation": "$P = F v = (B^2l^2v/R)\\times v = B^2l^2v^2/R = 0.25\\times1\\times4/2 = 0.5$ W, equal to $I^2R$ dissipated.",
+      "trick": "Power by external agent = power dissipated = $B^2l^2v^2/R$ — extra factor of $v$ over force."
     },
     {
       "id": "phy-electromagnetic-induction-006",
@@ -77,7 +82,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "$L = \\mu_0N^2A/l = 4\\pi\\times10^{-7}\\times500^2\\times10^{-3}/1 = 4\\pi\\times10^{-7}\\times2.5\\times10^5\\times10^{-3} = 10\\pi\\times10^{-5} \\approx 3.14\\times10^{-4}$ H."
+      "explanation": "$L = \\mu_0N^2A/l = 4\\pi\\times10^{-7}\\times500^2\\times10^{-3}/1 = 4\\pi\\times10^{-7}\\times2.5\\times10^5\\times10^{-3} = 10\\pi\\times10^{-5} \\approx 3.14\\times10^{-4}$ H.",
+      "trick": "Solenoid inductance $L=\\mu_0N^2A/l$ — turns are SQUARED, easy to miss."
     },
     {
       "id": "phy-electromagnetic-induction-007",
@@ -90,7 +96,8 @@
       ],
       "answer": 0,
       "difficulty": "easy",
-      "explanation": "$U = \\dfrac12LI^2 = \\dfrac12\\times2\\times25 = 25$ J."
+      "explanation": "$U = \\dfrac12LI^2 = \\dfrac12\\times2\\times25 = 25$ J.",
+      "trick": "$U=\\frac12LI^2$ — same $\\frac12$ pattern as capacitor and kinetic energy."
     },
     {
       "id": "phy-electromagnetic-induction-008",
@@ -103,7 +110,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "$\\varepsilon_0 = NBA\\omega = 100\\times0.2\\times0.1\\times50 = 100$ V."
+      "explanation": "$\\varepsilon_0 = NBA\\omega = 100\\times0.2\\times0.1\\times50 = 100$ V.",
+      "trick": "AC generator peak emf: $\\varepsilon_0=NBA\\omega$ — multiply all four factors directly."
     },
     {
       "id": "phy-electromagnetic-induction-009",
@@ -116,7 +124,8 @@
       ],
       "answer": 3,
       "difficulty": "medium",
-      "explanation": "As the magnet approaches, downward flux through the loop increases; by Lenz's law the induced current flows anticlockwise (viewed from above the falling magnet's side) to create an opposing upward field."
+      "explanation": "As the magnet approaches, downward flux through the loop increases; by Lenz's law the induced current flows anticlockwise (viewed from above the falling magnet's side) to create an opposing upward field.",
+      "trick": "Approaching magnet increases flux; induced current always opposes — apply Lenz's law, then right-hand rule."
     },
     {
       "id": "phy-electromagnetic-induction-010",
@@ -129,7 +138,8 @@
       ],
       "answer": 1,
       "difficulty": "easy",
-      "explanation": "Laminating the core into thin sheets insulated from each other increases resistance to eddy current paths, reducing eddy current (heating) losses without affecting the main flux."
+      "explanation": "Laminating the core into thin sheets insulated from each other increases resistance to eddy current paths, reducing eddy current (heating) losses without affecting the main flux.",
+      "trick": "Laminating the core (thin insulated sheets) is THE standard fix for eddy current loss."
     },
     {
       "id": "phy-electromagnetic-induction-011",
@@ -142,7 +152,8 @@
       ],
       "answer": 0,
       "difficulty": "easy",
-      "explanation": "$\\varepsilon_2 = M\\dfrac{dI_1}{dt} = 0.5\\times4 = 2$ V."
+      "explanation": "$\\varepsilon_2 = M\\dfrac{dI_1}{dt} = 0.5\\times4 = 2$ V.",
+      "trick": "$\\varepsilon_2=M\\,dI_1/dt$ — direct multiplication, ignore turns in secondary explicitly."
     },
     {
       "id": "phy-electromagnetic-induction-012",
@@ -155,7 +166,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "$\\varepsilon = \\Delta\\phi/\\Delta t = (BA)/\\Delta t = (0.5\\times0.02)/0.1 = 0.01/0.1 = 0.1$ V."
+      "explanation": "$\\varepsilon = \\Delta\\phi/\\Delta t = (BA)/\\Delta t = (0.5\\times0.02)/0.1 = 0.01/0.1 = 0.1$ V.",
+      "trick": "$\\varepsilon=\\Delta(BA)/\\Delta t$ when area is fixed and field changes — same formula, swapped variable."
     },
     {
       "id": "phy-electromagnetic-induction-013",
@@ -168,7 +180,8 @@
       ],
       "answer": 0,
       "difficulty": "easy",
-      "explanation": "Lenz's law specifies the direction: the induced current opposes the change in flux causing it."
+      "explanation": "Lenz's law specifies the direction: the induced current opposes the change in flux causing it.",
+      "trick": "Direction of induced current = Lenz's law; magnitude = Faraday's law — know which does what."
     },
     {
       "id": "phy-electromagnetic-induction-014",
@@ -181,7 +194,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "$\\varepsilon = -d\\phi/dt = NBA\\omega\\sin\\omega t$ is maximum when $\\sin\\omega t=1$, i.e. when flux $\\phi=NBA\\cos\\omega t$ is zero — which happens when the coil plane is parallel to the field (flux through it is zero but changing fastest)."
+      "explanation": "$\\varepsilon = -d\\phi/dt = NBA\\omega\\sin\\omega t$ is maximum when $\\sin\\omega t=1$, i.e. when flux $\\phi=NBA\\cos\\omega t$ is zero — which happens when the coil plane is parallel to the field (flux through it is zero but changing fastest).",
+      "trick": "Emf max when flux is ZERO but changing fastest — coil plane parallel to field, not perpendicular."
     },
     {
       "id": "phy-electromagnetic-induction-015",
@@ -194,7 +208,8 @@
       ],
       "answer": 2,
       "difficulty": "easy",
-      "explanation": "$M = k\\sqrt{L_1L_2}$; for perfect coupling $k=1$, $M=\\sqrt{L_1L_2}$."
+      "explanation": "$M = k\\sqrt{L_1L_2}$; for perfect coupling $k=1$, $M=\\sqrt{L_1L_2}$.",
+      "trick": "Perfect coupling ($k=1$): $M=\\sqrt{L_1L_2}$ — geometric mean of the two inductances."
     },
     {
       "id": "phy-electromagnetic-induction-016",
@@ -207,7 +222,8 @@
       ],
       "answer": 3,
       "difficulty": "easy",
-      "explanation": "As the disc enters/exits the field, changing flux induces eddy currents in it; the opposing force (Lenz's law) does negative work, converting kinetic energy to heat and slowing the disc."
+      "explanation": "As the disc enters/exits the field, changing flux induces eddy currents in it; the opposing force (Lenz's law) does negative work, converting kinetic energy to heat and slowing the disc.",
+      "trick": "Swinging disc into a field slows via eddy currents converting KE to heat — Lenz's law braking."
     },
     {
       "id": "phy-electromagnetic-induction-017",
@@ -220,7 +236,8 @@
       ],
       "answer": 1,
       "difficulty": "easy",
-      "explanation": "From $\\varepsilon=-L\\,dI/dt$, $L$ has unit V/(A/s) = V s/A, defined as the henry."
+      "explanation": "From $\\varepsilon=-L\\,dI/dt$, $L$ has unit V/(A/s) = V s/A, defined as the henry.",
+      "trick": "Henry $=$ V$\\cdot$s/A, from $\\varepsilon=-L\\,dI/dt$ — rearrange units directly."
     },
     {
       "id": "phy-electromagnetic-induction-018",
@@ -233,7 +250,8 @@
       ],
       "answer": 3,
       "difficulty": "medium",
-      "explanation": "Only the side crossing the boundary contributes: $\\varepsilon = Bvl = 0.5\\times2\\times0.1 = 0.1$ V."
+      "explanation": "Only the side crossing the boundary contributes: $\\varepsilon = Bvl = 0.5\\times2\\times0.1 = 0.1$ V.",
+      "trick": "Only the side crossing the field boundary generates emf: $\\varepsilon=Bvl$ for that side alone."
     },
     {
       "id": "phy-electromagnetic-induction-019",
@@ -246,7 +264,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "$\\varepsilon_0 = NBA\\omega$; since $\\omega = 2\\pi f$, doubling $f$ doubles $\\omega$ and hence doubles $\\varepsilon_0$."
+      "explanation": "$\\varepsilon_0 = NBA\\omega$; since $\\omega = 2\\pi f$, doubling $f$ doubles $\\omega$ and hence doubles $\\varepsilon_0$.",
+      "trick": "$\\varepsilon_0=NBA\\omega\\propto f$: doubling frequency directly doubles peak emf."
     },
     {
       "id": "phy-electromagnetic-induction-020",
@@ -259,7 +278,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "The changing flux induces a current in the ring which, by Lenz's law, opposes the magnet's motion, providing an upward retarding force so the net acceleration is less than $g$."
+      "explanation": "The changing flux induces a current in the ring which, by Lenz's law, opposes the magnet's motion, providing an upward retarding force so the net acceleration is less than $g$.",
+      "trick": "Falling magnet through a ring: eddy currents oppose motion, so acceleration is always $<g$."
     },
     {
       "id": "phy-electromagnetic-induction-021",
@@ -272,7 +292,8 @@
       ],
       "answer": 0,
       "difficulty": "easy",
-      "explanation": "An induced electric field forms closed loops around the region of changing flux and does non-zero work around a closed path, unlike the conservative, radial electrostatic field of charges."
+      "explanation": "An induced electric field forms closed loops around the region of changing flux and does non-zero work around a closed path, unlike the conservative, radial electrostatic field of charges.",
+      "trick": "Induced E-field forms closed loops (non-conservative) — unlike electrostatic field's open radial lines."
     },
     {
       "id": "phy-electromagnetic-induction-022",
@@ -285,7 +306,8 @@
       ],
       "answer": 3,
       "difficulty": "medium",
-      "explanation": "Time constant $\\tau=L/R=2/4=0.5$ s; steady current $i_{max}=\\varepsilon/R=12/4=3$ A."
+      "explanation": "Time constant $\\tau=L/R=2/4=0.5$ s; steady current $i_{max}=\\varepsilon/R=12/4=3$ A.",
+      "trick": "LR circuit: $\\tau=L/R$ and steady current $=\\varepsilon/R$ — two separate, simple formulas."
     },
     {
       "id": "phy-electromagnetic-induction-023",
@@ -298,7 +320,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "$\\varepsilon=\\dfrac12B\\omega l^2=\\dfrac12\\times0.5\\times10\\times1^2=2.5$ V."
+      "explanation": "$\\varepsilon=\\dfrac12B\\omega l^2=\\dfrac12\\times0.5\\times10\\times1^2=2.5$ V.",
+      "trick": "Rotating rod: $\\varepsilon=\\frac12B\\omega l^2$ — the extra $\\frac12$ distinguishes it from linear motional emf."
     },
     {
       "id": "phy-electromagnetic-induction-024",
@@ -311,7 +334,8 @@
       ],
       "answer": 2,
       "difficulty": "hard",
-      "explanation": "$\\varepsilon = B\\dfrac{dA}{dt} = B\\times2\\pi r\\dfrac{dr}{dt} = 0.2\\times2\\pi\\times0.1\\times0.02 \\approx 2.5\\times10^{-3}$ V."
+      "explanation": "$\\varepsilon = B\\dfrac{dA}{dt} = B\\times2\\pi r\\dfrac{dr}{dt} = 0.2\\times2\\pi\\times0.1\\times0.02 \\approx 2.5\\times10^{-3}$ V.",
+      "trick": "Expanding loop: $\\varepsilon=B\\,dA/dt=B\\times2\\pi r\\,(dr/dt)$ — differentiate area, not radius directly."
     },
     {
       "id": "phy-electromagnetic-induction-025",
@@ -324,7 +348,8 @@
       ],
       "answer": 3,
       "difficulty": "easy",
-      "explanation": "The rotating armature coil generates a back emf $\\varepsilon_b$ opposing the applied voltage; as speed increases $\\varepsilon_b$ increases, so the net current $i=(V-\\varepsilon_b)/R$ decreases."
+      "explanation": "The rotating armature coil generates a back emf $\\varepsilon_b$ opposing the applied voltage; as speed increases $\\varepsilon_b$ increases, so the net current $i=(V-\\varepsilon_b)/R$ decreases.",
+      "trick": "Back emf rises with motor speed, always REDUCING net current drawn — self-regulating mechanism."
     },
     {
       "id": "phy-electromagnetic-induction-026",
@@ -337,7 +362,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "$M=\\mu_0n_1n_2Al = 4\\pi\\times10^{-7}\\times1000\\times2000\\times2\\times10^{-3}\\times0.5 \\approx 2.5\\times10^{-3}$ H."
+      "explanation": "$M=\\mu_0n_1n_2Al = 4\\pi\\times10^{-7}\\times1000\\times2000\\times2\\times10^{-3}\\times0.5 \\approx 2.5\\times10^{-3}$ H.",
+      "trick": "Coaxial solenoids: $M=\\mu_0n_1n_2Al$ — use turn densities ($n=N/l$), not total turns."
     },
     {
       "id": "phy-electromagnetic-induction-027",
@@ -350,7 +376,8 @@
       ],
       "answer": 0,
       "difficulty": "easy",
-      "explanation": "$k=0$ means no flux linkage between coils; $k=1$ means perfect coupling (no leakage flux); $k$ cannot exceed 1."
+      "explanation": "$k=0$ means no flux linkage between coils; $k=1$ means perfect coupling (no leakage flux); $k$ cannot exceed 1.",
+      "trick": "Coupling coefficient $k$ always lies between 0 (no linkage) and 1 (perfect coupling)."
     },
     {
       "id": "phy-electromagnetic-induction-028",
@@ -363,7 +390,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "For inductors in series with no coupling, $L=L_1+L_2=3+5=8$ H."
+      "explanation": "For inductors in series with no coupling, $L=L_1+L_2=3+5=8$ H.",
+      "trick": "Uncoupled series inductors: just add, $L=L_1+L_2$, like series resistors."
     },
     {
       "id": "phy-electromagnetic-induction-029",
@@ -376,7 +404,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "The wire's increasing current increases the flux through the loop; by Lenz's law the induced current opposes this increase, flowing anti-parallel to $I$ on the side nearest the wire."
+      "explanation": "The wire's increasing current increases the flux through the loop; by Lenz's law the induced current opposes this increase, flowing anti-parallel to $I$ on the side nearest the wire.",
+      "trick": "Increasing current nearby: induced current in loop opposes rise, flows anti-parallel on the near side."
     },
     {
       "id": "phy-electromagnetic-induction-030",
@@ -389,7 +418,8 @@
       ],
       "answer": 0,
       "difficulty": "easy",
-      "explanation": "A transformer transfers energy between primary and secondary coils purely through mutual induction, with no electrical contact between them."
+      "explanation": "A transformer transfers energy between primary and secondary coils purely through mutual induction, with no electrical contact between them.",
+      "trick": "Mutual induction's classic application: the transformer, no electrical contact needed."
     },
     {
       "id": "phy-electromagnetic-induction-031",
@@ -402,7 +432,8 @@
       ],
       "answer": 3,
       "difficulty": "medium",
-      "explanation": "$i=i_{max}(1-e^{-t/\\tau})$; at $t=\\tau$, $i=i_{max}(1-e^{-1})\\approx0.63\\,i_{max}$, i.e. 63%."
+      "explanation": "$i=i_{max}(1-e^{-t/\\tau})$; at $t=\\tau$, $i=i_{max}(1-e^{-1})\\approx0.63\\,i_{max}$, i.e. 63%.",
+      "trick": "LR growth: 63% of final current after one time constant — memorise $1-e^{-1}\\approx0.63$."
     },
     {
       "id": "phy-electromagnetic-induction-032",
@@ -415,7 +446,8 @@
       ],
       "answer": 1,
       "difficulty": "easy",
-      "explanation": "$U=\\dfrac12LI^2$; for the same $I$, $U\\propto L$, so the ratio is $L:4L=1:4$."
+      "explanation": "$U=\\dfrac12LI^2$; for the same $I$, $U\\propto L$, so the ratio is $L:4L=1:4$.",
+      "trick": "$U=\\frac12LI^2$, same $I$: energy ratio equals inductance ratio directly, $L:4L$."
     },
     {
       "id": "phy-electromagnetic-induction-033",
@@ -428,7 +460,8 @@
       ],
       "answer": 1,
       "difficulty": "easy",
-      "explanation": "Decay follows $i=i_0e^{-t/\\tau}$; at $t=\\tau$, $i=i_0e^{-1}\\approx0.37\\,i_0$, i.e. 37%."
+      "explanation": "Decay follows $i=i_0e^{-t/\\tau}$; at $t=\\tau$, $i=i_0e^{-1}\\approx0.37\\,i_0$, i.e. 37%.",
+      "trick": "LR decay: 37% of initial current remains after one time constant ($e^{-1}\\approx0.37$)."
     },
     {
       "id": "phy-electromagnetic-induction-034",
@@ -441,7 +474,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "Initial flux $\\phi_1=BA=0.4\\times0.1=0.04$ Wb, final flux $\\phi_2=0$; average emf $=\\Delta\\phi/\\Delta t=0.04/0.2=0.2$ V."
+      "explanation": "Initial flux $\\phi_1=BA=0.4\\times0.1=0.04$ Wb, final flux $\\phi_2=0$; average emf $=\\Delta\\phi/\\Delta t=0.04/0.2=0.2$ V.",
+      "trick": "Perpendicular-to-parallel rotation: flux goes from $BA$ to zero — use $\\Delta\\phi/\\Delta t$ directly."
     },
     {
       "id": "phy-electromagnetic-induction-035",
@@ -454,7 +488,8 @@
       ],
       "answer": 3,
       "difficulty": "easy",
-      "explanation": "The negative sign encodes Lenz's law: the induced emf drives a current whose effects oppose the very change in flux that caused it, consistent with energy conservation."
+      "explanation": "The negative sign encodes Lenz's law: the induced emf drives a current whose effects oppose the very change in flux that caused it, consistent with energy conservation.",
+      "trick": "Negative sign in Faraday's law IS Lenz's law — opposition to the flux change, always."
     },
     {
       "id": "phy-electromagnetic-induction-036",
@@ -467,7 +502,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "Since only the relative motion between magnet and coil determines the rate of change of flux, the induced emf is identical in both cases for the same relative speed."
+      "explanation": "Since only the relative motion between magnet and coil determines the rate of change of flux, the induced emf is identical in both cases for the same relative speed.",
+      "trick": "Only relative velocity between magnet and coil matters — emf is the same either way."
     },
     {
       "id": "phy-electromagnetic-induction-037",
@@ -480,7 +516,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "$M=\\dfrac{\\mu_0\\pi r^2}{2R}=\\dfrac{4\\pi\\times10^{-7}\\times\\pi\\times(0.02)^2}{2\\times0.5}\\approx1.6\\times10^{-9}$ H."
+      "explanation": "$M=\\dfrac{\\mu_0\\pi r^2}{2R}=\\dfrac{4\\pi\\times10^{-7}\\times\\pi\\times(0.02)^2}{2\\times0.5}\\approx1.6\\times10^{-9}$ H.",
+      "trick": "Given formula questions: just substitute values carefully, watch the powers of 10."
     },
     {
       "id": "phy-electromagnetic-induction-038",
@@ -493,7 +530,8 @@
       ],
       "answer": 1,
       "difficulty": "easy",
-      "explanation": "Faraday's law, $\\varepsilon=-Nd\\phi/dt$, is completely general — it covers emf from a conductor moving through a field as well as emf from a purely time-varying field with a stationary coil."
+      "explanation": "Faraday's law, $\\varepsilon=-Nd\\phi/dt$, is completely general — it covers emf from a conductor moving through a field as well as emf from a purely time-varying field with a stationary coil.",
+      "trick": "Faraday's law covers BOTH motional emf and changing-field emf — fully general, no restriction."
     },
     {
       "id": "phy-electromagnetic-induction-039",
@@ -506,7 +544,8 @@
       ],
       "answer": 3,
       "difficulty": "medium",
-      "explanation": "From $\\varepsilon=L\\,di/dt+iR$, at $t=0$, $i=0$, so $di/dt=\\varepsilon/L$, its maximum value; as current builds up, $di/dt$ decreases towards zero."
+      "explanation": "From $\\varepsilon=L\\,di/dt+iR$, at $t=0$, $i=0$, so $di/dt=\\varepsilon/L$, its maximum value; as current builds up, $di/dt$ decreases towards zero.",
+      "trick": "$di/dt$ is maximum at $t=0$ (equals $\\varepsilon/L$) and decreases as current builds up."
     },
     {
       "id": "phy-electromagnetic-induction-040",
@@ -519,7 +558,8 @@
       ],
       "answer": 3,
       "difficulty": "medium",
-      "explanation": "As the moving conductor enters/exits a magnetic field, induced eddy currents oppose the motion (Lenz's law) and convert kinetic energy into heat, giving smooth braking without mechanical contact."
+      "explanation": "As the moving conductor enters/exits a magnetic field, induced eddy currents oppose the motion (Lenz's law) and convert kinetic energy into heat, giving smooth braking without mechanical contact.",
+      "trick": "Eddy currents brake by converting KE to heat via Lenz's law — contact-free, smooth deceleration."
     }
   ]
 }

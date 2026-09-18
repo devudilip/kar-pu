@@ -12,7 +12,8 @@
       ],
       "answer": 2,
       "difficulty": "easy",
-      "explanation": "With $l=m=n$ and $l^2+m^2+n^2=1$, we get $3l^2=1 \\Rightarrow l=\\dfrac{1}{\\sqrt3}$."
+      "explanation": "With $l=m=n$ and $l^2+m^2+n^2=1$, we get $3l^2=1 \\Rightarrow l=\\dfrac{1}{\\sqrt3}$.",
+      "trick": "Equal angles with all axes $\\Rightarrow l=m=n=1/\\sqrt3$ from $3l^2=1$."
     },
     {
       "id": "mat-three-d-geometry-002",
@@ -25,7 +26,8 @@
       ],
       "answer": 3,
       "difficulty": "easy",
-      "explanation": "DRs $= (3,4,0)$, magnitude $=5$, so DCs $=(3/5,4/5,0)$."
+      "explanation": "DRs $= (3,4,0)$, magnitude $=5$, so DCs $=(3/5,4/5,0)$.",
+      "trick": "DRs = difference of coordinates; divide by their magnitude for DCs."
     },
     {
       "id": "mat-three-d-geometry-003",
@@ -38,7 +40,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "$(1)(2)+(2)(-1)+(-2)(0) = 2-2+0 = 0$, so the lines are perpendicular."
+      "explanation": "$(1)(2)+(2)(-1)+(-2)(0) = 2-2+0 = 0$, so the lines are perpendicular.",
+      "trick": "Perpendicular lines: dot product of their direction ratios is zero."
     },
     {
       "id": "mat-three-d-geometry-004",
@@ -51,7 +54,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "$\\cos\\theta = \\dfrac{1}{\\sqrt2\\times1} = \\dfrac{1}{\\sqrt2}$, so $\\theta = 45^\\circ$."
+      "explanation": "$\\cos\\theta = \\dfrac{1}{\\sqrt2\\times1} = \\dfrac{1}{\\sqrt2}$, so $\\theta = 45^\\circ$.",
+      "trick": "$\\cos\\theta=(a_1a_2+b_1b_2+c_1c_2)/(\\text{magnitudes})$ — plug DRs directly."
     },
     {
       "id": "mat-three-d-geometry-005",
@@ -64,7 +68,8 @@
       ],
       "answer": 3,
       "difficulty": "easy",
-      "explanation": "The line through $(x_1,y_1,z_1)$ with DRs $(a,b,c)$ is $\\dfrac{x-x_1}{a}=\\dfrac{y-y_1}{b}=\\dfrac{z-z_1}{c}$."
+      "explanation": "The line through $(x_1,y_1,z_1)$ with DRs $(a,b,c)$ is $\\dfrac{x-x_1}{a}=\\dfrac{y-y_1}{b}=\\dfrac{z-z_1}{c}$.",
+      "trick": "Line through a point with DRs $(a,b,c)$: $\\dfrac{x-x_1}{a}=\\dfrac{y-y_1}{b}=\\dfrac{z-z_1}{c}$."
     },
     {
       "id": "mat-three-d-geometry-006",
@@ -77,7 +82,8 @@
       ],
       "answer": 0,
       "difficulty": "easy",
-      "explanation": "$d=\\sqrt{3^2+4^2+12^2} = \\sqrt{9+16+144} = \\sqrt{169} = 13$."
+      "explanation": "$d=\\sqrt{3^2+4^2+12^2} = \\sqrt{9+16+144} = \\sqrt{169} = 13$.",
+      "trick": "Distance $=\\sqrt{\\Delta x^2+\\Delta y^2+\\Delta z^2}$ — check for a Pythagorean triple."
     },
     {
       "id": "mat-three-d-geometry-007",
@@ -90,7 +96,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "This is the standard vector formula for the shortest distance between two skew lines."
+      "explanation": "This is the standard vector formula for the shortest distance between two skew lines.",
+      "trick": "Shortest distance between skew lines: $|(\\vec b_1\\times\\vec b_2)\\cdot(\\vec a_2-\\vec a_1)|/|\\vec b_1\\times\\vec b_2|$."
     },
     {
       "id": "mat-three-d-geometry-008",
@@ -103,7 +110,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "$\\vec a_2-\\vec a_1=(0,1,0)$; $\\vec b\\times(\\vec a_2-\\vec a_1) = (0,1,1)\\times(0,1,0) = (-1,0,0)$, magnitude $1$; $|\\vec b|=\\sqrt2$, so $d=\\dfrac{1}{\\sqrt2}$."
+      "explanation": "$\\vec a_2-\\vec a_1=(0,1,0)$; $\\vec b\\times(\\vec a_2-\\vec a_1) = (0,1,1)\\times(0,1,0) = (-1,0,0)$, magnitude $1$; $|\\vec b|=\\sqrt2$, so $d=\\dfrac{1}{\\sqrt2}$.",
+      "trick": "For parallel lines use $|\\vec b\\times(\\vec a_2-\\vec a_1)|/|\\vec b|$, not the skew-line formula."
     },
     {
       "id": "mat-three-d-geometry-009",
@@ -116,7 +124,8 @@
       ],
       "answer": 0,
       "difficulty": "easy",
-      "explanation": "This is the defining equation of a plane in normal form."
+      "explanation": "This is the defining equation of a plane in normal form.",
+      "trick": "Normal form $lx+my+nz=p$: $(l,m,n)$ are DCs of normal, $p$ is distance from origin."
     },
     {
       "id": "mat-three-d-geometry-010",
@@ -129,7 +138,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "$2(x-1)-1(y-1)+3(z-1)=0 \\Rightarrow 2x-y+3z-4=0 \\Rightarrow 2x-y+3z=4$."
+      "explanation": "$2(x-1)-1(y-1)+3(z-1)=0 \\Rightarrow 2x-y+3z-4=0 \\Rightarrow 2x-y+3z=4$.",
+      "trick": "Plane perpendicular to a line: use the line's DRs directly as the plane's normal."
     },
     {
       "id": "mat-three-d-geometry-011",
@@ -142,7 +152,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "$d = \\dfrac{|1+1+1-6|}{\\sqrt{1+1+1}} = \\dfrac{3}{\\sqrt3} = \\sqrt3$."
+      "explanation": "$d = \\dfrac{|1+1+1-6|}{\\sqrt{1+1+1}} = \\dfrac{3}{\\sqrt3} = \\sqrt3$.",
+      "trick": "Distance $=|ax_1+by_1+cz_1+d|/\\sqrt{a^2+b^2+c^2}$ — plug the point into the plane's LHS."
     },
     {
       "id": "mat-three-d-geometry-012",
@@ -155,7 +166,8 @@
       ],
       "answer": 3,
       "difficulty": "medium",
-      "explanation": "Normals $(1,1,2)$, $(2,-1,1)$: $\\cos\\theta = \\dfrac{2-1+2}{\\sqrt6\\sqrt6} = \\dfrac{3}{6} = 0.5 \\Rightarrow \\theta=60^\\circ$."
+      "explanation": "Normals $(1,1,2)$, $(2,-1,1)$: $\\cos\\theta = \\dfrac{2-1+2}{\\sqrt6\\sqrt6} = \\dfrac{3}{6} = 0.5 \\Rightarrow \\theta=60^\\circ$.",
+      "trick": "Angle between planes = angle between their normal vectors."
     },
     {
       "id": "mat-three-d-geometry-013",
@@ -168,7 +180,8 @@
       ],
       "answer": 0,
       "difficulty": "easy",
-      "explanation": "Parallel planes have proportional normal vectors, i.e. proportional coefficients of $x,y,z$."
+      "explanation": "Parallel planes have proportional normal vectors, i.e. proportional coefficients of $x,y,z$.",
+      "trick": "Parallel planes: coefficients of $x,y,z$ are proportional between the two equations."
     },
     {
       "id": "mat-three-d-geometry-014",
@@ -181,7 +194,8 @@
       ],
       "answer": 2,
       "difficulty": "easy",
-      "explanation": "Normals $(1,1,1)$ and $(1,-2,1)$: $1-2+1=0$, so the planes are perpendicular."
+      "explanation": "Normals $(1,1,1)$ and $(1,-2,1)$: $1-2+1=0$, so the planes are perpendicular.",
+      "trick": "Perpendicular planes: dot product of their normals equals zero."
     },
     {
       "id": "mat-three-d-geometry-015",
@@ -194,7 +208,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "$d = \\dfrac{|-4-(-13)|}{\\sqrt{1+4+4}} = \\dfrac{9}{3} = 3$."
+      "explanation": "$d = \\dfrac{|-4-(-13)|}{\\sqrt{1+4+4}} = \\dfrac{9}{3} = 3$.",
+      "trick": "Same normal, different constants: distance $=|d_1-d_2|/\\sqrt{a^2+b^2+c^2}$."
     },
     {
       "id": "mat-three-d-geometry-016",
@@ -207,7 +222,8 @@
       ],
       "answer": 3,
       "difficulty": "easy",
-      "explanation": "This is the standard intercept form of the equation of a plane."
+      "explanation": "This is the standard intercept form of the equation of a plane.",
+      "trick": "Intercept form $x/a+y/b+z/c=1$ — read intercepts directly off the denominators."
     },
     {
       "id": "mat-three-d-geometry-017",
@@ -220,7 +236,8 @@
       ],
       "answer": 2,
       "difficulty": "hard",
-      "explanation": "Dividing by 12: $\\dfrac{x}{6}+\\dfrac{y}{4}+\\dfrac{z}{2}=1$, so intercepts are $6,4,2$."
+      "explanation": "Dividing by 12: $\\dfrac{x}{6}+\\dfrac{y}{4}+\\dfrac{z}{2}=1$, so intercepts are $6,4,2$.",
+      "trick": "Divide the whole equation by the constant term to get intercept form directly."
     },
     {
       "id": "mat-three-d-geometry-018",
@@ -233,7 +250,8 @@
       ],
       "answer": 1,
       "difficulty": "hard",
-      "explanation": "$\\cos^2 90^\\circ + \\cos^2 60^\\circ + \\cos^2\\gamma = 1 \\Rightarrow 0 + 0.25 + \\cos^2\\gamma = 1 \\Rightarrow \\cos\\gamma = \\dfrac{\\sqrt3}{2} \\Rightarrow \\gamma = 30^\\circ$."
+      "explanation": "$\\cos^2 90^\\circ + \\cos^2 60^\\circ + \\cos^2\\gamma = 1 \\Rightarrow 0 + 0.25 + \\cos^2\\gamma = 1 \\Rightarrow \\cos\\gamma = \\dfrac{\\sqrt3}{2} \\Rightarrow \\gamma = 30^\\circ$.",
+      "trick": "$\\cos^2\\alpha+\\cos^2\\beta+\\cos^2\\gamma=1$ — find the missing angle from the other two."
     },
     {
       "id": "mat-three-d-geometry-019",
@@ -246,7 +264,8 @@
       ],
       "answer": 0,
       "difficulty": "hard",
-      "explanation": "With $\\vec a_2-\\vec a_1=(3,-1,-3)$, the scalar triple product with $(2,3,4)$ and $(5,2,1)$ equals $0$, so the lines are coplanar; since their direction ratios are not proportional, they intersect (rather than being parallel)."
+      "explanation": "With $\\vec a_2-\\vec a_1=(3,-1,-3)$, the scalar triple product with $(2,3,4)$ and $(5,2,1)$ equals $0$, so the lines are coplanar; since their direction ratios are not proportional, they intersect (rather than being parallel).",
+      "trick": "Zero triple product $\\Rightarrow$ coplanar; compare DRs to rule out parallel, leaving intersecting."
     },
     {
       "id": "mat-three-d-geometry-020",
@@ -259,7 +278,8 @@
       ],
       "answer": 3,
       "difficulty": "easy",
-      "explanation": "The magnitude of $(2,3,6)$ is $\\sqrt{4+9+36}=7$, so the direction cosines are $(2/7,3/7,6/7)$."
+      "explanation": "The magnitude of $(2,3,6)$ is $\\sqrt{4+9+36}=7$, so the direction cosines are $(2/7,3/7,6/7)$.",
+      "trick": "DCs of a point from the origin = its coordinates divided by its distance."
     },
     {
       "id": "mat-three-d-geometry-021",
@@ -272,7 +292,8 @@
       ],
       "answer": 0,
       "difficulty": "easy",
-      "explanation": "$d=\\dfrac{|2(0)+3(0)+6(0)-14|}{\\sqrt{4+9+36}}=\\dfrac{14}{7}=2$."
+      "explanation": "$d=\\dfrac{|2(0)+3(0)+6(0)-14|}{\\sqrt{4+9+36}}=\\dfrac{14}{7}=2$.",
+      "trick": "Distance from origin simplifies to $|\\text{constant term}|/\\sqrt{a^2+b^2+c^2}$."
     },
     {
       "id": "mat-three-d-geometry-022",
@@ -285,7 +306,8 @@
       ],
       "answer": 1,
       "difficulty": "easy",
-      "explanation": "The y-axis makes angle $0^\\circ$ with itself and $90^\\circ$ with the other two axes, giving direction cosines $(0,1,0)$."
+      "explanation": "The y-axis makes angle $0^\\circ$ with itself and $90^\\circ$ with the other two axes, giving direction cosines $(0,1,0)$.",
+      "trick": "Axis direction cosines are always $(1,0,0),(0,1,0),(0,0,1)$ for $x,y,z$."
     },
     {
       "id": "mat-three-d-geometry-023",
@@ -298,7 +320,8 @@
       ],
       "answer": 3,
       "difficulty": "easy",
-      "explanation": "Every point on the x-axis has $y=0$ and $z=0$, with $x$ free."
+      "explanation": "Every point on the x-axis has $y=0$ and $z=0$, with $x$ free.",
+      "trick": "On the x-axis, $y$ and $z$ are both always zero."
     },
     {
       "id": "mat-three-d-geometry-024",
@@ -311,7 +334,8 @@
       ],
       "answer": 2,
       "difficulty": "easy",
-      "explanation": "$d=\\sqrt{8^2+0^2+(-15)^2}=\\sqrt{64+225}=\\sqrt{289}=17$."
+      "explanation": "$d=\\sqrt{8^2+0^2+(-15)^2}=\\sqrt{64+225}=\\sqrt{289}=17$.",
+      "trick": "Look for a Pythagorean triple in the coordinate differences to skip the square root."
     },
     {
       "id": "mat-three-d-geometry-025",
@@ -324,7 +348,8 @@
       ],
       "answer": 1,
       "difficulty": "easy",
-      "explanation": "$\\dfrac{-4}{2}=\\dfrac{6}{-3}=\\dfrac{-2}{1}=-2$, so the direction ratios are proportional and the lines are parallel."
+      "explanation": "$\\dfrac{-4}{2}=\\dfrac{6}{-3}=\\dfrac{-2}{1}=-2$, so the direction ratios are proportional and the lines are parallel.",
+      "trick": "Parallel lines: one set of DRs is a scalar multiple of the other."
     },
     {
       "id": "mat-three-d-geometry-026",
@@ -337,7 +362,8 @@
       ],
       "answer": 3,
       "difficulty": "easy",
-      "explanation": "Every point on the yz-plane has its x-coordinate equal to zero."
+      "explanation": "Every point on the yz-plane has its x-coordinate equal to zero.",
+      "trick": "The yz-plane is defined by $x=0$ for every point on it."
     },
     {
       "id": "mat-three-d-geometry-027",
@@ -350,7 +376,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "The normal to the plane is $(3,-6,2)$. Since $(2)(3)+(3)(-6)+(6)(2)=6-18+12=0$, the line's direction is perpendicular to the normal, so the line is parallel to the plane."
+      "explanation": "The normal to the plane is $(3,-6,2)$. Since $(2)(3)+(3)(-6)+(6)(2)=6-18+12=0$, the line's direction is perpendicular to the normal, so the line is parallel to the plane.",
+      "trick": "Line $\\parallel$ plane $\\Leftrightarrow$ direction $\\cdot$ normal $=0$ (line perpendicular to the normal)."
     },
     {
       "id": "mat-three-d-geometry-028",
@@ -363,7 +390,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "For a plane $lx+my+nz=p$ with $(l,m,n)$ proportional to the normal, the foot of perpendicular from the origin is $\\dfrac{p}{a^2+b^2+c^2}(a,b,c)=\\dfrac{49}{49}(2,3,6)=(2,3,6)$."
+      "explanation": "For a plane $lx+my+nz=p$ with $(l,m,n)$ proportional to the normal, the foot of perpendicular from the origin is $\\dfrac{p}{a^2+b^2+c^2}(a,b,c)=\\dfrac{49}{49}(2,3,6)=(2,3,6)$.",
+      "trick": "Foot from the origin to $lx+my+nz=p$ is $\\dfrac{p}{a^2+b^2+c^2}(a,b,c)$."
     },
     {
       "id": "mat-three-d-geometry-029",
@@ -376,7 +404,8 @@
       ],
       "answer": 3,
       "difficulty": "medium",
-      "explanation": "This is the intercept form $\\dfrac{x}{1}+\\dfrac{y}{1}+\\dfrac{z}{1}=1$, i.e. $x+y+z=1$."
+      "explanation": "This is the intercept form $\\dfrac{x}{1}+\\dfrac{y}{1}+\\dfrac{z}{1}=1$, i.e. $x+y+z=1$.",
+      "trick": "Plane through $(1,0,0),(0,1,0),(0,0,1)$ is always $x+y+z=1$."
     },
     {
       "id": "mat-three-d-geometry-030",
@@ -389,7 +418,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "$(2)(1)+(2)(-2)+(1)(2)=2-4+2=0$, so the lines are perpendicular."
+      "explanation": "$(2)(1)+(2)(-2)+(1)(2)=2-4+2=0$, so the lines are perpendicular.",
+      "trick": "Dot the two DR triples; zero means the lines are perpendicular."
     },
     {
       "id": "mat-three-d-geometry-031",
@@ -402,7 +432,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "$\\sin\\theta=\\dfrac{|(2)(1)+(3)(-2)+(-6)(2)|}{\\sqrt{4+9+36}\\sqrt{1+4+4}}=\\dfrac{|-16|}{7\\times3}=\\dfrac{16}{21}$."
+      "explanation": "$\\sin\\theta=\\dfrac{|(2)(1)+(3)(-2)+(-6)(2)|}{\\sqrt{4+9+36}\\sqrt{1+4+4}}=\\dfrac{|-16|}{7\\times3}=\\dfrac{16}{21}$.",
+      "trick": "Use $\\sin\\theta$ (not $\\cos\\theta$) for the angle between a line and a plane."
     },
     {
       "id": "mat-three-d-geometry-032",
@@ -415,7 +446,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "$d=\\dfrac{|2+6+10-9|}{\\sqrt{1+4+4}}=\\dfrac{9}{3}=3$."
+      "explanation": "$d=\\dfrac{|2+6+10-9|}{\\sqrt{1+4+4}}=\\dfrac{9}{3}=3$.",
+      "trick": "Substitute the point into the plane's LHS, divide by the normal's magnitude."
     },
     {
       "id": "mat-three-d-geometry-033",
@@ -428,7 +460,8 @@
       ],
       "answer": 3,
       "difficulty": "medium",
-      "explanation": "A parallel plane has the same normal: $2x-y+3z=d$. Substituting $(1,1,1)$: $d=2-1+3=4$."
+      "explanation": "A parallel plane has the same normal: $2x-y+3z=d$. Substituting $(1,1,1)$: $d=2-1+3=4$.",
+      "trick": "Parallel plane keeps the same normal; just recompute the constant using the given point."
     },
     {
       "id": "mat-three-d-geometry-034",
@@ -441,7 +474,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "The family is $(x+y+z-1)+\\lambda(2x+3y-z-4)=0$. Through the origin: $-1-4\\lambda=0\\Rightarrow\\lambda=-\\tfrac14$, giving $2x+y+5z=0$ after simplifying."
+      "explanation": "The family is $(x+y+z-1)+\\lambda(2x+3y-z-4)=0$. Through the origin: $-1-4\\lambda=0\\Rightarrow\\lambda=-\\tfrac14$, giving $2x+y+5z=0$ after simplifying.",
+      "trick": "Use $P_1+\\lambda P_2=0$ for planes through the intersection; solve $\\lambda$ from the extra condition."
     },
     {
       "id": "mat-three-d-geometry-035",
@@ -454,7 +488,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "The normal has direction ratios $(3,-4,12)$ with magnitude $\\sqrt{9+16+144}=13$, giving DCs $(3/13,-4/13,12/13)$."
+      "explanation": "The normal has direction ratios $(3,-4,12)$ with magnitude $\\sqrt{9+16+144}=13$, giving DCs $(3/13,-4/13,12/13)$.",
+      "trick": "DCs of a plane's normal = its coefficients divided by their combined magnitude."
     },
     {
       "id": "mat-three-d-geometry-036",
@@ -467,7 +502,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "Dividing by 60: $\\dfrac{x}{20}+\\dfrac{y}{15}+\\dfrac{z}{-12}=1$, so the intercepts are $20,15,-12$."
+      "explanation": "Dividing by 60: $\\dfrac{x}{20}+\\dfrac{y}{15}+\\dfrac{z}{-12}=1$, so the intercepts are $20,15,-12$.",
+      "trick": "Divide by the RHS constant to read the intercepts off each denominator."
     },
     {
       "id": "mat-three-d-geometry-037",
@@ -480,7 +516,8 @@
       ],
       "answer": 1,
       "difficulty": "hard",
-      "explanation": "$\\vec b_1\\times\\vec b_2=(-1,0,1)$, magnitude $\\sqrt2$; $\\vec a_2-\\vec a_1=(1,-3,-2)$, whose dot product with $(-1,0,1)$ is $-3$. Shortest distance $=|-3|/\\sqrt2=3/\\sqrt2$."
+      "explanation": "$\\vec b_1\\times\\vec b_2=(-1,0,1)$, magnitude $\\sqrt2$; $\\vec a_2-\\vec a_1=(1,-3,-2)$, whose dot product with $(-1,0,1)$ is $-3$. Shortest distance $=|-3|/\\sqrt2=3/\\sqrt2$.",
+      "trick": "Cross the two direction vectors first, then dot with the vector joining the lines."
     },
     {
       "id": "mat-three-d-geometry-038",
@@ -493,7 +530,8 @@
       ],
       "answer": 3,
       "difficulty": "hard",
-      "explanation": "A general point on the line is $(6+3\\lambda,7+2\\lambda,7-2\\lambda)$. Requiring the joining vector to be perpendicular to $(3,2,-2)$ gives $\\lambda=-1$, so the foot is $(3,5,9)$."
+      "explanation": "A general point on the line is $(6+3\\lambda,7+2\\lambda,7-2\\lambda)$. Requiring the joining vector to be perpendicular to $(3,2,-2)$ gives $\\lambda=-1$, so the foot is $(3,5,9)$.",
+      "trick": "Parametrize the line, dot (point $-$ general point) with direction, solve for zero."
     },
     {
       "id": "mat-three-d-geometry-039",
@@ -506,7 +544,8 @@
       ],
       "answer": 2,
       "difficulty": "hard",
-      "explanation": "Distance $=\\sqrt{(3-1)^2+(5-2)^2+(9-3)^2}=\\sqrt{4+9+36}=\\sqrt{49}=7$."
+      "explanation": "Distance $=\\sqrt{(3-1)^2+(5-2)^2+(9-3)^2}=\\sqrt{4+9+36}=\\sqrt{49}=7$.",
+      "trick": "Find the foot of the perpendicular first, then just compute distance to it."
     },
     {
       "id": "mat-three-d-geometry-040",
@@ -519,7 +558,8 @@
       ],
       "answer": 0,
       "difficulty": "hard",
-      "explanation": "Coplanarity requires $(\\vec a_2-\\vec a_1)\\cdot(\\vec d_1\\times\\vec d_2)=0$. With $\\vec a_2-\\vec a_1=(2,k+1,-1)$ and $\\vec d_1\\times\\vec d_2=(-5,2,1)$, this gives $2k-9=0\\Rightarrow k=9/2$."
+      "explanation": "Coplanarity requires $(\\vec a_2-\\vec a_1)\\cdot(\\vec d_1\\times\\vec d_2)=0$. With $\\vec a_2-\\vec a_1=(2,k+1,-1)$ and $\\vec d_1\\times\\vec d_2=(-5,2,1)$, this gives $2k-9=0\\Rightarrow k=9/2$.",
+      "trick": "Set the coplanarity determinant to zero and solve for the unknown parameter."
     }
   ]
 }

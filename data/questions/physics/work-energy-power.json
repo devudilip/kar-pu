@@ -12,7 +12,8 @@
       ],
       "answer": 3,
       "difficulty": "medium",
-      "explanation": "$W = Fd\\cos\\theta = 10\\times5\\times\\cos60^\\circ = 50\\times0.5 = 25$ J."
+      "explanation": "$W = Fd\\cos\\theta = 10\\times5\\times\\cos60^\\circ = 50\\times0.5 = 25$ J.",
+      "trick": "$W=Fd\\cos\\theta$ — always include the angle's cosine."
     },
     {
       "id": "phy-work-energy-power-002",
@@ -25,7 +26,8 @@
       ],
       "answer": 1,
       "difficulty": "easy",
-      "explanation": "$KE = \\frac12mv^2 = \\frac12\\times2\\times100 = 100$ J."
+      "explanation": "$KE = \\frac12mv^2 = \\frac12\\times2\\times100 = 100$ J.",
+      "trick": "$KE=\\frac12mv^2$ — direct plug-in."
     },
     {
       "id": "phy-work-energy-power-003",
@@ -38,7 +40,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "By the work-energy theorem, $W = \\frac12mv^2 \\Rightarrow v = \\sqrt{2W/m} = \\sqrt{100} = 10$ m s$^{-1}$."
+      "explanation": "By the work-energy theorem, $W = \\frac12mv^2 \\Rightarrow v = \\sqrt{2W/m} = \\sqrt{100} = 10$ m s$^{-1}$.",
+      "trick": "Work-energy theorem: $W=\\frac12mv^2\\Rightarrow v=\\sqrt{2W/m}$."
     },
     {
       "id": "phy-work-energy-power-004",
@@ -51,7 +54,8 @@
       ],
       "answer": 2,
       "difficulty": "easy",
-      "explanation": "$PE = mgh = 3\\times10\\times4 = 120$ J."
+      "explanation": "$PE = mgh = 3\\times10\\times4 = 120$ J.",
+      "trick": "$PE=mgh$ — direct plug-in."
     },
     {
       "id": "phy-work-energy-power-005",
@@ -64,7 +68,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "$PE = \\frac12kx^2 = \\frac12\\times200\\times(0.1)^2 = 100\\times0.01 = 1$ J."
+      "explanation": "$PE = \\frac12kx^2 = \\frac12\\times200\\times(0.1)^2 = 100\\times0.01 = 1$ J.",
+      "trick": "Spring PE: $\\frac12kx^2$ — convert cm to m first."
     },
     {
       "id": "phy-work-energy-power-006",
@@ -77,7 +82,8 @@
       ],
       "answer": 0,
       "difficulty": "easy",
-      "explanation": "$P = W/t = 100/5 = 20$ W."
+      "explanation": "$P = W/t = 100/5 = 20$ W.",
+      "trick": "$P=W/t$ — direct division."
     },
     {
       "id": "phy-work-energy-power-007",
@@ -90,7 +96,8 @@
       ],
       "answer": 3,
       "difficulty": "easy",
-      "explanation": "$P = \\vec F\\cdot\\vec v = Fv\\cos0^\\circ = 10\\times5 = 50$ W."
+      "explanation": "$P = \\vec F\\cdot\\vec v = Fv\\cos0^\\circ = 10\\times5 = 50$ W.",
+      "trick": "$P=Fv\\cos\\theta$; same direction means $\\cos\\theta=1$."
     },
     {
       "id": "phy-work-energy-power-008",
@@ -103,7 +110,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "$mgh = \\frac12mv^2 \\Rightarrow v = \\sqrt{2gh} = \\sqrt{2\\times10\\times20} = \\sqrt{400} = 20$ m s$^{-1}$."
+      "explanation": "$mgh = \\frac12mv^2 \\Rightarrow v = \\sqrt{2gh} = \\sqrt{2\\times10\\times20} = \\sqrt{400} = 20$ m s$^{-1}$.",
+      "trick": "Free fall energy shortcut: $v=\\sqrt{2gh}$."
     },
     {
       "id": "phy-work-energy-power-009",
@@ -116,7 +124,8 @@
       ],
       "answer": 0,
       "difficulty": "hard",
-      "explanation": "For a 1-D elastic collision between equal masses with one initially at rest, momentum and KE conservation together force a complete velocity exchange: the moving body stops and the target moves off with speed $u$."
+      "explanation": "For a 1-D elastic collision between equal masses with one initially at rest, momentum and KE conservation together force a complete velocity exchange: the moving body stops and the target moves off with speed $u$.",
+      "trick": "Equal-mass elastic collision, one at rest → velocities completely exchange."
     },
     {
       "id": "phy-work-energy-power-010",
@@ -129,7 +138,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "Momentum conservation: $v = \\dfrac{m_1u_1+m_2u_2}{m_1+m_2} = \\dfrac{2\\times3+0}{5} = \\dfrac{6}{5} = 1.2$ m s$^{-1}$."
+      "explanation": "Momentum conservation: $v = \\dfrac{m_1u_1+m_2u_2}{m_1+m_2} = \\dfrac{2\\times3+0}{5} = \\dfrac{6}{5} = 1.2$ m s$^{-1}$.",
+      "trick": "Perfectly inelastic: $v=(m_1u_1+m_2u_2)/(m_1+m_2)$."
     },
     {
       "id": "phy-work-energy-power-011",
@@ -142,7 +152,8 @@
       ],
       "answer": 2,
       "difficulty": "easy",
-      "explanation": "$e$ equals the ratio of relative velocity of separation to relative velocity of approach; for a perfectly elastic collision this ratio is exactly 1."
+      "explanation": "$e$ equals the ratio of relative velocity of separation to relative velocity of approach; for a perfectly elastic collision this ratio is exactly 1.",
+      "trick": "$e=1$ defines a perfectly elastic collision."
     },
     {
       "id": "phy-work-energy-power-012",
@@ -155,7 +166,8 @@
       ],
       "answer": 3,
       "difficulty": "easy",
-      "explanation": "This path-independence (equivalently, zero work over any closed loop) is the defining property of a conservative force, e.g. gravity or spring force."
+      "explanation": "This path-independence (equivalently, zero work over any closed loop) is the defining property of a conservative force, e.g. gravity or spring force.",
+      "trick": "Path-independent work = conservative force, by definition."
     },
     {
       "id": "phy-work-energy-power-013",
@@ -168,7 +180,8 @@
       ],
       "answer": 3,
       "difficulty": "medium",
-      "explanation": "Friction always opposes the direction of motion, so it does negative work throughout the path; over a closed loop this does not cancel to zero, unlike a conservative force. This is why friction is non-conservative."
+      "explanation": "Friction always opposes the direction of motion, so it does negative work throughout the path; over a closed loop this does not cancel to zero, unlike a conservative force. This is why friction is non-conservative.",
+      "trick": "Friction always opposes motion → net work over a loop is negative, not zero."
     },
     {
       "id": "phy-work-energy-power-014",
@@ -181,7 +194,8 @@
       ],
       "answer": 0,
       "difficulty": "hard",
-      "explanation": "$W = \\frac12k(x_2^2-x_1^2) = \\frac12\\times100\\times(0.2^2-0.1^2) = 50\\times0.03 = 1.5$ J."
+      "explanation": "$W = \\frac12k(x_2^2-x_1^2) = \\frac12\\times100\\times(0.2^2-0.1^2) = 50\\times0.03 = 1.5$ J.",
+      "trick": "Spring work between two stretches: $W=\\frac12k(x_2^2-x_1^2)$, not $\\frac12k(x_2-x_1)^2$."
     },
     {
       "id": "phy-work-energy-power-015",
@@ -194,7 +208,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "$P = \\dfrac{mgh}{t} = \\dfrac{1000\\times10\\times10}{10} = 10000\\,\\text{W} = 10$ kW."
+      "explanation": "$P = \\dfrac{mgh}{t} = \\dfrac{1000\\times10\\times10}{10} = 10000\\,\\text{W} = 10$ kW.",
+      "trick": "Pump power: $P=mgh/t$."
     },
     {
       "id": "phy-work-energy-power-016",
@@ -207,7 +222,8 @@
       ],
       "answer": 1,
       "difficulty": "easy",
-      "explanation": "$KE = p^2/2m$, so doubling $p$ (at constant $m$) increases $KE$ by a factor of $2^2 = 4$."
+      "explanation": "$KE = p^2/2m$, so doubling $p$ (at constant $m$) increases $KE$ by a factor of $2^2 = 4$.",
+      "trick": "$KE\\propto p^2$ at fixed mass → double $p$ quadruples $KE$."
     },
     {
       "id": "phy-work-energy-power-017",
@@ -220,7 +236,8 @@
       ],
       "answer": 3,
       "difficulty": "hard",
-      "explanation": "Initial $KE = \\frac12mu^2$; common velocity $v=u/2$, final $KE = \\frac12(2m)(u/2)^2 = \\frac14mu^2$. Loss $= \\frac14mu^2$, which is $50\\%$ of the initial KE."
+      "explanation": "Initial $KE = \\frac12mu^2$; common velocity $v=u/2$, final $KE = \\frac12(2m)(u/2)^2 = \\frac14mu^2$. Loss $= \\frac14mu^2$, which is $50\\%$ of the initial KE.",
+      "trick": "Equal-mass perfectly inelastic collision always loses exactly 50% of KE."
     },
     {
       "id": "phy-work-energy-power-018",
@@ -233,7 +250,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "By the work-energy theorem, work done by friction $= \\Delta KE = 0 - \\frac12\\times4\\times25 = -50$ J; magnitude $50$ J."
+      "explanation": "By the work-energy theorem, work done by friction $= \\Delta KE = 0 - \\frac12\\times4\\times25 = -50$ J; magnitude $50$ J.",
+      "trick": "Work by friction = $\\Delta KE$ (negative, since it removes KE); take magnitude."
     },
     {
       "id": "phy-work-energy-power-019",
@@ -246,7 +264,8 @@
       ],
       "answer": 2,
       "difficulty": "easy",
-      "explanation": "Zero net work over every closed path is the defining property of a conservative force."
+      "explanation": "Zero net work over every closed path is the defining property of a conservative force.",
+      "trick": "Zero work over any closed loop is the hallmark of a conservative force."
     },
     {
       "id": "phy-work-energy-power-020",
@@ -259,7 +278,8 @@
       ],
       "answer": 1,
       "difficulty": "easy",
-      "explanation": "By definition, 1 hp $= 746$ W."
+      "explanation": "By definition, 1 hp $= 746$ W.",
+      "trick": "Memorise: 1 hp = 746 W."
     },
     {
       "id": "phy-work-energy-power-021",
@@ -272,7 +292,8 @@
       ],
       "answer": 0,
       "difficulty": "easy",
-      "explanation": "Efficiency $= \\dfrac{\\text{output}}{\\text{input}}\\times100 = \\dfrac{400}{500}\\times100 = 80\\%$."
+      "explanation": "Efficiency $= \\dfrac{\\text{output}}{\\text{input}}\\times100 = \\dfrac{400}{500}\\times100 = 80\\%$.",
+      "trick": "Efficiency = output/input $\\times100$."
     },
     {
       "id": "phy-work-energy-power-022",
@@ -285,7 +306,8 @@
       ],
       "answer": 3,
       "difficulty": "medium",
-      "explanation": "Work $=$ area under the F-x graph $= \\frac12\\times5\\times20 = 50$ J."
+      "explanation": "Work $=$ area under the F-x graph $= \\frac12\\times5\\times20 = 50$ J.",
+      "trick": "Linear F-x graph: work = area of triangle = $\\frac12\\times$base$\\times$height."
     },
     {
       "id": "phy-work-energy-power-023",
@@ -298,7 +320,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "$v_2' = \\dfrac{2m_1u_1}{m_1+m_2} = \\dfrac{2\\times1\\times6}{3} = 4$ m s$^{-1}$."
+      "explanation": "$v_2' = \\dfrac{2m_1u_1}{m_1+m_2} = \\dfrac{2\\times1\\times6}{3} = 4$ m s$^{-1}$.",
+      "trick": "Elastic collision, target initially at rest: $v_2'=2m_1u_1/(m_1+m_2)$."
     },
     {
       "id": "phy-work-energy-power-024",
@@ -311,7 +334,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "$F = -\\dfrac{dU}{dx} = -10x$; at $x=2$ m, $|F| = 20$ N."
+      "explanation": "$F = -\\dfrac{dU}{dx} = -10x$; at $x=2$ m, $|F| = 20$ N.",
+      "trick": "$F=-dU/dx$ — differentiate potential energy and negate."
     },
     {
       "id": "phy-work-energy-power-025",
@@ -324,7 +348,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "Height gained $= L\\sin\\theta = 5\\times0.5 = 2.5$ m. $W = mgh = 2\\times10\\times2.5 = 50$ J."
+      "explanation": "Height gained $= L\\sin\\theta = 5\\times0.5 = 2.5$ m. $W = mgh = 2\\times10\\times2.5 = 50$ J.",
+      "trick": "Work against gravity depends only on height gained: $W=mgL\\sin\\theta$, not on incline length alone."
     },
     {
       "id": "phy-work-energy-power-026",
@@ -337,7 +362,8 @@
       ],
       "answer": 2,
       "difficulty": "hard",
-      "explanation": "$e = \\sqrt{h_2/h_1} = \\sqrt{1.25/5} = \\sqrt{0.25} = 0.5$."
+      "explanation": "$e = \\sqrt{h_2/h_1} = \\sqrt{1.25/5} = \\sqrt{0.25} = 0.5$.",
+      "trick": "Coefficient of restitution from heights: $e=\\sqrt{h_2/h_1}$."
     },
     {
       "id": "phy-work-energy-power-027",
@@ -350,7 +376,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "$\\frac12kx^2 = \\frac12mv^2 \\Rightarrow v = x\\sqrt{k/m} = 0.1\\sqrt{400} = 2$ m s$^{-1}$."
+      "explanation": "$\\frac12kx^2 = \\frac12mv^2 \\Rightarrow v = x\\sqrt{k/m} = 0.1\\sqrt{400} = 2$ m s$^{-1}$.",
+      "trick": "Spring energy to KE: $v=x\\sqrt{k/m}$."
     },
     {
       "id": "phy-work-energy-power-028",
@@ -363,7 +390,8 @@
       ],
       "answer": 3,
       "difficulty": "easy",
-      "explanation": "At constant velocity, driving force equals resistive force: $P = Fv = 500\\times20 = 10000$ W $= 10$ kW."
+      "explanation": "At constant velocity, driving force equals resistive force: $P = Fv = 500\\times20 = 10000$ W $= 10$ kW.",
+      "trick": "Constant velocity → driving force = resistive force; $P=Fv$."
     },
     {
       "id": "phy-work-energy-power-029",
@@ -376,7 +404,8 @@
       ],
       "answer": 2,
       "difficulty": "hard",
-      "explanation": "At the minimum condition, gravity alone provides the centripetal force: $mg = mv^2/r \\Rightarrow v=\\sqrt{gr}=\\sqrt{20}\\approx4.47$ m s$^{-1}$."
+      "explanation": "At the minimum condition, gravity alone provides the centripetal force: $mg = mv^2/r \\Rightarrow v=\\sqrt{gr}=\\sqrt{20}\\approx4.47$ m s$^{-1}$.",
+      "trick": "Minimum speed at loop top: gravity alone supplies centripetal force, $v=\\sqrt{gr}$."
     },
     {
       "id": "phy-work-energy-power-030",
@@ -389,7 +418,8 @@
       ],
       "answer": 0,
       "difficulty": "easy",
-      "explanation": "$P = W/t = 3000/60 = 50$ W."
+      "explanation": "$P = W/t = 3000/60 = 50$ W.",
+      "trick": "$P=W/t$ — remember to convert minutes to seconds."
     },
     {
       "id": "phy-work-energy-power-031",
@@ -402,7 +432,8 @@
       ],
       "answer": 1,
       "difficulty": "easy",
-      "explanation": "Energy is the ability of a system to perform work; it is measured in the same unit as work (joule)."
+      "explanation": "Energy is the ability of a system to perform work; it is measured in the same unit as work (joule).",
+      "trick": "Energy = capacity to do work, by definition."
     },
     {
       "id": "phy-work-energy-power-032",
@@ -415,7 +446,8 @@
       ],
       "answer": 3,
       "difficulty": "medium",
-      "explanation": "Since $KE = p^2/2m$, KE varies as the square of $p$, giving a parabola (with $m$ fixed)."
+      "explanation": "Since $KE = p^2/2m$, KE varies as the square of $p$, giving a parabola (with $m$ fixed).",
+      "trick": "$KE=p^2/2m$ is quadratic in $p$ → KE-vs-$p$ graph is a parabola."
     },
     {
       "id": "phy-work-energy-power-033",
@@ -428,7 +460,8 @@
       ],
       "answer": 3,
       "difficulty": "easy",
-      "explanation": "$W = mgh = 5\\times10\\times3 = 150$ J, regardless of the incline's angle or length."
+      "explanation": "$W = mgh = 5\\times10\\times3 = 150$ J, regardless of the incline's angle or length.",
+      "trick": "Gravity's work depends only on vertical height dropped: $W=mgh$."
     },
     {
       "id": "phy-work-energy-power-034",
@@ -441,7 +474,8 @@
       ],
       "answer": 2,
       "difficulty": "hard",
-      "explanation": "For an oblique elastic collision between equal masses with one initially at rest, conservation of momentum and kinetic energy together force the two final velocity vectors to be perpendicular (90°)."
+      "explanation": "For an oblique elastic collision between equal masses with one initially at rest, conservation of momentum and kinetic energy together force the two final velocity vectors to be perpendicular (90°).",
+      "trick": "Oblique elastic collision, equal masses, target at rest → final velocities always perpendicular (90°)."
     },
     {
       "id": "phy-work-energy-power-035",
@@ -454,7 +488,8 @@
       ],
       "answer": 1,
       "difficulty": "easy",
-      "explanation": "Power is the rate of doing work or transferring energy, $P=W/t$; the wattage tells you energy used per second."
+      "explanation": "Power is the rate of doing work or transferring energy, $P=W/t$; the wattage tells you energy used per second.",
+      "trick": "Wattage = rate of energy use/delivery, not efficiency or voltage."
     },
     {
       "id": "phy-work-energy-power-036",
@@ -467,7 +502,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "$W = \\int_0^2 3x^2\\,dx = \\left[x^3\\right]_0^2 = 8$ J."
+      "explanation": "$W = \\int_0^2 3x^2\\,dx = \\left[x^3\\right]_0^2 = 8$ J.",
+      "trick": "Variable force work = $\\int F\\,dx$ over the given limits."
     },
     {
       "id": "phy-work-energy-power-037",
@@ -480,7 +516,8 @@
       ],
       "answer": 3,
       "difficulty": "medium",
-      "explanation": "$P = \\dfrac{dm}{dt}gh = 50\\times10\\times20 = 10000$ W $= 10$ kW."
+      "explanation": "$P = \\dfrac{dm}{dt}gh = 50\\times10\\times20 = 10000$ W $= 10$ kW.",
+      "trick": "Continuous pumping power: $P=(dm/dt)gh$."
     },
     {
       "id": "phy-work-energy-power-038",
@@ -493,7 +530,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "The centripetal force is always perpendicular to the instantaneous velocity, so $W = Fd\\cos90^\\circ = 0$ at every instant."
+      "explanation": "The centripetal force is always perpendicular to the instantaneous velocity, so $W = Fd\\cos90^\\circ = 0$ at every instant.",
+      "trick": "Centripetal force $\\perp$ velocity always → does zero work."
     },
     {
       "id": "phy-work-energy-power-039",
@@ -506,7 +544,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "All KE converts to PE at the top: $mgh = 100 \\Rightarrow h = 100/(1\\times10) = 10$ m."
+      "explanation": "All KE converts to PE at the top: $mgh = 100 \\Rightarrow h = 100/(1\\times10) = 10$ m.",
+      "trick": "All KE converts to PE at max height: $h=KE/(mg)$."
     },
     {
       "id": "phy-work-energy-power-040",
@@ -519,7 +558,8 @@
       ],
       "answer": 1,
       "difficulty": "hard",
-      "explanation": "By momentum conservation the fragments have equal and opposite momenta ($p_1=p_2=p$). Since $KE=p^2/2m$, $KE_1:KE_2 = \\dfrac{1}{m_1}:\\dfrac{1}{m_2} = m_2:m_1 = 3:1$."
+      "explanation": "By momentum conservation the fragments have equal and opposite momenta ($p_1=p_2=p$). Since $KE=p^2/2m$, $KE_1:KE_2 = \\dfrac{1}{m_1}:\\dfrac{1}{m_2} = m_2:m_1 = 3:1$.",
+      "trick": "Explosion from rest: equal and opposite momenta → $KE\\propto1/m$, so ratio is inverse of masses."
     }
   ]
 }

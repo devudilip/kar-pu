@@ -12,7 +12,8 @@
       ],
       "answer": 2,
       "difficulty": "easy",
-      "explanation": "$m=\\dfrac{7-3}{4-2}=\\dfrac{4}{2}=2$."
+      "explanation": "$m=\\dfrac{7-3}{4-2}=\\dfrac{4}{2}=2$.",
+      "trick": "$m=\\dfrac{y_2-y_1}{x_2-x_1}$ — rise over run, no diagram needed."
     },
     {
       "id": "mat-straight-lines-002",
@@ -25,7 +26,8 @@
       ],
       "answer": 0,
       "difficulty": "easy",
-      "explanation": "Writing as $3x+4y-12=0$, slope $=-A/B=-3/4$."
+      "explanation": "Writing as $3x+4y-12=0$, slope $=-A/B=-3/4$.",
+      "trick": "Slope of $Ax+By+C=0$ is $-A/B$ — read straight off coefficients."
     },
     {
       "id": "mat-straight-lines-003",
@@ -38,7 +40,8 @@
       ],
       "answer": 3,
       "difficulty": "easy",
-      "explanation": "$y-3=2(x-1) \\Rightarrow y=2x+1 \\Rightarrow 2x-y+1=0$."
+      "explanation": "$y-3=2(x-1) \\Rightarrow y=2x+1 \\Rightarrow 2x-y+1=0$.",
+      "trick": "Point-slope $y-y_1=m(x-x_1)$, then rearrange to general form."
     },
     {
       "id": "mat-straight-lines-004",
@@ -51,7 +54,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "$\\tan\\theta = \\left|\\dfrac{\\sqrt3-0}{1+0}\\right|=\\sqrt3 \\Rightarrow \\theta=60^\\circ$."
+      "explanation": "$\\tan\\theta = \\left|\\dfrac{\\sqrt3-0}{1+0}\\right|=\\sqrt3 \\Rightarrow \\theta=60^\\circ$.",
+      "trick": "Slope $=\\tan\\theta$; recognize $\\tan60^\\circ=\\sqrt3$ instantly."
     },
     {
       "id": "mat-straight-lines-005",
@@ -64,7 +68,8 @@
       ],
       "answer": 1,
       "difficulty": "easy",
-      "explanation": "Dividing by 6: $\\dfrac{x}{3}+\\dfrac{y}{2}=1$, so $a=3$, $b=2$."
+      "explanation": "Dividing by 6: $\\dfrac{x}{3}+\\dfrac{y}{2}=1$, so $a=3$, $b=2$.",
+      "trick": "Rewrite as $x/a+y/b=1$; intercepts are $a,b$ directly."
     },
     {
       "id": "mat-straight-lines-006",
@@ -77,7 +82,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "$d=\\dfrac{|3(3)+4(4)-10|}{\\sqrt{9+16}}=\\dfrac{15}{5}=3$."
+      "explanation": "$d=\\dfrac{|3(3)+4(4)-10|}{\\sqrt{9+16}}=\\dfrac{15}{5}=3$.",
+      "trick": "$d=\\dfrac{|Ax_1+By_1+C|}{\\sqrt{A^2+B^2}}$ — plug in, no need to draw."
     },
     {
       "id": "mat-straight-lines-007",
@@ -90,7 +96,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "$d=\\dfrac{|(-7)-8|}{\\sqrt{9+16}}=\\dfrac{15}{5}=3$."
+      "explanation": "$d=\\dfrac{|(-7)-8|}{\\sqrt{9+16}}=\\dfrac{15}{5}=3$.",
+      "trick": "Parallel lines: $d=\\dfrac{|C_1-C_2|}{\\sqrt{A^2+B^2}}$, same $A,B$."
     },
     {
       "id": "mat-straight-lines-008",
@@ -103,7 +110,8 @@
       ],
       "answer": 3,
       "difficulty": "easy",
-      "explanation": "$-2y=-4x-6 \\Rightarrow y=2x+3$."
+      "explanation": "$-2y=-4x-6 \\Rightarrow y=2x+3$.",
+      "trick": "Isolate $y$: slope-intercept form falls out directly."
     },
     {
       "id": "mat-straight-lines-009",
@@ -116,7 +124,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "Slopes are $-2/3$ and $3/2$; product $=-1$, so the lines are perpendicular."
+      "explanation": "Slopes are $-2/3$ and $3/2$; product $=-1$, so the lines are perpendicular.",
+      "trick": "Compute $m_1m_2$; $=-1$ means perpendicular."
     },
     {
       "id": "mat-straight-lines-010",
@@ -129,7 +138,8 @@
       ],
       "answer": 3,
       "difficulty": "hard",
-      "explanation": "Family: $(x+2y-3)+\\lambda(2x-y+1)=0$. At $(0,0)$: $-3+\\lambda=0 \\Rightarrow \\lambda=3$. This gives $7x-y=0$, i.e. $y=7x$."
+      "explanation": "Family: $(x+2y-3)+\\lambda(2x-y+1)=0$. At $(0,0)$: $-3+\\lambda=0 \\Rightarrow \\lambda=3$. This gives $7x-y=0$, i.e. $y=7x$.",
+      "trick": "Family $L_1+\\lambda L_2=0$; plug the extra point to find $\\lambda$."
     },
     {
       "id": "mat-straight-lines-011",
@@ -142,7 +152,8 @@
       ],
       "answer": 0,
       "difficulty": "easy",
-      "explanation": "Slope $=1=\\tan\\theta \\Rightarrow \\theta=45^\\circ$."
+      "explanation": "Slope $=1=\\tan\\theta \\Rightarrow \\theta=45^\\circ$.",
+      "trick": "Slope $=\\tan\\theta$; slope 1 means $45^\\circ$."
     },
     {
       "id": "mat-straight-lines-012",
@@ -155,7 +166,8 @@
       ],
       "answer": 2,
       "difficulty": "easy",
-      "explanation": "Slope $=\\dfrac{5-0}{5-0}=1$, and it passes through the origin, so $y=x$."
+      "explanation": "Slope $=\\dfrac{5-0}{5-0}=1$, and it passes through the origin, so $y=x$.",
+      "trick": "Line through origin: $y=mx$ with $m=$ slope to the given point."
     },
     {
       "id": "mat-straight-lines-013",
@@ -168,7 +180,8 @@
       ],
       "answer": 3,
       "difficulty": "medium",
-      "explanation": "$d=\\dfrac{|0+0-10|}{\\sqrt{9+16}}=\\dfrac{10}{5}=2$."
+      "explanation": "$d=\\dfrac{|0+0-10|}{\\sqrt{9+16}}=\\dfrac{10}{5}=2$.",
+      "trick": "$d=\\dfrac{|C|}{\\sqrt{A^2+B^2}}$ from origin — the $x_1,y_1$ terms vanish."
     },
     {
       "id": "mat-straight-lines-014",
@@ -181,7 +194,8 @@
       ],
       "answer": 1,
       "difficulty": "hard",
-      "explanation": "Slopes are $-k/2$ and $3/4$. $\\left(-\\dfrac{k}{2}\\right)\\left(\\dfrac34\\right)=-1 \\Rightarrow k=\\dfrac83$."
+      "explanation": "Slopes are $-k/2$ and $3/4$. $\\left(-\\dfrac{k}{2}\\right)\\left(\\dfrac34\\right)=-1 \\Rightarrow k=\\dfrac83$.",
+      "trick": "Perpendicular $\\Rightarrow m_1m_2=-1$; set slopes' product to $-1$ and solve."
     },
     {
       "id": "mat-straight-lines-015",
@@ -194,7 +208,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "$\\dfrac{1}{2}=\\dfrac{2}{4}\\neq\\dfrac{3}{7}$, so the coefficients are proportional but constants are not — the lines are parallel and distinct."
+      "explanation": "$\\dfrac{1}{2}=\\dfrac{2}{4}\\neq\\dfrac{3}{7}$, so the coefficients are proportional but constants are not — the lines are parallel and distinct.",
+      "trick": "Check $\\dfrac{A_1}{A_2}=\\dfrac{B_1}{B_2}\\neq\\dfrac{C_1}{C_2}$ for parallel-but-distinct."
     },
     {
       "id": "mat-straight-lines-016",
@@ -207,7 +222,8 @@
       ],
       "answer": 0,
       "difficulty": "easy",
-      "explanation": "$m_1m_2=-1 \\Rightarrow m_2=-\\dfrac{1}{3/5}=-\\dfrac53$."
+      "explanation": "$m_1m_2=-1 \\Rightarrow m_2=-\\dfrac{1}{3/5}=-\\dfrac53$.",
+      "trick": "Perpendicular slope is the negative reciprocal: $m_2=-1/m_1$."
     },
     {
       "id": "mat-straight-lines-017",
@@ -220,7 +236,8 @@
       ],
       "answer": 3,
       "difficulty": "hard",
-      "explanation": "Slope $=\\tan135^\\circ=-1$. $y-2=-1(x-1) \\Rightarrow x+y-3=0$."
+      "explanation": "Slope $=\\tan135^\\circ=-1$. $y-2=-1(x-1) \\Rightarrow x+y-3=0$.",
+      "trick": "Slope $=\\tan(\\text{angle})$; $\\tan135^\\circ=-1$, then point-slope form."
     },
     {
       "id": "mat-straight-lines-018",
@@ -233,7 +250,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "$\\dfrac{x}{4}+\\dfrac{y}{-3}=1$. Multiplying by 12: $3x-4y=12$, i.e. $3x-4y-12=0$."
+      "explanation": "$\\dfrac{x}{4}+\\dfrac{y}{-3}=1$. Multiplying by 12: $3x-4y=12$, i.e. $3x-4y-12=0$.",
+      "trick": "Intercept form $x/a+y/b=1$ with given $a,b$; clear denominators."
     },
     {
       "id": "mat-straight-lines-019",
@@ -246,7 +264,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "$d=\\dfrac{|0+0-13|}{\\sqrt{25+144}}=\\dfrac{13}{13}=1$."
+      "explanation": "$d=\\dfrac{|0+0-13|}{\\sqrt{25+144}}=\\dfrac{13}{13}=1$.",
+      "trick": "$d=\\dfrac{|C|}{\\sqrt{A^2+B^2}}$ from the origin."
     },
     {
       "id": "mat-straight-lines-020",
@@ -259,7 +278,8 @@
       ],
       "answer": 1,
       "difficulty": "easy",
-      "explanation": "$\\dfrac{2}{4}=\\dfrac{3}{6}=\\dfrac{4}{8}=\\dfrac12$, so all ratios are equal — the lines are coincident."
+      "explanation": "$\\dfrac{2}{4}=\\dfrac{3}{6}=\\dfrac{4}{8}=\\dfrac12$, so all ratios are equal — the lines are coincident.",
+      "trick": "All three ratios $A_1/A_2=B_1/B_2=C_1/C_2$ equal $\\Rightarrow$ coincident."
     },
     {
       "id": "mat-straight-lines-021",
@@ -272,7 +292,8 @@
       ],
       "answer": 1,
       "difficulty": "easy",
-      "explanation": "Slope of given line $=-2$; perpendicular slope $=-\\dfrac{1}{-2}=\\dfrac12$."
+      "explanation": "Slope of given line $=-2$; perpendicular slope $=-\\dfrac{1}{-2}=\\dfrac12$.",
+      "trick": "Perpendicular slope $=-1/m$; negative reciprocal of the given slope."
     },
     {
       "id": "mat-straight-lines-022",
@@ -285,7 +306,8 @@
       ],
       "answer": 2,
       "difficulty": "easy",
-      "explanation": "Parallel line has the same slope $-2/3$: $y-2=-\\dfrac23(x-1) \\Rightarrow 3y-6=-2x+2 \\Rightarrow 2x+3y-8=0$."
+      "explanation": "Parallel line has the same slope $-2/3$: $y-2=-\\dfrac23(x-1) \\Rightarrow 3y-6=-2x+2 \\Rightarrow 2x+3y-8=0$.",
+      "trick": "Parallel line keeps the same slope $-A/B$; use point-slope form."
     },
     {
       "id": "mat-straight-lines-023",
@@ -298,7 +320,8 @@
       ],
       "answer": 3,
       "difficulty": "medium",
-      "explanation": "Slope of first two points $=\\dfrac{6-2}{3-1}=2$; slope of last two $=\\dfrac{10-6}{5-3}=2$. Equal slopes through a common point mean the three points are collinear."
+      "explanation": "Slope of first two points $=\\dfrac{6-2}{3-1}=2$; slope of last two $=\\dfrac{10-6}{5-3}=2$. Equal slopes through a common point mean the three points are collinear.",
+      "trick": "Equal slopes between consecutive pairs of points $\\Rightarrow$ collinear."
     },
     {
       "id": "mat-straight-lines-024",
@@ -311,7 +334,8 @@
       ],
       "answer": 0,
       "difficulty": "hard",
-      "explanation": "For $ax+by=c$, the foot of the perpendicular from the origin is $\\left(\\dfrac{ac}{a^2+b^2},\\dfrac{bc}{a^2+b^2}\\right) = \\left(\\dfrac{3\\times25}{25},\\dfrac{4\\times25}{25}\\right)=(3,4)$."
+      "explanation": "For $ax+by=c$, the foot of the perpendicular from the origin is $\\left(\\dfrac{ac}{a^2+b^2},\\dfrac{bc}{a^2+b^2}\\right) = \\left(\\dfrac{3\\times25}{25},\\dfrac{4\\times25}{25}\\right)=(3,4)$.",
+      "trick": "Foot from origin to $ax+by=c$ is $\\left(\\dfrac{ac}{a^2+b^2},\\dfrac{bc}{a^2+b^2}\\right)$."
     },
     {
       "id": "mat-straight-lines-025",
@@ -324,7 +348,8 @@
       ],
       "answer": 0,
       "difficulty": "hard",
-      "explanation": "$x$-intercept $=4$, $y$-intercept $=3$; area $=\\dfrac12\\times4\\times3=6$."
+      "explanation": "$x$-intercept $=4$, $y$-intercept $=3$; area $=\\dfrac12\\times4\\times3=6$.",
+      "trick": "Area with axes $=\\dfrac12\\times|x\\text{-intercept}|\\times|y\\text{-intercept}|$."
     },
     {
       "id": "mat-straight-lines-026",
@@ -337,7 +362,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "$d=\\dfrac{|6-(-9)|}{\\sqrt{25+144}}=\\dfrac{15}{13}$."
+      "explanation": "$d=\\dfrac{|6-(-9)|}{\\sqrt{25+144}}=\\dfrac{15}{13}$.",
+      "trick": "Same $A,B$ parallel lines: $d=\\dfrac{|C_1-C_2|}{\\sqrt{A^2+B^2}}$."
     },
     {
       "id": "mat-straight-lines-027",
@@ -350,7 +376,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "Reflecting $(a,b)$ about the line $y=x$ swaps the coordinates, giving $(5,3)$."
+      "explanation": "Reflecting $(a,b)$ about the line $y=x$ swaps the coordinates, giving $(5,3)$.",
+      "trick": "Reflection about $y=x$ just swaps the coordinates $(a,b)\\to(b,a)$."
     },
     {
       "id": "mat-straight-lines-028",
@@ -363,7 +390,8 @@
       ],
       "answer": 3,
       "difficulty": "hard",
-      "explanation": "Intersection of the first two: subtracting gives $x=1, y=0$. Substituting into the third line: $a(1)+2(0)=3 \\Rightarrow a=3$."
+      "explanation": "Intersection of the first two: subtracting gives $x=1, y=0$. Substituting into the third line: $a(1)+2(0)=3 \\Rightarrow a=3$.",
+      "trick": "Find intersection of first two lines, then plug into the third for the unknown."
     },
     {
       "id": "mat-straight-lines-029",
@@ -376,7 +404,8 @@
       ],
       "answer": 0,
       "difficulty": "easy",
-      "explanation": "A line parallel to the $x$-axis has constant $y$-coordinate, so $y=3$."
+      "explanation": "A line parallel to the $x$-axis has constant $y$-coordinate, so $y=3$.",
+      "trick": "Parallel to $x$-axis $\\Rightarrow$ constant $y$: just $y=$ the given $y$-value."
     },
     {
       "id": "mat-straight-lines-030",
@@ -389,7 +418,8 @@
       ],
       "answer": 3,
       "difficulty": "easy",
-      "explanation": "A line parallel to the $y$-axis has constant $x$-coordinate, so $x=2$."
+      "explanation": "A line parallel to the $y$-axis has constant $x$-coordinate, so $x=2$.",
+      "trick": "Parallel to $y$-axis $\\Rightarrow$ constant $x$: just $x=$ the given $x$-value."
     },
     {
       "id": "mat-straight-lines-031",
@@ -402,7 +432,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "Slopes are $4/3$ and $-3/4$; their product is $-1$, so the lines are perpendicular."
+      "explanation": "Slopes are $4/3$ and $-3/4$; their product is $-1$, so the lines are perpendicular.",
+      "trick": "Product of slopes $=-1 \\Rightarrow$ perpendicular — check quickly from coefficients."
     },
     {
       "id": "mat-straight-lines-032",
@@ -415,7 +446,8 @@
       ],
       "answer": 2,
       "difficulty": "hard",
-      "explanation": "Family: $(x+y-2)+\\lambda(2x-y+1)=0$. Matching slope 1 (parallel to $y=x$) gives $\\lambda=-2$, and the equation simplifies to $3x-3y+4=0$."
+      "explanation": "Family: $(x+y-2)+\\lambda(2x-y+1)=0$. Matching slope 1 (parallel to $y=x$) gives $\\lambda=-2$, and the equation simplifies to $3x-3y+4=0$.",
+      "trick": "Family $L_1+\\lambda L_2=0$; match slope to the parallel condition to fix $\\lambda$."
     },
     {
       "id": "mat-straight-lines-033",
@@ -428,7 +460,8 @@
       ],
       "answer": 2,
       "difficulty": "easy",
-      "explanation": "Slope 0 means a horizontal line: $y=-5$."
+      "explanation": "Slope 0 means a horizontal line: $y=-5$.",
+      "trick": "Slope 0 means horizontal line: $y=$ given $y$-coordinate."
     },
     {
       "id": "mat-straight-lines-034",
@@ -441,7 +474,8 @@
       ],
       "answer": 3,
       "difficulty": "easy",
-      "explanation": "$\\tan\\theta=\\left|\\dfrac{3-2}{1+2\\times3}\\right|=\\dfrac{1}{7}$."
+      "explanation": "$\\tan\\theta=\\left|\\dfrac{3-2}{1+2\\times3}\\right|=\\dfrac{1}{7}$.",
+      "trick": "$\\tan\\theta=\\left|\\dfrac{m_2-m_1}{1+m_1m_2}\\right|$ — direct formula, no angle needed."
     },
     {
       "id": "mat-straight-lines-035",
@@ -454,7 +488,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "Slope of $BC=\\dfrac{2-6}{6-4}=-2$, so the altitude's slope is $\\dfrac12$. Through $A(1,2)$: $y-2=\\dfrac12(x-1) \\Rightarrow x-2y+3=0$."
+      "explanation": "Slope of $BC=\\dfrac{2-6}{6-4}=-2$, so the altitude's slope is $\\dfrac12$. Through $A(1,2)$: $y-2=\\dfrac12(x-1) \\Rightarrow x-2y+3=0$.",
+      "trick": "Altitude slope $=-1/(\\text{slope of opposite side})$; then point-slope from the vertex."
     },
     {
       "id": "mat-straight-lines-036",
@@ -467,7 +502,8 @@
       ],
       "answer": 0,
       "difficulty": "hard",
-      "explanation": "Midpoint $=(4,5)$; slope of segment $=1$, so perpendicular slope $=-1$. Equation: $y-5=-1(x-4) \\Rightarrow x+y-9=0$."
+      "explanation": "Midpoint $=(4,5)$; slope of segment $=1$, so perpendicular slope $=-1$. Equation: $y-5=-1(x-4) \\Rightarrow x+y-9=0$.",
+      "trick": "Perpendicular bisector: use midpoint and negative reciprocal of segment's slope."
     },
     {
       "id": "mat-straight-lines-037",
@@ -480,7 +516,8 @@
       ],
       "answer": 1,
       "difficulty": "easy",
-      "explanation": "Slope $=\\tan0^\\circ=0$, corresponding to a horizontal line."
+      "explanation": "Slope $=\\tan0^\\circ=0$, corresponding to a horizontal line.",
+      "trick": "Inclination $0^\\circ\\Rightarrow \\tan0^\\circ=0$, a horizontal line."
     },
     {
       "id": "mat-straight-lines-038",
@@ -493,7 +530,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "$d=\\dfrac{|6(2)+8(-1)+5|}{\\sqrt{36+64}}=\\dfrac{|12-8+5|}{10}=\\dfrac{9}{10}$."
+      "explanation": "$d=\\dfrac{|6(2)+8(-1)+5|}{\\sqrt{36+64}}=\\dfrac{|12-8+5|}{10}=\\dfrac{9}{10}$.",
+      "trick": "$d=\\dfrac{|Ax_1+By_1+C|}{\\sqrt{A^2+B^2}}$ — substitute directly."
     },
     {
       "id": "mat-straight-lines-039",
@@ -506,7 +544,8 @@
       ],
       "answer": 2,
       "difficulty": "hard",
-      "explanation": "The line passes through the point common to $x+y-3=0$ and $2x-y=0$ for every $\\lambda$. Solving these: $y=2x$ and $x+2x=3 \\Rightarrow x=1, y=2$."
+      "explanation": "The line passes through the point common to $x+y-3=0$ and $2x-y=0$ for every $\\lambda$. Solving these: $y=2x$ and $x+2x=3 \\Rightarrow x=1, y=2$.",
+      "trick": "Fixed point = intersection of the two lines forming the family, independent of $\\lambda$."
     },
     {
       "id": "mat-straight-lines-040",
@@ -519,7 +558,8 @@
       ],
       "answer": 3,
       "difficulty": "medium",
-      "explanation": "Slope $=\\dfrac{7-1}{4-1}=2$; line: $y-1=2(x-1) \\Rightarrow y=2x-1$. At $y=3$: $3=2x-1 \\Rightarrow x=2$."
+      "explanation": "Slope $=\\dfrac{7-1}{4-1}=2$; line: $y-1=2(x-1) \\Rightarrow y=2x-1$. At $y=3$: $3=2x-1 \\Rightarrow x=2$.",
+      "trick": "Write the line's equation, then plug in the known coordinate to find the unknown."
     }
   ]
 }

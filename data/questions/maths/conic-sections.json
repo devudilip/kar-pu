@@ -12,7 +12,8 @@
       ],
       "answer": 0,
       "difficulty": "easy",
-      "explanation": "Standard form $(x-h)^2+(y-k)^2=r^2$ with $h=2,k=-3,r=5$ gives $(x-2)^2+(y+3)^2=25$."
+      "explanation": "Standard form $(x-h)^2+(y-k)^2=r^2$ with $h=2,k=-3,r=5$ gives $(x-2)^2+(y+3)^2=25$.",
+      "trick": "$(x-h)^2+(y-k)^2=r^2$ — plug centre and radius straight in."
     },
     {
       "id": "mat-conic-sections-002",
@@ -25,7 +26,8 @@
       ],
       "answer": 3,
       "difficulty": "easy",
-      "explanation": "$2g=-4,2f=6,c=-12 \\Rightarrow g=-2,f=3$. Centre $(-g,-f)=(2,-3)$; radius $=\\sqrt{4+9+12}=5$."
+      "explanation": "$2g=-4,2f=6,c=-12 \\Rightarrow g=-2,f=3$. Centre $(-g,-f)=(2,-3)$; radius $=\\sqrt{4+9+12}=5$.",
+      "trick": "Centre $(-g,-f)$, radius $\\sqrt{g^2+f^2-c}$ from general form."
     },
     {
       "id": "mat-conic-sections-003",
@@ -38,7 +40,8 @@
       ],
       "answer": 2,
       "difficulty": "easy",
-      "explanation": "$4a=12 \\Rightarrow a=3$; focus $=(a,0)=(3,0)$."
+      "explanation": "$4a=12 \\Rightarrow a=3$; focus $=(a,0)=(3,0)$.",
+      "trick": "$4a=$ coefficient of $x$; focus is $(a,0)$."
     },
     {
       "id": "mat-conic-sections-004",
@@ -51,7 +54,8 @@
       ],
       "answer": 1,
       "difficulty": "easy",
-      "explanation": "$4a=8 \\Rightarrow a=2$; directrix is $x=-a=-2$."
+      "explanation": "$4a=8 \\Rightarrow a=2$; directrix is $x=-a=-2$.",
+      "trick": "$4a=$ coefficient of $x$; directrix is $x=-a$."
     },
     {
       "id": "mat-conic-sections-005",
@@ -64,7 +68,8 @@
       ],
       "answer": 2,
       "difficulty": "easy",
-      "explanation": "$4a=16 \\Rightarrow a=4$; latus rectum $=4a=16$."
+      "explanation": "$4a=16 \\Rightarrow a=4$; latus rectum $=4a=16$.",
+      "trick": "Latus rectum $=4a=$ coefficient of $y$ (or $x$) directly."
     },
     {
       "id": "mat-conic-sections-006",
@@ -77,7 +82,8 @@
       ],
       "answer": 3,
       "difficulty": "medium",
-      "explanation": "$a^2=25,b^2=9 \\Rightarrow c^2=16, c=4$; $e=c/a=4/5=0.8$."
+      "explanation": "$a^2=25,b^2=9 \\Rightarrow c^2=16, c=4$; $e=c/a=4/5=0.8$.",
+      "trick": "$e=c/a$ with $c^2=a^2-b^2$; bigger denominator is $a^2$."
     },
     {
       "id": "mat-conic-sections-007",
@@ -90,7 +96,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "Since $25>16$, the major axis is along $y$: $c^2=25-16=9, c=3$; foci $(0,\\pm3)$."
+      "explanation": "Since $25>16$, the major axis is along $y$: $c^2=25-16=9, c=3$; foci $(0,\\pm3)$.",
+      "trick": "Bigger denominator tells the axis; foci on that axis at $(0,\\pm c)$ or $(\\pm c,0)$."
     },
     {
       "id": "mat-conic-sections-008",
@@ -103,7 +110,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "$a=5,b=4$; latus rectum $=\\dfrac{2b^2}{a}=\\dfrac{32}{5}=6.4$."
+      "explanation": "$a=5,b=4$; latus rectum $=\\dfrac{2b^2}{a}=\\dfrac{32}{5}=6.4$.",
+      "trick": "Latus rectum $=\\dfrac{2b^2}{a}$, $a$ = larger denominator's root."
     },
     {
       "id": "mat-conic-sections-009",
@@ -116,7 +124,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "$a^2=9,b^2=16 \\Rightarrow c^2=25,c=5$; $e=c/a=5/3$."
+      "explanation": "$a^2=9,b^2=16 \\Rightarrow c^2=25,c=5$; $e=c/a=5/3$.",
+      "trick": "Hyperbola: $c^2=a^2+b^2$, $e=c/a$ — always $>1$."
     },
     {
       "id": "mat-conic-sections-010",
@@ -129,7 +138,8 @@
       ],
       "answer": 1,
       "difficulty": "easy",
-      "explanation": "$x^2+y^2=r^2=7^2=49$."
+      "explanation": "$x^2+y^2=r^2=7^2=49$.",
+      "trick": "Circle at origin: $x^2+y^2=r^2$, just square the radius."
     },
     {
       "id": "mat-conic-sections-011",
@@ -142,7 +152,8 @@
       ],
       "answer": 3,
       "difficulty": "hard",
-      "explanation": "Form $y^2=4ax$ (opens right, as $x=2>0$): $(-4)^2=4a(2) \\Rightarrow 16=8a \\Rightarrow a=2$, so $y^2=8x$."
+      "explanation": "Form $y^2=4ax$ (opens right, as $x=2>0$): $(-4)^2=4a(2) \\Rightarrow 16=8a \\Rightarrow a=2$, so $y^2=8x$.",
+      "trick": "Plug the given point into $y^2=4ax$ (or right form) to solve for $a$."
     },
     {
       "id": "mat-conic-sections-012",
@@ -155,7 +166,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "$c^2=25-16=9, c=3$; distance between foci $=2c=6$."
+      "explanation": "$c^2=25-16=9, c=3$; distance between foci $=2c=6$.",
+      "trick": "Distance between foci $=2c$, $c^2=a^2-b^2$."
     },
     {
       "id": "mat-conic-sections-013",
@@ -168,7 +180,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "$a^2=16 \\Rightarrow a=4$; transverse axis $=2a=8$."
+      "explanation": "$a^2=16 \\Rightarrow a=4$; transverse axis $=2a=8$.",
+      "trick": "Transverse axis $=2a$, $a^2$ is under the positive term."
     },
     {
       "id": "mat-conic-sections-014",
@@ -181,7 +194,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "Dividing by 2: $x^2+y^2-2x+4y-8=0$; $g=-1,f=2,c=-8$. Centre $(1,-2)$, radius $=\\sqrt{1+4+8}=\\sqrt{13}$."
+      "explanation": "Dividing by 2: $x^2+y^2-2x+4y-8=0$; $g=-1,f=2,c=-8$. Centre $(1,-2)$, radius $=\\sqrt{1+4+8}=\\sqrt{13}$.",
+      "trick": "Divide by leading coefficient first, then read $g,f,c$ from general form."
     },
     {
       "id": "mat-conic-sections-015",
@@ -194,7 +208,8 @@
       ],
       "answer": 2,
       "difficulty": "easy",
-      "explanation": "For $y^2=4ax$ with no shift, the vertex is always at the origin $(0,0)$."
+      "explanation": "For $y^2=4ax$ with no shift, the vertex is always at the origin $(0,0)$.",
+      "trick": "Standard $y^2=4ax$ with no shift always has vertex at origin."
     },
     {
       "id": "mat-conic-sections-016",
@@ -207,7 +222,8 @@
       ],
       "answer": 3,
       "difficulty": "medium",
-      "explanation": "By definition every parabola has eccentricity exactly 1."
+      "explanation": "By definition every parabola has eccentricity exactly 1.",
+      "trick": "Every parabola has eccentricity exactly 1 — no calculation needed."
     },
     {
       "id": "mat-conic-sections-017",
@@ -220,7 +236,8 @@
       ],
       "answer": 2,
       "difficulty": "hard",
-      "explanation": "$2c=6 \\Rightarrow c=3$; $e=c/a \\Rightarrow a=c/e=3\\div(3/5)=5$. Major axis $=2a=10$."
+      "explanation": "$2c=6 \\Rightarrow c=3$; $e=c/a \\Rightarrow a=c/e=3\\div(3/5)=5$. Major axis $=2a=10$.",
+      "trick": "$2c=$ given, $a=c/e$; major axis $=2a$."
     },
     {
       "id": "mat-conic-sections-018",
@@ -233,7 +250,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "A rectangular hyperbola has $a=b$; $x^2-y^2=16$ can be written as $\\dfrac{x^2}{16}-\\dfrac{y^2}{16}=1$, so $a=b=4$."
+      "explanation": "A rectangular hyperbola has $a=b$; $x^2-y^2=16$ can be written as $\\dfrac{x^2}{16}-\\dfrac{y^2}{16}=1$, so $a=b=4$.",
+      "trick": "Rectangular hyperbola needs $a=b$; check if both denominators are equal."
     },
     {
       "id": "mat-conic-sections-019",
@@ -246,7 +264,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "$x=r$ is a vertical tangent to the circle; substituting $x=r$ gives $y=0$, so the point of contact is $(r,0)$."
+      "explanation": "$x=r$ is a vertical tangent to the circle; substituting $x=r$ gives $y=0$, so the point of contact is $(r,0)$.",
+      "trick": "Vertical tangent $x=r$ touches at $(r,0)$ — substitute $x=r$ to check."
     },
     {
       "id": "mat-conic-sections-020",
@@ -259,7 +278,8 @@
       ],
       "answer": 3,
       "difficulty": "hard",
-      "explanation": "Radius $=$ distance from centre to origin $=\\sqrt{3^2+4^2}=5$, so the equation is $(x-3)^2+(y-4)^2=25$."
+      "explanation": "Radius $=$ distance from centre to origin $=\\sqrt{3^2+4^2}=5$, so the equation is $(x-3)^2+(y-4)^2=25$.",
+      "trick": "Radius = distance from centre to origin; then standard form."
     },
     {
       "id": "mat-conic-sections-021",
@@ -272,7 +292,8 @@
       ],
       "answer": 2,
       "difficulty": "easy",
-      "explanation": "Centre = midpoint $=(3,5)$; radius $=\\dfrac12\\sqrt{(4-2)^2+(7-3)^2}=\\dfrac12\\sqrt{20}=\\sqrt5$, so $r^2=5$."
+      "explanation": "Centre = midpoint $=(3,5)$; radius $=\\dfrac12\\sqrt{(4-2)^2+(7-3)^2}=\\dfrac12\\sqrt{20}=\\sqrt5$, so $r^2=5$.",
+      "trick": "Centre = midpoint of the diameter's endpoints; radius = half the diameter's length."
     },
     {
       "id": "mat-conic-sections-022",
@@ -285,7 +306,8 @@
       ],
       "answer": 0,
       "difficulty": "easy",
-      "explanation": "$4a=12 \\Rightarrow a=3$; for $x^2=-4ay$ (opens down), the directrix is $y=a=3$."
+      "explanation": "$4a=12 \\Rightarrow a=3$; for $x^2=-4ay$ (opens down), the directrix is $y=a=3$.",
+      "trick": "$x^2=-4ay$ opens down; directrix is $y=a$ (positive)."
     },
     {
       "id": "mat-conic-sections-023",
@@ -298,7 +320,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "Since the point has negative $y$, the parabola opens down: $x^2=-4ay$. Substituting: $16=-4a(-2)=8a \\Rightarrow a=2$, so $x^2=-8y$."
+      "explanation": "Since the point has negative $y$, the parabola opens down: $x^2=-4ay$. Substituting: $16=-4a(-2)=8a \\Rightarrow a=2$, so $x^2=-8y$.",
+      "trick": "Negative $y$ point $\\Rightarrow$ opens down: $x^2=-4ay$; substitute to find $a$."
     },
     {
       "id": "mat-conic-sections-024",
@@ -311,7 +334,8 @@
       ],
       "answer": 3,
       "difficulty": "hard",
-      "explanation": "$a=13, b=5$; latus rectum $=\\dfrac{2b^2}{a}=\\dfrac{50}{13}$."
+      "explanation": "$a=13, b=5$; latus rectum $=\\dfrac{2b^2}{a}=\\dfrac{50}{13}$.",
+      "trick": "Latus rectum $=\\dfrac{2b^2}{a}$, $a$ = larger semi-axis."
     },
     {
       "id": "mat-conic-sections-025",
@@ -324,7 +348,8 @@
       ],
       "answer": 1,
       "difficulty": "easy",
-      "explanation": "$e^2=1-\\dfrac{b^2}{a^2}=1-\\dfrac{64}{100}=0.36 \\Rightarrow e=0.6$."
+      "explanation": "$e^2=1-\\dfrac{b^2}{a^2}=1-\\dfrac{64}{100}=0.36 \\Rightarrow e=0.6$.",
+      "trick": "$e^2=1-b^2/a^2$ with $a^2$ the larger denominator."
     },
     {
       "id": "mat-conic-sections-026",
@@ -337,7 +362,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "$b^2=9 \\Rightarrow b=3$; conjugate axis $=2b=6$."
+      "explanation": "$b^2=9 \\Rightarrow b=3$; conjugate axis $=2b=6$.",
+      "trick": "Conjugate axis $=2b$, $b^2$ under the negative term."
     },
     {
       "id": "mat-conic-sections-027",
@@ -350,7 +376,8 @@
       ],
       "answer": 2,
       "difficulty": "medium",
-      "explanation": "$e^2=1+\\dfrac{b^2}{a^2}=1+\\dfrac54=\\dfrac94 \\Rightarrow e=\\dfrac32$."
+      "explanation": "$e^2=1+\\dfrac{b^2}{a^2}=1+\\dfrac54=\\dfrac94 \\Rightarrow e=\\dfrac32$.",
+      "trick": "Hyperbola: $e^2=1+b^2/a^2$ — always exceeds 1."
     },
     {
       "id": "mat-conic-sections-028",
@@ -363,7 +390,8 @@
       ],
       "answer": 3,
       "difficulty": "hard",
-      "explanation": "Touching both axes in the first quadrant with radius 4 forces the centre to be $(4,4)$, giving $(x-4)^2+(y-4)^2=16$."
+      "explanation": "Touching both axes in the first quadrant with radius 4 forces the centre to be $(4,4)$, giving $(x-4)^2+(y-4)^2=16$.",
+      "trick": "Touching both axes in Q1 with radius $r$ forces centre $(r,r)$."
     },
     {
       "id": "mat-conic-sections-029",
@@ -376,7 +404,8 @@
       ],
       "answer": 2,
       "difficulty": "easy",
-      "explanation": "$g=-3, f=-4, c=0$; radius $=\\sqrt{9+16-0}=5$."
+      "explanation": "$g=-3, f=-4, c=0$; radius $=\\sqrt{9+16-0}=5$.",
+      "trick": "Radius $=\\sqrt{g^2+f^2-c}$; here $c=0$ simplifies it."
     },
     {
       "id": "mat-conic-sections-030",
@@ -389,7 +418,8 @@
       ],
       "answer": 0,
       "difficulty": "easy",
-      "explanation": "$4a=16 \\Rightarrow a=4$; since the parabola opens left, the focus is $(-a,0)=(-4,0)$."
+      "explanation": "$4a=16 \\Rightarrow a=4$; since the parabola opens left, the focus is $(-a,0)=(-4,0)$.",
+      "trick": "Negative coefficient of $x$ $\\Rightarrow$ opens left: focus $(-a,0)$."
     },
     {
       "id": "mat-conic-sections-031",
@@ -402,7 +432,8 @@
       ],
       "answer": 3,
       "difficulty": "medium",
-      "explanation": "$a=4, b=3$; latus rectum $=\\dfrac{2b^2}{a}=\\dfrac{18}{4}=4.5$."
+      "explanation": "$a=4, b=3$; latus rectum $=\\dfrac{2b^2}{a}=\\dfrac{18}{4}=4.5$.",
+      "trick": "Latus rectum of hyperbola $=\\dfrac{2b^2}{a}$, same formula as ellipse."
     },
     {
       "id": "mat-conic-sections-032",
@@ -415,7 +446,8 @@
       ],
       "answer": 1,
       "difficulty": "hard",
-      "explanation": "$a=5, c=3 \\Rightarrow b^2=a^2-c^2=25-9=16$, giving $\\dfrac{x^2}{25}+\\dfrac{y^2}{16}=1$."
+      "explanation": "$a=5, c=3 \\Rightarrow b^2=a^2-c^2=25-9=16$, giving $\\dfrac{x^2}{25}+\\dfrac{y^2}{16}=1$.",
+      "trick": "Vertices give $a$, foci give $c$; $b^2=a^2-c^2$ for ellipse."
     },
     {
       "id": "mat-conic-sections-033",
@@ -428,7 +460,8 @@
       ],
       "answer": 2,
       "difficulty": "easy",
-      "explanation": "$4a=20$; latus rectum $=4a=20$."
+      "explanation": "$4a=20$; latus rectum $=4a=20$.",
+      "trick": "Latus rectum $=4a=$ coefficient of $x$ directly."
     },
     {
       "id": "mat-conic-sections-034",
@@ -441,7 +474,8 @@
       ],
       "answer": 0,
       "difficulty": "medium",
-      "explanation": "$g=1, f=-2, c=-4$; radius $=\\sqrt{1+4+4}=3$."
+      "explanation": "$g=1, f=-2, c=-4$; radius $=\\sqrt{1+4+4}=3$.",
+      "trick": "Radius $=\\sqrt{g^2+f^2-c}$ straight from general form."
     },
     {
       "id": "mat-conic-sections-035",
@@ -454,7 +488,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "$g=-2, f=3, c=13$; $r^2=g^2+f^2-c=4+9-13=0$, so it is a point circle located at the centre $(2,-3)$."
+      "explanation": "$g=-2, f=3, c=13$; $r^2=g^2+f^2-c=4+9-13=0$, so it is a point circle located at the centre $(2,-3)$.",
+      "trick": "If $g^2+f^2-c=0$, it's a point circle at $(-g,-f)$, not a real circle."
     },
     {
       "id": "mat-conic-sections-036",
@@ -467,7 +502,8 @@
       ],
       "answer": 3,
       "difficulty": "hard",
-      "explanation": "The vertex lies midway between focus and directrix, at the origin, with $a=3$ and the parabola opening upward: $x^2=4ay=12y$."
+      "explanation": "The vertex lies midway between focus and directrix, at the origin, with $a=3$ and the parabola opening upward: $x^2=4ay=12y$.",
+      "trick": "Vertex is midpoint of focus and directrix; $a=$ distance from vertex to focus."
     },
     {
       "id": "mat-conic-sections-037",
@@ -480,7 +516,8 @@
       ],
       "answer": 0,
       "difficulty": "easy",
-      "explanation": "A circle is a special case of an ellipse with $a=b$, giving $c=0$ and hence $e=0$."
+      "explanation": "A circle is a special case of an ellipse with $a=b$, giving $c=0$ and hence $e=0$.",
+      "trick": "Circle is ellipse with $a=b\\Rightarrow c=0\\Rightarrow e=0$."
     },
     {
       "id": "mat-conic-sections-038",
@@ -493,7 +530,8 @@
       ],
       "answer": 1,
       "difficulty": "medium",
-      "explanation": "$a=7, b=5$ (major axis along $x$); minor axis $=2b=10$."
+      "explanation": "$a=7, b=5$ (major axis along $x$); minor axis $=2b=10$.",
+      "trick": "Minor axis $=2b$, $b$ = smaller semi-axis."
     },
     {
       "id": "mat-conic-sections-039",
@@ -506,7 +544,8 @@
       ],
       "answer": 3,
       "difficulty": "hard",
-      "explanation": "$2a=6 \\Rightarrow a=3$; $c=5$; $e=c/a=5/3$."
+      "explanation": "$2a=6 \\Rightarrow a=3$; $c=5$; $e=c/a=5/3$.",
+      "trick": "$e=c/a$; transverse axis gives $a$, foci give $c$."
     },
     {
       "id": "mat-conic-sections-040",
@@ -519,7 +558,8 @@
       ],
       "answer": 2,
       "difficulty": "hard",
-      "explanation": "Distance from origin to $x-y+c=0$ must equal the radius: $\\dfrac{|c|}{\\sqrt2}=\\sqrt8=2\\sqrt2 \\Rightarrow |c|=4$, so $c=4$."
+      "explanation": "Distance from origin to $x-y+c=0$ must equal the radius: $\\dfrac{|c|}{\\sqrt2}=\\sqrt8=2\\sqrt2 \\Rightarrow |c|=4$, so $c=4$.",
+      "trick": "Tangent condition: distance from centre to line = radius; set and solve."
     }
   ]
 }
