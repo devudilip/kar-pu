@@ -560,6 +560,286 @@
       "difficulty": "hard",
       "explanation": "Both alcohols and phenols react with reactive sodium metal (any O–H bond can do this), but alcohols are far too weakly acidic to be deprotonated by NaOH; phenols (pKa around 10) do dissolve in NaOH, forming soluble sodium phenoxides.",
       "trick": "Both react with Na, but only phenols (pKa~10) dissolve in NaOH, not alcohols."
+    },
+    {
+      "id": "che-alcohols-phenols-ethers-041",
+      "q": "When ethanol is heated with excess conc. H$_2$SO$_4$ at 413 K, the major product is",
+      "options": [
+        "diethyl ether",
+        "ethyl hydrogen sulphate",
+        "ethene",
+        "acetaldehyde"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "At the lower temperature of 413 K, with excess ethanol present, intermolecular dehydration dominates: one alcohol molecule's OH is displaced by another's oxygen, giving diethyl ether. Heating further to 443 K instead favours intramolecular dehydration to ethene.",
+      "trick": "Conc. H$_2$SO$_4$ at 413K $\\to$ ether; at 443K (higher T) $\\to$ alkene."
+    },
+    {
+      "id": "che-alcohols-phenols-ethers-042",
+      "q": "PCC (pyridinium chlorochromate) is a preferred reagent to oxidise a primary alcohol because it gives",
+      "options": [
+        "the carboxylic acid directly",
+        "the aldehyde only, without further oxidation to the acid",
+        "the corresponding ketone",
+        "the ester"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "PCC is a mild oxidant used in anhydrous (non-aqueous) conditions, so it stops at the aldehyde stage; strong aqueous oxidants like acidified KMnO$_4$ or K$_2$Cr$_2$O$_7$ would carry the oxidation further to the carboxylic acid.",
+      "trick": "PCC = mild, anhydrous oxidant: 1$^\\circ$ alcohol stops at aldehyde, no further to acid."
+    },
+    {
+      "id": "che-alcohols-phenols-ethers-043",
+      "q": "In glycerol (propane-1,2,3-triol), the three –OH groups are classified as",
+      "options": [
+        "three secondary OH groups",
+        "one primary and two secondary OH groups",
+        "two primary OH groups and one secondary OH group",
+        "three primary OH groups"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "Glycerol is HOCH$_2$–CHOH–CH$_2$OH; the terminal carbons (C1, C3) each bear one other carbon so their OH is primary, while the middle carbon (C2), attached to two carbons, carries a secondary OH.",
+      "trick": "Glycerol: end carbons give 2 primary OH, middle carbon gives 1 secondary OH."
+    },
+    {
+      "id": "che-alcohols-phenols-ethers-044",
+      "q": "The IUPAC name of the ether CH$_3$–CH$_2$–O–CH(CH$_3$)$_2$ is",
+      "options": [
+        "1-ethoxypropane",
+        "2-methoxybutane",
+        "ethyl propyl ether",
+        "2-ethoxypropane"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "The longer chain is propane, with the ethoxy (–OC$_2$H$_5$) group attached at C2 (the isopropyl carbon), giving the IUPAC name 2-ethoxypropane; 'ethyl propyl ether' is only the common (functional class) name.",
+      "trick": "Name ethers as alkoxy-alkane: locant of O-substituent on the parent chain."
+    },
+    {
+      "id": "che-alcohols-phenols-ethers-045",
+      "q": "When vapours of 2-methylbutan-2-ol (a tertiary alcohol) are passed over heated copper at 573 K, the major product is",
+      "options": [
+        "2-methyl-2-butene",
+        "3-methylbutan-2-one",
+        "2-methylbutanal",
+        "2-methylbutan-2-one"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "Heated copper dehydrogenates 1° and 2° alcohols (to aldehydes/ketones) because they have an α-hydrogen to remove along with the O–H hydrogen; a tertiary alcohol has no α-H on the carbinol carbon, so it instead undergoes dehydration to give the alkene, 2-methyl-2-butene.",
+      "trick": "Hot Cu: 1$^\\circ\\to$aldehyde, 2$^\\circ\\to$ketone (dehydrogenation); 3$^\\circ$ (no $\\alpha$-H)$\\to$alkene."
+    },
+    {
+      "id": "che-alcohols-phenols-ethers-046",
+      "q": "Given pKa values: ethanol = 15.9, phenol = 10.0, p-nitrophenol = 7.15, picric acid = 0.38, the correct decreasing order of acidity is",
+      "options": [
+        "ethanol &gt; phenol &gt; p-nitrophenol &gt; picric acid",
+        "picric acid &gt; p-nitrophenol &gt; phenol &gt; ethanol",
+        "phenol &gt; p-nitrophenol &gt; picric acid &gt; ethanol",
+        "picric acid &gt; phenol &gt; p-nitrophenol &gt; ethanol"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "A lower pKa means a stronger acid, so ranking by increasing pKa (0.38, 7.15, 10.0, 15.9) gives decreasing acidity as picric acid &gt; p-nitrophenol &gt; phenol &gt; ethanol, consistent with the number of electron-withdrawing nitro groups stabilising the phenoxide.",
+      "trick": "Lower pKa = stronger acid; just sort the given pKa values ascending."
+    },
+    {
+      "id": "che-alcohols-phenols-ethers-047",
+      "q": "Treating phenol with excess concentrated HNO$_3$ (with conc. H$_2$SO$_4$) gives mainly",
+      "options": [
+        "p-nitrophenol only",
+        "o-nitrophenol only",
+        "picric acid (2,4,6-trinitrophenol)",
+        "nitrobenzene"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "The strongly activating –OH group directs incoming NO$_2^+$ groups to the o,p positions; with excess concentrated nitrating mixture, all three available o,p positions are nitrated, giving 2,4,6-trinitrophenol (picric acid).",
+      "trick": "Phenol + excess conc. HNO$_3$/H$_2$SO$_4$ $\\to$ trinitration at 2,4,6 $\\to$ picric acid."
+    },
+    {
+      "id": "che-alcohols-phenols-ethers-048",
+      "q": "Before Kolbe's reaction (treatment with CO$_2$ under pressure) can occur, phenol must first be converted to",
+      "options": [
+        "benzenesulfonic acid",
+        "phenylmagnesium bromide",
+        "phenyl acetate",
+        "sodium phenoxide"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "Phenol itself is too weakly nucleophilic at oxygen for the reaction; treating it with NaOH first forms sodium phenoxide, whose more nucleophilic phenoxide ion then attacks CO$_2$ (electrophile) to eventually give salicylic acid after acidification.",
+      "trick": "Kolbe needs the phenoxide ion (phenol + NaOH first), not phenol itself."
+    },
+    {
+      "id": "che-alcohols-phenols-ethers-049",
+      "q": "Among ethanol, ethylene glycol and glycerol, the highest viscosity is shown by",
+      "options": [
+        "glycerol",
+        "ethylene glycol",
+        "ethanol",
+        "none show any difference in viscosity"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "Viscosity increases with the extent of intermolecular hydrogen bonding; glycerol has three –OH groups per molecule, forming the most extensive H-bonded network, making it noticeably more viscous than the diol (glycol) or the monohydric alcohol.",
+      "trick": "More -OH groups per molecule = more H-bonding = more viscous; glycerol $>$ glycol $>$ ethanol."
+    },
+    {
+      "id": "che-alcohols-phenols-ethers-050",
+      "q": "Allyl alcohol (CH$_2$=CH–CH$_2$OH) reacts with excess HBr to give mainly",
+      "options": [
+        "1,2-dibromopropane",
+        "3-bromoprop-1-ene (allyl bromide)",
+        "2,3-dibromopropan-1-ol",
+        "1,3-dibromopropane"
+      ],
+      "answer": 1,
+      "difficulty": "hard",
+      "explanation": "HBr protonates the OH, which leaves as water to generate a resonance-stabilised allylic carbocation; Br$^-$ then attacks this carbocation to substitute the OH, giving allyl bromide, rather than adding across the C=C double bond.",
+      "trick": "Allylic OH + HX: OH is substituted via the stable allylic carbocation, C=C stays intact."
+    },
+    {
+      "id": "che-alcohols-phenols-ethers-051",
+      "q": "Considering the +I effect of alkyl groups on the basicity (proton-accepting ability) of the oxygen lone pair, the correct order among ether, alcohol and water is",
+      "options": [
+        "water &gt; alcohol &gt; ether",
+        "alcohol &gt; ether &gt; water",
+        "ether &gt; alcohol &gt; water",
+        "ether &gt; water &gt; alcohol"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "Each alkyl group attached to oxygen donates electron density inductively, raising the electron density (and hence proton affinity) of the lone pairs on O; an ether has two alkyl groups, an alcohol has one, and water has none, giving the order ether &gt; alcohol &gt; water.",
+      "trick": "More alkyl groups on O (+I effect) = more electron-rich O = more basic: ether $>$ alcohol $>$ water."
+    },
+    {
+      "id": "che-alcohols-phenols-ethers-052",
+      "q": "Propan-2-ol can be converted to propan-1-ol by which sequence of steps?",
+      "options": [
+        "Oxidation to propanone, then reduction with LiAlH$_4$",
+        "Dehydration to propene, then acid-catalysed (Markovnikov) hydration",
+        "Direct nucleophilic substitution of OH by H$^-$",
+        "Dehydration to propene, then hydroboration-oxidation (anti-Markovnikov)"
+      ],
+      "answer": 3,
+      "difficulty": "hard",
+      "explanation": "Propan-2-ol is first dehydrated with hot conc. H$_2$SO$_4$ to propene; hydroboration-oxidation (B$_2$H$_6$ then H$_2$O$_2$/NaOH) then adds water anti-Markovnikov, placing OH on the terminal (less substituted) carbon to give propan-1-ol. (Oxidation-reduction via propanone would only regenerate propan-2-ol.)",
+      "trick": "2$^\\circ\\to$1$^\\circ$ alcohol: dehydrate to alkene, then hydroborate-oxidise (anti-Markovnikov)."
+    },
+    {
+      "id": "che-alcohols-phenols-ethers-053",
+      "q": "Intramolecular hydrogen bonding (chelation) is present in",
+      "options": [
+        "salicylaldehyde (o-hydroxybenzaldehyde)",
+        "p-hydroxybenzaldehyde",
+        "benzyl alcohol",
+        "p-cresol"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "In salicylaldehyde, the ortho –OH and the –CHO group are close enough for the OH hydrogen to hydrogen-bond intramolecularly with the carbonyl oxygen, forming a stable six-membered ring; in the para isomer the groups are too far apart, so only intermolecular H-bonding occurs.",
+      "trick": "Ortho placement of OH next to C=O/COOH $\\to$ intramolecular H-bond (chelation)."
+    },
+    {
+      "id": "che-alcohols-phenols-ethers-054",
+      "q": "2.3 g of a monohydric alcohol reacts with excess CH$_3$MgI to liberate 0.56 L of CH$_4$ gas at STP. The molar mass of the alcohol is",
+      "options": [
+        "46 g/mol",
+        "92 g/mol",
+        "60 g/mol",
+        "30 g/mol"
+      ],
+      "answer": 1,
+      "difficulty": "hard",
+      "explanation": "ROH + CH$_3$MgI $\\to$ ROMgI + CH$_4$ (1:1). Moles of CH$_4$ = 0.56/22.4 = 0.025 mol = moles of ROH. Molar mass = mass/moles = 2.3/0.025 = 92 g/mol.",
+      "trick": "ROH + CH$_3$MgI $\\to$ CH$_4$ (1:1); moles CH$_4$=V/22.4 gives moles ROH, then M=mass/moles."
+    },
+    {
+      "id": "che-alcohols-phenols-ethers-055",
+      "q": "Diethyl ether is commonly used as the solvent for preparing Grignard reagents because",
+      "options": [
+        "ether reduces the Grignard reagent to an alkane",
+        "ether reacts with the Grignard reagent to form an alcohol in situ",
+        "the ether oxygen's lone pair coordinates to Mg, solvating and stabilising the Grignard reagent without reacting with it",
+        "ether has no interaction at all with the Grignard reagent"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "Ether has no acidic O–H to destroy the highly reactive Grignard reagent, but its oxygen lone pair can coordinate to the electron-deficient Mg atom, forming a stabilising solvate complex that keeps the reagent in solution and reactive.",
+      "trick": "Ether has no O-H to kill RMgX, but its O lone pair solvates the Mg centre."
+    },
+    {
+      "id": "che-alcohols-phenols-ethers-056",
+      "q": "The total number of structurally isomeric alcohols with molecular formula C$_4$H$_{10}$O is",
+      "options": [
+        "2",
+        "3",
+        "5",
+        "4"
+      ],
+      "answer": 3,
+      "difficulty": "hard",
+      "explanation": "The four isomeric alcohols are butan-1-ol, butan-2-ol, 2-methylpropan-1-ol (isobutanol) and 2-methylpropan-2-ol (tert-butanol); dimethyl ether/diethyl ether type structures of this formula are ethers, not alcohols, so are excluded from this count.",
+      "trick": "C$_4$H$_{10}$O alcohols: 1-butanol, 2-butanol, isobutanol, tert-butanol = 4 isomers."
+    },
+    {
+      "id": "che-alcohols-phenols-ethers-057",
+      "q": "Compared to ethanol, ethylene glycol (ethane-1,2-diol) has a much higher boiling point mainly because",
+      "options": [
+        "ethylene glycol has a much higher boiling point because each molecule can form more intermolecular hydrogen bonds (it has two –OH groups)",
+        "ethylene glycol has a lower boiling point due to dipole cancellation",
+        "both have nearly identical boiling points since their molar masses are close",
+        "ethanol has a higher boiling point because it is a smaller molecule"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "Each ethylene glycol molecule carries two –OH groups, so it can participate in a more extensive hydrogen-bonded network than ethanol's single –OH, requiring much more energy to separate the molecules and giving glycol a considerably higher boiling point.",
+      "trick": "More -OH groups per molecule = more H-bonds = much higher boiling point (glycol $>$ ethanol)."
+    },
+    {
+      "id": "che-alcohols-phenols-ethers-058",
+      "q": "The common name of 2,4,6-trinitrophenol is",
+      "options": [
+        "salicylic acid",
+        "picric acid",
+        "benzoic acid",
+        "catechol"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "2,4,6-Trinitrophenol is universally known by its common name, picric acid, a strongly acidic yellow solid historically used as an explosive and dye intermediate.",
+      "trick": "2,4,6-trinitrophenol's common name is picric acid — remember it directly."
+    },
+    {
+      "id": "che-alcohols-phenols-ethers-059",
+      "q": "In the ceric ammonium nitrate test for the –OH group, alcohols and phenols can be distinguished because",
+      "options": [
+        "alcohols give no colour while phenols turn red",
+        "both give an identical yellow colouration",
+        "alcohols give a red colouration (complex formation) while phenols give a green colouration",
+        "only tertiary alcohols react, all others give no colour"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "Ceric ammonium nitrate reacts with the –OH group to form a coloured complex; alcohols characteristically give a red colouration, while phenols give a green colouration, allowing the two classes to be distinguished.",
+      "trick": "Ceric ammonium nitrate: alcohols turn red, phenols turn green — quick -OH test."
+    },
+    {
+      "id": "che-alcohols-phenols-ethers-060",
+      "q": "The reaction of formaldehyde (HCHO) with a Grignard reagent RMgX, followed by acidic hydrolysis, gives",
+      "options": [
+        "a tertiary alcohol",
+        "a ketone",
+        "no reaction occurs with formaldehyde",
+        "a primary alcohol, since formaldehyde is the least substituted carbonyl compound"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "The Grignard reagent's R group adds to the carbonyl carbon of HCHO, which bears no other alkyl substituents, so after aqueous acidic work-up the product is a primary alcohol, R–CH$_2$OH; other aldehydes give secondary alcohols and ketones give tertiary alcohols with a Grignard reagent.",
+      "trick": "HCHO + RMgX $\\to$ 1$^\\circ$ alcohol (only formaldehyde does this; other aldehydes give 2$^\\circ$)."
     }
   ]
 }

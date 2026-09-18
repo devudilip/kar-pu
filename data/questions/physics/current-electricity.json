@@ -562,6 +562,286 @@
       "difficulty": "medium",
       "explanation": "Ohm's law, $V=IR$ with constant $R$, gives a straight line through the origin with slope $R$.",
       "trick": "Ohmic conductor: $V$-$I$ graph is a straight line through the origin, slope = $R$."
+    },
+    {
+      "id": "phy-current-electricity-041",
+      "q": "The current flowing through a wire decreases linearly from 8 A to zero in 4 s. The total charge that flows through the wire in this interval is",
+      "options": [
+        "16 C",
+        "32 C",
+        "8 C",
+        "4 C"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "Charge equals the area under the I-t graph. For a straight line from 8 A to 0 over 4 s, this area is a triangle: $q=\\dfrac12\\times4\\times8=16$ C.",
+      "trick": "Charge = area under I-t graph; for a straight-line drop, it's a triangle."
+    },
+    {
+      "id": "phy-current-electricity-042",
+      "q": "In a semiconductor, $5\\times10^{18}$ electrons per second cross a section moving to the left while $5\\times10^{18}$ holes per second cross the same section moving to the right (e $=1.6\\times10^{-19}$ C). The resulting current is",
+      "options": [
+        "0.8 A",
+        "1.6 A",
+        "3.2 A",
+        "0 A"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "Electrons moving left give a conventional current of $I=ne=5\\times10^{18}\\times1.6\\times10^{-19}=0.8$ A to the right; holes moving right also give 0.8 A to the right. Since both currents point the same way, they add: total $=1.6$ A.",
+      "trick": "Electrons left + holes right both push conventional current the same way, add them."
+    },
+    {
+      "id": "phy-current-electricity-043",
+      "q": "The number of electrons flowing per second through the filament of a 60 W, 120 V lamp is nearly ($e=1.6\\times10^{-19}$ C)",
+      "options": [
+        "$6.25\\times10^{18}$",
+        "$1.25\\times10^{18}$",
+        "$3.125\\times10^{18}$",
+        "$5\\times10^{18}$"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "Current $I=P/V=60/120=0.5$ A. Number of electrons per second $=I/e=0.5/(1.6\\times10^{-19})\\approx3.125\\times10^{18}$.",
+      "trick": "Find $I=P/V$ first, then divide by $e$ to get electrons per second."
+    },
+    {
+      "id": "phy-current-electricity-044",
+      "q": "Statement I: The resistivity of a metallic conductor increases with increase in temperature.\nStatement II: The resistivity of a semiconductor decreases with increase in temperature.\nChoose the correct option.",
+      "options": [
+        "Statement I is true, Statement II is false",
+        "Statement I is false, Statement II is true",
+        "Both statements are false",
+        "Both statements are true"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "Metals have a positive temperature coefficient of resistivity (more lattice vibrations scatter electrons), while semiconductors have a negative one (more charge carriers are released as temperature rises). Both statements are correct.",
+      "trick": "Metals: resistivity up with T. Semiconductors: resistivity down with T. Both true here."
+    },
+    {
+      "id": "phy-current-electricity-045",
+      "q": "Three wires of the same material have masses in the ratio 1:2:3 and lengths in the ratio 3:2:1. The ratio of their resistances $R_1:R_2:R_3$ is",
+      "options": [
+        "27:6:1",
+        "1:6:27",
+        "9:4:1",
+        "3:2:1"
+      ],
+      "answer": 0,
+      "difficulty": "hard",
+      "explanation": "Since volume $=m/d$ is fixed for a given mass, $A=m/(dl)$, so $R=\\rho l/A=\\rho d\\,l^2/m$, i.e. $R\\propto l^2/m$. Using the ratios: $R_1:R_2:R_3=\\dfrac{9}{1}:\\dfrac{4}{2}:\\dfrac{1}{3}=9:2:\\dfrac13=27:6:1$.",
+      "trick": "Same-material wires: $R\\propto l^2/m$, combine length-squared and mass ratios."
+    },
+    {
+      "id": "phy-current-electricity-046",
+      "q": "A wire is stretched so that its length increases by 10%, with its volume remaining constant. The percentage increase in its resistance, and the change in its resistivity, are respectively",
+      "options": [
+        "10% increase; resistivity increases by 10%",
+        "21% increase; resistivity unchanged",
+        "100% increase; resistivity unchanged",
+        "no change in either quantity"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "With volume constant, $R'=\\rho\\dfrac{1.1l}{A/1.1}=1.21\\,\\rho\\dfrac{l}{A}=1.21R$, a 21% increase. Resistivity depends only on material and temperature, so it stays unchanged.",
+      "trick": "Length up by fraction $x$ (volume fixed) gives resistance up by $(1+x)^2$; resistivity never changes."
+    },
+    {
+      "id": "phy-current-electricity-047",
+      "q": "A bulb is rated 220 V, 100 W. If the supply voltage drops by 4% of its rated value, the percentage decrease in the power consumed is approximately",
+      "options": [
+        "4%",
+        "16%",
+        "8%",
+        "2%"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "Since $P=V^2/R$, for small changes $\\dfrac{\\Delta P}{P}\\approx2\\dfrac{\\Delta V}{V}=2\\times4\\%=8\\%$.",
+      "trick": "$P\\propto V^2$: percentage change in $P$ is about double the percentage change in $V$."
+    },
+    {
+      "id": "phy-current-electricity-048",
+      "q": "A bulb rated 100 W, 200 V is to be operated at its rated values using a 260 V supply. The resistance that must be connected in series with the bulb is",
+      "options": [
+        "400 $\\Omega$",
+        "520 $\\Omega$",
+        "40 $\\Omega$",
+        "120 $\\Omega$"
+      ],
+      "answer": 3,
+      "difficulty": "hard",
+      "explanation": "Rated current $I=P/V=100/200=0.5$ A. The series resistor must drop the extra $260-200=60$ V, so $R=60/0.5=120\\,\\Omega$.",
+      "trick": "Series resistor drops the EXTRA voltage only; use rated current $I=P/V$."
+    },
+    {
+      "id": "phy-current-electricity-049",
+      "q": "A wire of diameter 0.2 mm carries a current of 94.2 mA. The current density in the wire is (take $\\pi=3.14$)",
+      "options": [
+        "$3\\times10^{6}$ A/m$^2$",
+        "$3\\times10^{5}$ A/m$^2$",
+        "$9.42\\times10^{-3}$ A/m$^2$",
+        "$3\\times10^{7}$ A/m$^2$"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "Radius $=1\\times10^{-4}$ m, area $=\\pi r^2=3.14\\times10^{-8}$ m$^2$. $J=I/A=9.42\\times10^{-2}/3.14\\times10^{-8}=3\\times10^{6}$ A/m$^2$.",
+      "trick": "$J=I/A$ with $A=\\pi r^2$, always use radius, not diameter, in the formula."
+    },
+    {
+      "id": "phy-current-electricity-050",
+      "q": "An electron in an atom revolves around the nucleus making $1\\times10^{16}$ revolutions per second. The equivalent current due to this orbital motion is ($e=1.6\\times10^{-19}$ C)",
+      "options": [
+        "1.6 $\\mu$A",
+        "1.6 mA",
+        "1.6 A",
+        "16 mA"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "Equivalent current $I=ef=1.6\\times10^{-19}\\times1\\times10^{16}=1.6\\times10^{-3}$ A $=1.6$ mA.",
+      "trick": "Orbiting charge = current: $I=ef$, charge times revolutions per second."
+    },
+    {
+      "id": "phy-current-electricity-051",
+      "q": "Four identical cells, each of emf 2 V and internal resistance 0.25 $\\Omega$, are connected in series, but one cell is connected with reversed polarity. This combination is joined to an external resistance of 4 $\\Omega$. The current in the circuit is",
+      "options": [
+        "1.6 A",
+        "0.4 A",
+        "0.8 A",
+        "1 A"
+      ],
+      "answer": 2,
+      "difficulty": "hard",
+      "explanation": "One reversed cell cancels itself and opposes one correct cell, so net emf $=(4-2)\\times2=4$ V. Internal resistances still add regardless of polarity: total $r=4\\times0.25=1\\,\\Omega$. Current $=\\dfrac{4}{4+1}=0.8$ A.",
+      "trick": "One reversed cell among $n$: net emf $=(n-2)E$, but total internal resistance still $=nr$."
+    },
+    {
+      "id": "phy-current-electricity-052",
+      "q": "In a metre bridge experiment, the resistance wire AB is replaced by another uniform wire of the same material and length but twice the radius. The balancing length for the same two resistances in the gaps",
+      "options": [
+        "doubles",
+        "halves",
+        "becomes zero",
+        "remains unchanged"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "The balance condition $R/X=l/(100-l)$ depends only on the ratio of the two wire-segment resistances, which equals the ratio of their lengths since both segments have identical cross-section and material. Changing the wire's radius scales both segments' resistance equally, so the balancing length is unaffected.",
+      "trick": "Metre bridge balance depends only on the LENGTH ratio, not the wire's radius."
+    },
+    {
+      "id": "phy-current-electricity-053",
+      "q": "Resistors of 2 $\\Omega$, 3 $\\Omega$ and 5 $\\Omega$ are connected in series and carry the same current for the same time. The ratio of heat produced in them is",
+      "options": [
+        "2:3:5",
+        "5:3:2",
+        "1:1:1",
+        "4:9:25"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "Heat $H=I^2Rt$. With the same $I$ and $t$, $H\\propto R$, so the ratio is simply $2:3:5$.",
+      "trick": "Series, same current: heat ratio equals resistance ratio directly."
+    },
+    {
+      "id": "phy-current-electricity-054",
+      "q": "Resistors of 2 $\\Omega$ and 4 $\\Omega$ are connected in parallel across the same source for the same time. The ratio of heat produced in the 2 $\\Omega$ resistor to that in the 4 $\\Omega$ resistor is",
+      "options": [
+        "1:2",
+        "2:1",
+        "1:1",
+        "4:1"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "Same voltage across both: $H=V^2t/R$, so $H\\propto1/R$. Ratio $=\\dfrac{1/2}{1/4}=2:1$.",
+      "trick": "Parallel, same voltage: heat ratio is INVERSE of resistance ratio."
+    },
+    {
+      "id": "phy-current-electricity-055",
+      "q": "Each edge of a wire cube has resistance 6 $\\Omega$. The equivalent resistance between two diagonally opposite corners of the cube (the body diagonal) is",
+      "options": [
+        "6 $\\Omega$",
+        "3 $\\Omega$",
+        "5 $\\Omega$",
+        "7.5 $\\Omega$"
+      ],
+      "answer": 2,
+      "difficulty": "hard",
+      "explanation": "For a cube of edge resistance $R$, the standard result for resistance across the body diagonal is $\\dfrac{5R}{6}$. Here $R=6\\,\\Omega$, giving $\\dfrac{5\\times6}{6}=5\\,\\Omega$.",
+      "trick": "Cube body-diagonal resistance is always $\\dfrac{5R}{6}$, memorise this standard result."
+    },
+    {
+      "id": "phy-current-electricity-056",
+      "q": "A galvanometer of resistance 99 $\\Omega$ gives full-scale deflection for a current of 1 mA. To convert it into an ammeter reading up to 100 mA, the shunt resistance required is",
+      "options": [
+        "99 $\\Omega$",
+        "100 $\\Omega$",
+        "0.5 $\\Omega$",
+        "1 $\\Omega$"
+      ],
+      "answer": 3,
+      "difficulty": "hard",
+      "explanation": "Shunt $S=\\dfrac{I_gG}{I-I_g}=\\dfrac{0.001\\times99}{0.1-0.001}=\\dfrac{0.099}{0.099}=1\\,\\Omega$.",
+      "trick": "Ammeter shunt: $S=I_gG/(I-I_g)$, the shunt is always much smaller than $G$."
+    },
+    {
+      "id": "phy-current-electricity-057",
+      "q": "A galvanometer of resistance 100 $\\Omega$ gives full-scale deflection for a current of 1 mA. To convert it into a voltmeter of range 10 V, the resistance that must be connected in series with it is",
+      "options": [
+        "9900 $\\Omega$",
+        "10000 $\\Omega$",
+        "100 $\\Omega$",
+        "9800 $\\Omega$"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "Series resistance $R=\\dfrac{V}{I_g}-G=\\dfrac{10}{0.001}-100=10000-100=9900\\,\\Omega$.",
+      "trick": "Voltmeter series resistor: $R=V/I_g-G$, subtract galvanometer resistance at the end."
+    },
+    {
+      "id": "phy-current-electricity-058",
+      "q": "In a balanced Wheatstone bridge with arms $P$, $Q$, $R$, $S$, the resistance of every arm is doubled. The bridge",
+      "options": [
+        "becomes unbalanced",
+        "remains balanced",
+        "shows a large deflection in the galvanometer",
+        "has its balance point shifted"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "The balance condition is $P/Q=R/S$. Doubling every arm gives $2P/2Q=P/Q$ and $2R/2S=R/S$, so the ratios, and hence the balance, are unaffected.",
+      "trick": "Scaling all four Wheatstone arms equally never disturbs the $P/Q=R/S$ balance."
+    },
+    {
+      "id": "phy-current-electricity-059",
+      "q": "Two cells of emf 4 V and 2 V, having internal resistances 2 $\\Omega$ and 1 $\\Omega$ respectively, are connected in parallel (like poles together). The equivalent emf of the combination is",
+      "options": [
+        "3 V",
+        "2 V",
+        "$\\dfrac{8}{3}$ V ($\\approx2.67$ V)",
+        "6 V"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "For cells in parallel, $E_{eq}=\\dfrac{E_1/r_1+E_2/r_2}{1/r_1+1/r_2}=\\dfrac{4/2+2/1}{1/2+1}=\\dfrac{4}{1.5}=\\dfrac{8}{3}$ V.",
+      "trick": "Cells in parallel: use $E_{eq}=(E_1/r_1+E_2/r_2)/(1/r_1+1/r_2)$, not a simple average."
+    },
+    {
+      "id": "phy-current-electricity-060",
+      "q": "If the cross-sectional area of a wire is tripled while its length and material remain unchanged, its new resistance becomes",
+      "options": [
+        "3R",
+        "9R",
+        "R/9",
+        "R/3"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "Since $R=\\rho l/A$, tripling $A$ alone reduces resistance to one-third: $R'=R/3$.",
+      "trick": "$R\\propto1/A$ at fixed length: area up 3 times means resistance down to $R/3$."
     }
   ]
 }

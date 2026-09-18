@@ -561,6 +561,286 @@
       "difficulty": "easy",
       "explanation": "For an object between $f$ and $2f$, the convex lens forms a real, inverted image that is magnified and located beyond $2f$ on the other side.",
       "trick": "Between $f$ and $2f$ gives an image beyond $2f$: real, inverted, magnified (projector case)."
+    },
+    {
+      "id": "phy-ray-optics-041",
+      "q": "For a given pair of media, the critical angle for total internal reflection is smallest for which colour of light, and why?",
+      "options": [
+        "Violet, because it has the highest refractive index and hence the smallest critical angle",
+        "Red, because it has the highest refractive index",
+        "Green, because the critical angle does not depend on colour",
+        "Yellow, because it has the lowest refractive index"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "Since $\\sin C = 1/n$, a higher refractive index gives a smaller critical angle. Violet light has the shortest wavelength and hence the highest $n$ in a dispersive medium, so its critical angle is the smallest.",
+      "trick": "Critical angle: $\\sin C=1/n$ — higher $n$ (violet) gives smaller critical angle, always."
+    },
+    {
+      "id": "phy-ray-optics-042",
+      "q": "The relation $f = R/2$ between the focal length and radius of curvature of a spherical mirror is strictly valid only for",
+      "options": [
+        "marginal rays incident at a large aperture",
+        "paraxial rays making small angles with the principal axis",
+        "convex mirrors only, not concave mirrors",
+        "rays that are parallel to the principal axis at any height"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "The relation $f=R/2$ follows from the small-angle (paraxial) approximation. For marginal rays striking near the edge of a large-aperture mirror, this relation fails, causing spherical aberration.",
+      "trick": "$f=R/2$ holds only for paraxial rays; marginal rays cause spherical aberration."
+    },
+    {
+      "id": "phy-ray-optics-043",
+      "q": "A biconvex lens of focal length 15 cm is cut into two identical halves by a plane containing the principal axis (sliced from top to bottom). The focal length of each half is",
+      "options": [
+        "30 cm",
+        "7.5 cm",
+        "15 cm",
+        "22.5 cm"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "Cutting along a plane containing the principal axis only reduces the aperture (making the image dimmer); the radii of curvature of each half are unchanged, so each half still has focal length 15 cm.",
+      "trick": "Cutting along the axis only reduces aperture — focal length of each half stays $f$."
+    },
+    {
+      "id": "phy-ray-optics-044",
+      "q": "In an astronomical telescope in normal adjustment, the final image formed is",
+      "options": [
+        "real, inverted, diminished, at the eyepiece's focus",
+        "virtual, erect and magnified",
+        "real, erect and of the same size",
+        "virtual, inverted and formed at infinity"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "In normal adjustment, the objective's real image falls at the eyepiece's focus, and the eyepiece then forms the final image at infinity; it remains virtual and inverted with respect to the object.",
+      "trick": "Astronomical telescope, normal adjustment: final image is virtual, inverted, at infinity."
+    },
+    {
+      "id": "phy-ray-optics-045",
+      "q": "In a compound microscope, the image formed by the objective lens (which then acts as the object for the eyepiece) is",
+      "options": [
+        "real, inverted and magnified",
+        "virtual, erect and diminished",
+        "real, erect and of the same size",
+        "virtual, inverted and diminished"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "The object is placed just beyond the objective's focal length, so the objective forms a real, inverted, magnified image, which the eyepiece then further magnifies as a simple microscope.",
+      "trick": "Objective of compound microscope always forms a real, inverted, magnified image first."
+    },
+    {
+      "id": "phy-ray-optics-046",
+      "q": "A ray of light enters perpendicular to one face of a 45°-45°-90° glass prism ($n=1.5$) and strikes the hypotenuse face at 45°, which exceeds the critical angle (about 41.8°), so it undergoes total internal reflection and emerges perpendicular to the other short face. The ray has been turned through",
+      "options": [
+        "180°",
+        "90°",
+        "45°",
+        "0°, it exits undeviated"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "The single total internal reflection at the hypotenuse bends the ray by 90°, which is why such prisms are used in binoculars and periscopes instead of mirrors.",
+      "trick": "45-45-90 TIR prism: light undergoes total internal reflection and turns exactly 90°."
+    },
+    {
+      "id": "phy-ray-optics-047",
+      "q": "An equiconvex lens of glass ($n=1.5$) has a certain focal length in air. When it is completely immersed in water ($n=4/3$), the percentage increase in its focal length is",
+      "options": [
+        "400%",
+        "150%",
+        "300%",
+        "75%"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "$\\dfrac{f_w}{f_a}=\\dfrac{n_g-1}{n_g/n_w-1}=\\dfrac{0.5}{1.125-1}=4$, so the focal length becomes 4 times its original value — an increase of $(4-1)\\times100\\% = 300\\%$.",
+      "trick": "Lens in water: focal length becomes 4$\\times$ for $n=1.5$ glass — a 300% rise."
+    },
+    {
+      "id": "phy-ray-optics-048",
+      "q": "A ray of light passes symmetrically through an equilateral glass prism (angle of prism $A=60^\\circ$) such that the angle of incidence equals the angle of emergence, each equal to $\\dfrac34$ of the angle of the prism. The angle of deviation is",
+      "options": [
+        "45°",
+        "60°",
+        "15°",
+        "30°"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "$i=e=\\dfrac34\\times60^\\circ=45^\\circ$. Deviation $\\delta=i+e-A=45+45-60=30^\\circ$.",
+      "trick": "Prism deviation: $\\delta=i+e-A$ — plug in the given $i$ and $e$ directly."
+    },
+    {
+      "id": "phy-ray-optics-049",
+      "q": "In an experiment to find the focal length of a convex lens by the displacement method, the distance between the object and the screen is fixed at 90 cm. Two positions of the lens, 30 cm apart, both give a sharp image on the screen. The focal length of the lens is",
+      "options": [
+        "20 cm",
+        "30 cm",
+        "15 cm",
+        "25 cm"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "By the displacement (Bessel's) method, $f=\\dfrac{D^2-d^2}{4D}=\\dfrac{90^2-30^2}{4\\times90}=\\dfrac{7200}{360}=20$ cm.",
+      "trick": "Displacement method: $f=(D^2-d^2)/(4D)$ using object-screen distance $D$ and shift $d$."
+    },
+    {
+      "id": "phy-ray-optics-050",
+      "q": "An equi-concave lens made of glass ($n=1.5$) has a power of $-5$ D. The magnitude of the radius of curvature of each surface is",
+      "options": [
+        "10 cm",
+        "20 cm",
+        "40 cm",
+        "15 cm"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "$|f|=1/|P|=1/5$ m $=20$ cm. For an equi-concave lens, $\\left|\\dfrac1f\\right|=(n-1)\\dfrac2R \\Rightarrow \\dfrac1{20}=0.5\\times\\dfrac2R \\Rightarrow R=20$ cm.",
+      "trick": "Equi-concave: $|1/f|=(n-1)(2/R)$ — solve for $R$ from the given power."
+    },
+    {
+      "id": "phy-ray-optics-051",
+      "q": "Two thin convex and concave lenses are placed in contact to form an achromatic combination. If both lenses are made of the same material (same dispersive power), then",
+      "options": [
+        "the combination is impossible only if the focal lengths differ",
+        "the two focal lengths must be equal and of the same sign, doubling the power",
+        "the two focal lengths must be equal in magnitude but opposite in sign, so the net power is zero",
+        "achromatism needs unequal dispersive powers, so any pair of focal lengths works here"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "Achromatism requires $\\dfrac{\\omega_1}{f_1}+\\dfrac{\\omega_2}{f_2}=0$. If $\\omega_1=\\omega_2$ (same material), this forces $f_1=-f_2$, so the net power $1/f_1+1/f_2=0$ — the combination has no focusing ability, making it useless despite being achromatic.",
+      "trick": "Achromatic pair needs different materials; same material forces $f_1=-f_2$, net power zero."
+    },
+    {
+      "id": "phy-ray-optics-052",
+      "q": "An ink dot is viewed from directly above through a travelling microscope. When a glass slab of thickness 6 cm is placed over the dot, it appears to rise (shift upward) by 2 cm. The refractive index of the glass is",
+      "options": [
+        "1.25",
+        "1.33",
+        "2.0",
+        "1.5"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "Apparent shift $=t\\left(1-\\dfrac1n\\right)$. So $2=6\\left(1-\\dfrac1n\\right) \\Rightarrow 1-\\dfrac1n=\\dfrac13 \\Rightarrow \\dfrac1n=\\dfrac23 \\Rightarrow n=1.5$.",
+      "trick": "Apparent rise through slab: shift $=t(1-1/n)$ — solve for $n$ directly."
+    },
+    {
+      "id": "phy-ray-optics-053",
+      "q": "In a primary rainbow, the colours violet and red appear",
+      "options": [
+        "with violet on the inner edge of the arc and red on the outer edge",
+        "with red on the inner edge of the arc and violet on the outer edge",
+        "with violet on top and red at the bottom of the arc",
+        "at the same position, since both deviate equally"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "Violet light emerges from raindrops at a smaller angle from the direction of sunlight than red, so violet appears on the inner edge and red on the outer edge of a primary rainbow.",
+      "trick": "Primary rainbow: violet deviates most, so it appears on the inner arc."
+    },
+    {
+      "id": "phy-ray-optics-054",
+      "q": "The objective lens of a telescope has a diameter of 10 cm. For light of wavelength 550 nm, the telescope's limit of resolution (minimum resolvable angular separation) is approximately",
+      "options": [
+        "1.22×10⁻⁶ rad",
+        "6.7×10⁻⁶ rad",
+        "5.0×10⁻⁶ rad",
+        "1.1×10⁻⁵ rad"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "Limit of resolution $\\Delta\\theta = \\dfrac{1.22\\lambda}{D} = \\dfrac{1.22\\times550\\times10^{-9}}{0.10} \\approx 6.7\\times10^{-6}$ rad.",
+      "trick": "Telescope resolving power: $\\Delta\\theta=1.22\\lambda/D$ — smaller angle means finer resolution."
+    },
+    {
+      "id": "phy-ray-optics-055",
+      "q": "The critical angle for light travelling from glass ($n=1.5$) into water ($n=4/3$) is",
+      "options": [
+        "48.6°",
+        "41.8°",
+        "62.7°",
+        "90°"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "For denser (glass) to rarer (water), $\\sin C = \\dfrac{n_{water}}{n_{glass}} = \\dfrac{4/3}{1.5} = \\dfrac89 \\approx 0.889 \\Rightarrow C \\approx 62.7^\\circ$.",
+      "trick": "Denser-to-rarer critical angle: $\\sin C = n(\\text{rarer})/n(\\text{denser})$ — glass to water here."
+    },
+    {
+      "id": "phy-ray-optics-056",
+      "q": "For an equilateral prism ($A=60^\\circ$), the angle of minimum deviation happens to equal the angle of the prism itself ($\\delta_m = A = 60^\\circ$). The speed of light inside this prism is",
+      "options": [
+        "3×10⁸ m/s",
+        "2.12×10⁸ m/s",
+        "1.5×10⁸ m/s",
+        "1.73×10⁸ m/s"
+      ],
+      "answer": 3,
+      "difficulty": "hard",
+      "explanation": "$n=\\dfrac{\\sin\\frac{A+\\delta_m}{2}}{\\sin\\frac A2}=\\dfrac{\\sin60^\\circ}{\\sin30^\\circ}=\\dfrac{0.866}{0.5}=\\sqrt3$. So $v=c/n=3\\times10^8/\\sqrt3\\approx1.73\\times10^8$ m/s.",
+      "trick": "Special case $\\delta_m=A$: $n=2\\cos(A/2)$ — then find $v=c/n$ directly."
+    },
+    {
+      "id": "phy-ray-optics-057",
+      "q": "A symmetric biconvex lens of focal length 15 cm is cut by a plane perpendicular to the principal axis, through its optical centre, giving two plano-convex halves. The focal length of each half is",
+      "options": [
+        "30 cm",
+        "15 cm",
+        "7.5 cm",
+        "60 cm"
+      ],
+      "answer": 0,
+      "difficulty": "hard",
+      "explanation": "Cutting perpendicular to the axis gives each half only one curved surface instead of two, halving its power; since power is halved, the focal length doubles: $2\\times15=30$ cm.",
+      "trick": "Perpendicular cut splits a symmetric biconvex lens into two lenses of focal length $2f$ each."
+    },
+    {
+      "id": "phy-ray-optics-058",
+      "q": "A point object moves with a constant speed of 2 m/s along the principal axis, towards a convex lens of focal length 10 cm, and is instantaneously at a distance of 15 cm from the lens. The speed of the image at this instant is",
+      "options": [
+        "4 m/s",
+        "8 m/s",
+        "2 m/s",
+        "16 m/s"
+      ],
+      "answer": 1,
+      "difficulty": "hard",
+      "explanation": "At $u=-15$ cm, $\\dfrac1v=\\dfrac1{10}-\\dfrac1{15}=\\dfrac1{30}\\Rightarrow v=30$ cm, so $m=v/u=-2$. Since $\\left|\\dfrac{dv}{dt}\\right|=m^2\\left|\\dfrac{du}{dt}\\right|=4\\times2=8$ m/s.",
+      "trick": "Image speed $= m^2 \\times$ object speed, using $m=v/u$ at that instant."
+    },
+    {
+      "id": "phy-ray-optics-059",
+      "q": "A plano-convex lens (focal length 20 cm as a lens, $n=1.5$) has its curved surface silvered instead of its plane surface. The equivalent focal length of this mirror-like system is",
+      "options": [
+        "6.67 cm",
+        "10 cm",
+        "3.33 cm",
+        "20 cm"
+      ],
+      "answer": 2,
+      "difficulty": "hard",
+      "explanation": "For a plano-convex lens, $\\dfrac1{f_{lens}}=\\dfrac{n-1}{R}$, so with $f_{lens}=20$ cm, $R=(n-1)\\times20=10$ cm. Silvering the curved surface gives a mirror of power $P_{mirror}=\\dfrac2R=0.2\\,\\text{cm}^{-1}$, while $P_{lens}=\\dfrac1{20}=0.05\\,\\text{cm}^{-1}$. Equivalent power $P_{eq}=2P_{lens}+P_{mirror}=0.1+0.2=0.3\\,\\text{cm}^{-1}$, giving $F_{eq}=1/0.3\\approx3.33$ cm.",
+      "trick": "Curved surface silvered: $P_{eq}=2P_{lens}+2/R$, not the plane-silvered formula — don't mix them up."
+    },
+    {
+      "id": "phy-ray-optics-060",
+      "q": "A thin prism of angle $6^\\circ$ is made of a material with refractive indices $n_v=1.532$ for violet and $n_r=1.514$ for red light. The angular dispersion produced between violet and red is",
+      "options": [
+        "0.18°",
+        "0.012°",
+        "1.08°",
+        "0.108°"
+      ],
+      "answer": 3,
+      "difficulty": "hard",
+      "explanation": "Angular dispersion $=(n_v-n_r)A=(1.532-1.514)\\times6^\\circ=0.018\\times6^\\circ=0.108^\\circ$.",
+      "trick": "Angular dispersion of a thin prism $=(n_v-n_r)\\times A$ — a direct product."
     }
   ]
 }

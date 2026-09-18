@@ -560,6 +560,286 @@
       "difficulty": "hard",
       "explanation": "$\\lim_{x\\to0}\\dfrac{1-\\cos x}{x^2}=\\lim_{x\\to0}\\dfrac{2\\sin^2(x/2)}{x^2}=\\lim_{x\\to0}\\dfrac12\\left(\\dfrac{\\sin(x/2)}{x/2}\\right)^2=\\dfrac12$, so $k=\\dfrac12$.",
       "trick": "Use $1-\\cos x=2\\sin^2(x/2)$ to reduce to the standard limit $\\sin\\theta/\\theta\\to1$."
+    },
+    {
+      "id": "mat-continuity-and-differentiability-041",
+      "q": "The function $f(x)=|\\cos x|$ is continuous everywhere but fails to be differentiable at",
+      "options": [
+        "$x=\\pi/2$",
+        "$x=0$",
+        "$x=\\pi$",
+        "$x=2\\pi$"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "$\\cos x=0$ at $x=\\pi/2$, where $\\cos x$ changes sign, giving $|\\cos x|$ a sharp corner there; left and right derivatives are $\\mp\\sin x=\\mp1$, unequal. At $x=0,\\pi,2\\pi$, $\\cos x=\\pm1$ and $|\\cos x|$ is smooth.",
+      "trick": "$|\\cos x|$ has corners exactly where $\\cos x=0$."
+    },
+    {
+      "id": "mat-continuity-and-differentiability-042",
+      "q": "The derivative of $\\sin x$ with respect to $\\log x$ is",
+      "options": [
+        "$\\dfrac{\\cos x}{x}$",
+        "$x\\cos x$",
+        "$-x\\cos x$",
+        "$\\cos x$"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "Let $u=\\log x$. Then $\\dfrac{d(\\sin x)}{du}=\\dfrac{d(\\sin x)/dx}{du/dx}=\\dfrac{\\cos x}{1/x}=x\\cos x$.",
+      "trick": "Derivative of $f$ w.r.t. $g$ equals $f'(x)/g'(x)$."
+    },
+    {
+      "id": "mat-continuity-and-differentiability-043",
+      "q": "If $x=a\\cos^3\\theta$ and $y=a\\sin^3\\theta$, then $\\dfrac{dy}{dx}$ equals",
+      "options": [
+        "$\\tan\\theta$",
+        "$\\cot\\theta$",
+        "$-\\tan\\theta$",
+        "$-\\cot\\theta$"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "$\\dfrac{dx}{d\\theta}=-3a\\cos^2\\theta\\sin\\theta$, $\\dfrac{dy}{d\\theta}=3a\\sin^2\\theta\\cos\\theta$. Dividing gives $\\dfrac{dy}{dx}=-\\dfrac{\\sin\\theta}{\\cos\\theta}=-\\tan\\theta$.",
+      "trick": "Astroid-type parametric curve: $dy/dx=-\\tan\\theta$."
+    },
+    {
+      "id": "mat-continuity-and-differentiability-044",
+      "q": "A function $f$ satisfies $f(x+y)=f(x)f(y)$ for all $x,y$, with $f(0)\\ne0$. If $f(3)=2$ and $f'(0)=4$, then $f'(3)$ equals",
+      "options": [
+        "$6$",
+        "$4$",
+        "$2$",
+        "$8$"
+      ],
+      "answer": 3,
+      "difficulty": "hard",
+      "explanation": "Differentiating $f(x+y)=f(x)f(y)$ with respect to $y$ and setting $y=0$ gives $f'(x)=f(x)f'(0)$. So $f'(3)=f(3)\\cdot f'(0)=2\\times4=8$.",
+      "trick": "For $f(x+y)=f(x)f(y)$, always $f'(x)=f(x)f'(0)$."
+    },
+    {
+      "id": "mat-continuity-and-differentiability-045",
+      "q": "Rolle's theorem is NOT applicable to $f(x)=|x|$ on $[-2,2]$, even though $f(-2)=f(2)=2$, because",
+      "options": [
+        "$f$ is not differentiable at $x=0\\in(-2,2)$",
+        "$f$ is not continuous on $[-2,2]$",
+        "$f(-2)\\ne f(2)$",
+        "$f$ is not defined at $x=0$"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "$|x|$ is continuous on $[-2,2]$ and $f(-2)=f(2)$, but it has a corner at $x=0$, an interior point, so $f$ fails to be differentiable on $(-2,2)$ — this violates Rolle's hypothesis.",
+      "trick": "A corner point inside $(a,b)$ blocks Rolle's theorem even if endpoints match."
+    },
+    {
+      "id": "mat-continuity-and-differentiability-046",
+      "q": "The function $f(x)=\\cot x$ is discontinuous at every point of the set",
+      "options": [
+        "$\\{x=(2n+1)\\pi/2:n\\in\\mathbb Z\\}$",
+        "$\\{x=n\\pi:n\\in\\mathbb Z\\}$",
+        "$\\{x=n\\pi/2:n\\in\\mathbb Z\\}$",
+        "no points (continuous everywhere)"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "$\\cot x=\\cos x/\\sin x$ is undefined wherever $\\sin x=0$, i.e. at $x=n\\pi$, $n\\in\\mathbb Z$.",
+      "trick": "$\\cot x$ blows up where $\\sin x=0$ — integer multiples of $\\pi$."
+    },
+    {
+      "id": "mat-continuity-and-differentiability-047",
+      "q": "If $f(x)=\\dfrac{1}{x-1}$, then the composite function $f(f(x))$ is discontinuous at",
+      "options": [
+        "$x=1$ only",
+        "$x=2$ only",
+        "$x=1$ and $x=2$",
+        "no points"
+      ],
+      "answer": 2,
+      "difficulty": "hard",
+      "explanation": "$f(f(x))=\\dfrac{1}{\\frac{1}{x-1}-1}=\\dfrac{x-1}{2-x}$. This fails at $x=1$ (where $f(x)$ itself is undefined) and at $x=2$ (where the simplified denominator vanishes).",
+      "trick": "For $f(f(x))$, check both the original singularity and the new one after simplifying."
+    },
+    {
+      "id": "mat-continuity-and-differentiability-048",
+      "q": "If $y=3\\sin x+4\\cos x$, then $y^2+\\left(\\dfrac{dy}{dx}\\right)^2$ equals",
+      "options": [
+        "$7$",
+        "$12$",
+        "$1$",
+        "$25$"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "$y'=3\\cos x-4\\sin x$. Then $y^2+y'^2=(3\\sin x+4\\cos x)^2+(3\\cos x-4\\sin x)^2=9+16=25$, since the cross terms cancel and $\\sin^2x+\\cos^2x=1$.",
+      "trick": "For $y=a\\sin x+b\\cos x$, $y^2+y'^2=a^2+b^2$, a constant."
+    },
+    {
+      "id": "mat-continuity-and-differentiability-049",
+      "q": "If $y=(\\sin x)^x$ for $0<x<\\pi$, then $\\dfrac{dy}{dx}$ equals",
+      "options": [
+        "$(\\sin x)^x\\left(\\ln(\\sin x)+x\\cot x\\right)$",
+        "$x(\\sin x)^{x-1}\\cos x$",
+        "$(\\sin x)^x\\ln(\\sin x)$",
+        "$(\\sin x)^x\\cdot x\\cot x$"
+      ],
+      "answer": 0,
+      "difficulty": "hard",
+      "explanation": "Take $\\ln$: $\\ln y=x\\ln(\\sin x)$. Differentiating, $y'/y=\\ln(\\sin x)+x\\cdot\\dfrac{\\cos x}{\\sin x}=\\ln(\\sin x)+x\\cot x$, so $y'=(\\sin x)^x[\\ln(\\sin x)+x\\cot x]$.",
+      "trick": "Variable base and exponent: take log first, then use the product rule."
+    },
+    {
+      "id": "mat-continuity-and-differentiability-050",
+      "q": "If $e^y+xy=e$, then $\\dfrac{dy}{dx}$ at $x=0$ equals",
+      "options": [
+        "$-e$",
+        "$-1/e$",
+        "$e$",
+        "$1/e$"
+      ],
+      "answer": 1,
+      "difficulty": "hard",
+      "explanation": "At $x=0$: $e^y=e\\Rightarrow y=1$. Differentiating implicitly: $e^yy'+y+xy'=0\\Rightarrow y'(e^y+x)=-y$. At $x=0,y=1$: $y'\\cdot e=-1\\Rightarrow y'=-1/e$.",
+      "trick": "Find the point first (here $y=1$ when $x=0$), then differentiate implicitly."
+    },
+    {
+      "id": "mat-continuity-and-differentiability-051",
+      "q": "If $y=\\sin^{-1}(3x-4x^3)$ for $|x|\\le1/2$, then $\\dfrac{dy}{dx}$ equals",
+      "options": [
+        "$\\dfrac{-3}{\\sqrt{1-x^2}}$",
+        "$\\dfrac{1}{\\sqrt{1-x^2}}$",
+        "$\\dfrac{3}{\\sqrt{1-x^2}}$",
+        "$\\dfrac{3}{1-x^2}$"
+      ],
+      "answer": 2,
+      "difficulty": "hard",
+      "explanation": "For $|x|\\le1/2$, $\\sin^{-1}(3x-4x^3)=3\\sin^{-1}x$ (triple-angle identity), so $\\dfrac{dy}{dx}=\\dfrac{3}{\\sqrt{1-x^2}}$.",
+      "trick": "Spot the disguised triple-angle: $\\sin^{-1}(3x-4x^3)=3\\sin^{-1}x$ for $|x|\\le\\tfrac12$."
+    },
+    {
+      "id": "mat-continuity-and-differentiability-052",
+      "q": "If $f(x)=\\begin{cases}x^2,&x\\le1\\\\2x-1,&x>1\\end{cases}$, then at $x=1$, $f$ is",
+      "options": [
+        "not continuous",
+        "continuous but not differentiable",
+        "differentiable with $f'(1)=1$",
+        "differentiable with $f'(1)=2$"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "$f(1^-)=1=f(1^+)$, so $f$ is continuous. Left derivative $2x\\to2$ and right derivative $2\\to2$ agree, so $f$ is differentiable at $x=1$ with $f'(1)=2$.",
+      "trick": "Check that left and right derivatives are numerically equal, not just continuity."
+    },
+    {
+      "id": "mat-continuity-and-differentiability-053",
+      "q": "For $f(x)=\\ln x$ on $[1,e]$, the value of $c$ guaranteed by the Mean Value Theorem is",
+      "options": [
+        "$e-1$",
+        "$e$",
+        "$1$",
+        "$(e-1)/2$"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "$f'(c)=\\dfrac{f(e)-f(1)}{e-1}=\\dfrac{1-0}{e-1}=\\dfrac{1}{e-1}$. Since $f'(x)=1/x$, $1/c=1/(e-1)\\Rightarrow c=e-1$.",
+      "trick": "MVT slope for $\\ln x$ over $[1,e]$ is $1/(e-1)$; solve $f'(c)=$ that."
+    },
+    {
+      "id": "mat-continuity-and-differentiability-054",
+      "q": "The derivative of $e^x$ with respect to $x^2$ is",
+      "options": [
+        "$e^x$",
+        "$\\dfrac{e^x}{2x}$",
+        "$2xe^x$",
+        "$\\dfrac{2e^x}{x}$"
+      ],
+      "answer": 1,
+      "difficulty": "medium",
+      "explanation": "Let $u=x^2$. Then $\\dfrac{d(e^x)}{du}=\\dfrac{d(e^x)/dx}{du/dx}=\\dfrac{e^x}{2x}$.",
+      "trick": "Derivative of $f$ w.r.t. $g$: divide $f'(x)$ by $g'(x)$."
+    },
+    {
+      "id": "mat-continuity-and-differentiability-055",
+      "q": "If $x^2+y^2=1$, then $\\dfrac{d^2y}{dx^2}$ at the point $(0,1)$ equals",
+      "options": [
+        "$1$",
+        "$0$",
+        "$-1$",
+        "$-1/2$"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "Differentiating: $2x+2yy'=0\\Rightarrow y'=-x/y$. At $(0,1)$, $y'=0$. Differentiating again, $y''=-\\dfrac{y-xy'}{y^2}$; at $(0,1)$, $y''=-\\dfrac{1-0}{1}=-1$.",
+      "trick": "Differentiate implicitly twice; substitute the point only at the end."
+    },
+    {
+      "id": "mat-continuity-and-differentiability-056",
+      "q": "If $y=e^{x^2}\\ln x$, then $\\dfrac{dy}{dx}$ at $x=1$ equals",
+      "options": [
+        "$2e$",
+        "$0$",
+        "$e/2$",
+        "$e$"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "By the product rule, $y'=e^{x^2}\\cdot2x\\ln x+e^{x^2}\\cdot\\dfrac1x$. At $x=1$, $\\ln1=0$, so $y'=e^1(0+1)=e$.",
+      "trick": "At $x=1$, $\\ln x=0$ kills the first term — only $1/x$ survives."
+    },
+    {
+      "id": "mat-continuity-and-differentiability-057",
+      "q": "If $y=x^4-2x^2+3$, then $\\dfrac{d^2y}{dx^2}$ at $x=1$ equals",
+      "options": [
+        "$8$",
+        "$4$",
+        "$0$",
+        "$12$"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "$y'=4x^3-4x$, $y''=12x^2-4$. At $x=1$: $12-4=8$.",
+      "trick": "Differentiate twice, substitute last — watch the constant $-4$."
+    },
+    {
+      "id": "mat-continuity-and-differentiability-058",
+      "q": "$\\dfrac{d}{dx}\\left(\\cos^{-1}x\\right)$ equals",
+      "options": [
+        "$\\dfrac{1}{\\sqrt{1-x^2}}$",
+        "$\\dfrac{-1}{\\sqrt{1-x^2}}$",
+        "$\\dfrac{1}{1+x^2}$",
+        "$\\dfrac{-1}{1+x^2}$"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "Standard derivative formula: $\\dfrac{d}{dx}\\cos^{-1}x=\\dfrac{-1}{\\sqrt{1-x^2}}$, opposite in sign to $\\sin^{-1}x$'s derivative.",
+      "trick": "$\\sin^{-1}x$ and $\\cos^{-1}x$ have equal-magnitude, opposite-sign derivatives."
+    },
+    {
+      "id": "mat-continuity-and-differentiability-059",
+      "q": "If $g(x)=\\dfrac{x^4}{4}+\\dfrac{x^3}{3}+\\dfrac{x^2}{2}+x+9$, then $g'(0)$ equals",
+      "options": [
+        "$0$",
+        "$9$",
+        "$1$",
+        "$4$"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "$g'(x)=x^3+x^2+x+1$. At $x=0$, $g'(0)=1$.",
+      "trick": "Differentiate term by term — only the linear term 'x' survives at $x=0$."
+    },
+    {
+      "id": "mat-continuity-and-differentiability-060",
+      "q": "If $f(x)$ is an even function (i.e. $f(-x)=f(x)$) and is differentiable, then $f'(x)$ is",
+      "options": [
+        "an even function",
+        "neither even nor odd in general",
+        "always zero",
+        "an odd function"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "Differentiating $f(-x)=f(x)$ using the chain rule gives $-f'(-x)=f'(x)$, i.e. $f'(-x)=-f'(x)$ — the definition of an odd function.",
+      "trick": "Differentiate the even-function identity $f(-x)=f(x)$ to see the sign flip."
     }
   ]
 }

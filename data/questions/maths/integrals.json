@@ -560,6 +560,286 @@
       "difficulty": "easy",
       "explanation": "$\\int_{-1}^1\\dfrac{dx}{1+x^2}=[\\tan^{-1}x]_{-1}^1=\\tan^{-1}1-\\tan^{-1}(-1)=\\dfrac{\\pi}4-\\left(-\\dfrac{\\pi}4\\right)=\\dfrac{\\pi}2$.",
       "trick": "$\\tan^{-1}(1)-\\tan^{-1}(-1)=\\pi/4-(-\\pi/4)=\\pi/2$."
+    },
+    {
+      "id": "mat-integrals-041",
+      "q": "Using the definition of a definite integral as the limit of a sum, $\\displaystyle\\int_1^3 (2x+1)\\,dx$ equals",
+      "options": [
+        "8",
+        "12",
+        "10",
+        "6"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "The limit-of-sum definition gives the same value as direct integration: $\\int_1^3(2x+1)dx=[x^2+x]_1^3=(9+3)-(1+1)=10$.",
+      "trick": "Limit-of-sum value always matches the plain antiderivative evaluation — use whichever is faster."
+    },
+    {
+      "id": "mat-integrals-042",
+      "q": "$\\displaystyle\\int e^{x\\ln3}\\cdot 3^{-x}\\,dx$ is equal to",
+      "options": [
+        "$\\dfrac{3^x}{\\ln3}+C$",
+        "$x+C$",
+        "$3^x+C$",
+        "$1+C$"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "$e^{x\\ln3}=3^x$, so the integrand simplifies to $3^x\\cdot3^{-x}=1$, giving $\\int 1\\,dx=x+C$.",
+      "trick": "Rewrite $e^{x\\ln a}$ as $a^x$ first — it often cancels neatly."
+    },
+    {
+      "id": "mat-integrals-043",
+      "q": "If $\\displaystyle\\int_2^9 f(x)\\,dx=11$, then $\\displaystyle\\int_{-3}^{4} f(x+5)\\,dx$ equals",
+      "options": [
+        "11",
+        "6",
+        "16",
+        "0"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "Substitute $u=x+5$; the limits become $u=2$ and $u=9$, matching the given integral exactly, so the value is unchanged at $11$.",
+      "trick": "A shift $x\\to x+c$ inside $f$ just shifts the limits by $c$ — value unchanged."
+    },
+    {
+      "id": "mat-integrals-044",
+      "q": "$\\displaystyle\\int \\dfrac{\\sin^3x}{\\cos^5x}\\,dx$ is equal to",
+      "options": [
+        "$\\dfrac{\\tan^4x}{3}+C$",
+        "$\\sec^4x\\,\\tan x+C$",
+        "$\\dfrac{\\sec^4x}{4}+C$",
+        "$\\dfrac{\\tan^4x}{4}+C$"
+      ],
+      "answer": 3,
+      "difficulty": "hard",
+      "explanation": "Write $\\dfrac{\\sin^3x}{\\cos^5x}=\\tan^3x\\sec^2x$; with $t=\\tan x$, $dt=\\sec^2x\\,dx$ gives $\\int t^3dt=\\dfrac{t^4}{4}=\\dfrac{\\tan^4x}{4}+C$.",
+      "trick": "$\\sin^m x/\\cos^{m+2}x$ always reduces to $\\tan^{m+1}x/(m+1)$ via $t=\\tan x$."
+    },
+    {
+      "id": "mat-integrals-045",
+      "q": "$\\displaystyle\\int_{-1}^{1}\\sin^5x\\cos^4x\\,dx$ is equal to",
+      "options": [
+        "$\\dfrac{2}{63}$",
+        "$0$",
+        "$\\dfrac{-2}{63}$",
+        "$1$"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "$\\sin^5x$ is odd and $\\cos^4x$ is even, so their product is odd; the integral of an odd function over $[-1,1]$ is zero.",
+      "trick": "odd × even = odd function ⇒ symmetric-limit integral is 0, no computation needed."
+    },
+    {
+      "id": "mat-integrals-046",
+      "q": "$\\displaystyle\\int_1^5 \\dfrac{5^{\\sqrt{x-1}}}{5^{\\sqrt{x-1}}+5^{\\sqrt{5-x}}}\\,dx$ is equal to",
+      "options": [
+        "4",
+        "1",
+        "2",
+        "$\\dfrac52$"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "With $I$ the given integral, substituting $x\\to6-x$ swaps the two exponents, giving the complementary fraction; adding, $2I=\\int_1^5 1\\,dx=4$, so $I=2$.",
+      "trick": "Numerator + swapped-numerator = denominator ⇒ sum of $I$ and its mirror is just the interval length."
+    },
+    {
+      "id": "mat-integrals-047",
+      "q": "$\\displaystyle\\int e^x\\left[\\dfrac{1+\\sin x}{1+\\cos x}\\right]dx$ is equal to",
+      "options": [
+        "$e^x\\tan\\left(\\dfrac{x}{2}\\right)+C$",
+        "$e^x\\cot\\left(\\dfrac{x}{2}\\right)+C$",
+        "$e^x\\sec^2\\left(\\dfrac{x}{2}\\right)+C$",
+        "$e^x\\tan x+C$"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "With $f(x)=\\tan(x/2)$, $f'(x)=\\tfrac12\\sec^2(x/2)$, and $\\dfrac{1+\\sin x}{1+\\cos x}=\\tan\\dfrac x2+\\tfrac12\\sec^2\\dfrac x2=f(x)+f'(x)$, so the integral is $e^xf(x)=e^x\\tan(x/2)+C$.",
+      "trick": "Rewrite $(1+\\sin x)/(1+\\cos x)$ as $\\tan(x/2)+\\tfrac12\\sec^2(x/2)$ — matches $e^x[f+f']$."
+    },
+    {
+      "id": "mat-integrals-048",
+      "q": "$\\displaystyle\\int \\dfrac{xe^x}{(x+1)^2}\\,dx$ is equal to",
+      "options": [
+        "$\\dfrac{xe^x}{x+1}+C$",
+        "$\\dfrac{e^x}{x+1}+C$",
+        "$e^x(x+1)+C$",
+        "$\\dfrac{e^x}{(x+1)^2}+C$"
+      ],
+      "answer": 1,
+      "difficulty": "hard",
+      "explanation": "Take $f(x)=\\dfrac{e^x}{x+1}$; then $f'(x)=\\dfrac{e^x(x+1)-e^x}{(x+1)^2}=\\dfrac{xe^x}{(x+1)^2}$, exactly the integrand, so the integral is $f(x)=\\dfrac{e^x}{x+1}+C$.",
+      "trick": "Guess $f=e^x/(x+1)$ and differentiate to confirm — a classic disguised $e^xf'$ form."
+    },
+    {
+      "id": "mat-integrals-049",
+      "q": "$\\displaystyle\\int_0^1 \\ln\\left(\\dfrac1x-1\\right)dx$ is equal to",
+      "options": [
+        "$\\ln2$",
+        "$-\\ln2$",
+        "$0$",
+        "$1$"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "With $I=\\int_0^1\\ln\\!\\left(\\frac1x-1\\right)dx$, substituting $x\\to1-x$ gives $I=\\int_0^1\\ln\\!\\left(\\frac{x}{1-x}\\right)dx=-I$, so $2I=0$ and $I=0$.",
+      "trick": "If $f(1-x)=-f(x)$ on $[0,1]$, the integral is $0$ instantly."
+    },
+    {
+      "id": "mat-integrals-050",
+      "q": "$\\displaystyle\\int_{-1}^{1}\\left(x^5+4x^3+2+x\\cos x\\right)dx$ is equal to",
+      "options": [
+        "0",
+        "2",
+        "8",
+        "4"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "$x^5$, $4x^3$ and $x\\cos x$ (odd × even) are all odd functions and vanish over $[-1,1]$; only the constant $2$ contributes: $\\int_{-1}^1 2\\,dx=4$.",
+      "trick": "Strip out odd terms first — only the constant survives symmetric-limit integration."
+    },
+    {
+      "id": "mat-integrals-051",
+      "q": "If $[x]$ denotes the greatest integer not greater than $x$, then $\\displaystyle\\int_0^3 [x]\\,dx$ is equal to",
+      "options": [
+        "3",
+        "6",
+        "4",
+        "2"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "$[x]=0,1,2$ on the intervals $[0,1),[1,2),[2,3)$ respectively, each of length $1$, so the integral is $0+1+2=3$.",
+      "trick": "Split at each integer; $[x]$ is constant on every unit interval."
+    },
+    {
+      "id": "mat-integrals-052",
+      "q": "If $I_n=\\displaystyle\\int_0^{\\pi/4}\\tan^n x\\,dx$ for $n\\ge2$, then $I_5+I_3$ equals",
+      "options": [
+        "$\\dfrac13$",
+        "$\\dfrac15$",
+        "$\\dfrac14$",
+        "$\\dfrac12$"
+      ],
+      "answer": 2,
+      "difficulty": "hard",
+      "explanation": "$I_n+I_{n-2}=\\int_0^{\\pi/4}\\tan^{n-2}x(\\tan^2x+1)dx=\\int_0^{\\pi/4}\\tan^{n-2}x\\sec^2x\\,dx=\\left[\\dfrac{\\tan^{n-1}x}{n-1}\\right]_0^{\\pi/4}=\\dfrac1{n-1}$; here $n=5$ gives $\\dfrac14$.",
+      "trick": "$\\tan^2x=\\sec^2x-1$ turns $I_n+I_{n-2}$ into a simple power-rule integral, $=1/(n-1)$."
+    },
+    {
+      "id": "mat-integrals-053",
+      "q": "$\\displaystyle\\int \\dfrac{\\sin3x}{\\sin x}\\,dx$ is equal to",
+      "options": [
+        "$x-\\sin2x+C$",
+        "$2x+\\sin2x+C$",
+        "$x+2\\sin2x+C$",
+        "$x+\\sin2x+C$"
+      ],
+      "answer": 3,
+      "difficulty": "medium",
+      "explanation": "Using $\\sin3x=3\\sin x-4\\sin^3x$, $\\dfrac{\\sin3x}{\\sin x}=3-4\\sin^2x=1+2\\cos2x$, so the integral is $\\int(1+2\\cos2x)dx=x+\\sin2x+C$.",
+      "trick": "$\\sin3x/\\sin x$ always simplifies to $1+2\\cos2x$ — memorize this identity."
+    },
+    {
+      "id": "mat-integrals-054",
+      "q": "If $\\displaystyle\\int\\dfrac{dx}{(x+1)(x^2+1)}=\\dfrac12\\ln|x+1|+p\\ln(x^2+1)+q\\tan^{-1}x+C$, then $p+q$ equals",
+      "options": [
+        "$-\\dfrac14$",
+        "0",
+        "$\\dfrac14$",
+        "$\\dfrac34$"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "Partial fractions give $\\dfrac1{(x+1)(x^2+1)}=\\dfrac{1/2}{x+1}+\\dfrac{-x/2+1/2}{x^2+1}$, so $p=-\\dfrac14$ and $q=\\dfrac12$; thus $p+q=\\dfrac14$.",
+      "trick": "Match coefficients after partial fractions with an irreducible quadratic factor."
+    },
+    {
+      "id": "mat-integrals-055",
+      "q": "$\\displaystyle\\int_0^{\\pi/2}\\sqrt{\\sin\\theta}\\,\\cos^3\\theta\\,d\\theta$ is equal to",
+      "options": [
+        "$\\dfrac{2}{21}$",
+        "$\\dfrac{8}{21}$",
+        "$\\dfrac{4}{21}$",
+        "$\\dfrac{16}{21}$"
+      ],
+      "answer": 1,
+      "difficulty": "hard",
+      "explanation": "With $t=\\sin\\theta$, $\\cos^3\\theta\\,d\\theta=(1-t^2)dt$, so the integral becomes $\\int_0^1(t^{1/2}-t^{5/2})dt=\\dfrac23-\\dfrac27=\\dfrac{8}{21}$.",
+      "trick": "Odd power of $\\cos$ ⇒ substitute $t=\\sin\\theta$ and expand $(1-t^2)$."
+    },
+    {
+      "id": "mat-integrals-056",
+      "q": "$\\displaystyle\\int_0^4\\left(|x-2|+|x-3|\\right)dx$ is equal to",
+      "options": [
+        "9",
+        "7",
+        "10",
+        "8"
+      ],
+      "answer": 0,
+      "difficulty": "medium",
+      "explanation": "Splitting at $x=2$ and $x=3$: the integral equals $\\int_0^2(5-2x)dx+\\int_2^3 1\\,dx+\\int_3^4(2x-5)dx=6+1+2=9$.",
+      "trick": "Break at each critical point of the moduli, then integrate each linear piece."
+    },
+    {
+      "id": "mat-integrals-057",
+      "q": "$\\displaystyle\\int \\dfrac{dx}{x\\left[2(\\ln x)^2+3\\ln x+1\\right]}$ is equal to",
+      "options": [
+        "$\\ln|\\ln x+1|-\\ln|2\\ln x+1|+C$",
+        "$\\dfrac12\\ln|2\\ln x+1|+C$",
+        "$\\ln|2\\ln x+1|+\\ln|\\ln x+1|+C$",
+        "$\\ln|2\\ln x+1|-\\ln|\\ln x+1|+C$"
+      ],
+      "answer": 3,
+      "difficulty": "hard",
+      "explanation": "Put $t=\\ln x$, $dt=dx/x$; factor $2t^2+3t+1=(2t+1)(t+1)$ and use partial fractions $\\dfrac{1}{(2t+1)(t+1)}=\\dfrac{2}{2t+1}-\\dfrac1{t+1}$ to get $\\ln|2t+1|-\\ln|t+1|+C$.",
+      "trick": "Substitute $t=\\ln x$ to turn a log-quadratic denominator into a factorable partial-fraction problem."
+    },
+    {
+      "id": "mat-integrals-058",
+      "q": "$\\displaystyle\\int e^x(\\cot x-\\csc^2x)\\,dx$ is equal to",
+      "options": [
+        "$-e^x\\cot x+C$",
+        "$e^x\\cot x+C$",
+        "$e^x\\csc^2x+C$",
+        "$e^x\\tan x+C$"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "With $f(x)=\\cot x$, $f'(x)=-\\csc^2x$, so $\\cot x-\\csc^2x=f(x)+f'(x)$, giving $\\int e^x[f+f']dx=e^xf(x)=e^x\\cot x+C$.",
+      "trick": "Spot $\\cot x$ and its derivative $-\\csc^2x$ together ⇒ instant $e^x\\cot x$."
+    },
+    {
+      "id": "mat-integrals-059",
+      "q": "$\\displaystyle\\int_0^{\\pi/2} x\\sin x\\cos x\\,dx$ is equal to",
+      "options": [
+        "$\\dfrac{\\pi}{4}$",
+        "0",
+        "$\\dfrac{\\pi}{8}$",
+        "$\\dfrac{\\pi}{2}$"
+      ],
+      "answer": 2,
+      "difficulty": "medium",
+      "explanation": "Write $x\\sin x\\cos x=\\tfrac{x}{2}\\sin2x$; integrating by parts with $u=x/2,\\,dv=\\sin2x\\,dx$ gives $\\left[-\\tfrac{x}{4}\\cos2x+\\tfrac18\\sin2x\\right]_0^{\\pi/2}=\\tfrac{\\pi}{8}$.",
+      "trick": "Convert $\\sin x\\cos x$ to $\\tfrac12\\sin2x$ first, then integrate by parts."
+    },
+    {
+      "id": "mat-integrals-060",
+      "q": "Which of the following functions $f(x)$ must satisfy $\\displaystyle\\int_{-3}^{3} f(x)\\,dx=0$?",
+      "options": [
+        "$x^2+\\sin x$",
+        "$e^{-x^2}$",
+        "$|x|+1$",
+        "$x^3\\cos x$"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "$x^3$ is odd and $\\cos x$ is even, so $x^3\\cos x$ is an odd function; an odd function's integral over an interval symmetric about $0$ is always zero. The other options are even or non-negative, giving nonzero integrals.",
+      "trick": "odd × even = odd ⇒ integral over $[-a,a]$ is $0$ — check parity, not values."
     }
   ]
 }
