@@ -1,101 +1,49 @@
-# KCET Prep — free, offline-first KCET Engineering practice (PWA)
+# KCET Prep — free Karnataka CET practice
 
-One place for Karnataka students to prepare for KCET (Physics, Chemistry, Mathematics):
-chapter notes and formulas, chapter-wise MCQs with explanations, formula flashcards with spaced repetition, a Daily 10 with streaks,
-previous-year papers, and full-length timed mock tests in the exact KCET pattern. No login, no fees, works offline after the first visit.
+**Live app:** https://pu.sirigannada.in · **By:** [Sirigannada](https://sirigannada.in) · **Feedback:** https://forms.gle/YW9CKJa22dX5C2ph8
 
-## Run locally
-Any static file server works (the app is plain HTML/CSS/JS, no build step):
+## What is this?
 
-```bash
-python3 -m http.server 8080
-```
-Open http://localhost:8080. On a phone on the same Wi-Fi, use your computer's IP.
+A free, offline-first web app for students preparing for **KCET (Karnataka Common Entrance Test), Engineering stream** — Physics, Chemistry and Mathematics. Open it on any phone, tablet or laptop; you can "install" it to your home screen and it keeps working without internet.
 
-## Deploy (Cloudflare Pages, free)
-The site is static, no build step. `_headers` sets cache rules so updates reach installed apps quickly.
-1. Cloudflare dashboard → Workers & Pages → Create → Pages → Connect to Git → pick `devudilip/kar-pu`.
-2. Build settings: Framework preset **None**, build command **(empty)**, build output directory **/** (root).
-3. Deploy. Then Custom domains → add `pu.sirigannada.in` (Cloudflare adds the CNAME automatically since the zone is already there).
-Every push to `main` redeploys. GitHub Pages / Netlify / Vercel also work with the same settings.
+Inside:
 
-## Project layout
-```
-index.html            app shell
-manifest.webmanifest  PWA manifest
-sw.js                 service worker (offline cache; bump VERSION when you change files)
-css/style.css
-js/                   router, store (localStorage progress), data loader, views
-data/syllabus.json    chapters per subject, PUC year, approximate KCET weightage, question file name
-data/questions/<subject>/<chapter>.json   notes + questions for one chapter
-data/pyq/index.json   list of previous-year papers; papers in data/pyq/<file>.json
-data/flashcards/<subject>.json  formula/fact flashcards per chapter ({chapters:[{slug, cards:[{f,b}]}]})
-tools/csv2json.mjs    convert a spreadsheet of questions into JSON
-```
+- **74 chapters** (1st + 2nd PUC syllabus) with short notes and ~40 practice questions each, every question with a one-line exam trick and a full worked explanation.
+- **18 years of real KCET papers (2009–2026)**, scored with the official KEA answer keys, playable as timed tests or browsed with answers.
+- **Daily 10** questions with a streak, **flashcards** with spaced repetition, **speed drills**, full-length **mock tests** in the exact exam pattern, and a **study planner** built around your exam date.
+- Progress tracking, a mistake notebook ("why did I get this wrong?"), and a **weekly report card** you can share as an image.
 
-## Quality checks
-```bash
-node tools/validate.mjs   # validates every chapter file and writes question counts into syllabus.json
-```
-Run this after adding or editing questions. It fails on missing options, bad answer indexes, or duplicate ids.
+## Why?
 
-## Adding questions (teachers & volunteers)
-Each chapter file looks like:
-```json
-{
-  "notes": "<h3>Key formulas</h3><ul><li>$v = u + at$</li></ul>",
-  "questions": [
-    {
-      "id": "phy-lom-001",
-      "q": "A block slides down a frictionless incline of angle $30^\\circ$. Its acceleration is",
-      "options": ["$g$", "$g/2$", "$g\\sqrt{3}/2$", "$2g$"],
-      "answer": 1,
-      "explanation": "Along the incline $a = g\\sin\\theta = g\\sin 30^\\circ = g/2$.",
-      "difficulty": "easy",
-      "tags": ["incline"],
-      "tip": "Frictionless → only $g\\sin\\theta$ acts along the plane."
-    }
-  ]
-}
-```
-- `answer` is the 0-based index (0 = A, 1 = B, 2 = C, 3 = D).
-- Maths goes inside `$...$` (KaTeX). In JSON, backslashes must be doubled: `\\frac{1}{2}`.
-- `id` must be unique across the whole app (progress is stored by id). Convention: `<sub>-<chapter-abbr>-<nnn>`.
-- Notes are HTML (`<h3>`, `<ul>`, `<table>` supported).
-- To create a new chapter file, add `"file": "<name>.json"` to that chapter in `data/syllabus.json`.
+Coaching classes and paid apps are out of reach for many students, especially in villages and small towns. Good practice material for KCET exists but is scattered, expensive, or full of ads. This project puts everything a student needs in one place, for free, forever.
 
-Prefer a spreadsheet? Fill columns `id, question, a, b, c, d, answer, explanation, difficulty, tags, tip`, export CSV, then:
-```bash
-node tools/csv2json.mjs my-questions.csv --merge data/questions/physics/laws-of-motion.json
-```
+- **Non-profit.** No ads, no paid tier, no upsell.
+- **No account, no tracking.** Nothing is sent to a server. Your progress lives only on your own device (you can export a backup from Settings).
+- **Open source.** Anyone can check the questions, fix mistakes, or run their own copy.
 
-## Adding previous-year papers
-KEA publishes every KCET question paper and final answer key free at https://kea.kar.nic.in.
-1. Save the PDFs as `data/pyq/raw/<year>-<subject>.pdf` and `data/pyq/raw/<year>-<subject>-key.pdf`.
-2. Extract text (uses the PDF text layer, or Tesseract OCR for scanned pages):
-   ```bash
-   tools/.venv/bin/python tools/pyq-extract.py data/pyq/raw/2024-physics.pdf
-   ```
-   (one-time setup: `python3 -m venv tools/.venv && tools/.venv/bin/pip install pymupdf`, and `brew install tesseract`)
-3. Turn the `.txt` into the CSV format above (question, a, b, c, d, answer from the official key, chapter title), then:
-```bash
-node tools/csv2json.mjs kcet-2024-physics.csv --pyq "KCET 2024 Physics" --subject physics > data/pyq/2024-physics.json
-```
-and add an entry to `data/pyq/index.json`:
-```json
-{ "year": 2024, "subject": "physics", "file": "2024-physics.json", "count": 60 }
-```
-Add a `chapter` column (chapter title) to each row so students see which chapter each PYQ belongs to.
+## How to use it
 
-## Exam facts baked into the app
-- 60 questions per subject, 1 mark each, 80 minutes per paper, **no negative marking**.
-- Syllabus: 1st + 2nd PUC (Karnataka PU Board, aligned to NCERT).
-- Mock tests draw questions across chapters in proportion to typical KCET weightage (`weight` in syllabus.json).
+1. Open https://pu.sirigannada.in. On a phone, use **Add to Home Screen** (the app shows you how).
+2. Tell it your exam date. It builds a day-by-day plan.
+3. Every day, do the **three things** on the home page: Daily 10, one chapter, and flashcards or a test.
+4. Before a chapter, take the 2-minute **quick check**. Score 4/5 or more and you can skip the notes.
+5. Read every explanation, even when you were right. Tag your mistakes so the app can show you your pattern.
+6. In the last weeks, solve the **past papers** under time. There is no negative marking in KCET — never leave a question blank.
+7. On Wi-Fi once, open Settings → **Save all chapters for offline**.
 
-## Roadmap
-- Grow each chapter from ~18 to 40+ questions (all 74 chapters currently have notes + 14–20 verified questions, 1392 total).
-- Add official PYQs 2015–2025 with chapter tags.
-- Kannada-medium toggle.
-- Optional sync (so a student can move between devices) — must stay free and login-optional.
+## Not official. Mistakes are possible.
 
-Not affiliated with KEA. Official info: https://cetonline.karnataka.gov.in
+This app is **not affiliated with the Karnataka Examinations Authority (KEA)** or the Department of Pre-University Education. Past-paper answers follow the official KEA keys; where the official key contradicts standard textbook physics, chemistry or maths, the question is marked *disputed* and both are shown. All other questions were written and checked by volunteers and AI assistants, and **some may still be wrong**. If you find one, tap **Report a mistake** under the question (it copies the question ID) and tell us through the form. Official information about the exam: https://cetonline.karnataka.gov.in
+
+## Contributing
+
+Everything is plain JSON and vanilla JavaScript — no build step. See [CONTRIBUTING.md](CONTRIBUTING.md) for:
+
+- fixing or adding questions and notes,
+- adding a past paper,
+- translating notes and explanations (Kannada data files already exist under `data/kn/`),
+- running the app locally and the validators.
+
+## Licence
+
+Code is released under the [MIT Licence](LICENSE). Original notes, questions, explanations and flashcards are released under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) — reuse them, credit "KCET Prep by Sirigannada". Past question papers and answer keys are public documents published by KEA and are reproduced here for non-commercial educational use.

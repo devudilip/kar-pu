@@ -39,11 +39,13 @@ export default async function settings() {
       </ol>
     </div>
     <div class="card">
-      <h3 style="margin-top:0">Contribute questions (teachers & volunteers)</h3>
-      <p class="muted">This app is free and open. Questions live in simple JSON files under <code>data/questions/&lt;subject&gt;/</code>. Previous year papers go under <code>data/pyq/</code>. A spreadsheet-to-JSON converter is in <code>tools/</code>. See README.md in the project for the format.</p>
+      <h3 style="margin-top:0">About this app</h3>
+      <p class="muted">Free, non-profit and open source. No ads, no account, no tracking — your progress stays on this device only. Built to help Karnataka students, especially those far from coaching centres, prepare for KCET.</p>
+      <p class="muted"><b>Not official.</b> This app is not affiliated with KEA or the PU Board. Past-paper answers follow the official KEA keys; other questions were written and checked by volunteers and AI assistants and <b>may contain mistakes</b>. Use "Report a mistake" under any question.</p>
+      <p class="muted">Want to contribute questions, corrections or translations? <a href="https://github.com/devudilip/kar-pu" target="_blank" rel="noopener">github.com/devudilip/kar-pu</a></p>
     </div>
     <div class="card muted">
-      <b>KCET Prep</b> by <a href="https://sirigannada.in" target="_blank" rel="noopener">Sirigannada</a> · v1.1 · Built for Karnataka students preparing for KCET Engineering (PCM). Official information: <a href="https://cetonline.karnataka.gov.in" target="_blank" rel="noopener">cetonline.karnataka.gov.in</a>. This app is not affiliated with KEA.
+      <b>KCET Prep</b> by <a href="https://sirigannada.in" target="_blank" rel="noopener">Sirigannada</a> · v1.2 · MIT / CC BY 4.0 · Official exam information: <a href="https://cetonline.karnataka.gov.in" target="_blank" rel="noopener">cetonline.karnataka.gov.in</a>
     </div>
   </div>`);
   node.querySelectorAll('[data-lang]').forEach((b) => b.addEventListener('click', () => { store.setSetting('lang', b.dataset.lang); toast('Language updated'); location.reload(); }));

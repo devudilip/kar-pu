@@ -87,7 +87,7 @@ export default async function home() {
         <li>Rank = 50% board PCM marks + 50% CET marks. The board exam matters just as much.</li>
       </ul>
     </div>
-    <p class="muted" style="text-align:center">Found a mistake or have an idea? <a href="${FEEDBACK}" target="_blank" rel="noopener">Tell us</a> · <a href="#/settings">Settings</a></p>
+    <p class="muted" style="text-align:center">Free · non-profit · no ads · not affiliated with KEA · <a href="${FEEDBACK}" target="_blank" rel="noopener">Report a mistake</a> · <a href="#/settings">About & settings</a></p>
   </div>`);
 
   node.querySelector('#installNow')?.addEventListener('click', async () => { const p = window.__installPrompt; if (!p) return; p.prompt(); const { outcome } = await p.userChoice; if (outcome === 'accepted') { toast('Installed! Open it from your home screen.'); node.querySelector('#installBanner')?.remove(); } });
