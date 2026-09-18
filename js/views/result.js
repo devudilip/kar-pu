@@ -1,6 +1,6 @@
 import { SUBJECTS, questionsByIds, pyqPaper, syllabus } from '../data.js';
 import { store } from '../store.js';
-import { el, esc, math, fmtTime, fmtDate, optionButton, LETTERS, reasonChips, bindReasonChips } from '../ui.js';
+import { el, esc, math, fmtTime, fmtDate, optionButton, LETTERS, reasonChips, bindReasonChips, reportLink, bindReportLinks } from '../ui.js';
 
 export default async function result([id]) {
   const t = store.test(id);
@@ -56,9 +56,10 @@ export default async function result([id]) {
         <div class="options">${q.options.map((o, j) => optionButton(o, j, (j === it.correct || (it.also || []).includes(j)) ? 'correct' : j === it.chosen ? 'wrong' : '', true)).join('')}</div>
         <div class="explain"><b>Answer: ${LETTERS[it.correct]}${(it.also || []).length ? ' (KEA also accepted ' + it.also.map((j) => LETTERS[j]).join(', ') + ')' : ''}${q.grace ? ' · KEA awarded grace marks (any answer counted)' : ''}</b>${q.explanation ? `<div>${q.explanation}</div>` : ''}${q.disputed ? `<div class="muted" style="margin-top:6px">⚠️ Official key is disputed: ${esc(q.note || '')}</div>` : ''}</div>
         ${status === 'wrong' ? reasonChips(q.id) : ''}
+        <div style="margin-top:6px">${reportLink(it.qid)}</div>
       </div>`;
     }).join('') || '<div class="empty">Nothing here.</div>';
-    math(list); bindReasonChips(list);
+    math(list); bindReasonChips(list); bindReportLinks(list);
     list.querySelectorAll('.bm').forEach((b) => b.addEventListener('click', () => { const on = store.toggleBookmark(b.dataset.q); b.textContent = on ? '★ Saved' : '☆ Save'; }));
   }
   render('all');

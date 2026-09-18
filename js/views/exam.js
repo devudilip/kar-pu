@@ -98,6 +98,7 @@ export default async function exam() {
     for (const it of items) { const ok = it.chosen === it.correct || it.also.includes(it.chosen) || (it.grace && it.chosen !== null); if (it.chosen === null) skipped++; else if (ok) correct++; else wrong++; if (it.chosen !== null && !state.cfg.pyq) store.recordAttempt(it.qid, ok); }
     const test = { id: 't' + Date.now(), title: state.cfg.title, date: Date.now(), cfg: state.cfg, total: qs.length, correct, wrong, skipped, timeTaken: Math.round((Date.now() - state.start) / 1000), items, pyq: state.cfg.pyq || null };
     store.saveTest(test);
+    if (state.cfg.pyq) store.completePlanTask('pyq'); else if (state.cfg.weighted) store.completePlanTask('mock');
     sessionStorage.removeItem(SAVE_KEY); sessionStorage.removeItem('kcet.examConfig');
     location.hash = '#/result/' + test.id;
   }

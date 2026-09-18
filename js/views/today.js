@@ -58,7 +58,7 @@ export default async function today() {
     quiz(dailyBox.querySelector('#dq'), daily, {
       record: (q, ok) => store.recordAttempt(q.id, ok),
       onDone: (r) => {
-        if (!store.daily(dateKey)) { store.setDaily(dateKey, r); toast(`Daily done! Streak: ${store.streak()} days`); }
+        if (!store.daily(dateKey)) { store.setDaily(dateKey, r); store.completePlanTask('daily'); toast(`Daily done! Streak: ${store.streak()} days`); }
         dailyBox.innerHTML = `<div style="text-align:center"><div class="score-big">${r.correct}/${r.done}</div><div class="muted">${r.correct >= 8 ? 'Excellent. Keep the streak alive tomorrow.' : r.correct >= 5 ? 'Good. Revise the ones you missed in Progress → Mistakes.' : 'Tough day. Open the chapter notes for the questions you missed.'}</div><div class="row" style="justify-content:center;margin-top:8px"><a class="btn secondary" href="#/progress">See mistakes</a><a class="btn" href="#/tests">Take a full test</a></div></div>`;
         node.querySelector('.pill').textContent = `🔥 ${store.streak()}-day streak`;
       }

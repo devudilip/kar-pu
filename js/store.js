@@ -34,6 +34,11 @@ export const store = {
   last() { return state.last; },
   setPlan(p) { state.plan = p; save(); },
   plan() { return state.plan; },
+  completePlanTask(prefix) { // marks today's plan task whose key starts with prefix
+    const d = state.plan?.days.find((x) => x.date === this.today()); if (!d) return false;
+    let hit = false; for (const t of d.tasks) if (!t.done && t.key.startsWith(prefix)) { t.done = true; hit = true; }
+    if (hit) save(); return hit;
+  },
   togglePlanTask(date, key) { const d = state.plan?.days.find((x) => x.date === date); const t = d?.tasks.find((x) => x.key === key); if (t) { t.done = !t.done; save(); } return t?.done; },
   attempt(qid) { return state.attempts[qid]; },
   toggleBookmark(qid) {

@@ -5,7 +5,7 @@ const root = new URL('../', import.meta.url).pathname;
 const sylPath = root + 'data/syllabus.json';
 const syl = JSON.parse(fs.readFileSync(sylPath, 'utf8'));
 const ids = new Set(); let total = 0, problems = 0, missing = [];
-for (const s of Object.keys(syl)) for (const c of syl[s]) {
+for (const s of ['physics', 'chemistry', 'maths']) for (const c of syl[s]) {
   const p = `${root}data/questions/${s}/${c.file}`;
   if (!fs.existsSync(p)) { missing.push(`${s}/${c.slug}`); c.count = 0; continue; }
   let d; try { d = JSON.parse(fs.readFileSync(p, 'utf8')); } catch (e) { console.log('INVALID JSON', p, e.message); problems++; c.count = 0; continue; }

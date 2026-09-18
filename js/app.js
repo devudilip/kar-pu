@@ -77,6 +77,12 @@ installBtn.addEventListener('click', async () => {
   deferredPrompt = null; installBtn.classList.add('hidden');
 });
 window.addEventListener('appinstalled', () => installBtn.classList.add('hidden'));
+// iPhone/iPad: no install prompt exists, show a one-time hint
+const isIOS = /iPhone|iPad|iPod/.test(navigator.userAgent) && !window.MSStream;
+const standalone = window.navigator.standalone === true || matchMedia('(display-mode: standalone)').matches;
+if (isIOS && !standalone && !localStorage.getItem('kcet.iosHint')) {
+  setTimeout(() => { if (document.getElementById('tour')) return; const h = document.createElement('div'); h.className = 'toast'; h.style.cssText = 'bottom:84px;max-width:340px;text-align:left;line-height:1.4'; h.innerHTML = '📲 <b>Add to Home Screen</b> for the full-screen app: tap the Share button, then "Add to Home Screen". <a href="#" style="color:#fbbf24;font-weight:700" id="iosOk">Got it</a>'; document.body.appendChild(h); h.querySelector('#iosOk').addEventListener('click', (e) => { e.preventDefault(); h.remove(); localStorage.setItem('kcet.iosHint', '1'); }); setTimeout(() => { h.remove(); localStorage.setItem('kcet.iosHint', '1'); }, 15000); }, 6000);
+}
 
 if ('serviceWorker' in navigator) {
   window.addEventListener('load', () => {

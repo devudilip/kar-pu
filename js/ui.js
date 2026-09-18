@@ -72,3 +72,7 @@ export function bindReasonChips(root) {
     box.querySelectorAll('button').forEach((x) => x.classList.toggle('ghost', x !== b));
   })));
 }
+
+export const FEEDBACK_URL = 'https://forms.gle/YW9CKJa22dX5C2ph8';
+export function reportLink(id) { return `<a href="${FEEDBACK_URL}" target="_blank" rel="noopener" class="muted report" data-id="${id}" style="font-size:.78rem">⚠️ Report a mistake</a>`; }
+export function bindReportLinks(root) { root.querySelectorAll('a.report').forEach((a) => a.addEventListener('click', () => { try { navigator.clipboard?.writeText(a.dataset.id); toast('Question ID copied — paste it in the form'); } catch {} })); }

@@ -1,4 +1,4 @@
-import { SUBJECTS, PFX, syllabus, pyqWeights } from '../data.js';
+import { SUBJECTS, PFX, syllabus } from '../data.js';
 import { store } from '../store.js';
 import { el, esc, bar } from '../ui.js';
 
@@ -7,14 +7,14 @@ export default async function subject([id]) {
   if (!s) throw new Error('Unknown subject');
   const syl = await syllabus();
   const chapters = syl[id];
-  const pw = await pyqWeights(); const pys = pw.years.slice(0, 5); const hasPyq = pys.length > 0;
+  const pys = (syl.pyqYears || []).slice(0, 5); const hasPyq = pys.length > 0;
 
   const list = (puc) => chapters.filter((c) => c.puc === puc).map((c) => {
     const st = c.count ? store.prefixStats(`${PFX[id]}-${c.slug}-`, c.count) : null;
     const pct = st ? Math.round(100 * Math.min(st.attempted, st.total) / st.total) : 0;
     const acc = st && st.attempted ? Math.round(100 * st.correct / st.attempted) : null;
     return `<a class="card link" href="#/chapter/${id}/${c.slug}">
-      <div class="row spread"><b>${esc(c.title)}</b><span class="pill" title="${hasPyq ? 'Questions in KCET ' + pys.join(', ') : 'Typical questions in KCET'}">${hasPyq && pw[id][c.slug] ? pys.map((y) => pw[id][c.slug][y] || 0).join('·') + ' Q' : '~' + c.weight + ' Q'}</span></div>
+      <div class="row spread"><b>${esc(c.title)}</b><span class="pill" title="${hasPyq ? 'Questions in KCET ' + pys.join(', ') : 'Typical questions in KCET'}">${hasPyq ? pys.map((y) => (c.pyqYears || {})[y] || 0).join('·') + ' Q' : '~' + c.weight + ' Q'}</span></div>
       ${st ? `<div class="row spread muted" style="margin:6px 0 4px"><span>${st.total} questions · ${st.attempted} done</span>${acc !== null ? `<span class="pill ${acc >= 70 ? 'ok' : acc >= 40 ? 'warn' : 'bad'}">${acc}% correct</span>` : ''}</div>${bar(pct)}`
            : `<div class="muted" style="margin-top:4px">Notes & questions coming soon</div>`}
     </a>`;

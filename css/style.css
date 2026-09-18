@@ -140,3 +140,13 @@ kbd { background: #f1e3dc; padding: 1px 5px; border-radius: 4px; font-size: .8re
 .cta { font-size: 1.1rem; padding: 14px 22px; width: 100%; }
 .streak-pop { position: fixed; left: 50%; top: 30%; transform: translateX(-50%); background: var(--card); border: 2px solid var(--accent); border-radius: 16px; padding: 14px 22px; font-size: 1.3rem; font-weight: 800; z-index: 55; animation: pop .9s ease-out forwards; pointer-events: none; }
 @keyframes pop { 0% { opacity: 0; transform: translate(-50%, 10px) scale(.9); } 20% { opacity: 1; transform: translate(-50%, 0) scale(1.05); } 80% { opacity: 1; } 100% { opacity: 0; transform: translate(-50%, -20px); } }
+/* Flashcards */
+.flashcard { background: var(--card); border: 1px solid var(--border); border-top: 6px solid var(--accent); border-radius: 18px; padding: 18px 16px 16px; min-height: 300px; box-shadow: 0 6px 24px rgba(42,26,22,.08); display: flex; flex-direction: column; }
+.fc-face { display: flex; flex-direction: column; gap: 12px; flex: 1; }
+.fc-meta { font-size: .75rem; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); font-weight: 700; }
+.fc-text { font-size: 1.25rem; line-height: 1.45; flex: 1; display: flex; align-items: center; justify-content: center; text-align: center; padding: 8px 0; cursor: pointer; }
+.fc-back .fc-text { cursor: default; font-size: 1.15rem; border-top: 1px dashed var(--border); padding-top: 12px; }
+.fc-q { font-size: .95rem; text-align: center; }
+.fc-ask { text-align: center; font-weight: 700; margin-top: 4px; }
+.fc-back { animation: flipin .25s ease-out; }
+@keyframes flipin { from { opacity: 0; transform: rotateX(-60deg); } to { opacity: 1; transform: none; } }

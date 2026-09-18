@@ -6,7 +6,7 @@ const syl = JSON.parse(fs.readFileSync(root + 'data/syllabus.json', 'utf8'));
 const mathOf = (s) => (String(s).match(/\$[^$]*\$/g) || []).map((m) => m.replace(/\s+/g, '')).sort().join('|');
 const knShare = (s) => { const t = String(s).replace(/\$[^$]*\$/g, '').replace(/<[^>]+>/g, '').replace(/\([^)]*\)/g, '').replace(/[^\p{L}]/gu, ''); const latin = (t.match(/[A-Za-z]/g) || []).length; if (t.length < 25 || latin < 15) return 1; const kn = (t.match(/[ಀ-೿]/g) || []).length; return kn / t.length; };
 let files = 0, missing = [], problems = 0, total = 0;
-for (const s of Object.keys(syl)) for (const c of syl[s]) {
+for (const s of ['physics', 'chemistry', 'maths']) for (const c of syl[s]) {
   const ep = `${root}data/questions/${s}/${c.file}`, kp = `${root}data/kn/${s}/${c.file}`;
   if (!fs.existsSync(kp)) { missing.push(`${s}/${c.slug}`); continue; }
   files++;

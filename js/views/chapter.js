@@ -1,6 +1,6 @@
 import { SUBJECTS, chapter, shuffle } from '../data.js';
 import { store } from '../store.js';
-import { el, esc, math, toast, optionButton, LETTERS, bar, reasonChips, bindReasonChips } from '../ui.js';
+import { el, esc, math, toast, optionButton, LETTERS, bar, reasonChips, bindReasonChips, reportLink, bindReportLinks } from '../ui.js';
 
 export default async function chapterView([subject, slug], query) {
   const ch = await chapter(subject, slug);
@@ -66,11 +66,12 @@ export default async function chapterView([subject, slug], query) {
     practice.querySelector('#next').addEventListener('click', () => { idx++; renderPractice(); });
     practice.querySelectorAll('.option').forEach((b) => b.addEventListener('click', () => {
       const i = +b.dataset.i; const ok = i === q.answer;
-      store.recordAttempt(q.id, ok); session.done++; if (ok) { session.correct++; session.run++; if (session.run === 3 || session.run === 5 || session.run % 10 === 0) pop(`🔥 ${session.run} in a row!`); } else session.run = 0;
+      store.recordAttempt(q.id, ok); session.done++;
+      if (session.done === 15 && (store.completePlanTask(`ch-${subject}-${slug}`) || store.completePlanTask(`rev-${subject}-${slug}`))) toast('✅ Today\'s plan task done!'); if (ok) { session.correct++; session.run++; if (session.run === 3 || session.run === 5 || session.run % 10 === 0) pop(`🔥 ${session.run} in a row!`); } else session.run = 0;
       practice.querySelectorAll('.option').forEach((x) => { x.disabled = true; const j = +x.dataset.i; if (j === q.answer) x.classList.add('correct'); else if (j === i) x.classList.add('wrong'); });
       const exp = practice.querySelector('#exp');
-      exp.innerHTML = `<div class="explain"><b>${ok ? 'Correct!' : 'Wrong.'} Answer: ${LETTERS[q.answer]}</b>${q.explanation ? `<div>${q.explanation}</div>` : ''}${q.explanation_en ? `<details><summary class="muted">English</summary>${q.explanation_en}</details>` : ''}${q.tip ? `<div class="muted" style="margin-top:6px">💡 ${q.tip}</div>` : ''}</div>${ok ? '' : reasonChips(q.id)}`;
-      math(exp); bindReasonChips(exp);
+      exp.innerHTML = `<div class="explain"><b>${ok ? 'Correct!' : 'Wrong.'} Answer: ${LETTERS[q.answer]}</b>${q.explanation ? `<div>${q.explanation}</div>` : ''}${q.explanation_en ? `<details><summary class="muted">English</summary>${q.explanation_en}</details>` : ''}${q.tip ? `<div class="muted" style="margin-top:6px">💡 ${q.tip}</div>` : ''}</div>${ok ? '' : reasonChips(q.id)}<div style="margin-top:6px">${reportLink(q.id)}</div>`;
+      math(exp); bindReasonChips(exp); bindReportLinks(exp);
       practice.querySelector('#skip').classList.add('hidden');
       practice.querySelector('#next').classList.remove('hidden');
       practice.querySelector('#next').focus();
