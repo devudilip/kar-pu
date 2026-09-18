@@ -81,12 +81,15 @@ installBtn.addEventListener('click', async () => {
 window.addEventListener('appinstalled', () => installBtn.classList.add('hidden'));
 
 if ('serviceWorker' in navigator) {
+  // When a new version takes control, reload once so the page runs the new code (not on first install).
+  let hadController = !!navigator.serviceWorker.controller, refreshing = false;
+  navigator.serviceWorker.addEventListener('controllerchange', () => { if (hadController && !refreshing) { refreshing = true; toast('Updating to the latest version…', 1500); setTimeout(() => location.reload(), 600); } hadController = true; });
   window.addEventListener('load', () => {
     navigator.serviceWorker.register('sw.js').then((reg) => {
       reg.addEventListener('updatefound', () => {
         const nw = reg.installing;
         nw?.addEventListener('statechange', () => {
-          if (nw.state === 'installed' && navigator.serviceWorker.controller) toast('Update ready. Close and reopen the app.', 4000);
+          if (nw.state === 'installed' && navigator.serviceWorker.controller) toast('New version ready…', 2000);
         });
       });
     }).catch((e) => console.warn('SW failed', e));

@@ -100,7 +100,7 @@ async function picker(syl) {
       </div>
       <div class="hidden" id="ch-${r.s.id}" style="margin-top:10px">
         <div class="stack">${syl[r.s.id].map((c) => { const has = r.fc.chapters.find((x) => x.slug === c.slug); return has ? `<a class="row spread step" style="padding:8px 12px" href="#/flashcards/${r.s.id}/${c.slug}"><span>${esc(c.title)}</span><span class="muted">${has.cards.length} cards →</span></a>` : ''; }).join('')}</div>
-        <p class="muted" style="margin-top:8px">Prefer practice questions as cards? <a href="#/flashcards/${r.s.id}/all?mode=questions">Question cards</a></p>
+        <p class="muted" style="margin-top:8px">Tip: any chapter's practice questions can also be revised as cards from the chapter page.</p>
       </div>
     </div>`).join('')}
   </div>`);

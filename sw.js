@@ -1,5 +1,5 @@
 /* KCET Prep service worker: offline-first for app shell, network-first for data with cache fallback. */
-const VERSION = 'kcet-v17';
+const VERSION = 'kcet-v18';
 const SHELL = [
   './', './manifest.webmanifest', './css/style.css',
   './js/app.js', './js/router.js', './js/store.js', './js/data.js', './js/ui.js',
