@@ -25,11 +25,14 @@ export default async function today() {
 
   const done = store.daily(dateKey);
   const streak = store.streak();
-  const last7 = [...Array(7)].map((_, i) => { const d = new Date(); d.setDate(d.getDate() - (6 - i)); const k = d.getFullYear() + '-' + String(d.getMonth() + 1).padStart(2, '0') + '-' + String(d.getDate()).padStart(2, '0'); return { k, on: !!store.daily(k), label: 'SMTWTFS'[d.getDay()] }; });
+  const last7 = [...Array(7)].map((_, i) => { const d = new Date(); d.setDate(d.getDate() - (6 - i)); const k = d.getFullYear() + '-' + String(d.getMonth() + 1).padStart(2, '0') + '-' + String(d.getDate()).padStart(2, '0'); return { k, on: store.dayDone(k), label: 'SMTWTFS'[d.getDay()] }; });
+  const tasks = store.todayTasks(); const tasksDone = tasks.filter((t) => t.done).length; const atRisk = store.streakAtRisk(); const best = store.bestStreak();
 
   const node = el(`<div>
     <div class="row spread"><h1>Today</h1><span class="pill ${streak ? 'ok' : ''}">🔥 ${streak}-day streak</span></div>
-    <div class="row" style="gap:6px;margin-bottom:8px">${last7.map((d) => `<span title="${d.k}" style="width:28px;height:28px;border-radius:50%;display:grid;place-items:center;font-size:.75rem;font-weight:600;background:${d.on ? 'var(--ok)' : '#e2e8f0'};color:${d.on ? '#fff' : 'var(--muted)'}">${d.label}</span>`).join('')}</div>
+    ${atRisk ? `<div class="card" style="border-color:var(--bad);background:var(--bad-bg)"><b>🔥 Your ${streak}-day streak ends at midnight.</b> <span class="muted">Finish today's tasks to keep it.</span></div>` : ''}
+    <div class="row" style="gap:6px;margin-bottom:4px">${last7.map((d) => `<span title="${d.k}" style="width:28px;height:28px;border-radius:50%;display:grid;place-items:center;font-size:.75rem;font-weight:600;background:${d.on ? 'var(--ok)' : '#e2e8f0'};color:${d.on ? '#fff' : 'var(--muted)'}">${d.label}</span>`).join('')}</div>
+    <div class="muted" style="margin-bottom:8px;font-size:.85rem"><b>${tasksDone} of ${tasks.length}</b> of today's tasks done${best ? ` · best streak ${best} days` : ''}. A day counts only when <b>all</b> of today's tasks are finished. Miss a day and the streak goes back to 0.</div>
 
     ${planBlock()}
     <div class="card">
@@ -51,7 +54,7 @@ export default async function today() {
     </div>
   </div>`);
 
-  node.querySelectorAll('.plan-task').forEach((c) => c.addEventListener('change', () => store.togglePlanTask(c.dataset.d, c.dataset.k)));
+  node.querySelectorAll('.plan-task').forEach((c) => c.addEventListener('change', () => { store.togglePlanTask(c.dataset.d, c.dataset.k); const done = store.todayComplete(); node.querySelector('.pill').textContent = `🔥 ${store.streak()}-day streak`; if (done) toast(`All tasks done! Streak: ${store.streak()} days 🔥`); }));
   const dailyBox = node.querySelector('#dailyBox');
   const runDaily = () => {
     dailyBox.innerHTML = '<div id="dq"></div>';
@@ -61,6 +64,7 @@ export default async function today() {
         if (!store.daily(dateKey)) { store.setDaily(dateKey, r); store.completePlanTask('daily'); toast(`Daily done! Streak: ${store.streak()} days`); }
         dailyBox.innerHTML = `<div style="text-align:center"><div class="score-big">${r.correct}/${r.done}</div><div class="muted">${r.correct >= 8 ? 'Excellent. Keep the streak alive tomorrow.' : r.correct >= 5 ? 'Good. Revise the ones you missed in Progress → Mistakes.' : 'Tough day. Open the chapter notes for the questions you missed.'}</div><div class="row" style="justify-content:center;margin-top:8px"><a class="btn secondary" href="#/progress">See mistakes</a><a class="btn" href="#/tests">Take a full test</a></div></div>`;
         node.querySelector('.pill').textContent = `🔥 ${store.streak()}-day streak`;
+        setTimeout(() => { if (location.hash.startsWith('#/today')) location.reload(); }, 1200);
       }
     });
   };

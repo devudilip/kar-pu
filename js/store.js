@@ -6,6 +6,8 @@ const defaults = () => ({
   tests: [],         // { id, title, date, subjects, total, correct, wrong, skipped, timeTaken, items:[{qid, chosen, correct}] }
   chapterSeen: {},   // chapterKey -> timestamp
   daily: {},         // 'YYYY-MM-DD' -> { done, correct }
+  doneDays: null,    // 'YYYY-MM-DD' -> true when ALL of that day's tasks were finished (streak source of truth)
+  bestStreak: 0,
   quick: {},         // 'subject/slug' -> { score, of, t }
   last: null,        // { type, href, title, sub, t } — continue where you left off
   plan: null,        // study plan { examDate, hoursPerDay, created, days:[{date, tasks:[{key,type,subject,slug,title,hours,done}]}] }
@@ -14,9 +16,14 @@ const defaults = () => ({
 });
 let state = load();
 function load() {
-  try { const raw = localStorage.getItem(KEY); return raw ? { ...defaults(), ...JSON.parse(raw) } : defaults(); }
-  catch { return defaults(); }
+  let st;
+  try { const raw = localStorage.getItem(KEY); st = raw ? { ...defaults(), ...JSON.parse(raw) } : defaults(); }
+  catch { st = defaults(); }
+  // Migration: before the task-based streak, a day counted when Daily 10 was done.
+  if (!st.doneDays) { st.doneDays = {}; for (const k of Object.keys(st.daily || {})) st.doneDays[k] = true; }
+  return st;
 }
+const dkey = (d) => d.getFullYear() + '-' + String(d.getMonth() + 1).padStart(2, '0') + '-' + String(d.getDate()).padStart(2, '0');
 function save() { try { localStorage.setItem(KEY, JSON.stringify(state)); } catch (e) { console.warn('save failed', e); } }
 
 export const store = {
@@ -35,14 +42,30 @@ export const store = {
   setQuickCheck(key, v) { state.quick[key] = { ...v, t: Date.now() }; save(); },
   setLast(o) { state.last = { ...o, t: Date.now() }; save(); },
   last() { return state.last; },
-  setPlan(p) { state.plan = p; save(); },
+  setPlan(p) { state.plan = p; save(); this.syncDay(); },
   plan() { return state.plan; },
   completePlanTask(prefix) { // marks today's plan task whose key starts with prefix
     const d = state.plan?.days.find((x) => x.date === this.today()); if (!d) return false;
     let hit = false; for (const t of d.tasks) if (!t.done && t.key.startsWith(prefix)) { t.done = true; hit = true; }
-    if (hit) save(); return hit;
+    if (hit) { save(); this.syncDay(); } return hit;
   },
-  togglePlanTask(date, key) { const d = state.plan?.days.find((x) => x.date === date); const t = d?.tasks.find((x) => x.key === key); if (t) { t.done = !t.done; save(); } return t?.done; },
+  togglePlanTask(date, key) { const d = state.plan?.days.find((x) => x.date === date); const t = d?.tasks.find((x) => x.key === key); if (t) { t.done = !t.done; save(); if (date === this.today()) this.syncDay(); } return t?.done; },
+  // ---- Day streak: a day counts only when every task of that day is done. No plan: Daily 10 is the task. ----
+  todayTasks() {
+    const d = state.plan?.days.find((x) => x.date === this.today());
+    if (d && d.tasks.length) return d.tasks.map((t) => ({ key: t.key, title: t.title, done: !!t.done || (t.type === 'daily' && !!state.daily[this.today()]) }));
+    return [{ key: 'daily', title: 'Daily 10', done: !!state.daily[this.today()] }];
+  },
+  todayComplete() { return this.todayTasks().every((t) => t.done); },
+  syncDay() { // record or un-record today in doneDays, keep the best streak
+    const k = this.today();
+    if (this.todayComplete()) state.doneDays[k] = true; else delete state.doneDays[k];
+    const n = this.streak(); if (n > (state.bestStreak || 0)) state.bestStreak = n;
+    save(); return !!state.doneDays[k];
+  },
+  dayDone(date) { return !!state.doneDays[date]; },
+  bestStreak() { return Math.max(state.bestStreak || 0, this.streak()); },
+  streakAtRisk() { return this.streak() > 0 && !state.doneDays[this.today()] && new Date().getHours() >= 20; },
   attempt(qid) { return state.attempts[qid]; },
   toggleBookmark(qid) {
     const i = state.bookmarks.indexOf(qid);
@@ -68,11 +91,11 @@ export const store = {
   wrongQids() { return Object.entries(state.attempts).filter(([, a]) => a.last === 0).map(([id]) => id); },
   today() { const d = new Date(); return d.getFullYear() + '-' + String(d.getMonth() + 1).padStart(2, '0') + '-' + String(d.getDate()).padStart(2, '0'); },
   daily(date) { return state.daily[date]; },
-  setDaily(date, v) { state.daily[date] = v; save(); },
-  streak() {
+  setDaily(date, v) { state.daily[date] = v; save(); if (date === this.today()) this.syncDay(); },
+  streak() { // consecutive completed days ending today (if complete) or yesterday; any missed day resets to 0
     let n = 0; const d = new Date();
-    if (!state.daily[this.today()]) d.setDate(d.getDate() - 1);
-    for (;;) { const k = d.getFullYear() + '-' + String(d.getMonth() + 1).padStart(2, '0') + '-' + String(d.getDate()).padStart(2, '0'); if (!state.daily[k]) break; n++; d.setDate(d.getDate() - 1); }
+    if (!state.doneDays[dkey(d)]) d.setDate(d.getDate() - 1);
+    while (state.doneDays[dkey(d)]) { n++; d.setDate(d.getDate() - 1); }
     return n;
   },
   card(key) { return state.cards[key] || { lvl: 0, next: 0 }; },
@@ -81,7 +104,7 @@ export const store = {
     if (ok) { c.lvl = Math.min(c.lvl + 1, 5); c.next = Date.now() + days[c.lvl - 1] * 86400000; } else { c.lvl = 0; c.next = Date.now(); }
     state.cards[key] = c; save(); return c;
   },
-  reset() { state = defaults(); save(); },
+  reset() { state = defaults(); state.doneDays = {}; save(); },
   export() { return JSON.stringify(state); },
-  import(json) { const obj = JSON.parse(json); state = { ...defaults(), ...obj }; save(); }
+  import(json) { const obj = JSON.parse(json); state = { ...defaults(), ...obj }; if (!state.doneDays) { state.doneDays = {}; for (const k of Object.keys(state.daily || {})) state.doneDays[k] = true; } save(); }
 };

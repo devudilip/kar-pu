@@ -40,6 +40,7 @@ export default async function home() {
       ${plan ? `<div class="row"><span class="pill">📅 ${daysLeft} days to exam</span><span class="pill ${streak ? 'ok' : ''}">🔥 ${streak}-day streak</span><span class="pill">${attempted} questions done</span></div>` : ''}
     </div>
 
+    ${store.streakAtRisk() ? `<a class="card link" href="#/today" style="border-color:var(--bad);background:var(--bad-bg)"><b>🔥 Your ${streak}-day streak ends at midnight.</b> <span class="muted">Finish today's tasks →</span></a>` : ''}
     ${cont ? `<a class="card link" href="${cont.href}" style="border-color:var(--primary);background:#fbe9e4"><div class="kicker">Continue where you left off</div><div class="row spread" style="align-items:center"><span><b style="font-size:1.1rem">${esc(cont.title)}</b><div class="muted">${esc(cont.sub)}</div></span><span class="btn small">${cont.cta} →</span></div></a>` : ''}
     ${plan ? '' : `<div class="card" style="border-color:var(--primary)">
       <div class="kicker">Start here</div>

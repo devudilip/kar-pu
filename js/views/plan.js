@@ -82,7 +82,7 @@ export default async function planView() {
     const p = store.plan(); if (!p) return;
     const today = store.today();
     const total = p.days.reduce((a, d) => a + d.tasks.length, 0), done = p.days.reduce((a, d) => a + d.tasks.filter((t) => t.done).length, 0);
-    out.innerHTML = `<div class="card"><div class="row spread"><b>${p.totalDays} days to exam</b><span class="pill">${p.learnDays} learning · ${p.revisionDays} revision</span></div><div class="muted">${done}/${total} tasks done</div><div class="progress" style="margin-top:6px"><span style="width:${100 * done / Math.max(1, total)}%"></span></div></div>
+    out.innerHTML = `<div class="card"><div class="row spread"><b>${p.totalDays} days to exam</b><span class="pill">${p.learnDays} learning · ${p.revisionDays} revision</span></div><div class="muted">${done}/${total} tasks done · 🔥 ${store.streak()}-day streak (a day counts when all its tasks are done)</div><div class="progress" style="margin-top:6px"><span style="width:${100 * done / Math.max(1, total)}%"></span></div></div>
       ${p.days.filter((d) => d.date >= today).slice(0, 28).map((d) => `<div class="card" ${d.date === today ? 'style="border-color:var(--primary-2)"' : ''}>
         <div class="row spread"><b>${d.date === today ? 'Today' : fmtDate(new Date(d.date + 'T00:00:00'))}</b><span class="muted">${d.tasks.reduce((a, t) => a + t.hours, 0).toFixed(1)} h</span></div>
         ${d.tasks.map((t) => `<label class="row" style="margin:6px 0;align-items:flex-start"><input type="checkbox" data-d="${d.date}" data-k="${t.key}" ${t.done ? 'checked' : ''}> <span>${taskLink(t)} <span class="muted">· ${t.hours} h</span></span></label>`).join('')}

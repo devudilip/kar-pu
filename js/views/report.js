@@ -19,7 +19,7 @@ export function weekStats() {
   const timed = tests.filter((t) => t.total);
   const secPerQ = timed.length ? Math.round(timed.reduce((a, t) => a + t.timeTaken, 0) / timed.reduce((a, t) => a + t.total, 0)) : null;
   const bestTest = tests.slice().sort((a, b) => b.correct / b.total - a.correct / a.total)[0];
-  const days = [...Array(7)].map((_, i) => { const d = new Date(); d.setDate(d.getDate() - (6 - i)); const k = d.getFullYear() + '-' + String(d.getMonth() + 1).padStart(2, '0') + '-' + String(d.getDate()).padStart(2, '0'); return !!st.daily[k]; });
+  const days = [...Array(7)].map((_, i) => { const d = new Date(); d.setDate(d.getDate() - (6 - i)); const k = d.getFullYear() + '-' + String(d.getMonth() + 1).padStart(2, '0') + '-' + String(d.getDate()).padStart(2, '0'); return store.dayDone(k); });
   const weak = Object.entries(wrongByCh).sort((a, b) => b[1] - a[1]).slice(0, 3);
   return { n, c, bySub, tests: tests.length, secPerQ, bestTest, streak: store.streak(), activeDays: days.filter(Boolean).length, days, weak };
 }
