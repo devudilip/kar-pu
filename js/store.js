@@ -8,6 +8,7 @@ const defaults = () => ({
   daily: {},         // 'YYYY-MM-DD' -> { done, correct }
   doneDays: null,    // 'YYYY-MM-DD' -> true when ALL of that day's tasks were finished (streak source of truth)
   bestStreak: 0,
+  clarity: {},       // qid -> 1 (clear) | -1 (unclear)
   quick: {},         // 'subject/slug' -> { score, of, t }
   last: null,        // { type, href, title, sub, t } — continue where you left off
   plan: null,        // study plan { examDate, hoursPerDay, created, days:[{date, tasks:[{key,type,subject,slug,title,hours,done}]}] }
@@ -40,6 +41,9 @@ export const store = {
   reasonStats() { const r = {}; for (const a of Object.values(state.attempts)) if (a.last === 0 && a.reason) r[a.reason] = (r[a.reason] || 0) + 1; return r; },
   quickCheck(key) { return state.quick[key]; },
   setQuickCheck(key, v) { state.quick[key] = { ...v, t: Date.now() }; save(); },
+  setClarity(qid, v) { state.clarity[qid] = v; save(); },
+  clarity(qid) { return state.clarity[qid] || 0; },
+  clarityList() { return Object.entries(state.clarity); },
   setLast(o) { state.last = { ...o, t: Date.now() }; save(); },
   last() { return state.last; },
   setPlan(p) { state.plan = p; save(); this.syncDay(); },

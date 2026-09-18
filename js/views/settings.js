@@ -11,6 +11,7 @@ export default async function settings() {
       <h3 style="margin-top:0">Feedback</h3>
       <p class="muted">Found a wrong answer, a typo, or have an idea? It takes one minute and helps every student after you.</p>
       <a class="btn" href="https://forms.gle/YW9CKJa22dX5C2ph8" target="_blank" rel="noopener">Open feedback form →</a>
+      <div id="clarityBox" class="muted" style="margin-top:10px"></div>
     </div>
     <div class="card">
       <h3 style="margin-top:0">Your progress</h3>
@@ -49,6 +50,8 @@ export default async function settings() {
     </div>
   </div>`);
   node.querySelectorAll('[data-lang]').forEach((b) => b.addEventListener('click', () => { store.setSetting('lang', b.dataset.lang); toast('Language updated'); location.reload(); }));
+  const cl = store.clarityList(); const unclear = cl.filter(([, v]) => v === -1).map(([id]) => id);
+  if (cl.length) { const box = node.querySelector('#clarityBox'); box.innerHTML = `You rated ${cl.length} explanations: ${cl.length - unclear.length} clear, ${unclear.length} unclear.${unclear.length ? ' <button class="btn small secondary" id="copyUnclear">Copy unclear question IDs</button>' : ''}`; box.querySelector('#copyUnclear')?.addEventListener('click', async () => { try { await navigator.clipboard.writeText(unclear.join(', ')); toast('Copied. Paste into the feedback form.'); } catch { prompt('Copy these IDs:', unclear.join(', ')); } }); }
   node.querySelector('#tourBtn').addEventListener('click', () => showTour());
   node.querySelector('#saveAll').addEventListener('click', async (e) => {
     const btn = e.target, status = node.querySelector('#saveStatus');

@@ -76,3 +76,16 @@ export function bindReasonChips(root) {
 export const FEEDBACK_URL = 'https://forms.gle/YW9CKJa22dX5C2ph8';
 export function reportLink(id) { return `<a href="${FEEDBACK_URL}" target="_blank" rel="noopener" class="muted report" data-id="${id}" style="font-size:.78rem">⚠️ Report a mistake</a>`; }
 export function bindReportLinks(root) { root.querySelectorAll('a.report').forEach((a) => a.addEventListener('click', () => { try { navigator.clipboard?.writeText(a.dataset.id); toast('Question ID copied — paste it in the form'); } catch {} })); }
+
+// "Was this explanation clear?" — stored locally; unclear ids can be copied from Settings into the feedback form.
+export function clarityButtons(id) {
+  const cur = window.__store?.clarity(id) || 0;
+  return `<span class="clarity" data-id="${id}" style="font-size:.8rem"><span class="muted">Explanation clear?</span> <button type="button" class="btn small ${cur === 1 ? '' : 'ghost'}" data-v="1" style="padding:2px 10px">👍</button> <button type="button" class="btn small ${cur === -1 ? '' : 'ghost'}" data-v="-1" style="padding:2px 10px">👎</button></span>`;
+}
+export function bindClarity(root) {
+  root.querySelectorAll('.clarity').forEach((box) => box.querySelectorAll('button').forEach((b) => b.addEventListener('click', () => {
+    window.__store?.setClarity(box.dataset.id, +b.dataset.v);
+    box.querySelectorAll('button').forEach((x) => x.classList.toggle('ghost', x !== b));
+    if (+b.dataset.v === -1) toast('Thanks. Tell us what was unclear via "Report a mistake".');
+  })));
+}

@@ -1,7 +1,7 @@
 import { SUBJECTS, chapter, shuffle, seededRandom, seededShuffle } from '../data.js';
 import { store } from '../store.js';
 import { launchExam } from './tests.js';
-import { el, esc, math, toast, optionButton, LETTERS, bar, reasonChips, bindReasonChips, reportLink, bindReportLinks, quiz } from '../ui.js';
+import { el, esc, math, toast, optionButton, LETTERS, bar, reasonChips, bindReasonChips, reportLink, bindReportLinks, quiz, clarityButtons, bindClarity } from '../ui.js';
 
 export default async function chapterView([subject, slug], query) {
   const ch = await chapter(subject, slug);
@@ -97,8 +97,8 @@ export default async function chapterView([subject, slug], query) {
       if (session.done === 15 && (store.completePlanTask(`ch-${subject}-${slug}`) || store.completePlanTask(`rev-${subject}-${slug}`))) toast('✅ Today\'s plan task done!'); if (ok) { session.correct++; session.run++; if (session.run === 3 || session.run === 5 || session.run % 10 === 0) pop(`🔥 ${session.run} in a row!`); } else session.run = 0;
       practice.querySelectorAll('.option').forEach((x) => { x.disabled = true; const j = +x.dataset.i; if (j === q.answer) x.classList.add('correct'); else if (j === i) x.classList.add('wrong'); });
       const exp = practice.querySelector('#exp');
-      exp.innerHTML = `<div class="explain"><b>${ok ? 'Correct!' : 'Wrong.'} Answer: ${LETTERS[q.answer]}</b>${q.trick ? `<div class="trick">⚡ ${q.trick}</div>` : ''}${q.explanation ? (q.trick ? `<details ${ok ? '' : 'open'}><summary class="muted">Full working</summary><div>${q.explanation}</div></details>` : `<div>${q.explanation}</div>`) : ''}${q.explanation_en ? `<details><summary class="muted">English</summary>${q.explanation_en}</details>` : ''}${q.tip ? `<div class="muted" style="margin-top:6px">💡 ${q.tip}</div>` : ''}</div>${ok ? '' : reasonChips(q.id)}<div style="margin-top:6px">${reportLink(q.id)}</div>`;
-      math(exp); bindReasonChips(exp); bindReportLinks(exp);
+      exp.innerHTML = `<div class="explain"><b>${ok ? 'Correct!' : 'Wrong.'} Answer: ${LETTERS[q.answer]}</b>${q.trick ? `<div class="trick">⚡ ${q.trick}</div>` : ''}${q.explanation ? (q.trick ? `<details ${ok ? '' : 'open'}><summary class="muted">Full working</summary><div>${q.explanation}</div></details>` : `<div>${q.explanation}</div>`) : ''}${q.explanation_en ? `<details><summary class="muted">English</summary>${q.explanation_en}</details>` : ''}${q.tip ? `<div class="muted" style="margin-top:6px">💡 ${q.tip}</div>` : ''}</div>${ok ? '' : reasonChips(q.id)}<div class="row spread" style="margin-top:6px">${clarityButtons(q.id)}${reportLink(q.id)}</div>`;
+      math(exp); bindReasonChips(exp); bindReportLinks(exp); bindClarity(exp);
       practice.querySelector('#skip').classList.add('hidden');
       practice.querySelector('#next').classList.remove('hidden');
       practice.querySelector('#next').focus();
