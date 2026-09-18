@@ -41,6 +41,7 @@ export default async function home() {
     </div>
 
     ${store.streakAtRisk() ? `<a class="card link" href="#/today" style="border-color:var(--bad);background:var(--bad-bg)"><b>🔥 Your ${streak}-day streak ends at midnight.</b> <span class="muted">Finish today's tasks →</span></a>` : ''}
+    ${plan && daysLeft !== null && daysLeft <= 10 ? `<a class="card link" href="#/examday" style="border-color:var(--accent);background:#fff7e6"><b>🎒 ${daysLeft} days to go.</b> <span class="muted">Open your last-week plan and exam-day checklist →</span></a>` : ''}
     ${cont ? `<a class="card link" href="${cont.href}" style="border-color:var(--primary);background:#fbe9e4"><div class="kicker">Continue where you left off</div><div class="row spread" style="align-items:center"><span><b style="font-size:1.1rem">${esc(cont.title)}</b><div class="muted">${esc(cont.sub)}</div></span><span class="btn small">${cont.cta} →</span></div></a>` : ''}
     ${plan ? '' : `<div class="card" style="border-color:var(--primary)">
       <div class="kicker">Start here</div>
@@ -78,6 +79,7 @@ export default async function home() {
       <a class="card link" href="#/rank"><b>🎯 Rank calculator</b><div class="muted">Board marks + CET marks → rank estimate.</div></a>
       <a class="card link" href="#/plan"><b>📆 My study plan</b><div class="muted">${plan ? `${daysLeft} days left · edit plan` : 'Day-by-day schedule to your exam.'}</div></a>
       <a class="card link" href="#/progress"><b>📈 Progress & mistakes</b><div class="muted">Weak chapters and why you go wrong.</div></a>
+      <a class="card link" href="#/examday"><b>🎒 Last 7 days & exam day</b><div class="muted">Final-week plan, what to carry, hall strategy.</div></a>
       <a class="card link" href="#/report"><b>🗂 Weekly report card</b><div class="muted">This week's score, shareable as an image.</div></a>
     </div>
 
