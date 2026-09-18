@@ -1,5 +1,6 @@
 import { SUBJECTS, chapter, shuffle, seededRandom, seededShuffle } from '../data.js';
 import { store } from '../store.js';
+import { launchExam } from './tests.js';
 import { el, esc, math, toast, optionButton, LETTERS, bar, reasonChips, bindReasonChips, reportLink, bindReportLinks, quiz } from '../ui.js';
 
 export default async function chapterView([subject, slug], query) {
@@ -30,7 +31,8 @@ export default async function chapterView([subject, slug], query) {
       <div id="qcBox" style="margin-top:10px"></div>
     </div>` : qc ? `<div class="card" style="background:${qc.score >= 4 ? 'var(--ok-bg)' : 'var(--warn-bg)'}"><b>Quick check: ${qc.score}/${qc.of}.</b> <span class="muted">${qc.score >= 4 ? 'You know the basics — go to Practice; use the notes only for revision.' : 'Read the notes below first, then practise.'}</span></div>` : '';
   notes.innerHTML = quickHtml + (ch.notes
-    ? `<div class="card notes">${ch.notes}</div>${ch.kn && ch.notes_en ? `<details class="card"><summary>Show English notes</summary><div class="notes">${ch.notes_en}</div></details>` : ''}<div class="row"><button class="btn" id="startP" style="flex:1">Start practice (${qs.length} Qs)</button><a class="btn secondary" href="#/flashcards/${subject}/${slug}">Flashcards</a><a class="btn ghost" href="#/flashcards/${subject}/${slug}?mode=questions">Revise as cards</a><a class="btn ghost" href="#/sheet/${subject}/${slug}">🖨 Formula sheet</a></div>`
+    ? `<div class="card notes">${ch.notes}</div>${ch.kn && ch.notes_en ? `<details class="card"><summary>Show English notes</summary><div class="notes">${ch.notes_en}</div></details>` : ''}<div class="row"><button class="btn" id="startP" style="flex:1">Start practice (${qs.length} Qs)</button><a class="btn secondary" href="#/flashcards/${subject}/${slug}">Flashcards</a><a class="btn ghost" href="#/flashcards/${subject}/${slug}?mode=questions">Revise as cards</a><a class="btn ghost" href="#/sheet/${subject}/${slug}">🖨 Formula sheet</a></div>
+      ${qs.length >= 20 ? `<div class="card" style="margin-top:10px"><div class="row spread" style="align-items:center"><span><b>⏱ Timed chapter test</b><div class="muted">20 questions · 25 minutes · exam conditions, answers at the end</div></span><button class="btn small" id="timedTest">Start</button></div></div>` : ''}`
     : `<div class="card empty">Notes for this chapter are not written yet.<br><span class="muted">Want to help? See Settings → Contribute.</span></div>`);
   math(notes);
   if (fresh) {
@@ -49,6 +51,7 @@ export default async function chapterView([subject, slug], query) {
     });
   }
   notes.querySelector('#startP')?.addEventListener('click', () => switchTab('practice'));
+  notes.querySelector('#timedTest')?.addEventListener('click', () => launchExam({ title: `${ch.title} — timed test`, chapter: { subject, slug }, subjects: [subject], count: 20, minutes: 25 }));
 
   // Practice
   const practice = node.querySelector('#practice');

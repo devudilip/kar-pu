@@ -1,4 +1,4 @@
-import { SUBJECTS, syllabus, questionsByIds, pyqPaper, shuffle, sampleQuestions } from '../data.js';
+import { SUBJECTS, syllabus, questionsByIds, pyqPaper, shuffle, sampleQuestions, chapter } from '../data.js';
 import { store } from '../store.js';
 import { el, esc, math, fmtTime, optionButton, toast } from '../ui.js';
 
@@ -10,6 +10,7 @@ async function buildQuestions(cfg) {
     return paper.questions.map((q, i) => ({ ...q, id: q.id || `${cfg.pyq}-${i + 1}`, subject: q.subject || paper.subject }));
   }
   if (cfg.ids) { const map = await questionsByIds(cfg.ids); return cfg.ids.map((id) => map[id]).filter(Boolean); }
+  if (cfg.chapter) { const ch = await chapter(cfg.chapter.subject, cfg.chapter.slug); return shuffle(ch.questions).slice(0, cfg.count); }
   // Both full mocks and custom tests draw across chapters in proportion to KCET weight, loading only the chapters used.
   return sampleQuestions({ subjects: cfg.subjects, count: cfg.count, puc: cfg.puc || 0, difficulty: cfg.difficulty || '' });
 }
