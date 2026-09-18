@@ -1,6 +1,6 @@
 import { SUBJECTS, PFX, syllabus, KCET, flashcards } from '../data.js';
 import { store } from '../store.js';
-import { el, esc, fmtDate, toast } from '../ui.js';
+import { el, esc, fmtDate, toast, fmtTime } from '../ui.js';
 import { buildPlan, taskLink } from './plan.js';
 
 const FEEDBACK = 'https://forms.gle/YW9CKJa22dX5C2ph8';
@@ -22,6 +22,11 @@ export default async function home() {
   const chapterTask = todayPlan?.tasks.find((t) => t.type === 'chapter' || t.type === 'revise');
   const mockTask = todayPlan?.tasks.find((t) => t.type === 'mock' || t.type === 'pyq');
   const daysLeft = plan ? plan.days.filter((d) => d.date >= today).length : null;
+  // Continue: an unfinished test beats a remembered chapter/deck
+  let cont = null;
+  try { const ex = JSON.parse(sessionStorage.getItem('kcet.examState') || 'null'); if (ex && ex.qs) { const left = Math.max(0, Math.round((ex.endAt - Date.now()) / 1000)); const answered = ex.answers.filter((a) => a !== null).length; if (left > 0) cont = { href: '#/exam', title: ex.cfg.title, sub: `${answered} of ${ex.qs.length} answered · ${fmtTime(left)} left`, cta: 'Resume test' }; } } catch {}
+  const last = store.last();
+  if (!cont && last && Date.now() - last.t < 7 * 86400000) cont = { href: last.href, title: last.title, sub: last.sub, cta: 'Continue' };
 
   const node = el(`<div>
     <div class="card hero">
@@ -31,6 +36,7 @@ export default async function home() {
       ${plan ? `<div class="row"><span class="pill">📅 ${daysLeft} days to exam</span><span class="pill ${streak ? 'ok' : ''}">🔥 ${streak}-day streak</span><span class="pill">${attempted} questions done</span></div>` : ''}
     </div>
 
+    ${cont ? `<a class="card link" href="${cont.href}" style="border-color:var(--primary);background:#fbe9e4"><div class="kicker">Continue where you left off</div><div class="row spread" style="align-items:center"><span><b style="font-size:1.1rem">${esc(cont.title)}</b><div class="muted">${esc(cont.sub)}</div></span><span class="btn small">${cont.cta} →</span></div></a>` : ''}
     ${plan ? '' : `<div class="card" style="border-color:var(--primary)">
       <div class="kicker">Start here</div>
       <h2 style="margin:4px 0 6px">When is your KCET exam?</h2>

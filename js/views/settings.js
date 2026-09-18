@@ -1,5 +1,6 @@
 import { store } from '../store.js';
 import { SUBJECTS, syllabus } from '../data.js';
+import { showTour } from './tour.js';
 import { el, toast } from '../ui.js';
 
 export default async function settings() {
@@ -28,6 +29,7 @@ export default async function settings() {
     </div>
     <div class="card">
       <h3 style="margin-top:0">How to use this app well</h3>
+      <button class="btn secondary small" id="tourBtn" style="margin-bottom:8px">Show the welcome tour again</button>
       <ol class="muted" style="padding-left:1.2rem">
         <li>Read the chapter <b>Notes</b> once, then attempt <b>Practice</b>. Read every explanation, even for correct answers.</li>
         <li>Finish a chapter, then re-attempt only your <b>Mistakes</b> two days later.</li>
@@ -45,6 +47,7 @@ export default async function settings() {
     </div>
   </div>`);
   node.querySelectorAll('[data-lang]').forEach((b) => b.addEventListener('click', () => { store.setSetting('lang', b.dataset.lang); toast('Language updated'); location.reload(); }));
+  node.querySelector('#tourBtn').addEventListener('click', () => showTour());
   node.querySelector('#saveAll').addEventListener('click', async (e) => {
     const btn = e.target, status = node.querySelector('#saveStatus');
     btn.disabled = true;

@@ -6,9 +6,10 @@ const defaults = () => ({
   tests: [],         // { id, title, date, subjects, total, correct, wrong, skipped, timeTaken, items:[{qid, chosen, correct}] }
   chapterSeen: {},   // chapterKey -> timestamp
   daily: {},         // 'YYYY-MM-DD' -> { done, correct }
+  last: null,        // { type, href, title, sub, t } — continue where you left off
   plan: null,        // study plan { examDate, hoursPerDay, created, days:[{date, tasks:[{key,type,subject,slug,title,hours,done}]}] }
   cards: {},         // cardKey -> { lvl, next }
-  settings: { showExplanationInPractice: true, name: '', lang: 'en' }
+  settings: { showExplanationInPractice: true, name: '', lang: 'en', onboarded: false }
 });
 let state = load();
 function load() {
@@ -29,6 +30,8 @@ export const store = {
   },
   setReason(qid, reason) { const a = state.attempts[qid]; if (a) { a.reason = reason; save(); } },
   reasonStats() { const r = {}; for (const a of Object.values(state.attempts)) if (a.last === 0 && a.reason) r[a.reason] = (r[a.reason] || 0) + 1; return r; },
+  setLast(o) { state.last = { ...o, t: Date.now() }; save(); },
+  last() { return state.last; },
   setPlan(p) { state.plan = p; save(); },
   plan() { return state.plan; },
   togglePlanTask(date, key) { const d = state.plan?.days.find((x) => x.date === date); const t = d?.tasks.find((x) => x.key === key); if (t) { t.done = !t.done; save(); } return t?.done; },

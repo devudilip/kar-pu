@@ -45,6 +45,7 @@ export default async function chapterView([subject, slug], query) {
     }
     const q = qs[order[idx]];
     const prev = store.attempt(q.id);
+    store.setLast({ type: 'chapter', href: `#/chapter/${subject}/${slug}?tab=practice`, title: ch.title, sub: `${s.name} · question ${idx + 1} of ${order.length}` });
     practice.innerHTML = `<div class="card">
       <div class="row spread muted" style="margin-bottom:8px">
         <span>Q ${idx + 1} of ${order.length} ${q.difficulty ? `<span class="pill ${q.difficulty}">${q.difficulty}</span>` : ''}</span>

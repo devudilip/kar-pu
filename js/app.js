@@ -16,6 +16,7 @@ import flashcards from './views/flashcards.js';
 import speed from './views/speed.js';
 import plan from './views/plan.js';
 import rank from './views/rank.js';
+import { showTour } from './views/tour.js';
 
 route('home', home);
 route('subject', subject);
@@ -46,6 +47,8 @@ window.addEventListener('kcet:loading', (e) => {
   if (done >= total) loaderTimer = setTimeout(() => loader.classList.add('hidden'), 250); else loader.classList.remove('hidden');
 });
 let cleanup = null;
+
+if (!store.get().settings.onboarded) setTimeout(showTour, 400);
 
 start(async (build, name) => {
   if (typeof cleanup === 'function') { try { cleanup(); } catch {} cleanup = null; }

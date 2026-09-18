@@ -36,6 +36,7 @@ export default async function flashcardsView([subject, slug], query) {
     if (!cards.length) { deck.innerHTML = `<div class="card empty">${slug === 'due' ? 'Nothing due for review. Come back tomorrow, or study a chapter deck.' : 'No flashcards for this chapter yet.'}<br><a href="#/flashcards">Back</a></div>`; return; }
     if (i >= cards.length) { deck.innerHTML = `<div class="card" style="text-align:center"><h2>Deck complete</h2><div class="score-big">${got}/${cards.length}</div><p class="muted">Cards you marked "Again" come back tomorrow; "Got it" cards return after 1, 3, 7, 14, 30 days.</p><div class="row" style="justify-content:center"><button class="btn" id="again">Go through again</button><a class="btn secondary" href="#/flashcards">Other decks</a></div></div>`; deck.querySelector('#again').addEventListener('click', () => { cards = shuffle(cards); i = 0; got = 0; render(); }); return; }
     const c = cards[i]; const st = store.card(c.key);
+    store.setLast({ type: 'cards', href: location.hash, title: title, sub: `Flashcards · card ${i + 1} of ${cards.length}` });
     deck.innerHTML = `<div class="card flash" id="card" style="min-height:220px;cursor:pointer;display:flex;flex-direction:column;justify-content:center;text-align:center">
         <div class="muted" style="font-size:.8rem">${esc(c.chapter)} · level ${st.lvl}</div>
         <div class="front" style="font-size:1.15rem;margin:16px 0">${c.f}</div>
