@@ -1,5 +1,5 @@
 /* KCET Prep service worker: offline-first for app shell, network-first for data with cache fallback. */
-const VERSION = 'kcet-v15';
+const VERSION = 'kcet-v16';
 const SHELL = [
   './', './manifest.webmanifest', './css/style.css',
   './js/app.js', './js/router.js', './js/store.js', './js/data.js', './js/ui.js',
@@ -11,7 +11,7 @@ const SHELL = [
 ];
 
 self.addEventListener('install', (e) => {
-  e.waitUntil(caches.open(VERSION).then(async (c) => { for (const u of SHELL) { try { const r = await fetch(u, { cache: 'no-cache' }); if (r.ok && !r.redirected) await c.put(u, r); } catch {} } }).then(() => self.skipWaiting()));
+  e.waitUntil(caches.open(VERSION).then(async (c) => { for (const u of SHELL) { try { const r = await fetch(u + (u.includes('?') ? '&' : '?') + 'v=' + VERSION, { cache: 'no-cache' }); if (r.ok && !r.redirected) await c.put(u, r); } catch {} } }).then(() => self.skipWaiting()));
 });
 
 self.addEventListener('activate', (e) => {
