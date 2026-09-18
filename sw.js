@@ -1,11 +1,11 @@
 /* KCET Prep service worker: offline-first for app shell, network-first for data with cache fallback. */
-const VERSION = 'kcet-v20';
+const VERSION = 'kcet-v21';
 const SHELL = [
   './', './manifest.webmanifest', './css/style.css',
   './js/app.js', './js/router.js', './js/store.js', './js/data.js', './js/ui.js',
   './js/views/home.js', './js/views/subject.js', './js/views/chapter.js',
   './js/views/tests.js', './js/views/exam.js', './js/views/result.js',
-  './js/views/pyq.js', './js/views/progress.js', './js/views/settings.js', './js/views/today.js', './js/views/flashcards.js', './js/views/speed.js', './js/views/tour.js', './js/views/report.js', './js/views/plan.js', './js/views/rank.js', './data/rank-bands.json',
+  './js/views/pyq.js', './js/views/progress.js', './js/views/settings.js', './js/views/today.js', './js/views/flashcards.js', './js/views/speed.js', './js/views/tour.js', './js/views/report.js', './js/views/sheet.js', './css/sheet.css', './js/views/plan.js', './js/views/rank.js', './data/rank-bands.json',
   './icons/icon.svg', './icons/icon-192.png', './icons/icon-512.png',
   './data/syllabus.json', './data/pyq/index.json', './data/flashcards/physics.json', './data/flashcards/chemistry.json', './data/flashcards/maths.json'
 ];

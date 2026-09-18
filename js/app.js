@@ -18,6 +18,7 @@ import plan from './views/plan.js';
 import rank from './views/rank.js';
 import { showTour } from './views/tour.js';
 import report from './views/report.js';
+import sheet from './views/sheet.js';
 
 route('home', home);
 route('subject', subject);
@@ -34,6 +35,7 @@ route('speed', speed);
 route('plan', plan);
 route('rank', rank);
 route('report', report);
+route('sheet', sheet);
 route('*', () => { const d = document.createElement('div'); d.className = 'empty'; d.textContent = 'Page not found.'; return d; });
 
 const app = document.getElementById('app');
@@ -55,7 +57,7 @@ if (!store.get().settings.onboarded) setTimeout(showTour, 400);
 start(async (build, name) => {
   if (typeof cleanup === 'function') { try { cleanup(); } catch {} cleanup = null; }
   window.scrollTo(0, 0);
-  document.querySelectorAll('.bottomnav a').forEach((a) => a.classList.toggle('active', a.dataset.nav === name || (name === 'subject' || name === 'chapter') && a.dataset.nav === 'home' || (name === 'exam' || name === 'result' || name === 'speed' || name === 'pyq') && a.dataset.nav === 'tests' || (name === 'plan' || name === 'rank' || name === 'report') && a.dataset.nav === 'progress'));
+  document.querySelectorAll('.bottomnav a').forEach((a) => a.classList.toggle('active', a.dataset.nav === name || (name === 'subject' || name === 'chapter' || name === 'sheet') && a.dataset.nav === 'home' || (name === 'exam' || name === 'result' || name === 'speed' || name === 'pyq') && a.dataset.nav === 'tests' || (name === 'plan' || name === 'rank' || name === 'report') && a.dataset.nav === 'progress'));
   app.innerHTML = '<div class="loading"><div class="spin"></div>Loading…</div>';
   try {
     const node = await build();

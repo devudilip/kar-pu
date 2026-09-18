@@ -1,0 +1,45 @@
+/* Printable one-page chapter formula sheet (js/views/sheet.js) */
+.sheet-page { max-width: 900px; margin: 0 auto; padding: 12px 16px 40px; }
+.sheet-toolbar { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; margin-bottom: 14px; }
+.sheet-tip { font-size: .82rem; flex-basis: 100%; }
+.sheet-header { border-bottom: 2px solid var(--border); padding-bottom: 8px; margin-bottom: 10px; }
+.sheet-header h1 { margin: 0 0 6px; }
+.sheet-meta { gap: 8px; }
+
+.sheet-notes { font-size: .92rem; }
+.sheet-notes h3 { margin-top: .75rem; color: var(--primary); font-family: var(--font-head); }
+.sheet-notes ul { padding-left: 1.1rem; margin: .3rem 0; }
+.sheet-notes li { margin: .15rem 0; }
+.sheet-notes table { border-collapse: collapse; font-size: .85rem; margin: .4rem 0; }
+.sheet-notes td, .sheet-notes th { border: 1px solid var(--border); padding: 3px 6px; text-align: left; }
+.sheet-notes p { margin: .35rem 0; }
+
+@media (min-width: 720px) {
+  .sheet-notes { column-count: 2; column-gap: 28px; }
+  .sheet-notes h3 { break-after: avoid; }
+  .sheet-notes table, .sheet-notes ul, .sheet-notes p { break-inside: avoid; }
+}
+
+.sheet-table { width: 100%; border-collapse: collapse; font-size: .88rem; margin: 8px 0; }
+.sheet-table th, .sheet-table td { border: 1px solid var(--border); padding: 6px 8px; text-align: left; vertical-align: top; }
+.sheet-table th { background: #f1e3dc; color: var(--muted); text-transform: uppercase; font-size: .72rem; letter-spacing: .05em; }
+.sheet-table tr { break-inside: avoid; }
+
+.sheet-footer { text-align: center; margin-top: 18px; font-size: .8rem; }
+
+@media print {
+  .topbar, .bottomnav, #toast, .loader, .no-print { display: none !important; }
+  @page { size: A4; margin: 12mm; }
+  html, body { background: #fff !important; color: #000 !important; font-size: 11pt; padding: 0 !important; margin: 0 !important; }
+  .sheet-page { max-width: none; margin: 0; padding: 0; }
+  .sheet-notes { column-count: 2; column-gap: 12mm; }
+  .sheet-header, .sheet-notes, .sheet-table, .sheet-footer { color: #000 !important; }
+  .sheet-header { border-bottom-color: #000; }
+  .pill { background: #eee !important; color: #000 !important; border: 1px solid #999; }
+  .sheet-table th, .sheet-table td, .sheet-notes table td, .sheet-notes table th { border-color: #999 !important; }
+  .sheet-table th { background: #eee !important; }
+  h3, li, tr, p, .sheet-table tr, .sheet-notes table tr { break-inside: avoid; page-break-inside: avoid; }
+  a { color: #000 !important; text-decoration: none !important; }
+  .katex { font-size: 1em; color: #000 !important; }
+  .katex-display { overflow: visible; }
+}
