@@ -18,7 +18,7 @@ Inside:
 Coaching classes and paid apps are out of reach for many students, especially in villages and small towns. Good practice material for KCET exists but is scattered, expensive, or full of ads. This project puts everything a student needs in one place, for free, forever.
 
 - **Non-profit.** No ads, no paid tier, no upsell.
-- **No account, no tracking.** Nothing is sent to a server. Your progress lives only on your own device (you can export a backup from Settings).
+- **No account, no personal tracking.** Your progress lives only on your own device (you can export a backup from Settings). The site uses Cloudflare Web Analytics for anonymous visit counts only: no cookies, no personal data.
 - **Open source.** Anyone can check the questions, fix mistakes, or run their own copy.
 
 ## How to use it

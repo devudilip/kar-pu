@@ -40,7 +40,7 @@ export default async function settings() {
     </div>
     <div class="card">
       <h3 style="margin-top:0">About this app</h3>
-      <p class="muted">Free, non-profit and open source. No ads, no account, no tracking — your progress stays on this device only. Built to help Karnataka students, especially those far from coaching centres, prepare for KCET.</p>
+      <p class="muted">Free, non-profit and open source. No ads, no account, no personal tracking — your progress stays on this device only (anonymous visit counts via Cloudflare Web Analytics, no cookies). Built to help Karnataka students, especially those far from coaching centres, prepare for KCET.</p>
       <p class="muted"><b>Not official.</b> This app is not affiliated with KEA or the PU Board. Past-paper answers follow the official KEA keys; other questions were written and checked by volunteers and AI assistants and <b>may contain mistakes</b>. Use "Report a mistake" under any question.</p>
       <p class="muted">Want to contribute questions, corrections or translations? <a href="https://github.com/devudilip/kar-pu" target="_blank" rel="noopener">github.com/devudilip/kar-pu</a></p>
     </div>
