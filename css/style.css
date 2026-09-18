@@ -69,7 +69,7 @@ p { margin: .5rem 0; }
 .tabs button { background: none; border: 0; padding: 10px 14px; font-size: .95rem; font-weight: 600; color: var(--muted); cursor: pointer; border-bottom: 3px solid transparent; margin-bottom: -2px; white-space: nowrap; }
 .tabs button.active { color: var(--primary); border-bottom-color: var(--primary); }
 
-.question { font-size: 1.05rem; margin-bottom: 12px; }
+.question { font-size: 1.05rem; margin-bottom: 12px; white-space: pre-line; }
 .options { display: grid; gap: 8px; }
 .option { display: flex; gap: 10px; align-items: flex-start; width: 100%; text-align: left; background: var(--card); border: 2px solid var(--border); border-radius: 10px; padding: 10px 12px; font-size: 1rem; cursor: pointer; color: var(--text); }
 .option .key { flex: 0 0 26px; height: 26px; border-radius: 50%; background: #f1e3dc; color: var(--primary); font-weight: 700; display: grid; place-items: center; font-size: .85rem; }
