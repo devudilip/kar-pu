@@ -21,7 +21,7 @@ export default async function chapterView([subject, slug], query) {
   // Notes
   const notes = node.querySelector('#notes');
   notes.innerHTML = ch.notes
-    ? `${ch.kn ? '<div class="muted" style="margin-bottom:4px">ಕನ್ನಡ · <a href="#/settings">English</a></div>' : ''}<div class="card notes">${ch.notes}</div>${ch.kn && ch.notes_en ? `<details class="card"><summary>Show English notes</summary><div class="notes">${ch.notes_en}</div></details>` : ''}<button class="btn block" id="startP">Start practice (${qs.length} Qs)</button>`
+    ? `<div class="card notes">${ch.notes}</div>${ch.kn && ch.notes_en ? `<details class="card"><summary>Show English notes</summary><div class="notes">${ch.notes_en}</div></details>` : ''}<button class="btn block" id="startP">Start practice (${qs.length} Qs)</button>`
     : `<div class="card empty">Notes for this chapter are not written yet.<br><span class="muted">Want to help? See Settings → Contribute.</span></div>`;
   math(notes);
   notes.querySelector('#startP')?.addEventListener('click', () => switchTab('practice'));
@@ -30,7 +30,7 @@ export default async function chapterView([subject, slug], query) {
   const practice = node.querySelector('#practice');
   let order = qs.map((_, i) => i);
   let idx = 0;
-  let session = { done: 0, correct: 0 };
+  let session = { done: 0, correct: 0, run: 0 };
 
   function renderPractice() {
     if (!qs.length) { practice.innerHTML = '<div class="card empty">No questions yet for this chapter.</div>'; return; }
@@ -65,7 +65,7 @@ export default async function chapterView([subject, slug], query) {
     practice.querySelector('#next').addEventListener('click', () => { idx++; renderPractice(); });
     practice.querySelectorAll('.option').forEach((b) => b.addEventListener('click', () => {
       const i = +b.dataset.i; const ok = i === q.answer;
-      store.recordAttempt(q.id, ok); session.done++; if (ok) session.correct++;
+      store.recordAttempt(q.id, ok); session.done++; if (ok) { session.correct++; session.run++; if (session.run === 3 || session.run === 5 || session.run % 10 === 0) pop(`🔥 ${session.run} in a row!`); } else session.run = 0;
       practice.querySelectorAll('.option').forEach((x) => { x.disabled = true; const j = +x.dataset.i; if (j === q.answer) x.classList.add('correct'); else if (j === i) x.classList.add('wrong'); });
       const exp = practice.querySelector('#exp');
       exp.innerHTML = `<div class="explain"><b>${ok ? 'Correct!' : 'Wrong.'} Answer: ${LETTERS[q.answer]}</b>${q.explanation ? `<div>${q.explanation}</div>` : ''}${q.explanation_en ? `<details><summary class="muted">English</summary>${q.explanation_en}</details>` : ''}${q.tip ? `<div class="muted" style="margin-top:6px">💡 ${q.tip}</div>` : ''}</div>${ok ? '' : reasonChips(q.id)}`;
@@ -85,3 +85,5 @@ export default async function chapterView([subject, slug], query) {
   node.querySelectorAll('.tabs button').forEach((b) => b.addEventListener('click', () => switchTab(b.dataset.t)));
   return node;
 }
+
+function pop(text) { const d = document.createElement('div'); d.className = 'streak-pop'; d.textContent = text; document.body.appendChild(d); setTimeout(() => d.remove(), 950); }

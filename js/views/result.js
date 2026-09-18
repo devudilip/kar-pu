@@ -1,4 +1,4 @@
-import { SUBJECTS, allQuestions, pyqPaper, syllabus } from '../data.js';
+import { SUBJECTS, questionsByIds, pyqPaper, syllabus } from '../data.js';
 import { store } from '../store.js';
 import { el, esc, math, fmtTime, fmtDate, optionButton, LETTERS, reasonChips, bindReasonChips } from '../ui.js';
 
@@ -7,7 +7,7 @@ export default async function result([id]) {
   if (!t) throw new Error('Result not found');
   let lookup;
   if (t.pyq) { const p = await pyqPaper(t.pyq); lookup = Object.fromEntries(p.questions.map((q, i) => [q.id || `${t.pyq}-${i + 1}`, q])); }
-  else { const all = await allQuestions(SUBJECTS.map((s) => s.id)); lookup = Object.fromEntries(all.map((q) => [q.id, q])); }
+  else { lookup = await questionsByIds(t.items.map((it) => it.qid)); }
   const syl = await syllabus();
   const pct = Math.round(100 * t.correct / t.total);
 

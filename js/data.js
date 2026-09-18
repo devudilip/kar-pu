@@ -43,6 +43,38 @@ export async function allQuestions(subjects) {
   }
   return out;
 }
+// Load only the chapters needed for a list of question ids (ids are <pfx>-<slug>-<nnn>).
+export async function questionsByIds(ids) {
+  const bySub = { phy: 'physics', che: 'chemistry', mat: 'maths' };
+  const groups = {};
+  for (const id of ids) { const m = /^(phy|che|mat)-(.+)-\d{3}$/.exec(id); if (m) (groups[bySub[m[1]] + '/' + m[2]] ||= []).push(id); }
+  const out = {}; const keys = Object.keys(groups); let done = 0;
+  progress(0, keys.length, 'Loading questions');
+  await Promise.all(keys.map(async (k) => { const [s, slug] = k.split('/'); try { const ch = await chapter(s, slug); for (const q of ch.questions) if (groups[k].includes(q.id)) out[q.id] = q; } catch {} progress(++done, keys.length, 'Loading questions'); }));
+  return out;
+}
+// Pick `count` questions across chapters in proportion to KCET weight, loading only the chapters used.
+export async function sampleQuestions({ subjects, count, puc = 0, difficulty = '', rnd = Math.random }) {
+  const syl = await syllabus();
+  const chapters = [];
+  for (const s of subjects) for (const c of syl[s]) if (c.count && (!puc || c.puc === puc)) chapters.push({ s, c, w: c.weight || 1 });
+  const totalW = chapters.reduce((a, x) => a + x.w, 0);
+  // allocate counts: expected share, then distribute remainder randomly
+  let alloc = chapters.map((x) => ({ x, n: Math.floor(count * x.w / totalW), frac: (count * x.w / totalW) % 1 }));
+  let left = count - alloc.reduce((a, y) => a + y.n, 0);
+  const order = alloc.slice().sort((a, b) => (b.frac + rnd() * 0.5) - (a.frac + rnd() * 0.5));
+  for (const y of order) { if (left <= 0) break; y.n++; left--; }
+  alloc = alloc.filter((y) => y.n > 0);
+  let done = 0; progress(0, alloc.length, 'Loading chapters');
+  const picked = [];
+  await Promise.all(alloc.map(async (y) => {
+    try { const ch = await chapter(y.x.s, y.x.c.slug); let pool = ch.questions; if (difficulty) pool = pool.filter((q) => q.difficulty === difficulty); picked.push(...shuffleWith(pool, rnd).slice(0, y.n)); } catch {}
+    progress(++done, alloc.length, 'Loading chapters');
+  }));
+  return shuffleWith(picked, rnd).slice(0, count);
+}
+export function shuffleWith(arr, rnd) { const a = arr.slice(); for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(rnd() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; }
+export function progress(done, total, label) { window.dispatchEvent(new CustomEvent('kcet:loading', { detail: { done, total, label } })); }
 export async function questionById(id) {
   // ids look like phy-um-001; find via all chapters (cheap thanks to cache)
   const all = await allQuestions(SUBJECTS.map((s) => s.id));

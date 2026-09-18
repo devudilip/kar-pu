@@ -1,7 +1,7 @@
 /* KCET Prep service worker: offline-first for app shell, network-first for data with cache fallback. */
-const VERSION = 'kcet-v10';
+const VERSION = 'kcet-v11';
 const SHELL = [
-  './', './index.html', './manifest.webmanifest', './css/style.css',
+  './', './manifest.webmanifest', './css/style.css',
   './js/app.js', './js/router.js', './js/store.js', './js/data.js', './js/ui.js',
   './js/views/home.js', './js/views/subject.js', './js/views/chapter.js',
   './js/views/tests.js', './js/views/exam.js', './js/views/result.js',
@@ -11,7 +11,7 @@ const SHELL = [
 ];
 
 self.addEventListener('install', (e) => {
-  e.waitUntil(caches.open(VERSION).then((c) => c.addAll(SHELL)).then(() => self.skipWaiting()));
+  e.waitUntil(caches.open(VERSION).then(async (c) => { for (const u of SHELL) { try { const r = await fetch(u, { cache: 'no-cache' }); if (r.ok && !r.redirected) await c.put(u, r); } catch {} } }).then(() => self.skipWaiting()));
 });
 
 self.addEventListener('activate', (e) => {
@@ -21,17 +21,25 @@ self.addEventListener('activate', (e) => {
   );
 });
 
+// Never cache a redirected response: Safari refuses to use it ("Response served by service worker has redirections").
+const cacheable = (res, url) => res && res.ok && !res.redirected && (url.origin === location.origin || url.hostname === 'cdn.jsdelivr.net' || url.hostname === 'fonts.googleapis.com' || url.hostname === 'fonts.gstatic.com');
+
 self.addEventListener('fetch', (e) => {
   const req = e.request;
   if (req.method !== 'GET') return;
   const url = new URL(req.url);
 
+  // Page navigations: network first, app shell from cache when offline.
+  if (req.mode === 'navigate') {
+    e.respondWith(fetch(req).catch(() => caches.match('./')));
+    return;
+  }
+
   // Question data: network first (so new questions arrive), fall back to cache.
   if (url.pathname.includes('/data/')) {
     e.respondWith(
       fetch(req, { cache: 'no-cache' }).then((res) => {
-        const copy = res.clone();
-        caches.open(VERSION).then((c) => c.put(req, copy));
+        if (cacheable(res, url)) { const copy = res.clone(); caches.open(VERSION).then((c) => c.put(req, copy)); }
         return res;
       }).catch(() => caches.match(req))
     );
@@ -41,12 +49,9 @@ self.addEventListener('fetch', (e) => {
   // Everything else (shell, KaTeX CDN): cache first, then network and store.
   e.respondWith(
     caches.match(req).then((hit) => hit || fetch(req).then((res) => {
-      if (res.ok && (url.origin === location.origin || url.hostname === 'cdn.jsdelivr.net' || url.hostname === 'fonts.googleapis.com' || url.hostname === 'fonts.gstatic.com')) {
-        const copy = res.clone();
-        caches.open(VERSION).then((c) => c.put(req, copy));
-      }
+      if (cacheable(res, url)) { const copy = res.clone(); caches.open(VERSION).then((c) => c.put(req, copy)); }
       return res;
-    }).catch(() => (req.mode === 'navigate' ? caches.match('./index.html') : undefined)))
+    }))
   );
 });
 

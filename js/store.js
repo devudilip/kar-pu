@@ -43,7 +43,7 @@ export const store = {
   test(id) { return state.tests.find((t) => t.id === id); },
   touchChapter(key) { state.chapterSeen[key] = Date.now(); save(); },
   setSetting(k, v) { state.settings[k] = v; save(); },
-  lang() { return state.settings.lang || 'en'; },
+  lang() { return 'en'; }, // Kannada UI parked until a full translation ships; data path retained
   chapterStats(qids) {
     let attempted = 0, correct = 0;
     for (const id of qids) { const a = state.attempts[id]; if (a) { attempted++; if (a.last) correct++; } }

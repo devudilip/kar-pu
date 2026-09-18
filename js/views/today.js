@@ -1,4 +1,4 @@
-import { SUBJECTS, syllabus, chapter, allQuestions, seededRandom, seededShuffle, shuffle } from '../data.js';
+import { SUBJECTS, syllabus, chapter, seededRandom, seededShuffle, shuffle, sampleQuestions } from '../data.js';
 import { store } from '../store.js';
 import { el, esc, math, quiz, toast } from '../ui.js';
 import { taskLink } from './plan.js';
@@ -16,10 +16,12 @@ export default async function today() {
   const topic = await chapter(pick.s, pick.c.slug);
   const topicQs = seededShuffle(topic.questions, rnd).slice(0, 5);
 
-  // Daily 10: mixed across subjects, same set for everyone today.
-  const all = await allQuestions(SUBJECTS.map((s) => s.id));
-  const bySub = Object.fromEntries(SUBJECTS.map((s) => [s.id, seededShuffle(all.filter((q) => q.subject === s.id), rnd)]));
-  const daily = [...bySub.physics.slice(0, 4), ...bySub.chemistry.slice(0, 3), ...bySub.maths.slice(0, 3)];
+  // Daily 10: mixed across subjects, same set for everyone today. Loads only ~10 chapter files.
+  const daily = [
+    ...(await sampleQuestions({ subjects: ['physics'], count: 4, rnd })),
+    ...(await sampleQuestions({ subjects: ['chemistry'], count: 3, rnd })),
+    ...(await sampleQuestions({ subjects: ['maths'], count: 3, rnd }))
+  ];
 
   const done = store.daily(dateKey);
   const streak = store.streak();
@@ -71,8 +73,8 @@ export default async function today() {
     quiz(box, topicQs, { record: (q, ok) => store.recordAttempt(q.id, ok), onDone: (r) => { box.innerHTML = `<div class="explain"><b>${r.correct}/${r.done}</b> — <a href="#/chapter/${pick.s}/${pick.c.slug}?tab=practice">practise the full chapter (${topic.questions.length} Qs)</a></div>`; } });
   });
 
-  node.querySelector('#surprise').addEventListener('click', () => {
-    const q = shuffle(all)[0];
+  node.querySelector('#surprise').addEventListener('click', async () => {
+    const q = (await sampleQuestions({ subjects: SUBJECTS.map((s) => s.id), count: 1 }))[0];
     const box = node.querySelector('#surpriseBox');
     const meta = syl[q.subject].find((c) => c.slug === q.chapter);
     box.innerHTML = `<div class="muted" style="margin-bottom:4px"><a href="#/chapter/${q.subject}/${q.chapter}">${esc(meta?.title || '')}</a></div><div id="sq"></div>`;

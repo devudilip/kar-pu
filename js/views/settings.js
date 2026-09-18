@@ -7,7 +7,7 @@ export default async function settings() {
   const node = el(`<div>
     <h1>Settings</h1>
     <div class="card" style="border-color:var(--primary)">
-      <h3 style="margin-top:0">Feedback · ಅಭಿಪ್ರಾಯ</h3>
+      <h3 style="margin-top:0">Feedback</h3>
       <p class="muted">Found a wrong answer, a typo, or have an idea? It takes one minute and helps every student after you.</p>
       <a class="btn" href="https://forms.gle/YW9CKJa22dX5C2ph8" target="_blank" rel="noopener">Open feedback form →</a>
     </div>
@@ -19,11 +19,6 @@ export default async function settings() {
         <label class="btn secondary" for="impFile">Import backup</label><input type="file" id="impFile" accept="application/json" class="hidden">
         <button class="btn danger" id="reset">Reset all progress</button>
       </div>
-    </div>
-    <div class="card">
-      <h3 style="margin-top:0">Language / ಭಾಷೆ</h3>
-      <p class="muted">Questions stay in English (as in the KCET paper). Notes and explanations can be shown in Kannada where a translation exists.</p>
-      <div class="row"><button class="btn ${store.lang() === 'en' ? '' : 'secondary'}" data-lang="en">English</button><button class="btn ${store.lang() === 'kn' ? '' : 'secondary'}" data-lang="kn">ಕನ್ನಡ (Kannada)</button></div>
     </div>
     <div class="card">
       <h3 style="margin-top:0">Offline use</h3>
@@ -46,10 +41,10 @@ export default async function settings() {
       <p class="muted">This app is free and open. Questions live in simple JSON files under <code>data/questions/&lt;subject&gt;/</code>. Previous year papers go under <code>data/pyq/</code>. A spreadsheet-to-JSON converter is in <code>tools/</code>. See README.md in the project for the format.</p>
     </div>
     <div class="card muted">
-      <b>ಪಿಯು · KCET Prep</b> by <a href="https://sirigannada.in" target="_blank" rel="noopener">Sirigannada</a> · v1.1 · Built for Karnataka students preparing for KCET Engineering (PCM). Official information: <a href="https://cetonline.karnataka.gov.in" target="_blank" rel="noopener">cetonline.karnataka.gov.in</a>. This app is not affiliated with KEA.
+      <b>KCET Prep</b> by <a href="https://sirigannada.in" target="_blank" rel="noopener">Sirigannada</a> · v1.1 · Built for Karnataka students preparing for KCET Engineering (PCM). Official information: <a href="https://cetonline.karnataka.gov.in" target="_blank" rel="noopener">cetonline.karnataka.gov.in</a>. This app is not affiliated with KEA.
     </div>
   </div>`);
-  node.querySelectorAll('[data-lang]').forEach((b) => b.addEventListener('click', () => { store.setSetting('lang', b.dataset.lang); toast(b.dataset.lang === 'kn' ? 'ಕನ್ನಡ ವಿವರಣೆಗಳು ಆನ್' : 'English explanations on'); location.reload(); }));
+  node.querySelectorAll('[data-lang]').forEach((b) => b.addEventListener('click', () => { store.setSetting('lang', b.dataset.lang); toast('Language updated'); location.reload(); }));
   node.querySelector('#saveAll').addEventListener('click', async (e) => {
     const btn = e.target, status = node.querySelector('#saveStatus');
     btn.disabled = true;

@@ -30,7 +30,7 @@ p { margin: .5rem 0; }
 .topnav + .btn { margin-left: 12px; }
 
 .bottomnav { position: fixed; bottom: 0; left: 0; right: 0; background: var(--card); border-top: 1px solid var(--border); display: flex; z-index: 20; padding-bottom: env(safe-area-inset-bottom); }
-.bottomnav a { flex: 1; text-align: center; padding: 6px 2px 5px; font-size: .58rem; letter-spacing: .08em; color: var(--muted); display: flex; flex-direction: column; align-items: center; gap: 1px; text-transform: uppercase; font-weight: 600; }
+.bottomnav a { flex: 1; text-align: center; padding: 7px 2px 6px; font-size: .68rem; letter-spacing: .04em; color: var(--muted); display: flex; flex-direction: column; align-items: center; gap: 2px; font-weight: 700; }
 .bottomnav a .kn { font-size: .8rem; letter-spacing: 0; text-transform: none; color: var(--text); }
 .bottomnav a .ico { font-size: 1.25rem; }
 .bottomnav a.active, .bottomnav a.active .kn { color: var(--primary); }
@@ -125,3 +125,18 @@ kbd { background: #f1e3dc; padding: 1px 5px; border-radius: 4px; font-size: .8re
 .step .go { margin-left: auto; color: var(--primary); font-weight: 700; white-space: nowrap; }
 .step.done .num { background: var(--ok); }
 .kicker { font-size: .72rem; letter-spacing: .12em; text-transform: uppercase; color: var(--primary); font-weight: 700; }
+
+/* Loading */
+.spin { width: 28px; height: 28px; border: 3px solid #efe0d8; border-top-color: var(--primary); border-radius: 50%; animation: spin .8s linear infinite; margin: 0 auto 10px; }
+@keyframes spin { to { transform: rotate(360deg); } }
+.loader { position: fixed; inset: 0; background: rgba(251,241,236,.85); z-index: 60; display: grid; place-items: center; padding: 20px; }
+.loader-box { background: var(--card); border: 1px solid var(--border); border-radius: var(--radius); padding: 20px 24px; width: min(360px, 100%); text-align: center; box-shadow: 0 8px 30px rgba(42,26,22,.15); }
+.loader-text { font-weight: 700; margin-bottom: 8px; }
+/* Subject colours */
+.sub-ico { width: 44px; height: 44px; border-radius: 12px; display: grid; place-items: center; font-size: 1.4rem; flex: 0 0 44px; }
+.sub-ico.physics { background: #fbe3de; } .sub-ico.chemistry { background: #e4f2e8; } .sub-ico.maths { background: #ede4f2; }
+.subject-card[data-s="physics"] .progress > span { background: var(--phy); } .subject-card[data-s="chemistry"] .progress > span { background: var(--chem); } .subject-card[data-s="maths"] .progress > span { background: var(--math); }
+.badge-review { display: inline-block; background: #ede9fe; color: #5b21b6; border: 1px solid #c4b5fd; border-radius: 999px; padding: 2px 10px; font-size: .8rem; font-weight: 700; }
+.cta { font-size: 1.1rem; padding: 14px 22px; width: 100%; }
+.streak-pop { position: fixed; left: 50%; top: 30%; transform: translateX(-50%); background: var(--card); border: 2px solid var(--accent); border-radius: 16px; padding: 14px 22px; font-size: 1.3rem; font-weight: 800; z-index: 55; animation: pop .9s ease-out forwards; pointer-events: none; }
+@keyframes pop { 0% { opacity: 0; transform: translate(-50%, 10px) scale(.9); } 20% { opacity: 1; transform: translate(-50%, 0) scale(1.05); } 80% { opacity: 1; } 100% { opacity: 0; transform: translate(-50%, -20px); } }

@@ -7,7 +7,7 @@ export default async function pyq([file]) {
   const idx = await pyqIndex();
   const years = [...new Set(idx.papers.map((p) => p.year))].sort((a, b) => b - a);
   const node = el(`<div>
-    <h1>Past papers · ಹಳೆಯ ಪ್ರಶ್ನೆಪತ್ರಿಕೆ</h1>
+    <h1>Past papers</h1>
     <p class="muted">Solve each KCET paper exactly as in the exam (${KCET.minutesPerSubject} min, ${KCET.questionsPerSubject} Qs) or browse with answers and explanations.</p>
     ${years.length ? years.map((y) => `<h2>KCET ${y}</h2><div class="grid three">${idx.papers.filter((p) => p.year === y).map((p) => `<div class="card">
         <b>${SUBJECTS.find((s) => s.id === p.subject)?.name || p.subject}</b>

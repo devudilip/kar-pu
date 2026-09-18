@@ -34,13 +34,24 @@ route('rank', rank);
 route('*', () => { const d = document.createElement('div'); d.className = 'empty'; d.textContent = 'Page not found.'; return d; });
 
 const app = document.getElementById('app');
+// Global loading indicator driven by data.js progress events
+const loader = document.createElement('div'); loader.id = 'loader'; loader.className = 'loader hidden'; loader.innerHTML = '<div class="loader-box"><div class="spin"></div><div class="loader-text">Loading…</div><div class="progress"><span style="width:0%"></span></div><div class="muted" style="font-size:.8rem;margin-top:6px">First time on a chapter needs internet. After that it works offline.</div></div>';
+document.body.appendChild(loader);
+let loaderTimer;
+window.addEventListener('kcet:loading', (e) => {
+  const { done, total, label } = e.detail;
+  loader.querySelector('.loader-text').textContent = `${label} ${done}/${total}`;
+  loader.querySelector('.progress span').style.width = (total ? 100 * done / total : 0) + '%';
+  clearTimeout(loaderTimer);
+  if (done >= total) loaderTimer = setTimeout(() => loader.classList.add('hidden'), 250); else loader.classList.remove('hidden');
+});
 let cleanup = null;
 
 start(async (build, name) => {
   if (typeof cleanup === 'function') { try { cleanup(); } catch {} cleanup = null; }
   window.scrollTo(0, 0);
   document.querySelectorAll('.bottomnav a').forEach((a) => a.classList.toggle('active', a.dataset.nav === name || (name === 'subject' || name === 'chapter') && a.dataset.nav === 'home' || (name === 'exam' || name === 'result' || name === 'speed' || name === 'pyq') && a.dataset.nav === 'tests' || (name === 'plan' || name === 'rank') && a.dataset.nav === 'progress'));
-  app.innerHTML = '<div class="loading">Loading…</div>';
+  app.innerHTML = '<div class="loading"><div class="spin"></div>Loading…</div>';
   try {
     const node = await build();
     app.innerHTML = '';

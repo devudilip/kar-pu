@@ -1,4 +1,4 @@
-import { SUBJECTS, syllabus, KCET, flashcards } from '../data.js';
+import { SUBJECTS, PFX, syllabus, KCET, flashcards } from '../data.js';
 import { store } from '../store.js';
 import { el, esc, fmtDate, toast } from '../ui.js';
 import { buildPlan, taskLink } from './plan.js';
@@ -25,14 +25,14 @@ export default async function home() {
 
   const node = el(`<div>
     <div class="card hero">
-      <div class="kicker">ಉಚಿತ · Free for every Karnataka student</div>
-      <h1>KCET ಗೆ ಸಿದ್ಧರಾಗಿ. Get ready for KCET.</h1>
+      <div class="kicker">Free for every Karnataka student</div>
+      <h1>Get ready for KCET.</h1>
       <p class="muted" style="margin:0 0 10px">Notes, 2900+ practice questions, 18 years of real KCET papers, flashcards and timed tests. Works offline. No fees, no login.</p>
       ${plan ? `<div class="row"><span class="pill">📅 ${daysLeft} days to exam</span><span class="pill ${streak ? 'ok' : ''}">🔥 ${streak}-day streak</span><span class="pill">${attempted} questions done</span></div>` : ''}
     </div>
 
     ${plan ? '' : `<div class="card" style="border-color:var(--primary)">
-      <div class="kicker">Start here · ಇಲ್ಲಿಂದ ಪ್ರಾರಂಭಿಸಿ</div>
+      <div class="kicker">Start here</div>
       <h2 style="margin:4px 0 6px">When is your KCET exam?</h2>
       <p class="muted">We will make a day-by-day plan for you. You can change it any time.</p>
       <div class="row">
@@ -44,24 +44,24 @@ export default async function home() {
       </div>
     </div>`}
 
-    <div class="kicker" style="margin:14px 0 6px">${plan ? "Today's 3 things · ಇಂದಿನ ಮೂರು ಕೆಲಸ" : 'How to use · ಹೇಗೆ ಬಳಸುವುದು'}</div>
+    <div class="kicker" style="margin:14px 0 6px">${plan ? "Today's 3 things" : 'How to use this app'}</div>
     <div class="steps">
-      <a class="step ${dailyDone ? 'done' : ''}" href="#/today"><span class="num">${dailyDone ? '✓' : '1'}</span><span><b>Daily 10 · ದಿನದ 10 ಪ್ರಶ್ನೆ</b><span class="muted">${dailyDone ? 'Done for today. Come back tomorrow to keep the streak.' : 'Ten quick questions. Takes 8 minutes. Keeps your streak alive.'}</span></span><span class="go">Go →</span></a>
+      <a class="step ${dailyDone ? 'done' : ''}" href="#/today"><span class="num">${dailyDone ? '✓' : '1'}</span><span><b>Daily 10</b><span class="muted">${dailyDone ? 'Done for today. Come back tomorrow to keep the streak.' : 'Ten quick questions. Takes 8 minutes. Keeps your streak alive.'}</span></span><span class="go">Go →</span></a>
       ${chapterTask ? `<a class="step ${chapterTask.done ? 'done' : ''}" href="${linkOf(chapterTask)}"><span class="num">${chapterTask.done ? '✓' : '2'}</span><span><b>${esc(chapterTask.title.split(' — ')[0])}</b><span class="muted">${chapterTask.type === 'revise' ? 'Revise: mistakes + flashcards' : 'Read the notes, then practise the questions'} · ${chapterTask.hours} h</span></span><span class="go">Open →</span></a>`
-                     : `<a class="step" href="#/subject/physics"><span class="num">2</span><span><b>Learn a chapter · ಒಂದು ಅಧ್ಯಾಯ ಕಲಿಯಿರಿ</b><span class="muted">Read short notes, then answer 40 questions with explanations.</span></span><span class="go">Pick →</span></a>`}
+                     : `<a class="step" href="#/subject/physics"><span class="num">2</span><span><b>Learn a chapter</b><span class="muted">Read short notes, then answer 40 questions with explanations.</span></span><span class="go">Pick →</span></a>`}
       ${mockTask ? `<a class="step ${mockTask.done ? 'done' : ''}" href="${linkOf(mockTask)}"><span class="num">${mockTask.done ? '✓' : '3'}</span><span><b>${esc(mockTask.title.split(' (')[0])}</b><span class="muted">Timed like the real exam · ${mockTask.hours} h</span></span><span class="go">Start →</span></a>`
-                  : `<a class="step" href="#/flashcards"><span class="num">3</span><span><b>Revise flashcards · ಫ್ಲ್ಯಾಶ್‌ಕಾರ್ಡ್</b><span class="muted">${due ? `${due} cards are due for review today.` : 'Formulas and facts, one tap to flip.'}</span></span><span class="go">Revise →</span></a>`}
+                  : `<a class="step" href="#/flashcards"><span class="num">3</span><span><b>Revise flashcards</b><span class="muted">${due ? `${due} cards are due for review today.` : 'Formulas and facts, one tap to flip.'}</span></span><span class="go">Revise →</span></a>`}
     </div>
 
-    <h2>Subjects · ವಿಷಯಗಳು</h2>
-    ${SUBJECTS.map((s) => { const ch = syl[s.id]; const tot = ch.reduce((a, c) => a + (c.count || 0), 0); return `<a class="card link subject-card" data-s="${s.id}" href="#/subject/${s.id}">
-      <div class="row spread"><b style="font-size:1.1rem">${s.name}</b><span class="pill">${KCET.questionsPerSubject} Qs · ${KCET.minutesPerSubject} min</span></div>
-      <div class="muted">${ch.length} chapters · ${tot} practice questions</div>
+    <h2>Subjects</h2>
+    ${SUBJECTS.map((s) => { const ch = syl[s.id]; const tot = ch.reduce((a, c) => a + (c.count || 0), 0); const done = Object.keys(st.attempts).filter((id) => id.startsWith(PFX[s.id] + '-')).length; const ico = { physics: '⚛️', chemistry: '🧪', maths: '📐' }[s.id]; return `<a class="card link subject-card" data-s="${s.id}" href="#/subject/${s.id}">
+      <div class="row" style="align-items:center"><span class="sub-ico ${s.id}">${ico}</span><span style="flex:1"><b style="font-size:1.1rem">${s.name}</b><div class="muted">${ch.length} chapters · ${tot} questions · ${done} done</div></span><span class="go" style="color:var(--primary);font-weight:700">Open →</span></div>
+      <div class="progress" style="margin-top:8px"><span style="width:${Math.min(100, 100 * done / Math.max(1, tot))}%"></span></div>
     </a>`; }).join('')}
 
-    <h2>More tools · ಇನ್ನಷ್ಟು</h2>
+    <h2>More tools</h2>
     <div class="grid two">
-      <a class="card link" href="#/pyq"><b>📚 Past papers · ಹಳೆಯ ಪ್ರಶ್ನೆಪತ್ರಿಕೆ</b><div class="muted">KCET 2009 to 2026, timed, with answers.</div></a>
+      <a class="card link" href="#/pyq"><b>📚 Past papers</b><div class="muted">KCET 2009 to 2026, timed, with answers.</div></a>
       <a class="card link" href="#/tests"><b>📝 Mock tests</b><div class="muted">Full 60-question papers, exam pattern.</div></a>
       <a class="card link" href="#/speed"><b>⏱ Speed training</b><div class="muted">60-second drills. Learn to skip and return.</div></a>
       <a class="card link" href="#/rank"><b>🎯 Rank calculator</b><div class="muted">Board marks + CET marks → rank estimate.</div></a>
@@ -70,13 +70,13 @@ export default async function home() {
     </div>
 
     <div class="card">
-      <b>KCET facts · ನೆನಪಿಡಿ</b>
+      <b>Remember</b>
       <ul class="muted" style="padding-left:1.2rem;margin:6px 0 0">
         <li>60 questions per subject, 80 minutes, 1 mark each. <b>No negative marking</b> — answer everything.</li>
         <li>Rank = 50% board PCM marks + 50% CET marks. The board exam matters just as much.</li>
       </ul>
     </div>
-    <p class="muted" style="text-align:center">Found a mistake or have an idea? <a href="${FEEDBACK}" target="_blank" rel="noopener">Tell us · ಅಭಿಪ್ರಾಯ ತಿಳಿಸಿ</a> · <a href="#/settings">Settings</a></p>
+    <p class="muted" style="text-align:center">Found a mistake or have an idea? <a href="${FEEDBACK}" target="_blank" rel="noopener">Tell us</a> · <a href="#/settings">Settings</a></p>
   </div>`);
 
   node.querySelector('#makePlan')?.addEventListener('click', async (e) => {

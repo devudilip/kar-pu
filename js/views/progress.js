@@ -1,4 +1,4 @@
-import { SUBJECTS, PFX, syllabus, allQuestions } from '../data.js';
+import { SUBJECTS, PFX, syllabus, questionsByIds } from '../data.js';
 import { store } from '../store.js';
 import { el, esc, bar, fmtDate, math, LETTERS, REASONS, reasonChips, bindReasonChips } from '../ui.js';
 
@@ -38,8 +38,7 @@ export default async function progress() {
   async function qList(ids, target, emptyMsg, withReasons) {
     const box = node.querySelector(target);
     if (!ids.length) { box.innerHTML = `<div class="empty">${emptyMsg}</div>`; return; }
-    const all = await allQuestions(SUBJECTS.map((s) => s.id));
-    const map = Object.fromEntries(all.map((q) => [q.id, q]));
+    const map = await questionsByIds(ids);
     box.innerHTML = ids.map((id) => { const q = map[id]; if (!q) return ''; const m = syl[q.subject].find((c) => c.slug === q.chapter); const a = store.attempt(id);
       return `<div class="card"><div class="row spread muted"><a href="#/chapter/${q.subject}/${q.chapter}?tab=practice">${esc(m?.title || '')}</a>${a?.reason ? `<span class="pill bad">${REASONS.find((r) => r[0] === a.reason)?.[1] || a.reason}</span>` : ''}</div><div class="question">${q.q}</div><details><summary class="muted">Show answer</summary><div class="explain"><b>${LETTERS[q.answer]}. ${q.options[q.answer]}</b>${q.explanation ? `<div>${q.explanation}</div>` : ''}</div>${withReasons ? reasonChips(q.id) : ''}</details></div>`; }).join('');
     math(box); bindReasonChips(box);

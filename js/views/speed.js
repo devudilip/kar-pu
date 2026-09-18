@@ -1,4 +1,4 @@
-import { SUBJECTS, syllabus, allQuestions, shuffle } from '../data.js';
+import { SUBJECTS, sampleQuestions } from '../data.js';
 import { store } from '../store.js';
 import { el, esc, math, optionButton, LETTERS, fmtTime, bar } from '../ui.js';
 import { reasonChips } from '../ui.js';
@@ -30,7 +30,7 @@ export default async function speed([], query) {
     const count = +node.querySelector('#count').value || 20;
     const mode = node.querySelector('#mode').value;
     const secs = mode === 'twopass' ? 30 : +node.querySelector('#secs').value;
-    const qs = shuffle(await allQuestions(subjects)).slice(0, count);
+    const qs = await sampleQuestions({ subjects, count });
     node.querySelector('.card').classList.add('hidden');
     run(node.querySelector('#arena'), qs, { mode, secs, node });
   });

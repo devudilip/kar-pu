@@ -1,4 +1,4 @@
-import { SUBJECTS, syllabus, allQuestions, pyqPaper, shuffle } from '../data.js';
+import { SUBJECTS, syllabus, questionsByIds, pyqPaper, shuffle, sampleQuestions } from '../data.js';
 import { store } from '../store.js';
 import { el, esc, math, fmtTime, optionButton, toast } from '../ui.js';
 
@@ -9,26 +9,9 @@ async function buildQuestions(cfg) {
     const paper = await pyqPaper(cfg.pyq);
     return paper.questions.map((q, i) => ({ ...q, id: q.id || `${cfg.pyq}-${i + 1}`, subject: q.subject || paper.subject }));
   }
-  const all = await allQuestions(cfg.ids ? SUBJECTS.map((s) => s.id) : cfg.subjects);
-  if (cfg.ids) return cfg.ids.map((id) => all.find((q) => q.id === id)).filter(Boolean);
-  const syl = await syllabus();
-  let pool = all.filter((q) => {
-    const meta = syl[q.subject].find((c) => c.slug === q.chapter);
-    if (cfg.puc && meta.puc !== cfg.puc) return false;
-    if (cfg.difficulty && q.difficulty !== cfg.difficulty) return false;
-    return true;
-  });
-  if (!cfg.weighted) return shuffle(pool).slice(0, cfg.count);
-  // Weighted: allocate questions per chapter by KCET weight, then fill any shortfall randomly.
-  const byChapter = {};
-  for (const q of pool) (byChapter[q.chapter] ||= []).push(q);
-  const chapters = Object.keys(byChapter).map((slug) => ({ slug, weight: syl[cfg.subjects[0]].find((c) => c.slug === slug)?.weight || 1, qs: shuffle(byChapter[slug]) }));
-  const totalW = chapters.reduce((a, c) => a + c.weight, 0);
-  const picked = [];
-  for (const c of chapters) { const n = Math.round(cfg.count * c.weight / totalW); picked.push(...c.qs.splice(0, n)); }
-  const rest = shuffle(chapters.flatMap((c) => c.qs));
-  while (picked.length < cfg.count && rest.length) picked.push(rest.pop());
-  return shuffle(picked.slice(0, cfg.count));
+  if (cfg.ids) { const map = await questionsByIds(cfg.ids); return cfg.ids.map((id) => map[id]).filter(Boolean); }
+  // Both full mocks and custom tests draw across chapters in proportion to KCET weight, loading only the chapters used.
+  return sampleQuestions({ subjects: cfg.subjects, count: cfg.count, puc: cfg.puc || 0, difficulty: cfg.difficulty || '' });
 }
 
 export default async function exam() {
@@ -67,12 +50,13 @@ export default async function exam() {
     const i = state.idx, q = qs[i];
     node.querySelector('#counter').textContent = `Question ${i + 1} of ${qs.length}${q.subject ? ' · ' + SUBJECTS.find((s) => s.id === q.subject)?.name : ''}`;
     qBox.innerHTML = `<div class="card">
+      ${state.review[i] ? '<div style="margin-bottom:8px"><span class="badge-review">🔖 Marked for review</span></div>' : ''}
       <div class="question">${q.q}</div>
       <div class="options">${q.options.map((o, j) => optionButton(o, j, state.answers[i] === j ? 'selected' : '')).join('')}</div>
       <div class="row spread" style="margin-top:12px">
         <button class="btn secondary" id="prev" ${i === 0 ? 'disabled' : ''}>← Prev</button>
-        <button class="btn ghost" id="clear">Clear</button>
-        <button class="btn ghost" id="mark">${state.review[i] ? 'Unmark' : 'Mark for review'}</button>
+        <button class="btn ghost" id="clear" ${state.answers[i] === null ? 'disabled' : ''}>Clear</button>
+        <button class="btn ghost" id="mark" style="${state.review[i] ? 'background:#ede9fe;color:#5b21b6;border-color:#c4b5fd' : ''}">${state.review[i] ? '🔖 Unmark' : '🔖 Mark for review & Next'}</button>
         <button class="btn" id="next">${i === qs.length - 1 ? 'Finish' : 'Save & Next →'}</button>
       </div>
     </div>`;
@@ -81,7 +65,7 @@ export default async function exam() {
     qBox.querySelector('#prev').addEventListener('click', () => { state.idx--; persist(); renderQ(); renderPal(); });
     qBox.querySelector('#next').addEventListener('click', () => { if (i === qs.length - 1) return confirmSubmit(); state.idx++; persist(); renderQ(); renderPal(); });
     qBox.querySelector('#clear').addEventListener('click', () => { state.answers[i] = null; persist(); renderQ(); renderPal(); });
-    qBox.querySelector('#mark').addEventListener('click', () => { state.review[i] = !state.review[i]; persist(); renderQ(); renderPal(); });
+    qBox.querySelector('#mark').addEventListener('click', () => { const was = state.review[i]; state.review[i] = !was; if (!was && i < qs.length - 1) { toast('Marked for review — come back to it from the palette'); state.idx++; } persist(); renderQ(); renderPal(); window.scrollTo(0, 0); });
   }
   const palBox = node.querySelector('#palette');
   function renderPal() {
