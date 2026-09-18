@@ -110,4 +110,5 @@ export async function pyqWeights() {
   out.years.sort((a, b) => b - a);
   return out;
 }
+export async function concepts(subject) { try { return await getJSON(`data/concepts/${subject}.json`); } catch { return { chapters: {} }; } }
 export async function rankData() { return getJSON('data/rank-bands.json'); }

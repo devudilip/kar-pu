@@ -1,4 +1,4 @@
-import { SUBJECTS, chapter, shuffle, seededRandom, seededShuffle } from '../data.js';
+import { SUBJECTS, chapter, shuffle, seededRandom, seededShuffle, concepts } from '../data.js';
 import { store } from '../store.js';
 import { launchExam } from './tests.js';
 import { el, esc, math, toast, optionButton, LETTERS, bar, reasonChips, bindReasonChips, reportLink, bindReportLinks, quiz, clarityButtons, bindClarity } from '../ui.js';
@@ -21,6 +21,11 @@ export default async function chapterView([subject, slug], query) {
 
   // Notes
   const notes = node.querySelector('#notes');
+  const cdata = (await concepts(subject)).chapters?.[slug];
+  const conceptsHtml = cdata && cdata.concepts?.length ? `<details class="card" ${stats.attempted ? '' : 'open'} style="border-left:5px solid var(--accent)">
+      <summary style="cursor:pointer"><b>🎯 What KCET actually asks here</b> <span class="muted">· ${cdata.total} questions in 2009–2026</span></summary>
+      <div style="margin-top:8px">${cdata.concepts.slice(0, 6).map((c) => { const pct = Math.round(100 * c.count / Math.max(1, cdata.concepts[0].count)); const last = c.years?.length ? c.years[c.years.length - 1] : ''; return `<div style="margin:8px 0"><div class="row spread"><span><b>${c.name}</b></span><span class="muted" style="white-space:nowrap">${c.count}× ${last ? '· last ' + last : ''}</span></div><div class="progress" style="height:6px;margin:3px 0"><span style="width:${pct}%;background:var(--accent)"></span></div><div class="muted" style="font-size:.85rem">${c.master || ''}</div></div>`; }).join('')}</div>
+    </details>` : '';
   const qkey = `${subject}/${slug}`; const qc = store.quickCheck(qkey);
   const fresh = !qc && stats.attempted < 8 && qs.length >= 8;
   const quickHtml = fresh ? `<div class="card" id="quick" style="border-color:var(--primary)">
@@ -30,7 +35,7 @@ export default async function chapterView([subject, slug], query) {
       <div class="row"><button class="btn" id="qcStart">Start quick check</button><button class="btn secondary" id="qcSkip">Read notes first</button></div>
       <div id="qcBox" style="margin-top:10px"></div>
     </div>` : qc ? `<div class="card" style="background:${qc.score >= 4 ? 'var(--ok-bg)' : 'var(--warn-bg)'}"><b>Quick check: ${qc.score}/${qc.of}.</b> <span class="muted">${qc.score >= 4 ? 'You know the basics — go to Practice; use the notes only for revision.' : 'Read the notes below first, then practise.'}</span></div>` : '';
-  notes.innerHTML = quickHtml + (ch.notes
+  notes.innerHTML = quickHtml + conceptsHtml + (ch.notes
     ? `<div class="card notes">${ch.notes}</div>${ch.kn && ch.notes_en ? `<details class="card"><summary>Show English notes</summary><div class="notes">${ch.notes_en}</div></details>` : ''}<div class="row"><button class="btn" id="startP" style="flex:1">Start practice (${qs.length} Qs)</button><a class="btn secondary" href="#/flashcards/${subject}/${slug}">Flashcards</a><a class="btn ghost" href="#/flashcards/${subject}/${slug}?mode=questions">Revise as cards</a><a class="btn ghost" href="#/sheet/${subject}/${slug}">🖨 Formula sheet</a></div>
       ${qs.length >= 20 ? `<div class="card" style="margin-top:10px"><div class="row spread" style="align-items:center"><span><b>⏱ Timed chapter test</b><div class="muted">20 questions · 25 minutes · exam conditions, answers at the end</div></span><button class="btn small" id="timedTest">Start</button></div></div>` : ''}`
     : `<div class="card empty">Notes for this chapter are not written yet.<br><span class="muted">Want to help? See Settings → Contribute.</span></div>`);
