@@ -23,7 +23,8 @@ export async function buildPlan(examDate, hoursPerDay) {
     const done = acc !== null && acc >= 0.8 && st.attempted >= 10;
     chapters.push({ subject: s.id, slug: c.slug, title: c.title, weight: c.weight, puc: c.puc, weakness, acc, done, demand: c.weight * (1 + weakness) });
   }
-  const learnHoursTotal = learnDays * hoursPerDay * 0.8; // 20% of every day goes to flashcards/daily 10
+  let learnHoursTotal = 0; for (let d = 0; d < learnDays; d++) learnHoursTotal += hoursPerDay - 0.3 - (d > 0 && d % 7 === 6 ? 2 : 0);
+  learnHoursTotal = Math.max(1, learnHoursTotal * 0.95); // leave room for 0.5 h rounding
   const demandTotal = chapters.reduce((a, c) => a + c.demand, 0);
   chapters.forEach((c) => { c.hours = Math.max(0.5, Math.round(2 * learnHoursTotal * c.demand / demandTotal) / 2); c.left = c.hours; });
 
@@ -49,14 +50,17 @@ export async function buildPlan(examDate, hoursPerDay) {
         const q = queues[s].find((c) => c.left > 0) || SUBJECTS.map((x) => queues[x.id].find((c) => c.left > 0)).find(Boolean);
         if (!q) break;
         const h = Math.round(Math.min(q.left, budget, 2) * 10) / 10;
-        q.left -= h; budget -= h;
+        if (h <= 0) break;
+        q.left = Math.round((q.left - h) * 10) / 10; budget = Math.round((budget - h) * 10) / 10;
         tasks.push({ key: `ch-${q.subject}-${q.slug}`, type: 'chapter', subject: q.subject, slug: q.slug, title: `${q.title} — ${q.left > 0 ? 'notes + practice (part)' : 'finish practice'}`, hours: h });
       }
     } else {
       const weak = chapters.filter((c) => !c.done).sort((a, b) => b.demand - a.demand);
-      const pick = weak.slice((d - learnDays) * 2 % Math.max(1, weak.length), (d - learnDays) * 2 % Math.max(1, weak.length) + 2);
-      for (const c of pick) if (budget >= 0.5) { tasks.push({ key: `rev-${c.subject}-${c.slug}`, type: 'revise', subject: c.subject, slug: c.slug, title: `Revise ${c.title} — mistakes + flashcards`, hours: 1 }); budget -= 1; }
-      if (budget >= 1) { tasks.push({ key: 'pyq', type: 'pyq', title: 'Previous year paper (timed) + review', hours: Math.round(Math.min(budget, 1.5) * 10) / 10 }); }
+      const nRev = budget < 3 ? 1 : 2;
+      const start = ((d - learnDays) * nRev) % Math.max(1, weak.length);
+      const pick = weak.slice(start, start + nRev);
+      for (const c of pick) if (budget >= 0.5) { const h = Math.round(Math.min(1, budget) * 10) / 10; tasks.push({ key: `rev-${c.subject}-${c.slug}`, type: 'revise', subject: c.subject, slug: c.slug, title: `Revise ${c.title} — mistakes + flashcards`, hours: h }); budget = Math.round((budget - h) * 10) / 10; }
+      if (budget >= 0.5) { tasks.push({ key: 'pyq', type: 'pyq', title: 'Previous year paper (timed) + review', hours: Math.round(Math.min(budget, 1.5) * 10) / 10 }); }
     }
     days.push({ date: dkey(date), tasks });
   }
