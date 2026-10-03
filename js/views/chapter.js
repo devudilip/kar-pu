@@ -9,14 +9,17 @@ export default async function chapterView([subject, slug], query) {
   store.touchChapter(`${subject}/${slug}`);
   const qs = ch.questions;
   const stats = store.chapterStats(qs.map((q) => q.id));
+  // Deep link: ?q=<nnn> (1-based id suffix, e.g. 012) opens Practice at that question.
+  const sharedQi = query.q ? qs.findIndex((q) => qNum(q.id) === parseInt(query.q, 10)) : -1;
+  const tab = query.q ? 'practice' : query.tab;
 
   const node = el(`<div>
     <div class="breadcrumb"><a href="#/">Home</a> › <a href="#/subject/${subject}">${s.name}</a> › ${ch.puc === 1 ? '1st' : '2nd'} PUC</div>
     <h1>${esc(ch.title)}</h1>
     <div class="row muted"><span class="pill">~${ch.weight} questions in KCET</span><span>${qs.length} practice questions · ${stats.attempted} attempted · ${stats.correct} correct</span></div>
-    <div class="tabs"><button data-t="notes" class="${query.tab !== 'practice' ? 'active' : ''}">Notes</button><button data-t="practice" class="${query.tab === 'practice' ? 'active' : ''}">Practice</button></div>
-    <div id="notes" class="${query.tab === 'practice' ? 'hidden' : ''}"></div>
-    <div id="practice" class="${query.tab !== 'practice' ? 'hidden' : ''}"></div>
+    <div class="tabs"><button data-t="notes" class="${tab !== 'practice' ? 'active' : ''}">Notes</button><button data-t="practice" class="${tab === 'practice' ? 'active' : ''}">Practice</button></div>
+    <div id="notes" class="${tab === 'practice' ? 'hidden' : ''}"></div>
+    <div id="practice" class="${tab !== 'practice' ? 'hidden' : ''}"></div>
   </div>`);
 
   // Notes
@@ -63,6 +66,8 @@ export default async function chapterView([subject, slug], query) {
   let order = qs.map((_, i) => i);
   let idx = 0;
   let session = { done: 0, correct: 0, run: 0 };
+  let shared = query.q != null; // show the "Shared question" line until dismissed
+  if (sharedQi >= 0) idx = Math.max(0, order.indexOf(sharedQi));
 
   function renderPractice() {
     if (!qs.length) { practice.innerHTML = '<div class="card empty">No questions yet for this chapter.</div>'; return; }
@@ -72,16 +77,19 @@ export default async function chapterView([subject, slug], query) {
         <p class="muted">${session.correct === session.done ? 'Perfect! Move to the next chapter.' : 'Review the wrong ones in Progress → Mistakes.'}</p>
         <div class="row" style="justify-content:center"><button class="btn" id="again">Practise again (shuffled)</button><a class="btn secondary" href="#/subject/${subject}">Back to chapters</a></div>
       </div>`;
-      practice.querySelector('#again').addEventListener('click', () => { order = shuffle(order); idx = 0; session = { done: 0, correct: 0 }; renderPractice(); });
+      practice.querySelector('#again').addEventListener('click', () => { order = shuffle(order); idx = 0; shared = false; session = { done: 0, correct: 0 }; renderPractice(); });
       return;
     }
     const q = qs[order[idx]];
     const prev = store.attempt(q.id);
     store.setLast({ type: 'chapter', href: `#/chapter/${subject}/${slug}?tab=practice`, title: ch.title, sub: `${s.name} · question ${idx + 1} of ${order.length}` });
-    practice.innerHTML = `<div class="card">
+    practice.innerHTML = `${shared ? `<div class="row spread muted" id="sharedLine" style="font-size:.85rem;margin-bottom:6px;align-items:center">
+        <span>Shared question · ${esc(ch.title)} · <a href="#" id="fromStart">Start chapter from the beginning</a></span>
+        <button class="btn small ghost" id="sharedX" aria-label="Dismiss">✕</button>
+      </div>` : ''}<div class="card">
       <div class="row spread muted" style="margin-bottom:8px">
         <span>Q ${idx + 1} of ${order.length} ${q.difficulty ? `<span class="pill ${q.difficulty}">${q.difficulty}</span>` : ''}</span>
-        <span>${prev ? (prev.last ? '✅ got right before' : '❌ got wrong before') : ''} <button class="btn small ghost" id="bm">${store.isBookmarked(q.id) ? '★ Saved' : '☆ Save'}</button></span>
+        <span>${prev ? (prev.last ? '✅ got right before' : '❌ got wrong before') : ''} <button class="btn small ghost" id="bm">${store.isBookmarked(q.id) ? '★ Saved' : '☆ Save'}</button> <button class="btn small ghost" id="share">↗ Share</button></span>
       </div>
       <div class="question">${q.q}</div>
       <div class="options">${q.options.map((o, i) => optionButton(o, i)).join('')}</div>
@@ -94,6 +102,9 @@ export default async function chapterView([subject, slug], query) {
     ${bar(100 * idx / order.length)}`;
     math(practice);
     practice.querySelector('#bm').addEventListener('click', (e) => { const on = store.toggleBookmark(q.id); e.target.textContent = on ? '★ Saved' : '☆ Save'; toast(on ? 'Saved to bookmarks' : 'Removed bookmark'); });
+    practice.querySelector('#share').addEventListener('click', () => shareQuestion(q));
+    practice.querySelector('#sharedX')?.addEventListener('click', () => { shared = false; practice.querySelector('#sharedLine').remove(); });
+    practice.querySelector('#fromStart')?.addEventListener('click', (e) => { e.preventDefault(); shared = false; idx = 0; session = { done: 0, correct: 0, run: 0 }; renderPractice(); window.scrollTo(0, 0); });
     practice.querySelector('#skip').addEventListener('click', () => { idx++; renderPractice(); });
     practice.querySelector('#next').addEventListener('click', () => { idx++; renderPractice(); });
     practice.querySelectorAll('.option').forEach((b) => b.addEventListener('click', () => {
@@ -111,6 +122,16 @@ export default async function chapterView([subject, slug], query) {
   }
   renderPractice();
 
+  async function shareQuestion(q) {
+    const nnn = q.id.split('-').pop();
+    const url = `${location.origin}${location.pathname}#/chapter/${subject}/${slug}?tab=practice&q=${nnn}`;
+    if (navigator.share) {
+      try { await navigator.share({ title: ch.title, text: 'Try this KCET question: ' + plainText(q.q), url }); } catch {} // user cancelled
+      return;
+    }
+    try { await navigator.clipboard.writeText(url); toast('Link copied'); } catch { toast('Could not copy link'); }
+  }
+
   function switchTab(t) {
     node.querySelectorAll('.tabs button').forEach((x) => x.classList.toggle('active', x.dataset.t === t));
     notes.classList.toggle('hidden', t !== 'notes'); practice.classList.toggle('hidden', t !== 'practice');
@@ -118,6 +139,16 @@ export default async function chapterView([subject, slug], query) {
   }
   node.querySelectorAll('.tabs button').forEach((b) => b.addEventListener('click', () => switchTab(b.dataset.t)));
   return node;
+}
+
+// Question number from an id like "che-solutions-012" → 12.
+function qNum(id) { return parseInt(String(id).split('-').pop(), 10); }
+
+// Question text without HTML tags or KaTeX $ delimiters, for share messages.
+function plainText(html) {
+  const d = document.createElement('div'); d.innerHTML = html;
+  const t = d.textContent.replace(/\$/g, '').replace(/\s+/g, ' ').trim();
+  return t.length > 200 ? t.slice(0, 197) + '…' : t;
 }
 
 function pop(text) { const d = document.createElement('div'); d.className = 'streak-pop'; d.textContent = text; document.body.appendChild(d); setTimeout(() => d.remove(), 950); }
