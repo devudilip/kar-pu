@@ -2,11 +2,13 @@ import { store } from '../store.js';
 import { SUBJECTS, syllabus } from '../data.js';
 import { showTour } from './tour.js';
 import { el, toast } from '../ui.js';
+import { themeControlHtml, bindThemeControl } from '../theme.js';
 
 export default async function settings() {
   const st = store.get();
   const node = el(`<div>
     <h1>Settings</h1>
+    <div class="card" id="themeCard"><h3 style="margin-top:0">Appearance</h3><p class="muted">Dark mode is easier on the eyes at night and saves battery on many phones. Auto follows your phone's setting.</p>${themeControlHtml()}</div>
     <div class="card" style="border-color:var(--primary)">
       <h3 style="margin-top:0">Feedback</h3>
       <p class="muted">Found a wrong answer, a typo, or have an idea? It takes one minute and helps every student after you.</p>
@@ -59,7 +61,7 @@ export default async function settings() {
     try {
       const syl = await syllabus();
       const files = [];
-      for (const s of SUBJECTS) for (const c of syl[s.id]) if (c.count) { files.push(`data/questions/${s.id}/${c.file}`); files.push(`data/kn/${s.id}/${c.file}`); }
+      for (const s of SUBJECTS) for (const c of syl[s.id]) if (c.count) { files.push(`data/questions/${s.id}/${c.file}`); if (c.puc === 2) files.push(`data/board/${s.id}/${c.file}`); }
       for (const s of SUBJECTS) { files.push(`data/concepts/${s.id}.json`); files.push(`data/flashcards/${s.id}.json`); files.push(`data/pools/${s.id}.json`); }
       let done = 0;
       for (const f of files) { try { await fetch(f, { cache: 'reload' }); } catch {} done++; status.textContent = `Saving ${done}/${files.length}…`; }
@@ -77,5 +79,6 @@ export default async function settings() {
     try { store.import(await f.text()); toast('Backup restored'); location.hash = '#/'; } catch { alert('Invalid backup file'); }
   });
   node.querySelector('#reset').addEventListener('click', () => { if (confirm('Delete all your progress, tests and bookmarks on this device?')) { store.reset(); toast('Progress cleared'); location.hash = '#/'; } });
+  bindThemeControl(node.querySelector('#themeCard'));
   return node;
 }

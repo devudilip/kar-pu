@@ -22,12 +22,21 @@
 
 .sheet-table { width: 100%; border-collapse: collapse; font-size: .88rem; margin: 8px 0; }
 .sheet-table th, .sheet-table td { border: 1px solid var(--border); padding: 6px 8px; text-align: left; vertical-align: top; }
-.sheet-table th { background: #f1e3dc; color: var(--muted); text-transform: uppercase; font-size: .72rem; letter-spacing: .05em; }
+.sheet-table th { background: var(--soft); color: var(--muted); text-transform: uppercase; font-size: .72rem; letter-spacing: .05em; }
 .sheet-table tr { break-inside: avoid; }
 
 .sheet-footer { text-align: center; margin-top: 18px; font-size: .8rem; }
 
 @media print {
+  /* Always print light, whatever theme is on screen */
+  :root, :root[data-theme="dark"] {
+    color-scheme: light;
+    --bg: #fff; --card: #fff; --text: #000; --muted: #444; --border: #999;
+    --primary: #b8301c; --primary-2: #b8301c; --accent: #d9a441; --on-primary: #fff;
+    --ok: #2f7d4f; --ok-bg: #e4f2e8; --bad: #b8301c; --bad-bg: #fbe3de; --warn-bg: #fbeed2; --warn-text: #92400e;
+    --phy: #b8301c; --chem: #2f7d4f; --math: #7a4b8f;
+    --soft: #eee; --soft-2: #eee; --explain-bg: #f6f6f6; --trick-bg: #f6f6f6; --selected-bg: #f6f6f6;
+  }
   .topbar, .bottomnav, #toast, .loader, .no-print { display: none !important; }
   @page { size: A4; margin: 12mm; }
   html, body { background: #fff !important; color: #000 !important; font-size: 11pt; padding: 0 !important; margin: 0 !important; }
