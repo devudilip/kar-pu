@@ -1,0 +1,210 @@
+{
+  "slug": "application-of-derivatives",
+  "subject": "maths",
+  "pattern": "Application of Derivatives carries 10-12 marks in the Karnataka 2nd PUC maths paper: 1-2 mark questions on rate of change, tangent slope and increasing function, 3-mark questions on intervals of monotonicity, local maxima/minima or tangent and normal, and a compulsory 5-mark word problem on maxima and minima (the cone, the rectangle in a circle, the wire cut into two pieces). Examiners expect first and second derivative tests to be stated with the sign conclusion.",
+  "questions": [
+    {
+      "id": "board-mat-application-of-derivatives-001",
+      "q": "Find the rate of change of the area of a circle with respect to its radius $r$ when $r=3$ cm.",
+      "marks": 1,
+      "type": "numerical",
+      "frequency": "very often",
+      "answer": "$A=\\pi r^2$, so $\\dfrac{dA}{dr}=2\\pi r$. At $r=3$: $\\dfrac{dA}{dr}=6\\pi$ cm$^2$/cm.",
+      "keywords": [
+        "A=pi r^2",
+        "dA/dr=2 pi r",
+        "6 pi"
+      ]
+    },
+    {
+      "id": "board-mat-application-of-derivatives-002",
+      "q": "Find the slope of the tangent to the curve $y=x^3-x+1$ at $x=2$.",
+      "marks": 1,
+      "type": "numerical",
+      "frequency": "very often",
+      "answer": "Slope $=\\dfrac{dy}{dx}=3x^2-1$. At $x=2$: slope $=3(4)-1=11$.",
+      "keywords": [
+        "dy/dx = 3x^2-1",
+        "slope = 11"
+      ]
+    },
+    {
+      "id": "board-mat-application-of-derivatives-003",
+      "q": "Write the interval in which $f(x)=x^2$ is strictly increasing.",
+      "marks": 1,
+      "type": "definition",
+      "frequency": "often",
+      "answer": "$f'(x)=2x>0$ for $x>0$. Hence $f$ is strictly increasing on $(0,\\infty)$.",
+      "keywords": [
+        "f'(x)=2x",
+        "(0, infinity)"
+      ]
+    },
+    {
+      "id": "board-mat-application-of-derivatives-004",
+      "q": "The radius of a circle is increasing at the rate of $0.7$ cm/s. What is the rate of increase of its circumference?",
+      "marks": 2,
+      "type": "numerical",
+      "frequency": "very often",
+      "answer": "$C=2\\pi r$, so $\\dfrac{dC}{dt}=2\\pi\\dfrac{dr}{dt}=2\\pi(0.7)=1.4\\pi$ cm/s.",
+      "keywords": [
+        "C=2 pi r",
+        "dC/dt = 2 pi dr/dt",
+        "1.4 pi cm/s"
+      ]
+    },
+    {
+      "id": "board-mat-application-of-derivatives-005",
+      "q": "Find the equation of the tangent to the curve $y=x^3$ at the point $(1,1)$.",
+      "marks": 2,
+      "type": "numerical",
+      "frequency": "very often",
+      "answer": "$\\dfrac{dy}{dx}=3x^2$; at $(1,1)$ the slope is $3$. Equation: $y-1=3(x-1)$, i.e. $3x-y-2=0$.",
+      "keywords": [
+        "slope = 3",
+        "point-slope form",
+        "3x - y - 2 = 0"
+      ]
+    },
+    {
+      "id": "board-mat-application-of-derivatives-006",
+      "q": "Show that $f(x)=x^3-3x^2+3x-100$ is increasing on $\\mathbb{R}$.",
+      "marks": 2,
+      "type": "reasoning",
+      "frequency": "often",
+      "answer": "$f'(x)=3x^2-6x+3=3(x-1)^2$. Since $(x-1)^2\\ge0$ for all $x\\in\\mathbb{R}$, $f'(x)\\ge0$ (and it is zero only at $x=1$). Hence $f$ is increasing on $\\mathbb{R}$.",
+      "keywords": [
+        "f'(x)=3(x-1)^2",
+        "f'(x) >= 0",
+        "increasing on R"
+      ]
+    },
+    {
+      "id": "board-mat-application-of-derivatives-007",
+      "q": "Using differentials, find the approximate value of $\\sqrt{36.6}$.",
+      "marks": 2,
+      "type": "numerical",
+      "frequency": "often",
+      "answer": "Let $y=\\sqrt x$, $x=36$, $\\Delta x=0.6$. $\\dfrac{dy}{dx}=\\dfrac{1}{2\\sqrt x}=\\dfrac{1}{12}$. $\\Delta y\\approx\\dfrac{dy}{dx}\\Delta x=\\dfrac{0.6}{12}=0.05$. So $\\sqrt{36.6}\\approx6+0.05=6.05$.",
+      "keywords": [
+        "y=sqrt x",
+        "dy = f'(x) dx",
+        "6.05"
+      ]
+    },
+    {
+      "id": "board-mat-application-of-derivatives-008",
+      "q": "Find the intervals in which $f(x)=2x^3-3x^2-36x+7$ is increasing or decreasing.",
+      "marks": 3,
+      "type": "numerical",
+      "frequency": "very often",
+      "answer": "$f'(x)=6x^2-6x-36=6(x^2-x-6)=6(x-3)(x+2)$. $f'(x)=0$ at $x=-2,3$, dividing the line into $(-\\infty,-2)$, $(-2,3)$, $(3,\\infty)$. $f'>0$ on $(-\\infty,-2)$ and $(3,\\infty)$: increasing. $f'<0$ on $(-2,3)$: decreasing.",
+      "keywords": [
+        "f'(x)=6(x-3)(x+2)",
+        "sign of f'",
+        "increasing intervals",
+        "decreasing interval"
+      ]
+    },
+    {
+      "id": "board-mat-application-of-derivatives-009",
+      "q": "Find the local maximum and local minimum values of $f(x)=x^3-6x^2+9x+15$.",
+      "marks": 3,
+      "type": "numerical",
+      "frequency": "very often",
+      "answer": "$f'(x)=3x^2-12x+9=3(x-1)(x-3)$; $f'(x)=0\\Rightarrow x=1,3$. $f''(x)=6x-12$. At $x=1$: $f''=-6<0$, local maximum, $f(1)=1-6+9+15=19$. At $x=3$: $f''=6>0$, local minimum, $f(3)=27-54+27+15=15$.",
+      "keywords": [
+        "f'(x)=0 critical points",
+        "f''(x)",
+        "max value 19",
+        "min value 15"
+      ]
+    },
+    {
+      "id": "board-mat-application-of-derivatives-010",
+      "q": "Find the absolute maximum and absolute minimum values of $f(x)=2x^3-15x^2+36x+1$ on $[1,5]$.",
+      "marks": 3,
+      "type": "numerical",
+      "frequency": "often",
+      "answer": "$f'(x)=6x^2-30x+36=6(x-2)(x-3)$, critical points $x=2,3$ both in $[1,5]$. $f(1)=24$, $f(2)=29$, $f(3)=28$, $f(5)=56$. Hence absolute maximum is $56$ at $x=5$ and absolute minimum is $24$ at $x=1$.",
+      "keywords": [
+        "critical points",
+        "values at end points",
+        "absolute max 56",
+        "absolute min 24"
+      ]
+    },
+    {
+      "id": "board-mat-application-of-derivatives-011",
+      "q": "Find the equations of the tangent and normal to the curve $y=x^2+2$ at the point $(1,3)$.",
+      "marks": 3,
+      "type": "numerical",
+      "frequency": "very often",
+      "answer": "$\\dfrac{dy}{dx}=2x$; slope of tangent at $(1,3)$ is $2$. Tangent: $y-3=2(x-1)$, i.e. $2x-y+1=0$. Slope of normal $=-\\dfrac12$. Normal: $y-3=-\\dfrac12(x-1)$, i.e. $x+2y-7=0$.",
+      "keywords": [
+        "slope of tangent 2",
+        "tangent equation",
+        "slope of normal -1/2",
+        "normal equation"
+      ]
+    },
+    {
+      "id": "board-mat-application-of-derivatives-012",
+      "q": "A spherical balloon is being inflated so that its volume increases at $900\\ \\text{cm}^3/\\text{s}$. How fast is the radius increasing when the radius is $15$ cm?",
+      "marks": 3,
+      "type": "numerical",
+      "frequency": "often",
+      "answer": "$V=\\dfrac43\\pi r^3$, so $\\dfrac{dV}{dt}=4\\pi r^2\\dfrac{dr}{dt}$. Given $\\dfrac{dV}{dt}=900$, $r=15$: $900=4\\pi(225)\\dfrac{dr}{dt}$, so $\\dfrac{dr}{dt}=\\dfrac{900}{900\\pi}=\\dfrac1\\pi$ cm/s.",
+      "keywords": [
+        "V=4/3 pi r^3",
+        "dV/dt = 4 pi r^2 dr/dt",
+        "1/pi cm/s"
+      ]
+    },
+    {
+      "id": "board-mat-application-of-derivatives-013",
+      "q": "Show that of all the rectangles inscribed in a given fixed circle, the square has the maximum area.",
+      "marks": 5,
+      "type": "derivation",
+      "frequency": "very often",
+      "answer": "Let the circle have radius $R$ and the rectangle sides $x,y$. Then $x^2+y^2=4R^2$, so $y=\\sqrt{4R^2-x^2}$. Area $A=xy$, so $A^2=Z=4R^2x^2-x^4$. $\\dfrac{dZ}{dx}=8R^2x-4x^3=0\\Rightarrow x^2=2R^2$. $\\dfrac{d^2Z}{dx^2}=8R^2-12x^2=-16R^2<0$, so area is maximum. Then $y^2=4R^2-2R^2=2R^2=x^2$, i.e. $x=y$. Hence the rectangle is a square.",
+      "keywords": [
+        "x^2+y^2=4R^2",
+        "A^2 = 4R^2x^2-x^4",
+        "x^2=2R^2",
+        "second derivative negative",
+        "x=y square"
+      ]
+    },
+    {
+      "id": "board-mat-application-of-derivatives-014",
+      "q": "Show that the right circular cone of least curved surface area and given volume has an altitude equal to $\\sqrt2$ times the radius of the base.",
+      "marks": 5,
+      "type": "derivation",
+      "frequency": "very often",
+      "answer": "Let radius $r$, height $h$, volume $V=\\tfrac13\\pi r^2h$ (fixed), so $h=\\dfrac{3V}{\\pi r^2}$. Curved surface $S=\\pi r\\sqrt{r^2+h^2}$; $S^2=\\pi^2r^4+\\dfrac{9V^2}{r^2}=Z$. $\\dfrac{dZ}{dr}=4\\pi^2r^3-\\dfrac{18V^2}{r^3}=0\\Rightarrow 2\\pi^2r^6=9V^2$. Using $V^2=\\dfrac{\\pi^2r^4h^2}{9}$: $2\\pi^2r^6=\\pi^2r^4h^2$, so $h^2=2r^2$, $h=\\sqrt2\\,r$. $\\dfrac{d^2Z}{dr^2}=12\\pi^2r^2+\\dfrac{54V^2}{r^4}>0$, so $S$ is minimum.",
+      "keywords": [
+        "V=1/3 pi r^2 h",
+        "S^2 in terms of r",
+        "dZ/dr=0",
+        "h=sqrt2 r",
+        "second derivative positive"
+      ]
+    },
+    {
+      "id": "board-mat-application-of-derivatives-015",
+      "q": "A wire of length 28 m is to be cut into two pieces. One piece is bent into a square and the other into a circle. What should be the lengths of the two pieces so that the combined area is minimum?",
+      "marks": 5,
+      "type": "numerical",
+      "frequency": "often",
+      "answer": "Let the square have side $x$ (piece $4x$); the circle's circumference is $28-4x=2\\pi r$, so $r=\\dfrac{28-4x}{2\\pi}$. Area $A=x^2+\\pi r^2=x^2+\\dfrac{(28-4x)^2}{4\\pi}$. $\\dfrac{dA}{dx}=2x-\\dfrac{2(28-4x)}{\\pi}=0\\Rightarrow\\pi x=28-4x\\Rightarrow x=\\dfrac{28}{\\pi+4}$. $\\dfrac{d^2A}{dx^2}=2+\\dfrac8\\pi>0$, so $A$ is minimum. Square piece $=4x=\\dfrac{112}{\\pi+4}$ m; circle piece $=28-4x=\\dfrac{28\\pi}{\\pi+4}$ m.",
+      "keywords": [
+        "A = x^2 + pi r^2",
+        "dA/dx=0",
+        "x=28/(pi+4)",
+        "second derivative positive",
+        "lengths of both pieces"
+      ]
+    }
+  ]
+}

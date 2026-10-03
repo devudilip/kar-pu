@@ -1,0 +1,166 @@
+{
+  "slug": "vector-algebra",
+  "subject": "maths",
+  "pattern": "Vector Algebra gives 6-9 marks: 1-mark items on unit vectors or perpendicularity, 2/3-mark numericals on dot and cross products (projection, area, angle, perpendicular vector) and a 5-mark proof (sine rule, angle in a semicircle) or scalar triple product problem. Show the determinant for cross products clearly and always state the magnitude.",
+  "questions": [
+    {
+      "id": "board-mat-vector-algebra-001",
+      "q": "Find the unit vector in the direction of $\\vec a=2\\hat i+3\\hat j+\\hat k$.",
+      "marks": 1,
+      "type": "numerical",
+      "frequency": "very often",
+      "answer": "$|\\vec a|=\\sqrt{4+9+1}=\\sqrt{14}$. Unit vector $\\hat a=\\frac{\\vec a}{|\\vec a|}=\\frac{2\\hat i+3\\hat j+\\hat k}{\\sqrt{14}}$.",
+      "keywords": [
+        "magnitude",
+        "divide by magnitude"
+      ]
+    },
+    {
+      "id": "board-mat-vector-algebra-002",
+      "q": "If $\\vec a\\cdot\\vec b=|\\vec a\\times\\vec b|$, find the angle between $\\vec a$ and $\\vec b$.",
+      "marks": 1,
+      "type": "numerical",
+      "frequency": "often",
+      "answer": "$|\\vec a||\\vec b|\\cos\\theta=|\\vec a||\\vec b|\\sin\\theta\\Rightarrow\\tan\\theta=1\\Rightarrow\\theta=45^\\circ$.",
+      "keywords": [
+        "dot product",
+        "cross product magnitude",
+        "tan theta = 1"
+      ]
+    },
+    {
+      "id": "board-mat-vector-algebra-003",
+      "q": "Find $\\lambda$ if $\\vec a=2\\hat i+\\lambda\\hat j+\\hat k$ and $\\vec b=\\hat i-2\\hat j+3\\hat k$ are perpendicular.",
+      "marks": 1,
+      "type": "numerical",
+      "frequency": "very often",
+      "answer": "Perpendicular vectors satisfy $\\vec a\\cdot\\vec b=0$: $2-2\\lambda+3=0\\Rightarrow\\lambda=\\frac52$.",
+      "keywords": [
+        "dot product zero",
+        "lambda = 5/2"
+      ]
+    },
+    {
+      "id": "board-mat-vector-algebra-004",
+      "q": "Find the area of the parallelogram whose adjacent sides are $\\vec a=3\\hat i+\\hat j+4\\hat k$ and $\\vec b=\\hat i-\\hat j+\\hat k$.",
+      "marks": 2,
+      "type": "numerical",
+      "frequency": "very often",
+      "answer": "$\\vec a\\times\\vec b=\\begin{vmatrix}\\hat i&\\hat j&\\hat k\\\\3&1&4\\\\1&-1&1\\end{vmatrix}=5\\hat i+\\hat j-4\\hat k$. Area $=|\\vec a\\times\\vec b|=\\sqrt{25+1+16}=\\sqrt{42}$ square units.",
+      "keywords": [
+        "cross product determinant",
+        "magnitude",
+        "root 42"
+      ]
+    },
+    {
+      "id": "board-mat-vector-algebra-005",
+      "q": "Find the angle between the vectors $\\hat i+\\hat j$ and $\\hat j+\\hat k$.",
+      "marks": 2,
+      "type": "numerical",
+      "frequency": "often",
+      "answer": "$\\cos\\theta=\\frac{\\vec a\\cdot\\vec b}{|\\vec a||\\vec b|}=\\frac{1}{\\sqrt2\\cdot\\sqrt2}=\\frac12\\Rightarrow\\theta=60^\\circ$.",
+      "keywords": [
+        "dot product",
+        "magnitudes",
+        "60 degrees"
+      ]
+    },
+    {
+      "id": "board-mat-vector-algebra-006",
+      "q": "Find $\\lambda$ for which the vectors $2\\hat i-\\hat j+\\hat k$, $\\hat i+2\\hat j-3\\hat k$ and $3\\hat i+\\lambda\\hat j+5\\hat k$ are coplanar.",
+      "marks": 2,
+      "type": "numerical",
+      "frequency": "often",
+      "answer": "Coplanar if the scalar triple product is zero: $\\begin{vmatrix}2&-1&1\\\\1&2&-3\\\\3&\\lambda&5\\end{vmatrix}=2(10+3\\lambda)+1(5+9)+1(\\lambda-6)=28+7\\lambda=0\\Rightarrow\\lambda=-4$.",
+      "keywords": [
+        "triple product zero",
+        "determinant",
+        "lambda = -4"
+      ]
+    },
+    {
+      "id": "board-mat-vector-algebra-007",
+      "q": "Find a vector of magnitude 9 which is perpendicular to both $\\vec a=4\\hat i-\\hat j+3\\hat k$ and $\\vec b=-2\\hat i+\\hat j-2\\hat k$.",
+      "marks": 3,
+      "type": "numerical",
+      "frequency": "very often",
+      "answer": "$\\vec a\\times\\vec b=\\begin{vmatrix}\\hat i&\\hat j&\\hat k\\\\4&-1&3\\\\-2&1&-2\\end{vmatrix}=-\\hat i+2\\hat j+2\\hat k$, magnitude $\\sqrt{1+4+4}=3$. Required vector $=\\pm9\\cdot\\frac{-\\hat i+2\\hat j+2\\hat k}{3}=\\pm(-3\\hat i+6\\hat j+6\\hat k)$.",
+      "keywords": [
+        "cross product",
+        "unit vector",
+        "multiply by 9"
+      ]
+    },
+    {
+      "id": "board-mat-vector-algebra-008",
+      "q": "Prove by vector method that the angle in a semicircle is a right angle.",
+      "marks": 3,
+      "type": "derivation",
+      "frequency": "very often",
+      "answer": "Let $O$ be the centre, $AB$ a diameter with $\\vec{OA}=\\vec a$, $\\vec{OB}=-\\vec a$, and $P$ any point with $\\vec{OP}=\\vec p$, $|\\vec p|=|\\vec a|$. $\\vec{PA}=\\vec a-\\vec p$, $\\vec{PB}=-\\vec a-\\vec p$. $\\vec{PA}\\cdot\\vec{PB}=-(\\vec a-\\vec p)\\cdot(\\vec a+\\vec p)=-(|\\vec a|^2-|\\vec p|^2)=0$. Hence $PA\\perp PB$, i.e. $\\angle APB=90^\\circ$.",
+      "keywords": [
+        "position vectors",
+        "dot product",
+        "|a|=|p|",
+        "perpendicular"
+      ]
+    },
+    {
+      "id": "board-mat-vector-algebra-009",
+      "q": "Find the area of the triangle with vertices $A(1,1,2)$, $B(2,3,5)$, $C(1,5,5)$.",
+      "marks": 3,
+      "type": "numerical",
+      "frequency": "often",
+      "answer": "$\\vec{AB}=\\hat i+2\\hat j+3\\hat k$, $\\vec{AC}=4\\hat j+3\\hat k$. $\\vec{AB}\\times\\vec{AC}=-6\\hat i-3\\hat j+4\\hat k$. Area $=\\frac12|\\vec{AB}\\times\\vec{AC}|=\\frac12\\sqrt{36+9+16}=\\frac{\\sqrt{61}}{2}$ square units.",
+      "keywords": [
+        "AB and AC",
+        "cross product",
+        "half of magnitude"
+      ]
+    },
+    {
+      "id": "board-mat-vector-algebra-010",
+      "q": "If $\\vec a+\\vec b+\\vec c=\\vec 0$, $|\\vec a|=3$, $|\\vec b|=5$, $|\\vec c|=7$, find the angle between $\\vec a$ and $\\vec b$.",
+      "marks": 3,
+      "type": "numerical",
+      "frequency": "often",
+      "answer": "$\\vec c=-(\\vec a+\\vec b)\\Rightarrow|\\vec c|^2=|\\vec a|^2+|\\vec b|^2+2\\vec a\\cdot\\vec b$. $49=9+25+30\\cos\\theta\\Rightarrow\\cos\\theta=\\frac12\\Rightarrow\\theta=60^\\circ$.",
+      "keywords": [
+        "square of magnitude",
+        "expand",
+        "cos theta = 1/2",
+        "60 degrees"
+      ]
+    },
+    {
+      "id": "board-mat-vector-algebra-011",
+      "q": "Using vector method, prove the sine rule $\\dfrac{a}{\\sin A}=\\dfrac{b}{\\sin B}=\\dfrac{c}{\\sin C}$ for a triangle $ABC$.",
+      "marks": 5,
+      "type": "derivation",
+      "frequency": "often",
+      "answer": "Let $\\vec{BC}=\\vec a$, $\\vec{CA}=\\vec b$, $\\vec{AB}=\\vec c$; then $\\vec a+\\vec b+\\vec c=\\vec0$. Cross with $\\vec a$: $\\vec a\\times\\vec b=\\vec c\\times\\vec a$. Magnitudes: $ab\\sin(\\pi-C)=ca\\sin(\\pi-B)\\Rightarrow b\\sin C=c\\sin B\\Rightarrow\\frac{b}{\\sin B}=\\frac{c}{\\sin C}$. Cross with $\\vec b$: $\\vec b\\times\\vec c=\\vec a\\times\\vec b$, giving $bc\\sin A=ab\\sin C\\Rightarrow\\frac{a}{\\sin A}=\\frac{c}{\\sin C}$. Hence $\\frac a{\\sin A}=\\frac b{\\sin B}=\\frac c{\\sin C}$.",
+      "keywords": [
+        "a+b+c=0",
+        "cross product",
+        "magnitude",
+        "sin(pi - x) = sin x",
+        "result"
+      ]
+    },
+    {
+      "id": "board-mat-vector-algebra-012",
+      "q": "Define scalar triple product. Show that $|\\vec a\\cdot(\\vec b\\times\\vec c)|$ is the volume of a parallelepiped and find the volume for $\\vec a=2\\hat i-3\\hat j+4\\hat k$, $\\vec b=\\hat i+2\\hat j-\\hat k$, $\\vec c=3\\hat i-\\hat j+2\\hat k$.",
+      "marks": 5,
+      "type": "numerical",
+      "frequency": "often",
+      "answer": "Scalar triple product $[\\vec a\\,\\vec b\\,\\vec c]=\\vec a\\cdot(\\vec b\\times\\vec c)$. $\\vec b\\times\\vec c$ is perpendicular to the base with magnitude equal to the base area; height $=|\\vec a|\\cos\\phi$, the projection of $\\vec a$ on that normal. Volume $=$ base area $\\times$ height $=|\\vec a\\cdot(\\vec b\\times\\vec c)|$. Here $\\begin{vmatrix}2&-3&4\\\\1&2&-1\\\\3&-1&2\\end{vmatrix}=2(4-1)+3(2+3)+4(-1-6)=6+15-28=-7$. Volume $=7$ cubic units.",
+      "keywords": [
+        "definition",
+        "base area x height",
+        "determinant",
+        "volume = 7"
+      ]
+    }
+  ]
+}

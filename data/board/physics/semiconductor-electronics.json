@@ -1,0 +1,199 @@
+{
+  "slug": "semiconductor-electronics",
+  "subject": "physics",
+  "pattern": "This chapter generally carries 8-11 marks: a 1-mark (forbidden gap, depletion region, uses of Zener diode), 2-mark on logic gates or intrinsic versus extrinsic, a 3-mark on p-n junction formation, Zener regulator or energy bands, and a 5-mark question on the forward and reverse bias characteristics or rectifier circuits (half-wave and full-wave). Examiners expect neat circuit and graph descriptions, correct logic gate symbols with truth tables and an understanding of the depletion layer.",
+  "questions": [
+    {
+      "id": "board-phy-semiconductor-electronics-001",
+      "q": "What is meant by the depletion region in a p-n junction?",
+      "marks": 1,
+      "type": "definition",
+      "frequency": "very often",
+      "answer": "The depletion region is the thin region on either side of the p-n junction that is depleted of free charge carriers because electrons from the n-side and holes from the p-side diffuse across and recombine; it contains only immobile ionised donor and acceptor ions and is about $10^{-6}$ m wide.",
+      "keywords": [
+        "no free charge carriers",
+        "immobile ions",
+        "diffusion and recombination"
+      ]
+    },
+    {
+      "id": "board-phy-semiconductor-electronics-002",
+      "q": "What is forbidden energy gap?",
+      "marks": 1,
+      "type": "definition",
+      "frequency": "often",
+      "answer": "The energy gap between the top of the valence band and the bottom of the conduction band, in which no electron can have an energy, is called the forbidden energy gap $E_g$. It is about 1.1 eV for silicon, 0.7 eV for germanium and more than 6 eV for insulators.",
+      "keywords": [
+        "gap between valence and conduction band",
+        "$E_g$",
+        "values for Si and Ge"
+      ]
+    },
+    {
+      "id": "board-phy-semiconductor-electronics-003",
+      "q": "Mention one use of a Zener diode and of a photodiode.",
+      "marks": 1,
+      "type": "definition",
+      "frequency": "often",
+      "answer": "Zener diode: used as a voltage regulator (it keeps the output voltage constant in reverse breakdown).\nPhotodiode: used as a photodetector, for example in detecting optical signals, and in light meters and remote controls.",
+      "keywords": [
+        "voltage regulator",
+        "photodetector"
+      ]
+    },
+    {
+      "id": "board-phy-semiconductor-electronics-004",
+      "q": "Distinguish between intrinsic and extrinsic semiconductors (any two points).",
+      "marks": 2,
+      "type": "difference",
+      "frequency": "very often",
+      "answer": "Intrinsic: pure semiconductor with no impurity; the number of electrons equals the number of holes ($n_e = n_h = n_i$); its conductivity is low and depends on temperature only.\nExtrinsic: semiconductor doped with a trivalent or pentavalent impurity; the electron and hole numbers are unequal (majority and minority carriers); its conductivity is much higher and can be controlled by the amount of doping.",
+      "keywords": [
+        "pure vs doped",
+        "$n_e=n_h$ vs unequal",
+        "conductivity"
+      ]
+    },
+    {
+      "id": "board-phy-semiconductor-electronics-005",
+      "q": "Distinguish between n-type and p-type semiconductors (any two points).",
+      "marks": 2,
+      "type": "difference",
+      "frequency": "very often",
+      "answer": "n-type: doped with a pentavalent impurity (As, P, Sb), a donor impurity; majority carriers are electrons and minority carriers are holes; $n_e \\gg n_h$.\np-type: doped with a trivalent impurity (B, Al, In), an acceptor impurity; majority carriers are holes and minority carriers are electrons; $n_h \\gg n_e$. Both are electrically neutral.",
+      "keywords": [
+        "pentavalent vs trivalent",
+        "majority carriers",
+        "donor / acceptor"
+      ]
+    },
+    {
+      "id": "board-phy-semiconductor-electronics-006",
+      "q": "Draw the logic symbol and write the truth table of (i) an AND gate and (ii) an OR gate.",
+      "marks": 2,
+      "type": "diagram",
+      "frequency": "very often",
+      "answer": "[AND gate symbol: D-shaped with two inputs A, B and output Y = A.B. OR gate symbol: curved-back, pointed-front shape with output Y = A + B.]\nAND: (A,B) = (0,0)->0, (0,1)->0, (1,0)->0, (1,1)->1.\nOR: (0,0)->0, (0,1)->1, (1,0)->1, (1,1)->1.",
+      "keywords": [
+        "symbol",
+        "Boolean expression",
+        "AND output 1 only when both 1",
+        "OR output 0 only when both 0"
+      ]
+    },
+    {
+      "id": "board-phy-semiconductor-electronics-007",
+      "q": "A semiconductor has a band gap of 2 eV. Find the maximum wavelength of radiation that can make an electron jump across the gap (hc = 1240 eV nm).",
+      "marks": 2,
+      "type": "numerical",
+      "frequency": "sometimes",
+      "answer": "Photon energy must be at least equal to the band gap: $E = \\dfrac{hc}{\\lambda} \\ge E_g$\n$\\lambda_{max} = \\dfrac{hc}{E_g} = \\dfrac{1240}{2} = 620$ nm.\nRadiation of wavelength up to 620 nm (visible, orange-red) can cause the transition.",
+      "keywords": [
+        "$\\lambda=hc/E_g$",
+        "1240 eV nm",
+        "620 nm"
+      ]
+    },
+    {
+      "id": "board-phy-semiconductor-electronics-008",
+      "q": "Explain the formation of a p-n junction, the depletion region and the barrier potential.",
+      "marks": 3,
+      "type": "reasoning",
+      "frequency": "very often",
+      "answer": "When p-type and n-type materials are joined, holes diffuse from the p-side to the n-side and electrons from the n-side to the p-side because of the concentration gradient; this is the diffusion current.\nElectrons leaving the n-side leave behind positive donor ions, and holes leaving the p-side leave behind negative acceptor ions. A region free of mobile carriers, the depletion layer, is formed with an electric field directed from n to p.\nThis field opposes further diffusion and causes a drift current of minority carriers in the opposite direction. At equilibrium the drift current equals the diffusion current; the potential difference across the junction is the barrier potential (about 0.7 V for Si and 0.3 V for Ge).",
+      "keywords": [
+        "diffusion of carriers",
+        "depletion layer with ions",
+        "drift current",
+        "barrier potential 0.7 V / 0.3 V"
+      ]
+    },
+    {
+      "id": "board-phy-semiconductor-electronics-009",
+      "q": "Distinguish between conductors, semiconductors and insulators on the basis of energy bands.",
+      "marks": 3,
+      "type": "diagram",
+      "frequency": "often",
+      "answer": "Conductors: the conduction and valence bands overlap (or the conduction band is partly filled), so $E_g = 0$ and many free electrons exist even at room temperature; e.g. copper.\nSemiconductors: a small forbidden gap ($E_g \\approx 1$ eV; Si 1.1 eV, Ge 0.7 eV); at 0 K the valence band is full and the conduction band empty, but at room temperature thermal energy excites some electrons across the gap.\nInsulators: a large forbidden gap ($E_g > 3$ eV, often 6 eV or more); the conduction band stays empty so there is practically no conduction; e.g. diamond.",
+      "keywords": [
+        "overlap of bands",
+        "small gap about 1 eV",
+        "large gap greater than 3 eV",
+        "examples"
+      ]
+    },
+    {
+      "id": "board-phy-semiconductor-electronics-010",
+      "q": "Explain how a Zener diode acts as a voltage regulator with a circuit description.",
+      "marks": 3,
+      "type": "reasoning",
+      "frequency": "very often",
+      "answer": "The Zener diode is connected in reverse bias across the load in parallel, with a series resistance $R_s$, to an unregulated input voltage $V_{in}$ which is larger than the Zener (breakdown) voltage $V_z$.\nIn the breakdown region, a large change in the current causes almost no change in the voltage across the diode. If the input voltage increases, the Zener current increases and the extra voltage drops across $R_s$, so the output voltage $V_z$ across the load stays constant. If the input falls, the Zener current decreases and the output is again held at $V_z$ (provided the diode is in breakdown). The same happens when the load current changes.",
+      "keywords": [
+        "reverse biased in parallel with load",
+        "series resistance",
+        "breakdown voltage constant",
+        "input and load variation"
+      ]
+    },
+    {
+      "id": "board-phy-semiconductor-electronics-011",
+      "q": "Show that NAND gate is a universal gate by obtaining NOT and AND operations using NAND gates.",
+      "marks": 3,
+      "type": "reasoning",
+      "frequency": "often",
+      "answer": "A NAND gate gives $Y = \\overline{A\\cdot B}$ and is called universal because the other gates can be built from it.\nNOT gate: join both inputs of a NAND gate together; $Y = \\overline{A\\cdot A} = \\overline{A}$.\nAND gate: connect the output of a NAND gate to both inputs of a second NAND gate (used as NOT); $Y = \\overline{\\overline{A\\cdot B}} = A\\cdot B$.\nSimilarly, OR is obtained by inverting each input with NAND-NOT gates and feeding them into a NAND: $Y = \\overline{\\overline{A}\\cdot\\overline{B}} = A + B$ (De Morgan).",
+      "keywords": [
+        "NAND $Y=\\overline{AB}$",
+        "NOT by joining inputs",
+        "AND by NAND plus NOT",
+        "universal"
+      ]
+    },
+    {
+      "id": "board-phy-semiconductor-electronics-012",
+      "q": "Describe the V-I characteristics of a p-n junction diode in forward bias and reverse bias. Define knee voltage and reverse saturation current.",
+      "marks": 5,
+      "type": "diagram",
+      "frequency": "very often",
+      "answer": "Circuit: the diode is connected to a battery through a variable resistance (potentiometer), with a voltmeter across the diode and a milliammeter (forward) or microammeter (reverse) in series.\nForward bias (p to positive): the applied voltage opposes the barrier potential, so the depletion layer narrows. For small voltages the current is negligible; beyond the knee (threshold) voltage (about 0.7 V for Si, 0.3 V for Ge) the current rises rapidly (exponentially) and the diode conducts.\nReverse bias (p to negative): the depletion layer widens and only a very small reverse current, due to minority carriers, flows; it is nearly independent of the applied voltage and is called the reverse saturation current (microamperes). At a high reverse voltage (breakdown voltage) the current increases suddenly.\nThe characteristic curve is not linear, so the diode is a non-ohmic device. Forward resistance is low and reverse resistance is high.",
+      "keywords": [
+        "circuit components",
+        "forward bias knee voltage",
+        "reverse saturation current",
+        "breakdown",
+        "curve shape"
+      ]
+    },
+    {
+      "id": "board-phy-semiconductor-electronics-013",
+      "q": "With a circuit diagram, explain the working of a p-n junction diode as a full wave rectifier. Draw the input and output waveforms (describe).",
+      "marks": 5,
+      "type": "diagram",
+      "frequency": "very often",
+      "answer": "Circuit: the secondary of a centre-tapped transformer has its two ends connected to the p-ends of diodes $D_1$ and $D_2$, whose n-ends are joined together to give the output across a load resistance $R_L$; the centre tap is the other terminal of the load.\nWorking: during the positive half-cycle of the input, end A of the secondary is positive; $D_1$ is forward biased and conducts while $D_2$ is reverse biased. Current flows through $R_L$ in a fixed direction. During the negative half-cycle, end B is positive; $D_2$ conducts and $D_1$ is off, and the current again flows through $R_L$ in the same direction.\nHence the output across $R_L$ is a pulsating dc consisting of both half-cycles (output frequency is twice the input frequency). A capacitor filter smooths it. Efficiency is about 81.2 per cent.",
+      "keywords": [
+        "centre-tapped transformer",
+        "two diodes",
+        "positive half-cycle conduction",
+        "negative half-cycle conduction",
+        "output frequency $2f$"
+      ]
+    },
+    {
+      "id": "board-phy-semiconductor-electronics-014",
+      "q": "Explain the working of a half-wave rectifier with a circuit diagram. Mention the frequency of its output.",
+      "marks": 5,
+      "type": "diagram",
+      "frequency": "often",
+      "answer": "Circuit: the secondary of a transformer is connected in series with a single p-n junction diode and a load resistance $R_L$; the output is taken across $R_L$.\nWorking: during the positive half-cycle the diode is forward biased, it conducts and a current flows through $R_L$, so an output voltage appears. During the negative half-cycle the diode is reverse biased and does not conduct, so the output is zero.\nThe output is therefore a series of positive half-cycle pulses (a pulsating dc) with the negative half-cycles missing. The output frequency is the same as the input frequency, $f_{out} = f_{in}$. The rectification efficiency is only about 40.6 per cent, and a capacitor filter is used to smooth the output.",
+      "keywords": [
+        "diode in series with load",
+        "forward bias in positive half",
+        "reverse bias in negative half",
+        "output frequency equals input",
+        "pulsating dc"
+      ]
+    }
+  ]
+}

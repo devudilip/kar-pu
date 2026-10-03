@@ -1,4 +1,4 @@
-import { SUBJECTS, chapter, shuffle, seededRandom, seededShuffle, concepts } from '../data.js';
+import { SUBJECTS, chapter, shuffle, seededRandom, seededShuffle, concepts, board } from '../data.js';
 import { store } from '../store.js';
 import { launchExam } from './tests.js';
 import { el, esc, math, toast, optionButton, LETTERS, bar, reasonChips, bindReasonChips, reportLink, bindReportLinks, quiz, clarityButtons, bindClarity } from '../ui.js';
@@ -17,9 +17,10 @@ export default async function chapterView([subject, slug], query) {
     <div class="breadcrumb"><a href="#/">Home</a> › <a href="#/subject/${subject}">${s.name}</a> › ${ch.puc === 1 ? '1st' : '2nd'} PUC</div>
     <h1>${esc(ch.title)}</h1>
     <div class="row muted"><span class="pill">~${ch.weight} questions in KCET</span><span>${qs.length} practice questions · ${stats.attempted} attempted · ${stats.correct} correct</span></div>
-    <div class="tabs"><button data-t="notes" class="${tab !== 'practice' ? 'active' : ''}">Notes</button><button data-t="practice" class="${tab === 'practice' ? 'active' : ''}">Practice</button></div>
-    <div id="notes" class="${tab === 'practice' ? 'hidden' : ''}"></div>
+    <div class="tabs"><button data-t="notes" class="${tab !== 'practice' && tab !== 'board' ? 'active' : ''}">Notes</button><button data-t="practice" class="${tab === 'practice' ? 'active' : ''}">Practice</button>${ch.puc === 2 ? `<button data-t="board" class="${tab === 'board' ? 'active' : ''}">Board exam</button>` : ''}</div>
+    <div id="notes" class="${tab === 'practice' || tab === 'board' ? 'hidden' : ''}"></div>
     <div id="practice" class="${tab !== 'practice' ? 'hidden' : ''}"></div>
+    <div id="board" class="${tab !== 'board' ? 'hidden' : ''}"></div>
   </div>`);
 
   // Notes
@@ -132,9 +133,34 @@ export default async function chapterView([subject, slug], query) {
     try { await navigator.clipboard.writeText(url); toast('Link copied'); } catch { toast('Could not copy link'); }
   }
 
+  // Board exam tab (2nd PUC chapters): what the Karnataka PU board paper asks from this chapter
+  const boardBox = node.querySelector('#board'); let boardLoaded = false;
+  async function renderBoard() {
+    if (boardLoaded) return; boardLoaded = true;
+    boardBox.innerHTML = '<div class="loading"><div class="spin"></div>Loading…</div>';
+    const b = await board(subject, slug);
+    if (!b) { boardBox.innerHTML = '<div class="card empty">Board-exam questions for this chapter are coming soon.</div>'; return; }
+    const groups = [1, 2, 3, 5].map((m) => [m, b.questions.filter((q) => q.marks === m)]).filter(([, qs]) => qs.length);
+    const freqPill = (f) => f === 'very often' ? '<span class="pill bad">asked very often</span>' : f === 'often' ? '<span class="pill warn">asked often</span>' : '<span class="pill">sometimes</span>';
+    boardBox.innerHTML = `
+      <div class="card" style="border-left:5px solid var(--math)"><div class="kicker">2nd PUC board exam · why it matters</div>
+        <p style="margin:6px 0">Your KCET rank is <b>50% board marks + 50% CET marks</b>. These are the questions this chapter keeps giving in the Karnataka board paper, with model answers written the way examiners award marks.</p>
+        <p class="muted" style="margin:0">${b.pattern || ''}</p></div>
+      ${groups.map(([m, qs]) => `<h2>${m}-mark questions <span class="muted" style="font-weight:400;font-size:.9rem">· ${qs.length}</span></h2>
+        ${qs.map((q, i) => `<div class="card">
+          <div class="row spread" style="align-items:flex-start"><div class="question" style="margin-bottom:6px">${q.q}</div>${freqPill(q.frequency)}</div>
+          <div class="muted" style="font-size:.85rem">${q.type}${q.keywords?.length ? ' · examiner looks for: ' + q.keywords.map(esc).join(', ') : ''}</div>
+          <details style="margin-top:8px"><summary class="btn small secondary" style="display:inline-flex">Show model answer</summary><div class="explain">${q.answer}</div></details>
+        </div>`).join('')}`).join('')}
+      <p class="muted">Board questions are from the Karnataka PU pattern, written and checked by teachers and AI assistants. Found an error? Use Report a mistake in Settings.</p>`;
+    math(boardBox);
+  }
+  if (tab === 'board') renderBoard();
+
   function switchTab(t) {
     node.querySelectorAll('.tabs button').forEach((x) => x.classList.toggle('active', x.dataset.t === t));
-    notes.classList.toggle('hidden', t !== 'notes'); practice.classList.toggle('hidden', t !== 'practice');
+    notes.classList.toggle('hidden', t !== 'notes'); practice.classList.toggle('hidden', t !== 'practice'); boardBox.classList.toggle('hidden', t !== 'board');
+    if (t === 'board') renderBoard();
     window.scrollTo(0, 0);
   }
   node.querySelectorAll('.tabs button').forEach((b) => b.addEventListener('click', () => switchTab(b.dataset.t)));

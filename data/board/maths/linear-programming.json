@@ -1,0 +1,170 @@
+{
+  "slug": "linear-programming",
+  "subject": "maths",
+  "pattern": "Linear Programming gives 5-8 marks: 1/2-mark definitions (feasible region, objective function, corner point theorem) and one 5-mark graphical problem, either maximisation or minimisation, from a word problem or direct inequalities. Draw the feasible region, list all corner points, tabulate Z and state the optimum clearly.",
+  "questions": [
+    {
+      "id": "board-mat-linear-programming-001",
+      "q": "Define feasible region in a linear programming problem.",
+      "marks": 1,
+      "type": "definition",
+      "frequency": "very often",
+      "answer": "The common region determined by all the constraints, including non-negativity restrictions, of an LPP is called the feasible region (solution region). Every point in it is a feasible solution.",
+      "keywords": [
+        "common region",
+        "constraints",
+        "non-negativity"
+      ]
+    },
+    {
+      "id": "board-mat-linear-programming-002",
+      "q": "What is an objective function in an LPP?",
+      "marks": 1,
+      "type": "definition",
+      "frequency": "very often",
+      "answer": "The linear function $Z=ax+by$ which is to be maximised or minimised, subject to the given constraints, is called the objective function.",
+      "keywords": [
+        "linear function",
+        "maximise or minimise",
+        "Z=ax+by"
+      ]
+    },
+    {
+      "id": "board-mat-linear-programming-003",
+      "q": "State the corner point theorem.",
+      "marks": 1,
+      "type": "definition",
+      "frequency": "often",
+      "answer": "Let $R$ be the feasible region (convex polygon) and $Z=ax+by$ the objective function. If $R$ is bounded, then $Z$ has both a maximum and a minimum value on $R$, and each occurs at a corner point (vertex) of $R$.",
+      "keywords": [
+        "bounded region",
+        "maximum and minimum",
+        "corner point"
+      ]
+    },
+    {
+      "id": "board-mat-linear-programming-004",
+      "q": "What are a feasible solution and an infeasible solution?",
+      "marks": 2,
+      "type": "definition",
+      "frequency": "often",
+      "answer": "Any point in the feasible region satisfying all constraints and non-negativity conditions is a feasible solution. Any point that violates at least one constraint (lying outside the feasible region) is an infeasible solution.",
+      "keywords": [
+        "satisfies all constraints",
+        "feasible region",
+        "violates a constraint"
+      ]
+    },
+    {
+      "id": "board-mat-linear-programming-005",
+      "q": "Maximise $Z=3x+4y$ subject to $x+y\\le4$, $x\\ge0$, $y\\ge0$.",
+      "marks": 2,
+      "type": "numerical",
+      "frequency": "very often",
+      "answer": "Feasible region is the triangle with corner points $(0,0)$, $(4,0)$, $(0,4)$. $Z=0$, $12$, $16$ respectively. Maximum value of $Z$ is $16$ at $(0,4)$.",
+      "keywords": [
+        "corner points",
+        "Z at each point",
+        "maximum 16"
+      ]
+    },
+    {
+      "id": "board-mat-linear-programming-006",
+      "q": "Distinguish between a bounded and an unbounded feasible region.",
+      "marks": 2,
+      "type": "difference",
+      "frequency": "sometimes",
+      "answer": "A feasible region that can be enclosed within a circle is bounded; it always has both maximum and minimum values of $Z$. A region that extends indefinitely in some direction is unbounded; a maximum or minimum may not exist, so one checks whether the open half-plane $Z<m$ (or $Z>M$) has a common point with the region.",
+      "keywords": [
+        "enclosed in a circle",
+        "extends indefinitely",
+        "half-plane test"
+      ]
+    },
+    {
+      "id": "board-mat-linear-programming-007",
+      "q": "Maximise $Z=4x+y$ subject to $x+y\\le50$, $3x+y\\le90$, $x\\ge0$, $y\\ge0$.",
+      "marks": 3,
+      "type": "numerical",
+      "frequency": "very often",
+      "answer": "Corner points: $(0,0)$, $(30,0)$, $(20,30)$ (intersection of $x+y=50$ and $3x+y=90$), $(0,50)$. $Z=0,\\ 120,\\ 110,\\ 50$. Maximum $Z=120$ at $(30,0)$.",
+      "keywords": [
+        "feasible region",
+        "corner points",
+        "table of Z",
+        "maximum 120"
+      ]
+    },
+    {
+      "id": "board-mat-linear-programming-008",
+      "q": "Minimise $Z=200x+500y$ subject to $x+2y\\ge10$, $3x+4y\\le24$, $x\\ge0$, $y\\ge0$.",
+      "marks": 3,
+      "type": "numerical",
+      "frequency": "often",
+      "answer": "Corner points: $(0,5)$, $(0,6)$ and $(4,3)$ (intersection of $x+2y=10$, $3x+4y=24$). $Z=2500,\\ 3000,\\ 2300$. Minimum $Z=2300$ at $(4,3)$.",
+      "keywords": [
+        "corner points",
+        "Z values",
+        "minimum 2300"
+      ]
+    },
+    {
+      "id": "board-mat-linear-programming-009",
+      "q": "Maximise $Z=5x+3y$ subject to $3x+5y\\le15$, $5x+2y\\le10$, $x\\ge0$, $y\\ge0$.",
+      "marks": 3,
+      "type": "numerical",
+      "frequency": "often",
+      "answer": "Corner points: $(0,0)$, $(2,0)$, $(0,3)$ and the intersection $\\left(\\frac{20}{19},\\frac{45}{19}\\right)$. $Z=0,\\ 10,\\ 9,\\ \\frac{235}{19}$. Maximum $Z=\\frac{235}{19}$ at $\\left(\\frac{20}{19},\\frac{45}{19}\\right)$.",
+      "keywords": [
+        "solve two lines",
+        "corner points",
+        "Z values",
+        "maximum 235/19"
+      ]
+    },
+    {
+      "id": "board-mat-linear-programming-010",
+      "q": "Explain the steps in solving an LPP by the graphical (corner point) method.",
+      "marks": 3,
+      "type": "definition",
+      "frequency": "sometimes",
+      "answer": "1) Convert the problem to mathematical form: objective function and constraints. 2) Draw the lines of the constraints and shade the feasible region. 3) Find the coordinates of all corner points. 4) Evaluate $Z$ at each corner point. 5) The largest value is the maximum and the smallest is the minimum. For an unbounded region, check the half-plane $Z>M$ or $Z<m$ for common points.",
+      "keywords": [
+        "formulate",
+        "graph constraints",
+        "corner points",
+        "evaluate Z"
+      ]
+    },
+    {
+      "id": "board-mat-linear-programming-011",
+      "q": "A furniture dealer has Rs 50000 to invest and space for at most 60 pieces. A table costs Rs 2500 and a chair Rs 500; profit is Rs 250 per table and Rs 75 per chair. Formulate and solve graphically to maximise profit.",
+      "marks": 5,
+      "type": "numerical",
+      "frequency": "very often",
+      "answer": "Let $x$ tables, $y$ chairs. Maximise $Z=250x+75y$ subject to $x+y\\le60$, $2500x+500y\\le50000\\ (5x+y\\le100)$, $x,y\\ge0$. Corner points: $(0,0)$, $(20,0)$, $(10,50)$, $(0,60)$. $Z=0,\\ 5000,\\ 6250,\\ 4500$. Maximum profit is Rs 6250 with 10 tables and 50 chairs. [Sketch: feasible region quadrilateral O(0,0), (20,0), (10,50), (0,60).]",
+      "keywords": [
+        "decision variables",
+        "constraints",
+        "feasible region",
+        "corner points",
+        "Z maximum 6250"
+      ]
+    },
+    {
+      "id": "board-mat-linear-programming-012",
+      "q": "Minimise $Z=3x+5y$ subject to $x+3y\\ge3$, $x+y\\ge2$, $x\\ge0$, $y\\ge0$.",
+      "marks": 5,
+      "type": "numerical",
+      "frequency": "often",
+      "answer": "The feasible region is unbounded with corner points $(0,2)$, $\\left(\\frac32,\\frac12\\right)$ (intersection of $x+3y=3$ and $x+y=2$) and $(3,0)$. $Z=10,\\ 7,\\ 9$. Smallest value $m=7$. Check the half-plane $3x+5y<7$: it has no point in common with the feasible region. Hence the minimum value of $Z$ is $7$ at $\\left(\\frac32,\\frac12\\right)$.",
+      "keywords": [
+        "unbounded region",
+        "corner points",
+        "Z values",
+        "half-plane check",
+        "minimum 7"
+      ]
+    }
+  ]
+}

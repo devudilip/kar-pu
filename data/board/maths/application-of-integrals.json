@@ -1,0 +1,167 @@
+{
+  "slug": "application-of-integrals",
+  "subject": "maths",
+  "pattern": "Area under curves is a regular 5-mark (and 3-mark) item: area of ellipse/circle, area between a parabola and a line, or area bounded by two curves, along with one or two 1/2-mark direct integrals. Draw the rough sketch, shade the region, find the points of intersection, set up limits, integrate and state the answer in square units.",
+  "questions": [
+    {
+      "id": "board-mat-application-of-integrals-001",
+      "q": "Write the formula for the area bounded by the curve $y=f(x)$, the x-axis and the ordinates $x=a$, $x=b$.",
+      "marks": 1,
+      "type": "definition",
+      "frequency": "very often",
+      "answer": "Area $A=\\int_a^b y\\,dx=\\int_a^b f(x)\\,dx$, where $f(x)\\ge 0$ on $[a,b]$.",
+      "keywords": [
+        "area formula",
+        "integral",
+        "limits",
+        "x-axis"
+      ]
+    },
+    {
+      "id": "board-mat-application-of-integrals-002",
+      "q": "Write the area of the circle $x^2+y^2=a^2$.",
+      "marks": 1,
+      "type": "numerical",
+      "frequency": "often",
+      "answer": "Area $=4\\int_0^a\\sqrt{a^2-x^2}\\,dx=\\pi a^2$ square units.",
+      "keywords": [
+        "four times first quadrant",
+        "pi a squared"
+      ]
+    },
+    {
+      "id": "board-mat-application-of-integrals-003",
+      "q": "Find the area under $y=x^2$ between $x=1$ and $x=2$.",
+      "marks": 1,
+      "type": "numerical",
+      "frequency": "often",
+      "answer": "Area $=\\int_1^2 x^2\\,dx=\\left[\\frac{x^3}{3}\\right]_1^2=\\frac83-\\frac13=\\frac73$ square units.",
+      "keywords": [
+        "integration",
+        "limits",
+        "7/3"
+      ]
+    },
+    {
+      "id": "board-mat-application-of-integrals-004",
+      "q": "Find the area under the curve $y=\\sin x$ between $x=0$ and $x=\\pi$.",
+      "marks": 2,
+      "type": "numerical",
+      "frequency": "often",
+      "answer": "Area $=\\int_0^{\\pi}\\sin x\\,dx=[-\\cos x]_0^{\\pi}=1+1=2$ square units.",
+      "keywords": [
+        "integral of sin x",
+        "limits",
+        "2 sq units"
+      ]
+    },
+    {
+      "id": "board-mat-application-of-integrals-005",
+      "q": "Find the area under $y=\\sqrt{x}$ from $x=0$ to $x=4$.",
+      "marks": 2,
+      "type": "numerical",
+      "frequency": "sometimes",
+      "answer": "Area $=\\int_0^4 x^{1/2}dx=\\left[\\frac23x^{3/2}\\right]_0^4=\\frac23(8)=\\frac{16}{3}$ square units.",
+      "keywords": [
+        "power rule",
+        "limits",
+        "16/3"
+      ]
+    },
+    {
+      "id": "board-mat-application-of-integrals-006",
+      "q": "Find the area of the region bounded by the curves $y=x^2$ and $y=x$.",
+      "marks": 2,
+      "type": "numerical",
+      "frequency": "often",
+      "answer": "Intersection: $x^2=x\\Rightarrow x=0,1$. In $[0,1]$ the line is above the parabola. Area $=\\int_0^1(x-x^2)dx=\\left[\\frac{x^2}{2}-\\frac{x^3}{3}\\right]_0^1=\\frac12-\\frac13=\\frac16$ square unit.",
+      "keywords": [
+        "points of intersection",
+        "upper minus lower",
+        "1/6"
+      ]
+    },
+    {
+      "id": "board-mat-application-of-integrals-007",
+      "q": "Find the area of the ellipse $\\dfrac{x^2}{a^2}+\\dfrac{y^2}{b^2}=1$.",
+      "marks": 3,
+      "type": "derivation",
+      "frequency": "very often",
+      "answer": "The ellipse is symmetric about both axes, so Area $=4\\times$ (first-quadrant area). In the first quadrant $y=\\frac ba\\sqrt{a^2-x^2}$. Area $=\\frac{4b}{a}\\int_0^a\\sqrt{a^2-x^2}\\,dx=\\frac{4b}{a}\\left[\\frac x2\\sqrt{a^2-x^2}+\\frac{a^2}{2}\\sin^{-1}\\frac xa\\right]_0^a=\\frac{4b}{a}\\cdot\\frac{a^2}{2}\\cdot\\frac{\\pi}{2}=\\pi ab$ square units.",
+      "keywords": [
+        "symmetry",
+        "four times first quadrant",
+        "standard integral",
+        "pi a b"
+      ]
+    },
+    {
+      "id": "board-mat-application-of-integrals-008",
+      "q": "Find the area of the region bounded by the parabola $y^2=4x$ and the line $x=3$.",
+      "marks": 3,
+      "type": "numerical",
+      "frequency": "often",
+      "answer": "The region is symmetric about the x-axis. Area $=2\\int_0^3 y\\,dx=2\\int_0^3 2\\sqrt x\\,dx=4\\left[\\frac23x^{3/2}\\right]_0^3=\\frac83\\cdot3\\sqrt3=8\\sqrt3$ square units.",
+      "keywords": [
+        "symmetry about x-axis",
+        "limits 0 to 3",
+        "8 root 3"
+      ]
+    },
+    {
+      "id": "board-mat-application-of-integrals-009",
+      "q": "Using integration, find the area of the triangle with vertices $(1,0)$, $(2,2)$, $(3,1)$.",
+      "marks": 3,
+      "type": "numerical",
+      "frequency": "often",
+      "answer": "Sides: $AB: y=2(x-1)$, $BC: y=4-x$, $AC: y=\\frac{x-1}{2}$. Area $=\\int_1^2\\left[2(x-1)-\\frac{x-1}{2}\\right]dx+\\int_2^3\\left[(4-x)-\\frac{x-1}{2}\\right]dx$. First: $\\frac32\\cdot\\frac12=\\frac34$. Second: $\\int_2^3\\left(\\frac92-\\frac{3x}{2}\\right)dx=\\frac92-\\frac32\\cdot\\frac52=\\frac34$. Area $=\\frac34+\\frac34=\\frac32$ square units.",
+      "keywords": [
+        "equations of sides",
+        "two integrals",
+        "3/2"
+      ]
+    },
+    {
+      "id": "board-mat-application-of-integrals-010",
+      "q": "Find the area enclosed between the curve $y=\\cos x$ and the x-axis from $x=0$ to $x=2\\pi$.",
+      "marks": 3,
+      "type": "numerical",
+      "frequency": "sometimes",
+      "answer": "Since $\\cos x$ changes sign, split the interval: Area $=\\int_0^{\\pi/2}\\cos x\\,dx+\\left|\\int_{\\pi/2}^{3\\pi/2}\\cos x\\,dx\\right|+\\int_{3\\pi/2}^{2\\pi}\\cos x\\,dx=1+2+1=4$ square units.",
+      "keywords": [
+        "sign change",
+        "split limits",
+        "modulus",
+        "4 sq units"
+      ]
+    },
+    {
+      "id": "board-mat-application-of-integrals-011",
+      "q": "Find the area of the region bounded by the parabola $y^2=4ax$ and its latus rectum.",
+      "marks": 5,
+      "type": "derivation",
+      "frequency": "very often",
+      "answer": "Latus rectum is $x=a$. The region is symmetric about the x-axis. Area $=2\\int_0^a y\\,dx=2\\int_0^a 2\\sqrt a\\sqrt x\\,dx=4\\sqrt a\\left[\\frac23x^{3/2}\\right]_0^a=\\frac{8a^2}{3}$ square units. [Sketch: parabola opening to the right with vertex at origin; shaded region between curve and the line $x=a$.]",
+      "keywords": [
+        "sketch",
+        "latus rectum x=a",
+        "symmetry",
+        "8a^2/3"
+      ]
+    },
+    {
+      "id": "board-mat-application-of-integrals-012",
+      "q": "Find the area of the region enclosed between the circle $x^2+y^2=16$ and the parabola $y^2=6x$.",
+      "marks": 5,
+      "type": "numerical",
+      "frequency": "often",
+      "answer": "Solving: $x^2+6x-16=0\\Rightarrow x=2$ (points $(2,\\pm2\\sqrt3)$). Area $=2\\left[\\int_0^2\\sqrt6\\sqrt x\\,dx+\\int_2^4\\sqrt{16-x^2}\\,dx\\right]$. First: $\\sqrt6\\cdot\\frac23\\cdot2\\sqrt2=\\frac{8\\sqrt3}{3}$. Second: $\\left[\\frac x2\\sqrt{16-x^2}+8\\sin^{-1}\\frac x4\\right]_2^4=4\\pi-2\\sqrt3-\\frac{4\\pi}{3}=\\frac{8\\pi}{3}-2\\sqrt3$. Area $=2\\left[\\frac{2\\sqrt3}{3}+\\frac{8\\pi}{3}\\right]=\\frac43(4\\pi+\\sqrt3)$ square units.",
+      "keywords": [
+        "point of intersection",
+        "two integrals",
+        "symmetry",
+        "final answer"
+      ]
+    }
+  ]
+}

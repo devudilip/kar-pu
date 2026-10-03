@@ -1,0 +1,185 @@
+{
+  "slug": "dual-nature-of-radiation-and-matter",
+  "subject": "physics",
+  "pattern": "This chapter usually carries 6-9 marks: a 1-mark on work function, threshold frequency or de Broglie hypothesis, a 2-mark or 3-mark numerical on Einstein's equation or de Broglie wavelength, and often a 5-mark question on Einstein's explanation of the photoelectric effect or the Davisson-Germer experiment. Examiners expect the equation $h\\nu = \\phi_0 + K_{max}$, the observations that wave theory fails to explain and the formula $\\lambda = h/p$.",
+  "questions": [
+    {
+      "id": "board-phy-dual-nature-of-radiation-and-matter-001",
+      "q": "Define work function of a metal. Write its unit.",
+      "marks": 1,
+      "type": "definition",
+      "frequency": "very often",
+      "answer": "The minimum energy required to liberate an electron from the surface of a metal is called the work function ($\\phi_0$) of that metal. Its unit is joule or, more conveniently, electron volt (eV).",
+      "keywords": [
+        "minimum energy",
+        "free electron from metal surface",
+        "eV"
+      ]
+    },
+    {
+      "id": "board-phy-dual-nature-of-radiation-and-matter-002",
+      "q": "State de Broglie hypothesis. Write the expression for de Broglie wavelength.",
+      "marks": 1,
+      "type": "definition",
+      "frequency": "very often",
+      "answer": "de Broglie hypothesis: moving material particles such as electrons, protons and atoms are associated with waves, called matter waves. The de Broglie wavelength of a particle of momentum $p = mv$ is $\\lambda = \\dfrac{h}{p} = \\dfrac{h}{mv}$.",
+      "keywords": [
+        "matter waves",
+        "moving particle",
+        "$\\lambda=h/mv$"
+      ]
+    },
+    {
+      "id": "board-phy-dual-nature-of-radiation-and-matter-003",
+      "q": "Define threshold frequency and stopping potential.",
+      "marks": 1,
+      "type": "definition",
+      "frequency": "often",
+      "answer": "Threshold frequency $\\nu_0$: the minimum frequency of incident radiation below which photoelectric emission does not occur from a given metal, however intense the light.\nStopping potential $V_0$: the minimum negative (retarding) potential given to the collector plate that just stops the most energetic photoelectrons, so photocurrent becomes zero ($eV_0 = K_{max}$).",
+      "keywords": [
+        "minimum frequency",
+        "no emission below",
+        "minimum retarding potential",
+        "$eV_0=K_{max}$"
+      ]
+    },
+    {
+      "id": "board-phy-dual-nature-of-radiation-and-matter-004",
+      "q": "Write Einstein's photoelectric equation and explain the terms. Hence explain the existence of threshold frequency.",
+      "marks": 2,
+      "type": "definition",
+      "frequency": "very often",
+      "answer": "$h\\nu = \\phi_0 + K_{max}$, or $K_{max} = h\\nu - \\phi_0$, where $h\\nu$ is the energy of the incident photon, $\\phi_0$ the work function and $K_{max}$ the maximum kinetic energy of the emitted photoelectron ($K_{max} = eV_0$).\nPhotoemission requires $K_{max} \\ge 0$, so $h\\nu \\ge \\phi_0$, i.e. $\\nu \\ge \\nu_0 = \\phi_0/h$. Below $\\nu_0$ the photon energy is too small to free an electron.",
+      "keywords": [
+        "$h\\nu=\\phi_0+K_{max}$",
+        "terms explained",
+        "$\\nu_0=\\phi_0/h$"
+      ]
+    },
+    {
+      "id": "board-phy-dual-nature-of-radiation-and-matter-005",
+      "q": "Mention two observations in the photoelectric effect that cannot be explained by the wave theory of light.",
+      "marks": 2,
+      "type": "reasoning",
+      "frequency": "very often",
+      "answer": "1. Existence of a threshold frequency: wave theory predicts that light of any frequency should eject electrons if the intensity is large enough or exposure long, but experiments show no emission below $\\nu_0$.\n2. Instantaneous emission: wave theory predicts a time delay to accumulate energy, but photoelectrons are emitted almost instantly ($\\sim10^{-9}$ s). Also, $K_{max}$ is independent of intensity and depends only on frequency, contrary to wave theory.",
+      "keywords": [
+        "threshold frequency",
+        "no time lag",
+        "$K_{max}$ independent of intensity"
+      ]
+    },
+    {
+      "id": "board-phy-dual-nature-of-radiation-and-matter-006",
+      "q": "Find the de Broglie wavelength of an electron accelerated from rest through a potential difference of 100 V.",
+      "marks": 2,
+      "type": "numerical",
+      "frequency": "very often",
+      "answer": "$\\lambda = \\dfrac{h}{\\sqrt{2meV}} = \\dfrac{1.227}{\\sqrt{V}}$ nm.\n$\\lambda = \\dfrac{1.227}{\\sqrt{100}} = 0.1227$ nm $\\approx 1.227\\ \\mathrm{\\AA}$.",
+      "keywords": [
+        "$\\lambda=h/\\sqrt{2meV}$",
+        "$1.227/\\sqrt V$ nm",
+        "0.1227 nm"
+      ]
+    },
+    {
+      "id": "board-phy-dual-nature-of-radiation-and-matter-007",
+      "q": "Calculate the de Broglie wavelength of a ball of mass 0.1 kg moving with a speed of 10 m s$^{-1}$. ($h = 6.63\\times10^{-34}$ J s) Why is its wave nature not observed?",
+      "marks": 2,
+      "type": "numerical",
+      "frequency": "often",
+      "answer": "$\\lambda = \\dfrac{h}{mv} = \\dfrac{6.63\\times10^{-34}}{0.1\\times10} = 6.63\\times10^{-34}$ m.\nThis wavelength is extremely small compared with any slit or atomic size, so no diffraction or interference can be observed for such macroscopic objects.",
+      "keywords": [
+        "$\\lambda=h/mv$",
+        "$6.63\\times10^{-34}$ m",
+        "too small to detect"
+      ]
+    },
+    {
+      "id": "board-phy-dual-nature-of-radiation-and-matter-008",
+      "q": "Mention any three properties of a photon.",
+      "marks": 3,
+      "type": "definition",
+      "frequency": "often",
+      "answer": "1. A photon is a quantum of light with energy $E = h\\nu = \\dfrac{hc}{\\lambda}$ and momentum $p = \\dfrac{h\\nu}{c} = \\dfrac{h}{\\lambda}$.\n2. Photons travel with the speed of light $c$ in vacuum, are electrically neutral and are not deflected by electric or magnetic fields.\n3. Their rest mass is zero; energy and momentum are conserved in collisions with matter, but the number of photons need not be conserved (they can be absorbed or emitted). Intensity depends on the number of photons per unit area per second.",
+      "keywords": [
+        "$E=h\\nu$",
+        "$p=h/\\lambda$",
+        "neutral, zero rest mass",
+        "speed $c$"
+      ]
+    },
+    {
+      "id": "board-phy-dual-nature-of-radiation-and-matter-009",
+      "q": "Light of wavelength 4000 $\\mathrm{\\AA}$ falls on a metal surface of work function 2.3 eV. Find the maximum kinetic energy of the photoelectrons and the stopping potential. ($hc = 12400$ eV $\\mathrm{\\AA}$)",
+      "marks": 3,
+      "type": "numerical",
+      "frequency": "very often",
+      "answer": "Photon energy: $E = \\dfrac{hc}{\\lambda} = \\dfrac{12400}{4000} = 3.1$ eV.\n$K_{max} = E - \\phi_0 = 3.1 - 2.3 = 0.8$ eV $= 0.8\\times1.6\\times10^{-19} = 1.28\\times10^{-19}$ J.\nStopping potential: $eV_0 = K_{max} \\Rightarrow V_0 = 0.8$ V.",
+      "keywords": [
+        "$E=hc/\\lambda=3.1$ eV",
+        "$K_{max}=h\\nu-\\phi_0$",
+        "0.8 eV",
+        "$V_0=0.8$ V"
+      ]
+    },
+    {
+      "id": "board-phy-dual-nature-of-radiation-and-matter-010",
+      "q": "State the laws (experimental observations) of photoelectric emission.",
+      "marks": 3,
+      "type": "definition",
+      "frequency": "very often",
+      "answer": "1. For a given metal and frequency, the photocurrent (number of photoelectrons per second) is directly proportional to the intensity of incident light.\n2. The saturation current depends on intensity but the stopping potential does not.\n3. For a given metal there is a threshold frequency $\\nu_0$ below which no photoemission occurs, regardless of intensity.\n4. The maximum kinetic energy of photoelectrons increases linearly with the frequency and is independent of intensity.\n5. Emission is instantaneous (time lag below $10^{-9}$ s).",
+      "keywords": [
+        "photocurrent proportional to intensity",
+        "threshold frequency",
+        "$K_{max}$ depends on frequency",
+        "instantaneous"
+      ]
+    },
+    {
+      "id": "board-phy-dual-nature-of-radiation-and-matter-011",
+      "q": "Derive the expression for the de Broglie wavelength of an electron accelerated through a potential difference $V$.",
+      "marks": 3,
+      "type": "derivation",
+      "frequency": "often",
+      "answer": "An electron of charge $e$ and mass $m$ accelerated from rest through $V$ gains kinetic energy\n$\\dfrac12 mv^2 = eV \\Rightarrow v = \\sqrt{\\dfrac{2eV}{m}}$.\nMomentum $p = mv = \\sqrt{2meV}$.\nBy de Broglie's relation $\\lambda = \\dfrac{h}{p}$:\n$\\lambda = \\dfrac{h}{\\sqrt{2meV}}$.\nSubstituting the constants, $\\lambda = \\dfrac{1.227}{\\sqrt V}$ nm.",
+      "keywords": [
+        "kinetic energy $=eV$",
+        "$p=\\sqrt{2meV}$",
+        "$\\lambda=h/p$",
+        "final result"
+      ]
+    },
+    {
+      "id": "board-phy-dual-nature-of-radiation-and-matter-012",
+      "q": "Explain Einstein's photoelectric equation. How does it explain the laws of photoelectric emission?",
+      "marks": 5,
+      "type": "reasoning",
+      "frequency": "very often",
+      "answer": "Einstein proposed that light consists of quanta (photons), each of energy $h\\nu$. In the photoelectric effect one photon is absorbed by one electron. Part of this energy, $\\phi_0$, frees the electron from the metal; the rest appears as its kinetic energy:\n$h\\nu = \\phi_0 + \\dfrac12 mv_{max}^2$, i.e. $K_{max} = h\\nu - \\phi_0 = eV_0$.\nExplanation of observations:\n1. $\\nu_0 = \\phi_0/h$: if $\\nu < \\nu_0$ photon energy is below $\\phi_0$, no emission.\n2. $K_{max}$ depends linearly on $\\nu$ and not on intensity; intensity only gives the number of photons, hence the photocurrent is proportional to intensity.\n3. Emission is instantaneous because one photon transfers its energy to one electron at once.\n4. The graph of $V_0$ against $\\nu$ is a straight line of slope $h/e$.",
+      "keywords": [
+        "photon concept",
+        "$h\\nu=\\phi_0+K_{max}$",
+        "threshold frequency",
+        "intensity vs photocurrent",
+        "instantaneous emission"
+      ]
+    },
+    {
+      "id": "board-phy-dual-nature-of-radiation-and-matter-013",
+      "q": "Describe the Davisson-Germer experiment which confirmed the wave nature of electrons.",
+      "marks": 5,
+      "type": "diagram",
+      "frequency": "very often",
+      "answer": "Apparatus: electrons from a heated filament are accelerated by a potential $V$ and collimated into a narrow beam, which is incident on a nickel single crystal. A detector, movable on a circular scale, measures the intensity of electrons scattered at different angles $\\phi$.\nObservation: for 54 V electrons, the intensity of the scattered beam showed a sharp maximum at $\\phi = 50^\\circ$ (a diffraction peak), similar to X-ray diffraction.\nCalculation: For the Ni crystal the spacing is $d = 0.215$ nm; the Bragg-type condition gives $\\lambda = d\\sin\\phi = 0.215\\sin 50^\\circ \\approx 0.165$ nm.\nFrom de Broglie: $\\lambda = \\dfrac{1.227}{\\sqrt{54}}$ nm $= 0.167$ nm, in close agreement.\nConclusion: electrons show diffraction, so they behave as waves, confirming de Broglie's hypothesis.",
+      "keywords": [
+        "electron beam on nickel crystal",
+        "detector at angles",
+        "peak at $50^\\circ$ for 54 V",
+        "$\\lambda$ agreement",
+        "wave nature"
+      ]
+    }
+  ]
+}

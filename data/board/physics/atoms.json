@@ -1,0 +1,198 @@
+{
+  "slug": "atoms",
+  "subject": "physics",
+  "pattern": "Atoms usually fetches 6-9 marks: 1-mark on Bohr's quantisation or spectral series, 2-mark or 3-mark on limitations of Rutherford's model, Bohr's postulates or a numerical on wavelength or energy of hydrogen lines, and a 5-mark derivation of the radius and energy of the electron in the nth Bohr orbit. Examiners expect $r_n \\propto n^2$, $E_n = -13.6/n^2$ eV and correct use of the Rydberg formula.",
+  "questions": [
+    {
+      "id": "board-phy-atoms-001",
+      "q": "Write the Bohr quantisation condition for the angular momentum of an electron in a hydrogen atom.",
+      "marks": 1,
+      "type": "definition",
+      "frequency": "often",
+      "answer": "The electron revolves only in those orbits for which the angular momentum is an integral multiple of $h/2\\pi$: $L = mv_nr_n = \\dfrac{nh}{2\\pi}$, where $n = 1, 2, 3, \\ldots$ is the principal quantum number.",
+      "keywords": [
+        "$mvr=nh/2\\pi$",
+        "integral multiple",
+        "principal quantum number"
+      ]
+    },
+    {
+      "id": "board-phy-atoms-002",
+      "q": "Name the series of hydrogen spectrum that lies in the visible region. Write the Rydberg formula for it.",
+      "marks": 1,
+      "type": "definition",
+      "frequency": "often",
+      "answer": "The Balmer series lies in the visible region. $\\dfrac{1}{\\lambda} = R\\left(\\dfrac{1}{2^2} - \\dfrac{1}{n^2}\\right)$, $n = 3, 4, 5, \\ldots$ where $R = 1.097\\times10^{7}$ m$^{-1}$ is the Rydberg constant.",
+      "keywords": [
+        "Balmer series",
+        "$1/\\lambda=R(1/4-1/n^2)$",
+        "$n=3,4,\\ldots$"
+      ]
+    },
+    {
+      "id": "board-phy-atoms-003",
+      "q": "What is meant by impact parameter in alpha particle scattering?",
+      "marks": 1,
+      "type": "definition",
+      "frequency": "sometimes",
+      "answer": "The impact parameter is the perpendicular distance of the initial velocity vector of the alpha particle from the centre of the nucleus. A small impact parameter means a large angle of scattering; for zero impact parameter the particle rebounds ($180^\\circ$).",
+      "keywords": [
+        "perpendicular distance",
+        "initial velocity line from nucleus",
+        "small b large angle"
+      ]
+    },
+    {
+      "id": "board-phy-atoms-004",
+      "q": "Mention two limitations of Rutherford's atomic model.",
+      "marks": 2,
+      "type": "definition",
+      "frequency": "very often",
+      "answer": "1. It could not explain the stability of the atom: an electron in a circular orbit is accelerated and, by classical electromagnetic theory, would radiate energy continuously and spiral into the nucleus.\n2. It could not explain the line spectrum of atoms: a spiralling electron would emit a continuous spectrum, whereas atoms emit only discrete wavelengths.",
+      "keywords": [
+        "atom unstable",
+        "classical radiation",
+        "continuous vs line spectrum"
+      ]
+    },
+    {
+      "id": "board-phy-atoms-005",
+      "q": "Define ionisation energy. What is its value for the hydrogen atom?",
+      "marks": 2,
+      "type": "definition",
+      "frequency": "often",
+      "answer": "Ionisation energy is the minimum energy required to remove the electron completely from the atom in its ground state (take it to $n = \\infty$). For the hydrogen atom it is 13.6 eV, since the ground state energy is $-13.6$ eV.",
+      "keywords": [
+        "minimum energy to remove electron",
+        "ground state",
+        "13.6 eV"
+      ]
+    },
+    {
+      "id": "board-phy-atoms-006",
+      "q": "The ground state energy of hydrogen atom is $-13.6$ eV. Find the energy required to excite the electron from the ground state to the first excited state (n = 2).",
+      "marks": 2,
+      "type": "numerical",
+      "frequency": "often",
+      "answer": "$E_n = -\\dfrac{13.6}{n^2}$ eV.\n$E_1 = -13.6$ eV and $E_2 = -\\dfrac{13.6}{4} = -3.4$ eV.\nEnergy required $= E_2 - E_1 = -3.4 - (-13.6) = 10.2$ eV.",
+      "keywords": [
+        "$E_n=-13.6/n^2$",
+        "$E_2-E_1$",
+        "10.2 eV"
+      ]
+    },
+    {
+      "id": "board-phy-atoms-007",
+      "q": "Distinguish between emission spectrum and absorption spectrum.",
+      "marks": 2,
+      "type": "difference",
+      "frequency": "sometimes",
+      "answer": "Emission spectrum: produced when excited atoms or molecules emit light as electrons fall to lower levels; consists of bright lines (or bands) on a dark background at wavelengths characteristic of the element.\nAbsorption spectrum: produced when white light passes through a cool gas; the gas absorbs the same characteristic wavelengths, giving dark lines on a continuous bright background.",
+      "keywords": [
+        "bright lines on dark",
+        "dark lines on bright",
+        "same wavelengths"
+      ]
+    },
+    {
+      "id": "board-phy-atoms-008",
+      "q": "State Bohr's postulates of the hydrogen atom model.",
+      "marks": 3,
+      "type": "definition",
+      "frequency": "very often",
+      "answer": "1. The electron revolves around the nucleus in certain stable circular orbits without radiating energy; the centripetal force is provided by the electrostatic attraction.\n2. Only those orbits are allowed for which the angular momentum is an integral multiple of $\\dfrac{h}{2\\pi}$: $mvr = \\dfrac{nh}{2\\pi}$.\n3. Radiation is emitted or absorbed only when the electron jumps from one allowed orbit to another; the photon energy is $h\\nu = E_i - E_f$.",
+      "keywords": [
+        "stationary orbits no radiation",
+        "$mvr=nh/2\\pi$",
+        "$h\\nu=E_i-E_f$"
+      ]
+    },
+    {
+      "id": "board-phy-atoms-009",
+      "q": "Calculate the longest and the shortest wavelengths of the Balmer series of hydrogen. ($R = 1.097\\times10^{7}$ m$^{-1}$)",
+      "marks": 3,
+      "type": "numerical",
+      "frequency": "very often",
+      "answer": "$\\dfrac{1}{\\lambda} = R\\left(\\dfrac{1}{2^2} - \\dfrac{1}{n^2}\\right)$\nLongest wavelength ($n = 3$): $\\dfrac{1}{\\lambda} = R\\left(\\dfrac14 - \\dfrac19\\right) = \\dfrac{5R}{36}$, so $\\lambda = \\dfrac{36}{5\\times1.097\\times10^{7}} = 6.563\\times10^{-7}$ m $= 656.3$ nm.\nShortest wavelength ($n = \\infty$): $\\dfrac{1}{\\lambda} = \\dfrac{R}{4}$, so $\\lambda = \\dfrac{4}{1.097\\times10^{7}} = 3.646\\times10^{-7}$ m $= 364.6$ nm.",
+      "keywords": [
+        "Rydberg formula",
+        "$n=3$ longest",
+        "$n=\\infty$ shortest",
+        "656 nm and 365 nm"
+      ]
+    },
+    {
+      "id": "board-phy-atoms-010",
+      "q": "Describe Rutherford's alpha particle scattering experiment and state its conclusions.",
+      "marks": 3,
+      "type": "reasoning",
+      "frequency": "very often",
+      "answer": "A narrow beam of alpha particles from a radioactive source was directed at a thin gold foil and the scattered particles were detected on a rotating zinc sulphide screen.\nObservations: most alpha particles passed straight through; a small fraction were deflected through small angles; about 1 in 8000 was deflected by more than $90^\\circ$, and a few rebounded almost $180^\\circ$.\nConclusions: (i) most of the atom is empty space; (ii) the positive charge and almost all the mass are concentrated in a tiny central nucleus (size about $10^{-15}$ m); (iii) electrons revolve around the nucleus.",
+      "keywords": [
+        "gold foil",
+        "most undeflected",
+        "large angle deflection",
+        "nucleus small and massive"
+      ]
+    },
+    {
+      "id": "board-phy-atoms-011",
+      "q": "Explain the spectral series of hydrogen atom: Lyman, Balmer and Paschen series. Mention the region of the spectrum for each.",
+      "marks": 3,
+      "type": "definition",
+      "frequency": "often",
+      "answer": "These series arise when the electron falls from higher orbits to a fixed lower orbit $n_f$: $\\dfrac{1}{\\lambda} = R\\left(\\dfrac{1}{n_f^2} - \\dfrac{1}{n_i^2}\\right)$.\nLyman series: $n_f = 1$, $n_i = 2, 3, \\ldots$; ultraviolet region.\nBalmer series: $n_f = 2$, $n_i = 3, 4, \\ldots$; visible region.\nPaschen series: $n_f = 3$, $n_i = 4, 5, \\ldots$; infrared region (Brackett $n_f=4$ and Pfund $n_f=5$ are also in the infrared).",
+      "keywords": [
+        "$n_f=1,2,3$",
+        "Lyman UV",
+        "Balmer visible",
+        "Paschen IR"
+      ]
+    },
+    {
+      "id": "board-phy-atoms-012",
+      "q": "Using Bohr's postulates, derive the expression for the radius of the $n$th orbit and the speed of the electron in the hydrogen atom.",
+      "marks": 5,
+      "type": "derivation",
+      "frequency": "very often",
+      "answer": "The electrostatic force provides the centripetal force:\n$\\dfrac{mv^2}{r} = \\dfrac{1}{4\\pi\\epsilon_0}\\dfrac{e^2}{r^2}$ ... (1)\nBohr's quantisation condition: $mvr = \\dfrac{nh}{2\\pi}$, so $v = \\dfrac{nh}{2\\pi mr}$ ... (2)\nSubstituting (2) in (1): $\\dfrac{m}{r}\\cdot\\dfrac{n^2h^2}{4\\pi^2m^2r^2} = \\dfrac{e^2}{4\\pi\\epsilon_0r^2}$\n$\\Rightarrow r_n = \\dfrac{\\epsilon_0 n^2h^2}{\\pi me^2}$, i.e. $r_n \\propto n^2$.\nFor $n = 1$ this is the Bohr radius $a_0 = 0.529\\ \\mathrm{\\AA}$, so $r_n = 0.529\\,n^2\\ \\mathrm{\\AA}$.\nSpeed: $v_n = \\dfrac{nh}{2\\pi m r_n} = \\dfrac{e^2}{2\\epsilon_0 nh}$, so $v_n \\propto \\dfrac1n$ (about $2.19\\times10^6/n$ m s$^{-1}$).",
+      "keywords": [
+        "force equation",
+        "quantisation condition",
+        "$r_n=\\epsilon_0n^2h^2/\\pi me^2$",
+        "$r_n\\propto n^2$",
+        "$v_n\\propto1/n$"
+      ]
+    },
+    {
+      "id": "board-phy-atoms-013",
+      "q": "Derive the expression for the total energy of the electron in the $n$th orbit of the hydrogen atom and show that $E_n = -\\dfrac{13.6}{n^2}$ eV.",
+      "marks": 5,
+      "type": "derivation",
+      "frequency": "very often",
+      "answer": "From $\\dfrac{mv^2}{r} = \\dfrac{e^2}{4\\pi\\epsilon_0r^2}$, kinetic energy $K = \\dfrac12mv^2 = \\dfrac{e^2}{8\\pi\\epsilon_0r}$.\nPotential energy of the electron-proton system: $U = -\\dfrac{e^2}{4\\pi\\epsilon_0r}$.\nTotal energy $E = K + U = -\\dfrac{e^2}{8\\pi\\epsilon_0r}$.\nSubstituting $r_n = \\dfrac{\\epsilon_0n^2h^2}{\\pi me^2}$:\n$E_n = -\\dfrac{me^4}{8\\epsilon_0^2h^2}\\cdot\\dfrac{1}{n^2}$.\nPutting the values of the constants, $E_n = -2.18\\times10^{-18}\\dfrac{1}{n^2}$ J $= -\\dfrac{13.6}{n^2}$ eV.\nThe negative sign shows the electron is bound; $E_1 = -13.6$ eV, $E_2 = -3.4$ eV, $E_3 = -1.51$ eV, and $E_\\infty = 0$.",
+      "keywords": [
+        "$K=e^2/8\\pi\\epsilon_0r$",
+        "$U=-e^2/4\\pi\\epsilon_0r$",
+        "$E=-e^2/8\\pi\\epsilon_0r$",
+        "$E_n=-13.6/n^2$ eV",
+        "negative sign meaning"
+      ]
+    },
+    {
+      "id": "board-phy-atoms-014",
+      "q": "Explain the energy level diagram of the hydrogen atom. Obtain the Rydberg formula from Bohr's theory.",
+      "marks": 5,
+      "type": "derivation",
+      "frequency": "often",
+      "answer": "Energy levels: $E_1 = -13.6$ eV (ground state), $E_2 = -3.4$ eV, $E_3 = -1.51$ eV, $E_4 = -0.85$ eV, ..., $E_\\infty = 0$. The levels get closer as $n$ increases. Transitions to $n=1$ give the Lyman series (UV), to $n=2$ the Balmer series (visible), to $n=3$ the Paschen series (IR).\nWhen the electron jumps from $n_i$ to $n_f$, the photon energy is $h\\nu = E_i - E_f = \\dfrac{me^4}{8\\epsilon_0^2h^2}\\left(\\dfrac{1}{n_f^2} - \\dfrac{1}{n_i^2}\\right)$.\nSince $\\nu = c/\\lambda$: $\\dfrac{1}{\\lambda} = R\\left(\\dfrac{1}{n_f^2} - \\dfrac{1}{n_i^2}\\right)$ with $R = \\dfrac{me^4}{8\\epsilon_0^2ch^3} = 1.097\\times10^7$ m$^{-1}$, the Rydberg formula.",
+      "keywords": [
+        "energy values",
+        "levels converge",
+        "transitions and series",
+        "$h\\nu=E_i-E_f$",
+        "Rydberg constant"
+      ]
+    }
+  ]
+}

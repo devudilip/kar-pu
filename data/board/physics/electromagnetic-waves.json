@@ -1,0 +1,187 @@
+{
+  "slug": "electromagnetic-waves",
+  "subject": "physics",
+  "pattern": "This is a short chapter that normally fetches 4-6 marks: one 1-mark (displacement current, speed of EM waves, uses of a region of the spectrum), one 2-mark or 3-mark question on properties or sources and uses of EM waves, and an occasional numerical on $B_0 = E_0/c$ or on wavelength and frequency. Examiners expect Maxwell's displacement current idea, the formula $c = 1/\\sqrt{\\mu_0\\epsilon_0}$ and a clear table or list of the spectrum with one use each.",
+  "questions": [
+    {
+      "id": "board-phy-electromagnetic-waves-001",
+      "q": "Define displacement current.",
+      "marks": 1,
+      "type": "definition",
+      "frequency": "very often",
+      "answer": "The current that arises due to a time-varying electric field (changing electric flux) in a region, such as between the plates of a charging capacitor, is called displacement current. It is given by $I_d = \\epsilon_0 \\dfrac{d\\Phi_E}{dt}$, where $\\Phi_E$ is the electric flux. It was introduced by Maxwell to make Ampere's circuital law consistent.",
+      "keywords": [
+        "time-varying electric field",
+        "changing electric flux",
+        "$I_d=\\epsilon_0 d\\Phi_E/dt$",
+        "Maxwell"
+      ]
+    },
+    {
+      "id": "board-phy-electromagnetic-waves-002",
+      "q": "Write the expression for the speed of electromagnetic waves in free space in terms of $\\mu_0$ and $\\epsilon_0$.",
+      "marks": 1,
+      "type": "definition",
+      "frequency": "often",
+      "answer": "$c = \\dfrac{1}{\\sqrt{\\mu_0 \\epsilon_0}}$. Substituting $\\mu_0 = 4\\pi\\times10^{-7}$ T m A$^{-1}$ and $\\epsilon_0 = 8.85\\times10^{-12}$ C$^2$ N$^{-1}$ m$^{-2}$ gives $c \\approx 3\\times10^{8}$ m s$^{-1}$.",
+      "keywords": [
+        "$c=1/\\sqrt{\\mu_0\\epsilon_0}$",
+        "$3\\times10^8$ m/s"
+      ]
+    },
+    {
+      "id": "board-phy-electromagnetic-waves-003",
+      "q": "Name the part of the electromagnetic spectrum used in RADAR systems and in microwave ovens.",
+      "marks": 1,
+      "type": "definition",
+      "frequency": "often",
+      "answer": "Microwaves. Their short wavelength (about 1 mm to 0.1 m) allows them to be beamed in a particular direction in RADAR, and their frequency matches the natural frequency of water molecules, so they heat food in microwave ovens.",
+      "keywords": [
+        "microwaves",
+        "RADAR",
+        "water molecules"
+      ]
+    },
+    {
+      "id": "board-phy-electromagnetic-waves-004",
+      "q": "Mention any four characteristics of electromagnetic waves.",
+      "marks": 2,
+      "type": "definition",
+      "frequency": "very often",
+      "answer": "1. EM waves are produced by accelerated charges and need no material medium; they travel in vacuum with speed $c = 3\\times10^8$ m s$^{-1}$.\n2. They are transverse: the electric field $\\vec E$ and magnetic field $\\vec B$ are perpendicular to each other and to the direction of propagation.\n3. $E$ and $B$ oscillate in phase, and $E_0/B_0 = c$.\n4. They are not deflected by electric or magnetic fields, and they carry energy and momentum.",
+      "keywords": [
+        "accelerated charges",
+        "transverse",
+        "$E$ and $B$ perpendicular",
+        "no medium",
+        "speed $c$"
+      ]
+    },
+    {
+      "id": "board-phy-electromagnetic-waves-005",
+      "q": "Mention two uses each of infrared waves and ultraviolet waves.",
+      "marks": 2,
+      "type": "definition",
+      "frequency": "often",
+      "answer": "Infrared waves: (i) used in physical therapy to treat muscular strain; (ii) used in remote controls of TVs and in night-vision / greenhouse effect applications (they keep the Earth warm).\nUltraviolet waves: (i) used in LASIK eye surgery; (ii) used to sterilise water purifiers and surgical instruments, and in detecting forged documents.",
+      "keywords": [
+        "infrared",
+        "therapy / remote control",
+        "ultraviolet",
+        "LASIK / sterilisation"
+      ]
+    },
+    {
+      "id": "board-phy-electromagnetic-waves-006",
+      "q": "The electric field amplitude of an electromagnetic wave in free space is $E_0 = 18$ V m$^{-1}$. Calculate the amplitude of the magnetic field. ($c = 3\\times10^8$ m s$^{-1}$)",
+      "marks": 2,
+      "type": "numerical",
+      "frequency": "often",
+      "answer": "$B_0 = \\dfrac{E_0}{c}$\n$B_0 = \\dfrac{18}{3\\times10^{8}} = 6\\times10^{-8}$ T.",
+      "keywords": [
+        "$B_0=E_0/c$",
+        "substitution",
+        "$6\\times10^{-8}$ T"
+      ]
+    },
+    {
+      "id": "board-phy-electromagnetic-waves-007",
+      "q": "Why are electromagnetic waves not deflected by electric and magnetic fields?",
+      "marks": 2,
+      "type": "reasoning",
+      "frequency": "sometimes",
+      "answer": "Electromagnetic waves are made of oscillating electric and magnetic fields and carry no electric charge. An electric or magnetic field can exert a force only on a charged particle (or a current), so the neutral EM wave is not deflected by them.",
+      "keywords": [
+        "no charge",
+        "neutral",
+        "force on charge only"
+      ]
+    },
+    {
+      "id": "board-phy-electromagnetic-waves-008",
+      "q": "What was the inconsistency in Ampere's circuital law while charging a capacitor? How did Maxwell remove it? Write the modified law.",
+      "marks": 3,
+      "type": "reasoning",
+      "frequency": "very often",
+      "answer": "While a capacitor charges, current $I$ flows in the wires but none flows across the gap between the plates. Taking a loop around the wire, Ampere's law gives $\\oint \\vec B\\cdot d\\vec l = \\mu_0 I$ for a flat surface cutting the wire, but zero for a bulging surface passing between the plates. This is a contradiction.\nMaxwell proposed that a changing electric flux between the plates acts as a current, the displacement current $I_d = \\epsilon_0\\, d\\Phi_E/dt$. The corrected Ampere-Maxwell law is\n$\\oint \\vec B\\cdot d\\vec l = \\mu_0 (I_c + I_d) = \\mu_0 I_c + \\mu_0\\epsilon_0 \\dfrac{d\\Phi_E}{dt}$.",
+      "keywords": [
+        "inconsistency",
+        "displacement current",
+        "$\\epsilon_0 d\\Phi_E/dt$",
+        "Ampere-Maxwell law"
+      ]
+    },
+    {
+      "id": "board-phy-electromagnetic-waves-009",
+      "q": "A plane electromagnetic wave of frequency 25 MHz travels in free space along the x-direction. At a particular point and time, $\\vec E = 6.3$ V m$^{-1}$ along the y-direction. Find the magnitude and direction of $\\vec B$ at that point. Also find the wavelength.",
+      "marks": 3,
+      "type": "numerical",
+      "frequency": "often",
+      "answer": "$B = \\dfrac{E}{c} = \\dfrac{6.3}{3\\times10^{8}} = 2.1\\times10^{-8}$ T.\nSince $\\vec E \\times \\vec B$ must point along the direction of propagation (+x), and $\\vec E$ is along +y, $\\vec B$ is along the +z direction.\nWavelength: $\\lambda = \\dfrac{c}{f} = \\dfrac{3\\times10^{8}}{25\\times10^{6}} = 12$ m.",
+      "keywords": [
+        "$B=E/c$",
+        "$2.1\\times10^{-8}$ T",
+        "direction +z",
+        "$\\lambda=c/f=12$ m"
+      ]
+    },
+    {
+      "id": "board-phy-electromagnetic-waves-010",
+      "q": "Name the electromagnetic radiations that have (i) the longest wavelength, (ii) the highest frequency and (iii) are produced by the de-excitation of nuclei. Give one use of each.",
+      "marks": 3,
+      "type": "definition",
+      "frequency": "often",
+      "answer": "(i) Radio waves have the longest wavelength (above about 0.1 m); used in radio and television communication.\n(ii) Gamma rays have the highest frequency (shortest wavelength, below about $10^{-12}$ m); used in radiotherapy to destroy cancer cells.\n(iii) Gamma rays are emitted by excited nuclei during radioactive decay (de-excitation); they are also used to study nuclear structure and sterilise medical equipment.",
+      "keywords": [
+        "radio waves",
+        "gamma rays",
+        "radiotherapy",
+        "nuclear de-excitation"
+      ]
+    },
+    {
+      "id": "board-phy-electromagnetic-waves-011",
+      "q": "Write the source and one use of each of the following: (i) radio waves, (ii) microwaves, (iii) X-rays.",
+      "marks": 3,
+      "type": "definition",
+      "frequency": "often",
+      "answer": "(i) Radio waves: produced by accelerated charges in conducting wires (oscillating circuits); used in radio and TV broadcasting.\n(ii) Microwaves: produced by special vacuum tubes such as klystron and magnetron; used in RADAR, mobile communication and microwave ovens.\n(iii) X-rays: produced when high-energy electrons are suddenly stopped by a metal target (or by inner-shell electron transitions); used in medical diagnosis (to see fractures) and airport security.",
+      "keywords": [
+        "accelerated charges",
+        "magnetron / klystron",
+        "electron stopped by target",
+        "one use each"
+      ]
+    },
+    {
+      "id": "board-phy-electromagnetic-waves-012",
+      "q": "State Maxwell's four equations in integral form and mention the physical meaning of each.",
+      "marks": 5,
+      "type": "definition",
+      "frequency": "very often",
+      "answer": "1. Gauss's law for electricity: $\\oint \\vec E\\cdot d\\vec A = \\dfrac{q}{\\epsilon_0}$ - electric flux through a closed surface equals the enclosed charge divided by $\\epsilon_0$; charges are sources of electric field.\n2. Gauss's law for magnetism: $\\oint \\vec B\\cdot d\\vec A = 0$ - there are no magnetic monopoles; magnetic field lines are closed.\n3. Faraday's law: $\\oint \\vec E\\cdot d\\vec l = -\\dfrac{d\\Phi_B}{dt}$ - a changing magnetic flux induces an electric field.\n4. Ampere-Maxwell law: $\\oint \\vec B\\cdot d\\vec l = \\mu_0 I + \\mu_0\\epsilon_0\\dfrac{d\\Phi_E}{dt}$ - a current and a changing electric flux produce a magnetic field.\nTogether they predict EM waves travelling with $c = 1/\\sqrt{\\mu_0\\epsilon_0}$.",
+      "keywords": [
+        "Gauss law electric",
+        "Gauss law magnetic",
+        "Faraday law",
+        "Ampere-Maxwell law",
+        "physical meaning"
+      ]
+    },
+    {
+      "id": "board-phy-electromagnetic-waves-013",
+      "q": "Name the different regions of the electromagnetic spectrum in order of increasing wavelength, giving the approximate wavelength range, source and one use of any five of them.",
+      "marks": 5,
+      "type": "definition",
+      "frequency": "often",
+      "answer": "In order of increasing wavelength: gamma rays, X-rays, ultraviolet, visible, infrared, microwaves, radio waves.\n- Gamma rays ($<10^{-12}$ m): radioactive nuclei; radiotherapy.\n- X-rays ($10^{-8}$ to $10^{-13}$ m): sudden stopping of fast electrons; medical imaging.\n- Ultraviolet ($4\\times10^{-7}$ to $6\\times10^{-10}$ m): Sun, mercury lamp; LASIK, sterilisation.\n- Visible ($7\\times10^{-7}$ to $4\\times10^{-7}$ m): hot bodies, lamps; vision.\n- Infrared ($10^{-3}$ to $7\\times10^{-7}$ m): hot bodies, molecular vibrations; physical therapy, remote controls.\n- Microwaves (1 mm to 0.1 m): klystron, magnetron; RADAR, ovens.\n- Radio waves (above 0.1 m): accelerated charges in circuits; broadcasting.",
+      "keywords": [
+        "order of wavelength",
+        "gamma, X-ray, UV",
+        "visible, IR",
+        "microwave, radio",
+        "source and use"
+      ]
+    }
+  ]
+}

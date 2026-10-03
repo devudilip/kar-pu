@@ -1,0 +1,199 @@
+{
+  "slug": "relations-and-functions-2",
+  "subject": "maths",
+  "pattern": "Relations and Functions usually carries 6-8 marks in the Karnataka 2nd PUC maths paper: one or two 1-mark MCQs (types of relations or functions), a 2-mark or 3-mark proof that a relation is an equivalence relation, and a 5-mark question on showing a function is bijective or invertible and finding its inverse. Examiners expect each of reflexive, symmetric and transitive to be verified separately, and for one-one and onto to be proved with the standard steps.",
+  "questions": [
+    {
+      "id": "board-mat-relations-and-functions-2-001",
+      "q": "Define an equivalence relation on a set $A$.",
+      "marks": 1,
+      "type": "definition",
+      "frequency": "very often",
+      "answer": "A relation $R$ on a set $A$ is an equivalence relation if it is reflexive ($(a,a)\\in R$ for all $a\\in A$), symmetric ($(a,b)\\in R \\Rightarrow (b,a)\\in R$) and transitive ($(a,b),(b,c)\\in R \\Rightarrow (a,c)\\in R$).",
+      "keywords": [
+        "reflexive",
+        "symmetric",
+        "transitive"
+      ]
+    },
+    {
+      "id": "board-mat-relations-and-functions-2-002",
+      "q": "Define a one-one (injective) function.",
+      "marks": 1,
+      "type": "definition",
+      "frequency": "very often",
+      "answer": "A function $f:X\\to Y$ is one-one if distinct elements of $X$ have distinct images in $Y$, that is, $f(x_1)=f(x_2)\\Rightarrow x_1=x_2$ for all $x_1,x_2\\in X$.",
+      "keywords": [
+        "distinct elements",
+        "distinct images",
+        "f(x1)=f(x2) implies x1=x2"
+      ]
+    },
+    {
+      "id": "board-mat-relations-and-functions-2-003",
+      "q": "Define a bijective function.",
+      "marks": 1,
+      "type": "definition",
+      "frequency": "often",
+      "answer": "A function $f:X\\to Y$ is bijective if it is both one-one (injective) and onto (surjective). A function is invertible if and only if it is bijective.",
+      "keywords": [
+        "one-one",
+        "onto",
+        "invertible"
+      ]
+    },
+    {
+      "id": "board-mat-relations-and-functions-2-004",
+      "q": "Show that the relation $R=\\{(1,2),(2,1)\\}$ in the set $A=\\{1,2,3\\}$ is symmetric but neither reflexive nor transitive.",
+      "marks": 2,
+      "type": "reasoning",
+      "frequency": "very often",
+      "answer": "Reflexive: $(1,1)\\notin R$, so $R$ is not reflexive. Symmetric: $(1,2)\\in R$ and $(2,1)\\in R$, so for every $(a,b)\\in R$ we have $(b,a)\\in R$; hence $R$ is symmetric. Transitive: $(1,2)\\in R$ and $(2,1)\\in R$ but $(1,1)\\notin R$, so $R$ is not transitive.",
+      "keywords": [
+        "not reflexive (1,1) missing",
+        "symmetric",
+        "not transitive (1,1)"
+      ]
+    },
+    {
+      "id": "board-mat-relations-and-functions-2-005",
+      "q": "Show that $f:\\mathbb{N}\\to\\mathbb{N}$ given by $f(x)=2x$ is one-one but not onto.",
+      "marks": 2,
+      "type": "reasoning",
+      "frequency": "very often",
+      "answer": "One-one: let $f(x_1)=f(x_2)$. Then $2x_1=2x_2$, so $x_1=x_2$. Hence $f$ is one-one. Not onto: for $1\\in\\mathbb{N}$ (codomain) we need $2x=1$, i.e. $x=\\tfrac12\\notin\\mathbb{N}$. So no pre-image exists for $1$ and $f$ is not onto.",
+      "keywords": [
+        "f(x1)=f(x2)",
+        "one-one",
+        "pre-image of 1 not in N",
+        "not onto"
+      ]
+    },
+    {
+      "id": "board-mat-relations-and-functions-2-006",
+      "q": "Show that the modulus function $f:\\mathbb{R}\\to\\mathbb{R}$, $f(x)=|x|$ is neither one-one nor onto.",
+      "marks": 2,
+      "type": "reasoning",
+      "frequency": "often",
+      "answer": "Not one-one: $f(-1)=1=f(1)$ but $-1\\neq 1$. Not onto: $f(x)=|x|\\ge 0$ for all $x$, so a negative number such as $-1\\in\\mathbb{R}$ (codomain) has no pre-image. Hence $f$ is neither one-one nor onto.",
+      "keywords": [
+        "f(-1)=f(1)",
+        "range is non-negative",
+        "no pre-image of -1"
+      ]
+    },
+    {
+      "id": "board-mat-relations-and-functions-2-007",
+      "q": "If $f(x)=2x+3$ and $g(x)=x^2$, find $f\\circ g$ and $g\\circ f$.",
+      "marks": 2,
+      "type": "numerical",
+      "frequency": "often",
+      "answer": "$(f\\circ g)(x)=f(g(x))=f(x^2)=2x^2+3$. $(g\\circ f)(x)=g(f(x))=g(2x+3)=(2x+3)^2=4x^2+12x+9$. Clearly $f\\circ g\\neq g\\circ f$.",
+      "keywords": [
+        "f(g(x))=2x^2+3",
+        "g(f(x))=(2x+3)^2",
+        "not equal"
+      ]
+    },
+    {
+      "id": "board-mat-relations-and-functions-2-008",
+      "q": "Show that the relation $R$ in the set $\\mathbb{Z}$ of integers given by $R=\\{(a,b): 2 \\text{ divides } a-b\\}$ is an equivalence relation.",
+      "marks": 3,
+      "type": "reasoning",
+      "frequency": "very often",
+      "answer": "Reflexive: for any $a\\in\\mathbb{Z}$, $a-a=0$ is divisible by 2, so $(a,a)\\in R$. Symmetric: if $(a,b)\\in R$ then $2\\mid(a-b)$, hence $2\\mid(b-a)$, so $(b,a)\\in R$. Transitive: if $(a,b),(b,c)\\in R$ then $2\\mid(a-b)$ and $2\\mid(b-c)$, so $2\\mid(a-b)+(b-c)=a-c$, hence $(a,c)\\in R$. Since $R$ is reflexive, symmetric and transitive, it is an equivalence relation.",
+      "keywords": [
+        "reflexive a-a=0",
+        "symmetric",
+        "transitive a-c",
+        "equivalence relation"
+      ]
+    },
+    {
+      "id": "board-mat-relations-and-functions-2-009",
+      "q": "Show that $f:\\mathbb{R}\\to\\mathbb{R}$ defined by $f(x)=x^3$ is one-one and onto.",
+      "marks": 3,
+      "type": "reasoning",
+      "frequency": "often",
+      "answer": "One-one: let $f(x_1)=f(x_2)$, so $x_1^3=x_2^3$, which gives $x_1=x_2$ (cube root is unique over reals). Onto: let $y\\in\\mathbb{R}$ be arbitrary. Choose $x=y^{1/3}\\in\\mathbb{R}$; then $f(x)=(y^{1/3})^3=y$. So every element of the codomain has a pre-image. Hence $f$ is bijective.",
+      "keywords": [
+        "x1^3=x2^3",
+        "one-one",
+        "x=y^(1/3)",
+        "onto"
+      ]
+    },
+    {
+      "id": "board-mat-relations-and-functions-2-010",
+      "q": "Check whether the relation $R$ in $\\mathbb{R}$ defined by $R=\\{(a,b): a\\le b^2\\}$ is reflexive, symmetric or transitive.",
+      "marks": 3,
+      "type": "reasoning",
+      "frequency": "sometimes",
+      "answer": "Reflexive: take $a=\\tfrac12$; $\\tfrac12\\le \\tfrac14$ is false, so $(\\tfrac12,\\tfrac12)\\notin R$. Not reflexive. Symmetric: $(1,4)\\in R$ since $1\\le 16$, but $(4,1)\\notin R$ since $4\\le1$ is false. Not symmetric. Transitive: $(3,2)\\in R$ as $3\\le4$, and $(2,1.5)\\in R$ as $2\\le 2.25$, but $(3,1.5)\\notin R$ as $3\\le 2.25$ is false. Not transitive. So $R$ is none of the three.",
+      "keywords": [
+        "counter-example",
+        "not reflexive",
+        "not symmetric",
+        "not transitive"
+      ]
+    },
+    {
+      "id": "board-mat-relations-and-functions-2-011",
+      "q": "Show that $f(x)=4x+3$ from $\\mathbb{R}$ to $\\mathbb{R}$ is invertible and find $f^{-1}$.",
+      "marks": 3,
+      "type": "numerical",
+      "frequency": "often",
+      "answer": "One-one: $4x_1+3=4x_2+3\\Rightarrow x_1=x_2$. Onto: for $y\\in\\mathbb{R}$ take $x=\\dfrac{y-3}{4}$; then $f(x)=y$. So $f$ is bijective and hence invertible. Define $g(y)=\\dfrac{y-3}{4}$; then $g\\circ f(x)=\\dfrac{4x+3-3}{4}=x$ and $f\\circ g(y)=y$. Therefore $f^{-1}(y)=\\dfrac{y-3}{4}$.",
+      "keywords": [
+        "one-one",
+        "onto",
+        "bijective",
+        "f^{-1}(y)=(y-3)/4"
+      ]
+    },
+    {
+      "id": "board-mat-relations-and-functions-2-012",
+      "q": "Consider $f:\\mathbb{N}\\to\\mathbb{R}$ defined by $f(x)=4x^2+12x+15$. Show that $f:\\mathbb{N}\\to S$, where $S$ is the range of $f$, is invertible. Find the inverse of $f$.",
+      "marks": 5,
+      "type": "numerical",
+      "frequency": "very often",
+      "answer": "Write $f(x)=(2x+3)^2+6$. Range $S=\\{y: y=4x^2+12x+15,\\ x\\in\\mathbb{N}\\}$. One-one: $f(x_1)=f(x_2)\\Rightarrow(2x_1+3)^2=(2x_2+3)^2\\Rightarrow 2x_1+3=2x_2+3$ (both positive) $\\Rightarrow x_1=x_2$. Onto $S$: by definition of range every $y\\in S$ equals $f(x)$ for some $x\\in\\mathbb{N}$. So $f$ is bijective onto $S$ and invertible. Let $y=(2x+3)^2+6$. Then $2x+3=\\sqrt{y-6}$ so $x=\\dfrac{\\sqrt{y-6}-3}{2}$. Hence $f^{-1}(y)=\\dfrac{\\sqrt{y-6}-3}{2}$.",
+      "keywords": [
+        "(2x+3)^2+6",
+        "one-one",
+        "onto range S",
+        "f^{-1}(y)=(sqrt(y-6)-3)/2"
+      ]
+    },
+    {
+      "id": "board-mat-relations-and-functions-2-013",
+      "q": "Show that the relation $R$ in the set $A=\\{1,2,3,4,5\\}$ given by $R=\\{(a,b): |a-b| \\text{ is even}\\}$ is an equivalence relation. Show that all elements of $\\{1,3,5\\}$ are related to each other, all elements of $\\{2,4\\}$ are related to each other, but no element of $\\{1,3,5\\}$ is related to any element of $\\{2,4\\}$.",
+      "marks": 5,
+      "type": "reasoning",
+      "frequency": "very often",
+      "answer": "Reflexive: $|a-a|=0$ is even, so $(a,a)\\in R$. Symmetric: $|a-b|=|b-a|$, so if $|a-b|$ is even then $|b-a|$ is even. Transitive: if $|a-b|$ and $|b-c|$ are even then $a-b$ and $b-c$ are even, so $a-c=(a-b)+(b-c)$ is even and $|a-c|$ is even. Hence $R$ is an equivalence relation. For $a,b\\in\\{1,3,5\\}$ (all odd), $a-b$ is even, so they are related; similarly for $\\{2,4\\}$ (all even). For $a$ odd and $b$ even, $a-b$ is odd, so $(a,b)\\notin R$. Thus the two subsets are the equivalence classes.",
+      "keywords": [
+        "reflexive",
+        "symmetric",
+        "transitive",
+        "odd and even classes",
+        "odd difference not related"
+      ]
+    },
+    {
+      "id": "board-mat-relations-and-functions-2-014",
+      "q": "Show that $f:\\mathbb{R}-\\{-\\tfrac43\\}\\to\\mathbb{R}-\\{\\tfrac43\\}$ given by $f(x)=\\dfrac{4x}{3x+4}$ is one-one and onto. Hence find $f^{-1}$.",
+      "marks": 5,
+      "type": "numerical",
+      "frequency": "often",
+      "answer": "One-one: $f(x_1)=f(x_2)\\Rightarrow 4x_1(3x_2+4)=4x_2(3x_1+4)\\Rightarrow 16x_1=16x_2\\Rightarrow x_1=x_2$. Onto: let $y\\neq\\tfrac43$. Put $y=\\dfrac{4x}{3x+4}$; then $3xy+4y=4x$, so $x=\\dfrac{4y}{4-3y}$, which is defined as $y\\neq\\tfrac43$. Also $x\\neq-\\tfrac43$, since $\\dfrac{4y}{4-3y}=-\\dfrac43$ would give $12y=-16+12y$, impossible. So every $y$ has a pre-image and $f$ is onto. Hence $f$ is bijective and $f^{-1}(y)=\\dfrac{4y}{4-3y}$.",
+      "keywords": [
+        "one-one",
+        "cross multiply",
+        "x=4y/(4-3y)",
+        "onto",
+        "inverse"
+      ]
+    }
+  ]
+}

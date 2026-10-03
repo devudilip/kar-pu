@@ -1,0 +1,197 @@
+{
+  "slug": "ray-optics",
+  "subject": "physics",
+  "pattern": "Ray Optics is one of the highest-scoring chapters, usually carrying 8-11 marks: a 1-mark (power, critical angle, lens maker's formula), a 2-mark, a 3-mark numerical on mirror or lens formula or critical angle, and a 5-mark derivation. Favourite 5-markers are refraction at a spherical surface, the lens maker's formula and the prism formula, and the astronomical telescope or compound microscope. Examiners expect a neat labelled ray diagram, the sign convention and the final standard result.",
+  "questions": [
+    {
+      "id": "board-phy-ray-optics-001",
+      "q": "Define the power of a lens. Write its SI unit.",
+      "marks": 1,
+      "type": "definition",
+      "frequency": "very often",
+      "answer": "The power of a lens is the reciprocal of its focal length expressed in metres, $P = \\dfrac{1}{f}$. It measures the ability of the lens to converge or diverge light rays. Its SI unit is dioptre (D), where 1 D = 1 m$^{-1}$.",
+      "keywords": [
+        "reciprocal of focal length",
+        "metre",
+        "dioptre"
+      ]
+    },
+    {
+      "id": "board-phy-ray-optics-002",
+      "q": "Write the lens maker's formula.",
+      "marks": 1,
+      "type": "definition",
+      "frequency": "often",
+      "answer": "$\\dfrac{1}{f} = (n-1)\\left(\\dfrac{1}{R_1} - \\dfrac{1}{R_2}\\right)$, where $n$ is the refractive index of the lens material with respect to the surrounding medium and $R_1$, $R_2$ are the radii of curvature of the two surfaces (with sign convention).",
+      "keywords": [
+        "$1/f=(n-1)(1/R_1-1/R_2)$",
+        "radii of curvature"
+      ]
+    },
+    {
+      "id": "board-phy-ray-optics-003",
+      "q": "What is meant by critical angle? What are the conditions for total internal reflection?",
+      "marks": 1,
+      "type": "definition",
+      "frequency": "very often",
+      "answer": "The critical angle is the angle of incidence in the denser medium for which the angle of refraction in the rarer medium is $90^\\circ$. Conditions for total internal reflection: (i) light must travel from a denser to a rarer medium; (ii) the angle of incidence must be greater than the critical angle.",
+      "keywords": [
+        "denser to rarer",
+        "refraction $90^\\circ$",
+        "angle greater than critical angle"
+      ]
+    },
+    {
+      "id": "board-phy-ray-optics-004",
+      "q": "State the laws of refraction of light.",
+      "marks": 2,
+      "type": "definition",
+      "frequency": "often",
+      "answer": "1. The incident ray, the refracted ray and the normal to the interface at the point of incidence all lie in the same plane.\n2. The ratio of the sine of the angle of incidence to the sine of the angle of refraction is constant for a given pair of media and a given colour of light: $\\dfrac{\\sin i}{\\sin r} = n_{21}$ (Snell's law).",
+      "keywords": [
+        "same plane",
+        "$\\sin i/\\sin r$ constant",
+        "Snell law"
+      ]
+    },
+    {
+      "id": "board-phy-ray-optics-005",
+      "q": "Mention two applications of total internal reflection.",
+      "marks": 2,
+      "type": "definition",
+      "frequency": "very often",
+      "answer": "1. Optical fibres: light is sent along a thin glass fibre by repeated total internal reflections, used in communication and in endoscopy.\n2. Totally reflecting prisms (right-angled isosceles prisms) are used in periscopes and binoculars to bend or invert light by $90^\\circ$ or $180^\\circ$ without loss; also the sparkling of diamond and mirage are due to total internal reflection.",
+      "keywords": [
+        "optical fibre",
+        "prism / periscope",
+        "diamond sparkle or mirage"
+      ]
+    },
+    {
+      "id": "board-phy-ray-optics-006",
+      "q": "A convex lens of focal length 15 cm is placed in contact with a concave lens of focal length 30 cm. Find the focal length and power of the combination.",
+      "marks": 2,
+      "type": "numerical",
+      "frequency": "often",
+      "answer": "$f_1 = +15$ cm, $f_2 = -30$ cm.\n$\\dfrac{1}{f} = \\dfrac{1}{f_1} + \\dfrac{1}{f_2} = \\dfrac{1}{15} - \\dfrac{1}{30} = \\dfrac{1}{30}$\n$f = +30$ cm $= 0.3$ m (converging).\nPower $P = \\dfrac{1}{f} = \\dfrac{1}{0.3} = +3.33$ D.",
+      "keywords": [
+        "$1/f=1/f_1+1/f_2$",
+        "$f=30$ cm",
+        "$P=3.33$ D"
+      ]
+    },
+    {
+      "id": "board-phy-ray-optics-007",
+      "q": "What is dispersion of light? Why does a prism produce a spectrum?",
+      "marks": 2,
+      "type": "definition",
+      "frequency": "sometimes",
+      "answer": "The splitting of white light into its constituent colours on passing through a prism is called dispersion. The refractive index of the glass depends on wavelength (higher for violet, lower for red, Cauchy's relation), so different colours are deviated by different angles; violet is deviated the most and red the least, giving a spectrum.",
+      "keywords": [
+        "splitting of white light",
+        "refractive index varies with wavelength",
+        "violet deviated most"
+      ]
+    },
+    {
+      "id": "board-phy-ray-optics-008",
+      "q": "Derive the relation between the critical angle and the refractive index of the medium. Calculate the critical angle for glass of refractive index 1.5 with respect to air.",
+      "marks": 3,
+      "type": "derivation",
+      "frequency": "very often",
+      "answer": "Let light travel from a denser medium (refractive index $n$) to air. At the critical angle $C$ the angle of refraction is $90^\\circ$. By Snell's law, $n\\sin C = 1\\times\\sin 90^\\circ$, so\n$n = \\dfrac{1}{\\sin C}$ or $\\sin C = \\dfrac{1}{n}$.\nFor glass, $\\sin C = \\dfrac{1}{1.5} = 0.667$, so $C \\approx 41.8^\\circ$ (about $42^\\circ$).",
+      "keywords": [
+        "Snell law at critical angle",
+        "$n=1/\\sin C$",
+        "$C\\approx 42^\\circ$"
+      ]
+    },
+    {
+      "id": "board-phy-ray-optics-009",
+      "q": "An object 4 cm high is placed 15 cm in front of a concave mirror of focal length 10 cm. Find the position, nature and size of the image.",
+      "marks": 3,
+      "type": "numerical",
+      "frequency": "very often",
+      "answer": "$u = -15$ cm, $f = -10$ cm, $h_o = 4$ cm.\nMirror formula: $\\dfrac{1}{v} = \\dfrac{1}{f} - \\dfrac{1}{u} = -\\dfrac{1}{10} + \\dfrac{1}{15} = -\\dfrac{1}{30}$, so $v = -30$ cm.\nMagnification $m = -\\dfrac{v}{u} = -\\dfrac{-30}{-15} = -2$.\nImage height $= m h_o = -8$ cm.\nThe image is real, inverted, 8 cm high and formed 30 cm in front of the mirror.",
+      "keywords": [
+        "mirror formula",
+        "$v=-30$ cm",
+        "$m=-2$",
+        "real inverted"
+      ]
+    },
+    {
+      "id": "board-phy-ray-optics-010",
+      "q": "An object is placed 15 cm from a convex lens of focal length 10 cm. Find the image distance and magnification and state the nature of the image.",
+      "marks": 3,
+      "type": "numerical",
+      "frequency": "very often",
+      "answer": "$u = -15$ cm, $f = +10$ cm.\nLens formula: $\\dfrac{1}{v} - \\dfrac{1}{u} = \\dfrac{1}{f}$\n$\\dfrac{1}{v} = \\dfrac{1}{10} + \\dfrac{1}{-15} = \\dfrac{3-2}{30} = \\dfrac{1}{30}$, so $v = +30$ cm.\n$m = \\dfrac{v}{u} = \\dfrac{30}{-15} = -2$.\nThe image is real, inverted, twice the size of the object and on the other side of the lens, 30 cm from it.",
+      "keywords": [
+        "lens formula",
+        "$v=+30$ cm",
+        "$m=-2$",
+        "real inverted magnified"
+      ]
+    },
+    {
+      "id": "board-phy-ray-optics-011",
+      "q": "What is an optical fibre? Explain how light travels through it.",
+      "marks": 3,
+      "type": "reasoning",
+      "frequency": "often",
+      "answer": "An optical fibre is a very thin strand of glass or plastic having a high refractive index core surrounded by a cladding of lower refractive index.\nLight entering one end of the core at a suitable angle strikes the core-cladding boundary at an angle greater than the critical angle. It therefore undergoes total internal reflection again and again and travels along the fibre, even when bent, with very little loss, and emerges at the other end. Used in telecommunication and endoscopy.",
+      "keywords": [
+        "core and cladding",
+        "total internal reflection",
+        "angle greater than critical angle",
+        "communication"
+      ]
+    },
+    {
+      "id": "board-phy-ray-optics-012",
+      "q": "Derive the relation $\\dfrac{n_2}{v} - \\dfrac{n_1}{u} = \\dfrac{n_2-n_1}{R}$ for refraction at a convex spherical surface separating two media. (Rays are paraxial.)",
+      "marks": 5,
+      "type": "derivation",
+      "frequency": "very often",
+      "answer": "Let a convex surface with centre of curvature C and pole P separate medium 1 ($n_1$) and medium 2 ($n_2 > n_1$). A point object O on the principal axis at distance $u$ gives an image I at distance $v$. A ray from O meets the surface at M (small height $h$), making angles $\\alpha$ at O, $\\beta$ at C and $\\gamma$ at I; angle of incidence $i$ and refraction $r$.\nIn $\\triangle$OMC: $i = \\alpha + \\beta$. In $\\triangle$MCI: $\\beta = r + \\gamma$, so $r = \\beta - \\gamma$.\nSnell's law for small angles: $n_1 i = n_2 r$, so $n_1(\\alpha+\\beta) = n_2(\\beta-\\gamma)$.\nFor paraxial rays $\\alpha \\approx \\dfrac{h}{PO}$, $\\beta \\approx \\dfrac{h}{PC}$, $\\gamma \\approx \\dfrac{h}{PI}$. With sign convention $PO = -u$, $PC = +R$, $PI = +v$:\n$n_1\\left(\\dfrac{h}{-u} + \\dfrac{h}{R}\\right) = n_2\\left(\\dfrac{h}{R} - \\dfrac{h}{v}\\right)$\n$\\Rightarrow \\dfrac{n_2}{v} - \\dfrac{n_1}{u} = \\dfrac{n_2-n_1}{R}$.",
+      "keywords": [
+        "paraxial rays",
+        "$i=\\alpha+\\beta$",
+        "Snell law small angles",
+        "sign convention",
+        "final result"
+      ]
+    },
+    {
+      "id": "board-phy-ray-optics-013",
+      "q": "Derive the lens maker's formula $\\dfrac{1}{f} = (n-1)\\left(\\dfrac{1}{R_1}-\\dfrac{1}{R_2}\\right)$ for a thin lens.",
+      "marks": 5,
+      "type": "derivation",
+      "frequency": "very often",
+      "answer": "Consider a thin lens of refractive index $n_2$ in a medium of index $n_1$, with $n = n_2/n_1$. Surfaces ABC (radius $R_1$) and ADC (radius $R_2$) are close together, so distances are measured from the optic centre. Object O at distance $u$.\nRefraction at the first surface forms an image I$_1$ at $v_1$:\n$\\dfrac{n_2}{v_1} - \\dfrac{n_1}{u} = \\dfrac{n_2-n_1}{R_1}$ ... (1)\nI$_1$ acts as the virtual object for the second surface, which forms the final image at $v$:\n$\\dfrac{n_1}{v} - \\dfrac{n_2}{v_1} = \\dfrac{n_1-n_2}{R_2}$ ... (2)\nAdding (1) and (2): $\\dfrac{n_1}{v} - \\dfrac{n_1}{u} = (n_2-n_1)\\left(\\dfrac{1}{R_1}-\\dfrac{1}{R_2}\\right)$.\nDividing by $n_1$: $\\dfrac{1}{v}-\\dfrac{1}{u} = (n-1)\\left(\\dfrac{1}{R_1}-\\dfrac{1}{R_2}\\right)$.\nFor $u\\to\\infty$, $v = f$, so $\\dfrac{1}{f} = (n-1)\\left(\\dfrac{1}{R_1}-\\dfrac{1}{R_2}\\right)$.",
+      "keywords": [
+        "refraction at first surface",
+        "image as virtual object",
+        "add equations",
+        "$u\\to\\infty$, $v=f$",
+        "final result"
+      ]
+    },
+    {
+      "id": "board-phy-ray-optics-014",
+      "q": "Derive the expression for the refractive index of the material of a prism, $n = \\dfrac{\\sin\\frac{A+D_m}{2}}{\\sin\\frac{A}{2}}$, where $A$ is the angle of the prism and $D_m$ the angle of minimum deviation.",
+      "marks": 5,
+      "type": "derivation",
+      "frequency": "often",
+      "answer": "A ray PQ is incident on face AB at angle $i$, refracts at angle $r_1$, falls on face AC at angle $r_2$ and emerges at angle $e$. Deviation $D = (i - r_1) + (e - r_2)$.\nIn the quadrilateral formed with the normals, $r_1 + r_2 = A$, so $D = i + e - A$.\nAt minimum deviation the ray passes symmetrically through the prism: $i = e$ and $r_1 = r_2 = r$. Then\n$2r = A \\Rightarrow r = \\dfrac{A}{2}$, and $D_m = 2i - A \\Rightarrow i = \\dfrac{A+D_m}{2}$.\nBy Snell's law, $n = \\dfrac{\\sin i}{\\sin r}$:\n$n = \\dfrac{\\sin\\left(\\frac{A+D_m}{2}\\right)}{\\sin\\left(\\frac{A}{2}\\right)}$.",
+      "keywords": [
+        "$D=i+e-A$",
+        "$r_1+r_2=A$",
+        "minimum deviation: $i=e$",
+        "Snell law",
+        "final result"
+      ]
+    }
+  ]
+}

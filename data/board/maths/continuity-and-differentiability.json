@@ -1,0 +1,209 @@
+{
+  "slug": "continuity-and-differentiability",
+  "subject": "maths",
+  "pattern": "Continuity and Differentiability carries 10-12 marks in the Karnataka 2nd PUC maths paper: 1-mark definitions and quick derivatives, 2-mark implicit, logarithmic and parametric differentiation, 3-mark proofs such as differentiability implies continuity, Rolle's theorem or MVT verification and second-order derivative relations, and a 5-mark question on finding constants for continuity or a second derivative. Examiners expect the limit conditions (LHL = RHL = f(c)) and every differentiation step to be shown.",
+  "questions": [
+    {
+      "id": "board-mat-continuity-and-differentiability-001",
+      "q": "Define continuity of a function $f$ at a point $x=c$.",
+      "marks": 1,
+      "type": "definition",
+      "frequency": "very often",
+      "answer": "A function $f$ is continuous at $x=c$ if $\\displaystyle\\lim_{x\\to c}f(x)=f(c)$, i.e. the left hand limit, the right hand limit and the value of the function at $c$ all exist and are equal.",
+      "keywords": [
+        "LHL = RHL",
+        "limit = f(c)"
+      ]
+    },
+    {
+      "id": "board-mat-continuity-and-differentiability-002",
+      "q": "Find $\\dfrac{dy}{dx}$ if $y=e^{\\sin x}$.",
+      "marks": 1,
+      "type": "numerical",
+      "frequency": "very often",
+      "answer": "By the chain rule, $\\dfrac{dy}{dx}=e^{\\sin x}\\cdot\\dfrac{d}{dx}(\\sin x)=e^{\\sin x}\\cos x$.",
+      "keywords": [
+        "chain rule",
+        "e^{sin x} cos x"
+      ]
+    },
+    {
+      "id": "board-mat-continuity-and-differentiability-003",
+      "q": "State Rolle's theorem.",
+      "marks": 1,
+      "type": "definition",
+      "frequency": "very often",
+      "answer": "If $f:[a,b]\\to\\mathbb{R}$ is continuous on $[a,b]$, differentiable on $(a,b)$ and $f(a)=f(b)$, then there exists at least one point $c\\in(a,b)$ such that $f'(c)=0$.",
+      "keywords": [
+        "continuous on [a,b]",
+        "differentiable on (a,b)",
+        "f(a)=f(b)",
+        "f'(c)=0"
+      ]
+    },
+    {
+      "id": "board-mat-continuity-and-differentiability-004",
+      "q": "Find $\\dfrac{dy}{dx}$ if $x=a(\\theta+\\sin\\theta)$ and $y=a(1-\\cos\\theta)$.",
+      "marks": 2,
+      "type": "numerical",
+      "frequency": "very often",
+      "answer": "$\\dfrac{dx}{d\\theta}=a(1+\\cos\\theta)$ and $\\dfrac{dy}{d\\theta}=a\\sin\\theta$. Hence $\\dfrac{dy}{dx}=\\dfrac{a\\sin\\theta}{a(1+\\cos\\theta)}=\\dfrac{2\\sin\\frac\\theta2\\cos\\frac\\theta2}{2\\cos^2\\frac\\theta2}=\\tan\\dfrac{\\theta}{2}$.",
+      "keywords": [
+        "dx/dtheta",
+        "dy/dtheta",
+        "dy/dx = tan(theta/2)"
+      ]
+    },
+    {
+      "id": "board-mat-continuity-and-differentiability-005",
+      "q": "Differentiate $y=x^x$ with respect to $x$.",
+      "marks": 2,
+      "type": "numerical",
+      "frequency": "very often",
+      "answer": "Take logarithms: $\\log y=x\\log x$. Differentiate: $\\dfrac1y\\dfrac{dy}{dx}=x\\cdot\\dfrac1x+\\log x=1+\\log x$. Hence $\\dfrac{dy}{dx}=x^x(1+\\log x)$.",
+      "keywords": [
+        "take log",
+        "differentiate both sides",
+        "x^x(1+log x)"
+      ]
+    },
+    {
+      "id": "board-mat-continuity-and-differentiability-006",
+      "q": "Find $\\dfrac{dy}{dx}$ if $x^2+xy+y^2=100$.",
+      "marks": 2,
+      "type": "numerical",
+      "frequency": "often",
+      "answer": "Differentiating implicitly: $2x+\\left(y+x\\dfrac{dy}{dx}\\right)+2y\\dfrac{dy}{dx}=0$. So $(x+2y)\\dfrac{dy}{dx}=-(2x+y)$. Hence $\\dfrac{dy}{dx}=-\\dfrac{2x+y}{x+2y}$.",
+      "keywords": [
+        "implicit differentiation",
+        "product rule on xy",
+        "dy/dx = -(2x+y)/(x+2y)"
+      ]
+    },
+    {
+      "id": "board-mat-continuity-and-differentiability-007",
+      "q": "Find the value of $k$ for which $f(x)=\\begin{cases}kx+1,&x\\le5\\\\3x-5,&x>5\\end{cases}$ is continuous at $x=5$.",
+      "marks": 2,
+      "type": "numerical",
+      "frequency": "often",
+      "answer": "LHL $=\\lim_{x\\to5^-}(kx+1)=5k+1$. RHL $=\\lim_{x\\to5^+}(3x-5)=10$. $f(5)=5k+1$. For continuity LHL $=$ RHL $=f(5)$: $5k+1=10$, so $k=\\dfrac95$.",
+      "keywords": [
+        "LHL = 5k+1",
+        "RHL = 10",
+        "equate",
+        "k=9/5"
+      ]
+    },
+    {
+      "id": "board-mat-continuity-and-differentiability-008",
+      "q": "Prove that every differentiable function is continuous.",
+      "marks": 3,
+      "type": "derivation",
+      "frequency": "very often",
+      "answer": "Let $f$ be differentiable at $x=c$, so $f'(c)=\\lim_{x\\to c}\\dfrac{f(x)-f(c)}{x-c}$ exists. For $x\\neq c$, $f(x)-f(c)=\\dfrac{f(x)-f(c)}{x-c}\\cdot(x-c)$. Taking limits as $x\\to c$: $\\lim[f(x)-f(c)]=f'(c)\\cdot0=0$. Hence $\\lim_{x\\to c}f(x)=f(c)$, so $f$ is continuous at $c$. The converse is not true, e.g. $|x|$ at $0$.",
+      "keywords": [
+        "f'(c) exists",
+        "multiply and divide by x-c",
+        "limit = f(c)",
+        "converse false"
+      ]
+    },
+    {
+      "id": "board-mat-continuity-and-differentiability-009",
+      "q": "Differentiate $x^{\\sin x}+(\\sin x)^{\\cos x}$ with respect to $x$.",
+      "marks": 3,
+      "type": "numerical",
+      "frequency": "very often",
+      "answer": "Let $u=x^{\\sin x}$, $v=(\\sin x)^{\\cos x}$. $\\log u=\\sin x\\log x\\Rightarrow\\dfrac{du}{dx}=x^{\\sin x}\\left[\\dfrac{\\sin x}{x}+\\cos x\\log x\\right]$. $\\log v=\\cos x\\log\\sin x\\Rightarrow\\dfrac{dv}{dx}=(\\sin x)^{\\cos x}\\left[\\cos x\\cot x-\\sin x\\log\\sin x\\right]$. Hence $\\dfrac{dy}{dx}=\\dfrac{du}{dx}+\\dfrac{dv}{dx}$.",
+      "keywords": [
+        "logarithmic differentiation of u",
+        "logarithmic differentiation of v",
+        "sum of derivatives"
+      ]
+    },
+    {
+      "id": "board-mat-continuity-and-differentiability-010",
+      "q": "Differentiate $\\sin^{-1}\\left(\\dfrac{2x}{1+x^2}\\right)$ with respect to $x$, $|x|<1$.",
+      "marks": 3,
+      "type": "numerical",
+      "frequency": "often",
+      "answer": "Put $x=\\tan\\theta$, so $\\theta=\\tan^{-1}x$ with $|\\theta|<\\tfrac\\pi4$. Then $\\dfrac{2x}{1+x^2}=\\sin2\\theta$, so $y=\\sin^{-1}(\\sin2\\theta)=2\\theta=2\\tan^{-1}x$. Therefore $\\dfrac{dy}{dx}=\\dfrac{2}{1+x^2}$.",
+      "keywords": [
+        "x=tan theta",
+        "sin 2 theta",
+        "y=2tan^-1 x",
+        "2/(1+x^2)"
+      ]
+    },
+    {
+      "id": "board-mat-continuity-and-differentiability-011",
+      "q": "If $y=e^{a\\sin^{-1}x}$, show that $(1-x^2)\\dfrac{d^2y}{dx^2}-x\\dfrac{dy}{dx}-a^2y=0$.",
+      "marks": 3,
+      "type": "derivation",
+      "frequency": "often",
+      "answer": "$y_1=e^{a\\sin^{-1}x}\\cdot\\dfrac{a}{\\sqrt{1-x^2}}$, so $\\sqrt{1-x^2}\\,y_1=ay$. Differentiate: $\\sqrt{1-x^2}\\,y_2-\\dfrac{x}{\\sqrt{1-x^2}}y_1=ay_1$. Multiply by $\\sqrt{1-x^2}$: $(1-x^2)y_2-xy_1=a\\sqrt{1-x^2}\\,y_1=a\\cdot ay=a^2y$. Hence $(1-x^2)y_2-xy_1-a^2y=0$.",
+      "keywords": [
+        "y1",
+        "sqrt(1-x^2) y1 = a y",
+        "differentiate again",
+        "result"
+      ]
+    },
+    {
+      "id": "board-mat-continuity-and-differentiability-012",
+      "q": "Verify Rolle's theorem for $f(x)=x^2-4x+3$ on $[1,3]$.",
+      "marks": 3,
+      "type": "numerical",
+      "frequency": "very often",
+      "answer": "$f$ is a polynomial, so continuous on $[1,3]$ and differentiable on $(1,3)$. $f(1)=1-4+3=0$ and $f(3)=9-12+3=0$, so $f(1)=f(3)$. $f'(x)=2x-4=0\\Rightarrow x=2\\in(1,3)$. Hence Rolle's theorem is verified with $c=2$.",
+      "keywords": [
+        "continuity",
+        "differentiability",
+        "f(1)=f(3)=0",
+        "c=2"
+      ]
+    },
+    {
+      "id": "board-mat-continuity-and-differentiability-013",
+      "q": "Verify the Mean Value Theorem for $f(x)=x^2-4x-3$ on $[1,4]$.",
+      "marks": 3,
+      "type": "numerical",
+      "frequency": "very often",
+      "answer": "$f$ is a polynomial, hence continuous on $[1,4]$ and differentiable on $(1,4)$. $f(1)=-6$, $f(4)=-3$. $\\dfrac{f(4)-f(1)}{4-1}=\\dfrac{-3+6}{3}=1$. $f'(c)=2c-4=1\\Rightarrow c=\\dfrac52\\in(1,4)$. Hence the MVT is verified.",
+      "keywords": [
+        "continuity and differentiability",
+        "f(1), f(4)",
+        "slope = 1",
+        "c=5/2"
+      ]
+    },
+    {
+      "id": "board-mat-continuity-and-differentiability-014",
+      "q": "Find the values of $a$ and $b$ such that $f(x)=\\begin{cases}5,&x\\le2\\\\ax+b,&2<x<10\\\\21,&x\\ge10\\end{cases}$ is a continuous function.",
+      "marks": 5,
+      "type": "numerical",
+      "frequency": "very often",
+      "answer": "Continuity at $x=2$: LHL $=5$, RHL $=2a+b$, so $2a+b=5$ ... (i). Continuity at $x=10$: LHL $=10a+b$, RHL $=f(10)=21$, so $10a+b=21$ ... (ii). Subtract (i) from (ii): $8a=16$, so $a=2$. Then $b=5-4=1$. Hence $a=2$ and $b=1$.",
+      "keywords": [
+        "continuity at x=2",
+        "continuity at x=10",
+        "two equations",
+        "a=2, b=1"
+      ]
+    },
+    {
+      "id": "board-mat-continuity-and-differentiability-015",
+      "q": "If $x=a(\\cos\\theta+\\theta\\sin\\theta)$ and $y=a(\\sin\\theta-\\theta\\cos\\theta)$, find $\\dfrac{d^2y}{dx^2}$.",
+      "marks": 5,
+      "type": "numerical",
+      "frequency": "often",
+      "answer": "$\\dfrac{dx}{d\\theta}=a(-\\sin\\theta+\\sin\\theta+\\theta\\cos\\theta)=a\\theta\\cos\\theta$. $\\dfrac{dy}{d\\theta}=a(\\cos\\theta-\\cos\\theta+\\theta\\sin\\theta)=a\\theta\\sin\\theta$. So $\\dfrac{dy}{dx}=\\tan\\theta$. Then $\\dfrac{d^2y}{dx^2}=\\dfrac{d}{d\\theta}(\\tan\\theta)\\cdot\\dfrac{d\\theta}{dx}=\\sec^2\\theta\\cdot\\dfrac{1}{a\\theta\\cos\\theta}=\\dfrac{\\sec^3\\theta}{a\\theta}$.",
+      "keywords": [
+        "dx/dtheta",
+        "dy/dtheta",
+        "dy/dx = tan theta",
+        "d2y/dx2 = sec^3 theta/(a theta)"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,197 @@
+{
+  "slug": "inverse-trigonometric-functions",
+  "subject": "maths",
+  "pattern": "Inverse Trigonometric Functions carries about 6-8 marks in the Karnataka 2nd PUC paper: a 1-mark principal value, a 2-mark domain/range or identity proof, a 3-mark simplification or proof, and a 5-mark proof involving sum of inverse tangents. Examiners expect the principal value branches to be quoted correctly and the substitution step (x = tan theta etc.) to be shown with the range check.",
+  "questions": [
+    {
+      "id": "board-mat-inverse-trigonometric-functions-001",
+      "q": "Find the principal value of $\\sin^{-1}\\left(-\\tfrac12\\right)$.",
+      "marks": 1,
+      "type": "numerical",
+      "frequency": "very often",
+      "answer": "Let $\\sin^{-1}(-\\tfrac12)=y$, so $\\sin y=-\\tfrac12=\\sin\\left(-\\tfrac{\\pi}{6}\\right)$ with $y\\in[-\\tfrac{\\pi}{2},\\tfrac{\\pi}{2}]$. Hence the principal value is $-\\dfrac{\\pi}{6}$.",
+      "keywords": [
+        "sin y = -1/2",
+        "principal branch",
+        "-pi/6"
+      ]
+    },
+    {
+      "id": "board-mat-inverse-trigonometric-functions-002",
+      "q": "Find the principal value of $\\cos^{-1}\\left(-\\tfrac12\\right)$.",
+      "marks": 1,
+      "type": "numerical",
+      "frequency": "very often",
+      "answer": "Let $\\cos^{-1}(-\\tfrac12)=y$, so $\\cos y=-\\tfrac12=\\cos\\tfrac{2\\pi}{3}$ with $y\\in[0,\\pi]$. Hence the principal value is $\\dfrac{2\\pi}{3}$.",
+      "keywords": [
+        "cos y = -1/2",
+        "range [0, pi]",
+        "2pi/3"
+      ]
+    },
+    {
+      "id": "board-mat-inverse-trigonometric-functions-003",
+      "q": "Find the value of $\\tan^{-1}(1)+\\cos^{-1}\\left(-\\tfrac12\\right)+\\sin^{-1}\\left(-\\tfrac12\\right)$.",
+      "marks": 1,
+      "type": "numerical",
+      "frequency": "often",
+      "answer": "$\\tan^{-1}1=\\dfrac{\\pi}{4}$, $\\cos^{-1}(-\\tfrac12)=\\dfrac{2\\pi}{3}$, $\\sin^{-1}(-\\tfrac12)=-\\dfrac{\\pi}{6}$. Sum $=\\dfrac{\\pi}{4}+\\dfrac{2\\pi}{3}-\\dfrac{\\pi}{6}=\\dfrac{3\\pi+8\\pi-2\\pi}{12}=\\dfrac{3\\pi}{4}$.",
+      "keywords": [
+        "pi/4",
+        "2pi/3",
+        "-pi/6",
+        "3pi/4"
+      ]
+    },
+    {
+      "id": "board-mat-inverse-trigonometric-functions-004",
+      "q": "Write the domain and the range (principal value branch) of $\\cos^{-1}x$ and $\\tan^{-1}x$.",
+      "marks": 2,
+      "type": "definition",
+      "frequency": "very often",
+      "answer": "$\\cos^{-1}x$: domain $[-1,1]$, range (principal value branch) $[0,\\pi]$. $\\tan^{-1}x$: domain $\\mathbb{R}$, range (principal value branch) $\\left(-\\dfrac{\\pi}{2},\\dfrac{\\pi}{2}\\right)$.",
+      "keywords": [
+        "cos^-1 domain [-1,1]",
+        "range [0,pi]",
+        "tan^-1 domain R",
+        "range (-pi/2, pi/2)"
+      ]
+    },
+    {
+      "id": "board-mat-inverse-trigonometric-functions-005",
+      "q": "Prove that $\\sin^{-1}(-x)=-\\sin^{-1}x$, $x\\in[-1,1]$.",
+      "marks": 2,
+      "type": "derivation",
+      "frequency": "often",
+      "answer": "Let $\\sin^{-1}(-x)=y$. Then $\\sin y=-x$, so $x=-\\sin y=\\sin(-y)$. Therefore $\\sin^{-1}x=-y$ (as $-y$ lies in $[-\\tfrac{\\pi}{2},\\tfrac{\\pi}{2}]$), i.e. $y=-\\sin^{-1}x$. Hence $\\sin^{-1}(-x)=-\\sin^{-1}x$.",
+      "keywords": [
+        "let sin^-1(-x)=y",
+        "sin(-y)=x",
+        "result"
+      ]
+    },
+    {
+      "id": "board-mat-inverse-trigonometric-functions-006",
+      "q": "Find the value of $\\sin^{-1}\\left(\\sin\\dfrac{2\\pi}{3}\\right)$.",
+      "marks": 2,
+      "type": "numerical",
+      "frequency": "often",
+      "answer": "$\\sin^{-1}(\\sin x)=x$ only if $x\\in[-\\tfrac{\\pi}{2},\\tfrac{\\pi}{2}]$. Here $\\dfrac{2\\pi}{3}$ is outside, so write $\\sin\\dfrac{2\\pi}{3}=\\sin\\left(\\pi-\\dfrac{2\\pi}{3}\\right)=\\sin\\dfrac{\\pi}{3}$. Hence $\\sin^{-1}\\left(\\sin\\dfrac{2\\pi}{3}\\right)=\\dfrac{\\pi}{3}$.",
+      "keywords": [
+        "principal branch",
+        "sin(pi-x)",
+        "pi/3"
+      ]
+    },
+    {
+      "id": "board-mat-inverse-trigonometric-functions-007",
+      "q": "Prove that $\\tan^{-1}x+\\cot^{-1}x=\\dfrac{\\pi}{2}$, $x\\in\\mathbb{R}$.",
+      "marks": 2,
+      "type": "derivation",
+      "frequency": "very often",
+      "answer": "Let $\\tan^{-1}x=\\theta$, so $x=\\tan\\theta$. Then $x=\\cot\\left(\\dfrac{\\pi}{2}-\\theta\\right)$, hence $\\cot^{-1}x=\\dfrac{\\pi}{2}-\\theta$ (note $\\dfrac{\\pi}{2}-\\theta\\in(0,\\pi)$). Therefore $\\tan^{-1}x+\\cot^{-1}x=\\theta+\\dfrac{\\pi}{2}-\\theta=\\dfrac{\\pi}{2}$.",
+      "keywords": [
+        "x=tan theta",
+        "cot(pi/2 - theta)",
+        "result pi/2"
+      ]
+    },
+    {
+      "id": "board-mat-inverse-trigonometric-functions-008",
+      "q": "Prove that $2\\tan^{-1}x=\\sin^{-1}\\dfrac{2x}{1+x^2}$, $|x|\\le1$.",
+      "marks": 3,
+      "type": "derivation",
+      "frequency": "very often",
+      "answer": "Let $x=\\tan\\theta$, so $\\theta=\\tan^{-1}x$. Since $|x|\\le1$, $\\theta\\in\\left[-\\dfrac{\\pi}{4},\\dfrac{\\pi}{4}\\right]$. Then $\\dfrac{2x}{1+x^2}=\\dfrac{2\\tan\\theta}{1+\\tan^2\\theta}=\\sin2\\theta$ with $2\\theta\\in\\left[-\\dfrac{\\pi}{2},\\dfrac{\\pi}{2}\\right]$. Hence $\\sin^{-1}\\dfrac{2x}{1+x^2}=\\sin^{-1}(\\sin2\\theta)=2\\theta=2\\tan^{-1}x$.",
+      "keywords": [
+        "x=tan theta",
+        "2tan/(1+tan^2)=sin 2 theta",
+        "range check",
+        "result"
+      ]
+    },
+    {
+      "id": "board-mat-inverse-trigonometric-functions-009",
+      "q": "Prove that $3\\sin^{-1}x=\\sin^{-1}(3x-4x^3)$, $x\\in\\left[-\\tfrac12,\\tfrac12\\right]$.",
+      "marks": 3,
+      "type": "derivation",
+      "frequency": "often",
+      "answer": "Let $x=\\sin\\theta$, so $\\theta=\\sin^{-1}x$. For $x\\in[-\\tfrac12,\\tfrac12]$, $\\theta\\in\\left[-\\dfrac{\\pi}{6},\\dfrac{\\pi}{6}\\right]$ and $3\\theta\\in\\left[-\\dfrac{\\pi}{2},\\dfrac{\\pi}{2}\\right]$. Now $3x-4x^3=3\\sin\\theta-4\\sin^3\\theta=\\sin3\\theta$. Therefore $\\sin^{-1}(3x-4x^3)=\\sin^{-1}(\\sin3\\theta)=3\\theta=3\\sin^{-1}x$.",
+      "keywords": [
+        "x=sin theta",
+        "sin 3 theta",
+        "range of 3 theta",
+        "result"
+      ]
+    },
+    {
+      "id": "board-mat-inverse-trigonometric-functions-010",
+      "q": "Prove that $\\tan^{-1}\\tfrac12+\\tan^{-1}\\tfrac15+\\tan^{-1}\\tfrac18=\\dfrac{\\pi}{4}$.",
+      "marks": 3,
+      "type": "numerical",
+      "frequency": "very often",
+      "answer": "Use $\\tan^{-1}a+\\tan^{-1}b=\\tan^{-1}\\dfrac{a+b}{1-ab}$ for $ab<1$. $\\tan^{-1}\\tfrac12+\\tan^{-1}\\tfrac15=\\tan^{-1}\\dfrac{\\tfrac12+\\tfrac15}{1-\\tfrac1{10}}=\\tan^{-1}\\dfrac{7/10}{9/10}=\\tan^{-1}\\tfrac79$. Then $\\tan^{-1}\\tfrac79+\\tan^{-1}\\tfrac18=\\tan^{-1}\\dfrac{\\tfrac79+\\tfrac18}{1-\\tfrac{7}{72}}=\\tan^{-1}\\dfrac{65/72}{65/72}=\\tan^{-1}1=\\dfrac{\\pi}{4}$.",
+      "keywords": [
+        "addition formula",
+        "7/9",
+        "(65/72)/(65/72)=1",
+        "pi/4"
+      ]
+    },
+    {
+      "id": "board-mat-inverse-trigonometric-functions-011",
+      "q": "Write $\\tan^{-1}\\left(\\dfrac{\\sqrt{1+x^2}-1}{x}\\right)$, $x\\neq0$, in the simplest form.",
+      "marks": 3,
+      "type": "numerical",
+      "frequency": "often",
+      "answer": "Put $x=\\tan\\theta$, so $\\theta=\\tan^{-1}x$. Then $\\dfrac{\\sqrt{1+\\tan^2\\theta}-1}{\\tan\\theta}=\\dfrac{\\sec\\theta-1}{\\tan\\theta}=\\dfrac{1-\\cos\\theta}{\\sin\\theta}=\\dfrac{2\\sin^2(\\theta/2)}{2\\sin(\\theta/2)\\cos(\\theta/2)}=\\tan\\dfrac{\\theta}{2}$. Hence the expression $=\\tan^{-1}\\left(\\tan\\dfrac{\\theta}{2}\\right)=\\dfrac{\\theta}{2}=\\dfrac12\\tan^{-1}x$.",
+      "keywords": [
+        "x=tan theta",
+        "sec theta - 1",
+        "half angle",
+        "(1/2)tan^-1 x"
+      ]
+    },
+    {
+      "id": "board-mat-inverse-trigonometric-functions-012",
+      "q": "Solve for $x$ ($x>0$): $\\tan^{-1}\\left(\\dfrac{1-x}{1+x}\\right)=\\dfrac12\\tan^{-1}x$.",
+      "marks": 3,
+      "type": "numerical",
+      "frequency": "often",
+      "answer": "$\\tan^{-1}\\dfrac{1-x}{1+x}=\\tan^{-1}1-\\tan^{-1}x=\\dfrac{\\pi}{4}-\\tan^{-1}x$. So $\\dfrac{\\pi}{4}-\\tan^{-1}x=\\dfrac12\\tan^{-1}x$, giving $\\dfrac{3}{2}\\tan^{-1}x=\\dfrac{\\pi}{4}$, i.e. $\\tan^{-1}x=\\dfrac{\\pi}{6}$. Hence $x=\\tan\\dfrac{\\pi}{6}=\\dfrac{1}{\\sqrt3}$.",
+      "keywords": [
+        "tan^-1 a - tan^-1 b formula",
+        "pi/4 - tan^-1 x",
+        "x=1/sqrt3"
+      ]
+    },
+    {
+      "id": "board-mat-inverse-trigonometric-functions-013",
+      "q": "Prove that $\\sin^{-1}\\dfrac{12}{13}+\\cos^{-1}\\dfrac45+\\tan^{-1}\\dfrac{63}{16}=\\pi$.",
+      "marks": 5,
+      "type": "numerical",
+      "frequency": "very often",
+      "answer": "Let $\\sin^{-1}\\dfrac{12}{13}=\\alpha$ so $\\tan\\alpha=\\dfrac{12}{5}$; $\\cos^{-1}\\dfrac45=\\beta$ so $\\tan\\beta=\\dfrac34$. Then $\\tan(\\alpha+\\beta)=\\dfrac{\\tfrac{12}{5}+\\tfrac34}{1-\\tfrac{12}{5}\\cdot\\tfrac34}=\\dfrac{63/20}{-4/5}=-\\dfrac{63}{16}$. Since $\\alpha,\\beta$ are acute with $\\tan\\alpha\\tan\\beta>1$, $\\alpha+\\beta$ lies in $(\\tfrac{\\pi}{2},\\pi)$, so $\\alpha+\\beta=\\pi-\\tan^{-1}\\dfrac{63}{16}$. Hence $\\sin^{-1}\\dfrac{12}{13}+\\cos^{-1}\\dfrac45+\\tan^{-1}\\dfrac{63}{16}=\\pi$.",
+      "keywords": [
+        "convert to tan",
+        "tan(alpha+beta)=-63/16",
+        "second quadrant",
+        "pi"
+      ]
+    },
+    {
+      "id": "board-mat-inverse-trigonometric-functions-014",
+      "q": "Prove that $2\\tan^{-1}\\tfrac12+\\tan^{-1}\\tfrac17=\\tan^{-1}\\dfrac{31}{17}$.",
+      "marks": 5,
+      "type": "numerical",
+      "frequency": "often",
+      "answer": "Use $2\\tan^{-1}x=\\tan^{-1}\\dfrac{2x}{1-x^2}$ for $|x|<1$. $2\\tan^{-1}\\tfrac12=\\tan^{-1}\\dfrac{1}{1-\\tfrac14}=\\tan^{-1}\\dfrac43$. Then $\\tan^{-1}\\tfrac43+\\tan^{-1}\\tfrac17$: here $\\tfrac43\\cdot\\tfrac17=\\tfrac4{21}<1$, so the sum is $\\tan^{-1}\\dfrac{\\tfrac43+\\tfrac17}{1-\\tfrac{4}{21}}=\\tan^{-1}\\dfrac{31/21}{17/21}=\\tan^{-1}\\dfrac{31}{17}$. Hence proved.",
+      "keywords": [
+        "2tan^-1 x formula",
+        "4/3",
+        "addition formula",
+        "31/17"
+      ]
+    }
+  ]
+}

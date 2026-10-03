@@ -1,0 +1,196 @@
+{
+  "slug": "wave-optics",
+  "subject": "physics",
+  "pattern": "Wave Optics normally gives 7-10 marks: 1-mark questions on Huygens' principle, coherent sources or Brewster's law, a 2-mark or 3-mark numerical on fringe width or Brewster angle, and a 5-mark question that is almost always either the derivation of fringe width in Young's double slit experiment or the proof of the laws of reflection and refraction using Huygens' principle. Examiners expect a labelled wavefront or path-difference diagram described correctly and the final result $\\beta = \\lambda D/d$ or $n_1\\sin i = n_2 \\sin r$.",
+  "questions": [
+    {
+      "id": "board-phy-wave-optics-001",
+      "q": "State Huygens' principle.",
+      "marks": 1,
+      "type": "definition",
+      "frequency": "very often",
+      "answer": "Every point on a wavefront acts as a source of secondary wavelets that spread out in all directions with the speed of light in that medium. The new wavefront at a later time is the forward envelope (common tangent) of these secondary wavelets.",
+      "keywords": [
+        "each point secondary source",
+        "secondary wavelets",
+        "forward envelope"
+      ]
+    },
+    {
+      "id": "board-phy-wave-optics-002",
+      "q": "What are coherent sources? Why are two independent sodium lamps not coherent?",
+      "marks": 1,
+      "type": "definition",
+      "frequency": "often",
+      "answer": "Coherent sources are sources that emit waves of the same frequency with a constant (zero or fixed) phase difference between them. Two independent lamps are not coherent because the atoms emit light independently with randomly changing phase, so the phase difference changes rapidly.",
+      "keywords": [
+        "same frequency",
+        "constant phase difference",
+        "independent atoms random phase"
+      ]
+    },
+    {
+      "id": "board-phy-wave-optics-003",
+      "q": "State Brewster's law. Write the expression for the polarising angle.",
+      "marks": 1,
+      "type": "definition",
+      "frequency": "very often",
+      "answer": "Brewster's law: when unpolarised light is incident on a transparent surface at the polarising angle $i_p$, the reflected light is completely plane polarised and the reflected and refracted rays are perpendicular to each other. The refractive index of the medium is $n = \\tan i_p$.",
+      "keywords": [
+        "polarising angle",
+        "reflected light plane polarised",
+        "$n=\\tan i_p$"
+      ]
+    },
+    {
+      "id": "board-phy-wave-optics-004",
+      "q": "Mention the conditions for obtaining a sustained interference pattern.",
+      "marks": 2,
+      "type": "definition",
+      "frequency": "very often",
+      "answer": "1. The two sources must be coherent: same frequency and constant phase difference.\n2. The two waves must have nearly equal amplitudes so that the minima are dark and contrast is good.\n3. The sources must be narrow and very close to each other (small separation $d$), and the screen far away, so that fringes are wide enough to see; the light should be monochromatic.",
+      "keywords": [
+        "coherent sources",
+        "equal amplitude",
+        "monochromatic",
+        "close sources"
+      ]
+    },
+    {
+      "id": "board-phy-wave-optics-005",
+      "q": "Distinguish between interference and diffraction of light (any two points).",
+      "marks": 2,
+      "type": "difference",
+      "frequency": "often",
+      "answer": "Interference: results from the superposition of waves from two coherent sources; all bright fringes are equally bright and fringes are of equal width.\nDiffraction: results from the superposition of secondary wavelets from different parts of the same wavefront; the central maximum is the brightest and widest and the intensity of other maxima falls rapidly; fringe widths are unequal.",
+      "keywords": [
+        "two coherent sources vs same wavefront",
+        "equal vs unequal fringe width",
+        "intensity of fringes"
+      ]
+    },
+    {
+      "id": "board-phy-wave-optics-006",
+      "q": "In Young's double slit experiment, the slits are 1 mm apart and the screen is 1 m away. If light of wavelength 6000 $\\mathrm{\\AA}$ is used, find the fringe width.",
+      "marks": 2,
+      "type": "numerical",
+      "frequency": "very often",
+      "answer": "$d = 1$ mm $= 10^{-3}$ m, $D = 1$ m, $\\lambda = 6000\\ \\mathrm{\\AA} = 6\\times10^{-7}$ m.\n$\\beta = \\dfrac{\\lambda D}{d} = \\dfrac{6\\times10^{-7}\\times 1}{10^{-3}} = 6\\times10^{-4}$ m $= 0.6$ mm.",
+      "keywords": [
+        "$\\beta=\\lambda D/d$",
+        "conversion of units",
+        "0.6 mm"
+      ]
+    },
+    {
+      "id": "board-phy-wave-optics-007",
+      "q": "State Malus' law. What is the intensity of the light transmitted when unpolarised light of intensity $I_0$ passes through a polaroid?",
+      "marks": 2,
+      "type": "definition",
+      "frequency": "often",
+      "answer": "Malus' law: when plane polarised light of intensity $I_0$ passes through an analyser whose axis makes an angle $\\theta$ with the polarisation direction, the transmitted intensity is $I = I_0\\cos^2\\theta$.\nWhen unpolarised light of intensity $I_0$ passes through a polaroid, the transmitted light is plane polarised with intensity $I_0/2$.",
+      "keywords": [
+        "$I=I_0\\cos^2\\theta$",
+        "angle between axes",
+        "$I_0/2$"
+      ]
+    },
+    {
+      "id": "board-phy-wave-optics-008",
+      "q": "Explain the diffraction of light at a single slit. Obtain the condition for the minima and the width of the central maximum.",
+      "marks": 3,
+      "type": "derivation",
+      "frequency": "often",
+      "answer": "Light from a narrow slit of width $a$ spreads into the geometrical shadow and forms a central bright band with weaker bright bands on either side.\nConsider the direction $\\theta$ at which the path difference between the extreme rays of the slit is $a\\sin\\theta$. Dividing the slit into two halves, waves from corresponding points differ by $\\lambda/2$ when $a\\sin\\theta = \\lambda$, so they cancel. The condition for minima is\n$a\\sin\\theta = n\\lambda$, $n = \\pm1, \\pm2, \\ldots$\nFor the first minimum $\\theta \\approx \\dfrac{\\lambda}{a}$, so the angular width of the central maximum is $\\dfrac{2\\lambda}{a}$ and its linear width on a screen at distance $D$ is $\\dfrac{2\\lambda D}{a}$.",
+      "keywords": [
+        "secondary wavelets",
+        "$a\\sin\\theta=n\\lambda$",
+        "central maximum angular width $2\\lambda/a$",
+        "width $2\\lambda D/a$"
+      ]
+    },
+    {
+      "id": "board-phy-wave-optics-009",
+      "q": "A slit of width 0.1 mm is illuminated by light of wavelength 500 nm. Find the width of the central maximum on a screen placed 1 m away.",
+      "marks": 3,
+      "type": "numerical",
+      "frequency": "often",
+      "answer": "$a = 0.1$ mm $= 10^{-4}$ m, $\\lambda = 500$ nm $= 5\\times10^{-7}$ m, $D = 1$ m.\nWidth of central maximum $= \\dfrac{2\\lambda D}{a} = \\dfrac{2\\times5\\times10^{-7}\\times1}{10^{-4}} = 1\\times10^{-2}$ m.\nWidth $= 1$ cm.",
+      "keywords": [
+        "$2\\lambda D/a$",
+        "substitution",
+        "1 cm"
+      ]
+    },
+    {
+      "id": "board-phy-wave-optics-010",
+      "q": "Light is incident on a glass plate of refractive index $\\sqrt3$ at the polarising angle. Find the polarising angle and the angle of refraction. Show that the reflected and refracted rays are perpendicular.",
+      "marks": 3,
+      "type": "numerical",
+      "frequency": "often",
+      "answer": "By Brewster's law, $\\tan i_p = n = \\sqrt3 = 1.732$, so $i_p = 60^\\circ$.\nSnell's law: $\\dfrac{\\sin i_p}{\\sin r} = n \\Rightarrow \\sin r = \\dfrac{\\sin 60^\\circ}{\\sqrt3} = \\dfrac{\\sqrt3/2}{\\sqrt3} = \\dfrac12$, so $r = 30^\\circ$.\nAngle between reflected and refracted rays $= 180^\\circ - (i_p + r) = 180^\\circ - 90^\\circ = 90^\\circ$. Hence they are perpendicular.",
+      "keywords": [
+        "$\\tan i_p=n$",
+        "$i_p=60^\\circ$",
+        "$r=30^\\circ$",
+        "$i_p+r=90^\\circ$"
+      ]
+    },
+    {
+      "id": "board-phy-wave-optics-011",
+      "q": "What is a polaroid? Mention any three uses of polaroids.",
+      "marks": 3,
+      "type": "definition",
+      "frequency": "sometimes",
+      "answer": "A polaroid is a thin film or sheet containing long-chain molecules aligned in one direction, which transmits only light vibrating along its pass axis and absorbs the perpendicular vibrations, so it produces plane polarised light.\nUses: (i) sun glasses and window glass to reduce glare; (ii) photographic filters to cut reflections; (iii) 3D motion pictures and viewers; (iv) controlling light intensity in LCD displays and aircraft windows.",
+      "keywords": [
+        "aligned molecules",
+        "plane polarised light",
+        "glare reduction",
+        "3D / LCD"
+      ]
+    },
+    {
+      "id": "board-phy-wave-optics-012",
+      "q": "Derive the expression for fringe width in Young's double slit experiment. Write the conditions for constructive and destructive interference.",
+      "marks": 5,
+      "type": "derivation",
+      "frequency": "very often",
+      "answer": "Let S$_1$ and S$_2$ be two coherent slits a distance $d$ apart and a screen at distance $D$ ($D \\gg d$). Take point P on the screen at distance $x$ from the central point O.\nPath difference: $S_2P - S_1P \\approx \\dfrac{xd}{D}$.\nBright fringe (constructive): $\\dfrac{xd}{D} = n\\lambda \\Rightarrow x_n = \\dfrac{n\\lambda D}{d}$, $n = 0, 1, 2, \\ldots$\nDark fringe (destructive): $\\dfrac{xd}{D} = \\left(n+\\tfrac12\\right)\\lambda \\Rightarrow x_n = \\left(n+\\tfrac12\\right)\\dfrac{\\lambda D}{d}$.\nFringe width is the distance between successive bright (or dark) fringes:\n$\\beta = x_{n+1} - x_n = \\dfrac{\\lambda D}{d}$.\nThe fringes are equally spaced and of equal width.",
+      "keywords": [
+        "path difference $xd/D$",
+        "bright fringe condition",
+        "dark fringe condition",
+        "$\\beta=\\lambda D/d$"
+      ]
+    },
+    {
+      "id": "board-phy-wave-optics-013",
+      "q": "Using Huygens' principle, derive Snell's law of refraction of a plane wave at a plane surface.",
+      "marks": 5,
+      "type": "derivation",
+      "frequency": "very often",
+      "answer": "Let a plane wavefront AB be incident on the plane surface XY separating a rarer medium (speed $v_1$) from a denser medium (speed $v_2$), with angle of incidence $i$. Point A reaches the surface while B is at distance BC.\nIn time $\\tau$ the point B of the wavefront travels BC $= v_1\\tau$ to reach C on the surface, while the secondary wavelet from A travels in the second medium a distance AE $= v_2\\tau$. The refracted wavefront is the tangent CE to this wavelet.\nIn right triangles ABC and AEC: $\\sin i = \\dfrac{BC}{AC} = \\dfrac{v_1\\tau}{AC}$ and $\\sin r = \\dfrac{AE}{AC} = \\dfrac{v_2\\tau}{AC}$, where $r$ is the angle of refraction.\nSo $\\dfrac{\\sin i}{\\sin r} = \\dfrac{v_1}{v_2} = n_{21}$, a constant (Snell's law). Since $n_1 = c/v_1$ and $n_2 = c/v_2$, $n_1\\sin i = n_2\\sin r$.",
+      "keywords": [
+        "wavefront diagram described",
+        "$BC=v_1\\tau$, $AE=v_2\\tau$",
+        "$\\sin i$ and $\\sin r$",
+        "$v_1/v_2=n$"
+      ]
+    },
+    {
+      "id": "board-phy-wave-optics-014",
+      "q": "Verify the law of reflection using Huygens' principle.",
+      "marks": 5,
+      "type": "derivation",
+      "frequency": "often",
+      "answer": "Let a plane wavefront AB be incident on a reflecting plane surface MN at angle $i$ to the normal. Point A touches the surface first; when B reaches the surface at C after time $\\tau$, BC $= v\\tau$.\nDuring this time the secondary wavelet from A spreads in the same medium to a distance AE $= v\\tau$. The reflected wavefront is the tangent CE from C to this wavelet.\nTriangles ABC and AEC are right-angled, with common hypotenuse AC and BC $=$ AE $= v\\tau$, so they are congruent.\nHence $\\angle BAC = \\angle ECA$, i.e. the angle of incidence $i$ equals the angle of reflection $r$.\nThe incident ray, reflected ray and normal lie in the same plane, which verifies both laws of reflection.",
+      "keywords": [
+        "wavefront and secondary wavelet",
+        "$BC=AE=v\\tau$",
+        "congruent triangles",
+        "$i=r$"
+      ]
+    }
+  ]
+}

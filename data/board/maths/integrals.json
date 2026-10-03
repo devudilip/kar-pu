@@ -1,0 +1,201 @@
+{
+  "slug": "integrals",
+  "subject": "maths",
+  "pattern": "Integrals carries 12-14 marks in the Karnataka 2nd PUC maths paper, the highest-weight maths chapter: 1-mark standard integrals and definite integral values, 2-mark direct, substitution and by-parts integrals, 3-mark partial fractions, completing the square, e^x[f+f'] and property-based definite integrals, and a 5-mark question on the standard formula or a King-property definite integral. Examiners expect the substitution or method to be named, the constant of integration C for indefinite integrals, and limits applied correctly for definite integrals.",
+  "questions": [
+    {
+      "id": "board-mat-integrals-001",
+      "q": "Evaluate $\\displaystyle\\int\\dfrac{dx}{\\sqrt{1-x^2}}$.",
+      "marks": 1,
+      "type": "numerical",
+      "frequency": "very often",
+      "answer": "$\\displaystyle\\int\\dfrac{dx}{\\sqrt{1-x^2}}=\\sin^{-1}x+C$.",
+      "keywords": [
+        "standard integral",
+        "sin^-1 x + C"
+      ]
+    },
+    {
+      "id": "board-mat-integrals-002",
+      "q": "Evaluate $\\displaystyle\\int_0^{\\pi/2}\\sin x\\,dx$.",
+      "marks": 1,
+      "type": "numerical",
+      "frequency": "very often",
+      "answer": "$\\displaystyle\\int_0^{\\pi/2}\\sin x\\,dx=[-\\cos x]_0^{\\pi/2}=-\\cos\\tfrac\\pi2+\\cos0=0+1=1$.",
+      "keywords": [
+        "[-cos x]",
+        "limits applied",
+        "1"
+      ]
+    },
+    {
+      "id": "board-mat-integrals-003",
+      "q": "Write the formula for $\\displaystyle\\int e^x\\left[f(x)+f'(x)\\right]dx$.",
+      "marks": 1,
+      "type": "definition",
+      "frequency": "often",
+      "answer": "$\\displaystyle\\int e^x\\left[f(x)+f'(x)\\right]dx=e^xf(x)+C$.",
+      "keywords": [
+        "e^x f(x) + C"
+      ]
+    },
+    {
+      "id": "board-mat-integrals-004",
+      "q": "Evaluate $\\displaystyle\\int\\tan^2x\\,dx$.",
+      "marks": 2,
+      "type": "numerical",
+      "frequency": "very often",
+      "answer": "$\\tan^2x=\\sec^2x-1$. So $\\displaystyle\\int\\tan^2x\\,dx=\\int(\\sec^2x-1)\\,dx=\\tan x-x+C$.",
+      "keywords": [
+        "tan^2x = sec^2x - 1",
+        "tan x - x + C"
+      ]
+    },
+    {
+      "id": "board-mat-integrals-005",
+      "q": "Evaluate $\\displaystyle\\int xe^x\\,dx$.",
+      "marks": 2,
+      "type": "numerical",
+      "frequency": "very often",
+      "answer": "Integrate by parts with $u=x$, $dv=e^xdx$: $\\displaystyle\\int xe^xdx=xe^x-\\int e^xdx=xe^x-e^x+C=e^x(x-1)+C$.",
+      "keywords": [
+        "integration by parts",
+        "u=x, dv=e^x dx",
+        "e^x(x-1)+C"
+      ]
+    },
+    {
+      "id": "board-mat-integrals-006",
+      "q": "Evaluate $\\displaystyle\\int\\dfrac{dx}{x^2-16}$.",
+      "marks": 2,
+      "type": "numerical",
+      "frequency": "often",
+      "answer": "Use $\\displaystyle\\int\\dfrac{dx}{x^2-a^2}=\\dfrac{1}{2a}\\log\\left|\\dfrac{x-a}{x+a}\\right|+C$ with $a=4$. Hence the integral $=\\dfrac18\\log\\left|\\dfrac{x-4}{x+4}\\right|+C$.",
+      "keywords": [
+        "standard formula a=4",
+        "1/8 log|(x-4)/(x+4)| + C"
+      ]
+    },
+    {
+      "id": "board-mat-integrals-007",
+      "q": "Evaluate $\\displaystyle\\int_{-\\pi/2}^{\\pi/2}\\sin^3x\\,dx$.",
+      "marks": 2,
+      "type": "reasoning",
+      "frequency": "often",
+      "answer": "Let $f(x)=\\sin^3x$. $f(-x)=-\\sin^3x=-f(x)$, so $f$ is an odd function. For an odd function $\\displaystyle\\int_{-a}^{a}f(x)dx=0$. Hence the value is $0$.",
+      "keywords": [
+        "odd function",
+        "property -a to a",
+        "0"
+      ]
+    },
+    {
+      "id": "board-mat-integrals-008",
+      "q": "Evaluate $\\displaystyle\\int\\dfrac{dx}{x^2-6x+13}$.",
+      "marks": 3,
+      "type": "numerical",
+      "frequency": "very often",
+      "answer": "Complete the square: $x^2-6x+13=(x-3)^2+4=(x-3)^2+2^2$. Then $\\displaystyle\\int\\dfrac{dx}{(x-3)^2+2^2}=\\dfrac12\\tan^{-1}\\left(\\dfrac{x-3}{2}\\right)+C$.",
+      "keywords": [
+        "completing the square",
+        "(x-3)^2 + 2^2",
+        "(1/2) tan^-1((x-3)/2) + C"
+      ]
+    },
+    {
+      "id": "board-mat-integrals-009",
+      "q": "Evaluate $\\displaystyle\\int\\dfrac{dx}{(x-1)(x-2)}$.",
+      "marks": 3,
+      "type": "numerical",
+      "frequency": "very often",
+      "answer": "Write $\\dfrac{1}{(x-1)(x-2)}=\\dfrac{A}{x-1}+\\dfrac{B}{x-2}$. Then $1=A(x-2)+B(x-1)$. Put $x=1$: $A=-1$. Put $x=2$: $B=1$. So the integral $=\\displaystyle\\int\\left(\\dfrac{1}{x-2}-\\dfrac{1}{x-1}\\right)dx=\\log|x-2|-\\log|x-1|+C=\\log\\left|\\dfrac{x-2}{x-1}\\right|+C$.",
+      "keywords": [
+        "partial fractions",
+        "A=-1, B=1",
+        "log|(x-2)/(x-1)| + C"
+      ]
+    },
+    {
+      "id": "board-mat-integrals-010",
+      "q": "Evaluate $\\displaystyle\\int e^x\\,\\dfrac{1+\\sin x}{1+\\cos x}\\,dx$.",
+      "marks": 3,
+      "type": "numerical",
+      "frequency": "very often",
+      "answer": "$\\dfrac{1+\\sin x}{1+\\cos x}=\\dfrac{1+2\\sin\\frac x2\\cos\\frac x2}{2\\cos^2\\frac x2}=\\dfrac12\\sec^2\\dfrac x2+\\tan\\dfrac x2$. Let $f(x)=\\tan\\dfrac x2$, then $f'(x)=\\dfrac12\\sec^2\\dfrac x2$. So the integral is $\\int e^x[f(x)+f'(x)]dx=e^xf(x)+C=e^x\\tan\\dfrac x2+C$.",
+      "keywords": [
+        "half-angle simplification",
+        "f(x)=tan(x/2)",
+        "e^x[f+f']",
+        "e^x tan(x/2) + C"
+      ]
+    },
+    {
+      "id": "board-mat-integrals-011",
+      "q": "Evaluate $\\displaystyle\\int_0^{\\pi/2}\\dfrac{\\sin x}{\\sin x+\\cos x}\\,dx$.",
+      "marks": 3,
+      "type": "derivation",
+      "frequency": "very often",
+      "answer": "Let $I=\\displaystyle\\int_0^{\\pi/2}\\dfrac{\\sin x}{\\sin x+\\cos x}dx$. Using $\\int_0^af(x)dx=\\int_0^af(a-x)dx$: $I=\\displaystyle\\int_0^{\\pi/2}\\dfrac{\\cos x}{\\cos x+\\sin x}dx$. Adding: $2I=\\displaystyle\\int_0^{\\pi/2}1\\,dx=\\dfrac\\pi2$. Hence $I=\\dfrac\\pi4$.",
+      "keywords": [
+        "property f(a-x)",
+        "add the two forms",
+        "2I=pi/2",
+        "I=pi/4"
+      ]
+    },
+    {
+      "id": "board-mat-integrals-012",
+      "q": "Evaluate $\\displaystyle\\int\\sin^{-1}x\\,dx$.",
+      "marks": 3,
+      "type": "numerical",
+      "frequency": "often",
+      "answer": "Write as $\\int1\\cdot\\sin^{-1}x\\,dx$ and integrate by parts: $=x\\sin^{-1}x-\\displaystyle\\int\\dfrac{x}{\\sqrt{1-x^2}}dx$. Put $t=1-x^2$, $dt=-2x\\,dx$: $\\displaystyle\\int\\dfrac{x\\,dx}{\\sqrt{1-x^2}}=-\\sqrt{1-x^2}$. Hence $\\displaystyle\\int\\sin^{-1}x\\,dx=x\\sin^{-1}x+\\sqrt{1-x^2}+C$.",
+      "keywords": [
+        "by parts with 1",
+        "substitution t=1-x^2",
+        "x sin^-1 x + sqrt(1-x^2) + C"
+      ]
+    },
+    {
+      "id": "board-mat-integrals-013",
+      "q": "Evaluate $\\displaystyle\\int_0^1\\dfrac{x}{1+x^2}\\,dx$.",
+      "marks": 3,
+      "type": "numerical",
+      "frequency": "often",
+      "answer": "Put $t=1+x^2$, so $dt=2x\\,dx$. When $x=0$, $t=1$; when $x=1$, $t=2$. The integral $=\\dfrac12\\displaystyle\\int_1^2\\dfrac{dt}{t}=\\dfrac12[\\log t]_1^2=\\dfrac12\\log2$.",
+      "keywords": [
+        "substitution t=1+x^2",
+        "change of limits",
+        "(1/2) log 2"
+      ]
+    },
+    {
+      "id": "board-mat-integrals-014",
+      "q": "Derive the formula $\\displaystyle\\int\\sqrt{a^2-x^2}\\,dx=\\dfrac x2\\sqrt{a^2-x^2}+\\dfrac{a^2}{2}\\sin^{-1}\\dfrac xa+C$.",
+      "marks": 5,
+      "type": "derivation",
+      "frequency": "very often",
+      "answer": "Let $I=\\int\\sqrt{a^2-x^2}\\,dx=x\\sqrt{a^2-x^2}-\\int x\\cdot\\dfrac{-x}{\\sqrt{a^2-x^2}}dx$ (by parts, taking $1$ as second function) $=x\\sqrt{a^2-x^2}-\\int\\dfrac{(a^2-x^2)-a^2}{\\sqrt{a^2-x^2}}dx=x\\sqrt{a^2-x^2}-I+a^2\\sin^{-1}\\dfrac xa$. So $2I=x\\sqrt{a^2-x^2}+a^2\\sin^{-1}\\dfrac xa$. Hence $I=\\dfrac x2\\sqrt{a^2-x^2}+\\dfrac{a^2}2\\sin^{-1}\\dfrac xa+C$.",
+      "keywords": [
+        "integration by parts",
+        "add and subtract a^2",
+        "I appears on both sides",
+        "final formula"
+      ]
+    },
+    {
+      "id": "board-mat-integrals-015",
+      "q": "Evaluate $\\displaystyle\\int_0^\\pi\\dfrac{x\\sin x}{1+\\cos^2x}\\,dx$.",
+      "marks": 5,
+      "type": "numerical",
+      "frequency": "very often",
+      "answer": "Let $I=\\displaystyle\\int_0^\\pi\\dfrac{x\\sin x}{1+\\cos^2x}dx$. Using $\\int_0^af(x)dx=\\int_0^af(a-x)dx$: $I=\\displaystyle\\int_0^\\pi\\dfrac{(\\pi-x)\\sin x}{1+\\cos^2x}dx$. Adding: $2I=\\pi\\displaystyle\\int_0^\\pi\\dfrac{\\sin x}{1+\\cos^2x}dx$. Put $t=\\cos x$, $dt=-\\sin x\\,dx$; limits $1$ to $-1$: $2I=\\pi\\displaystyle\\int_{-1}^{1}\\dfrac{dt}{1+t^2}=\\pi[\\tan^{-1}t]_{-1}^{1}=\\pi\\left(\\dfrac\\pi4+\\dfrac\\pi4\\right)=\\dfrac{\\pi^2}2$. Hence $I=\\dfrac{\\pi^2}4$.",
+      "keywords": [
+        "property f(a-x)",
+        "2I = pi * integral",
+        "t=cos x with limits",
+        "pi^2/4"
+      ]
+    }
+  ]
+}

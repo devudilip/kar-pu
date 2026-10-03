@@ -1,0 +1,182 @@
+{
+  "slug": "nuclei",
+  "subject": "physics",
+  "pattern": "Nuclei normally carries 6-8 marks: 1-mark definitions (isotopes, half-life, mass defect), a 2-mark question on nuclear force or decay equations, a 3-mark numerical on binding energy or half-life, and a 5-mark question on the radioactive decay law or the nuclear reactor. Examiners expect $N = N_0e^{-\\lambda t}$, $T_{1/2} = 0.693/\\lambda$, the binding energy curve and the use of 1 u = 931.5 MeV.",
+  "questions": [
+    {
+      "id": "board-phy-nuclei-001",
+      "q": "What are isotopes? Give an example.",
+      "marks": 1,
+      "type": "definition",
+      "frequency": "very often",
+      "answer": "Isotopes are atoms of the same element having the same atomic number $Z$ (same number of protons) but different mass numbers $A$ (different number of neutrons). Example: hydrogen has the isotopes protium $\\,{}^{1}_{1}$H, deuterium $\\,{}^{2}_{1}$H and tritium $\\,{}^{3}_{1}$H.",
+      "keywords": [
+        "same atomic number",
+        "different mass number",
+        "example"
+      ]
+    },
+    {
+      "id": "board-phy-nuclei-002",
+      "q": "Define half-life of a radioactive substance.",
+      "marks": 1,
+      "type": "definition",
+      "frequency": "very often",
+      "answer": "The half-life $T_{1/2}$ is the time taken for half of the radioactive nuclei present in a sample to decay (for the activity to fall to half its initial value). $T_{1/2} = \\dfrac{0.693}{\\lambda}$, where $\\lambda$ is the decay constant.",
+      "keywords": [
+        "time for half to decay",
+        "$T_{1/2}=0.693/\\lambda$"
+      ]
+    },
+    {
+      "id": "board-phy-nuclei-003",
+      "q": "What is mass defect? Write the expression for the binding energy of a nucleus.",
+      "marks": 1,
+      "type": "definition",
+      "frequency": "very often",
+      "answer": "Mass defect is the difference between the sum of the masses of the free nucleons and the actual mass of the nucleus: $\\Delta m = [Zm_p + (A-Z)m_n] - M$. Binding energy $E_b = \\Delta m\\,c^2$ (with 1 u $= 931.5$ MeV/$c^2$).",
+      "keywords": [
+        "sum of nucleon masses minus nuclear mass",
+        "$\\Delta m=Zm_p+(A-Z)m_n-M$",
+        "$E_b=\\Delta mc^2$"
+      ]
+    },
+    {
+      "id": "board-phy-nuclei-004",
+      "q": "Mention two properties of nuclear force.",
+      "marks": 2,
+      "type": "definition",
+      "frequency": "often",
+      "answer": "1. Nuclear force is a strong, short-range attractive force (effective up to about 2-3 fm); it is much stronger than electrostatic or gravitational force.\n2. It is charge independent (the same between p-p, n-n and p-n) and saturated, so a nucleon interacts only with its neighbours; it is non-central and spin dependent. It becomes repulsive at distances less than about 0.8 fm.",
+      "keywords": [
+        "strong short range",
+        "charge independent",
+        "saturation"
+      ]
+    },
+    {
+      "id": "board-phy-nuclei-005",
+      "q": "Write the expression for the radius of a nucleus. Show that nuclear density is independent of mass number.",
+      "marks": 2,
+      "type": "definition",
+      "frequency": "often",
+      "answer": "$R = R_0A^{1/3}$, where $R_0 = 1.2$ fm $= 1.2\\times10^{-15}$ m.\nVolume $V = \\dfrac43\\pi R^3 = \\dfrac43\\pi R_0^3A$ and mass $\\approx A$ u, so density $\\rho = \\dfrac{A\\,\\mathrm{u}}{\\frac43\\pi R_0^3A} = \\dfrac{\\mathrm{u}}{\\frac43\\pi R_0^3}$, independent of $A$. Its value is about $2.3\\times10^{17}$ kg m$^{-3}$.",
+      "keywords": [
+        "$R=R_0A^{1/3}$",
+        "$R_0=1.2$ fm",
+        "density independent of $A$"
+      ]
+    },
+    {
+      "id": "board-phy-nuclei-006",
+      "q": "The half-life of a radioactive element is 8 years. What fraction of the initial amount will remain after 24 years?",
+      "marks": 2,
+      "type": "numerical",
+      "frequency": "very often",
+      "answer": "Number of half-lives $n = \\dfrac{t}{T_{1/2}} = \\dfrac{24}{8} = 3$.\n$\\dfrac{N}{N_0} = \\left(\\dfrac12\\right)^n = \\left(\\dfrac12\\right)^3 = \\dfrac18$.\nSo 1/8 (12.5 per cent) of the initial amount remains.",
+      "keywords": [
+        "$n=t/T$",
+        "$N/N_0=(1/2)^n$",
+        "1/8"
+      ]
+    },
+    {
+      "id": "board-phy-nuclei-007",
+      "q": "Write the nuclear reactions for (i) alpha decay of $\\,{}^{238}_{92}$U and (ii) beta minus decay of $\\,{}^{32}_{15}$P.",
+      "marks": 2,
+      "type": "definition",
+      "frequency": "often",
+      "answer": "(i) Alpha decay: $\\,{}^{238}_{92}\\mathrm{U} \\rightarrow {}^{234}_{90}\\mathrm{Th} + {}^{4}_{2}\\mathrm{He}$ (mass number falls by 4, atomic number by 2).\n(ii) Beta minus decay: $\\,{}^{32}_{15}\\mathrm{P} \\rightarrow {}^{32}_{16}\\mathrm{S} + e^- + \\bar{\\nu}$ (a neutron changes to a proton, atomic number rises by 1, mass number unchanged; an antineutrino is also emitted).",
+      "keywords": [
+        "alpha equation balanced",
+        "beta equation balanced",
+        "antineutrino"
+      ]
+    },
+    {
+      "id": "board-phy-nuclei-008",
+      "q": "The mass defect of a nucleus is 0.03 u. Calculate its binding energy in MeV. If the nucleus has 12 nucleons, find the binding energy per nucleon. (1 u = 931.5 MeV)",
+      "marks": 3,
+      "type": "numerical",
+      "frequency": "very often",
+      "answer": "$E_b = \\Delta m \\times 931.5$ MeV $= 0.03\\times931.5 = 27.9$ MeV (27.945 MeV).\nBinding energy per nucleon $= \\dfrac{E_b}{A} = \\dfrac{27.945}{12} = 2.33$ MeV per nucleon.",
+      "keywords": [
+        "$E_b=\\Delta m\\times931.5$",
+        "27.9 MeV",
+        "per nucleon 2.33 MeV"
+      ]
+    },
+    {
+      "id": "board-phy-nuclei-009",
+      "q": "Draw the graph of binding energy per nucleon against mass number and mention its important features.",
+      "marks": 3,
+      "type": "diagram",
+      "frequency": "very often",
+      "answer": "[Graph: rises steeply for light nuclei, has a broad maximum of about 8.75 MeV near $A\\approx56$ (iron), then decreases slowly to about 7.6 MeV at $A\\approx238$.]\nFeatures: (i) the curve is nearly flat between $A = 30$ and $A = 170$ with an average of about 8 MeV per nucleon, so the force is saturated; (ii) it is maximum for iron-like nuclei, which are the most stable; (iii) light nuclei ($A<30$) have low binding energy per nucleon, so fusion of them releases energy; (iv) heavy nuclei ($A>170$) have lower values, so fission of them releases energy.",
+      "keywords": [
+        "maximum near iron",
+        "flat region about 8 MeV",
+        "fusion of light nuclei",
+        "fission of heavy nuclei"
+      ]
+    },
+    {
+      "id": "board-phy-nuclei-010",
+      "q": "Distinguish between nuclear fission and nuclear fusion (any three points).",
+      "marks": 3,
+      "type": "difference",
+      "frequency": "very often",
+      "answer": "Fission: a heavy nucleus (e.g. U-235) splits into two lighter nuclei on neutron bombardment; it occurs at ordinary temperature; energy released is about 200 MeV per fission; it can be controlled in a reactor; the by-products are radioactive.\nFusion: two light nuclei (e.g. deuterium) combine to form a heavier nucleus; it needs a very high temperature ($\\sim10^7$ K) to overcome Coulomb repulsion; energy per nucleon released is greater (about 3.3 MeV in D-D); it is difficult to control and is the source of solar energy; products are less hazardous.",
+      "keywords": [
+        "splitting vs combining",
+        "temperature requirement",
+        "energy released",
+        "controlled vs uncontrolled"
+      ]
+    },
+    {
+      "id": "board-phy-nuclei-011",
+      "q": "Show that the half-life of a radioactive substance is $T_{1/2} = \\dfrac{0.693}{\\lambda}$. Define mean life and write its relation with the decay constant.",
+      "marks": 3,
+      "type": "derivation",
+      "frequency": "very often",
+      "answer": "From the decay law, $N = N_0e^{-\\lambda t}$. When $t = T_{1/2}$, $N = \\dfrac{N_0}{2}$:\n$\\dfrac{N_0}{2} = N_0e^{-\\lambda T_{1/2}} \\Rightarrow e^{\\lambda T_{1/2}} = 2 \\Rightarrow \\lambda T_{1/2} = \\ln2 = 0.693$\n$T_{1/2} = \\dfrac{0.693}{\\lambda}$.\nMean life $\\tau$ is the average time for which a nucleus survives, i.e. the sum of lifetimes of all nuclei divided by their number. $\\tau = \\dfrac{1}{\\lambda}$, so $T_{1/2} = 0.693\\,\\tau$.",
+      "keywords": [
+        "$N=N_0e^{-\\lambda t}$",
+        "$\\lambda T=\\ln2$",
+        "$T=0.693/\\lambda$",
+        "$\\tau=1/\\lambda$"
+      ]
+    },
+    {
+      "id": "board-phy-nuclei-012",
+      "q": "State the law of radioactive decay and derive the expression $N = N_0e^{-\\lambda t}$.",
+      "marks": 5,
+      "type": "derivation",
+      "frequency": "very often",
+      "answer": "Law: the rate of decay of radioactive nuclei at any instant is directly proportional to the number of undecayed nuclei present at that instant.\nLet $N$ be the number of nuclei at time $t$. Then $-\\dfrac{dN}{dt} \\propto N$, i.e. $-\\dfrac{dN}{dt} = \\lambda N$, where $\\lambda$ is the decay constant (the minus sign shows that $N$ decreases).\nRearranging, $\\dfrac{dN}{N} = -\\lambda\\,dt$.\nIntegrating, $\\ln N = -\\lambda t + C$. At $t = 0$, $N = N_0$, so $C = \\ln N_0$.\n$\\ln\\dfrac{N}{N_0} = -\\lambda t \\Rightarrow N = N_0e^{-\\lambda t}$.\nThe activity $R = -\\dfrac{dN}{dt} = \\lambda N = R_0e^{-\\lambda t}$ decays exponentially, SI unit becquerel (1 Bq = 1 decay per second).",
+      "keywords": [
+        "rate proportional to $N$",
+        "$dN/dt=-\\lambda N$",
+        "integration with limits",
+        "$N=N_0e^{-\\lambda t}$",
+        "activity"
+      ]
+    },
+    {
+      "id": "board-phy-nuclei-013",
+      "q": "Explain nuclear fission and chain reaction. Describe the working of a nuclear reactor, mentioning the function of the moderator, control rods and coolant.",
+      "marks": 5,
+      "type": "reasoning",
+      "frequency": "often",
+      "answer": "Fission: a slow neutron strikes $\\,{}^{235}_{92}$U, which splits into two medium-mass nuclei with 2-3 neutrons and about 200 MeV energy, e.g. $\\,{}^{235}_{92}\\mathrm{U} + {}^{1}_{0}n \\rightarrow {}^{141}_{56}\\mathrm{Ba} + {}^{92}_{36}\\mathrm{Kr} + 3\\,{}^{1}_{0}n + Q$. The emitted neutrons cause further fissions: a chain reaction.\nReactor: a controlled chain reaction takes place in fuel rods (enriched uranium).\n- Moderator (heavy water or graphite) slows the fast neutrons to thermal energies so they can cause fission.\n- Control rods (cadmium or boron) absorb excess neutrons and keep the multiplication factor $k = 1$.\n- Coolant (water or liquid sodium) carries away heat to a heat exchanger, which makes steam to run turbines and generate electricity.\n- Shielding (thick concrete) absorbs radiation.",
+      "keywords": [
+        "fission equation",
+        "chain reaction",
+        "moderator",
+        "control rods",
+        "coolant"
+      ]
+    }
+  ]
+}

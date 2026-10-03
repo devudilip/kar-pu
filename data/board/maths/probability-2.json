@@ -1,0 +1,169 @@
+{
+  "slug": "probability-2",
+  "subject": "maths",
+  "pattern": "Probability carries about 6-9 marks: 1/2-mark items on conditional probability and independent events, a 3-mark total probability or Bayes problem, a 3-mark probability distribution or binomial problem, and sometimes a 5-mark Bayes theorem statement and proof or a binomial distribution derivation. Always write the formula first, then substitute.",
+  "questions": [
+    {
+      "id": "board-mat-probability-2-001",
+      "q": "Define conditional probability of $A$ given $B$.",
+      "marks": 1,
+      "type": "definition",
+      "frequency": "very often",
+      "answer": "The probability of occurrence of event $A$ given that $B$ has already occurred is $P(A|B)=\\frac{P(A\\cap B)}{P(B)}$, where $P(B)\\ne0$.",
+      "keywords": [
+        "definition",
+        "P(A and B)",
+        "P(B) not zero"
+      ]
+    },
+    {
+      "id": "board-mat-probability-2-002",
+      "q": "If $A$ and $B$ are independent events with $P(A)=0.3$ and $P(B)=0.4$, find $P(A\\cap B)$.",
+      "marks": 1,
+      "type": "numerical",
+      "frequency": "often",
+      "answer": "For independent events $P(A\\cap B)=P(A)P(B)=0.3\\times0.4=0.12$.",
+      "keywords": [
+        "independent events",
+        "product",
+        "0.12"
+      ]
+    },
+    {
+      "id": "board-mat-probability-2-003",
+      "q": "Write the mean and variance of the binomial distribution $B(n,p)$.",
+      "marks": 1,
+      "type": "definition",
+      "frequency": "often",
+      "answer": "Mean $=np$; variance $=npq$, where $q=1-p$.",
+      "keywords": [
+        "np",
+        "npq",
+        "q=1-p"
+      ]
+    },
+    {
+      "id": "board-mat-probability-2-004",
+      "q": "If $P(A)=0.8$, $P(B)=0.5$ and $P(B|A)=0.4$, find $P(A\\cap B)$ and $P(A|B)$.",
+      "marks": 2,
+      "type": "numerical",
+      "frequency": "often",
+      "answer": "$P(A\\cap B)=P(A)P(B|A)=0.8\\times0.4=0.32$. $P(A|B)=\\frac{P(A\\cap B)}{P(B)}=\\frac{0.32}{0.5}=0.64$.",
+      "keywords": [
+        "multiplication rule",
+        "conditional formula",
+        "0.32",
+        "0.64"
+      ]
+    },
+    {
+      "id": "board-mat-probability-2-005",
+      "q": "A fair coin is tossed three times. Find the probability of at least two heads given that the first toss is a head.",
+      "marks": 2,
+      "type": "numerical",
+      "frequency": "very often",
+      "answer": "Given first toss head: outcomes HHH, HHT, HTH, HTT (4 equally likely). At least two heads: HHH, HHT, HTH (3). Probability $=\\frac34$.",
+      "keywords": [
+        "reduced sample space",
+        "favourable outcomes",
+        "3/4"
+      ]
+    },
+    {
+      "id": "board-mat-probability-2-006",
+      "q": "Find the mean of the number of heads in two tosses of a coin.",
+      "marks": 2,
+      "type": "numerical",
+      "frequency": "often",
+      "answer": "$X=0,1,2$ with $P(X)=\\frac14,\\frac12,\\frac14$. Mean $E(X)=\\sum xP(x)=0+\\frac12+\\frac24=1$.",
+      "keywords": [
+        "probability distribution",
+        "sum x P(x)",
+        "mean 1"
+      ]
+    },
+    {
+      "id": "board-mat-probability-2-007",
+      "q": "Two cards are drawn successively without replacement from a pack of 52 cards. Find the probability distribution of the number of aces and its mean.",
+      "marks": 3,
+      "type": "numerical",
+      "frequency": "very often",
+      "answer": "$X=0,1,2$. $P(0)=\\frac{48}{52}\\cdot\\frac{47}{51}=\\frac{188}{221}$; $P(1)=2\\cdot\\frac{4}{52}\\cdot\\frac{48}{51}=\\frac{32}{221}$; $P(2)=\\frac4{52}\\cdot\\frac3{51}=\\frac1{221}$. (Sum $=1$.) Mean $=\\frac{32}{221}+\\frac{2}{221}=\\frac{34}{221}=\\frac2{13}$.",
+      "keywords": [
+        "values of X",
+        "probabilities",
+        "sum equals 1",
+        "mean"
+      ]
+    },
+    {
+      "id": "board-mat-probability-2-008",
+      "q": "Bag A has 3 red and 5 black balls; bag B has 6 red and 4 black balls. A bag is chosen at random and a ball drawn. Find the probability that it is red.",
+      "marks": 3,
+      "type": "numerical",
+      "frequency": "very often",
+      "answer": "By the theorem of total probability: $P(R)=P(A)P(R|A)+P(B)P(R|B)=\\frac12\\cdot\\frac38+\\frac12\\cdot\\frac6{10}=\\frac3{16}+\\frac3{10}=\\frac{39}{80}$.",
+      "keywords": [
+        "total probability",
+        "P(A)=P(B)=1/2",
+        "39/80"
+      ]
+    },
+    {
+      "id": "board-mat-probability-2-009",
+      "q": "Machines $A,B,C$ produce 25%, 35% and 40% of items, with 5%, 4% and 2% defective respectively. An item chosen at random is defective. Find the probability that it was produced by $C$.",
+      "marks": 3,
+      "type": "numerical",
+      "frequency": "very often",
+      "answer": "$P(D)=0.25(0.05)+0.35(0.04)+0.40(0.02)=0.0125+0.014+0.008=0.0345$. By Bayes' theorem $P(C|D)=\\frac{0.40\\times0.02}{0.0345}=\\frac{0.008}{0.0345}=\\frac{16}{69}$.",
+      "keywords": [
+        "total probability",
+        "Bayes theorem",
+        "16/69"
+      ]
+    },
+    {
+      "id": "board-mat-probability-2-010",
+      "q": "A die is thrown 4 times. Find the probability of getting at most 2 sixes.",
+      "marks": 3,
+      "type": "numerical",
+      "frequency": "often",
+      "answer": "$X\\sim B\\left(4,\\frac16\\right)$, $q=\\frac56$. $P(X\\le2)=1-P(3)-P(4)=1-\\binom43\\left(\\frac16\\right)^3\\frac56-\\left(\\frac16\\right)^4=1-\\frac{20}{1296}-\\frac1{1296}=\\frac{1275}{1296}=\\frac{425}{432}$.",
+      "keywords": [
+        "binomial n=4",
+        "p=1/6",
+        "complement",
+        "425/432"
+      ]
+    },
+    {
+      "id": "board-mat-probability-2-011",
+      "q": "State and prove Bayes' theorem.",
+      "marks": 5,
+      "type": "derivation",
+      "frequency": "very often",
+      "answer": "Statement: If $E_1,E_2,\\dots,E_n$ are mutually exclusive and exhaustive events with $P(E_i)>0$ and $A$ is any event with $P(A)>0$, then $P(E_i|A)=\\frac{P(E_i)P(A|E_i)}{\\sum_{j=1}^nP(E_j)P(A|E_j)}$. Proof: $P(E_i|A)=\\frac{P(E_i\\cap A)}{P(A)}$. By multiplication rule $P(E_i\\cap A)=P(E_i)P(A|E_i)$. By the theorem of total probability $P(A)=\\sum_j P(E_j)P(A|E_j)$. Substituting gives the result.",
+      "keywords": [
+        "statement",
+        "conditional probability",
+        "multiplication rule",
+        "total probability",
+        "result"
+      ]
+    },
+    {
+      "id": "board-mat-probability-2-012",
+      "q": "Derive the probability of exactly $r$ successes in $n$ Bernoulli trials, $P(X=r)={}^nC_r\\,p^rq^{n-r}$.",
+      "marks": 5,
+      "type": "derivation",
+      "frequency": "often",
+      "answer": "Each trial has success probability $p$ and failure $q=1-p$, trials independent. One particular sequence with $r$ successes and $n-r$ failures (e.g. $SS\\dots S\\,FF\\dots F$) has probability $p^rq^{n-r}$ by independence. The $r$ successes can occupy any $r$ of the $n$ places in ${}^nC_r$ ways, all mutually exclusive with equal probability. Hence $P(X=r)={}^nC_r\\,p^rq^{n-r}$, $r=0,1,\\dots,n$. These terms are those of $(q+p)^n$, whose sum is 1.",
+      "keywords": [
+        "independent trials",
+        "one sequence probability",
+        "number of arrangements",
+        "final formula"
+      ]
+    }
+  ]
+}

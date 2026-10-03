@@ -1,0 +1,193 @@
+{
+  "slug": "matrices",
+  "subject": "maths",
+  "pattern": "Matrices usually carries 8-10 marks in the Karnataka 2nd PUC maths paper: 1-mark questions on order, symmetric and skew-symmetric, 2-3 mark questions on multiplication, transpose, symmetric/skew-symmetric decomposition and equations in A, and a 5-mark question on finding the inverse by elementary row operations (3x3) or proving the sum-of-symmetric-and-skew-symmetric theorem. Examiners expect each row operation to be written beside the matrix and the answer to be verified.",
+  "questions": [
+    {
+      "id": "board-mat-matrices-001",
+      "q": "Define a symmetric matrix and a skew-symmetric matrix.",
+      "marks": 1,
+      "type": "definition",
+      "frequency": "very often",
+      "answer": "A square matrix $A=[a_{ij}]$ is symmetric if $A'=A$, i.e. $a_{ij}=a_{ji}$ for all $i,j$. It is skew-symmetric if $A'=-A$, i.e. $a_{ij}=-a_{ji}$ for all $i,j$; in that case all diagonal elements are zero.",
+      "keywords": [
+        "A'=A",
+        "A'=-A",
+        "diagonal elements zero"
+      ]
+    },
+    {
+      "id": "board-mat-matrices-002",
+      "q": "If a matrix has 8 elements, what are the possible orders it can have?",
+      "marks": 1,
+      "type": "numerical",
+      "frequency": "very often",
+      "answer": "The possible orders are all ordered pairs of factors of 8: $1\\times8,\\ 8\\times1,\\ 2\\times4,\\ 4\\times2$. So there are four possible orders.",
+      "keywords": [
+        "factors of 8",
+        "4 orders"
+      ]
+    },
+    {
+      "id": "board-mat-matrices-003",
+      "q": "If $A$ is a matrix of order $2\\times3$ and $B$ is of order $3\\times2$, write the orders of $AB$ and $BA$.",
+      "marks": 1,
+      "type": "numerical",
+      "frequency": "often",
+      "answer": "$AB$ has order $2\\times2$ and $BA$ has order $3\\times3$ (the number of columns of the first equals the number of rows of the second).",
+      "keywords": [
+        "2x2",
+        "3x3"
+      ]
+    },
+    {
+      "id": "board-mat-matrices-004",
+      "q": "Construct a $2\\times2$ matrix $A=[a_{ij}]$ whose elements are given by $a_{ij}=\\dfrac{(i+j)^2}{2}$.",
+      "marks": 2,
+      "type": "numerical",
+      "frequency": "very often",
+      "answer": "$a_{11}=\\dfrac{4}{2}=2$, $a_{12}=\\dfrac{9}{2}$, $a_{21}=\\dfrac92$, $a_{22}=\\dfrac{16}{2}=8$. Hence $A=\\begin{bmatrix}2&\\tfrac92\\\\[2pt]\\tfrac92&8\\end{bmatrix}$.",
+      "keywords": [
+        "a11=2",
+        "a12=a21=9/2",
+        "a22=8"
+      ]
+    },
+    {
+      "id": "board-mat-matrices-005",
+      "q": "If $A=\\begin{bmatrix}1&2\\\\3&4\\end{bmatrix}$ and $B=\\begin{bmatrix}1&0\\\\2&1\\end{bmatrix}$, show that $AB\\neq BA$.",
+      "marks": 2,
+      "type": "numerical",
+      "frequency": "often",
+      "answer": "$AB=\\begin{bmatrix}1+4&0+2\\\\3+8&0+4\\end{bmatrix}=\\begin{bmatrix}5&2\\\\11&4\\end{bmatrix}$. $BA=\\begin{bmatrix}1&2\\\\2+3&4+4\\end{bmatrix}=\\begin{bmatrix}1&2\\\\5&8\\end{bmatrix}$. Since $AB\\neq BA$, matrix multiplication is not commutative.",
+      "keywords": [
+        "AB computed",
+        "BA computed",
+        "not commutative"
+      ]
+    },
+    {
+      "id": "board-mat-matrices-006",
+      "q": "Show that $AA'$ is a symmetric matrix for any matrix $A$.",
+      "marks": 2,
+      "type": "derivation",
+      "frequency": "often",
+      "answer": "Let $P=AA'$. Then $P'=(AA')'=(A')'A'$ by the reversal law $(AB)'=B'A'$. Since $(A')'=A$, $P'=AA'=P$. Hence $AA'$ is symmetric.",
+      "keywords": [
+        "reversal law",
+        "(A')'=A",
+        "P'=P"
+      ]
+    },
+    {
+      "id": "board-mat-matrices-007",
+      "q": "Find $x$ and $y$ if $\\begin{bmatrix}x+y&2\\\\5&xy\\end{bmatrix}=\\begin{bmatrix}6&2\\\\5&8\\end{bmatrix}$.",
+      "marks": 2,
+      "type": "numerical",
+      "frequency": "often",
+      "answer": "By equality of matrices, $x+y=6$ and $xy=8$. So $x$ and $y$ are roots of $t^2-6t+8=0$, i.e. $(t-2)(t-4)=0$. Hence $(x,y)=(2,4)$ or $(4,2)$.",
+      "keywords": [
+        "equality of matrices",
+        "x+y=6, xy=8",
+        "(2,4) or (4,2)"
+      ]
+    },
+    {
+      "id": "board-mat-matrices-008",
+      "q": "Express $A=\\begin{bmatrix}3&5\\\\1&-1\\end{bmatrix}$ as the sum of a symmetric and a skew-symmetric matrix.",
+      "marks": 3,
+      "type": "numerical",
+      "frequency": "very often",
+      "answer": "$A'=\\begin{bmatrix}3&1\\\\5&-1\\end{bmatrix}$. Symmetric part $P=\\tfrac12(A+A')=\\tfrac12\\begin{bmatrix}6&6\\\\6&-2\\end{bmatrix}=\\begin{bmatrix}3&3\\\\3&-1\\end{bmatrix}$. Skew-symmetric part $Q=\\tfrac12(A-A')=\\tfrac12\\begin{bmatrix}0&4\\\\-4&0\\end{bmatrix}=\\begin{bmatrix}0&2\\\\-2&0\\end{bmatrix}$. Check: $P+Q=\\begin{bmatrix}3&5\\\\1&-1\\end{bmatrix}=A$.",
+      "keywords": [
+        "A'",
+        "P=(A+A')/2",
+        "Q=(A-A')/2",
+        "P+Q=A"
+      ]
+    },
+    {
+      "id": "board-mat-matrices-009",
+      "q": "If $A=\\begin{bmatrix}1\\\\-4\\\\3\\end{bmatrix}$ and $B=\\begin{bmatrix}-1&2&1\\end{bmatrix}$, verify that $(AB)'=B'A'$.",
+      "marks": 3,
+      "type": "numerical",
+      "frequency": "often",
+      "answer": "$AB=\\begin{bmatrix}-1&2&1\\\\4&-8&-4\\\\-3&6&3\\end{bmatrix}$, so $(AB)'=\\begin{bmatrix}-1&4&-3\\\\2&-8&6\\\\1&-4&3\\end{bmatrix}$. $B'=\\begin{bmatrix}-1\\\\2\\\\1\\end{bmatrix}$, $A'=\\begin{bmatrix}1&-4&3\\end{bmatrix}$, so $B'A'=\\begin{bmatrix}-1&4&-3\\\\2&-8&6\\\\1&-4&3\\end{bmatrix}$. Both are equal, hence $(AB)'=B'A'$.",
+      "keywords": [
+        "AB computed",
+        "(AB)'",
+        "B'A'",
+        "equal"
+      ]
+    },
+    {
+      "id": "board-mat-matrices-010",
+      "q": "If $A=\\begin{bmatrix}3&-2\\\\4&-2\\end{bmatrix}$, find $k$ so that $A^2=kA-2I$.",
+      "marks": 3,
+      "type": "numerical",
+      "frequency": "often",
+      "answer": "$A^2=\\begin{bmatrix}9-8&-6+4\\\\12-8&-8+4\\end{bmatrix}=\\begin{bmatrix}1&-2\\\\4&-4\\end{bmatrix}$. $kA-2I=\\begin{bmatrix}3k-2&-2k\\\\4k&-2k-2\\end{bmatrix}$. Equating: $3k-2=1$ gives $k=1$; also $-2k=-2$, $4k=4$, $-2k-2=-4$ all hold. Hence $k=1$.",
+      "keywords": [
+        "A^2 computed",
+        "kA-2I",
+        "equate elements",
+        "k=1"
+      ]
+    },
+    {
+      "id": "board-mat-matrices-011",
+      "q": "If $A=\\begin{bmatrix}2&0&1\\\\2&1&3\\\\1&-1&0\\end{bmatrix}$, find $A^2-5A+6I$.",
+      "marks": 3,
+      "type": "numerical",
+      "frequency": "sometimes",
+      "answer": "$A^2=\\begin{bmatrix}5&-1&2\\\\9&-2&5\\\\0&-1&-2\\end{bmatrix}$, $5A=\\begin{bmatrix}10&0&5\\\\10&5&15\\\\5&-5&0\\end{bmatrix}$, $6I=\\begin{bmatrix}6&0&0\\\\0&6&0\\\\0&0&6\\end{bmatrix}$. So $A^2-5A+6I=\\begin{bmatrix}1&-1&-3\\\\-1&-1&-10\\\\-5&4&4\\end{bmatrix}$.",
+      "keywords": [
+        "A^2",
+        "5A",
+        "6I",
+        "final matrix"
+      ]
+    },
+    {
+      "id": "board-mat-matrices-012",
+      "q": "Using elementary row operations, find the inverse of $A=\\begin{bmatrix}2&1\\\\1&1\\end{bmatrix}$.",
+      "marks": 3,
+      "type": "numerical",
+      "frequency": "very often",
+      "answer": "Write $A=IA$: $\\begin{bmatrix}2&1\\\\1&1\\end{bmatrix}=\\begin{bmatrix}1&0\\\\0&1\\end{bmatrix}A$. $R_1\\to R_1-R_2$: $\\begin{bmatrix}1&0\\\\1&1\\end{bmatrix}=\\begin{bmatrix}1&-1\\\\0&1\\end{bmatrix}A$. $R_2\\to R_2-R_1$: $\\begin{bmatrix}1&0\\\\0&1\\end{bmatrix}=\\begin{bmatrix}1&-1\\\\-1&2\\end{bmatrix}A$. Hence $A^{-1}=\\begin{bmatrix}1&-1\\\\-1&2\\end{bmatrix}$.",
+      "keywords": [
+        "A=IA",
+        "row operations",
+        "A^{-1}"
+      ]
+    },
+    {
+      "id": "board-mat-matrices-013",
+      "q": "Using elementary row operations, find the inverse of $A=\\begin{bmatrix}1&2&-2\\\\-1&3&0\\\\0&-2&1\\end{bmatrix}$.",
+      "marks": 5,
+      "type": "numerical",
+      "frequency": "very often",
+      "answer": "Write $A=IA$. $R_2\\to R_2+R_1$: rows of $A$-side $(1,2,-2),(0,5,-2),(0,-2,1)$; $I$-side $(1,0,0),(1,1,0),(0,0,1)$. $R_2\\to R_2+2R_3$: $A$-side row 2 $=(0,1,0)$, $I$-side row 2 $=(1,1,2)$. $R_1\\to R_1-2R_2$: $A$-side $(1,0,-2)$, $I$-side $(-1,-2,-4)$. $R_3\\to R_3+2R_2$: $A$-side $(0,0,1)$, $I$-side $(2,2,5)$. $R_1\\to R_1+2R_3$: $A$-side $(1,0,0)$, $I$-side $(3,2,6)$. Hence $A^{-1}=\\begin{bmatrix}3&2&6\\\\1&1&2\\\\2&2&5\\end{bmatrix}$.",
+      "keywords": [
+        "A=IA",
+        "R2 to R2+R1",
+        "reduce to identity",
+        "A^{-1}"
+      ]
+    },
+    {
+      "id": "board-mat-matrices-014",
+      "q": "Prove that every square matrix can be expressed uniquely as the sum of a symmetric and a skew-symmetric matrix.",
+      "marks": 5,
+      "type": "derivation",
+      "frequency": "often",
+      "answer": "Let $A$ be a square matrix. Write $A=\\tfrac12(A+A')+\\tfrac12(A-A')=P+Q$. $P'=\\tfrac12(A'+A)=P$, so $P$ is symmetric. $Q'=\\tfrac12(A'-A)=-Q$, so $Q$ is skew-symmetric. Uniqueness: suppose $A=R+S$ with $R$ symmetric and $S$ skew-symmetric. Then $A'=R'+S'=R-S$. Adding, $A+A'=2R$ so $R=P$; subtracting, $A-A'=2S$ so $S=Q$. Hence the representation is unique.",
+      "keywords": [
+        "A=P+Q",
+        "P symmetric",
+        "Q skew-symmetric",
+        "uniqueness"
+      ]
+    }
+  ]
+}

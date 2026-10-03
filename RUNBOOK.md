@@ -119,3 +119,6 @@ node tools/validate.mjs
   python3 -m http.server 8080
   ```
   Open http://localhost:8080. Node 18+ is only needed for the validator/tool scripts.
+
+## Board-exam content
+`node tools/validate-board.mjs` checks data/board/<subject>/<slug>.json (2nd PUC chapters only) and reports missing chapters.

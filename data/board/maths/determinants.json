@@ -1,0 +1,195 @@
+{
+  "slug": "determinants",
+  "subject": "maths",
+  "pattern": "Determinants carries 10-12 marks in the Karnataka 2nd PUC maths paper, one of the heavier chapters: 1-mark questions on minor, cofactor, singular matrix and |adj A|, 2-3 mark questions on area of a triangle, properties of determinants and inverse by adjoint, and a compulsory 5-mark question on solving a system of three linear equations by the matrix method. Examiners expect |A|, the cofactors, adj A and A inverse to be shown step by step, followed by the solution and a check.",
+  "questions": [
+    {
+      "id": "board-mat-determinants-001",
+      "q": "When is a square matrix said to be singular? Write the condition for $A^{-1}$ to exist.",
+      "marks": 1,
+      "type": "definition",
+      "frequency": "very often",
+      "answer": "A square matrix $A$ is singular if $|A|=0$. $A^{-1}$ exists only if $A$ is non-singular, i.e. $|A|\\neq0$.",
+      "keywords": [
+        "|A|=0 singular",
+        "|A|!=0 inverse exists"
+      ]
+    },
+    {
+      "id": "board-mat-determinants-002",
+      "q": "If $A$ is a square matrix of order 3 with $|A|=4$, find $|\\operatorname{adj}A|$.",
+      "marks": 1,
+      "type": "numerical",
+      "frequency": "very often",
+      "answer": "For a square matrix of order $n$, $|\\operatorname{adj}A|=|A|^{n-1}$. So $|\\operatorname{adj}A|=4^{2}=16$.",
+      "keywords": [
+        "|adj A|=|A|^(n-1)",
+        "16"
+      ]
+    },
+    {
+      "id": "board-mat-determinants-003",
+      "q": "Write the minor of the element $a_{23}$ in the determinant $\\begin{vmatrix}1&2&3\\\\4&5&6\\\\7&8&9\\end{vmatrix}$.",
+      "marks": 1,
+      "type": "numerical",
+      "frequency": "often",
+      "answer": "Delete row 2 and column 3. $M_{23}=\\begin{vmatrix}1&2\\\\7&8\\end{vmatrix}=8-14=-6$.",
+      "keywords": [
+        "delete row and column",
+        "M23=-6"
+      ]
+    },
+    {
+      "id": "board-mat-determinants-004",
+      "q": "Find the values of $k$ if the area of the triangle with vertices $(k,0)$, $(4,0)$, $(0,2)$ is 4 square units.",
+      "marks": 2,
+      "type": "numerical",
+      "frequency": "very often",
+      "answer": "Area $=\\tfrac12\\begin{vmatrix}k&0&1\\\\4&0&1\\\\0&2&1\\end{vmatrix}=\\tfrac12\\,|k(0-2)-0+1(8-0)|=\\tfrac12|-2k+8|$. Given area $=4$: $|-2k+8|=8$. So $-2k+8=8$ gives $k=0$, or $-2k+8=-8$ gives $k=8$. Hence $k=0$ or $k=8$.",
+      "keywords": [
+        "area formula determinant",
+        "|-2k+8|=8",
+        "k=0, 8"
+      ]
+    },
+    {
+      "id": "board-mat-determinants-005",
+      "q": "Using properties of determinants, show that $\\begin{vmatrix}1&a&b+c\\\\1&b&c+a\\\\1&c&a+b\\end{vmatrix}=0$.",
+      "marks": 2,
+      "type": "reasoning",
+      "frequency": "often",
+      "answer": "Apply $C_3\\to C_3+C_2$. The third column becomes $(a+b+c,\\ a+b+c,\\ a+b+c)$. Taking $(a+b+c)$ common from $C_3$, we get $(a+b+c)\\begin{vmatrix}1&a&1\\\\1&b&1\\\\1&c&1\\end{vmatrix}$. Columns $C_1$ and $C_3$ are identical, so the determinant is $0$.",
+      "keywords": [
+        "C3 to C3+C2",
+        "take (a+b+c) common",
+        "two identical columns",
+        "0"
+      ]
+    },
+    {
+      "id": "board-mat-determinants-006",
+      "q": "Using determinants, find the equation of the line joining $(1,2)$ and $(3,6)$.",
+      "marks": 2,
+      "type": "numerical",
+      "frequency": "often",
+      "answer": "For any point $(x,y)$ on the line the three points are collinear, so $\\begin{vmatrix}x&y&1\\\\1&2&1\\\\3&6&1\\end{vmatrix}=0$. Expanding along $R_1$: $x(2-6)-y(1-3)+1(6-6)=0$, i.e. $-4x+2y=0$. Hence the line is $y=2x$.",
+      "keywords": [
+        "collinear determinant = 0",
+        "expansion",
+        "y=2x"
+      ]
+    },
+    {
+      "id": "board-mat-determinants-007",
+      "q": "Find the adjoint of the matrix $A=\\begin{bmatrix}1&2\\\\3&4\\end{bmatrix}$.",
+      "marks": 2,
+      "type": "numerical",
+      "frequency": "very often",
+      "answer": "For a $2\\times2$ matrix $\\begin{bmatrix}a&b\\\\c&d\\end{bmatrix}$, $\\operatorname{adj}A=\\begin{bmatrix}d&-b\\\\-c&a\\end{bmatrix}$ (interchange the diagonal elements, change the signs of the others). Hence $\\operatorname{adj}A=\\begin{bmatrix}4&-2\\\\-3&1\\end{bmatrix}$.",
+      "keywords": [
+        "interchange diagonal",
+        "change sign of off-diagonal",
+        "adj A"
+      ]
+    },
+    {
+      "id": "board-mat-determinants-008",
+      "q": "Using properties of determinants, prove that $\\begin{vmatrix}1&1&1\\\\a&b&c\\\\a^2&b^2&c^2\\end{vmatrix}=(a-b)(b-c)(c-a)$.",
+      "marks": 3,
+      "type": "derivation",
+      "frequency": "very often",
+      "answer": "Apply $C_1\\to C_1-C_2$ and $C_2\\to C_2-C_3$. $C_1=(0,\\ a-b,\\ a^2-b^2)$, $C_2=(0,\\ b-c,\\ b^2-c^2)$. Take $(a-b)$ common from $C_1$ and $(b-c)$ from $C_2$: $(a-b)(b-c)\\begin{vmatrix}0&0&1\\\\1&1&c\\\\a+b&b+c&c^2\\end{vmatrix}$. Expand along $R_1$: $(a-b)(b-c)\\,[(b+c)-(a+b)]=(a-b)(b-c)(c-a)$.",
+      "keywords": [
+        "C1-C2, C2-C3",
+        "take factors common",
+        "expand along R1",
+        "(a-b)(b-c)(c-a)"
+      ]
+    },
+    {
+      "id": "board-mat-determinants-009",
+      "q": "Find the inverse of $A=\\begin{bmatrix}1&2&3\\\\0&2&4\\\\0&0&5\\end{bmatrix}$.",
+      "marks": 3,
+      "type": "numerical",
+      "frequency": "very often",
+      "answer": "$|A|=1\\cdot2\\cdot5=10\\neq0$, so $A^{-1}$ exists. Cofactors: $C_{11}=10,\\ C_{12}=0,\\ C_{13}=0,\\ C_{21}=-10,\\ C_{22}=5,\\ C_{23}=0,\\ C_{31}=2,\\ C_{32}=-4,\\ C_{33}=2$. $\\operatorname{adj}A=\\begin{bmatrix}10&-10&2\\\\0&5&-4\\\\0&0&2\\end{bmatrix}$. $A^{-1}=\\dfrac{1}{|A|}\\operatorname{adj}A=\\dfrac{1}{10}\\begin{bmatrix}10&-10&2\\\\0&5&-4\\\\0&0&2\\end{bmatrix}$.",
+      "keywords": [
+        "|A|=10",
+        "cofactors",
+        "adj A transpose",
+        "A^{-1}=adj A/|A|"
+      ]
+    },
+    {
+      "id": "board-mat-determinants-010",
+      "q": "Solve by the matrix method: $5x+2y=3$, $3x+2y=5$.",
+      "marks": 3,
+      "type": "numerical",
+      "frequency": "often",
+      "answer": "$A=\\begin{bmatrix}5&2\\\\3&2\\end{bmatrix}$, $X=\\begin{bmatrix}x\\\\y\\end{bmatrix}$, $B=\\begin{bmatrix}3\\\\5\\end{bmatrix}$; $AX=B$. $|A|=10-6=4\\neq0$. $A^{-1}=\\dfrac14\\begin{bmatrix}2&-2\\\\-3&5\\end{bmatrix}$. $X=A^{-1}B=\\dfrac14\\begin{bmatrix}6-10\\\\-9+25\\end{bmatrix}=\\dfrac14\\begin{bmatrix}-4\\\\16\\end{bmatrix}$. Hence $x=-1$, $y=4$. Check: $5(-1)+2(4)=3$ and $3(-1)+2(4)=5$.",
+      "keywords": [
+        "AX=B",
+        "|A|=4",
+        "A^{-1}",
+        "x=-1, y=4"
+      ]
+    },
+    {
+      "id": "board-mat-determinants-011",
+      "q": "If $A=\\begin{bmatrix}3&1\\\\-1&2\\end{bmatrix}$, show that $A^2-5A+7I=O$. Hence find $A^{-1}$.",
+      "marks": 3,
+      "type": "derivation",
+      "frequency": "often",
+      "answer": "$A^2=\\begin{bmatrix}8&5\\\\-5&3\\end{bmatrix}$, $5A=\\begin{bmatrix}15&5\\\\-5&10\\end{bmatrix}$, $7I=\\begin{bmatrix}7&0\\\\0&7\\end{bmatrix}$, so $A^2-5A+7I=\\begin{bmatrix}0&0\\\\0&0\\end{bmatrix}=O$. Multiply by $A^{-1}$: $A-5I+7A^{-1}=O$, so $A^{-1}=\\dfrac17(5I-A)=\\dfrac17\\begin{bmatrix}2&-1\\\\1&3\\end{bmatrix}$.",
+      "keywords": [
+        "A^2 computed",
+        "zero matrix",
+        "multiply by A^{-1}",
+        "A^{-1}"
+      ]
+    },
+    {
+      "id": "board-mat-determinants-012",
+      "q": "Verify $A(\\operatorname{adj}A)=|A|I$ for $A=\\begin{bmatrix}1&-1&2\\\\3&0&-2\\\\1&0&3\\end{bmatrix}$.",
+      "marks": 5,
+      "type": "numerical",
+      "frequency": "very often",
+      "answer": "$|A|$ (expand along $C_2$) $=-(-1)\\,(9+2)=11$. Cofactors: $C_{11}=0,\\ C_{12}=-11,\\ C_{13}=0,\\ C_{21}=3,\\ C_{22}=1,\\ C_{23}=-1,\\ C_{31}=2,\\ C_{32}=8,\\ C_{33}=3$. $\\operatorname{adj}A=\\begin{bmatrix}0&3&2\\\\-11&1&8\\\\0&-1&3\\end{bmatrix}$. $A\\,\\operatorname{adj}A=\\begin{bmatrix}11&0&0\\\\0&11&0\\\\0&0&11\\end{bmatrix}=11I=|A|I$. Hence verified.",
+      "keywords": [
+        "|A|=11",
+        "cofactors",
+        "adj A",
+        "A adj A = 11 I"
+      ]
+    },
+    {
+      "id": "board-mat-determinants-013",
+      "q": "Solve by the matrix method: $x-y+2z=7$, $3x+4y-5z=-5$, $2x-y+3z=12$.",
+      "marks": 5,
+      "type": "numerical",
+      "frequency": "very often",
+      "answer": "$A=\\begin{bmatrix}1&-1&2\\\\3&4&-5\\\\2&-1&3\\end{bmatrix}$, $X=\\begin{bmatrix}x\\\\y\\\\z\\end{bmatrix}$, $B=\\begin{bmatrix}7\\\\-5\\\\12\\end{bmatrix}$. $|A|=1(12-5)+1(9+10)+2(-3-8)=4\\neq0$. $\\operatorname{adj}A=\\begin{bmatrix}7&1&-3\\\\-19&-1&11\\\\-11&-1&7\\end{bmatrix}$. $X=A^{-1}B=\\dfrac14\\begin{bmatrix}49-5-36\\\\-133+5+132\\\\-77+5+84\\end{bmatrix}=\\dfrac14\\begin{bmatrix}8\\\\4\\\\12\\end{bmatrix}$. Hence $x=2,\\ y=1,\\ z=3$.",
+      "keywords": [
+        "AX=B",
+        "|A|=4",
+        "adj A",
+        "x=2, y=1, z=3"
+      ]
+    },
+    {
+      "id": "board-mat-determinants-014",
+      "q": "Find $A^{-1}$ for $A=\\begin{bmatrix}2&-3&5\\\\3&2&-4\\\\1&1&-2\\end{bmatrix}$ and use it to solve $2x-3y+5z=11$, $3x+2y-4z=-5$, $x+y-2z=-3$.",
+      "marks": 5,
+      "type": "numerical",
+      "frequency": "very often",
+      "answer": "$|A|=2(-4+4)+3(-6+4)+5(3-2)=-1\\neq0$. Cofactors: $C_{11}=0,\\ C_{12}=2,\\ C_{13}=1,\\ C_{21}=-1,\\ C_{22}=-9,\\ C_{23}=-5,\\ C_{31}=2,\\ C_{32}=23,\\ C_{33}=13$. $\\operatorname{adj}A=\\begin{bmatrix}0&-1&2\\\\2&-9&23\\\\1&-5&13\\end{bmatrix}$, so $A^{-1}=-\\operatorname{adj}A=\\begin{bmatrix}0&1&-2\\\\-2&9&-23\\\\-1&5&-13\\end{bmatrix}$. $X=A^{-1}B$ with $B=(11,-5,-3)^T$: $x=-5+6=1$, $y=-22-45+69=2$, $z=-11-25+39=3$. Solution: $x=1,\\ y=2,\\ z=3$.",
+      "keywords": [
+        "|A|=-1",
+        "cofactors and adj A",
+        "A^{-1}",
+        "X=A^{-1}B",
+        "x=1, y=2, z=3"
+      ]
+    }
+  ]
+}

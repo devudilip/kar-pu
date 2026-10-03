@@ -1,0 +1,170 @@
+{
+  "slug": "differential-equations",
+  "subject": "maths",
+  "pattern": "Differential equations carry about 6-8 marks: a 1-mark order/degree item, a 2/3-mark formation or variable-separable question, and a 5-mark problem on a homogeneous or linear differential equation. Examiners expect the integrating factor method written step by step and the arbitrary constant in the final answer.",
+  "questions": [
+    {
+      "id": "board-mat-differential-equations-001",
+      "q": "Write the order and degree of $x^2\\left(\\dfrac{d^2y}{dx^2}\\right)^3+\\left(\\dfrac{dy}{dx}\\right)^4+y=0$.",
+      "marks": 1,
+      "type": "definition",
+      "frequency": "very often",
+      "answer": "The highest order derivative is $\\frac{d^2y}{dx^2}$, so order $=2$. Its power is 3 (the equation is polynomial in derivatives), so degree $=3$.",
+      "keywords": [
+        "highest order derivative",
+        "power",
+        "order 2",
+        "degree 3"
+      ]
+    },
+    {
+      "id": "board-mat-differential-equations-002",
+      "q": "Write the integrating factor of $\\dfrac{dy}{dx}+\\dfrac yx=x^2$.",
+      "marks": 1,
+      "type": "definition",
+      "frequency": "very often",
+      "answer": "Here $P=\\frac1x$. Integrating factor $=e^{\\int P\\,dx}=e^{\\log x}=x$.",
+      "keywords": [
+        "P=1/x",
+        "e to integral P dx",
+        "x"
+      ]
+    },
+    {
+      "id": "board-mat-differential-equations-003",
+      "q": "What is the number of arbitrary constants in the general solution of a differential equation of order 3?",
+      "marks": 1,
+      "type": "definition",
+      "frequency": "often",
+      "answer": "The general solution of an $n$th order differential equation contains $n$ arbitrary constants. Hence for order 3 there are 3 arbitrary constants.",
+      "keywords": [
+        "order n",
+        "n arbitrary constants",
+        "3"
+      ]
+    },
+    {
+      "id": "board-mat-differential-equations-004",
+      "q": "Form the differential equation by eliminating the arbitrary constants from $y=Ae^x+Be^{-x}$.",
+      "marks": 2,
+      "type": "numerical",
+      "frequency": "very often",
+      "answer": "$y=Ae^x+Be^{-x}$. Differentiating: $y'=Ae^x-Be^{-x}$. Again: $y''=Ae^x+Be^{-x}=y$. Hence the differential equation is $\\frac{d^2y}{dx^2}-y=0$.",
+      "keywords": [
+        "differentiate twice",
+        "eliminate A and B",
+        "y''-y=0"
+      ]
+    },
+    {
+      "id": "board-mat-differential-equations-005",
+      "q": "Solve $\\dfrac{dy}{dx}=e^{x+y}$.",
+      "marks": 2,
+      "type": "numerical",
+      "frequency": "often",
+      "answer": "Write $\\frac{dy}{dx}=e^xe^y\\Rightarrow e^{-y}dy=e^x dx$. Integrating: $-e^{-y}=e^x+c$, i.e. $e^x+e^{-y}=C$.",
+      "keywords": [
+        "separate variables",
+        "integrate both sides",
+        "constant"
+      ]
+    },
+    {
+      "id": "board-mat-differential-equations-006",
+      "q": "Verify that $y=A\\cos x+B\\sin x$ is a solution of $\\dfrac{d^2y}{dx^2}+y=0$.",
+      "marks": 2,
+      "type": "reasoning",
+      "frequency": "sometimes",
+      "answer": "$y'=-A\\sin x+B\\cos x$; $y''=-A\\cos x-B\\sin x=-y$. Hence $y''+y=0$, so the given function is a solution.",
+      "keywords": [
+        "differentiate twice",
+        "substitute",
+        "y''+y=0"
+      ]
+    },
+    {
+      "id": "board-mat-differential-equations-007",
+      "q": "Solve the homogeneous differential equation $(x^2-y^2)dx+2xy\\,dy=0$.",
+      "marks": 3,
+      "type": "numerical",
+      "frequency": "very often",
+      "answer": "$\\frac{dy}{dx}=\\frac{y^2-x^2}{2xy}$. Put $y=vx$, $\\frac{dy}{dx}=v+x\\frac{dv}{dx}$. Then $v+x\\frac{dv}{dx}=\\frac{v^2-1}{2v}\\Rightarrow x\\frac{dv}{dx}=-\\frac{1+v^2}{2v}$. Separating: $\\frac{2v}{1+v^2}dv=-\\frac{dx}{x}$. Integrating: $\\log(1+v^2)=-\\log x+\\log c\\Rightarrow x(1+v^2)=c$. Substituting $v=y/x$: $x^2+y^2=cx$.",
+      "keywords": [
+        "substitution y=vx",
+        "separate variables",
+        "integrate",
+        "x^2+y^2=cx"
+      ]
+    },
+    {
+      "id": "board-mat-differential-equations-008",
+      "q": "Solve $\\dfrac{dy}{dx}+2y=\\sin x$.",
+      "marks": 3,
+      "type": "numerical",
+      "frequency": "very often",
+      "answer": "Linear form with $P=2$, $Q=\\sin x$. IF $=e^{2x}$. $y\\,e^{2x}=\\int e^{2x}\\sin x\\,dx=\\frac{e^{2x}}{5}(2\\sin x-\\cos x)+C$. Hence $y=\\frac15(2\\sin x-\\cos x)+Ce^{-2x}$.",
+      "keywords": [
+        "identify P and Q",
+        "integrating factor e^{2x}",
+        "integration by parts",
+        "general solution"
+      ]
+    },
+    {
+      "id": "board-mat-differential-equations-009",
+      "q": "Solve $x\\dfrac{dy}{dx}+y=x\\log x$.",
+      "marks": 3,
+      "type": "numerical",
+      "frequency": "often",
+      "answer": "Divide by $x$: $\\frac{dy}{dx}+\\frac1xy=\\log x$. $P=\\frac1x$, IF $=x$. $xy=\\int x\\log x\\,dx=\\frac{x^2}{2}\\log x-\\frac{x^2}{4}+C$. Hence $y=\\frac x2\\log x-\\frac x4+\\frac Cx$.",
+      "keywords": [
+        "standard form",
+        "IF = x",
+        "integration by parts",
+        "solution"
+      ]
+    },
+    {
+      "id": "board-mat-differential-equations-010",
+      "q": "Find the particular solution of $(1+e^{2x})dy+(1+y^2)e^x dx=0$ given that $y=1$ when $x=0$.",
+      "marks": 3,
+      "type": "numerical",
+      "frequency": "often",
+      "answer": "Separating: $\\frac{dy}{1+y^2}=-\\frac{e^x dx}{1+e^{2x}}$. Integrating: $\\tan^{-1}y=-\\tan^{-1}(e^x)+C$. Put $x=0,y=1$: $\\frac\\pi4=-\\frac\\pi4+C\\Rightarrow C=\\frac\\pi2$. Particular solution: $\\tan^{-1}y+\\tan^{-1}(e^x)=\\frac\\pi2$.",
+      "keywords": [
+        "separate variables",
+        "integrate",
+        "use initial condition",
+        "particular solution"
+      ]
+    },
+    {
+      "id": "board-mat-differential-equations-011",
+      "q": "Derive the general solution of the linear differential equation $\\dfrac{dy}{dx}+Py=Q$, where $P,Q$ are functions of $x$.",
+      "marks": 5,
+      "type": "derivation",
+      "frequency": "very often",
+      "answer": "Multiply both sides by $e^{\\int P\\,dx}$ (integrating factor, IF). Then $e^{\\int P dx}\\frac{dy}{dx}+Pe^{\\int P dx}y=Qe^{\\int P dx}$, i.e. $\\frac{d}{dx}\\left(y\\,e^{\\int P dx}\\right)=Qe^{\\int P dx}$. Integrating: $y\\,e^{\\int P\\,dx}=\\int Q\\,e^{\\int P\\,dx}dx+C$. That is, $y\\times\\mathrm{IF}=\\int Q\\times\\mathrm{IF}\\,dx+C$.",
+      "keywords": [
+        "integrating factor",
+        "product rule",
+        "integrate both sides",
+        "general solution"
+      ]
+    },
+    {
+      "id": "board-mat-differential-equations-012",
+      "q": "Solve $y\\,dx+(x-y^3)dy=0$.",
+      "marks": 5,
+      "type": "numerical",
+      "frequency": "often",
+      "answer": "Write as $\\frac{dx}{dy}+\\frac1yx=y^2$, linear in $x$ with $P=\\frac1y$, $Q=y^2$. IF $=e^{\\log y}=y$. Solution: $x\\cdot y=\\int y^2\\cdot y\\,dy=\\frac{y^4}{4}+C$. Hence $xy=\\frac{y^4}{4}+C$.",
+      "keywords": [
+        "treat x as dependent variable",
+        "dx/dy form",
+        "IF = y",
+        "solution"
+      ]
+    }
+  ]
+}
