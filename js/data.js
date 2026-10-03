@@ -65,6 +65,25 @@ export async function sampleQuestions({ subjects, count, puc = 0, difficulty = '
   const order = alloc.slice().sort((a, b) => (b.frac + rnd() * 0.5) - (a.frac + rnd() * 0.5));
   for (const y of order) { if (left <= 0) break; y.n++; left--; }
   alloc = alloc.filter((y) => y.n > 0);
+  // Full single-subject mock: draw from the one-file pool (data/pools/<subject>.json) instead of ~28 chapter files.
+  if (subjects.length === 1 && count >= 40 && !difficulty && !puc && store.lang() !== 'kn') {
+    let p = null;
+    progress(0, 1, 'Loading questions');
+    try { p = await pool(subjects[0]); } catch (e) { console.warn(e); }
+    if (p) {
+      const byCh = {};
+      for (const q of p.questions || []) (byCh[q.chapter] ||= []).push(q);
+      const short = alloc.filter((y) => (byCh[y.x.c.slug] || []).length < y.n);
+      let done = 1; progress(done, 1 + short.length, 'Loading questions');
+      const picked = [];
+      await Promise.all(alloc.map(async (y) => {
+        let src = byCh[y.x.c.slug] || [];
+        if (src.length < y.n) { try { src = (await chapter(y.x.s, y.x.c.slug)).questions; } catch {} progress(++done, 1 + short.length, 'Loading questions'); }
+        picked.push(...shuffleWith(src, rnd).slice(0, y.n));
+      }));
+      return shuffleWith(picked, rnd).slice(0, count);
+    }
+  }
   let done = 0; progress(0, alloc.length, 'Loading chapters');
   const picked = [];
   await Promise.all(alloc.map(async (y) => {
@@ -73,6 +92,8 @@ export async function sampleQuestions({ subjects, count, puc = 0, difficulty = '
   }));
   return shuffleWith(picked, rnd).slice(0, count);
 }
+// Pre-built stratified sample (~300 questions) for one subject; see tools/build-pools.mjs.
+export async function pool(subject) { return getJSON(`data/pools/${subject}.json`); }
 export function shuffleWith(arr, rnd) { const a = arr.slice(); for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(rnd() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; }
 export function progress(done, total, label) { window.dispatchEvent(new CustomEvent('kcet:loading', { detail: { done, total, label } })); }
 export async function questionById(id) {

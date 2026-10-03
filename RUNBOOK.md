@@ -15,6 +15,7 @@ Edit `answer` (0-based index, 0=A), `explanation`, and `trick`/`tip` as needed. 
 
 ```bash
 node tools/validate.mjs        # for data/questions/*
+node tools/build-pools.mjs     # after ANY change to data/questions: rebuilds the mock pools (data/pools/*.json)
 node tools/validate-pyq.mjs    # for data/pyq/*
 ```
 
