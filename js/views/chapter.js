@@ -146,13 +146,19 @@ export default async function chapterView([subject, slug], query) {
       <div class="card" style="border-left:5px solid var(--math)"><div class="kicker">2nd PUC board exam · why it matters</div>
         <p style="margin:6px 0">Your KCET rank is <b>50% board marks + 50% CET marks</b>. These are the questions this chapter keeps giving in the Karnataka board paper, with model answers written the way examiners award marks.</p>
         <p class="muted" style="margin:0">${b.pattern || ''}</p></div>
+      <div class="card" style="border-left:5px solid var(--warn-text, #b45309)"><div class="kicker">Please read before you use this</div>
+        <ul style="margin:6px 0 0;padding-left:18px">
+          <li><b>For practice only.</b> These are not official board questions or answers. They may contain mistakes.</li>
+          <li><b>Model answers are for remembering the key points.</b> In the real exam, write answers in your own words with the steps, diagrams and units your teacher taught. The exact answer expected by the examiner may differ.</li>
+          <li>Follow your textbook and teacher first. Use this to check you have not missed a point.</li>
+        </ul></div>
       ${groups.map(([m, qs]) => `<h2>${m}-mark questions <span class="muted" style="font-weight:400;font-size:.9rem">· ${qs.length}</span></h2>
         ${qs.map((q, i) => `<div class="card">
           <div class="row spread" style="align-items:flex-start"><div class="question" style="margin-bottom:6px">${q.q}</div>${freqPill(q.frequency)}</div>
           <div class="muted" style="font-size:.85rem">${q.type}${q.keywords?.length ? ' · examiner looks for: ' + q.keywords.map(esc).join(', ') : ''}</div>
           <details style="margin-top:8px"><summary class="btn small secondary" style="display:inline-flex">Show model answer</summary><div class="explain">${q.answer}</div></details>
         </div>`).join('')}`).join('')}
-      <p class="muted">Board questions are from the Karnataka PU pattern, written and checked by teachers and AI assistants. Found an error? Use Report a mistake in Settings.</p>`;
+      <p class="muted">Written in the Karnataka PU pattern by teachers with AI assistance, for practice only. Not official KEA or PU Board material. Found an error? Use the feedback form in Settings.</p>`;
     math(boardBox);
   }
   if (tab === 'board') renderBoard();
