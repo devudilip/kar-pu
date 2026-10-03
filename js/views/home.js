@@ -3,6 +3,7 @@ import { store } from '../store.js';
 import { el, esc, fmtDate, toast, fmtTime } from '../ui.js';
 import { buildPlan, taskLink } from './plan.js';
 import { weekStats } from './report.js';
+import { searchBox, bindSearchBox } from './search.js';
 
 const FEEDBACK = 'https://forms.gle/YW9CKJa22dX5C2ph8';
 
@@ -64,6 +65,7 @@ export default async function home() {
                   : `<a class="step" href="#/flashcards"><span class="num">3</span><span><b>Revise flashcards</b><span class="muted">${due ? `${due} cards are due for review today.` : 'Formulas and facts, one tap to flip.'}</span></span><span class="go">Revise →</span></a>`}
     </div>
 
+    <div style="margin:14px 0 4px">${searchBox('Search a chapter or topic, e.g. Doppler, pH, integrals')}</div>
     <h2>Subjects</h2>
     ${SUBJECTS.map((s) => { const ch = syl[s.id]; const tot = ch.reduce((a, c) => a + (c.count || 0), 0); const done = Object.keys(st.attempts).filter((id) => id.startsWith(PFX[s.id] + '-')).length; const ico = { physics: '⚛️', chemistry: '🧪', maths: '📐' }[s.id]; return `<a class="card link subject-card" data-s="${s.id}" href="#/subject/${s.id}">
       <div class="row" style="align-items:center"><span class="sub-ico ${s.id}">${ico}</span><span style="flex:1"><b style="font-size:1.1rem">${s.name}</b><div class="muted">${ch.length} chapters · ${tot} questions · ${done} done</div></span><span class="go" style="color:var(--primary);font-weight:700">Open →</span></div>
@@ -92,6 +94,7 @@ export default async function home() {
     <p class="muted" style="text-align:center">Free · non-profit · no ads · not affiliated with KEA · <a href="${FEEDBACK}" target="_blank" rel="noopener">Report a mistake</a> · <a href="#/settings">About & settings</a></p>
   </div>`);
 
+  bindSearchBox(node);
   node.querySelector('#installNow')?.addEventListener('click', async () => { const p = window.__installPrompt; if (!p) return; p.prompt(); const { outcome } = await p.userChoice; if (outcome === 'accepted') { toast('Installed! Open it from your home screen.'); node.querySelector('#installBanner')?.remove(); } });
   node.querySelector('#installLater')?.addEventListener('click', () => { localStorage.setItem('kcet.installDismissed', String(Date.now())); node.querySelector('#installBanner')?.remove(); });
   window.addEventListener('kcet:installable', () => { const b = node.querySelector('#installBanner'); if (b) { b.querySelector('#installNow')?.classList.remove('hidden'); b.querySelector('.install-how')?.classList.add('hidden'); } }, { once: true });
