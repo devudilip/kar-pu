@@ -1,4 +1,4 @@
-import { SUBJECTS, PFX, syllabus, KCET, flashcards } from '../data.js';
+import { SUBJECTS, PFX, syllabus, KCET } from '../data.js';
 import { store } from '../store.js';
 import { el, esc, fmtDate, toast, fmtTime } from '../ui.js';
 import { buildPlan, taskLink } from './plan.js';
@@ -15,9 +15,8 @@ export default async function home() {
   const attempted = Object.keys(st.attempts).length;
   const streak = store.streak();
 
-  // Cards due today across subjects (only cards seen before)
-  let due = 0;
-  for (const s of SUBJECTS) { const fc = await flashcards(s.id); fc.chapters.forEach((c) => c.cards.forEach((_, i) => { const k = store.card(`${s.id}/${c.slug}/${i}`); if (k.lvl > 0 && k.next <= Date.now()) due++; })); }
+  // Cards due today: computed from locally stored card states (no deck downloads on the home page)
+  const due = Object.values(st.cards || {}).filter((k) => k.lvl > 0 && k.next <= Date.now()).length;
 
   const todayPlan = plan?.days.find((d) => d.date === today);
   const chapterTask = todayPlan?.tasks.find((t) => t.type === 'chapter' || t.type === 'revise');
