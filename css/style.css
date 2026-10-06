@@ -40,6 +40,9 @@ p { margin: .5rem 0; }
 .topbar { position: sticky; top: 0; z-index: 20; background: var(--bg); color: var(--text); display: flex; align-items: center; gap: 12px; padding: 10px 16px; border-bottom: 1px solid var(--border); }
 .brand { color: var(--text); font-weight: 700; font-size: 1.05rem; display: flex; align-items: center; gap: 10px; line-height: 1.1; }
 .brand small { display: block; font-size: .62rem; letter-spacing: .12em; color: var(--muted); font-weight: 600; }
+.brand-home { color: inherit; text-decoration: none; display: flex; align-items: center; gap: 10px; }
+.brand-by { display: block; font-size: .62rem; letter-spacing: .12em; color: var(--muted); font-weight: 600; text-decoration: none; margin-left: 40px; margin-top: -4px; }
+.brand-by:hover { color: var(--primary); }
 .logo { background: var(--primary); color: var(--on-primary); width: 36px; height: 36px; border-radius: 8px; display: inline-grid; place-items: center; font-weight: 800; font-family: var(--font-head); font-size: 1.1rem; }
 .topnav { display: none; gap: 16px; margin-left: auto; }
 .topnav a { color: var(--text); font-weight: 600; }

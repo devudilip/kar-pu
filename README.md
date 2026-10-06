@@ -1,6 +1,6 @@
 # KCET Prep — free Karnataka CET practice
 
-**Live app:** https://pu.sirigannada.in · **By:** [Sirigannada](https://sirigannada.in) · **Feedback:** https://forms.gle/YW9CKJa22dX5C2ph8
+**Live app:** https://pu.sirigannada.in · **By:** [Sirigannada](https://www.sirigannada.in/apps) · **Feedback:** https://forms.gle/YW9CKJa22dX5C2ph8
 
 ## What is this?
 
@@ -18,7 +18,7 @@ Inside:
 Coaching classes and paid apps are out of reach for many students, especially in villages and small towns. Good practice material for KCET exists but is scattered, expensive, or full of ads. This project puts everything a student needs in one place, for free, forever.
 
 - **Non-profit.** No ads, no paid tier, no upsell.
-- **No account, no personal tracking.** Your progress lives only on your own device (you can export a backup from Settings). The site uses Cloudflare Web Analytics for anonymous visit counts only: no cookies, no personal data.
+- **No account, no personal tracking.** Your progress lives only on your own device (you can export a backup from Settings). No analytics script and no cookies; visit totals come from Cloudflare's server-side counts for the zone. Details on the in-app Privacy page (`#/privacy`).
 - **Open source.** Anyone can check the questions, fix mistakes, or run their own copy.
 
 ## How to use it
