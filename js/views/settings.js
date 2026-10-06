@@ -43,12 +43,12 @@ export default async function settings() {
     </div>
     <div class="card">
       <h3 style="margin-top:0">About this app</h3>
-      <p class="muted">Free, non-profit and open source. No ads, no account, no personal tracking — your progress stays on this device only (anonymous visit counts via Cloudflare Web Analytics, no cookies). Built to help Karnataka students, especially those far from coaching centres, prepare for KCET.</p>
+      <p class="muted">Free, non-profit and open source. No ads, no account, no tracking script, no cookies — your progress stays on this device only. See <a href="#/privacy">Privacy</a>. Built to help Karnataka students, especially those far from coaching centres, prepare for KCET.</p>
       <p class="muted"><b>Not official.</b> This app is not affiliated with KEA or the PU Board. Past-paper answers follow the official KEA keys; other questions were written and checked by volunteers and AI assistants and <b>may contain mistakes</b>. Use "Report a mistake" under any question.</p>
       <p class="muted">Want to contribute questions, corrections or translations? <a href="https://github.com/devudilip/kar-pu" target="_blank" rel="noopener">github.com/devudilip/kar-pu</a></p>
     </div>
     <div class="card muted">
-      <b>KCET Prep</b> by <a href="https://sirigannada.in" target="_blank" rel="noopener">Sirigannada</a> · v1.2 · MIT / CC BY 4.0 · Official exam information: <a href="https://cetonline.karnataka.gov.in" target="_blank" rel="noopener">cetonline.karnataka.gov.in</a>
+      <b>KCET Prep</b> by <a href="https://www.sirigannada.in/apps" target="_blank" rel="noopener">Sirigannada</a> · v1.2 · MIT / CC BY 4.0 · <a href="#/privacy">Privacy</a> · Official exam information: <a href="https://cetonline.karnataka.gov.in" target="_blank" rel="noopener">cetonline.karnataka.gov.in</a>
     </div>
   </div>`);
   node.querySelectorAll('[data-lang]').forEach((b) => b.addEventListener('click', () => { store.setSetting('lang', b.dataset.lang); toast('Language updated'); location.reload(); }));

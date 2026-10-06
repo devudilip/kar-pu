@@ -21,6 +21,7 @@ import report from './views/report.js';
 import sheet from './views/sheet.js';
 import examday from './views/examday.js';
 import search from './views/search.js';
+import privacy from './views/privacy.js';
 
 route('home', home);
 route('subject', subject);
@@ -40,6 +41,7 @@ route('report', report);
 route('sheet', sheet);
 route('examday', examday);
 route('search', search);
+route('privacy', privacy);
 route('*', () => { const d = document.createElement('div'); d.className = 'empty'; d.textContent = 'Page not found.'; return d; });
 
 const app = document.getElementById('app');
