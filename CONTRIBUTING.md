@@ -78,3 +78,9 @@ Vanilla ES modules, no framework, no dependencies to install. Keep pages usable 
 ## Reporting a problem
 
 Use the in-app **Report a mistake** link (it copies the question ID) or the feedback form: https://forms.gle/YW9CKJa22dX5C2ph8. Please include the question ID or the paper and question number.
+
+## Maintainers: the family handbook
+
+Anything that spans more than one Sirigannada product (domain, hosting, Cloudflare, release steps,
+store listing, privacy, analytics, brand) is recorded in the owner's family handbook (see
+`AGENTS.md`). Update it in the same sitting as the change.
