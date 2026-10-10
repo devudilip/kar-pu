@@ -62,7 +62,7 @@ export default async function settings() {
       const syl = await syllabus();
       const files = [];
       for (const s of SUBJECTS) for (const c of syl[s.id]) if (c.count) { files.push(`data/questions/${s.id}/${c.file}`); if (c.puc === 2) files.push(`data/board/${s.id}/${c.file}`); }
-      for (const s of SUBJECTS) { files.push(`data/concepts/${s.id}.json`); files.push(`data/flashcards/${s.id}.json`); files.push(`data/pools/${s.id}.json`); }
+      for (const s of SUBJECTS) { files.push(`data/concepts/${s.id}.json`); files.push(`data/flashcards/${s.id}.json`); files.push(`data/pools/${s.id}.json`); files.push(`data/likely/${s.id}.json`); }
       let done = 0;
       for (const f of files) { try { await fetch(f, { cache: 'reload' }); } catch {} done++; status.textContent = `Saving ${done}/${files.length}…`; }
       status.textContent = `All ${files.length} chapters saved. You can use the app offline now.`;

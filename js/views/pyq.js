@@ -2,8 +2,8 @@ import { SUBJECTS, pyqIndex, pyqPaper, KCET } from '../data.js';
 import { launchExam } from './tests.js';
 import { el, esc, math, optionButton, LETTERS, reportLink, bindReportLinks } from '../ui.js';
 
-export default async function pyq([file]) {
-  if (file) return browse(file);
+export default async function pyq([file], query = {}) {
+  if (file) return browse(file, query);
   const idx = await pyqIndex();
   const years = [...new Set(idx.papers.map((p) => p.year))].sort((a, b) => b - a);
   const node = el(`<div>
@@ -22,7 +22,7 @@ export default async function pyq([file]) {
   return node;
 }
 
-async function browse(file) {
+async function browse(file, query = {}) {
   const p = await pyqPaper(file);
   const node = el(`<div>
     <div class="breadcrumb"><a href="#/pyq">PYQ</a> › ${esc(p.title || file)}</div>
@@ -36,6 +36,7 @@ async function browse(file) {
     </div>`).join('')}</div>
   </div>`);
   math(node);
+  if (query.q) { const t = p.questions.findIndex((q) => String(q.n) === String(query.q)); const c = node.querySelector(`.card[data-i="${t}"]`); if (c) { c.style.scrollMarginTop = '72px'; c.style.borderColor = 'var(--primary)'; c.style.boxShadow = '0 0 0 3px var(--selected-bg, #fbe9e4)'; const go = () => { if (!c.isConnected) return setTimeout(go, 100); c.scrollIntoView({ block: 'start' }); }; setTimeout(go, 150); } }
   node.querySelectorAll('.card[data-i]').forEach((card) => {
     const q = p.questions[+card.dataset.i];
     card.querySelectorAll('.option').forEach((b) => b.addEventListener('click', () => {

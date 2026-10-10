@@ -122,3 +122,6 @@ node tools/validate.mjs
 
 ## Board-exam content
 `node tools/validate-board.mjs` checks data/board/<subject>/<slug>.json (2nd PUC chapters only) and reports missing chapters.
+
+## Most likely questions page
+`node tools/predict-backtest.mjs --predict <nextYear>` then `node tools/build-likely.mjs <nextYear>` regenerates data/likely/<subject>.json from the labelled past papers (research/prediction). Re-run after adding a new year's papers and labelling them.

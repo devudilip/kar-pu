@@ -132,5 +132,6 @@ export async function pyqWeights() {
   return out;
 }
 export async function concepts(subject) { try { return await getJSON(`data/concepts/${subject}.json`); } catch { return { chapters: {} }; } }
+export async function likely(subject) { try { return await getJSON(`data/likely/${subject}.json`); } catch { return null; } }
 export async function board(subject, slug) { try { return await getJSON(`data/board/${subject}/${slug}.json`); } catch { return null; } }
 export async function rankData() { return getJSON('data/rank-bands.json'); }

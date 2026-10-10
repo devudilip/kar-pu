@@ -80,6 +80,7 @@ export default async function home() {
       <a class="card link" href="#/rank"><b>🎯 Rank calculator</b><div class="muted">Board marks + CET marks → rank estimate.</div></a>
       <a class="card link" href="#/plan"><b>📆 My study plan</b><div class="muted">${plan ? `${daysLeft} days left · edit plan` : 'Day-by-day schedule to your exam.'}</div></a>
       <a class="card link" href="#/progress"><b>📈 Progress & mistakes</b><div class="muted">Weak chapters and why you go wrong.</div></a>
+      <a class="card link" href="#/likely"><b>🎯 Most likely questions</b><div class="muted">The question types KCET asks again and again, from 18 years of papers. Tick them off as you practise.</div></a>
       <a class="card link" href="#/examday"><b>🎒 Last 7 days & exam day</b><div class="muted">Final-week plan, what to carry, hall strategy.</div></a>
       <a class="card link" href="#/report"><b>🗂 Weekly report card</b><div class="muted">This week's score, shareable as an image.</div></a>
     </div>

@@ -10,6 +10,7 @@ const defaults = () => ({
   bestStreak: 0,
   clarity: {},       // qid -> 1 (clear) | -1 (unclear)
   quick: {},         // 'subject/slug' -> { score, of, t }
+  likely: {},        // question-type id -> true when the student has practised it (Most likely questions page)
   last: null,        // { type, href, title, sub, t } — continue where you left off
   plan: null,        // study plan { examDate, hoursPerDay, created, days:[{date, tasks:[{key,type,subject,slug,title,hours,done}]}] }
   cards: {},         // cardKey -> { lvl, next }
@@ -43,6 +44,9 @@ export const store = {
   setQuickCheck(key, v) { state.quick[key] = { ...v, t: Date.now() }; save(); },
   setClarity(qid, v) { state.clarity[qid] = v; save(); },
   clarity(qid) { return state.clarity[qid] || 0; },
+  likelyDone(id) { return !!(state.likely || {})[id]; },
+  toggleLikely(id) { state.likely ||= {}; if (state.likely[id]) delete state.likely[id]; else state.likely[id] = true; save(); return !!state.likely[id]; },
+  likelyCount() { return Object.keys(state.likely || {}).length; },
   clarityList() { return Object.entries(state.clarity); },
   setLast(o) { state.last = { ...o, t: Date.now() }; save(); },
   last() { return state.last; },
