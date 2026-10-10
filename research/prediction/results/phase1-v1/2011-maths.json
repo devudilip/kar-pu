@@ -1,0 +1,1249 @@
+{
+ "params": {
+  "decay": 0.8,
+  "window": 6,
+  "multi": 1.5,
+  "exact": 0.5,
+  "quota": "weighted"
+ },
+ "priorYears": [
+  2009,
+  2010
+ ],
+ "quota": {
+  "Conic Sections": 9,
+  "Continuity and Differentiability": 6,
+  "Integrals": 4,
+  "Trigonometric Functions": 4,
+  "Application of Derivatives": 4,
+  "Vector Algebra": 4,
+  "Determinants": 3,
+  "Complex Numbers and Quadratic Equations": 3,
+  "Inverse Trigonometric Functions": 2,
+  "Straight Lines": 2,
+  "Differential Equations": 2,
+  "Matrices": 2,
+  "Relations and Functions": 1,
+  "Old syllabus: Groups": 1,
+  "Old syllabus: Number Theory (Congruences)": 1,
+  "Old syllabus: Binary Operations": 1,
+  "Old syllabus: Mathematical Reasoning": 1,
+  "Binomial Theorem": 1,
+  "Old syllabus: Properties of Triangles": 1,
+  "Old syllabus: Pair of Straight Lines": 1,
+  "Limits and Derivatives": 1,
+  "Application of Integrals": 1,
+  "Old syllabus: Number Theory": 1,
+  "Sequences and Series": 1,
+  "Old syllabus: Partial Fractions": 1,
+  "Old syllabus: Graph Theory": 1,
+  "Permutations and Combinations": 1,
+  "Old syllabus: Logarithms": 0,
+  "Old syllabus: Mathematical Induction": 0
+ },
+ "predicted": [
+  {
+   "template": "mat-con-circle-equation",
+   "chapter": "Conic Sections",
+   "score": 3.8,
+   "slot": 0,
+   "sample": "2010-maths-3",
+   "sampleQ": "The straight line $2x+3y-k=0$, $k>0$ cuts the X- and Y-axes at $A$ and $B$. The area of $\\triangle OAB$, where $O$ is the origin, is 12 sq. units. The equation of the circle having $AB$ as diameter is"
+  },
+  {
+   "template": "mat-con-circle-chord",
+   "chapter": "Conic Sections",
+   "score": 3.6,
+   "slot": 0,
+   "sample": "2010-maths-1",
+   "sampleQ": "The chord of the circle $x^2+y^2-4x=0$ which is bisected at $(1, 0)$ is perpendicular to the line"
+  },
+  {
+   "template": "mat-con-parabola-tangent-normal",
+   "chapter": "Conic Sections",
+   "score": 2.8,
+   "slot": 0,
+   "sample": "2010-maths-50",
+   "sampleQ": "The locus of the point of intersection of the tangents drawn at the ends of a focal chord of the parabola $x^2=-8y$ is"
+  },
+  {
+   "template": "mat-con-circle-equation",
+   "chapter": "Conic Sections",
+   "score": 1.9,
+   "slot": 1,
+   "sample": "2010-maths-3",
+   "sampleQ": "The straight line $2x+3y-k=0$, $k>0$ cuts the X- and Y-axes at $A$ and $B$. The area of $\\triangle OAB$, where $O$ is the origin, is 12 sq. units. The equation of the circle having $AB$ as diameter is"
+  },
+  {
+   "template": "mat-con-circle-chord",
+   "chapter": "Conic Sections",
+   "score": 1.8,
+   "slot": 1,
+   "sample": "2010-maths-1",
+   "sampleQ": "The chord of the circle $x^2+y^2-4x=0$ which is bisected at $(1, 0)$ is perpendicular to the line"
+  },
+  {
+   "template": "mat-con-parabola-tangent-normal",
+   "chapter": "Conic Sections",
+   "score": 1.4,
+   "slot": 1,
+   "sample": "2010-maths-50",
+   "sampleQ": "The locus of the point of intersection of the tangents drawn at the ends of a focal chord of the parabola $x^2=-8y$ is"
+  },
+  {
+   "template": "mat-con-ellipse-properties",
+   "chapter": "Conic Sections",
+   "score": 1,
+   "slot": 0,
+   "sample": "2010-maths-52",
+   "sampleQ": "The eccentric angle of the point $(2, \\sqrt3)$ lying on $\\dfrac{x^2}{16}+\\dfrac{y^2}{4}=1$ is"
+  },
+  {
+   "template": "mat-con-hyperbola-focus-directrix",
+   "chapter": "Conic Sections",
+   "score": 1,
+   "slot": 0,
+   "sample": "2010-maths-53",
+   "sampleQ": "The distance of the focus of $x^2-y^2=4$, from the directrix which is nearer to it, is"
+  },
+  {
+   "template": "mat-con-common-tangents-count",
+   "chapter": "Conic Sections",
+   "score": 0.8,
+   "slot": 0,
+   "sample": "2009-maths-32",
+   "sampleQ": "The number of common tangents to the circles $x^2+y^2-y=0$ and $x^2+y^2+y=0$ is"
+  },
+  {
+   "template": "mat-cd-standard-rules",
+   "chapter": "Continuity and Differentiability",
+   "score": 2.6,
+   "slot": 0,
+   "sample": "2010-maths-40",
+   "sampleQ": "The derivative of $e^{ax}\\cos bx$ with respect to $x$ is $re^{ax}\\cos\\left(bx+\\tan^{-1}\\dfrac{b}{a}\\right)$. When $a>0, b>0$, the value of $r$ is"
+  },
+  {
+   "template": "mat-cd-derivative-identity",
+   "chapter": "Continuity and Differentiability",
+   "score": 2,
+   "slot": 0,
+   "sample": "2010-maths-39",
+   "sampleQ": "If the three functions $f(x)$, $g(x)$ and $h(x)$ are such that $h(x)=f(x)\\cdot g(x)$ and $f'(x)\\cdot g'(x)=c$, where $c$ is a constant, then $\\dfrac{f''(x)}{f(x)}+\\dfrac{g''(x)}{g(x)}+\\dfrac{2c}{f(x)\\cdot g(x)}$ is equal to"
+  },
+  {
+   "template": "mat-cd-differentiability-check",
+   "chapter": "Continuity and Differentiability",
+   "score": 1,
+   "slot": 0,
+   "sample": "2010-maths-5",
+   "sampleQ": "The function $f(x)=|x-2|+x$ is"
+  },
+  {
+   "template": "mat-cd-discontinuity-points",
+   "chapter": "Continuity and Differentiability",
+   "score": 1,
+   "slot": 0,
+   "sample": "2010-maths-20",
+   "sampleQ": "The function $f(x)=[x]$, where $[x]$ denotes the greatest integer not greater than $x$, is"
+  },
+  {
+   "template": "mat-cd-parametric",
+   "chapter": "Continuity and Differentiability",
+   "score": 1,
+   "slot": 0,
+   "sample": "2010-maths-41",
+   "sampleQ": "If $x=a\\cos^3\\theta$ and $y=a\\sin^3\\theta$, then $\\dfrac{dy}{dx}=$"
+  },
+  {
+   "template": "mat-cd-continuity-find-k",
+   "chapter": "Continuity and Differentiability",
+   "score": 0.8,
+   "slot": 0,
+   "sample": "2009-maths-43",
+   "sampleQ": "The function $f(x) = \\dfrac{\\log(1+ax) - \\log(1-bx)}{x}$ is not defined at $x=0$. The value which should be assigned to 'f' at $x=0$ so that it is continuous at $x=0$ is"
+  },
+  {
+   "template": "mat-int-substitution",
+   "chapter": "Integrals",
+   "score": 4.8,
+   "slot": 0,
+   "sample": "2010-maths-54",
+   "sampleQ": "If $\\displaystyle\\int f(x)\\sin x\\cdot\\cos x\\,dx=\\dfrac{1}{2(b^2-a^2)}\\log f(x)+c$, where $c$ is the constant of integration, then $f(x)=$"
+  },
+  {
+   "template": "mat-int-substitution",
+   "chapter": "Integrals",
+   "score": 2.4,
+   "slot": 1,
+   "sample": "2010-maths-54",
+   "sampleQ": "If $\\displaystyle\\int f(x)\\sin x\\cdot\\cos x\\,dx=\\dfrac{1}{2(b^2-a^2)}\\log f(x)+c$, where $c$ is the constant of integration, then $f(x)=$"
+  },
+  {
+   "template": "mat-int-ex-f-plus-fprime",
+   "chapter": "Integrals",
+   "score": 0.8,
+   "slot": 0,
+   "sample": "2009-maths-52",
+   "sampleQ": "$\\int e^{\\tan^{-1}x}\\left(1 + \\dfrac{x}{1+x^2}\\right)dx$ is equal to"
+  },
+  {
+   "template": "mat-int-trig-identity-simplify",
+   "chapter": "Integrals",
+   "score": 0.8,
+   "slot": 0,
+   "sample": "2009-maths-53",
+   "sampleQ": "$\\int \\text{cosec}(x-a)\\,\\text{cosec}\\,x\\,dx =$"
+  },
+  {
+   "template": "mat-trig-equation-general",
+   "chapter": "Trigonometric Functions",
+   "score": 1.8,
+   "slot": 0,
+   "sample": "2010-maths-23",
+   "sampleQ": "The general solution of $1+\\sin^2x=3\\sin x\\cdot\\cos x$, $\\tan x\\ne\\dfrac{1}{2}$ is"
+  },
+  {
+   "template": "mat-trig-identity-simplify",
+   "chapter": "Trigonometric Functions",
+   "score": 1.8,
+   "slot": 0,
+   "sample": "2010-maths-16",
+   "sampleQ": "$(\\sin\\theta+\\cos\\theta)(\\tan\\theta+\\cot\\theta)=$"
+  },
+  {
+   "template": "mat-trig-many-angle-products",
+   "chapter": "Trigonometric Functions",
+   "score": 1,
+   "slot": 0,
+   "sample": "2010-maths-15",
+   "sampleQ": "$\\cot12^\\circ\\cot102^\\circ+\\cot102^\\circ\\cot66^\\circ+\\cot66^\\circ\\cot12^\\circ=$"
+  },
+  {
+   "template": "mat-trig-triangle",
+   "chapter": "Trigonometric Functions",
+   "score": 1,
+   "slot": 0,
+   "sample": "2010-maths-17",
+   "sampleQ": "The sides of a triangle are $6+\\sqrt{12}$, $\\sqrt{48}$ and $\\sqrt{24}$. The tangent of the smallest angle of the triangle is"
+  },
+  {
+   "template": "mat-aod-subtangent-subnormal",
+   "chapter": "Application of Derivatives",
+   "score": 1.8,
+   "slot": 0,
+   "sample": "2010-maths-44",
+   "sampleQ": "For the curve $4x^5=5y^4$, the ratio of the cube of the subtangent at a point on the curve to the square of the subnormal at the same point is"
+  },
+  {
+   "template": "mat-aod-tangent-normal-slope-equation",
+   "chapter": "Application of Derivatives",
+   "score": 1,
+   "slot": 0,
+   "sample": "2010-maths-43",
+   "sampleQ": "$P$ is the point of contact of the tangent from the origin to the curve $y=\\log_e x$. The length of the perpendicular drawn from the origin to the normal at $P$ is"
+  },
+  {
+   "template": "mat-aod-increasing-decreasing",
+   "chapter": "Application of Derivatives",
+   "score": 1,
+   "slot": 0,
+   "sample": "2010-maths-45",
+   "sampleQ": "The set of real values of $x$ for which $f(x)=\\dfrac{x}{\\log x}$ is increasing, is"
+  },
+  {
+   "template": "mat-aod-optimization-geometry",
+   "chapter": "Application of Derivatives",
+   "score": 1,
+   "slot": 0,
+   "sample": "2010-maths-46",
+   "sampleQ": "A wire of length 20 cm is bent in the form of a sector of a circle. The maximum area that can be enclosed by the wire is"
+  },
+  {
+   "template": "mat-vec-stp-combination",
+   "chapter": "Vector Algebra",
+   "score": 1.8,
+   "slot": 0,
+   "sample": "2010-maths-33",
+   "sampleQ": "If $\\vec a$, $\\vec b$ and $\\vec c$ are nonzero coplanar vectors, then $\\left[2\\vec a-\\vec b\\ \\ 3\\vec b-\\vec c\\ \\ 4\\vec c-\\vec a\\right]=$"
+  },
+  {
+   "template": "mat-vec-direction-cosines",
+   "chapter": "Vector Algebra",
+   "score": 1,
+   "slot": 0,
+   "sample": "2010-maths-34",
+   "sampleQ": "A space vector makes the angles $150^\\circ$ and $60^\\circ$ with the positive direction of X- and Y-axes. The angle made by the vector with the positive direction of Z-axis is"
+  },
+  {
+   "template": "mat-vec-unit-sum-zero",
+   "chapter": "Vector Algebra",
+   "score": 1,
+   "slot": 0,
+   "sample": "2010-maths-35",
+   "sampleQ": "If $\\vec a$, $\\vec b$ and $\\vec c$ are unit vectors, such that $\\vec a+\\vec b+\\vec c=\\vec 0$, then $3\\vec a\\cdot\\vec b+2\\vec b\\cdot\\vec c+\\vec c\\cdot\\vec a=$"
+  },
+  {
+   "template": "mat-vec-properties-statements",
+   "chapter": "Vector Algebra",
+   "score": 1,
+   "slot": 0,
+   "sample": "2010-maths-36",
+   "sampleQ": "If $i, j, k$ are unit vectors along the positive direction of X-, Y- and Z-axes, then a FALSE statement in the following is"
+  },
+  {
+   "template": "mat-det-adj-inverse-value",
+   "chapter": "Determinants",
+   "score": 1.8,
+   "slot": 0,
+   "sample": "2010-maths-30",
+   "sampleQ": "If $A$ is a $3\\times3$ nonsingular matrix and if $|A|=3$, then $|(2A)^{-1}|=$"
+  },
+  {
+   "template": "mat-det-equation-condition",
+   "chapter": "Determinants",
+   "score": 1.6,
+   "slot": 0,
+   "sample": "2009-maths-3",
+   "sampleQ": "If $\\begin{vmatrix} x+1 & x+2 & x+a \\\\ x+2 & x+3 & x+b \\\\ x+3 & x+4 & x+c \\end{vmatrix} = 0$, then $a, b, c$ are"
+  },
+  {
+   "template": "mat-det-locus-curve",
+   "chapter": "Determinants",
+   "score": 1,
+   "slot": 0,
+   "sample": "2010-maths-4",
+   "sampleQ": "Let $P(x, y)$ be the midpoint of the line joining $(1, 0)$ to a point on the curve $y^2=\\begin{vmatrix}x+1 & x+2\\\\ x+3 & x+5\\end{vmatrix}$. The locus of $P$ is symmetrical about"
+  },
+  {
+   "template": "mat-cx-powers-of-i",
+   "chapter": "Complex Numbers and Quadratic Equations",
+   "score": 2.8,
+   "slot": 0,
+   "sample": "2010-maths-24",
+   "sampleQ": "The least positive integer $n$, for which $\\dfrac{(1+i)^n}{(1-i)^{n-2}}$ is positive, is"
+  },
+  {
+   "template": "mat-cx-argand-quadrant",
+   "chapter": "Complex Numbers and Quadratic Equations",
+   "score": 1.6,
+   "slot": 0,
+   "sample": "2009-maths-22",
+   "sampleQ": "The complex number $\\dfrac{1+2i}{1-i}$ lies in"
+  },
+  {
+   "template": "mat-cx-powers-of-i",
+   "chapter": "Complex Numbers and Quadratic Equations",
+   "score": 1.4,
+   "slot": 1,
+   "sample": "2010-maths-24",
+   "sampleQ": "The least positive integer $n$, for which $\\dfrac{(1+i)^n}{(1-i)^{n-2}}$ is positive, is"
+  },
+  {
+   "template": "mat-itf-solve-equation",
+   "chapter": "Inverse Trigonometric Functions",
+   "score": 1,
+   "slot": 0,
+   "sample": "2010-maths-21",
+   "sampleQ": "If $a>b>0$, $\\sec^{-1}\\left(\\dfrac{a+b}{a-b}\\right)=2\\sin^{-1}x$, then $x=$"
+  },
+  {
+   "template": "mat-itf-complementary",
+   "chapter": "Inverse Trigonometric Functions",
+   "score": 1,
+   "slot": 0,
+   "sample": "2010-maths-22",
+   "sampleQ": "If $x\\ne n\\pi$, $x\\ne(2n+1)\\dfrac{\\pi}{2}$, $n\\in Z$, then $\\dfrac{\\sin^{-1}(\\cos x)+\\cos^{-1}(\\sin x)}{\\tan^{-1}(\\cot x)+\\cot^{-1}(\\tan x)}=$"
+  },
+  {
+   "template": "mat-sl-section-formula",
+   "chapter": "Straight Lines",
+   "score": 1,
+   "slot": 0,
+   "sample": "2010-maths-12",
+   "sampleQ": "The line joining $A(2, -7)$ and $B(6, 5)$ is divided into 4 equal parts by the points $P, Q$ and $R$ such that $AQ=RP=QB$. The midpoint of $PR$ is"
+  },
+  {
+   "template": "mat-sl-concurrency-bisector",
+   "chapter": "Straight Lines",
+   "score": 1,
+   "slot": 0,
+   "sample": "2010-maths-13",
+   "sampleQ": "Let $P\\equiv(-1, 0)$, $Q\\equiv(0, 0)$ and $R\\equiv(3, 3\\sqrt3)$ be three points. The equation of the bisector of the angle $PQR$ is"
+  },
+  {
+   "template": "mat-de-order-degree",
+   "chapter": "Differential Equations",
+   "score": 1,
+   "slot": 0,
+   "sample": "2010-maths-59",
+   "sampleQ": "The order and degree of the differential equation $y=\\dfrac{dp}{dx}x+\\sqrt{a^2p^2+b^2}$ where $p=\\dfrac{dy}{dx}$ (here $a$ and $b$ are arbitrary constants) respectively are"
+  },
+  {
+   "template": "mat-de-solution-family",
+   "chapter": "Differential Equations",
+   "score": 1,
+   "slot": 0,
+   "sample": "2010-maths-60",
+   "sampleQ": "The general solution of the differential equation $2x\\dfrac{dy}{dx}-y=3$ is a family of"
+  },
+  {
+   "template": "mat-mat-ab-b-ba-a",
+   "chapter": "Matrices",
+   "score": 1,
+   "slot": 0,
+   "sample": "2010-maths-29",
+   "sampleQ": "If $A$ and $B$ are two square matrices of the same order such that $AB=B$ and $BA=A$, then $A^2+B^2$ is always equal to"
+  },
+  {
+   "template": "mat-mat-quadratic-equation",
+   "chapter": "Matrices",
+   "score": 1,
+   "slot": 0,
+   "sample": "2010-maths-31",
+   "sampleQ": "If $A=\\begin{bmatrix}3 & 2\\\\ 1 & 1\\end{bmatrix}$, then $A^2+xA+yI=0$ for $(x, y)=$"
+  },
+  {
+   "template": "mat-rel-equivalence-count",
+   "chapter": "Relations and Functions",
+   "score": 1,
+   "slot": 0,
+   "sample": "2010-maths-11",
+   "sampleQ": "Let $R$ be an equivalence relation defined on a set containing 6 elements. The minimum number of ordered pairs that $R$ should contain is"
+  },
+  {
+   "template": "mat-oldgrp-group-properties",
+   "chapter": "Old syllabus: Groups",
+   "score": 1.6,
+   "slot": 0,
+   "sample": "2009-maths-11",
+   "sampleQ": "Which one of the following is not true?"
+  },
+  {
+   "template": "mat-oldntc-congruence-modulus",
+   "chapter": "Old syllabus: Number Theory (Congruences)",
+   "score": 2,
+   "slot": 0,
+   "sample": "2010-maths-26",
+   "sampleQ": "The greatest value of $x$ satisfying $21\\equiv385\\ (\\text{mod}\\ x)$ and $587\\equiv167\\ (\\text{mod}\\ x)$ is"
+  },
+  {
+   "template": "mat-oldbo-operation-properties",
+   "chapter": "Old syllabus: Binary Operations",
+   "score": 2,
+   "slot": 0,
+   "sample": "2010-maths-37",
+   "sampleQ": "In $P(X)$, the power set of a nonempty set $X$, a binary operation $*$ is defined by $A*B=A\\cup B\\ \\forall\\ A, B\\in P(X)$. Under $*$, a TRUE statement is"
+  },
+  {
+   "template": "mat-oldmr-logical-equivalence",
+   "chapter": "Old syllabus: Mathematical Reasoning",
+   "score": 1,
+   "slot": 0,
+   "sample": "2010-maths-10",
+   "sampleQ": "Which of the following is NOT true?"
+  },
+  {
+   "template": "mat-bin-equal-coefficients",
+   "chapter": "Binomial Theorem",
+   "score": 1,
+   "slot": 0,
+   "sample": "2010-maths-7",
+   "sampleQ": "In the binomial expansion of $(1+x)^{15}$, the coefficients of $x^r$ and $x^{r+3}$ are equal. Then $r$ is"
+  },
+  {
+   "template": "mat-oldtri-solve-triangle",
+   "chapter": "Old syllabus: Properties of Triangles",
+   "score": 1.8,
+   "slot": 0,
+   "sample": "2010-maths-2",
+   "sampleQ": "In $\\triangle ABC$, if $a=2$, $B=\\tan^{-1}\\dfrac{1}{2}$ and $C=\\tan^{-1}\\dfrac{1}{3}$, then $(A, b)=$"
+  },
+  {
+   "template": "mat-oldpsl-pair-lines",
+   "chapter": "Old syllabus: Pair of Straight Lines",
+   "score": 1.8,
+   "slot": 0,
+   "sample": "2010-maths-14",
+   "sampleQ": "If $m$ is the slope of one of the lines represented by $ax^2+2hxy+by^2=0$, then $(h+bm)^2=$"
+  },
+  {
+   "template": "mat-lim-n-infinity",
+   "chapter": "Limits and Derivatives",
+   "score": 1.8,
+   "slot": 0,
+   "sample": "2010-maths-19",
+   "sampleQ": "$\\displaystyle\\lim_{n\\to\\infty}\\left\\{n\\sin\\dfrac{2\\pi}{3n}\\cdot\\cos\\dfrac{2\\pi}{3n}\\right\\}=$"
+  },
+  {
+   "template": "mat-aoi-curve-horizontal-line",
+   "chapter": "Application of Integrals",
+   "score": 1,
+   "slot": 0,
+   "sample": "2010-maths-58",
+   "sampleQ": "The area bounded by the curve $y=\\begin{cases}x^2, & x<0\\\\ x, & x\\ge0\\end{cases}$ and the line $y=4$ is"
+  },
+  {
+   "template": "mat-oldnt-gcd-linear-combination",
+   "chapter": "Old syllabus: Number Theory",
+   "score": 0.8,
+   "slot": 0,
+   "sample": "2009-maths-1",
+   "sampleQ": "If $ax + by = 1$, where $a, b, x$ and $y$ are integers, then which one of the following is not true?"
+  },
+  {
+   "template": "mat-seq-nth-term-pattern",
+   "chapter": "Sequences and Series",
+   "score": 1,
+   "slot": 0,
+   "sample": "2010-maths-8",
+   "sampleQ": "The $n^{th}$ term of the series $1+3+7+13+21+\\ldots$ is 9901. The value of $n$ is"
+  },
+  {
+   "template": "mat-oldpf-partial-fractions",
+   "chapter": "Old syllabus: Partial Fractions",
+   "score": 1,
+   "slot": 0,
+   "sample": "2010-maths-9",
+   "sampleQ": "If $\\dfrac{1}{(3-5x)(2+3x)}=\\dfrac{A}{3-5x}+\\dfrac{B}{2+3x}$, then $A:B$ is"
+  },
+  {
+   "template": "mat-oldgraph-degree-sum",
+   "chapter": "Old syllabus: Graph Theory",
+   "score": 1,
+   "slot": 0,
+   "sample": "2010-maths-18",
+   "sampleQ": "A simple graph contains 24 edges. Degree of each vertex is 3. The number of vertices is"
+  },
+  {
+   "template": "mat-pnc-factorial-divisibility",
+   "chapter": "Permutations and Combinations",
+   "score": 1,
+   "slot": 0,
+   "sample": "2010-maths-27",
+   "sampleQ": "The number $(49^2-4)(49^3-49)$ is divisible by"
+  }
+ ],
+ "summary": {
+  "year": 2011,
+  "subject": "maths",
+  "n": 60,
+  "exact": 2,
+  "similar": 13,
+  "missSeen": 15,
+  "missNew": 30,
+  "hitPct": 25,
+  "predictablePct": 50,
+  "verbatimRepeats": 8,
+  "wastedSlots": 45
+ },
+ "lessons": {
+  "missedKnownTemplates": [
+   "mat-oldlog-log-identities",
+   "mat-cx-roots-symmetric",
+   "mat-oldmr-negation",
+   "mat-sl-triangle-centres",
+   "mat-oldnt-unit-digit",
+   "mat-oldgrp-modular-group-computation",
+   "mat-oldgrp-modular-group-computation",
+   "mat-con-orthogonal-circles",
+   "mat-con-orthogonal-circles",
+   "mat-con-parabola-focus-focal",
+   "mat-cx-omega",
+   "mat-int-modulus-definite",
+   "mat-aoi-parabola-line",
+   "mat-con-tangent-condition-conic",
+   "mat-det-property-evaluate"
+  ],
+  "chapterGaps": [
+   {
+    "chapter": "Complex Numbers and Quadratic Equations",
+    "predicted": 3,
+    "actual": 5
+   },
+   {
+    "chapter": "Continuity and Differentiability",
+    "predicted": 6,
+    "actual": 7
+   },
+   {
+    "chapter": "Trigonometric Functions",
+    "predicted": 4,
+    "actual": 3
+   },
+   {
+    "chapter": "Application of Derivatives",
+    "predicted": 4,
+    "actual": 3
+   },
+   {
+    "chapter": "Straight Lines",
+    "predicted": 2,
+    "actual": 3
+   },
+   {
+    "chapter": "Old syllabus: Groups",
+    "predicted": 1,
+    "actual": 2
+   },
+   {
+    "chapter": "Old syllabus: Number Theory (Congruences)",
+    "predicted": 1,
+    "actual": 0
+   },
+   {
+    "chapter": "Old syllabus: Binary Operations",
+    "predicted": 1,
+    "actual": 0
+   }
+  ],
+  "wastedTemplates": [
+   "mat-con-circle-equation",
+   "mat-con-circle-chord",
+   "mat-con-parabola-tangent-normal",
+   "mat-con-circle-equation",
+   "mat-con-circle-chord",
+   "mat-con-parabola-tangent-normal",
+   "mat-cd-differentiability-check",
+   "mat-cd-discontinuity-points",
+   "mat-cd-parametric",
+   "mat-int-substitution",
+   "mat-int-substitution",
+   "mat-int-trig-identity-simplify",
+   "mat-trig-identity-simplify",
+   "mat-aod-subtangent-subnormal",
+   "mat-aod-tangent-normal-slope-equation",
+   "mat-aod-increasing-decreasing",
+   "mat-aod-optimization-geometry",
+   "mat-vec-stp-combination",
+   "mat-vec-direction-cosines",
+   "mat-vec-properties-statements",
+   "mat-det-adj-inverse-value",
+   "mat-det-equation-condition",
+   "mat-det-locus-curve",
+   "mat-cx-powers-of-i",
+   "mat-cx-powers-of-i",
+   "mat-itf-solve-equation",
+   "mat-itf-complementary",
+   "mat-sl-section-formula",
+   "mat-de-solution-family",
+   "mat-mat-ab-b-ba-a",
+   "mat-mat-quadratic-equation",
+   "mat-rel-equivalence-count",
+   "mat-oldgrp-group-properties",
+   "mat-oldntc-congruence-modulus",
+   "mat-oldbo-operation-properties",
+   "mat-oldmr-logical-equivalence",
+   "mat-oldtri-solve-triangle",
+   "mat-oldpsl-pair-lines",
+   "mat-lim-n-infinity",
+   "mat-aoi-curve-horizontal-line",
+   "mat-oldnt-gcd-linear-combination",
+   "mat-seq-nth-term-pattern",
+   "mat-oldpf-partial-fractions",
+   "mat-oldgraph-degree-sum",
+   "mat-pnc-factorial-divisibility"
+  ]
+ },
+ "questions": [
+  {
+   "id": "2011-maths-1",
+   "n": 1,
+   "chapter": "Old syllabus: Logarithms",
+   "template": "mat-oldlog-log-identities",
+   "outcome": "miss-seen",
+   "verbatimOf": null,
+   "sim": 0.28,
+   "q": "If $\\dfrac{\\log x}{b-c}=\\dfrac{\\log y}{c-a}=\\dfrac{\\log z}{a-b}$, then the value of $x^{b+c}\\cdot y^{c+a}\\cdot z^{a+b}$ is ................."
+  },
+  {
+   "id": "2011-maths-2",
+   "n": 2,
+   "chapter": "Sequences and Series",
+   "template": "mat-seq-special-series-sum",
+   "outcome": "miss-new",
+   "verbatimOf": null,
+   "sim": 0.19,
+   "q": "The sum of the first $n$ terms of $\\dfrac{1^2}{1}+\\dfrac{1^2+2^2}{1+2}+\\dfrac{1^2+2^2+3^2}{1+2+3}+.........$ is ................."
+  },
+  {
+   "id": "2011-maths-3",
+   "n": 3,
+   "chapter": "Binomial Theorem",
+   "template": "mat-bin-coefficient-sums",
+   "outcome": "miss-new",
+   "verbatimOf": null,
+   "sim": 0.2,
+   "q": "If $n$ is an odd positive integer and $(1+x+x^2+x^3)^n=\\displaystyle\\sum_{r=0}^{3n} a_r x^r$, then $a_0-a_1+a_2-a_3+.........-a_{3n}$ is = ................."
+  },
+  {
+   "id": "2011-maths-4",
+   "n": 4,
+   "chapter": "Binomial Theorem",
+   "template": "mat-bin-equal-coefficients",
+   "outcome": "similar",
+   "verbatimOf": null,
+   "sim": 0.38,
+   "q": "If $r^{th}$ and $(r+1)^{th}$ terms in the expansion of $(p+q)^n$ are equal, then $\\dfrac{(n+1)q}{r(p+q)}$ is .........."
+  },
+  {
+   "id": "2011-maths-5",
+   "n": 5,
+   "chapter": "Complex Numbers and Quadratic Equations",
+   "template": "mat-cx-roots-symmetric",
+   "outcome": "miss-seen",
+   "verbatimOf": "2009-maths-17",
+   "sim": 0.62,
+   "q": "If $\\alpha$, $\\beta$ and $\\gamma$ are roots of $x^3-2x+1=0$, then the value of $\\displaystyle\\sum\\left(\\dfrac{1}{\\alpha+\\beta-\\gamma}\\right)$ is ..........."
+  },
+  {
+   "id": "2011-maths-6",
+   "n": 6,
+   "chapter": "Relations and Functions",
+   "template": "mat-rel-relation-type",
+   "outcome": "miss-new",
+   "verbatimOf": null,
+   "sim": 0.14,
+   "q": "Define a relation $R$ on $A=\\{1,2,3,4\\}$ as $xRy$ if $x$ divides $y$. $R$ is ............"
+  },
+  {
+   "id": "2011-maths-7",
+   "n": 7,
+   "chapter": "Old syllabus: Mathematical Reasoning",
+   "template": "mat-oldmr-negation",
+   "outcome": "miss-seen",
+   "verbatimOf": "2009-maths-13",
+   "sim": 1,
+   "q": "The negation of $p\\to(\\sim p\\vee q)$ is ..........."
+  },
+  {
+   "id": "2011-maths-8",
+   "n": 8,
+   "chapter": "Trigonometric Functions",
+   "template": "mat-trig-triangle",
+   "outcome": "similar",
+   "verbatimOf": null,
+   "sim": 0.25,
+   "q": "In any triangle $ABC$, the simplified form of $\\dfrac{\\cos 2A}{a^2}-\\dfrac{\\cos 2B}{b^2}$ is ............"
+  },
+  {
+   "id": "2011-maths-9",
+   "n": 9,
+   "chapter": "Old syllabus: Heights and Distances",
+   "template": "mat-oldhd-elevation-ratio",
+   "outcome": "miss-new",
+   "verbatimOf": null,
+   "sim": 0.17,
+   "q": "Angles of elevation of the top of a tower from three points (collinear) $A$, $B$ and $C$ on a road leading to the foot of the tower are $30^0$, $45^0$ and $60^0"
+  },
+  {
+   "id": "2011-maths-10",
+   "n": 10,
+   "chapter": "Trigonometric Functions",
+   "template": "mat-trig-many-angle-products",
+   "outcome": "similar",
+   "verbatimOf": null,
+   "sim": 0.3,
+   "q": "The value of $\\sin10\\cdot\\sin30\\cdot\\sin50\\cdot\\sin70$ is ............"
+  },
+  {
+   "id": "2011-maths-11",
+   "n": 11,
+   "chapter": "Straight Lines",
+   "template": "mat-sl-locus-reflection",
+   "outcome": "miss-new",
+   "verbatimOf": null,
+   "sim": 0.23,
+   "q": "Locus of a point which moves such that its distance from the $X$-axis is twice its distance from the line $x-y=0$ is ............"
+  },
+  {
+   "id": "2011-maths-12",
+   "n": 12,
+   "chapter": "Straight Lines",
+   "template": "mat-sl-triangle-centres",
+   "outcome": "miss-seen",
+   "verbatimOf": null,
+   "sim": 0.21,
+   "q": "The points $A(1,2)$, $B(2,4)$ and $C(4,8)$ form a/an ............"
+  },
+  {
+   "id": "2011-maths-13",
+   "n": 13,
+   "chapter": "Straight Lines",
+   "template": "mat-sl-concurrency-bisector",
+   "outcome": "similar",
+   "verbatimOf": null,
+   "sim": 0.31,
+   "q": "If lines represented by $x+3y-6=0$, $2x+y-4=0$ and $kx-3y+1=0$ are concurrent, then the value of $k$ is ............"
+  },
+  {
+   "id": "2011-maths-14",
+   "n": 14,
+   "chapter": "Limits and Derivatives",
+   "template": "mat-lim-rationalize",
+   "outcome": "miss-new",
+   "verbatimOf": null,
+   "sim": 0.13,
+   "q": "$\\displaystyle\\lim_{x\\to a}\\left[\\dfrac{\\sqrt{a+2x}-\\sqrt{3x}}{\\sqrt{3a+x}-2\\sqrt{x}}\\right]=.................$"
+  },
+  {
+   "id": "2011-maths-15",
+   "n": 15,
+   "chapter": "Continuity and Differentiability",
+   "template": "mat-cd-continuity-find-k",
+   "outcome": "similar",
+   "verbatimOf": null,
+   "sim": 0.29,
+   "q": "If $f(x)=\\begin{cases}\\dfrac{\\log x}{x-1} & \\text{if }x\\neq1\\\\ k & \\text{if }x=1\\end{cases}$ is continuous at $x=1$, then the value of $k$ is ............"
+  },
+  {
+   "id": "2011-maths-16",
+   "n": 16,
+   "chapter": "Matrices",
+   "template": "mat-mat-rotation-matrix",
+   "outcome": "miss-new",
+   "verbatimOf": null,
+   "sim": 0.36,
+   "q": "If $A=\\begin{bmatrix}\\cos\\theta & \\sin\\theta\\\\-\\sin\\theta & \\cos\\theta\\end{bmatrix}$, then $A\\cdot A'$ is ............"
+  },
+  {
+   "id": "2011-maths-17",
+   "n": 17,
+   "chapter": "Determinants",
+   "template": "mat-det-singular-param",
+   "outcome": "miss-new",
+   "verbatimOf": null,
+   "sim": 0.36,
+   "q": "If $\\begin{vmatrix}1 & 2 & -1\\\\1 & x-2 & 1\\\\x & 1 & 1\\end{vmatrix}$ is singular, then the value of $x$ is ............"
+  },
+  {
+   "id": "2011-maths-18",
+   "n": 18,
+   "chapter": "Matrices",
+   "template": "mat-mat-symmetric-skew-properties",
+   "outcome": "miss-new",
+   "verbatimOf": "2009-maths-1",
+   "sim": 0.5,
+   "q": "If $A$ and $B$ are symmetric matrices of the same order, then which one of the following is NOT true?"
+  },
+  {
+   "id": "2011-maths-19",
+   "n": 19,
+   "chapter": "Determinants",
+   "template": "mat-det-direct-evaluate",
+   "outcome": "miss-new",
+   "verbatimOf": null,
+   "sim": 0.24,
+   "q": "If $\\omega$ is an imaginary cube root of unity, then the value of $\\begin{vmatrix}1 & \\omega^2 & 1-\\omega^4\\\\omega & 1 & 1+\\omega^5\\\\1 & \\omega & \\omega^2\\end{v"
+  },
+  {
+   "id": "2011-maths-20",
+   "n": 20,
+   "chapter": "Vector Algebra",
+   "template": "mat-vec-unit-sum-zero",
+   "outcome": "exact",
+   "verbatimOf": "2010-maths-35",
+   "sim": 0.58,
+   "q": "If $\\vec a, \\vec b$ and $\\vec c$ are unit vectors such that $\\vec a+\\vec b+\\vec c=\\vec 0$ then angle between $\\vec a$ and $\\vec b$ is ..........."
+  },
+  {
+   "id": "2011-maths-21",
+   "n": 21,
+   "chapter": "Vector Algebra",
+   "template": "mat-vec-reciprocal-system",
+   "outcome": "miss-new",
+   "verbatimOf": "2009-maths-17",
+   "sim": 0.54,
+   "q": "If $\\vec a, \\vec b$ and $\\vec c$ are noncoplanar, then the value of $\\vec a\\cdot\\left\\{\\dfrac{\\vec b\\times\\vec c}{3\\vec b\\cdot(\\vec c\\times\\vec a)}\\right\\}-\\vec"
+  },
+  {
+   "id": "2011-maths-22",
+   "n": 22,
+   "chapter": "Vector Algebra",
+   "template": "mat-vec-coplanar-volume-param",
+   "outcome": "miss-new",
+   "verbatimOf": null,
+   "sim": 0.34,
+   "q": "If $2\\hat i+3\\hat j$, $\\hat i+\\hat j+\\hat k$ and $\\lambda\\hat i+4\\hat j+2\\hat k$ taken in an order are coterminous edges of a parallelopiped of volume 2 Cu unit"
+  },
+  {
+   "id": "2011-maths-23",
+   "n": 23,
+   "chapter": "Vector Algebra",
+   "template": "mat-vec-unit-perpendicular",
+   "outcome": "miss-new",
+   "verbatimOf": null,
+   "sim": 0.14,
+   "q": "A unit vector perpendicular to both $\\hat i+\\hat j+\\hat k$ and $2\\hat i+\\hat j+3\\hat k$ is ............"
+  },
+  {
+   "id": "2011-maths-24",
+   "n": 24,
+   "chapter": "Old syllabus: Number Theory",
+   "template": "mat-oldnt-unit-digit",
+   "outcome": "miss-seen",
+   "verbatimOf": "2009-maths-2",
+   "sim": 0.5,
+   "q": "The digit in the unit's place of $7^{171}+(177)!$ is ............"
+  },
+  {
+   "id": "2011-maths-25",
+   "n": 25,
+   "chapter": "Old syllabus: Number Theory",
+   "template": "mat-oldnt-divisors-sum",
+   "outcome": "miss-new",
+   "verbatimOf": null,
+   "sim": 0.2,
+   "q": "The sum of all positive divisors of 242 except 1 and itself is ............"
+  },
+  {
+   "id": "2011-maths-26",
+   "n": 26,
+   "chapter": "Old syllabus: Groups",
+   "template": "mat-oldgrp-modular-group-computation",
+   "outcome": "miss-seen",
+   "verbatimOf": null,
+   "sim": 0.26,
+   "q": "On the set of all nonzero reals, an operation $*$ is defined as $a*b=\\dfrac{3ab}{2}$. In this group, a solution of $(2*x)*3^{-1}=4^{-1}$ is ............"
+  },
+  {
+   "id": "2011-maths-27",
+   "n": 27,
+   "chapter": "Old syllabus: Groups",
+   "template": "mat-oldgrp-modular-group-computation",
+   "outcome": "miss-seen",
+   "verbatimOf": null,
+   "sim": 0.24,
+   "q": "$G=\\left\\{\\begin{bmatrix}x & x\\\\x & x\\end{bmatrix}, x\\text{ is a nonzero real number}\\right\\}$ is a group with respect to matrix multiplication. In this group, "
+  },
+  {
+   "id": "2011-maths-28",
+   "n": 28,
+   "chapter": "Conic Sections",
+   "template": "mat-con-orthogonal-circles",
+   "outcome": "miss-seen",
+   "verbatimOf": null,
+   "sim": 0.26,
+   "q": "If $2x^2+2y^2+4x+5y+1=0$ and $3x^2+3y^2+6x-7y+3k=0$ are orthogonal, then value of $k$ is ............"
+  },
+  {
+   "id": "2011-maths-29",
+   "n": 29,
+   "chapter": "Conic Sections",
+   "template": "mat-con-common-tangents-count",
+   "outcome": "exact",
+   "verbatimOf": "2009-maths-32",
+   "sim": 0.5,
+   "q": "The total number of common tangents of $x^2+y^2-6x-8y+9=0$ and $x^2+y^2=1$ is ............"
+  },
+  {
+   "id": "2011-maths-30",
+   "n": 30,
+   "chapter": "Conic Sections",
+   "template": "mat-con-orthogonal-circles",
+   "outcome": "miss-seen",
+   "verbatimOf": null,
+   "sim": 0.3,
+   "q": "The center of a circle which cuts $x^2+y^2+6x-1=0$, $x^2+y^2-3y+2=0$ and $x^2+y^2+x+y-3=0$ orthogonally is ............"
+  },
+  {
+   "id": "2011-maths-31",
+   "n": 31,
+   "chapter": "Conic Sections",
+   "template": "mat-con-parabola-latus-rectum",
+   "outcome": "miss-new",
+   "verbatimOf": null,
+   "sim": 0.3,
+   "q": "The length of the latus rectum of $3x^2-4y+6x-3=0$ is ............"
+  },
+  {
+   "id": "2011-maths-32",
+   "n": 32,
+   "chapter": "Conic Sections",
+   "template": "mat-con-parabola-focus-focal",
+   "outcome": "miss-seen",
+   "verbatimOf": null,
+   "sim": 0.23,
+   "q": "The sum of the reciprocals of focal distances of a focal chord $PQ$ of $y^2=4ax$ is ............"
+  },
+  {
+   "id": "2011-maths-33",
+   "n": 33,
+   "chapter": "Conic Sections",
+   "template": "mat-con-hyperbola-focus-directrix",
+   "outcome": "similar",
+   "verbatimOf": null,
+   "sim": 0.41,
+   "q": "If the focii of $\\dfrac{x^2}{16}+\\dfrac{y^2}{4}=1$ and $\\dfrac{x^2}{a^2}-\\dfrac{y^2}{3}=1$ coincide, then value of $a$ is ............"
+  },
+  {
+   "id": "2011-maths-34",
+   "n": 34,
+   "chapter": "Conic Sections",
+   "template": "mat-con-hyperbola-equation",
+   "outcome": "miss-new",
+   "verbatimOf": null,
+   "sim": 0.27,
+   "q": "The equation of a hyperbola whose asymptotes are $3x\\pm5y=0$ and vertices are $(\\pm5,0)$ is ............"
+  },
+  {
+   "id": "2011-maths-35",
+   "n": 35,
+   "chapter": "Inverse Trigonometric Functions",
+   "template": "mat-itf-domain-range",
+   "outcome": "miss-new",
+   "verbatimOf": "2009-maths-13",
+   "sim": 0.5,
+   "q": "The domain of $f(x)=\\sin^{-1}\\left[\\log_2\\left(\\dfrac{x}{2}\\right)\\right]$ is ............"
+  },
+  {
+   "id": "2011-maths-36",
+   "n": 36,
+   "chapter": "Inverse Trigonometric Functions",
+   "template": "mat-itf-tan-addition",
+   "outcome": "miss-new",
+   "verbatimOf": null,
+   "sim": 0.36,
+   "q": "If $\\tan^{-1}x=\\dfrac{\\pi}{4}-\\tan^{-1}\\left(\\dfrac13\\right)$, then $x$ is ............"
+  },
+  {
+   "id": "2011-maths-37",
+   "n": 37,
+   "chapter": "Trigonometric Functions",
+   "template": "mat-trig-equation-general",
+   "outcome": "similar",
+   "verbatimOf": null,
+   "sim": 0.28,
+   "q": "A value of $\\theta$ satisfying $\\sin5\\theta-\\sin3\\theta+\\sin\\theta=0$ such that $0<\\theta<\\dfrac{\\pi}{2}$ is ............"
+  },
+  {
+   "id": "2011-maths-38",
+   "n": 38,
+   "chapter": "Complex Numbers and Quadratic Equations",
+   "template": "mat-cx-modulus-argument",
+   "outcome": "miss-new",
+   "verbatimOf": null,
+   "sim": 0.27,
+   "q": "The value of $\\left|\\dfrac{1+i\\sqrt3}{\\left(1+\\dfrac{1}{i+1}\\right)^2}\\right|$ is ............"
+  },
+  {
+   "id": "2011-maths-39",
+   "n": 39,
+   "chapter": "Complex Numbers and Quadratic Equations",
+   "template": "mat-cx-omega",
+   "outcome": "miss-seen",
+   "verbatimOf": null,
+   "sim": 0.21,
+   "q": "If $\\omega$ is an imaginary cube root of unity, then the value of $(1-\\omega+\\omega^2)\\cdot(1-\\omega^2+\\omega^4)\\cdot(1-\\omega^4+\\omega^8)\\cdot...........(2n\\te"
+  },
+  {
+   "id": "2011-maths-40",
+   "n": 40,
+   "chapter": "Complex Numbers and Quadratic Equations",
+   "template": "mat-cx-locus",
+   "outcome": "miss-new",
+   "verbatimOf": null,
+   "sim": 0.21,
+   "q": "If $P(x,y)$ denotes $z=x+iy$ in Argand's plane and $\\left|\\dfrac{z-1}{z+2i}\\right|=1$, then the locus of $P$ is a/an ........................."
+  },
+  {
+   "id": "2011-maths-41",
+   "n": 41,
+   "chapter": "Continuity and Differentiability",
+   "template": "mat-cd-derivative-identity",
+   "outcome": "similar",
+   "verbatimOf": null,
+   "sim": 0.27,
+   "q": "If $\\sqrt r=ae^{\\theta\\cot\\alpha}$ where $a$ and $\\alpha$ are real numbers, then $\\dfrac{d^2r}{d\\theta^2}-4r\\cot^2\\alpha$ is ............"
+  },
+  {
+   "id": "2011-maths-42",
+   "n": 42,
+   "chapter": "Continuity and Differentiability",
+   "template": "mat-cd-derivative-wrt-function",
+   "outcome": "miss-new",
+   "verbatimOf": null,
+   "sim": 0.4,
+   "q": "The derivative of $\\tan^{-1}\\left[\\dfrac{\\sin x}{1+\\cos x}\\right]$ with respect to $\\tan^{-1}\\left[\\dfrac{\\cos x}{1+\\sin x}\\right]$ is ............"
+  },
+  {
+   "id": "2011-maths-43",
+   "n": 43,
+   "chapter": "Continuity and Differentiability",
+   "template": "mat-cd-inverse-trig-derivative",
+   "outcome": "miss-new",
+   "verbatimOf": null,
+   "sim": 0.23,
+   "q": "$\\dfrac{d}{dx}\\left[\\cos^2\\left(\\cot^{-1}\\sqrt{\\dfrac{2+x}{2-x}}\\right)\\right]$ is ............"
+  },
+  {
+   "id": "2011-maths-44",
+   "n": 44,
+   "chapter": "Continuity and Differentiability",
+   "template": "mat-cd-standard-rules",
+   "outcome": "similar",
+   "verbatimOf": null,
+   "sim": 0.43,
+   "q": "If $f(x)=\\dfrac{\\sin^2x}{1+\\cot x}+\\dfrac{\\cos^2x}{1+\\tan x}$, then $f'\\left(\\dfrac{\\pi}{4}\\right)$ is ............"
+  },
+  {
+   "id": "2011-maths-45",
+   "n": 45,
+   "chapter": "Continuity and Differentiability",
+   "template": "mat-cd-implicit",
+   "outcome": "miss-new",
+   "verbatimOf": null,
+   "sim": 0.21,
+   "q": "If $\\cos^{-1}\\left(\\dfrac yb\\right)=n\\log\\left(\\dfrac xn\\right)$, then ......................."
+  },
+  {
+   "id": "2011-maths-46",
+   "n": 46,
+   "chapter": "Application of Derivatives",
+   "template": "mat-aod-tangent-intercept-area",
+   "outcome": "miss-new",
+   "verbatimOf": null,
+   "sim": 0.23,
+   "q": "Area of a triangle formed by tangent and normal to the curve $\\dfrac{x^2}{a^2}+\\dfrac{y^2}{b^2}=1$ at $P\\left(\\dfrac{a}{\\sqrt2},\\dfrac{b}{\\sqrt2}\\right)$ with t"
+  },
+  {
+   "id": "2011-maths-47",
+   "n": 47,
+   "chapter": "Application of Derivatives",
+   "template": "mat-aod-angle-between-curves",
+   "outcome": "miss-new",
+   "verbatimOf": null,
+   "sim": 0.28,
+   "q": "The angle between $y^2=4x$ and $x^2+y^2=12$ at a point of their intersection is ............"
+  },
+  {
+   "id": "2011-maths-48",
+   "n": 48,
+   "chapter": "Application of Derivatives",
+   "template": "mat-aod-related-rates-geometry",
+   "outcome": "miss-new",
+   "verbatimOf": null,
+   "sim": 0.18,
+   "q": "A sphere increases its volume at the rate of $\\pi$ cc/s. The rate at which its surface area increases when the radius is 1 cm is ............"
+  },
+  {
+   "id": "2011-maths-49",
+   "n": 49,
+   "chapter": "Integrals",
+   "template": "mat-int-modulus-definite",
+   "outcome": "miss-seen",
+   "verbatimOf": null,
+   "sim": 0.33,
+   "q": "The value of $\\displaystyle\\int_0^4|x-1|\\,dx$ is ............"
+  },
+  {
+   "id": "2011-maths-50",
+   "n": 50,
+   "chapter": "Integrals",
+   "template": "mat-int-reduction-formula",
+   "outcome": "miss-new",
+   "verbatimOf": null,
+   "sim": 0.24,
+   "q": "If $I_n=\\displaystyle\\int_0^{\\pi/4}\\tan^nx\\,dx$, where $n$ is a positive integer, then $I_{10}+I_8$ is ............"
+  },
+  {
+   "id": "2011-maths-51",
+   "n": 51,
+   "chapter": "Integrals",
+   "template": "mat-int-ex-f-plus-fprime",
+   "outcome": "similar",
+   "verbatimOf": null,
+   "sim": 0.14,
+   "q": "$\\displaystyle\\int e^x\\left[\\dfrac{\\sin x+\\cos x}{1-\\sin^2x}\\right]dx$ is ............"
+  },
+  {
+   "id": "2011-maths-52",
+   "n": 52,
+   "chapter": "Integrals",
+   "template": "mat-int-by-parts",
+   "outcome": "miss-new",
+   "verbatimOf": null,
+   "sim": 0.27,
+   "q": "When $x>0$, then $\\displaystyle\\int\\cos^{-1}\\left(\\dfrac{1-x^2}{1+x^2}\\right)dx$ is ............"
+  },
+  {
+   "id": "2011-maths-53",
+   "n": 53,
+   "chapter": "Application of Integrals",
+   "template": "mat-aoi-parabola-line",
+   "outcome": "miss-seen",
+   "verbatimOf": null,
+   "sim": 0.32,
+   "q": "If the area between $y=mx^2$ and $x=my^2$ ($m>0$) is $\\dfrac14$ sq. units, then value of $m$ is ............"
+  },
+  {
+   "id": "2011-maths-54",
+   "n": 54,
+   "chapter": "Differential Equations",
+   "template": "mat-de-order-degree",
+   "outcome": "similar",
+   "verbatimOf": null,
+   "sim": 0.3,
+   "q": "If $m$ and $n$ are degree and order of $\\left(1+y_1^2\\right)^{2/3}=y_2$, then the value of $\\dfrac{m+n}{m-n}$ is ............"
+  },
+  {
+   "id": "2011-maths-55",
+   "n": 55,
+   "chapter": "Differential Equations",
+   "template": "mat-de-variable-separable",
+   "outcome": "miss-new",
+   "verbatimOf": null,
+   "sim": 0.27,
+   "q": "The general solution of $\\dfrac{dy}{dx}=1-x^2-y^2+x^2y^2$ is ............"
+  },
+  {
+   "id": "2011-maths-56",
+   "n": 56,
+   "chapter": "Conic Sections",
+   "template": "mat-con-tangent-condition-conic",
+   "outcome": "miss-seen",
+   "verbatimOf": null,
+   "sim": 0.27,
+   "q": "If $x\\cos\\alpha+y\\sin\\alpha=4$ is tangent to $\\dfrac{x^2}{25}+\\dfrac{y^2}{9}=1$, then the value of $\\alpha$ is ............"
+  },
+  {
+   "id": "2011-maths-57",
+   "n": 57,
+   "chapter": "Conic Sections",
+   "template": "mat-con-ellipse-properties",
+   "outcome": "similar",
+   "verbatimOf": null,
+   "sim": 0.3,
+   "q": "If $P$ is a point on $\\dfrac{x^2}{a^2}+\\dfrac{y^2}{b^2}=1$ with focii $S$ and $S'$, then the maximum value of triangle $SPS'$ is ............"
+  },
+  {
+   "id": "2011-maths-58",
+   "n": 58,
+   "chapter": "Complex Numbers and Quadratic Equations",
+   "template": "mat-cx-argand-quadrant",
+   "outcome": "similar",
+   "verbatimOf": null,
+   "sim": 0.23,
+   "q": "In Argand's plane, the point corresponding to $\\dfrac{(1-i\\sqrt3)(1+i)}{(\\sqrt3+i)}$ lies in ............"
+  },
+  {
+   "id": "2011-maths-59",
+   "n": 59,
+   "chapter": "Continuity and Differentiability",
+   "template": "mat-cd-log-differentiation",
+   "outcome": "miss-new",
+   "verbatimOf": null,
+   "sim": 0.33,
+   "q": "If $y=\\sin x\\cdot\\sin2x\\cdot\\sin3x...........\\sin nx$, then $y'$ is ............"
+  },
+  {
+   "id": "2011-maths-60",
+   "n": 60,
+   "chapter": "Determinants",
+   "template": "mat-det-property-evaluate",
+   "outcome": "miss-seen",
+   "verbatimOf": null,
+   "sim": 0.25,
+   "q": "$\\begin{vmatrix}\\sin\\alpha & \\cos\\alpha & \\sin(\\alpha+\\delta)\\\\sin\\beta & \\cos\\beta & \\sin(\\beta+\\delta)\\\\sin\\gamma & \\cos\\gamma & \\sin(\\gamma+\\delta)\\end{vmatr"
+  }
+ ]
+}

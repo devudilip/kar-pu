@@ -1,0 +1,1265 @@
+{
+ "params": {
+  "decay": 0.8,
+  "window": 6,
+  "multi": 1.5,
+  "exact": 0.5,
+  "quota": "weighted"
+ },
+ "priorYears": [
+  2012,
+  2013,
+  2014,
+  2015,
+  2016,
+  2017
+ ],
+ "quota": {
+  "Continuity and Differentiability": 6,
+  "Integrals": 6,
+  "Application of Derivatives": 4,
+  "Determinants": 4,
+  "Vector Algebra": 4,
+  "Relations and Functions": 3,
+  "Inverse Trigonometric Functions": 3,
+  "Probability": 3,
+  "Conic Sections": 3,
+  "Trigonometric Functions": 3,
+  "Differential Equations": 3,
+  "Three Dimensional Geometry": 2,
+  "Complex Numbers and Quadratic Equations": 2,
+  "Matrices": 2,
+  "Straight Lines": 1,
+  "Application of Integrals": 1,
+  "Limits and Derivatives": 1,
+  "Binomial Theorem": 1,
+  "Old syllabus: Mathematical Reasoning": 1,
+  "Sequences and Series": 1,
+  "Statistics": 1,
+  "Linear Inequalities": 1,
+  "Linear Programming": 1,
+  "Sets": 1,
+  "Permutations and Combinations": 1,
+  "Old syllabus: Number Theory": 1,
+  "Introduction to Three Dimensional Geometry": 0,
+  "Old syllabus: Binary Operations": 0,
+  "Old syllabus: Group Theory": 0,
+  "Old syllabus: Graph Theory": 0,
+  "Old syllabus: Logarithms": 0,
+  "Old syllabus: Polynomials": 0
+ },
+ "predicted": [
+  {
+   "template": "mat-cd-standard-rules",
+   "chapter": "Continuity and Differentiability",
+   "score": 3.447,
+   "slot": 0,
+   "sample": "2017-maths-33",
+   "sampleQ": "If $y=\\begin{vmatrix}f(x)&g(x)&h(x)\\\\l&m&n\\\\a&b&c\\end{vmatrix}$, then $\\dfrac{dy}{dx}$ is equal to"
+  },
+  {
+   "template": "mat-cd-parametric",
+   "chapter": "Continuity and Differentiability",
+   "score": 3.08,
+   "slot": 0,
+   "sample": "2017-maths-34",
+   "sampleQ": "If $\\sin x=\\dfrac{2t}{1+t^2}$, $\\tan y=\\dfrac{2t}{1-t^2}$, then $\\dfrac{dy}{dx}$ is equal to"
+  },
+  {
+   "template": "mat-cd-continuity-find-k",
+   "chapter": "Continuity and Differentiability",
+   "score": 2.48,
+   "slot": 0,
+   "sample": "2017-maths-27",
+   "sampleQ": "If $f(x)=\\begin{cases}Kx^2 & x\\le2\\\\3 & x>2\\end{cases}$ is continuous at $x=2$, then the value of K is"
+  },
+  {
+   "template": "mat-cd-discontinuity-points",
+   "chapter": "Continuity and Differentiability",
+   "score": 1.85,
+   "slot": 0,
+   "sample": "2016-maths-15",
+   "sampleQ": "The function $f(x) = [x]$ where [x] the greatest integer function is continuous at"
+  },
+  {
+   "template": "mat-cd-derivative-wrt-function",
+   "chapter": "Continuity and Differentiability",
+   "score": 1.8,
+   "slot": 0,
+   "sample": "2017-maths-35",
+   "sampleQ": "The derivative of $\\cos^{-1}(2x^2-1)$ w.r.t $\\cos^{-1}x$ is"
+  },
+  {
+   "template": "mat-cd-derivative-identity",
+   "chapter": "Continuity and Differentiability",
+   "score": 1.659,
+   "slot": 0,
+   "sample": "2014-maths-30",
+   "sampleQ": "If y = $(\\tan^{-1}x)^2$, then $(x^2+1)^2y_2 + 2x(x^2+1)y_1$ is equal to"
+  },
+  {
+   "template": "mat-int-king-symmetric",
+   "chapter": "Integrals",
+   "score": 3.337,
+   "slot": 0,
+   "sample": "2017-maths-40",
+   "sampleQ": "$\\displaystyle\\int_0^{\\pi/2}\\dfrac{\\tan^7x}{\\cot^7x+\\tan^7x}\\,dx$ is equal to"
+  },
+  {
+   "template": "mat-int-trig-identity-simplify",
+   "chapter": "Integrals",
+   "score": 3.08,
+   "slot": 0,
+   "sample": "2017-maths-38",
+   "sampleQ": "$\\displaystyle\\int\\dfrac{\\cos2x-\\cos2\\theta}{\\cos x-\\cos\\theta}\\,dx$ is equal to"
+  },
+  {
+   "template": "mat-int-ex-f-plus-fprime",
+   "chapter": "Integrals",
+   "score": 2.85,
+   "slot": 0,
+   "sample": "2017-maths-37",
+   "sampleQ": "$\\displaystyle\\int\\dfrac{(x+3)e^x}{(x+4)^2}\\,dx$ is equal to"
+  },
+  {
+   "template": "mat-int-standard-forms",
+   "chapter": "Integrals",
+   "score": 2,
+   "slot": 0,
+   "sample": "2017-maths-39",
+   "sampleQ": "$\\displaystyle\\int\\sqrt{x^2+2x+5}\\,dx$ is equal to"
+  },
+  {
+   "template": "mat-int-modulus-definite",
+   "chapter": "Integrals",
+   "score": 1.41,
+   "slot": 0,
+   "sample": "2017-maths-41",
+   "sampleQ": "$\\displaystyle\\int_{-5}^{5}|x+2|\\,dx$ is equal to"
+  },
+  {
+   "template": "mat-int-gif-definite",
+   "chapter": "Integrals",
+   "score": 1.328,
+   "slot": 0,
+   "sample": "2017-maths-60",
+   "sampleQ": "$\\displaystyle\\int_{0.2}^{3.5}[x]\\,dx$ is equal to"
+  },
+  {
+   "template": "mat-aod-related-rates-geometry",
+   "chapter": "Application of Derivatives",
+   "score": 2.952,
+   "slot": 0,
+   "sample": "2017-maths-31",
+   "sampleQ": "The rate of change of volume of a sphere with respect to its surface area when the radius is 4 cm is"
+  },
+  {
+   "template": "mat-aod-tangent-normal-slope-equation",
+   "chapter": "Application of Derivatives",
+   "score": 2.24,
+   "slot": 0,
+   "sample": "2016-maths-24",
+   "sampleQ": "The slope of the tangent to the curve $x = t^2 + 3t - 8,\\ y = 2t^2 - 2t - 5$ at the point (2, -1) is"
+  },
+  {
+   "template": "mat-aod-angle-between-curves",
+   "chapter": "Application of Derivatives",
+   "score": 1.85,
+   "slot": 0,
+   "sample": "2016-maths-31",
+   "sampleQ": "The two curves $x^3 - 3xy^2 + 2 = 0$ and $3x^2y - y^3 = 2$"
+  },
+  {
+   "template": "mat-aod-tangent-slope-condition",
+   "chapter": "Application of Derivatives",
+   "score": 1.512,
+   "slot": 0,
+   "sample": "2017-maths-29",
+   "sampleQ": "The point on the curve $y^2=x$ where the tangent makes an angle of $\\pi/4$ with X-axis is"
+  },
+  {
+   "template": "mat-det-equation-condition",
+   "chapter": "Determinants",
+   "score": 1.8,
+   "slot": 0,
+   "sample": "2017-maths-23",
+   "sampleQ": "If $\\begin{vmatrix}3&x\\\\x&1\\end{vmatrix}=\\begin{vmatrix}3&2\\\\4&1\\end{vmatrix}$ then x is equal to"
+  },
+  {
+   "template": "mat-det-ka-scaling",
+   "chapter": "Determinants",
+   "score": 1.8,
+   "slot": 0,
+   "sample": "2017-maths-24",
+   "sampleQ": "If A is a square matrix of order $3\\times3$, then $|KA|$ is equal to"
+  },
+  {
+   "template": "mat-det-area-triangle",
+   "chapter": "Determinants",
+   "score": 1.64,
+   "slot": 0,
+   "sample": "2017-maths-25",
+   "sampleQ": "The area of triangle with vertices $(K,0), (4,0), (0,2)$ is 4 square units, then value of K is"
+  },
+  {
+   "template": "mat-det-property-evaluate",
+   "chapter": "Determinants",
+   "score": 1.312,
+   "slot": 0,
+   "sample": "2016-maths-14",
+   "sampleQ": "If x y z are not equal and \\ne 0, \\ne 1 the value of $\\begin{vmatrix}\\log x & \\log y & \\log z\\\\ \\log 2x & \\log 2y & \\log 2z\\\\ \\log 3x & \\log 3y & \\log 3z\\end{vmatrix}$ is equal to"
+  },
+  {
+   "template": "mat-vec-angle-from-condition",
+   "chapter": "Vector Algebra",
+   "score": 2.6,
+   "slot": 0,
+   "sample": "2017-maths-51",
+   "sampleQ": "If $\\vec a$ and $\\vec b$ are unit vectors, then angle between $\\vec a$ and $\\vec b$ for $\\sqrt3\\vec a-\\vec b$ to be a unit vector is"
+  },
+  {
+   "template": "mat-vec-unit-sum-zero",
+   "chapter": "Vector Algebra",
+   "score": 2.21,
+   "slot": 0,
+   "sample": "2017-maths-50",
+   "sampleQ": "If $\\vec a,\\vec b,\\vec c$ are unit vectors such that $\\vec a+\\vec b+\\vec c=\\vec 0$, then the value of $\\vec a\\cdot\\vec b+\\vec b\\cdot\\vec c+\\vec c\\cdot\\vec a$ is equal to"
+  },
+  {
+   "template": "mat-vec-magnitude-from-dot",
+   "chapter": "Vector Algebra",
+   "score": 1.952,
+   "slot": 0,
+   "sample": "2016-maths-40",
+   "sampleQ": "If $a=3, b=4, c=5$ each one of $\\vec a,\\vec b$ & $\\vec c$ is perpendicular to the sum of the remaining then $|\\vec a+\\vec b+\\vec c|$ is equal to"
+  },
+  {
+   "template": "mat-vec-cross-area",
+   "chapter": "Vector Algebra",
+   "score": 1.48,
+   "slot": 0,
+   "sample": "2015-maths-13",
+   "sampleQ": "If $\\vec a = i + 2j + 2k$, $|\\vec b| = 5$ and the angle between $\\vec a$ and $\\vec b$ is $\\dfrac{\\pi}{6}$, then the area of the triangle formed by these two vectors as two sides is"
+  },
+  {
+   "template": "mat-rel-binary-op-properties",
+   "chapter": "Relations and Functions",
+   "score": 2.312,
+   "slot": 0,
+   "sample": "2017-maths-22",
+   "sampleQ": "Binary operation $*$ on $R-\\{-1\\}$ defined by $a*b=\\dfrac{a}{b+1}$ is"
+  },
+  {
+   "template": "mat-rel-one-one-onto",
+   "chapter": "Relations and Functions",
+   "score": 2.152,
+   "slot": 0,
+   "sample": "2017-maths-15",
+   "sampleQ": "Let $f:R\\to R$ be defined by $f(x)=x^4$, then"
+  },
+  {
+   "template": "mat-rel-composition",
+   "chapter": "Relations and Functions",
+   "score": 1.64,
+   "slot": 0,
+   "sample": "2017-maths-18",
+   "sampleQ": "If $f(x)=8x^3$, $g(x)=x^{1/3}$, then $fog(x)$ is"
+  },
+  {
+   "template": "mat-itf-complementary",
+   "chapter": "Inverse Trigonometric Functions",
+   "score": 2.6,
+   "slot": 0,
+   "sample": "2017-maths-17",
+   "sampleQ": "If $\\tan^{-1}x+\\tan^{-1}y=\\dfrac{4\\pi}{5}$, then $\\cot^{-1}x+\\cot^{-1}y$ is equal to"
+  },
+  {
+   "template": "mat-itf-tan-addition",
+   "chapter": "Inverse Trigonometric Functions",
+   "score": 1.85,
+   "slot": 0,
+   "sample": "2016-maths-6",
+   "sampleQ": "The simplified form of $\\tan^{-1}\\left(\\dfrac{x}{y}\\right) - \\tan^{-1}\\left(\\dfrac{x-y}{x+y}\\right)$ is equal to"
+  },
+  {
+   "template": "mat-itf-partial-fraction-combo",
+   "chapter": "Inverse Trigonometric Functions",
+   "score": 1.05,
+   "slot": 0,
+   "sample": "2015-maths-44",
+   "sampleQ": "If $\\dfrac{(x+1)^2}{x^3+x}=\\dfrac{A}{x}+\\dfrac{Bx+C}{x^2+1}$, then $\\text{cosec}^{-1}\\left(\\dfrac1A\\right)+\\cot^{-1}\\left(\\dfrac1B\\right)+\\sec^{-1}C =$ ____"
+  },
+  {
+   "template": "mat-prob-binomial",
+   "chapter": "Probability",
+   "score": 2.152,
+   "slot": 0,
+   "sample": "2017-maths-55",
+   "sampleQ": "A box has 100 pens of which 10 are defective. The probability that out of a sample of 5 pens drawn one by one with replacement and atmost one is defective is"
+  },
+  {
+   "template": "mat-prob-dice-sum",
+   "chapter": "Probability",
+   "score": 1.952,
+   "slot": 0,
+   "sample": "2016-maths-51",
+   "sampleQ": "Two dice are thrown simultaneously, the probability of obtaining a total score of 5 is"
+  },
+  {
+   "template": "mat-prob-distribution-find-k",
+   "chapter": "Probability",
+   "score": 1.64,
+   "slot": 0,
+   "sample": "2017-maths-57",
+   "sampleQ": "The probability distribution of X is: X = 0, 1, 2, 3 with P(X) = 0.3, k, 2k, 2k respectively. The value of k is"
+  },
+  {
+   "template": "mat-con-circle-equation",
+   "chapter": "Conic Sections",
+   "score": 1.722,
+   "slot": 0,
+   "sample": "2016-maths-55",
+   "sampleQ": "If $x = 2 + 3\\cos\\theta$ and $y = 1 - 3\\sin\\theta$ represent a circle then the centre and radius is"
+  },
+  {
+   "template": "mat-con-ellipse-properties",
+   "chapter": "Conic Sections",
+   "score": 1.41,
+   "slot": 0,
+   "sample": "2017-maths-9",
+   "sampleQ": "The eccentricity of the ellipse $\\dfrac{x^2}{36}+\\dfrac{y^2}{16}=1$ is"
+  },
+  {
+   "template": "mat-con-circle-tangent",
+   "chapter": "Conic Sections",
+   "score": 1.393,
+   "slot": 0,
+   "sample": "2013-maths-30",
+   "sampleQ": "A tangent is drawn to the circle $2x^2+2y^2-3x+4y=0$ at the point 'A' and it meets the line $x+y=3$ at $B(2,1)$, then $AB=$"
+  },
+  {
+   "template": "mat-trig-evaluate-angle-expression",
+   "chapter": "Trigonometric Functions",
+   "score": 3.28,
+   "slot": 0,
+   "sample": "2017-maths-2",
+   "sampleQ": "The value of $\\cos^2 45^\\circ - \\sin^2 15^\\circ$ is"
+  },
+  {
+   "template": "mat-trig-equation-general",
+   "chapter": "Trigonometric Functions",
+   "score": 2.849,
+   "slot": 0,
+   "sample": "2016-maths-19",
+   "sampleQ": "The general solution of $\\cot\\theta + \\tan\\theta = 2$ is"
+  },
+  {
+   "template": "mat-trig-sum-difference-condition",
+   "chapter": "Trigonometric Functions",
+   "score": 1.377,
+   "slot": 0,
+   "sample": "2015-maths-55",
+   "sampleQ": "If $\\sin x+\\sin y=\\dfrac12$ and $\\cos x+\\cos y=1$, then $\\tan(x+y)=$ ____"
+  },
+  {
+   "template": "mat-de-order-degree",
+   "chapter": "Differential Equations",
+   "score": 2.722,
+   "slot": 0,
+   "sample": "2017-maths-46",
+   "sampleQ": "The degree of the differential equation $\\left[1+\\left(\\dfrac{dy}{dx}\\right)^2\\right]^2=\\dfrac{d^2y}{dx^2}$ is"
+  },
+  {
+   "template": "mat-de-variable-separable",
+   "chapter": "Differential Equations",
+   "score": 2.128,
+   "slot": 0,
+   "sample": "2017-maths-47",
+   "sampleQ": "General solution of differential equation $\\dfrac{dy}{dx}+y=1\\ (y\\ne1)$ is"
+  },
+  {
+   "template": "mat-de-integrating-factor",
+   "chapter": "Differential Equations",
+   "score": 1.8,
+   "slot": 0,
+   "sample": "2017-maths-48",
+   "sampleQ": "The integrating factor of the differential equation $x\\cdot\\dfrac{dy}{dx}+2y=x^2$ is $(x\\ne0)$"
+  },
+  {
+   "template": "mat-3d-axis-distance-reflection",
+   "chapter": "Three Dimensional Geometry",
+   "score": 1.512,
+   "slot": 0,
+   "sample": "2017-maths-52",
+   "sampleQ": "Reflexion of the point $(\\alpha,\\beta,\\gamma)$ in XY plane is"
+  },
+  {
+   "template": "mat-3d-foot-perpendicular-plane",
+   "chapter": "Three Dimensional Geometry",
+   "score": 1.44,
+   "slot": 0,
+   "sample": "2016-maths-57",
+   "sampleQ": "Find the co-ordinates of the foot of the perpendicular drawn from the origin to the plane $5y + 8 = 0$:"
+  },
+  {
+   "template": "mat-cx-modulus-argument",
+   "chapter": "Complex Numbers and Quadratic Equations",
+   "score": 1.889,
+   "slot": 0,
+   "sample": "2015-maths-4",
+   "sampleQ": "If $Z = \\dfrac{(\\sqrt{3}+i)^3(3i+4)^2}{(8+6i)^2}$, then $|Z|$ is equal to"
+  },
+  {
+   "template": "mat-cx-powers-of-i",
+   "chapter": "Complex Numbers and Quadratic Equations",
+   "score": 1.8,
+   "slot": 0,
+   "sample": "2017-maths-4",
+   "sampleQ": "If $\\left(\\dfrac{1+i}{1-i}\\right)^m=1$, then the least positive integral value of m is"
+  },
+  {
+   "template": "mat-mat-order-rules",
+   "chapter": "Matrices",
+   "score": 1.312,
+   "slot": 0,
+   "sample": "2016-maths-12",
+   "sampleQ": "If A is a matrix of order m \\times n and B is a matrix such that AB' and B'A are both defined, the order of the matrix B is"
+  },
+  {
+   "template": "mat-mat-inverse-trig-entries",
+   "chapter": "Matrices",
+   "score": 1,
+   "slot": 0,
+   "sample": "2017-maths-19",
+   "sampleQ": "If $A=\\dfrac{1}{\\pi}\\begin{bmatrix}\\sin^{-1}(\\pi x) & \\tan^{-1}(x/\\pi)\\\\ \\sin^{-1}(x/\\pi) & \\cot^{-1}(\\pi x)\\end{bmatrix}$, $B=\\begin{bmatrix}-\\cos^{-1}(\\pi x) & \\tan^{-1}(x/\\pi)\\\\ \\sin^{-1}(x/\\pi) & -\\tan^{-1}(\\pi x)\\end{bmatrix}$ then $A-B$ is equal to"
+  },
+  {
+   "template": "mat-sl-line-parallel-perp",
+   "chapter": "Straight Lines",
+   "score": 1.64,
+   "slot": 0,
+   "sample": "2017-maths-8",
+   "sampleQ": "Equation of line passing through the point $(1,2)$ and perpendicular to the line $y=3x-1$ is"
+  },
+  {
+   "template": "mat-aoi-curve-horizontal-line",
+   "chapter": "Application of Integrals",
+   "score": 1.64,
+   "slot": 0,
+   "sample": "2017-maths-44",
+   "sampleQ": "The area of the region bounded by the curve $y=x^2$ and the line $y=16$ is"
+  },
+  {
+   "template": "mat-lim-trig-standard",
+   "chapter": "Limits and Derivatives",
+   "score": 1.64,
+   "slot": 0,
+   "sample": "2017-maths-11",
+   "sampleQ": "The value of $\\displaystyle\\lim_{\\theta\\to0}\\dfrac{1-\\cos4\\theta}{1-\\cos6\\theta}$ is"
+  },
+  {
+   "template": "mat-bin-general-middle-term",
+   "chapter": "Binomial Theorem",
+   "score": 1.768,
+   "slot": 0,
+   "sample": "2016-maths-38",
+   "sampleQ": "The $11^{th}$ term in the expansion of $\\left(x+\\dfrac{1}{\\sqrt{x}}\\right)^{14}$ is"
+  },
+  {
+   "template": "mat-oldmr-converse-contrapositive",
+   "chapter": "Old syllabus: Mathematical Reasoning",
+   "score": 2.21,
+   "slot": 0,
+   "sample": "2017-maths-12",
+   "sampleQ": "The contrapositive statement of the statement \"If x is prime number, then x is odd\" is"
+  },
+  {
+   "template": "mat-seq-special-series-sum",
+   "chapter": "Sequences and Series",
+   "score": 1.21,
+   "slot": 0,
+   "sample": "2016-maths-37",
+   "sampleQ": "The sum of $1^{st}$ n terms of the series $\\dfrac{1^2}{1}+\\dfrac{1^2+2^2}{1+2}+\\dfrac{1^2+2^2+3^2}{1+2+3}+\\ldots$"
+  },
+  {
+   "template": "mat-stat-cv-mean",
+   "chapter": "Statistics",
+   "score": 2.312,
+   "slot": 0,
+   "sample": "2017-maths-13",
+   "sampleQ": "If coefficient of variation is 60 and standard deviation is 24, then Arithmetic mean is"
+  },
+  {
+   "template": "mat-ineq-modulus",
+   "chapter": "Linear Inequalities",
+   "score": 1.512,
+   "slot": 0,
+   "sample": "2017-maths-5",
+   "sampleQ": "If $|x-2|\\le1$, then"
+  },
+  {
+   "template": "mat-lpp-shaded-region",
+   "chapter": "Linear Programming",
+   "score": 1,
+   "slot": 0,
+   "sample": "2017-maths-58",
+   "sampleQ": "[Figure: a line through (0,5) and (4,0) forms a triangle-like boundary with a horizontal line through (0,3) and a vertical line through (6,0); the shaded region is the triangular area between the slanted line, below y=3 and left of x=6.] The shaded region in the figure is the solution set of the inequations"
+  },
+  {
+   "template": "mat-sets-operations-notation",
+   "chapter": "Sets",
+   "score": 1.64,
+   "slot": 0,
+   "sample": "2017-maths-1",
+   "sampleQ": "If A and B are finite sets and $A \\subset B$, then"
+  },
+  {
+   "template": "mat-pnc-ncr-identities",
+   "chapter": "Permutations and Combinations",
+   "score": 1,
+   "slot": 0,
+   "sample": "2017-maths-6",
+   "sampleQ": "If ${}^nC_{12}={}^nC_8$ then n is equal to"
+  },
+  {
+   "template": "mat-oldnt-remainder",
+   "chapter": "Old syllabus: Number Theory",
+   "score": 0.41,
+   "slot": 0,
+   "sample": "2013-maths-16",
+   "sampleQ": "The remainder when $10^{10}\\cdot(10^{10}+1)(10^{10}+2)$ is divided by 6 is"
+  }
+ ],
+ "summary": {
+  "year": 2018,
+  "subject": "maths",
+  "n": 60,
+  "exact": 7,
+  "similar": 13,
+  "missSeen": 27,
+  "missNew": 13,
+  "hitPct": 33.3,
+  "predictablePct": 78.3,
+  "verbatimRepeats": 19,
+  "wastedSlots": 42
+ },
+ "lessons": {
+  "missedKnownTemplates": [
+   "mat-oldmi-divisibility",
+   "mat-con-hyperbola-equation",
+   "mat-lim-derivative-basic",
+   "mat-oldmr-negation",
+   "mat-rel-count-functions",
+   "mat-itf-trig-of-inverse",
+   "mat-mat-powers",
+   "mat-mat-solve-for-entries",
+   "mat-mat-rotation-matrix",
+   "mat-cd-implicit",
+   "mat-aod-xx-type-extrema",
+   "mat-aod-xx-type-extrema",
+   "mat-aod-optimization-geometry",
+   "mat-int-substitution",
+   "mat-int-substitution",
+   "mat-int-substitution",
+   "mat-aoi-trig-curve",
+   "mat-aoi-line-with-ordinates",
+   "mat-de-solution-family",
+   "mat-vec-lagrange-identity",
+   "mat-vec-coplanar-volume-param",
+   "mat-vec-orthogonal-param",
+   "mat-3d-angle-between-lines",
+   "mat-3d-line-plane-parallel",
+   "mat-lpp-corner-point-optimum",
+   "mat-prob-classical-counting",
+   "mat-prob-classical-counting"
+  ],
+  "chapterGaps": [
+   {
+    "chapter": "Probability",
+    "predicted": 3,
+    "actual": 6
+   },
+   {
+    "chapter": "Trigonometric Functions",
+    "predicted": 3,
+    "actual": 0
+   },
+   {
+    "chapter": "Conic Sections",
+    "predicted": 3,
+    "actual": 1
+   },
+   {
+    "chapter": "Three Dimensional Geometry",
+    "predicted": 2,
+    "actual": 4
+   },
+   {
+    "chapter": "Continuity and Differentiability",
+    "predicted": 6,
+    "actual": 5
+   },
+   {
+    "chapter": "Inverse Trigonometric Functions",
+    "predicted": 3,
+    "actual": 2
+   },
+   {
+    "chapter": "Complex Numbers and Quadratic Equations",
+    "predicted": 2,
+    "actual": 1
+   },
+   {
+    "chapter": "Matrices",
+    "predicted": 2,
+    "actual": 3
+   }
+  ],
+  "wastedTemplates": [
+   "mat-cd-parametric",
+   "mat-cd-discontinuity-points",
+   "mat-cd-derivative-wrt-function",
+   "mat-cd-derivative-identity",
+   "mat-int-king-symmetric",
+   "mat-int-trig-identity-simplify",
+   "mat-int-gif-definite",
+   "mat-aod-related-rates-geometry",
+   "mat-aod-tangent-normal-slope-equation",
+   "mat-aod-angle-between-curves",
+   "mat-aod-tangent-slope-condition",
+   "mat-det-equation-condition",
+   "mat-vec-angle-from-condition",
+   "mat-vec-unit-sum-zero",
+   "mat-vec-cross-area",
+   "mat-rel-binary-op-properties",
+   "mat-rel-one-one-onto",
+   "mat-itf-tan-addition",
+   "mat-itf-partial-fraction-combo",
+   "mat-prob-binomial",
+   "mat-prob-distribution-find-k",
+   "mat-con-circle-equation",
+   "mat-con-ellipse-properties",
+   "mat-con-circle-tangent",
+   "mat-trig-evaluate-angle-expression",
+   "mat-trig-equation-general",
+   "mat-trig-sum-difference-condition",
+   "mat-de-variable-separable",
+   "mat-3d-axis-distance-reflection",
+   "mat-3d-foot-perpendicular-plane",
+   "mat-cx-modulus-argument",
+   "mat-mat-order-rules",
+   "mat-mat-inverse-trig-entries",
+   "mat-aoi-curve-horizontal-line",
+   "mat-lim-trig-standard",
+   "mat-oldmr-converse-contrapositive",
+   "mat-seq-special-series-sum",
+   "mat-stat-cv-mean",
+   "mat-lpp-shaded-region",
+   "mat-sets-operations-notation",
+   "mat-pnc-ncr-identities",
+   "mat-oldnt-remainder"
+  ]
+ },
+ "questions": [
+  {
+   "id": "2018-maths-1",
+   "n": 1,
+   "chapter": "Linear Inequalities",
+   "template": "mat-ineq-modulus",
+   "outcome": "similar",
+   "verbatimOf": null,
+   "sim": 0.33,
+   "q": "If $|x+5|\\geq 10$ then"
+  },
+  {
+   "id": "2018-maths-2",
+   "n": 2,
+   "chapter": "Permutations and Combinations",
+   "template": "mat-pnc-geometric-counting",
+   "outcome": "miss-new",
+   "verbatimOf": null,
+   "sim": 0.23,
+   "q": "Everybody in a room shakes hands with everybody else. The total number of handshakes is 45. The total number of persons in the room is"
+  },
+  {
+   "id": "2018-maths-3",
+   "n": 3,
+   "chapter": "Binomial Theorem",
+   "template": "mat-bin-general-middle-term",
+   "outcome": "similar",
+   "verbatimOf": null,
+   "sim": 0.35,
+   "q": "The constant term in the expansion of $\\left(x^2-\\dfrac{1}{x^2}\\right)^{16}$ is"
+  },
+  {
+   "id": "2018-maths-4",
+   "n": 4,
+   "chapter": "Old syllabus: Mathematical Induction",
+   "template": "mat-oldmi-divisibility",
+   "outcome": "miss-seen",
+   "verbatimOf": null,
+   "sim": 0.41,
+   "q": "If P(n): \"$2^{2n}-1$ is divisible by k for all $n\\in N$\" is true, then the value of 'k' is"
+  },
+  {
+   "id": "2018-maths-5",
+   "n": 5,
+   "chapter": "Straight Lines",
+   "template": "mat-sl-line-parallel-perp",
+   "outcome": "similar",
+   "verbatimOf": null,
+   "sim": 0.39,
+   "q": "The equation of the line parallel to the line $3x-4y+2=0$ and passing through $(-2,3)$ is"
+  },
+  {
+   "id": "2018-maths-6",
+   "n": 6,
+   "chapter": "Complex Numbers and Quadratic Equations",
+   "template": "mat-cx-powers-of-i",
+   "outcome": "similar",
+   "verbatimOf": null,
+   "sim": 0.4,
+   "q": "If $\\left(\\dfrac{1-i}{1+i}\\right)^{96}=a+ib$ then $(a,b)$ is"
+  },
+  {
+   "id": "2018-maths-7",
+   "n": 7,
+   "chapter": "Conic Sections",
+   "template": "mat-con-hyperbola-equation",
+   "outcome": "miss-seen",
+   "verbatimOf": null,
+   "sim": 0.42,
+   "q": "The distance between the foci of a hyperbola is 16 and its eccentricity is $\\sqrt{2}$. Its equation is"
+  },
+  {
+   "id": "2018-maths-8",
+   "n": 8,
+   "chapter": "Permutations and Combinations",
+   "template": "mat-pnc-arrangement-restriction",
+   "outcome": "miss-new",
+   "verbatimOf": null,
+   "sim": 0.22,
+   "q": "The number of ways in which 5 girls and 3 boys can be seated in a row so that no two boys are together is"
+  },
+  {
+   "id": "2018-maths-9",
+   "n": 9,
+   "chapter": "Sequences and Series",
+   "template": "mat-seq-ap-gp-relation",
+   "outcome": "miss-new",
+   "verbatimOf": "2011-maths-1",
+   "sim": 0.52,
+   "q": "If a, b, c are three consecutive terms of an AP and x, y, z are three consecutive terms of a GP, then the value of $x^{b-c}\\cdot y^{c-a}\\cdot z^{a-b}$ is"
+  },
+  {
+   "id": "2018-maths-10",
+   "n": 10,
+   "chapter": "Limits and Derivatives",
+   "template": "mat-lim-one-sided",
+   "outcome": "miss-new",
+   "verbatimOf": "2013-maths-56",
+   "sim": 0.56,
+   "q": "The value of $\\lim\\limits_{x\\to 0}\\dfrac{|x|}{x}$ is"
+  },
+  {
+   "id": "2018-maths-11",
+   "n": 11,
+   "chapter": "Limits and Derivatives",
+   "template": "mat-lim-derivative-basic",
+   "outcome": "miss-seen",
+   "verbatimOf": null,
+   "sim": 0.38,
+   "q": "Let $f(x)=x-\\dfrac{1}{x}$ then $f'(-1)$ is"
+  },
+  {
+   "id": "2018-maths-12",
+   "n": 12,
+   "chapter": "Old syllabus: Mathematical Reasoning",
+   "template": "mat-oldmr-negation",
+   "outcome": "miss-seen",
+   "verbatimOf": null,
+   "sim": 0.36,
+   "q": "The negation of the statement \"72 is divisible by 2 and 3\" is"
+  },
+  {
+   "id": "2018-maths-13",
+   "n": 13,
+   "chapter": "Probability",
+   "template": "mat-prob-addition-complement",
+   "outcome": "miss-new",
+   "verbatimOf": null,
+   "sim": 0.35,
+   "q": "The probability of happening of an event A is 0.5 and that of B is 0.3. If A and B are mutually exclusive events, then the probability of neither A nor B is"
+  },
+  {
+   "id": "2018-maths-14",
+   "n": 14,
+   "chapter": "Probability",
+   "template": "mat-prob-dice-sum",
+   "outcome": "similar",
+   "verbatimOf": null,
+   "sim": 0.36,
+   "q": "In a simultaneous throw of a pair of dice, the probability of getting a total more than 7 is"
+  },
+  {
+   "id": "2018-maths-15",
+   "n": 15,
+   "chapter": "Probability",
+   "template": "mat-prob-addition-complement",
+   "outcome": "miss-new",
+   "verbatimOf": null,
+   "sim": 0.38,
+   "q": "If A and B are mutually exclusive events, given that $P(A)=\\dfrac{3}{5}$, $P(B)=\\dfrac{1}{5}$, then P(A or B) is"
+  },
+  {
+   "id": "2018-maths-16",
+   "n": 16,
+   "chapter": "Relations and Functions",
+   "template": "mat-rel-composition",
+   "outcome": "similar",
+   "verbatimOf": null,
+   "sim": 0.24,
+   "q": "Let $f,g:R\\to R$ be two functions defined as $f(x)=|x|+x$ and $g(x)=|x|-x\\ \\forall x\\in R$. Then (fog)(x) for $x<0$ is"
+  },
+  {
+   "id": "2018-maths-17",
+   "n": 17,
+   "chapter": "Relations and Functions",
+   "template": "mat-rel-count-functions",
+   "outcome": "miss-seen",
+   "verbatimOf": null,
+   "sim": 0.27,
+   "q": "A is a set having 6 distinct elements. The number of distinct functions from A to A which are not bijections is"
+  },
+  {
+   "id": "2018-maths-18",
+   "n": 18,
+   "chapter": "Relations and Functions",
+   "template": "mat-rel-evaluate-function",
+   "outcome": "miss-new",
+   "verbatimOf": null,
+   "sim": 0.35,
+   "q": "Let $f:R\\to R$ be defined by $f(x)=\\begin{cases}2x & x>3\\\\ x^2 & 1<x\\leq 3\\\\ 3x & x\\leq 1\\end{cases}$ Then $f(-1)+f(2)+f(4)$ is"
+  },
+  {
+   "id": "2018-maths-19",
+   "n": 19,
+   "chapter": "Inverse Trigonometric Functions",
+   "template": "mat-itf-complementary",
+   "outcome": "exact",
+   "verbatimOf": "2017-maths-17",
+   "sim": 0.67,
+   "q": "If $\\sin^{-1}x+\\cos^{-1}y=\\dfrac{2\\pi}{5}$, then $\\cos^{-1}x+\\sin^{-1}y$ is"
+  },
+  {
+   "id": "2018-maths-20",
+   "n": 20,
+   "chapter": "Inverse Trigonometric Functions",
+   "template": "mat-itf-trig-of-inverse",
+   "outcome": "miss-seen",
+   "verbatimOf": "2013-maths-56",
+   "sim": 0.5,
+   "q": "The value of the expression $\\tan\\left(\\dfrac{1}{2}\\cos^{-1}\\dfrac{2}{\\sqrt5}\\right)$ is"
+  },
+  {
+   "id": "2018-maths-21",
+   "n": 21,
+   "chapter": "Matrices",
+   "template": "mat-mat-powers",
+   "outcome": "miss-seen",
+   "verbatimOf": null,
+   "sim": 0.31,
+   "q": "If $A=\\begin{bmatrix}2 & -2\\\\ -2 & 2\\end{bmatrix}$, then $A^n=2^kA$, where k ="
+  },
+  {
+   "id": "2018-maths-22",
+   "n": 22,
+   "chapter": "Matrices",
+   "template": "mat-mat-solve-for-entries",
+   "outcome": "miss-seen",
+   "verbatimOf": "2009-maths-17",
+   "sim": 0.5,
+   "q": "If $\\begin{bmatrix}1 & 1\\\\ -1 & 1\\end{bmatrix}\\begin{bmatrix}x\\\\ y\\end{bmatrix}=\\begin{bmatrix}2\\\\ 4\\end{bmatrix}$, then the values of x and y respectively are"
+  },
+  {
+   "id": "2018-maths-23",
+   "n": 23,
+   "chapter": "Matrices",
+   "template": "mat-mat-rotation-matrix",
+   "outcome": "miss-seen",
+   "verbatimOf": null,
+   "sim": 0.4,
+   "q": "If $A=\\begin{bmatrix}\\cos\\alpha & \\sin\\alpha\\\\ -\\sin\\alpha & \\cos\\alpha\\end{bmatrix}$, then $AA'=$"
+  },
+  {
+   "id": "2018-maths-24",
+   "n": 24,
+   "chapter": "Determinants",
+   "template": "mat-det-property-evaluate",
+   "outcome": "similar",
+   "verbatimOf": null,
+   "sim": 0.35,
+   "q": "If x, y, z $\\in R$, then the value of determinant $\\begin{vmatrix}(5^x+5^{-x})^2 & (5^x-5^{-x})^2 & 1\\\\ (6^x+6^{-x})^2 & (6^x-6^{-x})^2 & 1\\\\ (7^x+7^{-x})^2 & ("
+  },
+  {
+   "id": "2018-maths-25",
+   "n": 25,
+   "chapter": "Determinants",
+   "template": "mat-det-property-evaluate",
+   "outcome": "similar",
+   "verbatimOf": null,
+   "sim": 0.39,
+   "q": "The value of determinant $\\begin{vmatrix}a-b & b+c & a\\\\ b-a & c+a & b\\\\ c-a & a+b & c\\end{vmatrix}$ is"
+  },
+  {
+   "id": "2018-maths-26",
+   "n": 26,
+   "chapter": "Determinants",
+   "template": "mat-det-area-triangle",
+   "outcome": "similar",
+   "verbatimOf": null,
+   "sim": 0.48,
+   "q": "If $(x_1,y_1)$, $(x_2,y_2)$ and $(x_3,y_3)$ are the vertices of a triangle whose area is 'k' square units, then $\\begin{vmatrix}x_1 & y_1 & 4\\\\ x_2 & y_2 & 4\\\\ "
+  },
+  {
+   "id": "2018-maths-27",
+   "n": 27,
+   "chapter": "Determinants",
+   "template": "mat-det-ka-scaling",
+   "outcome": "similar",
+   "verbatimOf": null,
+   "sim": 0.28,
+   "q": "Let A be a square matrix of order $3\\times3$, then $|5A|=$"
+  },
+  {
+   "id": "2018-maths-28",
+   "n": 28,
+   "chapter": "Continuity and Differentiability",
+   "template": "mat-cd-continuity-find-k",
+   "outcome": "exact",
+   "verbatimOf": "2011-maths-15",
+   "sim": 0.55,
+   "q": "If $f(x)=\\begin{cases}\\dfrac{\\sqrt{1+kx}-\\sqrt{1-kx}}{x} & \\text{if } -1\\leq x<0\\\\ \\dfrac{2x+1}{x-1} & \\text{if } 0\\leq x\\leq 1\\end{cases}$ is continuous at $x="
+  },
+  {
+   "id": "2018-maths-29",
+   "n": 29,
+   "chapter": "Continuity and Differentiability",
+   "template": "mat-cd-implicit",
+   "outcome": "miss-seen",
+   "verbatimOf": "2017-maths-33",
+   "sim": 0.54,
+   "q": "If $\\cos y=x\\cos(a+y)$ with $\\cos a\\neq\\pm1$, then $\\dfrac{dy}{dx}$ is equal to"
+  },
+  {
+   "id": "2018-maths-30",
+   "n": 30,
+   "chapter": "Continuity and Differentiability",
+   "template": "mat-cd-standard-rules",
+   "outcome": "exact",
+   "verbatimOf": "2017-maths-23",
+   "sim": 0.56,
+   "q": "If $f(x)=|\\cos x-\\sin x|$, then $f'\\left(\\dfrac{\\pi}{6}\\right)$ is equal to"
+  },
+  {
+   "id": "2018-maths-31",
+   "n": 31,
+   "chapter": "Continuity and Differentiability",
+   "template": "mat-cd-infinite-radical",
+   "outcome": "miss-new",
+   "verbatimOf": null,
+   "sim": 0.36,
+   "q": "If $y=\\sqrt{x+\\sqrt{x+\\sqrt{x+\\dots\\infty}}}$, then $\\dfrac{dy}{dx}=$"
+  },
+  {
+   "id": "2018-maths-32",
+   "n": 32,
+   "chapter": "Continuity and Differentiability",
+   "template": "mat-cd-continuity-find-k",
+   "outcome": "exact",
+   "verbatimOf": "2011-maths-15",
+   "sim": 1,
+   "q": "If $f(x)=\\begin{cases}\\dfrac{\\log_e x}{x-1} & x\\neq1\\\\ k & x=1\\end{cases}$ is continuous at $x=1$, then the value of k is"
+  },
+  {
+   "id": "2018-maths-33",
+   "n": 33,
+   "chapter": "Application of Derivatives",
+   "template": "mat-aod-approximation",
+   "outcome": "miss-new",
+   "verbatimOf": null,
+   "sim": 0.19,
+   "q": "Approximate change in the volume V of a cube of side x metres caused by increasing the side by 3% is"
+  },
+  {
+   "id": "2018-maths-34",
+   "n": 34,
+   "chapter": "Application of Derivatives",
+   "template": "mat-aod-xx-type-extrema",
+   "outcome": "miss-seen",
+   "verbatimOf": "2016-maths-33",
+   "sim": 0.9,
+   "q": "The maximum value of $\\left(\\dfrac{1}{x}\\right)^x$ is"
+  },
+  {
+   "id": "2018-maths-35",
+   "n": 35,
+   "chapter": "Application of Derivatives",
+   "template": "mat-aod-xx-type-extrema",
+   "outcome": "miss-seen",
+   "verbatimOf": null,
+   "sim": 0.11,
+   "q": "$f(x)=x^x$ has stationary point at"
+  },
+  {
+   "id": "2018-maths-36",
+   "n": 36,
+   "chapter": "Application of Derivatives",
+   "template": "mat-aod-optimization-geometry",
+   "outcome": "miss-seen",
+   "verbatimOf": "2013-maths-51",
+   "sim": 0.5,
+   "q": "The maximum area of a rectangle inscribed in the circle $(x+1)^2+(y-3)^2=64$ is"
+  },
+  {
+   "id": "2018-maths-37",
+   "n": 37,
+   "chapter": "Integrals",
+   "template": "mat-int-substitution",
+   "outcome": "miss-seen",
+   "verbatimOf": "2017-maths-37",
+   "sim": 0.5,
+   "q": "$\\displaystyle\\int\\dfrac{1}{1+e^x}\\,dx$ is equal to"
+  },
+  {
+   "id": "2018-maths-38",
+   "n": 38,
+   "chapter": "Integrals",
+   "template": "mat-int-standard-forms",
+   "outcome": "similar",
+   "verbatimOf": null,
+   "sim": 0.44,
+   "q": "$\\displaystyle\\int\\dfrac{1}{\\sqrt{3-6x-9x^2}}\\,dx$ is equal to"
+  },
+  {
+   "id": "2018-maths-39",
+   "n": 39,
+   "chapter": "Integrals",
+   "template": "mat-int-ex-f-plus-fprime",
+   "outcome": "exact",
+   "verbatimOf": "2017-maths-60",
+   "sim": 0.57,
+   "q": "$\\displaystyle\\int e^{\\sin x}\\cdot\\left(\\dfrac{\\sin x+1}{\\sec x}\\right)dx$ is equal to"
+  },
+  {
+   "id": "2018-maths-40",
+   "n": 40,
+   "chapter": "Integrals",
+   "template": "mat-int-modulus-definite",
+   "outcome": "exact",
+   "verbatimOf": "2017-maths-60",
+   "sim": 0.8,
+   "q": "$\\displaystyle\\int_{-2}^{2}|x\\cos\\pi x|\\,dx$ is equal to"
+  },
+  {
+   "id": "2018-maths-41",
+   "n": 41,
+   "chapter": "Integrals",
+   "template": "mat-int-substitution",
+   "outcome": "miss-seen",
+   "verbatimOf": "2017-maths-60",
+   "sim": 0.5,
+   "q": "$\\displaystyle\\int_0^1\\dfrac{dx}{e^x+e^{-x}}$ is equal to"
+  },
+  {
+   "id": "2018-maths-42",
+   "n": 42,
+   "chapter": "Integrals",
+   "template": "mat-int-substitution",
+   "outcome": "miss-seen",
+   "verbatimOf": null,
+   "sim": 0.46,
+   "q": "$\\displaystyle\\int_0^{1/2}\\dfrac{dx}{(1+x^2)\\sqrt{1-x^2}}$ is equal to"
+  },
+  {
+   "id": "2018-maths-43",
+   "n": 43,
+   "chapter": "Application of Integrals",
+   "template": "mat-aoi-trig-curve",
+   "outcome": "miss-seen",
+   "verbatimOf": "2017-maths-45",
+   "sim": 0.94,
+   "q": "The area of the region bounded by the curve $y=\\cos x$ between $x=0$ and $x=\\pi$ is"
+  },
+  {
+   "id": "2018-maths-44",
+   "n": 44,
+   "chapter": "Application of Integrals",
+   "template": "mat-aoi-line-with-ordinates",
+   "outcome": "miss-seen",
+   "verbatimOf": null,
+   "sim": 0.38,
+   "q": "The area bounded by the line $y=x$, x-axis and ordinates $x=-1$ and $x=2$ is"
+  },
+  {
+   "id": "2018-maths-45",
+   "n": 45,
+   "chapter": "Differential Equations",
+   "template": "mat-de-order-degree",
+   "outcome": "exact",
+   "verbatimOf": "2017-maths-46",
+   "sim": 0.65,
+   "q": "The degree and the order of the differential equation $\\dfrac{d^2y}{dx^2}=\\sqrt[3]{1+\\left(\\dfrac{dy}{dx}\\right)^2}$ respectively are"
+  },
+  {
+   "id": "2018-maths-46",
+   "n": 46,
+   "chapter": "Differential Equations",
+   "template": "mat-de-solution-family",
+   "outcome": "miss-seen",
+   "verbatimOf": "2010-maths-60",
+   "sim": 0.68,
+   "q": "The solution of the differential equation $x\\dfrac{dy}{dx}-y=3$ represents a family of"
+  },
+  {
+   "id": "2018-maths-47",
+   "n": 47,
+   "chapter": "Differential Equations",
+   "template": "mat-de-integrating-factor",
+   "outcome": "similar",
+   "verbatimOf": null,
+   "sim": 0.39,
+   "q": "The integrating factor of $\\dfrac{dy}{dx}+y=\\dfrac{1+y}{x}$ is"
+  },
+  {
+   "id": "2018-maths-48",
+   "n": 48,
+   "chapter": "Vector Algebra",
+   "template": "mat-vec-lagrange-identity",
+   "outcome": "miss-seen",
+   "verbatimOf": "2011-maths-21",
+   "sim": 0.54,
+   "q": "If $|\\vec a\\times\\vec b|^2+|\\vec a\\cdot\\vec b|^2=144$ and $|\\vec a|=4$, then the value of $|\\vec b|$ is"
+  },
+  {
+   "id": "2018-maths-49",
+   "n": 49,
+   "chapter": "Vector Algebra",
+   "template": "mat-vec-magnitude-from-dot",
+   "outcome": "similar",
+   "verbatimOf": null,
+   "sim": 0.32,
+   "q": "If $\\vec a$ and $\\vec b$ are mutually perpendicular unit vectors, then $(3\\vec a+2\\vec b)\\cdot(5\\vec a-6\\vec b)=$"
+  },
+  {
+   "id": "2018-maths-50",
+   "n": 50,
+   "chapter": "Vector Algebra",
+   "template": "mat-vec-coplanar-volume-param",
+   "outcome": "miss-seen",
+   "verbatimOf": null,
+   "sim": 0.42,
+   "q": "If the vectors $a\\hat i+\\hat j+\\hat k$, $\\hat i+b\\hat j+\\hat k$ and $\\hat i+\\hat j+c\\hat k$ are coplanar $(a\\neq b\\neq c\\neq1)$, then the value of $abc-(a+b+c)="
+  },
+  {
+   "id": "2018-maths-51",
+   "n": 51,
+   "chapter": "Vector Algebra",
+   "template": "mat-vec-orthogonal-param",
+   "outcome": "miss-seen",
+   "verbatimOf": null,
+   "sim": 0.3,
+   "q": "If $\\vec a=\\hat i+\\lambda\\hat j+2\\hat k$; $\\vec b=\\mu\\hat i+\\hat j-\\hat k$ are orthogonal and $|\\vec a|=|\\vec b|$ then $(\\lambda,\\mu)=$"
+  },
+  {
+   "id": "2018-maths-52",
+   "n": 52,
+   "chapter": "Three Dimensional Geometry",
+   "template": "mat-3d-image-in-line",
+   "outcome": "miss-new",
+   "verbatimOf": null,
+   "sim": 0.4,
+   "q": "The image of the point $(1,6,3)$ in the line $\\dfrac{x}{1}=\\dfrac{y-1}{2}=\\dfrac{z-2}{3}$ is"
+  },
+  {
+   "id": "2018-maths-53",
+   "n": 53,
+   "chapter": "Three Dimensional Geometry",
+   "template": "mat-3d-angle-between-lines",
+   "outcome": "miss-seen",
+   "verbatimOf": null,
+   "sim": 0.43,
+   "q": "The angle between the lines $2x=3y=-z$ and $6x=-y=-4z$ is"
+  },
+  {
+   "id": "2018-maths-54",
+   "n": 54,
+   "chapter": "Three Dimensional Geometry",
+   "template": "mat-3d-line-plane-parallel",
+   "outcome": "miss-seen",
+   "verbatimOf": null,
+   "sim": 0.26,
+   "q": "The value of k such that the line $\\dfrac{x-4}{1}=\\dfrac{y-2}{1}=\\dfrac{z-k}{2}$ lies on the plane $2x-4y+z=7$ is"
+  },
+  {
+   "id": "2018-maths-55",
+   "n": 55,
+   "chapter": "Three Dimensional Geometry",
+   "template": "mat-3d-locus-planes",
+   "outcome": "miss-new",
+   "verbatimOf": null,
+   "sim": 0.29,
+   "q": "The locus represented by $xy+yz=0$ is"
+  },
+  {
+   "id": "2018-maths-56",
+   "n": 56,
+   "chapter": "Linear Programming",
+   "template": "mat-lpp-corner-point-optimum",
+   "outcome": "miss-seen",
+   "verbatimOf": null,
+   "sim": 0.28,
+   "q": "The feasible region of an LPP is shown in the figure [triangular shaded region with vertices (0,20), (15,15), (5,5), (0,10)]. If $z=3x+9y$, then the minimum val"
+  },
+  {
+   "id": "2018-maths-57",
+   "n": 57,
+   "chapter": "Linear Programming",
+   "template": "mat-lpp-theory",
+   "outcome": "miss-new",
+   "verbatimOf": null,
+   "sim": 0.12,
+   "q": "For the LPP; maximise $z=x+4y$ subject to the constraints $x+2y\\leq2$, $x+2y\\geq8$, $x,y\\geq0$"
+  },
+  {
+   "id": "2018-maths-58",
+   "n": 58,
+   "chapter": "Probability",
+   "template": "mat-prob-mean-variance-rv",
+   "outcome": "miss-new",
+   "verbatimOf": null,
+   "sim": 0.26,
+   "q": "For the probability distribution given by $X=x_i$: 0, 1, 2 with $P_i$: $\\dfrac{25}{36}$, $\\dfrac{5}{18}$, $\\dfrac{1}{36}$ the standard deviation ($\\sigma$) is"
+  },
+  {
+   "id": "2018-maths-59",
+   "n": 59,
+   "chapter": "Probability",
+   "template": "mat-prob-classical-counting",
+   "outcome": "miss-seen",
+   "verbatimOf": null,
+   "sim": 0.28,
+   "q": "A bag contains 17 tickets numbered from 1 to 17. A ticket is drawn at random, then another ticket is drawn without replacing the first one. The probability that"
+  },
+  {
+   "id": "2018-maths-60",
+   "n": 60,
+   "chapter": "Probability",
+   "template": "mat-prob-classical-counting",
+   "outcome": "miss-seen",
+   "verbatimOf": null,
+   "sim": 0.32,
+   "q": "A flashlight has 10 batteries out of which 4 are dead. If 3 batteries are selected without replacement and tested, then the probability that all 3 are dead is"
+  }
+ ]
+}

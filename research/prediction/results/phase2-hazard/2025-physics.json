@@ -1,0 +1,1279 @@
+{
+ "params": {
+  "decay": 0.8,
+  "window": 6,
+  "multi": 1.5,
+  "exact": 0.5,
+  "method": "hazard",
+  "list": 60
+ },
+ "priorYears": [
+  2019,
+  2020,
+  2021,
+  2022,
+  2023,
+  2024
+ ],
+ "quota": {
+  "Current Electricity": 6,
+  "Moving Charges and Magnetism": 5,
+  "Ray Optics and Optical Instruments": 4,
+  "Electric Charges and Fields": 4,
+  "Semiconductor Electronics": 3,
+  "Alternating Current": 3,
+  "Electrostatic Potential and Capacitance": 3,
+  "Wave Optics": 3,
+  "Atoms": 3,
+  "Nuclei": 3,
+  "Dual Nature of Radiation and Matter": 3,
+  "Electromagnetic Induction": 2,
+  "System of Particles and Rotational Motion": 2,
+  "Magnetism and Matter": 2,
+  "Motion in a Plane": 2,
+  "Laws of Motion": 1,
+  "Work, Energy and Power": 1,
+  "Thermodynamics": 1,
+  "Mechanical Properties of Fluids": 1,
+  "Oscillations": 1,
+  "Motion in a Straight Line": 1,
+  "Units and Measurements": 1,
+  "Mechanical Properties of Solids": 1,
+  "Kinetic Theory": 1,
+  "Gravitation": 1,
+  "Electromagnetic Waves": 1,
+  "Thermal Properties of Matter": 1,
+  "Waves": 0,
+  "Old syllabus: Communication Systems": 0
+ },
+ "predicted": [
+  {
+   "template": "phy-ce-network-current-voltage",
+   "chapter": "Current Electricity",
+   "score": 0.31,
+   "slot": 0,
+   "sample": "2024-physics-12",
+   "sampleQ": "In the circuit shown, the end A is at potential $V_0$ and end B is grounded. The electric current I indicated in the circuit is [a repeating ladder network of resistors: series R, then rungs of R, then 2R sections with rungs of 2R, ending at grounded B]"
+  },
+  {
+   "template": "phy-ce-drift-mobility-concepts",
+   "chapter": "Current Electricity",
+   "score": 0.31,
+   "slot": 0,
+   "sample": "2024-physics-11",
+   "sampleQ": "$\\vec E$ is the electric field inside a conductor whose material has conductivity $\\sigma$ and resistivity $\\rho$. The current density inside the conductor is $\\vec j$. The correct form of Ohm's law is"
+  },
+  {
+   "template": "phy-ce-temperature-coefficient",
+   "chapter": "Current Electricity",
+   "score": 0.31,
+   "slot": 0,
+   "sample": "2024-physics-14",
+   "sampleQ": "The I-V graph for a conductor at two different temperatures $100^0C$ and $400^0C$ is as shown in the figure [two straight lines through the origin, making angles $45^\\circ$ and $30^\\circ$ with the V-axis]. The temperature coefficient of resistance of the conductor is about (in per degree Celsius)"
+  },
+  {
+   "template": "phy-ce-current-charge-electrons",
+   "chapter": "Current Electricity",
+   "score": 0.293,
+   "slot": 0,
+   "sample": "2024-physics-13",
+   "sampleQ": "The electric current flowing through a given conductor varies with time as shown in the graph below [current I rises linearly from about 100 mA at t=0 to 400 mA at t=10s, then stays constant at 400 mA up to t=20s]. The number of free electrons which flow through a given cross-section of the conductor in the time interval $0\\le t\\le20s$ is"
+  },
+  {
+   "template": "phy-ce-power-rating-bulbs",
+   "chapter": "Current Electricity",
+   "score": 0.293,
+   "slot": 0,
+   "sample": "2024-physics-15",
+   "sampleQ": "An electric blub of 60 W, 120 V is to be connected to 220 V source. What resistance should be connected in series with the bulb, so that the bulb glows properly?"
+  },
+  {
+   "template": "phy-ce-colour-code",
+   "chapter": "Current Electricity",
+   "score": 0.248,
+   "slot": 0,
+   "sample": "2023-physics-34",
+   "sampleQ": "The resistance of a carbon resistor is 4.7 kΩ ± 5%. The colour of the third band is"
+  },
+  {
+   "template": "phy-mcm-field-centre-loops-arcs",
+   "chapter": "Moving Charges and Magnetism",
+   "score": 0.31,
+   "slot": 0,
+   "sample": "2024-physics-18",
+   "sampleQ": "A coil having 9 turns carrying a current produces magnetic filed $B_1$ at the centre. Now the coil is rewounded into 3 turns carrying same current. Then the magnetic field at the centre $B_2=$"
+  },
+  {
+   "template": "phy-mcm-radius-circular-path-calc",
+   "chapter": "Moving Charges and Magnetism",
+   "score": 0.31,
+   "slot": 0,
+   "sample": "2024-physics-19",
+   "sampleQ": "A particle of specific charge $\\dfrac{q}{m}=\\pi\\,Ckg^{-1}$ is projected the origin towards positive x-axis with the velocity $10\\,ms^{-1}$ in a uniform magnetic field $\\vec B=-2\\hat kT$. The velocity $\\vec v$ of particle after time $t=\\dfrac{1}{12}s$ will be (in $ms^{-1}$)"
+  },
+  {
+   "template": "phy-mcm-field-coil-axis",
+   "chapter": "Moving Charges and Magnetism",
+   "score": 0.31,
+   "slot": 0,
+   "sample": "2024-physics-20",
+   "sampleQ": "The magnetic field at the centre of a circular coil of radius R carrying current I is 64 times the magnetic field at a distance x on its axis from the centre of the coil. Then the value of x is"
+  },
+  {
+   "template": "phy-mcm-biot-savart-sources",
+   "chapter": "Moving Charges and Magnetism",
+   "score": 0.293,
+   "slot": 0,
+   "sample": "2024-physics-17",
+   "sampleQ": "A moving electron produces"
+  },
+  {
+   "template": "phy-mcm-force-on-conductor",
+   "chapter": "Moving Charges and Magnetism",
+   "score": 0.268,
+   "slot": 0,
+   "sample": "2022-physics-15",
+   "sampleQ": "A metallic rod of mass per unit length 0.5 kg m$^{-1}$ is lying horizontally on a smooth inclined plane which makes an angle of 30$^\\circ$ with the horizontal. A magnetic field of strength 0.25 T is acting on it in the vertical direction. When a current 'I' is flowing through it, the rod is not allowed to slide down. The magnitude of current required to keep the rod stationary is"
+  },
+  {
+   "template": "phy-ro-prism-min-deviation",
+   "chapter": "Ray Optics and Optical Instruments",
+   "score": 0.31,
+   "slot": 0,
+   "sample": "2024-physics-32",
+   "sampleQ": "If the angle of minimum deviation is equal to angle of a prism for an equilateral prism, then the speed of light inside the prism is _____"
+  },
+  {
+   "template": "phy-ro-lensmaker-medium",
+   "chapter": "Ray Optics and Optical Instruments",
+   "score": 0.31,
+   "slot": 0,
+   "sample": "2024-physics-34",
+   "sampleQ": "An equiconvex lens of radius of curvature 14 cm is made up of two different materials. Left half and right half of vertical portion is made up of material of refractive index 1.5 and 1.2 respectively as shown in the figure. If a point object is placed at a distance of 40 cm, calculate the image distance."
+  },
+  {
+   "template": "phy-ro-optical-instruments",
+   "chapter": "Ray Optics and Optical Instruments",
+   "score": 0.31,
+   "slot": 0,
+   "sample": "2024-physics-31",
+   "sampleQ": "The final image formed by an astronomical telescope is"
+  },
+  {
+   "template": "phy-ro-critical-angle-tir",
+   "chapter": "Ray Optics and Optical Instruments",
+   "score": 0.26,
+   "slot": 0,
+   "sample": "2023-physics-48",
+   "sampleQ": "For a given pair of transparent media, the critical angle for which colour is maximum?"
+  },
+  {
+   "template": "phy-ecf-coulomb-force-sharing",
+   "chapter": "Electric Charges and Fields",
+   "score": 0.31,
+   "slot": 0,
+   "sample": "2024-physics-5",
+   "sampleQ": "A point charge A of $+10\\mu C$ and another point charge B of $+20\\mu C$ are kept 1m apart in free space. The electrostatic force on A due to B is $\\vec F_1$ and the electrostatic force on B due to A is $\\vec F_2$. Then"
+  },
+  {
+   "template": "phy-ecf-gauss-flux",
+   "chapter": "Electric Charges and Fields",
+   "score": 0.31,
+   "slot": 0,
+   "sample": "2024-physics-6",
+   "sampleQ": "A uniform electric field $E=3\\times10^5\\,NC^{-1}$ is acting along the positive Y-axis. The electric flux through a rectangle of area $10\\,cm\\times30\\,cm$ whose plane is parallel to the Z-X plane is"
+  },
+  {
+   "template": "phy-ecf-field-lines-conductor-concepts",
+   "chapter": "Electric Charges and Fields",
+   "score": 0.293,
+   "slot": 0,
+   "sample": "2024-physics-8",
+   "sampleQ": "Under electrostatic condition of a charged conductor, which among the following statements is true?"
+  },
+  {
+   "template": "phy-ecf-charge-quantisation-induction",
+   "chapter": "Electric Charges and Fields",
+   "score": 0.293,
+   "slot": 0,
+   "sample": "2024-physics-4",
+   "sampleQ": "A body has a charge of $-3.2\\mu C$. The number of excess electrons it has is"
+  },
+  {
+   "template": "phy-sc-energy-bands-materials",
+   "chapter": "Semiconductor Electronics",
+   "score": 0.31,
+   "slot": 0,
+   "sample": "2024-physics-46",
+   "sampleQ": "The upper level of valence band and lower level of conduction band overlap in the case of"
+  },
+  {
+   "template": "phy-sc-diode-circuits",
+   "chapter": "Semiconductor Electronics",
+   "score": 0.31,
+   "slot": 0,
+   "sample": "2024-physics-48",
+   "sampleQ": "A p-n junction diode is connected to a battery of emf 5.7 V in series with a resistant $5k\\Omega$ such that it is forward biased. If the barrier potential of the diode is 0.7 V, neglecting the diode resistance, the current in the circuit is"
+  },
+  {
+   "template": "phy-sc-pn-junction-biasing",
+   "chapter": "Semiconductor Electronics",
+   "score": 0.31,
+   "slot": 0,
+   "sample": "2024-physics-45",
+   "sampleQ": "Depletion region in an unbiased semiconductor diode is a region consisting of"
+  },
+  {
+   "template": "phy-ac-resonance",
+   "chapter": "Alternating Current",
+   "score": 0.31,
+   "slot": 0,
+   "sample": "2024-physics-28",
+   "sampleQ": "In an LCR series circuit, the value of only capacitance C is varied. The resulting variation of resonance frequency $f_0$ as a function of C can be represented as [four candidate f0-vs-C graphs: (A) rises then falls, (B) straight line rising, (C) decreasing convex curve, (D) decreasing then rising]"
+  },
+  {
+   "template": "phy-ac-lc-oscillations",
+   "chapter": "Alternating Current",
+   "score": 0.268,
+   "slot": 0,
+   "sample": "2022-physics-53",
+   "sampleQ": "A fully charged capacitor 'C' with initial charge 'q$_0$' is connected to a coil of self inductance 'L' at t = 0. The time at which the energy is stored equally between the electric and the magnetic field is"
+  },
+  {
+   "template": "phy-ac-transformer",
+   "chapter": "Alternating Current",
+   "score": 0.248,
+   "slot": 0,
+   "sample": "2023-physics-44",
+   "sampleQ": "An ideal transformer has a turns ratio of 10. When the primary is connected to 220 V, 50 Hz ac source, the power output is"
+  },
+  {
+   "template": "phy-epc-work-moving-charge",
+   "chapter": "Electrostatic Potential and Capacitance",
+   "score": 0.282,
+   "slot": 0,
+   "sample": "2023-physics-25",
+   "sampleQ": "A uniform electric field vector $\\vec E$ exists along horizontal direction as shown [field lines point rightward; a small charge q is slowly taken from point A along a curved (wavy) path to point B, where B is displaced horizontally by distance x from A]. The electric potential at A is V$_A$. A small point charge q is slowly taken from A to B along the curved path as shown. The potential energy of the charge when it is at point B is"
+  },
+  {
+   "template": "phy-epc-capacitor-network-equivalent",
+   "chapter": "Electrostatic Potential and Capacitance",
+   "score": 0.248,
+   "slot": 0,
+   "sample": "2023-physics-29",
+   "sampleQ": "Five capacitors each of value 1 μF are connected as shown in the figure [two 1μF capacitors in series from A form the top and bottom arms of a bridge, one 1μF capacitor bridges the midpoints, and two more 1μF capacitors in series form the arms leading to B, symmetric about the bridging capacitor]. The equivalent capacitance between A and B is"
+  },
+  {
+   "template": "phy-epc-dielectric-effects",
+   "chapter": "Electrostatic Potential and Capacitance",
+   "score": 0.248,
+   "slot": 0,
+   "sample": "2023-physics-26",
+   "sampleQ": "A parallel plate capacitor of capacitance C$_1$ with a dielectric slab in between its plates is connected to a battery. It has a potential difference V$_1$ across its plates. When the dielectric slab is removed, keeping the capacitor connected to the battery, the new capacitance and potential difference are C$_2$ and V$_2$ respectively. Then,"
+  },
+  {
+   "template": "phy-wo-malus-polaroids",
+   "chapter": "Wave Optics",
+   "score": 0.31,
+   "slot": 0,
+   "sample": "2024-physics-36",
+   "sampleQ": "Three polaroid sheets are co-axially placed as indicated in the diagram. Pass axes of the polaroids 2 and 3 make $30^\\circ$ and $90^\\circ$ with pass axis of polaroid sheet 1. If $I_0$ is the intensity of the incident unpolarised light entering sheet 1, the intensity of the emergent light through sheet 3 is [unpolarised light $I_0$ passes through polaroid 1, then polaroid 2 at $30^\\circ$ to polaroid 1's pass axis, then polaroid 3 at $90^\\circ$ to polaroid 1's pass axis]"
+  },
+  {
+   "template": "phy-wo-ydse-intensity-phase",
+   "chapter": "Wave Optics",
+   "score": 0.248,
+   "slot": 0,
+   "sample": "2023-physics-59",
+   "sampleQ": "In the Young's double slit experiment, the intensity of light passing through each of the two double slits is 2 × 10$^{-2}$ Wm$^{-2}$. The screen-slit distance is very large in comparison with slit-slit distance. The fringe width is $\\beta$. The distance between the central maximum and a point P on the screen is $x=\\dfrac{\\beta}{3}$. Then the total light intensity at that point is"
+  },
+  {
+   "template": "phy-wo-huygens-wavefront",
+   "chapter": "Wave Optics",
+   "score": 0.248,
+   "slot": 0,
+   "sample": "2023-physics-51",
+   "sampleQ": "When light propagates through a given homogeneous medium, the velocities of"
+  },
+  {
+   "template": "phy-at-rutherford-scattering",
+   "chapter": "Atoms",
+   "score": 0.31,
+   "slot": 0,
+   "sample": "2024-physics-40",
+   "sampleQ": "In alpha particle scattering experiment, if v is the initial velocity of the particle, then the distance of closest approach is d. If the velocity is doubled, then the distance of closest approach becomes"
+  },
+  {
+   "template": "phy-at-bohr-radius-velocity-period",
+   "chapter": "Atoms",
+   "score": 0.31,
+   "slot": 0,
+   "sample": "2024-physics-41",
+   "sampleQ": "The ratio of area of first excited state to ground state of orbit of hydrogen atom is"
+  },
+  {
+   "template": "phy-at-transition-wavelength-rydberg",
+   "chapter": "Atoms",
+   "score": 0.248,
+   "slot": 0,
+   "sample": "2023-physics-57",
+   "sampleQ": "Three energy levels of hydrogen atom and the corresponding wavelength of the emitted radiation due to different electron transition are as shown [E$_3$ at top, E$_2$ middle, E$_1$ bottom; $\\lambda_3$ is the E$_3\\to$E$_2$ transition, $\\lambda_1$ is the E$_2\\to$E$_1$ transition, $\\lambda_2$ is the direct E$_3\\to$E$_1$ transition]. Then"
+  },
+  {
+   "template": "phy-nuc-binding-energy-calc",
+   "chapter": "Nuclei",
+   "score": 0.31,
+   "slot": 0,
+   "sample": "2024-physics-43",
+   "sampleQ": "Consider the nuclear fission reaction $^1_0n+^{235}_{92}U\\rightarrow^{144}_{56}Ba+^{89}_{36}Kr+3^1_0n$. Assuming all the kinetic energy is carried away by the fast neutrons only and total binding energies of $^{235}_{92}U$, $^{144}_{56}Ba$, and $^{89}_{36}Kr$ to be 1800 MeV, 1200 MeV and 780 MeV respectively, the average kinetic energy carried by each fast neutron is (in MeV)"
+  },
+  {
+   "template": "phy-nuc-mass-energy",
+   "chapter": "Nuclei",
+   "score": 0.268,
+   "slot": 0,
+   "sample": "2022-physics-16",
+   "sampleQ": "A nuclear reactor delivers a power of 10$^9$ W, the amount of fuel consumed by the reactor in one hour is"
+  },
+  {
+   "template": "phy-nuc-alpha-beta-counting",
+   "chapter": "Nuclei",
+   "score": 0.248,
+   "slot": 0,
+   "sample": "2023-physics-5",
+   "sampleQ": "In the following equation representing $\\beta^{-}$ decay, the number of neutrons in the nucleus X is $^{210}_{83}\\text{Bi} \\rightarrow X + e^{-1} + \\bar{\\nu}$"
+  },
+  {
+   "template": "phy-dn-photoelectric-equation",
+   "chapter": "Dual Nature of Radiation and Matter",
+   "score": 0.31,
+   "slot": 0,
+   "sample": "2024-physics-38",
+   "sampleQ": "Light of energy E falls normally on a metal of work function $\\dfrac{E}{3}$. The kinetic energies (K) of the photo electrons are"
+  },
+  {
+   "template": "phy-dn-photon-momentum-number",
+   "chapter": "Dual Nature of Radiation and Matter",
+   "score": 0.248,
+   "slot": 0,
+   "sample": "2023-physics-60",
+   "sampleQ": "A 60 W source emits monochromatic light of wavelength 662.5 nm. The number of photons emitted per second is"
+  },
+  {
+   "template": "phy-dn-photoelectric-graphs",
+   "chapter": "Dual Nature of Radiation and Matter",
+   "score": 0.248,
+   "slot": 0,
+   "sample": "2023-physics-55",
+   "sampleQ": "In an experiment to study photo-electric effect the observed variation of stopping potential with frequency of incident radiation is as shown in the figure [straight line graph of stopping potential V$_0$ vs frequency $\\nu$, cutting the frequency axis at $\\nu_0$ and rising linearly beyond it]. The slope and y-intercept respectively are"
+  },
+  {
+   "template": "phy-emi-faraday-flux-change",
+   "chapter": "Electromagnetic Induction",
+   "score": 0.31,
+   "slot": 0,
+   "sample": "2024-physics-25",
+   "sampleQ": "An induced current of 2 A flows through a coil. The resistance of the coil is $10\\Omega$. What is the change in magnetic flux associated with the coil in 1 ms ?"
+  },
+  {
+   "template": "phy-emi-lenz-direction",
+   "chapter": "Electromagnetic Induction",
+   "score": 0.31,
+   "slot": 0,
+   "sample": "2024-physics-24",
+   "sampleQ": "In the figure, a conducting ring of certain resistance is falling towards a current carrying straight long conductor. The ring and conductor are in the same plane. Then the [ring A falls vertically towards a horizontal wire B carrying current I to the right]"
+  },
+  {
+   "template": "phy-rot-kinematics",
+   "chapter": "System of Particles and Rotational Motion",
+   "score": 0.31,
+   "slot": 0,
+   "sample": "2024-physics-54",
+   "sampleQ": "A ceiling fan is rotating around a fixed axle as shown. The direction of angular velocity is along ______ [fan blades rotate in the horizontal (x-y) plane about a vertical axle along z]"
+  },
+  {
+   "template": "phy-rot-moi-standard-bodies",
+   "chapter": "System of Particles and Rotational Motion",
+   "score": 0.26,
+   "slot": 0,
+   "sample": "2023-physics-10",
+   "sampleQ": "The moment of inertia of a rigid body about an axis"
+  },
+  {
+   "template": "phy-mm-bar-magnet-dipole-torque",
+   "chapter": "Magnetism and Matter",
+   "score": 0.282,
+   "slot": 0,
+   "sample": "2023-physics-38",
+   "sampleQ": "The torque acting on a magnetic dipole placed in uniform magnetic field is zero, when the angle between the dipole axis and the magnetic field is ____."
+  },
+  {
+   "template": "phy-mm-curie-law",
+   "chapter": "Magnetism and Matter",
+   "score": 0.248,
+   "slot": 0,
+   "sample": "2023-physics-37",
+   "sampleQ": "The Curie temperatures of Cobalt and iron are 1400 K and 1000 K respectively. At T = 1600 K, the ratio of magnetic susceptibility of Cobalt to that of iron is"
+  },
+  {
+   "template": "phy-plane-circular-motion-kinematics",
+   "chapter": "Motion in a Plane",
+   "score": 0.31,
+   "slot": 0,
+   "sample": "2024-physics-49",
+   "sampleQ": "An athlete runs along a circular track of diameter 80m. The distance travelled and the magnitude of displacement of the athlete when he covers $\\dfrac{3}{4}^{th}$ of the circle is (in m)"
+  },
+  {
+   "template": "phy-plane-2d-constant-acceleration",
+   "chapter": "Motion in a Plane",
+   "score": 0.208,
+   "slot": 0,
+   "sample": "2021-physics-6",
+   "sampleQ": "A particle starts from the origin at t = 0 s with a velocity of 10$\\hat{j}$ ms$^{-1}$ and moves in the x-y plane with a constant acceleration of (8$\\hat{i}$ + 2$\\hat{j}$) ms$^{-2}$. At an instant when the x-coordinate of the particle is 16 m, the y-coordinate of the particle is:"
+  },
+  {
+   "template": "phy-lom-friction-incline",
+   "chapter": "Laws of Motion",
+   "score": 0.293,
+   "slot": 0,
+   "sample": "2024-physics-51",
+   "sampleQ": "A block of certain mass is placed on a rough inclined plane. The angle between the plane and the horizontal is $30^0$. The coefficients of static and kinetic frictions between the block and the inclined plane are 0.6 and 0.5 respectively. Then the magnitude of the acceleration of the block is [Take g=10 ms$^{-2}$]"
+  },
+  {
+   "template": "phy-wep-power",
+   "chapter": "Work, Energy and Power",
+   "score": 0.293,
+   "slot": 0,
+   "sample": "2024-physics-52",
+   "sampleQ": "A particle of mass 500 g is at rest. It is free to move along a straight line. The power delivered to the particle varies with time according to the following graph [P increases linearly from 2 W at t=0 to 8 W at t=5s]. The momentum of the particle at t=5s is"
+  },
+  {
+   "template": "phy-thd-carnot-efficiency",
+   "chapter": "Thermodynamics",
+   "score": 0.248,
+   "slot": 0,
+   "sample": "2023-physics-16",
+   "sampleQ": "The P-V diagram of a Carnot's engine is shown in the graph below [P(kPa) vs V(cm$^3$): a cycle A$\\to$B$\\to$C$\\to$D$\\to$A with A at V=2.5, P=1600; B at V=3.75, P=1200; C at V=6.25, P=400; D at V$\\approx$3, P=1000, joined in sequence tracing the cycle]. The engine uses 1 mole of an ideal gas as working substance. From the graph, the area enclosed by the P-V diagram is [The heat supplied to the gas is 8000 J]"
+  },
+  {
+   "template": "phy-fluids-continuity",
+   "chapter": "Mechanical Properties of Fluids",
+   "score": 0.293,
+   "slot": 0,
+   "sample": "2024-physics-58",
+   "sampleQ": "Water flows through a horizontal pipe of varying cross-section at a rate of $0.314\\,m^3s^{-1}$. The velocity of water at a point where the radius of the pipe is 10 cm is"
+  },
+  {
+   "template": "phy-osc-shm-concepts",
+   "chapter": "Oscillations",
+   "score": 0.31,
+   "slot": 0,
+   "sample": "2024-physics-2",
+   "sampleQ": "For a particle executing simple harmonic motion (SHM), at its mean position"
+  },
+  {
+   "template": "phy-kin-suvat",
+   "chapter": "Motion in a Straight Line",
+   "score": 0.248,
+   "slot": 0,
+   "sample": "2023-physics-13",
+   "sampleQ": "A body is moving along a straight line with initial velocity v$_0$. Its acceleration a is constant. After t seconds, its velocity becomes v. The average velocity of the body over the given time interval is"
+  },
+  {
+   "template": "phy-units-dimensions-of-quantity",
+   "chapter": "Units and Measurements",
+   "score": 0.31,
+   "slot": 0,
+   "sample": "2024-physics-53",
+   "sampleQ": "Dimensional formula for activity of a radioactive substance is"
+  },
+  {
+   "template": "phy-solids-stress-strain-extension",
+   "chapter": "Mechanical Properties of Solids",
+   "score": 0.31,
+   "slot": 0,
+   "sample": "2024-physics-57",
+   "sampleQ": "A thick metal wire of density $\\rho$ and length 'L' is hung from a rigid support. The increase in length of the wire due to its own weight is (Y=Young's modulus of the material of the wire)"
+  },
+  {
+   "template": "phy-ktg-mean-ke-temperature",
+   "chapter": "Kinetic Theory",
+   "score": 0.26,
+   "slot": 0,
+   "sample": "2023-physics-22",
+   "sampleQ": "Pressure of ideal gas at constant volume is proportional to ____."
+  },
+  {
+   "template": "phy-grav-g-variation-height-depth",
+   "chapter": "Gravitation",
+   "score": 0.31,
+   "slot": 0,
+   "sample": "2024-physics-56",
+   "sampleQ": "What is the value of acceleration due to gravity at a height equal to half the radius of the Earth, from its surface?"
+  },
+  {
+   "template": "phy-emw-spectrum",
+   "chapter": "Electromagnetic Waves",
+   "score": 0.268,
+   "slot": 0,
+   "sample": "2022-physics-59",
+   "sampleQ": "Which of the following radiations of electromagnetic waves has the highest wavelength?"
+  },
+  {
+   "template": "phy-therm-specific-latent-heat",
+   "chapter": "Thermal Properties of Matter",
+   "score": 0.293,
+   "slot": 0,
+   "sample": "2024-physics-59",
+   "sampleQ": "A solid cube of mass m at a temperature $\\theta_0$ is heated at a constant rate. It becomes liquid at temperature $\\theta_1$ and vapour at temperature $\\theta_2$. Let $s_1$ and $s_2$ be specific heats in its solid and liquid states respectively. If $L_f$ and $L_v$ are latent heats of fusion and vaporisation respectively, then the minimum heat energy supplied to the cube until it vaporises is"
+  }
+ ],
+ "summary": {
+  "year": 2025,
+  "subject": "physics",
+  "n": 60,
+  "exact": 0,
+  "similar": 18,
+  "missSeen": 41,
+  "missNew": 1,
+  "hitPct": 30,
+  "predictablePct": 98.3,
+  "verbatimRepeats": 1,
+  "wastedSlots": 44
+ },
+ "lessons": {
+  "missedKnownTemplates": [
+   "phy-units-dimensional-consistency",
+   "phy-kin-vertical-throw-free-fall",
+   "phy-plane-projectile-concepts",
+   "phy-lom-equilibrium-concurrent-forces",
+   "phy-lom-friction-horizontal",
+   "phy-wep-work-energy-theorem",
+   "phy-wep-collision-concepts",
+   "phy-rot-com-position",
+   "phy-rot-torque-angular-acceleration",
+   "phy-grav-kepler-orbit-speed",
+   "phy-grav-escape-velocity-energy",
+   "phy-fluids-bernoulli",
+   "phy-therm-conduction-series-parallel",
+   "phy-thd-first-law",
+   "phy-osc-shm-energy",
+   "phy-waves-progressive-equation",
+   "phy-ecf-field-point-charge-sphere",
+   "phy-epc-dipole-potential-energy",
+   "phy-epc-equipotential-surfaces",
+   "phy-ecf-gauss-law-concepts",
+   "phy-ce-cell-emf-internal-resistance",
+   "phy-ce-cell-combinations",
+   "phy-ce-resistance-wire-geometry",
+   "phy-mcm-force-parallel-wires",
+   "phy-mcm-solenoid-field-energy",
+   "phy-mcm-galvanometer-conversion",
+   "phy-mm-dia-para-ferro-properties",
+   "phy-mcm-field-straight-wire",
+   "phy-dn-debroglie-ratio-scaling",
+   "phy-ac-rms-peak-average",
+   "phy-ac-rms-peak-average",
+   "phy-ac-lcr-phasor-voltages",
+   "phy-ro-refraction-snell-speed",
+   "phy-ro-lens-combination-power",
+   "phy-ro-prism-ray-path",
+   "phy-nuc-isotopes-isobars-isotones",
+   "phy-nuc-nuclear-force",
+   "phy-sc-doping-carriers",
+   "phy-ro-slab-shift-apparent-depth",
+   "phy-ce-galvanometer-experiment",
+   "phy-fluids-viscosity-terminal-velocity"
+  ],
+  "chapterGaps": [
+   {
+    "chapter": "Atoms",
+    "predicted": 3,
+    "actual": 1
+   },
+   {
+    "chapter": "Ray Optics and Optical Instruments",
+    "predicted": 4,
+    "actual": 5
+   },
+   {
+    "chapter": "Wave Optics",
+    "predicted": 3,
+    "actual": 2
+   },
+   {
+    "chapter": "Nuclei",
+    "predicted": 3,
+    "actual": 2
+   },
+   {
+    "chapter": "Dual Nature of Radiation and Matter",
+    "predicted": 3,
+    "actual": 2
+   },
+   {
+    "chapter": "Magnetism and Matter",
+    "predicted": 2,
+    "actual": 1
+   },
+   {
+    "chapter": "Laws of Motion",
+    "predicted": 1,
+    "actual": 2
+   },
+   {
+    "chapter": "Work, Energy and Power",
+    "predicted": 1,
+    "actual": 2
+   }
+  ],
+  "wastedTemplates": [
+   "phy-ce-network-current-voltage",
+   "phy-ce-temperature-coefficient",
+   "phy-ce-current-charge-electrons",
+   "phy-ce-power-rating-bulbs",
+   "phy-ce-colour-code",
+   "phy-mcm-field-centre-loops-arcs",
+   "phy-mcm-radius-circular-path-calc",
+   "phy-mcm-field-coil-axis",
+   "phy-mcm-force-on-conductor",
+   "phy-ro-prism-min-deviation",
+   "phy-ro-lensmaker-medium",
+   "phy-ro-critical-angle-tir",
+   "phy-ecf-coulomb-force-sharing",
+   "phy-ecf-field-lines-conductor-concepts",
+   "phy-ecf-charge-quantisation-induction",
+   "phy-sc-pn-junction-biasing",
+   "phy-ac-resonance",
+   "phy-ac-lc-oscillations",
+   "phy-ac-transformer",
+   "phy-epc-capacitor-network-equivalent",
+   "phy-epc-dielectric-effects",
+   "phy-wo-malus-polaroids",
+   "phy-wo-ydse-intensity-phase",
+   "phy-at-rutherford-scattering",
+   "phy-at-transition-wavelength-rydberg",
+   "phy-nuc-binding-energy-calc",
+   "phy-nuc-mass-energy",
+   "phy-nuc-alpha-beta-counting",
+   "phy-dn-photoelectric-equation",
+   "phy-dn-photon-momentum-number",
+   "phy-rot-kinematics",
+   "phy-rot-moi-standard-bodies",
+   "phy-mm-bar-magnet-dipole-torque",
+   "phy-mm-curie-law",
+   "phy-plane-2d-constant-acceleration",
+   "phy-lom-friction-incline",
+   "phy-wep-power",
+   "phy-thd-carnot-efficiency",
+   "phy-fluids-continuity",
+   "phy-osc-shm-concepts",
+   "phy-kin-suvat",
+   "phy-units-dimensions-of-quantity",
+   "phy-grav-g-variation-height-depth",
+   "phy-therm-specific-latent-heat"
+  ]
+ },
+ "questions": [
+  {
+   "id": "2025-physics-1",
+   "n": 1,
+   "chapter": "Units and Measurements",
+   "template": "phy-units-dimensional-consistency",
+   "outcome": "miss-seen",
+   "verbatimOf": null,
+   "sim": 0.17,
+   "q": "Which of the following expressions can be deduced on the basis of dimensional analysis? (All symbols have their usual meanings)"
+  },
+  {
+   "id": "2025-physics-2",
+   "n": 2,
+   "chapter": "Motion in a Straight Line",
+   "template": "phy-kin-vertical-throw-free-fall",
+   "outcome": "miss-seen",
+   "verbatimOf": null,
+   "sim": 0.21,
+   "q": "Two stones begin to fall from rest from the same height, with the second stone starting to fall 'Δt' seconds after the first falls from rest. The distance of se"
+  },
+  {
+   "id": "2025-physics-3",
+   "n": 3,
+   "chapter": "Motion in a Plane",
+   "template": "phy-plane-projectile-concepts",
+   "outcome": "miss-seen",
+   "verbatimOf": null,
+   "sim": 0.22,
+   "q": "In the projectile motion of a particle on a level ground, which of the following remains constant with reference to time and position?"
+  },
+  {
+   "id": "2025-physics-4",
+   "n": 4,
+   "chapter": "Motion in a Plane",
+   "template": "phy-plane-circular-motion-kinematics",
+   "outcome": "similar",
+   "verbatimOf": null,
+   "sim": 0.32,
+   "q": "A particle is in uniform circular motion. The equation of its trajectory is given by (x − 2)$^2$ + y$^2$ = 25, where x and y are in meter. The speed of the part"
+  },
+  {
+   "id": "2025-physics-5",
+   "n": 5,
+   "chapter": "Laws of Motion",
+   "template": "phy-lom-equilibrium-concurrent-forces",
+   "outcome": "miss-seen",
+   "verbatimOf": null,
+   "sim": 0.23,
+   "q": "A wooden block of mass M lies on a rough floor. Another wooden block of the same mass is hanging from the point O through strings as shown in the figure. To ach"
+  },
+  {
+   "id": "2025-physics-6",
+   "n": 6,
+   "chapter": "Laws of Motion",
+   "template": "phy-lom-friction-horizontal",
+   "outcome": "miss-seen",
+   "verbatimOf": null,
+   "sim": 0.33,
+   "q": "A block of certain mass is placed on a rough floor. The coefficients of static and kinetic friction between the block and the floor are 0.4 and 0.25 respectivel"
+  },
+  {
+   "id": "2025-physics-7",
+   "n": 7,
+   "chapter": "Work, Energy and Power",
+   "template": "phy-wep-work-energy-theorem",
+   "outcome": "miss-seen",
+   "verbatimOf": null,
+   "sim": 0.22,
+   "q": "A body of mass 0.25 kg travels along a straight line from x = 0 to x = 2 m with a speed v = k x$^{3/2}$ where k = 2 SI units. The work done by the net force dur"
+  },
+  {
+   "id": "2025-physics-8",
+   "n": 8,
+   "chapter": "Work, Energy and Power",
+   "template": "phy-wep-collision-concepts",
+   "outcome": "miss-seen",
+   "verbatimOf": null,
+   "sim": 0.32,
+   "q": "During an elastic collision between two bodies, which of the following statements are correct? I. The initial kinetic energy is equal to the final kinetic energ"
+  },
+  {
+   "id": "2025-physics-9",
+   "n": 9,
+   "chapter": "System of Particles and Rotational Motion",
+   "template": "phy-rot-com-position",
+   "outcome": "miss-seen",
+   "verbatimOf": null,
+   "sim": 0.38,
+   "q": "Three particles of mass 1 kg, 2 kg and 3 kg are placed at the vertices A, B and C respectively of an equilateral triangle ABC of side 1 m. The centre of mass of"
+  },
+  {
+   "id": "2025-physics-10",
+   "n": 10,
+   "chapter": "System of Particles and Rotational Motion",
+   "template": "phy-rot-torque-angular-acceleration",
+   "outcome": "miss-seen",
+   "verbatimOf": null,
+   "sim": 0.22,
+   "q": "Two fly wheels are connected by a non-slipping belt as shown in the figure. I$_1$ = 4 kg m$^2$, r$_1$ = 20 cm, I$_2$ = 20 kg m$^2$ and r$_2$ = 30 cm. A torque o"
+  },
+  {
+   "id": "2025-physics-11",
+   "n": 11,
+   "chapter": "Gravitation",
+   "template": "phy-grav-kepler-orbit-speed",
+   "outcome": "miss-seen",
+   "verbatimOf": null,
+   "sim": 0.24,
+   "q": "If r$_p$, v$_p$, L$_p$ and r$_a$, v$_a$, L$_a$ are radii, velocities and angular momenta of a planet at perihelion and aphelion of its elliptical orbit around t"
+  },
+  {
+   "id": "2025-physics-12",
+   "n": 12,
+   "chapter": "Gravitation",
+   "template": "phy-grav-escape-velocity-energy",
+   "outcome": "miss-seen",
+   "verbatimOf": null,
+   "sim": 0.26,
+   "q": "The total energy of a satellite in a circular orbit at a distance (R + h) from the center of the Earth varies as [R is the radius of the Earth and h is the heig"
+  },
+  {
+   "id": "2025-physics-13",
+   "n": 13,
+   "chapter": "Mechanical Properties of Solids",
+   "template": "phy-solids-stress-strain-extension",
+   "outcome": "similar",
+   "verbatimOf": null,
+   "sim": 0.31,
+   "q": "Two wires A and B are made of same material. Their diameters are in the ratio of 1:2 and lengths are in the ratio of 1:3. If they are stretched by the same forc"
+  },
+  {
+   "id": "2025-physics-14",
+   "n": 14,
+   "chapter": "Mechanical Properties of Fluids",
+   "template": "phy-fluids-bernoulli",
+   "outcome": "miss-seen",
+   "verbatimOf": "2010-physics-10",
+   "sim": 0.66,
+   "q": "A horizontal pipe carries water in a streamlined flow. At a point along the pipe, where the cross-sectional area is 10 cm$^2$, the velocity of water is 1 ms$^{-"
+  },
+  {
+   "id": "2025-physics-15",
+   "n": 15,
+   "chapter": "Thermal Properties of Matter",
+   "template": "phy-therm-conduction-series-parallel",
+   "outcome": "miss-seen",
+   "verbatimOf": null,
+   "sim": 0.2,
+   "q": "Three metal rods of the same material and identical in all respects are joined as shown in the figure. The temperatures at the ends of these rods are maintained"
+  },
+  {
+   "id": "2025-physics-16",
+   "n": 16,
+   "chapter": "Thermodynamics",
+   "template": "phy-thd-first-law",
+   "outcome": "miss-seen",
+   "verbatimOf": null,
+   "sim": 0.2,
+   "q": "A gas is taken from state A to state B along two different paths 1 and 2. The heat absorbed and work done by the system along these two paths are Q$_1$, Q$_2$ a"
+  },
+  {
+   "id": "2025-physics-17",
+   "n": 17,
+   "chapter": "Kinetic Theory",
+   "template": "phy-ktg-mean-ke-temperature",
+   "outcome": "similar",
+   "verbatimOf": null,
+   "sim": 0.32,
+   "q": "At 27°C temperature, the mean kinetic energy of the atoms of an ideal gas is E$_1$. If this atomic temperature is increased to 327°C, then the mean kinetic ener"
+  },
+  {
+   "id": "2025-physics-18",
+   "n": 18,
+   "chapter": "Oscillations",
+   "template": "phy-osc-shm-energy",
+   "outcome": "miss-seen",
+   "verbatimOf": null,
+   "sim": 0.28,
+   "q": "The variations of kinetic energy K(x), potential energy U(x) and total energy as a function of displacement of a particle in SHM is as shown in the figure. The "
+  },
+  {
+   "id": "2025-physics-19",
+   "n": 19,
+   "chapter": "Waves",
+   "template": "phy-waves-progressive-equation",
+   "outcome": "miss-seen",
+   "verbatimOf": null,
+   "sim": 0.27,
+   "q": "The angle between the particle velocity and wave velocity in a transverse wave is [except when the particle passes through the mean position]"
+  },
+  {
+   "id": "2025-physics-20",
+   "n": 20,
+   "chapter": "Electric Charges and Fields",
+   "template": "phy-ecf-gauss-flux",
+   "outcome": "similar",
+   "verbatimOf": null,
+   "sim": 0.29,
+   "q": "A metallic sphere of radius R carrying a charge q is kept at certain distance from another metallic sphere of radius R/4 carrying a charge Q. What is the electr"
+  },
+  {
+   "id": "2025-physics-21",
+   "n": 21,
+   "chapter": "Electric Charges and Fields",
+   "template": "phy-ecf-gauss-flux",
+   "outcome": "similar",
+   "verbatimOf": null,
+   "sim": 0.28,
+   "q": "You are given a dipole of charge + q and − q separated by a distance 2R. A sphere 'A' of radius 'R' passes through the centre of the dipole as shown below and a"
+  },
+  {
+   "id": "2025-physics-22",
+   "n": 22,
+   "chapter": "Electrostatic Potential and Capacitance",
+   "template": "phy-epc-work-moving-charge",
+   "outcome": "similar",
+   "verbatimOf": null,
+   "sim": 0.29,
+   "q": "A potential at a point A is –3 V and that at another point B is 5 V. What is the work done in carrying a charge of 5 m C from B to A?"
+  },
+  {
+   "id": "2025-physics-23",
+   "n": 23,
+   "chapter": "Electric Charges and Fields",
+   "template": "phy-ecf-field-point-charge-sphere",
+   "outcome": "miss-seen",
+   "verbatimOf": null,
+   "sim": 0.26,
+   "q": "Charges are uniformly spread on the surface of a conducting sphere. The electric field from the centre of sphere to a point outside the sphere varies with dista"
+  },
+  {
+   "id": "2025-physics-24",
+   "n": 24,
+   "chapter": "Electrostatic Potential and Capacitance",
+   "template": "phy-epc-dipole-potential-energy",
+   "outcome": "miss-seen",
+   "verbatimOf": null,
+   "sim": 0.31,
+   "q": "Match Column–I with Column–II related to an electric dipole of dipole moment $\\vec p$ that is placed in a uniform electric field $\\vec E$. Column–I (Angle betwe"
+  },
+  {
+   "id": "2025-physics-25",
+   "n": 25,
+   "chapter": "Electrostatic Potential and Capacitance",
+   "template": "phy-epc-equipotential-surfaces",
+   "outcome": "miss-seen",
+   "verbatimOf": null,
+   "sim": 0.35,
+   "q": "Which of the following statements is not true?"
+  },
+  {
+   "id": "2025-physics-26",
+   "n": 26,
+   "chapter": "Electric Charges and Fields",
+   "template": "phy-ecf-gauss-law-concepts",
+   "outcome": "miss-seen",
+   "verbatimOf": null,
+   "sim": 0.22,
+   "q": "Which of the following is a correct statement?"
+  },
+  {
+   "id": "2025-physics-27",
+   "n": 27,
+   "chapter": "Current Electricity",
+   "template": "phy-ce-cell-emf-internal-resistance",
+   "outcome": "miss-seen",
+   "verbatimOf": null,
+   "sim": 0.29,
+   "q": "In the following circuit, the terminal voltage across the cell is [circuit: 2 V cell with internal resistance 0.1 Ω in series with an external resistor of 3.9 Ω"
+  },
+  {
+   "id": "2025-physics-28",
+   "n": 28,
+   "chapter": "Current Electricity",
+   "template": "phy-ce-cell-combinations",
+   "outcome": "miss-seen",
+   "verbatimOf": null,
+   "sim": 0.41,
+   "q": "Two cells of emfs E$_1$ and E$_2$ and internal resistances r$_1$ and r$_2$ (E$_2$ > E$_1$ and r$_2$ > r$_1$) respectively, are connected in parallel as shown in"
+  },
+  {
+   "id": "2025-physics-29",
+   "n": 29,
+   "chapter": "Current Electricity",
+   "template": "phy-ce-resistivity-materials-temperature",
+   "outcome": "miss-new",
+   "verbatimOf": null,
+   "sim": 0.21,
+   "q": "The variations of resistivity ρ with absolute temperature T for three different materials X, Y and Z are shown in the graph below. Identify the materials X, Y a"
+  },
+  {
+   "id": "2025-physics-30",
+   "n": 30,
+   "chapter": "Current Electricity",
+   "template": "phy-ce-drift-mobility-concepts",
+   "outcome": "similar",
+   "verbatimOf": null,
+   "sim": 0.28,
+   "q": "Given, a current carrying wire of non-uniform cross-section, which of the following is constant throughout the length of wire?"
+  },
+  {
+   "id": "2025-physics-31",
+   "n": 31,
+   "chapter": "Current Electricity",
+   "template": "phy-ce-resistance-wire-geometry",
+   "outcome": "miss-seen",
+   "verbatimOf": null,
+   "sim": 0.22,
+   "q": "The graph between variation of resistance of a metal wire as a function of its diameter keeping other parameters like length and temperature constant is"
+  },
+  {
+   "id": "2025-physics-32",
+   "n": 32,
+   "chapter": "Moving Charges and Magnetism",
+   "template": "phy-mcm-force-parallel-wires",
+   "outcome": "miss-seen",
+   "verbatimOf": null,
+   "sim": 0.26,
+   "q": "Two thin long parallel wires separated by a distance 'r' from each other in vacuum carry a current of I ampere in opposite directions. Then, they will"
+  },
+  {
+   "id": "2025-physics-33",
+   "n": 33,
+   "chapter": "Moving Charges and Magnetism",
+   "template": "phy-mcm-solenoid-field-energy",
+   "outcome": "miss-seen",
+   "verbatimOf": null,
+   "sim": 0.26,
+   "q": "A solenoid is 1 m long and 4 cm in diameter. It has five layers of windings of 1000 turns each and carries a current of 7A. The magnetic field at the centre of "
+  },
+  {
+   "id": "2025-physics-34",
+   "n": 34,
+   "chapter": "Moving Charges and Magnetism",
+   "template": "phy-mcm-galvanometer-conversion",
+   "outcome": "miss-seen",
+   "verbatimOf": null,
+   "sim": 0.24,
+   "q": "Two similar galvanometers are converted into an ammeter and a milliammeter. The shunt resistance of ammeter as compared to the shunt resistance of milliammeter "
+  },
+  {
+   "id": "2025-physics-35",
+   "n": 35,
+   "chapter": "Magnetism and Matter",
+   "template": "phy-mm-dia-para-ferro-properties",
+   "outcome": "miss-seen",
+   "verbatimOf": null,
+   "sim": 0.23,
+   "q": "Which of the following statements is true in respect of diamagnetic substances?"
+  },
+  {
+   "id": "2025-physics-36",
+   "n": 36,
+   "chapter": "Moving Charges and Magnetism",
+   "template": "phy-mcm-biot-savart-sources",
+   "outcome": "similar",
+   "verbatimOf": null,
+   "sim": 0.24,
+   "q": "Identify the correct statement"
+  },
+  {
+   "id": "2025-physics-37",
+   "n": 37,
+   "chapter": "Moving Charges and Magnetism",
+   "template": "phy-mcm-field-straight-wire",
+   "outcome": "miss-seen",
+   "verbatimOf": null,
+   "sim": 0.32,
+   "q": "Which of the following graphs represents the variation of magnetic field B with perpendicular distance 'r' from an infinitely long, straight conductor carrying "
+  },
+  {
+   "id": "2025-physics-38",
+   "n": 38,
+   "chapter": "Dual Nature of Radiation and Matter",
+   "template": "phy-dn-debroglie-ratio-scaling",
+   "outcome": "miss-seen",
+   "verbatimOf": null,
+   "sim": 0.23,
+   "q": "If we consider an electron and a photon of same de-Broglie wavelength, then they will have same"
+  },
+  {
+   "id": "2025-physics-39",
+   "n": 39,
+   "chapter": "Dual Nature of Radiation and Matter",
+   "template": "phy-dn-photoelectric-graphs",
+   "outcome": "similar",
+   "verbatimOf": null,
+   "sim": 0.22,
+   "q": "The anode voltage of a photocell is kept fixed. The frequency of the light falling on the cathode is gradually increased. Then the correct graph which shows the"
+  },
+  {
+   "id": "2025-physics-40",
+   "n": 40,
+   "chapter": "Electromagnetic Induction",
+   "template": "phy-emi-lenz-direction",
+   "outcome": "similar",
+   "verbatimOf": null,
+   "sim": 0.18,
+   "q": "When a bar magnet is pushed towards the coil, along its axis, as shown in the figure, the galvanometer pointer deflects towards X. When this magnet is pulled aw"
+  },
+  {
+   "id": "2025-physics-41",
+   "n": 41,
+   "chapter": "Electromagnetic Induction",
+   "template": "phy-emi-faraday-flux-change",
+   "outcome": "similar",
+   "verbatimOf": null,
+   "sim": 0.23,
+   "q": "A square loop of side 2 m lies in the Y-Z plane in a region having a magnetic field $\\vec B=(5\\hat i+3\\hat j-4\\hat k)$T. The magnitude of magnetic flux through "
+  },
+  {
+   "id": "2025-physics-42",
+   "n": 42,
+   "chapter": "Alternating Current",
+   "template": "phy-ac-rms-peak-average",
+   "outcome": "miss-seen",
+   "verbatimOf": null,
+   "sim": 0.24,
+   "q": "In domestic electric mains supply, the voltage and the current are"
+  },
+  {
+   "id": "2025-physics-43",
+   "n": 43,
+   "chapter": "Alternating Current",
+   "template": "phy-ac-rms-peak-average",
+   "outcome": "miss-seen",
+   "verbatimOf": null,
+   "sim": 0.3,
+   "q": "A sinusoidal voltage produced by an AC generator at any instant t is given by an equation V = 311 sin 314 t. The rms value of voltage and frequency are respecti"
+  },
+  {
+   "id": "2025-physics-44",
+   "n": 44,
+   "chapter": "Alternating Current",
+   "template": "phy-ac-lcr-phasor-voltages",
+   "outcome": "miss-seen",
+   "verbatimOf": null,
+   "sim": 0.33,
+   "q": "A series LCR circuit containing an AC source of 100 V has an inductor and a capacitor of reactances 24 Ω and 16 Ω respectively. If a resistance of 6 Ω is connec"
+  },
+  {
+   "id": "2025-physics-45",
+   "n": 45,
+   "chapter": "Electromagnetic Waves",
+   "template": "phy-emw-spectrum",
+   "outcome": "similar",
+   "verbatimOf": null,
+   "sim": 0.18,
+   "q": "Match the following types of waves with their wavelength ranges. Waves: i. Microwave ii. Visible light iii. Ultraviolet iv. X-rays. Wavelength ranges: a) 700 nm"
+  },
+  {
+   "id": "2025-physics-46",
+   "n": 46,
+   "chapter": "Ray Optics and Optical Instruments",
+   "template": "phy-ro-refraction-snell-speed",
+   "outcome": "miss-seen",
+   "verbatimOf": null,
+   "sim": 0.29,
+   "q": "A ray of light passes from vacuum into a medium of refractive index n. If the angle of incidence is twice the angle of refraction, then the angle of incidence i"
+  },
+  {
+   "id": "2025-physics-47",
+   "n": 47,
+   "chapter": "Ray Optics and Optical Instruments",
+   "template": "phy-ro-lens-combination-power",
+   "outcome": "miss-seen",
+   "verbatimOf": null,
+   "sim": 0.2,
+   "q": "A convex lens has power P. It is cut into two halves along its principal axis. Further one piece (out of two halves) is cut into two halves perpendicular to the"
+  },
+  {
+   "id": "2025-physics-48",
+   "n": 48,
+   "chapter": "Ray Optics and Optical Instruments",
+   "template": "phy-ro-optical-instruments",
+   "outcome": "similar",
+   "verbatimOf": null,
+   "sim": 0.45,
+   "q": "The image formed by an objective lens of a compound microscope is"
+  },
+  {
+   "id": "2025-physics-49",
+   "n": 49,
+   "chapter": "Ray Optics and Optical Instruments",
+   "template": "phy-ro-prism-ray-path",
+   "outcome": "miss-seen",
+   "verbatimOf": null,
+   "sim": 0.2,
+   "q": "If r and r$^1$ denote the angles inside the prism having angle of prism 50° considering that during interval of time from t = 0 to t = t, r varies with time as "
+  },
+  {
+   "id": "2025-physics-50",
+   "n": 50,
+   "chapter": "Wave Optics",
+   "template": "phy-wo-huygens-wavefront",
+   "outcome": "similar",
+   "verbatimOf": null,
+   "sim": 0.15,
+   "q": "If AB is incident plane wave front then refracted wave front is ($n_2 > n_1$) [figure: plane wavefront AB entering a converging lens from medium $n_1$ into $n_2"
+  },
+  {
+   "id": "2025-physics-51",
+   "n": 51,
+   "chapter": "Wave Optics",
+   "template": "phy-wo-huygens-wavefront",
+   "outcome": "similar",
+   "verbatimOf": null,
+   "sim": 0.24,
+   "q": "The total energy carried by the light wave when it travels from a rarer to a non-reflecting and non-absorbing medium"
+  },
+  {
+   "id": "2025-physics-52",
+   "n": 52,
+   "chapter": "Atoms",
+   "template": "phy-at-bohr-radius-velocity-period",
+   "outcome": "similar",
+   "verbatimOf": null,
+   "sim": 0.28,
+   "q": "If the radius of first Bohr orbit is r, then the radius of the second Bohr orbit will be"
+  },
+  {
+   "id": "2025-physics-53",
+   "n": 53,
+   "chapter": "Nuclei",
+   "template": "phy-nuc-isotopes-isobars-isotones",
+   "outcome": "miss-seen",
+   "verbatimOf": null,
+   "sim": 0.12,
+   "q": "Match the following types of nuclei with examples shown. Column-I: (A) Isotopes (B) Isobars (C) Isotones. Column-II: (i) $_3$Li$^7$, $_4$Be$^7$ (ii) $_8$O$^{18}"
+  },
+  {
+   "id": "2025-physics-54",
+   "n": 54,
+   "chapter": "Nuclei",
+   "template": "phy-nuc-nuclear-force",
+   "outcome": "miss-seen",
+   "verbatimOf": null,
+   "sim": 0.22,
+   "q": "Which of the following statements is incorrect with reference to 'Nuclear force'?"
+  },
+  {
+   "id": "2025-physics-55",
+   "n": 55,
+   "chapter": "Semiconductor Electronics",
+   "template": "phy-sc-energy-bands-materials",
+   "outcome": "similar",
+   "verbatimOf": null,
+   "sim": 0.18,
+   "q": "The range of electrical conductivity (σ) and resistivity (ρ) for metals, among the following, is"
+  },
+  {
+   "id": "2025-physics-56",
+   "n": 56,
+   "chapter": "Semiconductor Electronics",
+   "template": "phy-sc-doping-carriers",
+   "outcome": "miss-seen",
+   "verbatimOf": null,
+   "sim": 0.18,
+   "q": "Which of the following statements is correct for an n-type semiconductor?"
+  },
+  {
+   "id": "2025-physics-57",
+   "n": 57,
+   "chapter": "Semiconductor Electronics",
+   "template": "phy-sc-diode-circuits",
+   "outcome": "similar",
+   "verbatimOf": null,
+   "sim": 0.33,
+   "q": "The circuit shown in the figure contains two ideal diodes D$_1$ and D$_2$. If a cell of emf 3 V and negligible internal resistance is connected as shown, then t"
+  },
+  {
+   "id": "2025-physics-58",
+   "n": 58,
+   "chapter": "Ray Optics and Optical Instruments",
+   "template": "phy-ro-slab-shift-apparent-depth",
+   "outcome": "miss-seen",
+   "verbatimOf": null,
+   "sim": 0.2,
+   "q": "In determining the refractive index of a glass slab using a travelling microscope, the following readings are tabulated. (a) Reading of travelling microscope fo"
+  },
+  {
+   "id": "2025-physics-59",
+   "n": 59,
+   "chapter": "Current Electricity",
+   "template": "phy-ce-galvanometer-experiment",
+   "outcome": "miss-seen",
+   "verbatimOf": null,
+   "sim": 0.2,
+   "q": "In an experiment to determine the figure of merit of a galvanometer by half deflection method, a student constructed the following circuit. He unplugged a resis"
+  },
+  {
+   "id": "2025-physics-60",
+   "n": 60,
+   "chapter": "Mechanical Properties of Fluids",
+   "template": "phy-fluids-viscosity-terminal-velocity",
+   "outcome": "miss-seen",
+   "verbatimOf": null,
+   "sim": 0.21,
+   "q": "While determining the coefficient of viscosity of the given liquid, a spherical steel ball sinks by a distance h = 0.9 m. The radius of the ball is r = $\\sqrt3\\"
+  }
+ ]
+}

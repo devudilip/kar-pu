@@ -1,0 +1,1258 @@
+{
+ "params": {
+  "decay": 0.8,
+  "window": 6,
+  "multi": 1.5,
+  "exact": 0.5,
+  "quota": "weighted"
+ },
+ "priorYears": [
+  2009,
+  2010,
+  2011
+ ],
+ "quota": {
+  "Ray Optics and Optical Instruments": 5,
+  "Wave Optics": 5,
+  "Moving Charges and Magnetism": 5,
+  "Current Electricity": 5,
+  "Nuclei": 3,
+  "Atoms": 3,
+  "Waves": 3,
+  "Thermal Properties of Matter": 3,
+  "Alternating Current": 3,
+  "Semiconductor Electronics": 3,
+  "Mechanical Properties of Fluids": 2,
+  "Electric Charges and Fields": 2,
+  "Dual Nature of Radiation and Matter": 2,
+  "Electrostatic Potential and Capacitance": 2,
+  "Motion in a Straight Line": 1,
+  "System of Particles and Rotational Motion": 1,
+  "Laws of Motion": 1,
+  "Work, Energy and Power": 1,
+  "Motion in a Plane": 1,
+  "Units and Measurements": 1,
+  "Gravitation": 1,
+  "Electromagnetic Induction": 1,
+  "Thermodynamics": 1,
+  "Mechanical Properties of Solids": 1,
+  "Kinetic Theory": 1,
+  "Oscillations": 1,
+  "Old syllabus: Astronomy (stellar magnitudes)": 1,
+  "Old syllabus: Astronomy (flash spectrum)": 1,
+  "Electromagnetic Waves": 0,
+  "Old syllabus: Colloids": 0,
+  "Old syllabus: Nuclear Magnetic Resonance": 0,
+  "Old syllabus: Quark Model": 0,
+  "Old syllabus: Lasers": 0
+ },
+ "predicted": [
+  {
+   "template": "phy-ro-refraction-snell-speed",
+   "chapter": "Ray Optics and Optical Instruments",
+   "score": 1.8,
+   "slot": 0,
+   "sample": "2011-physics-22",
+   "sampleQ": "The time required for the light to pass through a glass slab (refractive index = 1.5) of thickness 4 mm is ..................... ($c = 3\\times10^8\\, ms^{-1}$, speed of light in free space)."
+  },
+  {
+   "template": "phy-ro-scattering",
+   "chapter": "Ray Optics and Optical Instruments",
+   "score": 1.64,
+   "slot": 0,
+   "sample": "2011-physics-60",
+   "sampleQ": "If the scattering intensity of a liquid is 8 units at a wavelength of 500 nm, then the scattering intensity at a wavelength of 400 nm will be approximately ..............."
+  },
+  {
+   "template": "phy-ro-slab-shift-apparent-depth",
+   "chapter": "Ray Optics and Optical Instruments",
+   "score": 1.64,
+   "slot": 0,
+   "sample": "2011-physics-24",
+   "sampleQ": "A planoconvex lens has a maximum thickness of 6 cm. When placed on a horizontal table with the curved surface in contact with the table surface, the apparent depth of the bottommost point of the lens is found to be 4 cm. If the lens is inverted such that the plane face of the lens is in contact with the surface of the table, the apparent depth of the center of the plane face is found to be $\\left(\\dfrac{17}{4}\\right)$ cm. The radius of curvature of the lens is ............."
+  },
+  {
+   "template": "phy-ro-prism-min-deviation",
+   "chapter": "Ray Optics and Optical Instruments",
+   "score": 1.44,
+   "slot": 0,
+   "sample": "2010-physics-24",
+   "sampleQ": "Two beams of red and violet colours are made to pass separately through a prism of $A=60^0$. In the minimum deviation position, the angle of refraction inside the prism will be"
+  },
+  {
+   "template": "phy-ro-lensmaker-medium",
+   "chapter": "Ray Optics and Optical Instruments",
+   "score": 1.44,
+   "slot": 0,
+   "sample": "2010-physics-25",
+   "sampleQ": "The focal length of a plano convex lens is 'f' and its refractive index is 1.5. It is kept over a plane glass plate with its curved surface touching the glass plate. The gap between the lens and the glass plate is filled by a liquid. As a result, the effective focal length of the combination becomes $2f$. Then the refractive index of the liquid is ....................."
+  },
+  {
+   "template": "phy-wo-interference-conditions",
+   "chapter": "Wave Optics",
+   "score": 2.28,
+   "slot": 0,
+   "sample": "2011-physics-28",
+   "sampleQ": "Consider the following statements in case of Young's double slit experiment. a) A slit $S$ is necessary if we use an ordinary extended source of light. b) A slit $S$ is not needed if we use an ordinary but well collimated beam of light. c) A slit $S$ is not needed if we use a spatially coherent source of light. Which of the above statements are correct?"
+  },
+  {
+   "template": "phy-wo-ydse-intensity-phase",
+   "chapter": "Wave Optics",
+   "score": 1.8,
+   "slot": 0,
+   "sample": "2011-physics-27",
+   "sampleQ": "Two monochromatic light waves of amplitudes $3A$ and $2A$ interfering at a point have a phase difference of $60^0$. The intensity at that point will be proportional to ................."
+  },
+  {
+   "template": "phy-wo-brewster-angle",
+   "chapter": "Wave Optics",
+   "score": 1.8,
+   "slot": 0,
+   "sample": "2011-physics-30",
+   "sampleQ": "The critical angle of a certain medium is $Sin^{-1}\\left(\\dfrac{3}{5}\\right)$. The polarizing angle of the medium is ............."
+  },
+  {
+   "template": "phy-wo-huygens-wavefront",
+   "chapter": "Wave Optics",
+   "score": 1,
+   "slot": 0,
+   "sample": "2011-physics-26",
+   "sampleQ": "Wavefront is the locus of all points, where the particles of the medium vibrate with the same ................."
+  },
+  {
+   "template": "phy-wo-single-slit-calc",
+   "chapter": "Wave Optics",
+   "score": 1,
+   "slot": 0,
+   "sample": "2011-physics-29",
+   "sampleQ": "A parallel beam of light of wavelength 6000 Å gets diffracted by a single slit of width 0.3 mm. The angular position of the first minima of diffracted light is ..........."
+  },
+  {
+   "template": "phy-mcm-field-centre-loops-arcs",
+   "chapter": "Moving Charges and Magnetism",
+   "score": 2.24,
+   "slot": 0,
+   "sample": "2010-physics-39",
+   "sampleQ": "Two thick wires and two thin wires, all of same material and same length, form a square in three different ways $P$, $Q$ and $R$ as shown in the figure [each shows a square/diamond loop carrying current $I$, with thick and thin wire sides arranged differently]. With correct connections shown, the magnetic field due to the current flow, at the centre of the loop will be zero in case of ................."
+  },
+  {
+   "template": "phy-mcm-galvanometer-conversion",
+   "chapter": "Moving Charges and Magnetism",
+   "score": 1.64,
+   "slot": 0,
+   "sample": "2011-physics-42",
+   "sampleQ": "The deflection in a moving coil galvanometer is reduced to half when it is shunted with a $40\\,\\Omega$ coil. The resistance of the galvanometer is ....................."
+  },
+  {
+   "template": "phy-mcm-magnetic-moment-torque",
+   "chapter": "Moving Charges and Magnetism",
+   "score": 1.64,
+   "slot": 0,
+   "sample": "2011-physics-39",
+   "sampleQ": "The torque required to hold a small circular coil of 10 turns, area 1 $mm^2$ and carrying a current of $\\left(\\dfrac{21}{44}\\right)$A in the middle of a long solenoid of $10^3$ turns/m carrying a current of 2.5A, with its axis perpendicular to the axis of the solenoid is ................... [The coil is placed coaxially inside a long solenoid, with the coil's axis perpendicular to the solenoid's axis]"
+  },
+  {
+   "template": "phy-mcm-radius-circular-path-calc",
+   "chapter": "Moving Charges and Magnetism",
+   "score": 1,
+   "slot": 0,
+   "sample": "2011-physics-40",
+   "sampleQ": "A particle of charge $e$ and mass $m$ moves with a velocity $v$ in a magnetic field $B$ applied perpendicular to the motion of the particle. The radius $r$ of its path in the field is ............."
+  },
+  {
+   "template": "phy-mcm-radius-ratio-particles",
+   "chapter": "Moving Charges and Magnetism",
+   "score": 1,
+   "slot": 0,
+   "sample": "2011-physics-41",
+   "sampleQ": "A neutron, a proton, an electron and an $\\alpha$-particle enter a region of uniform magnetic field with the same velocities. The magnetic field is perpendicular and directed into the plane of the paper. The tracks of the particles are labelled in the figure. The electron follows the track ............ [Figure: all four particles enter moving upward from a common point; track C continues almost straight up (least deflection), tracks A and B curve to the left with A curving more sharply than B, and track D curves to the right]"
+  },
+  {
+   "template": "phy-ce-network-current-voltage",
+   "chapter": "Current Electricity",
+   "score": 3.24,
+   "slot": 0,
+   "sample": "2011-physics-33",
+   "sampleQ": "In the circuit shown, the currents $i_1$ and $i_2$ are ............... [Circuit: a $12\\,\\Omega$ resistor (carrying current $i_1$) is in parallel with a $4\\,\\Omega$ resistor (carrying current $i_2$); this parallel combination is in series with a $2\\,\\Omega$ resistor, connected to a battery of 12 V with internal resistance $1\\,\\Omega$]"
+  },
+  {
+   "template": "phy-ce-temperature-coefficient",
+   "chapter": "Current Electricity",
+   "score": 1.64,
+   "slot": 0,
+   "sample": "2011-physics-37",
+   "sampleQ": "The voltage $V$ and current $I$ graphs for a conductor at two different temperatures $T_1$ and $T_2$ are shown in the figure. The relation between $T_1$ and $T_2$ is ............. [Graph of V versus I: line $T_1$ is steeper (closer to the V-axis) than line $T_2$]"
+  },
+  {
+   "template": "phy-ce-drift-velocity-calc",
+   "chapter": "Current Electricity",
+   "score": 1,
+   "slot": 0,
+   "sample": "2011-physics-35",
+   "sampleQ": "A conductor wire having $10^{29}$ free electrons/$m^3$ carries a current of 20A. If the cross-section of the wire is 1 $mm^2$, then the drift velocity of electrons will be ............... ($e = 1.6\\times10^{-19}$ C)."
+  },
+  {
+   "template": "phy-ce-colour-code",
+   "chapter": "Current Electricity",
+   "score": 1,
+   "slot": 0,
+   "sample": "2011-physics-36",
+   "sampleQ": "A resistor has a colour code of green, blue, brown and silver. What is its resistance?"
+  },
+  {
+   "template": "phy-ce-wheatstone-metre-bridge",
+   "chapter": "Current Electricity",
+   "score": 1,
+   "slot": 0,
+   "sample": "2011-physics-38",
+   "sampleQ": "Consider the following statements regarding the network shown in the figure. [Network: from A to B there are two parallel arms; the top arm has two resistors $R$ and $R$ in series with a galvanometer $G$ connected between their junction and the junction of the bottom arm; the bottom arm has two resistors $2R$ and $2R$ in series; a battery $E$ is connected between A and B] a) The equivalent resistance of the network between points A and B is independent of value of G. b) The equivalent resistance of the network between points A and B is $\\dfrac{4}{3}R$. c) The current through G is zero. Which of the above statements is/are TRUE?"
+  },
+  {
+   "template": "phy-nuc-activity-half-life",
+   "chapter": "Nuclei",
+   "score": 1.8,
+   "slot": 0,
+   "sample": "2011-physics-55",
+   "sampleQ": "1 curie represents ...................."
+  },
+  {
+   "template": "phy-nuc-decay-law-fraction",
+   "chapter": "Nuclei",
+   "score": 1.64,
+   "slot": 0,
+   "sample": "2011-physics-54",
+   "sampleQ": "The fraction of the initial number of radioactive nuclei which remain undecayed after half of a half-life of the radioactive sample is ................."
+  },
+  {
+   "template": "phy-nuc-be-curve-fission-fusion",
+   "chapter": "Nuclei",
+   "score": 1.6,
+   "slot": 0,
+   "sample": "2010-physics-52",
+   "sampleQ": "Assume the graph of specific binding energy versus mass number is as shown in the figure [step graph: specific binding energy $\\approx2$ for $A<100$, rises to $\\approx8$ for $100<A<200$, then falls to $\\approx4$ for $A>200$]. Using this graph, select the correct choice from the following:"
+  },
+  {
+   "template": "phy-at-transition-wavelength-rydberg",
+   "chapter": "Atoms",
+   "score": 3.44,
+   "slot": 0,
+   "sample": "2011-physics-51",
+   "sampleQ": "When an electron jumps from the orbit $n=2$ to $n=4$, then wavelength of the radiations absorbed will be ................. ($R$ is Rydberg's constant)."
+  },
+  {
+   "template": "phy-at-emission-spectra-types",
+   "chapter": "Atoms",
+   "score": 1.44,
+   "slot": 0,
+   "sample": "2010-physics-48",
+   "sampleQ": "The spectrum of an oil flame is an example for ....................."
+  },
+  {
+   "template": "phy-at-rutherford-scattering",
+   "chapter": "Atoms",
+   "score": 1,
+   "slot": 0,
+   "sample": "2011-physics-50",
+   "sampleQ": "Rutherford's atomic model could account for ................."
+  },
+  {
+   "template": "phy-waves-string-frequency-speed",
+   "chapter": "Waves",
+   "score": 1.8,
+   "slot": 0,
+   "sample": "2011-physics-19",
+   "sampleQ": "A wire under tension vibrates with a fundamental frequency of 600 Hz. If the length of the wire is doubled, the radius is halved and the wire is made to vibrate under one-ninth the tension. Then the fundamental frequency will become ......................."
+  },
+  {
+   "template": "phy-waves-progressive-equation",
+   "chapter": "Waves",
+   "score": 1.64,
+   "slot": 0,
+   "sample": "2011-physics-17",
+   "sampleQ": "The equation of a wave is given by $y = 10\\,Sin\\left(\\dfrac{2\\pi}{45}t + \\alpha\\right)$. If the displacement is 5 cm at $t=0$, then the total phase at $t = 7.5$ sec. is ................."
+  },
+  {
+   "template": "phy-waves-organ-pipes",
+   "chapter": "Waves",
+   "score": 1.44,
+   "slot": 0,
+   "sample": "2010-physics-18",
+   "sampleQ": "A closed organ pipe and an open organ pipe of same length produce 2 beats/second while vibrating in their fundamental modes. The length of the open organ pipe is halved and that of closed pipe is doubled. Then, the number of beats produced per second while vibrating in the fundamental mode is ....................."
+  },
+  {
+   "template": "phy-therm-radiation-stefan-wien",
+   "chapter": "Thermal Properties of Matter",
+   "score": 2.92,
+   "slot": 0,
+   "sample": "2011-physics-15",
+   "sampleQ": "Which one of the following is $\\nu_m - T$ graph for perfectly black body? $\\nu_m$ is the frequency of radiation with maximum intensity. $T$ is the absolute temperature. [Graph of $\\nu_m$ (Hz) versus $T$ (K) shows four curves: A rises steeply then flattens; B rises and flattens at a higher level further right; C rises roughly linearly starting from the origin; D is a horizontal constant line]"
+  },
+  {
+   "template": "phy-therm-conduction-series-parallel",
+   "chapter": "Thermal Properties of Matter",
+   "score": 1.8,
+   "slot": 0,
+   "sample": "2011-physics-13",
+   "sampleQ": "Three identical rods $A$, $B$ and $C$ are placed end to end. A temperature difference is maintained between the free ends of $A$ and $C$. The thermal conductivity of $B$ is THRICE that of $C$ and HALF of that of $A$. The effective thermal conductivity of the system will be ........................ ($K_A$ is the thermal conductivity of rod $A$)."
+  },
+  {
+   "template": "phy-therm-specific-latent-heat",
+   "chapter": "Thermal Properties of Matter",
+   "score": 1,
+   "slot": 0,
+   "sample": "2011-physics-14",
+   "sampleQ": "The quantities of heat required to raise the temperatures of two copper spheres of radii $r_1$ and $r_2$ ($r_1 = 1.5 r_2$) through 1 K are in the ratio of ................."
+  },
+  {
+   "template": "phy-ac-impedance-current",
+   "chapter": "Alternating Current",
+   "score": 1.8,
+   "slot": 0,
+   "sample": "2011-physics-45",
+   "sampleQ": "In the series L-C-R circuit shown, the impedance is ............ [Circuit: an inductor $L=1H$, a capacitor $C=20\\mu F$ and a resistor $R=300\\,\\Omega$ in series, connected to an AC source of 50 V and frequency $\\dfrac{50}{\\pi}$ Hz]"
+  },
+  {
+   "template": "phy-ac-transformer",
+   "chapter": "Alternating Current",
+   "score": 1.64,
+   "slot": 0,
+   "sample": "2011-physics-47",
+   "sampleQ": "A transformer works on the principle of ................."
+  },
+  {
+   "template": "phy-ac-lcr-phasor-voltages",
+   "chapter": "Alternating Current",
+   "score": 1.44,
+   "slot": 0,
+   "sample": "2010-physics-43",
+   "sampleQ": "In a series resonant R–L–C circuit, the voltage across $R$ is 100 V and the value of $R=1000\\,\\Omega$. The capacitance of the capacitor is $2\\times10^{-6}$ F; angular frequency of AC is 200 rad s$^{-1}$. Then the P.D. across the inductance coil is ....................."
+  },
+  {
+   "template": "phy-sc-logic-gate-combinations",
+   "chapter": "Semiconductor Electronics",
+   "score": 2.44,
+   "slot": 0,
+   "sample": "2011-physics-59",
+   "sampleQ": "The output of given logic circuit is ........... [Logic circuit: inputs A and B feed a first OR gate; inputs A and C feed a second OR gate; the outputs of both OR gates are fed into an AND gate whose output is Y]"
+  },
+  {
+   "template": "phy-sc-pn-junction-biasing",
+   "chapter": "Semiconductor Electronics",
+   "score": 1.8,
+   "slot": 0,
+   "sample": "2011-physics-57",
+   "sampleQ": "In the case of forward biasing of a p-n junction diode, which one of the following figures correctly depicts the direction of conventional current (indicated by an arrow mark)? [Each option shows a battery connected to a p-n junction diode with an arrow indicating the current direction, differing in arrow direction relative to the p and n regions]"
+  },
+  {
+   "template": "phy-sc-transistor-amplifier-concepts",
+   "chapter": "Semiconductor Electronics",
+   "score": 1.64,
+   "slot": 0,
+   "sample": "2011-physics-56",
+   "sampleQ": "An n-p-n transistor can be considered to be equivalent to two diodes, connected. Which of the following figures is the CORRECT ONE? [Each option shows two diode symbols joined at a common base terminal B, connected to emitter E and collector C, differing only in the direction the diode arrows point relative to B]"
+  },
+  {
+   "template": "phy-fluids-viscosity-terminal-velocity",
+   "chapter": "Mechanical Properties of Fluids",
+   "score": 1,
+   "slot": 0,
+   "sample": "2011-physics-10",
+   "sampleQ": "Eight equal drops of water are falling through air with a steady velocity of 10 cm $s^{-1}$. If the drops combine to form a single drop big in size, then the terminal velocity of this big drop is ................."
+  },
+  {
+   "template": "phy-fluids-capillary-rise",
+   "chapter": "Mechanical Properties of Fluids",
+   "score": 1,
+   "slot": 0,
+   "sample": "2011-physics-11",
+   "sampleQ": "Two capillary tubes of different diameters are dipped in water. The rise of water is ........."
+  },
+  {
+   "template": "phy-ecf-suspended-charged-spheres",
+   "chapter": "Electric Charges and Fields",
+   "score": 1.8,
+   "slot": 0,
+   "sample": "2011-physics-31",
+   "sampleQ": "Two identical charged spheres of material density $\\rho$, suspended from the same point by inextensible strings of equal length make an angle $\\theta$ between the strings. When suspended in a liquid of density $\\sigma$ the angle $\\theta$ remains the same. The dielectric constant $K$ of the liquid is ............."
+  },
+  {
+   "template": "phy-ecf-dipole-field",
+   "chapter": "Electric Charges and Fields",
+   "score": 1,
+   "slot": 0,
+   "sample": "2011-physics-32",
+   "sampleQ": "The electric field at a point due to an electric dipole, on an axis inclined at an angle $\\theta (<90^0)$ to the dipole axis, is perpendicular to the dipole axis, if the angle $\\theta$ is ............."
+  },
+  {
+   "template": "phy-dn-debroglie-ratio-scaling",
+   "chapter": "Dual Nature of Radiation and Matter",
+   "score": 1.64,
+   "slot": 0,
+   "sample": "2011-physics-58",
+   "sampleQ": "An electron of mass $m_e$ and a proton of mass $m_p$ are moving with the same speed. The ratio of their de-Broglie's wavelengths $\\lambda_e/\\lambda_p$ is ............."
+  },
+  {
+   "template": "phy-dn-photoelectric-equation",
+   "chapter": "Dual Nature of Radiation and Matter",
+   "score": 1,
+   "slot": 0,
+   "sample": "2011-physics-49",
+   "sampleQ": "The photoelectric threshold wavelength for silver is $\\lambda_0$. The energy of the electron ejected from the surface of silver by an incident wavelength $\\lambda(\\lambda<\\lambda_0)$ will be ................."
+  },
+  {
+   "template": "phy-epc-capacitor-network-equivalent",
+   "chapter": "Electrostatic Potential and Capacitance",
+   "score": 1.8,
+   "slot": 0,
+   "sample": "2011-physics-34",
+   "sampleQ": "In the given network, the value of $C$, so that an equivalent capacitance between $A$ and $B$ is $3\\mu F$, is ................. [Network of capacitors between A and B arranged in a ladder of series-parallel combinations involving capacitors $C$, $2\\mu F$, $6\\mu F$, $12\\mu F$, $4\\mu F$, $2\\mu F$, $1\\mu F$, $2\\mu F$ and $8\\mu F$]"
+  },
+  {
+   "template": "phy-epc-equipotential-surfaces",
+   "chapter": "Electrostatic Potential and Capacitance",
+   "score": 0.8,
+   "slot": 0,
+   "sample": "2010-physics-28",
+   "sampleQ": "There is a uniform electric field of intensity $E$ which is as shown [four horizontal rows of points with field lines pointing right; the fully shaded point is the 2nd point in the 2nd row]. How many labelled points have the same electric potential as the fully shaded point?"
+  },
+  {
+   "template": "phy-kin-relative-velocity-1d",
+   "chapter": "Motion in a Straight Line",
+   "score": 1.6,
+   "slot": 0,
+   "sample": "2010-physics-2",
+   "sampleQ": "A train is moving slowly on a straight track with a constant speed of 2 ms$^{-1}$. A passenger in that train starts walking at a steady speed of 2 ms$^{-1}$ to the back of the train in the opposite direction of the motion of the train. So to an observer standing on the platform directly in front of that passenger, the velocity of the passenger appears to be ................."
+  },
+  {
+   "template": "phy-rot-rolling-energy",
+   "chapter": "System of Particles and Rotational Motion",
+   "score": 1,
+   "slot": 0,
+   "sample": "2011-physics-6",
+   "sampleQ": "A solid sphere of mass $m$ rolls down an inclined plane without slipping, starting from rest at the top of an inclined plane. The linear speed of the sphere at the bottom of the inclined plane is $v$. The kinetic energy of the sphere at the bottom is ................."
+  },
+  {
+   "template": "phy-lom-friction-horizontal",
+   "chapter": "Laws of Motion",
+   "score": 1,
+   "slot": 0,
+   "sample": "2011-physics-3",
+   "sampleQ": "Block $A$ of mass 2 kg is placed over block $B$ of mass 8 kg. The combination is placed over a rough horizontal surface. Coefficient of friction between $B$ and the floor is 0.5. Coefficient of friction between $A$ and $B$ is 0.4. A horizontal force of 10 N is applied on block $B$. The force of friction between $A$ and $B$ is ..................... ($g = 10\\, ms^{-2}$)."
+  },
+  {
+   "template": "phy-wep-energy-conservation-gravity",
+   "chapter": "Work, Energy and Power",
+   "score": 1,
+   "slot": 0,
+   "sample": "2011-physics-5",
+   "sampleQ": "A body of mass 5 kg is thrown vertically up with a kinetic energy of 490 J. The height at which the kinetic energy of the body becomes half of the original value is ................. (acceleration due to gravity = 9.8 $ms^{-2}$)."
+  },
+  {
+   "template": "phy-plane-projectile-trajectory-equation",
+   "chapter": "Motion in a Plane",
+   "score": 1,
+   "slot": 0,
+   "sample": "2011-physics-4",
+   "sampleQ": "The height $y$ and the distance $x$ along the horizontal plane of a projectile on a certain planet (with no surrounding atmosphere) are given by $y = 8t - 5t^2$ meter and $x = 6t$ meter, where $t$ is in seconds. The velocity with which the projectile is projected is ................."
+  },
+  {
+   "template": "phy-units-dimensions-of-quantity",
+   "chapter": "Units and Measurements",
+   "score": 1.8,
+   "slot": 0,
+   "sample": "2011-physics-1",
+   "sampleQ": "If $C$ be the capacitance and $V$ be the electric potential, then the dimensional formula of $CV^2$ is ................."
+  },
+  {
+   "template": "phy-grav-satellite-period",
+   "chapter": "Gravitation",
+   "score": 1,
+   "slot": 0,
+   "sample": "2011-physics-7",
+   "sampleQ": "Two satellites of mass $m$ and $9m$ are orbiting a planet in orbits of radius $R$. Their periods of revolution will be in the ratio of ................."
+  },
+  {
+   "template": "phy-emi-lenz-direction",
+   "chapter": "Electromagnetic Induction",
+   "score": 1.44,
+   "slot": 0,
+   "sample": "2010-physics-40",
+   "sampleQ": "There is a uniform magnetic field directed perpendicular and into the plane of the paper. An irregular shaped conducting loop is slowly changing into a circular loop in the plane of the paper. Then ........................."
+  },
+  {
+   "template": "phy-thd-carnot-efficiency",
+   "chapter": "Thermodynamics",
+   "score": 0.8,
+   "slot": 0,
+   "sample": "2010-physics-15",
+   "sampleQ": "The efficiency of Carnot's heat engine is 0.5 when the temperature of the source is $T_1$ and that of sink is $T_2$. The efficiency of another Carnot's heat engine is also 0.5. The temperature of source and sink of the second engine are respectively ....................."
+  },
+  {
+   "template": "phy-solids-stress-strain-extension",
+   "chapter": "Mechanical Properties of Solids",
+   "score": 1,
+   "slot": 0,
+   "sample": "2011-physics-8",
+   "sampleQ": "The following four wires of length $L$ and radius $r$ are made of the same material. Which of these will have the largest extension, when the same tension is applied?"
+  },
+  {
+   "template": "phy-ktg-gas-laws",
+   "chapter": "Kinetic Theory",
+   "score": 1.8,
+   "slot": 0,
+   "sample": "2011-physics-12",
+   "sampleQ": "A perfect gas at $27^0C$ is heated at constant pressure so as to double its volume. The increase in temperature of the gas will be ....................."
+  },
+  {
+   "template": "phy-osc-shm-time-phase",
+   "chapter": "Oscillations",
+   "score": 1,
+   "slot": 0,
+   "sample": "2011-physics-16",
+   "sampleQ": "A particle executing a simple harmonic motion has a period of 6 sec. The time taken by the particle to move from the mean position to half the amplitude, starting from the mean position is ................."
+  },
+  {
+   "template": "phy-old-astro-stellar-magnitudes",
+   "chapter": "Old syllabus: Astronomy (stellar magnitudes)",
+   "score": 1,
+   "slot": 0,
+   "sample": "2011-physics-20",
+   "sampleQ": "Faintest stars are called ......................"
+  },
+  {
+   "template": "phy-old-astro-flash-spectrum",
+   "chapter": "Old syllabus: Astronomy (flash spectrum)",
+   "score": 1,
+   "slot": 0,
+   "sample": "2011-physics-48",
+   "sampleQ": "Flash spectrum confirms a/an ................."
+  }
+ ],
+ "summary": {
+  "year": 2012,
+  "subject": "physics",
+  "n": 60,
+  "exact": 1,
+  "similar": 14,
+  "missSeen": 18,
+  "missNew": 27,
+  "hitPct": 25,
+  "predictablePct": 55,
+  "verbatimRepeats": 1,
+  "wastedSlots": 46
+ },
+ "lessons": {
+  "missedKnownTemplates": [
+   "phy-grav-kepler-orbit-speed",
+   "phy-thd-processes-identification",
+   "phy-waves-nature-concepts",
+   "phy-waves-intensity-amplitude-db",
+   "phy-ro-critical-angle-tir",
+   "phy-wo-wavelength-in-medium",
+   "phy-ecf-charge-in-uniform-field",
+   "phy-epc-capacitor-network-charge-voltage",
+   "phy-ac-power-factor-power",
+   "phy-old-colloids-types",
+   "phy-wep-ke-momentum-relation",
+   "phy-fluids-buoyancy-archimedes",
+   "phy-therm-newton-cooling",
+   "phy-ro-lens-combination-power",
+   "phy-ecf-charge-in-uniform-field",
+   "phy-mcm-field-straight-wire",
+   "phy-ac-reactance-phase-concepts",
+   "phy-old-lasers-ruby"
+  ],
+  "chapterGaps": [
+   {
+    "chapter": "Ray Optics and Optical Instruments",
+    "predicted": 5,
+    "actual": 3
+   },
+   {
+    "chapter": "Nuclei",
+    "predicted": 3,
+    "actual": 5
+   },
+   {
+    "chapter": "Wave Optics",
+    "predicted": 5,
+    "actual": 6
+   },
+   {
+    "chapter": "Current Electricity",
+    "predicted": 5,
+    "actual": 4
+   },
+   {
+    "chapter": "Atoms",
+    "predicted": 3,
+    "actual": 4
+   },
+   {
+    "chapter": "Waves",
+    "predicted": 3,
+    "actual": 2
+   },
+   {
+    "chapter": "Thermal Properties of Matter",
+    "predicted": 3,
+    "actual": 2
+   },
+   {
+    "chapter": "Alternating Current",
+    "predicted": 3,
+    "actual": 2
+   }
+  ],
+  "wastedTemplates": [
+   "phy-ro-refraction-snell-speed",
+   "phy-ro-scattering",
+   "phy-ro-slab-shift-apparent-depth",
+   "phy-ro-prism-min-deviation",
+   "phy-ro-lensmaker-medium",
+   "phy-wo-brewster-angle",
+   "phy-wo-huygens-wavefront",
+   "phy-wo-single-slit-calc",
+   "phy-mcm-galvanometer-conversion",
+   "phy-mcm-magnetic-moment-torque",
+   "phy-mcm-radius-circular-path-calc",
+   "phy-ce-temperature-coefficient",
+   "phy-ce-colour-code",
+   "phy-ce-wheatstone-metre-bridge",
+   "phy-nuc-activity-half-life",
+   "phy-at-transition-wavelength-rydberg",
+   "phy-at-rutherford-scattering",
+   "phy-waves-string-frequency-speed",
+   "phy-waves-progressive-equation",
+   "phy-waves-organ-pipes",
+   "phy-therm-radiation-stefan-wien",
+   "phy-therm-specific-latent-heat",
+   "phy-ac-impedance-current",
+   "phy-ac-transformer",
+   "phy-ac-lcr-phasor-voltages",
+   "phy-sc-logic-gate-combinations",
+   "phy-sc-pn-junction-biasing",
+   "phy-sc-transistor-amplifier-concepts",
+   "phy-fluids-viscosity-terminal-velocity",
+   "phy-fluids-capillary-rise",
+   "phy-ecf-suspended-charged-spheres",
+   "phy-ecf-dipole-field",
+   "phy-dn-photoelectric-equation",
+   "phy-epc-capacitor-network-equivalent",
+   "phy-epc-equipotential-surfaces",
+   "phy-kin-relative-velocity-1d",
+   "phy-rot-rolling-energy",
+   "phy-lom-friction-horizontal",
+   "phy-wep-energy-conservation-gravity",
+   "phy-plane-projectile-trajectory-equation",
+   "phy-grav-satellite-period",
+   "phy-thd-carnot-efficiency",
+   "phy-solids-stress-strain-extension",
+   "phy-ktg-gas-laws",
+   "phy-old-astro-stellar-magnitudes",
+   "phy-old-astro-flash-spectrum"
+  ]
+ },
+ "questions": [
+  {
+   "id": "2012-physics-1",
+   "n": 1,
+   "chapter": "Units and Measurements",
+   "template": "phy-units-dimensions-of-quantity",
+   "outcome": "similar",
+   "verbatimOf": null,
+   "sim": 0.25,
+   "q": "The dimensional formula of a physical quantity is M$^a$L$^b$T$^c$. Then that physical quantity is"
+  },
+  {
+   "id": "2012-physics-2",
+   "n": 2,
+   "chapter": "Motion in a Straight Line",
+   "template": "phy-kin-vertical-throw-free-fall",
+   "outcome": "miss-new",
+   "verbatimOf": null,
+   "sim": 0.22,
+   "q": "A person throws balls into air vertically upward in regular intervals of time of one second. The next ball is thrown when the velocity of the ball thrown earlie"
+  },
+  {
+   "id": "2012-physics-3",
+   "n": 3,
+   "chapter": "Oscillations",
+   "template": "phy-osc-shm-concepts",
+   "outcome": "miss-new",
+   "verbatimOf": null,
+   "sim": 0.2,
+   "q": "The circular motion of a particle with constant speed is"
+  },
+  {
+   "id": "2012-physics-4",
+   "n": 4,
+   "chapter": "Gravitation",
+   "template": "phy-grav-kepler-orbit-speed",
+   "outcome": "miss-seen",
+   "verbatimOf": null,
+   "sim": 0.19,
+   "q": "A planet moving around sun sweeps area A$_1$ in 2 days, A$_2$ in 3 days and A$_3$ in 6 days [figure: sun with three sectors of areas A$_1$, A$_2$, A$_3$ swept o"
+  },
+  {
+   "id": "2012-physics-5",
+   "n": 5,
+   "chapter": "Thermal Properties of Matter",
+   "template": "phy-therm-conduction-series-parallel",
+   "outcome": "similar",
+   "verbatimOf": null,
+   "sim": 0.25,
+   "q": "A, B and C are three identical conductors but made of different materials, kept in contact in a line [figure: rod A-B-C joined end to end; free end of A at 100°"
+  },
+  {
+   "id": "2012-physics-6",
+   "n": 6,
+   "chapter": "Thermodynamics",
+   "template": "phy-thd-processes-identification",
+   "outcome": "miss-seen",
+   "verbatimOf": null,
+   "sim": 0.22,
+   "q": "One mole of an ideal gas is taken from A to B, from B to C and then back to A. The variation of its volume with temperature is as shown [figure: V-T graph, righ"
+  },
+  {
+   "id": "2012-physics-7",
+   "n": 7,
+   "chapter": "Waves",
+   "template": "phy-waves-nature-concepts",
+   "outcome": "miss-seen",
+   "verbatimOf": null,
+   "sim": 0.18,
+   "q": "Which of the following is incorrect?"
+  },
+  {
+   "id": "2012-physics-8",
+   "n": 8,
+   "chapter": "Waves",
+   "template": "phy-waves-intensity-amplitude-db",
+   "outcome": "miss-seen",
+   "verbatimOf": null,
+   "sim": 0.14,
+   "q": "Intensity level of sound whose intensity is 10$^{-8}$ Wm$^{-2}$ is ..... dB"
+  },
+  {
+   "id": "2012-physics-9",
+   "n": 9,
+   "chapter": "Ray Optics and Optical Instruments",
+   "template": "phy-ro-critical-angle-tir",
+   "outcome": "miss-seen",
+   "verbatimOf": null,
+   "sim": 0.21,
+   "q": "A point source of light is kept below the surface of water (n$_w$ = 4/3) at a depth of $\\sqrt7$ m. The radius of the circular bright patch of light noticed on t"
+  },
+  {
+   "id": "2012-physics-10",
+   "n": 10,
+   "chapter": "Wave Optics",
+   "template": "phy-wo-wavelength-in-medium",
+   "outcome": "miss-seen",
+   "verbatimOf": null,
+   "sim": 0.22,
+   "q": "A monochromatic beam of light is travelling from medium A of refractive index n$_1$ to medium B of refractive index n$_2$. In the medium A, there are x number o"
+  },
+  {
+   "id": "2012-physics-11",
+   "n": 11,
+   "chapter": "Wave Optics",
+   "template": "phy-wo-ydse-fringe-width-position",
+   "outcome": "miss-new",
+   "verbatimOf": null,
+   "sim": 0.27,
+   "q": "In Young's double slit experiment, fringes of width $\\beta$ are produced on a screen kept at a distance of 1 m from the slit. When the screen is moved away by 5"
+  },
+  {
+   "id": "2012-physics-12",
+   "n": 12,
+   "chapter": "Wave Optics",
+   "template": "phy-wo-interference-conditions",
+   "outcome": "similar",
+   "verbatimOf": null,
+   "sim": 0.19,
+   "q": "For sustained interference fringes in double slit experiment, essential condition/s is/are (a) sources must be coherent (b) the intensities of the two sources m"
+  },
+  {
+   "id": "2012-physics-13",
+   "n": 13,
+   "chapter": "Wave Optics",
+   "template": "phy-wo-diffraction-concepts",
+   "outcome": "miss-new",
+   "verbatimOf": null,
+   "sim": 0.21,
+   "q": "In single slit experiment, the width of the slit is reduced. Then, the linear width of the principal maxima.........."
+  },
+  {
+   "id": "2012-physics-14",
+   "n": 14,
+   "chapter": "Electric Charges and Fields",
+   "template": "phy-ecf-charge-in-uniform-field",
+   "outcome": "miss-seen",
+   "verbatimOf": null,
+   "sim": 0.37,
+   "q": "In the uniform electric field of E = 1$\\times$10$^4$ NC$^{-1}$, an electron is accelerated from rest. The velocity of the electron when it has travelled a dista"
+  },
+  {
+   "id": "2012-physics-15",
+   "n": 15,
+   "chapter": "Electrostatic Potential and Capacitance",
+   "template": "phy-epc-capacitor-network-charge-voltage",
+   "outcome": "miss-seen",
+   "verbatimOf": null,
+   "sim": 0.3,
+   "q": "In this diagram, the P.D. between A and B is 60 V [figure: A -- 6$\\mu$F -- 3$\\mu$F -- (two 3$\\mu$F capacitors in parallel) -- 3$\\mu$F -- B, all in series]. The "
+  },
+  {
+   "id": "2012-physics-16",
+   "n": 16,
+   "chapter": "Current Electricity",
+   "template": "phy-ce-joule-heating-network",
+   "outcome": "miss-new",
+   "verbatimOf": null,
+   "sim": 0.26,
+   "q": "In this circuit, when certain current flows, the heat produced in 5 $\\Omega$ is 4.05 J in a time t [figure: 2$\\Omega$ in series with a parallel combination of ("
+  },
+  {
+   "id": "2012-physics-17",
+   "n": 17,
+   "chapter": "Current Electricity",
+   "template": "phy-ce-network-current-voltage",
+   "outcome": "similar",
+   "verbatimOf": null,
+   "sim": 0.21,
+   "q": "In this circuit, the value of I$_2$ is [figure: a current of 1.2 A splits into three parallel branches: I$_1$ through 10$\\Omega$, I$_2$ through 15$\\Omega$, I$_3"
+  },
+  {
+   "id": "2012-physics-18",
+   "n": 18,
+   "chapter": "Moving Charges and Magnetism",
+   "template": "phy-mcm-force-parallel-wires",
+   "outcome": "miss-new",
+   "verbatimOf": null,
+   "sim": 0.26,
+   "q": "A straight current carrying conductor is kept along the axis of a circular loop carrying current. The force exerted by the straight conductor on the loop is ___"
+  },
+  {
+   "id": "2012-physics-19",
+   "n": 19,
+   "chapter": "Alternating Current",
+   "template": "phy-ac-power-factor-power",
+   "outcome": "miss-seen",
+   "verbatimOf": null,
+   "sim": 0.29,
+   "q": "A resistor of 500 $\\Omega$, an inductance of 0.5 H are in series with an a.c. which is given by V = 100$\\sqrt2$ sin(1000 t). The power factor of the combination"
+  },
+  {
+   "id": "2012-physics-20",
+   "n": 20,
+   "chapter": "Moving Charges and Magnetism",
+   "template": "phy-mcm-lorentz-force-concepts",
+   "outcome": "miss-new",
+   "verbatimOf": null,
+   "sim": 0.23,
+   "q": "Pick out the WRONG statement."
+  },
+  {
+   "id": "2012-physics-21",
+   "n": 21,
+   "chapter": "Dual Nature of Radiation and Matter",
+   "template": "phy-dn-debroglie-ratio-scaling",
+   "outcome": "similar",
+   "verbatimOf": null,
+   "sim": 0.42,
+   "q": "A proton and an alpha particle are accelerated under the same potential difference. The ratio of de-Broglie wavelengths of the proton and the alpha particle is"
+  },
+  {
+   "id": "2012-physics-22",
+   "n": 22,
+   "chapter": "Atoms",
+   "template": "phy-at-emission-spectra-types",
+   "outcome": "exact",
+   "verbatimOf": "2010-physics-48",
+   "sim": 0.73,
+   "q": "Spectrum of sunlight is an example for"
+  },
+  {
+   "id": "2012-physics-23",
+   "n": 23,
+   "chapter": "Atoms",
+   "template": "phy-at-bohr-radius-velocity-period",
+   "outcome": "miss-new",
+   "verbatimOf": null,
+   "sim": 0.3,
+   "q": "In hydrogen atom, electron excites from ground state to a higher energy state and its orbital velocity is reduced to $\\dfrac13$rd of its initial value. The radi"
+  },
+  {
+   "id": "2012-physics-24",
+   "n": 24,
+   "chapter": "Nuclei",
+   "template": "phy-nuc-decay-law-fraction",
+   "outcome": "similar",
+   "verbatimOf": null,
+   "sim": 0.23,
+   "q": "Decay constants of two radio-active samples A and B are 15x and 3x respectively. They have equal number of initial nuclei. The ratio of the number of nuclei lef"
+  },
+  {
+   "id": "2012-physics-25",
+   "n": 25,
+   "chapter": "Nuclei",
+   "template": "phy-nuc-be-curve-fission-fusion",
+   "outcome": "similar",
+   "verbatimOf": null,
+   "sim": 0.2,
+   "q": "Mass numbers of the elements A, B, C and D are 30, 60, 90 and 120 respectively. The specific binding energy of them are 5 MeV, 8.5 MeV, 8 MeV and 7 MeV respecti"
+  },
+  {
+   "id": "2012-physics-26",
+   "n": 26,
+   "chapter": "Semiconductor Electronics",
+   "template": "phy-sc-energy-bands-materials",
+   "outcome": "miss-new",
+   "verbatimOf": null,
+   "sim": 0.22,
+   "q": "Copper and Germanium are cooled from room temperature to 100 K. Then the resistance of"
+  },
+  {
+   "id": "2012-physics-27",
+   "n": 27,
+   "chapter": "Old syllabus: Elementary Particles",
+   "template": "phy-old-particles-baryons",
+   "outcome": "miss-new",
+   "verbatimOf": null,
+   "sim": 0.19,
+   "q": "The most stable particle in the Baryon group is"
+  },
+  {
+   "id": "2012-physics-28",
+   "n": 28,
+   "chapter": "Old syllabus: Scattering of Light",
+   "template": "phy-old-scattering-rayleigh",
+   "outcome": "miss-new",
+   "verbatimOf": null,
+   "sim": 0.28,
+   "q": "Frequencies of light incident on a system of scattering particles are in the ratio 1:2. Then, the intensity of scattered light in a particular direction is....."
+  },
+  {
+   "id": "2012-physics-29",
+   "n": 29,
+   "chapter": "Atoms",
+   "template": "phy-at-bohr-angular-momentum",
+   "outcome": "miss-new",
+   "verbatimOf": null,
+   "sim": 0.3,
+   "q": "The ratio of the magnetic dipole moment to the angular momentum of the electron in the 1$^{st}$ orbit of hydrogen atom is"
+  },
+  {
+   "id": "2012-physics-30",
+   "n": 30,
+   "chapter": "Old syllabus: Colloids",
+   "template": "phy-old-colloids-types",
+   "outcome": "miss-seen",
+   "verbatimOf": null,
+   "sim": 0.2,
+   "q": "Milk is an example for"
+  },
+  {
+   "id": "2012-physics-31",
+   "n": 31,
+   "chapter": "Work, Energy and Power",
+   "template": "phy-wep-work-energy-theorem",
+   "outcome": "miss-new",
+   "verbatimOf": null,
+   "sim": 0.19,
+   "q": "A body of mass 'm' is travelling with a velocity 'u'. When a constant retarding force 'F' is applied, it comes to rest after travelling a distance 's$_1$'. If t"
+  },
+  {
+   "id": "2012-physics-32",
+   "n": 32,
+   "chapter": "Laws of Motion",
+   "template": "phy-lom-friction-incline",
+   "outcome": "miss-new",
+   "verbatimOf": null,
+   "sim": 0.3,
+   "q": "A block kept on a rough surface starts sliding when the inclination of the surface is '$\\theta$' with respect to the horizontal. The coefficient of static frict"
+  },
+  {
+   "id": "2012-physics-33",
+   "n": 33,
+   "chapter": "Work, Energy and Power",
+   "template": "phy-wep-ke-momentum-relation",
+   "outcome": "miss-seen",
+   "verbatimOf": null,
+   "sim": 0.17,
+   "q": "Two bodies of masses m$_1$ and m$_2$ are acted upon by a constant force F for a time t. They start from rest and acquire kinetic energies E$_1$ and E$_2$ respec"
+  },
+  {
+   "id": "2012-physics-34",
+   "n": 34,
+   "chapter": "Motion in a Plane",
+   "template": "phy-plane-vector-components-products",
+   "outcome": "miss-new",
+   "verbatimOf": null,
+   "sim": 0.26,
+   "q": "The X and Y components of a force F acting at 30° to the x-axis are respectively"
+  },
+  {
+   "id": "2012-physics-35",
+   "n": 35,
+   "chapter": "Mechanical Properties of Fluids",
+   "template": "phy-fluids-buoyancy-archimedes",
+   "outcome": "miss-seen",
+   "verbatimOf": null,
+   "sim": 0.24,
+   "q": "Spheres of iron and lead having same mass are completely immersed in water. Density of lead is more than that of iron. Apparent loss of weight is W$_1$ for iron"
+  },
+  {
+   "id": "2012-physics-36",
+   "n": 36,
+   "chapter": "Thermal Properties of Matter",
+   "template": "phy-therm-newton-cooling",
+   "outcome": "miss-seen",
+   "verbatimOf": null,
+   "sim": 0.27,
+   "q": "A hot body is allowed to cool. The surrounding temperature is constant at 30 °C. The body takes time t$_1$ to cool from 90 °C to 89 °C and time t$_2$ to cool fr"
+  },
+  {
+   "id": "2012-physics-37",
+   "n": 37,
+   "chapter": "Oscillations",
+   "template": "phy-osc-shm-time-phase",
+   "outcome": "similar",
+   "verbatimOf": null,
+   "sim": 0.31,
+   "q": "A particle executes SHM with amplitude 0.2 m and time period 24 s. The time required for it to move from the mean position to a point 0.1 m from the mean positi"
+  },
+  {
+   "id": "2012-physics-38",
+   "n": 38,
+   "chapter": "Ray Optics and Optical Instruments",
+   "template": "phy-ro-dispersion-colours",
+   "outcome": "miss-new",
+   "verbatimOf": null,
+   "sim": 0.17,
+   "q": "White light is incident normally on a glass slab. Inside the glass slab,"
+  },
+  {
+   "id": "2012-physics-39",
+   "n": 39,
+   "chapter": "Ray Optics and Optical Instruments",
+   "template": "phy-ro-lens-combination-power",
+   "outcome": "miss-seen",
+   "verbatimOf": null,
+   "sim": 0.2,
+   "q": "Two thin plano-convex lenses each of focal length f are placed as shown in the figure [three configurations of the two lenses touching each other in different o"
+  },
+  {
+   "id": "2012-physics-40",
+   "n": 40,
+   "chapter": "Wave Optics",
+   "template": "phy-wo-ydse-intensity-phase",
+   "outcome": "similar",
+   "verbatimOf": null,
+   "sim": 0.24,
+   "q": "If the two slits in Young's double slit experiment are of unequal width, then"
+  },
+  {
+   "id": "2012-physics-41",
+   "n": 41,
+   "chapter": "Wave Optics",
+   "template": "phy-wo-polarisation-concepts",
+   "outcome": "miss-new",
+   "verbatimOf": null,
+   "sim": 0.14,
+   "q": "The phenomenon of polarization shows that light has _________ nature."
+  },
+  {
+   "id": "2012-physics-42",
+   "n": 42,
+   "chapter": "Electric Charges and Fields",
+   "template": "phy-ecf-charge-in-uniform-field",
+   "outcome": "miss-seen",
+   "verbatimOf": null,
+   "sim": 0.25,
+   "q": "Acceleration of a charged particle of charge 'q' and mass 'm' moving in a uniform electric field of strength 'E' is"
+  },
+  {
+   "id": "2012-physics-43",
+   "n": 43,
+   "chapter": "Electrostatic Potential and Capacitance",
+   "template": "phy-epc-energy-conservation-charge-motion",
+   "outcome": "miss-new",
+   "verbatimOf": null,
+   "sim": 0.2,
+   "q": "Two fixed charges A and B of 5 $\\mu$C each are separated by a distance of 6 m. C is the mid point of the line joining A and B. A charge 'Q' of -5 $\\mu$C is shot"
+  },
+  {
+   "id": "2012-physics-44",
+   "n": 44,
+   "chapter": "Electrostatic Potential and Capacitance",
+   "template": "phy-epc-capacitor-energy",
+   "outcome": "miss-new",
+   "verbatimOf": null,
+   "sim": 0.24,
+   "q": "A capacitor of capacitance 10 $\\mu$F is charged to 10 V. The energy stored in it is"
+  },
+  {
+   "id": "2012-physics-45",
+   "n": 45,
+   "chapter": "Current Electricity",
+   "template": "phy-ce-joule-heating-network",
+   "outcome": "miss-new",
+   "verbatimOf": null,
+   "sim": 0.16,
+   "q": "Which of the following graphs correctly represents the variation of heat energy (U) produced in a metallic conductor in a given time as a function of potential "
+  },
+  {
+   "id": "2012-physics-46",
+   "n": 46,
+   "chapter": "Current Electricity",
+   "template": "phy-ce-drift-velocity-calc",
+   "outcome": "similar",
+   "verbatimOf": null,
+   "sim": 0.24,
+   "q": "A current of 2 A is passing through a metal wire of cross sectional area 2$\\times$10$^{-6}$ m$^2$. If the number density of free electrons in the wire is 5$\\tim"
+  },
+  {
+   "id": "2012-physics-47",
+   "n": 47,
+   "chapter": "Moving Charges and Magnetism",
+   "template": "phy-mcm-field-straight-wire",
+   "outcome": "miss-seen",
+   "verbatimOf": null,
+   "sim": 0.19,
+   "q": "Magnetic field at a distance r from an infinitely long straight conductor carrying a steady current varies as"
+  },
+  {
+   "id": "2012-physics-48",
+   "n": 48,
+   "chapter": "Moving Charges and Magnetism",
+   "template": "phy-mcm-field-centre-loops-arcs",
+   "outcome": "similar",
+   "verbatimOf": null,
+   "sim": 0.33,
+   "q": "In the loop shown, the magnetic induction at the point 'O' is [figure: current I flows in along a straight line, turns into a quarter-circle arc of radius R$_1$"
+  },
+  {
+   "id": "2012-physics-49",
+   "n": 49,
+   "chapter": "Moving Charges and Magnetism",
+   "template": "phy-mcm-radius-ratio-particles",
+   "outcome": "similar",
+   "verbatimOf": null,
+   "sim": 0.29,
+   "q": "An $\\alpha$-particle and a proton moving with the same kinetic energy enter a region of uniform magnetic field at right angles to the field. The ratio of the ra"
+  },
+  {
+   "id": "2012-physics-50",
+   "n": 50,
+   "chapter": "Electromagnetic Induction",
+   "template": "phy-emi-lenz-direction",
+   "outcome": "similar",
+   "verbatimOf": null,
+   "sim": 0.23,
+   "q": "Direction of current induced in a wire moving in a magnetic field is found using"
+  },
+  {
+   "id": "2012-physics-51",
+   "n": 51,
+   "chapter": "Alternating Current",
+   "template": "phy-ac-reactance-phase-concepts",
+   "outcome": "miss-seen",
+   "verbatimOf": null,
+   "sim": 0.24,
+   "q": "An ideal resistance R, ideal inductance L, ideal capacitance C and AC volt meters V$_1$, V$_2$, V$_3$ and V$_4$ are connected to an AC source as shown [figure: "
+  },
+  {
+   "id": "2012-physics-52",
+   "n": 52,
+   "chapter": "Electromagnetic Waves",
+   "template": "phy-emw-spectrum",
+   "outcome": "miss-new",
+   "verbatimOf": null,
+   "sim": 0.12,
+   "q": "X-rays, gamma rays and microwaves travelling in vacuum have"
+  },
+  {
+   "id": "2012-physics-53",
+   "n": 53,
+   "chapter": "Atoms",
+   "template": "phy-at-bohr-energy-levels",
+   "outcome": "miss-new",
+   "verbatimOf": null,
+   "sim": 0.21,
+   "q": "If n is the orbit number of the electron in a hydrogen atom, the correct statement among the following is"
+  },
+  {
+   "id": "2012-physics-54",
+   "n": 54,
+   "chapter": "Old syllabus: Lasers",
+   "template": "phy-old-lasers-ruby",
+   "outcome": "miss-seen",
+   "verbatimOf": null,
+   "sim": 0.28,
+   "q": "In a Ruby laser, the colour of laser light is due to _________ atom."
+  },
+  {
+   "id": "2012-physics-55",
+   "n": 55,
+   "chapter": "Nuclei",
+   "template": "phy-nuc-nuclear-radius",
+   "outcome": "miss-new",
+   "verbatimOf": null,
+   "sim": 0.19,
+   "q": "The radius of $_{29}$Cu$^{64}$ nucleus in Fermi is (given R$_0$ = 1.2$\\times$10$^{-15}$ m)"
+  },
+  {
+   "id": "2012-physics-56",
+   "n": 56,
+   "chapter": "Nuclei",
+   "template": "phy-nuc-alpha-beta-counting",
+   "outcome": "miss-new",
+   "verbatimOf": null,
+   "sim": 0.17,
+   "q": "In a radioactive decay, an element $_Z$X$^A$ emits four $\\alpha$-particles, three $\\beta$-particles and eight gamma photons. The atomic number and mass number o"
+  },
+  {
+   "id": "2012-physics-57",
+   "n": 57,
+   "chapter": "Semiconductor Electronics",
+   "template": "phy-sc-transistor-alpha-beta",
+   "outcome": "miss-new",
+   "verbatimOf": null,
+   "sim": 0.24,
+   "q": "For a transistor, $\\beta$ = 100. The value of $\\alpha$ is"
+  },
+  {
+   "id": "2012-physics-58",
+   "n": 58,
+   "chapter": "Semiconductor Electronics",
+   "template": "phy-sc-truth-table-gate",
+   "outcome": "miss-new",
+   "verbatimOf": null,
+   "sim": 0.18,
+   "q": "The following truth table with A and B as inputs is for _________ gate. [table: A=1,B=0->1; A=1,B=1->0; A=0,B=1->1; A=0,B=0->0]"
+  },
+  {
+   "id": "2012-physics-59",
+   "n": 59,
+   "chapter": "Dual Nature of Radiation and Matter",
+   "template": "phy-dn-photon-momentum-number",
+   "outcome": "miss-new",
+   "verbatimOf": null,
+   "sim": 0.21,
+   "q": "'n' photons of wavelength '$\\lambda$' are absorbed by a black body of mass 'm'. The momentum gained by the body is"
+  },
+  {
+   "id": "2012-physics-60",
+   "n": 60,
+   "chapter": "Nuclei",
+   "template": "phy-nuc-be-curve-fission-fusion",
+   "outcome": "similar",
+   "verbatimOf": null,
+   "sim": 0.19,
+   "q": "A radioactive nucleus has specific binding energy 'E$_1$'. It emits an $\\alpha$-particle. The resulting nucleus has specific binding energy 'E$_2$'. Then"
+  }
+ ]
+}

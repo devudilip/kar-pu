@@ -1,0 +1,4757 @@
+{
+ "year": 2027,
+ "subject": "maths",
+ "method": {
+  "decay": 0.8,
+  "window": 6,
+  "multi": 1.5,
+  "exact": 0.5,
+  "method": "hazard",
+  "list": 200
+ },
+ "chapterQuota": {
+  "Continuity and Differentiability": 19,
+  "Integrals": 18,
+  "Relations and Functions": 15,
+  "Determinants": 14,
+  "Probability": 14,
+  "Matrices": 12,
+  "Vector Algebra": 11,
+  "Application of Derivatives": 10,
+  "Trigonometric Functions": 9,
+  "Differential Equations": 9,
+  "Three Dimensional Geometry": 9,
+  "Limits and Derivatives": 6,
+  "Permutations and Combinations": 6,
+  "Inverse Trigonometric Functions": 6,
+  "Sets": 6,
+  "Linear Programming": 6,
+  "Application of Integrals": 5,
+  "Sequences and Series": 4,
+  "Straight Lines": 4,
+  "Statistics": 3,
+  "Complex Numbers and Quadratic Equations": 3,
+  "Linear Inequalities": 3,
+  "Conic Sections": 3,
+  "Introduction to Three Dimensional Geometry": 2,
+  "Binomial Theorem": 2,
+  "Old syllabus: Mathematical Reasoning": 1
+ },
+ "paper": [
+  {
+   "rank": 1,
+   "template": "mat-cd-derivative-wrt-function",
+   "chapter": "Continuity and Differentiability",
+   "name": "Derivative of one function w.r.t. another",
+   "desc": "Compute (du/dx)/(dv/dx), often after inverse-trig simplification",
+   "probability": 0.32,
+   "timesAsked": 6,
+   "years": [
+    2011,
+    2016,
+    2017,
+    2023,
+    2025,
+    2026
+   ],
+   "lastAsked": 2026,
+   "sample": "2026-maths-36",
+   "sampleQ": "The second order derivative of $\\sec^{-1}\\left(\\dfrac{1}{2x^2-1}\\right)$ with respect to $\\cos^{-1}(2x^2-1)$, where $0<x<\\dfrac{1}{\\sqrt2}$ is"
+  },
+  {
+   "rank": 2,
+   "template": "mat-cd-inverse-trig-derivative",
+   "chapter": "Continuity and Differentiability",
+   "name": "Derivative of inverse-trig composition",
+   "desc": "Simplify sin^-1(2x/(1+x^2)), tan^-1(...), cos^2(cot^-1 ...) by substitution then differentiate",
+   "probability": 0.32,
+   "timesAsked": 7,
+   "years": [
+    2011,
+    2013,
+    2017,
+    2019,
+    2020,
+    2024,
+    2026
+   ],
+   "lastAsked": 2026,
+   "sample": "2026-maths-37",
+   "sampleQ": "If $f(x)=\\sin^{-1}\\left(\\dfrac{2x}{1+x^2}\\right)$, then $f'\\left(\\dfrac12\\right)=$"
+  },
+  {
+   "rank": 3,
+   "template": "mat-cd-continuity-find-k",
+   "chapter": "Continuity and Differentiability",
+   "name": "Find k for continuity of piecewise function",
+   "desc": "Equate the limit (standard limits, L'Hospital-type) with f(a) to find k or a,b",
+   "probability": 0.32,
+   "timesAsked": 11,
+   "years": [
+    2009,
+    2011,
+    2012,
+    2014,
+    2015,
+    2017,
+    2018,
+    2019,
+    2020,
+    2026
+   ],
+   "lastAsked": 2026,
+   "sample": "2026-maths-35",
+   "sampleQ": "If $f(x)=\\begin{cases}ax+7 & \\text{if } x<1\\\\2x-3 & \\text{if } x=1\\\\dfrac{x+b}{b} & \\text{if } x>1\\end{cases}$ is continuous at $x=1$, then"
+  },
+  {
+   "rank": 4,
+   "template": "mat-cd-implicit",
+   "chapter": "Continuity and Differentiability",
+   "name": "Implicit differentiation",
+   "desc": "Differentiate implicit relations (x^m y^n=(x+y)^{m+n}, 2^x+2^y=2^{x+y}, cos y = x cos(a+y))",
+   "probability": 0.32,
+   "timesAsked": 7,
+   "years": [
+    2011,
+    2016,
+    2018,
+    2019,
+    2020,
+    2026
+   ],
+   "lastAsked": 2026,
+   "sample": "2026-maths-38",
+   "sampleQ": "If $\\sqrt x\\,\\sqrt[3]{y}=(x+y)^n$ and $x\\dfrac{dy}{dx}-y=0$, then $n=$"
+  },
+  {
+   "rank": 5,
+   "template": "mat-cd-e-one-by-x-limits",
+   "chapter": "Continuity and Differentiability",
+   "name": "One-sided limits of (e^{1/x}-1)/(e^{1/x}+1)",
+   "desc": "Evaluate LHL=-1, RHL=1 and conclude discontinuity at 0",
+   "probability": 0.29,
+   "timesAsked": 2,
+   "years": [
+    2020,
+    2025
+   ],
+   "lastAsked": 2025,
+   "sample": "2025-maths-46",
+   "sampleQ": "A function $f(x)=\\begin{cases}\\dfrac{e^{1/x}-1}{e^{1/x}+1}, & x\\neq0\\\\ 0, & x=0\\end{cases}$, is"
+  },
+  {
+   "rank": 6,
+   "template": "mat-cd-differentiability-check",
+   "chapter": "Continuity and Differentiability",
+   "name": "Continuity and differentiability at a point",
+   "desc": "Check LHD/RHD for modulus/piecewise functions, graph corners, match properties",
+   "probability": 0.28,
+   "timesAsked": 6,
+   "years": [
+    2010,
+    2013,
+    2014,
+    2021,
+    2024,
+    2025
+   ],
+   "lastAsked": 2025,
+   "sample": "2025-maths-44",
+   "sampleQ": "Match the following: In the following, [x] denotes the greatest integer less than or equal to x. Column-I: (a) $x|x|$ (b) $\\sqrt{|x|}$ (c) $x+[x]$ (d) $|x-1|+|x+1|$. Column-II: (i) continuous in (-1,1) (ii) differentiable in (-1,1) (iii) strictly increasing in (-1,1) (iv) not differentiable at, at least one point in (-1,1)"
+  },
+  {
+   "rank": 7,
+   "template": "mat-cd-standard-rules",
+   "chapter": "Continuity and Differentiability",
+   "name": "Standard derivative rules",
+   "desc": "Apply chain/product/quotient rules to evaluate derivatives, including GIF constants and determinants",
+   "probability": 0.28,
+   "timesAsked": 17,
+   "years": [
+    2009,
+    2010,
+    2011,
+    2012,
+    2014,
+    2015,
+    2017,
+    2018,
+    2019,
+    2021,
+    2022,
+    2023,
+    2025
+   ],
+   "lastAsked": 2025,
+   "sample": "2025-maths-43",
+   "sampleQ": "If $y=\\dfrac{\\cos x}{1+\\sin x}$, then (a) $\\dfrac{dy}{dx}=\\dfrac{-1}{1+\\sin x}$ (b) $\\dfrac{dy}{dx}=\\dfrac{1}{1+\\sin x}$ (c) $\\dfrac{dy}{dx}=-\\dfrac12\\sec^2\\left(\\dfrac{\\pi}{4}-\\dfrac{x}{2}\\right)$ (d) $\\dfrac{dy}{dx}=\\dfrac12\\sec^2\\left(\\dfrac{\\pi}{4}-\\dfrac{x}{2}\\right)$"
+  },
+  {
+   "rank": 8,
+   "template": "mat-cd-parametric",
+   "chapter": "Continuity and Differentiability",
+   "name": "Parametric differentiation",
+   "desc": "dy/dx = (dy/dt)/(dx/dt) for given parametric forms, value at a point or where zero",
+   "probability": 0.28,
+   "timesAsked": 8,
+   "years": [
+    2010,
+    2015,
+    2016,
+    2017,
+    2021,
+    2022,
+    2025
+   ],
+   "lastAsked": 2025,
+   "sample": "2025-maths-47",
+   "sampleQ": "If $y=a\\sin^3t, x=a\\cos^3t$, then $\\dfrac{dy}{dx}$ at $t=\\dfrac{3\\pi}{4}$ is"
+  },
+  {
+   "rank": 9,
+   "template": "mat-cd-second-derivative",
+   "chapter": "Continuity and Differentiability",
+   "name": "Evaluate a second derivative",
+   "desc": "Compute y'' directly, parametrically, implicitly, or f''(1) of a binomial sum",
+   "probability": 0.26,
+   "timesAsked": 6,
+   "years": [
+    2009,
+    2017,
+    2019,
+    2022,
+    2023
+   ],
+   "lastAsked": 2023,
+   "sample": "2023-maths-24",
+   "sampleQ": "If $f(x) = 1 + nx + \\dfrac{n(n-1)}{2}x^2 + \\dfrac{n(n-1)(n-2)}{6}x^3 + \\cdots + x^n$ then $f''(1) =$"
+  },
+  {
+   "rank": 10,
+   "template": "mat-cd-discontinuity-points",
+   "chapter": "Continuity and Differentiability",
+   "name": "Points of continuity/discontinuity",
+   "desc": "Where [x], cot x, f(f(x)) or rational/irrational-defined functions are (dis)continuous",
+   "probability": 0.26,
+   "timesAsked": 6,
+   "years": [
+    2010,
+    2013,
+    2015,
+    2016,
+    2023
+   ],
+   "lastAsked": 2023,
+   "sample": "2023-maths-21",
+   "sampleQ": "The function $f(x) = \\cot x$ is discontinuous on every point of the set"
+  },
+  {
+   "rank": 11,
+   "template": "mat-cd-derivative-identity",
+   "chapter": "Continuity and Differentiability",
+   "name": "Higher-derivative identity / ODE satisfied",
+   "desc": "Show y satisfies (1-x^2)y''-xy'=m^2y type relations; f''+f=0 invariants; y^2+y'^2 constant",
+   "probability": 0.26,
+   "timesAsked": 9,
+   "years": [
+    2010,
+    2011,
+    2012,
+    2013,
+    2014,
+    2020,
+    2023
+   ],
+   "lastAsked": 2023,
+   "sample": "2023-maths-23",
+   "sampleQ": "If $y = a \\sin x + b \\cos x$, then $y^2 + \\left(\\dfrac{dy}{dx}\\right)^2$ is a"
+  },
+  {
+   "rank": 12,
+   "template": "mat-cd-infinite-radical",
+   "chapter": "Continuity and Differentiability",
+   "name": "Infinite nested radical derivative",
+   "desc": "Write y^2 = x + y (or tan x + y) and differentiate implicitly",
+   "probability": 0.26,
+   "timesAsked": 2,
+   "years": [
+    2018,
+    2026
+   ],
+   "lastAsked": 2026,
+   "sample": "2026-maths-34",
+   "sampleQ": "If $y=\\sqrt{\\tan x+y}$, then $\\dfrac{dy}{dx}=$"
+  },
+  {
+   "rank": 13,
+   "template": "mat-cd-differentiable-find-constants",
+   "chapter": "Continuity and Differentiability",
+   "name": "Constants for differentiability",
+   "desc": "Equate values and one-sided derivatives at the joint to find a, b",
+   "probability": 0.25,
+   "timesAsked": 1,
+   "years": [
+    2025
+   ],
+   "lastAsked": 2025,
+   "sample": "2025-maths-45",
+   "sampleQ": "The function $f(x)=\\begin{cases}e^x+ax, & x<0\\\\ b(x-1)^2, & x\\geq0\\end{cases}$ is differentiable at x = 0. Then"
+  },
+  {
+   "rank": 14,
+   "template": "mat-cd-log-differentiation",
+   "chapter": "Continuity and Differentiability",
+   "name": "Logarithmic differentiation",
+   "desc": "Differentiate x^x, x^{sin x}, products of many factors using logs",
+   "probability": 0.15,
+   "timesAsked": 8,
+   "years": [
+    2011,
+    2014,
+    2016,
+    2020,
+    2021,
+    2022,
+    2024
+   ],
+   "lastAsked": 2024,
+   "sample": "2024-maths-5",
+   "sampleQ": "If $y=2x^{3x}$, then $\\dfrac{dy}{dx}$ at $x=1$ is"
+  },
+  {
+   "rank": 15,
+   "template": "mat-cd-abstract-chain-rule",
+   "chapter": "Continuity and Differentiability",
+   "name": "Chain rule with abstract functions",
+   "desc": "Use f(1), f'(1) data, f(x+y)=f(x)f(y), even/odd derivative facts to find derivative values",
+   "probability": 0.15,
+   "timesAsked": 5,
+   "years": [
+    2009,
+    2012,
+    2015,
+    2022,
+    2024
+   ],
+   "lastAsked": 2024,
+   "sample": "2024-maths-6",
+   "sampleQ": "Let the function satisfy the equation $f(x+y)=f(x)f(y)$ for all $x,y\\in R$, where $f(0)\\neq 0$. If $f(5)=3$ and $f'(0)=2$, then $f'(5)$ is"
+  },
+  {
+   "rank": 16,
+   "template": "mat-cd-exp-function-features",
+   "chapter": "Continuity and Differentiability",
+   "name": "Features of exponential function",
+   "desc": "Domain, range, intercept and monotonicity of b^x",
+   "probability": 0.14,
+   "timesAsked": 1,
+   "years": [
+    2014
+   ],
+   "lastAsked": 2014,
+   "sample": "2014-maths-28",
+   "sampleQ": "Which one of the following is not correct for the features of exponential function given by f(x) = $b^x$ where b > 1?"
+  },
+  {
+   "rank": 17,
+   "template": "mat-cd-rolle-mvt",
+   "chapter": "Continuity and Differentiability",
+   "name": "Rolle's theorem / Mean Value Theorem",
+   "desc": "Find c in MVT or decide where Rolle's theorem fails",
+   "probability": 0.08,
+   "timesAsked": 2,
+   "years": [
+    2017,
+    2019
+   ],
+   "lastAsked": 2019,
+   "sample": "2019-maths-2",
+   "sampleQ": "Rolle's theorem is not applicable in which one of the following cases?"
+  },
+  {
+   "rank": 18,
+   "template": "mat-int-trig-identity-simplify",
+   "chapter": "Integrals",
+   "name": "Simplify with trig/exp identities then integrate",
+   "desc": "Use factor formulas, half angles, e^{k log x}=x^k to reduce integrand to standard ones",
+   "probability": 0.32,
+   "timesAsked": 10,
+   "years": [
+    2009,
+    2015,
+    2016,
+    2017,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+   ],
+   "lastAsked": 2026,
+   "sample": "2026-maths-45",
+   "sampleQ": "$\\int e^{-x\\log 2}2^x dx=$"
+  },
+  {
+   "rank": 19,
+   "template": "mat-int-odd-even",
+   "chapter": "Integrals",
+   "name": "Odd/even function over symmetric limits",
+   "desc": "Odd integrand over [-a,a] gives 0; even doubles; shift to make odd",
+   "probability": 0.32,
+   "timesAsked": 6,
+   "years": [
+    2014,
+    2016,
+    2023,
+    2024,
+    2025,
+    2026
+   ],
+   "lastAsked": 2026,
+   "sample": "2026-maths-42",
+   "sampleQ": "One of the possible functions $f(x)$ which satisfies $\\int_{-2}^2 f(x)dx=0$ is"
+  },
+  {
+   "rank": 20,
+   "template": "mat-int-x2-x4-power-sub",
+   "chapter": "Integrals",
+   "name": "int dx/(x^2(x^4+1)^{3/4})",
+   "desc": "Take x^4 out, substitute 1+x^{-4}=t",
+   "probability": 0.29,
+   "timesAsked": 2,
+   "years": [
+    2015,
+    2025
+   ],
+   "lastAsked": 2025,
+   "sample": "2025-maths-54",
+   "sampleQ": "$\\displaystyle\\int \\dfrac{dx}{x^2(x^4+1)^{3/4}}$ equals"
+  },
+  {
+   "rank": 21,
+   "template": "mat-int-partial-fractions",
+   "chapter": "Integrals",
+   "name": "Partial fractions in integration",
+   "desc": "Decompose rational integrands to find A,B,C coefficients or the integral",
+   "probability": 0.28,
+   "timesAsked": 6,
+   "years": [
+    2012,
+    2019,
+    2020,
+    2022,
+    2024,
+    2025
+   ],
+   "lastAsked": 2025,
+   "sample": "2025-maths-51",
+   "sampleQ": "The value of $\\displaystyle\\int \\dfrac{dx}{(x+1)(x+2)}$ is"
+  },
+  {
+   "rank": 22,
+   "template": "mat-int-king-log-xf",
+   "chapter": "Integrals",
+   "name": "King property for x f(x) or log integrands",
+   "desc": "Use f(a+b-x)=f(x) to reduce int x f(x), or log(1+tan x)-type integrals to (pi/8) log 2 form",
+   "probability": 0.28,
+   "timesAsked": 5,
+   "years": [
+    2014,
+    2015,
+    2020,
+    2023,
+    2025
+   ],
+   "lastAsked": 2025,
+   "sample": "2025-maths-55",
+   "sampleQ": "$\\displaystyle\\int_0^1\\log\\left(\\dfrac1x-1\\right)dx$ is"
+  },
+  {
+   "rank": 23,
+   "template": "mat-int-king-symmetric",
+   "chapter": "Integrals",
+   "name": "King property f/(f+f(a+b-x))",
+   "desc": "Use x -> a+b-x so I = (b-a)/2 for symmetric ratio integrands",
+   "probability": 0.26,
+   "timesAsked": 8,
+   "years": [
+    2009,
+    2012,
+    2013,
+    2016,
+    2017,
+    2021,
+    2023
+   ],
+   "lastAsked": 2023,
+   "sample": "2023-maths-30",
+   "sampleQ": "$\\displaystyle\\int_{2}^{8} \\dfrac{5^{\\sqrt{10-x}}}{5^{\\sqrt x}+5^{\\sqrt{10-x}}}\\,dx =$"
+  },
+  {
+   "rank": 24,
+   "template": "mat-int-tan-cot-power-sub",
+   "chapter": "Integrals",
+   "name": "sin^n/cos^{n+2} and cos^{n-1}/sin^{n+1} forms",
+   "desc": "Write as tan^n sec^2 or cot^{n-1} cosec^2 and substitute",
+   "probability": 0.26,
+   "timesAsked": 2,
+   "years": [
+    2013,
+    2026
+   ],
+   "lastAsked": 2026,
+   "sample": "2026-maths-44",
+   "sampleQ": "If 'n' is a natural number, then $\\int \\dfrac{\\sin^n x}{\\cos^{n+2}x}dx=$"
+  },
+  {
+   "rank": 25,
+   "template": "mat-int-change-of-limits",
+   "chapter": "Integrals",
+   "name": "Shift property of definite integrals",
+   "desc": "int_{a-c}^{b-c} f(x+c)dx = int_a^b f(x)dx",
+   "probability": 0.2,
+   "timesAsked": 1,
+   "years": [
+    2026
+   ],
+   "lastAsked": 2026,
+   "sample": "2026-maths-43",
+   "sampleQ": "$\\int_{a-6}^{b-6}f(x+6)dx$ is equal to"
+  },
+  {
+   "rank": 26,
+   "template": "mat-int-standard-forms",
+   "chapter": "Integrals",
+   "name": "Standard forms: quadratics and a sin^2+b cos^2",
+   "desc": "Complete square for sqrt(ax^2+bx+c), 1/sqrt(...), divide by cos^2 to get tan^-1 forms",
+   "probability": 0.15,
+   "timesAsked": 8,
+   "years": [
+    2017,
+    2018,
+    2020,
+    2021,
+    2023,
+    2024
+   ],
+   "lastAsked": 2024,
+   "sample": "2024-maths-52",
+   "sampleQ": "$\\displaystyle\\int\\dfrac{\\sin x}{3+4\\cos^2x}dx=$"
+  },
+  {
+   "rank": 27,
+   "template": "mat-int-modulus-definite",
+   "chapter": "Integrals",
+   "name": "Definite integral of modulus function",
+   "desc": "Split at zeros of the expression inside |.| and integrate piecewise",
+   "probability": 0.15,
+   "timesAsked": 6,
+   "years": [
+    2009,
+    2011,
+    2013,
+    2017,
+    2018,
+    2024
+   ],
+   "lastAsked": 2024,
+   "sample": "2024-maths-9",
+   "sampleQ": "$\\displaystyle\\int_1^5\\left(|x-3|+|1-x|\\right)dx=$"
+  },
+  {
+   "rank": 28,
+   "template": "mat-int-limit-of-sum",
+   "chapter": "Integrals",
+   "name": "Definite integral as limit of sum",
+   "desc": "Evaluate int_a^b f as limit of Riemann sum (value equals the definite integral)",
+   "probability": 0.14,
+   "timesAsked": 1,
+   "years": [
+    2022
+   ],
+   "lastAsked": 2022,
+   "sample": "2022-maths-14",
+   "sampleQ": "Evaluate $\\displaystyle\\int_2^3 x^2\\,dx$ as the limit of a sum"
+  },
+  {
+   "rank": 29,
+   "template": "mat-int-substitution",
+   "chapter": "Integrals",
+   "name": "Integration by substitution",
+   "desc": "Choose t = g(x) (sqrt x, e^x, sin x, tan^-1 x^4, log x) for indefinite or definite integrals",
+   "probability": 0.12,
+   "timesAsked": 15,
+   "years": [
+    2009,
+    2010,
+    2014,
+    2016,
+    2018,
+    2019,
+    2021,
+    2022
+   ],
+   "lastAsked": 2022,
+   "sample": "2022-maths-8",
+   "sampleQ": "$\\displaystyle\\int_0^{\\pi/2}\\sqrt{\\sin\\theta}\\cos^3\\theta\\,d\\theta$ is equal to"
+  },
+  {
+   "rank": 30,
+   "template": "mat-int-ex-f-plus-fprime",
+   "chapter": "Integrals",
+   "name": "e^x[f(x)+f'(x)] form",
+   "desc": "Recognise integrand as e^{g}(f+f') (incl. (x-1)e^x/(x+1)^3, e^x(1+sin x)/(1+cos x)) giving e^x f(x)",
+   "probability": 0.12,
+   "timesAsked": 10,
+   "years": [
+    2009,
+    2011,
+    2013,
+    2015,
+    2016,
+    2017,
+    2018,
+    2021,
+    2022
+   ],
+   "lastAsked": 2022,
+   "sample": "2022-maths-17",
+   "sampleQ": "$\\displaystyle\\int_0^1 \\dfrac{xe^x}{(2+x)^3}\\,dx$ is equal to"
+  },
+  {
+   "rank": 31,
+   "template": "mat-int-gif-definite",
+   "chapter": "Integrals",
+   "name": "Definite integral of greatest integer function",
+   "desc": "Split at integer points (or sqrt points for [x^2]) and sum constant pieces",
+   "probability": 0.12,
+   "timesAsked": 4,
+   "years": [
+    2012,
+    2017,
+    2019,
+    2022
+   ],
+   "lastAsked": 2022,
+   "sample": "2022-maths-7",
+   "sampleQ": "If [x] is the greatest integer function not greater than x then $\\displaystyle\\int_0^8 [x]\\,dx$ is equal to"
+  },
+  {
+   "rank": 32,
+   "template": "mat-int-reduction-formula",
+   "chapter": "Integrals",
+   "name": "Reduction formulas",
+   "desc": "I_n + I_{n-2} for tan^n x, or I_n + n I_{n-1} for (log x)^n",
+   "probability": 0.11,
+   "timesAsked": 3,
+   "years": [
+    2011,
+    2012,
+    2021
+   ],
+   "lastAsked": 2021,
+   "sample": "2021-maths-42",
+   "sampleQ": "If $I_n=\\displaystyle\\int_0^{\\pi/4}\\tan^n x\\,dx$ where n is a positive integer, then $I_{10}+I_8$ is equal to"
+  },
+  {
+   "rank": 33,
+   "template": "mat-int-by-parts",
+   "chapter": "Integrals",
+   "name": "Integration by parts",
+   "desc": "Apply parts (repeated/tabular) to x^n trig, inverse trig, or compare two definite integrals",
+   "probability": 0.12,
+   "timesAsked": 5,
+   "years": [
+    2011,
+    2013,
+    2014,
+    2019,
+    2020
+   ],
+   "lastAsked": 2020,
+   "sample": "2020-maths-30",
+   "sampleQ": "The value of $\\displaystyle\\int e^{\\sin x}\\sin 2x\\,dx$ is"
+  },
+  {
+   "rank": 34,
+   "template": "mat-int-one-plus-ex-symmetric",
+   "chapter": "Integrals",
+   "name": "g(x)/(1+e^x) over symmetric limits",
+   "desc": "Add I with x -> -x to get half the integral of g",
+   "probability": 0.08,
+   "timesAsked": 2,
+   "years": [
+    2017,
+    2020
+   ],
+   "lastAsked": 2020,
+   "sample": "2020-maths-32",
+   "sampleQ": "The value of $\\displaystyle\\int_{-\\pi/2}^{\\pi/2}\\dfrac{\\cos x}{1+e^x}\\,dx$ is"
+  },
+  {
+   "rank": 35,
+   "template": "mat-int-inverse-trig-symmetric",
+   "chapter": "Integrals",
+   "name": "Inverse trig over symmetric limits",
+   "desc": "Use cot^-1(-x)=pi-cot^-1 x or cos^-1(-x)=pi-cos^-1 x to evaluate over [-a,a]",
+   "probability": 0.08,
+   "timesAsked": 2,
+   "years": [
+    2019,
+    2020
+   ],
+   "lastAsked": 2020,
+   "sample": "2020-maths-31",
+   "sampleQ": "The value of $\\displaystyle\\int_{-1/2}^{1/2}\\cos^{-1}x\\,dx$ is"
+  },
+  {
+   "rank": 36,
+   "template": "mat-rel-domain",
+   "chapter": "Relations and Functions",
+   "name": "Domain of a real function",
+   "desc": "Find domain from square roots, logs, denominators, GIF using sign analysis",
+   "probability": 0.32,
+   "timesAsked": 8,
+   "years": [
+    2014,
+    2015,
+    2019,
+    2021,
+    2022,
+    2025,
+    2026
+   ],
+   "lastAsked": 2026,
+   "sample": "2026-maths-51",
+   "sampleQ": "The domain of the function $\\sqrt{\\dfrac{x-7}{9-x}}$ is"
+  },
+  {
+   "rank": 37,
+   "template": "mat-rel-inverse-function",
+   "chapter": "Relations and Functions",
+   "name": "Find inverse function / reflection in y=x",
+   "desc": "Solve y=f(x) for x to get f^{-1}, including reflection of graph in y=x",
+   "probability": 0.32,
+   "timesAsked": 4,
+   "years": [
+    2012,
+    2014,
+    2016,
+    2026
+   ],
+   "lastAsked": 2026,
+   "sample": "2026-maths-59",
+   "sampleQ": "$f(x)=(x+1)^2$ for $x\\ge1$. $g(x)$ is a function whose graph is the reflection of the graph of $f(x)$ in the line $y=x$, then $g(x)$ is"
+  },
+  {
+   "rank": 38,
+   "template": "mat-rel-relation-roster",
+   "chapter": "Relations and Functions",
+   "name": "Write relation in roster form",
+   "desc": "List the pairs of a relation defined by a rule on N, or test membership",
+   "probability": 0.29,
+   "timesAsked": 3,
+   "years": [
+    2022,
+    2023,
+    2026
+   ],
+   "lastAsked": 2026,
+   "sample": "2026-maths-58",
+   "sampleQ": "Let R be the relation in the set N given by $R=\\{(a,b):a=b-2,b>6\\}$. Which of the following is the correct answer?"
+  },
+  {
+   "rank": 39,
+   "template": "mat-rel-equivalence-count",
+   "chapter": "Relations and Functions",
+   "name": "Equivalence relations and classes count",
+   "desc": "Count minimum pairs, number of equivalence relations containing a pair, or size of an equivalence class",
+   "probability": 0.28,
+   "timesAsked": 3,
+   "years": [
+    2010,
+    2024,
+    2025
+   ],
+   "lastAsked": 2025,
+   "sample": "2025-maths-10",
+   "sampleQ": "Let A = {a, b, c}, then the number of equivalence relations on A containing (b, c) is"
+  },
+  {
+   "rank": 40,
+   "template": "mat-rel-evaluate-function",
+   "chapter": "Relations and Functions",
+   "name": "Evaluate function values / preimages",
+   "desc": "Evaluate piecewise or GIF-based functions, find preimages or constants a,b from given values",
+   "probability": 0.28,
+   "timesAsked": 6,
+   "years": [
+    2018,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+   ],
+   "lastAsked": 2025,
+   "sample": "2025-maths-4",
+   "sampleQ": "If $f(x) = \\sin([\\pi^2]x) - \\sin([-\\pi^2]x)$, where $[x]$ = greatest integer $\\leq x$, then which of the following is not true?"
+  },
+  {
+   "rank": 41,
+   "template": "mat-rel-one-one-onto",
+   "chapter": "Relations and Functions",
+   "name": "Classify a function as one-one/onto",
+   "desc": "Decide injective/surjective/bijective for a given (piecewise) function",
+   "probability": 0.28,
+   "timesAsked": 6,
+   "years": [
+    2009,
+    2014,
+    2015,
+    2017,
+    2021,
+    2025
+   ],
+   "lastAsked": 2025,
+   "sample": "2025-maths-11",
+   "sampleQ": "Let the functions \"f\" and \"g\" be $f: [0, \\pi/2] \\to R$ given by $f(x)=\\sin x$ and $g:[0,\\pi/2]\\to R$ given by $g(x)=\\cos x$, where R is the set of real numbers. Consider the following statements: Statement (I): f and g are one-one. Statement (II): f + g is one-one. Which of the following is correct?"
+  },
+  {
+   "rank": 42,
+   "template": "mat-rel-count-relations",
+   "chapter": "Relations and Functions",
+   "name": "Number of relations A to B",
+   "desc": "Use number of relations = 2^{mn} to find n(B)",
+   "probability": 0.26,
+   "timesAsked": 2,
+   "years": [
+    2020,
+    2026
+   ],
+   "lastAsked": 2026,
+   "sample": "2026-maths-52",
+   "sampleQ": "If $n(A)=2$ and the number of relations from set A to set B is 1024, then $n(B)$ is"
+  },
+  {
+   "rank": 43,
+   "template": "mat-rel-gif-equation",
+   "chapter": "Relations and Functions",
+   "name": "Equation in greatest integer function",
+   "desc": "Solve a quadratic in [x] and convert integer values to an interval",
+   "probability": 0.19,
+   "timesAsked": 1,
+   "years": [
+    2024
+   ],
+   "lastAsked": 2024,
+   "sample": "2024-maths-24",
+   "sampleQ": "If $[x]^2-5[x]+6=0$, where $[x]$ denotes the greatest integer function, then"
+  },
+  {
+   "rank": 44,
+   "template": "mat-rel-invertible-interval",
+   "chapter": "Relations and Functions",
+   "name": "Interval where a trig function is one-one",
+   "desc": "Write a sin x + b cos x as R sin(x+a) and find a monotonic interval where it is invertible",
+   "probability": 0.16,
+   "timesAsked": 2,
+   "years": [
+    2021,
+    2023
+   ],
+   "lastAsked": 2023,
+   "sample": "2023-maths-11",
+   "sampleQ": "Let $f(x) = \\sin 2x + \\cos 2x$ and $g(x) = x^2 - 1$, then $g(f(x))$ is invertible in the domain"
+  },
+  {
+   "rank": 45,
+   "template": "mat-rel-composition",
+   "chapter": "Relations and Functions",
+   "name": "Composition of functions",
+   "desc": "Compute fog, gof or f(f(x)), check which composite statement is false, or decompose",
+   "probability": 0.15,
+   "timesAsked": 7,
+   "years": [
+    2015,
+    2017,
+    2018,
+    2019,
+    2023,
+    2024
+   ],
+   "lastAsked": 2024,
+   "sample": "2024-maths-40",
+   "sampleQ": "Let $(gof)(x)=\\sin x$ and $(fog)(x)=(\\sin\\sqrt x)^2$. Then"
+  },
+  {
+   "rank": 46,
+   "template": "mat-rel-range",
+   "chapter": "Relations and Functions",
+   "name": "Range of a real function",
+   "desc": "Find range of a function over a given domain, or properties of log function",
+   "probability": 0.15,
+   "timesAsked": 4,
+   "years": [
+    2013,
+    2017,
+    2020,
+    2024
+   ],
+   "lastAsked": 2024,
+   "sample": "2024-maths-48",
+   "sampleQ": "Which one of the following observations is correct for the features of logarithm function to base b>1?"
+  },
+  {
+   "rank": 47,
+   "template": "mat-rel-count-functions",
+   "chapter": "Relations and Functions",
+   "name": "Count functions/injections/onto/binary operations",
+   "desc": "Count injective, bijective, onto or non-bijective maps, or binary operations n^{n^2}",
+   "probability": 0.12,
+   "timesAsked": 5,
+   "years": [
+    2016,
+    2018,
+    2019,
+    2020,
+    2022
+   ],
+   "lastAsked": 2022,
+   "sample": "2022-maths-51",
+   "sampleQ": "If the set x contains 7 elements and set y contains 8 elements, then the number of bijections from x to y is"
+  },
+  {
+   "rank": 48,
+   "template": "mat-rel-congruence-properties",
+   "chapter": "Relations and Functions",
+   "name": "Properties of congruence relation",
+   "desc": "Identify which operation preserves a = b (mod m)",
+   "probability": 0.14,
+   "timesAsked": 1,
+   "years": [
+    2012
+   ],
+   "lastAsked": 2012,
+   "sample": "2012-maths-1",
+   "sampleQ": "Which of the following is incorrect? If $a \\equiv b \\pmod{m}$ and $x$ is an integer, then"
+  },
+  {
+   "rank": 49,
+   "template": "mat-rel-binary-op-properties",
+   "chapter": "Relations and Functions",
+   "name": "Binary operation properties",
+   "desc": "Check whether * is a binary operation, commutative, associative",
+   "probability": 0.12,
+   "timesAsked": 4,
+   "years": [
+    2009,
+    2014,
+    2016,
+    2017
+   ],
+   "lastAsked": 2017,
+   "sample": "2017-maths-22",
+   "sampleQ": "Binary operation $*$ on $R-\\{-1\\}$ defined by $a*b=\\dfrac{a}{b+1}$ is"
+  },
+  {
+   "rank": 50,
+   "template": "mat-rel-relation-type",
+   "chapter": "Relations and Functions",
+   "name": "Reflexive/symmetric/transitive check",
+   "desc": "Test a given relation for reflexivity, symmetry, transitivity or equivalence",
+   "probability": 0.11,
+   "timesAsked": 3,
+   "years": [
+    2011,
+    2014,
+    2020
+   ],
+   "lastAsked": 2020,
+   "sample": "2020-maths-8",
+   "sampleQ": "If a relation R on the set $\\{1, 2, 3\\}$ be defined by $R = \\{(1, 1)\\}$, then R is"
+  },
+  {
+   "rank": 51,
+   "template": "mat-det-properties-statements",
+   "chapter": "Determinants",
+   "name": "Properties of determinants and adjoint (statements)",
+   "desc": "Pick correct/incorrect statements about det(AB), adj A, inverse, det(A+B)",
+   "probability": 0.32,
+   "timesAsked": 6,
+   "years": [
+    2012,
+    2014,
+    2021,
+    2026
+   ],
+   "lastAsked": 2026,
+   "sample": "2026-maths-19",
+   "sampleQ": "Which of the following is correct?"
+  },
+  {
+   "rank": 52,
+   "template": "mat-det-area-triangle",
+   "chapter": "Determinants",
+   "name": "Area of triangle by determinant",
+   "desc": "Area = (1/2)|det|; find area or unknown vertex, or scaling of det",
+   "probability": 0.32,
+   "timesAsked": 6,
+   "years": [
+    2015,
+    2017,
+    2018,
+    2022,
+    2023,
+    2026
+   ],
+   "lastAsked": 2026,
+   "sample": "2026-maths-22",
+   "sampleQ": "The area of the triangle with vertices $(3,8),(-4,2)$ and $(5,1)$ is $\\dfrac{P}{4}$, then the value of $P$ is"
+  },
+  {
+   "rank": 53,
+   "template": "mat-det-adjoint-entry",
+   "chapter": "Determinants",
+   "name": "Unknown entry of given adjoint",
+   "desc": "Use |adj A|=|A|^{n-1} to find unknown entry of the adjoint",
+   "probability": 0.29,
+   "timesAsked": 2,
+   "years": [
+    2024,
+    2025
+   ],
+   "lastAsked": 2025,
+   "sample": "2025-maths-33",
+   "sampleQ": "If $B=\\begin{bmatrix}1&3\\\\1&\\alpha\\end{bmatrix}$ be the adjoint of a matrix A and $|A|=2$, then the value of $\\alpha$ is"
+  },
+  {
+   "rank": 54,
+   "template": "mat-det-system-consistency",
+   "chapter": "Determinants",
+   "name": "Consistency of a linear system",
+   "desc": "Use determinant/ratio of coefficients to decide no/unique/infinite solutions",
+   "probability": 0.29,
+   "timesAsked": 3,
+   "years": [
+    2015,
+    2025,
+    2026
+   ],
+   "lastAsked": 2026,
+   "sample": "2026-maths-23",
+   "sampleQ": "The system of equations $x+2y=3$ and $2x+3y=3$ has"
+  },
+  {
+   "rank": 55,
+   "template": "mat-det-power-find-param",
+   "chapter": "Determinants",
+   "name": "Find parameter from det(A^n)",
+   "desc": "Use |A^n|=|A|^n to get |A| and solve for the entry",
+   "probability": 0.28,
+   "timesAsked": 3,
+   "years": [
+    2013,
+    2015,
+    2025
+   ],
+   "lastAsked": 2025,
+   "sample": "2025-maths-30",
+   "sampleQ": "If $A=\\begin{bmatrix}k&2\\\\2&k\\end{bmatrix}$ and $|A^3|=125$, then the value of k is"
+  },
+  {
+   "rank": 56,
+   "template": "mat-det-adj-inverse-value",
+   "chapter": "Determinants",
+   "name": "Values of det(adj A), det(A^{-1}), det(A adj A)",
+   "desc": "Use |adj A|=|A|^{n-1}, A adj A=|A|I, characteristic equation constant, det of cofactor matrix",
+   "probability": 0.28,
+   "timesAsked": 9,
+   "years": [
+    2009,
+    2010,
+    2012,
+    2013,
+    2014,
+    2019,
+    2020,
+    2022,
+    2025
+   ],
+   "lastAsked": 2025,
+   "sample": "2025-maths-32",
+   "sampleQ": "If A is a square matrix of order $3\\times3$, det A = 3, then the value of $\\det(3A^{-1})$ is"
+  },
+  {
+   "rank": 57,
+   "template": "mat-det-limit",
+   "chapter": "Determinants",
+   "name": "Limit of determinant function",
+   "desc": "Expand determinant and evaluate lim f(x)/x^2",
+   "probability": 0.25,
+   "timesAsked": 2,
+   "years": [
+    2012,
+    2024
+   ],
+   "lastAsked": 2024,
+   "sample": "2024-maths-47",
+   "sampleQ": "Let $f(x)=\\begin{vmatrix}\\cos x&x&1\\\\2\\sin x&x&2x\\\\sin x&x&x\\end{vmatrix}$. Then $\\displaystyle\\lim_{x\\to0}\\dfrac{f(x)}{x^2}=$"
+  },
+  {
+   "rank": 58,
+   "template": "mat-det-derivative",
+   "chapter": "Determinants",
+   "name": "Derivative of a determinant",
+   "desc": "Differentiate determinant function, express in terms of a smaller determinant",
+   "probability": 0.17,
+   "timesAsked": 3,
+   "years": [
+    2013,
+    2015,
+    2024
+   ],
+   "lastAsked": 2024,
+   "sample": "2024-maths-50",
+   "sampleQ": "If $A=\\begin{vmatrix}x&1\\\\1&x\\end{vmatrix}$ and $B=\\begin{vmatrix}x&1&1\\\\1&x&1\\\\1&1&x\\end{vmatrix}$, then $\\dfrac{dB}{dx}$ is"
+  },
+  {
+   "rank": 59,
+   "template": "mat-det-singular-param",
+   "chapter": "Determinants",
+   "name": "Singular matrix parameter",
+   "desc": "Set determinant=0 to find the unknown",
+   "probability": 0.16,
+   "timesAsked": 2,
+   "years": [
+    2011,
+    2023
+   ],
+   "lastAsked": 2023,
+   "sample": "2023-maths-16",
+   "sampleQ": "If $A = \\begin{bmatrix}2-k & 2\\\\1 & 3-k\\end{bmatrix}$ is a singular matrix, then the value of $5k - k^2$ is equal to"
+  },
+  {
+   "rank": 60,
+   "template": "mat-det-equal-transform",
+   "chapter": "Determinants",
+   "name": "Relate two transformed determinants",
+   "desc": "Multiply/divide rows by variables and transpose to show Delta_1 = +-Delta",
+   "probability": 0.16,
+   "timesAsked": 2,
+   "years": [
+    2017,
+    2023
+   ],
+   "lastAsked": 2023,
+   "sample": "2023-maths-18",
+   "sampleQ": "If $\\Delta = \\begin{vmatrix}1 & a & a^2\\\\1 & b & b^2\\\\1 & c & c^2\\end{vmatrix}$ and $\\Delta_1 = \\begin{vmatrix}1 & 1 & 1\\\\bc & ca & ab\\\\a & b & c\\end{vmatrix}$ then"
+  }
+ ],
+ "practiceList": [
+  {
+   "rank": 1,
+   "template": "mat-cd-derivative-wrt-function",
+   "chapter": "Continuity and Differentiability",
+   "name": "Derivative of one function w.r.t. another",
+   "desc": "Compute (du/dx)/(dv/dx), often after inverse-trig simplification",
+   "probability": 0.32,
+   "timesAsked": 6,
+   "years": [
+    2011,
+    2016,
+    2017,
+    2023,
+    2025,
+    2026
+   ],
+   "lastAsked": 2026,
+   "sample": "2026-maths-36",
+   "sampleQ": "The second order derivative of $\\sec^{-1}\\left(\\dfrac{1}{2x^2-1}\\right)$ with respect to $\\cos^{-1}(2x^2-1)$, where $0<x<\\dfrac{1}{\\sqrt2}$ is"
+  },
+  {
+   "rank": 2,
+   "template": "mat-cd-inverse-trig-derivative",
+   "chapter": "Continuity and Differentiability",
+   "name": "Derivative of inverse-trig composition",
+   "desc": "Simplify sin^-1(2x/(1+x^2)), tan^-1(...), cos^2(cot^-1 ...) by substitution then differentiate",
+   "probability": 0.32,
+   "timesAsked": 7,
+   "years": [
+    2011,
+    2013,
+    2017,
+    2019,
+    2020,
+    2024,
+    2026
+   ],
+   "lastAsked": 2026,
+   "sample": "2026-maths-37",
+   "sampleQ": "If $f(x)=\\sin^{-1}\\left(\\dfrac{2x}{1+x^2}\\right)$, then $f'\\left(\\dfrac12\\right)=$"
+  },
+  {
+   "rank": 3,
+   "template": "mat-cd-continuity-find-k",
+   "chapter": "Continuity and Differentiability",
+   "name": "Find k for continuity of piecewise function",
+   "desc": "Equate the limit (standard limits, L'Hospital-type) with f(a) to find k or a,b",
+   "probability": 0.32,
+   "timesAsked": 11,
+   "years": [
+    2009,
+    2011,
+    2012,
+    2014,
+    2015,
+    2017,
+    2018,
+    2019,
+    2020,
+    2026
+   ],
+   "lastAsked": 2026,
+   "sample": "2026-maths-35",
+   "sampleQ": "If $f(x)=\\begin{cases}ax+7 & \\text{if } x<1\\\\2x-3 & \\text{if } x=1\\\\dfrac{x+b}{b} & \\text{if } x>1\\end{cases}$ is continuous at $x=1$, then"
+  },
+  {
+   "rank": 4,
+   "template": "mat-cd-implicit",
+   "chapter": "Continuity and Differentiability",
+   "name": "Implicit differentiation",
+   "desc": "Differentiate implicit relations (x^m y^n=(x+y)^{m+n}, 2^x+2^y=2^{x+y}, cos y = x cos(a+y))",
+   "probability": 0.32,
+   "timesAsked": 7,
+   "years": [
+    2011,
+    2016,
+    2018,
+    2019,
+    2020,
+    2026
+   ],
+   "lastAsked": 2026,
+   "sample": "2026-maths-38",
+   "sampleQ": "If $\\sqrt x\\,\\sqrt[3]{y}=(x+y)^n$ and $x\\dfrac{dy}{dx}-y=0$, then $n=$"
+  },
+  {
+   "rank": 5,
+   "template": "mat-cd-e-one-by-x-limits",
+   "chapter": "Continuity and Differentiability",
+   "name": "One-sided limits of (e^{1/x}-1)/(e^{1/x}+1)",
+   "desc": "Evaluate LHL=-1, RHL=1 and conclude discontinuity at 0",
+   "probability": 0.29,
+   "timesAsked": 2,
+   "years": [
+    2020,
+    2025
+   ],
+   "lastAsked": 2025,
+   "sample": "2025-maths-46",
+   "sampleQ": "A function $f(x)=\\begin{cases}\\dfrac{e^{1/x}-1}{e^{1/x}+1}, & x\\neq0\\\\ 0, & x=0\\end{cases}$, is"
+  },
+  {
+   "rank": 6,
+   "template": "mat-cd-differentiability-check",
+   "chapter": "Continuity and Differentiability",
+   "name": "Continuity and differentiability at a point",
+   "desc": "Check LHD/RHD for modulus/piecewise functions, graph corners, match properties",
+   "probability": 0.28,
+   "timesAsked": 6,
+   "years": [
+    2010,
+    2013,
+    2014,
+    2021,
+    2024,
+    2025
+   ],
+   "lastAsked": 2025,
+   "sample": "2025-maths-44",
+   "sampleQ": "Match the following: In the following, [x] denotes the greatest integer less than or equal to x. Column-I: (a) $x|x|$ (b) $\\sqrt{|x|}$ (c) $x+[x]$ (d) $|x-1|+|x+1|$. Column-II: (i) continuous in (-1,1) (ii) differentiable in (-1,1) (iii) strictly increasing in (-1,1) (iv) not differentiable at, at least one point in (-1,1)"
+  },
+  {
+   "rank": 7,
+   "template": "mat-cd-standard-rules",
+   "chapter": "Continuity and Differentiability",
+   "name": "Standard derivative rules",
+   "desc": "Apply chain/product/quotient rules to evaluate derivatives, including GIF constants and determinants",
+   "probability": 0.28,
+   "timesAsked": 17,
+   "years": [
+    2009,
+    2010,
+    2011,
+    2012,
+    2014,
+    2015,
+    2017,
+    2018,
+    2019,
+    2021,
+    2022,
+    2023,
+    2025
+   ],
+   "lastAsked": 2025,
+   "sample": "2025-maths-43",
+   "sampleQ": "If $y=\\dfrac{\\cos x}{1+\\sin x}$, then (a) $\\dfrac{dy}{dx}=\\dfrac{-1}{1+\\sin x}$ (b) $\\dfrac{dy}{dx}=\\dfrac{1}{1+\\sin x}$ (c) $\\dfrac{dy}{dx}=-\\dfrac12\\sec^2\\left(\\dfrac{\\pi}{4}-\\dfrac{x}{2}\\right)$ (d) $\\dfrac{dy}{dx}=\\dfrac12\\sec^2\\left(\\dfrac{\\pi}{4}-\\dfrac{x}{2}\\right)$"
+  },
+  {
+   "rank": 8,
+   "template": "mat-cd-parametric",
+   "chapter": "Continuity and Differentiability",
+   "name": "Parametric differentiation",
+   "desc": "dy/dx = (dy/dt)/(dx/dt) for given parametric forms, value at a point or where zero",
+   "probability": 0.28,
+   "timesAsked": 8,
+   "years": [
+    2010,
+    2015,
+    2016,
+    2017,
+    2021,
+    2022,
+    2025
+   ],
+   "lastAsked": 2025,
+   "sample": "2025-maths-47",
+   "sampleQ": "If $y=a\\sin^3t, x=a\\cos^3t$, then $\\dfrac{dy}{dx}$ at $t=\\dfrac{3\\pi}{4}$ is"
+  },
+  {
+   "rank": 9,
+   "template": "mat-cd-second-derivative",
+   "chapter": "Continuity and Differentiability",
+   "name": "Evaluate a second derivative",
+   "desc": "Compute y'' directly, parametrically, implicitly, or f''(1) of a binomial sum",
+   "probability": 0.26,
+   "timesAsked": 6,
+   "years": [
+    2009,
+    2017,
+    2019,
+    2022,
+    2023
+   ],
+   "lastAsked": 2023,
+   "sample": "2023-maths-24",
+   "sampleQ": "If $f(x) = 1 + nx + \\dfrac{n(n-1)}{2}x^2 + \\dfrac{n(n-1)(n-2)}{6}x^3 + \\cdots + x^n$ then $f''(1) =$"
+  },
+  {
+   "rank": 10,
+   "template": "mat-cd-discontinuity-points",
+   "chapter": "Continuity and Differentiability",
+   "name": "Points of continuity/discontinuity",
+   "desc": "Where [x], cot x, f(f(x)) or rational/irrational-defined functions are (dis)continuous",
+   "probability": 0.26,
+   "timesAsked": 6,
+   "years": [
+    2010,
+    2013,
+    2015,
+    2016,
+    2023
+   ],
+   "lastAsked": 2023,
+   "sample": "2023-maths-21",
+   "sampleQ": "The function $f(x) = \\cot x$ is discontinuous on every point of the set"
+  },
+  {
+   "rank": 11,
+   "template": "mat-cd-derivative-identity",
+   "chapter": "Continuity and Differentiability",
+   "name": "Higher-derivative identity / ODE satisfied",
+   "desc": "Show y satisfies (1-x^2)y''-xy'=m^2y type relations; f''+f=0 invariants; y^2+y'^2 constant",
+   "probability": 0.26,
+   "timesAsked": 9,
+   "years": [
+    2010,
+    2011,
+    2012,
+    2013,
+    2014,
+    2020,
+    2023
+   ],
+   "lastAsked": 2023,
+   "sample": "2023-maths-23",
+   "sampleQ": "If $y = a \\sin x + b \\cos x$, then $y^2 + \\left(\\dfrac{dy}{dx}\\right)^2$ is a"
+  },
+  {
+   "rank": 12,
+   "template": "mat-cd-infinite-radical",
+   "chapter": "Continuity and Differentiability",
+   "name": "Infinite nested radical derivative",
+   "desc": "Write y^2 = x + y (or tan x + y) and differentiate implicitly",
+   "probability": 0.26,
+   "timesAsked": 2,
+   "years": [
+    2018,
+    2026
+   ],
+   "lastAsked": 2026,
+   "sample": "2026-maths-34",
+   "sampleQ": "If $y=\\sqrt{\\tan x+y}$, then $\\dfrac{dy}{dx}=$"
+  },
+  {
+   "rank": 13,
+   "template": "mat-cd-differentiable-find-constants",
+   "chapter": "Continuity and Differentiability",
+   "name": "Constants for differentiability",
+   "desc": "Equate values and one-sided derivatives at the joint to find a, b",
+   "probability": 0.25,
+   "timesAsked": 1,
+   "years": [
+    2025
+   ],
+   "lastAsked": 2025,
+   "sample": "2025-maths-45",
+   "sampleQ": "The function $f(x)=\\begin{cases}e^x+ax, & x<0\\\\ b(x-1)^2, & x\\geq0\\end{cases}$ is differentiable at x = 0. Then"
+  },
+  {
+   "rank": 14,
+   "template": "mat-cd-log-differentiation",
+   "chapter": "Continuity and Differentiability",
+   "name": "Logarithmic differentiation",
+   "desc": "Differentiate x^x, x^{sin x}, products of many factors using logs",
+   "probability": 0.15,
+   "timesAsked": 8,
+   "years": [
+    2011,
+    2014,
+    2016,
+    2020,
+    2021,
+    2022,
+    2024
+   ],
+   "lastAsked": 2024,
+   "sample": "2024-maths-5",
+   "sampleQ": "If $y=2x^{3x}$, then $\\dfrac{dy}{dx}$ at $x=1$ is"
+  },
+  {
+   "rank": 15,
+   "template": "mat-cd-abstract-chain-rule",
+   "chapter": "Continuity and Differentiability",
+   "name": "Chain rule with abstract functions",
+   "desc": "Use f(1), f'(1) data, f(x+y)=f(x)f(y), even/odd derivative facts to find derivative values",
+   "probability": 0.15,
+   "timesAsked": 5,
+   "years": [
+    2009,
+    2012,
+    2015,
+    2022,
+    2024
+   ],
+   "lastAsked": 2024,
+   "sample": "2024-maths-6",
+   "sampleQ": "Let the function satisfy the equation $f(x+y)=f(x)f(y)$ for all $x,y\\in R$, where $f(0)\\neq 0$. If $f(5)=3$ and $f'(0)=2$, then $f'(5)$ is"
+  },
+  {
+   "rank": 16,
+   "template": "mat-cd-exp-function-features",
+   "chapter": "Continuity and Differentiability",
+   "name": "Features of exponential function",
+   "desc": "Domain, range, intercept and monotonicity of b^x",
+   "probability": 0.14,
+   "timesAsked": 1,
+   "years": [
+    2014
+   ],
+   "lastAsked": 2014,
+   "sample": "2014-maths-28",
+   "sampleQ": "Which one of the following is not correct for the features of exponential function given by f(x) = $b^x$ where b > 1?"
+  },
+  {
+   "rank": 17,
+   "template": "mat-cd-rolle-mvt",
+   "chapter": "Continuity and Differentiability",
+   "name": "Rolle's theorem / Mean Value Theorem",
+   "desc": "Find c in MVT or decide where Rolle's theorem fails",
+   "probability": 0.08,
+   "timesAsked": 2,
+   "years": [
+    2017,
+    2019
+   ],
+   "lastAsked": 2019,
+   "sample": "2019-maths-2",
+   "sampleQ": "Rolle's theorem is not applicable in which one of the following cases?"
+  },
+  {
+   "rank": 18,
+   "template": "mat-int-trig-identity-simplify",
+   "chapter": "Integrals",
+   "name": "Simplify with trig/exp identities then integrate",
+   "desc": "Use factor formulas, half angles, e^{k log x}=x^k to reduce integrand to standard ones",
+   "probability": 0.32,
+   "timesAsked": 10,
+   "years": [
+    2009,
+    2015,
+    2016,
+    2017,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+   ],
+   "lastAsked": 2026,
+   "sample": "2026-maths-45",
+   "sampleQ": "$\\int e^{-x\\log 2}2^x dx=$"
+  },
+  {
+   "rank": 19,
+   "template": "mat-int-odd-even",
+   "chapter": "Integrals",
+   "name": "Odd/even function over symmetric limits",
+   "desc": "Odd integrand over [-a,a] gives 0; even doubles; shift to make odd",
+   "probability": 0.32,
+   "timesAsked": 6,
+   "years": [
+    2014,
+    2016,
+    2023,
+    2024,
+    2025,
+    2026
+   ],
+   "lastAsked": 2026,
+   "sample": "2026-maths-42",
+   "sampleQ": "One of the possible functions $f(x)$ which satisfies $\\int_{-2}^2 f(x)dx=0$ is"
+  },
+  {
+   "rank": 20,
+   "template": "mat-int-x2-x4-power-sub",
+   "chapter": "Integrals",
+   "name": "int dx/(x^2(x^4+1)^{3/4})",
+   "desc": "Take x^4 out, substitute 1+x^{-4}=t",
+   "probability": 0.29,
+   "timesAsked": 2,
+   "years": [
+    2015,
+    2025
+   ],
+   "lastAsked": 2025,
+   "sample": "2025-maths-54",
+   "sampleQ": "$\\displaystyle\\int \\dfrac{dx}{x^2(x^4+1)^{3/4}}$ equals"
+  },
+  {
+   "rank": 21,
+   "template": "mat-int-partial-fractions",
+   "chapter": "Integrals",
+   "name": "Partial fractions in integration",
+   "desc": "Decompose rational integrands to find A,B,C coefficients or the integral",
+   "probability": 0.28,
+   "timesAsked": 6,
+   "years": [
+    2012,
+    2019,
+    2020,
+    2022,
+    2024,
+    2025
+   ],
+   "lastAsked": 2025,
+   "sample": "2025-maths-51",
+   "sampleQ": "The value of $\\displaystyle\\int \\dfrac{dx}{(x+1)(x+2)}$ is"
+  },
+  {
+   "rank": 22,
+   "template": "mat-int-king-log-xf",
+   "chapter": "Integrals",
+   "name": "King property for x f(x) or log integrands",
+   "desc": "Use f(a+b-x)=f(x) to reduce int x f(x), or log(1+tan x)-type integrals to (pi/8) log 2 form",
+   "probability": 0.28,
+   "timesAsked": 5,
+   "years": [
+    2014,
+    2015,
+    2020,
+    2023,
+    2025
+   ],
+   "lastAsked": 2025,
+   "sample": "2025-maths-55",
+   "sampleQ": "$\\displaystyle\\int_0^1\\log\\left(\\dfrac1x-1\\right)dx$ is"
+  },
+  {
+   "rank": 23,
+   "template": "mat-int-king-symmetric",
+   "chapter": "Integrals",
+   "name": "King property f/(f+f(a+b-x))",
+   "desc": "Use x -> a+b-x so I = (b-a)/2 for symmetric ratio integrands",
+   "probability": 0.26,
+   "timesAsked": 8,
+   "years": [
+    2009,
+    2012,
+    2013,
+    2016,
+    2017,
+    2021,
+    2023
+   ],
+   "lastAsked": 2023,
+   "sample": "2023-maths-30",
+   "sampleQ": "$\\displaystyle\\int_{2}^{8} \\dfrac{5^{\\sqrt{10-x}}}{5^{\\sqrt x}+5^{\\sqrt{10-x}}}\\,dx =$"
+  },
+  {
+   "rank": 24,
+   "template": "mat-int-tan-cot-power-sub",
+   "chapter": "Integrals",
+   "name": "sin^n/cos^{n+2} and cos^{n-1}/sin^{n+1} forms",
+   "desc": "Write as tan^n sec^2 or cot^{n-1} cosec^2 and substitute",
+   "probability": 0.26,
+   "timesAsked": 2,
+   "years": [
+    2013,
+    2026
+   ],
+   "lastAsked": 2026,
+   "sample": "2026-maths-44",
+   "sampleQ": "If 'n' is a natural number, then $\\int \\dfrac{\\sin^n x}{\\cos^{n+2}x}dx=$"
+  },
+  {
+   "rank": 25,
+   "template": "mat-int-change-of-limits",
+   "chapter": "Integrals",
+   "name": "Shift property of definite integrals",
+   "desc": "int_{a-c}^{b-c} f(x+c)dx = int_a^b f(x)dx",
+   "probability": 0.2,
+   "timesAsked": 1,
+   "years": [
+    2026
+   ],
+   "lastAsked": 2026,
+   "sample": "2026-maths-43",
+   "sampleQ": "$\\int_{a-6}^{b-6}f(x+6)dx$ is equal to"
+  },
+  {
+   "rank": 26,
+   "template": "mat-int-standard-forms",
+   "chapter": "Integrals",
+   "name": "Standard forms: quadratics and a sin^2+b cos^2",
+   "desc": "Complete square for sqrt(ax^2+bx+c), 1/sqrt(...), divide by cos^2 to get tan^-1 forms",
+   "probability": 0.15,
+   "timesAsked": 8,
+   "years": [
+    2017,
+    2018,
+    2020,
+    2021,
+    2023,
+    2024
+   ],
+   "lastAsked": 2024,
+   "sample": "2024-maths-52",
+   "sampleQ": "$\\displaystyle\\int\\dfrac{\\sin x}{3+4\\cos^2x}dx=$"
+  },
+  {
+   "rank": 27,
+   "template": "mat-int-modulus-definite",
+   "chapter": "Integrals",
+   "name": "Definite integral of modulus function",
+   "desc": "Split at zeros of the expression inside |.| and integrate piecewise",
+   "probability": 0.15,
+   "timesAsked": 6,
+   "years": [
+    2009,
+    2011,
+    2013,
+    2017,
+    2018,
+    2024
+   ],
+   "lastAsked": 2024,
+   "sample": "2024-maths-9",
+   "sampleQ": "$\\displaystyle\\int_1^5\\left(|x-3|+|1-x|\\right)dx=$"
+  },
+  {
+   "rank": 28,
+   "template": "mat-int-limit-of-sum",
+   "chapter": "Integrals",
+   "name": "Definite integral as limit of sum",
+   "desc": "Evaluate int_a^b f as limit of Riemann sum (value equals the definite integral)",
+   "probability": 0.14,
+   "timesAsked": 1,
+   "years": [
+    2022
+   ],
+   "lastAsked": 2022,
+   "sample": "2022-maths-14",
+   "sampleQ": "Evaluate $\\displaystyle\\int_2^3 x^2\\,dx$ as the limit of a sum"
+  },
+  {
+   "rank": 29,
+   "template": "mat-int-substitution",
+   "chapter": "Integrals",
+   "name": "Integration by substitution",
+   "desc": "Choose t = g(x) (sqrt x, e^x, sin x, tan^-1 x^4, log x) for indefinite or definite integrals",
+   "probability": 0.12,
+   "timesAsked": 15,
+   "years": [
+    2009,
+    2010,
+    2014,
+    2016,
+    2018,
+    2019,
+    2021,
+    2022
+   ],
+   "lastAsked": 2022,
+   "sample": "2022-maths-8",
+   "sampleQ": "$\\displaystyle\\int_0^{\\pi/2}\\sqrt{\\sin\\theta}\\cos^3\\theta\\,d\\theta$ is equal to"
+  },
+  {
+   "rank": 30,
+   "template": "mat-int-ex-f-plus-fprime",
+   "chapter": "Integrals",
+   "name": "e^x[f(x)+f'(x)] form",
+   "desc": "Recognise integrand as e^{g}(f+f') (incl. (x-1)e^x/(x+1)^3, e^x(1+sin x)/(1+cos x)) giving e^x f(x)",
+   "probability": 0.12,
+   "timesAsked": 10,
+   "years": [
+    2009,
+    2011,
+    2013,
+    2015,
+    2016,
+    2017,
+    2018,
+    2021,
+    2022
+   ],
+   "lastAsked": 2022,
+   "sample": "2022-maths-17",
+   "sampleQ": "$\\displaystyle\\int_0^1 \\dfrac{xe^x}{(2+x)^3}\\,dx$ is equal to"
+  },
+  {
+   "rank": 31,
+   "template": "mat-int-gif-definite",
+   "chapter": "Integrals",
+   "name": "Definite integral of greatest integer function",
+   "desc": "Split at integer points (or sqrt points for [x^2]) and sum constant pieces",
+   "probability": 0.12,
+   "timesAsked": 4,
+   "years": [
+    2012,
+    2017,
+    2019,
+    2022
+   ],
+   "lastAsked": 2022,
+   "sample": "2022-maths-7",
+   "sampleQ": "If [x] is the greatest integer function not greater than x then $\\displaystyle\\int_0^8 [x]\\,dx$ is equal to"
+  },
+  {
+   "rank": 32,
+   "template": "mat-int-reduction-formula",
+   "chapter": "Integrals",
+   "name": "Reduction formulas",
+   "desc": "I_n + I_{n-2} for tan^n x, or I_n + n I_{n-1} for (log x)^n",
+   "probability": 0.11,
+   "timesAsked": 3,
+   "years": [
+    2011,
+    2012,
+    2021
+   ],
+   "lastAsked": 2021,
+   "sample": "2021-maths-42",
+   "sampleQ": "If $I_n=\\displaystyle\\int_0^{\\pi/4}\\tan^n x\\,dx$ where n is a positive integer, then $I_{10}+I_8$ is equal to"
+  },
+  {
+   "rank": 33,
+   "template": "mat-int-by-parts",
+   "chapter": "Integrals",
+   "name": "Integration by parts",
+   "desc": "Apply parts (repeated/tabular) to x^n trig, inverse trig, or compare two definite integrals",
+   "probability": 0.12,
+   "timesAsked": 5,
+   "years": [
+    2011,
+    2013,
+    2014,
+    2019,
+    2020
+   ],
+   "lastAsked": 2020,
+   "sample": "2020-maths-30",
+   "sampleQ": "The value of $\\displaystyle\\int e^{\\sin x}\\sin 2x\\,dx$ is"
+  },
+  {
+   "rank": 34,
+   "template": "mat-int-one-plus-ex-symmetric",
+   "chapter": "Integrals",
+   "name": "g(x)/(1+e^x) over symmetric limits",
+   "desc": "Add I with x -> -x to get half the integral of g",
+   "probability": 0.08,
+   "timesAsked": 2,
+   "years": [
+    2017,
+    2020
+   ],
+   "lastAsked": 2020,
+   "sample": "2020-maths-32",
+   "sampleQ": "The value of $\\displaystyle\\int_{-\\pi/2}^{\\pi/2}\\dfrac{\\cos x}{1+e^x}\\,dx$ is"
+  },
+  {
+   "rank": 35,
+   "template": "mat-int-inverse-trig-symmetric",
+   "chapter": "Integrals",
+   "name": "Inverse trig over symmetric limits",
+   "desc": "Use cot^-1(-x)=pi-cot^-1 x or cos^-1(-x)=pi-cos^-1 x to evaluate over [-a,a]",
+   "probability": 0.08,
+   "timesAsked": 2,
+   "years": [
+    2019,
+    2020
+   ],
+   "lastAsked": 2020,
+   "sample": "2020-maths-31",
+   "sampleQ": "The value of $\\displaystyle\\int_{-1/2}^{1/2}\\cos^{-1}x\\,dx$ is"
+  },
+  {
+   "rank": 36,
+   "template": "mat-rel-domain",
+   "chapter": "Relations and Functions",
+   "name": "Domain of a real function",
+   "desc": "Find domain from square roots, logs, denominators, GIF using sign analysis",
+   "probability": 0.32,
+   "timesAsked": 8,
+   "years": [
+    2014,
+    2015,
+    2019,
+    2021,
+    2022,
+    2025,
+    2026
+   ],
+   "lastAsked": 2026,
+   "sample": "2026-maths-51",
+   "sampleQ": "The domain of the function $\\sqrt{\\dfrac{x-7}{9-x}}$ is"
+  },
+  {
+   "rank": 37,
+   "template": "mat-rel-inverse-function",
+   "chapter": "Relations and Functions",
+   "name": "Find inverse function / reflection in y=x",
+   "desc": "Solve y=f(x) for x to get f^{-1}, including reflection of graph in y=x",
+   "probability": 0.32,
+   "timesAsked": 4,
+   "years": [
+    2012,
+    2014,
+    2016,
+    2026
+   ],
+   "lastAsked": 2026,
+   "sample": "2026-maths-59",
+   "sampleQ": "$f(x)=(x+1)^2$ for $x\\ge1$. $g(x)$ is a function whose graph is the reflection of the graph of $f(x)$ in the line $y=x$, then $g(x)$ is"
+  },
+  {
+   "rank": 38,
+   "template": "mat-rel-relation-roster",
+   "chapter": "Relations and Functions",
+   "name": "Write relation in roster form",
+   "desc": "List the pairs of a relation defined by a rule on N, or test membership",
+   "probability": 0.29,
+   "timesAsked": 3,
+   "years": [
+    2022,
+    2023,
+    2026
+   ],
+   "lastAsked": 2026,
+   "sample": "2026-maths-58",
+   "sampleQ": "Let R be the relation in the set N given by $R=\\{(a,b):a=b-2,b>6\\}$. Which of the following is the correct answer?"
+  },
+  {
+   "rank": 39,
+   "template": "mat-rel-equivalence-count",
+   "chapter": "Relations and Functions",
+   "name": "Equivalence relations and classes count",
+   "desc": "Count minimum pairs, number of equivalence relations containing a pair, or size of an equivalence class",
+   "probability": 0.28,
+   "timesAsked": 3,
+   "years": [
+    2010,
+    2024,
+    2025
+   ],
+   "lastAsked": 2025,
+   "sample": "2025-maths-10",
+   "sampleQ": "Let A = {a, b, c}, then the number of equivalence relations on A containing (b, c) is"
+  },
+  {
+   "rank": 40,
+   "template": "mat-rel-evaluate-function",
+   "chapter": "Relations and Functions",
+   "name": "Evaluate function values / preimages",
+   "desc": "Evaluate piecewise or GIF-based functions, find preimages or constants a,b from given values",
+   "probability": 0.28,
+   "timesAsked": 6,
+   "years": [
+    2018,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+   ],
+   "lastAsked": 2025,
+   "sample": "2025-maths-4",
+   "sampleQ": "If $f(x) = \\sin([\\pi^2]x) - \\sin([-\\pi^2]x)$, where $[x]$ = greatest integer $\\leq x$, then which of the following is not true?"
+  },
+  {
+   "rank": 41,
+   "template": "mat-rel-one-one-onto",
+   "chapter": "Relations and Functions",
+   "name": "Classify a function as one-one/onto",
+   "desc": "Decide injective/surjective/bijective for a given (piecewise) function",
+   "probability": 0.28,
+   "timesAsked": 6,
+   "years": [
+    2009,
+    2014,
+    2015,
+    2017,
+    2021,
+    2025
+   ],
+   "lastAsked": 2025,
+   "sample": "2025-maths-11",
+   "sampleQ": "Let the functions \"f\" and \"g\" be $f: [0, \\pi/2] \\to R$ given by $f(x)=\\sin x$ and $g:[0,\\pi/2]\\to R$ given by $g(x)=\\cos x$, where R is the set of real numbers. Consider the following statements: Statement (I): f and g are one-one. Statement (II): f + g is one-one. Which of the following is correct?"
+  },
+  {
+   "rank": 42,
+   "template": "mat-rel-count-relations",
+   "chapter": "Relations and Functions",
+   "name": "Number of relations A to B",
+   "desc": "Use number of relations = 2^{mn} to find n(B)",
+   "probability": 0.26,
+   "timesAsked": 2,
+   "years": [
+    2020,
+    2026
+   ],
+   "lastAsked": 2026,
+   "sample": "2026-maths-52",
+   "sampleQ": "If $n(A)=2$ and the number of relations from set A to set B is 1024, then $n(B)$ is"
+  },
+  {
+   "rank": 43,
+   "template": "mat-rel-gif-equation",
+   "chapter": "Relations and Functions",
+   "name": "Equation in greatest integer function",
+   "desc": "Solve a quadratic in [x] and convert integer values to an interval",
+   "probability": 0.19,
+   "timesAsked": 1,
+   "years": [
+    2024
+   ],
+   "lastAsked": 2024,
+   "sample": "2024-maths-24",
+   "sampleQ": "If $[x]^2-5[x]+6=0$, where $[x]$ denotes the greatest integer function, then"
+  },
+  {
+   "rank": 44,
+   "template": "mat-rel-invertible-interval",
+   "chapter": "Relations and Functions",
+   "name": "Interval where a trig function is one-one",
+   "desc": "Write a sin x + b cos x as R sin(x+a) and find a monotonic interval where it is invertible",
+   "probability": 0.16,
+   "timesAsked": 2,
+   "years": [
+    2021,
+    2023
+   ],
+   "lastAsked": 2023,
+   "sample": "2023-maths-11",
+   "sampleQ": "Let $f(x) = \\sin 2x + \\cos 2x$ and $g(x) = x^2 - 1$, then $g(f(x))$ is invertible in the domain"
+  },
+  {
+   "rank": 45,
+   "template": "mat-rel-composition",
+   "chapter": "Relations and Functions",
+   "name": "Composition of functions",
+   "desc": "Compute fog, gof or f(f(x)), check which composite statement is false, or decompose",
+   "probability": 0.15,
+   "timesAsked": 7,
+   "years": [
+    2015,
+    2017,
+    2018,
+    2019,
+    2023,
+    2024
+   ],
+   "lastAsked": 2024,
+   "sample": "2024-maths-40",
+   "sampleQ": "Let $(gof)(x)=\\sin x$ and $(fog)(x)=(\\sin\\sqrt x)^2$. Then"
+  },
+  {
+   "rank": 46,
+   "template": "mat-rel-range",
+   "chapter": "Relations and Functions",
+   "name": "Range of a real function",
+   "desc": "Find range of a function over a given domain, or properties of log function",
+   "probability": 0.15,
+   "timesAsked": 4,
+   "years": [
+    2013,
+    2017,
+    2020,
+    2024
+   ],
+   "lastAsked": 2024,
+   "sample": "2024-maths-48",
+   "sampleQ": "Which one of the following observations is correct for the features of logarithm function to base b>1?"
+  },
+  {
+   "rank": 47,
+   "template": "mat-rel-count-functions",
+   "chapter": "Relations and Functions",
+   "name": "Count functions/injections/onto/binary operations",
+   "desc": "Count injective, bijective, onto or non-bijective maps, or binary operations n^{n^2}",
+   "probability": 0.12,
+   "timesAsked": 5,
+   "years": [
+    2016,
+    2018,
+    2019,
+    2020,
+    2022
+   ],
+   "lastAsked": 2022,
+   "sample": "2022-maths-51",
+   "sampleQ": "If the set x contains 7 elements and set y contains 8 elements, then the number of bijections from x to y is"
+  },
+  {
+   "rank": 48,
+   "template": "mat-rel-congruence-properties",
+   "chapter": "Relations and Functions",
+   "name": "Properties of congruence relation",
+   "desc": "Identify which operation preserves a = b (mod m)",
+   "probability": 0.14,
+   "timesAsked": 1,
+   "years": [
+    2012
+   ],
+   "lastAsked": 2012,
+   "sample": "2012-maths-1",
+   "sampleQ": "Which of the following is incorrect? If $a \\equiv b \\pmod{m}$ and $x$ is an integer, then"
+  },
+  {
+   "rank": 49,
+   "template": "mat-rel-binary-op-properties",
+   "chapter": "Relations and Functions",
+   "name": "Binary operation properties",
+   "desc": "Check whether * is a binary operation, commutative, associative",
+   "probability": 0.12,
+   "timesAsked": 4,
+   "years": [
+    2009,
+    2014,
+    2016,
+    2017
+   ],
+   "lastAsked": 2017,
+   "sample": "2017-maths-22",
+   "sampleQ": "Binary operation $*$ on $R-\\{-1\\}$ defined by $a*b=\\dfrac{a}{b+1}$ is"
+  },
+  {
+   "rank": 50,
+   "template": "mat-rel-relation-type",
+   "chapter": "Relations and Functions",
+   "name": "Reflexive/symmetric/transitive check",
+   "desc": "Test a given relation for reflexivity, symmetry, transitivity or equivalence",
+   "probability": 0.11,
+   "timesAsked": 3,
+   "years": [
+    2011,
+    2014,
+    2020
+   ],
+   "lastAsked": 2020,
+   "sample": "2020-maths-8",
+   "sampleQ": "If a relation R on the set $\\{1, 2, 3\\}$ be defined by $R = \\{(1, 1)\\}$, then R is"
+  },
+  {
+   "rank": 51,
+   "template": "mat-det-properties-statements",
+   "chapter": "Determinants",
+   "name": "Properties of determinants and adjoint (statements)",
+   "desc": "Pick correct/incorrect statements about det(AB), adj A, inverse, det(A+B)",
+   "probability": 0.32,
+   "timesAsked": 6,
+   "years": [
+    2012,
+    2014,
+    2021,
+    2026
+   ],
+   "lastAsked": 2026,
+   "sample": "2026-maths-19",
+   "sampleQ": "Which of the following is correct?"
+  },
+  {
+   "rank": 52,
+   "template": "mat-det-area-triangle",
+   "chapter": "Determinants",
+   "name": "Area of triangle by determinant",
+   "desc": "Area = (1/2)|det|; find area or unknown vertex, or scaling of det",
+   "probability": 0.32,
+   "timesAsked": 6,
+   "years": [
+    2015,
+    2017,
+    2018,
+    2022,
+    2023,
+    2026
+   ],
+   "lastAsked": 2026,
+   "sample": "2026-maths-22",
+   "sampleQ": "The area of the triangle with vertices $(3,8),(-4,2)$ and $(5,1)$ is $\\dfrac{P}{4}$, then the value of $P$ is"
+  },
+  {
+   "rank": 53,
+   "template": "mat-det-adjoint-entry",
+   "chapter": "Determinants",
+   "name": "Unknown entry of given adjoint",
+   "desc": "Use |adj A|=|A|^{n-1} to find unknown entry of the adjoint",
+   "probability": 0.29,
+   "timesAsked": 2,
+   "years": [
+    2024,
+    2025
+   ],
+   "lastAsked": 2025,
+   "sample": "2025-maths-33",
+   "sampleQ": "If $B=\\begin{bmatrix}1&3\\\\1&\\alpha\\end{bmatrix}$ be the adjoint of a matrix A and $|A|=2$, then the value of $\\alpha$ is"
+  },
+  {
+   "rank": 54,
+   "template": "mat-det-system-consistency",
+   "chapter": "Determinants",
+   "name": "Consistency of a linear system",
+   "desc": "Use determinant/ratio of coefficients to decide no/unique/infinite solutions",
+   "probability": 0.29,
+   "timesAsked": 3,
+   "years": [
+    2015,
+    2025,
+    2026
+   ],
+   "lastAsked": 2026,
+   "sample": "2026-maths-23",
+   "sampleQ": "The system of equations $x+2y=3$ and $2x+3y=3$ has"
+  },
+  {
+   "rank": 55,
+   "template": "mat-det-power-find-param",
+   "chapter": "Determinants",
+   "name": "Find parameter from det(A^n)",
+   "desc": "Use |A^n|=|A|^n to get |A| and solve for the entry",
+   "probability": 0.28,
+   "timesAsked": 3,
+   "years": [
+    2013,
+    2015,
+    2025
+   ],
+   "lastAsked": 2025,
+   "sample": "2025-maths-30",
+   "sampleQ": "If $A=\\begin{bmatrix}k&2\\\\2&k\\end{bmatrix}$ and $|A^3|=125$, then the value of k is"
+  },
+  {
+   "rank": 56,
+   "template": "mat-det-adj-inverse-value",
+   "chapter": "Determinants",
+   "name": "Values of det(adj A), det(A^{-1}), det(A adj A)",
+   "desc": "Use |adj A|=|A|^{n-1}, A adj A=|A|I, characteristic equation constant, det of cofactor matrix",
+   "probability": 0.28,
+   "timesAsked": 9,
+   "years": [
+    2009,
+    2010,
+    2012,
+    2013,
+    2014,
+    2019,
+    2020,
+    2022,
+    2025
+   ],
+   "lastAsked": 2025,
+   "sample": "2025-maths-32",
+   "sampleQ": "If A is a square matrix of order $3\\times3$, det A = 3, then the value of $\\det(3A^{-1})$ is"
+  },
+  {
+   "rank": 57,
+   "template": "mat-det-limit",
+   "chapter": "Determinants",
+   "name": "Limit of determinant function",
+   "desc": "Expand determinant and evaluate lim f(x)/x^2",
+   "probability": 0.25,
+   "timesAsked": 2,
+   "years": [
+    2012,
+    2024
+   ],
+   "lastAsked": 2024,
+   "sample": "2024-maths-47",
+   "sampleQ": "Let $f(x)=\\begin{vmatrix}\\cos x&x&1\\\\2\\sin x&x&2x\\\\sin x&x&x\\end{vmatrix}$. Then $\\displaystyle\\lim_{x\\to0}\\dfrac{f(x)}{x^2}=$"
+  },
+  {
+   "rank": 58,
+   "template": "mat-det-derivative",
+   "chapter": "Determinants",
+   "name": "Derivative of a determinant",
+   "desc": "Differentiate determinant function, express in terms of a smaller determinant",
+   "probability": 0.17,
+   "timesAsked": 3,
+   "years": [
+    2013,
+    2015,
+    2024
+   ],
+   "lastAsked": 2024,
+   "sample": "2024-maths-50",
+   "sampleQ": "If $A=\\begin{vmatrix}x&1\\\\1&x\\end{vmatrix}$ and $B=\\begin{vmatrix}x&1&1\\\\1&x&1\\\\1&1&x\\end{vmatrix}$, then $\\dfrac{dB}{dx}$ is"
+  },
+  {
+   "rank": 59,
+   "template": "mat-det-singular-param",
+   "chapter": "Determinants",
+   "name": "Singular matrix parameter",
+   "desc": "Set determinant=0 to find the unknown",
+   "probability": 0.16,
+   "timesAsked": 2,
+   "years": [
+    2011,
+    2023
+   ],
+   "lastAsked": 2023,
+   "sample": "2023-maths-16",
+   "sampleQ": "If $A = \\begin{bmatrix}2-k & 2\\\\1 & 3-k\\end{bmatrix}$ is a singular matrix, then the value of $5k - k^2$ is equal to"
+  },
+  {
+   "rank": 60,
+   "template": "mat-det-equal-transform",
+   "chapter": "Determinants",
+   "name": "Relate two transformed determinants",
+   "desc": "Multiply/divide rows by variables and transpose to show Delta_1 = +-Delta",
+   "probability": 0.16,
+   "timesAsked": 2,
+   "years": [
+    2017,
+    2023
+   ],
+   "lastAsked": 2023,
+   "sample": "2023-maths-18",
+   "sampleQ": "If $\\Delta = \\begin{vmatrix}1 & a & a^2\\\\1 & b & b^2\\\\1 & c & c^2\\end{vmatrix}$ and $\\Delta_1 = \\begin{vmatrix}1 & 1 & 1\\\\bc & ca & ab\\\\a & b & c\\end{vmatrix}$ then"
+  },
+  {
+   "rank": 61,
+   "template": "mat-det-constant-term",
+   "chapter": "Determinants",
+   "name": "Constant term / value at a point of a determinant polynomial",
+   "desc": "Put x=0 (or root values) in a determinant polynomial",
+   "probability": 0.15,
+   "timesAsked": 5,
+   "years": [
+    2010,
+    2012,
+    2019,
+    2020,
+    2024
+   ],
+   "lastAsked": 2024,
+   "sample": "2024-maths-46",
+   "sampleQ": "If $f(x)=\\begin{vmatrix}x-3&2x^2-18&2x^3-81\\\\x-5&2x^2-50&4x^3-500\\\\1&2&3\\end{vmatrix}$, then $f(1).f(3)+f(3).f(5)+f(5).f(1)$ is"
+  },
+  {
+   "rank": 62,
+   "template": "mat-det-ka-scaling",
+   "chapter": "Determinants",
+   "name": "Scaling det(kA) and det(kAB)",
+   "desc": "Use |kA|=k^n|A| and |AB|=|A||B|",
+   "probability": 0.12,
+   "timesAsked": 4,
+   "years": [
+    2016,
+    2017,
+    2018,
+    2021
+   ],
+   "lastAsked": 2021,
+   "sample": "2021-maths-24",
+   "sampleQ": "If A and B are matrices of order 3 and |A| = 5, |B| = 3 then |3AB| is"
+  },
+  {
+   "rank": 63,
+   "template": "mat-det-equation-condition",
+   "chapter": "Determinants",
+   "name": "Determinant equation: solve or deduce relation",
+   "desc": "Set determinant=value and solve for x/theta/a or deduce AP/relation among variables",
+   "probability": 0.12,
+   "timesAsked": 6,
+   "years": [
+    2009,
+    2016,
+    2017,
+    2021,
+    2022
+   ],
+   "lastAsked": 2022,
+   "sample": "2022-maths-55",
+   "sampleQ": "If there are two values of 'a' which makes determinant $\\Delta=\\begin{vmatrix}1 & -2 & 5\\\\2 & a & -1\\\\0 & 4 & 2a\\end{vmatrix}=86$ Then the sum of these numbers is"
+  },
+  {
+   "rank": 64,
+   "template": "mat-det-direct-evaluate",
+   "chapter": "Determinants",
+   "name": "Direct determinant evaluation",
+   "desc": "Expand small determinants with trig, omega or n-dependent entries, sum over n",
+   "probability": 0.11,
+   "timesAsked": 3,
+   "years": [
+    2011,
+    2015,
+    2022
+   ],
+   "lastAsked": 2022,
+   "sample": "2022-maths-3",
+   "sampleQ": "If A$_n$ = $\\begin{bmatrix}1-n & n \\\\ n & 1-n\\end{bmatrix}$ then |A$_1$| + |A$_2$| + ... + |A$_{2021}$| ="
+  },
+  {
+   "rank": 65,
+   "template": "mat-prob-addition-complement",
+   "chapter": "Probability",
+   "name": "Addition rule and complements",
+   "desc": "P(AuB)=P(A)+P(B)-P(AnB), mutually exclusive 'neither' probabilities, exhaustive events",
+   "probability": 0.32,
+   "timesAsked": 6,
+   "years": [
+    2018,
+    2020,
+    2021,
+    2026
+   ],
+   "lastAsked": 2026,
+   "sample": "2026-maths-53",
+   "sampleQ": "Probability of at least one of the events A and B occur is 0.6. If A and B occur simultaneously with probability 0.2, then $P(\\bar A)+P(\\bar B)$ is"
+  },
+  {
+   "rank": 66,
+   "template": "mat-prob-independent-events",
+   "chapter": "Probability",
+   "name": "Independent events",
+   "desc": "P(AnB)=P(A)P(B); at least two of three, neither, independence statements",
+   "probability": 0.32,
+   "timesAsked": 7,
+   "years": [
+    2014,
+    2017,
+    2020,
+    2021,
+    2022,
+    2025,
+    2026
+   ],
+   "lastAsked": 2026,
+   "sample": "2026-maths-5",
+   "sampleQ": "The probability that a man and his wife live after 20 years are $\\dfrac{1}{4}$ and $\\dfrac{1}{3}$ respectively. The probability that neither the man nor his wife live after 20 years is"
+  },
+  {
+   "rank": 67,
+   "template": "mat-prob-total-bayes",
+   "chapter": "Probability",
+   "name": "Total probability and Bayes' theorem",
+   "desc": "Partition into cases (plants, temples, lockdown, coins, truth-teller) and apply total probability/Bayes",
+   "probability": 0.32,
+   "timesAsked": 7,
+   "years": [
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2025,
+    2026
+   ],
+   "lastAsked": 2026,
+   "sample": "2026-maths-7",
+   "sampleQ": "Recent studies suggest that 12% of the world population is left handed. Depending on parents hand usage, the chances of having left handed children are as follows: A: Both parents are left handed, chances of having left handed children = 24%; B: Both parents are right handed, chances of having left handed children = 9%; C: Father left handed and mother right handed, chances of having left handed children = 17%; D: Father right handed and mother left handed, chances of having left handed children = 22%. Given $P(A)=P(B)=P(C)=P(D)=1/4$ and L denotes child is left handed. What is the probability that $P(A|L)$?"
+  },
+  {
+   "rank": 68,
+   "template": "mat-prob-dice-sum",
+   "chapter": "Probability",
+   "name": "Two-dice sum probabilities",
+   "desc": "Count favourable outcomes out of 36 for sums or face conditions",
+   "probability": 0.32,
+   "timesAsked": 5,
+   "years": [
+    2014,
+    2015,
+    2016,
+    2018,
+    2026
+   ],
+   "lastAsked": 2026,
+   "sample": "2026-maths-4",
+   "sampleQ": "Probability of obtaining an even prime number on each die when a pair of dice is rolled is"
+  },
+  {
+   "rank": 69,
+   "template": "mat-prob-conditional",
+   "chapter": "Probability",
+   "name": "Conditional probability",
+   "desc": "P(A|B)=P(A n B)/P(B); complements, subset/equal-condition statements, reduced sample space",
+   "probability": 0.28,
+   "timesAsked": 10,
+   "years": [
+    2014,
+    2016,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2025
+   ],
+   "lastAsked": 2025,
+   "sample": "2025-maths-17",
+   "sampleQ": "If A and B are two non-mutually exclusive events such that $P(A|B)=P(B|A)$, then"
+  },
+  {
+   "rank": 70,
+   "template": "mat-prob-classical-counting",
+   "chapter": "Probability",
+   "name": "Classical probability by counting",
+   "desc": "Use nCr counts for cards, marbles, letters, tickets/batteries without replacement, onto functions",
+   "probability": 0.28,
+   "timesAsked": 7,
+   "years": [
+    2015,
+    2016,
+    2018,
+    2019,
+    2023,
+    2025
+   ],
+   "lastAsked": 2025,
+   "sample": "2025-maths-9",
+   "sampleQ": "A die has two faces each with number '1', three faces each with number '2' and one face with number '3'. If the die is rolled once, then P(1 or 3) is"
+  },
+  {
+   "rank": 71,
+   "template": "mat-prob-distribution-find-k",
+   "chapter": "Probability",
+   "name": "Find k in a probability distribution",
+   "desc": "Set sum of probabilities = 1 and solve for k or the missing probability",
+   "probability": 0.28,
+   "timesAsked": 4,
+   "years": [
+    2015,
+    2017,
+    2019,
+    2025
+   ],
+   "lastAsked": 2025,
+   "sample": "2025-maths-8",
+   "sampleQ": "A random experiment has five outcomes $w_1, w_2, w_3, w_4$ and $w_5$. The probabilities of the occurrence of the outcomes $w_1, w_2, w_4$ and $w_5$ are respectively $\\dfrac{1}{6}$, a, b and $\\dfrac{1}{12}$ such that $12a + 12b - 1 = 0$. Then the probabilities of occurrence of the outcome $w_3$ is"
+  },
+  {
+   "rank": 72,
+   "template": "mat-prob-mean-variance-rv",
+   "chapter": "Probability",
+   "name": "Mean/SD of a random variable",
+   "desc": "E(X)=sum x p, Var = E(X^2)-E(X)^2",
+   "probability": 0.08,
+   "timesAsked": 2,
+   "years": [
+    2018,
+    2022
+   ],
+   "lastAsked": 2022,
+   "sample": "2022-maths-32",
+   "sampleQ": "Find the mean number of heads in three tosses of a fair coin:"
+  },
+  {
+   "rank": 73,
+   "template": "mat-prob-binomial",
+   "chapter": "Probability",
+   "name": "Binomial distribution",
+   "desc": "P(X=r)=nCr p^r q^{n-r}; at least one, at most one, random walk, find p from ratio",
+   "probability": 0.12,
+   "timesAsked": 5,
+   "years": [
+    2014,
+    2015,
+    2017,
+    2019,
+    2020
+   ],
+   "lastAsked": 2020,
+   "sample": "2020-maths-50",
+   "sampleQ": "A die is thrown 10 times, the probability that an odd number will come up atleast one time is"
+  },
+  {
+   "rank": 74,
+   "template": "mat-mat-symmetric-skew-properties",
+   "chapter": "Matrices",
+   "name": "Symmetric/skew-symmetric properties",
+   "desc": "Decide symmetry of AB-BA, A'BA, A^odd for skew A, symmetric and skew A, invertibility conditions",
+   "probability": 0.32,
+   "timesAsked": 7,
+   "years": [
+    2011,
+    2017,
+    2019,
+    2020,
+    2021,
+    2022,
+    2026
+   ],
+   "lastAsked": 2026,
+   "sample": "2026-maths-16",
+   "sampleQ": "Consider the following statements:\nStatement I : If $A$ is a non-singular matrix, then $A^{-1}$ exists.\nStatement II : If $A$ and $B$ are symmetric matrices of same order, then $(AB-BA)$ is a skew symmetric matrix.\nChoose the correct option."
+  },
+  {
+   "rank": 75,
+   "template": "mat-mat-order-rules",
+   "chapter": "Matrices",
+   "name": "Orders of matrices in products/sums",
+   "desc": "Use conformability to find order of B or of a linear combination",
+   "probability": 0.32,
+   "timesAsked": 4,
+   "years": [
+    2014,
+    2016,
+    2025,
+    2026
+   ],
+   "lastAsked": 2026,
+   "sample": "2026-maths-18",
+   "sampleQ": "Let $X$ be a matrix of order $2\\times n$ and $Z$ be a matrix of order $2\\times p$. If $n=p$, then the order of the matrix $7X-5Z$ is:"
+  },
+  {
+   "rank": 76,
+   "template": "mat-mat-idempotent",
+   "chapter": "Matrices",
+   "name": "Idempotent matrix expansions",
+   "desc": "Use A^2=A to simplify (I+A)^3, (I-A)^3",
+   "probability": 0.29,
+   "timesAsked": 2,
+   "years": [
+    2024,
+    2025
+   ],
+   "lastAsked": 2025,
+   "sample": "2025-maths-26",
+   "sampleQ": "If A is a square matrix such that $A^2=A$, then $(I-A)^3$ is"
+  },
+  {
+   "rank": 77,
+   "template": "mat-mat-types-definitions",
+   "chapter": "Matrices",
+   "name": "Types of matrices definitions",
+   "desc": "Row/diagonal/scalar/null/symmetric definitions, match-the-following",
+   "probability": 0.29,
+   "timesAsked": 3,
+   "years": [
+    2025,
+    2026
+   ],
+   "lastAsked": 2026,
+   "sample": "2026-maths-15",
+   "sampleQ": "Match List-I with List-II\nList-I\na) A matrix which is not a square matrix\nb) A square matrix $A'=A$\nc) The diagonal elements of a diagonal matrix are same\nd) A matrix which is both symmetric and skew symmetric\nList-II\ni) Symmetric matrix\nii) Null matrix\niii) Rectangular matrix\niv) Scalar matrix\nCodes:"
+  },
+  {
+   "rank": 78,
+   "template": "mat-mat-quadratic-equation",
+   "chapter": "Matrices",
+   "name": "Matrix satisfies a quadratic",
+   "desc": "Find x,y with A^2+xA+yI=0, evaluate A^2-kA, or get A^{-1} from A^2-5A+7I=0",
+   "probability": 0.28,
+   "timesAsked": 3,
+   "years": [
+    2010,
+    2016,
+    2025
+   ],
+   "lastAsked": 2025,
+   "sample": "2025-maths-31",
+   "sampleQ": "If A is a square matrix satisfying the equation $A^2-5A+7I=0$, where I is the identity matrix and 0 is null matrix of same order, then $A^{-1}=$"
+  },
+  {
+   "rank": 79,
+   "template": "mat-mat-powers",
+   "chapter": "Matrices",
+   "name": "Powers of a matrix",
+   "desc": "Find A^n by pattern (A^2=I, A^2=2A, nilpotent) or k in A^n = kA",
+   "probability": 0.28,
+   "timesAsked": 7,
+   "years": [
+    2015,
+    2018,
+    2020,
+    2022,
+    2024,
+    2025
+   ],
+   "lastAsked": 2025,
+   "sample": "2025-maths-29",
+   "sampleQ": "If a matrix $A=\\begin{bmatrix}1&1\\\\1&1\\end{bmatrix}$ satisfies $A^6=kA'$, then the value of k is"
+  },
+  {
+   "rank": 80,
+   "template": "mat-mat-solve-for-entries",
+   "chapter": "Matrices",
+   "name": "Solve matrix equation for unknowns",
+   "desc": "Equate entries or solve simultaneous matrix equations to find x, y or a matrix",
+   "probability": 0.26,
+   "timesAsked": 4,
+   "years": [
+    2017,
+    2018,
+    2019,
+    2023
+   ],
+   "lastAsked": 2023,
+   "sample": "2023-maths-14",
+   "sampleQ": "If $x\\begin{bmatrix}3\\\\2\\end{bmatrix} + y\\begin{bmatrix}1\\\\-1\\end{bmatrix} = \\begin{bmatrix}15\\\\5\\end{bmatrix}$ then the value of x and y are"
+  },
+  {
+   "rank": 81,
+   "template": "mat-mat-rotation-matrix",
+   "chapter": "Matrices",
+   "name": "Rotation-type trig matrices",
+   "desc": "AA'=I for rotation matrices, A+A^T=I to find theta, inverse of [1 tan; -tan 1]",
+   "probability": 0.26,
+   "timesAsked": 4,
+   "years": [
+    2011,
+    2016,
+    2018,
+    2023
+   ],
+   "lastAsked": 2023,
+   "sample": "2023-maths-25",
+   "sampleQ": "If $A = \\begin{bmatrix}1 & \\tan(\\alpha/2)\\\\-\\tan(\\alpha/2) & 1\\end{bmatrix}$ and $AB = I$ then $B =$"
+  },
+  {
+   "rank": 82,
+   "template": "mat-mat-ab-b-ba-a",
+   "chapter": "Matrices",
+   "name": "AB=B, BA=A identities",
+   "desc": "Use AB=B, BA=A to show A, B idempotent and simplify A^2+B^2",
+   "probability": 0.16,
+   "timesAsked": 2,
+   "years": [
+    2010,
+    2023
+   ],
+   "lastAsked": 2023,
+   "sample": "2023-maths-15",
+   "sampleQ": "If A and B are two matrices such that $AB = B$ and $BA = A$ then $A^2 + B^2 =$"
+  },
+  {
+   "rank": 83,
+   "template": "mat-mat-product-transpose",
+   "chapter": "Matrices",
+   "name": "Product and transpose computation",
+   "desc": "Multiply matrices and take transpose, (AB)'=B'A'",
+   "probability": 0.14,
+   "timesAsked": 1,
+   "years": [
+    2021
+   ],
+   "lastAsked": 2021,
+   "sample": "2021-maths-22",
+   "sampleQ": "If A = $\\begin{bmatrix}1 & -2 & 1\\\\ 2 & 1 & 3\\end{bmatrix}$, B = $\\begin{bmatrix}2 & 1\\\\ 3 & 2\\\\ 1 & 1\\end{bmatrix}$ then (AB)' is equal to"
+  },
+  {
+   "rank": 84,
+   "template": "mat-mat-inverse-properties",
+   "chapter": "Matrices",
+   "name": "Inverse of matrix/product properties",
+   "desc": "Find A from PA=I or use (A^2)^{-1}=(A^{-1})^2",
+   "probability": 0.08,
+   "timesAsked": 2,
+   "years": [
+    2020,
+    2022
+   ],
+   "lastAsked": 2022,
+   "sample": "2022-maths-58",
+   "sampleQ": "If A is a matrix of order 3 × 3, then (A$^2$)$^{-1}$ is equal to"
+  },
+  {
+   "rank": 85,
+   "template": "mat-mat-inverse-trig-entries",
+   "chapter": "Matrices",
+   "name": "Matrix with inverse-trig entries",
+   "desc": "Add/subtract matrices using sin^-1+cos^-1=pi/2 type identities entrywise",
+   "probability": 0.14,
+   "timesAsked": 1,
+   "years": [
+    2017
+   ],
+   "lastAsked": 2017,
+   "sample": "2017-maths-19",
+   "sampleQ": "If $A=\\dfrac{1}{\\pi}\\begin{bmatrix}\\sin^{-1}(\\pi x) & \\tan^{-1}(x/\\pi)\\\\ \\sin^{-1}(x/\\pi) & \\cot^{-1}(\\pi x)\\end{bmatrix}$, $B=\\begin{bmatrix}-\\cos^{-1}(\\pi x) & \\tan^{-1}(x/\\pi)\\\\ \\sin^{-1}(x/\\pi) & -\\tan^{-1}(\\pi x)\\end{bmatrix}$ then $A-B$ is equal to"
+  },
+  {
+   "rank": 86,
+   "template": "mat-vec-orthogonal-param",
+   "chapter": "Vector Algebra",
+   "name": "Parameter for perpendicular vectors",
+   "desc": "Set dot product to zero (and use equal magnitudes if given) to find lambda",
+   "probability": 0.32,
+   "timesAsked": 6,
+   "years": [
+    2013,
+    2017,
+    2018,
+    2025,
+    2026
+   ],
+   "lastAsked": 2026,
+   "sample": "2026-maths-24",
+   "sampleQ": "If $\\vec a=2\\hat i+2\\hat j-\\hat k, \\vec b=\\alpha\\hat i+\\beta\\hat j+2\\hat k$ and $|\\vec a+\\vec b|=|\\vec a-\\vec b|$, then $\\alpha+\\beta$ is equal to"
+  },
+  {
+   "rank": 87,
+   "template": "mat-vec-properties-statements",
+   "chapter": "Vector Algebra",
+   "name": "Properties of i,j,k and products (statements)",
+   "desc": "Decide true/false statements about dot/cross products of unit vectors or perpendicular vectors",
+   "probability": 0.28,
+   "timesAsked": 3,
+   "years": [
+    2010,
+    2013,
+    2025
+   ],
+   "lastAsked": 2025,
+   "sample": "2025-maths-37",
+   "sampleQ": "Consider the following statements: Statement (I): If either $|\\vec a|=0$ or $|\\vec b|=0$, then $\\vec a.\\vec b=0$. Statement (II): If $\\vec a\\times\\vec b=\\vec 0$, then $\\vec a$ is perpendicular to $\\vec b$. Which of the following is correct?"
+  },
+  {
+   "rank": 88,
+   "template": "mat-vec-lagrange-identity",
+   "chapter": "Vector Algebra",
+   "name": "Lagrange identity for cross and dot products",
+   "desc": "Use |a x b|^2+(a.b)^2=|a|^2|b|^2 to find |b| or |a x b|",
+   "probability": 0.28,
+   "timesAsked": 7,
+   "years": [
+    2012,
+    2018,
+    2019,
+    2020,
+    2022,
+    2023,
+    2025
+   ],
+   "lastAsked": 2025,
+   "sample": "2025-maths-36",
+   "sampleQ": "If $|\\vec a|=10, |\\vec b|=2$ and $\\vec a.\\vec b=12$, then the value of $|\\vec a\\times \\vec b|$ is"
+  },
+  {
+   "rank": 89,
+   "template": "mat-vec-projection",
+   "chapter": "Vector Algebra",
+   "name": "Projection and components",
+   "desc": "Scalar projection a.b/|b|, resolve into parallel and perpendicular parts, vector in a plane with given projection",
+   "probability": 0.26,
+   "timesAsked": 5,
+   "years": [
+    2015,
+    2019,
+    2021,
+    2022,
+    2023
+   ],
+   "lastAsked": 2023,
+   "sample": "2023-maths-41",
+   "sampleQ": "The component of $\\hat i$ in the direction of the vector $\\hat i + \\hat j + 2\\hat k$ is"
+  },
+  {
+   "rank": 90,
+   "template": "mat-vec-vector-triple-product",
+   "chapter": "Vector Algebra",
+   "name": "Vector triple product and vector equations",
+   "desc": "Expand a x (b x c)=(a.c)b-(a.b)c or solve a x c=b, a.c=k",
+   "probability": 0.26,
+   "timesAsked": 2,
+   "years": [
+    2013,
+    2026
+   ],
+   "lastAsked": 2026,
+   "sample": "2026-maths-25",
+   "sampleQ": "If $\\vec a=\\hat i+\\hat j+\\hat k, \\vec b=\\hat j-\\hat k$ and $\\vec a\\times\\vec c=\\vec b, \\vec a\\cdot\\vec c=3$, then $\\vec c$ is"
+  },
+  {
+   "rank": 91,
+   "template": "mat-vec-median-length",
+   "chapter": "Vector Algebra",
+   "name": "Length of median from side vectors",
+   "desc": "Median vector = (AB+AC)/2, take magnitude",
+   "probability": 0.25,
+   "timesAsked": 2,
+   "years": [
+    2020,
+    2024
+   ],
+   "lastAsked": 2024,
+   "sample": "2024-maths-56",
+   "sampleQ": "The vectors $\\vec{AB}=3\\hat i+4\\hat k$ and $\\vec{AC}=5\\hat i-2\\hat j+4\\hat k$ are the sides of a $\\triangle ABC$. The length of the median through A is"
+  },
+  {
+   "rank": 92,
+   "template": "mat-vec-cross-from-linear-relation",
+   "chapter": "Vector Algebra",
+   "name": "Cross-product sum from a+2b+3c=0",
+   "desc": "Substitute a=-2b-3c into a x b + b x c + c x a",
+   "probability": 0.16,
+   "timesAsked": 2,
+   "years": [
+    2009,
+    2023
+   ],
+   "lastAsked": 2023,
+   "sample": "2023-maths-43",
+   "sampleQ": "If $\\vec a + 2\\vec b + 3\\vec c = \\vec 0$ and $(\\vec a \\times \\vec b) + (\\vec b \\times \\vec c) + (\\vec c \\times \\vec a) = \\lambda(\\vec b \\times \\vec c)$ then the value of $\\lambda$ is equal to"
+  },
+  {
+   "rank": 93,
+   "template": "mat-vec-angle-from-condition",
+   "chapter": "Vector Algebra",
+   "name": "Angle between vectors from a condition",
+   "desc": "Square magnitude conditions (|a+b| unit, |a+b|=|a-b|, sqrt3a-b unit) or dot relations to get theta",
+   "probability": 0.15,
+   "timesAsked": 8,
+   "years": [
+    2009,
+    2016,
+    2017,
+    2020,
+    2021,
+    2023,
+    2024
+   ],
+   "lastAsked": 2024,
+   "sample": "2024-maths-58",
+   "sampleQ": "Let $\\vec a$ and $\\vec b$ be two unit vectors and $\\theta$ is the angle between them. Then $\\vec a+\\vec b$ is a unit vector if"
+  },
+  {
+   "rank": 94,
+   "template": "mat-vec-cross-area",
+   "chapter": "Vector Algebra",
+   "name": "Area of parallelogram/triangle/quadrilateral by cross product",
+   "desc": "Area = |a x b| (or half); diagonals d1 x d2 /2; scaling by coefficient determinant; side lengths from diagonals",
+   "probability": 0.12,
+   "timesAsked": 6,
+   "years": [
+    2012,
+    2014,
+    2015,
+    2021
+   ],
+   "lastAsked": 2021,
+   "sample": "2021-maths-49",
+   "sampleQ": "The diagonals of a parallelogram are the vectors 3$\\hat i$ + 6$\\hat j$ $-2\\hat k$ and $-\\hat i-2\\hat j-8\\hat k$ then the length of the shorter side of parallelogram is"
+  },
+  {
+   "rank": 95,
+   "template": "mat-vec-magnitude-from-dot",
+   "chapter": "Vector Algebra",
+   "name": "Magnitude or dot product via expansion",
+   "desc": "Expand |pa+qb|^2 or (pa+qb).(ra+sb) with given magnitudes and angle",
+   "probability": 0.12,
+   "timesAsked": 5,
+   "years": [
+    2014,
+    2015,
+    2016,
+    2018,
+    2022
+   ],
+   "lastAsked": 2022,
+   "sample": "2022-maths-19",
+   "sampleQ": "If $|\\vec a| = 2$ and $|\\vec b| = 3$ and the angle between $\\vec a$ and $\\vec b$ is 120°, then the length of the vector $\\left|\\dfrac{1}{2}\\vec a - \\dfrac{1}{3}\\vec b\\right|^2$ is"
+  },
+  {
+   "rank": 96,
+   "template": "mat-vec-stp-combination",
+   "chapter": "Vector Algebra",
+   "name": "Scalar triple product of linear combinations",
+   "desc": "Expand [pa+qb, ...] as det of coefficients x [a b c]; [axb bxc cxa]=[a b c]^2",
+   "probability": 0.12,
+   "timesAsked": 5,
+   "years": [
+    2009,
+    2010,
+    2012,
+    2014,
+    2019
+   ],
+   "lastAsked": 2019,
+   "sample": "2019-maths-25",
+   "sampleQ": "$[\\vec a+2\\vec b-\\vec c,\\ \\vec a-\\vec b,\\ \\vec a-\\vec b-\\vec c] =$"
+  },
+  {
+   "rank": 97,
+   "template": "mat-aod-critical-points",
+   "chapter": "Application of Derivatives",
+   "name": "Critical points and their nature",
+   "desc": "Find stationary points, max slope, local min of |x|-type, inflexion via derivatives",
+   "probability": 0.32,
+   "timesAsked": 4,
+   "years": [
+    2014,
+    2021,
+    2024,
+    2026
+   ],
+   "lastAsked": 2026,
+   "sample": "2026-maths-40",
+   "sampleQ": "A Youtube short video is getting viral according to $f(t)=-2t^3+3t^2+5$. At what time does the video get maximum number of shares? (t is in hours)"
+  },
+  {
+   "rank": 98,
+   "template": "mat-aod-min-max-trig-exp",
+   "chapter": "Application of Derivatives",
+   "name": "Min/max of trig-based expressions",
+   "desc": "Use range of a sin + b cos or sin x to find extreme values",
+   "probability": 0.29,
+   "timesAsked": 2,
+   "years": [
+    2009,
+    2025
+   ],
+   "lastAsked": 2025,
+   "sample": "2025-maths-49",
+   "sampleQ": "The minimum value of 1 - sin x is"
+  },
+  {
+   "rank": 99,
+   "template": "mat-aod-increasing-decreasing",
+   "chapter": "Application of Derivatives",
+   "name": "Intervals of increase/decrease",
+   "desc": "Sign of f'(x) to find monotonic intervals",
+   "probability": 0.28,
+   "timesAsked": 10,
+   "years": [
+    2010,
+    2013,
+    2017,
+    2019,
+    2021,
+    2022,
+    2024,
+    2025
+   ],
+   "lastAsked": 2025,
+   "sample": "2025-maths-50",
+   "sampleQ": "The function f(x) = tan x - x"
+  },
+  {
+   "rank": 100,
+   "template": "mat-aod-kinematics",
+   "chapter": "Application of Derivatives",
+   "name": "Motion from s(t)",
+   "desc": "Velocity, acceleration, max height, distance from displacement or rate functions",
+   "probability": 0.26,
+   "timesAsked": 5,
+   "years": [
+    2009,
+    2012,
+    2014,
+    2021,
+    2023
+   ],
+   "lastAsked": 2023,
+   "sample": "2023-maths-27",
+   "sampleQ": "The distance 's' in meters travelled by a particle in 't' seconds is given by $s = \\dfrac{2t^3}{3} - 18t + \\dfrac{5}{3}$. The acceleration when the particle comes to rest is"
+  },
+  {
+   "rank": 101,
+   "template": "mat-aod-related-rates-geometry",
+   "chapter": "Application of Derivatives",
+   "name": "Related rates for areas and volumes",
+   "desc": "Differentiate area/volume formulas of circle, sphere, triangle w.r.t. t or another variable",
+   "probability": 0.26,
+   "timesAsked": 7,
+   "years": [
+    2011,
+    2014,
+    2015,
+    2016,
+    2017,
+    2019,
+    2023
+   ],
+   "lastAsked": 2023,
+   "sample": "2023-maths-26",
+   "sampleQ": "A circular plate of radius 5 cm is heated. Due to expansion, its radius increases at the rate of 0.05 cm/sec. The rate at which its area is increasing when the radius is 5.2 cm is"
+  },
+  {
+   "rank": 102,
+   "template": "mat-aod-rate-on-curve",
+   "chapter": "Application of Derivatives",
+   "name": "Point on curve with given ratio of coordinate rates",
+   "desc": "Use dy/dt = k dx/dt with the curve's derivative to locate point/quadrant",
+   "probability": 0.26,
+   "timesAsked": 2,
+   "years": [
+    2023,
+    2026
+   ],
+   "lastAsked": 2026,
+   "sample": "2026-maths-39",
+   "sampleQ": "In a Mahakumbh, a drone camera is moving along $3y=x^3-3$. When y-coordinate changes 9 times as fast as x-coordinate, it captures good quality pictures. Then one of the precise positions of the drone at that instant is"
+  },
+  {
+   "rank": 103,
+   "template": "mat-aod-optimization-geometry",
+   "chapter": "Application of Derivatives",
+   "name": "Geometric optimization",
+   "desc": "Maximise area/volume (sector, inscribed rectangle, cone), minimise sum of cubes or distance",
+   "probability": 0.15,
+   "timesAsked": 7,
+   "years": [
+    2010,
+    2012,
+    2013,
+    2018,
+    2023,
+    2024
+   ],
+   "lastAsked": 2024,
+   "sample": "2024-maths-55",
+   "sampleQ": "The maximum volume of the right circular cone with slant height 6 units is"
+  },
+  {
+   "rank": 104,
+   "template": "mat-aod-tangent-slope-condition",
+   "chapter": "Application of Derivatives",
+   "name": "Point where tangent has given direction",
+   "desc": "Set dy/dx equal to required slope (parallel to axis, 45 deg, equal inclination) to find point or constants",
+   "probability": 0.12,
+   "timesAsked": 5,
+   "years": [
+    2009,
+    2014,
+    2017,
+    2021,
+    2022
+   ],
+   "lastAsked": 2022,
+   "sample": "2022-maths-11",
+   "sampleQ": "The co-ordinates of the point on the $\\sqrt{x}+\\sqrt{y}=6$ at which the tangent is equally inclined to the axes is"
+  },
+  {
+   "rank": 105,
+   "template": "mat-aod-rolle-mvt",
+   "chapter": "Application of Derivatives",
+   "name": "Rolle's/MVT applicability",
+   "desc": "Check which functions satisfy Rolle's theorem or MVT on an interval",
+   "probability": 0.14,
+   "timesAsked": 1,
+   "years": [
+    2014
+   ],
+   "lastAsked": 2014,
+   "sample": "2014-maths-31",
+   "sampleQ": "If f(x) = $x^3$ and g(x) = $x^3-4x$ in $-2\\le x\\le2$, then consider the statements:\n(a) f(x) and g(x) satisfy mean value theorem.\n(b) f(x) and g(x) both satisfy Rolle's theorem.\n(c) Only g(x) satisfies Rolle's theorem.\nOf these statements"
+  },
+  {
+   "rank": 106,
+   "template": "mat-aod-subtangent-subnormal",
+   "chapter": "Application of Derivatives",
+   "name": "Subtangent and subnormal",
+   "desc": "Use subtangent = y/y', subnormal = y y' for given curves; ratios and progressions",
+   "probability": 0.12,
+   "timesAsked": 5,
+   "years": [
+    2009,
+    2010,
+    2012,
+    2013
+   ],
+   "lastAsked": 2013,
+   "sample": "2013-maths-52",
+   "sampleQ": "If the length of the sub-tangent at any point to the curve $xy^n=a$ is proportional to the abscissa, then 'n' is"
+  },
+  {
+   "rank": 107,
+   "template": "mat-trig-triangle",
+   "chapter": "Trigonometric Functions",
+   "name": "Triangle trigonometry",
+   "desc": "Use sine/cosine rules, projection formula, angle conditions in a triangle",
+   "probability": 0.32,
+   "timesAsked": 6,
+   "years": [
+    2010,
+    2011,
+    2013,
+    2014,
+    2024,
+    2026
+   ],
+   "lastAsked": 2026,
+   "sample": "2026-maths-55",
+   "sampleQ": "The angles of a triangle are in A.P and the greatest angle is double the least angle, then sine of the third angle is"
+  },
+  {
+   "rank": 108,
+   "template": "mat-trig-sum-difference-condition",
+   "chapter": "Trigonometric Functions",
+   "name": "Given sums/differences of sines and cosines",
+   "desc": "Use sum-to-product to find tan((x+y)/2) and tan(x+y), or roots-of-quadratic in tan",
+   "probability": 0.32,
+   "timesAsked": 4,
+   "years": [
+    2012,
+    2013,
+    2015,
+    2026
+   ],
+   "lastAsked": 2026,
+   "sample": "2026-maths-8",
+   "sampleQ": "If $\\alpha$ and $\\beta$ are acute angles such that $\\alpha+\\beta$ and $\\alpha-\\beta$ satisfy the equation $\\tan^2\\theta-4\\tan\\theta+1=0$, then $\\alpha$ and $\\beta$ are respectively"
+  },
+  {
+   "rank": 109,
+   "template": "mat-trig-range-sign",
+   "chapter": "Trigonometric Functions",
+   "name": "Range, sign and behaviour of trig functions",
+   "desc": "Possible values of sin/cos/sec, monotonic behaviour by quadrant, maximum of a sin + b cos",
+   "probability": 0.29,
+   "timesAsked": 3,
+   "years": [
+    2009,
+    2022,
+    2026
+   ],
+   "lastAsked": 2026,
+   "sample": "2026-maths-54",
+   "sampleQ": "The maximum value of $\\sin(x+\\pi/6)+\\cos(x+\\pi/6)$ is attained at $x=$"
+  },
+  {
+   "rank": 110,
+   "template": "mat-trig-evaluate-angle-expression",
+   "chapter": "Trigonometric Functions",
+   "name": "Evaluate compound/allied/half-angle expressions",
+   "desc": "Use allied angles, A+-B, half-angle and product formulas to evaluate numeric trig expressions",
+   "probability": 0.28,
+   "timesAsked": 11,
+   "years": [
+    2012,
+    2014,
+    2015,
+    2016,
+    2017,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2025
+   ],
+   "lastAsked": 2025,
+   "sample": "2025-maths-5",
+   "sampleQ": "Which of the following is not correct?"
+  },
+  {
+   "rank": 111,
+   "template": "mat-trig-identity-simplify",
+   "chapter": "Trigonometric Functions",
+   "name": "Simplify single-variable trig expressions",
+   "desc": "Use Pythagorean/power identities (sin^6+cos^6, tan+cot) or nested half-angle radicals",
+   "probability": 0.28,
+   "timesAsked": 5,
+   "years": [
+    2009,
+    2010,
+    2020,
+    2022,
+    2025
+   ],
+   "lastAsked": 2025,
+   "sample": "2025-maths-6",
+   "sampleQ": "If $\\cos x + \\cos^2 x = 1$, then the value of $\\sin^2 x + \\sin^4 x$ is"
+  },
+  {
+   "rank": 112,
+   "template": "mat-trig-many-angle-products",
+   "chapter": "Trigonometric Functions",
+   "name": "Products/sums over many angles",
+   "desc": "tan1..tan89 = 1, log products with log 1 = 0, sum sin over full cycle, sin10 sin30 sin50 sin70, cot-sum with A+B+C",
+   "probability": 0.26,
+   "timesAsked": 6,
+   "years": [
+    2010,
+    2011,
+    2013,
+    2016,
+    2021,
+    2023
+   ],
+   "lastAsked": 2023,
+   "sample": "2023-maths-55",
+   "sampleQ": "The value of $e^{\\log_{10}\\tan1° + \\log_{10}\\tan2° + \\log_{10}\\tan3° + \\cdots + \\log_{10}\\tan89°}$ is"
+  },
+  {
+   "rank": 113,
+   "template": "mat-trig-radian-arc",
+   "chapter": "Trigonometric Functions",
+   "name": "Radian/degree and arc length",
+   "desc": "l = r theta, degree-minute-second conversion, ratio of radii",
+   "probability": 0.17,
+   "timesAsked": 3,
+   "years": [
+    2009,
+    2022,
+    2024
+   ],
+   "lastAsked": 2024,
+   "sample": "2024-maths-25",
+   "sampleQ": "If in two circles, arcs of the same length subtend angles $30^0$ and $78^0$ at the centre, then the ratio of their radii is"
+  },
+  {
+   "rank": 114,
+   "template": "mat-trig-equation-general",
+   "chapter": "Trigonometric Functions",
+   "name": "Solve trigonometric equations",
+   "desc": "Reduce to standard forms (sin x = sin a etc.) to get general or particular solutions, incl. GP-sum equations",
+   "probability": 0.12,
+   "timesAsked": 9,
+   "years": [
+    2009,
+    2010,
+    2011,
+    2012,
+    2013,
+    2014,
+    2016,
+    2019
+   ],
+   "lastAsked": 2019,
+   "sample": "2019-maths-13",
+   "sampleQ": "If $\\cos x = |\\sin x|$ then the general solution is"
+  },
+  {
+   "rank": 115,
+   "template": "mat-de-order-degree",
+   "chapter": "Differential Equations",
+   "name": "Order and degree of a DE",
+   "desc": "Rationalise powers; degree undefined if derivative inside sin/log; combine m,n as asked",
+   "probability": 0.32,
+   "timesAsked": 11,
+   "years": [
+    2010,
+    2011,
+    2013,
+    2014,
+    2016,
+    2017,
+    2018,
+    2022,
+    2023,
+    2025,
+    2026
+   ],
+   "lastAsked": 2026,
+   "sample": "2026-maths-48",
+   "sampleQ": "Sum of the squares of the order and degree (if defined) of a differential equation $2y'+(y'')^2=\\sqrt{y''-3}$ is"
+  },
+  {
+   "rank": 116,
+   "template": "mat-de-integrating-factor",
+   "chapter": "Differential Equations",
+   "name": "Integrating factor of a linear DE",
+   "desc": "Write in dy/dx+Py=Q (or dx/dy+Px=Q) form and compute e^{int P}",
+   "probability": 0.32,
+   "timesAsked": 5,
+   "years": [
+    2016,
+    2017,
+    2018,
+    2019,
+    2026
+   ],
+   "lastAsked": 2026,
+   "sample": "2026-maths-6",
+   "sampleQ": "Integrating factor of the differential equation $(1-x^2)\\dfrac{dy}{dx}-xy=1$ is"
+  },
+  {
+   "rank": 117,
+   "template": "mat-de-linear-solve",
+   "chapter": "Differential Equations",
+   "name": "Solve a linear first-order DE",
+   "desc": "Find IF, solve y(IF)=int Q(IF), apply initial condition if given",
+   "probability": 0.28,
+   "timesAsked": 6,
+   "years": [
+    2014,
+    2015,
+    2020,
+    2022,
+    2025
+   ],
+   "lastAsked": 2025,
+   "sample": "2025-maths-58",
+   "sampleQ": "General solution of the differential equation $\\dfrac{dy}{dx}+y\\tan x=\\sec x$ is"
+  },
+  {
+   "rank": 118,
+   "template": "mat-de-functional-equation",
+   "chapter": "Differential Equations",
+   "name": "Function from a derivative/integral equation",
+   "desc": "Convert relation like f=f'+f''+... or int x f + f/2=0 into a DE and solve",
+   "probability": 0.26,
+   "timesAsked": 2,
+   "years": [
+    2013,
+    2026
+   ],
+   "lastAsked": 2026,
+   "sample": "2026-maths-41",
+   "sampleQ": "$\\int xf(x)dx+\\dfrac{f(x)}{2}=0$, then $f(x)$ is equal to"
+  },
+  {
+   "rank": 119,
+   "template": "mat-de-variable-separable",
+   "chapter": "Differential Equations",
+   "name": "Variable separable DE",
+   "desc": "Separate variables and integrate, apply initial condition, count solutions",
+   "probability": 0.15,
+   "timesAsked": 6,
+   "years": [
+    2011,
+    2012,
+    2016,
+    2017,
+    2021,
+    2024
+   ],
+   "lastAsked": 2024,
+   "sample": "2024-maths-59",
+   "sampleQ": "The solution of $e^{\\frac{dy}{dx}}=x+1, y(0)=3$ is"
+  },
+  {
+   "rank": 120,
+   "template": "mat-de-slope-condition-curve",
+   "chapter": "Differential Equations",
+   "name": "Curve from a tangent-slope condition",
+   "desc": "Write dy/dx from the geometric condition, solve and use the given point",
+   "probability": 0.15,
+   "timesAsked": 4,
+   "years": [
+    2019,
+    2020,
+    2023,
+    2024
+   ],
+   "lastAsked": 2024,
+   "sample": "2024-maths-60",
+   "sampleQ": "The family of curves whose x and y intercepts of a tangent at any point are respectively double the x and y coordinates of that point is"
+  },
+  {
+   "rank": 121,
+   "template": "mat-de-solution-family",
+   "chapter": "Differential Equations",
+   "name": "Geometric type of solution family",
+   "desc": "Solve a simple DE and identify the curve family (lines, parabolas, hyperbolas)",
+   "probability": 0.11,
+   "timesAsked": 3,
+   "years": [
+    2010,
+    2018,
+    2021
+   ],
+   "lastAsked": 2021,
+   "sample": "2021-maths-46",
+   "sampleQ": "Solution of Differential Equation xdy $-$ ydx = 0 represents"
+  },
+  {
+   "rank": 122,
+   "template": "mat-de-substitution",
+   "chapter": "Differential Equations",
+   "name": "DE by substitution/exact differential",
+   "desc": "Use v=x+y or d(xy)=x dy + y dx to solve",
+   "probability": 0.08,
+   "timesAsked": 2,
+   "years": [
+    2013,
+    2022
+   ],
+   "lastAsked": 2022,
+   "sample": "2022-maths-24",
+   "sampleQ": "The solution of the differential equation $\\dfrac{dy}{dx} = (x+y)^2$ is"
+  },
+  {
+   "rank": 123,
+   "template": "mat-de-form-from-family",
+   "chapter": "Differential Equations",
+   "name": "Form DE of a family of curves",
+   "desc": "Differentiate and eliminate the arbitrary constant",
+   "probability": 0.14,
+   "timesAsked": 1,
+   "years": [
+    2009
+   ],
+   "lastAsked": 2009,
+   "sample": "2009-maths-57",
+   "sampleQ": "The differential equation of the family of circles passing through the origin and having their centres on the x-axis is"
+  },
+  {
+   "rank": 124,
+   "template": "mat-3d-angle-between-lines",
+   "chapter": "Three Dimensional Geometry",
+   "name": "Angle between two lines / perpendicular lines",
+   "desc": "cos theta = |b1.b2|/(|b1||b2|) from direction ratios; perpendicular => dot = 0",
+   "probability": 0.32,
+   "timesAsked": 7,
+   "years": [
+    2014,
+    2018,
+    2021,
+    2022,
+    2024,
+    2026
+   ],
+   "lastAsked": 2026,
+   "sample": "2026-maths-27",
+   "sampleQ": "The angle between the lines whose direction ratios are $a,b,c$ and $b-c,c-a,a-b$ is"
+  },
+  {
+   "rank": 125,
+   "template": "mat-3d-line-equation",
+   "chapter": "Three Dimensional Geometry",
+   "name": "Equation of a line",
+   "desc": "Line through two points, through a point parallel to intersection of planes, or perpendicular to a line",
+   "probability": 0.28,
+   "timesAsked": 3,
+   "years": [
+    2015,
+    2021,
+    2025
+   ],
+   "lastAsked": 2025,
+   "sample": "2025-maths-39",
+   "sampleQ": "The equation of the line through the point (0, 1, 2) and perpendicular to the line $\\dfrac{x-1}{2}=\\dfrac{y+1}{3}=\\dfrac{z-1}{-2}$ is"
+  },
+  {
+   "rank": 126,
+   "template": "mat-3d-direction-cosines-axes",
+   "chapter": "Three Dimensional Geometry",
+   "name": "Angles with coordinate axes",
+   "desc": "Use cos^2 a+cos^2 b+cos^2 c=1 (or sum cos 2a = -1) to find the third angle",
+   "probability": 0.28,
+   "timesAsked": 4,
+   "years": [
+    2016,
+    2020,
+    2023,
+    2025
+   ],
+   "lastAsked": 2025,
+   "sample": "2025-maths-38",
+   "sampleQ": "If a line makes angles $90^\\circ, 60^\\circ$ and $\\theta$ with x, y and z axes respectively, where $\\theta$ is acute, then the value of $\\theta$ is"
+  },
+  {
+   "rank": 127,
+   "template": "mat-3d-plane-equation",
+   "chapter": "Three Dimensional Geometry",
+   "name": "Equation of a plane from conditions",
+   "desc": "Plane through point with given normal, through 3 points, given foot of perpendicular, intercept form from centroid",
+   "probability": 0.26,
+   "timesAsked": 5,
+   "years": [
+    2014,
+    2016,
+    2021,
+    2023
+   ],
+   "lastAsked": 2023,
+   "sample": "2023-maths-46",
+   "sampleQ": "The equation of the plane through the points $(2, 1, 0), (3, 2, -2)$ and $(3, 1, 7)$ is"
+  },
+  {
+   "rank": 128,
+   "template": "mat-3d-distance-point-line",
+   "chapter": "Three Dimensional Geometry",
+   "name": "Distance of point from a line",
+   "desc": "Find foot of perpendicular via parameter or use |(P-A) x b|/|b|",
+   "probability": 0.26,
+   "timesAsked": 4,
+   "years": [
+    2017,
+    2019,
+    2020,
+    2023
+   ],
+   "lastAsked": 2023,
+   "sample": "2023-maths-45",
+   "sampleQ": "The length of perpendicular drawn from the point $(3, -1, 11)$ to the line $\\dfrac{x}{2} = \\dfrac{y-2}{3} = \\dfrac{z-3}{4}$ is"
+  },
+  {
+   "rank": 129,
+   "template": "mat-3d-line-plane-intersection",
+   "chapter": "Three Dimensional Geometry",
+   "name": "Intersection of line and plane",
+   "desc": "Substitute parametric point of line into plane equation",
+   "probability": 0.18,
+   "timesAsked": 1,
+   "years": [
+    2023
+   ],
+   "lastAsked": 2023,
+   "sample": "2023-maths-47",
+   "sampleQ": "The point of intersection of the line $x + 1 = \\dfrac{y+3}{3} = \\dfrac{-z+2}{2}$ with the plane $3x + 4y + 5z = 10$ is"
+  },
+  {
+   "rank": 130,
+   "template": "mat-3d-distance-point-plane",
+   "chapter": "Three Dimensional Geometry",
+   "name": "Distance of point from plane",
+   "desc": "|ax0+by0+cz0+d|/sqrt(a^2+b^2+c^2)",
+   "probability": 0.14,
+   "timesAsked": 1,
+   "years": [
+    2022
+   ],
+   "lastAsked": 2022,
+   "sample": "2022-maths-27",
+   "sampleQ": "The distance of the point whose position vector is $(2\\hat i + \\hat j - \\hat k)$ from the plane $\\vec r\\cdot(\\hat i - 2\\hat j + 4\\hat k) = 4$ is"
+  },
+  {
+   "rank": 131,
+   "template": "mat-3d-foot-perpendicular-plane",
+   "chapter": "Three Dimensional Geometry",
+   "name": "Foot of perpendicular to a plane",
+   "desc": "Foot = P - ((ax0+by0+cz0+d)/|n|^2) n",
+   "probability": 0.12,
+   "timesAsked": 4,
+   "years": [
+    2015,
+    2016,
+    2019,
+    2022
+   ],
+   "lastAsked": 2022,
+   "sample": "2022-maths-28",
+   "sampleQ": "The co-ordinates of foot of the perpendicular drawn from the origin to the plane 2x - 3y + 4z = 29 are"
+  },
+  {
+   "rank": 132,
+   "template": "mat-3d-coplanar-lines",
+   "chapter": "Three Dimensional Geometry",
+   "name": "Condition for coplanar lines",
+   "desc": "Determinant of (a2-a1, b1, b2) = 0",
+   "probability": 0.14,
+   "timesAsked": 1,
+   "years": [
+    2014
+   ],
+   "lastAsked": 2014,
+   "sample": "2014-maths-5",
+   "sampleQ": "Lines $\\dfrac{x-2}{1}=\\dfrac{y-3}{1}=\\dfrac{z-4}{-K}$ and $\\dfrac{x-1}{K}=\\dfrac{y-4}{2}=\\dfrac{z-5}{1}$ are coplanar if"
+  },
+  {
+   "rank": 133,
+   "template": "mat-lim-algebraic-factor",
+   "chapter": "Limits and Derivatives",
+   "name": "Algebraic limits by factorisation/substitution",
+   "desc": "Cancel common factors, x^n-a^n formula, find constants from a finite limit",
+   "probability": 0.32,
+   "timesAsked": 6,
+   "years": [
+    2014,
+    2021,
+    2025,
+    2026
+   ],
+   "lastAsked": 2026,
+   "sample": "2026-maths-13",
+   "sampleQ": "The value of $\\lim_{x\\to2}\\dfrac{x^3+3x^2-9x-2}{x^3-x^2-4x+4}$ is ________"
+  },
+  {
+   "rank": 134,
+   "template": "mat-lim-one-sided",
+   "chapter": "Limits and Derivatives",
+   "name": "One-sided limits",
+   "desc": "Evaluate LHL/RHL of piecewise or |x|/x functions",
+   "probability": 0.29,
+   "timesAsked": 3,
+   "years": [
+    2018,
+    2022,
+    2026
+   ],
+   "lastAsked": 2026,
+   "sample": "2026-maths-33",
+   "sampleQ": "If $f(x)=\\begin{cases}x^2-1 & \\text{if } x\\ge2\\\\x+1 & \\text{if } x<2\\end{cases}$, then $\\lim_{x\\to2^+}f(x)+\\lim_{x\\to2^-}f(x)=$"
+  },
+  {
+   "rank": 135,
+   "template": "mat-lim-trig-standard",
+   "chapter": "Limits and Derivatives",
+   "name": "Standard trigonometric limits",
+   "desc": "Use sin x/x -> 1, (1-cos x)/x^2 -> 1/2, or factor trig 0/0 forms",
+   "probability": 0.15,
+   "timesAsked": 4,
+   "years": [
+    2015,
+    2017,
+    2023,
+    2024
+   ],
+   "lastAsked": 2024,
+   "sample": "2024-maths-35",
+   "sampleQ": "$\\displaystyle\\lim_{x\\to\\frac{\\pi}{4}}\\dfrac{\\sqrt2\\cos x-1}{\\cot x-1}$ is equal to"
+  },
+  {
+   "rank": 136,
+   "template": "mat-lim-derivative-basic",
+   "chapter": "Limits and Derivatives",
+   "name": "Basic derivatives and difference quotient",
+   "desc": "Differentiate polynomials/powers, evaluate difference quotient",
+   "probability": 0.11,
+   "timesAsked": 3,
+   "years": [
+    2015,
+    2018,
+    2021
+   ],
+   "lastAsked": 2021,
+   "sample": "2021-maths-13",
+   "sampleQ": "If a and b are fixed non-zero constants, then the derivative of $\\dfrac{a}{x^4}-\\dfrac{b}{x^2}$ + cosx is ma + nb $-$ p where"
+  },
+  {
+   "rank": 137,
+   "template": "mat-lim-rationalize",
+   "chapter": "Limits and Derivatives",
+   "name": "Limits by rationalisation",
+   "desc": "Multiply by conjugate of surd expressions",
+   "probability": 0.11,
+   "timesAsked": 3,
+   "years": [
+    2011,
+    2020,
+    2022
+   ],
+   "lastAsked": 2022,
+   "sample": "2022-maths-49",
+   "sampleQ": "$\\displaystyle\\lim_{y\\to0}\\dfrac{\\sqrt{3+y^3}-\\sqrt3}{y^3}$ ="
+  },
+  {
+   "rank": 138,
+   "template": "mat-lim-n-infinity",
+   "chapter": "Limits and Derivatives",
+   "name": "Limits as n tends to infinity",
+   "desc": "Divide by dominant term, sin(a/n)~a/n, sum formulas over n^4",
+   "probability": 0.11,
+   "timesAsked": 3,
+   "years": [
+    2009,
+    2010,
+    2019
+   ],
+   "lastAsked": 2019,
+   "sample": "2019-maths-42",
+   "sampleQ": "$\\displaystyle\\sum_{r=1}^n (2r-1)=x$ then $\\displaystyle\\lim_{n\\to\\infty}\\left[\\dfrac{1^3+2^3+3^3+\\cdots+n^3}{x^2}\\right]=$"
+  },
+  {
+   "rank": 139,
+   "template": "mat-pnc-arrangement-restriction",
+   "chapter": "Permutations and Combinations",
+   "name": "Arrangements with restrictions",
+   "desc": "Gap method for no two together, fixed ends, choosing chairs in stages",
+   "probability": 0.29,
+   "timesAsked": 3,
+   "years": [
+    2018,
+    2023,
+    2026
+   ],
+   "lastAsked": 2026,
+   "sample": "2026-maths-12",
+   "sampleQ": "How many ways can you arrange all the letters and numbers in \"KCET 2025\" which start with K and end with 5?"
+  },
+  {
+   "rank": 140,
+   "template": "mat-pnc-geometric-counting",
+   "chapter": "Permutations and Combinations",
+   "name": "Handshakes, diagonals, chords, triangles",
+   "desc": "nC2 handshakes/chords, nC2 - n diagonals, nC3 triangles",
+   "probability": 0.29,
+   "timesAsked": 3,
+   "years": [
+    2018,
+    2025,
+    2026
+   ],
+   "lastAsked": 2026,
+   "sample": "2026-maths-11",
+   "sampleQ": "10 distinct points are taken on a circle. Then using these points\nStatement I : The number of triangles that can be formed is 100\nStatement II : The number of chords that can be formed is 45\nWhich of the following is correct?"
+  },
+  {
+   "rank": 141,
+   "template": "mat-pnc-factorial-divisibility",
+   "chapter": "Permutations and Combinations",
+   "name": "Factorials: divisibility, remainders, series",
+   "desc": "Factor products into consecutive integers, remainders of factorial sums, sum r.r! = (n+1)!-1",
+   "probability": 0.29,
+   "timesAsked": 3,
+   "years": [
+    2010,
+    2015,
+    2026
+   ],
+   "lastAsked": 2026,
+   "sample": "2026-maths-9",
+   "sampleQ": "$\\sum_{r=1}^{n}(r\\cdot r!)=$ ________"
+  },
+  {
+   "rank": 142,
+   "template": "mat-pnc-digit-numbers",
+   "chapter": "Permutations and Combinations",
+   "name": "Forming numbers from digits",
+   "desc": "Count numbers with fixed prefix, parity, odd/even digit mix, no repetition, zero restriction",
+   "probability": 0.28,
+   "timesAsked": 3,
+   "years": [
+    2014,
+    2019,
+    2025
+   ],
+   "lastAsked": 2025,
+   "sample": "2025-maths-22",
+   "sampleQ": "The number of four digit even number that can be formed using the digits 0, 1, 2 and 3 without repetition is"
+  },
+  {
+   "rank": 143,
+   "template": "mat-pnc-ncr-identities",
+   "chapter": "Permutations and Combinations",
+   "name": "nCr identities",
+   "desc": "nCr=nC(n-r), Pascal's rule nCr + nC(r-1) = (n+1)Cr chained sums",
+   "probability": 0.17,
+   "timesAsked": 3,
+   "years": [
+    2017,
+    2020,
+    2024
+   ],
+   "lastAsked": 2024,
+   "sample": "2024-maths-29",
+   "sampleQ": "The value of ${}^{49}C_3+{}^{48}C_3+{}^{47}C_3+{}^{46}C_3+{}^{45}C_3+{}^{45}C_4$ is"
+  },
+  {
+   "rank": 144,
+   "template": "mat-pnc-selection-restriction",
+   "chapter": "Permutations and Combinations",
+   "name": "Selections with minimum-count restrictions",
+   "desc": "Split into cases satisfying at-least conditions and add nCr products",
+   "probability": 0.14,
+   "timesAsked": 1,
+   "years": [
+    2021
+   ],
+   "lastAsked": 2021,
+   "sample": "2021-maths-8",
+   "sampleQ": "A student has to answer 10 questions, choosing at least 4 from each of the parts A and B. If there are 6 questions in part A and 7 in part B, then the number of ways the student can choose 10 questions is"
+  },
+  {
+   "rank": 145,
+   "template": "mat-itf-double-angle-validity",
+   "chapter": "Inverse Trigonometric Functions",
+   "name": "Validity range of 2cos^-1x=sin^-1(2x sqrt(1-x^2))",
+   "desc": "Find interval of x where the double-angle inverse identity holds",
+   "probability": 0.29,
+   "timesAsked": 2,
+   "years": [
+    2012,
+    2025
+   ],
+   "lastAsked": 2025,
+   "sample": "2025-maths-13",
+   "sampleQ": "$2\\cos^{-1}x = \\sin^{-1}(2x\\sqrt{1-x^2})$ is valid for all values of 'x' satisfying"
+  },
+  {
+   "rank": 146,
+   "template": "mat-itf-telescoping-series",
+   "chapter": "Inverse Trigonometric Functions",
+   "name": "Telescoping sum of tan^-1/cot^-1",
+   "desc": "Write each term as tan^-1 a - tan^-1 b and telescope",
+   "probability": 0.29,
+   "timesAsked": 3,
+   "years": [
+    2009,
+    2012,
+    2026
+   ],
+   "lastAsked": 2026,
+   "sample": "2026-maths-1",
+   "sampleQ": "$\\tan^{-1}\\left(\\dfrac{1}{1+1\\cdot2}\\right)+\\tan^{-1}\\left(\\dfrac{1}{1+2\\cdot3}\\right)+\\cdots+\\tan^{-1}\\left(\\dfrac{1}{1+n(n+1)}\\right)=$"
+  },
+  {
+   "rank": 147,
+   "template": "mat-itf-trig-of-inverse",
+   "chapter": "Inverse Trigonometric Functions",
+   "name": "Trig function of inverse-trig expression",
+   "desc": "Evaluate expressions like cos(2sin^-1 a + cos^-1 a), sin(2sin^-1 x), sec^2(tan^-1 a)",
+   "probability": 0.28,
+   "timesAsked": 6,
+   "years": [
+    2013,
+    2014,
+    2018,
+    2019,
+    2020,
+    2025
+   ],
+   "lastAsked": 2025,
+   "sample": "2025-maths-12",
+   "sampleQ": "$\\sec^2(\\tan^{-1}2) + \\text{cosec}^2(\\cot^{-1}3) =$"
+  },
+  {
+   "rank": 148,
+   "template": "mat-itf-solve-equation",
+   "chapter": "Inverse Trigonometric Functions",
+   "name": "Solve an inverse trig equation",
+   "desc": "Solve for x by substitution, double-angle forms or counting solutions",
+   "probability": 0.26,
+   "timesAsked": 4,
+   "years": [
+    2010,
+    2012,
+    2015,
+    2023
+   ],
+   "lastAsked": 2023,
+   "sample": "2023-maths-19",
+   "sampleQ": "If $\\sin^{-1}\\left(\\dfrac{2a}{1+a^2}\\right) + \\cos^{-1}\\left(\\dfrac{1-a^2}{1+a^2}\\right) = \\tan^{-1}\\left(\\dfrac{2x}{1-x^2}\\right)$ where $a, x \\in (0, 1)$ then the value of x is"
+  },
+  {
+   "rank": 149,
+   "template": "mat-itf-sum-pi-by-2-xy",
+   "chapter": "Inverse Trigonometric Functions",
+   "name": "sin^-1x+sin^-1y=pi/2 relation",
+   "desc": "Deduce x^2 = 1-y^2 from sin^-1x + sin^-1y = pi/2",
+   "probability": 0.26,
+   "timesAsked": 2,
+   "years": [
+    2016,
+    2026
+   ],
+   "lastAsked": 2026,
+   "sample": "2026-maths-60",
+   "sampleQ": "If $\\sin^{-1}x+\\sin^{-1}y=\\pi/2$, then $x^2$ is equal to"
+  },
+  {
+   "rank": 150,
+   "template": "mat-itf-extreme-sum",
+   "chapter": "Inverse Trigonometric Functions",
+   "name": "Sum of inverse cosines at extreme",
+   "desc": "cos^-1x+cos^-1y+cos^-1z=3pi forces x=y=z=-1; evaluate expression",
+   "probability": 0.19,
+   "timesAsked": 1,
+   "years": [
+    2024
+   ],
+   "lastAsked": 2024,
+   "sample": "2024-maths-42",
+   "sampleQ": "If $\\cos^{-1}x+\\cos^{-1}y+\\cos^{-1}z=3\\pi$, then $x(y+z)+y(z+x)+z(x+y)$ equal"
+  },
+  {
+   "rank": 151,
+   "template": "mat-sets-count-subsets",
+   "chapter": "Sets",
+   "name": "Count subsets with a condition",
+   "desc": "Count subsets with at least k elements, only odd/even elements, or from 2^m-2^n relation",
+   "probability": 0.32,
+   "timesAsked": 5,
+   "years": [
+    2020,
+    2022,
+    2024,
+    2026
+   ],
+   "lastAsked": 2026,
+   "sample": "2026-maths-49",
+   "sampleQ": "If $A=\\{a,b,c,d,e,f\\}$, then the number of subsets of A which contains at least 2 elements is"
+  },
+  {
+   "rank": 152,
+   "template": "mat-sets-operations-notation",
+   "chapter": "Sets",
+   "name": "Set operations, builder form, empty set",
+   "desc": "Evaluate unions/differences, convert roster to builder form, identify empty set or subset relations",
+   "probability": 0.28,
+   "timesAsked": 4,
+   "years": [
+    2015,
+    2017,
+    2023,
+    2025
+   ],
+   "lastAsked": 2025,
+   "sample": "2025-maths-1",
+   "sampleQ": "If A = {x: x is an integer and $x^2 - 9 = 0$}, B = {x: x is a natural number and $2 \\leq x < 5$}, C = {x: x is a prime number $\\leq 4$}. Then $(B - C) \\cup A$ is,"
+  },
+  {
+   "rank": 153,
+   "template": "mat-sets-min-max-union-intersection",
+   "chapter": "Sets",
+   "name": "Bounds on union/intersection sizes",
+   "desc": "Find minimum/maximum elements of AuB or AnB given n(A), n(B)",
+   "probability": 0.25,
+   "timesAsked": 1,
+   "years": [
+    2025
+   ],
+   "lastAsked": 2025,
+   "sample": "2025-maths-2",
+   "sampleQ": "A and B are two sets having 3 and 6 elements respectively. Consider the following statements. Statement (I): Minimum number of elements in $A \\cup B$ is 3. Statement (II): Maximum number of elements in $A \\cap B$ is 3. Which of the following is correct?"
+  },
+  {
+   "rank": 154,
+   "template": "mat-sets-venn-cardinality",
+   "chapter": "Sets",
+   "name": "Venn diagram cardinality",
+   "desc": "Use n(AuB)=n(A)+n(B)-n(AnB) and complements to find counts in word problems",
+   "probability": 0.11,
+   "timesAsked": 3,
+   "years": [
+    2014,
+    2019,
+    2021
+   ],
+   "lastAsked": 2021,
+   "sample": "2021-maths-1",
+   "sampleQ": "In a certain town 65% families own cellphones, 15000 families own scooter and 15% families own both. Taking into consideration that the families own at least one of the two, the total number of families in the town is"
+  },
+  {
+   "rank": 155,
+   "template": "mat-sets-cartesian-product-count",
+   "chapter": "Sets",
+   "name": "Cartesian product element count",
+   "desc": "Use n(AxB)=n(A)n(B) and common elements of AxB and BxA",
+   "probability": 0.11,
+   "timesAsked": 3,
+   "years": [
+    2012,
+    2021,
+    2022
+   ],
+   "lastAsked": 2022,
+   "sample": "2022-maths-39",
+   "sampleQ": "Suppose that the number of elements in set A is p, the number of elements in set B is q and the number of elements in A×B is 7 then p$^2$ + q$^2$ ="
+  },
+  {
+   "rank": 156,
+   "template": "mat-lpp-multiple-optima",
+   "chapter": "Linear Programming",
+   "name": "Multiple optimal solutions",
+   "desc": "Equal z at two corners gives optimum on the whole segment; find p,q relation or number of points",
+   "probability": 0.32,
+   "timesAsked": 6,
+   "years": [
+    2017,
+    2020,
+    2022,
+    2024,
+    2026
+   ],
+   "lastAsked": 2026,
+   "sample": "2026-maths-2",
+   "sampleQ": "The corner points of the feasible region determined by the system of linear constraints are $(0,10),(5,5),(15,15),(0,20)$. Let $z=px+qy$, where $p,q>0$. The relation between $p$ and $q$, so that the maximum $z$ occurs at both points $(15,15)$ and $(0,20)$ is"
+  },
+  {
+   "rank": 157,
+   "template": "mat-lpp-theory",
+   "chapter": "Linear Programming",
+   "name": "LPP terminology and feasibility",
+   "desc": "Statements about objective function, constraints, infeasible regions",
+   "probability": 0.29,
+   "timesAsked": 2,
+   "years": [
+    2018,
+    2025
+   ],
+   "lastAsked": 2025,
+   "sample": "2025-maths-14",
+   "sampleQ": "Consider the following statements: Statement (I): In a LPP, the objective function is always linear. Statement (II): In a LPP, the linear inequalities on variables are called constraints. Which of the following is correct?"
+  },
+  {
+   "rank": 158,
+   "template": "mat-lpp-corner-point-optimum",
+   "chapter": "Linear Programming",
+   "name": "Optimum by corner-point method",
+   "desc": "Evaluate z at corner points of the feasible region (given or found) to get max/min",
+   "probability": 0.28,
+   "timesAsked": 4,
+   "years": [
+    2014,
+    2018,
+    2020,
+    2025
+   ],
+   "lastAsked": 2025,
+   "sample": "2025-maths-15",
+   "sampleQ": "The maximum value of $z = 3x + 4y$, subject to the constraints $x+y \\leq 40$, $x+2y \\leq 60$ and $x, y \\geq 0$ is"
+  },
+  {
+   "rank": 159,
+   "template": "mat-lpp-shaded-region",
+   "chapter": "Linear Programming",
+   "name": "Inequalities for a shaded feasible region",
+   "desc": "Test a point to find the sign of each boundary line inequality",
+   "probability": 0.26,
+   "timesAsked": 4,
+   "years": [
+    2017,
+    2019,
+    2021,
+    2023
+   ],
+   "lastAsked": 2023,
+   "sample": "2023-maths-53",
+   "sampleQ": "The shaded region in the figure given is the solution of which of the inequations? [Figure: a shaded triangle with vertices A(7,0), B(3,4) and C(0,2), bounded by the line through (0,7) and (7,0) i.e. $x+y=7$, and the line through (-3,0) and (3,4) i.e. $2x-3y+6=0$, lying in the first quadrant]"
+  },
+  {
+   "rank": 160,
+   "template": "mat-lpp-formulation",
+   "chapter": "Linear Programming",
+   "name": "Formulate an LPP word problem",
+   "desc": "Translate diet/production data into constraints and find corner points",
+   "probability": 0.14,
+   "timesAsked": 1,
+   "years": [
+    2022
+   ],
+   "lastAsked": 2022,
+   "sample": "2022-maths-26",
+   "sampleQ": "A dietician has to develop a special diet using two foods X and Y. Each packet (containing 30 g) of food X contains 12 units of calcium, 4 units of iron, 6 units of cholesterol and 6 units of vitamin A. Each packet of the same quantity of food Y contains 3 units of calcium, 20 units of iron, 4 units of cholesterol and 3 units of vitamin A. The diet requires atleast 240 units of calcium, atleast 460 units of iron and atmost 300 units of cholesterol. The corner points of the feasible region are"
+  },
+  {
+   "rank": 161,
+   "template": "mat-aoi-curve-horizontal-line",
+   "chapter": "Application of Integrals",
+   "name": "Area between curve and horizontal line/y-axis",
+   "desc": "Integrate in y (or x) for y=x^2 and y=k, y=x^3 and y=8, y^2=x^3 between y-limits",
+   "probability": 0.32,
+   "timesAsked": 5,
+   "years": [
+    2010,
+    2015,
+    2017,
+    2025,
+    2026
+   ],
+   "lastAsked": 2026,
+   "sample": "2026-maths-46",
+   "sampleQ": "The area of the region bounded by the curve $y^2=x^3$, the y-axis and the lines $y=1$ and $y=8$ is"
+  },
+  {
+   "rank": 162,
+   "template": "mat-aoi-circle-ellipse",
+   "chapter": "Application of Integrals",
+   "name": "Area of circle/ellipse regions",
+   "desc": "Area of semicircle, circle from parametric form, or region between parabola and circle",
+   "probability": 0.29,
+   "timesAsked": 3,
+   "years": [
+    2019,
+    2021,
+    2026
+   ],
+   "lastAsked": 2026,
+   "sample": "2026-maths-47",
+   "sampleQ": "The area enclosed by the curve $x=\\sqrt3\\cos\\theta, y=\\sqrt3\\sin\\theta$ is"
+  },
+  {
+   "rank": 163,
+   "template": "mat-aoi-trig-curve",
+   "chapter": "Application of Integrals",
+   "name": "Area under trig curves",
+   "desc": "Integrate |sin(x/3)|, |cos x|, tan x, between sin and cos or tan and cot over given limits",
+   "probability": 0.28,
+   "timesAsked": 7,
+   "years": [
+    2013,
+    2017,
+    2018,
+    2019,
+    2022,
+    2023,
+    2025
+   ],
+   "lastAsked": 2025,
+   "sample": "2025-maths-56",
+   "sampleQ": "The area bounded by the curve $y=\\sin\\left(\\dfrac{x}{3}\\right)$, x axis, the lines x = 0 and $x=3\\pi$ is"
+  },
+  {
+   "rank": 164,
+   "template": "mat-aoi-line-with-ordinates",
+   "chapter": "Application of Integrals",
+   "name": "Area under a straight line between ordinates",
+   "desc": "Split at x-intercept and sum triangle areas for y=mx+c between x=a and x=b",
+   "probability": 0.26,
+   "timesAsked": 4,
+   "years": [
+    2014,
+    2018,
+    2020,
+    2023
+   ],
+   "lastAsked": 2023,
+   "sample": "2023-maths-37",
+   "sampleQ": "The area of the region bounded by the line $y = x + 1$, and the lines $x = -3$, $x = 3$ and the x-axis is"
+  },
+  {
+   "rank": 165,
+   "template": "mat-aoi-parabola-line",
+   "chapter": "Application of Integrals",
+   "name": "Area between parabola and line/parabola",
+   "desc": "Find intersection points and integrate difference (y^2=4ax with y=mx, y=x^2 with x=y^2)",
+   "probability": 0.12,
+   "timesAsked": 5,
+   "years": [
+    2009,
+    2011,
+    2014,
+    2016,
+    2020
+   ],
+   "lastAsked": 2020,
+   "sample": "2020-maths-34",
+   "sampleQ": "The area of the region bounded by the curve $y^2=8x$ and the line $y=2x$ is"
+  },
+  {
+   "rank": 166,
+   "template": "mat-seq-ap-gp-relation",
+   "chapter": "Sequences and Series",
+   "name": "AP/GP relations and inserting means",
+   "desc": "Exponent identities for AP terms with GP terms, AP condition transforms, insert GP means",
+   "probability": 0.29,
+   "timesAsked": 3,
+   "years": [
+    2018,
+    2023,
+    2026
+   ],
+   "lastAsked": 2026,
+   "sample": "2026-maths-14",
+   "sampleQ": "If we insert two numbers between $\\sqrt2$ and 4 so that the resulting sequence is in G.P., then the inserted numbers in the order are"
+  },
+  {
+   "rank": 167,
+   "template": "mat-seq-gp-terms",
+   "chapter": "Sequences and Series",
+   "name": "GP term relations",
+   "desc": "Use a r^{n-1} to relate terms, ratios, products of terms or S_n:S_{2n}",
+   "probability": 0.28,
+   "timesAsked": 5,
+   "years": [
+    2015,
+    2019,
+    2022,
+    2024,
+    2025
+   ],
+   "lastAsked": 2025,
+   "sample": "2025-maths-25",
+   "sampleQ": "If $4^{th}$, $10^{th}$ and $16^{th}$ terms of a G.P. are x, y and z respectively, then"
+  },
+  {
+   "rank": 168,
+   "template": "mat-seq-nth-term-pattern",
+   "chapter": "Sequences and Series",
+   "name": "nth term of a series from pattern",
+   "desc": "Use differences or arithmetic-geometric pattern to get the general term",
+   "probability": 0.16,
+   "timesAsked": 2,
+   "years": [
+    2010,
+    2023
+   ],
+   "lastAsked": 2023,
+   "sample": "2023-maths-1",
+   "sampleQ": "$n^{th}$ term of the series $1 + \\dfrac{3}{7} + \\dfrac{5}{7^2} + \\dfrac{7}{7^3} + \\cdots$ is"
+  },
+  {
+   "rank": 169,
+   "template": "mat-seq-ap-sum",
+   "chapter": "Sequences and Series",
+   "name": "AP sum and terms",
+   "desc": "S_n formula, d from S_n, sum from middle term",
+   "probability": 0.11,
+   "timesAsked": 3,
+   "years": [
+    2017,
+    2020,
+    2021
+   ],
+   "lastAsked": 2021,
+   "sample": "2021-maths-9",
+   "sampleQ": "If the middle term of the A.P is 300 then the sum of its first 51 terms is"
+  },
+  {
+   "rank": 170,
+   "template": "mat-sl-line-parallel-perp",
+   "chapter": "Straight Lines",
+   "name": "Line through a point parallel/perpendicular to a line",
+   "desc": "Use slope relation to write the line, then its equation or intercept",
+   "probability": 0.28,
+   "timesAsked": 6,
+   "years": [
+    2015,
+    2017,
+    2018,
+    2021,
+    2023,
+    2025
+   ],
+   "lastAsked": 2025,
+   "sample": "2025-maths-40",
+   "sampleQ": "A line passes through (-1, -3) and perpendicular to x + 6y = 5. Its x intercept is"
+  },
+  {
+   "rank": 171,
+   "template": "mat-sl-section-formula",
+   "chapter": "Straight Lines",
+   "name": "Section formula",
+   "desc": "Points dividing a segment in a ratio; line through point of division",
+   "probability": 0.26,
+   "timesAsked": 2,
+   "years": [
+    2010,
+    2026
+   ],
+   "lastAsked": 2026,
+   "sample": "2026-maths-29",
+   "sampleQ": "The line $L_1$ joining the two points $(-1,2)$ and $(3,6)$ divides the line $L_2$ which passes through $(3,-1)$ in the ratio 1:3 internally, then the equation of $L_2$ is"
+  },
+  {
+   "rank": 172,
+   "template": "mat-sl-angle-inclination",
+   "chapter": "Straight Lines",
+   "name": "Angle between lines / inclination",
+   "desc": "tan theta = |(m1-m2)/(1+m1m2)|; equal intercepts give slope -1",
+   "probability": 0.25,
+   "timesAsked": 2,
+   "years": [
+    2019,
+    2024
+   ],
+   "lastAsked": 2024,
+   "sample": "2024-maths-33",
+   "sampleQ": "The angle between the line $x+y=3$ and the line joining the points $(1,1)$ and $(-3,4)$ is"
+  },
+  {
+   "rank": 173,
+   "template": "mat-sl-perp-parallel-condition",
+   "chapter": "Straight Lines",
+   "name": "Parameter from parallel/perpendicular condition",
+   "desc": "m1 m2 = -1 or equal slopes (or parallel to an axis) to find k, beta, lambda",
+   "probability": 0.12,
+   "timesAsked": 4,
+   "years": [
+    2013,
+    2016,
+    2020,
+    2022
+   ],
+   "lastAsked": 2022,
+   "sample": "2022-maths-47",
+   "sampleQ": "If the straight line 2x - 3y + 17 = 0 is perpendicular to the line passing through the points (7, 17) and (15, β), then β equals"
+  },
+  {
+   "rank": 174,
+   "template": "mat-stat-mean-deviation",
+   "chapter": "Statistics",
+   "name": "Mean deviation about mean",
+   "desc": "Compute mean, then average absolute deviations",
+   "probability": 0.29,
+   "timesAsked": 2,
+   "years": [
+    2015,
+    2025
+   ],
+   "lastAsked": 2025,
+   "sample": "2025-maths-7",
+   "sampleQ": "The mean deviation about the mean for the data 4, 7, 8, 9, 10, 12, 13, 17 is"
+  },
+  {
+   "rank": 175,
+   "template": "mat-stat-sum-of-squares",
+   "chapter": "Statistics",
+   "name": "Sum of squares from mean and SD",
+   "desc": "Use sigma^2 = sum(x^2)/n - mean^2 to find sum of squares",
+   "probability": 0.29,
+   "timesAsked": 3,
+   "years": [
+    2019,
+    2023,
+    2026
+   ],
+   "lastAsked": 2026,
+   "sample": "2026-maths-56",
+   "sampleQ": "The mean and standard deviation of 100 items are 50 and 4, respectively then the sum of all squares of the items is"
+  },
+  {
+   "rank": 176,
+   "template": "mat-stat-sd-shift-scale",
+   "chapter": "Statistics",
+   "name": "Effect of shift/scale on SD",
+   "desc": "Adding a constant leaves SD unchanged; multiplying scales it",
+   "probability": 0.19,
+   "timesAsked": 1,
+   "years": [
+    2024
+   ],
+   "lastAsked": 2024,
+   "sample": "2024-maths-37",
+   "sampleQ": "Let a, b, c, d and e be the observations with mean m and standard deviation S. The standard deviation of the observations $a+k,b+k,c+k,d+k$ and $e+k$ is"
+  },
+  {
+   "rank": 177,
+   "template": "mat-cx-equation-conjugate",
+   "chapter": "Complex Numbers and Quadratic Equations",
+   "name": "Complex equations, conjugates, real/imaginary parts",
+   "desc": "Equate real/imaginary parts, conjugate properties, count solutions, purely real condition",
+   "probability": 0.28,
+   "timesAsked": 6,
+   "years": [
+    2012,
+    2016,
+    2022,
+    2024,
+    2025
+   ],
+   "lastAsked": 2025,
+   "sample": "2025-maths-20",
+   "sampleQ": "If $Z_1$ and $Z_2$ are two non-zero complex numbers, then which of the following is not true?"
+  },
+  {
+   "rank": 178,
+   "template": "mat-cx-modulus-argument",
+   "chapter": "Complex Numbers and Quadratic Equations",
+   "name": "Modulus and argument",
+   "desc": "Use |z1 z2|=|z1||z2|, |z1/z2|, standard results like |(b-a)/(1-a-bar b)|=1",
+   "probability": 0.26,
+   "timesAsked": 6,
+   "years": [
+    2011,
+    2012,
+    2013,
+    2014,
+    2015,
+    2023
+   ],
+   "lastAsked": 2023,
+   "sample": "2023-maths-57",
+   "sampleQ": "The modulus of the complex number $\\dfrac{(1+i)^2(1+3i)}{(2-6i)(2-2i)}$ is"
+  },
+  {
+   "rank": 179,
+   "template": "mat-cx-roots-symmetric",
+   "chapter": "Complex Numbers and Quadratic Equations",
+   "name": "Symmetric functions of roots",
+   "desc": "Use Vieta relations for quadratics/cubics, roots in AP, quadratic from AM and GM",
+   "probability": 0.15,
+   "timesAsked": 6,
+   "years": [
+    2010,
+    2011,
+    2012,
+    2013,
+    2015,
+    2024
+   ],
+   "lastAsked": 2024,
+   "sample": "2024-maths-32",
+   "sampleQ": "If A.M. and G.M. of roots of a quadratic equation are 5 and 4 respectively, then the quadratic equation is"
+  },
+  {
+   "rank": 180,
+   "template": "mat-ineq-basic-linear",
+   "chapter": "Linear Inequalities",
+   "name": "Solve a basic linear inequality",
+   "desc": "Solve linear inequalities in one variable, including sign flip when dividing by a negative, and common solution sets",
+   "probability": 0.29,
+   "timesAsked": 3,
+   "years": [
+    2023,
+    2025,
+    2026
+   ],
+   "lastAsked": 2026,
+   "sample": "2026-maths-10",
+   "sampleQ": "The solution of $3x-5<2x-4$ is"
+  },
+  {
+   "rank": 181,
+   "template": "mat-ineq-word-problem",
+   "chapter": "Linear Inequalities",
+   "name": "Word problem to linear inequality",
+   "desc": "Translate profit/perimeter type statements into a linear inequality and solve",
+   "probability": 0.25,
+   "timesAsked": 2,
+   "years": [
+    2021,
+    2024
+   ],
+   "lastAsked": 2024,
+   "sample": "2024-maths-28",
+   "sampleQ": "The length of a rectangle is five times the breadth. If the minimum perimeter of the rectangle is 180 cm, then"
+  },
+  {
+   "rank": 182,
+   "template": "mat-ineq-graph-region",
+   "chapter": "Linear Inequalities",
+   "name": "Inequalities from a shaded region",
+   "desc": "Identify the system of inequalities that describes a shaded region",
+   "probability": 0.14,
+   "timesAsked": 1,
+   "years": [
+    2015
+   ],
+   "lastAsked": 2015,
+   "sample": "2015-maths-9",
+   "sampleQ": "The shaded region shown in fig. [a triangle with vertices $(0,14)$, $(19,14)$ and the base meeting the x-axis so that the sloped side through $(0,14)$ crosses the x-axis at $(5,0)$] is given by the inequation"
+  },
+  {
+   "rank": 183,
+   "template": "mat-con-ellipse-properties",
+   "chapter": "Conic Sections",
+   "name": "Ellipse eccentricity, LR, area and eccentric angle",
+   "desc": "Use b^2=a^2(1-e^2), LR=2b^2/a, area pi ab, focal triangle area",
+   "probability": 0.28,
+   "timesAsked": 7,
+   "years": [
+    2010,
+    2011,
+    2013,
+    2017,
+    2019,
+    2021,
+    2025
+   ],
+   "lastAsked": 2025,
+   "sample": "2025-maths-41",
+   "sampleQ": "The length of the latus rectum of $x^2+3y^2=12$ is"
+  },
+  {
+   "rank": 184,
+   "template": "mat-con-hyperbola-equation",
+   "chapter": "Conic Sections",
+   "name": "Equation of hyperbola from given data",
+   "desc": "Use 2ae, e, asymptotes or vertices, focal chord to find a, b",
+   "probability": 0.26,
+   "timesAsked": 4,
+   "years": [
+    2011,
+    2015,
+    2018,
+    2023
+   ],
+   "lastAsked": 2023,
+   "sample": "2023-maths-4",
+   "sampleQ": "The distance between the foci of a hyperbola is 16 and its eccentricity is $\\sqrt{2}$. Its equation is"
+  },
+  {
+   "rank": 185,
+   "template": "mat-con-conic-from-cone",
+   "chapter": "Conic Sections",
+   "name": "Conic sections from a cone",
+   "desc": "Relate cutting-plane angle and semi-vertical angle to identify ellipse/parabola/hyperbola",
+   "probability": 0.2,
+   "timesAsked": 1,
+   "years": [
+    2026
+   ],
+   "lastAsked": 2026,
+   "sample": "2026-maths-30",
+   "sampleQ": "In the figure\nStatement I : When $\\alpha>\\beta\\ge0$, the section is hyperbola\nStatement II : When $\\beta=90^\\circ$, the section is ellipse\nWhich of the following is correct? [Figure: a cone cut by a plane, $\\alpha$ = semi-vertical angle of the cone, $\\beta$ = angle the cutting plane makes with the axis]"
+  },
+  {
+   "rank": 186,
+   "template": "mat-3dintro-distance-from-plane",
+   "chapter": "Introduction to Three Dimensional Geometry",
+   "name": "Distance of point from coordinate plane",
+   "desc": "Distance from XY/YZ/ZX plane is |z|, |x|, |y|",
+   "probability": 0.29,
+   "timesAsked": 2,
+   "years": [
+    2017,
+    2025
+   ],
+   "lastAsked": 2025,
+   "sample": "2025-maths-60",
+   "sampleQ": "The distance of the point P(-3, 4, 5) from yz plane is"
+  },
+  {
+   "rank": 187,
+   "template": "mat-3dintro-distance-right-triangle",
+   "chapter": "Introduction to Three Dimensional Geometry",
+   "name": "Distance formula: right-angled triangle",
+   "desc": "Use distance formula/Pythagoras to find unknown coordinate",
+   "probability": 0.2,
+   "timesAsked": 1,
+   "years": [
+    2026
+   ],
+   "lastAsked": 2026,
+   "sample": "2026-maths-31",
+   "sampleQ": "The three points $A(2,4,3), B(4,a,9)$ and $C(10,-1,7)$ form a right-angled triangle with $\\angle B=90^\\circ$, then the value of 'a' is"
+  },
+  {
+   "rank": 188,
+   "template": "mat-bin-number-of-terms",
+   "chapter": "Binomial Theorem",
+   "name": "Number of terms in an expansion",
+   "desc": "(x+y)^n+-(x-y)^n leaves alternate terms; (2x+3)^n has n+1 terms; multinomial count C(n+2,2)",
+   "probability": 0.28,
+   "timesAsked": 5,
+   "years": [
+    2009,
+    2017,
+    2019,
+    2020,
+    2025
+   ],
+   "lastAsked": 2025,
+   "sample": "2025-maths-24",
+   "sampleQ": "If the number of terms in the binomial expansion of $(2x+3)^{3n}$ is 22, then the value of n is"
+  },
+  {
+   "rank": 189,
+   "template": "mat-bin-general-middle-term",
+   "chapter": "Binomial Theorem",
+   "name": "General/middle/constant term",
+   "desc": "Use T_{r+1}=nCr a^{n-r} b^r to find a specified, middle or x-independent term",
+   "probability": 0.26,
+   "timesAsked": 5,
+   "years": [
+    2012,
+    2015,
+    2016,
+    2018,
+    2023
+   ],
+   "lastAsked": 2023,
+   "sample": "2023-maths-6",
+   "sampleQ": "If n is even and the middle term in the expansion of $\\left(x^2 + \\dfrac{1}{x}\\right)^n$ is $924x^6$, then n is equal to"
+  },
+  {
+   "rank": 190,
+   "template": "mat-oldmr-converse-contrapositive",
+   "chapter": "Old syllabus: Mathematical Reasoning",
+   "name": "Converse/inverse/contrapositive",
+   "desc": "Write converse, inverse or contrapositive of an implication",
+   "probability": 0.26,
+   "timesAsked": 4,
+   "years": [
+    2013,
+    2016,
+    2017,
+    2023
+   ],
+   "lastAsked": 2023,
+   "sample": "2023-maths-12",
+   "sampleQ": "The contrapositive of the statement \"If two lines do not intersect in the same plane then they are parallel.\" is"
+  },
+  {
+   "rank": 191,
+   "template": "mat-itf-simplify-substitution",
+   "chapter": "Inverse Trigonometric Functions",
+   "name": "Simplify by trig substitution",
+   "desc": "Simplify inverse-trig expressions via x=sin t etc. or half-angle forms",
+   "probability": 0.16,
+   "timesAsked": 3,
+   "years": [
+    2009,
+    2014,
+    2023
+   ],
+   "lastAsked": 2023,
+   "sample": "2023-maths-13",
+   "sampleQ": "The value of $\\cot^{-1}\\left[\\dfrac{\\sqrt{1-\\sin x}+\\sqrt{1+\\sin x}}{\\sqrt{1-\\sin x}-\\sqrt{1+\\sin x}}\\right]$ where $x \\in \\left(0, \\dfrac{\\pi}{4}\\right)$ is"
+  },
+  {
+   "rank": 192,
+   "template": "mat-con-parabola-focus-focal",
+   "chapter": "Conic Sections",
+   "name": "Parabola focus, focal distance and focal chords",
+   "desc": "Focal distance x+a, harmonic property of focal chord, equation from focus-directrix, parametric form",
+   "probability": 0.15,
+   "timesAsked": 4,
+   "years": [
+    2009,
+    2011,
+    2012,
+    2024
+   ],
+   "lastAsked": 2024,
+   "sample": "2024-maths-34",
+   "sampleQ": "The equation of parabola whose focus is $(6,0)$ and directrix is $x=-6$ is"
+  },
+  {
+   "rank": 193,
+   "template": "mat-bin-coefficient-sums",
+   "chapter": "Binomial Theorem",
+   "name": "Sums of binomial coefficients",
+   "desc": "Use sum nCr=2^n, substitute x=+-1, or weighted sums like sum (r+1)C_r, sum r C_r/C_{r-1}",
+   "probability": 0.15,
+   "timesAsked": 4,
+   "years": [
+    2011,
+    2012,
+    2013,
+    2024
+   ],
+   "lastAsked": 2024,
+   "sample": "2024-maths-30",
+   "sampleQ": "In the expansion of $(1+x)^n$, $\\dfrac{C_1}{C_0}+2\\dfrac{C_2}{C_1}+3\\dfrac{C_3}{C_2}+\\dots+n\\dfrac{C_n}{C_{n-1}}$ is equal to"
+  },
+  {
+   "rank": 194,
+   "template": "mat-oldmr-negation",
+   "chapter": "Old syllabus: Mathematical Reasoning",
+   "name": "Negation of a compound/quantified statement",
+   "desc": "Negate using De Morgan, ~(p->q)=p^~q, 'for all' <-> 'there exists'",
+   "probability": 0.15,
+   "timesAsked": 6,
+   "years": [
+    2009,
+    2011,
+    2018,
+    2019,
+    2020,
+    2024
+   ],
+   "lastAsked": 2024,
+   "sample": "2024-maths-36",
+   "sampleQ": "The negation of the statement \"For every real number x; $x^2+5$ is positive\" is"
+  },
+  {
+   "rank": 195,
+   "template": "mat-pnc-dictionary-rank",
+   "chapter": "Permutations and Combinations",
+   "name": "Dictionary order of words",
+   "desc": "Count words starting with each smaller letter to locate a rank",
+   "probability": 0.14,
+   "timesAsked": 1,
+   "years": [
+    2022
+   ],
+   "lastAsked": 2022,
+   "sample": "2022-maths-45",
+   "sampleQ": "If all permutations of the letters of the word MASK are arranged in the order as in dictionary with or without meaning, which one of the following is 19$^{th}$ word?"
+  },
+  {
+   "rank": 196,
+   "template": "mat-3dintro-centroid-midpoints",
+   "chapter": "Introduction to Three Dimensional Geometry",
+   "name": "Centroid from midpoints of sides",
+   "desc": "Centroid of triangle equals centroid of its mid-point triangle",
+   "probability": 0.14,
+   "timesAsked": 1,
+   "years": [
+    2021
+   ],
+   "lastAsked": 2021,
+   "sample": "2021-maths-11",
+   "sampleQ": "The mid points of the sides of a triangle are (1, 5, $-$1), (0, 4, $-$2) and (2, 3, 4) then centroid of the triangle"
+  },
+  {
+   "rank": 197,
+   "template": "mat-itf-domain-range",
+   "chapter": "Inverse Trigonometric Functions",
+   "name": "Domain/range of inverse trig functions",
+   "desc": "Find domain of sin^-1(g(x)), cos^-1[x] or range of sec^-1 x",
+   "probability": 0.12,
+   "timesAsked": 4,
+   "years": [
+    2011,
+    2017,
+    2020,
+    2022
+   ],
+   "lastAsked": 2022,
+   "sample": "2022-maths-57",
+   "sampleQ": "Domain of cos$^{-1}$[x] is, where [ ] denotes a greatest integer function"
+  },
+  {
+   "rank": 198,
+   "template": "mat-cx-powers-of-i",
+   "chapter": "Complex Numbers and Quadratic Equations",
+   "name": "Powers of i and ((1+i)/(1-i))^n",
+   "desc": "Reduce to i^n, polar form or De Moivre to find least n or value",
+   "probability": 0.12,
+   "timesAsked": 7,
+   "years": [
+    2009,
+    2010,
+    2016,
+    2017,
+    2018,
+    2021
+   ],
+   "lastAsked": 2021,
+   "sample": "2021-maths-6",
+   "sampleQ": "If $\\left(\\dfrac{1+i}{1-i}\\right)^{x}=1$ then"
+  },
+  {
+   "rank": 199,
+   "template": "mat-itf-principal-value",
+   "chapter": "Inverse Trigonometric Functions",
+   "name": "Principal value evaluation",
+   "desc": "Evaluate sin^-1(cos t), cot^-1(-sqrt3) etc. using principal ranges",
+   "probability": 0.11,
+   "timesAsked": 3,
+   "years": [
+    2016,
+    2021
+   ],
+   "lastAsked": 2021,
+   "sample": "2021-maths-20",
+   "sampleQ": "cos[cot$^{-1}$($-\\sqrt3$) + $\\pi/6$] ="
+  },
+  {
+   "rank": 200,
+   "template": "mat-stat-sd-of-data",
+   "chapter": "Statistics",
+   "name": "Standard deviation of data / consecutive numbers",
+   "desc": "Compute SD of a small data set or n consecutive integers ((n^2-1)/12), or find unknown from SD",
+   "probability": 0.11,
+   "timesAsked": 3,
+   "years": [
+    2020,
+    2021,
+    2022
+   ],
+   "lastAsked": 2022,
+   "sample": "2022-maths-50",
+   "sampleQ": "If the standard deviation of the numbers -1, 0, 1, k is $\\sqrt5$ where k > 0, then k is equal to"
+  }
+ ]
+}

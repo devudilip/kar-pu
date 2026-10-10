@@ -1,0 +1,1119 @@
+{
+ "params": {
+  "decay": 0.8,
+  "window": 6,
+  "multi": 1.5,
+  "exact": 0.5,
+  "method": "hazard",
+  "list": 60
+ },
+ "priorYears": [
+  2018,
+  2019,
+  2020,
+  2021,
+  2022,
+  2023
+ ],
+ "quota": {
+  "Integrals": 6,
+  "Continuity and Differentiability": 6,
+  "Relations and Functions": 4,
+  "Probability": 4,
+  "Vector Algebra": 4,
+  "Three Dimensional Geometry": 4,
+  "Application of Derivatives": 4,
+  "Determinants": 3,
+  "Matrices": 3,
+  "Differential Equations": 3,
+  "Trigonometric Functions": 2,
+  "Inverse Trigonometric Functions": 2,
+  "Limits and Derivatives": 2,
+  "Application of Integrals": 2,
+  "Linear Programming": 1,
+  "Sets": 1,
+  "Sequences and Series": 1,
+  "Permutations and Combinations": 1,
+  "Straight Lines": 1,
+  "Complex Numbers and Quadratic Equations": 1,
+  "Statistics": 1,
+  "Conic Sections": 1,
+  "Linear Inequalities": 1,
+  "Binomial Theorem": 1,
+  "Old syllabus: Mathematical Reasoning": 1,
+  "Introduction to Three Dimensional Geometry": 0,
+  "Old syllabus: Principle of Mathematical Induction": 0,
+  "Old syllabus: Mathematical Induction": 0
+ },
+ "predicted": [
+  {
+   "template": "mat-int-standard-forms",
+   "chapter": "Integrals",
+   "score": 0.354,
+   "slot": 0,
+   "sample": "2023-maths-33",
+   "sampleQ": "$\\displaystyle\\int \\dfrac{1}{1 + 3\\sin^2 x + 8\\cos^2 x}\\,dx =$"
+  },
+  {
+   "template": "mat-int-king-log-xf",
+   "chapter": "Integrals",
+   "score": 0.354,
+   "slot": 0,
+   "sample": "2023-maths-35",
+   "sampleQ": "$\\displaystyle\\int_{0}^{\\pi} \\dfrac{x\\tan x}{\\sec x \\cdot \\csc x}\\,dx =$"
+  },
+  {
+   "template": "mat-int-king-symmetric",
+   "chapter": "Integrals",
+   "score": 0.354,
+   "slot": 0,
+   "sample": "2023-maths-30",
+   "sampleQ": "$\\displaystyle\\int_{2}^{8} \\dfrac{5^{\\sqrt{10-x}}}{5^{\\sqrt x}+5^{\\sqrt{10-x}}}\\,dx =$"
+  },
+  {
+   "template": "mat-int-trig-identity-simplify",
+   "chapter": "Integrals",
+   "score": 0.354,
+   "slot": 0,
+   "sample": "2023-maths-31",
+   "sampleQ": "$\\displaystyle\\int \\sqrt{\\csc x - \\sin x}\\,dx =$"
+  },
+  {
+   "template": "mat-int-by-parts",
+   "chapter": "Integrals",
+   "score": 0.294,
+   "slot": 0,
+   "sample": "2020-maths-30",
+   "sampleQ": "The value of $\\displaystyle\\int e^{\\sin x}\\sin 2x\\,dx$ is"
+  },
+  {
+   "template": "mat-int-odd-even",
+   "chapter": "Integrals",
+   "score": 0.294,
+   "slot": 0,
+   "sample": "2023-maths-34",
+   "sampleQ": "$\\displaystyle\\int_{-2}^{0} \\left(x^3 + 3x^2 + 3x + 3 + (x+1)\\cos(x+1)\\right)\\,dx =$"
+  },
+  {
+   "template": "mat-cd-standard-rules",
+   "chapter": "Continuity and Differentiability",
+   "score": 0.354,
+   "slot": 0,
+   "sample": "2023-maths-32",
+   "sampleQ": "If $f(x)$ and $g(x)$ are two functions with $g(x) = x - \\dfrac{1}{x}$ and $fog(x) = x^3 - \\dfrac{1}{x^3}$ then $f'(x) =$"
+  },
+  {
+   "template": "mat-cd-second-derivative",
+   "chapter": "Continuity and Differentiability",
+   "score": 0.354,
+   "slot": 0,
+   "sample": "2023-maths-24",
+   "sampleQ": "If $f(x) = 1 + nx + \\dfrac{n(n-1)}{2}x^2 + \\dfrac{n(n-1)(n-2)}{6}x^3 + \\cdots + x^n$ then $f''(1) =$"
+  },
+  {
+   "template": "mat-cd-derivative-identity",
+   "chapter": "Continuity and Differentiability",
+   "score": 0.354,
+   "slot": 0,
+   "sample": "2023-maths-23",
+   "sampleQ": "If $y = a \\sin x + b \\cos x$, then $y^2 + \\left(\\dfrac{dy}{dx}\\right)^2$ is a"
+  },
+  {
+   "template": "mat-cd-derivative-wrt-function",
+   "chapter": "Continuity and Differentiability",
+   "score": 0.354,
+   "slot": 0,
+   "sample": "2023-maths-20",
+   "sampleQ": "If $u = \\sin^{-1}\\left(\\dfrac{2x}{1+x^2}\\right)$ and $v = \\tan^{-1}\\left(\\dfrac{2x}{1-x^2}\\right)$ then $\\dfrac{du}{dv}$ is"
+  },
+  {
+   "template": "mat-cd-discontinuity-points",
+   "chapter": "Continuity and Differentiability",
+   "score": 0.354,
+   "slot": 0,
+   "sample": "2023-maths-21",
+   "sampleQ": "The function $f(x) = \\cot x$ is discontinuous on every point of the set"
+  },
+  {
+   "template": "mat-cd-continuity-find-k",
+   "chapter": "Continuity and Differentiability",
+   "score": 0.294,
+   "slot": 0,
+   "sample": "2020-maths-19",
+   "sampleQ": "If $f(x)=\\begin{cases}\\dfrac{1-\\cos Kx}{x\\sin x}, & x\\neq 0\\\\[4pt] \\dfrac{1}{2}, & x=0\\end{cases}$ is continuous at $x=0$, then the value of K is"
+  },
+  {
+   "template": "mat-rel-composition",
+   "chapter": "Relations and Functions",
+   "score": 0.354,
+   "slot": 0,
+   "sample": "2023-maths-8",
+   "sampleQ": "$f : R \\to R$ and $g : [0, \\infty) \\to R$ are defined by $f(x) = x^2$ and $g(x) = \\sqrt{x}$. Which one of the following is not true?"
+  },
+  {
+   "template": "mat-rel-evaluate-function",
+   "chapter": "Relations and Functions",
+   "score": 0.354,
+   "slot": 0,
+   "sample": "2023-maths-54",
+   "sampleQ": "If $f(x) = ax + b$, where a and b are integers, $f(-1) = -5$ and $f(3) = 3$, then a and b respectively are"
+  },
+  {
+   "template": "mat-rel-count-functions",
+   "chapter": "Relations and Functions",
+   "score": 0.273,
+   "slot": 0,
+   "sample": "2022-maths-51",
+   "sampleQ": "If the set x contains 7 elements and set y contains 8 elements, then the number of bijections from x to y is"
+  },
+  {
+   "template": "mat-rel-domain",
+   "chapter": "Relations and Functions",
+   "score": 0.273,
+   "slot": 0,
+   "sample": "2022-maths-40",
+   "sampleQ": "The domain of the function f(x) = $\\dfrac{1}{\\log_{10}(1-x)} + \\sqrt{x+2}$ is"
+  },
+  {
+   "template": "mat-prob-classical-counting",
+   "chapter": "Probability",
+   "score": 0.354,
+   "slot": 0,
+   "sample": "2023-maths-52",
+   "sampleQ": "Let $A = \\{x, y, z, u\\}$ and $B = \\{a, b\\}$. A function $f : A \\to B$ is selected randomly. The probability that the function is an onto function is"
+  },
+  {
+   "template": "mat-prob-conditional",
+   "chapter": "Probability",
+   "score": 0.354,
+   "slot": 0,
+   "sample": "2023-maths-50",
+   "sampleQ": "If A and B are events such that $P(A) = \\dfrac{1}{4}$, $P(A/B) = \\dfrac{1}{2}$ and $P(B/A) = \\dfrac{2}{3}$ then P(B) is"
+  },
+  {
+   "template": "mat-prob-total-bayes",
+   "chapter": "Probability",
+   "score": 0.354,
+   "slot": 0,
+   "sample": "2023-maths-51",
+   "sampleQ": "A bag contains $2n + 1$ coins. It is known that n of these coins have head on both sides whereas the other $n + 1$ coins are fair. One coin is selected at random and tossed. If the probability that toss results in heads is $\\dfrac{31}{42}$, then the value of n is"
+  },
+  {
+   "template": "mat-prob-mean-variance-rv",
+   "chapter": "Probability",
+   "score": 0.323,
+   "slot": 0,
+   "sample": "2022-maths-32",
+   "sampleQ": "Find the mean number of heads in three tosses of a fair coin:"
+  },
+  {
+   "template": "mat-vec-lagrange-identity",
+   "chapter": "Vector Algebra",
+   "score": 0.354,
+   "slot": 0,
+   "sample": "2023-maths-49",
+   "sampleQ": "If $|\\vec a \\times \\vec b|^2 + |\\vec a \\cdot \\vec b|^2 = 144$ and $|\\vec a| = 4$ then $|\\vec b|$ is equal to"
+  },
+  {
+   "template": "mat-vec-projection",
+   "chapter": "Vector Algebra",
+   "score": 0.354,
+   "slot": 0,
+   "sample": "2023-maths-41",
+   "sampleQ": "The component of $\\hat i$ in the direction of the vector $\\hat i + \\hat j + 2\\hat k$ is"
+  },
+  {
+   "template": "mat-vec-angle-from-condition",
+   "chapter": "Vector Algebra",
+   "score": 0.354,
+   "slot": 0,
+   "sample": "2023-maths-40",
+   "sampleQ": "If $|\\vec a + \\vec b| = |\\vec a - \\vec b|$ then"
+  },
+  {
+   "template": "mat-vec-magnitude-from-dot",
+   "chapter": "Vector Algebra",
+   "score": 0.273,
+   "slot": 0,
+   "sample": "2022-maths-19",
+   "sampleQ": "If $|\\vec a| = 2$ and $|\\vec b| = 3$ and the angle between $\\vec a$ and $\\vec b$ is 120°, then the length of the vector $\\left|\\dfrac{1}{2}\\vec a - \\dfrac{1}{3}\\vec b\\right|^2$ is"
+  },
+  {
+   "template": "mat-3d-distance-point-line",
+   "chapter": "Three Dimensional Geometry",
+   "score": 0.354,
+   "slot": 0,
+   "sample": "2023-maths-45",
+   "sampleQ": "The length of perpendicular drawn from the point $(3, -1, 11)$ to the line $\\dfrac{x}{2} = \\dfrac{y-2}{3} = \\dfrac{z-3}{4}$ is"
+  },
+  {
+   "template": "mat-3d-plane-equation",
+   "chapter": "Three Dimensional Geometry",
+   "score": 0.354,
+   "slot": 0,
+   "sample": "2023-maths-46",
+   "sampleQ": "The equation of the plane through the points $(2, 1, 0), (3, 2, -2)$ and $(3, 1, 7)$ is"
+  },
+  {
+   "template": "mat-3d-direction-cosines-axes",
+   "chapter": "Three Dimensional Geometry",
+   "score": 0.294,
+   "slot": 0,
+   "sample": "2023-maths-44",
+   "sampleQ": "If a line makes an angle of $\\dfrac{\\pi}{3}$ with each X and Y axis then the acute angle made by Z-axis is"
+  },
+  {
+   "template": "mat-3d-angle-between-lines",
+   "chapter": "Three Dimensional Geometry",
+   "score": 0.273,
+   "slot": 0,
+   "sample": "2022-maths-29",
+   "sampleQ": "The angle between the pair of lines $\\dfrac{x+3}{3}=\\dfrac{y-1}{5}=\\dfrac{z+3}{4}$ and $\\dfrac{x+1}{1}=\\dfrac{y-4}{4}=\\dfrac{z-5}{2}$ is"
+  },
+  {
+   "template": "mat-aod-optimization-geometry",
+   "chapter": "Application of Derivatives",
+   "score": 0.354,
+   "slot": 0,
+   "sample": "2023-maths-29",
+   "sampleQ": "An enemy fighter jet is flying along the curve given by $y = x^2 + 2$. A soldier is placed at $(3, 2)$ wants to shoot down the jet when it is nearest to him. Then the nearest distance is"
+  },
+  {
+   "template": "mat-aod-related-rates-geometry",
+   "chapter": "Application of Derivatives",
+   "score": 0.354,
+   "slot": 0,
+   "sample": "2023-maths-26",
+   "sampleQ": "A circular plate of radius 5 cm is heated. Due to expansion, its radius increases at the rate of 0.05 cm/sec. The rate at which its area is increasing when the radius is 5.2 cm is"
+  },
+  {
+   "template": "mat-aod-kinematics",
+   "chapter": "Application of Derivatives",
+   "score": 0.354,
+   "slot": 0,
+   "sample": "2023-maths-27",
+   "sampleQ": "The distance 's' in meters travelled by a particle in 't' seconds is given by $s = \\dfrac{2t^3}{3} - 18t + \\dfrac{5}{3}$. The acceleration when the particle comes to rest is"
+  },
+  {
+   "template": "mat-aod-xx-type-extrema",
+   "chapter": "Application of Derivatives",
+   "score": 0.294,
+   "slot": 0,
+   "sample": "2020-maths-26",
+   "sampleQ": "The maximum value of $\\dfrac{\\log_e x}{x}$, if $x>0$ is"
+  },
+  {
+   "template": "mat-det-area-triangle",
+   "chapter": "Determinants",
+   "score": 0.354,
+   "slot": 0,
+   "sample": "2023-maths-17",
+   "sampleQ": "The area of a triangle with vertices $(-3, 0), (3, 0)$ and $(0, k)$ is 9 sq. units, the value of k is"
+  },
+  {
+   "template": "mat-det-property-evaluate",
+   "chapter": "Determinants",
+   "score": 0.294,
+   "slot": 0,
+   "sample": "2020-maths-17",
+   "sampleQ": "If $a_1, a_2, a_3, \\ldots, a_9$ are in A.P. then the value of $\\begin{vmatrix}a_1&a_2&a_3\\\\a_4&a_5&a_6\\\\a_7&a_8&a_9\\end{vmatrix}$ is"
+  },
+  {
+   "template": "mat-det-constant-term",
+   "chapter": "Determinants",
+   "score": 0.294,
+   "slot": 0,
+   "sample": "2020-maths-16",
+   "sampleQ": "If $f(x)=\\begin{vmatrix}x^3-x & a+x & b+x\\\\x-a & x^2-x & c+x\\\\x-b & x-c & 0\\end{vmatrix}$, then"
+  },
+  {
+   "template": "mat-mat-solve-for-entries",
+   "chapter": "Matrices",
+   "score": 0.354,
+   "slot": 0,
+   "sample": "2023-maths-14",
+   "sampleQ": "If $x\\begin{bmatrix}3\\\\2\\end{bmatrix} + y\\begin{bmatrix}1\\\\-1\\end{bmatrix} = \\begin{bmatrix}15\\\\5\\end{bmatrix}$ then the value of x and y are"
+  },
+  {
+   "template": "mat-mat-rotation-matrix",
+   "chapter": "Matrices",
+   "score": 0.354,
+   "slot": 0,
+   "sample": "2023-maths-25",
+   "sampleQ": "If $A = \\begin{bmatrix}1 & \\tan(\\alpha/2)\\\\-\\tan(\\alpha/2) & 1\\end{bmatrix}$ and $AB = I$ then $B =$"
+  },
+  {
+   "template": "mat-mat-inverse-properties",
+   "chapter": "Matrices",
+   "score": 0.323,
+   "slot": 0,
+   "sample": "2022-maths-58",
+   "sampleQ": "If A is a matrix of order 3 × 3, then (A$^2$)$^{-1}$ is equal to"
+  },
+  {
+   "template": "mat-de-order-degree",
+   "chapter": "Differential Equations",
+   "score": 0.354,
+   "slot": 0,
+   "sample": "2023-maths-39",
+   "sampleQ": "The degree of the differential equation $1 + \\left(\\dfrac{dy}{dx}\\right)^2 + \\left(\\dfrac{d^2y}{dx^2}\\right)^2 = \\sqrt[3]{\\dfrac{d^2y}{dx^2}+1}$ is"
+  },
+  {
+   "template": "mat-de-substitution",
+   "chapter": "Differential Equations",
+   "score": 0.323,
+   "slot": 0,
+   "sample": "2022-maths-24",
+   "sampleQ": "The solution of the differential equation $\\dfrac{dy}{dx} = (x+y)^2$ is"
+  },
+  {
+   "template": "mat-de-slope-condition-curve",
+   "chapter": "Differential Equations",
+   "score": 0.294,
+   "slot": 0,
+   "sample": "2023-maths-38",
+   "sampleQ": "If a curve passes through the point $(1, 1)$ and at any point $(x, y)$ on the curve, the product of the slope of its tangent and x co-ordinate of the point is equal to the y co-ordinate of the point, then the curve also passes through the point"
+  },
+  {
+   "template": "mat-trig-evaluate-angle-expression",
+   "chapter": "Trigonometric Functions",
+   "score": 0.354,
+   "slot": 0,
+   "sample": "2023-maths-56",
+   "sampleQ": "The value of $\\begin{vmatrix}\\sin^2 14° & \\sin^2 66° & \\tan 135°\\\\sin^2 66° & \\tan 135° & \\sin^2 14°\\\\tan 135° & \\sin^2 14° & \\sin^2 66°\\end{vmatrix}$ is"
+  },
+  {
+   "template": "mat-trig-many-angle-products",
+   "chapter": "Trigonometric Functions",
+   "score": 0.354,
+   "slot": 0,
+   "sample": "2023-maths-55",
+   "sampleQ": "The value of $e^{\\log_{10}\\tan1° + \\log_{10}\\tan2° + \\log_{10}\\tan3° + \\cdots + \\log_{10}\\tan89°}$ is"
+  },
+  {
+   "template": "mat-itf-solve-equation",
+   "chapter": "Inverse Trigonometric Functions",
+   "score": 0.354,
+   "slot": 0,
+   "sample": "2023-maths-19",
+   "sampleQ": "If $\\sin^{-1}\\left(\\dfrac{2a}{1+a^2}\\right) + \\cos^{-1}\\left(\\dfrac{1-a^2}{1+a^2}\\right) = \\tan^{-1}\\left(\\dfrac{2x}{1-x^2}\\right)$ where $a, x \\in (0, 1)$ then the value of x is"
+  },
+  {
+   "template": "mat-itf-trig-of-inverse",
+   "chapter": "Inverse Trigonometric Functions",
+   "score": 0.294,
+   "slot": 0,
+   "sample": "2020-maths-12",
+   "sampleQ": "The value of $\\cos\\left(\\sin^{-1}\\dfrac{\\pi}{3}+\\cos^{-1}\\dfrac{\\pi}{3}\\right)$ is"
+  },
+  {
+   "template": "mat-lim-one-sided",
+   "chapter": "Limits and Derivatives",
+   "score": 0.323,
+   "slot": 0,
+   "sample": "2022-maths-43",
+   "sampleQ": "If f(x) = $\\begin{cases}x^2-1, & 0<x<2\\\\ 2x+3, & 2\\le x<3\\end{cases}$, the quadratic equation whose roots are $\\displaystyle\\lim_{x\\to2^-}f(x)$ and $\\displaystyle\\lim_{x\\to2^+}f(x)$ is"
+  },
+  {
+   "template": "mat-lim-trig-standard",
+   "chapter": "Limits and Derivatives",
+   "score": 0.294,
+   "slot": 0,
+   "sample": "2023-maths-5",
+   "sampleQ": "If $\\displaystyle\\lim_{x \\to 0} \\dfrac{\\sin(2+x) - \\sin(2-x)}{x} = A \\cos B$, then the values of A and B respectively are"
+  },
+  {
+   "template": "mat-aoi-trig-curve",
+   "chapter": "Application of Integrals",
+   "score": 0.354,
+   "slot": 0,
+   "sample": "2023-maths-42",
+   "sampleQ": "In the interval $(0, \\pi/2)$, area lying between the curves $y = \\tan x$ and $y = \\cot x$ and the X-axis is"
+  },
+  {
+   "template": "mat-aoi-line-with-ordinates",
+   "chapter": "Application of Integrals",
+   "score": 0.354,
+   "slot": 0,
+   "sample": "2023-maths-37",
+   "sampleQ": "The area of the region bounded by the line $y = x + 1$, and the lines $x = -3$, $x = 3$ and the x-axis is"
+  },
+  {
+   "template": "mat-lpp-shaded-region",
+   "chapter": "Linear Programming",
+   "score": 0.354,
+   "slot": 0,
+   "sample": "2023-maths-53",
+   "sampleQ": "The shaded region in the figure given is the solution of which of the inequations? [Figure: a shaded triangle with vertices A(7,0), B(3,4) and C(0,2), bounded by the line through (0,7) and (7,0) i.e. $x+y=7$, and the line through (-3,0) and (3,4) i.e. $2x-3y+6=0$, lying in the first quadrant]"
+  },
+  {
+   "template": "mat-sets-count-subsets",
+   "chapter": "Sets",
+   "score": 0.323,
+   "slot": 0,
+   "sample": "2022-maths-38",
+   "sampleQ": "If A = {1, 2, 3, ...... 10} then number of subsets of A containing only odd numbers is"
+  },
+  {
+   "template": "mat-seq-ap-gp-relation",
+   "chapter": "Sequences and Series",
+   "score": 0.271,
+   "slot": 0,
+   "sample": "2023-maths-2",
+   "sampleQ": "If $p\\left(\\dfrac{1}{q}+\\dfrac{1}{r}\\right), q\\left(\\dfrac{1}{r}+\\dfrac{1}{p}\\right), r\\left(\\dfrac{1}{p}+\\dfrac{1}{q}\\right)$ are in A.P., then p, q, r"
+  },
+  {
+   "template": "mat-pnc-arrangement-restriction",
+   "chapter": "Permutations and Combinations",
+   "score": 0.271,
+   "slot": 0,
+   "sample": "2023-maths-59",
+   "sampleQ": "Ten chairs are numbered as 1 to 10. Three women and two men wish to occupy one chair each. First the women choose the chairs marked 1 to 6, then the men choose the chairs from the remaining. The number of possible ways is"
+  },
+  {
+   "template": "mat-sl-line-parallel-perp",
+   "chapter": "Straight Lines",
+   "score": 0.354,
+   "slot": 0,
+   "sample": "2023-maths-3",
+   "sampleQ": "A line passes through $(2, 2)$ and is perpendicular to the line $3x + y = 3$. Its y-intercept is"
+  },
+  {
+   "template": "mat-cx-modulus-argument",
+   "chapter": "Complex Numbers and Quadratic Equations",
+   "score": 0.354,
+   "slot": 0,
+   "sample": "2023-maths-57",
+   "sampleQ": "The modulus of the complex number $\\dfrac{(1+i)^2(1+3i)}{(2-6i)(2-2i)}$ is"
+  },
+  {
+   "template": "mat-stat-sum-of-squares",
+   "chapter": "Statistics",
+   "score": 0.271,
+   "slot": 0,
+   "sample": "2023-maths-7",
+   "sampleQ": "The mean of 100 observations is 50 and their standard deviation is 5. Then the sum of squares of all observations is"
+  },
+  {
+   "template": "mat-con-hyperbola-equation",
+   "chapter": "Conic Sections",
+   "score": 0.354,
+   "slot": 0,
+   "sample": "2023-maths-4",
+   "sampleQ": "The distance between the foci of a hyperbola is 16 and its eccentricity is $\\sqrt{2}$. Its equation is"
+  },
+  {
+   "template": "mat-ineq-basic-linear",
+   "chapter": "Linear Inequalities",
+   "score": 0.193,
+   "slot": 0,
+   "sample": "2023-maths-58",
+   "sampleQ": "Given that a, b and x are real numbers and $a < b, x < 0$ then"
+  },
+  {
+   "template": "mat-bin-general-middle-term",
+   "chapter": "Binomial Theorem",
+   "score": 0.354,
+   "slot": 0,
+   "sample": "2023-maths-6",
+   "sampleQ": "If n is even and the middle term in the expansion of $\\left(x^2 + \\dfrac{1}{x}\\right)^n$ is $924x^6$, then n is equal to"
+  },
+  {
+   "template": "mat-oldmr-converse-contrapositive",
+   "chapter": "Old syllabus: Mathematical Reasoning",
+   "score": 0.354,
+   "slot": 0,
+   "sample": "2023-maths-12",
+   "sampleQ": "The contrapositive of the statement \"If two lines do not intersect in the same plane then they are parallel.\" is"
+  }
+ ],
+ "summary": {
+  "year": 2024,
+  "subject": "maths",
+  "n": 45,
+  "exact": 2,
+  "similar": 10,
+  "missSeen": 28,
+  "missNew": 5,
+  "hitPct": 26.7,
+  "predictablePct": 88.9,
+  "verbatimRepeats": 7,
+  "wastedSlots": 48
+ },
+ "lessons": {
+  "missedKnownTemplates": [
+   "mat-cd-inverse-trig-derivative",
+   "mat-aod-critical-points",
+   "mat-cd-differentiability-check",
+   "mat-cd-log-differentiation",
+   "mat-cd-abstract-chain-rule",
+   "mat-int-partial-fractions",
+   "mat-int-modulus-definite",
+   "mat-lpp-multiple-optima",
+   "mat-trig-radian-arc",
+   "mat-trig-triangle",
+   "mat-cx-equation-conjugate",
+   "mat-ineq-word-problem",
+   "mat-pnc-ncr-identities",
+   "mat-bin-coefficient-sums",
+   "mat-seq-gp-terms",
+   "mat-cx-roots-symmetric",
+   "mat-sl-angle-inclination",
+   "mat-con-parabola-focus-focal",
+   "mat-oldmr-negation",
+   "mat-rel-equivalence-count",
+   "mat-mat-powers",
+   "mat-det-limit",
+   "mat-rel-range",
+   "mat-det-derivative",
+   "mat-aod-increasing-decreasing",
+   "mat-aod-increasing-decreasing",
+   "mat-vec-median-length",
+   "mat-de-variable-separable"
+  ],
+  "chapterGaps": [
+   {
+    "chapter": "Probability",
+    "predicted": 4,
+    "actual": 0
+   },
+   {
+    "chapter": "Three Dimensional Geometry",
+    "predicted": 4,
+    "actual": 1
+   },
+   {
+    "chapter": "Continuity and Differentiability",
+    "predicted": 6,
+    "actual": 4
+   },
+   {
+    "chapter": "Vector Algebra",
+    "predicted": 4,
+    "actual": 2
+   },
+   {
+    "chapter": "Application of Integrals",
+    "predicted": 2,
+    "actual": 0
+   },
+   {
+    "chapter": "Integrals",
+    "predicted": 6,
+    "actual": 5
+   },
+   {
+    "chapter": "Relations and Functions",
+    "predicted": 4,
+    "actual": 5
+   },
+   {
+    "chapter": "Determinants",
+    "predicted": 3,
+    "actual": 4
+   }
+  ],
+  "wastedTemplates": [
+   "mat-int-king-log-xf",
+   "mat-int-king-symmetric",
+   "mat-int-by-parts",
+   "mat-cd-standard-rules",
+   "mat-cd-second-derivative",
+   "mat-cd-derivative-identity",
+   "mat-cd-derivative-wrt-function",
+   "mat-cd-discontinuity-points",
+   "mat-cd-continuity-find-k",
+   "mat-rel-count-functions",
+   "mat-rel-domain",
+   "mat-prob-classical-counting",
+   "mat-prob-conditional",
+   "mat-prob-total-bayes",
+   "mat-prob-mean-variance-rv",
+   "mat-vec-lagrange-identity",
+   "mat-vec-projection",
+   "mat-vec-magnitude-from-dot",
+   "mat-3d-distance-point-line",
+   "mat-3d-plane-equation",
+   "mat-3d-direction-cosines-axes",
+   "mat-aod-related-rates-geometry",
+   "mat-aod-kinematics",
+   "mat-aod-xx-type-extrema",
+   "mat-det-area-triangle",
+   "mat-det-property-evaluate",
+   "mat-mat-solve-for-entries",
+   "mat-mat-rotation-matrix",
+   "mat-mat-inverse-properties",
+   "mat-de-order-degree",
+   "mat-de-substitution",
+   "mat-trig-evaluate-angle-expression",
+   "mat-trig-many-angle-products",
+   "mat-itf-solve-equation",
+   "mat-itf-trig-of-inverse",
+   "mat-lim-one-sided",
+   "mat-aoi-trig-curve",
+   "mat-aoi-line-with-ordinates",
+   "mat-lpp-shaded-region",
+   "mat-seq-ap-gp-relation",
+   "mat-pnc-arrangement-restriction",
+   "mat-sl-line-parallel-perp",
+   "mat-cx-modulus-argument",
+   "mat-stat-sum-of-squares",
+   "mat-con-hyperbola-equation",
+   "mat-ineq-basic-linear",
+   "mat-bin-general-middle-term",
+   "mat-oldmr-converse-contrapositive"
+  ]
+ },
+ "questions": [
+  {
+   "id": "2024-maths-2",
+   "n": 2,
+   "chapter": "Continuity and Differentiability",
+   "template": "mat-cd-inverse-trig-derivative",
+   "outcome": "miss-seen",
+   "verbatimOf": "2011-maths-43",
+   "sim": 0.67,
+   "q": "$\\dfrac{d}{dx}\\left[\\cos^2\\left(\\cot^{-1}\\sqrt{\\dfrac{2+x}{2-x}}\\right)\\right]$ is"
+  },
+  {
+   "id": "2024-maths-3",
+   "n": 3,
+   "chapter": "Application of Derivatives",
+   "template": "mat-aod-critical-points",
+   "outcome": "miss-seen",
+   "verbatimOf": null,
+   "sim": 0.29,
+   "q": "For the function $f(x)=x^3-6x^2+12x-3$; $x=2$ is"
+  },
+  {
+   "id": "2024-maths-4",
+   "n": 4,
+   "chapter": "Continuity and Differentiability",
+   "template": "mat-cd-differentiability-check",
+   "outcome": "miss-seen",
+   "verbatimOf": null,
+   "sim": 0.43,
+   "q": "The function $f(x)=|\\cos x|$ is"
+  },
+  {
+   "id": "2024-maths-5",
+   "n": 5,
+   "chapter": "Continuity and Differentiability",
+   "template": "mat-cd-log-differentiation",
+   "outcome": "miss-seen",
+   "verbatimOf": null,
+   "sim": 0.46,
+   "q": "If $y=2x^{3x}$, then $\\dfrac{dy}{dx}$ at $x=1$ is"
+  },
+  {
+   "id": "2024-maths-6",
+   "n": 6,
+   "chapter": "Continuity and Differentiability",
+   "template": "mat-cd-abstract-chain-rule",
+   "outcome": "miss-seen",
+   "verbatimOf": null,
+   "sim": 0.26,
+   "q": "Let the function satisfy the equation $f(x+y)=f(x)f(y)$ for all $x,y\\in R$, where $f(0)\\neq 0$. If $f(5)=3$ and $f'(0)=2$, then $f'(5)$ is"
+  },
+  {
+   "id": "2024-maths-7",
+   "n": 7,
+   "chapter": "Integrals",
+   "template": "mat-int-partial-fractions",
+   "outcome": "miss-seen",
+   "verbatimOf": null,
+   "sim": 0.38,
+   "q": "$\\displaystyle\\int\\dfrac{1}{x\\left[6(\\log x)^2+7\\log x+2\\right]}dx=$"
+  },
+  {
+   "id": "2024-maths-8",
+   "n": 8,
+   "chapter": "Integrals",
+   "template": "mat-int-trig-identity-simplify",
+   "outcome": "similar",
+   "verbatimOf": null,
+   "sim": 0.2,
+   "q": "$\\displaystyle\\int\\dfrac{\\sin\\dfrac{5x}{2}}{\\sin\\dfrac{x}{2}}dx=$"
+  },
+  {
+   "id": "2024-maths-9",
+   "n": 9,
+   "chapter": "Integrals",
+   "template": "mat-int-modulus-definite",
+   "outcome": "miss-seen",
+   "verbatimOf": null,
+   "sim": 0.18,
+   "q": "$\\displaystyle\\int_1^5\\left(|x-3|+|1-x|\\right)dx=$"
+  },
+  {
+   "id": "2024-maths-14",
+   "n": 14,
+   "chapter": "Three Dimensional Geometry",
+   "template": "mat-3d-angle-between-lines",
+   "outcome": "similar",
+   "verbatimOf": null,
+   "sim": 0.28,
+   "q": "If lines $\\dfrac{x-1}{-3}=\\dfrac{y-2}{2k}=\\dfrac{z-3}{2}$ and $\\dfrac{x-1}{3k}=\\dfrac{y-5}{1}=\\dfrac{z-6}{-5}$ are mutually perpendicular, then $k$ is equal to"
+  },
+  {
+   "id": "2024-maths-19",
+   "n": 19,
+   "chapter": "Linear Programming",
+   "template": "mat-lpp-multiple-optima",
+   "outcome": "miss-seen",
+   "verbatimOf": null,
+   "sim": 0.44,
+   "q": "Corner points of the feasible region for an LPP are (0, 2), (3,0), (6, 0), (6, 8) and (0, 5). Let $z=4x+6y$ be the objective function. The minimum value of $z$ "
+  },
+  {
+   "id": "2024-maths-23",
+   "n": 23,
+   "chapter": "Sets",
+   "template": "mat-sets-count-subsets",
+   "outcome": "similar",
+   "verbatimOf": null,
+   "sim": 0.25,
+   "q": "Two finite sets have $m$ and $n$ elements respectively. The total number of subsets of the first set is 56 more than the total number of subsets of the second s"
+  },
+  {
+   "id": "2024-maths-24",
+   "n": 24,
+   "chapter": "Relations and Functions",
+   "template": "mat-rel-gif-equation",
+   "outcome": "miss-new",
+   "verbatimOf": null,
+   "sim": 0.43,
+   "q": "If $[x]^2-5[x]+6=0$, where $[x]$ denotes the greatest integer function, then"
+  },
+  {
+   "id": "2024-maths-25",
+   "n": 25,
+   "chapter": "Trigonometric Functions",
+   "template": "mat-trig-radian-arc",
+   "outcome": "miss-seen",
+   "verbatimOf": null,
+   "sim": 0.26,
+   "q": "If in two circles, arcs of the same length subtend angles $30^0$ and $78^0$ at the centre, then the ratio of their radii is"
+  },
+  {
+   "id": "2024-maths-26",
+   "n": 26,
+   "chapter": "Trigonometric Functions",
+   "template": "mat-trig-triangle",
+   "outcome": "miss-seen",
+   "verbatimOf": null,
+   "sim": 0.3,
+   "q": "If $\\triangle ABC$ is right angled at $C$, then the value of $\\tan A+\\tan B$ is"
+  },
+  {
+   "id": "2024-maths-27",
+   "n": 27,
+   "chapter": "Complex Numbers and Quadratic Equations",
+   "template": "mat-cx-equation-conjugate",
+   "outcome": "miss-seen",
+   "verbatimOf": null,
+   "sim": 0.35,
+   "q": "The real value of '$\\alpha$' for which $\\dfrac{1-i\\sin\\alpha}{1+2i\\sin\\alpha}$ is purely real is"
+  },
+  {
+   "id": "2024-maths-28",
+   "n": 28,
+   "chapter": "Linear Inequalities",
+   "template": "mat-ineq-word-problem",
+   "outcome": "miss-seen",
+   "verbatimOf": null,
+   "sim": 0.33,
+   "q": "The length of a rectangle is five times the breadth. If the minimum perimeter of the rectangle is 180 cm, then"
+  },
+  {
+   "id": "2024-maths-29",
+   "n": 29,
+   "chapter": "Permutations and Combinations",
+   "template": "mat-pnc-ncr-identities",
+   "outcome": "miss-seen",
+   "verbatimOf": null,
+   "sim": 0.33,
+   "q": "The value of ${}^{49}C_3+{}^{48}C_3+{}^{47}C_3+{}^{46}C_3+{}^{45}C_3+{}^{45}C_4$ is"
+  },
+  {
+   "id": "2024-maths-30",
+   "n": 30,
+   "chapter": "Binomial Theorem",
+   "template": "mat-bin-coefficient-sums",
+   "outcome": "miss-seen",
+   "verbatimOf": null,
+   "sim": 0.33,
+   "q": "In the expansion of $(1+x)^n$, $\\dfrac{C_1}{C_0}+2\\dfrac{C_2}{C_1}+3\\dfrac{C_3}{C_2}+\\dots+n\\dfrac{C_n}{C_{n-1}}$ is equal to"
+  },
+  {
+   "id": "2024-maths-31",
+   "n": 31,
+   "chapter": "Sequences and Series",
+   "template": "mat-seq-gp-terms",
+   "outcome": "miss-seen",
+   "verbatimOf": null,
+   "sim": 0.42,
+   "q": "If $S_n$ stands for sum to $n$-terms of a G.P. with 'a' as the first term and 'r' as the common ratio then $S_n:S_{2n}$ is"
+  },
+  {
+   "id": "2024-maths-32",
+   "n": 32,
+   "chapter": "Complex Numbers and Quadratic Equations",
+   "template": "mat-cx-roots-symmetric",
+   "outcome": "miss-seen",
+   "verbatimOf": null,
+   "sim": 0.44,
+   "q": "If A.M. and G.M. of roots of a quadratic equation are 5 and 4 respectively, then the quadratic equation is"
+  },
+  {
+   "id": "2024-maths-33",
+   "n": 33,
+   "chapter": "Straight Lines",
+   "template": "mat-sl-angle-inclination",
+   "outcome": "miss-seen",
+   "verbatimOf": null,
+   "sim": 0.37,
+   "q": "The angle between the line $x+y=3$ and the line joining the points $(1,1)$ and $(-3,4)$ is"
+  },
+  {
+   "id": "2024-maths-34",
+   "n": 34,
+   "chapter": "Conic Sections",
+   "template": "mat-con-parabola-focus-focal",
+   "outcome": "miss-seen",
+   "verbatimOf": null,
+   "sim": 0.26,
+   "q": "The equation of parabola whose focus is $(6,0)$ and directrix is $x=-6$ is"
+  },
+  {
+   "id": "2024-maths-35",
+   "n": 35,
+   "chapter": "Limits and Derivatives",
+   "template": "mat-lim-trig-standard",
+   "outcome": "exact",
+   "verbatimOf": "2016-maths-28",
+   "sim": 0.6,
+   "q": "$\\displaystyle\\lim_{x\\to\\frac{\\pi}{4}}\\dfrac{\\sqrt2\\cos x-1}{\\cot x-1}$ is equal to"
+  },
+  {
+   "id": "2024-maths-36",
+   "n": 36,
+   "chapter": "Old syllabus: Mathematical Reasoning",
+   "template": "mat-oldmr-negation",
+   "outcome": "miss-seen",
+   "verbatimOf": null,
+   "sim": 0.25,
+   "q": "The negation of the statement \"For every real number x; $x^2+5$ is positive\" is"
+  },
+  {
+   "id": "2024-maths-37",
+   "n": 37,
+   "chapter": "Statistics",
+   "template": "mat-stat-sd-shift-scale",
+   "outcome": "miss-new",
+   "verbatimOf": null,
+   "sim": 0.28,
+   "q": "Let a, b, c, d and e be the observations with mean m and standard deviation S. The standard deviation of the observations $a+k,b+k,c+k,d+k$ and $e+k$ is"
+  },
+  {
+   "id": "2024-maths-39",
+   "n": 39,
+   "chapter": "Relations and Functions",
+   "template": "mat-rel-evaluate-function",
+   "outcome": "similar",
+   "verbatimOf": null,
+   "sim": 0.33,
+   "q": "Let $f:R\\to R$ be defined by $f(x)=x^2+1$. Then the pre images of 17 and -3 respectively are"
+  },
+  {
+   "id": "2024-maths-40",
+   "n": 40,
+   "chapter": "Relations and Functions",
+   "template": "mat-rel-composition",
+   "outcome": "similar",
+   "verbatimOf": null,
+   "sim": 0.25,
+   "q": "Let $(gof)(x)=\\sin x$ and $(fog)(x)=(\\sin\\sqrt x)^2$. Then"
+  },
+  {
+   "id": "2024-maths-41",
+   "n": 41,
+   "chapter": "Relations and Functions",
+   "template": "mat-rel-equivalence-count",
+   "outcome": "miss-seen",
+   "verbatimOf": null,
+   "sim": 0.38,
+   "q": "Let $A=\\{2,3,4,5,\\dots,16,17,18\\}$. Let R be the relation on the set A of ordered pairs of positive integers defined by $(a,b)R(c,d)$ if and only if $ad=bc$ for"
+  },
+  {
+   "id": "2024-maths-42",
+   "n": 42,
+   "chapter": "Inverse Trigonometric Functions",
+   "template": "mat-itf-extreme-sum",
+   "outcome": "miss-new",
+   "verbatimOf": null,
+   "sim": 0.31,
+   "q": "If $\\cos^{-1}x+\\cos^{-1}y+\\cos^{-1}z=3\\pi$, then $x(y+z)+y(z+x)+z(x+y)$ equal"
+  },
+  {
+   "id": "2024-maths-44",
+   "n": 44,
+   "chapter": "Matrices",
+   "template": "mat-mat-idempotent",
+   "outcome": "miss-new",
+   "verbatimOf": null,
+   "sim": 0.44,
+   "q": "If A is square matrix such that $A^2=A$, then $(I+A)^3$ is equal to"
+  },
+  {
+   "id": "2024-maths-45",
+   "n": 45,
+   "chapter": "Matrices",
+   "template": "mat-mat-powers",
+   "outcome": "miss-seen",
+   "verbatimOf": null,
+   "sim": 0.38,
+   "q": "If $A=\\begin{pmatrix}1&1\\\\1&1\\end{pmatrix}$, then $A^{10}$ is equal to"
+  },
+  {
+   "id": "2024-maths-46",
+   "n": 46,
+   "chapter": "Determinants",
+   "template": "mat-det-constant-term",
+   "outcome": "similar",
+   "verbatimOf": null,
+   "sim": 0.29,
+   "q": "If $f(x)=\\begin{vmatrix}x-3&2x^2-18&2x^3-81\\\\x-5&2x^2-50&4x^3-500\\\\1&2&3\\end{vmatrix}$, then $f(1).f(3)+f(3).f(5)+f(5).f(1)$ is"
+  },
+  {
+   "id": "2024-maths-47",
+   "n": 47,
+   "chapter": "Determinants",
+   "template": "mat-det-limit",
+   "outcome": "miss-seen",
+   "verbatimOf": "2012-maths-58",
+   "sim": 0.5,
+   "q": "Let $f(x)=\\begin{vmatrix}\\cos x&x&1\\\\2\\sin x&x&2x\\\\sin x&x&x\\end{vmatrix}$. Then $\\displaystyle\\lim_{x\\to0}\\dfrac{f(x)}{x^2}=$"
+  },
+  {
+   "id": "2024-maths-48",
+   "n": 48,
+   "chapter": "Relations and Functions",
+   "template": "mat-rel-range",
+   "outcome": "miss-seen",
+   "verbatimOf": "2014-maths-28",
+   "sim": 0.5,
+   "q": "Which one of the following observations is correct for the features of logarithm function to base b>1?"
+  },
+  {
+   "id": "2024-maths-49",
+   "n": 49,
+   "chapter": "Determinants",
+   "template": "mat-det-adjoint-entry",
+   "outcome": "miss-new",
+   "verbatimOf": "2023-maths-43",
+   "sim": 0.53,
+   "q": "If $P=\\begin{pmatrix}1&\\alpha&3\\\\1&3&3\\\\2&4&4\\end{pmatrix}$ is the adjoint of a $3\\times3$ matrix A and $|A|=4$, then $\\alpha$ is equal to"
+  },
+  {
+   "id": "2024-maths-50",
+   "n": 50,
+   "chapter": "Determinants",
+   "template": "mat-det-derivative",
+   "outcome": "miss-seen",
+   "verbatimOf": "2013-maths-21",
+   "sim": 0.56,
+   "q": "If $A=\\begin{vmatrix}x&1\\\\1&x\\end{vmatrix}$ and $B=\\begin{vmatrix}x&1&1\\\\1&x&1\\\\1&1&x\\end{vmatrix}$, then $\\dfrac{dB}{dx}$ is"
+  },
+  {
+   "id": "2024-maths-51",
+   "n": 51,
+   "chapter": "Application of Derivatives",
+   "template": "mat-aod-increasing-decreasing",
+   "outcome": "miss-seen",
+   "verbatimOf": null,
+   "sim": 0.31,
+   "q": "If $f(x)=xe^{x(1-x)}$ then $f(x)$ is"
+  },
+  {
+   "id": "2024-maths-52",
+   "n": 52,
+   "chapter": "Integrals",
+   "template": "mat-int-standard-forms",
+   "outcome": "similar",
+   "verbatimOf": null,
+   "sim": 0.38,
+   "q": "$\\displaystyle\\int\\dfrac{\\sin x}{3+4\\cos^2x}dx=$"
+  },
+  {
+   "id": "2024-maths-53",
+   "n": 53,
+   "chapter": "Integrals",
+   "template": "mat-int-odd-even",
+   "outcome": "similar",
+   "verbatimOf": null,
+   "sim": 0.38,
+   "q": "$\\displaystyle\\int_{-\\pi}^{\\pi}(1-x^2)\\sin x\\cdot\\cos^2x\\,dx=$"
+  },
+  {
+   "id": "2024-maths-54",
+   "n": 54,
+   "chapter": "Application of Derivatives",
+   "template": "mat-aod-increasing-decreasing",
+   "outcome": "miss-seen",
+   "verbatimOf": null,
+   "sim": 0.45,
+   "q": "The function $x^x; x>0$ is strictly increasing at"
+  },
+  {
+   "id": "2024-maths-55",
+   "n": 55,
+   "chapter": "Application of Derivatives",
+   "template": "mat-aod-optimization-geometry",
+   "outcome": "similar",
+   "verbatimOf": null,
+   "sim": 0.29,
+   "q": "The maximum volume of the right circular cone with slant height 6 units is"
+  },
+  {
+   "id": "2024-maths-56",
+   "n": 56,
+   "chapter": "Vector Algebra",
+   "template": "mat-vec-median-length",
+   "outcome": "miss-seen",
+   "verbatimOf": null,
+   "sim": 0.4,
+   "q": "The vectors $\\vec{AB}=3\\hat i+4\\hat k$ and $\\vec{AC}=5\\hat i-2\\hat j+4\\hat k$ are the sides of a $\\triangle ABC$. The length of the median through A is"
+  },
+  {
+   "id": "2024-maths-58",
+   "n": 58,
+   "chapter": "Vector Algebra",
+   "template": "mat-vec-angle-from-condition",
+   "outcome": "exact",
+   "verbatimOf": "2020-maths-40",
+   "sim": 0.59,
+   "q": "Let $\\vec a$ and $\\vec b$ be two unit vectors and $\\theta$ is the angle between them. Then $\\vec a+\\vec b$ is a unit vector if"
+  },
+  {
+   "id": "2024-maths-59",
+   "n": 59,
+   "chapter": "Differential Equations",
+   "template": "mat-de-variable-separable",
+   "outcome": "miss-seen",
+   "verbatimOf": null,
+   "sim": 0.35,
+   "q": "The solution of $e^{\\frac{dy}{dx}}=x+1, y(0)=3$ is"
+  },
+  {
+   "id": "2024-maths-60",
+   "n": 60,
+   "chapter": "Differential Equations",
+   "template": "mat-de-slope-condition-curve",
+   "outcome": "similar",
+   "verbatimOf": null,
+   "sim": 0.25,
+   "q": "The family of curves whose x and y intercepts of a tangent at any point are respectively double the x and y coordinates of that point is"
+  }
+ ]
+}

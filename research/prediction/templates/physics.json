@@ -1,0 +1,1625 @@
+{
+ "subject": "physics",
+ "templates": [
+  {
+   "id": "phy-units-sig-figs",
+   "chapter": "Units and Measurements",
+   "name": "Significant figures",
+   "desc": "Count significant figures or round a computed result to the correct number of significant figures"
+  },
+  {
+   "id": "phy-units-dimensions-of-quantity",
+   "chapter": "Units and Measurements",
+   "name": "Dimensional formula of a quantity",
+   "desc": "Identify the dimensional formula of a quantity or combination, or which quantities share dimensions (incl. match lists)"
+  },
+  {
+   "id": "phy-units-dimensional-consistency",
+   "chapter": "Units and Measurements",
+   "name": "Dimensional analysis: validity of relations",
+   "desc": "Decide which combination/relation is dimensionally meaningful or derivable by dimensional analysis"
+  },
+  {
+   "id": "phy-units-error-percentage",
+   "chapter": "Units and Measurements",
+   "name": "Percentage error propagation",
+   "desc": "Propagate percentage/relative errors through products, quotients and powers"
+  },
+  {
+   "id": "phy-units-vernier-least-count",
+   "chapter": "Units and Measurements",
+   "name": "Least count of vernier/instrument",
+   "desc": "Find least count from main and vernier scale divisions"
+  },
+  {
+   "id": "phy-units-accuracy-precision",
+   "chapter": "Units and Measurements",
+   "name": "Accuracy vs precision",
+   "desc": "Compare measurements against a true value for accuracy and precision"
+  },
+  {
+   "id": "phy-kin-average-speed-segments",
+   "chapter": "Motion in a Straight Line",
+   "name": "Average speed over segments",
+   "desc": "Average speed when distance halves or time intervals are covered at different speeds (harmonic/weighted mean)"
+  },
+  {
+   "id": "phy-kin-suvat",
+   "chapter": "Motion in a Straight Line",
+   "name": "Equations of uniformly accelerated motion",
+   "desc": "Apply v=u+at, s=ut+at^2/2, v^2=u^2+2as: stopping distance, distance in successive intervals, average velocity"
+  },
+  {
+   "id": "phy-kin-vertical-throw-free-fall",
+   "chapter": "Motion in a Straight Line",
+   "name": "Vertical throw / free fall",
+   "desc": "Bodies thrown up or dropped under gravity: height, time, separation between two falling bodies"
+  },
+  {
+   "id": "phy-kin-relative-velocity-1d",
+   "chapter": "Motion in a Straight Line",
+   "name": "Relative velocity in one dimension",
+   "desc": "Relative velocity of passenger/train, boat upstream-downstream, escalator problems"
+  },
+  {
+   "id": "phy-kin-motion-graphs",
+   "chapter": "Motion in a Straight Line",
+   "name": "Interpreting x-t, v-t, a-t graphs",
+   "desc": "Read slope/area of motion graphs to get velocity, acceleration or maximum speed"
+  },
+  {
+   "id": "phy-kin-variable-velocity-calculus",
+   "chapter": "Motion in a Straight Line",
+   "name": "Non-uniform motion via calculus",
+   "desc": "Given x(t), t(x) or v(x), differentiate to find velocity/acceleration or where velocity is zero"
+  },
+  {
+   "id": "phy-plane-vector-resultant",
+   "chapter": "Motion in a Plane",
+   "name": "Resultant of two vectors",
+   "desc": "Parallelogram law: magnitude/direction of resultant, possible range |A-B|<=R<=A+B"
+  },
+  {
+   "id": "phy-plane-vector-components-products",
+   "chapter": "Motion in a Plane",
+   "name": "Vector components and dot product",
+   "desc": "Resolve vectors into components, maximum component, perpendicular vectors via dot product = 0"
+  },
+  {
+   "id": "phy-plane-scalar-vector-identify",
+   "chapter": "Motion in a Plane",
+   "name": "Scalar or vector?",
+   "desc": "Identify which listed quantity is a scalar/vector"
+  },
+  {
+   "id": "phy-plane-projectile-concepts",
+   "chapter": "Motion in a Plane",
+   "name": "Projectile motion concepts",
+   "desc": "Constant horizontal velocity, velocity-acceleration angle, trajectory shape, forces on a projectile, speed at a given direction"
+  },
+  {
+   "id": "phy-plane-projectile-range-height",
+   "chapter": "Motion in a Plane",
+   "name": "Projectile range and maximum height",
+   "desc": "Use R=u^2 sin2θ/g, H=u^2 sin^2θ/2g: complementary angles, max range, R vs H relations, height ratios"
+  },
+  {
+   "id": "phy-plane-projectile-trajectory-equation",
+   "chapter": "Motion in a Plane",
+   "name": "Projectile from trajectory equation",
+   "desc": "Given y(x) or x(t), y(t), find initial velocity/angle"
+  },
+  {
+   "id": "phy-plane-relative-velocity-rain",
+   "chapter": "Motion in a Plane",
+   "name": "Relative velocity: rain and umbrella",
+   "desc": "Direction to hold umbrella / apparent rain velocity for a moving person"
+  },
+  {
+   "id": "phy-plane-circular-motion-kinematics",
+   "chapter": "Motion in a Plane",
+   "name": "Uniform circular motion kinematics",
+   "desc": "Angular speed, centripetal acceleration direction/magnitude, displacement vs distance, averages over a revolution"
+  },
+  {
+   "id": "phy-plane-2d-constant-acceleration",
+   "chapter": "Motion in a Plane",
+   "name": "2D motion with constant acceleration vector",
+   "desc": "Use vector kinematics r = ut + at^2/2 with i,j components"
+  },
+  {
+   "id": "phy-lom-net-force-acceleration",
+   "chapter": "Laws of Motion",
+   "name": "Newton's second law: net force",
+   "desc": "Find net force, resistive force or time from F = ma (incl. vector force on a moving body)"
+  },
+  {
+   "id": "phy-lom-connected-bodies-tension",
+   "chapter": "Laws of Motion",
+   "name": "Connected bodies: tension",
+   "desc": "Tension in strings joining masses moving together with an acceleration"
+  },
+  {
+   "id": "phy-lom-inertia-concepts",
+   "chapter": "Laws of Motion",
+   "name": "Inertia (first law)",
+   "desc": "Qualitative behaviour of bodies at rest/moving when support is pulled away"
+  },
+  {
+   "id": "phy-lom-momentum-recoil",
+   "chapter": "Laws of Motion",
+   "name": "Momentum conservation: recoil",
+   "desc": "Gun-bullet recoil momentum/KE comparison"
+  },
+  {
+   "id": "phy-lom-equilibrium-concurrent-forces",
+   "chapter": "Laws of Motion",
+   "name": "Equilibrium of concurrent forces / strings",
+   "desc": "Lami's theorem or component balance for forces and string tensions in equilibrium"
+  },
+  {
+   "id": "phy-lom-friction-incline",
+   "chapter": "Laws of Motion",
+   "name": "Friction on an inclined plane",
+   "desc": "Angle of repose, friction force and block mass on an incline, static vs kinetic friction"
+  },
+  {
+   "id": "phy-lom-friction-horizontal",
+   "chapter": "Laws of Motion",
+   "name": "Friction on a horizontal surface",
+   "desc": "Acceleration with kinetic friction, max acceleration without slipping, stacked blocks"
+  },
+  {
+   "id": "phy-lom-lift-apparent-weight",
+   "chapter": "Laws of Motion",
+   "name": "Apparent weight in a lift",
+   "desc": "Normal reaction / spring balance reading in an accelerating or freely falling lift, motion inside a lift"
+  },
+  {
+   "id": "phy-lom-circular-motion-friction-banking",
+   "chapter": "Laws of Motion",
+   "name": "Dynamics of circular motion",
+   "desc": "Centripetal force from friction/tension/banking: skidding on turns, banked loop radius, turntable coin, bob angle in a turning car"
+  },
+  {
+   "id": "phy-wep-ke-momentum-relation",
+   "chapter": "Work, Energy and Power",
+   "name": "KE-momentum relation",
+   "desc": "Use K = p^2/2m: % change in KE from momentum, ratio of momenta/masses, explosion fragments"
+  },
+  {
+   "id": "phy-wep-work-energy-theorem",
+   "chapter": "Work, Energy and Power",
+   "name": "Work-energy theorem",
+   "desc": "Work done = change in KE: stopping distance vs speed, work to accelerate, work by net force from v(x) or constant force"
+  },
+  {
+   "id": "phy-wep-energy-conservation-gravity",
+   "chapter": "Work, Energy and Power",
+   "name": "Mechanical energy conservation under gravity",
+   "desc": "KE-PE exchange for thrown/falling bodies incl. energy lost at bounce"
+  },
+  {
+   "id": "phy-wep-variable-force-work",
+   "chapter": "Work, Energy and Power",
+   "name": "Work by variable force / against gravity",
+   "desc": "Area under F-x graph; work to pull a hanging chain onto a table"
+  },
+  {
+   "id": "phy-wep-power",
+   "chapter": "Work, Energy and Power",
+   "name": "Power",
+   "desc": "Power of pumps/motors, power vs time under constant acceleration, momentum from P-t graph"
+  },
+  {
+   "id": "phy-wep-collision-concepts",
+   "chapter": "Work, Energy and Power",
+   "name": "Conservation in collisions",
+   "desc": "Which quantities are conserved in elastic/inelastic collisions"
+  },
+  {
+   "id": "phy-wep-collision-1d-velocities",
+   "chapter": "Work, Energy and Power",
+   "name": "1D collision / spring-coupled bodies",
+   "desc": "Final velocities via momentum + restitution; max compression of spring between blocks"
+  },
+  {
+   "id": "phy-rot-moi-standard-bodies",
+   "chapter": "System of Particles and Rotational Motion",
+   "name": "Moment of inertia of standard bodies",
+   "desc": "MI of ring/disc/rod about given axes, dependence on axis and mass distribution, rod bent into ring"
+  },
+  {
+   "id": "phy-rot-moi-axis-theorems",
+   "chapter": "System of Particles and Rotational Motion",
+   "name": "Parallel/perpendicular axis theorems",
+   "desc": "Use parallel or perpendicular axis theorem; radius of gyration of laminae; composite disc arrangement"
+  },
+  {
+   "id": "phy-rot-torque",
+   "chapter": "System of Particles and Rotational Motion",
+   "name": "Torque",
+   "desc": "Torque r x F as vector, or force needed at a different lever arm (door)"
+  },
+  {
+   "id": "phy-rot-kinematics",
+   "chapter": "System of Particles and Rotational Motion",
+   "name": "Rotational kinematics",
+   "desc": "Angular acceleration from rpm change, angle turned, direction of angular velocity"
+  },
+  {
+   "id": "phy-rot-rolling-energy",
+   "chapter": "System of Particles and Rotational Motion",
+   "name": "Rotational KE and rolling",
+   "desc": "KE of a rolling body, speeds of ring/cylinder/sphere at the bottom of an incline, identify body from E vs v^2"
+  },
+  {
+   "id": "phy-rot-com-position",
+   "chapter": "System of Particles and Rotational Motion",
+   "name": "Centre of mass location",
+   "desc": "Find centre of mass of particle systems or composite objects; CM vs CG"
+  },
+  {
+   "id": "phy-rot-com-motion",
+   "chapter": "System of Particles and Rotational Motion",
+   "name": "Motion of centre of mass",
+   "desc": "CM velocity/acceleration under internal forces or gravity only"
+  },
+  {
+   "id": "phy-rot-angular-momentum-conservation",
+   "chapter": "System of Particles and Rotational Motion",
+   "name": "Conservation of angular momentum",
+   "desc": "Angular momentum constant when no external torque: earth contracting, particle on straight line"
+  },
+  {
+   "id": "phy-rot-torque-angular-acceleration",
+   "chapter": "System of Particles and Rotational Motion",
+   "name": "Rotational dynamics (τ = Iα) with pulleys/belts",
+   "desc": "Mass on string over massive pulley, belt-coupled flywheels under torque"
+  },
+  {
+   "id": "phy-grav-kepler-orbit-speed",
+   "chapter": "Gravitation",
+   "name": "Kepler's laws and planetary orbits",
+   "desc": "Areal velocity, speed at perihelion/aphelion, conserved quantities for a planet in an elliptical orbit"
+  },
+  {
+   "id": "phy-grav-g-variation-height-depth",
+   "chapter": "Gravitation",
+   "name": "Variation of g with height and depth",
+   "desc": "g = g(1-2h/R), g(1-d/R), g at r from centre; graph of g vs r; equal-g height and depth"
+  },
+  {
+   "id": "phy-grav-g-planet-and-weight",
+   "chapter": "Gravitation",
+   "name": "g on other planets; mass vs weight",
+   "desc": "g from mass/radius/density of a planet; mass invariant, weight changes between earth and moon"
+  },
+  {
+   "id": "phy-grav-satellite-period",
+   "chapter": "Gravitation",
+   "name": "Satellite orbital period",
+   "desc": "Period of near-earth or geostationary satellites; independence from satellite mass"
+  },
+  {
+   "id": "phy-grav-escape-velocity-energy",
+   "chapter": "Gravitation",
+   "name": "Escape velocity and gravitational energy",
+   "desc": "Escape velocity at height, extra KE to escape, total energy of satellite, work to raise a mass to height R"
+  },
+  {
+   "id": "phy-grav-superposition-force",
+   "chapter": "Gravitation",
+   "name": "Gravitational force superposition",
+   "desc": "Place masses so the net gravitational force on a body is zero"
+  },
+  {
+   "id": "phy-solids-moduli-definitions",
+   "chapter": "Mechanical Properties of Solids",
+   "name": "Elastic moduli and types of strain",
+   "desc": "Definitions of Young's/bulk/rigidity modulus, type of strain, most elastic material, rigid body modulus"
+  },
+  {
+   "id": "phy-solids-stress-strain-extension",
+   "chapter": "Mechanical Properties of Solids",
+   "name": "Stress, strain and extension of wires",
+   "desc": "Use Y = FL/(A ΔL): compare extensions/stresses of wires, breaking area, elongation under own weight"
+  },
+  {
+   "id": "phy-solids-poisson-energy-density",
+   "chapter": "Mechanical Properties of Solids",
+   "name": "Poisson's ratio and elastic energy density",
+   "desc": "Poisson's ratio for constant volume, energy density = stress x strain / 2"
+  },
+  {
+   "id": "phy-fluids-continuity",
+   "chapter": "Mechanical Properties of Fluids",
+   "name": "Equation of continuity",
+   "desc": "A1v1 = A2v2: velocity or flow rate at different cross-sections"
+  },
+  {
+   "id": "phy-fluids-bernoulli",
+   "chapter": "Mechanical Properties of Fluids",
+   "name": "Bernoulli's principle",
+   "desc": "Pressure at another cross-section of a horizontal pipe; devices working on Bernoulli's principle"
+  },
+  {
+   "id": "phy-fluids-torricelli-efflux",
+   "chapter": "Mechanical Properties of Fluids",
+   "name": "Torricelli's law / efflux",
+   "desc": "Speed of efflux and horizontal range of jet from a hole, closed tank with pressure"
+  },
+  {
+   "id": "phy-fluids-buoyancy-archimedes",
+   "chapter": "Mechanical Properties of Fluids",
+   "name": "Buoyancy and flotation",
+   "desc": "Archimedes' principle: apparent loss of weight, fraction immersed, density ratios of floating bodies"
+  },
+  {
+   "id": "phy-fluids-hydrostatic-pressure-pascal",
+   "chapter": "Mechanical Properties of Fluids",
+   "name": "Hydrostatic pressure and Pascal's law",
+   "desc": "Pressure/force at the base of a liquid column, factors affecting pressure, hydraulic lift"
+  },
+  {
+   "id": "phy-fluids-viscosity-terminal-velocity",
+   "chapter": "Mechanical Properties of Fluids",
+   "name": "Viscosity, terminal velocity, Reynolds number",
+   "desc": "Stokes' law: terminal velocity of merged drops, viscosity from falling-ball data, Reynolds number for streamline flow"
+  },
+  {
+   "id": "phy-fluids-capillary-rise",
+   "chapter": "Mechanical Properties of Fluids",
+   "name": "Capillary rise",
+   "desc": "h = 2T cosθ/(rρg): dependence on diameter, ratio of diameters, capillary in free fall"
+  },
+  {
+   "id": "phy-therm-calorimetry-mixtures",
+   "chapter": "Thermal Properties of Matter",
+   "name": "Method of mixtures",
+   "desc": "Final temperature when hot/cold water, ice or steam are mixed (incl. latent heat)"
+  },
+  {
+   "id": "phy-therm-specific-latent-heat",
+   "chapter": "Thermal Properties of Matter",
+   "name": "Specific heat, heat capacity and latent heat",
+   "desc": "Heat to raise temperature of bodies, heating-curve phases, SI unit of specific heat"
+  },
+  {
+   "id": "phy-therm-conduction-series-parallel",
+   "chapter": "Thermal Properties of Matter",
+   "name": "Thermal conduction through rods/slabs",
+   "desc": "Heat current Q/t = KAΔT/L; effective conductivity and junction temperature for series/parallel/coaxial conductors"
+  },
+  {
+   "id": "phy-therm-newton-cooling",
+   "chapter": "Thermal Properties of Matter",
+   "name": "Newton's law of cooling",
+   "desc": "Average-temperature form: time to cool through an interval, surrounding temperature"
+  },
+  {
+   "id": "phy-therm-radiation-stefan-wien",
+   "chapter": "Thermal Properties of Matter",
+   "name": "Black body radiation: Stefan and Wien laws",
+   "desc": "E ∝ T^4, λmT = constant (star temperatures, ν_m vs T graph), properties of thermal radiation"
+  },
+  {
+   "id": "phy-therm-expansion-anomalous-water",
+   "chapter": "Thermal Properties of Matter",
+   "name": "Thermal expansion and anomalous expansion of water",
+   "desc": "Water density max at 4 °C, volume change 0-10 °C, gas expansion coefficient vs T"
+  },
+  {
+   "id": "phy-thd-carnot-efficiency",
+   "chapter": "Thermodynamics",
+   "name": "Carnot engine efficiency",
+   "desc": "η = 1 - T2/T1 = W/Q1: compare temperature pairs, find source/sink temperature, heat supplied, η vs T_H graph"
+  },
+  {
+   "id": "phy-thd-processes-identification",
+   "chapter": "Thermodynamics",
+   "name": "Thermodynamic processes and their graphs",
+   "desc": "Identify isothermal/adiabatic/isobaric/isochoric processes from P-V/V-T graphs or physical situations"
+  },
+  {
+   "id": "phy-thd-work-pv-cycle",
+   "chapter": "Thermodynamics",
+   "name": "Work from P-V diagram",
+   "desc": "Work done in a cyclic process = enclosed area"
+  },
+  {
+   "id": "phy-thd-first-law",
+   "chapter": "Thermodynamics",
+   "name": "First law of thermodynamics",
+   "desc": "ΔU = Q - W path independence; heat needed at constant pressure using Cp"
+  },
+  {
+   "id": "phy-thd-laws-concepts",
+   "chapter": "Thermodynamics",
+   "name": "Laws of thermodynamics: concepts",
+   "desc": "Statements of the second law, irreversible processes, thermodynamic coordinates"
+  },
+  {
+   "id": "phy-ktg-gas-laws",
+   "chapter": "Kinetic Theory",
+   "name": "Ideal gas laws",
+   "desc": "Charles/Gay-Lussac law: temperature from % change of pressure or volume"
+  },
+  {
+   "id": "phy-ktg-mean-ke-temperature",
+   "chapter": "Kinetic Theory",
+   "name": "Mean KE and temperature",
+   "desc": "Average KE = 3/2 kT, its dependence on temperature only; pressure vs average KE"
+  },
+  {
+   "id": "phy-ktg-dof-internal-energy-gamma",
+   "chapter": "Kinetic Theory",
+   "name": "Degrees of freedom: internal energy and γ",
+   "desc": "Equipartition: internal energy of gas mixtures, ratio of specific heats"
+  },
+  {
+   "id": "phy-ktg-rms-speed",
+   "chapter": "Kinetic Theory",
+   "name": "RMS speed of molecules",
+   "desc": "v_rms = sqrt(3RT/M) compared with speed of sound"
+  },
+  {
+   "id": "phy-osc-shm-amplitude-max-speed-acc",
+   "chapter": "Oscillations",
+   "name": "SHM parameters from equation",
+   "desc": "Amplitude, ω, max speed, max acceleration, max KE from x(t) or given maxima"
+  },
+  {
+   "id": "phy-osc-shm-time-phase",
+   "chapter": "Oscillations",
+   "name": "SHM time to reach a displacement",
+   "desc": "Time from mean position to a fraction of amplitude using phase"
+  },
+  {
+   "id": "phy-osc-shm-energy",
+   "chapter": "Oscillations",
+   "name": "Energy in SHM",
+   "desc": "KE/PE ratio at a displacement, position where KE = PE"
+  },
+  {
+   "id": "phy-osc-shm-concepts",
+   "chapter": "Oscillations",
+   "name": "SHM concepts (periodic, mean position, damping)",
+   "desc": "Periodic vs SHM, velocity/acceleration at mean position, conditions for SHM, damped oscillator relations"
+  },
+  {
+   "id": "phy-osc-pendulum",
+   "chapter": "Oscillations",
+   "name": "Simple pendulum",
+   "desc": "T = 2π sqrt(l/g): length ratios from oscillation counts, timing of identical pendulums"
+  },
+  {
+   "id": "phy-osc-shm-contact-condition",
+   "chapter": "Oscillations",
+   "name": "SHM: losing contact",
+   "desc": "Maximum amplitude so a block on a vertically oscillating piston stays in contact (ω²A = g)"
+  },
+  {
+   "id": "phy-waves-doppler-source-moving",
+   "chapter": "Waves",
+   "name": "Doppler effect: moving source",
+   "desc": "Apparent frequency for a source moving towards/away from a stationary observer"
+  },
+  {
+   "id": "phy-waves-doppler-reflection-beats",
+   "chapter": "Waves",
+   "name": "Doppler effect with reflection from a wall",
+   "desc": "Source/observer moving towards a wall or cliff: reflected frequency and beats heard"
+  },
+  {
+   "id": "phy-waves-beats-tuning-forks",
+   "chapter": "Waves",
+   "name": "Beats between tuning forks",
+   "desc": "Find unknown frequency from beat counts, filing/loading prongs, harmonics giving beats"
+  },
+  {
+   "id": "phy-waves-organ-pipes",
+   "chapter": "Waves",
+   "name": "Open and closed organ pipes",
+   "desc": "Harmonics/overtones of open and closed pipes: equal-frequency length ratios, partial immersion, resonant harmonic, beats between pipes"
+  },
+  {
+   "id": "phy-waves-string-frequency-speed",
+   "chapter": "Waves",
+   "name": "Vibrating strings: speed and frequency",
+   "desc": "v = sqrt(T/μ), f = (1/2L)sqrt(T/μ): scaling with length, radius, tension"
+  },
+  {
+   "id": "phy-waves-progressive-equation",
+   "chapter": "Waves",
+   "name": "Progressive wave equation",
+   "desc": "Read speed, wavelength, phase and particle velocity direction from y = A sin(ωt - kx)"
+  },
+  {
+   "id": "phy-waves-stationary-nodes-antinodes",
+   "chapter": "Waves",
+   "name": "Stationary waves: nodes and antinodes",
+   "desc": "Count nodes/antinodes in an overtone; node-antinode distance from a standing wave equation"
+  },
+  {
+   "id": "phy-waves-nature-concepts",
+   "chapter": "Waves",
+   "name": "Nature of mechanical waves",
+   "desc": "Longitudinal/transverse, energy-momentum transport, moduli needed, waves in pipes"
+  },
+  {
+   "id": "phy-waves-intensity-amplitude-db",
+   "chapter": "Waves",
+   "name": "Sound intensity, amplitude and decibels",
+   "desc": "Amplitude ∝ 1/r for a point source; intensity level in dB"
+  },
+  {
+   "id": "phy-ecf-coulomb-force-sharing",
+   "chapter": "Electric Charges and Fields",
+   "name": "Coulomb's law and charge sharing",
+   "desc": "Force between charges after touching/adding charge, partial dielectric, max-force division, Newton's third law"
+  },
+  {
+   "id": "phy-ecf-charge-quantisation-induction",
+   "chapter": "Electric Charges and Fields",
+   "name": "Quantisation of charge / induction",
+   "desc": "Number of excess electrons from charge; net charge after induction"
+  },
+  {
+   "id": "phy-ecf-charge-in-uniform-field",
+   "chapter": "Electric Charges and Fields",
+   "name": "Charged particle in a uniform electric field",
+   "desc": "Acceleration, velocity, time of fall, KE or charge of a particle released in uniform E"
+  },
+  {
+   "id": "phy-ecf-charged-drop-balance",
+   "chapter": "Electric Charges and Fields",
+   "name": "Charged drop balanced in a field (Millikan)",
+   "desc": "qE = mg, with terminal velocity to find drop charge"
+  },
+  {
+   "id": "phy-ecf-suspended-charged-spheres",
+   "chapter": "Electric Charges and Fields",
+   "name": "Suspended charged spheres",
+   "desc": "Equilibrium of charged balls on threads, in air and in a liquid"
+  },
+  {
+   "id": "phy-ecf-dipole-field",
+   "chapter": "Electric Charges and Fields",
+   "name": "Electric dipole field and moment",
+   "desc": "Axial/equatorial field relations, direction, force on a charge near a dipole, dipole moment of a charge system"
+  },
+  {
+   "id": "phy-ecf-dipole-in-field-torque",
+   "chapter": "Electric Charges and Fields",
+   "name": "Dipole in an external field",
+   "desc": "Torque pE sinθ, PE, force in non-uniform field"
+  },
+  {
+   "id": "phy-ecf-gauss-flux",
+   "chapter": "Electric Charges and Fields",
+   "name": "Electric flux and Gauss's law",
+   "desc": "Flux through planes/cubes/spheres from enclosed charge, charge at cube edge, dipole inside surface, non-uniform field on a cube"
+  },
+  {
+   "id": "phy-ecf-gauss-law-concepts",
+   "chapter": "Electric Charges and Fields",
+   "name": "Gauss's law: concepts",
+   "desc": "Nature and validity of Gaussian surfaces"
+  },
+  {
+   "id": "phy-ecf-field-point-charge-sphere",
+   "chapter": "Electric Charges and Fields",
+   "name": "Field of a point charge / charged sphere",
+   "desc": "E = kq/r^2 outside a sphere, charge from field, E vs r graph for a conducting sphere"
+  },
+  {
+   "id": "phy-ecf-field-line-charge",
+   "chapter": "Electric Charges and Fields",
+   "name": "Field of a line charge",
+   "desc": "E = λ/(2πε0 r) for an infinite wire; compare with semicircular charge"
+  },
+  {
+   "id": "phy-ecf-field-lines-conductor-concepts",
+   "chapter": "Electric Charges and Fields",
+   "name": "Field lines, field concept and conductors",
+   "desc": "Properties of field lines, field concept, electrostatics of conductors (true/false statements)"
+  },
+  {
+   "id": "phy-ecf-superposition-centre",
+   "chapter": "Electric Charges and Fields",
+   "name": "Superposition of forces/fields at a point",
+   "desc": "Net force on a test charge at the centre of a square of charges"
+  },
+  {
+   "id": "phy-ecf-rotating-rod-field",
+   "chapter": "Electric Charges and Fields",
+   "name": "Field inside a rotating conductor",
+   "desc": "Electric field that supplies the centripetal force to electrons in a rotating rod"
+  },
+  {
+   "id": "phy-ecf-field-potential-uniform",
+   "chapter": "Electric Charges and Fields",
+   "name": "Field and potential in a uniform field",
+   "desc": "E = ΔV/d between plates; potential ordering at points in a uniform field"
+  },
+  {
+   "id": "phy-epc-capacitor-network-equivalent",
+   "chapter": "Electrostatic Potential and Capacitance",
+   "name": "Equivalent capacitance of a network",
+   "desc": "Series/parallel/bridge reduction of capacitor networks; minimum capacitance; number of capacitors for given C and voltage rating"
+  },
+  {
+   "id": "phy-epc-capacitor-network-charge-voltage",
+   "chapter": "Electrostatic Potential and Capacitance",
+   "name": "Charge and voltage in a capacitor circuit",
+   "desc": "Charge/PD on a particular capacitor in series-parallel combination across a battery; capacitor in a DC resistor circuit"
+  },
+  {
+   "id": "phy-epc-charge-sharing-common-potential",
+   "chapter": "Electrostatic Potential and Capacitance",
+   "name": "Charge sharing and common potential",
+   "desc": "Connecting charged capacitors or spheres: common potential, final charges, energy"
+  },
+  {
+   "id": "phy-epc-capacitor-energy",
+   "chapter": "Electrostatic Potential and Capacitance",
+   "name": "Energy stored in a capacitor",
+   "desc": "U = Q^2/2C = CV^2/2, energy density form, % change in energy with added charge, from Q-V graph"
+  },
+  {
+   "id": "phy-epc-dielectric-effects",
+   "chapter": "Electrostatic Potential and Capacitance",
+   "name": "Dielectric slab and battery connected/isolated",
+   "desc": "Effect of inserting/removing dielectric or changing separation on C, Q, V, U; dielectric constant from voltmeter readings"
+  },
+  {
+   "id": "phy-epc-potential-point-charges-shells",
+   "chapter": "Electrostatic Potential and Capacitance",
+   "name": "Potential of point charges and shells",
+   "desc": "V = kq/r for charges, midpoints, concentric spheres, inside/outside a shell"
+  },
+  {
+   "id": "phy-epc-work-moving-charge",
+   "chapter": "Electrostatic Potential and Capacitance",
+   "name": "Work done moving a charge",
+   "desc": "W = q(VB - VA) between points, path independence in a uniform field, work to bring charges closer"
+  },
+  {
+   "id": "phy-epc-energy-conservation-charge-motion",
+   "chapter": "Electrostatic Potential and Capacitance",
+   "name": "Energy conservation for moving charges",
+   "desc": "Speed after accelerating through a PD or being repelled by a fixed charge; closest approach"
+  },
+  {
+   "id": "phy-epc-potential-energy-system",
+   "chapter": "Electrostatic Potential and Capacitance",
+   "name": "Potential energy of a charge system",
+   "desc": "PE of a configuration of point charges; how PE changes with separation"
+  },
+  {
+   "id": "phy-epc-field-from-potential",
+   "chapter": "Electrostatic Potential and Capacitance",
+   "name": "Field from potential",
+   "desc": "E = -dV/dx from V(x) expression or V-x graph"
+  },
+  {
+   "id": "phy-epc-equipotential-surfaces",
+   "chapter": "Electrostatic Potential and Capacitance",
+   "name": "Equipotential surfaces",
+   "desc": "Shape of equipotentials, zero work on them, points at same potential in a uniform field"
+  },
+  {
+   "id": "phy-epc-dipole-potential-energy",
+   "chapter": "Electrostatic Potential and Capacitance",
+   "name": "Dipole potential and energy",
+   "desc": "r-dependence of dipole field/potential; PE of a dipole at various angles"
+  },
+  {
+   "id": "phy-epc-dielectric-polarisation",
+   "chapter": "Electrostatic Potential and Capacitance",
+   "name": "Polar molecules and polarisation",
+   "desc": "Polar/non-polar molecules, electric susceptibility from induced dipoles"
+  },
+  {
+   "id": "phy-epc-charged-sphere-drops",
+   "chapter": "Electrostatic Potential and Capacitance",
+   "name": "Charged spheres, drops and bubbles",
+   "desc": "Capacitance of merged drops; charged soap bubble radius"
+  },
+  {
+   "id": "phy-epc-multi-plate-arrangements",
+   "chapter": "Electrostatic Potential and Capacitance",
+   "name": "Multi-plate capacitor arrangements",
+   "desc": "Capacitance/potential for three or four parallel plates connected alternately"
+  },
+  {
+   "id": "phy-epc-rc-charging",
+   "chapter": "Electrostatic Potential and Capacitance",
+   "name": "RC charging rate",
+   "desc": "Charging current/time constant from instantaneous dV/dt of a charging capacitor"
+  },
+  {
+   "id": "phy-ce-power-rating-bulbs",
+   "chapter": "Current Electricity",
+   "name": "Power rating of appliances",
+   "desc": "Current/resistance from a V-W rating, % power drop with voltage drop, series resistor to run a bulb on higher voltage"
+  },
+  {
+   "id": "phy-ce-joule-heating-network",
+   "chapter": "Current Electricity",
+   "name": "Joule heating in circuits",
+   "desc": "Heat/power in particular resistors of a network, ratio of heat produced, U vs V graph, work done by battery"
+  },
+  {
+   "id": "phy-ce-temperature-coefficient",
+   "chapter": "Current Electricity",
+   "name": "Temperature coefficient of resistance",
+   "desc": "R = R0(1 + αΔT): temperature for a target resistance, α from R-T or V-I graphs at two temperatures"
+  },
+  {
+   "id": "phy-ce-resistivity-materials-temperature",
+   "chapter": "Current Electricity",
+   "name": "Resistivity of materials vs temperature",
+   "desc": "Identify metal/alloy/semiconductor from ρ-T behaviour"
+  },
+  {
+   "id": "phy-ce-resistance-wire-geometry",
+   "chapter": "Current Electricity",
+   "name": "Resistance and wire dimensions",
+   "desc": "R = ρL/A: wires of given mass/length ratios, stretching, max-resistance shape, faces of a bar, R vs diameter graph, I-V slope dependence"
+  },
+  {
+   "id": "phy-ce-drift-velocity-calc",
+   "chapter": "Current Electricity",
+   "name": "Drift velocity calculation",
+   "desc": "I = neAv_d and v_d = μE: drift speed, current density, time to drift along a wire"
+  },
+  {
+   "id": "phy-ce-drift-mobility-concepts",
+   "chapter": "Current Electricity",
+   "name": "Drift, mobility and microscopic Ohm's law",
+   "desc": "Mobility dependence on relaxation time, v_d vs current, why large current flows, what is constant in non-uniform wire, j = σE"
+  },
+  {
+   "id": "phy-ce-colour-code",
+   "chapter": "Current Electricity",
+   "name": "Resistor colour code",
+   "desc": "Decode/encode carbon resistor colour bands and tolerance; wire-bound resistor materials"
+  },
+  {
+   "id": "phy-ce-current-charge-electrons",
+   "chapter": "Current Electricity",
+   "name": "Current, charge and electron flow",
+   "desc": "Q = It, charge from I-t graph area, electrons per second, equivalent current of orbiting electron, net current of mixed carriers"
+  },
+  {
+   "id": "phy-ce-equivalent-resistance",
+   "chapter": "Current Electricity",
+   "name": "Equivalent resistance of networks",
+   "desc": "Series/parallel, symmetric, bridge, cube and ladder networks between two points"
+  },
+  {
+   "id": "phy-ce-network-current-voltage",
+   "chapter": "Current Electricity",
+   "name": "Currents and voltages in resistor networks",
+   "desc": "Current through a branch, current division, ammeter/voltmeter readings, bulb brightness on switching"
+  },
+  {
+   "id": "phy-ce-kirchhoff-rules",
+   "chapter": "Current Electricity",
+   "name": "Kirchhoff's rules",
+   "desc": "Junction/loop rules to find currents, node potentials, PD between points; basis of junction rule"
+  },
+  {
+   "id": "phy-ce-cell-emf-internal-resistance",
+   "chapter": "Current Electricity",
+   "name": "EMF, internal resistance and terminal voltage",
+   "desc": "V = E - Ir: terminal voltage, V-I graph of a cell, short-circuit behaviour, zero terminal PD condition"
+  },
+  {
+   "id": "phy-ce-cell-combinations",
+   "chapter": "Current Electricity",
+   "name": "Combinations of cells",
+   "desc": "Series cells with some reversed, cells in opposition, parallel cells equivalent emf, voltmeter across part of a series loop"
+  },
+  {
+   "id": "phy-ce-wheatstone-metre-bridge",
+   "chapter": "Current Electricity",
+   "name": "Wheatstone bridge / metre bridge",
+   "desc": "Balance condition, shunt to balance, shift of balance point on heating or changing wire"
+  },
+  {
+   "id": "phy-ce-potentiometer",
+   "chapter": "Current Electricity",
+   "name": "Potentiometer",
+   "desc": "Compare emfs, internal resistance by shunting, emf from balancing length; why potentiometer is accurate"
+  },
+  {
+   "id": "phy-ce-galvanometer-experiment",
+   "chapter": "Current Electricity",
+   "name": "Galvanometer experiments",
+   "desc": "Half-deflection method, series resistance to change deflection"
+  },
+  {
+   "id": "phy-ce-ohms-law-concepts",
+   "chapter": "Current Electricity",
+   "name": "Ohm's law: validity and graphs",
+   "desc": "Ohmic I-V graph, devices obeying Ohm's law, comparing resistances from I-V graphs, verification circuit, energy of moving charge"
+  },
+  {
+   "id": "phy-mcm-radius-ratio-particles",
+   "chapter": "Moving Charges and Magnetism",
+   "name": "Radius ratio of particles in a magnetic field",
+   "desc": "r = mv/qB = sqrt(2mK)/qB: compare radii/tracks of p, d, α, e for same velocity or same KE"
+  },
+  {
+   "id": "phy-mcm-radius-circular-path-calc",
+   "chapter": "Moving Charges and Magnetism",
+   "name": "Circular motion of a charge in B",
+   "desc": "Radius/velocity of a charge in a uniform field, effect of changing B or accelerating PD, max speed inside a solenoid"
+  },
+  {
+   "id": "phy-mcm-lorentz-force-concepts",
+   "chapter": "Moving Charges and Magnetism",
+   "name": "Magnetic force on moving charges: concepts",
+   "desc": "When a charge feels magnetic force, helical paths, charge moving along solenoid axis, stationary electron in B"
+  },
+  {
+   "id": "phy-mcm-crossed-fields-velocity-selector",
+   "chapter": "Moving Charges and Magnetism",
+   "name": "Crossed E and B fields",
+   "desc": "Undeflected motion v = E/B, velocity selector, Lorentz force vector with both fields"
+  },
+  {
+   "id": "phy-mcm-cyclotron",
+   "chapter": "Moving Charges and Magnetism",
+   "name": "Cyclotron",
+   "desc": "Particles accelerated, frequency independent of radius, KE of beam from B and dee radius, where particle speeds up"
+  },
+  {
+   "id": "phy-mcm-galvanometer-conversion",
+   "chapter": "Moving Charges and Magnetism",
+   "name": "Galvanometer to ammeter/voltmeter",
+   "desc": "Shunt or series resistance for a range, galvanometer resistance from half deflection, sensitivity with turns"
+  },
+  {
+   "id": "phy-mcm-tangent-galvanometer",
+   "chapter": "Moving Charges and Magnetism",
+   "name": "Tangent galvanometer",
+   "desc": "Reduction factor and deflections, tan θ ∝ current"
+  },
+  {
+   "id": "phy-mcm-field-coil-axis",
+   "chapter": "Moving Charges and Magnetism",
+   "name": "Field on the axis of a circular coil",
+   "desc": "B_axis/B_centre = R^3/(R^2+x^2)^(3/2): find distance or field ratio"
+  },
+  {
+   "id": "phy-mcm-field-centre-loops-arcs",
+   "chapter": "Moving Charges and Magnetism",
+   "name": "Field at centre of loops, arcs and combinations",
+   "desc": "B at centre of arcs, spirals, wire-arc combinations, perpendicular coils, rewound coils, B/M ratio"
+  },
+  {
+   "id": "phy-mcm-field-straight-wire",
+   "chapter": "Moving Charges and Magnetism",
+   "name": "Field of straight wires",
+   "desc": "B = μ0I/2πr, B vs r graph, net field between/along two parallel wires"
+  },
+  {
+   "id": "phy-mcm-ampere-law-cylinder-toroid",
+   "chapter": "Moving Charges and Magnetism",
+   "name": "Ampere's law: pipes, cylinders, toroids",
+   "desc": "B inside/outside a hollow pipe or solid cylinder, B vs r for a toroid"
+  },
+  {
+   "id": "phy-mcm-solenoid-field-energy",
+   "chapter": "Moving Charges and Magnetism",
+   "name": "Solenoid and toroid field",
+   "desc": "B = μ0 n I in a solenoid (centre/end, multilayer), magnetic energy density B^2/2μ0"
+  },
+  {
+   "id": "phy-mcm-force-parallel-wires",
+   "chapter": "Moving Charges and Magnetism",
+   "name": "Force between parallel currents",
+   "desc": "F/l = μ0 I1 I2/2πd, attraction/repulsion; force between wire and coaxial loop"
+  },
+  {
+   "id": "phy-mcm-force-on-conductor",
+   "chapter": "Moving Charges and Magnetism",
+   "name": "Force on a current-carrying conductor",
+   "desc": "F = BIL: field direction to balance weight, mass suspended in a field, rod on an incline"
+  },
+  {
+   "id": "phy-mcm-magnetic-moment-torque",
+   "chapter": "Moving Charges and Magnetism",
+   "name": "Magnetic moment of a loop and torque",
+   "desc": "m = NIA, torque m x B, work to rotate a loop, gyromagnetic ratio"
+  },
+  {
+   "id": "phy-mcm-biot-savart-sources",
+   "chapter": "Moving Charges and Magnetism",
+   "name": "Biot-Savart law and sources of magnetic field",
+   "desc": "Vector form of Biot-Savart, field of a moving charge, which observer sees B, true statements about fields of currents"
+  },
+  {
+   "id": "phy-mm-dia-para-ferro-properties",
+   "chapter": "Magnetism and Matter",
+   "name": "Dia-, para- and ferromagnetic materials",
+   "desc": "Classify by susceptibility/permeability, behaviour near a magnet, true/false statements on magnetic substances"
+  },
+  {
+   "id": "phy-mm-ferro-domains-hysteresis",
+   "chapter": "Magnetism and Matter",
+   "name": "Ferromagnetism: domains, retentivity, coercivity",
+   "desc": "Domain alignment in permanent magnets, material for electromagnet cores, current to demagnetise from coercivity"
+  },
+  {
+   "id": "phy-mm-curie-law",
+   "chapter": "Magnetism and Matter",
+   "name": "Curie law",
+   "desc": "χ ∝ 1/T for paramagnets (magnetisation vs B/T); Curie-Weiss above Curie temperature"
+  },
+  {
+   "id": "phy-mm-magnet-oscillation-period",
+   "chapter": "Magnetism and Matter",
+   "name": "Oscillating magnetic dipole",
+   "desc": "T = 2π sqrt(I/mB): period, number of oscillations, field from period"
+  },
+  {
+   "id": "phy-mm-earth-field-dip",
+   "chapter": "Magnetism and Matter",
+   "name": "Earth's magnetic field and dip",
+   "desc": "B = B_H / cos(dip), where horizontal component vanishes, evidence for and variation of earth's field"
+  },
+  {
+   "id": "phy-mm-bar-magnet-dipole-torque",
+   "chapter": "Magnetism and Matter",
+   "name": "Bar magnet as a dipole",
+   "desc": "Properties of a bar magnet, torque m x B on a dipole"
+  },
+  {
+   "id": "phy-mm-gauss-law-field-lines",
+   "chapter": "Magnetism and Matter",
+   "name": "Gauss's law for magnetism and field lines",
+   "desc": "Net flux through a closed surface is zero; field-line patterns valid for B vs E"
+  },
+  {
+   "id": "phy-emi-faraday-flux-change",
+   "chapter": "Electromagnetic Induction",
+   "name": "Faraday's law: emf from flux change",
+   "desc": "Flux Φ = B·A, emf = -N dΦ/dt from changing B, Φ(t) polynomial, coil removed from field, charge/flux from induced current"
+  },
+  {
+   "id": "phy-emi-lenz-direction",
+   "chapter": "Electromagnetic Induction",
+   "name": "Lenz's law: direction and effects",
+   "desc": "Direction of induced current, attraction/repulsion of coils, falling magnet acceleration, Fleming's right-hand rule, Faraday experiment statements"
+  },
+  {
+   "id": "phy-emi-motional-emf-rod-rails",
+   "chapter": "Electromagnetic Induction",
+   "name": "Motional emf: rods, loops and spokes",
+   "desc": "e = Bvl for a rod on rails or loop entering a field; emf between axle and rim of a rotating wheel"
+  },
+  {
+   "id": "phy-emi-motional-emf-earth-field",
+   "chapter": "Electromagnetic Induction",
+   "name": "Motional emf in earth's field",
+   "desc": "Wing-tip PD of an aircraft using vertical component; emf in a falling rod using B_H"
+  },
+  {
+   "id": "phy-emi-self-inductance",
+   "chapter": "Electromagnetic Induction",
+   "name": "Self-inductance",
+   "desc": "e = -L dI/dt, L = NΦ/I, unit of inductance, emf from I-t graph, iron core effect on a bulb in an AC circuit"
+  },
+  {
+   "id": "phy-emi-inductor-energy",
+   "chapter": "Electromagnetic Induction",
+   "name": "Energy stored in an inductor",
+   "desc": "U = LI^2/2"
+  },
+  {
+   "id": "phy-emi-mutual-inductance",
+   "chapter": "Electromagnetic Induction",
+   "name": "Mutual inductance",
+   "desc": "Max emf in secondary from sinusoidal current; mutual inductance of loop and long wire"
+  },
+  {
+   "id": "phy-emi-eddy-currents",
+   "chapter": "Electromagnetic Induction",
+   "name": "Eddy currents",
+   "desc": "Applications such as magnetic braking"
+  },
+  {
+   "id": "phy-ac-rms-peak-average",
+   "chapter": "Alternating Current",
+   "name": "RMS, peak and average values",
+   "desc": "Convert between rms/peak/mean, read rms and frequency from v(t), meaning of 220 V 50 Hz, time from rms to peak, rms of i1 sin + i2 cos"
+  },
+  {
+   "id": "phy-ac-bulb-on-ac",
+   "chapter": "Alternating Current",
+   "name": "Bulb on AC mains",
+   "desc": "rms current drawn by a rated bulb on AC"
+  },
+  {
+   "id": "phy-ac-lcr-phasor-voltages",
+   "chapter": "Alternating Current",
+   "name": "Voltages in series LCR (phasors)",
+   "desc": "V = sqrt(V_R^2 + (V_L - V_C)^2): source voltage, element voltages after changing R, PD across C at resonance"
+  },
+  {
+   "id": "phy-ac-impedance-current",
+   "chapter": "Alternating Current",
+   "name": "Impedance and current in AC circuits",
+   "desc": "Z of LCR/RL/RC, current with choke and resistor in series, frequency change effect, ammeter reading with a capacitor"
+  },
+  {
+   "id": "phy-ac-power-factor-power",
+   "chapter": "Alternating Current",
+   "name": "Power factor and average power",
+   "desc": "P = V_rms I_rms cos φ from v(t), i(t); power factor of RL; zero power in pure L; time lag from phase"
+  },
+  {
+   "id": "phy-ac-resonance",
+   "chapter": "Alternating Current",
+   "name": "LCR resonance",
+   "desc": "Resonant frequency, phase at resonance, Z-ω curve and bandwidth/Q, f0 vs C, reading X_L/X_C graphs"
+  },
+  {
+   "id": "phy-ac-reactance-phase-concepts",
+   "chapter": "Alternating Current",
+   "name": "Reactance and phase in pure elements",
+   "desc": "X_L ∝ f, X_C ∝ 1/f, bulb brightness with L/C changes, phase in pure R, voltmeter readings in parallel R, L, C"
+  },
+  {
+   "id": "phy-ac-lc-oscillations",
+   "chapter": "Alternating Current",
+   "name": "LC oscillations",
+   "desc": "Analogy with spring-mass, max charge from current, time for equal energy sharing"
+  },
+  {
+   "id": "phy-ac-transformer",
+   "chapter": "Alternating Current",
+   "name": "Transformers and power transmission",
+   "desc": "Turns ratio, currents/voltages, efficiency, core material, principle, transmission line losses"
+  },
+  {
+   "id": "phy-emw-spectrum",
+   "chapter": "Electromagnetic Waves",
+   "name": "Electromagnetic spectrum",
+   "desc": "Order/ranges of wavelengths, uses of radiations, same speed in vacuum"
+  },
+  {
+   "id": "phy-emw-e-b-relation",
+   "chapter": "Electromagnetic Waves",
+   "name": "E and B in an EM wave",
+   "desc": "E0 = c B0, B vector from E vector expression, computed wave quantities"
+  },
+  {
+   "id": "phy-emw-nature-sources",
+   "chapter": "Electromagnetic Waves",
+   "name": "Nature and sources of EM waves",
+   "desc": "Orientation of E and B, propagation along E x B, accelerating charge as source, refractive index from ε, μ"
+  },
+  {
+   "id": "phy-emw-maxwell-equations",
+   "chapter": "Electromagnetic Waves",
+   "name": "Maxwell's equations",
+   "desc": "Match Gauss, Faraday, Ampere-Maxwell laws to their integral forms"
+  },
+  {
+   "id": "phy-ro-plane-mirror-deviation",
+   "chapter": "Ray Optics and Optical Instruments",
+   "name": "Reflection at a plane mirror",
+   "desc": "Deviation = 180° - 2i, angles between ray and mirror"
+  },
+  {
+   "id": "phy-ro-mirror-formula",
+   "chapter": "Ray Optics and Optical Instruments",
+   "name": "Mirror formula and magnification",
+   "desc": "1/v + 1/u = 1/f for concave/convex mirrors: image position, focal length from magnification, nature of image, moving object"
+  },
+  {
+   "id": "phy-ro-image-nature-ray-diagrams",
+   "chapter": "Ray Optics and Optical Instruments",
+   "name": "Sign convention, ray diagrams, image nature",
+   "desc": "Cartesian sign convention, reflected ray direction, which element always gives virtual image, intensity along axis beyond a lens"
+  },
+  {
+   "id": "phy-ro-lens-formula",
+   "chapter": "Ray Optics and Optical Instruments",
+   "name": "Lens formula and magnification",
+   "desc": "1/v - 1/u = 1/f: image position/magnification, object-screen distance, moving object/image speed, concave lens in a converging beam"
+  },
+  {
+   "id": "phy-ro-lensmaker-medium",
+   "chapter": "Ray Optics and Optical Instruments",
+   "name": "Lens maker's formula and lens in a medium",
+   "desc": "Focal length from radii and μ, change of f when immersed in water/liquid, radii from power, composite-material lens"
+  },
+  {
+   "id": "phy-ro-lens-combination-power",
+   "chapter": "Ray Optics and Optical Instruments",
+   "name": "Power and combination of lenses",
+   "desc": "P = 1/f, lenses in contact or separated, cut lenses"
+  },
+  {
+   "id": "phy-ro-refraction-snell-speed",
+   "chapter": "Ray Optics and Optical Instruments",
+   "name": "Refraction: Snell's law and speed of light",
+   "desc": "n = c/v, time through a slab, refraction through parallel media, why light bends, what n depends on"
+  },
+  {
+   "id": "phy-ro-critical-angle-tir",
+   "chapter": "Ray Optics and Optical Instruments",
+   "name": "Critical angle and total internal reflection",
+   "desc": "sin C = 1/n from wavelengths or speeds, bright circle radius from a submerged source, colour dependence of C"
+  },
+  {
+   "id": "phy-ro-slab-shift-apparent-depth",
+   "chapter": "Ray Optics and Optical Instruments",
+   "name": "Glass slab: lateral shift and apparent depth",
+   "desc": "Lateral/normal shift, apparent depth (incl. colour dependence), silvered slab, refractive index by travelling microscope"
+  },
+  {
+   "id": "phy-ro-spherical-surface-refraction",
+   "chapter": "Ray Optics and Optical Instruments",
+   "name": "Refraction at a spherical surface",
+   "desc": "n2/v - n1/u = (n2 - n1)/R: image position for a point object"
+  },
+  {
+   "id": "phy-ro-prism-min-deviation",
+   "chapter": "Ray Optics and Optical Instruments",
+   "name": "Prism: minimum deviation",
+   "desc": "n = sin((A+δm)/2)/sin(A/2): find n, δm, i or speed in prism; i-δ graph; colours at minimum deviation"
+  },
+  {
+   "id": "phy-ro-prism-ray-path",
+   "chapter": "Ray Optics and Optical Instruments",
+   "name": "Prism: ray paths and r1 + r2 = A",
+   "desc": "Silvered prism retracing path, ray paths for different index ratios, r1 + r2 = A relations"
+  },
+  {
+   "id": "phy-ro-dispersion-colours",
+   "chapter": "Ray Optics and Optical Instruments",
+   "name": "Dispersion: colour dependence",
+   "desc": "Speed of colours in glass, focal length for different colours"
+  },
+  {
+   "id": "phy-ro-scattering",
+   "chapter": "Ray Optics and Optical Instruments",
+   "name": "Scattering of light",
+   "desc": "Rayleigh scattering ∝ 1/λ^4; infrared photography through fog"
+  },
+  {
+   "id": "phy-ro-optical-instruments",
+   "chapter": "Ray Optics and Optical Instruments",
+   "name": "Microscope and telescope",
+   "desc": "Magnification of compound/simple microscope, telescope resolving power, nature of final images"
+  },
+  {
+   "id": "phy-wo-ydse-fringe-width-position",
+   "chapter": "Wave Optics",
+   "name": "YDSE: fringe width and fringe positions",
+   "desc": "β = λD/d: change with D or colour, position of nth bright/dark fringe, distance between maxima and minima"
+  },
+  {
+   "id": "phy-wo-ydse-two-wavelengths",
+   "chapter": "Wave Optics",
+   "name": "YDSE with two wavelengths",
+   "desc": "Coincidence of bright fringes of two wavelengths; least distance where they coincide"
+  },
+  {
+   "id": "phy-wo-max-number-maxima",
+   "chapter": "Wave Optics",
+   "name": "Maximum number of maxima",
+   "desc": "Count of visible maxima for YDSE or a grating using d sinθ = nλ with sinθ <= 1"
+  },
+  {
+   "id": "phy-wo-ydse-intensity-phase",
+   "chapter": "Wave Optics",
+   "name": "Interference intensity",
+   "desc": "I = I1 + I2 + 2sqrt(I1 I2)cos φ: intensity at a path/phase difference, unequal slit widths"
+  },
+  {
+   "id": "phy-wo-ydse-thin-sheet-shift",
+   "chapter": "Wave Optics",
+   "name": "YDSE: thin sheet in one beam",
+   "desc": "Fringe shift (μ-1)t D/d; fringe width unchanged"
+  },
+  {
+   "id": "phy-wo-interference-conditions",
+   "chapter": "Wave Optics",
+   "name": "Coherence and conditions for interference",
+   "desc": "Coherent sources, constructive-interference path difference, need for slit, coloured filters on slits"
+  },
+  {
+   "id": "phy-wo-thin-film",
+   "chapter": "Wave Optics",
+   "name": "Thin film interference",
+   "desc": "Minimum thickness for constructive reflection; thickness from adjacent max/min wavelengths"
+  },
+  {
+   "id": "phy-wo-single-slit-calc",
+   "chapter": "Wave Optics",
+   "name": "Single slit diffraction: calculations",
+   "desc": "a sinθ = nλ: angular position of minima, angular width of central maximum, slit width from minimum angle"
+  },
+  {
+   "id": "phy-wo-diffraction-concepts",
+   "chapter": "Wave Optics",
+   "name": "Diffraction: concepts",
+   "desc": "Effect of slit width/colour on bands, fringe width and intensity pattern, obstacle size, CD colours"
+  },
+  {
+   "id": "phy-wo-fresnel-distance",
+   "chapter": "Wave Optics",
+   "name": "Fresnel distance",
+   "desc": "Range of validity of ray optics z_F = a^2/λ"
+  },
+  {
+   "id": "phy-wo-resolving-power-eye",
+   "chapter": "Wave Optics",
+   "name": "Resolving power / limit of resolution",
+   "desc": "Minimum separation or maximum distance for resolving two objects with eye aperture or angular resolution"
+  },
+  {
+   "id": "phy-wo-malus-polaroids",
+   "chapter": "Wave Optics",
+   "name": "Malus' law with polaroids",
+   "desc": "Intensity through two or three polaroids, angle between pass axes from intensity ratio"
+  },
+  {
+   "id": "phy-wo-brewster-angle",
+   "chapter": "Wave Optics",
+   "name": "Brewster's law",
+   "desc": "tan i_p = n: polarising angle from critical angle, refraction angle at Brewster incidence"
+  },
+  {
+   "id": "phy-wo-polarisation-concepts",
+   "chapter": "Wave Optics",
+   "name": "Polarisation concepts",
+   "desc": "Polarisation shows transverse nature; optical rotation by sugar solution"
+  },
+  {
+   "id": "phy-wo-huygens-wavefront",
+   "chapter": "Wave Optics",
+   "name": "Huygens' principle and wavefronts",
+   "desc": "Definition and shapes of wavefronts, refraction of wavefronts, speed/wavelength change, energy conservation"
+  },
+  {
+   "id": "phy-wo-theories-of-light",
+   "chapter": "Wave Optics",
+   "name": "Theories of light",
+   "desc": "Corpuscular vs wave theory predictions, phenomena supporting wave theory"
+  },
+  {
+   "id": "phy-wo-wavelength-in-medium",
+   "chapter": "Wave Optics",
+   "name": "Wavelength and speed in a medium",
+   "desc": "λ_medium = λ/n, number of waves in equal distances, speed from sin i - sin r graph"
+  },
+  {
+   "id": "phy-wo-doppler-light",
+   "chapter": "Wave Optics",
+   "name": "Doppler effect for light",
+   "desc": "Recession velocity from wavelength shift Δλ/λ = v/c"
+  },
+  {
+   "id": "phy-wo-scattering",
+   "chapter": "Wave Optics",
+   "name": "Scattering intensity",
+   "desc": "Rayleigh scattering ∝ 1/λ^4 (ratio of frequencies from intensities)"
+  },
+  {
+   "id": "phy-dn-debroglie-accelerated-electron",
+   "chapter": "Dual Nature of Radiation and Matter",
+   "name": "Electron accelerated through a PD",
+   "desc": "λ = 1.227/sqrt(V) nm for electrons; λ from KE in eV; speed after acceleration"
+  },
+  {
+   "id": "phy-dn-debroglie-ratio-scaling",
+   "chapter": "Dual Nature of Radiation and Matter",
+   "name": "de Broglie wavelength: ratios and scaling",
+   "desc": "λ = h/p = h/sqrt(2mK) = h/sqrt(2mqV): compare particles, effect of changing KE/height, constant λ in B field, electron vs photon of same λ"
+  },
+  {
+   "id": "phy-dn-photoelectric-equation",
+   "chapter": "Dual Nature of Radiation and Matter",
+   "name": "Einstein's photoelectric equation",
+   "desc": "K_max = hν - φ: KE/speed/stopping potential, threshold wavelength, which wavelengths/transitions eject electrons"
+  },
+  {
+   "id": "phy-dn-photoelectric-graphs",
+   "chapter": "Dual Nature of Radiation and Matter",
+   "name": "Photoelectric graphs",
+   "desc": "Interpret photocurrent vs anode potential (intensity/frequency), K_max vs ν, V0 vs ν slope and intercept, I vs ν"
+  },
+  {
+   "id": "phy-dn-photoelectric-concepts",
+   "chapter": "Dual Nature of Radiation and Matter",
+   "name": "Photoelectric effect: concepts",
+   "desc": "What K_max depends on, saturation current vs intensity and frequency, definition of work function"
+  },
+  {
+   "id": "phy-dn-photon-momentum-number",
+   "chapter": "Dual Nature of Radiation and Matter",
+   "name": "Photon energy, momentum and number",
+   "desc": "Number of photons per second from power, radiation force/momentum on absorbing or reflecting surfaces"
+  },
+  {
+   "id": "phy-dn-matter-wave-experiments",
+   "chapter": "Dual Nature of Radiation and Matter",
+   "name": "Experiments on matter waves",
+   "desc": "Davisson-Germer / G.P. Thomson electron diffraction"
+  },
+  {
+   "id": "phy-at-spectral-series-visible",
+   "chapter": "Atoms",
+   "name": "Hydrogen series regions",
+   "desc": "Which hydrogen series lies in visible/UV/IR"
+  },
+  {
+   "id": "phy-at-transition-wavelength-rydberg",
+   "chapter": "Atoms",
+   "name": "Transition wavelengths (Rydberg formula)",
+   "desc": "1/λ = R(1/n1^2 - 1/n2^2): wavelengths/frequencies of lines, series limits, ratios, energy-level diagram wavelengths"
+  },
+  {
+   "id": "phy-at-number-of-spectral-lines",
+   "chapter": "Atoms",
+   "name": "Number of spectral lines",
+   "desc": "n(n-1)/2 transitions from a level"
+  },
+  {
+   "id": "phy-at-emission-spectra-types",
+   "chapter": "Atoms",
+   "name": "Types of spectra",
+   "desc": "Line/band/continuous emission and absorption spectra of sources (sun, lamps, flames)"
+  },
+  {
+   "id": "phy-at-rutherford-scattering",
+   "chapter": "Atoms",
+   "name": "Rutherford α-scattering",
+   "desc": "Closest approach and its dependence on speed, impact parameter vs scattering angle, conclusions of the model"
+  },
+  {
+   "id": "phy-at-bohr-radius-velocity-period",
+   "chapter": "Atoms",
+   "name": "Bohr orbit radius, speed and period",
+   "desc": "r ∝ n^2, v ∝ 1/n, T ∝ n^3, f ∝ 1/n^3: orbit radii/areas, n from radius or speed, Earth's quantum number"
+  },
+  {
+   "id": "phy-at-bohr-energy-levels",
+   "chapter": "Atoms",
+   "name": "Bohr energy levels",
+   "desc": "E = -13.6 Z^2/n^2 eV: energies, excitation/ionisation energy, KE and PE relations, He+ / Li2+ levels, changes on de-excitation"
+  },
+  {
+   "id": "phy-at-bohr-angular-momentum",
+   "chapter": "Atoms",
+   "name": "Angular momentum quantisation",
+   "desc": "L = nh/2π: change of L in transitions, Bohr's postulates, magnetic moment to L ratio"
+  },
+  {
+   "id": "phy-at-debroglie-bohr-orbit",
+   "chapter": "Atoms",
+   "name": "de Broglie waves in Bohr orbits",
+   "desc": "2πr = nλ: electron wavelength in ground/excited orbit"
+  },
+  {
+   "id": "phy-nuc-decay-law-fraction",
+   "chapter": "Nuclei",
+   "name": "Radioactive decay law: fraction remaining",
+   "desc": "N = N0 (1/2)^(t/T) or e^(-λt): fraction left/decayed, time between % decays, mean life from counts or N0/N at τ"
+  },
+  {
+   "id": "phy-nuc-activity-half-life",
+   "chapter": "Nuclei",
+   "name": "Activity, half-life and decay constant",
+   "desc": "A = λN, T = ln2/λ, curie unit, activity of mixtures, half-life ratio from activities, activity-time graphs"
+  },
+  {
+   "id": "phy-nuc-alpha-beta-counting",
+   "chapter": "Nuclei",
+   "name": "Counting α and β emissions",
+   "desc": "Change in Z and A after α/β/γ emissions; number of α, β to reach an end product; neutrons in daughter"
+  },
+  {
+   "id": "phy-nuc-isotopes-isobars-isotones",
+   "chapter": "Nuclei",
+   "name": "Isotopes, isobars, isotones",
+   "desc": "Classify nuclide pairs, incl. after a decay chain"
+  },
+  {
+   "id": "phy-nuc-beta-decay-concepts",
+   "chapter": "Nuclei",
+   "name": "Nature of radioactive emissions",
+   "desc": "β decay origin (neutron → proton + e + antineutrino), which radiation is deflected by fields"
+  },
+  {
+   "id": "phy-nuc-binding-energy-calc",
+   "chapter": "Nuclei",
+   "name": "Binding energy and Q value calculations",
+   "desc": "BE from mass defect, BE per nucleon, energy released in fusion/fission from BE per nucleon"
+  },
+  {
+   "id": "phy-nuc-be-curve-fission-fusion",
+   "chapter": "Nuclei",
+   "name": "BE curve, stability, fission and fusion",
+   "desc": "Use BE/A curve to decide energy-releasing reactions, BE/A change after α emission, packing fraction statements"
+  },
+  {
+   "id": "phy-nuc-mass-energy",
+   "chapter": "Nuclei",
+   "name": "Mass-energy equivalence",
+   "desc": "E = mc^2: energy from annihilated mass, fuel consumed by a reactor of given power"
+  },
+  {
+   "id": "phy-nuc-nuclear-force",
+   "chapter": "Nuclei",
+   "name": "Nuclear force",
+   "desc": "Charge independence, short range, comparison with Coulomb force, PE vs separation curve"
+  },
+  {
+   "id": "phy-nuc-nuclear-radius",
+   "chapter": "Nuclei",
+   "name": "Nuclear size",
+   "desc": "R = R0 A^(1/3): radius, volume/surface ratio"
+  },
+  {
+   "id": "phy-nuc-recoil-momentum",
+   "chapter": "Nuclei",
+   "name": "Recoil in nuclear decay",
+   "desc": "Momentum conservation: daughter recoil speed, KE of α from Q value, fragments with radius ratio, recoil from γ emission"
+  },
+  {
+   "id": "phy-nuc-reactor-moderator",
+   "chapter": "Nuclei",
+   "name": "Nuclear reactor: moderators",
+   "desc": "Role of moderator, why heavy nuclei are not used"
+  },
+  {
+   "id": "phy-nuc-stellar-fusion",
+   "chapter": "Nuclei",
+   "name": "Fusion in stars",
+   "desc": "Catalyst in the CNO cycle"
+  },
+  {
+   "id": "phy-nuc-quarks",
+   "chapter": "Nuclei",
+   "name": "Quark composition",
+   "desc": "Which particles are (not) made of quarks"
+  },
+  {
+   "id": "phy-sc-logic-gate-combinations",
+   "chapter": "Semiconductor Electronics",
+   "name": "Combinations of logic gates",
+   "desc": "Output/truth table of a gate network; identify the equivalent single gate; latch circuits of NAND/NOR"
+  },
+  {
+   "id": "phy-sc-truth-table-gate",
+   "chapter": "Semiconductor Electronics",
+   "name": "Basic gates and Boolean values",
+   "desc": "Identify gate from a truth table, universal gates, evaluate Boolean expression"
+  },
+  {
+   "id": "phy-sc-transistor-alpha-beta",
+   "chapter": "Semiconductor Electronics",
+   "name": "Transistor current gains",
+   "desc": "β = α/(1-α), β from ΔIc/ΔIb, base current/voltage in CE circuit"
+  },
+  {
+   "id": "phy-sc-transistor-amplifier-concepts",
+   "chapter": "Semiconductor Electronics",
+   "name": "Transistor structure and CE amplifier",
+   "desc": "Biasing in amplifier mode, input across base-emitter, characteristics, doping/size of regions, frequency response, tuned circuit frequency"
+  },
+  {
+   "id": "phy-sc-band-gap-wavelength",
+   "chapter": "Semiconductor Electronics",
+   "name": "Band gap and photon wavelength",
+   "desc": "λ = hc/Eg: LED wavelength/momentum, max wavelength creating pairs, which photodiode detects a wavelength"
+  },
+  {
+   "id": "phy-sc-energy-bands-materials",
+   "chapter": "Semiconductor Electronics",
+   "name": "Energy bands and conductivity of materials",
+   "desc": "Band gaps of Ge/metals, overlapping bands, resistivity ranges, temperature effect on semiconductor vs metal"
+  },
+  {
+   "id": "phy-sc-doping-carriers",
+   "chapter": "Semiconductor Electronics",
+   "name": "Doping and charge carriers",
+   "desc": "p/n-type dopants, donor levels, neutrality of n-type, holes, mass-action law n_e n_h = n_i^2"
+  },
+  {
+   "id": "phy-sc-pn-junction-biasing",
+   "chapter": "Semiconductor Electronics",
+   "name": "p-n junction and biasing",
+   "desc": "Depletion region, forward/reverse bias identification, current carriers, true/false on junction behaviour"
+  },
+  {
+   "id": "phy-sc-diode-circuits",
+   "chapter": "Semiconductor Electronics",
+   "name": "Diode circuits",
+   "desc": "Current/voltage in circuits with ideal or real diodes (barrier potential), opposing diodes, peak detector"
+  },
+  {
+   "id": "phy-sc-rectifier-power-supply",
+   "chapter": "Semiconductor Electronics",
+   "name": "Rectifiers and DC power supply",
+   "desc": "Order rectifier-filter-regulator; conduction of diodes in a full-wave rectifier"
+  },
+  {
+   "id": "phy-sc-special-diodes",
+   "chapter": "Semiconductor Electronics",
+   "name": "Zener, photodiode, LED",
+   "desc": "Uses and operating bias of special-purpose diodes"
+  },
+  {
+   "id": "phy-old-astro-flash-spectrum",
+   "chapter": "Old syllabus: Astronomy (flash spectrum)",
+   "name": "Flash spectrum",
+   "desc": "Flash spectrum observed during a total solar eclipse"
+  },
+  {
+   "id": "phy-old-astro-stellar-magnitudes",
+   "chapter": "Old syllabus: Astronomy (stellar magnitudes)",
+   "name": "Stellar magnitudes",
+   "desc": "Magnitude scale of stars (faintest visible = sixth magnitude)"
+  },
+  {
+   "id": "phy-old-colloids-types",
+   "chapter": "Old syllabus: Colloids",
+   "name": "Types of colloids",
+   "desc": "Classify colloids by dispersed phase and medium (emulsions, gels, foams)"
+  },
+  {
+   "id": "phy-old-comm-modulation-blocks",
+   "chapter": "Old syllabus: Communication Systems",
+   "name": "Modulation and communication system blocks",
+   "desc": "AM sidebands, definition of modulation, order of blocks in a communication system"
+  },
+  {
+   "id": "phy-old-comm-propagation-antenna",
+   "chapter": "Old syllabus: Communication Systems",
+   "name": "Wave propagation and antennas",
+   "desc": "Space/sky waves, ionospheric reflection as TIR, antenna range sqrt(2Rh), antenna size λ/4"
+  },
+  {
+   "id": "phy-old-particles-baryons",
+   "chapter": "Old syllabus: Elementary Particles",
+   "name": "Baryons",
+   "desc": "Stability of baryons (proton)"
+  },
+  {
+   "id": "phy-old-lasers-ruby",
+   "chapter": "Old syllabus: Lasers",
+   "name": "Ruby laser",
+   "desc": "Metastable-state transition and chromium ions in a ruby laser"
+  },
+  {
+   "id": "phy-old-nmr-proton-flip",
+   "chapter": "Old syllabus: Nuclear Magnetic Resonance",
+   "name": "Nuclear magnetic resonance",
+   "desc": "Proton spin flip phenomenon"
+  },
+  {
+   "id": "phy-old-quark-hadrons",
+   "chapter": "Old syllabus: Quark Model",
+   "name": "Quark model of hadrons",
+   "desc": "Building hadrons from quarks and antiquarks"
+  },
+  {
+   "id": "phy-old-scattering-rayleigh",
+   "chapter": "Old syllabus: Scattering of Light",
+   "name": "Rayleigh scattering ratio",
+   "desc": "Scattered intensity ∝ ν^4 for given frequency ratio"
+  }
+ ]
+}

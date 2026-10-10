@@ -1,0 +1,1853 @@
+{
+ "subject": "chemistry",
+ "templates": [
+  {
+   "id": "che-alc-lucas-test",
+   "chapter": "Alcohols, Phenols and Ethers",
+   "name": "Lucas test / reactivity of 1-2-3 alcohols",
+   "desc": "Identify Lucas test use or which alcohol gives immediate turbidity (3\u00b0 > 2\u00b0 > 1\u00b0 via carbocation stability)"
+  },
+  {
+   "id": "che-alc-to-alkyl-halide",
+   "chapter": "Alcohols, Phenols and Ethers",
+   "name": "Alcohol to alkyl halide",
+   "desc": "Best reagent (SOCl2/pyridine, HX, PX3) or product of converting an alcohol to a haloalkane"
+  },
+  {
+   "id": "che-alc-oxidation-identify",
+   "chapter": "Alcohols, Phenols and Ethers",
+   "name": "Identify alcohol from oxidation product",
+   "desc": "Deduce 1\u00b0/2\u00b0 alcohol from what its oxidation product gives (2,4-DNP, Tollens, mass +14)"
+  },
+  {
+   "id": "che-alc-pcc-oxidation-reagent",
+   "chapter": "Alcohols, Phenols and Ethers",
+   "name": "Reagent for 1\u00b0 alcohol to aldehyde (PCC)",
+   "desc": "Choose PCC/anhydrous CrO3 for selective oxidation; what PCC is; hybridisation change in oxidation"
+  },
+  {
+   "id": "che-alc-nitrophenol-hbond",
+   "chapter": "Alcohols, Phenols and Ethers",
+   "name": "o- vs p-nitrophenol H-bonding",
+   "desc": "Intramolecular H-bond in o-nitrophenol/salicylaldehyde makes it more volatile than para isomer"
+  },
+  {
+   "id": "che-alc-ether-hi-cleavage",
+   "chapter": "Alcohols, Phenols and Ethers",
+   "name": "Cleavage of ethers by HI",
+   "desc": "Products of ether + HI (SN1 for tert-alkyl gives tert-alkyl iodide; aryl ethers give phenol + CH3I)"
+  },
+  {
+   "id": "che-alc-phenol-bromination",
+   "chapter": "Alcohols, Phenols and Ethers",
+   "name": "Bromination of phenol",
+   "desc": "Bromine water gives 2,4,6-tribromophenol; solvent decides mono vs tri substitution"
+  },
+  {
+   "id": "che-alc-distinguish-tests",
+   "chapter": "Alcohols, Phenols and Ethers",
+   "name": "Distinguishing phenol and alcohol",
+   "desc": "Reagent to distinguish phenol from alcohol (bromine water/FeCl3) or test acidity of ethanol (Na metal)"
+  },
+  {
+   "id": "che-alc-multistep-alkene-alcohol",
+   "chapter": "Alcohols, Phenols and Ethers",
+   "name": "Multistep alkene/alcohol/halide conversions",
+   "desc": "Follow sequences using H2SO4, PCl5/PBr3, alc. KOH, HBr/peroxide to identify reagents or products"
+  },
+  {
+   "id": "che-alc-cumene-process",
+   "chapter": "Alcohols, Phenols and Ethers",
+   "name": "Cumene process for phenol",
+   "desc": "Benzene + propene -> cumene -> hydroperoxide -> phenol + acetone (and follow-up of acetone)"
+  },
+  {
+   "id": "che-alc-acidity-order",
+   "chapter": "Alcohols, Phenols and Ethers",
+   "name": "Acidity order of phenols and alcohols",
+   "desc": "Rank acidity/pKa of substituted phenols and alcohols (EWG increase, EDG decrease) or basicity of alkoxides"
+  },
+  {
+   "id": "che-alc-identify-from-formula",
+   "chapter": "Alcohols, Phenols and Ethers",
+   "name": "Identify alcohol/phenol from formula and tests",
+   "desc": "Use % composition/formula plus NaOH, FeCl3, Br2 water behaviour to identify compound or its isomer (e.g. C7H8O = m-cresol)"
+  },
+  {
+   "id": "che-alc-grignard-active-hydrogen",
+   "chapter": "Alcohols, Phenols and Ethers",
+   "name": "Alcohol structure from Grignard alkane evolved",
+   "desc": "Moles of CH4/C2H6 from RMgX give molar mass of alcohol; PCC/Tollens test fixes 1\u00b0 structure"
+  },
+  {
+   "id": "che-alc-grignard-hydroboration-sequence",
+   "chapter": "Alcohols, Phenols and Ethers",
+   "name": "Alcohols via Grignard and hydroboration",
+   "desc": "Product/IUPAC name or isomer relation after Grignard addition, dehydration, hydroboration-oxidation"
+  },
+  {
+   "id": "che-alc-commercial-alcohols",
+   "chapter": "Alcohols, Phenols and Ethers",
+   "name": "Commercial alcohols",
+   "desc": "Composition of power alcohol and similar industrial alcohol facts"
+  },
+  {
+   "id": "che-alc-phenol-named-reactions",
+   "chapter": "Alcohols, Phenols and Ethers",
+   "name": "Named reactions of phenol",
+   "desc": "Kolbe, Reimer-Tiemann, Schotten-Baumann/aspirin: reagents, electrophile, product"
+  },
+  {
+   "id": "che-alc-dehydration-conditions",
+   "chapter": "Alcohols, Phenols and Ethers",
+   "name": "Dehydration of alcohols: ether vs alkene",
+   "desc": "Product of H2SO4/H3PO4/Cu on alcohols depending on temperature (413 K ether, 443 K alkene) and alcohol type"
+  },
+  {
+   "id": "che-alc-ether-williamson-naming",
+   "chapter": "Alcohols, Phenols and Ethers",
+   "name": "Williamson synthesis and ether nomenclature",
+   "desc": "Which halide/alkoxide pair gives ether (avoid 3\u00b0 halide, vinyl halide); IUPAC name of ether"
+  },
+  {
+   "id": "che-alc-polyhydric-glycerol",
+   "chapter": "Alcohols, Phenols and Ethers",
+   "name": "Glycerol and polyhydric alcohols",
+   "desc": "Structure (1\u00b0/2\u00b0 OH count) and properties such as viscosity of glycerol/glycol"
+  },
+  {
+   "id": "che-ald-aldol-condensation",
+   "chapter": "Aldehydes, Ketones and Carboxylic Acids",
+   "name": "Aldol and cross-aldol condensation",
+   "desc": "Product of dil. NaOH on carbonyls with alpha-H (aldol, crotonaldehyde, cinnamaldehyde, chalcone) and which carbonyl cannot undergo aldol"
+  },
+  {
+   "id": "che-ald-dry-distillation-ca-salts",
+   "chapter": "Aldehydes, Ketones and Carboxylic Acids",
+   "name": "Dry distillation of calcium salts",
+   "desc": "Which carbonyl forms (or not) on dry distilling calcium formate/acetate/benzoate mixtures"
+  },
+  {
+   "id": "che-ald-methyl-salicylate",
+   "chapter": "Aldehydes, Ketones and Carboxylic Acids",
+   "name": "Oil of wintergreen",
+   "desc": "Esterification of salicylic acid with methanol; nature of methyl salicylate"
+  },
+  {
+   "id": "che-ald-acid-strength-effects",
+   "chapter": "Aldehydes, Ketones and Carboxylic Acids",
+   "name": "Acid strength of carboxylic acids",
+   "desc": "Rank or explain acidity of substituted acids (-I of halogens, +I of alkyl, ortho effect, resonance of carboxylate, active methylene)"
+  },
+  {
+   "id": "che-ald-distinguishing-tests",
+   "chapter": "Aldehydes, Ketones and Carboxylic Acids",
+   "name": "Distinguishing tests for carbonyls and acids",
+   "desc": "Pick reagent (Tollens, Fehling, iodoform, 2,4-DNP) to distinguish two carbonyl compounds or acids, or identify from test results"
+  },
+  {
+   "id": "che-ald-cannizzaro",
+   "chapter": "Aldehydes, Ketones and Carboxylic Acids",
+   "name": "Cannizzaro reaction",
+   "desc": "Mechanism (hydride transfer), scope (no alpha-H) and products of Cannizzaro reaction"
+  },
+  {
+   "id": "che-ald-iupac-isomers",
+   "chapter": "Aldehydes, Ketones and Carboxylic Acids",
+   "name": "Nomenclature and isomerism of carbonyl compounds",
+   "desc": "IUPAC name of an aldehyde/ketone/acid or type of isomerism between carbonyl compounds"
+  },
+  {
+   "id": "che-ald-multistep-sequence",
+   "chapter": "Aldehydes, Ketones and Carboxylic Acids",
+   "name": "Multistep sequences to carbonyls and acids",
+   "desc": "Identify products/reagents in chains with Grignard, Friedel-Crafts acylation, HCN, hydration of alkynes, Stephen reduction"
+  },
+  {
+   "id": "che-ald-preparation-methods",
+   "chapter": "Aldehydes, Ketones and Carboxylic Acids",
+   "name": "Preparation of aldehydes and ketones",
+   "desc": "Etard, Gatterman-Koch, Rosenmund, DIBAL-H, Friedel-Crafts: which route works or fails to give a given carbonyl"
+  },
+  {
+   "id": "che-ald-named-reactions-match",
+   "chapter": "Aldehydes, Ketones and Carboxylic Acids",
+   "name": "Match named reactions of carbonyls/acids",
+   "desc": "Match reactants with Stephen, HVZ, Kolbe, Friedel-Crafts, Cannizzaro etc."
+  },
+  {
+   "id": "che-ald-haloform",
+   "chapter": "Aldehydes, Ketones and Carboxylic Acids",
+   "name": "Iodoform/haloform reaction",
+   "desc": "Which compounds give iodoform (CH3CO- or CH3CH(OH)-) and use of I2/NaOH to convert methyl ketones to acids"
+  },
+  {
+   "id": "che-ald-nucleophilic-addition",
+   "chapter": "Aldehydes, Ketones and Carboxylic Acids",
+   "name": "Nucleophilic addition to carbonyls",
+   "desc": "Mechanism type and reactivity order of carbonyls; products with HCN, NH2OH, amines, alcohols (cyanohydrin, oxime, Schiff base, acetal)"
+  },
+  {
+   "id": "che-ald-oxidation-identify",
+   "chapter": "Aldehydes, Ketones and Carboxylic Acids",
+   "name": "Identify alcohol from oxidation product tests",
+   "desc": "Compound whose oxidation product gives 2,4-DNP positive but Tollens negative (secondary alcohol)"
+  },
+  {
+   "id": "che-ald-reduction-reagents",
+   "chapter": "Aldehydes, Ketones and Carboxylic Acids",
+   "name": "Reduction of carbonyls and acids",
+   "desc": "Choose reagent: Clemmensen vs Wolff-Kishner, NaBH4 vs H2/Pd selectivity, LiAlH4 for acids"
+  },
+  {
+   "id": "che-ald-physical-properties",
+   "chapter": "Aldehydes, Ketones and Carboxylic Acids",
+   "name": "Physical properties of carboxylic acids",
+   "desc": "Water solubility/boiling point explained by H-bonding"
+  },
+  {
+   "id": "che-ald-carboxylic-acid-reactions",
+   "chapter": "Aldehydes, Ketones and Carboxylic Acids",
+   "name": "Reactions of carboxylic acids",
+   "desc": "Formic acid with H2SO4, HVZ need for alpha-H, decarboxylation with soda lime, Kolbe electrolysis"
+  },
+  {
+   "id": "che-amn-basicity-order",
+   "chapter": "Amines",
+   "name": "Basic strength of amines",
+   "desc": "Rank/explain basicity of aliphatic amines in water (inductive, solvation, steric) and aryl vs benzyl amines"
+  },
+  {
+   "id": "che-amn-diazonium-conversion-sequence",
+   "chapter": "Amines",
+   "name": "Aromatic conversions via diazonium salts",
+   "desc": "Order of nitration/reduction/diazotisation/hydrolysis or Sandmeyer/Balz-Schiemann steps to reach a target arene"
+  },
+  {
+   "id": "che-amn-hofmann-bromamide",
+   "chapter": "Amines",
+   "name": "Hofmann bromamide degradation",
+   "desc": "Amide + Br2/KOH gives amine with one carbon less; which amide cannot react; sequences ending in it"
+  },
+  {
+   "id": "che-amn-nitrous-acid-identify",
+   "chapter": "Amines",
+   "name": "Identify amine from nitrous acid reaction",
+   "desc": "Amine giving alcohol + N2 with HNO2; count isomers or work back from product"
+  },
+  {
+   "id": "che-amn-preparation-methods",
+   "chapter": "Amines",
+   "name": "Preparation of amines",
+   "desc": "Gabriel synthesis, ammonolysis, reduction of nitriles/isocyanides/amides: which reagent/route works and the product"
+  },
+  {
+   "id": "che-amn-carbylamine-hinsberg-tests",
+   "chapter": "Amines",
+   "name": "Carbylamine and Hinsberg tests",
+   "desc": "Distinguish 1\u00b0/2\u00b0/3\u00b0 amines: isocyanide test, Hinsberg reagent, reagents to differentiate amines"
+  },
+  {
+   "id": "che-amn-diazonium-stability-coupling",
+   "chapter": "Amines",
+   "name": "Diazonium salt stability and azo coupling",
+   "desc": "Why aryl diazonium salts are stable; coupling with phenol/aniline to give azo dyes; uses of diazonium salts"
+  },
+  {
+   "id": "che-amn-physical-properties",
+   "chapter": "Amines",
+   "name": "Physical properties of amines",
+   "desc": "Solubility and boiling point of amines vs alcohols, ethers, acids"
+  },
+  {
+   "id": "che-amn-aniline-electrophilic-substitution",
+   "chapter": "Amines",
+   "name": "Electrophilic substitution of aniline",
+   "desc": "Meta product on nitration (anilinium ion), no Friedel-Crafts, bromination behaviour"
+  },
+  {
+   "id": "che-amn-classification",
+   "chapter": "Amines",
+   "name": "Classification of amines",
+   "desc": "Define 1\u00b0/2\u00b0/3\u00b0 amines; amino group type in biologically active amines"
+  },
+  {
+   "id": "che-bio-oils-fats",
+   "chapter": "Biomolecules",
+   "name": "Oils and fats",
+   "desc": "Iodine value/unsaturation of oils, why oils are liquid, refining/rancidity/saponification facts"
+  },
+  {
+   "id": "che-bio-vitamins-deficiency",
+   "chapter": "Biomolecules",
+   "name": "Vitamins and deficiency diseases",
+   "desc": "Match vitamins to sources/deficiency diseases; fat- vs water-soluble storage"
+  },
+  {
+   "id": "che-bio-hormones",
+   "chapter": "Biomolecules",
+   "name": "Hormones",
+   "desc": "Identify hormone by function or composition (thyroxine from tyrosine, estradiol, insulin)"
+  },
+  {
+   "id": "che-bio-amino-acids",
+   "chapter": "Biomolecules",
+   "name": "Amino acids and zwitterions",
+   "desc": "Form of amino acid in alkaline/acidic medium, essential amino acids, chirality and amphoteric nature"
+  },
+  {
+   "id": "che-bio-peptides-proteins",
+   "chapter": "Biomolecules",
+   "name": "Peptides and proteins",
+   "desc": "Count possible peptides, disulphide links in insulin, protein molar mass from amino acid %, solubility of fibrous proteins"
+  },
+  {
+   "id": "che-bio-glucose-structure-reactions",
+   "chapter": "Biomolecules",
+   "name": "Glucose structure and reactions",
+   "desc": "Meaning of D-, reactions of glucose with HI, Br2 water, HCN, acetic anhydride and what they prove; glucose in diet"
+  },
+  {
+   "id": "che-bio-glycosidic-linkages",
+   "chapter": "Biomolecules",
+   "name": "Glycosidic linkages in di/polysaccharides",
+   "desc": "Which units and C1-C4/C1-C2/C1-C6, alpha/beta links occur in maltose, sucrose, lactose, starch, glycogen"
+  },
+  {
+   "id": "che-bio-reducing-sugars-inversion",
+   "chapter": "Biomolecules",
+   "name": "Reducing sugars and invert sugar",
+   "desc": "Why sucrose is non-reducing; Fehling/Tollens positive sugars; inversion of sucrose rotation"
+  },
+  {
+   "id": "che-bio-anomers",
+   "chapter": "Biomolecules",
+   "name": "Anomers of glucose",
+   "desc": "alpha and beta D-glucopyranose are anomers"
+  },
+  {
+   "id": "che-bio-nucleic-acids",
+   "chapter": "Biomolecules",
+   "name": "Nucleic acids",
+   "desc": "Bases in DNA/RNA, base pairing and complementary strand, nucleoside vs nucleotide, phosphodiester linkage, chirality from sugar"
+  },
+  {
+   "id": "che-bio-classification-match",
+   "chapter": "Biomolecules",
+   "name": "Classify biomolecules",
+   "desc": "Match or sequence examples of amino acid, hormone, vitamin, carbohydrate, enzyme, polymer"
+  },
+  {
+   "id": "che-bond-ionic-covalent-coordinate",
+   "chapter": "Chemical Bonding and Molecular Structure",
+   "name": "Compound with ionic, covalent and coordinate bonds",
+   "desc": "Pick species (NH4Cl, NaCN type) containing all three bond types"
+  },
+  {
+   "id": "che-bond-vsepr-shape-lone-pairs",
+   "chapter": "Chemical Bonding and Molecular Structure",
+   "name": "VSEPR shapes and lone pairs",
+   "desc": "Number of lone/bond pairs for a shape, molecules with identical shape, lone pairs on central atom"
+  },
+  {
+   "id": "che-bond-mot-bond-order",
+   "chapter": "Chemical Bonding and Molecular Structure",
+   "name": "MOT bond order and stability",
+   "desc": "Compare bond order, bond length and stability of O2/O2+/O2-/O2 2-, H2+/H2-, NO, CO; isoelectronic species"
+  },
+  {
+   "id": "che-bond-mot-magnetism-electrons",
+   "chapter": "Chemical Bonding and Molecular Structure",
+   "name": "MOT magnetic nature and electron count",
+   "desc": "Diamagnetic/paramagnetic species, antibonding electron count, sigma/pi content from MO configuration"
+  },
+  {
+   "id": "che-bond-hybridisation-change",
+   "chapter": "Chemical Bonding and Molecular Structure",
+   "name": "Change of hybridisation and shape in a conversion",
+   "desc": "Which conversion (BF3 to BF4-, AlCl3 to AlCl4-, NH3 to NH4+) changes hybridisation/geometry"
+  },
+  {
+   "id": "che-bond-hybridisation-identify",
+   "chapter": "Chemical Bonding and Molecular Structure",
+   "name": "Hybridisation and s/p character",
+   "desc": "State hybridisation of C or N in species (diamond, graphite, ethyne, CO2, NO2+, NO3-, NH4+) or % s/p character"
+  },
+  {
+   "id": "che-bond-orbital-overlap-sigma-pi",
+   "chapter": "Chemical Bonding and Molecular Structure",
+   "name": "Orbital overlap and sigma/pi count",
+   "desc": "Type of overlap forming bonds, px-py overlap, count sigma and pi bonds in a molecule"
+  },
+  {
+   "id": "che-bond-bond-length-order",
+   "chapter": "Chemical Bonding and Molecular Structure",
+   "name": "Bond length order",
+   "desc": "Order C-C or C-O bond lengths using bond order and resonance"
+  },
+  {
+   "id": "che-bond-type-properties",
+   "chapter": "Chemical Bonding and Molecular Structure",
+   "name": "Ionic vs covalent bonding properties",
+   "desc": "Properties of covalent compounds, electronegativity difference, true/false on bond strengths, formula from configurations"
+  },
+  {
+   "id": "che-bond-lewis-formal-charge-resonance",
+   "chapter": "Chemical Bonding and Molecular Structure",
+   "name": "Lewis structures, formal charge, resonance",
+   "desc": "Correct dot structure (N2O), formal charge on O3 central atom, resonance in carbonate"
+  },
+  {
+   "id": "che-bond-dipole-bond-angle",
+   "chapter": "Chemical Bonding and Molecular Structure",
+   "name": "Dipole moment and bond angle trends",
+   "desc": "Which molecule has net dipole; check orders of dipole moment, bond angle, H-bond strength"
+  },
+  {
+   "id": "che-bond-bond-enthalpy-calc",
+   "chapter": "Chemical Bonding and Molecular Structure",
+   "name": "Bond enthalpy calculation",
+   "desc": "Find a bond enthalpy from ratios and enthalpy of formation"
+  },
+  {
+   "id": "che-kin-order-from-rate-data",
+   "chapter": "Chemical Kinetics",
+   "name": "Order/rate law from initial-rate data",
+   "desc": "Compare rates at different concentrations to get order with respect to each reactant"
+  },
+  {
+   "id": "che-kin-zero-order-half-life",
+   "chapter": "Chemical Kinetics",
+   "name": "Zero-order half-life and completion time",
+   "desc": "t1/2 = a/2k and 100% completion time a/k for zero-order reactions"
+  },
+  {
+   "id": "che-kin-arrhenius-k-over-a",
+   "chapter": "Chemical Kinetics",
+   "name": "Ratio k/A from Ea",
+   "desc": "With Ea = 2.303RT etc. compute k/A = e^(-Ea/RT); A as k at infinite temperature"
+  },
+  {
+   "id": "che-kin-first-order-pressure",
+   "chapter": "Chemical Kinetics",
+   "name": "First-order kinetics from total pressure",
+   "desc": "Gas-phase first-order decomposition: get k or partial pressure from total pressure readings"
+  },
+  {
+   "id": "che-kin-homogeneous-catalysis",
+   "chapter": "Chemical Kinetics",
+   "name": "Homogeneous vs heterogeneous catalysis",
+   "desc": "Identify an example of homogeneous catalysis (lead chamber, acid hydrolysis of sucrose)"
+  },
+  {
+   "id": "che-kin-first-order-time-percent",
+   "chapter": "Chemical Kinetics",
+   "name": "First-order time for % completion",
+   "desc": "Use t = (2.303/k) log(a/(a-x)) or half-lives to relate times for different % completion or amount left"
+  },
+  {
+   "id": "che-kin-rate-from-k-and-conc",
+   "chapter": "Chemical Kinetics",
+   "name": "Rate from rate constant and concentration",
+   "desc": "Rate = k[A] at a given time/concentration for first-order reaction, or concentration from rate and k"
+  },
+  {
+   "id": "che-kin-arrhenius-ea-calc",
+   "chapter": "Chemical Kinetics",
+   "name": "Activation energy from Arrhenius data",
+   "desc": "Ea from k at two temperatures, slope of ln k vs 1/T, or temperature where two k's are equal"
+  },
+  {
+   "id": "che-kin-temperature-coefficient",
+   "chapter": "Chemical Kinetics",
+   "name": "Temperature coefficient",
+   "desc": "Rate increase = (coefficient)^(dT/10)"
+  },
+  {
+   "id": "che-kin-arrhenius-concepts",
+   "chapter": "Chemical Kinetics",
+   "name": "Temperature, catalyst and Arrhenius concepts",
+   "desc": "Why rate rises with T, role of catalyst on Ea, correct form of Arrhenius equation, factors in k = PZe^-Ea/RT"
+  },
+  {
+   "id": "che-kin-rate-change-concentration",
+   "chapter": "Chemical Kinetics",
+   "name": "Rate change on dilution/compression",
+   "desc": "Effect on rate of doubling concentration, halving volume or diluting reactants for a given rate law"
+  },
+  {
+   "id": "che-kin-stoichiometric-rate-relation",
+   "chapter": "Chemical Kinetics",
+   "name": "Rates of appearance/disappearance",
+   "desc": "Relate -d[A]/dt and d[B]/dt using stoichiometric coefficients; compute rate of formation"
+  },
+  {
+   "id": "che-kin-order-molecularity-concepts",
+   "chapter": "Chemical Kinetics",
+   "name": "Order vs molecularity concepts",
+   "desc": "Statements on molecularity, fractional order, pseudo-first-order rate constant, rarity of higher order"
+  },
+  {
+   "id": "che-kin-units-half-life-dependence",
+   "chapter": "Chemical Kinetics",
+   "name": "Units of k and half-life vs concentration",
+   "desc": "Unit of rate constant for an order; order from t1/2 dependence on initial concentration"
+  },
+  {
+   "id": "che-kin-ea-reverse-overall",
+   "chapter": "Chemical Kinetics",
+   "name": "Ea of reverse reaction and complex reactions",
+   "desc": "Ea(back) = Ea(fwd) - dH, with catalyst lowering both; overall Ea from stepwise rate constants"
+  },
+  {
+   "id": "che-kin-integrated-rate-plots",
+   "chapter": "Chemical Kinetics",
+   "name": "Graphs of integrated rate laws",
+   "desc": "Which plot (ln[R] vs t, log ratio vs t) applies to first-order reaction"
+  },
+  {
+   "id": "che-per-ionisation-energy-order",
+   "chapter": "Classification of Elements and Periodicity",
+   "name": "Ionisation enthalpy order and exceptions",
+   "desc": "Order first IE across a period/group with half-filled/filled exceptions (N>O, Be>B, Mg>Al)"
+  },
+  {
+   "id": "che-per-successive-ionisation",
+   "chapter": "Classification of Elements and Periodicity",
+   "name": "Successive ionisation enthalpies",
+   "desc": "Identify element/group from a big jump in successive IEs or highest 3rd IE"
+  },
+  {
+   "id": "che-per-oxide-nature",
+   "chapter": "Classification of Elements and Periodicity",
+   "name": "Acidic/basic/amphoteric oxides",
+   "desc": "Nature of oxide from position/configuration; pick amphoteric oxides (BeO, ZnO, Al2O3, SnO2)"
+  },
+  {
+   "id": "che-per-group-trends-statements",
+   "chapter": "Classification of Elements and Periodicity",
+   "name": "Group trends of properties",
+   "desc": "Check trend statements for alkali metals or group 13 (IE, density, Lewis acidity, inert pair)"
+  },
+  {
+   "id": "che-per-electronegativity-order",
+   "chapter": "Classification of Elements and Periodicity",
+   "name": "Electronegativity order",
+   "desc": "Arrange electronegativities of N, O, F, P, C, Si"
+  },
+  {
+   "id": "che-per-ionic-radius-isoelectronic",
+   "chapter": "Classification of Elements and Periodicity",
+   "name": "Ionic radii and isoelectronic species",
+   "desc": "Identify isoelectronic sets and order radii of ions (more negative charge = larger)"
+  },
+  {
+   "id": "che-per-position-configuration",
+   "chapter": "Classification of Elements and Periodicity",
+   "name": "Position in periodic table from configuration",
+   "desc": "Group/period/block of an element from atomic number or outer configuration; Dobereiner triads"
+  },
+  {
+   "id": "che-coord-iupac-naming",
+   "chapter": "Coordination Compounds",
+   "name": "IUPAC naming of complexes",
+   "desc": "Give the IUPAC name for a complex formula (or formula for a name; pick wrong name-formula pair): ligand order, -ato endings, oxidation state"
+  },
+  {
+   "id": "che-coord-oxidation-state-cn-ean",
+   "chapter": "Coordination Compounds",
+   "name": "Oxidation state, coordination number, EAN",
+   "desc": "Find oxidation state/coordination number/secondary valency of central metal or its EAN"
+  },
+  {
+   "id": "che-coord-ions-agno3-precipitate",
+   "chapter": "Coordination Compounds",
+   "name": "Ionisation of complexes and AgCl precipitation",
+   "desc": "Number of ions produced, electrolyte type, or moles/grams of AgCl precipitated to deduce complex formula"
+  },
+  {
+   "id": "che-coord-vbt-hybridisation-geometry",
+   "chapter": "Coordination Compounds",
+   "name": "VBT: hybridisation, geometry, spin",
+   "desc": "Hybridisation (d2sp3/sp3d2/sp3/dsp2), geometry and inner/outer orbital or high/low spin of given complexes"
+  },
+  {
+   "id": "che-coord-spin-only-moment",
+   "chapter": "Coordination Compounds",
+   "name": "Spin-only magnetic moment and unpaired electrons",
+   "desc": "Unpaired electrons and mu = sqrt(n(n+2)) for an ion or d^n configuration (high/low spin)"
+  },
+  {
+   "id": "che-coord-ligand-types",
+   "chapter": "Coordination Compounds",
+   "name": "Ligand types and definitions",
+   "desc": "Ligand as Lewis base, bidentate/ambidentate/chelating ligands, homoleptic complexes"
+  },
+  {
+   "id": "che-coord-stereoisomer-count",
+   "chapter": "Coordination Compounds",
+   "name": "Geometrical/optical isomer count",
+   "desc": "Which complex type shows geometrical isomerism and how many stereoisomers [M(en)2Cl2], MABCD etc. have"
+  },
+  {
+   "id": "che-coord-structural-isomerism",
+   "chapter": "Coordination Compounds",
+   "name": "Structural isomerism of complexes",
+   "desc": "Identify linkage, ionisation, coordination or hydrate isomers"
+  },
+  {
+   "id": "che-coord-cft-splitting-concepts",
+   "chapter": "Coordination Compounds",
+   "name": "Crystal field splitting concepts",
+   "desc": "CFT nature of M-L bond, eg/t2g energies in octahedral field, delta_t = 4/9 delta_o"
+  },
+  {
+   "id": "che-coord-spectrochemical-series",
+   "chapter": "Coordination Compounds",
+   "name": "Spectrochemical series and colour",
+   "desc": "Ligand field strength order, complex with min/max delta_o, wavelengths absorbed as ligands change"
+  },
+  {
+   "id": "che-coord-complex-formation-ions",
+   "chapter": "Coordination Compounds",
+   "name": "Complex formation with NaOH and NH3",
+   "desc": "Which metal ions form complexes with aqueous NaOH and/or ammonia"
+  },
+  {
+   "id": "che-coord-stability-carbonyl-bonding",
+   "chapter": "Coordination Compounds",
+   "name": "Stability of complexes and metal carbonyl bonding",
+   "desc": "Most stable complex (chelate/strong field); synergic sigma/pi bonding in metal carbonyls"
+  },
+  {
+   "id": "che-elec-faraday-mass-volume",
+   "chapter": "Electrochemistry",
+   "name": "Faraday's law: mass/volume/time in electrolysis",
+   "desc": "Use Q = It and moles e- to find mass deposited, gas volume, time, current or concentration electrolysed"
+  },
+  {
+   "id": "che-elec-charge-for-redox-change",
+   "chapter": "Electrochemistry",
+   "name": "Charge (Faradays) for a redox change",
+   "desc": "Faradays/coulombs to reduce MnO4-, Cr2O7 2-, oxidise water, or deposit 1 mol M^n+"
+  },
+  {
+   "id": "che-elec-standard-emf",
+   "chapter": "Electrochemistry",
+   "name": "Standard emf from electrode potentials",
+   "desc": "E0cell = E0cathode - E0anode; combining half-cell potentials for a new couple"
+  },
+  {
+   "id": "che-elec-conductance-dilution",
+   "chapter": "Electrochemistry",
+   "name": "Variation of conductance with dilution",
+   "desc": "Which of specific/molar conductance decreases with dilution; max molar conductivity; factors affecting conductance"
+  },
+  {
+   "id": "che-elec-debye-huckel-onsager",
+   "chapter": "Electrochemistry",
+   "name": "Debye-Huckel-Onsager constant A",
+   "desc": "Electrolytes of same charge type have same A in lambda = lambda0 - A sqrt(C)"
+  },
+  {
+   "id": "che-elec-conductivity-calc",
+   "chapter": "Electrochemistry",
+   "name": "Conductivity, molar conductivity, cell constant",
+   "desc": "Compute cell constant = kappa x R, or molar conductivity = 1000 kappa / C"
+  },
+  {
+   "id": "che-elec-conductance-applications",
+   "chapter": "Electrochemistry",
+   "name": "Applications of conductance: Ksp, alpha, pH",
+   "desc": "Use lambda/lambda0 to get degree of dissociation, pH of weak acid or solubility/Ksp"
+  },
+  {
+   "id": "che-elec-kohlrausch",
+   "chapter": "Electrochemistry",
+   "name": "Kohlrausch's law",
+   "desc": "Lambda0 of weak electrolyte from strong electrolyte values"
+  },
+  {
+   "id": "che-elec-emf-equilibrium-constant",
+   "chapter": "Electrochemistry",
+   "name": "E0cell and equilibrium constant",
+   "desc": "log K = nE0/0.059 at 298 K"
+  },
+  {
+   "id": "che-elec-gibbs-emf-spontaneity",
+   "chapter": "Electrochemistry",
+   "name": "Gibbs energy and emf",
+   "desc": "dG = -nFE; sign of dG/E for spontaneous cell; E0 of fuel cell from dG"
+  },
+  {
+   "id": "che-elec-nernst-concentration",
+   "chapter": "Electrochemistry",
+   "name": "Nernst equation: effect of concentration",
+   "desc": "Compare emfs/electrode potentials at different concentrations; pH from Nernst; effect of increasing ion concentration"
+  },
+  {
+   "id": "che-elec-batteries-fuel-cells",
+   "chapter": "Electrochemistry",
+   "name": "Batteries and fuel cells",
+   "desc": "Reactions in lead storage battery charging, H2-O2 fuel cell cathode reaction, catalysts, secondary cells"
+  },
+  {
+   "id": "che-elec-electrolysis-products",
+   "chapter": "Electrochemistry",
+   "name": "Products of electrolysis",
+   "desc": "Products at anode/cathode in electrolysis of brine, NaF, CuSO4 and pH change"
+  },
+  {
+   "id": "che-elec-galvanic-cell-conventions",
+   "chapter": "Electrochemistry",
+   "name": "Galvanic cell conventions",
+   "desc": "Anode/cathode signs, electron/current flow and spontaneity statements"
+  },
+  {
+   "id": "che-elec-electrochemical-series",
+   "chapter": "Electrochemistry",
+   "name": "Electrochemical series: oxidising/reducing power",
+   "desc": "Strongest reducing/oxidising agent from standard reduction potentials"
+  },
+  {
+   "id": "che-eqm-composition-calc",
+   "chapter": "Equilibrium",
+   "name": "Equilibrium composition and K calculation",
+   "desc": "ICE table: get K, equilibrium concentration/partial pressure or % unreacted from initial amounts and extent"
+  },
+  {
+   "id": "che-eqm-k-invariance",
+   "chapter": "Equilibrium",
+   "name": "K unchanged by catalyst or adding species",
+   "desc": "Equilibrium constant depends only on temperature, not on catalyst, concentration or pressure"
+  },
+  {
+   "id": "che-eqm-ph-strong-acid-base",
+   "chapter": "Equilibrium",
+   "name": "pH of strong acids/bases and their mixtures",
+   "desc": "pH after mixing/neutralising strong acids and bases, Na in water, which solution has pH 1 or highest pH"
+  },
+  {
+   "id": "che-eqm-ph-very-dilute",
+   "chapter": "Equilibrium",
+   "name": "pH of very dilute acid/base",
+   "desc": "Include water's 10^-7 M: pH of 10^-8 M HCl or diluted 10^-6 M NaOH stays near 7"
+  },
+  {
+   "id": "che-eqm-k-relations",
+   "chapter": "Equilibrium",
+   "name": "Relating K of manipulated equations",
+   "desc": "Reverse, multiply or halve an equation: K' = 1/K, K^n, sqrt(K)"
+  },
+  {
+   "id": "che-eqm-gibbs-k",
+   "chapter": "Equilibrium",
+   "name": "Gibbs energy and equilibrium constant",
+   "desc": "Negative dG0 means K > 1 (dG0 = -RT ln K)"
+  },
+  {
+   "id": "che-eqm-buffer-ph",
+   "chapter": "Equilibrium",
+   "name": "Buffer solutions",
+   "desc": "Henderson equation pH of acidic/basic buffers after adding salt; examples of buffers"
+  },
+  {
+   "id": "che-eqm-ksp-precipitation",
+   "chapter": "Equilibrium",
+   "name": "Selective precipitation using Ksp",
+   "desc": "Compare ionic product with Ksp to decide which salt precipitates first or at all"
+  },
+  {
+   "id": "che-eqm-common-ion-qualitative",
+   "chapter": "Equilibrium",
+   "name": "Common ion effect and qualitative analysis",
+   "desc": "Solubility in presence of common ion; role of HCl with H2S and NH4Cl with NH4OH in group analysis"
+  },
+  {
+   "id": "che-eqm-ksp-solubility-calc",
+   "chapter": "Equilibrium",
+   "name": "Solubility from Ksp",
+   "desc": "Solubility s from Ksp for AB/AB3 salts; change in ion concentration with Ksp fixed"
+  },
+  {
+   "id": "che-eqm-le-chatelier",
+   "chapter": "Equilibrium",
+   "name": "Le Chatelier's principle",
+   "desc": "Effect of temperature, pressure, concentration on yield for exo/endothermic gas reactions"
+  },
+  {
+   "id": "che-eqm-acid-base-concepts",
+   "chapter": "Equilibrium",
+   "name": "Bronsted/Lewis acids, conjugate pairs, Ka",
+   "desc": "Conjugate acid/base, Lewis vs Bronsted acids (BF3), conjugate base strength from Ka, pKa values"
+  },
+  {
+   "id": "che-eqm-salt-hydrolysis-ph",
+   "chapter": "Equilibrium",
+   "name": "Salt hydrolysis and pH of salts",
+   "desc": "pH of salt solutions (weak acid + weak base, oxyanion salts, NH3 in acids), species that cannot coexist"
+  },
+  {
+   "id": "che-eqm-kp-kc",
+   "chapter": "Equilibrium",
+   "name": "Kp and Kc relation",
+   "desc": "Kp = Kc(RT)^dn: find dn or convert Kp to Kc"
+  },
+  {
+   "id": "che-eqm-equilibrium-concepts",
+   "chapter": "Equilibrium",
+   "name": "Reaction quotient and equilibrium features",
+   "desc": "Direction from Qc vs Kc; characteristics of equilibrium state"
+  },
+  {
+   "id": "che-hal-iupac-classification",
+   "chapter": "Haloalkanes and Haloarenes",
+   "name": "Naming and classifying halides",
+   "desc": "IUPAC name of a haloalkane/haloalkene; classify as alkyl, allylic, benzylic, aryl halide"
+  },
+  {
+   "id": "che-hal-substitution-products",
+   "chapter": "Haloalkanes and Haloarenes",
+   "name": "Nucleophilic substitution products and reagents",
+   "desc": "Products with KCN vs AgCN, aq. NaOH, AgF etc.; which halide gives a given nitrile or carbonyl; reagents X/Y/Z"
+  },
+  {
+   "id": "che-hal-sn1-sn2-features",
+   "chapter": "Haloalkanes and Haloarenes",
+   "name": "SN1 vs SN2 features",
+   "desc": "Mechanism, rate law, solvent, steric hindrance, carbocation and true/false statements on SN1/SN2"
+  },
+  {
+   "id": "che-hal-sn-reactivity-order",
+   "chapter": "Haloalkanes and Haloarenes",
+   "name": "Reactivity order in SN1/SN2",
+   "desc": "Rank halides (benzylic, 1\u00b0/2\u00b0/3\u00b0) for SN1 or SN2 or solvolysis"
+  },
+  {
+   "id": "che-hal-stereochemistry",
+   "chapter": "Haloalkanes and Haloarenes",
+   "name": "Optical isomers and racemisation in halides",
+   "desc": "Count optical isomers; SN1 hydrolysis of chiral halide gives racemic product"
+  },
+  {
+   "id": "che-hal-wurtz-reaction",
+   "chapter": "Haloalkanes and Haloarenes",
+   "name": "Wurtz and Wurtz-Fittig reactions",
+   "desc": "Products of Na/dry ether coupling (including mixtures, intramolecular) or halides needed for a given alkane"
+  },
+  {
+   "id": "che-hal-haloarene-nucleophilic-substitution",
+   "chapter": "Haloalkanes and Haloarenes",
+   "name": "Nucleophilic substitution in haloarenes",
+   "desc": "Activation by ortho/para NO2 groups; which chloroarene hydrolyses most easily"
+  },
+  {
+   "id": "che-hal-grignard-reagents",
+   "chapter": "Haloalkanes and Haloarenes",
+   "name": "Grignard reagents from halides",
+   "desc": "Organometallic compounds; RMgX with water, D2O, amines gives alkane; count isomers of product"
+  },
+  {
+   "id": "che-hal-physical-properties-bond",
+   "chapter": "Haloalkanes and Haloarenes",
+   "name": "Physical properties and C-X bond",
+   "desc": "Boiling point order, polarity/solubility, C-Cl bond length/strength in alkyl vs aryl/allyl halides"
+  },
+  {
+   "id": "che-hal-elimination",
+   "chapter": "Haloalkanes and Haloarenes",
+   "name": "Dehydrohalogenation",
+   "desc": "Reactivity order of halides for elimination"
+  },
+  {
+   "id": "che-hal-multistep-sequence",
+   "chapter": "Haloalkanes and Haloarenes",
+   "name": "Multistep sequences from haloalkanes",
+   "desc": "KCN, hydrolysis, LiAlH4, HNO2 chains starting from alkyl halides"
+  },
+  {
+   "id": "che-hal-polyhalogen-compounds",
+   "chapter": "Haloalkanes and Haloarenes",
+   "name": "Polyhalogen compounds",
+   "desc": "Chloroform oxidation to phosgene and uses/hazards of polyhalogen compounds"
+  },
+  {
+   "id": "che-hal-hx-addition-alkenes",
+   "chapter": "Haloalkanes and Haloarenes",
+   "name": "Markovnikov and peroxide addition of HX",
+   "desc": "Products of HBr (with peroxide) and HI addition to propene"
+  },
+  {
+   "id": "che-hal-haloarene-prep-eas",
+   "chapter": "Haloalkanes and Haloarenes",
+   "name": "Haloarene preparation and electrophilic substitution",
+   "desc": "Routes to chlorobenzene; electrophilic halogenation of haloarenes"
+  },
+  {
+   "id": "che-hc-eas-electrophile-directing",
+   "chapter": "Hydrocarbons",
+   "name": "Electrophilic aromatic substitution: electrophile and directing effects",
+   "desc": "Electrophile in nitration/sulphonation/Friedel-Crafts, arenium intermediate, meta-directing NO2, reaction type"
+  },
+  {
+   "id": "che-hc-benzene-derivative-preparation",
+   "chapter": "Hydrocarbons",
+   "name": "Preparing benzene derivatives",
+   "desc": "Which reaction (Friedel-Crafts acylation, Wurtz-Fittig, halogenation) gives or cannot give a given arene product"
+  },
+  {
+   "id": "che-hc-benzene-structure-stability",
+   "chapter": "Hydrocarbons",
+   "name": "Structure and stability of benzene",
+   "desc": "C-C bond length, resonance energy, heat of hydrogenation, single monosubstituted product"
+  },
+  {
+   "id": "che-hc-aromaticity",
+   "chapter": "Hydrocarbons",
+   "name": "Aromaticity (Huckel rule)",
+   "desc": "Pick aromatic/non-aromatic species among rings and ions"
+  },
+  {
+   "id": "che-hc-cycloalkane-from-dihalide",
+   "chapter": "Hydrocarbons",
+   "name": "Cycloalkane by intramolecular Wurtz",
+   "desc": "Dihalide + Na gives cycloalkane: identify dihalide or ring formed"
+  },
+  {
+   "id": "che-hc-conformations",
+   "chapter": "Hydrocarbons",
+   "name": "Conformations of ethane and cyclohexane",
+   "desc": "Most/least stable conformations, torsional strain"
+  },
+  {
+   "id": "che-hc-gas-volume-stoichiometry",
+   "chapter": "Hydrocarbons",
+   "name": "Gas volume stoichiometry of hydrocarbons",
+   "desc": "Volume left after combustion, or ethane from Kolbe electrolysis of acetate"
+  },
+  {
+   "id": "che-hc-alkane-preparation",
+   "chapter": "Hydrocarbons",
+   "name": "Preparation of alkanes",
+   "desc": "Kolbe electrolysis, Wurtz, decarboxylation routes to alkanes"
+  },
+  {
+   "id": "che-hc-alkene-alkyne-additions",
+   "chapter": "Hydrocarbons",
+   "name": "Addition reactions of alkenes/alkynes",
+   "desc": "Ozonolysis to identify alkene, peroxide effect only with HBr, Hg2+ hydration of alkynes"
+  },
+  {
+   "id": "che-hc-isomer-count",
+   "chapter": "Hydrocarbons",
+   "name": "Isomers of hydrocarbons",
+   "desc": "Count chain/position isomers of alkanes/alkynes; which shows geometrical isomerism; non-isomer of hexane"
+  },
+  {
+   "id": "che-hc-alkyne-prep-reduction",
+   "chapter": "Hydrocarbons",
+   "name": "Alkyne preparation and reduction",
+   "desc": "Dehydrohalogenation to alkynes (NaNH2), Lindlar cis vs Na/NH3 trans reduction, acetylene to benzene sequence"
+  },
+  {
+   "id": "che-hc-acidity-radical-cbond",
+   "chapter": "Hydrocarbons",
+   "name": "Hydrocarbon acidity and C-H bond strength",
+   "desc": "Acidity order (ethyne > benzene > hexane), weakest C-H (benzylic), free-radical benzylic bromination"
+  },
+  {
+   "id": "che-hc-iupac-naming",
+   "chapter": "Hydrocarbons",
+   "name": "IUPAC naming of hydrocarbons",
+   "desc": "Name alkenes, enynes, and long-chain alkanes"
+  },
+  {
+   "id": "che-cel-food-additives",
+   "chapter": "Old syllabus: Chemistry in Everyday Life",
+   "name": "Food additives",
+   "desc": "Antioxidants (BHT, BHA), artificial sweeteners (saccharin) and their source"
+  },
+  {
+   "id": "che-cel-drug-classes",
+   "chapter": "Old syllabus: Chemistry in Everyday Life",
+   "name": "Classes of drugs",
+   "desc": "Identify tranquilizers, antihistamines, analgesics, bactericidal/bacteriostatic antibiotics; match drugs to use"
+  },
+  {
+   "id": "che-cel-soaps-detergents",
+   "chapter": "Old syllabus: Chemistry in Everyday Life",
+   "name": "Soaps and detergents",
+   "desc": "Cationic/anionic/non-ionic detergents, which precipitates in hard water"
+  },
+  {
+   "id": "che-cel-drug-target-interaction",
+   "chapter": "Old syllabus: Chemistry in Everyday Life",
+   "name": "Drug-target interaction",
+   "desc": "Enzymes, receptors, allosteric site, antagonists"
+  },
+  {
+   "id": "che-cel-misc-chemicals",
+   "chapter": "Old syllabus: Chemistry in Everyday Life",
+   "name": "Miscellaneous applied chemistry facts",
+   "desc": "Insecticides, current drug approvals, ozone/atmosphere statements"
+  },
+  {
+   "id": "che-env-pollutants",
+   "chapter": "Old syllabus: Environmental Chemistry",
+   "name": "Air and water pollutants",
+   "desc": "Smog components, greenhouse gases, eutrophication, CO and carboxyhaemoglobin"
+  },
+  {
+   "id": "che-env-water-hardness",
+   "chapter": "Old syllabus: Environmental Chemistry",
+   "name": "Hardness of water",
+   "desc": "Which methods remove permanent vs temporary hardness"
+  },
+  {
+   "id": "che-gppi-ore-concentration-leaching",
+   "chapter": "Old syllabus: General Principles and Processes of Isolation of Elements",
+   "name": "Ore concentration and leaching",
+   "desc": "Froth flotation ores, leaching of bauxite with NaOH and of Ag/Au with cyanide, impurities in ores"
+  },
+  {
+   "id": "che-gppi-ellingham-thermodynamics",
+   "chapter": "Old syllabus: General Principles and Processes of Isolation of Elements",
+   "name": "Thermodynamics of reduction (Ellingham)",
+   "desc": "Stability of oxides, why C reduces Fe2O3 above 983 K, oxide whose dG becomes more negative with T"
+  },
+  {
+   "id": "che-gppi-blast-furnace-iron",
+   "chapter": "Old syllabus: General Principles and Processes of Isolation of Elements",
+   "name": "Blast furnace extraction of iron",
+   "desc": "Temperature zones and main reactions in the blast furnace"
+  },
+  {
+   "id": "che-gppi-refining-methods",
+   "chapter": "Old syllabus: General Principles and Processes of Isolation of Elements",
+   "name": "Refining of metals",
+   "desc": "Electrolytic refining, zone refining (Ge/Si), van Arkel, vapour-phase refining; true/false on extraction"
+  },
+  {
+   "id": "che-gppi-parkes-distribution",
+   "chapter": "Old syllabus: General Principles and Processes of Isolation of Elements",
+   "name": "Distribution of silver in Parkes process",
+   "desc": "Percentage of Ag in zinc or lead layer using distribution ratio and volumes"
+  },
+  {
+   "id": "che-gppi-roasting-calcination",
+   "chapter": "Old syllabus: General Principles and Processes of Isolation of Elements",
+   "name": "Roasting, calcination and smelting",
+   "desc": "Identify operation (calcination of limestone), statements on roasting, composition of copper matte"
+  },
+  {
+   "id": "che-gppi-redox-extraction",
+   "chapter": "Old syllabus: General Principles and Processes of Isolation of Elements",
+   "name": "Extraction based on oxidation",
+   "desc": "Chlorine from brine by oxidation and similar redox principles"
+  },
+  {
+   "id": "che-gpie-extraction-cu-al",
+   "chapter": "Old syllabus: General Principles of Isolation of Elements",
+   "name": "Extraction of copper and aluminium",
+   "desc": "Principle of Bessemer copper extraction; role of cryolite in Al electrolysis"
+  },
+  {
+   "id": "che-gpm-extraction-principles",
+   "chapter": "Old syllabus: General Principles of Metallurgy",
+   "name": "Extraction principles",
+   "desc": "Self-reduction of copper, collectors in froth flotation"
+  },
+  {
+   "id": "che-gpm-related-chemistry",
+   "chapter": "Old syllabus: General Principles of Metallurgy",
+   "name": "Chemistry related to metallurgy",
+   "desc": "Amphoteric metal giving H2 with acid and base; SO2 from roasting with Cl2 gives SO2Cl2"
+  },
+  {
+   "id": "che-hyd-water-gas-fuel",
+   "chapter": "Old syllabus: Hydrogen",
+   "name": "Water gas and hydrogen as fuel",
+   "desc": "Composition of water gas, water-gas shift to isolate H2, merits/limits of H2 fuel"
+  },
+  {
+   "id": "che-hyd-hydrogen-peroxide",
+   "chapter": "Old syllabus: Hydrogen",
+   "name": "Hydrogen peroxide",
+   "desc": "H2O2 as oxidant and reductant; volume strength from % strength"
+  },
+  {
+   "id": "che-hyd-hydrides",
+   "chapter": "Old syllabus: Hydrogen",
+   "name": "Hydrides",
+   "desc": "Properties of ionic hydrides"
+  },
+  {
+   "id": "che-met-ellingham",
+   "chapter": "Old syllabus: Metallurgy",
+   "name": "Ellingham diagram for carbon",
+   "desc": "True/false on CO vs CO2 stability and reduction of Fe2O3 around 983 K"
+  },
+  {
+   "id": "che-met-froth-flotation",
+   "chapter": "Old syllabus: Metallurgy",
+   "name": "Froth flotation",
+   "desc": "Which ore (sulphide) is concentrated by froth flotation"
+  },
+  {
+   "id": "che-nuc-half-life",
+   "chapter": "Old syllabus: Nuclear Chemistry",
+   "name": "Radioactive half-life",
+   "desc": "Amount left after n half-lives"
+  },
+  {
+   "id": "che-poly-classification",
+   "chapter": "Old syllabus: Polymers",
+   "name": "Classification of polymers",
+   "desc": "Condensation vs addition, step vs chain growth, copolymer, polyamide/polyester, fibre (strongest forces), monomers that condense"
+  },
+  {
+   "id": "che-poly-monomers",
+   "chapter": "Old syllabus: Polymers",
+   "name": "Monomers of polymers",
+   "desc": "Identify monomer(s) of Buna-S, Orlon, Novolac, nylon-6, PVC, polystyrene etc.; match polymer to monomer"
+  },
+  {
+   "id": "che-poly-rubber",
+   "chapter": "Old syllabus: Polymers",
+   "name": "Natural and synthetic rubber",
+   "desc": "cis-1,4-polyisoprene, vulcanisation, Buna-S/neoprene statements"
+  },
+  {
+   "id": "che-poly-biodegradable",
+   "chapter": "Old syllabus: Polymers",
+   "name": "Biodegradable polymers",
+   "desc": "PHBV, nylon-2-nylon-6 and their monomers; which is not biodegradable"
+  },
+  {
+   "id": "che-poly-polythene-types",
+   "chapter": "Old syllabus: Polymers",
+   "name": "LDPE vs HDPE",
+   "desc": "Branched LDPE vs linear HDPE made with Ziegler-Natta catalyst"
+  },
+  {
+   "id": "che-qa-ion-tests",
+   "chapter": "Old syllabus: Qualitative Analysis",
+   "name": "Tests for cations and anions",
+   "desc": "Group reagent behaviour (Zn with NH4OH/H2S), salts reacting with dil/conc H2SO4, HCl gas from chlorides"
+  },
+  {
+   "id": "che-ss-formula-lattice-voids",
+   "chapter": "Old syllabus: Solid State",
+   "name": "Formula from lattice positions and voids",
+   "desc": "Empirical formula from atoms at corners/faces (with missing atoms) or ions filling fractions of tetrahedral/octahedral voids"
+  },
+  {
+   "id": "che-ss-solid-types-properties",
+   "chapter": "Old syllabus: Solid State",
+   "name": "Types of solids and properties",
+   "desc": "Molecular/covalent/ionic/metallic crystals with examples, amorphous solids, electrical conduction"
+  },
+  {
+   "id": "che-ss-unit-cell-contributions",
+   "chapter": "Old syllabus: Solid State",
+   "name": "Unit cell contributions and atom count",
+   "desc": "Share of corner/edge/face particle, number of unit cells sharing, atoms per unit cell"
+  },
+  {
+   "id": "che-ss-crystal-systems",
+   "chapter": "Old syllabus: Solid State",
+   "name": "Crystal systems",
+   "desc": "Identify crystal system from a, b, c and angles or example compound"
+  },
+  {
+   "id": "che-ss-edge-radius-density",
+   "chapter": "Old syllabus: Solid State",
+   "name": "Edge length, radius, density, packing",
+   "desc": "Relations r = a/2, sqrt3 a/4, a/(2sqrt2); unit-cell volume, density/molar mass formula, packing efficiency"
+  },
+  {
+   "id": "che-ss-defects",
+   "chapter": "Old syllabus: Solid State",
+   "name": "Point defects in solids",
+   "desc": "Schottky/Frenkel features, F-centres, non-stoichiometric oxides (fraction M3+ in M0.96O)"
+  },
+  {
+   "id": "che-ss-semiconductors",
+   "chapter": "Old syllabus: Solid State",
+   "name": "Doping and semiconductors",
+   "desc": "Group 13 dopant gives p-type, group 15 gives n-type"
+  },
+  {
+   "id": "che-som-kinetic-theory-speeds",
+   "chapter": "Old syllabus: States of Matter",
+   "name": "Kinetic theory and molecular speeds",
+   "desc": "rms speed from p and density or T and M, Maxwell distribution with T, energy of noble gas molecules"
+  },
+  {
+   "id": "che-som-graham-effusion",
+   "chapter": "Old syllabus: States of Matter",
+   "name": "Graham's law of effusion",
+   "desc": "Lighter gases escape faster: order of partial pressures left"
+  },
+  {
+   "id": "che-som-gas-laws",
+   "chapter": "Old syllabus: States of Matter",
+   "name": "Ideal gas laws",
+   "desc": "Combined gas law calculations, density of gas with p and T, least volume for equal masses, forms of Charles's law"
+  },
+  {
+   "id": "che-som-real-gases",
+   "chapter": "Old syllabus: States of Matter",
+   "name": "Real gases and critical phenomena",
+   "desc": "Compressibility factor, van der Waals corrections, critical temperature, Boyle point, liquid range"
+  },
+  {
+   "id": "che-surf-adsorption-thermodynamics",
+   "chapter": "Old syllabus: Surface Chemistry",
+   "name": "Thermodynamics and conditions of adsorption",
+   "desc": "Signs of dG, dH, dS for adsorption; physisorption favoured by low T, high P, easily liquefiable gases"
+  },
+  {
+   "id": "che-surf-coagulation-phenomena",
+   "chapter": "Old syllabus: Surface Chemistry",
+   "name": "Coagulation in daily phenomena",
+   "desc": "Which process does/does not involve coagulation (delta formation, alum, FeCl3 on blood vs peptization)"
+  },
+  {
+   "id": "che-surf-hardy-schulze",
+   "chapter": "Old syllabus: Surface Chemistry",
+   "name": "Hardy-Schulze rule and flocculation value",
+   "desc": "Higher charge of oppositely charged ion coagulates more; rank flocculation/coagulating values for a sol"
+  },
+  {
+   "id": "che-surf-freundlich-isotherm",
+   "chapter": "Old syllabus: Surface Chemistry",
+   "name": "Freundlich adsorption isotherm",
+   "desc": "log(x/m) vs log P: slope 1/n, intercept log k; shape of isotherm curves"
+  },
+  {
+   "id": "che-surf-colloid-classification",
+   "chapter": "Old syllabus: Surface Chemistry",
+   "name": "Classification of colloids",
+   "desc": "Multimolecular vs macromolecular, lyophobic vs lyophilic (gold sol, sulphur sol), ease of coagulation"
+  },
+  {
+   "id": "che-surf-colloid-properties",
+   "chapter": "Old syllabus: Surface Chemistry",
+   "name": "Properties of colloids",
+   "desc": "Stability from charge, low osmotic pressure, dialysis, zeta potential"
+  },
+  {
+   "id": "che-surf-sol-charge-preparation",
+   "chapter": "Old syllabus: Surface Chemistry",
+   "name": "Charge on sols from preparation",
+   "desc": "Sign of sol from ion in excess (AgI/I-, Fe2O3.xH2O/Fe3+ or OH-)"
+  },
+  {
+   "id": "che-surf-catalysis",
+   "chapter": "Old syllabus: Surface Chemistry",
+   "name": "Heterogeneous and shape-selective catalysis",
+   "desc": "Adsorption theory for heterogeneous catalysis, Ni in hydrogenation, zeolites"
+  },
+  {
+   "id": "che-surf-adsorption-applications",
+   "chapter": "Old syllabus: Surface Chemistry",
+   "name": "Adsorption examples",
+   "desc": "Adsorbent/adsorbate in decolourising sugar, occlusion of H2 by Pd"
+  },
+  {
+   "id": "che-surf-colloid-applications-micelles",
+   "chapter": "Old syllabus: Surface Chemistry",
+   "name": "Colloid applications and micelles",
+   "desc": "AgI for artificial rain, colloidal sulphur medicine, micelle formation above CMC"
+  },
+  {
+   "id": "che-surf-froth-flotation",
+   "chapter": "Old syllabus: Surface Chemistry",
+   "name": "Froth flotation collectors",
+   "desc": "Xanthates make ore particles water-repellent"
+  },
+  {
+   "id": "che-surf-metallic-lustre",
+   "chapter": "Old syllabus: Surface Chemistry",
+   "name": "Metallic lustre",
+   "desc": "Lustre due to reflection by mobile electrons"
+  },
+  {
+   "id": "che-tss-network-solid",
+   "chapter": "Old syllabus: The Solid State",
+   "name": "Network solids",
+   "desc": "Identify a covalent network solid (AlN, SiC)"
+  },
+  {
+   "id": "che-tss-atoms-from-density",
+   "chapter": "Old syllabus: The Solid State",
+   "name": "Number of atoms from density and unit cell",
+   "desc": "Atoms in a given mass from edge length, density and Z"
+  },
+  {
+   "id": "che-tss-doping-vacancies",
+   "chapter": "Old syllabus: The Solid State",
+   "name": "Cation vacancies by aliovalent doping",
+   "desc": "Each Sr2+ in NaCl creates one cation vacancy"
+  },
+  {
+   "id": "che-tsb-plaster-of-paris",
+   "chapter": "Old syllabus: The s-Block Elements",
+   "name": "Calcium sulphate forms",
+   "desc": "Formula of plaster of Paris"
+  },
+  {
+   "id": "che-tsb-nitrate-decomposition",
+   "chapter": "Old syllabus: The s-Block Elements",
+   "name": "Thermal decomposition of nitrates",
+   "desc": "LiNO3 gives NO2 unlike other alkali nitrates"
+  },
+  {
+   "id": "che-ws-clark-process",
+   "chapter": "Old syllabus: Water softening",
+   "name": "Clark's process",
+   "desc": "Slaked lime removes temporary hardness"
+  },
+  {
+   "id": "che-pb-halogen-chemistry",
+   "chapter": "Old syllabus: p-Block",
+   "name": "Halogens and interhalogens",
+   "desc": "Cl2 from MnO2, interhalogen formation (ClF3), trends of halogen properties"
+  },
+  {
+   "id": "che-pb-hydrolysis",
+   "chapter": "Old syllabus: p-Block",
+   "name": "Hydrolysis of compounds",
+   "desc": "Which species is/is not hydrolysed by water"
+  },
+  {
+   "id": "che-pb-phosphorus-compounds",
+   "chapter": "Old syllabus: p-Block",
+   "name": "Oxoacids and halides of phosphorus",
+   "desc": "Reducing nature of H3PO2 (P-H bonds), PCl5 structure in solid/hydrolysis, phosphine statements"
+  },
+  {
+   "id": "che-pb-sulphur-compounds-identify",
+   "chapter": "Old syllabus: p-Block",
+   "name": "Identify sulphur compounds from tests",
+   "desc": "Sulphite/SO2 decolourising KMnO4, H2S + SO2 giving sulphur, BaSO3 dissolving in HCl"
+  },
+  {
+   "id": "che-pb-boron-compounds",
+   "chapter": "Old syllabus: p-Block",
+   "name": "Boron compounds",
+   "desc": "Diborane from BF3 + LiAlH4, borazine, electron-deficient hydrides"
+  },
+  {
+   "id": "che-pb-group15-hydride-trends",
+   "chapter": "Old syllabus: p-Block",
+   "name": "Group 15 hydride trends",
+   "desc": "Bond angle PH4+ vs PH3, thermal stability/basicity order of EH3, boiling point order with H-bonding"
+  },
+  {
+   "id": "che-pb-xenon-compounds",
+   "chapter": "Old syllabus: p-Block",
+   "name": "Xenon compounds and noble gases",
+   "desc": "Shapes of XeF4, XeOF4, XeO3, XeF6; hydrolysis products; reactivity of noble gases"
+  },
+  {
+   "id": "che-pb-nitrogen-compounds",
+   "chapter": "Old syllabus: p-Block",
+   "name": "Nitrogen compounds and oxides",
+   "desc": "Thermal decomposition giving N2/N2O, identify nitrogen oxides from colour/magnetism"
+  },
+  {
+   "id": "che-pb-carbon-allotropes-co2",
+   "chapter": "Old syllabus: p-Block",
+   "name": "Carbon allotropes and CO2",
+   "desc": "Rings in fullerene C60; importance of CO2"
+  },
+  {
+   "id": "che-pbe-sulphur-acid-chemistry",
+   "chapter": "Old syllabus: p-Block Elements",
+   "name": "Sulphuric acid and contact process",
+   "desc": "Purification in contact process, reactions of H2SO4 with PCl5"
+  },
+  {
+   "id": "che-pbe-qualitative-reagents",
+   "chapter": "Old syllabus: p-Block Elements",
+   "name": "Reagents and tests in salt analysis",
+   "desc": "Uses of NH3 in reagents, chromyl chloride test, bromide test with conc H2SO4/AgNO3"
+  },
+  {
+   "id": "che-pbe-noble-gases",
+   "chapter": "Old syllabus: p-Block Elements",
+   "name": "Noble gases: isolation and uses",
+   "desc": "Uses of Ar, Xe, He; Ramsay-Rayleigh isolation; diffusion of helium"
+  },
+  {
+   "id": "che-pbe-xenon-compounds",
+   "chapter": "Old syllabus: p-Block Elements",
+   "name": "Xenon compounds",
+   "desc": "Shapes of xenon fluorides/oxides and products of XeF6 hydrolysis"
+  },
+  {
+   "id": "che-pbe-boron-compounds",
+   "chapter": "Old syllabus: p-Block Elements",
+   "name": "Boron compounds",
+   "desc": "Lewis acidity of boron halides (back bonding), NaBH4, boric acid from borax, B(OH)3 as Lewis acid"
+  },
+  {
+   "id": "che-pbe-phosphine",
+   "chapter": "Old syllabus: p-Block Elements",
+   "name": "Phosphine",
+   "desc": "Preparation of PH3 from white P and its properties"
+  },
+  {
+   "id": "che-pbe-halogen-chemistry",
+   "chapter": "Old syllabus: p-Block Elements",
+   "name": "Halogens",
+   "desc": "Anomalous fluorine, oxidising power F2 vs Cl2 with water, reactions of chlorine"
+  },
+  {
+   "id": "che-pbe-nitrogen-anomalous",
+   "chapter": "Old syllabus: p-Block Elements",
+   "name": "Nitrogen: anomalous properties and preparation",
+   "desc": "p-pi p-pi bonding of N, properties vs heavier members, pure N2 from azide"
+  },
+  {
+   "id": "che-pbe-group14-compounds",
+   "chapter": "Old syllabus: p-Block Elements",
+   "name": "Group 14 compounds",
+   "desc": "Dry ice, silicones end-blocking, PbO2 with HNO3, hydrolysis of tetrahalides"
+  },
+  {
+   "id": "che-pbe-general-properties",
+   "chapter": "Old syllabus: p-Block Elements",
+   "name": "General p-block properties",
+   "desc": "Metalloids, amphoteric oxides, count diamagnetic p-block elements"
+  },
+  {
+   "id": "che-sb-alkali-oxides",
+   "chapter": "Old syllabus: s-Block",
+   "name": "Oxides of alkali metals",
+   "desc": "Which potassium oxide (normal, peroxide, superoxide) exists"
+  },
+  {
+   "id": "che-sbe-alkali-metal-properties",
+   "chapter": "Old syllabus: s-Block Elements",
+   "name": "Properties of alkali metals",
+   "desc": "IE, reducing nature, reaction with water, uses as catalyst, peroxides/superoxides with water"
+  },
+  {
+   "id": "che-sbe-compounds",
+   "chapter": "Old syllabus: s-Block Elements",
+   "name": "Important s-block compounds",
+   "desc": "Dead burnt plaster, ions causing hardness, nitrates decomposing to NO2"
+  },
+  {
+   "id": "che-sbe-alkaline-earth-trends",
+   "chapter": "Old syllabus: s-Block Elements",
+   "name": "Group 2 trends",
+   "desc": "Property increasing down group 2 (solubility of hydroxides)"
+  },
+  {
+   "id": "che-goc-kjeldahl-nitrogen",
+   "chapter": "Organic Chemistry: Basic Principles and Techniques",
+   "name": "Kjeldahl estimation of nitrogen",
+   "desc": "%N = 1.4 x N x V / mass; compounds (pyridine, nitro, azo) where Kjeldahl fails"
+  },
+  {
+   "id": "che-goc-qualitative-detection",
+   "chapter": "Organic Chemistry: Basic Principles and Techniques",
+   "name": "Detection of elements and functional groups",
+   "desc": "Lassaigne's test (NaCN formation, boiling with HNO3), CuO test for C/H, reagent for functional group tests"
+  },
+  {
+   "id": "che-goc-electronic-effects",
+   "chapter": "Organic Chemistry: Basic Principles and Techniques",
+   "name": "Electronic effects",
+   "desc": "Inductive, electromeric, mesomeric/resonance effects; where resonance is absent; most nucleophilic N"
+  },
+  {
+   "id": "che-goc-iupac-naming",
+   "chapter": "Organic Chemistry: Basic Principles and Techniques",
+   "name": "IUPAC naming of polyfunctional/aromatic compounds",
+   "desc": "Name compounds with principal group priority and lowest locants"
+  },
+  {
+   "id": "che-goc-structural-isomerism",
+   "chapter": "Organic Chemistry: Basic Principles and Techniques",
+   "name": "Structural isomerism",
+   "desc": "Identify functional/position/chain isomer pairs"
+  },
+  {
+   "id": "che-goc-stereoisomerism",
+   "chapter": "Organic Chemistry: Basic Principles and Techniques",
+   "name": "Optical isomerism and meso compounds",
+   "desc": "Count optical isomers for 2 chiral centres, why meso is inactive, enantiomers' physical properties"
+  },
+  {
+   "id": "che-goc-intermediates-bond-fission",
+   "chapter": "Organic Chemistry: Basic Principles and Techniques",
+   "name": "Reaction intermediates and bond fission",
+   "desc": "Which reaction involves carbocation/free radical, homolytic vs heterolytic fission"
+  },
+  {
+   "id": "che-goc-purification",
+   "chapter": "Organic Chemistry: Basic Principles and Techniques",
+   "name": "Purification methods",
+   "desc": "Separate miscible liquids by distillation and similar choices"
+  },
+  {
+   "id": "che-redox-oxidation-number",
+   "chapter": "Redox Reactions",
+   "name": "Oxidation number determination",
+   "desc": "Oxidation number of an element in a compound (peroxy linkage, NH4NO3, chromite, superoxides), changes in a reaction"
+  },
+  {
+   "id": "che-redox-balancing",
+   "chapter": "Redox Reactions",
+   "name": "Balancing redox equations",
+   "desc": "Find coefficients in permanganate-oxalate/thiosulphate redox equations"
+  },
+  {
+   "id": "che-redox-titration-stoichiometry",
+   "chapter": "Redox Reactions",
+   "name": "Redox titration stoichiometry",
+   "desc": "Volumes/moles of oxidant needed using electron balance (KMnO4, K2Cr2O7, oxalic acid); why H2SO4 not HNO3"
+  },
+  {
+   "id": "che-redox-oxidant-reductant-identify",
+   "chapter": "Redox Reactions",
+   "name": "Identify oxidant/reductant and products",
+   "desc": "Oxidising agent in reaction, what H2O2/KMnO4 oxidises SO2/H2S to, identify salt from redox tests"
+  },
+  {
+   "id": "che-redox-reaction-types",
+   "chapter": "Redox Reactions",
+   "name": "Types of redox reactions",
+   "desc": "Disproportionation, combination, displacement; definitions of oxidation"
+  },
+  {
+   "id": "che-redox-feasibility",
+   "chapter": "Redox Reactions",
+   "name": "Feasibility of displacement reactions",
+   "desc": "Which metal-solution combination reacts using activity series"
+  },
+  {
+   "id": "che-sol-raoult-vapour-pressure",
+   "chapter": "Solutions",
+   "name": "Raoult's law vapour pressure of ideal solutions",
+   "desc": "Total vapour pressure p = xA pA0 + xB pB0: find p0, composition or vapour-phase mole fraction"
+  },
+  {
+   "id": "che-sol-relative-lowering-vp",
+   "chapter": "Solutions",
+   "name": "Relative lowering of vapour pressure",
+   "desc": "(p0 - p)/p0 = x(solute): find lowering, molality or mass of solute"
+  },
+  {
+   "id": "che-sol-isotonic-solutions",
+   "chapter": "Solutions",
+   "name": "Isotonic solutions",
+   "desc": "Same osmotic pressure means equal i x C; pick isotonic pairs (urea vs glucose, salts)"
+  },
+  {
+   "id": "che-sol-osmotic-pressure-calc",
+   "chapter": "Solutions",
+   "name": "Osmotic pressure and molar mass",
+   "desc": "pi = CRT: osmotic pressure value, molar/molecular formula from isotonic data, factors increasing pi, why used for polymers"
+  },
+  {
+   "id": "che-sol-colligative-applications",
+   "chapter": "Solutions",
+   "name": "Everyday colligative phenomena and osmosis",
+   "desc": "CaCl2 on roads, pressure cookers, osmosis vs reverse osmosis, salt water for swollen feet"
+  },
+  {
+   "id": "che-sol-raoult-deviations",
+   "chapter": "Solutions",
+   "name": "Ideal and non-ideal solutions",
+   "desc": "Positive/negative deviation examples and reasons; azeotropes; dH, dV, dS, dG of ideal mixing"
+  },
+  {
+   "id": "che-sol-colligative-definition",
+   "chapter": "Solutions",
+   "name": "What is a colligative property",
+   "desc": "Identify non-colligative property"
+  },
+  {
+   "id": "che-sol-compare-bp-fp",
+   "chapter": "Solutions",
+   "name": "Compare boiling/freezing points of solutions",
+   "desc": "Highest boiling/freezing point using i x m for electrolytes and non-electrolytes"
+  },
+  {
+   "id": "che-sol-vant-hoff-factor",
+   "chapter": "Solutions",
+   "name": "van't Hoff factor and abnormal molar mass",
+   "desc": "i for dissociation/association; degree of association/dissociation from dTf/dTb; dimerisation; fp with partial ionisation"
+  },
+  {
+   "id": "che-sol-elevation-depression-calc",
+   "chapter": "Solutions",
+   "name": "Boiling point elevation / freezing point depression",
+   "desc": "dTb = Kb m, dTf = Kf m: find Kb, new boiling point, or dTb from dTf"
+  },
+  {
+   "id": "che-sol-henry-law-calc",
+   "chapter": "Solutions",
+   "name": "Henry's law calculations",
+   "desc": "Mole fraction / moles of gas dissolved from partial pressure and KH"
+  },
+  {
+   "id": "che-sol-henry-law-concepts",
+   "chapter": "Solutions",
+   "name": "Gas solubility and KH",
+   "desc": "Higher KH means lower solubility; solubility vs pressure and temperature"
+  },
+  {
+   "id": "che-sol-concentration-terms",
+   "chapter": "Solutions",
+   "name": "Concentration terms",
+   "desc": "Mole fraction calculation; unitless concentration terms"
+  },
+  {
+   "id": "che-sol-laws-match",
+   "chapter": "Solutions",
+   "name": "Match physical chemistry laws to expressions",
+   "desc": "Henry, Raoult, Kohlrausch, first law formulas"
+  },
+  {
+   "id": "che-bas-titration-normality",
+   "chapter": "Some Basic Concepts of Chemistry",
+   "name": "Volumetric titration calculations",
+   "desc": "N1V1 = N2V2 for acid-base titrations, partial titrations, molarity of oxalic acid"
+  },
+  {
+   "id": "che-bas-equivalent-mass",
+   "chapter": "Some Basic Concepts of Chemistry",
+   "name": "Equivalent mass and molar mass of salts",
+   "desc": "From equivalent mass of bivalent metal get molar mass of its nitrate/chloride"
+  },
+  {
+   "id": "che-bas-mixture-composition",
+   "chapter": "Some Basic Concepts of Chemistry",
+   "name": "Composition of mixtures",
+   "desc": "% of components of a solid or gas mixture from reaction/neutralisation data or volume %"
+  },
+  {
+   "id": "che-bas-mole-concept-counting",
+   "chapter": "Some Basic Concepts of Chemistry",
+   "name": "Mole concept: counting particles and masses",
+   "desc": "Number of molecules/atoms/electrons, mass or volume from moles; least pressure from amount"
+  },
+  {
+   "id": "che-bas-empirical-molecular-formula",
+   "chapter": "Some Basic Concepts of Chemistry",
+   "name": "Empirical and molecular formula / % composition",
+   "desc": "From % composition, combustion data or atom amounts derive empirical/molecular formula or % C"
+  },
+  {
+   "id": "che-bas-limiting-reagent",
+   "chapter": "Some Basic Concepts of Chemistry",
+   "name": "Limiting reagent",
+   "desc": "Reactant in excess, mass of product (AgCl) or volume of HCl from limiting reactant"
+  },
+  {
+   "id": "che-bas-gas-law-calc",
+   "chapter": "Some Basic Concepts of Chemistry",
+   "name": "Ideal gas calculations",
+   "desc": "Volume change with T and P; volume of given mass of gas from PV = nRT"
+  },
+  {
+   "id": "che-bas-measurement-matter-laws",
+   "chapter": "Some Basic Concepts of Chemistry",
+   "name": "Measurement, matter and laws of combination",
+   "desc": "Temperature scales, significant figures, homogeneous mixtures, law of definite proportions"
+  },
+  {
+   "id": "che-atom-quantum-numbers-electron",
+   "chapter": "Structure of Atom",
+   "name": "Quantum numbers of a given electron",
+   "desc": "Correct n, l, m, s set for the outermost/unpaired electron of K, Na, Cu, Cl"
+  },
+  {
+   "id": "che-atom-quantum-number-rules-energy",
+   "chapter": "Structure of Atom",
+   "name": "Allowed quantum numbers and orbital energy order",
+   "desc": "Permissible sets, impossible orbitals (3f), (n+l) rule to compare energies"
+  },
+  {
+   "id": "che-atom-de-broglie",
+   "chapter": "Structure of Atom",
+   "name": "de Broglie wavelength",
+   "desc": "lambda = h/mv = h/p: find mass, momentum or wavelength ratio"
+  },
+  {
+   "id": "che-atom-bohr-hydrogen-spectrum",
+   "chapter": "Structure of Atom",
+   "name": "Bohr model and hydrogen spectrum",
+   "desc": "Energy En = -13.6 Z^2/n^2 eV, wave number with Rydberg formula, Bohr radius statements"
+  },
+  {
+   "id": "che-atom-photon-photoelectric",
+   "chapter": "Structure of Atom",
+   "name": "Photon energy and photoelectric effect",
+   "desc": "E = hc/lambda ratios; dependence of number/energy of photoelectrons on intensity and frequency"
+  },
+  {
+   "id": "che-atom-electron-configuration-count",
+   "chapter": "Structure of Atom",
+   "name": "Counting from electronic configurations",
+   "desc": "Number of elements with unpaired s electron among Z = 1-36"
+  },
+  {
+   "id": "che-atom-nodes-orbitals",
+   "chapter": "Structure of Atom",
+   "name": "Nodes, orbitals and psi^2",
+   "desc": "Radial/angular nodes, number of orbitals in a shell, meaning of psi^2"
+  },
+  {
+   "id": "che-atom-subatomic-particles",
+   "chapter": "Structure of Atom",
+   "name": "Protons, neutrons, electrons in ions",
+   "desc": "Count p, n, e in a given isotope/ion"
+  },
+  {
+   "id": "che-atom-uncertainty",
+   "chapter": "Structure of Atom",
+   "name": "Heisenberg uncertainty principle",
+   "desc": "dx.dv >= h/4pi m calculation"
+  },
+  {
+   "id": "che-df-spin-only-moment-calc",
+   "chapter": "The d- and f-Block Elements",
+   "name": "Spin-only magnetic moment of transition ions",
+   "desc": "mu = sqrt(n(n+2)) BM: compute for an ion or find unpaired electrons/oxidation state from mu"
+  },
+  {
+   "id": "che-df-paramagnetism-compare",
+   "chapter": "The d- and f-Block Elements",
+   "name": "Comparing paramagnetism of d-block ions",
+   "desc": "Ion/configuration with highest moment, paramagnetic sets, trend of paramagnetism across series, match moment/colour"
+  },
+  {
+   "id": "che-df-oxidation-state-in-compounds",
+   "chapter": "The d- and f-Block Elements",
+   "name": "Oxidation states of metals in ores/compounds",
+   "desc": "Oxidation numbers of Fe/Cr in chromite, Cu in cuprite"
+  },
+  {
+   "id": "che-df-chromyl-chloride-test",
+   "chapter": "The d- and f-Block Elements",
+   "name": "Chromyl chloride test",
+   "desc": "Red CrO2Cl2 vapours, yellow lead chromate precipitate"
+  },
+  {
+   "id": "che-df-electronic-configuration",
+   "chapter": "The d- and f-Block Elements",
+   "name": "Electronic configurations of d/f elements and ions",
+   "desc": "Configuration of Cu2+, Gd2+, element from M3+ configuration, which do not have (n-1)d10 ns2"
+  },
+  {
+   "id": "che-df-copper-halides-stability",
+   "chapter": "The d- and f-Block Elements",
+   "name": "Copper(I)/(II) halide stability",
+   "desc": "CuI2 not known as Cu2+ oxidises I-; Cu2+ more stable than Cu+ in water"
+  },
+  {
+   "id": "che-df-lanthanoids",
+   "chapter": "The d- and f-Block Elements",
+   "name": "Lanthanoids and actinoids",
+   "desc": "Common +3 state, Ce+4/Sm+2, lanthanoid contraction, colour, radioactive Pm, Misch metal"
+  },
+  {
+   "id": "che-df-permanganate-dichromate",
+   "chapter": "The d- and f-Block Elements",
+   "name": "KMnO4 and K2Cr2O7 chemistry",
+   "desc": "Products of heating KMnO4, MnO2 + HCl, alkaline KMnO4 with KI, moles of dichromate to liberate I2, (NH4)2Cr2O7 decomposition"
+  },
+  {
+   "id": "che-df-oxidation-state-stability",
+   "chapter": "The d- and f-Block Elements",
+   "name": "Stability of oxidation states",
+   "desc": "Mn2+ vs Fe2+, highest oxidation state as oxidant, Mn highest state in oxides vs fluorides, true/false about 3d series"
+  },
+  {
+   "id": "che-df-oxides",
+   "chapter": "The d- and f-Block Elements",
+   "name": "Transition metal oxides",
+   "desc": "Amphoteric (V2O5, Cr2O3) and metallic-conducting (CrO2) oxides"
+  },
+  {
+   "id": "che-df-colour-of-ions",
+   "chapter": "The d- and f-Block Elements",
+   "name": "Colour of transition metal ions",
+   "desc": "Coloured vs colourless ions from d^0/d^10 configuration"
+  },
+  {
+   "id": "che-df-property-trends",
+   "chapter": "The d- and f-Block Elements",
+   "name": "Trends of physical properties in 3d series",
+   "desc": "Ionic size, density, melting point, number of oxidation states"
+  },
+  {
+   "id": "che-thermo-hess-law",
+   "chapter": "Thermodynamics",
+   "name": "Hess's law and enthalpy manipulation",
+   "desc": "Reverse/scale/add thermochemical equations for formation, decomposition, solution enthalpy, combustion ratios"
+  },
+  {
+   "id": "che-thermo-phase-transition",
+   "chapter": "Thermodynamics",
+   "name": "Phase transitions: entropy and enthalpy",
+   "desc": "dS = dH/T at boiling point, dG = 0 at equilibrium, statements on enthalpies of fusion/vaporisation"
+  },
+  {
+   "id": "che-thermo-neutralisation-heat",
+   "chapter": "Thermodynamics",
+   "name": "Heat of neutralisation",
+   "desc": "Heat evolved = 57.1 kJ x moles of water formed from limiting acid/base"
+  },
+  {
+   "id": "che-thermo-first-law",
+   "chapter": "Thermodynamics",
+   "name": "First law of thermodynamics",
+   "desc": "dU = q + w for adiabatic/isochoric/cyclic/isothermal processes; path functions vs state functions; heat in alternate path"
+  },
+  {
+   "id": "che-thermo-gibbs-k",
+   "chapter": "Thermodynamics",
+   "name": "Gibbs energy from K",
+   "desc": "dG0 = -2.303RT log K"
+  },
+  {
+   "id": "che-thermo-entropy-laws",
+   "chapter": "Thermodynamics",
+   "name": "Second and third law, entropy",
+   "desc": "Entropy of universe increases, entropy at absolute zero, dS = q/T at different T"
+  },
+  {
+   "id": "che-thermo-work-calc",
+   "chapter": "Thermodynamics",
+   "name": "Work of expansion",
+   "desc": "w = -p dV for irreversible expansion; w = -2.303nRT log(V2/V1) for reversible isothermal"
+  },
+  {
+   "id": "che-thermo-spontaneity",
+   "chapter": "Thermodynamics",
+   "name": "Spontaneity from dH and dS",
+   "desc": "Signs of dH and dS for spontaneity and temperature dependence (dG = dH - TdS)"
+  },
+  {
+   "id": "che-thermo-bond-enthalpy",
+   "chapter": "Thermodynamics",
+   "name": "Reaction enthalpy from bond energies",
+   "desc": "dH = sum(bonds broken) - sum(bonds formed)"
+  },
+  {
+   "id": "che-thermo-dh-du",
+   "chapter": "Thermodynamics",
+   "name": "dH vs dU",
+   "desc": "dH = dU + dn RT: reaction with dH > dU or dH = dU"
+  }
+ ]
+}

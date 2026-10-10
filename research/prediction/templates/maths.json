@@ -1,0 +1,1685 @@
+{
+ "subject": "maths",
+ "templates": [
+  {
+   "id": "mat-oldnt-gcd-linear-combination",
+   "chapter": "Old syllabus: Number Theory",
+   "name": "GCD as linear combination",
+   "desc": "Use (a,b)=ax+by (Bezout) to deduce coprimality or find the multipliers m,n"
+  },
+  {
+   "id": "mat-oldnt-unit-digit",
+   "chapter": "Old syllabus: Number Theory",
+   "name": "Unit digit of a large power/factorial",
+   "desc": "Find last digit of a^n (+ n!) using the cyclicity of powers mod 10"
+  },
+  {
+   "id": "mat-oldnt-divisors-sum",
+   "chapter": "Old syllabus: Number Theory",
+   "name": "Sum/number of divisors",
+   "desc": "Factorise n into primes and apply the divisor-sum or divisor-count formula"
+  },
+  {
+   "id": "mat-oldnt-remainder",
+   "chapter": "Old syllabus: Number Theory",
+   "name": "Remainder of a product/expression",
+   "desc": "Find the remainder of an expression on division by m using modular arithmetic"
+  },
+  {
+   "id": "mat-oldnt-linear-congruence",
+   "chapter": "Old syllabus: Number Theory",
+   "name": "Solve a linear congruence",
+   "desc": "Solve ax = b (mod m) by reducing coefficients and finding the inverse"
+  },
+  {
+   "id": "mat-oldnt-prime-divisor-property",
+   "chapter": "Old syllabus: Number Theory",
+   "name": "Smallest divisor of a composite number",
+   "desc": "Recall that the least divisor >1 of composite a is at most sqrt(a)"
+  },
+  {
+   "id": "mat-oldntc-congruence-modulus",
+   "chapter": "Old syllabus: Number Theory (Congruences)",
+   "name": "Find modulus/residue from congruences",
+   "desc": "Use a=b (mod x) means x divides a-b, take GCD; or reduce powers mod m to find a residue"
+  },
+  {
+   "id": "mat-oldgrp-modular-group-computation",
+   "chapter": "Old syllabus: Groups",
+   "name": "Inverse/solution in modular or defined-operation group",
+   "desc": "Compute inverses, identity or solve an equation in Z_n or a group with a defined operation a*b"
+  },
+  {
+   "id": "mat-oldgrp-group-properties",
+   "chapter": "Old syllabus: Groups",
+   "name": "Group theory facts and subgroups",
+   "desc": "Identify true/false statements about groups, identity, inverses, subgroup counts"
+  },
+  {
+   "id": "mat-oldgt-inverse-in-group",
+   "chapter": "Old syllabus: Group Theory",
+   "name": "Group element/inverse properties",
+   "desc": "Use a^2=e => a=a^{-1}, or find inverse under a*b=a+b-n"
+  },
+  {
+   "id": "mat-oldbo-operation-properties",
+   "chapter": "Old syllabus: Binary Operations",
+   "name": "Properties/identity/inverse of a binary operation",
+   "desc": "Check commutative/associative/identity/inverse for a given operation or compute inverse/solve equation"
+  },
+  {
+   "id": "mat-oldbo-group-subgroup",
+   "chapter": "Old syllabus: Binary Operations",
+   "name": "Which structure is a group/subgroup",
+   "desc": "Identify which set under an operation is a group, semigroup or subgroup"
+  },
+  {
+   "id": "mat-oldmr-negation",
+   "chapter": "Old syllabus: Mathematical Reasoning",
+   "name": "Negation of a compound/quantified statement",
+   "desc": "Negate using De Morgan, ~(p->q)=p^~q, 'for all' <-> 'there exists'"
+  },
+  {
+   "id": "mat-oldmr-converse-contrapositive",
+   "chapter": "Old syllabus: Mathematical Reasoning",
+   "name": "Converse/inverse/contrapositive",
+   "desc": "Write converse, inverse or contrapositive of an implication"
+  },
+  {
+   "id": "mat-oldmr-logical-equivalence",
+   "chapter": "Old syllabus: Mathematical Reasoning",
+   "name": "Logical equivalence of propositions",
+   "desc": "Identify equivalent forms (p->q = ~p v q etc.) or which equivalence is false"
+  },
+  {
+   "id": "mat-oldmr-is-statement",
+   "chapter": "Old syllabus: Mathematical Reasoning",
+   "name": "Identify a mathematical statement",
+   "desc": "Decide which sentence is (not) a valid/true statement"
+  },
+  {
+   "id": "mat-oldlog-log-identities",
+   "chapter": "Old syllabus: Logarithms",
+   "name": "Logarithm identities and equations",
+   "desc": "Use change of base and log laws to simplify sums or solve log equations"
+  },
+  {
+   "id": "mat-oldmi-divisibility",
+   "chapter": "Old syllabus: Mathematical Induction",
+   "name": "Divisibility by induction",
+   "desc": "Find the number that always divides an expression like n^3+2n or 2^{2n}-1 (check n=1,2)"
+  },
+  {
+   "id": "mat-oldpmi-smallest-n",
+   "chapter": "Old syllabus: Principle of Mathematical Induction",
+   "name": "Smallest n for which an inequality holds",
+   "desc": "Test n=1,2,3,... for statements like 2^n < n!"
+  },
+  {
+   "id": "mat-oldtri-solve-triangle",
+   "chapter": "Old syllabus: Properties of Triangles",
+   "name": "Solve triangle from sides/angles",
+   "desc": "Use sine rule/angle sum to find angles or sides of a triangle"
+  },
+  {
+   "id": "mat-oldhd-elevation-ratio",
+   "chapter": "Old syllabus: Heights and Distances",
+   "name": "Angles of elevation ratio",
+   "desc": "Use tan of elevation angles to relate distances to a tower"
+  },
+  {
+   "id": "mat-oldpsl-pair-lines",
+   "chapter": "Old syllabus: Pair of Straight Lines",
+   "name": "Homogeneous pair of lines",
+   "desc": "Angle between or slope relations for ax^2+2hxy+by^2=0"
+  },
+  {
+   "id": "mat-oldpf-partial-fractions",
+   "chapter": "Old syllabus: Partial Fractions",
+   "name": "Partial fraction coefficients",
+   "desc": "Find constants A,B in a partial-fraction decomposition"
+  },
+  {
+   "id": "mat-oldpoly-factor-theorem",
+   "chapter": "Old syllabus: Polynomials",
+   "name": "Factor theorem",
+   "desc": "Find k so that (x-a) is a factor by putting f(a)=0"
+  },
+  {
+   "id": "mat-oldgraph-degree-sum",
+   "chapter": "Old syllabus: Graph Theory",
+   "name": "Handshake lemma",
+   "desc": "Sum of degrees = 2 x edges; find vertices or degree of a regular graph"
+  },
+  {
+   "id": "mat-sets-count-subsets",
+   "chapter": "Sets",
+   "name": "Count subsets with a condition",
+   "desc": "Count subsets with at least k elements, only odd/even elements, or from 2^m-2^n relation"
+  },
+  {
+   "id": "mat-sets-venn-cardinality",
+   "chapter": "Sets",
+   "name": "Venn diagram cardinality",
+   "desc": "Use n(AuB)=n(A)+n(B)-n(AnB) and complements to find counts in word problems"
+  },
+  {
+   "id": "mat-sets-cartesian-product-count",
+   "chapter": "Sets",
+   "name": "Cartesian product element count",
+   "desc": "Use n(AxB)=n(A)n(B) and common elements of AxB and BxA"
+  },
+  {
+   "id": "mat-sets-operations-notation",
+   "chapter": "Sets",
+   "name": "Set operations, builder form, empty set",
+   "desc": "Evaluate unions/differences, convert roster to builder form, identify empty set or subset relations"
+  },
+  {
+   "id": "mat-sets-min-max-union-intersection",
+   "chapter": "Sets",
+   "name": "Bounds on union/intersection sizes",
+   "desc": "Find minimum/maximum elements of AuB or AnB given n(A), n(B)"
+  },
+  {
+   "id": "mat-ineq-modulus",
+   "chapter": "Linear Inequalities",
+   "name": "Modulus inequality",
+   "desc": "Solve |ax+b| <= or >= c and pick the interval"
+  },
+  {
+   "id": "mat-ineq-rational-sign",
+   "chapter": "Linear Inequalities",
+   "name": "Rational inequality sign analysis",
+   "desc": "Solve inequality with a quotient using sign of numerator and denominator"
+  },
+  {
+   "id": "mat-ineq-graph-region",
+   "chapter": "Linear Inequalities",
+   "name": "Inequalities from a shaded region",
+   "desc": "Identify the system of inequalities that describes a shaded region"
+  },
+  {
+   "id": "mat-ineq-word-problem",
+   "chapter": "Linear Inequalities",
+   "name": "Word problem to linear inequality",
+   "desc": "Translate profit/perimeter type statements into a linear inequality and solve"
+  },
+  {
+   "id": "mat-ineq-basic-linear",
+   "chapter": "Linear Inequalities",
+   "name": "Solve a basic linear inequality",
+   "desc": "Solve linear inequalities in one variable, including sign flip when dividing by a negative, and common solution sets"
+  },
+  {
+   "id": "mat-stat-cv-mean",
+   "chapter": "Statistics",
+   "name": "Coefficient of variation to mean",
+   "desc": "Use CV = (sigma/mean) x 100 to find mean or SD"
+  },
+  {
+   "id": "mat-stat-mean-deviation",
+   "chapter": "Statistics",
+   "name": "Mean deviation about mean",
+   "desc": "Compute mean, then average absolute deviations"
+  },
+  {
+   "id": "mat-stat-sum-of-squares",
+   "chapter": "Statistics",
+   "name": "Sum of squares from mean and SD",
+   "desc": "Use sigma^2 = sum(x^2)/n - mean^2 to find sum of squares"
+  },
+  {
+   "id": "mat-stat-sd-of-data",
+   "chapter": "Statistics",
+   "name": "Standard deviation of data / consecutive numbers",
+   "desc": "Compute SD of a small data set or n consecutive integers ((n^2-1)/12), or find unknown from SD"
+  },
+  {
+   "id": "mat-stat-sd-shift-scale",
+   "chapter": "Statistics",
+   "name": "Effect of shift/scale on SD",
+   "desc": "Adding a constant leaves SD unchanged; multiplying scales it"
+  },
+  {
+   "id": "mat-3dintro-distance-from-plane",
+   "chapter": "Introduction to Three Dimensional Geometry",
+   "name": "Distance of point from coordinate plane",
+   "desc": "Distance from XY/YZ/ZX plane is |z|, |x|, |y|"
+  },
+  {
+   "id": "mat-3dintro-octant",
+   "chapter": "Introduction to Three Dimensional Geometry",
+   "name": "Octant of a point",
+   "desc": "Use signs of coordinates to identify the octant"
+  },
+  {
+   "id": "mat-3dintro-centroid-midpoints",
+   "chapter": "Introduction to Three Dimensional Geometry",
+   "name": "Centroid from midpoints of sides",
+   "desc": "Centroid of triangle equals centroid of its mid-point triangle"
+  },
+  {
+   "id": "mat-3dintro-distance-right-triangle",
+   "chapter": "Introduction to Three Dimensional Geometry",
+   "name": "Distance formula: right-angled triangle",
+   "desc": "Use distance formula/Pythagoras to find unknown coordinate"
+  },
+  {
+   "id": "mat-rel-relation-type",
+   "chapter": "Relations and Functions",
+   "name": "Reflexive/symmetric/transitive check",
+   "desc": "Test a given relation for reflexivity, symmetry, transitivity or equivalence"
+  },
+  {
+   "id": "mat-rel-equivalence-count",
+   "chapter": "Relations and Functions",
+   "name": "Equivalence relations and classes count",
+   "desc": "Count minimum pairs, number of equivalence relations containing a pair, or size of an equivalence class"
+  },
+  {
+   "id": "mat-rel-relation-roster",
+   "chapter": "Relations and Functions",
+   "name": "Write relation in roster form",
+   "desc": "List the pairs of a relation defined by a rule on N, or test membership"
+  },
+  {
+   "id": "mat-rel-count-relations",
+   "chapter": "Relations and Functions",
+   "name": "Number of relations A to B",
+   "desc": "Use number of relations = 2^{mn} to find n(B)"
+  },
+  {
+   "id": "mat-rel-count-functions",
+   "chapter": "Relations and Functions",
+   "name": "Count functions/injections/onto/binary operations",
+   "desc": "Count injective, bijective, onto or non-bijective maps, or binary operations n^{n^2}"
+  },
+  {
+   "id": "mat-rel-one-one-onto",
+   "chapter": "Relations and Functions",
+   "name": "Classify a function as one-one/onto",
+   "desc": "Decide injective/surjective/bijective for a given (piecewise) function"
+  },
+  {
+   "id": "mat-rel-invertible-interval",
+   "chapter": "Relations and Functions",
+   "name": "Interval where a trig function is one-one",
+   "desc": "Write a sin x + b cos x as R sin(x+a) and find a monotonic interval where it is invertible"
+  },
+  {
+   "id": "mat-rel-inverse-function",
+   "chapter": "Relations and Functions",
+   "name": "Find inverse function / reflection in y=x",
+   "desc": "Solve y=f(x) for x to get f^{-1}, including reflection of graph in y=x"
+  },
+  {
+   "id": "mat-rel-composition",
+   "chapter": "Relations and Functions",
+   "name": "Composition of functions",
+   "desc": "Compute fog, gof or f(f(x)), check which composite statement is false, or decompose"
+  },
+  {
+   "id": "mat-rel-evaluate-function",
+   "chapter": "Relations and Functions",
+   "name": "Evaluate function values / preimages",
+   "desc": "Evaluate piecewise or GIF-based functions, find preimages or constants a,b from given values"
+  },
+  {
+   "id": "mat-rel-domain",
+   "chapter": "Relations and Functions",
+   "name": "Domain of a real function",
+   "desc": "Find domain from square roots, logs, denominators, GIF using sign analysis"
+  },
+  {
+   "id": "mat-rel-range",
+   "chapter": "Relations and Functions",
+   "name": "Range of a real function",
+   "desc": "Find range of a function over a given domain, or properties of log function"
+  },
+  {
+   "id": "mat-rel-binary-op-properties",
+   "chapter": "Relations and Functions",
+   "name": "Binary operation properties",
+   "desc": "Check whether * is a binary operation, commutative, associative"
+  },
+  {
+   "id": "mat-rel-binary-op-compute",
+   "chapter": "Relations and Functions",
+   "name": "Compute with a binary operation",
+   "desc": "Evaluate expressions or solve for x using identity/inverse under a defined *"
+  },
+  {
+   "id": "mat-rel-gif-equation",
+   "chapter": "Relations and Functions",
+   "name": "Equation in greatest integer function",
+   "desc": "Solve a quadratic in [x] and convert integer values to an interval"
+  },
+  {
+   "id": "mat-rel-congruence-properties",
+   "chapter": "Relations and Functions",
+   "name": "Properties of congruence relation",
+   "desc": "Identify which operation preserves a = b (mod m)"
+  },
+  {
+   "id": "mat-itf-telescoping-series",
+   "chapter": "Inverse Trigonometric Functions",
+   "name": "Telescoping sum of tan^-1/cot^-1",
+   "desc": "Write each term as tan^-1 a - tan^-1 b and telescope"
+  },
+  {
+   "id": "mat-itf-principal-value",
+   "chapter": "Inverse Trigonometric Functions",
+   "name": "Principal value evaluation",
+   "desc": "Evaluate sin^-1(cos t), cot^-1(-sqrt3) etc. using principal ranges"
+  },
+  {
+   "id": "mat-itf-trig-of-inverse",
+   "chapter": "Inverse Trigonometric Functions",
+   "name": "Trig function of inverse-trig expression",
+   "desc": "Evaluate expressions like cos(2sin^-1 a + cos^-1 a), sin(2sin^-1 x), sec^2(tan^-1 a)"
+  },
+  {
+   "id": "mat-itf-complementary",
+   "chapter": "Inverse Trigonometric Functions",
+   "name": "Complementary identities sin^-1+cos^-1=pi/2",
+   "desc": "Use sin^-1x+cos^-1x=pi/2, tan^-1+cot^-1=pi/2 to evaluate or solve"
+  },
+  {
+   "id": "mat-itf-sum-pi-by-2-xy",
+   "chapter": "Inverse Trigonometric Functions",
+   "name": "sin^-1x+sin^-1y=pi/2 relation",
+   "desc": "Deduce x^2 = 1-y^2 from sin^-1x + sin^-1y = pi/2"
+  },
+  {
+   "id": "mat-itf-range-of-combination",
+   "chapter": "Inverse Trigonometric Functions",
+   "name": "Bounds of a combination of inverse trig",
+   "desc": "Rewrite as constant + one inverse function and use its range for bounds"
+  },
+  {
+   "id": "mat-itf-tan-addition",
+   "chapter": "Inverse Trigonometric Functions",
+   "name": "tan^-1 addition/subtraction",
+   "desc": "Combine tan^-1 x +- tan^-1 y (or sin^-1 sums) using the addition formula"
+  },
+  {
+   "id": "mat-itf-solve-equation",
+   "chapter": "Inverse Trigonometric Functions",
+   "name": "Solve an inverse trig equation",
+   "desc": "Solve for x by substitution, double-angle forms or counting solutions"
+  },
+  {
+   "id": "mat-itf-double-angle-validity",
+   "chapter": "Inverse Trigonometric Functions",
+   "name": "Validity range of 2cos^-1x=sin^-1(2x sqrt(1-x^2))",
+   "desc": "Find interval of x where the double-angle inverse identity holds"
+  },
+  {
+   "id": "mat-itf-domain-range",
+   "chapter": "Inverse Trigonometric Functions",
+   "name": "Domain/range of inverse trig functions",
+   "desc": "Find domain of sin^-1(g(x)), cos^-1[x] or range of sec^-1 x"
+  },
+  {
+   "id": "mat-itf-partial-fraction-combo",
+   "chapter": "Inverse Trigonometric Functions",
+   "name": "Partial fractions then inverse trig sum",
+   "desc": "Find A,B,C by partial fractions and evaluate a sum of inverse trig values"
+  },
+  {
+   "id": "mat-itf-extreme-sum",
+   "chapter": "Inverse Trigonometric Functions",
+   "name": "Sum of inverse cosines at extreme",
+   "desc": "cos^-1x+cos^-1y+cos^-1z=3pi forces x=y=z=-1; evaluate expression"
+  },
+  {
+   "id": "mat-itf-simplify-substitution",
+   "chapter": "Inverse Trigonometric Functions",
+   "name": "Simplify by trig substitution",
+   "desc": "Simplify inverse-trig expressions via x=sin t etc. or half-angle forms"
+  },
+  {
+   "id": "mat-mat-ab-b-ba-a",
+   "chapter": "Matrices",
+   "name": "AB=B, BA=A identities",
+   "desc": "Use AB=B, BA=A to show A, B idempotent and simplify A^2+B^2"
+  },
+  {
+   "id": "mat-mat-commute-condition",
+   "chapter": "Matrices",
+   "name": "Commuting condition from expansion",
+   "desc": "(A+B)(A-B)=A^2-B^2 or similar forces AB=BA; simplify (ABA^{-1})^2"
+  },
+  {
+   "id": "mat-mat-quadratic-equation",
+   "chapter": "Matrices",
+   "name": "Matrix satisfies a quadratic",
+   "desc": "Find x,y with A^2+xA+yI=0, evaluate A^2-kA, or get A^{-1} from A^2-5A+7I=0"
+  },
+  {
+   "id": "mat-mat-rotation-matrix",
+   "chapter": "Matrices",
+   "name": "Rotation-type trig matrices",
+   "desc": "AA'=I for rotation matrices, A+A^T=I to find theta, inverse of [1 tan; -tan 1]"
+  },
+  {
+   "id": "mat-mat-symmetric-skew-properties",
+   "chapter": "Matrices",
+   "name": "Symmetric/skew-symmetric properties",
+   "desc": "Decide symmetry of AB-BA, A'BA, A^odd for skew A, symmetric and skew A, invertibility conditions"
+  },
+  {
+   "id": "mat-mat-symmetric-skew-decomposition",
+   "chapter": "Matrices",
+   "name": "Symmetric + skew-symmetric decomposition",
+   "desc": "Write A=(A+A')/2+(A-A')/2 and pick the required part"
+  },
+  {
+   "id": "mat-mat-order-rules",
+   "chapter": "Matrices",
+   "name": "Orders of matrices in products/sums",
+   "desc": "Use conformability to find order of B or of a linear combination"
+  },
+  {
+   "id": "mat-mat-powers",
+   "chapter": "Matrices",
+   "name": "Powers of a matrix",
+   "desc": "Find A^n by pattern (A^2=I, A^2=2A, nilpotent) or k in A^n = kA"
+  },
+  {
+   "id": "mat-mat-idempotent",
+   "chapter": "Matrices",
+   "name": "Idempotent matrix expansions",
+   "desc": "Use A^2=A to simplify (I+A)^3, (I-A)^3"
+  },
+  {
+   "id": "mat-mat-solve-for-entries",
+   "chapter": "Matrices",
+   "name": "Solve matrix equation for unknowns",
+   "desc": "Equate entries or solve simultaneous matrix equations to find x, y or a matrix"
+  },
+  {
+   "id": "mat-mat-inverse-properties",
+   "chapter": "Matrices",
+   "name": "Inverse of matrix/product properties",
+   "desc": "Find A from PA=I or use (A^2)^{-1}=(A^{-1})^2"
+  },
+  {
+   "id": "mat-mat-types-definitions",
+   "chapter": "Matrices",
+   "name": "Types of matrices definitions",
+   "desc": "Row/diagonal/scalar/null/symmetric definitions, match-the-following"
+  },
+  {
+   "id": "mat-mat-inverse-trig-entries",
+   "chapter": "Matrices",
+   "name": "Matrix with inverse-trig entries",
+   "desc": "Add/subtract matrices using sin^-1+cos^-1=pi/2 type identities entrywise"
+  },
+  {
+   "id": "mat-mat-product-transpose",
+   "chapter": "Matrices",
+   "name": "Product and transpose computation",
+   "desc": "Multiply matrices and take transpose, (AB)'=B'A'"
+  },
+  {
+   "id": "mat-mat-det-of-product",
+   "chapter": "Matrices",
+   "name": "Determinant of product of matrices",
+   "desc": "Use |AB|=|A||B| and |B'|=|B|"
+  },
+  {
+   "id": "mat-det-ka-scaling",
+   "chapter": "Determinants",
+   "name": "Scaling det(kA) and det(kAB)",
+   "desc": "Use |kA|=k^n|A| and |AB|=|A||B|"
+  },
+  {
+   "id": "mat-det-adj-inverse-value",
+   "chapter": "Determinants",
+   "name": "Values of det(adj A), det(A^{-1}), det(A adj A)",
+   "desc": "Use |adj A|=|A|^{n-1}, A adj A=|A|I, characteristic equation constant, det of cofactor matrix"
+  },
+  {
+   "id": "mat-det-power-find-param",
+   "chapter": "Determinants",
+   "name": "Find parameter from det(A^n)",
+   "desc": "Use |A^n|=|A|^n to get |A| and solve for the entry"
+  },
+  {
+   "id": "mat-det-adjoint-entry",
+   "chapter": "Determinants",
+   "name": "Unknown entry of given adjoint",
+   "desc": "Use |adj A|=|A|^{n-1} to find unknown entry of the adjoint"
+  },
+  {
+   "id": "mat-det-property-evaluate",
+   "chapter": "Determinants",
+   "name": "Evaluate determinant using properties",
+   "desc": "Row/column operations make rows proportional or factorable (AP entries, logs, trig, a^3+b^3+c^3-3abc)"
+  },
+  {
+   "id": "mat-det-direct-evaluate",
+   "chapter": "Determinants",
+   "name": "Direct determinant evaluation",
+   "desc": "Expand small determinants with trig, omega or n-dependent entries, sum over n"
+  },
+  {
+   "id": "mat-det-equation-condition",
+   "chapter": "Determinants",
+   "name": "Determinant equation: solve or deduce relation",
+   "desc": "Set determinant=value and solve for x/theta/a or deduce AP/relation among variables"
+  },
+  {
+   "id": "mat-det-constant-term",
+   "chapter": "Determinants",
+   "name": "Constant term / value at a point of a determinant polynomial",
+   "desc": "Put x=0 (or root values) in a determinant polynomial"
+  },
+  {
+   "id": "mat-det-derivative",
+   "chapter": "Determinants",
+   "name": "Derivative of a determinant",
+   "desc": "Differentiate determinant function, express in terms of a smaller determinant"
+  },
+  {
+   "id": "mat-det-limit",
+   "chapter": "Determinants",
+   "name": "Limit of determinant function",
+   "desc": "Expand determinant and evaluate lim f(x)/x^2"
+  },
+  {
+   "id": "mat-det-area-triangle",
+   "chapter": "Determinants",
+   "name": "Area of triangle by determinant",
+   "desc": "Area = (1/2)|det|; find area or unknown vertex, or scaling of det"
+  },
+  {
+   "id": "mat-det-singular-param",
+   "chapter": "Determinants",
+   "name": "Singular matrix parameter",
+   "desc": "Set determinant=0 to find the unknown"
+  },
+  {
+   "id": "mat-det-system-consistency",
+   "chapter": "Determinants",
+   "name": "Consistency of a linear system",
+   "desc": "Use determinant/ratio of coefficients to decide no/unique/infinite solutions"
+  },
+  {
+   "id": "mat-det-equal-transform",
+   "chapter": "Determinants",
+   "name": "Relate two transformed determinants",
+   "desc": "Multiply/divide rows by variables and transpose to show Delta_1 = +-Delta"
+  },
+  {
+   "id": "mat-det-properties-statements",
+   "chapter": "Determinants",
+   "name": "Properties of determinants and adjoint (statements)",
+   "desc": "Pick correct/incorrect statements about det(AB), adj A, inverse, det(A+B)"
+  },
+  {
+   "id": "mat-det-locus-curve",
+   "chapter": "Determinants",
+   "name": "Curve defined by a determinant",
+   "desc": "Expand determinant to get the curve and find locus/symmetry"
+  },
+  {
+   "id": "mat-det-inverse-compute",
+   "chapter": "Determinants",
+   "name": "Compute inverse of a 3x3 matrix",
+   "desc": "Find A^{-1} via adjoint or for diagonal matrices"
+  },
+  {
+   "id": "mat-cd-continuity-find-k",
+   "chapter": "Continuity and Differentiability",
+   "name": "Find k for continuity of piecewise function",
+   "desc": "Equate the limit (standard limits, L'Hospital-type) with f(a) to find k or a,b"
+  },
+  {
+   "id": "mat-cd-discontinuity-points",
+   "chapter": "Continuity and Differentiability",
+   "name": "Points of continuity/discontinuity",
+   "desc": "Where [x], cot x, f(f(x)) or rational/irrational-defined functions are (dis)continuous"
+  },
+  {
+   "id": "mat-cd-differentiability-check",
+   "chapter": "Continuity and Differentiability",
+   "name": "Continuity and differentiability at a point",
+   "desc": "Check LHD/RHD for modulus/piecewise functions, graph corners, match properties"
+  },
+  {
+   "id": "mat-cd-differentiable-find-constants",
+   "chapter": "Continuity and Differentiability",
+   "name": "Constants for differentiability",
+   "desc": "Equate values and one-sided derivatives at the joint to find a, b"
+  },
+  {
+   "id": "mat-cd-e-one-by-x-limits",
+   "chapter": "Continuity and Differentiability",
+   "name": "One-sided limits of (e^{1/x}-1)/(e^{1/x}+1)",
+   "desc": "Evaluate LHL=-1, RHL=1 and conclude discontinuity at 0"
+  },
+  {
+   "id": "mat-cd-derivative-identity",
+   "chapter": "Continuity and Differentiability",
+   "name": "Higher-derivative identity / ODE satisfied",
+   "desc": "Show y satisfies (1-x^2)y''-xy'=m^2y type relations; f''+f=0 invariants; y^2+y'^2 constant"
+  },
+  {
+   "id": "mat-cd-second-derivative",
+   "chapter": "Continuity and Differentiability",
+   "name": "Evaluate a second derivative",
+   "desc": "Compute y'' directly, parametrically, implicitly, or f''(1) of a binomial sum"
+  },
+  {
+   "id": "mat-cd-parametric",
+   "chapter": "Continuity and Differentiability",
+   "name": "Parametric differentiation",
+   "desc": "dy/dx = (dy/dt)/(dx/dt) for given parametric forms, value at a point or where zero"
+  },
+  {
+   "id": "mat-cd-implicit",
+   "chapter": "Continuity and Differentiability",
+   "name": "Implicit differentiation",
+   "desc": "Differentiate implicit relations (x^m y^n=(x+y)^{m+n}, 2^x+2^y=2^{x+y}, cos y = x cos(a+y))"
+  },
+  {
+   "id": "mat-cd-infinite-radical",
+   "chapter": "Continuity and Differentiability",
+   "name": "Infinite nested radical derivative",
+   "desc": "Write y^2 = x + y (or tan x + y) and differentiate implicitly"
+  },
+  {
+   "id": "mat-cd-log-differentiation",
+   "chapter": "Continuity and Differentiability",
+   "name": "Logarithmic differentiation",
+   "desc": "Differentiate x^x, x^{sin x}, products of many factors using logs"
+  },
+  {
+   "id": "mat-cd-inverse-trig-derivative",
+   "chapter": "Continuity and Differentiability",
+   "name": "Derivative of inverse-trig composition",
+   "desc": "Simplify sin^-1(2x/(1+x^2)), tan^-1(...), cos^2(cot^-1 ...) by substitution then differentiate"
+  },
+  {
+   "id": "mat-cd-derivative-wrt-function",
+   "chapter": "Continuity and Differentiability",
+   "name": "Derivative of one function w.r.t. another",
+   "desc": "Compute (du/dx)/(dv/dx), often after inverse-trig simplification"
+  },
+  {
+   "id": "mat-cd-standard-rules",
+   "chapter": "Continuity and Differentiability",
+   "name": "Standard derivative rules",
+   "desc": "Apply chain/product/quotient rules to evaluate derivatives, including GIF constants and determinants"
+  },
+  {
+   "id": "mat-cd-abstract-chain-rule",
+   "chapter": "Continuity and Differentiability",
+   "name": "Chain rule with abstract functions",
+   "desc": "Use f(1), f'(1) data, f(x+y)=f(x)f(y), even/odd derivative facts to find derivative values"
+  },
+  {
+   "id": "mat-cd-rolle-mvt",
+   "chapter": "Continuity and Differentiability",
+   "name": "Rolle's theorem / Mean Value Theorem",
+   "desc": "Find c in MVT or decide where Rolle's theorem fails"
+  },
+  {
+   "id": "mat-cd-exp-function-features",
+   "chapter": "Continuity and Differentiability",
+   "name": "Features of exponential function",
+   "desc": "Domain, range, intercept and monotonicity of b^x"
+  },
+  {
+   "id": "mat-aod-subtangent-subnormal",
+   "chapter": "Application of Derivatives",
+   "name": "Subtangent and subnormal",
+   "desc": "Use subtangent = y/y', subnormal = y y' for given curves; ratios and progressions"
+  },
+  {
+   "id": "mat-aod-tangent-slope-condition",
+   "chapter": "Application of Derivatives",
+   "name": "Point where tangent has given direction",
+   "desc": "Set dy/dx equal to required slope (parallel to axis, 45 deg, equal inclination) to find point or constants"
+  },
+  {
+   "id": "mat-aod-tangent-normal-slope-equation",
+   "chapter": "Application of Derivatives",
+   "name": "Slope/equation of tangent or normal",
+   "desc": "Compute dy/dx at a point (incl. parametric) for tangent/normal slope or equation"
+  },
+  {
+   "id": "mat-aod-tangent-intercept-area",
+   "chapter": "Application of Derivatives",
+   "name": "Area of triangle formed by tangent/normal",
+   "desc": "Find intercepts of tangent/normal with axes and the triangle area"
+  },
+  {
+   "id": "mat-aod-angle-between-curves",
+   "chapter": "Application of Derivatives",
+   "name": "Angle between two curves / orthogonality",
+   "desc": "Use slopes at the intersection point; orthogonal if m1 m2 = -1"
+  },
+  {
+   "id": "mat-aod-related-rates-geometry",
+   "chapter": "Application of Derivatives",
+   "name": "Related rates for areas and volumes",
+   "desc": "Differentiate area/volume formulas of circle, sphere, triangle w.r.t. t or another variable"
+  },
+  {
+   "id": "mat-aod-rate-on-curve",
+   "chapter": "Application of Derivatives",
+   "name": "Point on curve with given ratio of coordinate rates",
+   "desc": "Use dy/dt = k dx/dt with the curve's derivative to locate point/quadrant"
+  },
+  {
+   "id": "mat-aod-kinematics",
+   "chapter": "Application of Derivatives",
+   "name": "Motion from s(t)",
+   "desc": "Velocity, acceleration, max height, distance from displacement or rate functions"
+  },
+  {
+   "id": "mat-aod-increasing-decreasing",
+   "chapter": "Application of Derivatives",
+   "name": "Intervals of increase/decrease",
+   "desc": "Sign of f'(x) to find monotonic intervals"
+  },
+  {
+   "id": "mat-aod-xx-type-extrema",
+   "chapter": "Application of Derivatives",
+   "name": "Extrema of x^x, (1/x)^x, log x/x, xe^-x",
+   "desc": "Set derivative of log form to zero, extreme at x=e or 1/e"
+  },
+  {
+   "id": "mat-aod-critical-points",
+   "chapter": "Application of Derivatives",
+   "name": "Critical points and their nature",
+   "desc": "Find stationary points, max slope, local min of |x|-type, inflexion via derivatives"
+  },
+  {
+   "id": "mat-aod-min-max-trig-exp",
+   "chapter": "Application of Derivatives",
+   "name": "Min/max of trig-based expressions",
+   "desc": "Use range of a sin + b cos or sin x to find extreme values"
+  },
+  {
+   "id": "mat-aod-optimization-geometry",
+   "chapter": "Application of Derivatives",
+   "name": "Geometric optimization",
+   "desc": "Maximise area/volume (sector, inscribed rectangle, cone), minimise sum of cubes or distance"
+  },
+  {
+   "id": "mat-aod-approximation",
+   "chapter": "Application of Derivatives",
+   "name": "Approximation using differentials",
+   "desc": "dy = f'(x) dx to approximate roots or percentage changes"
+  },
+  {
+   "id": "mat-aod-rolle-mvt",
+   "chapter": "Application of Derivatives",
+   "name": "Rolle's/MVT applicability",
+   "desc": "Check which functions satisfy Rolle's theorem or MVT on an interval"
+  },
+  {
+   "id": "mat-int-ex-f-plus-fprime",
+   "chapter": "Integrals",
+   "name": "e^x[f(x)+f'(x)] form",
+   "desc": "Recognise integrand as e^{g}(f+f') (incl. (x-1)e^x/(x+1)^3, e^x(1+sin x)/(1+cos x)) giving e^x f(x)"
+  },
+  {
+   "id": "mat-int-king-symmetric",
+   "chapter": "Integrals",
+   "name": "King property f/(f+f(a+b-x))",
+   "desc": "Use x -> a+b-x so I = (b-a)/2 for symmetric ratio integrands"
+  },
+  {
+   "id": "mat-int-king-log-xf",
+   "chapter": "Integrals",
+   "name": "King property for x f(x) or log integrands",
+   "desc": "Use f(a+b-x)=f(x) to reduce int x f(x), or log(1+tan x)-type integrals to (pi/8) log 2 form"
+  },
+  {
+   "id": "mat-int-odd-even",
+   "chapter": "Integrals",
+   "name": "Odd/even function over symmetric limits",
+   "desc": "Odd integrand over [-a,a] gives 0; even doubles; shift to make odd"
+  },
+  {
+   "id": "mat-int-inverse-trig-symmetric",
+   "chapter": "Integrals",
+   "name": "Inverse trig over symmetric limits",
+   "desc": "Use cot^-1(-x)=pi-cot^-1 x or cos^-1(-x)=pi-cos^-1 x to evaluate over [-a,a]"
+  },
+  {
+   "id": "mat-int-one-plus-ex-symmetric",
+   "chapter": "Integrals",
+   "name": "g(x)/(1+e^x) over symmetric limits",
+   "desc": "Add I with x -> -x to get half the integral of g"
+  },
+  {
+   "id": "mat-int-modulus-definite",
+   "chapter": "Integrals",
+   "name": "Definite integral of modulus function",
+   "desc": "Split at zeros of the expression inside |.| and integrate piecewise"
+  },
+  {
+   "id": "mat-int-gif-definite",
+   "chapter": "Integrals",
+   "name": "Definite integral of greatest integer function",
+   "desc": "Split at integer points (or sqrt points for [x^2]) and sum constant pieces"
+  },
+  {
+   "id": "mat-int-reduction-formula",
+   "chapter": "Integrals",
+   "name": "Reduction formulas",
+   "desc": "I_n + I_{n-2} for tan^n x, or I_n + n I_{n-1} for (log x)^n"
+  },
+  {
+   "id": "mat-int-partial-fractions",
+   "chapter": "Integrals",
+   "name": "Partial fractions in integration",
+   "desc": "Decompose rational integrands to find A,B,C coefficients or the integral"
+  },
+  {
+   "id": "mat-int-x2-x4-power-sub",
+   "chapter": "Integrals",
+   "name": "int dx/(x^2(x^4+1)^{3/4})",
+   "desc": "Take x^4 out, substitute 1+x^{-4}=t"
+  },
+  {
+   "id": "mat-int-tan-cot-power-sub",
+   "chapter": "Integrals",
+   "name": "sin^n/cos^{n+2} and cos^{n-1}/sin^{n+1} forms",
+   "desc": "Write as tan^n sec^2 or cot^{n-1} cosec^2 and substitute"
+  },
+  {
+   "id": "mat-int-standard-forms",
+   "chapter": "Integrals",
+   "name": "Standard forms: quadratics and a sin^2+b cos^2",
+   "desc": "Complete square for sqrt(ax^2+bx+c), 1/sqrt(...), divide by cos^2 to get tan^-1 forms"
+  },
+  {
+   "id": "mat-int-trig-identity-simplify",
+   "chapter": "Integrals",
+   "name": "Simplify with trig/exp identities then integrate",
+   "desc": "Use factor formulas, half angles, e^{k log x}=x^k to reduce integrand to standard ones"
+  },
+  {
+   "id": "mat-int-substitution",
+   "chapter": "Integrals",
+   "name": "Integration by substitution",
+   "desc": "Choose t = g(x) (sqrt x, e^x, sin x, tan^-1 x^4, log x) for indefinite or definite integrals"
+  },
+  {
+   "id": "mat-int-by-parts",
+   "chapter": "Integrals",
+   "name": "Integration by parts",
+   "desc": "Apply parts (repeated/tabular) to x^n trig, inverse trig, or compare two definite integrals"
+  },
+  {
+   "id": "mat-int-limit-of-sum",
+   "chapter": "Integrals",
+   "name": "Definite integral as limit of sum",
+   "desc": "Evaluate int_a^b f as limit of Riemann sum (value equals the definite integral)"
+  },
+  {
+   "id": "mat-int-change-of-limits",
+   "chapter": "Integrals",
+   "name": "Shift property of definite integrals",
+   "desc": "int_{a-c}^{b-c} f(x+c)dx = int_a^b f(x)dx"
+  },
+  {
+   "id": "mat-aoi-parabola-line",
+   "chapter": "Application of Integrals",
+   "name": "Area between parabola and line/parabola",
+   "desc": "Find intersection points and integrate difference (y^2=4ax with y=mx, y=x^2 with x=y^2)"
+  },
+  {
+   "id": "mat-aoi-curve-horizontal-line",
+   "chapter": "Application of Integrals",
+   "name": "Area between curve and horizontal line/y-axis",
+   "desc": "Integrate in y (or x) for y=x^2 and y=k, y=x^3 and y=8, y^2=x^3 between y-limits"
+  },
+  {
+   "id": "mat-aoi-line-with-ordinates",
+   "chapter": "Application of Integrals",
+   "name": "Area under a straight line between ordinates",
+   "desc": "Split at x-intercept and sum triangle areas for y=mx+c between x=a and x=b"
+  },
+  {
+   "id": "mat-aoi-trig-curve",
+   "chapter": "Application of Integrals",
+   "name": "Area under trig curves",
+   "desc": "Integrate |sin(x/3)|, |cos x|, tan x, between sin and cos or tan and cot over given limits"
+  },
+  {
+   "id": "mat-aoi-circle-ellipse",
+   "chapter": "Application of Integrals",
+   "name": "Area of circle/ellipse regions",
+   "desc": "Area of semicircle, circle from parametric form, or region between parabola and circle"
+  },
+  {
+   "id": "mat-de-order-degree",
+   "chapter": "Differential Equations",
+   "name": "Order and degree of a DE",
+   "desc": "Rationalise powers; degree undefined if derivative inside sin/log; combine m,n as asked"
+  },
+  {
+   "id": "mat-de-order-family",
+   "chapter": "Differential Equations",
+   "name": "Order from number of arbitrary constants",
+   "desc": "Count essential (independent) arbitrary constants of a family of curves"
+  },
+  {
+   "id": "mat-de-form-from-family",
+   "chapter": "Differential Equations",
+   "name": "Form DE of a family of curves",
+   "desc": "Differentiate and eliminate the arbitrary constant"
+  },
+  {
+   "id": "mat-de-integrating-factor",
+   "chapter": "Differential Equations",
+   "name": "Integrating factor of a linear DE",
+   "desc": "Write in dy/dx+Py=Q (or dx/dy+Px=Q) form and compute e^{int P}"
+  },
+  {
+   "id": "mat-de-linear-solve",
+   "chapter": "Differential Equations",
+   "name": "Solve a linear first-order DE",
+   "desc": "Find IF, solve y(IF)=int Q(IF), apply initial condition if given"
+  },
+  {
+   "id": "mat-de-variable-separable",
+   "chapter": "Differential Equations",
+   "name": "Variable separable DE",
+   "desc": "Separate variables and integrate, apply initial condition, count solutions"
+  },
+  {
+   "id": "mat-de-solution-family",
+   "chapter": "Differential Equations",
+   "name": "Geometric type of solution family",
+   "desc": "Solve a simple DE and identify the curve family (lines, parabolas, hyperbolas)"
+  },
+  {
+   "id": "mat-de-slope-condition-curve",
+   "chapter": "Differential Equations",
+   "name": "Curve from a tangent-slope condition",
+   "desc": "Write dy/dx from the geometric condition, solve and use the given point"
+  },
+  {
+   "id": "mat-de-substitution",
+   "chapter": "Differential Equations",
+   "name": "DE by substitution/exact differential",
+   "desc": "Use v=x+y or d(xy)=x dy + y dx to solve"
+  },
+  {
+   "id": "mat-de-growth-decay",
+   "chapter": "Differential Equations",
+   "name": "Exponential growth/decay",
+   "desc": "dP/dt = kP gives doubling time ln2/k"
+  },
+  {
+   "id": "mat-de-functional-equation",
+   "chapter": "Differential Equations",
+   "name": "Function from a derivative/integral equation",
+   "desc": "Convert relation like f=f'+f''+... or int x f + f/2=0 into a DE and solve"
+  },
+  {
+   "id": "mat-vec-lagrange-identity",
+   "chapter": "Vector Algebra",
+   "name": "Lagrange identity for cross and dot products",
+   "desc": "Use |a x b|^2+(a.b)^2=|a|^2|b|^2 to find |b| or |a x b|"
+  },
+  {
+   "id": "mat-vec-unit-sum-zero",
+   "chapter": "Vector Algebra",
+   "name": "a+b+c=0 with given magnitudes",
+   "desc": "Square a+b+c=0 to get sum of dot products or angle between two of them"
+  },
+  {
+   "id": "mat-vec-cross-from-linear-relation",
+   "chapter": "Vector Algebra",
+   "name": "Cross-product sum from a+2b+3c=0",
+   "desc": "Substitute a=-2b-3c into a x b + b x c + c x a"
+  },
+  {
+   "id": "mat-vec-stp-combination",
+   "chapter": "Vector Algebra",
+   "name": "Scalar triple product of linear combinations",
+   "desc": "Expand [pa+qb, ...] as det of coefficients x [a b c]; [axb bxc cxa]=[a b c]^2"
+  },
+  {
+   "id": "mat-vec-coplanar-volume-param",
+   "chapter": "Vector Algebra",
+   "name": "Coplanarity or volume to find a parameter",
+   "desc": "Set the 3x3 determinant of components to 0 or to the given volume"
+  },
+  {
+   "id": "mat-vec-reciprocal-system",
+   "chapter": "Vector Algebra",
+   "name": "Reciprocal vectors and triple products",
+   "desc": "Use a.(b x c)=[a b c] and reciprocal vector definitions to simplify"
+  },
+  {
+   "id": "mat-vec-angle-from-condition",
+   "chapter": "Vector Algebra",
+   "name": "Angle between vectors from a condition",
+   "desc": "Square magnitude conditions (|a+b| unit, |a+b|=|a-b|, sqrt3a-b unit) or dot relations to get theta"
+  },
+  {
+   "id": "mat-vec-magnitude-from-dot",
+   "chapter": "Vector Algebra",
+   "name": "Magnitude or dot product via expansion",
+   "desc": "Expand |pa+qb|^2 or (pa+qb).(ra+sb) with given magnitudes and angle"
+  },
+  {
+   "id": "mat-vec-orthogonal-param",
+   "chapter": "Vector Algebra",
+   "name": "Parameter for perpendicular vectors",
+   "desc": "Set dot product to zero (and use equal magnitudes if given) to find lambda"
+  },
+  {
+   "id": "mat-vec-unit-perpendicular",
+   "chapter": "Vector Algebra",
+   "name": "Unit vector perpendicular to two vectors",
+   "desc": "Compute a x b and normalise"
+  },
+  {
+   "id": "mat-vec-cross-area",
+   "chapter": "Vector Algebra",
+   "name": "Area of parallelogram/triangle/quadrilateral by cross product",
+   "desc": "Area = |a x b| (or half); diagonals d1 x d2 /2; scaling by coefficient determinant; side lengths from diagonals"
+  },
+  {
+   "id": "mat-vec-median-length",
+   "chapter": "Vector Algebra",
+   "name": "Length of median from side vectors",
+   "desc": "Median vector = (AB+AC)/2, take magnitude"
+  },
+  {
+   "id": "mat-vec-projection",
+   "chapter": "Vector Algebra",
+   "name": "Projection and components",
+   "desc": "Scalar projection a.b/|b|, resolve into parallel and perpendicular parts, vector in a plane with given projection"
+  },
+  {
+   "id": "mat-vec-direction-cosines",
+   "chapter": "Vector Algebra",
+   "name": "Direction cosines and unit vectors",
+   "desc": "Use l^2+m^2+n^2=1 to find missing angle/vector, or scalar making a unit vector"
+  },
+  {
+   "id": "mat-vec-vector-triple-product",
+   "chapter": "Vector Algebra",
+   "name": "Vector triple product and vector equations",
+   "desc": "Expand a x (b x c)=(a.c)b-(a.b)c or solve a x c=b, a.c=k"
+  },
+  {
+   "id": "mat-vec-properties-statements",
+   "chapter": "Vector Algebra",
+   "name": "Properties of i,j,k and products (statements)",
+   "desc": "Decide true/false statements about dot/cross products of unit vectors or perpendicular vectors"
+  },
+  {
+   "id": "mat-3d-axis-distance-reflection",
+   "chapter": "Three Dimensional Geometry",
+   "name": "Distance from axis / reflection in coordinate plane",
+   "desc": "Distance from x-axis = sqrt(y^2+z^2); reflection in XY plane changes sign of z"
+  },
+  {
+   "id": "mat-3d-plane-equation",
+   "chapter": "Three Dimensional Geometry",
+   "name": "Equation of a plane from conditions",
+   "desc": "Plane through point with given normal, through 3 points, given foot of perpendicular, intercept form from centroid"
+  },
+  {
+   "id": "mat-3d-line-plane-parallel",
+   "chapter": "Three Dimensional Geometry",
+   "name": "Line parallel to / lying in a plane",
+   "desc": "b.n=0 for parallel; additionally a point of the line satisfies the plane"
+  },
+  {
+   "id": "mat-3d-angle-between-lines",
+   "chapter": "Three Dimensional Geometry",
+   "name": "Angle between two lines / perpendicular lines",
+   "desc": "cos theta = |b1.b2|/(|b1||b2|) from direction ratios; perpendicular => dot = 0"
+  },
+  {
+   "id": "mat-3d-coplanar-lines",
+   "chapter": "Three Dimensional Geometry",
+   "name": "Condition for coplanar lines",
+   "desc": "Determinant of (a2-a1, b1, b2) = 0"
+  },
+  {
+   "id": "mat-3d-line-equation",
+   "chapter": "Three Dimensional Geometry",
+   "name": "Equation of a line",
+   "desc": "Line through two points, through a point parallel to intersection of planes, or perpendicular to a line"
+  },
+  {
+   "id": "mat-3d-foot-perpendicular-plane",
+   "chapter": "Three Dimensional Geometry",
+   "name": "Foot of perpendicular to a plane",
+   "desc": "Foot = P - ((ax0+by0+cz0+d)/|n|^2) n"
+  },
+  {
+   "id": "mat-3d-image-in-line",
+   "chapter": "Three Dimensional Geometry",
+   "name": "Image of a point in a line",
+   "desc": "Find foot of perpendicular on the line and reflect"
+  },
+  {
+   "id": "mat-3d-direction-cosines-axes",
+   "chapter": "Three Dimensional Geometry",
+   "name": "Angles with coordinate axes",
+   "desc": "Use cos^2 a+cos^2 b+cos^2 c=1 (or sum cos 2a = -1) to find the third angle"
+  },
+  {
+   "id": "mat-3d-angle-line-plane",
+   "chapter": "Three Dimensional Geometry",
+   "name": "Angle between line and plane",
+   "desc": "sin theta = |b.n|/(|b||n|); plane with x-axis similarly"
+  },
+  {
+   "id": "mat-3d-distance-point-line",
+   "chapter": "Three Dimensional Geometry",
+   "name": "Distance of point from a line",
+   "desc": "Find foot of perpendicular via parameter or use |(P-A) x b|/|b|"
+  },
+  {
+   "id": "mat-3d-section-by-plane",
+   "chapter": "Three Dimensional Geometry",
+   "name": "Ratio in which a coordinate plane divides a segment",
+   "desc": "Set the relevant coordinate of the section point to zero"
+  },
+  {
+   "id": "mat-3d-line-plane-intersection",
+   "chapter": "Three Dimensional Geometry",
+   "name": "Intersection of line and plane",
+   "desc": "Substitute parametric point of line into plane equation"
+  },
+  {
+   "id": "mat-3d-distance-point-plane",
+   "chapter": "Three Dimensional Geometry",
+   "name": "Distance of point from plane",
+   "desc": "|ax0+by0+cz0+d|/sqrt(a^2+b^2+c^2)"
+  },
+  {
+   "id": "mat-3d-locus-planes",
+   "chapter": "Three Dimensional Geometry",
+   "name": "Locus as pair of planes",
+   "desc": "Factor the equation into planes and check their normals"
+  },
+  {
+   "id": "mat-prob-dice-sum",
+   "chapter": "Probability",
+   "name": "Two-dice sum probabilities",
+   "desc": "Count favourable outcomes out of 36 for sums or face conditions"
+  },
+  {
+   "id": "mat-prob-classical-counting",
+   "chapter": "Probability",
+   "name": "Classical probability by counting",
+   "desc": "Use nCr counts for cards, marbles, letters, tickets/batteries without replacement, onto functions"
+  },
+  {
+   "id": "mat-prob-binomial",
+   "chapter": "Probability",
+   "name": "Binomial distribution",
+   "desc": "P(X=r)=nCr p^r q^{n-r}; at least one, at most one, random walk, find p from ratio"
+  },
+  {
+   "id": "mat-prob-distribution-find-k",
+   "chapter": "Probability",
+   "name": "Find k in a probability distribution",
+   "desc": "Set sum of probabilities = 1 and solve for k or the missing probability"
+  },
+  {
+   "id": "mat-prob-mean-variance-rv",
+   "chapter": "Probability",
+   "name": "Mean/SD of a random variable",
+   "desc": "E(X)=sum x p, Var = E(X^2)-E(X)^2"
+  },
+  {
+   "id": "mat-prob-conditional",
+   "chapter": "Probability",
+   "name": "Conditional probability",
+   "desc": "P(A|B)=P(A n B)/P(B); complements, subset/equal-condition statements, reduced sample space"
+  },
+  {
+   "id": "mat-prob-addition-complement",
+   "chapter": "Probability",
+   "name": "Addition rule and complements",
+   "desc": "P(AuB)=P(A)+P(B)-P(AnB), mutually exclusive 'neither' probabilities, exhaustive events"
+  },
+  {
+   "id": "mat-prob-independent-events",
+   "chapter": "Probability",
+   "name": "Independent events",
+   "desc": "P(AnB)=P(A)P(B); at least two of three, neither, independence statements"
+  },
+  {
+   "id": "mat-prob-total-bayes",
+   "chapter": "Probability",
+   "name": "Total probability and Bayes' theorem",
+   "desc": "Partition into cases (plants, temples, lockdown, coins, truth-teller) and apply total probability/Bayes"
+  },
+  {
+   "id": "mat-lpp-shaded-region",
+   "chapter": "Linear Programming",
+   "name": "Inequalities for a shaded feasible region",
+   "desc": "Test a point to find the sign of each boundary line inequality"
+  },
+  {
+   "id": "mat-lpp-corner-point-optimum",
+   "chapter": "Linear Programming",
+   "name": "Optimum by corner-point method",
+   "desc": "Evaluate z at corner points of the feasible region (given or found) to get max/min"
+  },
+  {
+   "id": "mat-lpp-multiple-optima",
+   "chapter": "Linear Programming",
+   "name": "Multiple optimal solutions",
+   "desc": "Equal z at two corners gives optimum on the whole segment; find p,q relation or number of points"
+  },
+  {
+   "id": "mat-lpp-theory",
+   "chapter": "Linear Programming",
+   "name": "LPP terminology and feasibility",
+   "desc": "Statements about objective function, constraints, infeasible regions"
+  },
+  {
+   "id": "mat-lpp-formulation",
+   "chapter": "Linear Programming",
+   "name": "Formulate an LPP word problem",
+   "desc": "Translate diet/production data into constraints and find corner points"
+  },
+  {
+   "id": "mat-sl-line-parallel-perp",
+   "chapter": "Straight Lines",
+   "name": "Line through a point parallel/perpendicular to a line",
+   "desc": "Use slope relation to write the line, then its equation or intercept"
+  },
+  {
+   "id": "mat-sl-perp-parallel-condition",
+   "chapter": "Straight Lines",
+   "name": "Parameter from parallel/perpendicular condition",
+   "desc": "m1 m2 = -1 or equal slopes (or parallel to an axis) to find k, beta, lambda"
+  },
+  {
+   "id": "mat-sl-foot-distance",
+   "chapter": "Straight Lines",
+   "name": "Foot of perpendicular / perpendicular distance",
+   "desc": "Use distance formula |ax+by+c|/sqrt(a^2+b^2) or foot formula"
+  },
+  {
+   "id": "mat-sl-triangle-centres",
+   "chapter": "Straight Lines",
+   "name": "Centroid, circumcentre and collinearity",
+   "desc": "Centroid from vertices/midpoints, circumcentre of right triangle, collinearity check"
+  },
+  {
+   "id": "mat-sl-section-formula",
+   "chapter": "Straight Lines",
+   "name": "Section formula",
+   "desc": "Points dividing a segment in a ratio; line through point of division"
+  },
+  {
+   "id": "mat-sl-concurrency-bisector",
+   "chapter": "Straight Lines",
+   "name": "Concurrency, angle bisector, circles touching lines",
+   "desc": "Concurrent lines determinant, internal bisector of angle, circles tangent to axes and a line"
+  },
+  {
+   "id": "mat-sl-locus-reflection",
+   "chapter": "Straight Lines",
+   "name": "Locus and reflection of a point",
+   "desc": "Write distance conditions for locus; reflect point in y=-x etc."
+  },
+  {
+   "id": "mat-sl-pair-of-lines",
+   "chapter": "Straight Lines",
+   "name": "Homogeneous pair of lines",
+   "desc": "Slopes ratio condition 4nh^2=(n+1)^2ab, angle between pair of lines"
+  },
+  {
+   "id": "mat-sl-angle-inclination",
+   "chapter": "Straight Lines",
+   "name": "Angle between lines / inclination",
+   "desc": "tan theta = |(m1-m2)/(1+m1m2)|; equal intercepts give slope -1"
+  },
+  {
+   "id": "mat-sl-intercept-triangle-area",
+   "chapter": "Straight Lines",
+   "name": "Area of triangle formed with axes",
+   "desc": "Intercept form, minimise area for a variable line"
+  },
+  {
+   "id": "mat-con-circle-chord",
+   "chapter": "Conic Sections",
+   "name": "Chords of a circle",
+   "desc": "Chord length, chord bisected at a point, common chord, y-intercept chord, locus of chord midpoints"
+  },
+  {
+   "id": "mat-con-circle-equation",
+   "chapter": "Conic Sections",
+   "name": "Equation/centre/radius of a circle from conditions",
+   "desc": "Circle from diameter, centre and tangency, concyclic points, parametric form, radius as distance to line"
+  },
+  {
+   "id": "mat-con-common-tangents-count",
+   "chapter": "Conic Sections",
+   "name": "Number of common tangents",
+   "desc": "Compare distance between centres with r1+r2 and |r1-r2|"
+  },
+  {
+   "id": "mat-con-orthogonal-circles",
+   "chapter": "Conic Sections",
+   "name": "Orthogonal circles",
+   "desc": "2g1g2+2f1f2=c1+c2; circle cutting three circles orthogonally (radical centre)"
+  },
+  {
+   "id": "mat-con-circle-tangent",
+   "chapter": "Conic Sections",
+   "name": "Tangents to a circle",
+   "desc": "Tangency condition for a line, tangents from external point, length of tangent, least/greatest distance"
+  },
+  {
+   "id": "mat-con-parabola-latus-rectum",
+   "chapter": "Conic Sections",
+   "name": "Latus rectum of a parabola",
+   "desc": "Reduce to standard form, LR = 4a; triangle with vertex and LR ends"
+  },
+  {
+   "id": "mat-con-parabola-focus-focal",
+   "chapter": "Conic Sections",
+   "name": "Parabola focus, focal distance and focal chords",
+   "desc": "Focal distance x+a, harmonic property of focal chord, equation from focus-directrix, parametric form"
+  },
+  {
+   "id": "mat-con-parabola-tangent-normal",
+   "chapter": "Conic Sections",
+   "name": "Tangent/normal to a parabola",
+   "desc": "Tangent of given slope y=mx+a/m, normal condition c=-2am-am^3, tangents at focal chord ends meet on directrix"
+  },
+  {
+   "id": "mat-con-tangent-condition-conic",
+   "chapter": "Conic Sections",
+   "name": "Tangency condition for ellipse/hyperbola",
+   "desc": "c^2 = a^2 m^2 +- b^2, point of contact, director circle"
+  },
+  {
+   "id": "mat-con-ellipse-properties",
+   "chapter": "Conic Sections",
+   "name": "Ellipse eccentricity, LR, area and eccentric angle",
+   "desc": "Use b^2=a^2(1-e^2), LR=2b^2/a, area pi ab, focal triangle area"
+  },
+  {
+   "id": "mat-con-hyperbola-equation",
+   "chapter": "Conic Sections",
+   "name": "Equation of hyperbola from given data",
+   "desc": "Use 2ae, e, asymptotes or vertices, focal chord to find a, b"
+  },
+  {
+   "id": "mat-con-hyperbola-focus-directrix",
+   "chapter": "Conic Sections",
+   "name": "Hyperbola foci/directrix/eccentricity relations",
+   "desc": "Distances ae and a/e, ratios, coincident foci with ellipse, sum of e^2 of conjugate conics"
+  },
+  {
+   "id": "mat-con-misc-locus",
+   "chapter": "Conic Sections",
+   "name": "Loci and curve intersections",
+   "desc": "Locus of centroid of moving points; symmetric functions of intersection points of circle and xy=c^2"
+  },
+  {
+   "id": "mat-con-conic-from-cone",
+   "chapter": "Conic Sections",
+   "name": "Conic sections from a cone",
+   "desc": "Relate cutting-plane angle and semi-vertical angle to identify ellipse/parabola/hyperbola"
+  },
+  {
+   "id": "mat-trig-identity-simplify",
+   "chapter": "Trigonometric Functions",
+   "name": "Simplify single-variable trig expressions",
+   "desc": "Use Pythagorean/power identities (sin^6+cos^6, tan+cot) or nested half-angle radicals"
+  },
+  {
+   "id": "mat-trig-many-angle-products",
+   "chapter": "Trigonometric Functions",
+   "name": "Products/sums over many angles",
+   "desc": "tan1..tan89 = 1, log products with log 1 = 0, sum sin over full cycle, sin10 sin30 sin50 sin70, cot-sum with A+B+C"
+  },
+  {
+   "id": "mat-trig-evaluate-angle-expression",
+   "chapter": "Trigonometric Functions",
+   "name": "Evaluate compound/allied/half-angle expressions",
+   "desc": "Use allied angles, A+-B, half-angle and product formulas to evaluate numeric trig expressions"
+  },
+  {
+   "id": "mat-trig-equation-general",
+   "chapter": "Trigonometric Functions",
+   "name": "Solve trigonometric equations",
+   "desc": "Reduce to standard forms (sin x = sin a etc.) to get general or particular solutions, incl. GP-sum equations"
+  },
+  {
+   "id": "mat-trig-sum-difference-condition",
+   "chapter": "Trigonometric Functions",
+   "name": "Given sums/differences of sines and cosines",
+   "desc": "Use sum-to-product to find tan((x+y)/2) and tan(x+y), or roots-of-quadratic in tan"
+  },
+  {
+   "id": "mat-trig-triangle",
+   "chapter": "Trigonometric Functions",
+   "name": "Triangle trigonometry",
+   "desc": "Use sine/cosine rules, projection formula, angle conditions in a triangle"
+  },
+  {
+   "id": "mat-trig-radian-arc",
+   "chapter": "Trigonometric Functions",
+   "name": "Radian/degree and arc length",
+   "desc": "l = r theta, degree-minute-second conversion, ratio of radii"
+  },
+  {
+   "id": "mat-trig-range-sign",
+   "chapter": "Trigonometric Functions",
+   "name": "Range, sign and behaviour of trig functions",
+   "desc": "Possible values of sin/cos/sec, monotonic behaviour by quadrant, maximum of a sin + b cos"
+  },
+  {
+   "id": "mat-cx-omega",
+   "chapter": "Complex Numbers and Quadratic Equations",
+   "name": "Cube roots of unity",
+   "desc": "Use omega^3=1, 1+omega+omega^2=0 to simplify powers and products"
+  },
+  {
+   "id": "mat-cx-powers-of-i",
+   "chapter": "Complex Numbers and Quadratic Equations",
+   "name": "Powers of i and ((1+i)/(1-i))^n",
+   "desc": "Reduce to i^n, polar form or De Moivre to find least n or value"
+  },
+  {
+   "id": "mat-cx-argand-quadrant",
+   "chapter": "Complex Numbers and Quadratic Equations",
+   "name": "Quadrant/position in Argand plane",
+   "desc": "Simplify to a+ib or rotate by 90 deg to locate the point"
+  },
+  {
+   "id": "mat-cx-modulus-argument",
+   "chapter": "Complex Numbers and Quadratic Equations",
+   "name": "Modulus and argument",
+   "desc": "Use |z1 z2|=|z1||z2|, |z1/z2|, standard results like |(b-a)/(1-a-bar b)|=1"
+  },
+  {
+   "id": "mat-cx-locus",
+   "chapter": "Complex Numbers and Quadratic Equations",
+   "name": "Locus of z",
+   "desc": "Convert |z-a|=|z-b| type conditions to Cartesian form"
+  },
+  {
+   "id": "mat-cx-equation-conjugate",
+   "chapter": "Complex Numbers and Quadratic Equations",
+   "name": "Complex equations, conjugates, real/imaginary parts",
+   "desc": "Equate real/imaginary parts, conjugate properties, count solutions, purely real condition"
+  },
+  {
+   "id": "mat-cx-roots-symmetric",
+   "chapter": "Complex Numbers and Quadratic Equations",
+   "name": "Symmetric functions of roots",
+   "desc": "Use Vieta relations for quadratics/cubics, roots in AP, quadratic from AM and GM"
+  },
+  {
+   "id": "mat-cx-quadratic-min",
+   "chapter": "Complex Numbers and Quadratic Equations",
+   "name": "Minimum of a quadratic expression",
+   "desc": "Complete the square to get minimum value"
+  },
+  {
+   "id": "mat-bin-number-of-terms",
+   "chapter": "Binomial Theorem",
+   "name": "Number of terms in an expansion",
+   "desc": "(x+y)^n+-(x-y)^n leaves alternate terms; (2x+3)^n has n+1 terms; multinomial count C(n+2,2)"
+  },
+  {
+   "id": "mat-bin-general-middle-term",
+   "chapter": "Binomial Theorem",
+   "name": "General/middle/constant term",
+   "desc": "Use T_{r+1}=nCr a^{n-r} b^r to find a specified, middle or x-independent term"
+  },
+  {
+   "id": "mat-bin-equal-coefficients",
+   "chapter": "Binomial Theorem",
+   "name": "Equal coefficients or equal consecutive terms",
+   "desc": "nCr = nC(r+k) => r + r+k = n; equal T_r, T_{r+1} gives ratio condition"
+  },
+  {
+   "id": "mat-bin-coefficient-sums",
+   "chapter": "Binomial Theorem",
+   "name": "Sums of binomial coefficients",
+   "desc": "Use sum nCr=2^n, substitute x=+-1, or weighted sums like sum (r+1)C_r, sum r C_r/C_{r-1}"
+  },
+  {
+   "id": "mat-pnc-factorial-divisibility",
+   "chapter": "Permutations and Combinations",
+   "name": "Factorials: divisibility, remainders, series",
+   "desc": "Factor products into consecutive integers, remainders of factorial sums, sum r.r! = (n+1)!-1"
+  },
+  {
+   "id": "mat-pnc-digit-numbers",
+   "chapter": "Permutations and Combinations",
+   "name": "Forming numbers from digits",
+   "desc": "Count numbers with fixed prefix, parity, odd/even digit mix, no repetition, zero restriction"
+  },
+  {
+   "id": "mat-pnc-ncr-identities",
+   "chapter": "Permutations and Combinations",
+   "name": "nCr identities",
+   "desc": "nCr=nC(n-r), Pascal's rule nCr + nC(r-1) = (n+1)Cr chained sums"
+  },
+  {
+   "id": "mat-pnc-geometric-counting",
+   "chapter": "Permutations and Combinations",
+   "name": "Handshakes, diagonals, chords, triangles",
+   "desc": "nC2 handshakes/chords, nC2 - n diagonals, nC3 triangles"
+  },
+  {
+   "id": "mat-pnc-arrangement-restriction",
+   "chapter": "Permutations and Combinations",
+   "name": "Arrangements with restrictions",
+   "desc": "Gap method for no two together, fixed ends, choosing chairs in stages"
+  },
+  {
+   "id": "mat-pnc-selection-restriction",
+   "chapter": "Permutations and Combinations",
+   "name": "Selections with minimum-count restrictions",
+   "desc": "Split into cases satisfying at-least conditions and add nCr products"
+  },
+  {
+   "id": "mat-pnc-dictionary-rank",
+   "chapter": "Permutations and Combinations",
+   "name": "Dictionary order of words",
+   "desc": "Count words starting with each smaller letter to locate a rank"
+  },
+  {
+   "id": "mat-seq-nth-term-pattern",
+   "chapter": "Sequences and Series",
+   "name": "nth term of a series from pattern",
+   "desc": "Use differences or arithmetic-geometric pattern to get the general term"
+  },
+  {
+   "id": "mat-seq-special-series-sum",
+   "chapter": "Sequences and Series",
+   "name": "Sum of special/telescoping series",
+   "desc": "Simplify the general term using sum n, sum n^2 formulas or telescoping and sum"
+  },
+  {
+   "id": "mat-seq-infinite-gp",
+   "chapter": "Sequences and Series",
+   "name": "Infinite GP sum",
+   "desc": "S = a/(1-r) with a term condition to find a, r"
+  },
+  {
+   "id": "mat-seq-gp-terms",
+   "chapter": "Sequences and Series",
+   "name": "GP term relations",
+   "desc": "Use a r^{n-1} to relate terms, ratios, products of terms or S_n:S_{2n}"
+  },
+  {
+   "id": "mat-seq-ap-sum",
+   "chapter": "Sequences and Series",
+   "name": "AP sum and terms",
+   "desc": "S_n formula, d from S_n, sum from middle term"
+  },
+  {
+   "id": "mat-seq-ap-gp-relation",
+   "chapter": "Sequences and Series",
+   "name": "AP/GP relations and inserting means",
+   "desc": "Exponent identities for AP terms with GP terms, AP condition transforms, insert GP means"
+  },
+  {
+   "id": "mat-lim-n-infinity",
+   "chapter": "Limits and Derivatives",
+   "name": "Limits as n tends to infinity",
+   "desc": "Divide by dominant term, sin(a/n)~a/n, sum formulas over n^4"
+  },
+  {
+   "id": "mat-lim-rationalize",
+   "chapter": "Limits and Derivatives",
+   "name": "Limits by rationalisation",
+   "desc": "Multiply by conjugate of surd expressions"
+  },
+  {
+   "id": "mat-lim-algebraic-factor",
+   "chapter": "Limits and Derivatives",
+   "name": "Algebraic limits by factorisation/substitution",
+   "desc": "Cancel common factors, x^n-a^n formula, find constants from a finite limit"
+  },
+  {
+   "id": "mat-lim-trig-standard",
+   "chapter": "Limits and Derivatives",
+   "name": "Standard trigonometric limits",
+   "desc": "Use sin x/x -> 1, (1-cos x)/x^2 -> 1/2, or factor trig 0/0 forms"
+  },
+  {
+   "id": "mat-lim-exp-log-standard",
+   "chapter": "Limits and Derivatives",
+   "name": "Exponential/logarithmic standard limits",
+   "desc": "Use (a^x-1)/x -> log a, log(1+x)/x -> 1"
+  },
+  {
+   "id": "mat-lim-one-sided",
+   "chapter": "Limits and Derivatives",
+   "name": "One-sided limits",
+   "desc": "Evaluate LHL/RHL of piecewise or |x|/x functions"
+  },
+  {
+   "id": "mat-lim-derivative-basic",
+   "chapter": "Limits and Derivatives",
+   "name": "Basic derivatives and difference quotient",
+   "desc": "Differentiate polynomials/powers, evaluate difference quotient"
+  }
+ ]
+}

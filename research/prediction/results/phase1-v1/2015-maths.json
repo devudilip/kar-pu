@@ -1,0 +1,1281 @@
+{
+ "params": {
+  "decay": 0.8,
+  "window": 6,
+  "multi": 1.5,
+  "exact": 0.5,
+  "quota": "weighted"
+ },
+ "priorYears": [
+  2009,
+  2010,
+  2011,
+  2012,
+  2013,
+  2014
+ ],
+ "quota": {
+  "Conic Sections": 7,
+  "Continuity and Differentiability": 6,
+  "Application of Derivatives": 5,
+  "Integrals": 4,
+  "Vector Algebra": 4,
+  "Determinants": 4,
+  "Trigonometric Functions": 3,
+  "Complex Numbers and Quadratic Equations": 3,
+  "Straight Lines": 3,
+  "Inverse Trigonometric Functions": 2,
+  "Relations and Functions": 2,
+  "Differential Equations": 2,
+  "Matrices": 2,
+  "Old syllabus: Number Theory": 2,
+  "Three Dimensional Geometry": 1,
+  "Binomial Theorem": 1,
+  "Application of Integrals": 1,
+  "Probability": 1,
+  "Old syllabus: Mathematical Reasoning": 1,
+  "Limits and Derivatives": 1,
+  "Old syllabus: Binary Operations": 1,
+  "Sequences and Series": 1,
+  "Old syllabus: Groups": 1,
+  "Sets": 1,
+  "Old syllabus: Group Theory": 1,
+  "Old syllabus: Logarithms": 0,
+  "Permutations and Combinations": 0,
+  "Old syllabus: Graph Theory": 0,
+  "Linear Programming": 0,
+  "Linear Inequalities": 0,
+  "Statistics": 0,
+  "Old syllabus: Number Theory (Congruences)": 0,
+  "Old syllabus: Properties of Triangles": 0,
+  "Old syllabus: Pair of Straight Lines": 0,
+  "Old syllabus: Polynomials": 0,
+  "Old syllabus: Heights and Distances": 0,
+  "Old syllabus: Partial Fractions": 0,
+  "Old syllabus: Mathematical Induction": 0
+ },
+ "predicted": [
+  {
+   "template": "mat-con-circle-equation",
+   "chapter": "Conic Sections",
+   "score": 3.356,
+   "slot": 0,
+   "sample": "2014-maths-23",
+   "sampleQ": "Equation of circle with centre (-a, -b) and radius $\\sqrt{a^2-b^2}$ is"
+  },
+  {
+   "template": "mat-con-circle-tangent",
+   "chapter": "Conic Sections",
+   "score": 2.72,
+   "slot": 0,
+   "sample": "2013-maths-30",
+   "sampleQ": "A tangent is drawn to the circle $2x^2+2y^2-3x+4y=0$ at the point 'A' and it meets the line $x+y=3$ at $B(2,1)$, then $AB=$"
+  },
+  {
+   "template": "mat-con-hyperbola-focus-directrix",
+   "chapter": "Conic Sections",
+   "score": 2.522,
+   "slot": 0,
+   "sample": "2013-maths-35",
+   "sampleQ": "The sum of the squares of the eccentricities of the conics $\\dfrac{x^2}{4}+\\dfrac{y^2}{3}=1$ and $\\dfrac{x^2}{4}-\\dfrac{y^2}{3}=1$ is"
+  },
+  {
+   "template": "mat-con-circle-chord",
+   "chapter": "Conic Sections",
+   "score": 2.275,
+   "slot": 0,
+   "sample": "2013-maths-33",
+   "sampleQ": "The length of the chord of the circle $x^2+y^2+3x+2y-8=0$ intercepted by the y-axis is"
+  },
+  {
+   "template": "mat-con-orthogonal-circles",
+   "chapter": "Conic Sections",
+   "score": 2.152,
+   "slot": 0,
+   "sample": "2013-maths-32",
+   "sampleQ": "The number of real circles cutting orthogonally the circle $x^2+y^2+2x-2y+7=0$ is"
+  },
+  {
+   "template": "mat-con-tangent-condition-conic",
+   "chapter": "Conic Sections",
+   "score": 2.12,
+   "slot": 0,
+   "sample": "2012-maths-12",
+   "sampleQ": "The locus of the point of intersection of perpendicular tangents to the ellipse is called"
+  },
+  {
+   "template": "mat-con-parabola-tangent-normal",
+   "chapter": "Conic Sections",
+   "score": 1.947,
+   "slot": 0,
+   "sample": "2013-maths-36",
+   "sampleQ": "The equation of the tangent to the parabola $y^2=4x$ inclined at an angle of $\\dfrac{\\pi}{4}$ to the +ve direction of x-axis is"
+  },
+  {
+   "template": "mat-cd-derivative-identity",
+   "chapter": "Continuity and Differentiability",
+   "score": 4.571,
+   "slot": 0,
+   "sample": "2014-maths-30",
+   "sampleQ": "If y = $(\\tan^{-1}x)^2$, then $(x^2+1)^2y_2 + 2x(x^2+1)y_1$ is equal to"
+  },
+  {
+   "template": "mat-cd-standard-rules",
+   "chapter": "Continuity and Differentiability",
+   "score": 3.857,
+   "slot": 0,
+   "sample": "2014-maths-35",
+   "sampleQ": "If the function f(x) defined by f(x) = $\\dfrac{x^{100}}{100}+\\dfrac{x^{99}}{99}+\\ldots+\\dfrac{x^2}{2}+x+1$, then f'(0) ="
+  },
+  {
+   "template": "mat-cd-continuity-find-k",
+   "chapter": "Continuity and Differentiability",
+   "score": 2.48,
+   "slot": 0,
+   "sample": "2014-maths-27",
+   "sampleQ": "If f(x) = $\\begin{cases}\\dfrac{3\\sin\\pi x}{5x} & x\\neq0\\\\ 2K & x=0\\end{cases}$ is continuous at x = 0, then the value of K is"
+  },
+  {
+   "template": "mat-cd-differentiability-check",
+   "chapter": "Continuity and Differentiability",
+   "score": 2.21,
+   "slot": 0,
+   "sample": "2014-maths-26",
+   "sampleQ": "The function represented by the following graph [a V-shaped graph with vertex on the x-axis near x = 1] is"
+  },
+  {
+   "template": "mat-cd-log-differentiation",
+   "chapter": "Continuity and Differentiability",
+   "score": 1.512,
+   "slot": 0,
+   "sample": "2014-maths-29",
+   "sampleQ": "If y = (1 + x)(1 + $x^2$)(1 + $x^4$), then $\\dfrac{dy}{dx}$ at x = 1 is"
+  },
+  {
+   "template": "mat-cd-inverse-trig-derivative",
+   "chapter": "Continuity and Differentiability",
+   "score": 1.312,
+   "slot": 0,
+   "sample": "2013-maths-46",
+   "sampleQ": "Let $f(x)=\\cos^{-1}\\left[\\dfrac{1}{\\sqrt{13}}(2\\cos x-3\\sin x)\\right]$. Then $f'(0.5)=$"
+  },
+  {
+   "template": "mat-aod-subtangent-subnormal",
+   "chapter": "Application of Derivatives",
+   "score": 2.817,
+   "slot": 0,
+   "sample": "2013-maths-52",
+   "sampleQ": "If the length of the sub-tangent at any point to the curve $xy^n=a$ is proportional to the abscissa, then 'n' is"
+  },
+  {
+   "template": "mat-aod-optimization-geometry",
+   "chapter": "Application of Derivatives",
+   "score": 2.49,
+   "slot": 0,
+   "sample": "2013-maths-51",
+   "sampleQ": "The maximum area of a rectangle that can be inscribed in a circle of radius 2 units is"
+  },
+  {
+   "template": "mat-aod-kinematics",
+   "chapter": "Application of Derivatives",
+   "score": 1.968,
+   "slot": 0,
+   "sample": "2014-maths-56",
+   "sampleQ": "A gardener is digging a plot of land. As he gets tired, he works more slowly. After 't' minutes he is digging at a rate of $\\dfrac{2}{\\sqrt t}$ square metres per minute. How long will it take him to dig an area of 40 square metres?"
+  },
+  {
+   "template": "mat-aod-related-rates-geometry",
+   "chapter": "Application of Derivatives",
+   "score": 1.512,
+   "slot": 0,
+   "sample": "2014-maths-55",
+   "sampleQ": "A stone is dropped into a quiet lake and waves move in circles at the speed of 5 cm/sec. At that instant, when the radius of circular wave is 8 cm, how fast is the enclosed area increasing?"
+  },
+  {
+   "template": "mat-aod-tangent-slope-condition",
+   "chapter": "Application of Derivatives",
+   "score": 1.328,
+   "slot": 0,
+   "sample": "2014-maths-34",
+   "sampleQ": "The tangent to the curve y = $x^3+1$ at (1, 2) makes an angle $\\theta$ with y axis, then the value of tan $\\theta$ is"
+  },
+  {
+   "template": "mat-int-substitution",
+   "chapter": "Integrals",
+   "score": 2.966,
+   "slot": 0,
+   "sample": "2014-maths-39",
+   "sampleQ": "$\\int \\dfrac{\\sin 2x}{\\sin^2x+2\\cos^2x}\\,dx =$"
+  },
+  {
+   "template": "mat-int-by-parts",
+   "chapter": "Integrals",
+   "score": 2.312,
+   "slot": 0,
+   "sample": "2014-maths-37",
+   "sampleQ": "If linear functions f(x) and g(x) satisfy $\\int[(3x-1)\\cos x+(1-2x)\\sin x]\\,dx = f(x)\\cos x+g(x)\\sin x+C$, then"
+  },
+  {
+   "template": "mat-int-king-symmetric",
+   "chapter": "Integrals",
+   "score": 1.768,
+   "slot": 0,
+   "sample": "2013-maths-57",
+   "sampleQ": "$\\displaystyle\\int_0^{\\pi}\\dfrac{\\cos^4x}{\\cos^4x+\\sin^4x}\\,dx=$"
+  },
+  {
+   "template": "mat-int-ex-f-plus-fprime",
+   "chapter": "Integrals",
+   "score": 1.64,
+   "slot": 0,
+   "sample": "2013-maths-54",
+   "sampleQ": "$\\displaystyle\\int\\dfrac{(x-1)e^x}{(x+1)^3}\\,dx=$"
+  },
+  {
+   "template": "mat-vec-stp-combination",
+   "chapter": "Vector Algebra",
+   "score": 2.377,
+   "slot": 0,
+   "sample": "2014-maths-12",
+   "sampleQ": "The value of $[\\vec a - \\vec b\\ \\ \\vec b - \\vec c\\ \\ \\vec c - \\vec a]$ is equal to"
+  },
+  {
+   "template": "mat-vec-unit-sum-zero",
+   "chapter": "Vector Algebra",
+   "score": 1.722,
+   "slot": 0,
+   "sample": "2013-maths-28",
+   "sampleQ": "If $\\vec a,\\vec b,\\vec c$ are unit vectors such that $\\vec a+\\vec b+\\vec c=\\vec 0$, then $\\vec a\\cdot\\vec b+\\vec b\\cdot\\vec c+\\vec c\\cdot\\vec a=$"
+  },
+  {
+   "template": "mat-vec-cross-area",
+   "chapter": "Vector Algebra",
+   "score": 1.64,
+   "slot": 0,
+   "sample": "2014-maths-10",
+   "sampleQ": "The area of the parallelogram whose adjacent sides are $\\hat i + \\hat k$ and $2\\hat i + \\hat j + \\hat k$ is"
+  },
+  {
+   "template": "mat-vec-properties-statements",
+   "chapter": "Vector Algebra",
+   "score": 1.21,
+   "slot": 0,
+   "sample": "2013-maths-29",
+   "sampleQ": "If $\\vec a$ is a vector perpendicular to both $\\vec b$ and $\\vec c$, then"
+  },
+  {
+   "template": "mat-det-adj-inverse-value",
+   "chapter": "Determinants",
+   "score": 3.177,
+   "slot": 0,
+   "sample": "2014-maths-50",
+   "sampleQ": "If A is a matrix of order 3, such that A(adj A) = 10 I, then |adj A| ="
+  },
+  {
+   "template": "mat-det-property-evaluate",
+   "chapter": "Determinants",
+   "score": 1.84,
+   "slot": 0,
+   "sample": "2014-maths-53",
+   "sampleQ": "If a, b and c are in A.P., then the value of $\\begin{vmatrix}x+2&x+3&x+a\\\\x+4&x+5&x+b\\\\x+6&x+7&x+c\\end{vmatrix}$ is"
+  },
+  {
+   "template": "mat-det-properties-statements",
+   "chapter": "Determinants",
+   "score": 1.64,
+   "slot": 0,
+   "sample": "2014-maths-51",
+   "sampleQ": "Consider the following statements:\n(a) If any two rows or columns of a determinant are identical, then the value of the determinant is zero.\n(b) If the corresponding rows and columns of a determinant are interchanged, then the value of the determinant does not change.\n(c) If any two rows (or columns) of a determinant are interchanged, then the value of the determinant changes in sign.\nWhich of these are correct?"
+  },
+  {
+   "template": "mat-det-constant-term",
+   "chapter": "Determinants",
+   "score": 1.05,
+   "slot": 0,
+   "sample": "2012-maths-3",
+   "sampleQ": "If $ax^4 + bx^3 + cx^2 + dx + e = \\begin{vmatrix} x^3+3x & x-1 & x+3 \\\\ x+1 & -2x & x-4 \\\\ x-3 & x+4 & 3x \\end{vmatrix}$, then $e =$"
+  },
+  {
+   "template": "mat-trig-equation-general",
+   "chapter": "Trigonometric Functions",
+   "score": 3.689,
+   "slot": 0,
+   "sample": "2014-maths-14",
+   "sampleQ": "If sin $\\theta$ = sin $\\alpha$, then"
+  },
+  {
+   "template": "mat-trig-triangle",
+   "chapter": "Trigonometric Functions",
+   "score": 2.722,
+   "slot": 0,
+   "sample": "2014-maths-16",
+   "sampleQ": "In a triangle ABC, a|b cos C - c cos B| ="
+  },
+  {
+   "template": "mat-trig-many-angle-products",
+   "chapter": "Trigonometric Functions",
+   "score": 1.722,
+   "slot": 0,
+   "sample": "2013-maths-10",
+   "sampleQ": "$\\log(\\sin1°)\\cdot\\log(\\sin2°)\\cdot\\log(\\sin3°)\\ldots\\log(\\sin179°)$"
+  },
+  {
+   "template": "mat-cx-modulus-argument",
+   "chapter": "Complex Numbers and Quadratic Equations",
+   "score": 2.952,
+   "slot": 0,
+   "sample": "2014-maths-17",
+   "sampleQ": "If $\\alpha$ and $\\beta$ are two different complex numbers with $|\\beta| = 1$, then $\\left|\\dfrac{\\beta-\\alpha}{1-\\bar\\alpha\\beta}\\right|$ is equal to"
+  },
+  {
+   "template": "mat-cx-roots-symmetric",
+   "chapter": "Complex Numbers and Quadratic Equations",
+   "score": 2.362,
+   "slot": 0,
+   "sample": "2013-maths-3",
+   "sampleQ": "If the roots of the equation $x^3+ax^2+bx+c=0$ are in A.P., then $2a^3-9ab=$"
+  },
+  {
+   "template": "mat-cx-omega",
+   "chapter": "Complex Numbers and Quadratic Equations",
+   "score": 2.28,
+   "slot": 0,
+   "sample": "2013-maths-43",
+   "sampleQ": "If $2x=-1+\\sqrt3i$, then the value of $(1-x^2+x)^6-(1-x+x^2)^6=$"
+  },
+  {
+   "template": "mat-sl-concurrency-bisector",
+   "chapter": "Straight Lines",
+   "score": 1.562,
+   "slot": 0,
+   "sample": "2012-maths-28",
+   "sampleQ": "The number of circles that touch the co-ordinate axes and the line whose slope is $-1$ and $y$-intercept is $1$, is"
+  },
+  {
+   "template": "mat-sl-triangle-centres",
+   "chapter": "Straight Lines",
+   "score": 1.48,
+   "slot": 0,
+   "sample": "2012-maths-26",
+   "sampleQ": "The points $(11, 9)$, $(2, 1)$ and $(2, -1)$ are the midpoints of the sides of the triangle. Then the centroid is"
+  },
+  {
+   "template": "mat-sl-pair-of-lines",
+   "chapter": "Straight Lines",
+   "score": 1.44,
+   "slot": 0,
+   "sample": "2013-maths-8",
+   "sampleQ": "The angle between the lines $\\sin^2\\alpha\\cdot y^2-2xy\\cos^2\\alpha+(\\cos^2\\alpha-1)x^2=0$ is"
+  },
+  {
+   "template": "mat-itf-trig-of-inverse",
+   "chapter": "Inverse Trigonometric Functions",
+   "score": 1.8,
+   "slot": 0,
+   "sample": "2014-maths-47",
+   "sampleQ": "The value of sin(2 $\\sin^{-1}$ 0.8) is equal to"
+  },
+  {
+   "template": "mat-itf-simplify-substitution",
+   "chapter": "Inverse Trigonometric Functions",
+   "score": 1.328,
+   "slot": 0,
+   "sample": "2014-maths-46",
+   "sampleQ": "Given $0\\le x\\le\\dfrac12$ then the value of $\\tan\\left[\\sin^{-1}\\left\\{\\dfrac{x}{\\sqrt2}+\\dfrac{\\sqrt{1-x^2}}{\\sqrt2}\\right\\}-\\sin^{-1}x\\right]$ is"
+  },
+  {
+   "template": "mat-rel-inverse-function",
+   "chapter": "Relations and Functions",
+   "score": 1.64,
+   "slot": 0,
+   "sample": "2014-maths-43",
+   "sampleQ": "Suppose f(x) = $(x+1)^2$ for $x\\ge-1$. If g(x) is a function whose graph is the reflection of the graph of f(x) in the line y = x, then g(x) ="
+  },
+  {
+   "template": "mat-rel-relation-type",
+   "chapter": "Relations and Functions",
+   "score": 1.512,
+   "slot": 0,
+   "sample": "2014-maths-40",
+   "sampleQ": "Let S be the set of all real numbers. A relation R has been defined on S by aRb $\\iff$ $|a-b|\\le1$, then R is"
+  },
+  {
+   "template": "mat-de-order-degree",
+   "chapter": "Differential Equations",
+   "score": 2.722,
+   "slot": 0,
+   "sample": "2014-maths-59",
+   "sampleQ": "The order and degree of the differential equation y = x $\\dfrac{dy}{dx}+\\dfrac{2}{\\dfrac{dy}{dx}}$ is"
+  },
+  {
+   "template": "mat-de-variable-separable",
+   "chapter": "Differential Equations",
+   "score": 1.152,
+   "slot": 0,
+   "sample": "2012-maths-51",
+   "sampleQ": "Solution of $e^{\\frac{dy}{dx}} = x$ when $x = 1$ and $y = 0$ is"
+  },
+  {
+   "template": "mat-mat-symmetric-skew-decomposition",
+   "chapter": "Matrices",
+   "score": 1.8,
+   "slot": 0,
+   "sample": "2014-maths-49",
+   "sampleQ": "The symmetric part of the matrix A = $\\begin{pmatrix}1&2&4\\\\6&8&2\\\\2&-2&7\\end{pmatrix}$ is"
+  },
+  {
+   "template": "mat-mat-commute-condition",
+   "chapter": "Matrices",
+   "score": 1.128,
+   "slot": 0,
+   "sample": "2013-maths-19",
+   "sampleQ": "If A and B are square matrices of order 'n' such that $A^2-B^2=(A-B)(A+B)$, then which of the following will be true?"
+  },
+  {
+   "template": "mat-oldnt-unit-digit",
+   "chapter": "Old syllabus: Number Theory",
+   "score": 1.48,
+   "slot": 0,
+   "sample": "2012-maths-31",
+   "sampleQ": "The last digit of number $7^{886}$ is"
+  },
+  {
+   "template": "mat-oldnt-gcd-linear-combination",
+   "chapter": "Old syllabus: Number Theory",
+   "score": 0.968,
+   "slot": 0,
+   "sample": "2012-maths-32",
+   "sampleQ": "If $(24, 92) = 24m + 92n$, then $(m, n)$ is"
+  },
+  {
+   "template": "mat-3d-axis-distance-reflection",
+   "chapter": "Three Dimensional Geometry",
+   "score": 1,
+   "slot": 0,
+   "sample": "2014-maths-1",
+   "sampleQ": "The distance of the point P(a, b, c) from the x-axis is"
+  },
+  {
+   "template": "mat-bin-coefficient-sums",
+   "chapter": "Binomial Theorem",
+   "score": 1.952,
+   "slot": 0,
+   "sample": "2013-maths-4",
+   "sampleQ": "If the value of $C_0+2\\cdot C_1+3\\cdot C_2+\\ldots+(n+1)\\cdot C_n=576$, then n is"
+  },
+  {
+   "template": "mat-aoi-parabola-line",
+   "chapter": "Application of Integrals",
+   "score": 1.84,
+   "slot": 0,
+   "sample": "2014-maths-58",
+   "sampleQ": "Area of the region bounded by two parabolas y = $x^2$ and x = $y^2$ is"
+  },
+  {
+   "template": "mat-prob-conditional",
+   "chapter": "Probability",
+   "score": 1,
+   "slot": 0,
+   "sample": "2014-maths-6",
+   "sampleQ": "A and B are two events such that P(A) $\\neq$ 0, P(B/A) = 1, then\n(a) A is a subset of B\n(b) A $\\cap$ B = $\\phi$\nare respectively"
+  },
+  {
+   "template": "mat-oldmr-logical-equivalence",
+   "chapter": "Old syllabus: Mathematical Reasoning",
+   "score": 1.05,
+   "slot": 0,
+   "sample": "2012-maths-23",
+   "sampleQ": "$p \\to \\sim q$ can also be written as"
+  },
+  {
+   "template": "mat-lim-exp-log-standard",
+   "chapter": "Limits and Derivatives",
+   "score": 1.44,
+   "slot": 0,
+   "sample": "2013-maths-13",
+   "sampleQ": "$\\displaystyle\\lim_{x\\to0}\\dfrac{\\log_e(1+x)}{3^x-1}=$"
+  },
+  {
+   "template": "mat-oldbo-operation-properties",
+   "chapter": "Old syllabus: Binary Operations",
+   "score": 1.459,
+   "slot": 0,
+   "sample": "2012-maths-37",
+   "sampleQ": "In the group $G = \\{1, 2, 3, 4, 5, 6\\}$ under $\\otimes_7$, the solution of $4 \\otimes_7 x = 5$ is"
+  },
+  {
+   "template": "mat-seq-special-series-sum",
+   "chapter": "Sequences and Series",
+   "score": 1.312,
+   "slot": 0,
+   "sample": "2013-maths-2",
+   "sampleQ": "The sum of the series $\\dfrac{1}{2\\cdot3}\\cdot2+\\dfrac{2}{3\\cdot4}\\cdot2^2+\\dfrac{3}{4\\cdot5}\\cdot2^3+\\ldots$ to n terms is"
+  },
+  {
+   "template": "mat-oldgrp-modular-group-computation",
+   "chapter": "Old syllabus: Groups",
+   "score": 1.352,
+   "slot": 0,
+   "sample": "2011-maths-26",
+   "sampleQ": "On the set of all nonzero reals, an operation $*$ is defined as $a*b=\\dfrac{3ab}{2}$. In this group, a solution of $(2*x)*3^{-1}=4^{-1}$ is ............"
+  },
+  {
+   "template": "mat-sets-venn-cardinality",
+   "chapter": "Sets",
+   "score": 1,
+   "slot": 0,
+   "sample": "2014-maths-45",
+   "sampleQ": "In a class of 60 students, 25 students play cricket and 20 students play tennis, and 10 students play both the games, then the number of students who play neither is"
+  },
+  {
+   "template": "mat-oldgt-inverse-in-group",
+   "chapter": "Old syllabus: Group Theory",
+   "score": 1.6,
+   "slot": 0,
+   "sample": "2013-maths-24",
+   "sampleQ": "In a group (G, *), for some element 'a' of G, if $a^2=e$, where e is the identity element, then"
+  }
+ ],
+ "summary": {
+  "year": 2015,
+  "subject": "maths",
+  "n": 60,
+  "exact": 2,
+  "similar": 8,
+  "missSeen": 28,
+  "missNew": 22,
+  "hitPct": 16.7,
+  "predictablePct": 63.3,
+  "verbatimRepeats": 12,
+  "wastedSlots": 51
+ },
+ "lessons": {
+  "missedKnownTemplates": [
+   "mat-rel-domain",
+   "mat-bin-general-middle-term",
+   "mat-itf-tan-addition",
+   "mat-con-hyperbola-equation",
+   "mat-vec-magnitude-from-dot",
+   "mat-vec-direction-cosines",
+   "mat-prob-dice-sum",
+   "mat-cd-abstract-chain-rule",
+   "mat-cd-parametric",
+   "mat-aod-tangent-normal-slope-equation",
+   "mat-det-direct-evaluate",
+   "mat-prob-binomial",
+   "mat-int-king-log-xf",
+   "mat-aoi-curve-horizontal-line",
+   "mat-cd-parametric",
+   "mat-int-trig-identity-simplify",
+   "mat-itf-solve-equation",
+   "mat-trig-evaluate-angle-expression",
+   "mat-itf-partial-fraction-combo",
+   "mat-pnc-factorial-divisibility",
+   "mat-cd-discontinuity-points",
+   "mat-aod-angle-between-curves",
+   "mat-int-trig-identity-simplify",
+   "mat-de-linear-solve",
+   "mat-trig-sum-difference-condition",
+   "mat-det-power-find-param",
+   "mat-det-derivative",
+   "mat-rel-one-one-onto"
+  ],
+  "chapterGaps": [
+   {
+    "chapter": "Conic Sections",
+    "predicted": 7,
+    "actual": 1
+   },
+   {
+    "chapter": "Probability",
+    "predicted": 1,
+    "actual": 4
+   },
+   {
+    "chapter": "Application of Derivatives",
+    "predicted": 5,
+    "actual": 3
+   },
+   {
+    "chapter": "Straight Lines",
+    "predicted": 3,
+    "actual": 1
+   },
+   {
+    "chapter": "Inverse Trigonometric Functions",
+    "predicted": 2,
+    "actual": 4
+   },
+   {
+    "chapter": "Relations and Functions",
+    "predicted": 2,
+    "actual": 4
+   },
+   {
+    "chapter": "Old syllabus: Number Theory",
+    "predicted": 2,
+    "actual": 0
+   },
+   {
+    "chapter": "Linear Inequalities",
+    "predicted": 0,
+    "actual": 2
+   }
+  ],
+  "wastedTemplates": [
+   "mat-con-circle-equation",
+   "mat-con-circle-tangent",
+   "mat-con-hyperbola-focus-directrix",
+   "mat-con-circle-chord",
+   "mat-con-orthogonal-circles",
+   "mat-con-tangent-condition-conic",
+   "mat-con-parabola-tangent-normal",
+   "mat-cd-derivative-identity",
+   "mat-cd-differentiability-check",
+   "mat-cd-log-differentiation",
+   "mat-cd-inverse-trig-derivative",
+   "mat-aod-subtangent-subnormal",
+   "mat-aod-optimization-geometry",
+   "mat-aod-kinematics",
+   "mat-aod-tangent-slope-condition",
+   "mat-int-substitution",
+   "mat-int-by-parts",
+   "mat-int-king-symmetric",
+   "mat-vec-stp-combination",
+   "mat-vec-unit-sum-zero",
+   "mat-vec-properties-statements",
+   "mat-det-adj-inverse-value",
+   "mat-det-property-evaluate",
+   "mat-det-properties-statements",
+   "mat-det-constant-term",
+   "mat-trig-equation-general",
+   "mat-trig-triangle",
+   "mat-trig-many-angle-products",
+   "mat-sl-concurrency-bisector",
+   "mat-sl-triangle-centres",
+   "mat-sl-pair-of-lines",
+   "mat-itf-trig-of-inverse",
+   "mat-itf-simplify-substitution",
+   "mat-rel-inverse-function",
+   "mat-rel-relation-type",
+   "mat-de-order-degree",
+   "mat-de-variable-separable",
+   "mat-mat-symmetric-skew-decomposition",
+   "mat-mat-commute-condition",
+   "mat-oldnt-unit-digit",
+   "mat-oldnt-gcd-linear-combination",
+   "mat-3d-axis-distance-reflection",
+   "mat-bin-coefficient-sums",
+   "mat-aoi-parabola-line",
+   "mat-prob-conditional",
+   "mat-lim-exp-log-standard",
+   "mat-oldbo-operation-properties",
+   "mat-seq-special-series-sum",
+   "mat-oldgrp-modular-group-computation",
+   "mat-sets-venn-cardinality",
+   "mat-oldgt-inverse-in-group"
+  ]
+ },
+ "questions": [
+  {
+   "id": "2015-maths-1",
+   "n": 1,
+   "chapter": "Relations and Functions",
+   "template": "mat-rel-domain",
+   "outcome": "miss-seen",
+   "verbatimOf": null,
+   "sim": 0.3,
+   "q": "$f(x) = \\dfrac{1}{2} - \\tan\\left(\\dfrac{\\pi x}{2}\\right)$, $-1 < x < 1$ and $g(x) = \\sqrt{3 + 4x - 4x^2}$. Find domain of $(f+g)$."
+  },
+  {
+   "id": "2015-maths-2",
+   "n": 2,
+   "chapter": "Sets",
+   "template": "mat-sets-operations-notation",
+   "outcome": "miss-new",
+   "verbatimOf": null,
+   "sim": 0.3,
+   "q": "Write the set builder form $A = \\{-1, 1\\}$"
+  },
+  {
+   "id": "2015-maths-3",
+   "n": 3,
+   "chapter": "Relations and Functions",
+   "template": "mat-rel-binary-op-compute",
+   "outcome": "miss-new",
+   "verbatimOf": null,
+   "sim": 0.28,
+   "q": "If the operation $\\oplus$ is defined by $a \\oplus b = a^2 + b^2$ for all real numbers 'a' and 'b', then $(2 \\oplus 3) \\oplus 4 =$ ____"
+  },
+  {
+   "id": "2015-maths-4",
+   "n": 4,
+   "chapter": "Complex Numbers and Quadratic Equations",
+   "template": "mat-cx-modulus-argument",
+   "outcome": "similar",
+   "verbatimOf": null,
+   "sim": 0.43,
+   "q": "If $Z = \\dfrac{(\\sqrt{3}+i)^3(3i+4)^2}{(8+6i)^2}$, then $|Z|$ is equal to"
+  },
+  {
+   "id": "2015-maths-5",
+   "n": 5,
+   "chapter": "Complex Numbers and Quadratic Equations",
+   "template": "mat-cx-roots-symmetric",
+   "outcome": "similar",
+   "verbatimOf": null,
+   "sim": 0.4,
+   "q": "If $\\alpha$ and $\\beta$ are the roots of $x^2 - ax + b^2 = 0$, then $\\alpha^2 + \\beta^2$ is equal to ____"
+  },
+  {
+   "id": "2015-maths-6",
+   "n": 6,
+   "chapter": "Sequences and Series",
+   "template": "mat-seq-gp-terms",
+   "outcome": "miss-new",
+   "verbatimOf": null,
+   "sim": 0.32,
+   "q": "If the $2^{nd}$ and $5^{th}$ terms of G.P. are 24 and 3 respectively, then the sum of $1^{st}$ six terms is ____"
+  },
+  {
+   "id": "2015-maths-7",
+   "n": 7,
+   "chapter": "Binomial Theorem",
+   "template": "mat-bin-general-middle-term",
+   "outcome": "miss-seen",
+   "verbatimOf": null,
+   "sim": 0.2,
+   "q": "The middle term of expansion of $\\left(\\dfrac{10}{x} + \\dfrac{x}{10}\\right)^{10}$"
+  },
+  {
+   "id": "2015-maths-8",
+   "n": 8,
+   "chapter": "Determinants",
+   "template": "mat-det-area-triangle",
+   "outcome": "miss-new",
+   "verbatimOf": null,
+   "sim": 0.32,
+   "q": "If $\\begin{vmatrix} 2a & x_1 & y_1 \\\\ 2b & x_2 & y_2 \\\\ 2c & x_3 & y_3 \\end{vmatrix} = \\dfrac{abc}{2} \\ne 0$, then the area of the triangle whose vertices are $"
+  },
+  {
+   "id": "2015-maths-9",
+   "n": 9,
+   "chapter": "Linear Inequalities",
+   "template": "mat-ineq-graph-region",
+   "outcome": "miss-new",
+   "verbatimOf": null,
+   "sim": 0.16,
+   "q": "The shaded region shown in fig. [a triangle with vertices $(0,14)$, $(19,14)$ and the base meeting the x-axis so that the sloped side through $(0,14)$ crosses t"
+  },
+  {
+   "id": "2015-maths-10",
+   "n": 10,
+   "chapter": "Old syllabus: Mathematical Reasoning",
+   "template": "mat-oldmr-logical-equivalence",
+   "outcome": "similar",
+   "verbatimOf": null,
+   "sim": 0.22,
+   "q": "$\\sim[(-p) \\land q]$ is logically equivalent to"
+  },
+  {
+   "id": "2015-maths-11",
+   "n": 11,
+   "chapter": "Inverse Trigonometric Functions",
+   "template": "mat-itf-tan-addition",
+   "outcome": "miss-seen",
+   "verbatimOf": "2014-maths-12",
+   "sim": 0.75,
+   "q": "The value of $\\sin^{-1}\\left(\\dfrac{2\\sqrt2}{3}\\right) + \\sin^{-1}\\left(\\dfrac13\\right)$ is equal to"
+  },
+  {
+   "id": "2015-maths-12",
+   "n": 12,
+   "chapter": "Conic Sections",
+   "template": "mat-con-hyperbola-equation",
+   "outcome": "miss-seen",
+   "verbatimOf": null,
+   "sim": 0.41,
+   "q": "If the eccentricity of the hyperbola $\\dfrac{x^2}{a^2}-\\dfrac{y^2}{b^2}=1$ is $\\dfrac54$ and $2x+3y-6=0$ is a focal chord of the hyperbola, then the length of t"
+  },
+  {
+   "id": "2015-maths-13",
+   "n": 13,
+   "chapter": "Vector Algebra",
+   "template": "mat-vec-cross-area",
+   "outcome": "similar",
+   "verbatimOf": null,
+   "sim": 0.32,
+   "q": "If $\\vec a = i + 2j + 2k$, $|\\vec b| = 5$ and the angle between $\\vec a$ and $\\vec b$ is $\\dfrac{\\pi}{6}$, then the area of the triangle formed by these two vec"
+  },
+  {
+   "id": "2015-maths-14",
+   "n": 14,
+   "chapter": "Vector Algebra",
+   "template": "mat-vec-magnitude-from-dot",
+   "outcome": "miss-seen",
+   "verbatimOf": null,
+   "sim": 0.39,
+   "q": "Let $\\vec a = i - 2j + 3k$; if $\\vec b$ is a vector such that $\\vec a \\cdot \\vec b = |\\vec b|^2$ and $|\\vec a - \\vec b| = \\sqrt7$, then $|\\vec b| =$ ____"
+  },
+  {
+   "id": "2015-maths-15",
+   "n": 15,
+   "chapter": "Vector Algebra",
+   "template": "mat-vec-direction-cosines",
+   "outcome": "miss-seen",
+   "verbatimOf": null,
+   "sim": 0.33,
+   "q": "If direction cosines of a vector of magnitude 3 are $\\dfrac23, -\\dfrac{a}{3}, \\dfrac23$ and $a > 0$, then vector is ____"
+  },
+  {
+   "id": "2015-maths-16",
+   "n": 16,
+   "chapter": "Three Dimensional Geometry",
+   "template": "mat-3d-line-equation",
+   "outcome": "miss-new",
+   "verbatimOf": null,
+   "sim": 0.48,
+   "q": "Equation of line passing through the point $(2, 3, 1)$ and parallel to the line of intersection of the plane $x - 2y - z + 5 = 0$ and $x + y + 3z = 6$ is"
+  },
+  {
+   "id": "2015-maths-17",
+   "n": 17,
+   "chapter": "Three Dimensional Geometry",
+   "template": "mat-3d-foot-perpendicular-plane",
+   "outcome": "miss-new",
+   "verbatimOf": null,
+   "sim": 0.37,
+   "q": "Foot of perpendicular drawn from the origin to the plane $2x - 3y + 4z = 29$ is ____"
+  },
+  {
+   "id": "2015-maths-18",
+   "n": 18,
+   "chapter": "Probability",
+   "template": "mat-prob-dice-sum",
+   "outcome": "miss-seen",
+   "verbatimOf": null,
+   "sim": 0.37,
+   "q": "If two dice are thrown simultaneously, then the probability that the sum of the numbers which come up on the dice to be more than 5 is ____"
+  },
+  {
+   "id": "2015-maths-19",
+   "n": 19,
+   "chapter": "Continuity and Differentiability",
+   "template": "mat-cd-abstract-chain-rule",
+   "outcome": "miss-seen",
+   "verbatimOf": "2014-maths-29",
+   "sim": 0.5,
+   "q": "If $y = f(x^2 + 2)$ and $f'(3) = 5$, then $\\dfrac{dy}{dx}$ at $x = 1$ is ____"
+  },
+  {
+   "id": "2015-maths-20",
+   "n": 20,
+   "chapter": "Continuity and Differentiability",
+   "template": "mat-cd-parametric",
+   "outcome": "miss-seen",
+   "verbatimOf": "2010-maths-41",
+   "sim": 0.5,
+   "q": "If $x = a\\cos^3\\theta$, $y = a\\sin^3\\theta$, then $1 + \\left(\\dfrac{dy}{dx}\\right)^2$ is ____"
+  },
+  {
+   "id": "2015-maths-21",
+   "n": 21,
+   "chapter": "Application of Derivatives",
+   "template": "mat-aod-tangent-normal-slope-equation",
+   "outcome": "miss-seen",
+   "verbatimOf": null,
+   "sim": 0.31,
+   "q": "Slope of Normal to the curve $y = x^2 - \\dfrac{1}{x^2}$ at $(-1, 0)$ is"
+  },
+  {
+   "id": "2015-maths-22",
+   "n": 22,
+   "chapter": "Integrals",
+   "template": "mat-int-x2-x4-power-sub",
+   "outcome": "miss-new",
+   "verbatimOf": null,
+   "sim": 0.29,
+   "q": "$\\int \\dfrac{1}{x^2(x^4+1)^{3/4}}\\, dx$ is equal to ____"
+  },
+  {
+   "id": "2015-maths-23",
+   "n": 23,
+   "chapter": "Relations and Functions",
+   "template": "mat-rel-composition",
+   "outcome": "miss-new",
+   "verbatimOf": null,
+   "sim": 0.21,
+   "q": "If $f: R \\to R$ is defined by $f(x) = \\dfrac{x}{x^2+1}$, find $f(f(2))$"
+  },
+  {
+   "id": "2015-maths-24",
+   "n": 24,
+   "chapter": "Determinants",
+   "template": "mat-det-direct-evaluate",
+   "outcome": "miss-seen",
+   "verbatimOf": null,
+   "sim": 0.17,
+   "q": "Evaluate $\\begin{vmatrix}\\cos15 & \\sin15 \\\\ \\sin75 & \\cos75\\end{vmatrix}$"
+  },
+  {
+   "id": "2015-maths-25",
+   "n": 25,
+   "chapter": "Probability",
+   "template": "mat-prob-binomial",
+   "outcome": "miss-seen",
+   "verbatimOf": null,
+   "sim": 0.19,
+   "q": "A man takes a step forward with probability 0.4 and one step backward with probability 0.6, then the probability that at the end of eleven steps he is one step "
+  },
+  {
+   "id": "2015-maths-26",
+   "n": 26,
+   "chapter": "Integrals",
+   "template": "mat-int-king-log-xf",
+   "outcome": "miss-seen",
+   "verbatimOf": null,
+   "sim": 0.29,
+   "q": "$\\displaystyle\\int_0^{\\pi/4} \\log\\left(\\dfrac{\\sin x + \\cos x}{\\cos x}\\right)dx$"
+  },
+  {
+   "id": "2015-maths-27",
+   "n": 27,
+   "chapter": "Application of Integrals",
+   "template": "mat-aoi-curve-horizontal-line",
+   "outcome": "miss-seen",
+   "verbatimOf": null,
+   "sim": 0.41,
+   "q": "Area bounded by $y = x^3$, $y = 8$ and $x = 0$ is ____"
+  },
+  {
+   "id": "2015-maths-28",
+   "n": 28,
+   "chapter": "Vector Algebra",
+   "template": "mat-vec-projection",
+   "outcome": "miss-new",
+   "verbatimOf": null,
+   "sim": 0.18,
+   "q": "Let $\\vec a = i + 2j + k$, $\\vec b = i - j + k$ and $\\vec c = i + j - k$; a vector in the plane $\\vec a$ and $\\vec b$ whose projection on $\\vec c$ is $\\dfrac{1}"
+  },
+  {
+   "id": "2015-maths-29",
+   "n": 29,
+   "chapter": "Statistics",
+   "template": "mat-stat-mean-deviation",
+   "outcome": "miss-new",
+   "verbatimOf": null,
+   "sim": 0.2,
+   "q": "The mean deviation from the data $3, 10, 10, 4, 7, 10, 5$ is"
+  },
+  {
+   "id": "2015-maths-30",
+   "n": 30,
+   "chapter": "Probability",
+   "template": "mat-prob-distribution-find-k",
+   "outcome": "miss-new",
+   "verbatimOf": null,
+   "sim": 0.33,
+   "q": "The probability distribution of $x$ is: $x=0,1,2,3$ with $P(x)=0.2, k, k, 2k$. Find the value of $k$"
+  },
+  {
+   "id": "2015-maths-31",
+   "n": 31,
+   "chapter": "Continuity and Differentiability",
+   "template": "mat-cd-standard-rules",
+   "outcome": "exact",
+   "verbatimOf": "2014-maths-35",
+   "sim": 0.53,
+   "q": "If the function $g(x)$ is defined by $g(x) = \\dfrac{x^{200}}{200}+\\dfrac{x^{199}}{199}+\\dfrac{x^{198}}{198}+\\cdots+\\dfrac{x^2}{2}+x+5$, then $g'(0) =$ ____"
+  },
+  {
+   "id": "2015-maths-32",
+   "n": 32,
+   "chapter": "Probability",
+   "template": "mat-prob-classical-counting",
+   "outcome": "miss-new",
+   "verbatimOf": null,
+   "sim": 0.21,
+   "q": "A box contains 6 red marbles numbered from 1 through 6 and 4 white marbles numbered 12 through 15. Find the probability that a marble drawn 'at random' is white"
+  },
+  {
+   "id": "2015-maths-33",
+   "n": 33,
+   "chapter": "Limits and Derivatives",
+   "template": "mat-lim-trig-standard",
+   "outcome": "miss-new",
+   "verbatimOf": null,
+   "sim": 0.33,
+   "q": "$\\displaystyle\\lim_{x\\to0}\\dfrac{1-\\cos x}{x^2}$ is ____"
+  },
+  {
+   "id": "2015-maths-34",
+   "n": 34,
+   "chapter": "Continuity and Differentiability",
+   "template": "mat-cd-continuity-find-k",
+   "outcome": "similar",
+   "verbatimOf": null,
+   "sim": 0.26,
+   "q": "$f(x) = \\begin{cases}3x-8 & \\text{if } x\\le5\\\\ 2k & \\text{if } x>5\\end{cases}$ is continuous, find $k$."
+  },
+  {
+   "id": "2015-maths-35",
+   "n": 35,
+   "chapter": "Limits and Derivatives",
+   "template": "mat-lim-derivative-basic",
+   "outcome": "miss-new",
+   "verbatimOf": null,
+   "sim": 0.13,
+   "q": "If $f(x) = 2x^2$, find $\\dfrac{f(3.8)-f(4)}{3.8-4}$."
+  },
+  {
+   "id": "2015-maths-36",
+   "n": 36,
+   "chapter": "Continuity and Differentiability",
+   "template": "mat-cd-parametric",
+   "outcome": "miss-seen",
+   "verbatimOf": null,
+   "sim": 0.31,
+   "q": "If $x = ct$, $y = \\dfrac{c}{t}$, find $\\dfrac{dy}{dx}$ at $t = 2$."
+  },
+  {
+   "id": "2015-maths-37",
+   "n": 37,
+   "chapter": "Application of Derivatives",
+   "template": "mat-aod-related-rates-geometry",
+   "outcome": "similar",
+   "verbatimOf": null,
+   "sim": 0.2,
+   "q": "A balloon which always remains spherical is being inflated by pumping in 10 cubic centimeters of gas per second. Find the rate at which the radius of the balloo"
+  },
+  {
+   "id": "2015-maths-38",
+   "n": 38,
+   "chapter": "Integrals",
+   "template": "mat-int-trig-identity-simplify",
+   "outcome": "miss-seen",
+   "verbatimOf": null,
+   "sim": 0.4,
+   "q": "$\\int \\dfrac{\\sin^2x}{1+\\cos x}\\, dx$"
+  },
+  {
+   "id": "2015-maths-39",
+   "n": 39,
+   "chapter": "Integrals",
+   "template": "mat-int-ex-f-plus-fprime",
+   "outcome": "exact",
+   "verbatimOf": "2011-maths-51",
+   "sim": 0.5,
+   "q": "$\\int e^x\\left(\\dfrac{1+\\sin x}{1+\\cos x}\\right)dx$ is ____"
+  },
+  {
+   "id": "2015-maths-40",
+   "n": 40,
+   "chapter": "Complex Numbers and Quadratic Equations",
+   "template": "mat-cx-omega",
+   "outcome": "similar",
+   "verbatimOf": null,
+   "sim": 0.41,
+   "q": "If $1, \\omega, \\omega^2$ are three cube roots of unity, then $(1-\\omega+\\omega^2)(1+\\omega-\\omega^2)$ is ____"
+  },
+  {
+   "id": "2015-maths-41",
+   "n": 41,
+   "chapter": "Inverse Trigonometric Functions",
+   "template": "mat-itf-solve-equation",
+   "outcome": "miss-seen",
+   "verbatimOf": null,
+   "sim": 0.23,
+   "q": "Solve for $x$: $\\tan^{-1}\\left(\\dfrac{1-x}{1+x}\\right)=\\dfrac12\\tan^{-1}x,\\ x>0$"
+  },
+  {
+   "id": "2015-maths-42",
+   "n": 42,
+   "chapter": "Determinants",
+   "template": "mat-det-system-consistency",
+   "outcome": "miss-new",
+   "verbatimOf": null,
+   "sim": 0.13,
+   "q": "The system of linear equations $x+y+z=6$, $x+2y+3z=10$ and $x+2y+az=b$ has no solutions when ____"
+  },
+  {
+   "id": "2015-maths-43",
+   "n": 43,
+   "chapter": "Trigonometric Functions",
+   "template": "mat-trig-evaluate-angle-expression",
+   "outcome": "miss-seen",
+   "verbatimOf": null,
+   "sim": 0.45,
+   "q": "The value of $\\tan(1^\\circ)+\\tan(89^\\circ)$ is ____"
+  },
+  {
+   "id": "2015-maths-44",
+   "n": 44,
+   "chapter": "Inverse Trigonometric Functions",
+   "template": "mat-itf-partial-fraction-combo",
+   "outcome": "miss-seen",
+   "verbatimOf": "2013-maths-1",
+   "sim": 0.57,
+   "q": "If $\\dfrac{(x+1)^2}{x^3+x}=\\dfrac{A}{x}+\\dfrac{Bx+C}{x^2+1}$, then $\\text{cosec}^{-1}\\left(\\dfrac1A\\right)+\\cot^{-1}\\left(\\dfrac1B\\right)+\\sec^{-1}C =$ ____"
+  },
+  {
+   "id": "2015-maths-45",
+   "n": 45,
+   "chapter": "Permutations and Combinations",
+   "template": "mat-pnc-factorial-divisibility",
+   "outcome": "miss-seen",
+   "verbatimOf": "2013-maths-16",
+   "sim": 0.5,
+   "q": "The remainder obtained when $1!+2!+3!+\\cdots+11!$ is divided by 12 is ____"
+  },
+  {
+   "id": "2015-maths-46",
+   "n": 46,
+   "chapter": "Inverse Trigonometric Functions",
+   "template": "mat-itf-range-of-combination",
+   "outcome": "miss-new",
+   "verbatimOf": null,
+   "sim": 0.4,
+   "q": "If $\\alpha \\le 2\\sin^{-1}x+\\cos^{-1}x \\le \\beta$, then"
+  },
+  {
+   "id": "2015-maths-47",
+   "n": 47,
+   "chapter": "Matrices",
+   "template": "mat-mat-powers",
+   "outcome": "miss-new",
+   "verbatimOf": "2011-maths-16",
+   "sim": 0.56,
+   "q": "If $A=\\begin{bmatrix}0&1\\\\1&0\\end{bmatrix}$, then $A^2$ equal to ____"
+  },
+  {
+   "id": "2015-maths-48",
+   "n": 48,
+   "chapter": "Continuity and Differentiability",
+   "template": "mat-cd-discontinuity-points",
+   "outcome": "miss-seen",
+   "verbatimOf": "2013-maths-6",
+   "sim": 0.54,
+   "q": "The function $f(x)=[x]$, where $[x]$ denotes greatest integer function is continuous at ____"
+  },
+  {
+   "id": "2015-maths-49",
+   "n": 49,
+   "chapter": "Continuity and Differentiability",
+   "template": "mat-cd-standard-rules",
+   "outcome": "similar",
+   "verbatimOf": null,
+   "sim": 0.29,
+   "q": "If $y=\\log\\left(\\dfrac{1-x^2}{1+x^2}\\right)$, then $\\dfrac{dy}{dx}$ is equal to ____"
+  },
+  {
+   "id": "2015-maths-50",
+   "n": 50,
+   "chapter": "Application of Derivatives",
+   "template": "mat-aod-angle-between-curves",
+   "outcome": "miss-seen",
+   "verbatimOf": null,
+   "sim": 0.23,
+   "q": "The two curves $x^3-3xy^2+2=0$ and $3x^2y-y^3=2$"
+  },
+  {
+   "id": "2015-maths-51",
+   "n": 51,
+   "chapter": "Complex Numbers and Quadratic Equations",
+   "template": "mat-cx-quadratic-min",
+   "outcome": "miss-new",
+   "verbatimOf": "2014-maths-15",
+   "sim": 0.5,
+   "q": "If $x$ is real, then the minimum value of $x^2-8x+17$ is ____"
+  },
+  {
+   "id": "2015-maths-52",
+   "n": 52,
+   "chapter": "Integrals",
+   "template": "mat-int-trig-identity-simplify",
+   "outcome": "miss-seen",
+   "verbatimOf": null,
+   "sim": 0.36,
+   "q": "$\\displaystyle\\int_{-\\pi/4}^{\\pi/4}\\dfrac{dx}{1+\\cos2x}$ is equal to"
+  },
+  {
+   "id": "2015-maths-53",
+   "n": 53,
+   "chapter": "Differential Equations",
+   "template": "mat-de-order-family",
+   "outcome": "miss-new",
+   "verbatimOf": null,
+   "sim": 0.43,
+   "q": "The order of differential equation of all circles of given radius 'a' is ____"
+  },
+  {
+   "id": "2015-maths-54",
+   "n": 54,
+   "chapter": "Differential Equations",
+   "template": "mat-de-linear-solve",
+   "outcome": "miss-seen",
+   "verbatimOf": null,
+   "sim": 0.39,
+   "q": "The solution of differential equation $x\\dfrac{dy}{dx}+2y=x^2$ is ____"
+  },
+  {
+   "id": "2015-maths-55",
+   "n": 55,
+   "chapter": "Trigonometric Functions",
+   "template": "mat-trig-sum-difference-condition",
+   "outcome": "miss-seen",
+   "verbatimOf": "2013-maths-11",
+   "sim": 0.62,
+   "q": "If $\\sin x+\\sin y=\\dfrac12$ and $\\cos x+\\cos y=1$, then $\\tan(x+y)=$ ____"
+  },
+  {
+   "id": "2015-maths-56",
+   "n": 56,
+   "chapter": "Determinants",
+   "template": "mat-det-power-find-param",
+   "outcome": "miss-seen",
+   "verbatimOf": "2013-maths-20",
+   "sim": 0.75,
+   "q": "If $A=\\begin{bmatrix}\\alpha&2\\\\2&\\alpha\\end{bmatrix}$ and $|A^3|=27$, then $\\alpha=$ ____"
+  },
+  {
+   "id": "2015-maths-57",
+   "n": 57,
+   "chapter": "Determinants",
+   "template": "mat-det-derivative",
+   "outcome": "miss-seen",
+   "verbatimOf": null,
+   "sim": 0.31,
+   "q": "If $P=\\begin{vmatrix}x&1\\\\1&x\\end{vmatrix}$ and $Q=\\begin{vmatrix}x&1&1\\\\1&x&1\\\\1&1&x\\end{vmatrix}$, then $\\dfrac{dQ}{dx}=$ ____"
+  },
+  {
+   "id": "2015-maths-58",
+   "n": 58,
+   "chapter": "Straight Lines",
+   "template": "mat-sl-line-parallel-perp",
+   "outcome": "miss-new",
+   "verbatimOf": null,
+   "sim": 0.32,
+   "q": "A line passes through $(2, 2)$ and is perpendicular to the line $3x+y=3$; its y-intercept is ____"
+  },
+  {
+   "id": "2015-maths-59",
+   "n": 59,
+   "chapter": "Relations and Functions",
+   "template": "mat-rel-one-one-onto",
+   "outcome": "miss-seen",
+   "verbatimOf": null,
+   "sim": 0.4,
+   "q": "Let $f: R \\to R$ be defined by $f(x)=\\dfrac1x\\ \\forall x\\in R$, then $f$ is ____"
+  },
+  {
+   "id": "2015-maths-60",
+   "n": 60,
+   "chapter": "Linear Inequalities",
+   "template": "mat-ineq-rational-sign",
+   "outcome": "miss-new",
+   "verbatimOf": null,
+   "sim": 0.31,
+   "q": "The solution set of the inequation $\\dfrac{x^2+6x-7}{|x+4|} < 0$ is ____"
+  }
+ ]
+}

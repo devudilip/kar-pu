@@ -1,0 +1,1278 @@
+{
+ "params": {
+  "decay": 0.8,
+  "window": 6,
+  "multi": 1.5,
+  "exact": 0.5,
+  "quota": "weighted"
+ },
+ "priorYears": [
+  2010,
+  2011,
+  2012,
+  2013,
+  2014,
+  2015
+ ],
+ "quota": {
+  "Aldehydes, Ketones and Carboxylic Acids": 4,
+  "Equilibrium": 4,
+  "Coordination Compounds": 3,
+  "Old syllabus: Surface Chemistry": 3,
+  "Chemical Kinetics": 3,
+  "Hydrocarbons": 3,
+  "Biomolecules": 3,
+  "Electrochemistry": 3,
+  "Alcohols, Phenols and Ethers": 3,
+  "Chemical Bonding and Molecular Structure": 3,
+  "Solutions": 3,
+  "Haloalkanes and Haloarenes": 2,
+  "Some Basic Concepts of Chemistry": 2,
+  "Thermodynamics": 2,
+  "Amines": 2,
+  "The d- and f-Block Elements": 2,
+  "Old syllabus: p-Block Elements": 2,
+  "Organic Chemistry: Basic Principles and Techniques": 1,
+  "Classification of Elements and Periodicity": 1,
+  "Structure of Atom": 1,
+  "Old syllabus: Solid State": 1,
+  "Old syllabus: States of Matter": 1,
+  "Old syllabus: General Principles and Processes of Isolation of Elements": 1,
+  "Redox Reactions": 1,
+  "Old syllabus: p-Block": 1,
+  "Old syllabus: s-Block Elements": 1,
+  "Old syllabus: Polymers": 1,
+  "Old syllabus: Chemistry in Everyday Life": 1,
+  "Old syllabus: General Principles of Isolation of Elements": 1,
+  "Old syllabus: Qualitative Analysis": 1,
+  "Old syllabus: Metallurgy": 0,
+  "Old syllabus: Water softening": 0
+ },
+ "predicted": [
+  {
+   "template": "che-ald-distinguishing-tests",
+   "chapter": "Aldehydes, Ketones and Carboxylic Acids",
+   "score": 2.889,
+   "slot": 0,
+   "sample": "2015-chemistry-18",
+   "sampleQ": "The distinguishing test between methanoic acid and ethanoic acid is"
+  },
+  {
+   "template": "che-ald-dry-distillation-ca-salts",
+   "chapter": "Aldehydes, Ketones and Carboxylic Acids",
+   "score": 2.05,
+   "slot": 0,
+   "sample": "2015-chemistry-54",
+   "sampleQ": "Acetic acid is treated with Ca(OH)$_2$ and the product so obtained is subjected to dry distillation. The final product is"
+  },
+  {
+   "template": "che-ald-acid-strength-effects",
+   "chapter": "Aldehydes, Ketones and Carboxylic Acids",
+   "score": 2.049,
+   "slot": 0,
+   "sample": "2014-chemistry-44",
+   "sampleQ": "The acid strength of active methylene group in\n\n(a) CH$_3$COCH$_2$COOC$_2$H$_5$\n\n(b) CH$_3$COCH$_2$COCH$_3$\n\n(c) C$_2$H$_5$OOCCH$_2$COOC$_2$H$_5$ decreases as"
+  },
+  {
+   "template": "che-ald-haloform",
+   "chapter": "Aldehydes, Ketones and Carboxylic Acids",
+   "score": 1.8,
+   "slot": 0,
+   "sample": "2015-chemistry-41",
+   "sampleQ": "Iodoform can be prepared from all, except"
+  },
+  {
+   "template": "che-eqm-ph-strong-acid-base",
+   "chapter": "Equilibrium",
+   "score": 3.011,
+   "slot": 0,
+   "sample": "2012-chemistry-4",
+   "sampleQ": "The pH of the solution obtained by mixing 100 ml of a solution of pH = 3 with 400 ml of a solution of pH = 4 is"
+  },
+  {
+   "template": "che-eqm-salt-hydrolysis-ph",
+   "chapter": "Equilibrium",
+   "score": 2.8,
+   "slot": 0,
+   "sample": "2015-chemistry-31",
+   "sampleQ": "The aqueous solution of following salt will have the lowest pH:"
+  },
+  {
+   "template": "che-eqm-buffer-ph",
+   "chapter": "Equilibrium",
+   "score": 1.377,
+   "slot": 0,
+   "sample": "2013-chemistry-29",
+   "sampleQ": "An example for a neutral buffer is"
+  },
+  {
+   "template": "che-eqm-composition-calc",
+   "chapter": "Equilibrium",
+   "score": 1.312,
+   "slot": 0,
+   "sample": "2014-chemistry-41",
+   "sampleQ": "For the equilibrium: CaCO$_{3(s)}$ $\\rightleftharpoons$ CaO$_{(s)}$ + CO$_{2(g)}$; K$_p$ = 1.64 atm at 1000 K\n\n50 g of CaCO$_3$ in a 10 litre closed vessel is heated to 1000 K. Percentage of CaCO$_3$ that remains unreacted at equilibrium is\n\n(Given R = 0.082 L atm K$^{-1}$ mol$^{-1}$)"
+  },
+  {
+   "template": "che-coord-vbt-hybridisation-geometry",
+   "chapter": "Coordination Compounds",
+   "score": 1.768,
+   "slot": 0,
+   "sample": "2014-chemistry-21",
+   "sampleQ": "A correct statement is"
+  },
+  {
+   "template": "che-coord-ligand-types",
+   "chapter": "Coordination Compounds",
+   "score": 1.664,
+   "slot": 0,
+   "sample": "2013-chemistry-43",
+   "sampleQ": "A group of atoms can function as a ligand only when"
+  },
+  {
+   "template": "che-coord-iupac-naming",
+   "chapter": "Coordination Compounds",
+   "score": 1.537,
+   "slot": 0,
+   "sample": "2014-chemistry-59",
+   "sampleQ": "The IUPAC name of the complex ion formed when gold dissolves in aquaregia is"
+  },
+  {
+   "template": "che-surf-colloid-classification",
+   "chapter": "Old syllabus: Surface Chemistry",
+   "score": 1.8,
+   "slot": 0,
+   "sample": "2015-chemistry-38",
+   "sampleQ": "Which of the following colloids cannot be easily coagulated?"
+  },
+  {
+   "template": "che-surf-freundlich-isotherm",
+   "chapter": "Old syllabus: Surface Chemistry",
+   "score": 1.8,
+   "slot": 0,
+   "sample": "2015-chemistry-20",
+   "sampleQ": "Which of the following curve is in accordance with Freundlich adsorption isotherm? [Graphs: (1) x/m vs p rising then flattening to a plateau; (2) x/m vs p rising slowly then curving up steeply; (3) log(x/m) vs log p as a straight line with a gentle slope and a clear positive y-intercept; (4) log(x/m) vs log p as a straight line with a steep slope passing almost through the origin]"
+  },
+  {
+   "template": "che-surf-colloid-properties",
+   "chapter": "Old syllabus: Surface Chemistry",
+   "score": 1.664,
+   "slot": 0,
+   "sample": "2013-chemistry-55",
+   "sampleQ": "The stability of a Lyophobic colloid is due to"
+  },
+  {
+   "template": "che-kin-first-order-time-percent",
+   "chapter": "Chemical Kinetics",
+   "score": 2.152,
+   "slot": 0,
+   "sample": "2015-chemistry-11",
+   "sampleQ": "In a first order reaction, the concentration of the reactant is reduced to 12.5% in one hour. When was it half completed?"
+  },
+  {
+   "template": "che-kin-first-order-pressure",
+   "chapter": "Chemical Kinetics",
+   "score": 2.049,
+   "slot": 0,
+   "sample": "2014-chemistry-2",
+   "sampleQ": "A$_{(g)} \\xrightarrow{\\Delta} P_{(g)} + Q_{(g)} + R_{(g)}$, follows first order kinetics with a half life of 69.3 s at 500 °C. Starting from the gas 'A' enclosed in a container at 500 °C and at a pressure of 0.4 atm, the total pressure of the system after 230 s will be"
+  },
+  {
+   "template": "che-kin-arrhenius-ea-calc",
+   "chapter": "Chemical Kinetics",
+   "score": 1.312,
+   "slot": 0,
+   "sample": "2014-chemistry-58",
+   "sampleQ": "A plot of $\\dfrac{1}{T}$ Vs. ln k for a reaction gives the slope –1 × 10$^4$ K. The energy of activation for the reaction is\n\n(Given R = 8.314 J K$^{-1}$ mol$^{-1}$)"
+  },
+  {
+   "template": "che-hc-benzene-structure-stability",
+   "chapter": "Hydrocarbons",
+   "score": 1.537,
+   "slot": 0,
+   "sample": "2014-chemistry-14",
+   "sampleQ": "The correct statement is"
+  },
+  {
+   "template": "che-hc-conformations",
+   "chapter": "Hydrocarbons",
+   "score": 1.377,
+   "slot": 0,
+   "sample": "2013-chemistry-30",
+   "sampleQ": "Least energetic conformation of cyclohexane is"
+  },
+  {
+   "template": "che-hc-benzene-derivative-preparation",
+   "chapter": "Hydrocarbons",
+   "score": 1.05,
+   "slot": 0,
+   "sample": "2013-chemistry-27",
+   "sampleQ": "Conversion of benzene to acetophenone can be brought by"
+  },
+  {
+   "template": "che-bio-glucose-structure-reactions",
+   "chapter": "Biomolecules",
+   "score": 1.768,
+   "slot": 0,
+   "sample": "2014-chemistry-25",
+   "sampleQ": "The statement that is NOT correct is"
+  },
+  {
+   "template": "che-bio-amino-acids",
+   "chapter": "Biomolecules",
+   "score": 1.737,
+   "slot": 0,
+   "sample": "2015-chemistry-30",
+   "sampleQ": "One of the following is an essential amino acid."
+  },
+  {
+   "template": "che-bio-oils-fats",
+   "chapter": "Biomolecules",
+   "score": 1.48,
+   "slot": 0,
+   "sample": "2013-chemistry-56",
+   "sampleQ": "Oils are liquids at room temperature since they contain higher percentage of"
+  },
+  {
+   "template": "che-elec-faraday-mass-volume",
+   "chapter": "Electrochemistry",
+   "score": 2.049,
+   "slot": 0,
+   "sample": "2014-chemistry-38",
+   "sampleQ": "Impure copper containing Fe, Au, Ag as impurities is electrolytically refined. A current of 140 A for 482.5 s decreased the mass of the anode by 22.26 g and increased the mass of cathode by 22.011 g. Percentage of iron in impure copper is\n\n(Given molar mass Fe = 55.5 g mol$^{-1}$, molar mass Cu = 63.54 g mol$^{-1}$)"
+  },
+  {
+   "template": "che-elec-nernst-concentration",
+   "chapter": "Electrochemistry",
+   "score": 2.049,
+   "slot": 0,
+   "sample": "2014-chemistry-34",
+   "sampleQ": "For Cr$_2$O$_7^{-2}$ + 14H$^+$ + 6e$^-$ $\\rightarrow$ 2Cr$^{+3}$ + 7H$_2$O; E° = 1.33 V At [Cr$_2$O$_7^{-2}$] = 4.5 millimole, [Cr$^{+3}$] = 15 millimole, E is 1.067 V. The pH of the solution is nearly equal to"
+  },
+  {
+   "template": "che-elec-batteries-fuel-cells",
+   "chapter": "Electrochemistry",
+   "score": 2,
+   "slot": 0,
+   "sample": "2015-chemistry-2",
+   "sampleQ": "While charging the lead storage battery, ________."
+  },
+  {
+   "template": "che-alc-acidity-order",
+   "chapter": "Alcohols, Phenols and Ethers",
+   "score": 1.64,
+   "slot": 0,
+   "sample": "2015-chemistry-52",
+   "sampleQ": "Arrange the following compounds in the increasing order of their acidic strength: i. m-nitrophenol ii. m-cresol iii. phenol iv. m-chlorophenol"
+  },
+  {
+   "template": "che-alc-nitrophenol-hbond",
+   "chapter": "Alcohols, Phenols and Ethers",
+   "score": 1.377,
+   "slot": 0,
+   "sample": "2013-chemistry-19",
+   "sampleQ": "Intramolecular Hydrogen bonding is formed in"
+  },
+  {
+   "template": "che-alc-ether-hi-cleavage",
+   "chapter": "Alcohols, Phenols and Ethers",
+   "score": 1.128,
+   "slot": 0,
+   "sample": "2014-chemistry-54",
+   "sampleQ": "When CH$_2$=CH-O-CH$_2$-CH$_3$ reacts with one mole of HI, one of the products formed is"
+  },
+  {
+   "template": "che-bond-mot-magnetism-electrons",
+   "chapter": "Chemical Bonding and Molecular Structure",
+   "score": 2.12,
+   "slot": 0,
+   "sample": "2013-chemistry-46",
+   "sampleQ": "Which of the following is diamagnetic ?"
+  },
+  {
+   "template": "che-bond-mot-bond-order",
+   "chapter": "Chemical Bonding and Molecular Structure",
+   "score": 1.41,
+   "slot": 0,
+   "sample": "2015-chemistry-49",
+   "sampleQ": "Using MOT, compare O$_2^+$ and O$_2^-$ species and choose the incorrect option."
+  },
+  {
+   "template": "che-bond-hybridisation-change",
+   "chapter": "Chemical Bonding and Molecular Structure",
+   "score": 1.328,
+   "slot": 0,
+   "sample": "2015-chemistry-58",
+   "sampleQ": "One of the following conversion results in the change of hybridization and geometry:"
+  },
+  {
+   "template": "che-sol-compare-bp-fp",
+   "chapter": "Solutions",
+   "score": 1.64,
+   "slot": 0,
+   "sample": "2015-chemistry-24",
+   "sampleQ": "Which of the following aqueous solution has the highest freezing point?"
+  },
+  {
+   "template": "che-sol-raoult-deviations",
+   "chapter": "Solutions",
+   "score": 1.21,
+   "slot": 0,
+   "sample": "2014-chemistry-49",
+   "sampleQ": "For an ideal binary liquid mixture"
+  },
+  {
+   "template": "che-sol-relative-lowering-vp",
+   "chapter": "Solutions",
+   "score": 1.152,
+   "slot": 0,
+   "sample": "2013-chemistry-47",
+   "sampleQ": "3 gms of urea is dissolved in 45 gms of H$_2$O. The relative lowering in vapour pressure is"
+  },
+  {
+   "template": "che-hal-sn1-sn2-features",
+   "chapter": "Haloalkanes and Haloarenes",
+   "score": 2.049,
+   "slot": 0,
+   "sample": "2014-chemistry-11",
+   "sampleQ": "An incorrect statement with respect to S$_N$1 and S$_N$2 mechanisms for alkyl halide is"
+  },
+  {
+   "template": "che-hal-stereochemistry",
+   "chapter": "Haloalkanes and Haloarenes",
+   "score": 1.41,
+   "slot": 0,
+   "sample": "2015-chemistry-17",
+   "sampleQ": "The hydrolysis of optically active 2-bromobutane with aqueous NaOH result in the formation of"
+  },
+  {
+   "template": "che-bas-mole-concept-counting",
+   "chapter": "Some Basic Concepts of Chemistry",
+   "score": 3.12,
+   "slot": 0,
+   "sample": "2015-chemistry-48",
+   "sampleQ": "What amount of dioxygen (in gram) contains 1.8 $\\times$ 10$^{22}$ molecules?"
+  },
+  {
+   "template": "che-bas-empirical-molecular-formula",
+   "chapter": "Some Basic Concepts of Chemistry",
+   "score": 1.64,
+   "slot": 0,
+   "sample": "2015-chemistry-33",
+   "sampleQ": "0.30 g of an organic compound containing C, H and Oxygen on combustion yields 0.44 g CO$_2$ and 0.18 g H$_2$O. If one mol of compound weighs 60, then molecular formula of the compound is"
+  },
+  {
+   "template": "che-thermo-hess-law",
+   "chapter": "Thermodynamics",
+   "score": 2.44,
+   "slot": 0,
+   "sample": "2015-chemistry-51",
+   "sampleQ": "In the reaction S + $\\dfrac{3}{2}$O$_2$ $\\longrightarrow$ SO$_3$ + 2x kJ and SO$_2$ + $\\dfrac{1}{2}$O$_2$ $\\longrightarrow$ SO$_3$ + y kJ, heat of formation of SO$_2$ is"
+  },
+  {
+   "template": "che-thermo-spontaneity",
+   "chapter": "Thermodynamics",
+   "score": 1.44,
+   "slot": 0,
+   "sample": "2014-chemistry-42",
+   "sampleQ": "Conversion of oxygen into ozone is non-spontaneous at"
+  },
+  {
+   "template": "che-amn-hofmann-bromamide",
+   "chapter": "Amines",
+   "score": 2.768,
+   "slot": 0,
+   "sample": "2015-chemistry-34",
+   "sampleQ": "One of the following amide will not undergo Hoffmann bromamide reaction:"
+  },
+  {
+   "template": "che-amn-diazonium-conversion-sequence",
+   "chapter": "Amines",
+   "score": 2.537,
+   "slot": 0,
+   "sample": "2015-chemistry-53",
+   "sampleQ": "In the sequence of reactions: P $\\xrightarrow[\\text{(2) Sn/HCl}]{\\text{(1) Br}_2}$ Q $\\xrightarrow[\\text{(2) H}_2\\text{O/H}_3\\text{PO}_2]{\\text{(1) NaNO}_2\\text{/HCl, 273-278 K}}$ R $\\xrightarrow[\\text{OH}^-]{\\text{KMnO}_4}$ o-bromobenzoic acid (COOH and Br on adjacent ring carbons), the starting compound 'P' is"
+  },
+  {
+   "template": "che-df-electronic-configuration",
+   "chapter": "The d- and f-Block Elements",
+   "score": 1.64,
+   "slot": 0,
+   "sample": "2015-chemistry-15",
+   "sampleQ": "The electronic configuration of Gd$^{2+}$ is (at. no. of Gd is 64)"
+  },
+  {
+   "template": "che-df-paramagnetism-compare",
+   "chapter": "The d- and f-Block Elements",
+   "score": 1.28,
+   "slot": 0,
+   "sample": "2013-chemistry-34",
+   "sampleQ": "Which one of the following shows highest magnetic moment ?"
+  },
+  {
+   "template": "che-pbe-boron-compounds",
+   "chapter": "Old syllabus: p-Block Elements",
+   "score": 2,
+   "slot": 0,
+   "sample": "2015-chemistry-55",
+   "sampleQ": "The correct statement is"
+  },
+  {
+   "template": "che-pbe-noble-gases",
+   "chapter": "Old syllabus: p-Block Elements",
+   "score": 1.05,
+   "slot": 0,
+   "sample": "2013-chemistry-31",
+   "sampleQ": "Which of the following is employed in flash tubes in photography ?"
+  },
+  {
+   "template": "che-goc-electronic-effects",
+   "chapter": "Organic Chemistry: Basic Principles and Techniques",
+   "score": 1.562,
+   "slot": 0,
+   "sample": "2013-chemistry-15",
+   "sampleQ": "Mesomeric effect involves"
+  },
+  {
+   "template": "che-per-ionic-radius-isoelectronic",
+   "chapter": "Classification of Elements and Periodicity",
+   "score": 1.44,
+   "slot": 0,
+   "sample": "2014-chemistry-17",
+   "sampleQ": "The correct arrangement for the ions in the increasing order of their radii is"
+  },
+  {
+   "template": "che-atom-quantum-number-rules-energy",
+   "chapter": "Structure of Atom",
+   "score": 1.922,
+   "slot": 0,
+   "sample": "2015-chemistry-5",
+   "sampleQ": "The two electrons have the following set of quantum numbers : P = 3, 2, -2, +$\\dfrac{1}{2}$ ; Q = 3, 0, 0, +$\\dfrac{1}{2}$. Which of the following statement is true?"
+  },
+  {
+   "template": "che-ss-edge-radius-density",
+   "chapter": "Old syllabus: Solid State",
+   "score": 1.8,
+   "slot": 0,
+   "sample": "2015-chemistry-9",
+   "sampleQ": "Sodium metal crystallizes in B.C.C. lattice with edge length of 4.29 Å. The radius of sodium atom is"
+  },
+  {
+   "template": "che-som-kinetic-theory-speeds",
+   "chapter": "Old syllabus: States of Matter",
+   "score": 2.705,
+   "slot": 0,
+   "sample": "2015-chemistry-46",
+   "sampleQ": "Plot of Maxwell's distribution of velocities is given below: [Two curves of fraction of molecules vs molecular velocity; the T$_2$ curve is taller and narrower, peaking at a lower velocity V$_2$ with higher fraction f$_2$; the T$_1$ curve is shorter and broader, peaking at a higher velocity V$_1$ with lower fraction f$_1$.] Which of the following is correct about this plot?"
+  },
+  {
+   "template": "che-gppi-refining-methods",
+   "chapter": "Old syllabus: General Principles and Processes of Isolation of Elements",
+   "score": 1.768,
+   "slot": 0,
+   "sample": "2014-chemistry-31",
+   "sampleQ": "The statement that is NOT correct is"
+  },
+  {
+   "template": "che-redox-oxidant-reductant-identify",
+   "chapter": "Redox Reactions",
+   "score": 1.968,
+   "slot": 0,
+   "sample": "2015-chemistry-6",
+   "sampleQ": "H$_2$O$_2$ cannot oxidise"
+  },
+  {
+   "template": "che-pb-halogen-chemistry",
+   "chapter": "Old syllabus: p-Block",
+   "score": 0.8,
+   "slot": 0,
+   "sample": "2014-chemistry-3",
+   "sampleQ": "MnO$_2$ + HCl $\\xrightarrow{\\Delta}$ A$_{(g)}$\n\nA$_{(g)}$ + F$_{2(excess)}$ $\\xrightarrow{573 K}$ B$_{(g)}$\n\nB$_{(l)}$ + U$_{(s)}$ $\\longrightarrow$ C$_{(g)}$ + D$_{(g)}$\n\nThe gases A, B, C and D are respectively"
+  },
+  {
+   "template": "che-sbe-alkali-metal-properties",
+   "chapter": "Old syllabus: s-Block Elements",
+   "score": 2.464,
+   "slot": 0,
+   "sample": "2014-chemistry-45",
+   "sampleQ": "A metallic oxide reacts with water to form its hydroxide, hydrogen peroxide and also liberates oxygen. The metallic oxide could be"
+  },
+  {
+   "template": "che-poly-monomers",
+   "chapter": "Old syllabus: Polymers",
+   "score": 1.64,
+   "slot": 0,
+   "sample": "2015-chemistry-4",
+   "sampleQ": "Orlon has monomeric unit"
+  },
+  {
+   "template": "che-cel-food-additives",
+   "chapter": "Old syllabus: Chemistry in Everyday Life",
+   "score": 1.312,
+   "slot": 0,
+   "sample": "2014-chemistry-12",
+   "sampleQ": "Butylated hydroxy toluene as a food additive acts as"
+  },
+  {
+   "template": "che-gpie-extraction-cu-al",
+   "chapter": "Old syllabus: General Principles of Isolation of Elements",
+   "score": 2,
+   "slot": 0,
+   "sample": "2015-chemistry-13",
+   "sampleQ": "Copper is extracted from Copper pyrites by heating in a Bessemer converter. The method is based on the principle that"
+  },
+  {
+   "template": "che-qa-ion-tests",
+   "chapter": "Old syllabus: Qualitative Analysis",
+   "score": 2,
+   "slot": 0,
+   "sample": "2015-chemistry-16",
+   "sampleQ": "MSO$_4$ $\\xrightarrow{\\text{NH}_4\\text{OH}}$ $\\downarrow$X (white) $\\xrightarrow[\\text{excess}]{\\text{NH}_4\\text{OH}}$ Y $\\xrightarrow{\\text{H}_2\\text{S}}$ $\\downarrow$Z. Here M and Z are"
+  }
+ ],
+ "summary": {
+  "year": 2016,
+  "subject": "chemistry",
+  "n": 60,
+  "exact": 1,
+  "similar": 11,
+  "missSeen": 34,
+  "missNew": 14,
+  "hitPct": 20,
+  "predictablePct": 76.7,
+  "verbatimRepeats": 4,
+  "wastedSlots": 48
+ },
+ "lessons": {
+  "missedKnownTemplates": [
+   "che-sol-colligative-definition",
+   "che-ss-unit-cell-contributions",
+   "che-sol-vant-hoff-factor",
+   "che-sol-osmotic-pressure-calc",
+   "che-elec-charge-for-redox-change",
+   "che-kin-rate-change-concentration",
+   "che-surf-adsorption-thermodynamics",
+   "che-surf-catalysis",
+   "che-hal-iupac-classification",
+   "che-hal-haloarene-nucleophilic-substitution",
+   "che-alc-multistep-alkene-alcohol",
+   "che-ald-cannizzaro",
+   "che-alc-phenol-named-reactions",
+   "che-ald-multistep-sequence",
+   "che-thermo-entropy-laws",
+   "che-eqm-k-relations",
+   "che-gppi-roasting-calcination",
+   "che-gppi-ore-concentration-leaching",
+   "che-pbe-xenon-compounds",
+   "che-coord-stereoisomer-count",
+   "che-coord-spectrochemical-series",
+   "che-df-permanganate-dichromate",
+   "che-coord-spectrochemical-series",
+   "che-amn-nitrous-acid-identify",
+   "che-bio-reducing-sugars-inversion",
+   "che-som-real-gases",
+   "che-atom-bohr-hydrogen-spectrum",
+   "che-bond-type-properties",
+   "che-poly-classification",
+   "che-bio-nucleic-acids",
+   "che-cel-drug-classes",
+   "che-bond-orbital-overlap-sigma-pi",
+   "che-bond-hybridisation-identify",
+   "che-hc-eas-electrophile-directing"
+  ],
+  "chapterGaps": [
+   {
+    "chapter": "Equilibrium",
+    "predicted": 4,
+    "actual": 2
+   },
+   {
+    "chapter": "Hydrocarbons",
+    "predicted": 3,
+    "actual": 1
+   },
+   {
+    "chapter": "Old syllabus: General Principles and Processes of Isolation of Elements",
+    "predicted": 1,
+    "actual": 3
+   },
+   {
+    "chapter": "Aldehydes, Ketones and Carboxylic Acids",
+    "predicted": 4,
+    "actual": 3
+   },
+   {
+    "chapter": "Coordination Compounds",
+    "predicted": 3,
+    "actual": 4
+   },
+   {
+    "chapter": "Chemical Kinetics",
+    "predicted": 3,
+    "actual": 4
+   },
+   {
+    "chapter": "Biomolecules",
+    "predicted": 3,
+    "actual": 2
+   },
+   {
+    "chapter": "Alcohols, Phenols and Ethers",
+    "predicted": 3,
+    "actual": 4
+   }
+  ],
+  "wastedTemplates": [
+   "che-ald-distinguishing-tests",
+   "che-ald-dry-distillation-ca-salts",
+   "che-ald-acid-strength-effects",
+   "che-ald-haloform",
+   "che-eqm-ph-strong-acid-base",
+   "che-eqm-salt-hydrolysis-ph",
+   "che-eqm-buffer-ph",
+   "che-eqm-composition-calc",
+   "che-coord-vbt-hybridisation-geometry",
+   "che-coord-ligand-types",
+   "che-surf-freundlich-isotherm",
+   "che-surf-colloid-properties",
+   "che-kin-first-order-pressure",
+   "che-hc-benzene-structure-stability",
+   "che-hc-conformations",
+   "che-hc-benzene-derivative-preparation",
+   "che-bio-glucose-structure-reactions",
+   "che-bio-amino-acids",
+   "che-bio-oils-fats",
+   "che-elec-faraday-mass-volume",
+   "che-elec-nernst-concentration",
+   "che-alc-nitrophenol-hbond",
+   "che-alc-ether-hi-cleavage",
+   "che-bond-mot-magnetism-electrons",
+   "che-bond-hybridisation-change",
+   "che-sol-compare-bp-fp",
+   "che-sol-raoult-deviations",
+   "che-sol-relative-lowering-vp",
+   "che-hal-sn1-sn2-features",
+   "che-hal-stereochemistry",
+   "che-thermo-hess-law",
+   "che-thermo-spontaneity",
+   "che-amn-hofmann-bromamide",
+   "che-amn-diazonium-conversion-sequence",
+   "che-df-electronic-configuration",
+   "che-pbe-boron-compounds",
+   "che-pbe-noble-gases",
+   "che-goc-electronic-effects",
+   "che-per-ionic-radius-isoelectronic",
+   "che-ss-edge-radius-density",
+   "che-som-kinetic-theory-speeds",
+   "che-redox-oxidant-reductant-identify",
+   "che-pb-halogen-chemistry",
+   "che-sbe-alkali-metal-properties",
+   "che-poly-monomers",
+   "che-cel-food-additives",
+   "che-gpie-extraction-cu-al",
+   "che-qa-ion-tests"
+  ]
+ },
+ "questions": [
+  {
+   "id": "2016-chemistry-1",
+   "n": 1,
+   "chapter": "Chemical Kinetics",
+   "template": "che-kin-first-order-time-percent",
+   "outcome": "similar",
+   "verbatimOf": null,
+   "sim": 0.24,
+   "q": "The half-life period of a 1st order reaction is 60 minutes. What percentage will be left over after 240 minutes ?"
+  },
+  {
+   "id": "2016-chemistry-2",
+   "n": 2,
+   "chapter": "Solutions",
+   "template": "che-sol-colligative-definition",
+   "outcome": "miss-seen",
+   "verbatimOf": "2013-chemistry-44",
+   "sim": 0.8,
+   "q": "Which of the following is not a colligative property ?"
+  },
+  {
+   "id": "2016-chemistry-3",
+   "n": 3,
+   "chapter": "Old syllabus: Solid State",
+   "template": "che-ss-unit-cell-contributions",
+   "outcome": "miss-seen",
+   "verbatimOf": null,
+   "sim": 0.2,
+   "q": "The contribution of particle at the edge centre to a particular unit cell is,"
+  },
+  {
+   "id": "2016-chemistry-4",
+   "n": 4,
+   "chapter": "Solutions",
+   "template": "che-sol-vant-hoff-factor",
+   "outcome": "miss-seen",
+   "verbatimOf": null,
+   "sim": 0.19,
+   "q": "When an electrolyte is dissociated in solution, the van't Hoff's factor (i) is,"
+  },
+  {
+   "id": "2016-chemistry-5",
+   "n": 5,
+   "chapter": "Electrochemistry",
+   "template": "che-elec-galvanic-cell-conventions",
+   "outcome": "miss-new",
+   "verbatimOf": null,
+   "sim": 0.21,
+   "q": "Which of the following is incorrect in a galvanic cell ?"
+  },
+  {
+   "id": "2016-chemistry-6",
+   "n": 6,
+   "chapter": "Electrochemistry",
+   "template": "che-elec-batteries-fuel-cells",
+   "outcome": "similar",
+   "verbatimOf": null,
+   "sim": 0.16,
+   "q": "A secondary cell is one"
+  },
+  {
+   "id": "2016-chemistry-7",
+   "n": 7,
+   "chapter": "Solutions",
+   "template": "che-sol-osmotic-pressure-calc",
+   "outcome": "miss-seen",
+   "verbatimOf": null,
+   "sim": 0.24,
+   "q": "Osmotic pressure of the solution can be increased by,"
+  },
+  {
+   "id": "2016-chemistry-8",
+   "n": 8,
+   "chapter": "Electrochemistry",
+   "template": "che-elec-charge-for-redox-change",
+   "outcome": "miss-seen",
+   "verbatimOf": null,
+   "sim": 0.22,
+   "q": "The amount of current in Faraday is required for the reduction of 1 mol of Cr$_2$O$_7^{--}$ ions to Cr$^{3+}$ is,"
+  },
+  {
+   "id": "2016-chemistry-9",
+   "n": 9,
+   "chapter": "Chemical Kinetics",
+   "template": "che-kin-rate-change-concentration",
+   "outcome": "miss-seen",
+   "verbatimOf": null,
+   "sim": 0.25,
+   "q": "For a chemical reaction, mA $\\rightarrow$ xB, the rate law is r = k[A]$^2$. If the concentration of A is doubled, the reaction rate will be,"
+  },
+  {
+   "id": "2016-chemistry-10",
+   "n": 10,
+   "chapter": "Old syllabus: Solid State",
+   "template": "che-ss-defects",
+   "outcome": "miss-new",
+   "verbatimOf": null,
+   "sim": 0.18,
+   "q": "Schottky defect in a crystal is observed when,"
+  },
+  {
+   "id": "2016-chemistry-11",
+   "n": 11,
+   "chapter": "Chemical Kinetics",
+   "template": "che-kin-stoichiometric-rate-relation",
+   "outcome": "miss-new",
+   "verbatimOf": null,
+   "sim": 0.21,
+   "q": "3A $\\longrightarrow$ 2B, rate of reaction $+\\dfrac{d[B]}{dt}$ is equal to"
+  },
+  {
+   "id": "2016-chemistry-12",
+   "n": 12,
+   "chapter": "Chemical Kinetics",
+   "template": "che-kin-arrhenius-ea-calc",
+   "outcome": "similar",
+   "verbatimOf": null,
+   "sim": 0.27,
+   "q": "The activation energy of a chemical reaction can be determined by,"
+  },
+  {
+   "id": "2016-chemistry-13",
+   "n": 13,
+   "chapter": "Old syllabus: Surface Chemistry",
+   "template": "che-surf-adsorption-thermodynamics",
+   "outcome": "miss-seen",
+   "verbatimOf": null,
+   "sim": 0.21,
+   "q": "Which of the following statements is incorrect w.r.t. Physisorption ?"
+  },
+  {
+   "id": "2016-chemistry-14",
+   "n": 14,
+   "chapter": "Old syllabus: Surface Chemistry",
+   "template": "che-surf-colloid-classification",
+   "outcome": "similar",
+   "verbatimOf": null,
+   "sim": 0.13,
+   "q": "Sulphur sol contains"
+  },
+  {
+   "id": "2016-chemistry-15",
+   "n": 15,
+   "chapter": "Old syllabus: Surface Chemistry",
+   "template": "che-surf-catalysis",
+   "outcome": "miss-seen",
+   "verbatimOf": null,
+   "sim": 0.12,
+   "q": "Reactions in Zeolite catalyst depend on,"
+  },
+  {
+   "id": "2016-chemistry-16",
+   "n": 16,
+   "chapter": "Haloalkanes and Haloarenes",
+   "template": "che-hal-iupac-classification",
+   "outcome": "miss-seen",
+   "verbatimOf": null,
+   "sim": 0.21,
+   "q": "IUPAC name of the compound H$_3$C-CH=CH-CH$_2$Br [but-2-ene with a bromomethyl group replacing one terminal H] is,"
+  },
+  {
+   "id": "2016-chemistry-17",
+   "n": 17,
+   "chapter": "Haloalkanes and Haloarenes",
+   "template": "che-hal-haloarene-nucleophilic-substitution",
+   "outcome": "miss-seen",
+   "verbatimOf": null,
+   "sim": 0.26,
+   "q": "Replacement of Cl of Chlorobenzene to give phenol requires drastic conditions, but Cl of 2, 4 - dinitro chlorobenzene is readily replaced. This is because,"
+  },
+  {
+   "id": "2016-chemistry-18",
+   "n": 18,
+   "chapter": "Alcohols, Phenols and Ethers",
+   "template": "che-alc-multistep-alkene-alcohol",
+   "outcome": "miss-seen",
+   "verbatimOf": null,
+   "sim": 0.22,
+   "q": "In the reaction : Ethanol $\\xrightarrow{\\text{PCl}_5}$ X $\\xrightarrow{\\text{alc KOH}}$ Y $\\xrightarrow{\\text{H}_2\\text{SO}_4,\\ \\text{Room temp.}\\ /\\ \\text{H}_2"
+  },
+  {
+   "id": "2016-chemistry-19",
+   "n": 19,
+   "chapter": "Alcohols, Phenols and Ethers",
+   "template": "che-alc-acidity-order",
+   "outcome": "similar",
+   "verbatimOf": null,
+   "sim": 0.42,
+   "q": "Which of the following compound is most acidic ?"
+  },
+  {
+   "id": "2016-chemistry-20",
+   "n": 20,
+   "chapter": "Aldehydes, Ketones and Carboxylic Acids",
+   "template": "che-ald-cannizzaro",
+   "outcome": "miss-seen",
+   "verbatimOf": null,
+   "sim": 0.17,
+   "q": "Benzene carbaldehyde is reacted with concentrated NaOH solution to give the products A and B. The product A can be used food preservative and the product B is a"
+  },
+  {
+   "id": "2016-chemistry-21",
+   "n": 21,
+   "chapter": "Alcohols, Phenols and Ethers",
+   "template": "che-alc-phenol-named-reactions",
+   "outcome": "miss-seen",
+   "verbatimOf": null,
+   "sim": 0.16,
+   "q": "The reaction which involves dichlorocarbene as an electrophile is,"
+  },
+  {
+   "id": "2016-chemistry-22",
+   "n": 22,
+   "chapter": "Alcohols, Phenols and Ethers",
+   "template": "che-alc-dehydration-conditions",
+   "outcome": "miss-new",
+   "verbatimOf": null,
+   "sim": 0.21,
+   "q": "Ethanol is converted into ethoxy ethane,"
+  },
+  {
+   "id": "2016-chemistry-23",
+   "n": 23,
+   "chapter": "Aldehydes, Ketones and Carboxylic Acids",
+   "template": "che-ald-oxidation-identify",
+   "outcome": "miss-new",
+   "verbatimOf": "2009-chemistry-53",
+   "sim": 0.65,
+   "q": "An organic compound X is oxidised by using acidified K$_2$Cr$_2$O$_7$ solution. The product obtained reacts with phenyl hydrazine but does not answer silver mir"
+  },
+  {
+   "id": "2016-chemistry-24",
+   "n": 24,
+   "chapter": "Aldehydes, Ketones and Carboxylic Acids",
+   "template": "che-ald-multistep-sequence",
+   "outcome": "miss-seen",
+   "verbatimOf": null,
+   "sim": 0.21,
+   "q": "Predict the product 'C' in the following series of reactions : CH$_3$$-$COOH $\\xrightarrow{\\text{PCl}_5}$ A $\\xrightarrow[\\text{Anhyd AlCl}_3]{\\text{C}_6\\text{H"
+  },
+  {
+   "id": "2016-chemistry-25",
+   "n": 25,
+   "chapter": "Some Basic Concepts of Chemistry",
+   "template": "che-bas-mole-concept-counting",
+   "outcome": "similar",
+   "verbatimOf": null,
+   "sim": 0.29,
+   "q": "The number of oxygen atoms in 4.4 gm of CO$_2$ is,"
+  },
+  {
+   "id": "2016-chemistry-26",
+   "n": 26,
+   "chapter": "Thermodynamics",
+   "template": "che-thermo-bond-enthalpy",
+   "outcome": "miss-new",
+   "verbatimOf": null,
+   "sim": 0.23,
+   "q": "If the bond energies of H$-$H, Br$-$Br and H$-$Br are 433, 192 and 364 kJ mol$^{-1}$ respectively, then $\\Delta H\\degree$ for the reaction : H$_2$(g) + Br$_2$(g"
+  },
+  {
+   "id": "2016-chemistry-27",
+   "n": 27,
+   "chapter": "Equilibrium",
+   "template": "che-eqm-ksp-solubility-calc",
+   "outcome": "miss-new",
+   "verbatimOf": null,
+   "sim": 0.22,
+   "q": "In the reaction; Fe(OH)$_3$(s) $\\rightleftharpoons$ Fe$^{3+}$(aq) + 3OH$^-$(aq), if the concentration of OH$^-$ ions is decreased by $\\dfrac{1}{4}$ times, then "
+  },
+  {
+   "id": "2016-chemistry-28",
+   "n": 28,
+   "chapter": "Thermodynamics",
+   "template": "che-thermo-entropy-laws",
+   "outcome": "miss-seen",
+   "verbatimOf": null,
+   "sim": 0.22,
+   "q": "The correct statement regarding entropy is,"
+  },
+  {
+   "id": "2016-chemistry-29",
+   "n": 29,
+   "chapter": "Equilibrium",
+   "template": "che-eqm-k-relations",
+   "outcome": "miss-seen",
+   "verbatimOf": "2010-chemistry-3",
+   "sim": 0.52,
+   "q": "Equilibrium constants K$_1$ and K$_2$ for the following equilibria (a) NO(g) + $\\dfrac{1}{2}$O$_2$(g) $\\rightleftharpoons$ NO$_2$(g) (b) 2NO$_2$(g) $\\rightlefth"
+  },
+  {
+   "id": "2016-chemistry-30",
+   "n": 30,
+   "chapter": "Old syllabus: General Principles and Processes of Isolation of Elements",
+   "template": "che-gppi-refining-methods",
+   "outcome": "similar",
+   "verbatimOf": null,
+   "sim": 0.13,
+   "q": "Van-Arkel method of refining Zirconium involves,"
+  },
+  {
+   "id": "2016-chemistry-31",
+   "n": 31,
+   "chapter": "Old syllabus: General Principles and Processes of Isolation of Elements",
+   "template": "che-gppi-roasting-calcination",
+   "outcome": "miss-seen",
+   "verbatimOf": null,
+   "sim": 0.25,
+   "q": "The composition of 'copper matte' is,"
+  },
+  {
+   "id": "2016-chemistry-32",
+   "n": 32,
+   "chapter": "Old syllabus: General Principles and Processes of Isolation of Elements",
+   "template": "che-gppi-ore-concentration-leaching",
+   "outcome": "miss-seen",
+   "verbatimOf": null,
+   "sim": 0.18,
+   "q": "The complex formed when Al$_2$O$_3$ is leached from Bauxite using concentrated NaOH solution is,"
+  },
+  {
+   "id": "2016-chemistry-33",
+   "n": 33,
+   "chapter": "Old syllabus: p-Block Elements",
+   "template": "che-pbe-halogen-chemistry",
+   "outcome": "miss-new",
+   "verbatimOf": null,
+   "sim": 0.24,
+   "q": "The property which is not true about Fluorine is,"
+  },
+  {
+   "id": "2016-chemistry-34",
+   "n": 34,
+   "chapter": "Old syllabus: p-Block Elements",
+   "template": "che-pbe-nitrogen-anomalous",
+   "outcome": "miss-new",
+   "verbatimOf": null,
+   "sim": 0.17,
+   "q": "Which is true regarding nitrogen ?"
+  },
+  {
+   "id": "2016-chemistry-35",
+   "n": 35,
+   "chapter": "Old syllabus: p-Block Elements",
+   "template": "che-pbe-xenon-compounds",
+   "outcome": "miss-seen",
+   "verbatimOf": null,
+   "sim": 0.25,
+   "q": "The shape of XeF$_6$ is,"
+  },
+  {
+   "id": "2016-chemistry-36",
+   "n": 36,
+   "chapter": "Coordination Compounds",
+   "template": "che-coord-stereoisomer-count",
+   "outcome": "miss-seen",
+   "verbatimOf": null,
+   "sim": 0.25,
+   "q": "The number of isomers possible for the octahedral complex [CoCl$_2$(en)(NH$_3$)$_2$]$^+$ is,"
+  },
+  {
+   "id": "2016-chemistry-37",
+   "n": 37,
+   "chapter": "Coordination Compounds",
+   "template": "che-coord-spectrochemical-series",
+   "outcome": "miss-seen",
+   "verbatimOf": null,
+   "sim": 0.15,
+   "q": "CO is a stronger ligand than Cl$^-$, because"
+  },
+  {
+   "id": "2016-chemistry-38",
+   "n": 38,
+   "chapter": "The d- and f-Block Elements",
+   "template": "che-df-paramagnetism-compare",
+   "outcome": "similar",
+   "verbatimOf": null,
+   "sim": 0.17,
+   "q": "The bivalent metal ion having maximum paramagnetic behaviour among the first transition series elements is,"
+  },
+  {
+   "id": "2016-chemistry-39",
+   "n": 39,
+   "chapter": "The d- and f-Block Elements",
+   "template": "che-df-permanganate-dichromate",
+   "outcome": "miss-seen",
+   "verbatimOf": null,
+   "sim": 0.26,
+   "q": "When a brown compound of Mn (A) is treated with HCl, it gives a gas (B). The gas (B) taken in excess reacts with NH$_3$ to give an explosive compound (C). The c"
+  },
+  {
+   "id": "2016-chemistry-40",
+   "n": 40,
+   "chapter": "The d- and f-Block Elements",
+   "template": "che-df-oxidation-state-stability",
+   "outcome": "miss-new",
+   "verbatimOf": null,
+   "sim": 0.22,
+   "q": "Mn$^{2+}$ compounds are more stable than Fe$^{2+}$ compounds towards oxidation to their +3 state, because"
+  },
+  {
+   "id": "2016-chemistry-41",
+   "n": 41,
+   "chapter": "Coordination Compounds",
+   "template": "che-coord-spectrochemical-series",
+   "outcome": "miss-seen",
+   "verbatimOf": null,
+   "sim": 0.23,
+   "q": "Which of the following sequence is correct regarding field strength of ligands as per spectrochemical series ?"
+  },
+  {
+   "id": "2016-chemistry-42",
+   "n": 42,
+   "chapter": "Coordination Compounds",
+   "template": "che-coord-iupac-naming",
+   "outcome": "similar",
+   "verbatimOf": null,
+   "sim": 0.35,
+   "q": "As per IUPAC norms, the name of the complex [Co(en)$_2$(ONO)Cl]Cl is"
+  },
+  {
+   "id": "2016-chemistry-43",
+   "n": 43,
+   "chapter": "Amines",
+   "template": "che-amn-nitrous-acid-identify",
+   "outcome": "miss-seen",
+   "verbatimOf": null,
+   "sim": 0.23,
+   "q": "In the following sequence of reactions ; A $\\xrightarrow{\\text{Reduction}}$ B $\\xrightarrow{\\text{HNO}_2}$ CH$_3$CH$_2$OH. The compound A is"
+  },
+  {
+   "id": "2016-chemistry-44",
+   "n": 44,
+   "chapter": "Amines",
+   "template": "che-amn-carbylamine-hinsberg-tests",
+   "outcome": "miss-new",
+   "verbatimOf": null,
+   "sim": 0.22,
+   "q": "An organic compound A on reduction gives compound B, which on reaction with trichloromethane and caustic potash forms C. The compound 'C' on catalytic reduction"
+  },
+  {
+   "id": "2016-chemistry-45",
+   "n": 45,
+   "chapter": "Biomolecules",
+   "template": "che-bio-reducing-sugars-inversion",
+   "outcome": "miss-seen",
+   "verbatimOf": null,
+   "sim": 0.27,
+   "q": "Which of the following gives positive Fehling's solution test ?"
+  },
+  {
+   "id": "2016-chemistry-46",
+   "n": 46,
+   "chapter": "Old syllabus: States of Matter",
+   "template": "che-som-real-gases",
+   "outcome": "miss-seen",
+   "verbatimOf": null,
+   "sim": 0.13,
+   "q": "A liquid can exist only,"
+  },
+  {
+   "id": "2016-chemistry-47",
+   "n": 47,
+   "chapter": "Structure of Atom",
+   "template": "che-atom-bohr-hydrogen-spectrum",
+   "outcome": "miss-seen",
+   "verbatimOf": null,
+   "sim": 0.24,
+   "q": "The energy of electron in the n$^{th}$ Bohr orbit of H-atom is"
+  },
+  {
+   "id": "2016-chemistry-48",
+   "n": 48,
+   "chapter": "Structure of Atom",
+   "template": "che-atom-quantum-number-rules-energy",
+   "outcome": "similar",
+   "verbatimOf": null,
+   "sim": 0.38,
+   "q": "Consider the following sets of quantum numbers : Which of the below setting is not permissible arrangement of electrons in an atom ?"
+  },
+  {
+   "id": "2016-chemistry-49",
+   "n": 49,
+   "chapter": "Chemical Bonding and Molecular Structure",
+   "template": "che-bond-mot-bond-order",
+   "outcome": "exact",
+   "verbatimOf": "2009-chemistry-31",
+   "sim": 0.67,
+   "q": "The increasing order of bond order of O$_2$, O$_2^+$, O$_2^-$ and O$_2^{--}$ is"
+  },
+  {
+   "id": "2016-chemistry-50",
+   "n": 50,
+   "chapter": "Chemical Bonding and Molecular Structure",
+   "template": "che-bond-type-properties",
+   "outcome": "miss-seen",
+   "verbatimOf": null,
+   "sim": 0.22,
+   "q": "HCl gas is covalent and NaCl is an ionic compound. This is because"
+  },
+  {
+   "id": "2016-chemistry-51",
+   "n": 51,
+   "chapter": "Old syllabus: Polymers",
+   "template": "che-poly-rubber",
+   "outcome": "miss-new",
+   "verbatimOf": null,
+   "sim": 0.23,
+   "q": "Which of the following is not true ?"
+  },
+  {
+   "id": "2016-chemistry-52",
+   "n": 52,
+   "chapter": "Old syllabus: Polymers",
+   "template": "che-poly-classification",
+   "outcome": "miss-seen",
+   "verbatimOf": null,
+   "sim": 0.38,
+   "q": "Which of the following is a polyamide ?"
+  },
+  {
+   "id": "2016-chemistry-53",
+   "n": 53,
+   "chapter": "Biomolecules",
+   "template": "che-bio-nucleic-acids",
+   "outcome": "miss-seen",
+   "verbatimOf": null,
+   "sim": 0.38,
+   "q": "Which of the following is correct about H-bonding in DNA ?"
+  },
+  {
+   "id": "2016-chemistry-54",
+   "n": 54,
+   "chapter": "Old syllabus: Chemistry in Everyday Life",
+   "template": "che-cel-drug-classes",
+   "outcome": "miss-seen",
+   "verbatimOf": null,
+   "sim": 0.33,
+   "q": "Which of the following is employed as Tranquilizer ?"
+  },
+  {
+   "id": "2016-chemistry-55",
+   "n": 55,
+   "chapter": "Haloalkanes and Haloarenes",
+   "template": "che-hal-elimination",
+   "outcome": "miss-new",
+   "verbatimOf": null,
+   "sim": 0.27,
+   "q": "Reactivity of order of halides for dehydrohalogenation is"
+  },
+  {
+   "id": "2016-chemistry-56",
+   "n": 56,
+   "chapter": "Chemical Bonding and Molecular Structure",
+   "template": "che-bond-orbital-overlap-sigma-pi",
+   "outcome": "miss-seen",
+   "verbatimOf": null,
+   "sim": 0.21,
+   "q": "Main axis of diatomic molecule is Z. The orbitals P$_x$ and P$_y$ overlap to form"
+  },
+  {
+   "id": "2016-chemistry-57",
+   "n": 57,
+   "chapter": "Chemical Bonding and Molecular Structure",
+   "template": "che-bond-hybridisation-identify",
+   "outcome": "miss-seen",
+   "verbatimOf": null,
+   "sim": 0.44,
+   "q": "The hybridisation of C in diamond, graphite and ethyne is in the order"
+  },
+  {
+   "id": "2016-chemistry-58",
+   "n": 58,
+   "chapter": "Organic Chemistry: Basic Principles and Techniques",
+   "template": "che-goc-purification",
+   "outcome": "miss-new",
+   "verbatimOf": null,
+   "sim": 0.17,
+   "q": "A miscible mixture of C$_6$H$_6$ + CHCl$_3$ can be separated by"
+  },
+  {
+   "id": "2016-chemistry-59",
+   "n": 59,
+   "chapter": "Some Basic Concepts of Chemistry",
+   "template": "che-bas-empirical-molecular-formula",
+   "outcome": "similar",
+   "verbatimOf": null,
+   "sim": 0.26,
+   "q": "An organic compound contains C = 40%, H = 13.33% and N = 46.67%. Its emperical formula is"
+  },
+  {
+   "id": "2016-chemistry-60",
+   "n": 60,
+   "chapter": "Hydrocarbons",
+   "template": "che-hc-eas-electrophile-directing",
+   "outcome": "miss-seen",
+   "verbatimOf": null,
+   "sim": 0.26,
+   "q": "Electrophile that participates in nitration of benzene is"
+  }
+ ]
+}
