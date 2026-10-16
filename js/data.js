@@ -43,14 +43,36 @@ export async function allQuestions(subjects) {
   }
   return out;
 }
-// Load only the chapters needed for a list of question ids (ids are <pfx>-<slug>-<nnn>).
+// Past-paper question id: kcet-<year>-<pfx>-<nn> (also built by tools/build-pyq-chapters.mjs). Attempts and bookmarks use it.
+export const pyqId = (year, subject, n) => `kcet-${year}-${PFX[subject]}-${String(n).padStart(2, '0')}`;
+// Questions of one paper with their stable ids, subject and chapter slug filled in.
+export async function pyqQuestions(file) {
+  const [p, syl] = await Promise.all([pyqPaper(file), syllabus()]);
+  const subject = p.subject, year = p.year || +file.slice(0, 4);
+  return p.questions.map((q) => ({ ...q, id: pyqId(year, subject, q.n), subject, chapter: slugForTitle(syl, subject, q.chapter), chapterTitle: q.chapter, year, file, pyq: true }));
+}
+// PYQ chapter tags are titles; two maths titles exist in both PUC years, so prefer the 2nd PUC chapter.
+function slugForTitle(syl, subject, title) {
+  const t = String(title || '').toLowerCase().trim(); const m = (syl[subject] || []).filter((c) => c.title.toLowerCase() === t);
+  return (m.find((c) => c.puc === 2) || m[0])?.slug || '';
+}
+// Load only the files needed for a list of question ids: chapter files for <pfx>-<slug>-<nnn>, paper files for kcet-<year>-<pfx>-<nn>.
 export async function questionsByIds(ids) {
   const bySub = { phy: 'physics', che: 'chemistry', mat: 'maths' };
   const groups = {};
-  for (const id of ids) { const m = /^(phy|che|mat)-(.+)-\d{3}$/.exec(id); if (m) (groups[bySub[m[1]] + '/' + m[2]] ||= []).push(id); }
+  for (const id of ids) {
+    let m = /^(phy|che|mat)-(.+)-\d{3}$/.exec(id); if (m) { (groups[bySub[m[1]] + '/' + m[2]] ||= []).push(id); continue; }
+    m = /^kcet-(\d{4})-(phy|che|mat)-\d+$/.exec(id); if (m) (groups['pyq:' + m[1] + '-' + bySub[m[2]] + '.json'] ||= []).push(id);
+  }
   const out = {}; const keys = Object.keys(groups); let done = 0;
   progress(0, keys.length, 'Loading questions');
-  await Promise.all(keys.map(async (k) => { const [s, slug] = k.split('/'); try { const ch = await chapter(s, slug); for (const q of ch.questions) if (groups[k].includes(q.id)) out[q.id] = q; } catch {} progress(++done, keys.length, 'Loading questions'); }));
+  await Promise.all(keys.map(async (k) => {
+    try {
+      const list = k.startsWith('pyq:') ? await pyqQuestions(k.slice(4)) : (await chapter(...k.split('/'))).questions;
+      for (const q of list) if (groups[k].includes(q.id)) out[q.id] = q;
+    } catch {}
+    progress(++done, keys.length, 'Loading questions');
+  }));
   return out;
 }
 // Pick `count` questions across chapters in proportion to KCET weight, loading only the chapters used.
@@ -106,6 +128,9 @@ export function seededRandom(seed) { let x = seed >>> 0 || 1; return () => { x ^
 export function seededShuffle(arr, rnd) { const a = arr.slice(); for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(rnd() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; }
 export async function pyqIndex() { return getJSON('data/pyq/index.json'); }
 export async function pyqPaper(file) { return getJSON(`data/pyq/${file}`); }
+// Every past KCET question tagged with one chapter, newest first (built by tools/build-pyq-chapters.mjs).
+export async function pyqChapter(subject, slug) { try { return await getChapterPyq(subject, slug); } catch { return null; } }
+export function getChapterPyq(subject, slug) { return getJSON(`data/pyq/chapters/${subject}/${slug}.json`); }
 
 export function shuffle(arr) { const a = arr.slice(); for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; }
 

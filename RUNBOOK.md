@@ -17,6 +17,7 @@ Edit `answer` (0-based index, 0=A), `explanation`, and `trick`/`tip` as needed. 
 node tools/validate.mjs        # for data/questions/*
 node tools/build-pools.mjs     # after ANY change to data/questions: rebuilds the mock pools (data/pools/*.json)
 node tools/validate-pyq.mjs    # for data/pyq/*
+node tools/build-pyq-chapters.mjs  # after ANY change to data/pyq: rebuilds the chapter-wise past questions (data/pyq/chapters/)
 ```
 
 Fix anything the validator flags, then commit and push:
@@ -67,11 +68,15 @@ curl -s "https://pu.sirigannada.in/sw.js?b=$RANDOM" | grep -o "kcet-v[0-9]*"
    ```bash
    node tools/validate-pyq.mjs
    ```
-5. Refresh chapter weights (average questions per chapter over the last 5 papers):
+5. Rebuild the chapter-wise past questions shown in each chapter's **Past KCET** tab:
+   ```bash
+   node tools/build-pyq-chapters.mjs
+   ```
+6. Refresh chapter weights (average questions per chapter over the last 5 papers):
    ```bash
    node tools/pyq-weights.mjs
    ```
-6. Commit and push. No `sw.js` bump needed (data-only).
+7. Commit and push. No `sw.js` bump needed (data-only).
 
 ## 4. Adding questions to a chapter
 

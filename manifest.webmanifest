@@ -11,6 +11,11 @@
   "theme_color": "#b8301c",
   "lang": "en",
   "categories": ["education"],
+  "shortcuts": [
+    { "name": "Daily 10", "short_name": "Daily 10", "description": "Ten quick questions to keep your streak", "url": "./#/today", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png" }] },
+    { "name": "Mock tests", "short_name": "Tests", "description": "Full KCET mock and custom tests", "url": "./#/tests", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png" }] },
+    { "name": "Past papers", "short_name": "Past papers", "description": "KCET papers 2009 to 2026", "url": "./#/pyq", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png" }] }
+  ],
   "icons": [
     { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
     { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },

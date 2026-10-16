@@ -1,4 +1,5 @@
-import { SUBJECTS, pyqIndex, pyqPaper, KCET } from '../data.js';
+import { SUBJECTS, pyqIndex, pyqPaper, pyqId, KCET } from '../data.js';
+import { store } from '../store.js';
 import { launchExam } from './tests.js';
 import { el, esc, math, optionButton, LETTERS, reportLink, bindReportLinks } from '../ui.js';
 
@@ -42,6 +43,7 @@ async function browse(file, query = {}) {
     card.querySelectorAll('.option').forEach((b) => b.addEventListener('click', () => {
       const j = +b.dataset.i;
       const also = q.alsoCorrect || [];
+      if (q.n) store.recordAttempt(pyqId(p.year || +file.slice(0, 4), p.subject, q.n), j === q.answer || also.includes(j));
       card.querySelectorAll('.option').forEach((x) => { x.disabled = true; const k = +x.dataset.i; if (k === q.answer || also.includes(k)) x.classList.add('correct'); else if (k === j) x.classList.add('wrong'); });
       const e = card.querySelector('.exp'); e.innerHTML = `<div class="explain"><b>Answer: ${LETTERS[q.answer]}${also.length ? ' (KEA also accepted ' + also.map((k) => LETTERS[k]).join(', ') + ')' : ''}${q.grace ? ' · KEA awarded grace marks (any answer counted)' : ''}</b>${q.explanation ? `<div>${q.explanation}</div>` : ''}${q.disputed ? `<div class="muted" style="margin-top:6px">⚠️ Official key is disputed: ${esc(q.note || '')}</div>` : ''}</div><div style="margin-top:6px">${reportLink(file + ' Q' + (q.n || i + 1))}</div>`; math(e); bindReportLinks(e);
     }));

@@ -1,9 +1,19 @@
 import { SUBJECTS, syllabus, KCET } from '../data.js';
 import { store } from '../store.js';
-import { el, esc, fmtDate, fmtTime } from '../ui.js';
+import { el, esc, fmtDate, fmtTime, toast } from '../ui.js';
+import { savedExam, clearExam, timeLeft, CONFIG_KEY } from './exam.js';
 
-// Test config is passed to the exam view through sessionStorage.
-export function launchExam(config) { sessionStorage.setItem('kcet.examConfig', JSON.stringify(config)); location.hash = '#/exam'; }
+// Test config is passed to the exam view through localStorage (see exam.js). Starting a new test while another is
+// still running asks first; one whose time ran out is opened so it gets scored instead of being lost.
+export function launchExam(config) {
+  const ex = savedExam();
+  if (ex?.qs) {
+    if (timeLeft(ex, Date.now()) <= 0) { toast('Your last test ran out of time. Scoring it first.'); location.hash = '#/exam'; return; }
+    if (!confirm(`You have an unfinished test: ${ex.cfg.title}.\n\nOK = throw it away and start the new test.\nCancel = go back to it.`)) { location.hash = '#/exam'; return; }
+    clearExam();
+  }
+  localStorage.setItem(CONFIG_KEY, JSON.stringify(config)); location.hash = '#/exam';
+}
 
 export default async function tests([], query) {
   const syl = await syllabus();

@@ -1,4 +1,5 @@
-import { SUBJECTS, questionsByIds, pyqPaper, syllabus } from '../data.js';
+import { SUBJECTS, questionsByIds, pyqQuestions, syllabus } from '../data.js';
+import { launchExam } from './tests.js';
 import { store } from '../store.js';
 import { el, esc, math, fmtTime, fmtDate, optionButton, LETTERS, reasonChips, bindReasonChips, reportLink, bindReportLinks } from '../ui.js';
 
@@ -6,7 +7,8 @@ export default async function result([id]) {
   const t = store.test(id);
   if (!t) throw new Error('Result not found');
   let lookup;
-  if (t.pyq) { const p = await pyqPaper(t.pyq); lookup = Object.fromEntries(p.questions.map((q, i) => [q.id || `${t.pyq}-${i + 1}`, q])); }
+  // Results saved before past-paper questions had ids used <file>-<position>; keep both keys so old results still open.
+  if (t.pyq) { const qs = await pyqQuestions(t.pyq); lookup = {}; qs.forEach((q, i) => { lookup[q.id] = q; lookup[`${t.pyq}-${i + 1}`] = q; }); }
   else { lookup = await questionsByIds(t.items.map((it) => it.qid)); }
   const syl = await syllabus();
   const pct = Math.round(100 * t.correct / t.total);
@@ -18,6 +20,8 @@ export default async function result([id]) {
     const s = bySub[it.subject] ||= { c: 0, n: 0 }; s.n++; if (ok) s.c++;
     if (it.chapter) { const k = it.subject + '/' + it.chapter; const c = byCh[k] ||= { c: 0, n: 0 }; c.n++; if (ok) c.c++; }
   }
+  const isOk = (it) => it.chosen === it.correct || (it.also || []).includes(it.chosen) || (it.grace && it.chosen !== null);
+  const retryIds = [...new Set(t.items.filter((it) => !isOk(it) && /^(kcet-|phy-|che-|mat-)/.test(it.qid)).map((it) => it.qid))];
   const weak = Object.entries(byCh).map(([k, v]) => ({ k, ...v, pct: v.c / v.n })).filter((x) => x.n >= 2 && x.pct < 0.6).sort((a, b) => a.pct - b.pct).slice(0, 5);
 
   const node = el(`<div>
@@ -35,6 +39,7 @@ export default async function result([id]) {
     </div>
     ${Object.keys(bySub).length > 1 ? `<div class="card"><h3>By subject</h3>${Object.entries(bySub).map(([s, v]) => `<div class="row spread"><span>${SUBJECTS.find((x) => x.id === s)?.name || s}</span><b>${v.c}/${v.n}</b></div>`).join('')}</div>` : ''}
     ${weak.length ? `<div class="card"><h3>Chapters to revise</h3>${weak.map((w) => { const [s, slug] = w.k.split('/'); const m = syl[s]?.find((c) => c.slug === slug || c.title.toLowerCase() === slug.toLowerCase()); return `<div class="row spread"><a href="#/chapter/${s}/${m?.slug || slug}">${esc(m?.title || slug)}</a><span class="pill bad">${w.c}/${w.n}</span></div>`; }).join('')}</div>` : ''}
+    ${retryIds.length ? `<div class="card" style="border-color:var(--primary)"><b>Fix your mistakes while they are fresh.</b><div class="muted">Read the explanations below, then answer the ${retryIds.length} question${retryIds.length > 1 ? 's' : ''} you got wrong or skipped again. Toppers do this after every test.</div><button class="btn" id="retry" style="margin-top:8px">Retry my ${retryIds.length} wrong & skipped →</button></div>` : ''}
     <div class="row">
       <a class="btn" href="#/tests">Another test</a>
       <a class="btn secondary" href="#/progress">Progress</a>
@@ -63,6 +68,7 @@ export default async function result([id]) {
     list.querySelectorAll('.bm').forEach((b) => b.addEventListener('click', () => { const on = store.toggleBookmark(b.dataset.q); b.textContent = on ? '★ Saved' : '☆ Save'; }));
   }
   render('all');
+  node.querySelector('#retry')?.addEventListener('click', () => launchExam({ title: `Retry — ${t.title}`, ids: retryIds, minutes: Math.max(5, Math.ceil(retryIds.length * 1.3)) }));
   node.querySelectorAll('.tabs button').forEach((b) => b.addEventListener('click', () => { node.querySelectorAll('.tabs button').forEach((x) => x.classList.toggle('active', x === b)); render(b.dataset.f); }));
   return node;
 }
