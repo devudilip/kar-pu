@@ -9,7 +9,7 @@ A free, offline-first web app for students preparing for **KCET (Karnataka Commo
 Inside:
 
 - **74 chapters** (1st + 2nd PUC syllabus) with short notes and ~40 practice questions each, every question with a one-line exam trick and a full worked explanation.
-- **18 years of real KCET papers (2009–2026)**, scored with the official KEA answer keys, playable as timed tests or browsed with answers.
+- **18 years of real KCET papers (2009–2026)**, scored with the official KEA answer keys, playable as timed tests or browsed with answers, and also **chapter-wise**: every chapter's Past KCET tab lists every question KCET has asked from it.
 - **Daily 10** questions with a streak, **flashcards** with spaced repetition, **speed drills**, full-length **mock tests** in the exact exam pattern, and a **study planner** built around your exam date.
 - Progress tracking, a mistake notebook ("why did I get this wrong?"), and a **weekly report card** you can share as an image.
 
@@ -29,7 +29,7 @@ Coaching classes and paid apps are out of reach for many students, especially in
 4. Before a chapter, take the 2-minute **quick check**. Score 4/5 or more and you can skip the notes.
 5. Read every explanation, even when you were right. Tag your mistakes so the app can show you your pattern.
 6. In the last weeks, solve the **past papers** under time. There is no negative marking in KCET — never leave a question blank.
-7. On Wi-Fi once, open Settings → **Save all chapters for offline**.
+7. On Wi-Fi once, open Settings → **Save everything for offline** (chapters and all past papers).
 
 ## Not official. Mistakes are possible.
 

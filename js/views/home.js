@@ -4,6 +4,7 @@ import { el, esc, fmtDate, toast, fmtTime } from '../ui.js';
 import { buildPlan, taskLink } from './plan.js';
 import { weekStats } from './report.js';
 import { searchBox, bindSearchBox } from './search.js';
+import { savedExam, timeLeft } from './exam.js';
 
 const FEEDBACK = 'https://forms.gle/YW9CKJa22dX5C2ph8';
 
@@ -25,7 +26,7 @@ export default async function home() {
   const daysLeft = plan ? plan.days.filter((d) => d.date >= today).length : null;
   // Continue: an unfinished test beats a remembered chapter/deck
   let cont = null;
-  try { const ex = JSON.parse(sessionStorage.getItem('kcet.examState') || 'null'); if (ex && ex.qs) { const left = Math.max(0, Math.round((ex.endAt - Date.now()) / 1000)); const answered = ex.answers.filter((a) => a !== null).length; if (left > 0) cont = { href: '#/exam', title: ex.cfg.title, sub: `${answered} of ${ex.qs.length} answered · ${fmtTime(left)} left`, cta: 'Resume test' }; } } catch {}
+  try { const ex = savedExam(); if (ex && ex.qs) { const left = Math.max(0, Math.round(timeLeft(ex, Date.now()))); const answered = ex.answers.filter((a) => a !== null).length; cont = left > 0 ? { href: '#/exam', title: ex.cfg.title, sub: `${answered} of ${ex.qs.length} answered · ${fmtTime(left)} left${ex.paused ? ' · paused' : ''}`, cta: 'Resume test' } : { href: '#/exam', title: ex.cfg.title, sub: `Time is up · ${answered} of ${ex.qs.length} answered`, cta: 'See result' }; } } catch {}
   const last = store.last();
   if (!cont && last && Date.now() - last.t < 7 * 86400000) cont = { href: last.href, title: last.title, sub: last.sub, cta: 'Continue' };
 

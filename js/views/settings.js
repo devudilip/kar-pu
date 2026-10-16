@@ -1,5 +1,5 @@
 import { store } from '../store.js';
-import { SUBJECTS, syllabus } from '../data.js';
+import { SUBJECTS, syllabus, pyqIndex } from '../data.js';
 import { showTour } from './tour.js';
 import { el, toast } from '../ui.js';
 import { themeControlHtml, bindThemeControl } from '../theme.js';
@@ -26,8 +26,8 @@ export default async function settings() {
     </div>
     <div class="card">
       <h3 style="margin-top:0">Offline use</h3>
-      <p class="muted">Chapters you open are saved automatically. Tap below once on Wi-Fi to save every chapter, then the whole app works without internet.</p>
-      <button class="btn" id="saveAll">Save all chapters for offline</button>
+      <p class="muted">Chapters you open are saved automatically. Tap below once on Wi-Fi to save every chapter and all 18 years of past papers (about 6 MB), then the whole app works without internet.</p>
+      <button class="btn" id="saveAll">Save everything for offline</button>
       <div class="muted" id="saveStatus" style="margin-top:6px"></div>
     </div>
     <div class="card">
@@ -61,12 +61,13 @@ export default async function settings() {
     try {
       const syl = await syllabus();
       const files = [];
-      for (const s of SUBJECTS) for (const c of syl[s.id]) if (c.count) { files.push(`data/questions/${s.id}/${c.file}`); if (c.puc === 2) files.push(`data/board/${s.id}/${c.file}`); }
+      for (const s of SUBJECTS) for (const c of syl[s.id]) { if (c.count) { files.push(`data/questions/${s.id}/${c.file}`); if (c.puc === 2) files.push(`data/board/${s.id}/${c.file}`); } files.push(`data/pyq/chapters/${s.id}/${c.slug}.json`); }
+      for (const p of (await pyqIndex()).papers) files.push(`data/pyq/${p.file}`);
       for (const s of SUBJECTS) { files.push(`data/concepts/${s.id}.json`); files.push(`data/flashcards/${s.id}.json`); files.push(`data/pools/${s.id}.json`); files.push(`data/likely/${s.id}.json`); }
-      let done = 0;
-      for (const f of files) { try { await fetch(f, { cache: 'reload' }); } catch {} done++; status.textContent = `Saving ${done}/${files.length}…`; }
-      status.textContent = `All ${files.length} chapters saved. You can use the app offline now.`;
-      toast('Saved for offline');
+      let done = 0, failed = 0;
+      for (const f of files) { try { const r = await fetch(f, { cache: 'reload' }); if (!r.ok) failed++; } catch { failed++; } done++; status.textContent = `Saving ${done}/${files.length}…`; }
+      status.textContent = failed ? `${files.length - failed} of ${files.length} files saved; ${failed} failed. Tap again on a steady connection.` : `All ${files.length} files saved: chapters, past papers and flashcards. You can use the app offline now.`;
+      toast(failed ? 'Some files did not save' : 'Saved for offline');
     } catch (err) { status.textContent = 'Could not save: ' + err.message; }
     btn.disabled = false;
   });

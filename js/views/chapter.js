@@ -1,6 +1,7 @@
 import { SUBJECTS, chapter, shuffle, seededRandom, seededShuffle, concepts, board } from '../data.js';
 import { store } from '../store.js';
 import { launchExam } from './tests.js';
+import { renderChapterPyq } from './chapter-pyq.js';
 import { el, esc, math, toast, optionButton, LETTERS, bar, reasonChips, bindReasonChips, reportLink, bindReportLinks, quiz, clarityButtons, bindClarity } from '../ui.js';
 
 export default async function chapterView([subject, slug], query) {
@@ -17,9 +18,10 @@ export default async function chapterView([subject, slug], query) {
     <div class="breadcrumb"><a href="#/">Home</a> › <a href="#/subject/${subject}">${s.name}</a> › ${ch.puc === 1 ? '1st' : '2nd'} PUC</div>
     <h1>${esc(ch.title)}</h1>
     <div class="row muted"><span class="pill">~${ch.weight} questions in KCET</span><span>${qs.length} practice questions · ${stats.attempted} attempted · ${stats.correct} correct</span></div>
-    <div class="tabs"><button data-t="notes" class="${tab !== 'practice' && tab !== 'board' ? 'active' : ''}">Notes</button><button data-t="practice" class="${tab === 'practice' ? 'active' : ''}">Practice</button>${ch.puc === 2 ? `<button data-t="board" class="${tab === 'board' ? 'active' : ''}">Board exam</button>` : ''}</div>
-    <div id="notes" class="${tab === 'practice' || tab === 'board' ? 'hidden' : ''}"></div>
+    <div class="tabs"><button data-t="notes" class="${!['practice', 'pyq', 'board'].includes(tab) ? 'active' : ''}">Notes</button><button data-t="practice" class="${tab === 'practice' ? 'active' : ''}">Practice</button><button data-t="pyq" class="${tab === 'pyq' ? 'active' : ''}">Past KCET</button>${ch.puc === 2 ? `<button data-t="board" class="${tab === 'board' ? 'active' : ''}">Board</button>` : ''}</div>
+    <div id="notes" class="${['practice', 'pyq', 'board'].includes(tab) ? 'hidden' : ''}"></div>
     <div id="practice" class="${tab !== 'practice' ? 'hidden' : ''}"></div>
+    <div id="pyq" class="${tab !== 'pyq' ? 'hidden' : ''}"></div>
     <div id="board" class="${tab !== 'board' ? 'hidden' : ''}"></div>
   </div>`);
 
@@ -40,7 +42,7 @@ export default async function chapterView([subject, slug], query) {
       <div id="qcBox" style="margin-top:10px"></div>
     </div>` : qc ? `<div class="card" style="background:${qc.score >= 4 ? 'var(--ok-bg)' : 'var(--warn-bg)'}"><b>Quick check: ${qc.score}/${qc.of}.</b> <span class="muted">${qc.score >= 4 ? 'You know the basics — go to Practice; use the notes only for revision.' : 'Read the notes below first, then practise.'}</span></div>` : '';
   notes.innerHTML = quickHtml + conceptsHtml + (ch.notes
-    ? `<div class="card notes">${ch.notes}</div>${ch.kn && ch.notes_en ? `<details class="card"><summary>Show English notes</summary><div class="notes">${ch.notes_en}</div></details>` : ''}<div class="row"><button class="btn" id="startP" style="flex:1">Start practice (${qs.length} Qs)</button><a class="btn secondary" href="#/flashcards/${subject}/${slug}">Flashcards</a><a class="btn ghost" href="#/flashcards/${subject}/${slug}?mode=questions">Revise as cards</a><a class="btn ghost" href="#/sheet/${subject}/${slug}">🖨 Formula sheet</a></div>
+    ? `<div class="card notes">${ch.notes}</div>${ch.kn && ch.notes_en ? `<details class="card"><summary>Show English notes</summary><div class="notes">${ch.notes_en}</div></details>` : ''}<div class="row"><button class="btn" id="startP" style="flex:1">Start practice (${qs.length} Qs)</button><a class="btn secondary" href="#/flashcards/${subject}/${slug}">Flashcards</a><a class="btn ghost" href="#/flashcards/${subject}/${slug}?mode=questions">Revise as cards</a><a class="btn ghost" href="#/sheet/${subject}/${slug}">🖨 Formula sheet</a><button class="btn ghost" data-goto="pyq">📚 Past KCET questions</button></div>
       ${qs.length >= 20 ? `<div class="card" style="margin-top:10px"><div class="row spread" style="align-items:center"><span><b>⏱ Timed chapter test</b><div class="muted">20 questions · 25 minutes · exam conditions, answers at the end</div></span><button class="btn small" id="timedTest">Start</button></div></div>` : ''}`
     : `<div class="card empty">Notes for this chapter are not written yet.<br><span class="muted">Want to help? See Settings → Contribute.</span></div>`);
   math(notes);
@@ -60,6 +62,7 @@ export default async function chapterView([subject, slug], query) {
     });
   }
   notes.querySelector('#startP')?.addEventListener('click', () => switchTab('practice'));
+  notes.querySelectorAll('[data-goto]').forEach((b) => b.addEventListener('click', () => switchTab(b.dataset.goto)));
   notes.querySelector('#timedTest')?.addEventListener('click', () => launchExam({ title: `${ch.title} — timed test`, chapter: { subject, slug }, subjects: [subject], count: 20, minutes: 25 }));
 
   // Practice
@@ -76,8 +79,9 @@ export default async function chapterView([subject, slug], query) {
       practice.innerHTML = `<div class="card" style="text-align:center">
         <h2>Chapter done</h2><div class="score-big">${session.correct}/${session.done}</div>
         <p class="muted">${session.correct === session.done ? 'Perfect! Move to the next chapter.' : 'Review the wrong ones in Progress → Mistakes.'}</p>
-        <div class="row" style="justify-content:center"><button class="btn" id="again">Practise again (shuffled)</button><a class="btn secondary" href="#/subject/${subject}">Back to chapters</a></div>
+        <div class="row" style="justify-content:center"><button class="btn" id="toPyq">Next: real KCET questions from this chapter →</button><button class="btn secondary" id="again">Practise again (shuffled)</button><a class="btn ghost" href="#/subject/${subject}">Back to chapters</a></div>
       </div>`;
+      practice.querySelector('#toPyq').addEventListener('click', () => switchTab('pyq'));
       practice.querySelector('#again').addEventListener('click', () => { order = shuffle(order); idx = 0; shared = false; session = { done: 0, correct: 0 }; renderPractice(); });
       return;
     }
@@ -163,10 +167,16 @@ export default async function chapterView([subject, slug], query) {
   }
   if (tab === 'board') renderBoard();
 
+  // Past KCET tab: real questions from 18 years of papers for this chapter (js/views/chapter-pyq.js)
+  const pyqBox = node.querySelector('#pyq'); let pyqLoaded = false;
+  function renderPyq() { if (pyqLoaded) return; pyqLoaded = true; renderChapterPyq(pyqBox, { subject, slug, title: ch.title }).catch((e) => { pyqLoaded = false; pyqBox.innerHTML = `<div class="card empty">Could not load past questions. ${navigator.onLine ? '' : 'You are offline — open this tab once with internet, or use Settings → Save all for offline.'}</div>`; console.warn(e); }); }
+  if (tab === 'pyq') renderPyq();
+
   function switchTab(t) {
     node.querySelectorAll('.tabs button').forEach((x) => x.classList.toggle('active', x.dataset.t === t));
-    notes.classList.toggle('hidden', t !== 'notes'); practice.classList.toggle('hidden', t !== 'practice'); boardBox.classList.toggle('hidden', t !== 'board');
+    notes.classList.toggle('hidden', t !== 'notes'); practice.classList.toggle('hidden', t !== 'practice'); boardBox.classList.toggle('hidden', t !== 'board'); pyqBox.classList.toggle('hidden', t !== 'pyq');
     if (t === 'board') renderBoard();
+    if (t === 'pyq') renderPyq();
     window.scrollTo(0, 0);
   }
   node.querySelectorAll('.tabs button').forEach((b) => b.addEventListener('click', () => switchTab(b.dataset.t)));

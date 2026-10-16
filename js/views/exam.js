@@ -1,8 +1,18 @@
-import { SUBJECTS, syllabus, questionsByIds, pyqPaper, shuffle, sampleQuestions, chapter } from '../data.js';
+import { SUBJECTS, questionsByIds, pyqQuestions, pyqChapter, shuffle, sampleQuestions, chapter } from '../data.js';
 import { store } from '../store.js';
 import { el, esc, math, fmtTime, optionButton, toast } from '../ui.js';
 
-const SAVE_KEY = 'kcet.examState';
+// The test in progress lives in localStorage, not sessionStorage: Android often kills a backgrounded app
+// (or the installed app's tab), and an 80-minute mock must survive that. tests.js writes CONFIG_KEY to start one.
+export const SAVE_KEY = 'kcet.examState';
+export const CONFIG_KEY = 'kcet.examConfig';
+export function savedExam() {
+  try {
+    for (const k of [SAVE_KEY, CONFIG_KEY]) { const v = sessionStorage.getItem(k); if (v && !localStorage.getItem(k)) localStorage.setItem(k, v); sessionStorage.removeItem(k); } // from older versions
+    return JSON.parse(localStorage.getItem(SAVE_KEY) || 'null');
+  } catch { return null; }
+}
+export function clearExam() { try { localStorage.removeItem(SAVE_KEY); localStorage.removeItem(CONFIG_KEY); } catch {} }
 
 // Pause is allowed for practice-style tests (chapter, custom, revision) but not for full mocks or past papers,
 // which stay strict like the real exam.
@@ -21,10 +31,14 @@ export function applyResume(state, now) {
 // Seconds left on the clock; frozen at the moment of pausing while paused.
 export const timeLeft = (state, now) => (state.endAt - (state.paused ? state.pausedAt : now)) / 1000;
 
+function persistState(state) { try { localStorage.setItem(SAVE_KEY, JSON.stringify(state)); } catch (e) { console.warn('exam save failed', e); } }
+
 async function buildQuestions(cfg) {
-  if (cfg.pyq) {
-    const paper = await pyqPaper(cfg.pyq);
-    return paper.questions.map((q, i) => ({ ...q, id: q.id || `${cfg.pyq}-${i + 1}`, subject: q.subject || paper.subject }));
+  if (cfg.pyq) return pyqQuestions(cfg.pyq);
+  if (cfg.pyqChapter) { // past KCET questions of one chapter, newest first; cfg.count keeps the latest N
+    const c = await pyqChapter(cfg.pyqChapter.subject, cfg.pyqChapter.slug);
+    const qs = (c?.questions || []).map((q) => ({ ...q, subject: c.subject, chapter: c.slug, pyq: true }));
+    return cfg.count ? qs.slice(0, cfg.count) : qs;
   }
   if (cfg.ids) { const map = await questionsByIds(cfg.ids); return cfg.ids.map((id) => map[id]).filter(Boolean); }
   if (cfg.chapter) { const ch = await chapter(cfg.chapter.subject, cfg.chapter.slug); return shuffle(ch.questions).slice(0, cfg.count); }
@@ -33,19 +47,16 @@ async function buildQuestions(cfg) {
 }
 
 export default async function exam() {
-  const saved = sessionStorage.getItem(SAVE_KEY);
-  let state;
-  if (saved) {
-    state = JSON.parse(saved);
-  } else {
-    const cfg = JSON.parse(sessionStorage.getItem('kcet.examConfig') || 'null');
+  let state = savedExam();
+  if (!state) {
+    let cfg = null; try { cfg = JSON.parse(localStorage.getItem(CONFIG_KEY) || 'null'); } catch {}
     if (!cfg) { location.hash = '#/tests'; return null; }
     const qs = await buildQuestions(cfg);
-    if (!qs.length) { alert('No questions match this selection yet.'); location.hash = '#/tests'; return null; }
+    if (!qs.length) { clearExam(); alert('No questions match this selection yet.'); location.hash = '#/tests'; return null; }
     state = { cfg, qs, answers: Array(qs.length).fill(null), review: Array(qs.length).fill(false), idx: 0, start: Date.now(), endAt: Date.now() + cfg.minutes * 60000 };
-    sessionStorage.setItem(SAVE_KEY, JSON.stringify(state));
+    persistState(state);
   }
-  const persist = () => sessionStorage.setItem(SAVE_KEY, JSON.stringify(state));
+  const persist = () => persistState(state);
   const { qs } = state;
   const pausable = isPausable(state.cfg);
   if (!pausable && state.paused) state = applyResume(state, Date.now()); // never leave a strict test frozen
@@ -140,11 +151,11 @@ export default async function exam() {
     const pausedSec = Math.round((state.pausedMs || 0) / 1000);
     const items = qs.map((q, i) => ({ qid: q.id, subject: q.subject, chapter: q.chapter, chosen: state.answers[i], correct: q.answer, also: q.alsoCorrect || [], grace: !!q.grace, review: state.review[i] }));
     let correct = 0, wrong = 0, skipped = 0;
-    for (const it of items) { const ok = it.chosen === it.correct || it.also.includes(it.chosen) || (it.grace && it.chosen !== null); if (it.chosen === null) skipped++; else if (ok) correct++; else wrong++; if (it.chosen !== null && !state.cfg.pyq) store.recordAttempt(it.qid, ok); }
+    for (const it of items) { const ok = it.chosen === it.correct || it.also.includes(it.chosen) || (it.grace && it.chosen !== null); if (it.chosen === null) skipped++; else if (ok) correct++; else wrong++; if (it.chosen !== null) store.recordAttempt(it.qid, ok); }
     const test = { id: 't' + Date.now(), title: state.cfg.title, date: Date.now(), cfg: state.cfg, total: qs.length, correct, wrong, skipped, timeTaken: Math.max(0, Math.round((Date.now() - state.start) / 1000) - pausedSec), pausedSec, items, pyq: state.cfg.pyq || null };
     store.saveTest(test);
     if (state.cfg.pyq) store.completePlanTask('pyq'); else if (state.cfg.weighted) store.completePlanTask('mock');
-    sessionStorage.removeItem(SAVE_KEY); sessionStorage.removeItem('kcet.examConfig');
+    clearExam();
     location.hash = '#/result/' + test.id;
   }
 
